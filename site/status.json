@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T10:28:17.966Z",
+  "generatedAt": "2026-09-14T10:58:07.125Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-14T10:28:17.687Z",
+    "at": "2026-09-14T10:58:06.781Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7775144444444444,
-    "p95Hours": 1.2754316666666667,
-    "worstHours": 1.5324333333333333
+    "medianHours": 1.029005,
+    "p95Hours": 1.527951111111111,
+    "worstHours": 1.77242
   },
   "decisionCoverage": {
-    "total": 13,
-    "decided": 13,
+    "total": 23,
+    "decided": 23,
     "complete": true
   },
   "pending": {
@@ -55,131 +55,203 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-14T10:28:17.686Z",
-      "got": 20,
-      "new": 13,
-      "lag": 0.14
+      "at": "2026-09-14T10:58:06.780Z",
+      "got": 35,
+      "new": 23,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-14T10:26:40.504Z",
+    "at": "2026-09-14T10:56:29.633Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 13,
-      "duplicate": 7,
-      "tooOld": 0,
+      "returned": 35,
+      "kept": 23,
+      "duplicate": 11,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 2,
+      "accepted": 18,
+      "rejected": 5,
       "reasons": {
-        "no_offer_term": 2
+        "hard_negative": 2,
+        "no_offer_term": 3
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2099426355473424617",
-          "author": "rsvpmagazine",
-          "searchJob": "notre-dame",
-          "text": "Consumers have one line of defence against rising health insurance premiums https://t.co/10O1C2StCa"
+          "reason": "hard_negative",
+          "postId": "2099446111601586356",
+          "author": "polis_in_exile",
+          "searchJob": "texas",
+          "text": "Charlie Kirk’s TPUSA is sponsored by an Israeli government-aligned outfit; a leaked contract shows A year after Charlie Kirk’s killing, his organization has buried his criticism of Israel to maintain support from the Israel-based Internatio"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2099437111111774415",
-          "author": "fairgambling",
-          "searchJob": "uconn",
-          "text": "https://t.co/yEbOL3n5kV"
+          "postId": "2099438950914121745",
+          "author": "heartonaswivel",
+          "searchJob": "texas",
+          "text": "I am incredibly grateful to be able to share the following interview that I had with @pastorscottc. As a former first responder, it is my prayer that it would edify and encourage countless people in the field who still hold the line. To God"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2099442085560517010",
+          "author": "tahjwallace2028",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invitation to attend the game at Mississippi Community Christian College! Thank you to @TheRedZoneCoach for the opportunity! #AGTG #Recruiting #Collegefootball https://t.co/trCzQ8so8T"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2099449656077873425",
+          "author": "lfaydoesart",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "And I want to give a last thanks to everyone who took part in it. I feel so blessed to have received this many entries! You've trusted me with your art and I'm proud to have done a sorta good job! You're ALL so amazing and talented and I am"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2099429367567061429",
+          "author": "eliasnike31",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "March 16 has become a pretty legendary date around here! On this day in 1999, I got my first call to photograph Bob Dylan. Later that day, I received my first offer to photograph Bruce Springsteen. A couple of years later, I was asked to sh"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 5
+        "school_not_resolved_confidently": 5,
+        "bare_mention_requires_llm": 10,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099446831205802408",
+          "author": "lbcnewswales",
+          "searchJob": "kent-state",
+          "text": "Students starting university in Cardiff are being offered a vaccine to protect them against MenB - following an outbreak in Kent earlier this year. Clinics have been set up at Cardiff University, the University of South Wales and Cardiff Me"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2099425560124428726",
-          "author": "stevevickig",
-          "searchJob": "liberty",
-          "text": "I BET YOU DIDN'Y KNOW ABOUT THIS, AFTER FLIGHT 77 HIT THE PENTAGON ON 9/11, THE FOLLOWING HAPPENED: A daycare facility inside the Pentagon had many children, including infants who were in heavy cribs. The daycare supervisor, looking at all "
+          "postId": "2099450108270318004",
+          "author": "uezy86",
+          "searchJob": "marshall",
+          "text": "@ImissFrosty They are choosing nkt to match the free agency offer. Dogs wanting Marshall is totally different and a need so the dogs prepared to offer above trade value."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2099450338113630372",
+          "author": "edwardsofconwy",
+          "searchJob": "rice",
+          "text": "Todays Hot Food/Bwyd Poeth Heddiw Monday 14th Sept 🍴 Chilli Con Carne with Rice 🍴 Roast Pork &amp; Stuffing Bap 🍴 Thick Traditional Pork Sausage Bap 🍴 Cumberland Sausage Bap For exclusive offers and daily alerts, join our WhatsApp Lunch"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2099441954002006271",
+          "author": "wantuseeme",
+          "searchJob": "rice",
+          "text": "@Iamtolulope5 @tunjiastlvi @flygodT @Hauwa_L misogyny would have been the guy reporting the waitress to her manager that she ate out of their food, interrupted their date and added her own plate of rice to the bill, not the guy coming back "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2099439197438476561",
+          "author": "ak_aspire",
+          "searchJob": "rice",
+          "text": "Ganesh Chaturthi + Sun & Ketu in Leo + Moon in Swati Sun & Ketu are in Leo, while Moon is in Swati.. a Rahu ruled nakshatra. So there is a strong nodal connection today. Maharishi Parashara says Ketu in the 12H from Karakamsha indicate devo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2099435906117570882",
+          "author": "ron514852525092",
+          "searchJob": "rice",
+          "text": "@Sagal_AW With an average IQ of 68 what can you possibly offer? Bananas and rice? Maybe open a learing centre like your counterparts in America?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2099434591719481739",
+          "author": "pinkyuka925",
+          "searchJob": "rice",
+          "text": "In Ebisu today 😙 I just found out dintaifung offers half portion so now I can eat both noodles and fried rice 😂 https://t.co/D9cuOt7cx8"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2099427170896535634",
+          "author": "a1an_m",
+          "searchJob": "rice",
+          "text": "There will probably be a lot of discussion about school meals today, but without much knowledge of what kids are actually offered at lunchtime at the moment. So below is an example menu from my kids' school. Every day there are two hot opti"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2099439002478911607",
-          "author": "mediamanint",
-          "searchJob": "louisiana",
+          "postId": "2099450343222600117",
+          "author": "mediamanoz",
+          "searchJob": "texas",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything Edition! Part I Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Digital Bush Telegraph \"Wall Street Shuffle\" (10cc) \"Poker Face\" (Lady G"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2099447068914069618",
+          "author": "mediamangroup",
+          "searchJob": "texas",
           "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything Edition! Part I Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Digital Bush Telegraph \"Wall Street Shuffle\" (10cc) \"Poker Face\" (Lady G"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2099432981500748205",
-          "author": "rhardgrove18",
-          "searchJob": "ohio",
-          "text": "@BettyJacques87 @america @SenJonHusted Hmmm…don’t think you understood my post. If you think Sherrod Brown is a better choice, I have to wonder what in his past experience as our senator influenced your decision. Neither is a good choice. O"
+          "postId": "2099446715610722525",
+          "author": "tradinio38802",
+          "searchJob": "texas",
+          "text": "@JohnKahlooniQ Imagine moving to Texas and being surprised there's bacon. 4:97 saw this coming: \"was not Allah's earth spacious enough to emigrate?\", refuge hell for believers who settle among unbelievers. Allah offered a whole planet, he p"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2099426145175310796",
-          "author": "gablesgables5",
-          "searchJob": "georgia",
-          "text": "Jon Ossoff is running his mouth off again. All you do is parrot the same tired talking points and point fingers. Let’s talk about what is happening right here in Georgia. Atlanta DSA is organizing candidates and campaigns, pushing socialist"
+          "postId": "2099450628401479914",
+          "author": "theobserver",
+          "searchJob": "charlotte",
+          "text": "$10 meal deals, special offers celebrate Charlotte’s Latin restaurants https://t.co/BsC6YoqmGH"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2099425434534281312",
-          "author": "gablesgables5",
-          "searchJob": "georgia",
-          "text": "Jon Ossoff is running his mouth off again. All you do is parrot the same tired talking points and point fingers. You want to lecture Georgians about President Trump being “compromised”? Then let’s talk about what is happening right here in "
+          "postId": "2099447830603501731",
+          "author": "hac9811",
+          "searchJob": "charlotte",
+          "text": "I’m on season 3 of Sex and the City. Even though Trey had weak dick, they both could’ve done mutual masturbation and/or introduced sex toys. Trey didn’t even offer to go down on Charlotte. Fuck selfish Trey. https://t.co/oENtQsm3jg"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2099450800103657970",
+          "author": "ageofautism",
+          "searchJob": "coastal-carolina",
+          "text": "Michele Guppy offered her response to this seemingly innocent yet entirely infuriating question. It’s below. Why DON’T we “just get a babysitter?” For our adult children with autism. Most of us would hire Freddy Kruegger and hope for the be"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2099440296941555804",
-          "author": "evisitorguide",
-          "searchJob": "notre-dame",
-          "text": "🍻😄 Downtown Chicago adventures deserve a proper happy hour! 🍷🍺 Emerald Loop offers drink specials, pub favorites, and the perfect place to unwind after a day of sightseeing or shopping. ✅ Great food, drinks, and a true Irish welcome.👉 "
+          "postId": "2099445741248823297",
+          "author": "bjacannga",
+          "searchJob": "coastal-carolina",
+          "text": "@Idodo_oro @Omojuwa Let's consider this: different roads offer different economic opportunities. A road through Lagos delivers more economic benefit than a road through Ebonyi. The coastal road is a PPP. Private folks choose where they expe"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2099438872518168665",
-          "author": "cbliddell",
-          "searchJob": "notre-dame",
-          "text": "@WSJ DESPISED AMERICAN PARIAH OFFERS SUPPORT FOR IRISH NATIONALISM - Neokrat https://t.co/XAiPcnazcu"
+          "postId": "2099437692610093087",
+          "author": "tailormushroom",
+          "searchJob": "coastal-carolina",
+          "text": "@Fel_Steve If I see this offer 7 times a month e don do me, by December I go don buy Benz, in 3 years I don order new house beside coastal road."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2099437080598265956",
-          "author": "cbliddell",
-          "searchJob": "notre-dame",
-          "text": "DESPISED AMERICAN PARIAH OFFERS SUPPORT FOR IRISH NATIONALISM - Neokrat https://t.co/XAiPcnazcu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099430588889301312",
-          "author": "albertz_55",
-          "searchJob": "notre-dame",
-          "text": "😂Final Days? Get a Grip😂 Michelle O’Neill has declared that the United Kingdom is in its “final days.” She said it in Cardiff, standing alongside the SNP and Plaid Cymru, while welcoming Donald Trump’s casual remarks about a united Irelan"
+          "postId": "2099435637904650649",
+          "author": "qz",
+          "searchJob": "coastal-carolina",
+          "text": "The 10 best fall road trips in the U.S. and Canada, ranked: From mountain roads to coastal highways, these fall drives offer colorful scenery, small-town stops, wildlife, and plenty of reasons to pull over https://t.co/gHdWCU9PyH https://t."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2099429324172542379",
-          "author": "angel44irish",
-          "searchJob": "notre-dame",
-          "text": "@CelticSceptic @nwl88444048 There’s Irish people working hard who can’t get homes and for every Somali or other foreigner offered a home that’s one less Irish family housed. It’s simply not acceptable. If they can’t provide for themselves i"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099442945166287244",
-          "author": "gdxtrader",
-          "searchJob": "buffalo",
-          "text": "#BITCOIN Bitcoin is showing a constructive technical setup with a bullish engulfing candle forming at high-base support. Bulls have successfully defended this consolidation range over the past few weeks, preventing price from breaking down "
+          "postId": "2099434601596989590",
+          "author": "sahilpatelca",
+          "searchJob": "coastal-carolina",
+          "text": "4. Coimbatore Often overshadowed by Chennai, Coimbatore offers the rare combination of heavy industrial strength and exceptional livability. Nestled at the foothills of the Western Ghats, it features year-round pleasant weather, pristine dr"
         }
       ]
     },
@@ -194,11 +266,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 18,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-14T10:28:17.968Z"
+    "status rebuilt locally from current store on 2026-09-14T10:58:07.126Z"
   ]
 }
