@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T04:58:33.234Z",
+  "generatedAt": "2026-09-14T05:12:54.893Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-14T04:58:33.029Z",
+    "at": "2026-09-14T05:12:54.707Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5369858333333334,
-    "p95Hours": 1.2860833333333332,
-    "worstHours": 1.7757408333333333
+    "medianHours": 0.5234225,
+    "p95Hours": 1.5254330555555555,
+    "worstHours": 1.5254330555555555
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -55,173 +55,52 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-14T04:58:33.029Z",
-      "got": 25,
-      "new": 19,
-      "lag": 0.24
+      "at": "2026-09-14T05:12:54.706Z",
+      "got": 5,
+      "new": 2,
+      "lag": 1.04
     }
   },
   "audit": {
-    "at": "2026-09-14T04:57:00.114Z",
+    "at": "2026-09-14T05:11:24.119Z",
     "mode": "live",
     "collection": {
-      "returned": 25,
-      "kept": 19,
-      "duplicate": 6,
+      "returned": 5,
+      "kept": 2,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 5,
+      "accepted": 1,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 1
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2099184665739362419",
-          "author": "bambulumen",
-          "searchJob": "pittsburgh",
-          "text": "He’s 62, she’s 33, Until death, men are always in their prime🏆"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099126386854101439",
-          "author": "shariakill",
-          "searchJob": "wake-forest",
-          "text": "Islam is Islam. “Saudi Arabia is the most radical Islamic nation and when time is come they will wage offensive jihad on the west”. https://t.co/NHqYP7uhJY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099354077314605388",
-          "author": "1571keplerj",
-          "searchJob": "liberty",
-          "text": "https://t.co/zvMBMDI6q5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099348209206194182",
-          "author": "libertylookout",
-          "searchJob": "liberty",
-          "text": "@BleuCheesie A shorter week sounds good. I would still rather control my own schedule than ask Congress to dictate one for everyone. Self-employment can offer that freedom when you can make it work."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099338037138256071",
-          "author": "nycjewishnurse",
-          "searchJob": "liberty",
-          "text": "https://t.co/hEf9iRgeHO"
+          "reason": "non_fbs_offer_target",
+          "postId": "2099347842519142735",
+          "author": "tyrohrer21",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Long, I am blessed to announce I’ve received an offer from the University of Charleston! Thank you @CoachJamesLong @coachAwood for this opportunity. https://t.co/RNUJ1Ezw2m"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 14,
+      "rejected": 1,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 6
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099358580625535168",
-          "author": "visswoops",
-          "searchJob": "michigan",
-          "text": "@VanceDean11 @monarch_umbra There still 25 other offers moron. Michigan was that as well I guess. You just want to argue to fuck yourselx"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099350710332657901",
-          "author": "pajohn1934",
-          "searchJob": "michigan",
-          "text": "@AbdulElSayed @MikeRogersForMI I've not heard you offer one tangible idea to solve a problem for the people of Michigan. Debate or not, trolling the other candidate is juvenile and petty, thanks for showing your 'colors'"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099339105540644890",
-          "author": "patriotwar1776",
-          "searchJob": "michigan",
-          "text": "think that is so unserious.\" Michigan Republican Senate candidate Mike Rogers brushes off Democratic opponent Abdul El-Sayed's challenge to play him in \"one-on-one football, no pads\" football after Fox News @AlexisMcAdamsTV asks him about t"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2099350066624434444",
-          "author": "clandro",
-          "searchJob": "miami",
-          "text": "Today in History September 14th 1985 The Golden Girls debuted on NBC, introducing audiences to four women whose friendship, humor and unconventional household would become one of television’s most beloved ensembles. At a time when prime-tim"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099343843254546636",
-          "author": "pbig4l",
-          "searchJob": "miami",
-          "text": "@DearOlState miami still gone offer 7ms 😹😹😹😹 but nah fr hope he stay"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099343504442851678",
-          "author": "daaylia1",
-          "searchJob": "pittsburgh",
-          "text": "Lmaaoo no Brad Pitt fine ass is always in his prime. You niggas receding/thinning at a young age, juvenile ED, pockets not long, with out the versatility and excitement that someone like Brad Pitt can offer, etc . FOH"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099354958638248156",
-          "author": "awsugngp",
-          "searchJob": "wake-forest",
-          "text": "⏰ BUZZ BUZZ… 50% OFF IS CALLING! 🔥 You can keep hitting snooze… but this offer won’t wait for you. 👀 🎟️ 50% OFF AWS Community Day Nagpur 2026 ⏳ Only for 24 HOURS — 14 September Wake up. Book it. Thank yourself later. 😉 👉 https://t.co/H"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099352397227139443",
-          "author": "alanrob68902430",
-          "searchJob": "wake-forest",
-          "text": "Last night I offered a female @livvymattock a place In rehab a place to stay and help to get back on her feet, she claims to be homeless in Blackpool SHE IS. NOT she is begging for cash for a bedroom but she is in a hostel, this is her resp"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099342372895424603",
-          "author": "love_msgs_",
-          "searchJob": "wake-forest",
-          "text": "You're the only person I'd willingly wake up early for. That's basically the highest form of love I can offer."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099340250644697498",
-          "author": "gideongradishar",
-          "searchJob": "wake-forest",
-          "text": "@mehdirhasan: one question for you tweed-man. Is jihad historian and author @RaymondIbrahim5 bigoted or Islamophobic for speaking the verifiable truth about the satanic, misogynistic conquest cult? If so, wouldn't you have to call out Turki"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099348584458080527",
-          "author": "youngmiraculous",
-          "searchJob": "liberty",
-          "text": "A blank canvas possesses the liberty of being anything, and the misfortune of being nothing. Freedom may offer us every road; it is however incapable of telling us which is worth taking. A blank canvas contains every masterpiece and recomme"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099338736521662520",
-          "author": "jorgeriverator5",
-          "searchJob": "liberty",
-          "text": "@SoundMoneyG This, what we get, when you vote for the money you are offered. and not the principles of Freedom, Liberty and Prosperity."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099335462112706692",
-          "author": "crypto_jargon",
-          "searchJob": "liberty",
-          "text": "🇺🇸 BREAKING: White House just gave up its biggest sticking point, two days before the vote that decides if it mattered. - Senate Republicans dropped a revised 630-page CLARITY Act text Thursday, this time with real ethics language - Bars "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099350373798404104",
-          "author": "og_aparicio",
-          "searchJob": "ohio",
-          "text": "‼️‼️‼️TRADE OFFER ‼️‼️‼️ You give me - Two (2) GA tickets for the Twenty One Pilots Ohio Stadium Show I’ll give you - 2 seated tickets - 1 Offical Ned Plush - Blurryface Live vinyl with a WORKING voice box https://t.co/wyfDLDSF3E"
+          "postId": "2099340373000695933",
+          "author": "danika_leigh09",
+          "searchJob": "oregon-state",
+          "text": "Beyond blessed to announce my first official offer to Blackburn College! Such a huge thank you Coach Jacoby, @JacobyKath33318, for the great conversation and amazing opportunity! Go Beavers!!❤️🖤❤️🖤 @Blackburn_SB #classof2027 #offered #ble"
         }
       ]
     },
@@ -236,11 +115,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 14,
+      "rejectedCandidates": 1,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-14T04:58:33.235Z"
+    "status rebuilt locally from current store on 2026-09-14T05:12:54.894Z"
   ]
 }
