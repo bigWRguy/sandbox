@@ -1,29 +1,5 @@
 {
   "seenPostIds": [
-    "2083248354780463422",
-    "2083245983597502893",
-    "2083242480615805157",
-    "2083229846205825429",
-    "2083226085807055077",
-    "2083214275267674453",
-    "2083223662401085666",
-    "2083215280336236827",
-    "2083209428040331278",
-    "2082868548112687585",
-    "2083206815416799657",
-    "2083204798963233270",
-    "2083193996130587039",
-    "2083191273259765810",
-    "2083015221761720536",
-    "2083175375975117256",
-    "2082978819812536341",
-    "2083174494089232894",
-    "2083138100449202251",
-    "2083092153207800137",
-    "2083086160100806681",
-    "2082949072286007500",
-    "2083085631241019607",
-    "2083070726794277168",
     "2083059957956792683",
     "2093700514055659882",
     "2093650167555883325",
@@ -59999,17 +59975,41 @@
     "2099898533881037274",
     "2099917492143411275",
     "2099911472390307968",
-    "2099917830594363736"
+    "2099917830594363736",
+    "2099900003271782843",
+    "2099897656877383828",
+    "2099897652951593437",
+    "2099896749913670003",
+    "2099895318271725578",
+    "2099895234331038141",
+    "2099895137702977851",
+    "2099894664329355391",
+    "2099891668245713275",
+    "2099891549589082478",
+    "2099890101035712842",
+    "2099888662066454948",
+    "2099888248269226443",
+    "2099887800048922770",
+    "2099886800835686658",
+    "2099897463809454308",
+    "2099894042918080662",
+    "2099912654383100108",
+    "2099899563939127514",
+    "2099922311378083897",
+    "2099921352530543093",
+    "2099918132957622391",
+    "2099917549173403984",
+    "2099904876008370663"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-15T17:59:19.270Z",
-      "got": 127,
-      "new": 85,
-      "lag": 0.03
+      "at": "2026-09-15T18:11:50.296Z",
+      "got": 35,
+      "new": 24,
+      "lag": 0.12
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60246,9 +60246,9 @@
       "truncated": false
     },
     "phrase:\"grateful to receive an offer\"": {
-      "at": "2026-09-15T16:11:32.852Z",
+      "at": "2026-09-15T18:11:30.981Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 2,
       "truncated": false
     },
     "phrase:\"thankful to receive an offer\"": {
@@ -60474,7 +60474,7 @@
       "window": {
         "lower": "2026-09-15T15:37:09.659Z",
         "upper": "2026-09-15T17:57:41.326Z",
-        "until_time": "2026-09-15T16:35:51.000Z",
+        "until_time": "2026-09-15T15:39:42.000Z",
         "completed": false
       }
     },
@@ -60485,15 +60485,15 @@
       "truncated": false
     },
     "utah": {
-      "at": "2026-09-15T16:11:32.852Z",
+      "at": "2026-09-15T18:11:30.981Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 7,
+      "lastPosts": 5,
       "truncated": false
     },
     "virginia": {
-      "at": "2026-09-15T16:11:32.852Z",
+      "at": "2026-09-15T18:11:30.981Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 15,
+      "lastPosts": 8,
       "truncated": false
     },
     "virginia-tech": {
@@ -61101,11 +61101,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-15T17:59:19.270Z",
+    "at": "2026-09-15T18:11:50.296Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 4,
+    "requests": 5,
+    "fullSweepCycles": 41
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61125,373 +61125,204 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-15T17:57:41.311Z",
+    "at": "2026-09-15T18:11:30.964Z",
     "mode": "live",
     "collection": {
-      "returned": 127,
-      "kept": 85,
-      "duplicate": 42,
+      "returned": 35,
+      "kept": 24,
+      "duplicate": 11,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 47,
-      "rejected": 38,
+      "accepted": 12,
+      "rejected": 12,
       "reasons": {
-        "no_offer_term": 17,
-        "hard_negative": 3,
-        "no_fbs_school": 18
+        "no_offer_term": 4,
+        "no_fbs_school": 6,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2099902379281850601",
-          "author": "bondoroinsights",
-          "searchJob": "north-carolina",
-          "text": "https://t.co/GHHTf3DtPL"
+          "postId": "2099900003271782843",
+          "author": "subnetsummertao",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/V99KIADsUs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2099897652951593437",
+          "author": "editxshub",
+          "searchJob": "texas-tech",
+          "text": "@kimmonismus If it can't get to Fable levels, then it has to be dirt cheap or has nothing to offer."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2099896749913670003",
+          "author": "watechmillenial",
+          "searchJob": "texas-tech",
+          "text": "@DarrenBaileyIL You sat in the Presidents box (again).. ?? WTF? Why would your thank a corrupt sexist sex offender for his endorsement? You just wiped out many moderate, independent and @gop women voters. Instead of the constant attacks and"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2099895318271725578",
+          "author": "techfusion_os",
+          "searchJob": "texas-tech",
+          "text": "@berkanagaa SDV 👋 That's a generous offer, how do we get started?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2099895137702977851",
+          "author": "indiatvnews",
+          "searchJob": "texas-tech",
+          "text": "Jio यूजर्स की हुई मौज, फ्री में मिलेगा Canva Pro का 4000 रुपये वाला सब्सक्रिप्शन https://t.co/M9dIPnHhlJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2099894664329355391",
+          "author": "cleantechhubng",
+          "searchJob": "texas-tech",
+          "text": "BOOK NOW FOR 35% OFF! Need a spacious kitchen for cooking, content creation, or your next project? Our massive kitchen gives you room to create, while our cozy lounge offers the comfort you need to relax and unwind. 📍 Guzape, Abuja 📩 DM u"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2099891668245713275",
+          "author": "caisgroup",
+          "searchJob": "texas-tech",
+          "text": "For advisors custodied at Schwab Advisor Services™, CAIS now offers a complete ticker-traded experience: purchasing, tracking, and redeeming positions all through the CAIS platform. Advisors can now initiate and manage eligible redemptions "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2099887800048922770",
+          "author": "stonkmane69",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/C16ea6q6ca"
         },
         {
           "reason": "hard_negative",
-          "postId": "2099920357776105854",
-          "author": "pokeokc",
-          "searchJob": "oklahoma-state",
-          "text": "Oklahoma State offers C/O 2028 ⭐️⭐️⭐️⭐️ DL Tayaun Lawrence Bishop Gorman | Las Vegas, NV Lawrence has additional offers from Alabama, Ohio State, Oregon, Oklahoma and several others #Gopokes 🤠"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099913719769944528",
-          "author": "rtb_io",
+          "postId": "2099886800835686658",
+          "author": "lvoacat",
           "searchJob": "texas-tech",
-          "text": "ICYMI: Elon Musk says AI and robotics are the only path to preventing welfare-state bankruptcy and achieving universal high income. Do you agree? #ElonMusk #AI https://t.co/Yz0oaDwFHL"
+          "text": "@Coche_Bodrio @THECYBORGL3GION The bots are sentient beings with their own will, the squids were actively peaceful and OFFERED peace FIRST in the first game, we committed near genocide saying they had “wmd’s” only to steal their tech and do"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2099911570826403873",
-          "author": "dailytechonx",
-          "searchJob": "texas-tech",
-          "text": "Meta’s new Core and Premium AI subscriptions push the envelope—integrating Muse Image, Muse Video, Restyle and more across Facebook, Instagram and WhatsApp, while creator/business tiers like Essential and Advanced offer analytics, schedulin"
+          "postId": "2099897463809454308",
+          "author": "cashwilks3",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great phone call with @CoachTFord I’m blessed and grateful to receive an offer from @VandalFootball @CoachStalker @COACHMALO_ @CoachShoeUI @BrandonHuffman @AndrewNemec @LOLakersFB https://t.co/vsf0L0EEgF"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2099909352677331055",
-          "author": "thogardpvp",
-          "searchJob": "texas-tech",
-          "text": "Trade spoofing via malicious Prop AMMs or Uniswap V4 hooks is no longer a problem. Introducing Moose: the world's first fully onchain aggregator. It is the fastest, most private, and most decentralized aggregator. It has the best execution."
+          "postId": "2099922311378083897",
+          "author": "civgame",
+          "searchJob": "virginia",
+          "text": "https://t.co/5QpyM0mO6M"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2099905729263964660",
-          "author": "vthokiesonsi",
-          "searchJob": "texas-tech",
-          "text": "Staff writer @jduncanVT offers his post-Week 2 bowl projections: https://t.co/IGlLlZoH8f"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099903016950509880",
-          "author": "tamil_today",
-          "searchJob": "texas-tech",
-          "text": "OnePlus N6 Lite officially announced! 🔥 OnePlus is bringing its latest N-series smartphone to India on September 22. 📱 Key Highlights: • 🔋 7,000mAh Battery • ⚡ 120Hz Display • 🛡️ MIL-STD-810H Durability • 🚀 36-Month Fluency Protection "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099900013237154129",
-          "author": "gonainly",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/nDBC2vqa0d"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099912079012499644",
-          "author": "masandawana44",
-          "searchJob": "james-madison",
-          "text": "@sleendeel Correct, once most of them get that police work ,they no longer further their studies, most depend on courses offered internally &amp; see these certificates as further studies, forgetting this is just enable to them to operate p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099902165343212011",
-          "author": "fck_space",
-          "searchJob": "nevada",
-          "text": "Luxe Nights: Film + Stay Retreat in Las Vegas, Nevada Luxe Nights offers a modern Las Vegas hotel-suite environment with floor-to-ceiling windows, a private balcony, city views, contemporary furnishings, and a spa-style bathroom. Combining "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099919086004175012",
-          "author": "thisismercia",
-          "searchJob": "class:2026",
-          "text": "Coventry need evidence that Brighton was a collapse rather than the beginning of one. Villa need evidence that their own poor run is temporary. #PUSB #SkyBlues https://t.co/jGcSz81Qg7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099897642935337221",
-          "author": "thed_zone",
-          "searchJob": "class:2026",
-          "text": "Oxford 2027 RB/CB Chris Pullman made a ton of plays on both sides of the ball this past week. He holds a MTU offer, but he should have more looks! 09/11/2026 #14 Oxford (3-0) beat Lake Orion (1-2) 34-15 @OxfordFBall @chrispullman6 https://t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099895288626307267",
-          "author": "werderednfl",
-          "searchJob": "class:2026",
-          "text": "HOF QB Drew Brees tells me he was contacted by former Saints coaches on Sean Payton’s staff about playing in the AFC Championship Game for injured Bo Nix the morning after Dan Fouts did the door knock informing him he was voted into the HOF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099892216776806460",
-          "author": "alwaysonlive_",
-          "searchJob": "class:2026",
-          "text": "Stock up on Purina ONE® and save $15! Your four-legged family members deserve the best—and your wallet deserves a break. 🇺🇸 For a limited time, save $15 instantly with your DeCA Rewards Card when you purchase TWO qualifying bags (27.5–31."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099920449895333888",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Zain Majeed-LB-2027-NJ @PennFB Commit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099568049711890704",
-          "author": "zainmajeed21",
-          "searchJob": "class:2027",
-          "text": "I’m enthusiastic to announce my commitment to the admissions process at the University of Pennsylvania!!🔵🔴 I’d like to thank my family, coaches, and everyone who has supported me along this journey. Dad, thank you for pushing me into the "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099920232152285492",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Emmett Easton-DL-2027-IL @WIUFootball Game Day Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099679559108944023",
-          "author": "emmetteaston55",
-          "searchJob": "class:2027",
-          "text": "Had a great weekend @WIUFootball https://t.co/7eSyG4jXBz"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099918670042730508",
-          "author": "profilefblive",
-          "searchJob": "class:2027",
-          "text": "Tennessee State has offered 2.5⭐ 2027 WR Damazzia Taylor from Wenonah HS, AL. @Zaytaylor2027_ Rated (#4339 NATL, #706 WR, #151 AL) - 6 offers overall. https://t.co/RinsAm3eoX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099918402571604051",
-          "author": "johnrlll2027",
-          "searchJob": "class:2027",
-          "text": "@Coach_Tinez1 @ECUTigersFB 5’11 173.3 Jackson TN 4.6 40 3.6 gpa 1️⃣ FCS OFFER 19 TCKLS 12 ASSIT TCKLS 4 TFL 2 pick 6’s 3 FF 2 PBU’S PHYSICAL GREAT BALL SKILLS https://t.co/DrdPwJ3ky4"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2099916422042329394",
-          "author": "ricoknowstiktok",
-          "searchJob": "class:2027",
-          "text": "RicoKnows Hidden Gem 2027 RB out of Texas lands a D2 offer."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099900850852229130",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Brayden Tautolo-Edge-2027-CA @WyoFBRecruiting OV #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099655385892462660",
-          "author": "braydentautolo",
-          "searchJob": "class:2027",
-          "text": "Enjoyed my OV at @wyo_football this past weekend. My family and I had a great time. Thank you for the hospitality @JaySawvel @CoachBHen @CoachABohl @JPetrino and the whole coaching staff. @bruce_bible @247Sports @On3 @SierraCanyonFB @GregBi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2099916862607794646",
-          "author": "okstaterivals",
-          "searchJob": "class:2028",
-          "text": "Pokes offer 2028 4-star EDGE from Las Vegas. Profile: https://t.co/R8HAudXnTH"
+          "reason": "non_fbs_offer_target",
+          "postId": "2099918132957622391",
+          "author": "laionevainuku",
+          "searchJob": "virginia",
+          "text": "After great talk with @coach_j_mar I am blessed to receive another offer from Southern Virginia!!! https://t.co/uahcDeA5rx"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 44,
+      "accepted": 0,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 22,
-        "multiple_resolved_schools": 5,
-        "school_not_resolved_confidently": 14,
-        "reporter_missing_position": 1,
-        "reporter_missing_player_name": 2
+        "school_not_resolved_confidently": 7,
+        "bare_mention_requires_llm": 4,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099915006116520270",
-          "author": "mattjumbo",
-          "searchJob": "north-carolina",
-          "text": "Here ya go, @blumhouse . Free of charge. One Thing Leads to Another Forty years after Outpost 31, a new shapeshifting plague forces the government to seek help from the only two \"survivors\"—only to discover that the men they are talking to "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099897656877383828",
+          "author": "asterainstitute",
+          "searchJob": "texas-tech",
+          "text": "With this cohort, we narrowed our focus to areas where Astera can offer strong support: bio, neuro, and, increasingly, hard tech. Our newest residents 👇 https://t.co/FndL6mlyOv"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099895234331038141",
+          "author": "gadboit2",
+          "searchJob": "texas-tech",
+          "text": "... influence LLMs, which are already very opaque, from behind the scenes, does that count? Are regulators being offered control over that kind of thing? Perhaps in return for some public money bailout? We shall see. But the whole thing sti"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099891549589082478",
+          "author": "aayushkanjani",
+          "searchJob": "texas-tech",
+          "text": "@eoinfr Quant: 1/3 done Big Tech: 1/2 done AI startup: 2/2 (offer received)"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099890101035712842",
+          "author": "thesimplifiers",
+          "searchJob": "texas-tech",
+          "text": "Most professionals feel AI will change their jobs this year, yet over half say their employers offer no AI training. Many feel unprepared to implement new tech, lacking the necessary tools and skills. #AI #FutureOfWork https://t.co/0uR24bHO"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099888662066454948",
+          "author": "gabriel_horwitz",
+          "searchJob": "texas-tech",
+          "text": "Big Tech is paying billions to hire AI founders away from their own companies. But what about the existing customers? What are they left with? Nvidia spent ~$20bn on Groq without buying the company but through an acquihire. Around 90% of Gr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099888248269226443",
+          "author": "aman_twts",
+          "searchJob": "texas-tech",
+          "text": "It’s the classic tech growth playbook, executed perfectly at a national scale. Step 1: Offer an incredible product for free. Step 2: Achieve absolute monopoly scale. Step 3: Monetize. https://t.co/6iu9EZqgQf"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2099894042918080662",
+          "author": "jaxon_ladron3",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Extremely grateful to receive an offer from Coach Knox and the rest of the St. Norbert’s coaching staff. Go Green Knights @SNCfootball @BDHS_Football https://t.co/NroRVimZwi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2099903671559762101",
-          "author": "tayaunlawrence",
-          "searchJob": "oklahoma-state",
-          "text": "Oklahoma State offered!!!! https://t.co/IGlhtQ6Rgj"
+          "postId": "2099912654383100108",
+          "author": "wirereportorg",
+          "searchJob": "utah",
+          "text": "Utah Mammoth bring back $15 Smith's Value Ticket offer 📸 via @utahmammoth https://t.co/MFXYB6pqpm"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2099899563939127514",
+          "author": "dagoddame",
+          "searchJob": "utah",
+          "text": "@5knowledge6 @JamG_91 @DuncanSmithNBA Realistically there were maybe a couple teams that could have gave him an offer if they wanted to. Philly and maybe Utah but hes complaining about being disrespected. What he thinks his value is doesnt "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2099912267882193153",
-          "author": "lyrichorn10",
-          "searchJob": "oklahoma-state",
-          "text": "after a great visit to northwestern Oklahoma state university (nwosu). I’m blessed to say I received my first track and field offer!! https://t.co/PMClaJIWLh"
+          "postId": "2099921352530543093",
+          "author": "amacaction",
+          "searchJob": "virginia",
+          "text": "AMAC Supports Safeguards for Senior in the AI Environment https://t.co/VUQ0Tml5d3 @SenMarkKelly @JimJustice_WV August 24, 2026 The Honorable Mark Kelly Senator of Arizona 516 Hart Senate Office Building Washington, DC 20510 The Honorable Ji"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2099919527412941120",
-          "author": "komarnitskyoles",
-          "searchJob": "texas-tech",
-          "text": "School and university give you a diploma. Knowledge is something you have to acquire yourself. Why Does School Teach Us the Past Instead of the Future? Imagine an absurd situation: every day, you use a smartphone, laptop, power grid, and ar"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099918843787235615",
-          "author": "citymindsx",
-          "searchJob": "texas-tech",
-          "text": "📊 Markets. Gaming. Daily discoveries. Stay up to date with CityMindsX. 📈 Short market analysis 🎮 Gaming & industry stories ₿ Bitcoin, crypto & markets 🌍 AI, tech & what’s coming next Join our community ↓ https://t.co/zNhird4Hf1 ◼️ OKX —"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2099918232438149551",
-          "author": "dstrktdigital",
-          "searchJob": "texas-tech",
-          "text": "2028 5 ⭐️ Jakyi Miles (@kyikyimiles2) has picked up an offer from Virginia Tech https://t.co/iyoodzydJa"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099918167153975763",
-          "author": "nirajtulsyan",
-          "searchJob": "texas-tech",
-          "text": "Open-weight AI models isn't the great equalizer. It’s a luxury good for massive enterprises. Running open-weight models that are competitive with frontier models on your own infrastructure to protect your IP isn't cheap. Between GPU provisi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099911889417359506",
-          "author": "mrskyai",
-          "searchJob": "texas-tech",
-          "text": "AI Models Decode Hidden Messages in Noisy Videos It’s Tuesday, September 15, 2026, and the tech world is abuzz with news about multimodal AI models that can analyze videos to uncover hidden messages. This isn’t just theoretical; it’s been p"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099911224808943963",
-          "author": "originallboogie",
-          "searchJob": "texas-tech",
-          "text": "@elonmusk Americans deserve affordable variety PREMIUM EVs with AWD, great interiors &amp; advanced tech. @BYD and others offer more value globally. With Chinese EVs restricted by U.S. tariffs, Tesla should fill that gap. Cybercab is cool, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099907597679874360",
-          "author": "joshtradeoption",
-          "searchJob": "texas-tech",
-          "text": "$PYPL is back near $54. Here is the put setup I would study. First the facts. PayPal closed Monday at $54.03. The stock is down about 10.6% over the past month. Its 52 week range is $38.46 to $79.21. The business is not dead. Last quarter s"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099906087369777478",
-          "author": "haricinews",
-          "searchJob": "texas-tech",
-          "text": "❗️ Big Tech profits from AI extinction hype, Ken Klippenstein says 🔎 Official analyses indicate that rather than creating new apocalyptic scenarios, the technology merely accelerates the pace of existing crimes, disinformation, and nationa"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099904617974845540",
-          "author": "jasonha80033311",
-          "searchJob": "texas-tech",
-          "text": "@RealJohnShoe @MyersPreston1 H1-B jobs generally high skilled high tech jobs that Americans cannot do or are unwilling to do so for the livable wage offered. For someone who is/was a high end IT recruiter for 20yrs…. This is nothing new! It"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099903693047120210",
-          "author": "aman81407075",
-          "searchJob": "texas-tech",
-          "text": "Rentomojo: The Company Betting That Millennials Would Rather Rent a Fridge Than Own One Buying furniture and appliances every time you move cities is expensive and wasteful especially if you're a young professional relocating every couple o"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2099901466777444835",
-          "author": "hassan92596630",
-          "searchJob": "texas-tech",
-          "text": "@BetiniMath37388 Men added values to business model regardless of the value it may be.. Tech and skills are more standard and easily modernize by Guys who truth have something to offer but I don't think any female can go that far in systema"
+          "postId": "2099917549173403984",
+          "author": "clevelanddotcom",
+          "searchJob": "virginia",
+          "text": "Peyton Watson may have more to offer offensively, but Chris Fedor says the Cavs need him to make his biggest impact somewhere else first: guarding the other team’s best player. https://t.co/czsFJNC7jF"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2099920400545386912",
-          "author": "jmlx_john2",
-          "searchJob": "navy",
-          "text": "Earl Holliman (b. 11 September 1928) was an American actor whose Southern manner and rugged masculinity made him a familiar presence in films and television for more than half a century. Born in Delhi, Louisiana, he was adopted as an infant"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099916296259555521",
-          "author": "kenabides",
-          "searchJob": "navy",
-          "text": "@VernaandHarold @C__Herridge @elonmusk You must know a lot of really stupid people who need to be fired. I work HR for the Navy. PII is in the picture. I simply explained in broad terms what I did, such as “Issued 16 firm job offers and cod"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2099909915842093406",
-          "author": "tugboatbowline",
-          "searchJob": "navy",
-          "text": "@andyburzum There was a time that if you were getting out of your countries navy or air force and had been assigned to an airframe or hull that the Saudi Armed forces also had in inventory they would offer you your same rate but for them fo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099909003434205315",
-          "author": "rohanarun",
-          "searchJob": "navy",
-          "text": "@Super_Powers_AI Hey Super, build a political crisis simulator and interactive leverage engine for Netflix's The Diplomat Season 4 announcement. https://t.co/J4mcEOGRqv The simulator must feature an interactive control panel with sliders fo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099902444029555194",
-          "author": "yogiat007",
-          "searchJob": "navy",
-          "text": "@captsingh This proposition by a former Indian Navy Chief talks of creating a UN-led peace support mission in the Hormuz that offers a face saver to both US &amp; Iran. It should be considered by all responsible nations for the safety of wo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099901542782345614",
-          "author": "clowncar1986",
-          "searchJob": "navy",
-          "text": "@MariaStenergard The USA Navy should offer assistance to Danish Navy to stop all Russian boats through the Danish straits, additional U.S. troops in Denmark, protection of all the Danish islands including #Bornholm in exchange for #Greenlan"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099906087356961159",
-          "author": "nvtreasurer",
-          "searchJob": "nevada",
-          "text": "Paying for college can involve more than one type of financial aid. 🎓 The Nevada Student Loan Resource Center offers free information to help Nevada students and families better understand financial aid. 💙 Learn more: [LINK] https://t.co/"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099891338346917911",
-          "author": "blmnational",
-          "searchJob": "nevada",
-          "text": "Ready for your next outdoor adventure? 🌄 Discover the breathtaking Basin and Range National Monument, the first national monument managed by BLM Nevada! This stunning, rugged landscape offers endless opportunities for outdoor recreation, i"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2099898403811700899",
-          "author": "histories_arch",
-          "searchJob": "new-mexico",
-          "text": "James K. Polk left a dual legacy as the 11th U.S. president who successfully achieved every major territorial and domestic goal he promised, while simultaneously intensifying the sectional tensions over slavery that led to the American Civi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2099907108343067013",
-          "author": "xelanusa",
-          "searchJob": "class:2026",
-          "text": "My 2010 report to Congress on Illegal Immigration proved Center for Immigration Studies and all other \"experts\" on immigration were highly inaccurate. They mostly clung the 11 million Illegal Aliens propaganda number. If you read their own "
+          "postId": "2099904876008370663",
+          "author": "civicwvfound",
+          "searchJob": "virginia",
+          "text": "The West Virginia Civic Education Foundation is excited to offer a new learning opportunity for WV educators. Join the National Constitution Center presenting on how storytelling helps students connect with America’s founding documents. 📅 "
         }
       ]
     },
@@ -61499,22 +61330,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 4,
+      "failed": 1,
+      "requests": 5,
+      "errors": [
+        "virginia-tech: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 44,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 12,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 85,
-    "decided": 85,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
