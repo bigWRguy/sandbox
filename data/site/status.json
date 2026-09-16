@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T07:58:00.024Z",
+  "generatedAt": "2026-09-16T08:13:00.195Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-16T07:57:59.753Z",
+    "at": "2026-09-16T08:12:59.967Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7779208333333333,
-    "p95Hours": 1.7770988888888888,
-    "worstHours": 1.7770988888888888
+    "medianHours": 0.76949,
+    "p95Hours": 1.7782902777777778,
+    "worstHours": 1.7782902777777778
   },
   "decisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "pending": {
@@ -55,203 +55,96 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-16T07:57:59.752Z",
-      "got": 29,
-      "new": 23,
-      "lag": 0.32
+      "at": "2026-09-16T08:12:59.967Z",
+      "got": 9,
+      "new": 8,
+      "lag": 0.35
     }
   },
   "audit": {
-    "at": "2026-09-16T07:56:21.307Z",
+    "at": "2026-09-16T08:11:30.062Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 23,
-      "duplicate": 6,
+      "returned": 9,
+      "kept": 8,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 7,
+      "accepted": 5,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 3,
         "hard_negative": 1,
-        "no_fbs_school": 3
+        "no_offer_term": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2100098509156540705",
-          "author": "cmshehbaz",
-          "searchJob": "army",
-          "text": "I condemn in the strongest possible terms the dastardly and heinous attempted drone attack against the Holy Site of Makkah Al-Mukarramah. The people of Pakistan are saddened and perturbed by this outrageous act. There can be no words strong"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100119559575646648",
-          "author": "yjstacked",
-          "searchJob": "army",
-          "text": "https://t.co/E8n14fL6ml"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2100109185237315786",
-          "author": "bid2eat",
-          "searchJob": "army",
-          "text": "#America #Integrity still MATTERS Everyone in USA should know extremely UNSELFISH & Honorable Veterans & Top Law Enforcement Detectives Doug Poppa & Frank Serpico who have spent their entire lives with💯 irrefutable inspirational INTEGRITY "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100113708617760925",
-          "author": "freexcharlottex",
-          "searchJob": "charlotte",
-          "text": "@vegas702simp I wasn’t on twitter at the time lol.. idk who disappears after being offered a send.."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100106909466390711",
-          "author": "earlwmarshall",
-          "searchJob": "marshall",
-          "text": "@TheNorfolkLion She should offer herself up to the migrants when they arrive as a sacrifice."
+          "postId": "2100116335808151857",
+          "author": "dropsitenews",
+          "searchJob": "memphis",
+          "text": "Investigative journalist @PabloTorre pressed NBA Commissioner Adam Silver on whether wealthy people and entities are using the league’s approval to buy public credibility, and whether the NBA would strengthen its vetting. Silver said he had"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2100126545033482300",
-          "author": "ihundephiphi",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "A leader who brings development and then teaches wealth creation that is President Yoweri Museveni. Adjumani is blessed to receive both messages. https://t.co/sJ7F7TBfmy"
+          "postId": "2099970827290648822",
+          "author": "pablofindsout",
+          "searchJob": "memphis",
+          "text": "Adam Silver, asked by @PabloTorre about concerns that (shady) sponsors and billionaires use the NBA to buy credibility, admits: “Reporters can do things that traditional investigators can’t. ... Even Mark Walter, as we sit here today, I kno"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2100124123070648667",
-          "author": "keionj81525",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from San Bernardino valley college!!￼🙏🏾 https://t.co/WpRpni2mur"
+          "postId": "2100109371929743800",
+          "author": "thepagangoddess",
+          "searchJob": "michigan",
+          "text": "Macklemore got dumped from the Sheeran tour for the Free Palestine bit. Dearborn’s mayor just offered him a free city-sponsored show. Of course he did. Who's paying? And, how much? Too bad he lost the rest of the tour that he ruined for She"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 5,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 5
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100127305746014297",
-          "author": "lexman999",
-          "searchJob": "army",
-          "text": "Dictator Carney also had ZERO democratic authority, either from the 2025 National Elections( none of the items below were mentioned, and CCP was called by him, correctly, as the biggest threat to Canadian democracy), or from Parliament( by "
+          "postId": "2100124905899806903",
+          "author": "official_fame03",
+          "searchJob": "rice",
+          "text": "@_Mister_SUPREME In as much I don’t support or like Adekanbi, but this ur take ehn🤔calling him a betrayal because he left APC to join APM for Guber ticket that APC can never offer him in the next 10yrs. It’s shows that na jollof rice full "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100125430653272177",
-          "author": "ashwinnagar",
-          "searchJob": "army",
-          "text": "The Muslim holy site, Makkah Al-Mukarramah, is attacked, and Pakistan, despite receiving billions of dollars from Saudi Arabia and having a defence pact with it, is reduced to playing “condemnation” game. I can offer condemnation for free. "
+          "postId": "2100123508256755743",
+          "author": "foxyblueu",
+          "searchJob": "rice",
+          "text": "Good morning! If you just woke up, the African timeline is already boiling with premium drama this Wednesday morning, and we need to talk about it. First on the table is the sudden national debate over the Dangote Refinery shares. With the "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100125198418596110",
-          "author": "chairmaneumc",
-          "searchJob": "army",
-          "text": "Major General Roberto Vergori, Italian Army @Esercito, visits the Deputy Chair of the EUMC, Lieutenant General Enrico Barduani, before taking over as COMKFOR. KFOR is the NATO-led peace support operation in Kosovo, established in 1999 under"
+          "postId": "2100121513752244626",
+          "author": "sen_fu30167",
+          "searchJob": "rice",
+          "text": "Explore our expansive commercial kitchen display center featuring rice counters, stoves, refrigeration, and more! We offer design &amp; turnkey solutions for catering brands. Inquire today! 🔥 #CateringExcellence #KitchenDesign #fyp #foryou"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100124739805032867",
-          "author": "paramjeetberwal",
-          "searchJob": "army",
-          "text": "A Sikh youth respectfully offers a bottle of water to an Indian Army officer. Sikhs are nationalists. Hindus and Sikhs are One. https://t.co/WWBH3hvvPF"
+          "postId": "2100121473390346610",
+          "author": "josh445maga",
+          "searchJob": "rice",
+          "text": "@TheDefiantGhost I'll take the pork fried rice, sweet sour pork. Otherwise he's got nothing interesting to offer. 😂👎"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100118982191911177",
-          "author": "msabirdogar",
-          "searchJob": "army",
-          "text": "@ARYSabirShakir An unprecedented visionary, erudite , scrupulous and sagacious leader Imran khan is facing inhuman torturers in Adiala jail Rawalpindi , not accepting any offer less than real independence for Bedeiged Pakistani Nation when "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100117776841294193",
-          "author": "yom_yhwh",
-          "searchJob": "army",
-          "text": "<Psalm 27> A Psalm of David. “The LORD.. is my light and my salvation.. Whom shall I fear?.. The LORD.. is the strength of my life.. Of whom.. shall I be afraid?.. When the wicked come against me.. To eat up my flesh.. It is my enemies and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100116692953165858",
-          "author": "theaxiscampaign",
-          "searchJob": "army",
-          "text": "🚣 Waffen SS soldiers part the Army Group South cross the Pripiat River in Ukraine by a small boat. They were surrounded by vast swamps that offered numerous hideouts for Soviet partisans, who frequently attacked the German advances. https:"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100107819873599782",
-          "author": "david17522949",
-          "searchJob": "army",
-          "text": "@areid602 They banned the Polish Army from marching , but made a concession . Which was they offered to allow the Polish pilots to march . The pilots refused this offer in solidarity with the Army . No Polish Forces took part as a result ."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100097166773821724",
-          "author": "afghanglobal24",
-          "searchJob": "army",
-          "text": "Radio Free Europe: Sources have told us that Pakistan is recruiting former members of Afghanistan’s army and police to fight against militant groups in the restive province of Balochistan. These individuals are reportedly being paid around "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100095796167549256",
-          "author": "dpkpillay12",
-          "searchJob": "army",
-          "text": "Dear friend across the border, ​Take a moment to read about India's Muslim heroes patriots who served their nation with honor and unyielding conviction. Brigadier Mohammad Usman, MVC, remains an enduring symbol of duty and constitutional pa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100108165950198145",
-          "author": "neilmur73809257",
-          "searchJob": "marshall",
-          "text": "@JohnMoloney22 @BeltwayAussie Do you think Marshall is worth that much in a trade? PS: if they match the WB offer they don't get Pick 5. Are you keeping up ... Technically?"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100125056969879979",
-          "author": "andytvwatchlist",
-          "searchJob": "texas",
-          "text": "📺 AndyTV - BEST SPORTS TODAY Wednesday, September 16 1. ⚾ Chicago White Sox @ Cleveland Guardians - 1:10 PM ET - ESPN Cleveland's walk-off win pulled the Guardians within a half-game of AL Central leader Chicago entering the series finale."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100107877897638289",
-          "author": "madamcure77777",
-          "searchJob": "texas",
-          "text": "𝓟𝓪𝓬 🥒 @PacArtCollect FAKE AUSTRALIAN ACCENT, FUCKING ROLLING UP ON WITH A FEDERAL RESTRAINING ORDER ON YOUR ASS, AND THEN I FIND YOU WITH THAT ABDUCTED KID ON A PRIVATE PLANE LAST NIGHT OVER DALLAS TEXAS. @FBI @USMarshalsHQ THEN HE OFFE"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100118568436195582",
-          "author": "capitalaltvest",
-          "searchJob": "coastal-carolina",
-          "text": "TRAINED, CERTIFIED, EMPLOYABLE: HOW ACOF CAPITAL IS UPSKILLING SOUTH AFRICA'S MARITIME WORKFORCE A lifeboat drill run to standard. A seafarer walking away certified. Capital, put to work where it counts most. Tru4, through its division SSTG"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100118230647878042",
-          "author": "africabitcorp",
-          "searchJob": "coastal-carolina",
-          "text": "TRAINED, CERTIFIED, EMPLOYABLE: HOW ACOF CAPITAL IS UPSKILLING SOUTH AFRICA'S MARITIME WORKFORCE A lifeboat drill run to standard. A seafarer walking away certified. Capital, put to work where it counts most. Tru4, through its division SSTG"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100116763283521635",
-          "author": "nuryvittachi",
-          "searchJob": "coastal-carolina",
-          "text": "BREAKING NEWS: Big bucks for babies! Parents in Hong Kong are rejoicing as leader John Lee Ka-chiu today announced the city’s first Five-Year Plan and his annual Policy Address. Couples get HK$20 thousand to help pay for nappies etc for the"
+          "postId": "2100130598320779583",
+          "author": "allcyclone1",
+          "searchJob": "iowa",
+          "text": "2023 Lehi (UT) HS SDE Isaac Terrell at Iowa State Prospect Camp https://t.co/77BFg0Q30H via @YouTube #Iowastate #Iowa #Cyclones #CollegeFootball Its still so crazy to me we didn’t offer bobby back in 2023"
         }
       ]
     },
@@ -266,11 +159,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-16T07:58:00.025Z"
+    "status rebuilt locally from current store on 2026-09-16T08:13:00.199Z"
   ]
 }
