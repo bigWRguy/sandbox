@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T21:11:50.684Z",
+  "generatedAt": "2026-09-16T21:27:51.707Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-16T21:11:50.505Z",
+    "at": "2026-09-16T21:27:51.387Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2550883333333334,
-    "p95Hours": 2.0062169444444446,
-    "worstHours": 2.0062169444444446
+    "medianHours": 1.2742866666666666,
+    "p95Hours": 1.773808611111111,
+    "worstHours": 2.0240144444444446
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 61,
+    "decided": 61,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 55
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1305,
     "incompleteOffers": 0
@@ -55,71 +55,399 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-16T21:11:50.505Z",
-      "got": 3,
-      "new": 2,
-      "lag": 1.78
+      "at": "2026-09-16T21:27:51.386Z",
+      "got": 86,
+      "new": 61,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-16T21:11:31.556Z",
+    "at": "2026-09-16T21:26:17.199Z",
     "mode": "live",
     "collection": {
-      "returned": 3,
-      "kept": 2,
-      "duplicate": 1,
+      "returned": 86,
+      "kept": 61,
+      "duplicate": 25,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 35,
+      "rejected": 26,
       "reasons": {
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 1
+        "no_offer_term": 8,
+        "no_fbs_school": 13,
+        "unclassified_offer_text": 1,
+        "hard_negative": 4
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2100302939306737687",
-          "author": "tpayton145",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Truly blessed to receive my 2nd offer from Millsaps College !!! @Coach_Brunette @coachcwell4 @ReelCoachSmith https://t.co/JmeHzEy0Tn"
+          "reason": "no_offer_term",
+          "postId": "2100333053046382761",
+          "author": "p2for6ixx",
+          "searchJob": "louisiana",
+          "text": "I will be in Louisiana this weekend! Blessed to receive a game invitation from @CoreyThomas337 🔴⚪️@CoachWolfeDCHS @_coachcrawford_ @TylerHood24 @CoachPPrice https://t.co/pTt6prRy49"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2100302658183549340",
-          "author": "brandonj10202",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a phone call and a great conversation with @CoachBremer I’m grateful and blessed to receive an offer to St. Scholastica! Thank you so much for the opportunity. @CoachHietala https://t.co/97SlVm2sSi"
+          "postId": "2100328967802593578",
+          "author": "houmatoday",
+          "searchJob": "louisiana",
+          "text": "These 3 grocery stores offer the lowest prices in Louisiana. See here https://t.co/CAmDMLTKTa"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100314035921006685",
+          "author": "gmfus",
+          "searchJob": "marshall",
+          "text": "📣 GMF's Taiwan-US-Europe Public Policy Program (TUPP) applications are now open! 🌏 TUPP offers an unparalleled opportunity for future policy leaders from the United States and Europe to benefit from exposure to Taiwan. 🔗 Learn more about"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100305234891248102",
+          "author": "365fantasyfb",
+          "searchJob": "marshall",
+          "text": "@FantasyBroAaron @Kembacrossover Sits there for over 2 months and all of a sudden accepts after Marv doesn’t do shit, I definitely won’t be sending that person any offers"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100309057714221234",
+          "author": "thepatriotoasis",
+          "searchJob": "massachusetts",
+          "text": "🔥🚨 BREAKING — The Lone male holdout juror in the Lindsay Clancy case has been positively identified as Michael Desronvil, a Catholic and conservative. He says he voted guilty because of the evidence. Cora, Dawson, and Callan were killed b"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100319465812467868",
+          "author": "4leafcloverhunt",
+          "searchJob": "iowa",
+          "text": "@QueenAnticommie My cousin said he was kind one night when he offered her a ride back home in Iowa."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100306743741882860",
+          "author": "winestylesstore",
+          "searchJob": "iowa",
+          "text": "🍷20 YEARS?! Now that's a great vintage!! 👏 Congrats to WineStyles in West Des Moines, Iowa! Starting next week, they have a full line up of events, tastings, special offers and more! #WineStyles20 #20YearsOfCheers #WineFamily #WestDesMoin"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100324825713594510",
+          "author": "mglbill",
+          "searchJob": "michigan",
+          "text": "@MMaplevue So they offer a version that is supposed to take like a shoe? And that's to be expected? See you at Chik Fil A."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100322597774954745",
+          "author": "bridgemichigan",
+          "searchJob": "michigan",
+          "text": "Jocelyn Benson, John James offer contrasting plans on tariffs, AI, jobs https://t.co/ZrHEi2bbZj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100320779183218933",
+          "author": "macaitiller_",
+          "searchJob": "phrase:\"my first D1 offer\"",
+          "text": "Blessed to recieve my first D1 offer from colgate university🖤❤️@RodneyJ_4 @nickcoachd42 @CoachTHoffmann @high_spalding https://t.co/fvzi29IHIY"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100329720969560246",
+          "author": "indemedaction",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/9GL6hbdIlU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100327468724834419",
+          "author": "agharbeia",
+          "searchJob": "arkansas-state",
+          "text": "@HasidicHooper @Allen_Revolts You pretend Palestinians didn't offer to the Anglo-American comittee in the 40s to accept jews who had settled there, including European jewish refugees from WW2, in an independent Palestinian state. https://t."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100324505948139772",
+          "author": "rawsalerts",
+          "searchJob": "arkansas-state",
+          "text": "🚨#BREAKING: Unverified reports claim Xi Jinping suffered a major health scare during the BRICS summit in India."
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2100312799108846081",
+          "author": "tiborpnagyjr",
+          "searchJob": "arkansas-state",
+          "text": "Credit Somaliland President \"Irro\" for putting his cards on the table. SL is offering the US highly valuable deals well worth pursuing. We would be shortsighted to rebuff them. Prez Trump doesn't usually care who gets upset; he shouldn't th"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100324338582896795",
+          "author": "agharbeia",
+          "searchJob": "arkansas-state",
+          "text": "@Signor_Smith @Allen_Revolts In their negotiations with the British and with the Americans, the Palestinians offered, several times, to accept European jews who settled during Ottoman times, and then again during WW2, as citizens. https://t"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2100317164653928483",
+          "author": "leslieterebessy",
+          "searchJob": "arkansas-state",
+          "text": "How Mercenary Jurists Betrayed Islam: And Reinvented Islam as Islamism https://t.co/pcbcc1stN6 #Amazon via @Amazon Preview 2 Epistemology 5 Muslims at Present 14 Fall of the Realm 33 Politicization 44 Radicalization 68 Aggression 76 Repress"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100315850893107345",
+          "author": "battlefamily77",
+          "searchJob": "arkansas-state",
+          "text": "If a message only works because the reader is too little to argue back, it does not belong in a picture book for ages four to eight. https://t.co/NrIE2eCU9G"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2100334509871022533",
+          "author": "susankirk748494",
+          "searchJob": "army",
+          "text": "Pete eliminated DEI offices and initiatives throughout the Department of Defense and directed the military back toward merit-based policies—placing qualifications, performance and readiness ahead of race or sex. The Pentagon later reported "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2100325624581922969",
+          "author": "ltsmash420",
+          "searchJob": "army",
+          "text": "⚠️ 🇮🇱 🇵🇸 🇺🇸 Katz doubts Hamas will disarm, Washington says Trump remains determined Israeli Defense Minister Israel Katz said Wednesday that Hamas will not disarm, while the United States insists that goal remains central to the proce"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100323079947751662",
+          "author": "boreham_woodfc",
+          "searchJob": "army",
+          "text": "Victory on the road! 🏁 #WeAreTheWood https://t.co/X3nr2G6x7Q"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100322207415320840",
+          "author": "armyflowershop",
+          "searchJob": "army",
+          "text": "🖤🌿❤️🎂🖤❤️❤️🖤🎂❤️🌿🖤 𝐹𝓁𝑜𝓌𝑒𝓇 𝒟𝑒𝓁𝒾𝓋𝑒𝓇𝓎 𝐹𝑜𝓇: @Ra_Ra_She 𝐹𝓇𝑜𝓂: @importantbzness 𝑀𝑒𝓈𝓈𝒶𝑔𝑒: Screaming Happy Freaking Birthday to one of the best hoomans this world has to offer!! 🖤🌿❤️🎂🖤❤️❤️🖤🎂❤️🌿🖤 https://t.c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2100321103755551142",
+          "author": "susankirk748494",
+          "searchJob": "army",
+          "text": "Calling Pete Hegseth “ the most incompetent Secretary of Defense” while ignoring what he has actually done is ridiculous. You don’t have to agree with everything he does, but at least look at the record. He eliminated DEI offices and initia"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100284130294706350",
+          "author": "genxgirl1994",
+          "searchJob": "army",
+          "text": "MUST READ: @DropSiteNews reports US/Israel Military Cooperation has been decades-long theft of US technology by Israel: - DIA: Israel theft of Laser Tech - US Gov Complacency in Israel Theft - Israel Illegally Marketing US-Gifted Tech to Ch"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100243512532873261",
+          "author": "arboles_magicos",
+          "searchJob": "kent-state",
+          "text": "Muchos me habéis preguntado si, con la muerte del Major Oak, se pierde para siempre su linaje. La respuesta es no. Durante años se han recogido bellotas del viejo roble y existen descendientes suyos plantados incluso fuera de Sherwood. De h"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 35,
+      "reasons": {
+        "explicit_non_fbs_target": 1,
+        "bare_mention_requires_llm": 32,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 1
+      },
+      "samples": [
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2100321666026922260",
+          "author": "jucoffrenzy",
+          "searchJob": "kennesaw-state",
+          "text": "2027 (@EMCCathletics) JUCO WR @JADECARD11 was offered by Kennesaw State @kennesawstfb HL https://t.co/VcQYEzs7kS https://t.co/g0M0aBvAfy"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100335364762202624",
+          "author": "ryan12x6",
+          "searchJob": "louisiana",
+          "text": "@dabrou50 Yes, Starlink offers a 50% discount on residential service plans, but only for residents living in the Vermilion Parish area near the planned Starbase Louisiana site, rather than the entire state of [Louisiana]. [1, 2] google sear"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100309526524096673",
+          "author": "myarklamiss",
+          "searchJob": "louisiana",
+          "text": "The Louisiana Department of Wildlife and Fisheries will offer a beginner's deer hunting class, Bucks and Does: Deer Hunting 101, on Oct. 10 in Monroe. Read more here: https://t.co/ffHIjUKjb3 https://t.co/aYTJSkt8To"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100328541057425885",
+          "author": "beaconcu",
+          "searchJob": "marshall",
+          "text": "¡Qué alegría! 💙 \"What a joy\" it was to sponsor the Latino Festival in #Plymouth this past weekend. This annual festival offers an opportunity for #Marshall County to come together and highlight culture, community and connection. https://t."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100334913069171072",
+          "author": "neurolilly_",
+          "searchJob": "massachusetts",
+          "text": "🧠 POSTPARTUM MENTAL HEALTH CARE GETS A STATE FUNDING PUSH 🌼 Massachusetts Gov. Maura Healey is asking lawmakers for $2 million to expand Welcome Family—free one-time nurse home visits after birth—and $250,000 more for MCPAP for Moms so cl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100328262148735050",
+          "author": "woodsyowl2000",
+          "searchJob": "massachusetts",
+          "text": "God bless him. We sane people thank him for hos principles and kindness. I'm ashamed to be from Massachusetts. He shoukd accept Governor DeSantis' offer to flee our whacko state. I would take that offer in a NY minute."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100310990315483420",
+          "author": "kelly_steffee",
+          "searchJob": "massachusetts",
+          "text": "H.A.M. v. Read & @DoctorTurtleboy Judge Mark Gildea has DENIED Aidan Kearney’s Motion to Stay Pending Appeal, meaning the McCabe/Albert/Higgins civil case and discovery can continue while Aidan pursues his Anti-SLAPP appeal. But there are a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100327928735363470",
+          "author": "iowafirstmedia",
+          "searchJob": "iowa",
+          "text": "DES MOINES, Iowa – It took a lot of begging, but Zach Lahn finally dragged Rob Sand onto a real Fall debate calendar, in a moment that Iowa voters have all been waiting for. KCRG, The Gazette, and Gray stations KTIV and KWQC locked in 3 tel"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100323871819764120",
+          "author": "abell_mr",
+          "searchJob": "iowa",
+          "text": "@JuneAppleseed @Breaking911 @BillMelugin_ Governors fly to foreign countries all the time You and your friends apparently made a bad decision based on a lie. Also, funny that you mention Iowa bc the day offer that primary I left the gop htt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100313802164076755",
+          "author": "bovinevet",
+          "searchJob": "iowa",
+          "text": "One Iowa herd investigation into Theileria orientalis started with dead heifers and thousands of ticks. What was found next offered a broader lesson about surveillance, diagnostics and managing a disease that may already be moving through t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100307767508508965",
+          "author": "hawkeyeswire",
+          "searchJob": "iowa",
+          "text": "Iowa women's basketball offers legacy 2029 guard 📸 Julia Hansen/Iowa City Press-Citizen, Julia Hansen/Iowa City Press-Citizen / USA TODAY NETWORK via Imagn Images https://t.co/MEuoCFo0aO https://t.co/JxLBMIeAFe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100323090945233398",
+          "author": "rreaves911",
+          "searchJob": "michigan",
+          "text": "@hyperscaledata Curious though why are you entertaining the idea of selling the Michigan data center? Isn't that data center one of the main drivers in the future of your company? If you sell it then what services do you offer that make you"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2100308916965929125",
+          "author": "jakestring1969",
+          "searchJob": "michigan",
+          "text": "@noobinvester69 @MauLer93 You are full of 💩. I never thought someone would offer a Wolverines game with a stage that doesn’t require controller input to accomplish. Quit trying to gaslight."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100331332043739332",
+          "author": "letlogicrule",
+          "searchJob": "arkansas-state",
+          "text": "@VividProwess They were offered a state and refused in the Clinton era!!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100329042775851400",
+          "author": "agharbeia",
+          "searchJob": "arkansas-state",
+          "text": "@amitliberman @Allen_Revolts Yet they offered to the Anglo-American committee to accept not only Jews who had settled since the Ottomans as citizens in a state, but even to take in European jewish refugees from WW2. Yet they were denied a s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100328851293229461",
+          "author": "eclipebydeath",
+          "searchJob": "arkansas-state",
+          "text": "You watched Israel’s diplomat walk the UN through Somaliland’s history, the failed union with Somalia, and the legal case for a state that has governed itself since 1991. Your reply was fundraising screenshots and “we ain’t ready.” That is "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100326986686046387",
+          "author": "giantsfan74",
+          "searchJob": "arkansas-state",
+          "text": "@YousefHammash None of this needed to happen and its not discussed. The Palestinian people were offered a state of their own a half a dozen times in the last 75 years. They said no every time and attacked Israel. 1000s of Palestinians and I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100326800987463704",
+          "author": "clown_cap",
+          "searchJob": "arkansas-state",
+          "text": "@IrvingGatell you colonize their land, expel them and then offer them a state far smaller than they had each time and expect them to be happy with it. Plus constant evictions, apartheid , bantustans."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100325360001032356",
+          "author": "zombie3eater",
+          "searchJob": "arkansas-state",
+          "text": "@bobjcarr Fuck off you retarded terrorist supporter, they where offered a state, but they said no thanks we just want to kill Jews. Go fuck yourself faggot."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100324942625513707",
+          "author": "ltsmash420",
+          "searchJob": "arkansas-state",
+          "text": "Unverified reports of Xi Jinping health scare collide with official BRICS record Unverified claims that Chinese President Xi Jinping suffered a major health emergency during the BRICS summit in India remain unconfirmed by any official sourc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100324755354313044",
+          "author": "bloveprophet1",
+          "searchJob": "arkansas-state",
+          "text": "This imperialist thinks he is fooling us into think he cares about Somalilanders. We knew he would be happy that this man offered up his country sovereignty to just be recognized as a State. This is his type of statesmen, one that capitulat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100317118851895302",
+          "author": "streetone1two2",
+          "searchJob": "arkansas-state",
+          "text": "@mehdirhasan Israel offered the Palestinians a state numerous times and also gave Palestinians land. The Palestinians hatefully refused their own state abd used the land Israel gave then to create a hub for terrorism. In my view, Palestinia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100316975192801675",
+          "author": "streetone1two2",
+          "searchJob": "arkansas-state",
+          "text": "@jstreetdotorg Israel offered the Palestinians a state numerous times and also gave Palestinians land. The Palestinians hatefully refused their own state abd used the land Israel gave then to create a hub for terrorism. In my view, Palestin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100316315194204630",
+          "author": "steida",
+          "searchJob": "arkansas-state",
+          "text": "The Solution Is there a vision capable of bringing people together? At first glance, it sounds impossible. The left against the right. Collectivists against individualists. Statists against anarchists. Two irreconcilable camps locked togeth"
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "kennesaw-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 35,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-16T21:11:50.685Z"
+    "status rebuilt locally from current store on 2026-09-16T21:27:51.708Z"
   ]
 }
