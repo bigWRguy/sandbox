@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T20:58:22.664Z",
+  "generatedAt": "2026-09-16T21:11:50.684Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-16T20:58:22.388Z",
+    "at": "2026-09-16T21:11:50.505Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 4,
+    "requests": 5,
+    "fullSweepCycles": 41
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0306383333333333,
-    "p95Hours": 1.7817669444444444,
-    "worstHours": 1.7817669444444444
+    "medianHours": 1.2550883333333334,
+    "p95Hours": 2.0062169444444446,
+    "worstHours": 2.0062169444444446
   },
   "decisionCoverage": {
-    "total": 79,
-    "decided": 79,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 55
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 1305,
     "incompleteOffers": 0
@@ -55,401 +55,71 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-16T20:58:22.388Z",
-      "got": 114,
-      "new": 79,
-      "lag": 0.03
+      "at": "2026-09-16T21:11:50.505Z",
+      "got": 3,
+      "new": 2,
+      "lag": 1.78
     }
   },
   "audit": {
-    "at": "2026-09-16T20:56:50.809Z",
+    "at": "2026-09-16T21:11:31.556Z",
     "mode": "live",
     "collection": {
-      "returned": 114,
-      "kept": 79,
-      "duplicate": 34,
-      "tooOld": 1,
+      "returned": 3,
+      "kept": 2,
+      "duplicate": 1,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 34,
-      "rejected": 45,
+      "accepted": 0,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 26,
-        "unclassified_offer_text": 2,
-        "hard_negative": 2,
-        "no_offer_term": 7,
-        "non_fbs_offer_target": 8
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2100305354617753922",
-          "author": "pmaxiums",
-          "searchJob": "texas-tech",
-          "text": "@enochhowl @EWErickson Again you can go buy a huge ranch anywhere and say we only allow white people here on our land. You can even buy two ranches next to each other and do that, but you cannot set up and offer land or housing for sale, le"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2100302476067139731",
-          "author": "offerscout",
-          "searchJob": "texas-tech",
-          "text": "NatWest Group is hiring! 🚀 Company: NatWest Group Role: Software Engineer, AVP Experience: 8+ years Location: Bengaluru, India Type: Full-time, Permanent / Contract Closing Date: 21 September 2026 Tech: TypeScript, React.js, Node.js, REST "
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2100300061209227445",
-          "author": "offerscout",
-          "searchJob": "texas-tech",
-          "text": "Siemens Energy is hiring! 🚀 Company: Siemens Energy Role: Software Engineering Intern Eligibility: 2027 & 2028 graduates Location: Bengaluru, Karnataka Type: Full-time Internship Tech: Python, MATLAB, LaTeX, OOP, Git, CI/CD, Jira Requireme"
+          "reason": "non_fbs_offer_target",
+          "postId": "2100302939306737687",
+          "author": "tpayton145",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Truly blessed to receive my 2nd offer from Millsaps College !!! @Coach_Brunette @coachcwell4 @ReelCoachSmith https://t.co/JmeHzEy0Tn"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2100298786664824943",
-          "author": "lifehacker",
-          "searchJob": "texas-tech",
-          "text": "From bold prints to understated protection, CASETiFY’s huge selection of cases and accessories offers something for everyone. Right now, CASETiFY cases are 15% off. Link: https://t.co/HcG1rRARCi https://t.co/lYg7Eq4MtR"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100298806143426565",
-          "author": "thelibertyway",
-          "searchJob": "liberty",
-          "text": "“I’ll never win in this market” is a myth. 🏡 In Lake Orion, Oxford, Rochester, and across Oakland County, smart strategy often matters more than timing. I can walk you through pricing, prep, and offers so you feel confident as a buyer or s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100327815849685260",
-          "author": "arhomesofficial",
-          "searchJob": "ohio",
-          "text": "Our collection of thoughtfully designed floorplans offers a range of possibilities for building on your lot throughout the Greater Columbus, Ohio area. Discover AR Homes® featured floorplans: https://t.co/aQu16cHohG https://t.co/Lb3TUjOteI"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100315937899421930",
-          "author": "producercities",
-          "searchJob": "ohio",
-          "text": "\"DiCarlo’s specializes in Ohio Valley-style pizza that features cold cheese on top of a hot square. Rroku said the pizzeria continues to offer Ohio Valley-style pizza to pay homage to the eatery he took over for\" https://t.co/Gaeb4eN1aF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100314083002073201",
-          "author": "jimmywhittredge",
-          "searchJob": "ohio",
-          "text": "Wondering when interest rates will drop? Stop waiting! We have 0% financing on select Jeeps (rebates apply). Plus, a Central Ohio Credit Union offers 3.99% up to 66 months on new &amp; late-model used cars. Some residency restrictions apply"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2100301256153518454",
-          "author": "wrenn_kenneth",
-          "searchJob": "ohio",
-          "text": "SHONTEL BROWN. FUCK ALL OF THIS, SHONTEL. YOU'RE SHATTERED OVER A GUY THAT COMMITTED SUICIDE. YOU TAKE THE TIME TO WRITE ABOUT IT. WHAT THE FUCK IS WRONG WITH YOU? YOU HAVE A CONSTITUENT JUST A COUPLE MILES AWAY FROM YOU. WHO SURVIVED A MUR"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100299182481293621",
-          "author": "freemanschool",
-          "searchJob": "tulane",
-          "text": "\"How long is an MBA program?\" The answer isn't one-size-fits-all. From our intensive 17-month EMBA to flexible 2-4 year online and professional options, we offer MBA formats designed for every career stage and lifestyle. Details: https://t."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2100316048717439153",
-          "author": "fedchairkwarsh",
-          "searchJob": "wyoming",
-          "text": "Last month in Wyoming, I expressed my commitment to a monetary policy discipline, not to a decision. I defined the standard for action: We must be confident that underlying inflation is moving to our objective, clearly and at sufficient spe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100310298574082151",
-          "author": "bearjew_aero",
-          "searchJob": "wyoming",
-          "text": "@TopTierTulane If you think the ACC will add an athletics (especially MBB) program being actively deemphasized and outright sabotaged by leadership like @DavidHarrisAD and @TUFitts, I have a great deal on oceanfront property in Cheyenne, Wy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100325559909630436",
-          "author": "webuypinball",
-          "searchJob": "illinois",
-          "text": "Double Face Pachislo skill-stop machine available in Frankfort, Illinois. Aristocrat machine with mechanical reels and three stop buttons. Open to offers. https://t.co/dZFDu1H85Z #Pachislo #SkillStop #Pinball"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100308451150712908",
-          "author": "josiahriddle43",
-          "searchJob": "illinois",
-          "text": "After a great conversation with Coach @minnick_th33482 I’m truly grateful to have received a full scholarship offer! To southwestern Illinois College Thank you for believing in me and giving me this opportunity. I’m beyond blessed and excit"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099962756241805791",
-          "author": "moishesmom",
-          "searchJob": "maryland",
-          "text": "Bryan has a new video 💞💞💞 https://t.co/S4MzFLFWCl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100328005164048766",
-          "author": "little_p_eng",
-          "searchJob": "texas",
-          "text": "https://t.co/4m3e2bxHMu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100321851289260375",
-          "author": "texastribune",
-          "searchJob": "texas",
-          "text": "⚡ Last chance to save! Get 20% off TribFest tickets* with code FLASHSALE, automatically applied at checkout. Offer ends at midnight. Buy now: https://t.co/rTfvXB8Est #TribFest26 *Applies to all tickets except Executive or Platinum https://t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100318132766216617",
-          "author": "lincoln927",
-          "searchJob": "texas",
-          "text": "If I can offer another suggestion. All AEW ppvs should be in Texas going forward in perpetuity"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100298556049387617",
-          "author": "puto_takagi",
-          "searchJob": "texas",
-          "text": "The Allstate Arena should've hosted All Out instead. Chicago belongs to Will Ospreay, Jon Moxley, &amp; AEW now."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100313797156102288",
-          "author": "texasobserver",
-          "searchJob": "texas",
-          "text": "From our magazine: Maybe apocalyptic fascism does indeed encapsulate our current moment, but after pushing readers to the nightmarish precipice we stand on today, what do Klein and Taylor offer for those of us who have no choice but to look"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100308462303383667",
-          "author": "cpaforerp",
-          "searchJob": "texas",
-          "text": "@Molson_Hart Obamacare fixed all this. Biden said it was a “big f’ing deal.” I bought a company (also in Texas) that did not offer health insurance. I priced it out and determined that we would not be profitable if we provided it."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2099982949886124430",
-          "author": "sibune_lnz",
-          "searchJob": "texas",
-          "text": "The non-White majority in California is trying to repeal civil rights from the state's constitution so that persecution of the replaced Whites, now a tiny minority, can be done more overtly. https://t.co/R38nYcGude"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100306907622003130",
-          "author": "texasteacl",
-          "searchJob": "texas",
-          "text": "@rdd147 Isn’t funny how other offers are appear when you make one?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100311406381797711",
-          "author": "vanderbiltalum",
-          "searchJob": "vanderbilt",
-          "text": "Check out the full schedule to take full advantage of everything the weekend has to offer: https://t.co/HolIcKdu8Z https://t.co/jMUP7swDOJ"
+          "postId": "2100302658183549340",
+          "author": "brandonj10202",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a phone call and a great conversation with @CoachBremer I’m grateful and blessed to receive an offer to St. Scholastica! Thank you so much for the opportunity. @CoachHietala https://t.co/97SlVm2sSi"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 33,
-      "reasons": {
-        "school_not_resolved_confidently": 9,
-        "bare_mention_requires_llm": 15,
-        "multiple_resolved_schools": 7,
-        "author_not_recruit:no recruit fields": 1,
-        "reporter_missing_player_name": 1
-      },
-      "samples": [
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100305469944344930",
-          "author": "mauriidotcom",
-          "searchJob": "texas-tech",
-          "text": "The uses of the crypto 50/50 raffle extend across every category of Web3 creator, community operator, and organization that needs a trustless, verifiable, automatic prize distribution mechanism. Live streamers deploy raffles before broadcas"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100304899338645641",
-          "author": "jpowerz4",
-          "searchJob": "texas-tech",
-          "text": "@ggreenwald Incorrect, speech was banned by big tech from ONE political party/affiliation AND any person who offered counter point to COVID policy..."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100302892226011272",
-          "author": "ruima",
-          "searchJob": "texas-tech",
-          "text": "I joked about doing a robot rental business here in the Bay Area, but just as it started taking off last year in China, it's already collapsed. It is a great example of the entire Chinese tech cycle compressed into 12 months: scarcity → abs"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100302881366720623",
-          "author": "esterostktrader",
-          "searchJob": "texas-tech",
-          "text": "$PEW never seen such a dislocation from cash/book value with a clean balance sheet other than a money losing bio tech stock. Use the cash to do a tender offer!! $DJT $QQQ $SPY @DonaldJTrumpJr @MarcNemati @grabagun https://t.co/46Q7RAFuln"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100301631149473811",
-          "author": "vivilinsv",
-          "searchJob": "texas-tech",
-          "text": "说起在硅谷买房，在被outbid了好多次，我们也终于拿下硅谷心仪的房子！ 原住家也是一对年轻夫妇，丈夫在tech工作，妻子是设计师，有两个可爱的孩子。房子打理的井井有条。他们的counter offer 条件之一就是要把这个搭建的儿童滑梯和秋千带走。 我们非常理解，他们的孩子一定特别喜欢，有特殊的意义。我们同意了，非常愉快的成交了。 赶紧拍照留着这个美好的场景，以后让队友另外建一个类似的。 你们都有怎样的买房卖房故事，欢迎分享！"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100299523926945922",
-          "author": "worldradioleag",
-          "searchJob": "texas-tech",
-          "text": "PARKS VS. SUMMITS: WHICH OUTDOOR RADIO VIBE ARE YOU? 🌲🏔️ Portable ham radio is exploding! Taking your station out into nature turns simple contacts into an outdoor adventure, but which style fits your operating energy? 🌲 Parks on the Air"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100299071982633018",
-          "author": "bajolacurva",
-          "searchJob": "texas-tech",
-          "text": "More clarity on the data side for people with light or no background in tech. Obviously you offer object and DB storage. Yes a User can just say save this or that, but it needs to have more exposure be more obvious. It's super obvious to us"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100298677357351289",
-          "author": "machineshoptalk",
-          "searchJob": "texas-tech",
-          "text": "❌ Myth: 'Manufacturing jobs are all dirty &amp; low-skilled.' ✅ Truth: Many require high-tech skills &amp; offer great pay! #machineshoptechtalk #manufacturing #machineshoplife #manufacturingcareers #industrytruths #skilledtrades https://t."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100298492933476556",
-          "author": "jprunner1",
-          "searchJob": "texas-tech",
-          "text": "@SSN_UTSA You can't \"pay\" Tech either. We can't offer them more than they can make on a home game. G6s don't \"pay\" for high end P4s to visit them. Why is that so hard for you to acknowledge?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100317494808317974",
-          "author": "dndsm",
-          "searchJob": "hawaii",
-          "text": "@mamboitaliano__ I am betting that some very rich people will turn up shortly and offer to buy up all the coastal property, just like what happened in Hawaii"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100308371337314310",
-          "author": "mattragudo",
-          "searchJob": "hawaii",
-          "text": "I’d say the craziest thing I learned about Medical Insurance since moving from Hawaii to Texas? It’s not mandatory for employers to offer and pay for their employees medical insurance. Where do most of your employees get their medical insur"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100323627627368661",
-          "author": "tennesseedave",
-          "searchJob": "liberty",
-          "text": "The justifications in this post closely echo the ones offered for writs of assistance in the 1760s. Then, as now, the argument was necessity plus public benefit. Jeremiah Gridley told the Massachusetts court that \"the necessity of the Case "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100323282952323548",
-          "author": "integralanswers",
-          "searchJob": "liberty",
-          "text": "3/ Now consider one transaction. In 2025, MGX—a state-controlled Abu Dhabi investment company—used USD1, the stablecoin associated with the Trump family's World Liberty Financial, to complete a $2 BILLION investment in Binance. Reuters late"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2100319510553301022",
-          "author": "izeardampierot",
-          "searchJob": "liberty",
-          "text": "Blessed to announce I have received an FBS offer to continue my career @LibertyFootball🔴⚪️ #AGTG🙏🏽 #GoFlames @JUCOFFrenzy @JuCoFootballACE @coach_ruizz @Rivals @BrandonHuffman @247Sports https://t.co/mEJNDKHr6f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100318597230813479",
-          "author": "jucofootballace",
-          "searchJob": "liberty",
-          "text": "Izear Dampier @IzearDampierOT @ Sequoias JuCo @COSGIANTS_FB picks up @LibertyFootball Offer https://t.co/NAwQJzApbU"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2100306053087019349",
-          "author": "wall_david61",
-          "searchJob": "liberty",
-          "text": "@rbisrb Liberty, not forced unity imposed by rulers. Free people in free markets with free speech and association, not masters and slaves and slaves that think themselves free by government youth indoctrination because they vote for one of "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100323334609403994",
-          "author": "goeun_6121",
-          "searchJob": "ohio",
-          "text": "US Close | September 16, 2026 The S&P 500 fell 0.4%, the Dow lost 1.2% and the Nasdaq Composite finished nearly flat. The cleaner moves were in rates, FX and oil. The U.S. two-year Treasury yield rose to around 4.73%, the ten-year finished "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100305515393741191",
-          "author": "donckissick",
-          "searchJob": "ohio",
-          "text": "@VivekGRamaswamy @amyactonoh @WLWT @CNN Don Kissick believes candidates seeking the trust of Ohio voters should be willing to stand beside their opponents and defend their ideas. He therefore renews his offer to both candidates: Don Kissick"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100310284061512119",
-          "author": "dailyskrape",
-          "searchJob": "arkansas",
-          "text": "Democrat’s Five-for-One Trade Deal Backfires When Arkansas Offers Her First https://t.co/5vOhmnabkO https://t.co/W1B3bsIpKj"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100326313118535899",
-          "author": "kellyg581976179",
-          "searchJob": "maryland",
-          "text": "🆘Good People of the Northeast (From Virginia to Maine) Foster or Adopter Needed Look at 3 year old , absolute precious sweet girl named, Bryan . She was found as a stray💔. This girl needs an active home . Please offer to adopt or foster h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100317663557718277",
-          "author": "777vote",
-          "searchJob": "maryland",
-          "text": "🚨 ATTENTION MONTGOMERY! Maryland offers ballot drop boxes as a secure, postage-free way to return your voted mail-in ballot, eliminating the risk of postal delays. https://t.co/u4EYNGoUHm"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100327427310321853",
-          "author": "elmrealestate",
-          "searchJob": "texas",
-          "text": "LAND FOR SALE — 10212 Southview Hills Cove, Austin, TX Build your dream home on this beautiful 1.25-acre estate lot in Austin, Texas. Offered at $298,000, this cleared homesite gives buyers a valuable head start and plenty of room to create"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100326580019171755",
-          "author": "aryapurusottma",
-          "searchJob": "texas",
-          "text": "The active compound in 'magic mushrooms' can prevent debilitating chemotherapy-induced nerve damage. Chemotherapy is a cornerstone of cancer treatment, yet it often inflicts a grueling toll on patients in the form of chemotherapy-induced pe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100325232615788588",
-          "author": "sheridanbell98",
-          "searchJob": "texas",
-          "text": "I think it's safe to say that the streamers I watch are in romantic relationships, as in, they have a boyfriend or girlfriend (it's an assumption, but it really looks like it), which is kind of why I'm sad, so I would like a Japanese girlfr"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 4,
+      "failed": 1,
+      "requests": 5,
+      "errors": [
+        "kennesaw-state: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 33,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-16T20:58:22.665Z"
+    "status rebuilt locally from current store on 2026-09-16T21:11:50.685Z"
   ]
 }
