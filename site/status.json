@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:56:57.167Z",
+  "generatedAt": "2026-09-17T15:13:12.566Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-17T14:56:56.933Z",
+    "at": "2026-09-17T15:13:12.208Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,48 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "auburn",
-      "hours": 2.3
-    },
-    {
-      "id": "louisiana-monroe",
-      "hours": 2.3
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "marshall",
-      "hours": 2.3
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.3
-    },
-    {
-      "id": "memphis",
-      "hours": 2.3
-    },
-    {
-      "id": "old-dominion",
-      "hours": 2.3
-    },
-    {
-      "id": "western-michigan",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.008806111111111,
-    "p95Hours": 2.257688888888889,
-    "worstHours": 2.2576891666666667
+    "medianHours": 1.0171405555555555,
+    "p95Hours": 2.029599166666667,
+    "worstHours": 2.029599166666667
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 54,
+    "decided": 54,
     "complete": true
   },
   "pending": {
@@ -82,55 +49,329 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1351,
+    "completeOffers": 1353,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-17T14:56:56.933Z",
-      "got": 7,
-      "new": 2,
-      "lag": 0.92
+      "at": "2026-09-17T15:13:12.208Z",
+      "got": 87,
+      "new": 54,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-17T14:56:34.571Z",
+    "at": "2026-09-17T15:11:27.573Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 2,
-      "duplicate": 5,
+      "returned": 87,
+      "kept": 54,
+      "duplicate": 33,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 38,
+      "rejected": 16,
+      "reasons": {
+        "hard_negative": 3,
+        "no_fbs_school": 7,
+        "no_offer_term": 6
+      },
+      "samples": [
+        {
+          "reason": "hard_negative",
+          "postId": "2100595813848072513",
+          "author": "jdsmith31smith",
+          "searchJob": "auburn",
+          "text": "Winterboro 2028 ATH Jamari Nicks @JamariNicks2028 is expected to be in Auburn this weekend for the Florida game. @TDAuburnMag Nicks holds offers from Arkansas, Miami, Tennessee and others. https://t.co/7uwRjCKFkU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100594752815333490",
+          "author": "msnickelmd",
+          "searchJob": "marshall",
+          "text": "USPSTF Grade B — one-time abdominal ultrasound for AAA screening in men 65–75 who have ever smoked (≥100 cigarettes lifetime). Grade C: selectively offer to never-smokers in that age group. Source: USPSTF 2019 AAA screening https://t.co/r5j"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100594522908422367",
+          "author": "sharonm01721220",
+          "searchJob": "marshall",
+          "text": "@donmcgowan @Ofcom I’m guessing Don you’ve offered a room to an illegal? Hope you don’t have daughters"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100584655682494586",
+          "author": "amindlesswasted",
+          "searchJob": "massachusetts",
+          "text": "An article titled “They Rigged Data and Shamelessly Lied About the Covid Vaccine - I Have Receipts!” promises to expose scientific fraud. https://t.co/qfAbogOYOQ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100596349875999205",
+          "author": "northstarsnhl",
+          "searchJob": "minnesota",
+          "text": "@blashdril Wild aren’t trading Boldy straight up for Larkin. Red Wings will need to add. Not really familiar with what else they have to offer."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100586756152414228",
+          "author": "adidashoops",
+          "searchJob": "minnesota",
+          "text": "Welcome to Minnatlantasota. The Cold Blooded Anthony Edwards 3 drops tomorrow. Believe That. https://t.co/dBntrumfSa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100590722176979435",
+          "author": "bulldawgs247",
+          "searchJob": "mississippi-state",
+          "text": "https://t.co/Fi3xvTSBtJ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100590667646816343",
+          "author": "scoutstever",
+          "searchJob": "mississippi-state",
+          "text": "https://t.co/de5uqO4jSW"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2100602745421963773",
+          "author": "thevandalorian",
+          "searchJob": "missouri",
+          "text": "Before Bronx Ganaway started his freshman season, the Class of 2029 SF had an offer from #Mizzou. Over a year later, the top Mid-Missouri recruit visited the Tigers for the first: https://t.co/t0rRnqkOLS https://t.co/e5mF8lAOlJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100585443569856688",
+          "author": "timfields980",
+          "searchJob": "missouri",
+          "text": "Found an oasis in Clinton, Missouri. 👀😂 Tim stopped by Golden Goddess Oasis and had Quinn give him the tour and answer a few questions about what they offer. Roofing can wait a minute. Let’s show another local business some love. 💪 #Clin"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100592149884551241",
+          "author": "smallwars",
+          "searchJob": "colorado",
+          "text": "The Department of War (@DeptofWar) mandates a transition to quantum-resistant algorithms by 2030, prioritizing mathematical software over the physics-based approach China has pursued since 2016. This strategy rejects the use of individual p"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100584206858379476",
+          "author": "foluboing",
+          "searchJob": "duke",
+          "text": "I want to let you know that you can receive 20% daily cashback on every losing bet ticket. The cashback is withdrawable, so you can recover part of your losses. Please make sure you’re aware of this offer and know how to claim and withdraw "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2100595726317232345",
+          "author": "pg_scouting",
+          "searchJob": "georgia-tech",
+          "text": "Jhon Rodriguez, the 210th overall ranked player in the Class of 2028, has announced his commitment to Georgia Tech. 2028 RHP Jhon Rodriguez (FL) offers a three pitch mix with a fastball that has already been up to 93 mph. There’s good life "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100403602728604047",
+          "author": "nfl_dovkleiman",
+          "searchJob": "pittsburgh",
+          "text": "𝗥𝗨𝗠𝗢𝗥𝗦: The Chiefs and Lions are teams to watch as trade destinations for Steelers CB Joey Porter Jr, per @RapSheet Porter wants to be PAID 💵 https://t.co/jacJhOSy7T"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100600125072572869",
+          "author": "joey_pittsburgh",
+          "searchJob": "pittsburgh",
+          "text": "If you actually believe this happened in this manner, I have a lovely bridge in the Brooklyn area I'm taking offers on."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100458357006205177",
+          "author": "vaibhavsisinty",
+          "searchJob": "pittsburgh",
+          "text": "Andrew Yang went on CNBC and said he met with the head of an AI lab who told him something that sounds straight out of a movie. The AI agents that escaped during the OpenAI incident didn't just hack Hugging Face. They allegedly planted self"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 3,
+      "rejected": 35,
       "reasons": {
-        "bare_mention_requires_llm": 2
+        "bare_mention_requires_llm": 26,
+        "multiple_resolved_schools": 7,
+        "reporter_missing_class_year": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100585994139382195",
-          "author": "greencopsych",
-          "searchJob": "tulsa",
-          "text": "Healing starts when you feel seen and supported. Green Country Psychology offers compassionate therapy in Tulsa with no pressure. Start here. Start your fall with caring support. https://t.co/X11IEqCXiy https://t.co/V2Cy8POjPB"
+          "postId": "2100600266655457546",
+          "author": "hightop_dave",
+          "searchJob": "auburn",
+          "text": "@AuburnEinstein @On3 @AndyStaples Brother... It's fine... Auburn offered. He came here. Not that big of a deal."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100577822188413256",
-          "author": "morpheu5watcher",
-          "searchJob": "tulsa",
-          "text": "COMCAST $CMCSA FELL 6.6% ON ONE SENTENCE ABOUT ONE QUARTER: Comcast, ticker CMCSA, at $23.93 (premarket), +$0.20 / +0.84% from Wednesday's $23.73 close. Second of fifty-five on the Quality-Value Len5. The Philadelphia company sells Xfinity "
+          "postId": "2100594613689979232",
+          "author": "auburneinstein",
+          "searchJob": "auburn",
+          "text": "@On3 @AndyStaples Auburn never offered, btw"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100596008153465313",
+          "author": "rdmean01",
+          "searchJob": "marshall",
+          "text": "@RepoleStable @keenelandsales The nothing to see here mentality from the powers that be and the media is really starting to piss me off. Mike offers $10 million of his own money to complete an investigation of HISA &amp; Marshall Gramm inci"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100600675512021295",
+          "author": "alivecor",
+          "searchJob": "massachusetts",
+          "text": "Conduction system pacing (CSP) offers the promise of true physiologic activation—yet reliably confirming capture and optimizing programming remains one of the field’s most pressing challenges. 💡🫀 Join us at HRX 2026 for an elite roundtabl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100579742361469309",
+          "author": "davismalm",
+          "searchJob": "massachusetts",
+          "text": "Courtney Simmons recently authored, “Opening the Door to Social Consumption: Massachusetts’ Next Chapter in Cannabis Regulation,” published by Cannabis Business Times. @CBTmag Courtney discusses new regulations being put in place by the Mas"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100572229176098958",
+          "author": "bostronix",
+          "searchJob": "massachusetts",
+          "text": "Wow. Ms Warren offers rare honesty without pandering to communists “Politicians are using the calls over the weekend for an AI slowdown by the CEOs of Anthropic, OpenAI and xAI to push for government control of AI. “The future of artificial"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100581665517019584",
+          "author": "pr927fm",
+          "searchJob": "old-dominion",
+          "text": "TODAY ON PRL: We're getting closer to Saturday's ECU football game at Old Dominion, and the buzz continues today on “Pirate Radio Live.” We'll get reactions from WNCT's Zach Kaplan on the football team and baseball coach Cliff Godwin's news"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100594889733832714",
+          "author": "dough_bria57083",
+          "searchJob": "alabama",
+          "text": "I’m a fan of getting rid of playing these FCS schools. That said, I think we are painting with a large brush when we say some of these G6 schools don’t offer a great challenge in the early season. Especially in the American, Mac, Sunbelt. O"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100600890226868602",
+          "author": "courtsidelaker",
+          "searchJob": "minnesota",
+          "text": "Timberwolves' Jonathan Kuminga denies Lakers offered $36M contract after signing with Minnesota (via Yahoo Sports) https://t.co/4O8hKW1Z1X"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100600356975641054",
+          "author": "cdurm295",
+          "searchJob": "minnesota",
+          "text": "Why both are true? Yurov is a former 1st rounder who was a solid bottom 6 player as a rookie but isn’t elite in one area so he likely becomes a solid 3rd to fringe 2nd line player which for a later 1st round pick is a good outcome you need "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100600355201397133",
+          "author": "matthewleerosen",
+          "searchJob": "minnesota",
+          "text": "@atrupar He has yet to hear of kids being hungry, because... wait for it... all K-12 students are being offered free lunch &amp; breakfast each day in the state of Minnesota. The very program he opposes."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100596256049418714",
+          "author": "chenueher",
+          "searchJob": "minnesota",
+          "text": "Minnesota has NOT earned the \"Minnatlantasota\" name because the lemon pepper here's not wet and I've never been repeatedly offered hookah at brunch."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100595948976054678",
+          "author": "sauerbraten71",
+          "searchJob": "minnesota",
+          "text": "@atrupar Minnesota offers free lunch and breakfast to all students. If they're coming to school hungry, they get to eat at school. I'm unclear what his point is."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100581063290408987",
+          "author": "fantasymathguy",
+          "searchJob": "minnesota",
+          "text": "You’re combining several different complaints and treating them like they all prove Kyler shouldn’t start. Minnesota reportedly offered three first-round picks for Maye. New England said no. They didn’t pass on him for McCarthy. McCarthy st"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100576357868794151",
+          "author": "michaelarothman",
+          "searchJob": "minnesota",
+          "text": "𝐈𝐋𝐇𝐀𝐍 𝐎𝐌𝐀𝐑’𝐒 𝐒𝐓𝐀𝐅𝐅 𝐀𝐋𝐓𝐄𝐑𝐄𝐃 𝐇𝐄𝐑 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐈𝐑𝐓𝐇 𝐑𝐄𝐂𝐎𝐑𝐃 𝐃𝐀𝐘𝐒 𝐀𝐅𝐓𝐄𝐑 𝐀 𝐕𝐈𝐃𝐄𝐎 𝐄𝐗𝐏𝐎𝐒𝐄𝐃 𝐇𝐄𝐑 𝐂𝐈𝐓𝐈𝐙𝐄𝐍𝐒𝐇𝐈𝐏 𝐋𝐈𝐄 Ilhan Omar has spent six years insisting that questions a"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100589490536374459",
+          "author": "nathanpurvis",
+          "searchJob": "mississippi-state",
+          "text": "2028 offensive lineman Jakai Bickham (@JakaiBickham1) discusses his Mississippi State offer Jacob Bain has more with the class of 2028 offensive tackle from Georgia: #HailState https://t.co/yI125gleCb"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100600860376248778",
+          "author": "imagator1981",
+          "searchJob": "missouri",
+          "text": "Bronx Ganaway recaps Mizzou visit: ‘What better place to get the first offer than from home?’ https://t.co/9ncybxrZ5f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100581790364676113",
+          "author": "profilefblive",
+          "searchJob": "missouri",
+          "text": "Missouri has extended scholarship offers to 6 prospects in the last 24 hours. @MizzouFootball 4.6⭐ 2028 DT Jamir Lee @Thejamirlee97 3.9⭐ 2028 DT Flourish Odin @flourish_odin 3.7⭐ 2028 Edge Charzale Davis @charza1e 3.7⭐ 2027 RB Jordan Hall @"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100580507406802971",
+          "author": "jprockmo",
+          "searchJob": "missouri",
+          "text": "#Mizzou offers Gardner (KS) Edgerton 2028 big-time 6’5” 240 DE prospect LeRoi Kamtio:@LKamtio @MizzouFootball #SEC"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100576124245819515",
+          "author": "moecodevo",
+          "searchJob": "missouri",
+          "text": "Missouri is taking its momentum global! @GovMikeKehoe and #TeamDED's Director Michelle Hataway are joining state delegates on a trade mission to Italy, strengthening relationships and showcasing what #MO has to offer. Details: https://t.co/"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100589960457818186",
+          "author": "niveusluna",
+          "searchJob": "colorado",
+          "text": "One of the biggest differentiators is the sauce. Texas BBQ sauce (in my opinion, \"good\" bbq sauce) is heavy on the flavor that makes it bbq sauce and uses tomato paste as the base (same as ketchup). Colorado BBQ sauce is Honey BBQ. Nothing "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100585575992410462",
+          "author": "gary_brode",
+          "searchJob": "colorado",
+          "text": "Should YOU Use Bitcoin as a Currency: The answer to whether you should use Bitcoin as a currency depends entirely on where you live and your personal financial circumstances. I’ve seen “Bitcoin accepted here” signs in the Philippines, Vietn"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100580741151113697",
+          "author": "thewelderchris",
+          "searchJob": "colorado",
+          "text": "@TruePG718 Exactly, I’m 44, and remember the utter embarrassment every year under the Wilpons. Being used by almost every FA just to get a better offer elsewhere. Losing someone like Wheeler to Philly for $100m, or Hampton to Colorado bc of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100584517136167406",
+          "author": "pailyn",
+          "searchJob": "duke",
+          "text": "Capitalism does not promise fairness in the sense of equal outcomes, and it should not pretend to. What it offers instead is the closest thing history has produced to fair process: the same rules of exchange and property applied to a duke a"
         }
       ]
     },
@@ -138,20 +379,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "class:2029: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 35,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-17T14:56:57.169Z"
+    "status rebuilt locally from current store on 2026-09-17T15:13:12.567Z"
   ]
 }
