@@ -1,10 +1,5 @@
 {
   "seenPostIds": [
-    "2085398554366161277",
-    "2085478521569177995",
-    "2085388059109908593",
-    "2085385985194340471",
-    "2085382137922884040",
     "2085394966650454280",
     "2085369292065739093",
     "2085354597045112940",
@@ -59999,17 +59994,22 @@
     "2100540360439009654",
     "2100555836481327429",
     "2100554964481286650",
-    "2100550519756386692"
+    "2100550519756386692",
+    "2100549220855959851",
+    "2100546837228761338",
+    "2100540227840258473",
+    "2100556383221698718",
+    "2100554325344837967"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-17T12:28:57.589Z",
-      "got": 58,
-      "new": 30,
-      "lag": 0.07
+      "at": "2026-09-17T12:42:05.134Z",
+      "got": 6,
+      "new": 5,
+      "lag": 0.63
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60027,7 +60027,7 @@
       "truncated": false
     },
     "auburn": {
-      "at": "2026-09-17T11:11:33.048Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 2,
       "truncated": false
@@ -60731,31 +60731,31 @@
       "truncated": false
     },
     "louisiana-monroe": {
-      "at": "2026-09-17T10:56:46.622Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "louisiana-tech": {
-      "at": "2026-09-17T10:56:46.622Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "marshall": {
-      "at": "2026-09-17T10:56:46.622Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 3,
       "truncated": false
     },
     "massachusetts": {
-      "at": "2026-09-17T10:56:46.622Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 1,
       "truncated": false
     },
     "memphis": {
-      "at": "2026-09-17T10:56:46.622Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -60821,7 +60821,7 @@
       "truncated": false
     },
     "old-dominion": {
-      "at": "2026-09-17T10:56:46.622Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -60953,7 +60953,7 @@
       "truncated": false
     },
     "western-michigan": {
-      "at": "2026-09-17T10:56:46.622Z",
+      "at": "2026-09-17T12:41:29.486Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -61095,11 +61095,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-17T12:28:57.590Z",
+    "at": "2026-09-17T12:42:05.135Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 8,
+    "requests": 9,
+    "fullSweepCycles": 21
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61119,246 +61119,67 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-17T12:27:16.051Z",
+    "at": "2026-09-17T12:41:29.463Z",
     "mode": "live",
     "collection": {
-      "returned": 58,
-      "kept": 30,
-      "duplicate": 28,
+      "returned": 6,
+      "kept": 5,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 11,
+      "accepted": 2,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 7,
-        "no_fbs_school": 4
+        "no_fbs_school": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2100555746073084082",
-          "author": "bskimike22802",
-          "searchJob": "ohio",
-          "text": "https://t.co/uxZawvwkhL"
+          "reason": "no_fbs_school",
+          "postId": "2100549220855959851",
+          "author": "marshchapman9",
+          "searchJob": "marshall",
+          "text": "@AzorcanGlobal Helley won’t waive for Edmonton and even if he did I think the Jets would rather keep him suspended than take this offer lol"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2100561521994568013",
-          "author": "steelcat79",
-          "searchJob": "washington",
-          "text": "@mattvanswol It’s a complete joke!!! We’d be better offer without any of these clowns in Washington!!!"
+          "postId": "2100540227840258473",
+          "author": "i_am_marshall_m",
+          "searchJob": "marshall",
+          "text": "@1965_g @FingazLive It’s there and stable, banks offer ZiG , USD , GBP , ZAR and now CHY"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2100561153965576551",
-          "author": "asmacarthur",
-          "searchJob": "washington",
-          "text": "@FedericoBarrioL @kohantoys eh, The Founding Fathers offered George Washington a Kingship &amp; he turned it down."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100559587514470481",
-          "author": "jeramykitchen",
-          "searchJob": "washington",
-          "text": "Today, on Constitution Day, we remember a principle our politics too often forgets: Government exists to secure our rights, not grant them. Constitutional limits matter most when they restrain leaders we support. “We the People, Not We the "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100558964081483949",
-          "author": "roqqupay",
-          "searchJob": "washington",
-          "text": "Lots of traders don’t realize how much interest rates can shape the market. Here’s what you need to know about the FOMC. 📈 https://t.co/fQidihYVRq"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100541563227025739",
-          "author": "tickeron",
-          "searchJob": "california",
-          "text": "$LRCX https://t.co/qpQaEsaWnK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100555678553133256",
-          "author": "skyglass12",
-          "searchJob": "air-force",
-          "text": "LOCKHEED'S NEW F-16G OFFER Lockheed Martin proposes the F-16G, an advanced upgrade to the Block 70, aiming to modernize the USAF's aging F-16 fleet faster while the F-35 ramp-up continues. https://t.co/36zBhGqDC3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100542969220595738",
-          "author": "staronline",
-          "searchJob": "air-force",
-          "text": "Zahid said the assistance would also include three helicopters and 52 officers and personnel from Nadma, Malaysian Maritime Enforcement Agency (MMEA) and Royal Malaysian Air Force (RMAF). https://t.co/lXRrQtYGia"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100540360439009654",
-          "author": "hq_afmc",
-          "searchJob": "air-force",
-          "text": "📈Modernizing affordably! #SecAF Meink said the @usairforce and @USSpaceForce must confront and defeat rapidly changing, AI-enabled threats while navigating a budget process built for a different pace of warfare. #readiness #modernize https"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100555836481327429",
-          "author": "jimarcidiacono",
-          "searchJob": "delaware",
-          "text": "NEXT MOVE MILITARY 🇺🇸 Buying with a VA loan this fall? The 5-step timeline 👇 1️⃣ Get your COE (proves eligibility) 2️⃣ Pre-approval with a VA-savvy lender 3️⃣ Find an agent who knows VA (that's us) 4️⃣ House hunt + offer — $0 down, no PM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100550519756386692",
-          "author": "cleanspark_inc",
-          "searchJob": "delaware",
-          "text": "https://t.co/Wg1NlJL7RZ"
+          "reason": "hard_negative",
+          "postId": "2100554325344837967",
+          "author": "jdsmith31smith",
+          "searchJob": "auburn",
+          "text": "Thompson 2028 DB Eli King @EliKing_1_ to visit Alabama for Florida State game. King holds offers from Auburn, Georgia, Florida, Indiana and others. https://t.co/nkCUNtGiKK"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 2,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 14,
-        "reporter_missing_player_name": 1,
-        "reporter_missing_position": 1
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100546042022285688",
-          "author": "farmerstrend",
-          "searchJob": "kent-state",
-          "text": "𝗠𝗔𝗡𝗚𝗢 𝗚𝗥𝗢𝗪𝗘𝗥𝗦, 𝗣𝗔𝗬 𝗖𝗟𝗢𝗦𝗘 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗗𝗨𝗥𝗜𝗡𝗚 𝗙𝗟𝗢𝗪𝗘𝗥𝗜𝗡𝗚! The flowering stage is one of the most important periods in mango production. It is also a stage when farmers need to pay close attention to ir"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100557323202597290",
-          "author": "wvukim",
-          "searchJob": "ohio",
-          "text": "If you're asking from a financial standpoint: state treasuries buy them because they are secure sovereign debt options that yield higher interest rates than standard U.S. bonds, meaning more money back for state portfolios. it’s done simply"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100546837228761338",
+          "author": "luialtt",
+          "searchJob": "marshall",
+          "text": "@Moutial_ Marshall main example, imagine if he was as bad as Sesko was yesterday? He got called the n word just for missing a goal against Leipzig. At least he made us play better, Sesko offers nothing if he doesn’t score."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100555406808343024",
-          "author": "beaconjournal",
-          "searchJob": "ohio",
-          "text": "Didn't win Powerball or Mega Millions? The Ohio Lottery offers several games paying out daily. Read on to see yesterday's numbers. https://t.co/iEfk4Mewq8"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100543591424680187",
-          "author": "stevehammactor",
-          "searchJob": "ohio",
-          "text": "Good Thursday morning #Xverse 😎☕️ The weekend is almost here… 71° with a 70% chance of light rain in N Ohio. Yesterday was a productive one: 🏡 Lorain listing UNDER CONTRACT 📝 New buyer client moving forward with an offer 🤝 Networking al"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100543893393543627",
-          "author": "just_a_fred",
-          "searchJob": "tulsa",
-          "text": "If it was easy, everyone would do it. Found this on Facebook. 𝗟𝗢𝗖𝗔𝗟 𝗪𝗢𝗠𝗔𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗟𝗬 𝗕𝗥𝗢𝗞𝗘𝗡 𝗔𝗙𝗧𝗘𝗥 𝗙𝗢𝗨𝗥 𝗗𝗔𝗬𝗦 𝗢𝗙 𝗦𝗘𝗟𝗟𝗜𝗡𝗚 𝗖𝗢𝗙𝗙𝗘𝗘 𝗧𝗔𝗕𝗟𝗘 𝗢𝗡 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗠𝗔𝗥𝗞𝗘𝗧𝗣𝗟𝗔𝗖𝗘 𝗦𝗛"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100559163529035786",
-          "author": "jwerner247",
-          "searchJob": "class:2029",
-          "text": "2029 DL Carson Sloan (CarsonSloan2029) already has Big Ten suitors, and #illini officially joined the fray with an offer during his gameday visit to Champaign last week. \"It's close to home and a good Big Ten football team that interests me"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100557548004741303",
-          "author": "erickendrick_",
-          "searchJob": "washington",
-          "text": "@The_Oddsmaker I was offered Josh Allen and Kincade for Deebo, Lawrence, and Parker Washington in .5 PPR. I have Kenneth Walker, Saquon, Etienne, Olave, Burden, Swift, Kelce, Pittman, DK, and Downs"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100554956919152743",
-          "author": "specter_affairs",
-          "searchJob": "washington",
-          "text": "🇰🇵 | \"Only Idiots\" expect DPRK to surrender nuclear weapons: Kim Yo-jong. The DPRK reaffirms nuclear sovereignty amid US-coordinated regional escalation. Kim Yo-jong, senior official of the Democratic People's Republic of Korea and sister"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100552848962367509",
-          "author": "usainspotlight",
-          "searchJob": "washington",
-          "text": "U.S. prosecutors allege Russian intelligence operatives offered $40,000 to recruit a killer targeting a Kremlin critic in Washington, D.C. The alleged plot was part of a broader network targeting Russian dissidents and infrastructure abroad"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2100552591918743700",
-          "author": "muzirajohnson",
-          "searchJob": "washington",
-          "text": "The Leader of the Opposition @PierrePoilievre claims the Prime Minister @MarkJCarney can't get his story straight, but it's Mr. Poilievre who owes Canadians clarity. He accuses the government of surrendering sovereignty, yet he can't point "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100549565791232396",
-          "author": "alexgfu",
-          "searchJob": "washington",
-          "text": "\"Iran’s next move is unlikely to be a clean surrender or a dramatic new offensive. The more probable path is a dual track. Hard public line (standing tall, showing no signs of weakness) + quieter bargaining: Security officials (Mohsen Rezae"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100544135375560739",
-          "author": "pauljheer",
-          "searchJob": "washington",
-          "text": "@niubi Center warns that \"Beijing could feign seriousness, float a hollow offer, then pin blame for its failure on the United States.\" But his article actually sets the stage for Washington to feign seriousness, float a hollow offer, then p"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100541086007443844",
-          "author": "sbanjevic",
-          "searchJob": "washington",
-          "text": "TRUMP JUST TURNED CANADA’S EU MOVE INTO A TRANSATLANTIC TRADE QUESTION A new trade confrontation is emerging between Washington and Brussels after European Commission President Ursula von der Leyen proposed making Canada the European Union’"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100543389460513080",
-          "author": "allanm1966",
-          "searchJob": "wisconsin",
-          "text": "@Unbranded63 California makes wine and grows olives. Wisconsin is cheese. We make our own alcohol. And maybe a step back from buying overpriced cloth won't be a bad thing. Southeast Asia can make equal-quality copies of all that shit anyway"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100561596648976393",
-          "author": "theerikhoffmann",
-          "searchJob": "california",
-          "text": "“American Idol” is leaving Hollywood for Georgia after more than two decades in California. Production company Fremantle confirmed the long-running singing competition is relocating, with talks reportedly underway for an Atlanta-area studio"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100555273202975058",
-          "author": "accidentsnearme",
-          "searchJob": "california",
-          "text": "Hayward, CA – Minor Injuries Reported in Motorcycle Accident on Interstate 880According to the California Highway Patrol, the accident transpired around 6:07 a.m. on September 16, 2026, on the southbound Interstate 880, just north of the Ha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100547266532573404",
-          "author": "paulsheppard_co",
-          "searchJob": "california",
-          "text": "I did some modeling awhile back on a software called chimera 😂. You are likely thinking of UCSF Chimera, a highly popular, interactive program used for the 3D visualization and analysis of molecular structures and related biological data. "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100549398530777246",
-          "author": "praisethesteph",
-          "searchJob": "air-force",
-          "text": "#Czechia/#Bulgaria 🇨🇿🇧🇬: Aero Vodochody (@AERO_Vodochody) is offering Bulgaria eight new L-39 Skyfox trainer aircraft to replace its aging L-39ZA Albatros fleet, four of which underwent a general overhaul and partial modernization at Ae"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2100554964481286650",
-          "author": "feathersfgspod",
-          "searchJob": "delaware",
-          "text": "2027 guard Jordan Hunter (@Jboo_gie11) has reported an offer from Delaware via his Instagram. Hunter, who is the younger brother of 2022 NBA Draft 5th overall pick Jaden Ivey, is a consensus 4-star point guard from Fairfax, VA."
+          "postId": "2100556383221698718",
+          "author": "hangzhoufeel",
+          "searchJob": "auburn",
+          "text": "What can two cities with very different histories learn from each other? Standing before artifacts dating back 5,000 years, Auburn Mayor Nancy Backus was impressed by the depth of Chinese civilization and and how it offers a different persp"
         }
       ]
     },
@@ -61366,22 +61187,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 8,
+      "failed": 1,
+      "requests": 9,
+      "errors": [
+        "minnesota: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 30,
-    "decided": 30,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
