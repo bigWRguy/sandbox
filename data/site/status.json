@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:44:08.731Z",
+  "generatedAt": "2026-09-17T14:56:57.167Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-17T14:44:08.286Z",
+    "at": "2026-09-17T14:56:56.933Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 4,
+    "requests": 5,
+    "fullSweepCycles": 41
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,30 +32,46 @@
   },
   "staleSchools": [
     {
-      "id": "texas-tech",
-      "hours": 2.5
-    },
-    {
-      "id": "tulsa",
+      "id": "auburn",
       "hours": 2.3
     },
     {
-      "id": "washington",
+      "id": "louisiana-monroe",
       "hours": 2.3
     },
     {
-      "id": "wyoming",
+      "id": "louisiana-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "marshall",
+      "hours": 2.3
+    },
+    {
+      "id": "massachusetts",
+      "hours": 2.3
+    },
+    {
+      "id": "memphis",
+      "hours": 2.3
+    },
+    {
+      "id": "old-dominion",
+      "hours": 2.3
+    },
+    {
+      "id": "western-michigan",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.7953516666666667,
-    "p95Hours": 2.0442347222222224,
-    "worstHours": 2.5447755555555553
+    "medianHours": 1.008806111111111,
+    "p95Hours": 2.257688888888889,
+    "worstHours": 2.2576891666666667
   },
   "decisionCoverage": {
-    "total": 82,
-    "decided": 82,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -64,7 +80,7 @@
   "profileResolution": {
     "cached": 56
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 1351,
     "incompleteOffers": 0
@@ -72,380 +88,49 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-17T14:44:08.286Z",
-      "got": 129,
-      "new": 82,
-      "lag": 0.04
+      "at": "2026-09-17T14:56:56.933Z",
+      "got": 7,
+      "new": 2,
+      "lag": 0.92
     }
   },
   "audit": {
-    "at": "2026-09-17T14:42:34.678Z",
+    "at": "2026-09-17T14:56:34.571Z",
     "mode": "live",
     "collection": {
-      "returned": 129,
-      "kept": 82,
-      "duplicate": 47,
+      "returned": 7,
+      "kept": 2,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 45,
-      "rejected": 37,
-      "reasons": {
-        "no_fbs_school": 17,
-        "no_offer_term": 17,
-        "hard_negative": 2,
-        "non_fbs_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100585114417738235",
-          "author": "stcgeorgia",
-          "searchJob": "texas-tech",
-          "text": "Governor Kemp issues proclamation recognizing Adult Education &amp; Family Literacy Week Over 40,000 people access Adult Ed services in Ga each year. STC's Adult Ed program offers high school equivalency &amp; more. Invest in yourself! http"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100584859769172157",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal $498.99 ] EF-DL3-C | DELTA 3 Classic + Solar Charge Cable EF ECOFLOW Delta 3 Classic Portable Power Station, DELTA 3 Classic+ Solar Cable 199632005375 [ad] - now at $498.99 — 18% off the $609.00 list price. https://t.co/CJu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100584634711146839",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal $259.99 ] SM-L320NDAQXAA Samsung Galaxy Watch 8 Bluetooth Smartwatch, Graphite, 40mm, Watch8 198957218552 [ad] - now at $259.99 — 13% off the $299.99 list price. https://t.co/LdumIhmFCK Samsung Galaxy Watch 8 (2025), Graphi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100578465636307110",
-          "author": "positivfuturist",
-          "searchJob": "texas-tech",
-          "text": "Effective altruism is just \"from each according to his ability\" but with a spreadsheet."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100583514689491217",
-          "author": "wallstengine",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/CLZQdTZOuS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100582555317608950",
-          "author": "lxkus",
-          "searchJob": "texas-tech",
-          "text": "My time at Morph has come to a close. Time to be the full-time commissioner of my fantasy football league. My reflections below. ↓ https://t.co/Uh7MZ8AmLk"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100578479313969226",
-          "author": "grokprotips",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/DphUVDKUjo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100578017944727865",
-          "author": "rm_repair_serv",
-          "searchJob": "texas-tech",
-          "text": "🔐Your Business. Your Security. Our Solution. RM Skytech offers complete enterprise security solutions Protect your business with reliable security systems and professional support. #RMSkytech #CCTV #SecuritySolutions #BusinessSecurity #Sur"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100592374384832884",
-          "author": "huawei",
-          "searchJob": "class:2026",
-          "text": "https://t.co/BCeVr6GBpj"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100588535439135051",
-          "author": "huts_richie",
-          "searchJob": "class:2026",
-          "text": "TheyleveragepredictiveAIrealtimezoningoverlaysandautomatedunderwritingtospothighyieldproperties #PropTech #DataVisualization #RealEstateTech #PredictiveAnalytics #SmartCities https://t.co/44JeyeUVUY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100579411682861184",
-          "author": "indiatvnews",
-          "searchJob": "class:2026",
-          "text": "19,000 रुपये सस्ता मिल रहा Motorola Edge 70 Fusion, Flipkart पर दमदार ऑफर https://t.co/MaaV52YSxS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100567174486143238",
-          "author": "wnme001",
-          "searchJob": "class:2026",
-          "text": "https://t.co/oy0PnwDh0c"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100559087750816149",
-          "author": "0xhakai_",
-          "searchJob": "class:2026",
-          "text": "+$1B in staked HYPE 82% of Hyperliquid's LST a DEX growing more tickers soon an L2 on the way $55M market cap https://t.co/9kmFffosFl"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100593859130482972",
-          "author": "przviccastillo",
-          "searchJob": "class:2028",
-          "text": "‼️COLLEGE COACHES‼️UNOFFERED 2028‼️ @LarryBrown_jr - 6'6, 220 pounds, TE/EDGE at La Salle College HS. I've been pounding the table here since his time at Penn Charter. Huge OVERSIGHT here, this is a must-offer prospect TODAY. Ranked high on"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100596080983376205",
-          "author": "amazonnews",
-          "searchJob": "washington",
-          "text": "https://t.co/ddqwYZQRpk"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100591419152842860",
-          "author": "alvincowan",
-          "searchJob": "washington",
-          "text": "Every person has one story only they can tell. Most die with them. Last week Glen Powell kissed a stranger's baby on College Game Day - and gave that mother a story she will tell the rest of her life. It made me go looking for mine. I found"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100588994488566001",
-          "author": "willwarden147",
-          "searchJob": "washington",
-          "text": "Fox Hourly anime brief: DOJ says Russian intel operatives allegedly offered $40K for a murder-for-hire hit on a Kremlin critic in Washington, D.C. — five charged, still at large. https://t.co/9ikK0jydeC https://t.co/R2WdSN6Ak7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100587017323041136",
-          "author": "juliusrwash",
-          "searchJob": "washington",
-          "text": "@madiweb3 “How to make money if you’re not a crypto degen” is a good hook. Bundle one service into a clear offer with proof, price range, and a first-client path. Happy to connect."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100585477279478117",
-          "author": "juliusrwash",
-          "searchJob": "washington",
-          "text": "@olegcoada “One logo. One slot. Highest offer gets the next slot.” is a sharp mechanic. Publish the winning brief and final outcome so the market learns what the bid actually bought. Glad to connect."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100560657326186582",
-          "author": "marionawfal",
-          "searchJob": "washington",
-          "text": "🚨🇮🇷🇨🇳🇸🇦🇾🇪 BREAKING: China has reportedly asked Iran, privately, to help rein in Yemen's Houthis, after Riyadh appealed to Beijing. Saudi sought out China's help after the Houthis made rapid advances along the Red Sea coast this pas"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100577432935821437",
-          "author": "anderson_l15005",
-          "searchJob": "wisconsin",
-          "text": "@Unbranded63 And I can live without everyone of them. Blue jeans are my high fashion , Wisconsin cheese, don't drink, drive an American car ( corvette ), the USA has everything to offer for travel . I ABSOLUTELY LOVE MY COUNTRY AND HAVE NO "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100575153683861992",
-          "author": "wi_city_",
-          "searchJob": "wisconsin",
-          "text": "Congratulations to 2027 guard @jasmenklika23 on receiving an offer from @MuskiesWBB following her visit to Lakeland University! #GoCity 🏀 https://t.co/gM0X4RgDgR"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100595901840408651",
-          "author": "devc33jay",
-          "searchJob": "arizona",
-          "text": "@rik22ky @devsyntaxdev You gats run cold DM, target foreign market, look for remote areas in USA using Google Maps, Arizona, Maine not areas that are industrialized, run website test and check with Claude for those that have then offer a re"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2100584244347097506",
-          "author": "james315389",
-          "searchJob": "arizona",
-          "text": "He had once mentioned, in passing, that some of his real estate deals involved “creative financing” and “under-the-table arrangements” that allowed him to move money quickly without triggering federal reporting requirements. Michael, the fe"
-        }
-      ]
+      "accepted": 2,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 45,
+      "rejected": 2,
       "reasons": {
-        "school_not_resolved_confidently": 13,
-        "bare_mention_requires_llm": 24,
-        "unresolved_offer_target": 3,
-        "multiple_resolved_schools": 5
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100585165814714727",
-          "author": "eddie_mann76309",
-          "searchJob": "texas-tech",
-          "text": "@wallstengine That G6 is such a joke.. such a lousy car. Has nothing to offer for real drivers. Only tech, maybe.. but it's just toys. Chinese junk."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100584918472688094",
-          "author": "d_o_m_a_i_n_s",
-          "searchJob": "texas-tech",
-          "text": "🔄 https://t.co/HEdU2VzYyL — Premium .COM Loop + Add — a versatile name for products built around adding, connecting, repeating and improving workflows. Perfect for: 🔄 Automation — add steps to automated workflows 🤖 AI Agents — connect ag"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100584191800852600",
-          "author": "smspirate",
-          "searchJob": "texas-tech",
-          "text": "I used to work at one of those exclusive agencies. I created tech stuff for the employment industry.... And that is why I've offered to help y'all. Its a loaded against you industry and you have enough stuff without that essential thing bec"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100583977774174621",
-          "author": "nayancodes",
-          "searchJob": "texas-tech",
-          "text": "@shub0414 Many emerging tech fields offer similar opportunities. Look at biotech or advanced materials."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100583737834549719",
-          "author": "swenroschlau",
-          "searchJob": "texas-tech",
-          "text": "And funnily, sci-tech capitalism - and only sci-tech capitalism - delivers on the promises of socialism: \"each according to his ability\" - you offer your skills, products, services on the market and get paid; \"each according to his needs\" -"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100581674018898345",
-          "author": "applyboard",
-          "searchJob": "texas-tech",
-          "text": "If you come from an IT or tech background and are looking to take your education further, explore Westcliff University and its technology-focused study options. From building your technical knowledge to developing skills relevant to today’s"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100580585412387295",
-          "author": "terionbhavin",
-          "searchJob": "texas-tech",
-          "text": "Good morning, friends. This is precisely the underlying logic behind our decision to go long yesterday: when the market prices in every conceivable piece of bad news, yet prices demonstrate resilient elasticity after a thorough washout of \""
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100580582300463195",
-          "author": "theodore_stock",
-          "searchJob": "texas-tech",
-          "text": "Good morning, friends. This is precisely the underlying logic behind our decision to go long yesterday: when the market prices in every conceivable piece of bad news, yet prices demonstrate resilient elasticity after a thorough washout of \""
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100580558514565586",
-          "author": "benjamin_stock0",
-          "searchJob": "texas-tech",
-          "text": "Good morning, friends. This is precisely the underlying logic behind our decision to go long yesterday: when the market prices in every conceivable piece of bad news, yet prices demonstrate resilient elasticity after a thorough washout of \""
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100585994139382195",
+          "author": "greencopsych",
+          "searchJob": "tulsa",
+          "text": "Healing starts when you feel seen and supported. Green Country Psychology offers compassionate therapy in Tulsa with no pressure. Start here. Start your fall with caring support. https://t.co/X11IEqCXiy https://t.co/V2Cy8POjPB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100580403950285100",
-          "author": "aprajitanefes",
-          "searchJob": "texas-tech",
-          "text": "🎭 Nigel Farage: There is indeed a clear chain woven from money, ideology, and political opportunism, connecting British far-right agitators like Farage, Robinson, and Hopkins with Israeli interest groups. Their anti-Muslim rhetoric is not "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100578961289793576",
-          "author": "sabi_scholar",
-          "searchJob": "texas-tech",
-          "text": "🚀 South African graduates, your next career move could start here! NTT DATA’s Young Talent Graduate Programme 2027 offers a launchpad into tech and professional career growth. Apply: https://t.co/Q7edW7HUGw #AbSSabiScholar https://t.co/ZB6"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100578042574000221",
-          "author": "namefi_io",
-          "searchJob": "texas-tech",
-          "text": "Why these stand out 1. https://t.co/EbcuPxfGJB - Fits AI tools, apps, and compact brand identities. - 3-letter .ai plus BIN: $8,999 supports premium resale positioning. 2. https://t.co/YVRlOQvisD - Natural fit for cybersecurity SaaS, servic"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2100590598335967691",
-          "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "🚨 First D1 Offer 🚨 2028 TE Orion Leautu from Springdale HS, AR has received his first D1 offer from Duke. @orionleautu https://t.co/jApgzAiAUn"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2100588081849978970",
-          "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "🚨 First D1 Offer 🚨 2028 TE Ty Kennedy from Mount Carmel HS, IL has received his first D1 offer from San Diego State. @tykennedy777 https://t.co/XCNBlt5qTh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100596035437347311",
-          "author": "globalsurv",
-          "searchJob": "washington",
-          "text": "🇨🇳🇮🇷🇸🇦🇾🇪CHINA Asks IRAN to Calm Down The Houthis in Yemen following Saudi Arabia request. Saudi first asked US military assistance to strike Houthis but Washington turned down the request and offered intelligence instead. The kingdo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100594284068065368",
-          "author": "sitespecs",
-          "searchJob": "washington",
-          "text": "A new house sits on 40 acres in the Wenatchee Valley, and they did the landscaping themselves. IBHS calls for 0 to 5 feet of noncombustible ground around the home, a designation Washington now offers, not a Wenatchee code requirement. Bark "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100591845399011591",
-          "author": "ali_yunnis11",
-          "searchJob": "washington",
-          "text": "Hii, I got 3 spare tickets to Olivia Rodrigo concert for (Sat, Oct 03) at Capital One Arena • Washington, DC Giving them for face value or best offer DM IF INTERESTED wts wtb iso wtt."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100588953116020810",
-          "author": "ahmedmmusa3",
-          "searchJob": "washington",
-          "text": "Clarification on Joshua Meservey’s i24NEWS Interview A short clip from Joshua Meservey’s i24NEWS interview, “Why Somaliland Wants US Recognition” (17 September 2026), has been taken out of context to give the impression that Meservey descri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100588951320817977",
-          "author": "yorgosntrahas",
-          "searchJob": "washington",
-          "text": "Global 🌍⚔️🛢️ 🇨🇦🇪🇺🇺🇸 Spanish PM Sánchez put a maple leaf on the EU flag after von der Leyen offered Canada “associate member” status and Mark Carney welcomed a deeper alliance. Trump called it hostile and threatened to “stop trading "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100588195918528829",
-          "author": "ssthawdreserve",
-          "searchJob": "washington",
-          "text": "PART 2 OF 2 CONTEXT MATTERS The answer now being widely circulated came from a different question. Meservey was asked why the United States and other countries had not followed Israel in recognizing Somaliland. His answer addressed Somalila"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100585924232876424",
-          "author": "washcowisco",
-          "searchJob": "washington",
-          "text": "Overwhelmed by family stress? You don't have to navigate it alone. The Family Services Coordinator Program offers free, voluntary support to help Washington County families build a path forward. The case manager will collaborate with you to"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100585568245784596",
-          "author": "indyadulted",
-          "searchJob": "washington",
-          "text": "Washington Township Adult Education offers various programs for adults in Marion and Hamilton County. Visit our website to learn more about our programs. https://t.co/byMU5iffRh #indyadulted #moveaheadwithadulted https://t.co/ZGupEMUH1i"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100585037120893265",
-          "author": "chaoslensx",
-          "searchJob": "washington",
-          "text": "Canada just applied to join Britain’s Joint Expeditionary Force. Mark Carney put it on paper after sitting with Andy Burnham in the north of England. Ten NATO states already sit in that club. It is a rapid-response pack, not a second Allian"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100583702506226011",
-          "author": "bothside_e",
-          "searchJob": "washington",
-          "text": "🚨 CHINA PRIVATELY URGES IRAN TO RESTRAIN YEMEN'S HOUTHIS. September 17, 2026 (TODAY - China's private diplomacy): **CHINA'S PRIVATE REQUEST (To Iran):** ✅ China privately urged Iran to rein in Houthis ✅ Request LACKS any threats (diplomati"
+          "postId": "2100577822188413256",
+          "author": "morpheu5watcher",
+          "searchJob": "tulsa",
+          "text": "COMCAST $CMCSA FELL 6.6% ON ONE SENTENCE ABOUT ONE QUARTER: Comcast, ticker CMCSA, at $23.93 (premarket), +$0.20 / +0.84% from Wednesday's $23.73 close. Second of fifty-five on the Quality-Value Len5. The Philadelphia company sells Xfinity "
         }
       ]
     },
@@ -453,18 +138,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 4,
+      "failed": 1,
+      "requests": 5,
+      "errors": [
+        "class:2029: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 45,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-17T14:44:08.732Z"
+    "status rebuilt locally from current store on 2026-09-17T14:56:57.169Z"
   ]
 }
