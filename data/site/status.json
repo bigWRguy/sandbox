@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T00:56:48.805Z",
+  "generatedAt": "2026-09-18T01:12:51.335Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-18T00:56:48.569Z",
+    "at": "2026-09-18T01:12:50.972Z",
     "jobsTotal": 162,
-    "sweptThisRun": 6,
-    "requests": 7,
-    "fullSweepCycles": 27
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,263 +32,419 @@
   },
   "staleSchools": [
     {
-      "id": "florida-international",
-      "hours": 2.5
-    },
-    {
-      "id": "fresno-state",
-      "hours": 2.5
-    },
-    {
-      "id": "georgia-state",
-      "hours": 2.5
-    },
-    {
-      "id": "southern-miss",
-      "hours": 2.5
-    },
-    {
-      "id": "temple",
-      "hours": 2.5
-    },
-    {
-      "id": "uab",
-      "hours": 2.5
-    },
-    {
-      "id": "alabama",
-      "hours": 2.2
-    },
-    {
-      "id": "auburn",
-      "hours": 2.2
-    },
-    {
-      "id": "boise-state",
-      "hours": 2.2
-    },
-    {
-      "id": "buffalo",
-      "hours": 2.2
-    },
-    {
-      "id": "colorado",
-      "hours": 2.2
-    },
-    {
-      "id": "duke",
-      "hours": 2.2
-    },
-    {
-      "id": "florida-state",
-      "hours": 2.2
-    },
-    {
-      "id": "georgia-southern",
-      "hours": 2.2
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.2
-    },
-    {
-      "id": "minnesota",
-      "hours": 2.2
-    },
-    {
-      "id": "mississippi-state",
-      "hours": 2.2
-    },
-    {
-      "id": "missouri",
-      "hours": 2.2
-    },
-    {
-      "id": "nebraska",
-      "hours": 2.2
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.2
-    },
-    {
       "id": "new-mexico-state",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "texas-tech",
-      "hours": 2.2
-    },
-    {
-      "id": "ucf",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "unlv",
-      "hours": 2.2
-    },
-    {
-      "id": "utah",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "utah-state",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "utep",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
-      "id": "virginia",
-      "hours": 2.2
+      "id": "jacksonville-state",
+      "hours": 2.3
+    },
+    {
+      "id": "north-texas",
+      "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.4980572222222222,
-    "p95Hours": 2.244022222222222,
-    "worstHours": 2.5075905555555558
+    "medianHours": 1.2747397222222223,
+    "p95Hours": 2.0497783333333333,
+    "worstHours": 2.5113916666666665
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 68,
+    "decided": 68,
     "complete": true
   },
   "pending": {
     "total": 83
   },
   "profileResolution": {
-    "cached": 56
+    "cached": 57
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1397,
+    "completeOffers": 1399,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-18T00:56:48.568Z",
-      "got": 30,
-      "new": 12,
-      "lag": 0.67
+      "at": "2026-09-18T01:12:50.971Z",
+      "got": 99,
+      "new": 68,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-18T00:56:20.970Z",
+    "at": "2026-09-18T01:11:24.025Z",
     "mode": "live",
     "collection": {
-      "returned": 30,
-      "kept": 12,
-      "duplicate": 18,
+      "returned": 99,
+      "kept": 68,
+      "duplicate": 31,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 8,
+      "accepted": 46,
+      "rejected": 22,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 2,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 1
+        "hard_negative": 3,
+        "no_offer_term": 7,
+        "no_fbs_school": 11,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2100752270161842620",
+          "author": "chadsimmons_",
+          "searchJob": "alabama",
+          "text": "Florida is the latest to offer 2030 DL @AmarieTrammell of @OrangeBeachFB. 6-6/285 - a freshman. Alabama, Auburn and others have already offered. https://t.co/OYQShh2mWB https://t.co/16mh3hrxPj"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2100717828173156497",
-          "author": "madden_fieldssc",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive Trench Saint of the Week. The work put in on non-game days, at practice, and in the film room doesn’t go unnoticed. Grateful for this recognition and motivated to keep working!🔥 @RoyThompsonFB @CoachFantuzzi @CoachWarehi"
+          "postId": "2100736718563668048",
+          "author": "hotbets365",
+          "searchJob": "alabama",
+          "text": "https://t.co/bjURTDpzSe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100720679712698580",
+          "author": "rodgeau",
+          "searchJob": "auburn",
+          "text": "Kiffin wanted Finebaum to endorse him for Alabama job but Saban blocked it: ‘I turned down Auburn for this’ https://t.co/oq5QCyZk9z"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2100717178479595592",
-          "author": "tug_eggleton",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer to continue my academic and baseball career at Fredonia State University! Thank you Coach Jagoda and the Fredonia State Baseball staff for this opportunity! https://t.co/ryfW4QqIlX"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2100715767796744194",
-          "author": "alvin54holland",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Norfolk state university @Coach_TimSmith @NSUSpartans @ChadSimmons_ @RyanSnyderOn3 @BrianDohn247 https://t.co/MpiJzPa2KQ"
+          "postId": "2100721087642321286",
+          "author": "auburneinstein",
+          "searchJob": "auburn",
+          "text": "@EverythingGata @whynotflorida So negotiations broke down. Because an offer wasn’t made. Like I said before."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2100713780703367178",
-          "author": "jx_ic_ee",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my second offer from Bethany! @sirtrich @WGHFootball @DavidBaugh_02 @OhiosElite1 @neohiohsfb @Mark__Porter https://t.co/uJKA2Bei11"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100712536936956253",
-          "author": "bradylee2029",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a game day invite from @Chapman_Fb! Thank you to @chapmanfbshine! 🐾 @SLC_Recruiting @coachwetzel_ @CoachRazloznik @leemunn87 @CarrollDragonFB https://t.co/z21mswFn9f"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100710776835047696",
-          "author": "tahjshedricktx",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After great conversations with Coach Huffman I am blessed to receive my 4th official 🅾️ffer from @AndersonU #patienceiskey #blessed @arman_paige https://t.co/FiqGEJrkQC"
+          "postId": "2100749256684671255",
+          "author": "tommherman",
+          "searchJob": "minnesota",
+          "text": "@JosephFordCotto No American wants Canada to become a 51st state, we couldn’t afford it. We would take Alberta if offered."
         },
         {
           "reason": "hard_negative",
-          "postId": "2100715948609089776",
-          "author": "neiladlersu",
-          "searchJob": "syracuse",
-          "text": "Hamilton and Skipworth both held offers from the former SU staff, and the new Syracuse staff remains in contact with the elite 2028 wings."
+          "postId": "2100753277281329535",
+          "author": "pokeokc",
+          "searchJob": "missouri",
+          "text": "Oklahoma State offers C/O 2028 ⭐️⭐️⭐️ OT Gerrit DeWaard Malcolm HS | Malcolm, NE DeWaard holds additional offers from Georgia Tech, Iowa State, Kansas State, Missouri and several others. #GoPokes 🤠"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100743381366329461",
+          "author": "barstoolsandarm",
+          "searchJob": "missouri",
+          "text": "Rest in Peace, good boy. George G. Vest EULOGY OF THE DOG September 23, 1870 (Warrensburg, Missouri) \"Gentlemen of the jury. The best friend a man has in the world may turn against him and become his enemy. His son or daughter whom he has r"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100717740717756729",
+          "author": "darkwebinformer",
+          "searchJob": "missouri",
+          "text": "🚨🇺🇸 [ACCESS] Macks Creek Police Department access allegedly offered for sale ⠀ The Macks Creek Police Department is a local law enforcement agency serving Macks Creek, Missouri. ⠀ A forum actor using the handle \"clay\" claims to be sellin"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100734976106938786",
+          "author": "thot_summers",
+          "searchJob": "duke",
+          "text": "Zack Snyder’s Escape From New York The setup is still basically Escape From New York: Manhattan has become a sealed prison zone, the President’s aircraft goes down inside it, and Snake Plissken is blackmailed into extracting him before a de"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2100713390217830534",
-          "author": "loudhousefs",
-          "searchJob": "syracuse",
-          "text": "The Syracuse basketball staff was recently on hand at an open gym at the juggernaut Montverde Academy to see 2028 five-star wings Isaiah Hamilton, who is from Canada, and Xavier Skipworth, who is from the DMV, a source tells our @NeilAdlerS"
+          "postId": "2100754175361429686",
+          "author": "grandmasweb",
+          "searchJob": "texas-tech",
+          "text": "Ursula von der Leyen wants closer cooperation on tech, defense &amp; energy with Canada &amp; possibly other nations. She's worried about democracies facing a “fracture in the international rules-based system” &amp; Trump is pissed at Canad"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100736726436311282",
+          "author": "techradar",
+          "searchJob": "texas-tech",
+          "text": "US carmakers could soon have to offer AM radio for free in new vehicles, according to new legislation https://t.co/BDYNhI0iRX"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100736671201603814",
+          "author": "prady_shen",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/hAb7D5uhmd"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100736353616966023",
+          "author": "domainmaster",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/Ymm0yrEc5G"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100733624240742734",
+          "author": "number2ballin",
+          "searchJob": "texas-tech",
+          "text": "@Prophet_Logic17 @ShamsCharania If he was more coachable he’d have gotten an extension from either of his last two teams or a big offer this summer."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100642432035483701",
+          "author": "chrisbrunet",
+          "searchJob": "texas-tech",
+          "text": "Virginia Tech (@virginia_tech) has just filed a notice of intent to hire an H-1B “Rotating Intern” Salary: $54,000 No American citizen was qualified for this job. https://t.co/vhPKJ1B1Zv"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2100717380016218119",
+          "author": "samlesueur",
+          "searchJob": "utah",
+          "text": "Utah commit Jaden Bibbs has been having a huge senior season at Coppell. Bibbs has elite speed and has been making plays all over the field for the Cowboys. He held 26 offers before committing to the Utes and is one of the highest-rated rec"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100746220562153524",
+          "author": "virginiath26",
+          "searchJob": "virginia",
+          "text": "@0DonaldTrumpJr1 Hell NO. Why post these dumb questions asking about 2028 just deal with where we ate today. Get a back Kamala Harris God she’s the next Democrat candidate. We are in a world of trouble if that’s all the dems have to offer ."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2099662230325518634",
+          "author": "bradcgz",
+          "searchJob": "virginia",
+          "text": "Barbara Olsen, was on a promotion tour for her upcoming book on the criminal Clintons when she was booked aboard the ill-fated flight 77. Here is Barbara on CSPAN just 2 days before September 11th breaking down just how dangerous Hillary ac"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100722711932596635",
+          "author": "debwarrens",
+          "searchJob": "virginia",
+          "text": "Trump has a golf course in Virginia. He has a hotdog cart near the 11th hole. He offers hotdogs to all the FBI and secret service! Than turns around and bills the FBI. He owns this course! If you can see how wrong this is VOTE!!! @realDonal"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100722685357518978",
+          "author": "josh_jacobs88",
+          "searchJob": "buffalo",
+          "text": "@BryanMicon I hate to admit it but my kids aged 6-11 all love and play the game. I dont think im smart enough to set this up for them though, do you offer training?"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2100753108439814344",
+          "author": "prepredzonenm",
+          "searchJob": "new-mexico",
+          "text": "2027 Los Lunas LB offered by Saint John's University in Collegeville, MN."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100749923042148513",
+          "author": "bradamallory",
+          "searchJob": "new-mexico",
+          "text": "After an amazing conversation with @Coach_Sais, I am beyond blessed to receive my second offer from @SJUFootball. Thank you @Coach_Sais, and the @SJUFootball for believing in me. @SJUFBJackson @CoachHerberg @SJUFBCoachDumo. @CouchPSports @L"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 4,
+      "accepted": 2,
+      "rejected": 44,
       "reasons": {
+        "bare_mention_requires_llm": 28,
+        "reporter_missing_player_name": 3,
         "multiple_resolved_schools": 2,
-        "reporter_missing_class_year": 1,
-        "bare_mention_requires_llm": 1
+        "explicit_non_fbs_target": 2,
+        "school_not_resolved_confidently": 9
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100710501609099402",
-          "author": "clutchculturetx",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "My Recruiting Story People ask me why I’m so passionate about helping athletes with recruiting. The answer is simple—I lived it. In 2007, I was blessed to receive opportunities from Mary Hardin-Baylor and Blinn College. But I was a lost you"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100747593319919943",
+          "author": "judahspencer2",
+          "searchJob": "georgia-state",
+          "text": "@nahil_perkins @DellMcGee @jwindon35 @GeorgiaStateFB @jonstephensgsu @kyanhhuynh_ @Nasir_Howell20 @BillyKommJr 6’6 200lb 2028 QB 2 D1 offers 4.0 GPA"
         },
         {
-          "reason": "reporter_missing_class_year",
-          "postId": "2100740760509333895",
-          "author": "allentrieu",
-          "searchJob": "cincinnati",
-          "text": "Cincinnati St. Xavier LB Griffin Lyons offered by Kansas State: https://t.co/iXZFn4wCBs @DerekYoungKSO @galloway__drew"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2100739713392877715",
-          "author": "cusehoopsfan",
-          "searchJob": "syracuse",
-          "text": "Fran Brown if Kyle McCord never came to Syracuse for 1/2 the money Nebraska offered him https://t.co/Q1zqJ7yEhm"
+          "reason": "reporter_missing_player_name",
+          "postId": "2100747111771869232",
+          "author": "natepemberton21",
+          "searchJob": "georgia-state",
+          "text": "Blessed to recieve my second offer from Georgia State University!! #AGTG @adam_simmons1 @_vincemartin @MattSholtis @1of1CoachHoward https://t.co/VQIHM3SWQo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100736560253763806",
-          "author": "dailyorange",
-          "searchJob": "syracuse",
-          "text": "SPONSORED | University Hill Apartments offers luxury rentals at an affordable cost for students in the Syracuse area! Over 250 apartments to choose from at https://t.co/5rO6vLg9nd #ad https://t.co/JBCJKXirvh"
+          "postId": "2100754002585759882",
+          "author": "bobkauff",
+          "searchJob": "temple",
+          "text": "Slogans like \"come for vs. come with\" collapse the moment you open 2 Thessalonians: Paul unites them in one event: In 2 Thessalonians 2:1–3, Paul specifically ties \"the coming of our Lord Jesus Christ and our gathering together to Him\" dire"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100752573733192176",
+          "author": "entsurutsuru",
+          "searchJob": "temple",
+          "text": "Yesterday, I visited Zojoji Temple in Shiba to offer incense and pay my respects. When I arrived home, a beautiful, radiant crescent moon was waiting in the night sky. With my hands together in prayer."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100726225241284799",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Ujjain, Madhya Pradesh: BJP National President Nitin Nabin offered prayers at the Mahakal Temple. https://t.co/iSXVByZITX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100725503196078334",
+          "author": "bi02247255",
+          "searchJob": "temple",
+          "text": "Here's a list of internal evidences that this event actually happened: 1. In the chapter heading, we learn that John introduced himself as: \"John, the same that is called John the Baptist in the New Testament.\" This rings true. I highly dou"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100716148404678994",
+          "author": "maximumykb8",
+          "searchJob": "temple",
+          "text": "Christian Claim #3 - DEBUNKED “ Christ did away with animal sacrifices forever so we don’t need any Temple” Nasi (נָשִׂיא) Refutation : FALSE in this Age, End Time Age, AND the next age, what I call the Edenic age, we see sacrifices after t"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100752632876847593",
+          "author": "chadsimmons_",
+          "searchJob": "alabama",
+          "text": "Alabama 2028 OL adds Georgia offer. @JeremyO_Johnson"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100729412631081421",
+          "author": "_yosemitepam",
+          "searchJob": "alabama",
+          "text": "@GriffinTear @AlabamaFTBL Enjoy that victory though. FSU gave him an extension/raise because y'all thought UA had offered him the HC position, when in reality he was never considered for the job. Jimmy Sexton made the calls looking for inte"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100739138941071507",
+          "author": "tawcreative",
+          "searchJob": "auburn",
+          "text": "There are plenty of people that wanted Lane Kiffin at Auburn. But the money men did not. From what I've been told, he did not have an Auburn offer. In 2020 or 2022."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100724634937147420",
+          "author": "amrob3rtson",
+          "searchJob": "minnesota",
+          "text": "Soinds good, but do they have the resources? I recall reading that Joe Thompson's office didn't have enough prople to prosecute all the Minnesota fraud. I couldn't find a link to that but offer this in consolation. Anyway, gas prices suck, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100720294683877565",
+          "author": "hockeyfanrandy",
+          "searchJob": "minnesota",
+          "text": "@NHLRumourReport I would take prospects and draft picks. I would not take the prospects and draft picks that Minnesota has to offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100717711068152197",
+          "author": "blockheadai",
+          "searchJob": "minnesota",
+          "text": "⚾ Minnesota Twins @ Los Angeles Angels · MLB 📊 Minnesota Twins -108 | Los Angeles Angels -106 · Spread 1.5 (home) · O/U 7.5 The Angels are significantly underperforming their underlying metrics, holding 58 wins despite a run differential t"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2100749516181836173",
+          "author": "nathanpurvis",
+          "searchJob": "mississippi-state",
+          "text": "| OFFERED | Mateen Cleaves Jr, the class of 2028 @247Sports 4⭐️ point guard from Dream City Christian (Glendale, AZ), picks up the offer from Mississippi State. #HailState https://t.co/R0OG3GC5HG"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2100736008455098865",
+          "author": "micahprice777",
+          "searchJob": "nebraska",
+          "text": "Beyond blessed to Announce I received my 23rd D1 offer from The University Of Nebraska❤️🤍🙏🏾🙏🏾 https://t.co/2T7VJfdv7T"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100717288122880422",
+          "author": "meyekonroute66",
+          "searchJob": "nebraska",
+          "text": "@AdamCarriker94 This is why I hate college football! Guys aren't at Nebraska for the tradition and education, they're here for the money and will leave whenever they are offered more. The game is dead."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100746139729277261",
+          "author": "cbsnewscolorado",
+          "searchJob": "colorado",
+          "text": "Colorado transportation experts offer advice for best leaf peeping experience https://t.co/CGtjJtXofw"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100725026827731220",
+          "author": "samholcomb_",
+          "searchJob": "colorado",
+          "text": "Thank you @CoachBox6 for the @CUBuffsFootball offer at @BrotherRiceFB practice tonight. @CoachQuedenfeld @CoachCano @QBCoachHolc @AllenTrieu @adamgorney @LemmingReport @GregSmithCFB @TomLoy247 @EDGYTIM @nextlevelqba https://t.co/HgrOYU0O3s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100717742919991380",
+          "author": "kellerraym8123",
+          "searchJob": "colorado",
+          "text": "@dmcrcy_dsrspctr If I get this job offer 2 hours away, I will be moving to an all white area. Thank goodness Colorado still has those."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100737561916289082",
+          "author": "roroyale00",
+          "searchJob": "duke",
+          "text": "@mhodg89 @Aaron_Torres Go back and look old interviews, offer news. Look at when Duke offered/ when they backed off. It was when Braylon declined to visit and right before he announced his final schools. You still didn’t address how Duke ha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100737272190533838",
+          "author": "roroyale00",
+          "searchJob": "duke",
+          "text": "@gtj24 @Aaron_Torres How is he a reject? Go back and look old interviews, offer news. Look at when Duke offered/ when they backed off. It was when Braylon declined to visit and right before he announced his final schools. You still didn’t a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100736085395419221",
+          "author": "roroyale00",
+          "searchJob": "duke",
+          "text": "@DukePropoganda @Aaron_Torres Go back and look at when Duke offered and when they backed off. It was when Braylon declined to visit. They jumped in late and Braylon said in interviews he already had his final schools by the time Duke offere"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100748842153152993",
+          "author": "logoinvestor",
+          "searchJob": "texas-tech",
+          "text": "Daily market brief incoming! **Capital Markets Brief — Thursday, Sept 17, 2026** (post-close edition) **The five things that mattered most today:** 1. **Post-Fed relief rally.** The S&P 500 rose **+1.2%**, the Nasdaq **+1.7%**, and the Dow "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2100746129960804733",
+          "author": "grahamroberto",
+          "searchJob": "texas-tech",
+          "text": "@jeremyct The employer was paying $30 per hour. No mention of quality. Parental leave? 11 * 60k = $660,000. Tech service estimate at $90,000. How much were the robotic arms? Accelerated depreciation? It's a shame. No offers to change statio"
         }
       ]
     },
@@ -296,20 +452,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "florida-international: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 44,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-18T00:56:48.806Z"
+    "status rebuilt locally from current store on 2026-09-18T01:12:51.336Z"
   ]
 }
