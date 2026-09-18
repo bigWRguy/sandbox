@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T18:57:09.434Z",
+  "generatedAt": "2026-09-18T19:13:33.730Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-18T18:57:09.204Z",
+    "at": "2026-09-18T19:13:33.370Z",
     "jobsTotal": 162,
-    "sweptThisRun": 6,
-    "requests": 7,
-    "fullSweepCycles": 27
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0076197222222223,
-    "p95Hours": 1.7591980555555555,
-    "worstHours": 2.008582777777778
+    "medianHours": 1.021333611111111,
+    "p95Hours": 1.7825025,
+    "worstHours": 2.032613611111111
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 76,
+    "decided": 76,
     "complete": true
   },
   "pending": {
@@ -47,90 +47,389 @@
   "profileResolution": {
     "cached": 57
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1444,
+    "completeOffers": 1448,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-18T18:57:09.203Z",
-      "got": 11,
-      "new": 8,
-      "lag": 0.2
+      "at": "2026-09-18T19:13:33.370Z",
+      "got": 113,
+      "new": 76,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-18T18:56:43.540Z",
+    "at": "2026-09-18T19:12:01.696Z",
     "mode": "live",
     "collection": {
-      "returned": 11,
-      "kept": 8,
-      "duplicate": 3,
+      "returned": 113,
+      "kept": 76,
+      "duplicate": 37,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 2,
+      "accepted": 47,
+      "rejected": 29,
       "reasons": {
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 1
+        "hard_negative": 2,
+        "no_fbs_school": 17,
+        "no_offer_term": 9,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2101019674930749794",
-          "author": "scouturecruit",
-          "searchJob": "ohio",
-          "text": "Congrats to #ScoutUbasketball prospect Brandon Nazette for earning an offer from Ohio Wesleyan University! @Brandonazette @JonFeyen https://t.co/cwYraaTZLi"
+          "reason": "hard_negative",
+          "postId": "2101017829768368353",
+          "author": "lalunallorando",
+          "searchJob": "toledo",
+          "text": "Elon never discusses his side of the breakup … which is either him being honorable, or him being secretive — probably both? … maybe there is a traumatic trigger that flares up his need to withdraw or retreat or isolate … maybe the women jus"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2101011945549672855",
-          "author": "buckeyenatty",
-          "searchJob": "ohio",
-          "text": "@Metaleka_ College Gameday may offer you Saban’s spot after that analysis"
+          "postId": "2101012125305184354",
+          "author": "premiaspine",
+          "searchJob": "iowa",
+          "text": "Meet Dr. Brian Handal, an orthopedic spine surgeon offering the TOPS™ System at his practice DMOS Orthopaedic Centers (@DMOSOrtho) in West Des Moines, Iowa. Dr. Handal specializes in the diagnosis and treatment of spinal conditions, with a "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2100997799085011075",
+          "author": "flyinfarmer68",
+          "searchJob": "iowa",
+          "text": "@Nicksdankmemes3 With the pathetic Repub crew in DC the last 20 yrs ago, gridlock is the least painful path forward. It'll be amazing to see how 'conservative' the Repubs get once they're in the minority. Pre-2020 Trump offered hope that wa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100997191519068642",
+          "author": "dglobe",
+          "searchJob": "iowa",
+          "text": "Program planned in Sibley, Iowa https://t.co/S5g9yOmqKy"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100996416692748602",
+          "author": "hammelforiowa",
+          "searchJob": "iowa",
+          "text": "One Day Homecoming Market on Oct. 10th https://t.co/HULKngQdF6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101022227097420262",
+          "author": "glampingcabin",
+          "searchJob": "maryland",
+          "text": "Looking for an indoor and outdoor event venue in Maryland? Timber Valley Farm Barn Rental in Clear Spring offers a rustic barn, beautiful outdoor spaces, and 100 acres for weddings, showers, parties, and more. PA • VA • DC • MD Eastern Shor"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101008133275439308",
+          "author": "glampingcabin",
+          "searchJob": "maryland",
+          "text": "🏡 Group Camping Near Me? Timber Valley Retreat offers private cabins, 100 acres to explore, and outdoor adventures in Clear Spring, Maryland. https://t.co/qC5fQcuRKW https://t.co/uy2QWlcLpL"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2101024412912722372",
+          "author": "willslee7",
+          "searchJob": "michigan",
+          "text": "Congratulations to HB ELITE’s Addie Main on receiving an offer from North Central Michigan College! 🏀💙 Another great opportunity for Addie as she continues her recruiting journey. Her hard work, consistency, and dedication continue to pay"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101022460816523435",
+          "author": "dougtribou",
+          "searchJob": "michigan",
+          "text": "Lots of ground covered with @Johnubacon on @michigan_public today: the NCAA’s attempt to clarify the clarifications about Michigan’s win over Western Michigan; Week 3 previews for UM and MSU; and the latest Red Wings’ front-office issues. h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101019499944186326",
+          "author": "sf_fiestatexas",
+          "searchJob": "texas",
+          "text": "All you fear is here. Explore what Six Flags Fright Fest has to offer with our 2026 Fright Guide. 🎟️ https://t.co/vP30zMqqMa https://t.co/WLrdDuB7gt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101016876583120938",
+          "author": "tmore3",
+          "searchJob": "texas",
+          "text": "In Texas Counties can offer up to $2.50 for each dollar an employee puts in they stay at least 8 years and are vested. Harris County gives $2.25. Midland County was $1.75 when I retired. I am betting Harris offers a great secondary insuranc"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101012724431863834",
+          "author": "tmore3",
+          "searchJob": "texas",
+          "text": "Even our crazy County Judge didn’t approve. Of course she just walked out to “protest” the vote instead of voting “No”."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101015308685447341",
+          "author": "flpress",
+          "searchJob": "texas",
+          "text": "New from Finishing Line Press: Divine Office by Jeffrey Robinson On SALE: https://t.co/NDVnPjkJla How do we show up for humanity when the world is so fraught and tense? What if prayer involves paying attention to the hours of our lives? Whe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100992697754702045",
+          "author": "mitchellvii",
+          "searchJob": "texas",
+          "text": "You know the media and Democrats and the fake Republicans on this platform will say, \"Trump hasn't done a damn thing in the last two years!\" And then of course we look at the facts and we realize that he has been the most incredible preside"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2101014067582476686",
+          "author": "afi_mediadept",
+          "searchJob": "texas",
+          "text": "CHARLIE KIRK ASSASSINATION: WHY IT MATTERS The Charlie Kirk assassination may end up being the most important event of our time. According to the known evidence either Tyler Robinson assassinated Charlie Kirk with his grandfathers 30-06 fro"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101009074263347703",
+          "author": "davarusbell",
+          "searchJob": "texas",
+          "text": "I showed a home to a client recently, and something as simple as a political hat sitting inside the house completely changed the way they felt about the property. They were interested in the house, but once they saw it, the conversation shi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101008971486359862",
+          "author": "chad_landrus",
+          "searchJob": "texas",
+          "text": "PRICE IMPROVEMENT Now offered at $475,000, this 5.83± acre commercial tract in Winnie sits at a hard corner near the I-10 and Hwy 73 interchange, with 650' of service road frontage and 380' of 9th Street frontage. https://t.co/kdEylNOYIT ht"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101008356269850786",
+          "author": "robertstorybook",
+          "searchJob": "texas",
+          "text": "The scale of a ranch could shape every decision made within it. Robert’s Story offers a look at the vast South Texas ranching world Robert East eventually found himself responsible for. Read the full story on Amazon and at https://t.co/J0Zt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101015103675974005",
+          "author": "prohockeyrumors",
+          "searchJob": "ucla",
+          "text": "The #NHLBruins presented the #Canucks with a trade offer for this top-two defenseman earlier in the summer: https://t.co/iH0SUNyUzm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2100673641255985463",
+          "author": "sleeper_hoops",
+          "searchJob": "miami",
+          "text": "What’s the biggest butterfly effect to ever happen in the NBA?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101019610761818415",
+          "author": "purrburry",
+          "searchJob": "north-carolina",
+          "text": "@Dexter__Wright @atrupar Dems in fema literally refused to offer aid to conservatives in North Carolina lol"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101026169717924002",
+          "author": "pokebuzzybuzz",
+          "searchJob": "buffalo",
+          "text": "@BTC_broo @palminvesting Robinhood offered me the platinum card but looking into it I think the gold card is better since I don't really travel. $10K credit limit is very annoying, though."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101019665417785552",
+          "author": "high_in_buffalo",
+          "searchJob": "buffalo",
+          "text": "2017 Marvel Punisher PMG Red /100 PSA 8 sold, love that you can now see offer prices instantly https://t.co/oIqZI4upot"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101010462833828277",
+          "author": "buffalolobills",
+          "searchJob": "buffalo",
+          "text": "@uspolitics1111 @MattLech The way they’re making him an issue in such an over-the-top, unhinged way is such a give away that they have nothing to offer and their views are unpopular. Hasanophobia should be considered a mental illness, these"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 4,
+      "accepted": 7,
+      "rejected": 40,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 24,
+        "school_not_resolved_confidently": 12,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_class_year": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101016237912338451",
-          "author": "mickdwalker",
-          "searchJob": "ohio",
-          "text": "Five in-state recruits will be in the Shoe on Saturday with the Ohio State basketball program 🅾️ Dylan Zeigler and Bryce Irby are the two with offers. At least one more prospect could earn theirs this weekend. Read: https://t.co/pEK7HGGnXn"
+          "postId": "2101022726739591590",
+          "author": "redinablustate",
+          "searchJob": "toledo",
+          "text": "We offer you cali kush indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Santiago de Compostela, Toledo, Cordoba, Granada, San Sebastian, Salamanca, Cuenca, Segovia, Avila, Merida, G"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101015938435031298",
-          "author": "limanews",
-          "searchJob": "ohio",
-          "text": "Ohio Big 7 offers advice to local businesses https://t.co/5NylEk3OPl"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101007023324209199",
+          "author": "lltbr123",
+          "searchJob": "toledo",
+          "text": "Read a history book. Isreal left GAZA in 2005. They even took their dead with them to prevent the graves being desecrated. HAMAS were elected in 2006 and havent had an election since. The $billions of aid poured in was used to build kilomet"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101006935734784052",
+          "author": "idexploring",
+          "searchJob": "toledo",
+          "text": "There was never a Palestinian state. Your ignorance of history is mind blowing. Rome renamed Judea “Palaestina” to wipe Jews off the map after crushing them. Jews are indigenous here for 3,000+ years. Arabs showed up as conquerors in the 7t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101006779903578320",
+          "author": "geordiehodl",
+          "searchJob": "toledo",
+          "text": "Old faces are becoming active again (I include myself in that). New faces are appearing. I’ve seen accounts asking where they can buy the stock, or questioning why their platform of choice doesn’t offer access... It all feels very familiar."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2100999894790189093",
+          "author": "sahilso08336725",
+          "searchJob": "toledo",
+          "text": "Actually, TX has so much more to offer than just barbecue and rockets. There are plenty of wonderful things waiting to be discovered. Of course, the prerequisite is that you have the time 😉 https://t.co/T3bJaQ9dWY"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2101014673101406661",
-          "author": "kobe_for_3",
-          "searchJob": "ohio",
-          "text": "Capt. Edward J. Ruppelt ran the US Air Force investigation into flying saucers. In March 1952, weeks before it was named Project Blue Book, he briefed a room in Boston and a tape recorder was running. The Department of War declassified the "
+          "postId": "2101010898005430428",
+          "author": "allentrieu",
+          "searchJob": "utep",
+          "text": "Michigan has offered visitors coming from Texas, North Carolina and a couple from inside the state. There are also a few interest in-state underclassmen visiting. https://t.co/mM0oNRvCOZ https://t.co/sUQP54ukCL"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101001101151465702",
-          "author": "beasubteacher",
-          "searchJob": "ohio",
-          "text": "🍎 Ohio Substitute Teacher Services offers aspiring educators flexibility, variety, and the chance to make a real difference! Apply at https://t.co/QB9jk3qmjk! #BeASub https://t.co/M8a9Sj2mX8 https://t.co/XrS2ryhQ8q"
+          "postId": "2101012885598343247",
+          "author": "getrealai",
+          "searchJob": "iowa",
+          "text": "@sairarahman In Bellingham, ~$800k sits above the local center of gravity: ZIP 98229 (Iowa Dr area) median AVM is ~$722k and median sale ~$669k; citywide median AVM is ~$678k. On the rent side, a 3BR single-family ask in the MSA runs about "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101002762045514214",
+          "author": "hammelforiowa",
+          "searchJob": "iowa",
+          "text": "🌻 ONE DAY FARMERS MARKET AT FAITH! 🌻 Join us for the Homecoming Market at Faith Baptist Bible College on Saturday, October 10, 2026, starting at 10 AM in Ankeny! We’ll be there with Barrels Iowa featuring our raw Iowa honey and Bee Rain B"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101025137462009980",
+          "author": "daily_press",
+          "searchJob": "maryland",
+          "text": "James Franklin returns to Maryland as Terps offer Hokies’ 1st road test of the season: https://t.co/WTz6My6TIZ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101010296466817498",
+          "author": "np4football_ot",
+          "searchJob": "maryland",
+          "text": "JacksonRobinson-RB-2029-FL @TerpsFootball Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101011756072001546",
+          "author": "2_gnar",
+          "searchJob": "michigan",
+          "text": "@mikethewolveri1 got Sam McGuffie a Michigan offer though lol"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101007451411955986",
+          "author": "anne73447231035",
+          "searchJob": "michigan",
+          "text": "Thanks for the meme. So Sayed in framing \" liar\" and deflection. Easy to make a meme. Harder to make policy. Mike's put forward deliverable relief for motorists; Sayed substitutes loaded rhetoric for a credible economic plan. Memes don't lo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101002875723829286",
+          "author": "jasonclark829",
+          "searchJob": "michigan",
+          "text": "@SlowLaneLodge @MekkaDonMusic Michigan should’ve told the refs “no thank you, we do not want the extra second. But we appreciate the offer” Them damn cheats!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101024599450198132",
+          "author": "extdisastered",
+          "searchJob": "texas",
+          "text": "Natural disasters disrupt daily life and leave homeowners with difficult recovery decisions. Developed by Texas Sea Grant, this free resource offers guidance for homeowners, renters, and coastal residents living in hazard-prone areas. 🔗: h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101021964483649712",
+          "author": "kimkep4796",
+          "searchJob": "texas",
+          "text": "🚨 NEXT BRIDGE HYDROCARBONS, INC. v. JEFFREY DAVIES ⚖️ Harris County, Texas — 61st Judicial District 📅 Filings dated September 17, 2026 ⚠️ Not legal advice—layman’s summary. 📄 1. Davies’ Sur-Sur-Reply Supporting Dismissal DAVIES again ask"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101014298554413472",
+          "author": "fritzwagoner",
+          "searchJob": "texas",
+          "text": "Trump accomplishments part 1 https://t.co/6ZW9Rd3I4n for drastically lower prescription cost -Lower inflation -He made the border a real border again -He reversed mass migration -Criminal alien crackdown -Self-deportations were facilitated "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101013992571535722",
+          "author": "fritzwagoner",
+          "searchJob": "texas",
+          "text": "Trump accomplishments part 1 https://t.co/6ZW9Rd3I4n for drastically lower prescription cost -Lower inflation -He made the border a real border again -He reversed mass migration -Criminal alien crackdown -Self-deportations were facilitated "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101012650008215931",
+          "author": "amcoinsurancetx",
+          "searchJob": "texas",
+          "text": "Auto Insurance FAQs answered 🚗💬 SR-22s may be required after certain violations. Had accidents or tickets? Amco works with 50+ carriers to find affordable coverage. Need business or truck insurance? We offer Texas-tailored options. #AutoI"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101009889849921774",
+          "author": "explosionsof_bs",
+          "searchJob": "texas",
+          "text": "All of you low-IQ types pontificating on the “racist” sentiment from Bo French are missing the forest for the trees. What has been uncovered for the public, if anything, is that we have brought far too many Indians into our country, predomi"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2101009404904546542",
+          "author": "kenkevelso42773",
+          "searchJob": "texas",
+          "text": "@WellsJorda89710 The people of Texas seem to like the six genders. That’s three times as many as Paxton who only offers two genders. Texans say that more is better."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101005617557295481",
+          "author": "jamesmetrics",
+          "searchJob": "texas",
+          "text": "Please post links to the bills. It's becoming more important than ever to bring receipts. Talarico later voted yes on Senate Joint Resolution 5 (89th Legislature, 2025), a subsequent constitutional amendment requiring denial of bail in cert"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101021607913308613",
+          "author": "redbeard172023",
+          "searchJob": "usc",
+          "text": "You chose whether to be on offense or defense. You chose who you allow to influence you. You chose who you allow a seat at your table. --- Presumption Rebuttal \"I rebut, deny, and challenge any and all presumptions of statutory, corporate, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101023829870964738",
+          "author": "pamemerson13",
+          "searchJob": "louisville",
+          "text": "@MartinCothran Many schools in this Jefferson County, Louisville, KY school system offer washers and dryers, does any child attend classes?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101023056269328562",
+          "author": "redinablustate",
+          "searchJob": "miami",
+          "text": "We offer you cali kush and indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Chicago, Houston, Phoenix, Philadelphia, San Diego, Dallas, San Jose, Austin, Seattle, Denver, Boston, At"
         }
       ]
     },
@@ -138,20 +437,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "toledo: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 2
+      "acceptedEvidence": 7,
+      "rejectedCandidates": 40,
+      "brandNewOffers": 4
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-18T18:57:09.435Z"
+    "status rebuilt locally from current store on 2026-09-18T19:13:33.731Z"
   ]
 }
