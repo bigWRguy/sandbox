@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T05:13:16.241Z",
+  "generatedAt": "2026-09-18T05:27:45.886Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-18T05:13:16.044Z",
+    "at": "2026-09-18T05:27:45.617Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7796091666666667,
-    "p95Hours": 1.5298983333333334,
-    "worstHours": 1.780361111111111
+    "medianHours": 0.5164936111111111,
+    "p95Hours": 1.5227325,
+    "worstHours": 1.7714663888888889
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -55,229 +55,111 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-18T05:13:16.044Z",
-      "got": 34,
-      "new": 27,
-      "lag": 0.07
+      "at": "2026-09-18T05:27:45.617Z",
+      "got": 17,
+      "new": 10,
+      "lag": 0.19
     }
   },
   "audit": {
-    "at": "2026-09-18T05:11:47.030Z",
+    "at": "2026-09-18T05:26:17.209Z",
     "mode": "live",
     "collection": {
-      "returned": 34,
-      "kept": 27,
+      "returned": 17,
+      "kept": 10,
       "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 22,
-      "rejected": 5,
+      "accepted": 9,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 2
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2100812082447065592",
-          "author": "dennisp54367204",
-          "searchJob": "oregon",
-          "text": "I think I will offer my 80 acres in eastern Oregon to one of the data centers for sale and see if they will buy it. What do you think?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100814387481092459",
-          "author": "donfrederick2",
-          "searchJob": "tennessee",
-          "text": "@DarrenStoneeee @East_Tenn_CO @NFL Whoever hides behind the East Tennessee Conservative moniker is not only obviously uneducated but is too cowardly to offer a real, verifiable name for the account. Courage of their convictions? Hardly."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100788748988322128",
-          "author": "davycro78626560",
-          "searchJob": "tennessee",
-          "text": "@CherylSchatz @Truth_matters20 Gal 3:13; Deut 21 22-23; 2 Cor 5:21, Isaiah 53 4-6. All of these speak of God punishing Jesus on our behalf, and don’t forget the garden of Gethsamane when Jesus begged the Father for another way and that the "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100799599627714650",
-          "author": "acererospitts",
-          "searchJob": "pittsburgh",
-          "text": "Fuente: https://t.co/Di6hCvKJ3T"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100812206304592215",
-          "author": "newwrldoptimist",
-          "searchJob": "liberty",
-          "text": "https://t.co/qgXWCM9IJr"
+          "reason": "hard_negative",
+          "postId": "2100810420231790906",
+          "author": "morpheu5watcher",
+          "searchJob": "miami",
+          "text": "ONE CALIFORNIA REGULATOR STANDS BETWEEN INTERMEX $IMXI AND $16 A SHARE: The Growth Len5 is watching International Money Express, ticker IMXI, at $12.62, -$0.59 / -4.47% Thursday. Twentieth of thirty. The Miami company, founded in 1994, move"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 22,
+      "rejected": 9,
       "reasons": {
-        "bare_mention_requires_llm": 20,
-        "multiple_resolved_schools": 2
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 2,
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100814411674132781",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Tiruchirappalli, Tamil Nadu: AIADMK leader SP Velumani offers prayers at Srirangam temple in Tiruchirappalli on first day of Purattasi month. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) #TamilNadu https://t.co/YFA"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100813336598417560",
-          "author": "sakshi415170",
-          "searchJob": "temple",
-          "text": "Prayers were offered at the Sri Kashi Vishwanath Temple in Varanasi for Prime Minister Narendra Modi’s good health and long life. The occasion also included a prayer for continued progress toward the vision of a developed India. 🙏🕉️🇮🇳 #"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100810580315504893",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Mangaluru | Karnataka Minister KH Muniyappa arrives at Kadri Manjunatha Temple to offer prayers, ahead of Cabinet meeting to be held in the city He says, \"The CM has decided on coastal development and tourism. We will take decision"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100810318524162392",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "AIADMK leader SP Velumani offers prayers at Srirangam temple in Tiruchirappalli on first day of Purattasi month. https://t.co/MueX75V6Tg"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100795895428378977",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Mangaluru, Karnataka: Chief Minister D.K. Shivakumar, Deputy Chief Minister G. Parameshwara, and Cabinet Ministers will visit the historic Kadri Shree Manjunatha Temple to offer special prayers ahead of the State Cabinet meeting in Mangalur"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100794900115751249",
-          "author": "prithivirajbjp",
-          "searchJob": "temple",
-          "text": "🪔 ‘Ashirwad Ka Diya’ On the auspicious occasion of the birthday of the Hon’ble Prime Minister of India, Shri @narendramodi Ji, I had the privilege of lighting the ‘Ashirwad Ka Diya’ at the revered Balunkeshwar Temple in my home village, wi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100786827951215040",
-          "author": "newsarenaindia",
-          "searchJob": "temple",
-          "text": "Ujjain: BJP National President Nitin Nabin offers prayers at Mahakaleshwar temple. https://t.co/9gSodbzZ4X"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100785683271139806",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Karnataka Cabinet led by CM DK Shivakumar will meet for the first time in Mangaluru today. The Cabinet members will first offer prayers at Kadri Manjunatha Temple before the meeting. The temple's Managing Trustee, Harinath Jogi, sa"
+          "reason": "reporter_missing_player_name",
+          "postId": "2100802394359505176",
+          "author": "drew_toennies",
+          "searchJob": "arkansas",
+          "text": "#TN2027 DL out of Battle Ground Academy adds an offer from Arkansas State ⬇️"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2100800868031266967",
-          "author": "wallachlegal",
-          "searchJob": "oregon",
-          "text": "“The Ninth Circuit’s opinion could have an eventual widespread impact on Kalshi’s ability to offer sports event contracts on tribal lands. Because the Ninth Circuit’s jurisdiction includes California, Oregon, and Washington, tribes in those"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100810915386196373",
-          "author": "wet_mogwai",
-          "searchJob": "tennessee",
-          "text": "@dubbya53 @scrowder And Tennessee has destroyed whatever your mind had to offer."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100810150659367157",
-          "author": "emiliyamat30eo",
-          "searchJob": "tennessee",
-          "text": "@ericmurrell The way you describe Tennessee makes it click, that is a skill. Respect for doing it properly and saying so plainly. Happy to DM you a special offer plus examples of my work and a quote; just follow me back when you get a momen"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100803248861180366",
-          "author": "trekker801",
-          "searchJob": "tennessee",
-          "text": "Ask the trucker in Reno who was arrested by a cop when the casino AI facial recognition misidentified a truck driver for a trespasser. The dumbass cop refused to accept every other form of identification the guy presented to show he wasn’t "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100792186644078772",
-          "author": "whodatduggdat",
-          "searchJob": "tennessee",
-          "text": "@cookitup31 Will the bonus bets show up right away or do we gotta wait to get them? Tennessee doesn’t offer Bet Protect+ so any bets I won tonight with DJ Moore in it I only get paid out in bonus bets."
+          "postId": "2100809044260782540",
+          "author": "dianekrugerr1",
+          "searchJob": "texas",
+          "text": "Ohio voters rejected Sherrod Brown. Two years later, are they ready to give him a second chance?👇 YOUNGSTOWN, Ohio (AP) — In the wood-paneled basement of a union hall, retirees sat in folding chairs last week as they recalled how miles of "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2100812698724233616",
-          "author": "corylamee",
-          "searchJob": "houston",
-          "text": "@MaxManus73 @ThomasEWoods You mean the Same Sam Houston that refused to give Texas over to the confederacy ? Warned Texans against war with the US ? That was offered troops by Lincoln himself and said that if he were a younger man would hav"
+          "postId": "2100800197823480307",
+          "author": "talkytalky11",
+          "searchJob": "texas",
+          "text": "@GOP__Ls In a state the size of Texas, they don't have anybody better than Ken Paxton to offer up?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100805996176171276",
-          "author": "flwrboyjin_",
-          "searchJob": "houston",
-          "text": "would anybody be interested in three Slayyyter tickets for Friday Sep 18 at White Oak Music Hall, Houston, TX? My friends and i can't go anymore but want to offer them to people who actually are fans and want to go.!"
+          "postId": "2100798138030125082",
+          "author": "shawndevdedalus",
+          "searchJob": "texas",
+          "text": "@cecegkh I also got my learner's license at 15. I had been driving on the Ranch and back and forth to town. Some Texas public high schools offer driver's education but my did not so it was granbpa who tabult."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2100816225274036289",
+          "author": "dndbillie5",
+          "searchJob": "miami",
+          "text": "SELLING 2 MIAMI TICKETS 2 PHILLY TICKETS A MIKOWEEN TICKET AND A BARCLAYS TICKET BEST OFFER LET ME KNOW"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2100805852533834093",
+          "author": "horrehey",
+          "searchJob": "miami",
+          "text": "would anybody be interested in three Bruno Mars tickets for Saturday Sep 19 at Hard Rock Stadium, Miami Gardens, FL? My friends and i can't go anymore but want to offer them to people who actually are and want to go!!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2100792829165662365",
+          "author": "alexandresanc20",
+          "searchJob": "miami",
+          "text": "Incredible offers such as $89 to Miami and $180 to CDMX are snatched up fast. It's not luck; it's about getting alerts when prices are still low. If you want these alerts, drop a ✈️ below. https://t.co/hISkvt6bO8"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100803107621847147",
-          "author": "alexantinez",
-          "searchJob": "houston",
-          "text": "would anybody be interested in three Tame Impala tickets for Saturday Sep 19 at Toyota Center, Houston, TX? My friends and i can't go anymore but want to offer them to people who actually are fans and want to go.!"
+          "postId": "2100804534272397667",
+          "author": "microbesinfo",
+          "searchJob": "north-carolina",
+          "text": "🦠🏫 A #Tuberculosis case has been confirmed at a North #Carolina high school, with more than 260 people identified as possible close contacts and offered screening. #TB #Bacteria #PublicHealth #Infections #Microsky via @wral.bsky.social ht"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100800624447156394",
-          "author": "bigchoppa76",
-          "searchJob": "pittsburgh",
-          "text": "i like the DL let’s go ahead and send Pittsburgh that JPJ offer asap"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100798254443008314",
-          "author": "forever_kandall",
-          "searchJob": "pittsburgh",
-          "text": "Olivia Rodrigo in Pittsburgh, PA i wts 4 Olivia Rodrigo tickets for Tuesday d1 Sept 29 and 3 tickets for d2 sept 30 Selling below what I originally paid for which was ($320) lam open to your offer Scammers looking for proof to use against m"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100813859196207599",
-          "author": "gta6_premium",
-          "searchJob": "liberty",
-          "text": "MAJOR GTA-RELATED LEAK: Files from a previous Rockstar leak have now surfaced publicly, revealing details about a massively expanded Liberty City that was reportedly planned for GTA V and may have later been pushed back as DLC. A newly reco"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100809038107926685",
-          "author": "lewisrashe",
-          "searchJob": "liberty",
-          "text": "A key difference between the red-and-white system and the blue system is that the former represents the old protection scheme based on \"divine right\"—associated with the Knights Templar and royalty—whereas the blue system symbolizes the new"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100791975368896609",
-          "author": "mrbandot1",
-          "searchJob": "liberty",
-          "text": "She would lose her mind at a circle-K. Kosher is the same idea: a third party says the plant met a rulebook. Nobody slipped a mosque into the cheddar. Nobody “sacrificed” a baby Swiss. Halal on a Tillamook label is a process stamp so a Musl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100791680731693185",
-          "author": "hussainyaqub3",
-          "searchJob": "liberty",
-          "text": "@TheTweetOfGod The Statue of Liberty offered a torch of hope. ICE arrived with handcuffs and a deportation order. Same country completely different interpretation of freedom."
+          "reason": "multiple_resolved_schools",
+          "postId": "2100814146723795293",
+          "author": "devyeusuf",
+          "searchJob": "louisiana",
+          "text": "The Art of Playing Free: How Dontayvion Wicks plans to unlock his game in Philly Dontayvion Wicks never lost sight of the football. More than 40 yards downfield, Jalen Hurts’ pass sailed toward the right sideline as Wicks tracked it over hi"
         }
       ]
     },
@@ -292,11 +174,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 22,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-18T05:13:16.242Z"
+    "status rebuilt locally from current store on 2026-09-18T05:27:45.887Z"
   ]
 }
