@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:28:02.621Z",
+  "generatedAt": "2026-09-18T08:43:22.122Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-18T08:28:02.342Z",
+    "at": "2026-09-18T08:43:21.826Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7751091666666666,
-    "p95Hours": 1.5259991666666666,
-    "worstHours": 1.5259991666666666
+    "medianHours": 0.7722408333333334,
+    "p95Hours": 1.5269930555555555,
+    "worstHours": 1.5269930555555555
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -55,124 +55,103 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-18T08:28:02.341Z",
-      "got": 14,
-      "new": 12,
-      "lag": 0.05
+      "at": "2026-09-18T08:43:21.826Z",
+      "got": 12,
+      "new": 9,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-09-18T08:26:23.319Z",
+    "at": "2026-09-18T08:41:54.984Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 12,
-      "duplicate": 2,
+      "returned": 12,
+      "kept": 9,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 5,
+      "accepted": 8,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 4,
         "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2100528252531966279",
-          "author": "fkeyamo",
-          "searchJob": "rice",
-          "text": "I see some suggestions that everyone is ‘obsessed’ about Peter Obi because we are always talking about him. I am sorry, but they miss the point. When someone lies per second, you also have to fact-check him per second. He got away with the "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100667270267879899",
-          "author": "theducksrun",
-          "searchJob": "oregon",
-          "text": "🚨 5K RACES IS ALMOST HERE 🦆 Want to be among the first to test what’s coming next on https://t.co/DG76vOuiZ7? Create 1 regular race Post it on X That’s it. 🫡 Everyone who joins in will qualify for a special race after the 5K milestone, w"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2100861054964359667",
-          "author": "visitbeijingcn",
-          "searchJob": "oregon",
-          "text": "On September 16, an Oregon county delegation visited the Beijing Overseas Cultural Exchange Center, exploring Chinese culture through film, exhibitions and interactive experiences. From zodiac art to traditional solar terms, the visit offer"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100863560515543252",
-          "author": "jkellick",
-          "searchJob": "tennessee",
-          "text": "On April 18, 1521, a monk of thirty-seven stood in a crowded hall and told the Holy Roman Emperor no. He was claiming that one man's conscience outranked the institution that had governed the spiritual life of Europe for a thousand years. h"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100861177706287563",
-          "author": "joshweinstein",
-          "searchJob": "buffalo",
-          "text": "Wherein we learn the difference between the words that accuse and the words that appease. https://t.co/am0C2OqW6S"
+          "postId": "2100851495906230744",
+          "author": "doug_hanks",
+          "searchJob": "miami",
+          "text": "In the wee hours of the budget meeting, commissioners voted to give Doral 90 days to offer a financial deal to help pay for Miami-Dade’s stalled incinerator effort or risk the county putting the original Doral site back into the mix of wher"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 8,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 1
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 4,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100842991846064585",
-          "author": "cyberpulse56",
-          "searchJob": "navy",
-          "text": "‼️DATA SALE CLAIM — Pakistan Navy 🇵🇰 A cybercrime forum post by “Cyb3R_Shubh4M” claims to offer sensitive Pakistan Navy documents allegedly related to defence procurement and projects involving Chinese defence entities. 📋 Claimed documen"
+          "reason": "multiple_resolved_schools",
+          "postId": "2100867102986920304",
+          "author": "yourpremiertra1",
+          "searchJob": "hawaii",
+          "text": "Aruba at a Glance Aruba is a small Dutch Caribbean island known for consistently sunny weather, turquoise water, and some of the highest-rated beaches in the world. Unlike many Caribbean islands, Aruba lies outside the main hurricane belt, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100859332812226586",
-          "author": "speedbet_win",
-          "searchJob": "nevada",
-          "text": "The US gambling market is not a single system. It is 50 separate silos with 50 different rulebooks. DraftKings or FanDuel might look like a national app, but the backend is a patchwork of state licenses that do not talk to each other. A pla"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100848306674860148",
-          "author": "teabagzx",
-          "searchJob": "rice",
-          "text": "It is shameful that APC cannot campaign for Tinubu by showing us what he has achieved. Their campaign style involves discrediting Peter Obi with lies and propaganda. This is not the 2023 elections, and I hope Nigerians are much wiser. If Ti"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100838743221367081",
-          "author": "opara_ernest",
-          "searchJob": "rice",
-          "text": "HOW TO KNOW A FAILED GOVERNMENT 🇳🇬 Focus on the single biggest competitor who offers a better alternative, share rice and bread, and abandon governance. Leave the people to their own fate — masterclass!"
+          "postId": "2100853581280940411",
+          "author": "reallive3tv",
+          "searchJob": "illinois",
+          "text": "Top Crypto News Today!! 1️⃣ SEC just gave Wall Street a 5-year sandbox for tokenized stocks → \"TSVs\" can trade real stocks via smart contracts + liquidity pools, no need to register as a full exchange → Caps: 75 names / 0.25% of daily volum"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2100863701536448692",
-          "author": "theducksrun",
-          "searchJob": "oregon",
-          "text": "🏁 5,000 RACES. LET’S CELEBRATE. 🦆 🤝 FOR 7 DAYS ONLY 🤝 🏃 Free #Runner rentals 🛍️ 50% OFF everything in the marketplace 🎟️ Rent a #Runner & access the WL races Discover the full Lucky Ducks ecosystem. Bigger races, bigger chances, more"
+          "postId": "2100864189749190870",
+          "author": "abdulkarim2",
+          "searchJob": "texas",
+          "text": "🚨 TOP 10 CRYPTO & WEB3 UPDATES FOR 18 SEPTEMBER 2026 🚨 Today’s themes: TOKENIZED EQUITIES, CRYPTO × TRADFI, STABLECOIN BANKING, AI × WEB3, SOLANA DEFI, PREDICTION MARKETS and BUILDER OPPORTUNITIES 👇 1. SEC OPENS A FIVE-YEAR REGULATORY LA"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100854090251301327",
-          "author": "i_wait_i_watch",
-          "searchJob": "tennessee",
-          "text": "@Danphillipsresi Jerri Green offers detailed, verifiable plans for working families, public education, healthcare, rural hospitals and affordability. Blackburn offers has nothing more than tired old conservative politics. Tennessee deserves"
+          "postId": "2100851993468432891",
+          "author": "wynduffy",
+          "searchJob": "texas",
+          "text": "@Legally_Italian NRO is the NR skin suit worn by twitter-era blowhards who have nothing to offer. Much like Vivek with his Texas flag jacket and hat. They aren’t National Review; Vivek’s not Texan, much less American."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100854161927553497",
-          "author": "thesunstays15",
-          "searchJob": "charlotte",
-          "text": "#อิงล็อต #englot‌ (translation only. NOT my thoughts/stance. frankly, I was extremely reluctant to even type out some of the things/names he mentioned) 0:00 – 0:38 | On Engfa and that person (P) Honestly, I really didn't want to comment on "
+          "postId": "2100851315509522674",
+          "author": "mseemsima01",
+          "searchJob": "texas-am",
+          "text": "Friday bila samaki si Friday kabisa. Global Tilapia inaoffer samaki fresh na tamu , plus 10% off Size 5. Hii offer usikose leo. @globaltilapiake #FishFridays. https://t.co/e84byWhS81"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2100850560597463261",
+          "author": "tweets_by_us",
+          "searchJob": "texas-am",
+          "text": "Leo Fish Friday iko na offer tamu. Global Tilapia Size 5 iko 10% OFF, so usipite. Order online ama piga simu upate fish fresh leo, bei poa kabisa. @globaltilapiake #FishFridays https://t.co/HMEtrqIVVa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2100851905261899785",
+          "author": "caffesatoshi",
+          "searchJob": "miami",
+          "text": "Did I finally uncover who Satoshi Nakamoto really is? Nah... Just joking, but this man's Bitcoin conviction is MASSIVE Bukele’s Bitcoin Bet: How a Tiny Nation’s President Turned Crypto Into His Signature Power Move It started with a video. "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2100858544941617181",
+          "author": "mdburka",
+          "searchJob": "air-force",
+          "text": "Here’s a history lesson for all the JewHaters. From 1933 to 1945 6-8 million Jews were murdered/slaughtered, by Germany with the complicity of every conquered nation. Of the 6-8 million, 1.5 million of the murdered were children. With the B"
         }
       ]
     },
@@ -187,11 +166,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-18T08:28:02.622Z"
+    "status rebuilt locally from current store on 2026-09-18T08:43:22.123Z"
   ]
 }
