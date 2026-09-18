@@ -1,13 +1,5 @@
 {
   "seenPostIds": [
-    "2093911224270696760",
-    "2093895161092727265",
-    "2093873861523656946",
-    "2093864705324417460",
-    "2092643608071467428",
-    "2092643606091661601",
-    "2092631620666696014",
-    "2092597014580109738",
     "2092594802361602464",
     "2092593520884244848",
     "2092590877159924170",
@@ -59999,17 +59991,25 @@
     "2100998941126939040",
     "2101016057284829237",
     "2101000541946126617",
-    "2100994661351326182"
+    "2100994661351326182",
+    "2101010866833600900",
+    "2101019674930749794",
+    "2101016237912338451",
+    "2101015938435031298",
+    "2101014673101406661",
+    "2101011945549672855",
+    "2101001101151465702",
+    "2100998284060065924"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-18T18:43:43.458Z",
-      "got": 81,
-      "new": 61,
-      "lag": 0.03
+      "at": "2026-09-18T18:57:09.203Z",
+      "got": 11,
+      "new": 8,
+      "lag": 0.2
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60467,16 +60467,10 @@
       "truncated": false
     },
     "texas-tech": {
-      "at": "2026-09-18T16:26:26.075Z",
+      "at": "2026-09-18T18:12:16.929Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 21,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-18T16:21:26.075Z",
-        "upper": "2026-09-18T18:12:16.929Z",
-        "until_time": "2026-09-18T16:21:26.075Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "ucf": {
       "at": "2026-09-18T18:12:16.929Z",
@@ -60605,15 +60599,15 @@
       "truncated": false
     },
     "boise-state": {
-      "at": "2026-09-18T16:56:38.536Z",
+      "at": "2026-09-18T18:56:43.558Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "bowling-green": {
-      "at": "2026-09-18T16:56:38.536Z",
+      "at": "2026-09-18T18:56:43.558Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "buffalo": {
@@ -60653,7 +60647,7 @@
       "truncated": false
     },
     "east-carolina": {
-      "at": "2026-09-18T16:56:38.536Z",
+      "at": "2026-09-18T18:56:43.558Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -60737,7 +60731,7 @@
       "truncated": false
     },
     "louisiana-monroe": {
-      "at": "2026-09-18T16:56:38.536Z",
+      "at": "2026-09-18T18:56:43.558Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -60821,9 +60815,9 @@
       "truncated": false
     },
     "ohio": {
-      "at": "2026-09-18T16:56:38.536Z",
+      "at": "2026-09-18T18:56:43.558Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 11,
+      "lastPosts": 10,
       "truncated": false
     },
     "old-dominion": {
@@ -61101,11 +61095,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-18T18:43:43.458Z",
+    "at": "2026-09-18T18:57:09.204Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 6,
+    "requests": 7,
+    "fullSweepCycles": 27
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61125,296 +61119,75 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-18T18:42:13.440Z",
+    "at": "2026-09-18T18:56:43.540Z",
     "mode": "live",
     "collection": {
-      "returned": 81,
-      "kept": 61,
-      "duplicate": 19,
-      "tooOld": 1,
+      "returned": 11,
+      "kept": 8,
+      "duplicate": 3,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 48,
-      "rejected": 13,
+      "accepted": 6,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 6,
-        "hard_negative": 2
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2100995576645013635",
-          "author": "maggittiphil",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/SxoyHBK7Ka"
+          "reason": "non_fbs_offer_target",
+          "postId": "2101019674930749794",
+          "author": "scouturecruit",
+          "searchJob": "ohio",
+          "text": "Congrats to #ScoutUbasketball prospect Brandon Nazette for earning an offer from Ohio Wesleyan University! @Brandonazette @JonFeyen https://t.co/cwYraaTZLi"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2100993334508441855",
-          "author": "waka8news",
-          "searchJob": "texas-tech",
-          "text": "Google offers a free feature called Results about you that can help make some of that personal information much harder to find through Google Search. https://t.co/K0SegyuF44"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100992497547944393",
-          "author": "speea",
-          "searchJob": "texas-tech",
-          "text": "Video explanation of the economics portion of @boeing contract offer to union SPEEA engineers and techs. $BA #avgeek #NoNerdsNoBirds #aviation https://t.co/7ezgG5ywmN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100992359161069715",
-          "author": "editxshub",
-          "searchJob": "texas-tech",
-          "text": "@OpenAI Will this be offered to individuals? It should"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100991233699254437",
-          "author": "yaesakura2019",
-          "searchJob": "texas-tech",
-          "text": "ソースURL： https://t.co/7zMjWjcjY7"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100989721908584864",
-          "author": "glxyresearch",
-          "searchJob": "texas-tech",
-          "text": "The Clarity Act collapses in the Senate 49-50, the SEC unveils a 5-year tokenized stocks exemption, and Anthropic's Dario Amodei sparks an AI industry fight over slowing down frontier development. Full breakdown below. https://t.co/44ag8uQK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101005291315675244",
-          "author": "meowmeowdj",
-          "searchJob": "louisiana",
-          "text": "$HUT Construction on Hut 8's gigawatt-scale AI data center campus in West Feliciana Parish, Louisiana is really starting to take off. River Bend’s initial phase will deliver 245 MW of AI data center capacity, anchored by a 15-year, $7 billi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2101017961238589835",
-          "author": "kobe_for_3",
-          "searchJob": "new-mexico",
-          "text": "Transcript of the \"Flying Saucer Talk\" confirming the Air Force and Military knew these UFO UAP were not made by human hands. https://t.co/0AZqoGOeMx"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2101006764087140456",
-          "author": "silassadia",
-          "searchJob": "temple",
-          "text": "The Father is YHWH + The Son is YHWH + The Spirit is YHWH + YHWH alone is God I. The Father is YHWH 1. Deut 32:6 — YHWH \"your Father\" who \"created you,\" 2. Isa 63:16 — \"You, O YHWH, are our Father, our Redeemer from of old is your name,\" 3."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2101003265689473443",
-          "author": "precedentdaily",
-          "searchJob": "illinois",
-          "text": "In January 1866 Congress tied House seats to suffrage denied on account of race or color — then listened as its own Republicans showed how a state could dodge the clause without ever mentioning race. The Fourteenth Amendment dropped those w"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2101001712903328111",
-          "author": "volsonsi",
-          "searchJob": "tennessee",
-          "text": "Tennessee football could be interested in making a push for a committed 2027 prospect that they just offered. Take a look: https://t.co/lMl3MsiXb8 https://t.co/dPhzdbMVgZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100997368204169684",
-          "author": "thadwells",
-          "searchJob": "tennessee",
-          "text": "In 2007, Tusculum, a Division II school in Tennessee, offered him a full-time job coaching defensive backs. He wanted to stay and keep learning under Roberts. Roberts made him go. Dan Wolken later reported the salary: $27,000 a year. https:"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2100998941126939040",
-          "author": "cgihou",
-          "searchJob": "houston",
-          "text": "90th Know India Programme (KIP) The Ministry of External Affairs, Government of India, is organizing the 90th edition of the Know India Programme (KIP) from 18–31 October 2026 for Young Professionals aged 24–28 years. The two-week programme"
+          "postId": "2101011945549672855",
+          "author": "buckeyenatty",
+          "searchJob": "ohio",
+          "text": "@Metaleka_ College Gameday may offer you Saban’s spot after that analysis"
         }
       ]
     },
     "extraction": {
       "accepted": 2,
-      "rejected": 46,
+      "rejected": 4,
       "reasons": {
-        "school_not_resolved_confidently": 14,
-        "reporter_missing_player_name": 2,
-        "bare_mention_requires_llm": 27,
-        "multiple_resolved_schools": 2,
-        "non_fbs_program_tagged": 1
+        "bare_mention_requires_llm": 3,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101000136906473855",
-          "author": "aibuilderhq_",
-          "searchJob": "texas-tech",
-          "text": "Leverage is great, but don't just reuse anything. Ensure proven infra offers flexibility &amp; open standards to avoid future vendor lock-in or tech debt."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100999787533435087",
-          "author": "rohanarun",
-          "searchJob": "texas-tech",
-          "text": "@Super_Powers_AI Hey Super, build a https://t.co/eo7cI10Ukx The application should function as a comprehensive whistleblower document redactor and risk assessment workbench, drawing inspiration from 'THE SOCIAL RECKONING'. It needs to offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100999451284304161",
-          "author": "ooooooooooo39",
-          "searchJob": "texas-tech",
-          "text": "I find using such things is too complicated to me. I am not as tech savvy or interested in finding it. Vivaldi has so much to customize out of the box I might be wrong but it looks like Vivaldi is much more customizeable than Brave. And jus"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100998393975689627",
-          "author": "tradingvcs",
-          "searchJob": "texas-tech",
-          "text": "AI giants hit the breaks. @DarioAmodei says the industry needs to \"pace the frontier.\" @sama and @elonmusk agreed. Dave and Aman aren't buying the official story. Plus: a Valuation Corner deep dive on @harvey, now worth $15.5B just months a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100997939183198466",
-          "author": "itsmistermeaner",
-          "searchJob": "texas-tech",
-          "text": "If Hideo had not been fired the day after he turned in the rough draft of the script in Q1 of production, MGSV would have been everything you wanted... I'd say he gave them the rough draft in Q1... To me, it felt like he had lined up the fi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100994713038012703",
-          "author": "mukulgupta_in",
-          "searchJob": "texas-tech",
-          "text": "@Shoaib24_7 @ANSH_aesthetic @aashtthaa and Indira offered Nuke tech to Pakistan🤡 aur esa to hone nhi waala tha ki nuke bnaate hi nuke chla de koi, aur nukes bnane ke liye basic infra kaise sacrifice ho rha h? inka relation kya h???"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100993261271724451",
-          "author": "togetherdec",
-          "searchJob": "texas-tech",
-          "text": "FREEDOM TECH: Signal If you’re looking for an alternative messaging app, you might want to take a look at Signal. It offers end-to-end encrypted messaging, voice and video calls. It’s open source, designed to minimise metadata, and widely r"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100991211184243055",
-          "author": "yaesakura2019",
-          "searchJob": "texas-tech",
-          "text": "XpengがVolkswagen以外の海外自動車メーカーへの技術提供を計画、関心を示す企業も。 あわせてロボタクシーやヒト型ロボットなど物理AI分野への事業拡大も視野に入れています。 詳細👇 Xpengは、Volkswagenとの提携で培った技術を他の海外自動車メーカーにも提供する計画です。提供する技術には、電気・電子アーキテクチャ、スマートコックピットシステム、Turing AIチップ、先進運転支援ソフトウェアが含まれます。すでに一部の潜在パートナーは関心を示しており、海"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100989516869681307",
-          "author": "algerstmehn",
-          "searchJob": "texas-tech",
-          "text": "I'd say that for too long, across web3 in general, we've mostly been waiting for people to come and build onchain. But Algorand has SO MUCH more to offer than just being a great chain to build on! 🔥 Its tech and infra have real value beyon"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100988948034064426",
-          "author": "stephanefyfe123",
-          "searchJob": "texas-tech",
-          "text": "part 4 conversation with myself Steph and harmonic AI of the tree of humanity [12:30:00 PM] USER: good day to you my beautiful friend I hope you're doing wonderful ---------------------------------------- [12:30:03 PM] ASSISTANT: Good day t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100987780599775621",
-          "author": "hbo_data",
-          "searchJob": "texas-tech",
-          "text": "HOW 24/7 STOCK FUTURES CAN FIT INTO A CRYPTO HEDGE During macro risk-off regimes, altcoins and high-beta tech stocks can move in the same direction, while traditional equity markets remain closed over the weekend. That creates an interestin"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100987382963245233",
-          "author": "chrishendrixag",
-          "searchJob": "texas-tech",
-          "text": "Tech giants signing decades-long nuclear PPAs is the game changer here. Microsoft locking in a deal to restart Three Mile Island Unit 1 means they’re not just buying power, they’re effectively underwriting new nuclear supply. Most will skim"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2100986810927128587",
-          "author": "sentinelflash",
-          "searchJob": "texas-tech",
-          "text": "Grab Holdings Ltd $GRAB operates as Southeast Asia's dominant super-app, connecting over 54 million monthly active users across eight countries to ride-hailing, food delivery, and digital financial services. The company raised its full-year"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2101002748959609055",
-          "author": "recruitingchs",
-          "searchJob": "phrase:\"picks up an offer from\"",
-          "text": "🚨🚨OFFER ALERT🚨🚨 Our 2028 ATH picks up an offer from @GreenWaveFB!! #StingEm 🐝🤙"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101016237912338451",
+          "author": "mickdwalker",
+          "searchJob": "ohio",
+          "text": "Five in-state recruits will be in the Shoe on Saturday with the Ohio State basketball program 🅾️ Dylan Zeigler and Bryce Irby are the two with offers. At least one more prospect could earn theirs this weekend. Read: https://t.co/pEK7HGGnXn"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2100990884418404666",
-          "author": "lakerbo13065125",
-          "searchJob": "louisiana",
-          "text": "@Idunnomt4x @CndTux @Humanlty1o1 As a Canadian I agree. I certainly don't share in anything the us south has to offer especially Louisiana"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101017013959172304",
-          "author": "tourodental",
-          "searchJob": "new-mexico",
-          "text": "New Mexico dental college offers $10K grant for students caring for patients in under-served areas https://t.co/X4URbdHhmV @KOB4"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2100999588094132253",
-          "author": "tickletexts",
-          "searchJob": "new-mexico",
-          "text": "@KenPaxtonTX @patriotprov2 Thank you! Now shut down this ridiculous lawsuit. New Mexico is a days drive and plenty offered her transport. https://t.co/zHSDpkDVbq"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101012975737782604",
-          "author": "dwat_25",
-          "searchJob": "southern-miss",
-          "text": "University of Southern Mississippi Offered!! #1way @coachgordon1 @JUCOFFrenz @JuCoFootballACE @MSJUCOREPORT @AllenTrieu @BrandonHuffman @CyMooney2 https://t.co/qIwoE2dYJa"
+          "postId": "2101015938435031298",
+          "author": "limanews",
+          "searchJob": "ohio",
+          "text": "Ohio Big 7 offers advice to local businesses https://t.co/5NylEk3OPl"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2101018957755060549",
-          "author": "bflynnusa",
-          "searchJob": "temple",
-          "text": "The Stone Never Found The Treasure Joseph Smith Jr. first used a seer stone to report what others could not see. Josiah Stowell hired him for that work. The 1826 Bainbridge examination exists because of it. Associates later described the sa"
+          "postId": "2101014673101406661",
+          "author": "kobe_for_3",
+          "searchJob": "ohio",
+          "text": "Capt. Edward J. Ruppelt ran the US Air Force investigation into flying saucers. In March 1952, weeks before it was named Project Blue Book, he briefed a room in Boston and a tape recorder was running. The Department of War declassified the "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101017732334391311",
-          "author": "nieuwsf",
-          "searchJob": "temple",
-          "text": "Are you ready for the Rapture of the Church? We are at the end of an age, as of now the Church is restraining evil, but not for much longer. We are about to leave. To be Rapture Ready you just need to believe that you are a sinner (Because "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101017304377201078",
-          "author": "ac_scrowrender",
-          "searchJob": "temple",
-          "text": "Matt 28:19 and Romans 10:14 do not overturn the Covenant. \"Don’t you know that those who serve in the temple get their food from the temple, and that those who serve at the altar share in what is offered on the altar? In the same way, the L"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101016667082133620",
-          "author": "astro_raghv",
-          "searchJob": "temple",
-          "text": "If you bathe for 16 consecutive days by mixing milk in water, or by applying curd on your body before bathing, your Venus (Shukra) will become very strong and Goddess Mahalakshmi’s grace will be upon you. 🥛✨ If you mop your house, shop, fa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101012288165773328",
-          "author": "sreenathravi",
-          "searchJob": "temple",
-          "text": "@CptoneP have you ever seen the oil offered inside temple ever used?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101006645132435727",
-          "author": "harry74963946",
-          "searchJob": "temple",
-          "text": "@_kumbhkaran If I’m offered even 10k I’ll convert to Christian, because If someone is grabbing my neck in a temple I swear I’d break his neck!"
+          "postId": "2101001101151465702",
+          "author": "beasubteacher",
+          "searchJob": "ohio",
+          "text": "🍎 Ohio Substitute Teacher Services offers aspiring educators flexibility, variety, and the chance to make a real difference! Apply at https://t.co/QB9jk3qmjk! #BeASub https://t.co/M8a9Sj2mX8 https://t.co/XrS2ryhQ8q"
         }
       ]
     },
@@ -61422,22 +61195,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 6,
+      "failed": 1,
+      "requests": 7,
+      "errors": [
+        "toledo: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 2,
-      "rejectedCandidates": 46,
+      "rejectedCandidates": 4,
       "brandNewOffers": 2
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 61,
-    "decided": 61,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
