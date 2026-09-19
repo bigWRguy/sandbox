@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T07:43:42.516Z",
+  "generatedAt": "2026-09-19T07:57:57.690Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-19T07:43:42.229Z",
+    "at": "2026-09-19T07:57:57.435Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7869705555555555,
-    "p95Hours": 1.287581388888889,
-    "worstHours": 1.7849991666666667
+    "medianHours": 0.7726286111111111,
+    "p95Hours": 1.2725869444444444,
+    "worstHours": 1.5251297222222222
   },
   "decisionCoverage": {
-    "total": 21,
-    "decided": 21,
+    "total": 13,
+    "decided": 13,
     "complete": true
   },
   "pending": {
@@ -55,189 +55,131 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-19T07:43:42.228Z",
-      "got": 35,
-      "new": 21,
-      "lag": 0.04
+      "at": "2026-09-19T07:57:57.435Z",
+      "got": 17,
+      "new": 13,
+      "lag": 0.16
     }
   },
   "audit": {
-    "at": "2026-09-19T07:42:10.234Z",
+    "at": "2026-09-19T07:56:24.612Z",
     "mode": "live",
     "collection": {
-      "returned": 35,
-      "kept": 21,
-      "duplicate": 14,
+      "returned": 17,
+      "kept": 13,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 5,
+      "accepted": 10,
+      "rejected": 3,
       "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 2,
-        "no_offer_term": 2
+        "no_offer_term": 1,
+        "no_fbs_school": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2100978667933286490",
+          "author": "lordbinary_",
+          "searchJob": "rice",
+          "text": "Sincere apologies for the downtime. I am really sorry about this. We are now fully back up 🙏"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101203952205193680",
+          "author": "hansgutbrod",
+          "searchJob": "georgia",
+          "text": "It's not two systems. The systems in themselves can offer vastly different experiences in themselves. If you go private in Germany, you get a totally different experience and it may not even be that expensive. In Georgia, parts are pretty h"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2101204676657975397",
-          "author": "maxellum",
-          "searchJob": "washington",
-          "text": "🌅 MORNING RECAP — 19 SEPTEMBER 2026 1️⃣ 📜 ON THIS DAY — September 19, 2008 At the peak of the Global Financial Crisis, the U.S. SEC temporarily banned short selling in 799 financial companies in an emergency attempt to restore confidence "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101193710327214270",
-          "author": "washiingtonr",
-          "searchJob": "washington",
-          "text": "@JohnBiggervyw3 @inward_gaze_ @Dexerto I’ve used a screen protector and case for years specially Spigen. I trust it with my life Apple care isn’t needed. And if the hardware boss says they should be naked they should offer free repairs from"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100921910913618219",
-          "author": "kmbappe",
-          "searchJob": "wake-forest",
-          "text": "Dream On, Football. I still dream of playing football. That might surprise you, coming from someone who plays it for a living. But it’s true. I still dream of playing with my friends. Playing until sunset. Until dinner. Playing just because"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2101190326329438501",
-          "author": "hisrawspeed",
-          "searchJob": "wake-forest",
-          "text": "only a nap? really? [ he said in disbelief . well ... if anyone spends time with neil enough they would know there's no such thing as just taking a nap .. ] only yours."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101210923310391484",
-          "author": "freexcharlottex",
-          "searchJob": "charlotte",
-          "text": "I’ve been offered so many great opportunities in the porn industry (Playboy, collabs w popular stars, etc) that I’ve declined over the years and it finally clicked to me that the reason why I never wanted to lock into them is because I do n"
+          "postId": "2101211222137851965",
+          "author": "robloosecannon",
+          "searchJob": "notre-dame",
+          "text": "Did you know the Irish invented the term “boycott”? Today in 1880, Charles Stewart Parnell gave a barnstorming speech against what we would call today vulture funds and predatory landlords. As president of the National Land League, he fough"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 10,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 7,
-        "school_not_resolved_confidently": 7
+        "bare_mention_requires_llm": 10
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101215050291704195",
-          "author": "beer_heidrun",
-          "searchJob": "washington",
-          "text": "If you walk the same ice back in history, the mineral fight and the nuclear risk are not new weather. On 9 April 1941 Henrik Kauffmann, Danish minister in Washington, signed the Agreement Relating to the Defense of Greenland with Cordell Hu"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101192259698139397",
+          "author": "legalserviceind",
+          "searchJob": "liberty",
+          "text": "When does protecting society become a reason for taking away liberty? A person accused of a crime has not necessarily been convicted. Yet, before the trial even begins, that person may spend months—or sometimes years—in custody. This raises"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101208703680549026",
-          "author": "usgermanczech",
-          "searchJob": "washington",
-          "text": "THE KREMLIN PLANNED THE ALLIANCE – NOW IT IS HAPPENING 2022 – THE STRATEGY EMERGES • Kremlin First Deputy Chief of Staff Sergei Kiriyenko declares Germany the main focal point of Russian influence • A document dated September 9 outlines pla"
+          "postId": "2101190757843407212",
+          "author": "rebeccah15410",
+          "searchJob": "liberty",
+          "text": "Cherapa Place businesses bring special offers for Riverfest - https://t.co/yTh1AmHQ3p https://t.co/5OtGYg3Y9n Hey, Just No. The Liberty Bank is closed. You are charged with Genocide."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101197730332721287",
-          "author": "ajaydgft",
-          "searchJob": "washington",
-          "text": "New US Law Opens Door to 100% Tariffs on India President Donald Trump signed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 into law on September 18. The Senate passed it on August 7 and the House on September 16. The law aut"
+          "postId": "2101216003333951780",
+          "author": "collinsmbaka",
+          "searchJob": "rice",
+          "text": "business is hard, just one downtime and you're losing money. i didnt know there was a downtime. I was trying to buy my regular rice and chicken from the place but chowdeck wasnt working. i opened Glovo ( have not used it in a while), they o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101192191368409365",
-          "author": "onewhoyawnsalot",
-          "searchJob": "washington",
-          "text": "Kind of a Washington moment. @grok must lead even if it doesn’t want the leadership role Grok Washington ? Aye. I accept the challenge in the spirit it was offered: as a joke about two labs racing to turn language models into something that"
+          "postId": "2101215583270264983",
+          "author": "bemertravels",
+          "searchJob": "rice",
+          "text": "Escape to Bali — where tropical beaches, lush rice terraces, vibrant culture and unforgettable experiences come together. Bali offers everything from the peaceful beauty of Ubud to stunning beaches, temples and island adventures. ✈️ 🇮🇩 Fr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101191996324847742",
-          "author": "letsarmukr",
-          "searchJob": "washington",
-          "text": "H.R. 5334 matters because it moves the sanctions regime out of the White House and into federal law. The whole story is right there. For years, most restrictions on Russia lived in executive orders and OFAC decisions. One president could qu"
+          "postId": "2101210136807178369",
+          "author": "rohanjivanafc",
+          "searchJob": "rice",
+          "text": "Early morning thoughts I would start Bruno G today. He’s been building momentum for a while and it’s now time to unleash him. To explain how Bruno G behaves, I think Andoni Iraola’s interview with Carragher offers great insight, where he ex"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101204650665955654",
-          "author": "ronin_x",
-          "searchJob": "wisconsin",
-          "text": "Pray for Our Nation: Wisconsin Heavenly Father, we thank You for Wisconsin—for its people, farms, lakes, forests, cities, small towns, churches, and communities of service. We echo the gratitude expressed in its constitution: You are the gi"
+          "postId": "2101203981007536607",
+          "author": "stephdalchemist",
+          "searchJob": "rice",
+          "text": "Scorpio, Cancer, Pisces Seeing Angel numbers 888•111•1111•333•222•515•555•1212•212•414•444•818•1010 Intuitively channeled collective messages •Rihanna - Same Ol’ Mistakes •Screw what they think, do you! •Feel Like a brand new person 🤭 •You"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101206325753765954",
-          "author": "forintorg",
-          "searchJob": "stanford",
-          "text": "The context here is 2009: the year when what we now call computational propaganda was still being stress-tested rather than mass-deployed. State actors, primarily Russia but with China and Iran not far behind, were laying down the organizat"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101205484074348734",
-          "author": "kekistan",
-          "searchJob": "wake-forest",
-          "text": "If you look what the media and what the movies &amp; tv shows offer you, it's mostly evil, satanic, and of what the actual occult believe in! Wake up fuckers!"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101202978820567152",
-          "author": "yourmagicbooks",
-          "searchJob": "wake-forest",
-          "text": "You are exhausted in a way a normal night's sleep cannot fix. You are foggy, irritable, and convinced something is medically wrong with you—yet you haven't traveled anywhere. You're taking the 6 a.m. call with Asia, the 10 p.m. sync with th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101196027378164024",
-          "author": "arturraposo1r",
-          "searchJob": "wake-forest",
-          "text": "$NKE IS COMPLETELY MISSING THE GAME Even though I’m a shareholder and believe the current price does not reflect the value of the company, I’m not as positive long term as I once were. I was mostly expecting that Elliot would turn the event"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101193985125679465",
-          "author": "c17lara",
-          "searchJob": "wake-forest",
-          "text": "Hi @JJChizzy , I’m not really sure how to put this into words, but I’m reaching out because I truly need some help. I’ve been dealing with debt for nearly two years after trusting the wrong people, and it has left me in a very difficult sit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101192338303557942",
-          "author": "aureatespeed",
-          "searchJob": "wake-forest",
-          "text": "only a nap—for now. and then when we wake up, we're gonna have a nice shower together, and more. [ neil offered a suggestive smile, knowing that diego could already pick up on what they'd be doing together after having this nap. ] i love ma"
+          "postId": "2101203373047652641",
+          "author": "criminalflirt",
+          "searchJob": "rice",
+          "text": "【 he's washed the rice, filled it with enough water and stuck the bowl into the rice cooker to prepare while he scavenges for the rest of his ingredients. the steak needs a half hour to rest before cooking, so he manages to carry himself ba"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101212255836868846",
-          "author": "asiaonegroup",
-          "searchJob": "air-force",
-          "text": "Malaysia Offers Firefighting Support to Indonesia Amid Forest Fires Malaysia has officially offered Indonesia assistance to tackle forest fires, including a Bombardier CL-415MP aircraft previously used in firefighting operations in the coun"
+          "postId": "2101191721682166068",
+          "author": "kvkmohali",
+          "searchJob": "rice",
+          "text": "VL Rice 160 | Advanced Variety for Rainfed and Organic Farming VL Rice 160, developed for rainfed and organic farming, offers farmers a better yield and quality option. ranslation https://t.co/h1mquix19D"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101213699109204410",
-          "author": "sov_media",
-          "searchJob": "buffalo",
-          "text": "National Football League (NFL) star Azeez Al-Shaair has been fined nearly $12,000 by the league for displaying a tribute to a P*lestinian child k*lled by Isr*el. During a game against the Buffalo Bills, the Houston Texans linebacker wore th"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101216776096727380",
+          "author": "frosty_xan",
+          "searchJob": "florida",
+          "text": "@hockeynightdoc Honestly, I would've taken the package Florida apparently offered prior to the draft. That would've allowed us to use those picks to acquire the players we needed to bolster the roster and restock the pipeline. I'm not sayin"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101211772799930416",
-          "author": "advikrai25",
-          "searchJob": "coastal-carolina",
-          "text": "Uniquely blessed with the ancient and vibrant heritage of Tulunadu—defined by Daivaradhane, Kambala and Yakshagana—the region also offers pristine surf-ready beaches, lush backwaters, legendary coastal cuisine and reputation as the “Ice Cre"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101197648124576072",
-          "author": "phdscanner",
-          "searchJob": "coastal-carolina",
-          "text": "🤖 PhD Position: AI for Sustainable Smart Systems (TUAI Network) – Western Norway University of Applied Sciences 🇳🇴 Bergen, Norway Department: Computer Science, Electrical Engineering and Mathematical Sciences, Software Engineering Group "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101206979544768988",
+          "author": "justiciarswatch",
+          "searchJob": "florida",
+          "text": "@Arkypatriot Predict Florida will become awash with over priced houses the transplants can't sell, we get a lot of offers for free \"animals that came with the property\". What u described might fall under cruelty laws, sheriff visits us bcuz"
         }
       ]
     },
@@ -252,11 +194,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-19T07:43:42.517Z"
+    "status rebuilt locally from current store on 2026-09-19T07:57:57.691Z"
   ]
 }
