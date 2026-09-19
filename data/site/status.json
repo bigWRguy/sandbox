@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T08:57:54.495Z",
+  "generatedAt": "2026-09-19T09:13:07.917Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-19T08:57:54.293Z",
+    "at": "2026-09-19T09:13:07.595Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7753772222222223,
-    "p95Hours": 1.2622886111111111,
-    "worstHours": 1.5248813888888888
+    "medianHours": 0.778785,
+    "p95Hours": 1.2786891666666667,
+    "worstHours": 1.7786097222222221
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 27,
+    "decided": 27,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 59
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 1489,
     "incompleteOffers": 0
@@ -55,66 +55,230 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-19T08:57:54.293Z",
-      "got": 5,
-      "new": 4,
-      "lag": 0.42
+      "at": "2026-09-19T09:13:07.594Z",
+      "got": 57,
+      "new": 27,
+      "lag": 0.22
     }
   },
   "audit": {
-    "at": "2026-09-19T08:56:28.070Z",
+    "at": "2026-09-19T09:11:35.582Z",
     "mode": "live",
     "collection": {
-      "returned": 5,
-      "kept": 4,
-      "duplicate": 1,
+      "returned": 57,
+      "kept": 27,
+      "duplicate": 30,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 2,
+      "accepted": 22,
+      "rejected": 5,
       "reasons": {
-        "no_offer_term": 2
+        "no_offer_term": 4,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2101228019285098804",
-          "author": "cory_fitz",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@Spanish_Techno I am blessed to receive these curses"
+          "postId": "2100934092468760843",
+          "author": "russiadirect",
+          "searchJob": "navy",
+          "text": "NBC News: As Europe prepares for war with Russia, the U.S. weighs a sweeping withdrawal of planes, ships, weapons and tens of thousands of troops from Europe. 🔗 Source: https://t.co/SDU9tWYo8Q https://t.co/5yilvUxagr"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2101225194371043463",
-          "author": "firestick_411",
-          "searchJob": "north-carolina",
-          "text": "ASHEVILLE, N.C. (FOX Carolina) - The fate of a mother black bear in western North Carolina remains uncertain after her story caught the attention of thousands, but officials said a non-deadly option is now on the table. https://t.co/e4MPdt0"
+          "postId": "2100875077986206014",
+          "author": "glenn_diesen",
+          "searchJob": "navy",
+          "text": "The Ukrainian army suffers 27,000 casualties a month, according to the Polish PM. Yet, the European leaders reject diplomacy with Russia to end the war. If these were European soldiers, we would have agreed a long time ago to end NATO expan"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101084318252539971",
+          "author": "orgrimsson",
+          "searchJob": "washington",
+          "text": "The new agreement now confirmed by PM of #Greenland, PM of #Denmark and P of #USA. https://t.co/vRpDk3xM4G"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101045165284528163",
+          "author": "highchiefokoro",
+          "searchJob": "wake-forest",
+          "text": "Peter Obi’s team reached out to my for this gig (2,500,000). I rejected it and told them that I can’t defend a liar."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101228366850617673",
+          "author": "marigoldenisbl1",
+          "searchJob": "wake-forest",
+          "text": "Wake-up to the hypocrites and Liars We cannot trust the so called News They slant everything to try to make everyone hate Trump...its insane. The Dems have NOTHING to OFFER AMERICA...just raise your taxes and blame Trump for everything, inc"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 22,
       "reasons": {
-        "school_not_resolved_confidently": 2
+        "multiple_resolved_schools": 11,
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101224634813124793",
-          "author": "frankleesg",
-          "searchJob": "miami",
-          "text": "It's a very dangerous thing to not believe anything a person says. If it's so wrong, why doesn't FDC Miami video record him being offered a phone call to the mother of his child? Then you can instantly shut Andrew Tate up. If Andrew is real"
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230847663976801",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230795381993870",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230730219344255",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230669762617598",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230612552229117",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230569678073948",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230509175210230",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230470562496899",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230421367550222",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230355487547453",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101230279453278690",
+          "author": "jacksarfatti",
+          "searchJob": "navy",
+          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101234643638927843",
+          "author": "midlifecrisisw1",
+          "searchJob": "washington",
+          "text": "Now Iceland should send their best to Washington and expand and refresh the defence agreement that it has with the US and at the same time offer them some attractive investment incentives on Data Centres for American Companies."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101225427872149663",
+          "author": "barryesharp",
+          "searchJob": "washington",
+          "text": "Denmark and Greenland confirmed a security arrangement with the United States. Trump posted adjectives. They did not. The text is not public. Signing is next week at the United Nations. A Truth Social post is not a statute. That is still mo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101234818604540068",
+          "author": "neosimple007",
+          "searchJob": "stanford",
+          "text": "@thewire_in lets blame congress for it, lets make a movie on CIA being extremely intelligent. In reality they offered a seat in Harvard and stanford to someone's kid. Lets shout \"ye naya bharat hai....\" and lets make dhurandhar 3."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101218589587996761",
+          "author": "actionmonaco",
+          "searchJob": "stanford",
+          "text": "Online harms and teens: Five things to know New Stanford #University-led #research offers the first comprehensive assessment of #online #harms to #teens from many platforms #AIMCnews #OnlineSafety #ParentaliteNumerique #DigitalParenting #In"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2101222217476657247",
-          "author": "silkrain4",
-          "searchJob": "miami",
-          "text": "Carlos Ulberg and Israel Adesanya have both unfollowed each other on Instagram 👀 Ulberg became the LHW champion at UFC 327. Adesanya stayed away from Miami, offered no public congratulations, and didn't post a reaction. It was also the fir"
+          "postId": "2101233987209330807",
+          "author": "ekwulu",
+          "searchJob": "wake-forest",
+          "text": "@HighChiefOkoro Bl00dy Liar. You have never seen N1 million in your entire life. A jobless Muppet will be offered N2.5 million to do what exactly? A Buff00n just wake up and invent stories. 🤣🤣🤣🤣"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101233842061205709",
+          "author": "ekwulu",
+          "searchJob": "wake-forest",
+          "text": "Bl00dy Liar. You have never seen N1 million in your entire life. A jobless Muppet will be offered N2.5 million to do what exactly? A Buff00n just wake up and invent stories. 🤣🤣🤣🤣"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101226891424518281",
+          "author": "gurnoor__",
+          "searchJob": "wake-forest",
+          "text": "We used to have the problem of not knowing what to do. Your revenue would be stuck. Your ads wouldn't be performing as well as they used to, And you'd be wondering what you need to do for the next breakthrough. Now we have the problem of kn"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101219844687274324",
+          "author": "uniquelyequally",
+          "searchJob": "wake-forest",
+          "text": "2 visions 2 yrs and I wake up I see it, it's always there can you see it in my staring gaze? There is nothing in this world that can offer me comfort, peace and intense love other than what God allow me to experience. I long for that, nothi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101229190938755477",
+          "author": "wspetrova",
+          "searchJob": "charlotte",
+          "text": "When Charlotte dresses and acts like that, I just want to offer her everything I have. How can he be so handsome? https://t.co/tp81G10Ybf"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101224840149545336",
+          "author": "smileymdxg",
+          "searchJob": "charlotte",
+          "text": "@itscharlotty Open your eyes wide: is there any woman in Thailand more beautiful than Charlotte? OF COURSE NOT... because Charlotte is the most perfect of them all. My little BIG girl deserves all the love in the world and everything good t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101224744473293227",
+          "author": "smileymdxg",
+          "searchJob": "charlotte",
+          "text": "@Kazzmagazine Open your eyes wide: is there any woman in Thailand more beautiful than Charlotte? OF COURSE NOT... because Charlotte is the most perfect of them all. My little BIG girl deserves all the love in the world and everything good t"
         }
       ]
     },
@@ -129,11 +293,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 22,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-19T08:57:54.496Z"
+    "status rebuilt locally from current store on 2026-09-19T09:13:07.918Z"
   ]
 }
