@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T06:27:59.653Z",
+  "generatedAt": "2026-09-19T06:43:11.437Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-19T06:27:59.335Z",
+    "at": "2026-09-19T06:43:11.116Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0270194444444445,
-    "p95Hours": 1.5280730555555555,
-    "worstHours": 1.7736308333333333
+    "medianHours": 0.7763661111111111,
+    "p95Hours": 1.5287122222222223,
+    "worstHours": 1.781346388888889
   },
   "decisionCoverage": {
-    "total": 16,
-    "decided": 16,
+    "total": 17,
+    "decided": 17,
     "complete": true
   },
   "pending": {
@@ -55,154 +55,159 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-19T06:27:59.334Z",
-      "got": 26,
-      "new": 16,
-      "lag": 0.27
+      "at": "2026-09-19T06:43:11.116Z",
+      "got": 31,
+      "new": 17,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-19T06:26:27.200Z",
+    "at": "2026-09-19T06:41:36.356Z",
     "mode": "live",
     "collection": {
-      "returned": 26,
-      "kept": 16,
-      "duplicate": 10,
+      "returned": 31,
+      "kept": 17,
+      "duplicate": 14,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 4,
+      "accepted": 15,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 1
+        "unclassified_offer_text": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2101176868145598743",
-          "author": "whippetartist",
-          "searchJob": "florida",
-          "text": "@Ladylaw31256058 The juror spoken about has been offered a Safe House, protections in Florida by FL Gov Ron Desantis. Juror is welcome come for safe/guarded protected living here in FL."
+          "reason": "unclassified_offer_text",
+          "postId": "2101192210507325514",
+          "author": "ashwinkumariyer",
+          "searchJob": "temple",
+          "text": "The story of a Chennai craft, a centuries-old offering, and eleven handmade umbrellas carried on foot to Lord Venkateswara Once a year, a question still runs ahead of the procession through North Chennai: has it crossed the Elephant Gate ye"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2101170501900980371",
-          "author": "joesox3",
-          "searchJob": "florida",
-          "text": "Bill Veeck 1977 South Side Hitmen 90 - 72 The Hotel Lobby Trading DeskDuring the December 1975 MLB Winter Meetings at the Diplomat Hotel in Hollywood, Florida, Veeck bypassed the traditional, secret executive suites. Instead, he and General"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101179517377171695",
-          "author": "phagankean",
-          "searchJob": "georgia",
-          "text": "Then, to resume Conley's story, Frank, having the Phagan girl in his office, told Conley to come at the stamp of his foot and unlock the door. Conley dozed off to sleep and was awakened to find his master nervously twitching his fingers and"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2100922575572578690",
-          "author": "theunknown31811",
-          "searchJob": "arizona",
-          "text": "JOIN IF YOU SEE pronouns ⦂ she/her height ⦂ 5”5 / 165 cm zodiac ⦂ Leo smoke ⦂ Very rarely tattoos ⦂ 0 piercings ⦂ 0 fav colour ⦂ pink tbh fav drink ⦂ bubble tea"
+          "reason": "hard_negative",
+          "postId": "2101184367418839457",
+          "author": "mnageswarraoips",
+          "searchJob": "temple",
+          "text": "OPEN LETTER To: 1. Shri N. Chandrababu Naidu garu, Hon’ble Chief Minister, Andhra Pradesh 2. Shri B.R. Naidu garu, Chairman, Tirumala Tirupati Devasthanams (TTD) Board 3. Shri Yogi Adityanath ji, Hon’ble Chief Minister, Uttar Pradesh SUBJEC"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_class_year": 1,
-        "school_not_resolved_confidently": 2
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 11
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101189221210071498",
+          "author": "commiepommie",
+          "searchJob": "ohio",
+          "text": "🇺🇸🇨🇳 The US spent years calling Chinese electric vehicles a national security threat. Now the President says build the factories here On Fox News Trump said these words: “If China wanted to come in and open a plant to build their cars h"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101189547526918294",
-          "author": "loopingcloud",
-          "searchJob": "florida",
-          "text": "Pompano Beach industrial opportunity! 1802 SW 7th Ave offers 4,598 SF with warehouse space, ±200 SF office, ±14' ceilings & roll-up door. Asking $1.349M. Joe Pelayo: (954) 341-3294. Request details today! https://t.co/TiSOLT9Doa #PompanoBea"
+          "postId": "2101185673248067711",
+          "author": "rockie_thunder",
+          "searchJob": "ohio",
+          "text": "Alliant Treatment Center Presents - A Methadone Treatment Clinic Also visit Alliant Treatment Center on the web at https://t.co/59WNsUq526. Eligible Individuals must be 18 years of age or older. Dosing Hours 6 am to 12 pm Eastern Standard T"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101199297849266419",
+          "author": "subbarajux",
+          "searchJob": "temple",
+          "text": "@MNageswarRaoIPS I second the suggestion of Nageswara Rao garu, as a simple Hindu. Temple offers a deep connection with the Almighty and one can’t replicate it easily as elaborated by him. Don’t drop devotion to the level of merchandise. 🙏"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101187342832967864",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "TN: Devotees offer prayers at Srinivasa Perumal temple in Theni's Bodinayakanur on the occasion of Purattasi month's first Saturday. https://t.co/YCZxovu2QT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101184602467623158",
+          "author": "mahesh_go",
+          "searchJob": "temple",
+          "text": "@BharatR74239432 If I ever come to North India, the first thing I will do is go to the Baba Vishwanath Temple to offer prayers, and then I will go to meet the Aghori sadhus... Har Har Mahadev 🚩🕉️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101182480284053734",
+          "author": "avdbng",
+          "searchJob": "temple",
+          "text": "A “people’s leader” who treats conviction as a liability and popular worship as a duty is not practising dharma. He is practising vote-bank arithmetic. That is the inferiority. The same EVR who told Tamils to observe Independence Day as a d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101172718892728656",
+          "author": "oldwhitewisemen",
+          "searchJob": "temple",
+          "text": "Apparently, God changes like we change our underwear, even though Scripture says: Malachi 3:6: “For I am the Lord, I do not change.” Hebrews 13:8: “Jesus Christ is the same yesterday, and today, and forever.” James 1:17: God is the “Father "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101192552896405794",
+          "author": "juneau_ethan",
+          "searchJob": "lsu",
+          "text": "@JohnnyBoone99 @LaneKiffinLvr @WAFB @LSUfootball Hey Johnny, hope you’re well. I appreciate the generous offer you have presented, but as I am a heterosexual male, unlike you it presumes, I must respectfully decline your offer. See you at 6"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101197133215076718",
+          "author": "tangestate",
+          "searchJob": "california",
+          "text": "Other year passed by, good to be in person to connect with all the #capital #privatelenders for my #mortgage #loan #mortgagebroker #BusinessGrowth as #businessowner , #loanbroker ! Let me know if u have any #mortgage questions, free consult"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101188544844972088",
+          "author": "kristiesteam",
+          "searchJob": "california",
+          "text": "✨ JUST LISTED — 22 Terry Circle, Novato Offering at $1,248,000 Your serene California retreat has arrived — and it’s one of those rare Novato properties that truly feels like a sanctuary. Tucked away on an ultra‑private, beautifully landsca"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2101189481089073273",
-          "author": "dunnbilly87734",
-          "searchJob": "florida",
-          "text": "Hillary Clinton : \"We Can Have this Jesuitical Argument about what exactly was meant\" (re-upload) - YouTube https://t.co/KUWnVGNpVQ MEET THE PRESS - RUSSERT BADGERS @HillaryClinton ON THE IRAQ VOTE P2 MEET THE PRESS JANUARY 6, 2008 https://"
+          "postId": "2101182966902976826",
+          "author": "scuzzbee",
+          "searchJob": "california",
+          "text": "\"Struggle with basic math\", \"graduating at record rates\". The hidden information contained within this 2 statements is the scary part and the source of the problem. Tax payer dollar wasted, students graduate with useless degrees. UC campuse"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101188947699278192",
-          "author": "curtis55657",
-          "searchJob": "florida",
-          "text": "@proamericapol My bet: the Greenlanders will decide a crack at a comfy retirement condo in Florida or Arizona beats anything Denmark has to offer."
+          "postId": "2101184868411478452",
+          "author": "clandro",
+          "searchJob": "duke",
+          "text": "Today in History September 19th 1942 Happy 84th Birthday Freda Charcelia Payne is an American singer, actress and television personality, best known internationally for the 1970 hit “Band of Gold.” She was born on September 19, 1942, in Det"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101177995859726408",
+          "author": "aeprops",
+          "searchJob": "duke",
+          "text": "He now faces a Duke team that offers a similar pass funnel, That front 7 has looked stout, but the secondary has been vulnerable. Katin Houser threw for 271 yards against this same Duke secondary last week and lead reciever Collin Dixon had"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2101186872521158930",
-          "author": "gianl1974",
-          "searchJob": "florida",
-          "text": "Well, that can’t be a good sign — literally. Diesel’s national average reached roughly $6.44 a gallon Friday, another all-time high and about $2.70 above last year’s level. Photos from stations in Texas, Florida and California show localize"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2101170627797254323",
-          "author": "veronicatalk",
-          "searchJob": "florida",
-          "text": "@apinionsvary Gov. Desantis has offered Freedom Florida Asylum! We would have his back here."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101189869808832744",
-          "author": "martinoleary",
-          "searchJob": "georgia",
-          "text": "@gossipaddress @danogburn everyone wants what they have and I’m sure there’s a group in sf that want what Georgia has to offer if packaged and sold the right way."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101179530786529372",
-          "author": "gshadrake",
-          "searchJob": "georgia",
-          "text": "@Mike_Pence What you &amp; the rest of the neocon cabal in DC have given Ukraine is utter destruction. From Bush’s 2008 NATO offer to Georgia &amp; Ukraine - obviously designed to wreck relations with Moscow &amp; reignite the Cold War - to"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101189336922312882",
-          "author": "fentflyer",
-          "searchJob": "arizona",
-          "text": "JOIN IF YOU SEE pronouns ⦂ she/her (i enbycope irl so they/them in that case) height ⦂ 5”6 / 168 cm zodiac ⦂ gemini smoke ⦂ whenever i'm offered tattoos ⦂ 0 piercings ⦂ 0 (i want tattoos/piercings but my gf doesn't like them) fav colour ⦂ r"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101174232655008192",
-          "author": "yychealthnut",
-          "searchJob": "arizona",
-          "text": "‘I’ve never been so excited’: New nanoparticle study at U of A offers hope for new Alzheimer’s treatment https://t.co/dzPvU6d9TB"
+          "postId": "2101199591093723182",
+          "author": "dreamzofgr8ness",
+          "searchJob": "uconn",
+          "text": "Friday, September 18, 2026 The calendar is not a suggestion. It is a boundary with teeth. Thursday Night Football belongs to Thursday. Josh Allen’s five-touchdown housewarming — new stadium, better acoustics, Lions clawing, a building chris"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2101182031036113141",
-          "author": "kwktfox44",
-          "searchJob": "baylor",
-          "text": "All aboard! Waco Transit offers free rides to Baylor v. LA Tech game Saturday https://t.co/Welcrayxho"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101192583728783605",
-          "author": "minipaws",
-          "searchJob": "notre-dame",
-          "text": "@HelenBr32123747 @TadhgCalbhaigh This I don't understand. Where are all the Irish medical professionals educated here? Oh wait ✋ Australia. Offer them permanent pensionable jobs instead of using agencies who import foreign staff."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101176583067439175",
-          "author": "ruthdelioncourt",
-          "searchJob": "notre-dame",
-          "text": "@BlackDouglasSct @JulieLovesFluff No. I grew up Midwest Irish/German. This is NOT a Midwest Irish/german thing, this is insane. We would offer pizza and pop for something like this, not expect them to bring their own food and/or not eat. Th"
+          "postId": "2101190983253635209",
+          "author": "dreamzofgr8ness",
+          "searchJob": "uconn",
+          "text": "Friday, September 18, 2026The calendar is not a https://t.co/SQizyqi2n5 is a boundary with teeth.Thursday Night Football belongs to Thursday. Josh Allen’s five-touchdown housewarming — new stadium, better acoustics, Lions clawing, a buildin"
         }
       ]
     },
@@ -217,11 +222,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-19T06:27:59.655Z"
+    "status rebuilt locally from current store on 2026-09-19T06:43:11.438Z"
   ]
 }
