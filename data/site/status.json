@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T08:42:46.899Z",
+  "generatedAt": "2026-09-19T08:57:54.495Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-19T08:42:46.688Z",
+    "at": "2026-09-19T08:57:54.293Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5232672222222222,
-    "p95Hours": 1.272771388888889,
-    "worstHours": 1.5196311111111112
+    "medianHours": 0.7753772222222223,
+    "p95Hours": 1.2622886111111111,
+    "worstHours": 1.5248813888888888
   },
   "decisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 4,
+    "decided": 4,
     "complete": true
   },
   "pending": {
@@ -55,217 +55,66 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-19T08:42:46.688Z",
-      "got": 31,
-      "new": 25,
-      "lag": 0.03
+      "at": "2026-09-19T08:57:54.293Z",
+      "got": 5,
+      "new": 4,
+      "lag": 0.42
     }
   },
   "audit": {
-    "at": "2026-09-19T08:41:24.022Z",
+    "at": "2026-09-19T08:56:28.070Z",
     "mode": "live",
     "collection": {
-      "returned": 31,
-      "kept": 25,
-      "duplicate": 6,
+      "returned": 5,
+      "kept": 4,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 5,
+      "accepted": 2,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1,
-        "hard_negative": 2
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2101224538516119643",
-          "author": "wtol11toledo",
-          "searchJob": "toledo",
-          "text": "The event will offer a Dollywood ticket raffle, a Dolly costume contest, live entertainment and food &amp; drink specials; book boxes will be set up for donations. https://t.co/8jRrXuRFMd"
+          "reason": "no_offer_term",
+          "postId": "2101228019285098804",
+          "author": "cory_fitz",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@Spanish_Techno I am blessed to receive these curses"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2101199616716763623",
-          "author": "gigglingganon",
-          "searchJob": "michigan",
-          "text": "Got a little classic board game trivia. In the board game Scrabble, which two letters are the only tiles valued at exactly 10 points each? https://t.co/2Axlyw96sy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101222854616355229",
-          "author": "driscoll1142",
-          "searchJob": "pittsburgh",
-          "text": "@LeVeonBell I could not disagree more. They can use the franchise tag on him for the next 2 years. They offered him a very good deal. If he doesn't want it, they should trade him. Steelers have no reason to give in to him. He has no leverag"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2101223961929695528",
-          "author": "grazinggoat66",
-          "searchJob": "army",
-          "text": "On This Day In History Sep 19 1796 - George Washington's farewell address as US President is published 1849 - 1st commercial laundry is established. In Oakland CA. 1876 - 1st carpet sweeper patented 1893 - New Zealand becomes the 1st countr"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2101222399849148912",
-          "author": "ojamay1",
-          "searchJob": "army",
-          "text": "Whether on the continent or in Japan, it is the Koreans and the Chinese who seem unable to suppress their impulses toward militarism and mass slaughter. Are you unaware that the Japanese people have been staging fierce protests against mili"
+          "postId": "2101225194371043463",
+          "author": "firestick_411",
+          "searchJob": "north-carolina",
+          "text": "ASHEVILLE, N.C. (FOX Carolina) - The fate of a mother black bear in western North Carolina remains uncertain after her story caught the attention of thousands, but officials said a non-deadly option is now on the table. https://t.co/e4MPdt0"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 20,
+      "rejected": 2,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "reporter_missing_player_name": 2,
-        "multiple_resolved_schools": 7
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101208761507443098",
-          "author": "tee2019k",
-          "searchJob": "maryland",
-          "text": "Maryland Salvadorans in limbo as TPS deadline nears. I vote we do away with “Temporary Protected Status” altogether. Abolish it. America’s efforts to “do the right thing” and offer temporary aid to people in need of shelter has morphed into"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101224634813124793",
+          "author": "frankleesg",
+          "searchJob": "miami",
+          "text": "It's a very dangerous thing to not believe anything a person says. If it's so wrong, why doesn't FDC Miami video record him being offered a phone call to the mother of his child? Then you can instantly shut Andrew Tate up. If Andrew is real"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101224695609585793",
-          "author": "gigglingganon",
-          "searchJob": "michigan",
-          "text": "Man attacked and assaulted with a vehicle his baby momma. Tried to escape police in high speed chase. A terrifying late-night encounter in Lansing, Michigan, spiraled into a high-stakes police pursuit and a federal prison sentence after 31-"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101227057006920184",
-          "author": "histories_arch",
-          "searchJob": "tennessee",
-          "text": "A vintage photograph of music icon Dolly Parton and her husband, Carl Thomas Dean, they truly did meet outside a Nashville laundromat in 1964 when Dolly was 18 and Carl was 21.... Carl Thomas Dean (21), driving past a Nashville laundromat i"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2101219183501435048",
-          "author": "winnd923",
-          "searchJob": "texas",
-          "text": "The sole audio file in the September 18, 2026 declassified tranche is the March 1952 presentation by Capt. Edward J. Ruppelt (Project Blue Book's first director), logged in the repository under document tracking ID DOW-UAP-D154. The present"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101218693942325668",
-          "author": "donaldreed1949",
-          "searchJob": "houston",
-          "text": "@NoDMsPerfavore What Barack offered this country was Illegals, Muslims taking over our Country. He set race relations back 50 years. Riots in the Streets all over America. Muslims taking over Cities, NYC, Dearborn, Chicago, LA, Dallas, Hous"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101218174028906858",
-          "author": "sandlersteph",
-          "searchJob": "houston",
-          "text": "Who's interested in getting three Tame Impala tickets for Sat Sep 19 at Toyota Center, Houston, TX? Looking to offer them for a decent price since my sister got extra tickets."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101215808882155784",
-          "author": "roryburnside",
-          "searchJob": "houston",
-          "text": "@karavas_alex If Dan Houston requests a trade, how do we approach it? Take what’s offered, turn it into a genuine win, or block it?"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101230119385800851",
-          "author": "jacksarfatti",
-          "searchJob": "army",
-          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101229962934337903",
-          "author": "jacksarfatti",
-          "searchJob": "army",
-          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101229887113908675",
-          "author": "jacksarfatti",
-          "searchJob": "army",
-          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101229813386113092",
-          "author": "jacksarfatti",
-          "searchJob": "army",
-          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101229736181797083",
-          "author": "kooscart",
-          "searchJob": "army",
-          "text": "wtb bts pc ph - not in rush ; x op - pref drop but can payo if offer is good - pls disclose condition - liked = noted tags. memories of 2017 2019 jungkook dvd pc photocard be lucky draw ld ptd permission to dance ube koo deco racer golden j"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101229724404174916",
-          "author": "jacksarfatti",
-          "searchJob": "army",
-          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101229632951665149",
-          "author": "jacksarfatti",
-          "searchJob": "army",
-          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101229549896040820",
-          "author": "jacksarfatti",
-          "searchJob": "army",
-          "text": "Under those assumptions the war is no longer “NATO versus Russia.” It is a limited conventional war between Russia (with Iranian and Chinese help in the background) and a U.S.-less, Turkey-less European rump. That is a different conflict. D"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101229054737428892",
-          "author": "iranintl_en",
-          "searchJob": "army",
-          "text": "Iran’s Interior Ministry spokesman condemned accusations of betrayal against officials pursuing diplomacy and descriptions of the armed forces as warmongers, calling both forms of criticism “treason.” Ali Zeynivand said at a news conference"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101224167248896183",
-          "author": "pukhtoon932006",
-          "searchJob": "army",
-          "text": "@CSMR786 This will be our good luck to defend the two holly places Mecca and Madina.I am as retired army person offer myself for this holy cause..In Sha Allah the whole Pakistani nation including Pakistan Defense Forces r ready to defend KS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101222086635102581",
-          "author": "freedomohb",
-          "searchJob": "army",
-          "text": "@BorisJohnson @ImranKhanPTI was offered peace by Indian PM who persuaded him to work together addressing poverty in both countries. Imran agreed but changed his mind after return to Pakistan. Pak army in control."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101220216969543714",
-          "author": "666bayraktar666",
-          "searchJob": "army",
-          "text": "@GoodwinMJ The answer is easy as always: Everyone, but they don't know it yet. It is naive to think that even though you have not been in the army training you would not be sent to fight in a case of war. They will make everyone an offer th"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2101219342671048718",
-          "author": "jikook___x",
-          "searchJob": "army",
-          "text": "@bts_bighit I would understand as an American Army if you started declining any offers from these organizations here 💔🥺"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101222217476657247",
+          "author": "silkrain4",
+          "searchJob": "miami",
+          "text": "Carlos Ulberg and Israel Adesanya have both unfollowed each other on Instagram 👀 Ulberg became the LHW champion at UFC 327. Adesanya stayed away from Miami, offered no public congratulations, and didn't post a reaction. It was also the fir"
         }
       ]
     },
@@ -280,11 +129,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 20,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-19T08:42:46.900Z"
+    "status rebuilt locally from current store on 2026-09-19T08:57:54.496Z"
   ]
 }
