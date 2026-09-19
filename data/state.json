@@ -1,12 +1,5 @@
 {
   "seenPostIds": [
-    "2091628089948430798",
-    "2091616474523664447",
-    "2091596614016389145",
-    "2091582740479262893",
-    "2091570047659491408",
-    "2091560577550471456",
-    "2091558732303884666",
     "2091554746356367573",
     "2091552149809557679",
     "2091544998919414265",
@@ -59999,17 +59992,24 @@
     "2101129202049175715",
     "2101124245686542557",
     "2101122762441904527",
-    "2101139348498305468"
+    "2101139348498305468",
+    "2101146926733549617",
+    "2101111152373801280",
+    "2101141150060957747",
+    "2101139907087393267",
+    "2101128703174459844",
+    "2101121868459561188",
+    "2101137379348168758"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-19T03:13:32.721Z",
-      "got": 40,
-      "new": 17,
-      "lag": 0.1
+      "at": "2026-09-19T03:27:03.797Z",
+      "got": 11,
+      "new": 7,
+      "lag": 0.27
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60743,15 +60743,15 @@
       "truncated": false
     },
     "marshall": {
-      "at": "2026-09-19T01:29:28.865Z",
+      "at": "2026-09-19T03:26:32.932Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 2,
       "truncated": false
     },
     "massachusetts": {
-      "at": "2026-09-19T01:29:28.865Z",
+      "at": "2026-09-19T03:26:32.932Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 8,
       "truncated": false
     },
     "memphis": {
@@ -60893,19 +60893,19 @@
       "truncated": false
     },
     "troy": {
-      "at": "2026-09-19T01:29:28.865Z",
+      "at": "2026-09-19T03:26:32.932Z",
+      "migratedAt": "2026-08-31T05:59:03.886Z",
+      "lastPosts": 0,
+      "truncated": false
+    },
+    "tulane": {
+      "at": "2026-09-19T03:26:32.932Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 1,
       "truncated": false
     },
-    "tulane": {
-      "at": "2026-09-19T01:29:28.865Z",
-      "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 9,
-      "truncated": false
-    },
     "tulsa": {
-      "at": "2026-09-19T01:29:28.865Z",
+      "at": "2026-09-19T03:26:32.932Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -60947,7 +60947,7 @@
       "truncated": false
     },
     "western-kentucky": {
-      "at": "2026-09-19T01:29:28.865Z",
+      "at": "2026-09-19T03:26:32.932Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -60959,9 +60959,9 @@
       "truncated": false
     },
     "wyoming": {
-      "at": "2026-09-19T01:29:28.865Z",
+      "at": "2026-09-19T03:26:32.932Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "class:2026": {
@@ -61095,11 +61095,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-19T03:13:32.721Z",
+    "at": "2026-09-19T03:27:03.798Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 7,
+    "requests": 8,
+    "fullSweepCycles": 24
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61119,152 +61119,82 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-19T03:12:02.410Z",
+    "at": "2026-09-19T03:26:32.911Z",
     "mode": "live",
     "collection": {
-      "returned": 40,
-      "kept": 17,
-      "duplicate": 23,
+      "returned": 11,
+      "kept": 7,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 5,
+      "accepted": 5,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 5
+        "hard_negative": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2101123871571099769",
-          "author": "kymillennial",
-          "searchJob": "kentucky",
-          "text": "@DineshDSouza @sully4846 I essentially agree with you. While I believe there is no act in itself that will undo your salvation, I believe that you can reject what’s being offered if you once accepted it; not unlike you can reject your citiz"
+          "reason": "hard_negative",
+          "postId": "2101146926733549617",
+          "author": "dunnbilly87734",
+          "searchJob": "massachusetts",
+          "text": "OFFICIAL NAME: Holy See Note: The Holy See is the universal government of the Catholic Church and operates from the Vatican City State, a sovereign, independent territory of 0.44 square kilometers (0.17 square miles). The Pope is the ruler "
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2101134353895993613",
-          "author": "freedomfightr10",
-          "searchJob": "missouri",
-          "text": "@ItalyinUS Oh this is wonderful news! Please don't poison the flour for your pasta like they do here in America! I'm in Missouri and I will be a loyal for life customer if you can offer us safe pasta! 🙏🙏🙏"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101138457896652962",
-          "author": "mediaqsi",
-          "searchJob": "california",
-          "text": "🇸🇬🚖 Waymo Plans to Offer Paid Robotaxi Rides in Singapore in 2028 Waymo plans to offer its robotaxi service in Singapore in 2028, the latest in a string of domestic and international expansions by the Alphabet Inc. unit. The Mountain Vie"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101132360016363781",
-          "author": "kevintrod",
-          "searchJob": "california",
-          "text": "@Reelpatriot55 Unless Paramount offers these crew members contracts that guarantee consistent work, those people will stay stay in California where they can go from studio to studio getting job after job."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101129202049175715",
-          "author": "usweekly",
-          "searchJob": "california",
-          "text": "A husband and wife are accused of running a \"busy\" brothel out of their Northern California day spa, where sexual services were offered to \"sex buyers\" every day, according to prosecutors. https://t.co/4EFExBsdWs"
+          "reason": "no_offer_term",
+          "postId": "2101111152373801280",
+          "author": "realannapaulina",
+          "searchJob": "massachusetts",
+          "text": "🚨You cannot have allegiance to two countries. 🚨Dual citizenship should be banned and disqualifying for seeking federal office."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
+      "rejected": 5,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_player_name": 1
+        "author_not_recruit:different sport": 1,
+        "bare_mention_requires_llm": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101134743752343818",
-          "author": "redinablustate",
-          "searchJob": "toledo",
-          "text": "We offer you cali kush indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Santiago de Compostela, Toledo, Cordoba, Granada, San Sebastian, Salamanca, Cuenca, Segovia, Avila, Merida, G"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2101141150060957747",
+          "author": "verbalcommits",
+          "searchJob": "massachusetts",
+          "text": "2027 Woodstock Academy (CT) G Zack Dawson has received an offer from UMass Lowell. https://t.co/kMezmR1wuZ"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101134489317478663",
-          "author": "redinablustate",
-          "searchJob": "toledo",
-          "text": "We offer you cali kush indoor weed plus vapes, disposable vape, hash, carts, edibles, gummies, and pre-rolls in the city, Plug in: Santiago de Compostela, Toledo, Cordoba, Granada, San Sebastian, Salamanca, Cuenca, Segovia, Avila, Merida, G"
+          "postId": "2101139907087393267",
+          "author": "anger_audrey",
+          "searchJob": "massachusetts",
+          "text": "I wrote about this after the Clancy mistrial: that case was never only about one defendant. It was a boundary test for how Massachusetts would define postpartum mental illness—and what state power would follow. Now, days later, comes the un"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101133823144587619",
-          "author": "tmjnewsnetwork",
-          "searchJob": "toledo",
-          "text": "On May 25, 2026, Toledo Free Press journalist Stephen Zenner sat down with Palestinian activist Walaa Kanan to explore the Palestinian perspective on the ongoing war on Gaza. Addressing the prospect of a two-state solution, Kanan offered a "
+          "postId": "2101128703174459844",
+          "author": "bpprincipalvt",
+          "searchJob": "massachusetts",
+          "text": "🔧 BAY PATH — BUILDING PATHWAYS FOR OUR COMMUNITIES 🎓 At our Lions Club meeting tonight, Lion Kevin Congdon welcomed Kyle Brenner, Superintendent-Director of Bay Path Regional Vocational Technical High School, along with Kirsten Congdon, S"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101140914718593452",
-          "author": "tfloss32",
-          "searchJob": "kentucky",
-          "text": "Kentucky steps up to offer '29 DB Antonio Murray II (@Murray17Antonio) from Cypress Ranch. #ForTheTeam #BBN https://t.co/DsLH48vesZ https://t.co/6Ja1RtCdx2 𝕏 @WRAB50 | @CyRanchFB"
+          "postId": "2101121868459561188",
+          "author": "masseovs",
+          "searchJob": "massachusetts",
+          "text": "The Big E kicked off its 17-day showcase of New England agriculture with Military Appreciation Day on Friday! The Executive Office of Veterans Services was proud to be there with the @MassDeptAgr in West Springfield, sharing resources and h"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101137800791810307",
-          "author": "cehartson",
-          "searchJob": "nebraska",
-          "text": "All you people do is lie. The case was handled by prosecutors in the Texas Attorney General’s office after a local recusal and a hung jury; Ken Paxton did not personally negotiate or approve the plea as a one-off favor. Here are the documen"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101146092792315930",
-          "author": "zepplarouche",
-          "searchJob": "northwestern",
-          "text": "https://t.co/9gt6jCdKDJ The completion of the 3,800 km. Capricorn bioceanic corridor, connecting the Brazilian port of Santos with the Chilean ports of Antofagasta and Tarapaca, and traversing Brazil, Paraguay, Argentina and Chile, has spar"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101142988764410004",
-          "author": "shaunnmattingly",
-          "searchJob": "byu",
-          "text": "@BYUfootball @byu_mob King James approves: “… lifted up his eyes … and behold … a ram … and … went and took the ram, and offered him up …”"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101143144276345289",
-          "author": "tuptownupdate",
-          "searchJob": "california",
-          "text": "It’s actually so nuts that Willie Fritz pulled a Heisman Trophy winning 2 🌟 QB from California whose only other offer was from Idaho State."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101142673276989911",
-          "author": "nickyfrank30",
-          "searchJob": "california",
-          "text": "So fun story. 20 years ago today, I almost moved to California. Unable to find a job here, I took a job offer in Los Angeles. A friend from college moved to Chandler Park and offered to let me stay on her couch until I landed on my feet. A "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101124245686542557",
-          "author": "cpcomm",
-          "searchJob": "california",
-          "text": "@joncoopertweets Counter offer: We'll trade you Danielle Smith, Scott Moe, and Foug Ford for California, Vermont, and Massachusetts. https://t.co/Pl4FtBAkBF"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2101122762441904527",
-          "author": "mayzah3033",
-          "searchJob": "duke",
-          "text": "Current rankings based on pure enjoyment: 1. An Offer From a Gentleman 2. To Sir Phillip With Love 3. Romancing Mister Bridgerton 4. The Viscount Who Loved Me 5. The Duke and I"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101139348498305468",
-          "author": "tfloss32",
-          "searchJob": "uconn",
-          "text": "Midland Christian '29 QB Jaxon Franco (@FrancoJaxon) gains a UConn offer. #BleedBlue #UConnHuskies https://t.co/OIw5EP3MRX 𝕏 @phil_dawson_4 | @MCSMustangFB"
+          "postId": "2101137379348168758",
+          "author": "jjgreenwave",
+          "searchJob": "tulane",
+          "text": "@JoshPateCFB A reminder that Tulane was Mensah’s only FBS offer. Tulane recruited and helped develop him."
         }
       ]
     },
@@ -61272,22 +61202,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 7,
+      "failed": 1,
+      "requests": 8,
+      "errors": [
+        "arkansas: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 7,
+    "decided": 7,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
