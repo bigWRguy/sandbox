@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T08:42:56.522Z",
+  "generatedAt": "2026-09-20T08:58:11.395Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-20T08:42:56.254Z",
+    "at": "2026-09-20T08:58:11.120Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7759277777777778,
-    "p95Hours": 1.58131,
-    "worstHours": 1.5813102777777779
+    "medianHours": 0.7793133333333333,
+    "p95Hours": 1.52823,
+    "worstHours": 1.52823
   },
   "decisionCoverage": {
-    "total": 11,
-    "decided": 11,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,117 +55,144 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-20T08:42:56.253Z",
-      "got": 17,
-      "new": 11,
-      "lag": 0.05
+      "at": "2026-09-20T08:58:11.120Z",
+      "got": 18,
+      "new": 15,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-09-20T08:41:25.951Z",
+    "at": "2026-09-20T08:56:35.615Z",
     "mode": "live",
     "collection": {
-      "returned": 17,
-      "kept": 11,
-      "duplicate": 6,
+      "returned": 18,
+      "kept": 15,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
+      "accepted": 12,
       "rejected": 3,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 2
+        "no_offer_term": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2101581351279276341",
-          "author": "gdnonline",
-          "searchJob": "massachusetts",
-          "text": "Pop star Ed Sheeran apologised on Saturday for his handling of a controversy that erupted this week when rapper Macklemore was removed as an opening act over comments on Palestine. Breaking his silence on the issue, the British singer decri"
+          "reason": "no_offer_term",
+          "postId": "2101583148354027926",
+          "author": "qudsn",
+          "searchJob": "temple",
+          "text": "حركة حماس: اقتحام بنيامين نتنياهو، الصادر بحقه أمر قبض من المحكمة الجنائية الدولية، الأنفاق والحفريات أسفل المسجد الأقصى المبارك وحائط البراق، وما رافقه من تصريحات استفزازية ومزاعم باطلة حول ما يسمى «قدس الأقداس»، يمثّل اعتداءً صارخًا على ه"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2101588183603450111",
-          "author": "apathocrat",
-          "searchJob": "ohio",
-          "text": "https://t.co/kOIzQ86GyH"
+          "postId": "2101572848506573135",
+          "author": "troygentic",
+          "searchJob": "troy",
+          "text": "https://t.co/SPw2J2tZk3"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2101541553491546476",
-          "author": "benjaminnorton",
-          "searchJob": "washington",
-          "text": "Saudi Arabia has clearly chosen a side: Riyadh withdrew from mBridge, a project connecting central banks with blockchain technology in order to avoid the dollar and potential US sanctions. Saudi also refused to accept the invitation to join"
+          "postId": "2101587762868564391",
+          "author": "clckkkkk",
+          "searchJob": "stanford",
+          "text": "从硅谷的关系网、Founder 身份到中文创投圈的信息生意，聊聊信息、注意力与人脉如何转化为资本，以及「我比你更接近未来」背后的信任与焦虑。 https://t.co/l3InwPwR5i"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 12,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 6
+        "bare_mention_requires_llm": 8,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101592115931136320",
-          "author": "sahel2212",
-          "searchJob": "washington",
-          "text": "Channel 12 Video on the Yellow Line: Security Gap or Cover for Gaza Escalation? By Mahmoud Khalil Israel’s Channel 12 released footage of a Palestinian from Gaza crossing the Yellow Line, advancing toward a military site, walking among the "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101593633472368813",
+          "author": "tzvijoffre",
+          "searchJob": "temple",
+          "text": "On the eve of Yom Kippur Hamas and its affiliated news agencies are working overtime to spread incitement about the Temple Mount, including the bidʿah of the \"Buraq Wall\" claim and the expansion over the past century of Al-Aqsa from the act"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101589005083042044",
-          "author": "economictimes",
-          "searchJob": "washington",
-          "text": "Crushed by the Dragon? | US automakers, suppliers and dealers are lobbying the Trump administration to keep Chinese carmakers out of the American market ahead of President Donald Trump’s meeting with Chinese President Xi Jinping. The push f"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101580715473186825",
-          "author": "conciouslabrat",
-          "searchJob": "washington",
-          "text": "@JJ_McCubbin29 @DarioCpx Beijing offered a political off-ramp in 2023. Washington offered targeting data and an F-35 brochure. Neither slows a missile army sitting on Bab el-Mandeb."
+          "postId": "2101589242891690391",
+          "author": "soumyajitt",
+          "searchJob": "temple",
+          "text": "Chhattisgarh CM @vishnudsai, who is on a visit to Odisha, met CM @MohanMOdisha at the latter's official residence in Bhubaneswar on Sunday. The wives of both chief ministers were also present during the meeting. The Odisha Chief Minister's "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101580613882961953",
-          "author": "lordderius",
-          "searchJob": "washington",
-          "text": "Saudi Arabia exited mBridge. It gave up a financial exit ramp, and with it the facade of sovereignty. For decades, Riyadh sold itself as the Arab world’s indispensable power: oil kingmaker, custodian of Mecca, counterweight to Iran, a partn"
+          "postId": "2101587976841290238",
+          "author": "poobah09641567",
+          "searchJob": "temple",
+          "text": "Hezekiah breaks the pattern entirely. He doesn't offer God a diminished verb at all — no pursuing, no singing. He takes Sancheriv's blasphemous letter, walks into the Temple, and just *spreads it open* before God, wordless until the prayer "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101577819675324684",
-          "author": "fn21995",
-          "searchJob": "washington",
-          "text": "The difference is which goal the story treats as legitimate: preserving an imperfect order versus exposing or breaking a rotten one. Everything else—who the antagonist is, how the plot is paced, and how the ending feels—follows from that. P"
+          "postId": "2101587677648924687",
+          "author": "iatulkrishan1",
+          "searchJob": "temple",
+          "text": "Neha Bhatt Walks 19 KM to Kedarnath on Prosthetic Leg Ahmedabad’s Neha Bhatt, who lost her leg in a road accident in 2021, completed the challenging 19-km trek to Kedarnath on a prosthetic leg. Despite the difficult terrain, Neha walked the"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101577481639608519",
-          "author": "ali_yunnis11",
-          "searchJob": "washington",
-          "text": "Hii, I got 3 spare tickets to Olivia Rodrigo concert for (Sat, Oct 03) at Capital One Arena • Washington, DC Giving them for face value or best offer DM IF INTERESTED wts wtb iso wtt."
+          "postId": "2101577036372283669",
+          "author": "jsaini1000",
+          "searchJob": "temple",
+          "text": "Famous musician Salim Merchant visited Kamakhya temple to offer prayers there &amp; the 4th class converts of 🇮🇳 said that there is no forgiveness for this in the Quran😂 Poor Allah himself is asking US for help to save Mecca.🤣🤣 @zeedee"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101569830511874515",
-          "author": "oceanswon",
-          "searchJob": "washington",
-          "text": "Denmark's Prime Minister, Mette Frederiksen repeats it like a mantra. Greenland is part of the Kingdom, sovereignty remains intact. Formally, that's true. But she's leaving out the rest. According to the White House, the US now has veto pow"
+          "postId": "2101571695605858420",
+          "author": "stufabouthings",
+          "searchJob": "temple",
+          "text": "They are as much apostles as we're Peter and Paul. They hold the priesthood keys of the kingdom of God, restored to the earth by the resurrected Peter, James and John, who held the keys when they were alive. We offer the saving ordinances o"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101572531165495637",
+          "author": "zvis",
+          "searchJob": "toledo",
+          "text": "It’s not honest to describe 58 years of Palestinian suffering while erasing everything the other side has done. Arab states launched wars in 1948, 1967, and 1973. Palestinian groups pioneered airplane hijackings, the Munich massacre, two in"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101569483236429862",
-          "author": "granadoscondie",
-          "searchJob": "washington",
-          "text": "Ecat98's Music, Movies & Much more. With the Holidays Right around the corner save 25% or more on all your goods plus get Free Shipping To The Continental U.S. No Reasonable Offers Refused. We have all genres of music Classical, Rock, R&B, "
+          "postId": "2101578818259763494",
+          "author": "renmusb1",
+          "searchJob": "wisconsin",
+          "text": "🤬💩Trump campaign audio showed Wisconsin chief pushing stolen election claims. He now holds a federal role Leaked audio captures Trump’s Wisconsin campaign chief directing staff to push fraud claims. A leaked recording from inside Trump’s "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101583072135172133",
+          "author": "rdh1156",
+          "searchJob": "stanford",
+          "text": "@begoniatulip @BBCNewsnight Maybe Badenoch should have accepted the place at Stanford she claims to have been offered at 16. You know, the course that Stanford says has never been offered. Serial liar."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101594816219922824",
+          "author": "jojoaskip",
+          "searchJob": "wake-forest",
+          "text": "@GoodwinMJ @WintersTale7846 Yes wake up Reform. You were offered an olive branch and turned it down. Ball is in your court"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101586224490127535",
+          "author": "chrisbr13520868",
+          "searchJob": "wake-forest",
+          "text": "@GoodwinMJ We win Yarmouth even if rupert gets caught with an illegal dog fighting ring on his farm 🤣. As for the rest. Do a deal then. We want demographic security, as u keep larping u do. We just want to hold u to account. Make the phone"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101580425546064192",
+          "author": "blacklotustriad",
+          "searchJob": "wake-forest",
+          "text": "Making plans early in the morning with a gal then she doesnt wake up so you offer to go later in the day no pressure then she blocks you https://t.co/5Lp3qSGJjF"
         }
       ]
     },
@@ -180,11 +207,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-20T08:42:56.523Z"
+    "status rebuilt locally from current store on 2026-09-20T08:58:11.396Z"
   ]
 }
