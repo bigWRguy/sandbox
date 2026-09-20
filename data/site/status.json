@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T07:28:03.884Z",
+  "generatedAt": "2026-09-20T07:43:11.702Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-20T07:28:03.578Z",
+    "at": "2026-09-20T07:43:11.459Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0286025,
-    "p95Hours": 2.007966388888889,
-    "worstHours": 2.0079666666666665
+    "medianHours": 0.8739161111111111,
+    "p95Hours": 1.7803433333333334,
+    "worstHours": 2.0209622222222223
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 28,
+    "decided": 28,
     "complete": true
   },
   "pending": {
@@ -55,72 +55,237 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-20T07:28:03.578Z",
-      "got": 9,
-      "new": 5,
-      "lag": 0.26
+      "at": "2026-09-20T07:43:11.458Z",
+      "got": 30,
+      "new": 28,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-09-20T07:26:29.743Z",
+    "at": "2026-09-20T07:41:33.266Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 5,
-      "duplicate": 4,
+      "returned": 30,
+      "kept": 28,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 19,
+      "rejected": 9,
+      "reasons": {
+        "no_fbs_school": 2,
+        "no_offer_term": 4,
+        "hard_negative": 3
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101576846320275636",
+          "author": "centuryprintjax",
+          "searchJob": "florida",
+          "text": "Best Deals on Magazine Printing: Century Type Print offers top-notch wholesale magazine printing services to customers in Jacksonville, Florida. Call: 904.880.7812 or visit https://t.co/ePyYLMnRUw for further details. https://t.co/rppZKYm9R"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101564724542308615",
+          "author": "teeteesunflower",
+          "searchJob": "arizona",
+          "text": "Four days after my emergency C-section, my husband brought his girlfriend into my hospital room and offered me $275,000 to give up our newborn twin daughters. Not just for the divorce. For Ava and June too. I was in a private room at a hosp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101419188460101986",
+          "author": "burnsidewastosh",
+          "searchJob": "arkansas-state",
+          "text": "The NHS paradox: every family in Britain has a horror story of shocking treatment, but they all think it is the envy of the world."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101547334580789713",
+          "author": "saunakdg",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/zy1e6zTwYM"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2101545720918442250",
+          "author": "mbs59er",
+          "searchJob": "arkansas-state",
+          "text": "A pattern has occurred time and again The “Palestinians” commit violence against Israeli civilians that eventually escalate to where Israel responds militarily. The world tries to encourage a ceasefire and Israel offers land for peace and t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101514436875849917",
+          "author": "mattirutonen",
+          "searchJob": "arkansas-state",
+          "text": "Puolustusministeri @anttihakkanen (Suomen #Hegseth) veljeilee sota- ja ihmisoikeusrikoksista syytetyn #Israel:in kanssa. Se on vaarallista politiikkaa. #Kokoomus"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101571334371213449",
+          "author": "chnwsw01",
+          "searchJob": "army",
+          "text": "https://t.co/BfyUTxAV3J"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2101570378996863008",
+          "author": "fcbmessiaddict",
+          "searchJob": "army",
+          "text": "Before Laporta’s puppets start rewriting history, remember exactly WHO Xavi Hernández is and what he gave this club. Xavi arrived at La Masia as a kid and dedicated practically his entire footballing life to FC Barcelona. 17 seasons with th"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2101553626007454156",
+          "author": "sdogiii",
+          "searchJob": "army",
+          "text": "GROK: “Absolutely nobody is helping” and “darkest hour” are rhetorical; overstated and framed for effect. Allies have offered diplomatic backing, technical help, and mediation, even if they have not committed combat troops or large-scale st"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 19,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_class_year": 1
+        "bare_mention_requires_llm": 15,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101562952209863017",
-          "author": "omoopee_",
-          "searchJob": "wake-forest",
-          "text": "Instead of fixing the hunger, inflation, and economic collapse they created, APC is busy running a fake document factory bcos they are terrified of Obi’s 2027 momentum. But we aren't surprised, their candidate entire political career was bu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101547776328839606",
-          "author": "josephryarasa",
-          "searchJob": "wake-forest",
-          "text": "The milk shortage, awake up call for Rwanda’s private sector. The current milk shortage has highlighted an important gap in the role of our private sector. Public discussion has largely focused on what the government should do, with limited"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101545501925536046",
-          "author": "danideedee99",
-          "searchJob": "wake-forest",
-          "text": "@ds37alwaysred @GoodwinMJ @TeagueRoger No Alistair offered a list of demands that he knew were not going to be accepted. After constantly attacking reform on a daily. Just so dumb people like you can go But he offered an olive branch 😂 com"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2101570197715136970",
-          "author": "daygofootball",
-          "searchJob": "phrase:\"picked up an offer from\"",
-          "text": "Morse WR De’Andre Eleby picked up an offer from San Diego State ."
+          "postId": "2101567709242642643",
+          "author": "ianrichardson47",
+          "searchJob": "florida",
+          "text": "@MazzaInvests So you basing you knowledge of America on going to New York and Florida? Was some of this in Disneyland?? I have been to many places I the US and been offered jobs there which I turned down as I would never live there. That wa"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101565263069982999",
-          "author": "flightpolish",
-          "searchJob": "air-force",
-          "text": "The Journey To Continue The Fight How Polish airmen reached the United Kingdom after September 1939 After Germany invaded Poland on 1 September 1939 and the Soviet Union attacked from the east on 17 September, Polish forces were ordered to "
+          "postId": "2101569826686693843",
+          "author": "aurora_musk",
+          "searchJob": "georgia",
+          "text": "I don’t have money to register my company in Germany Thank you for blocking Georgia for me Pay your debts France is ready Before one more abusive Shit pay my expenses and your debts @elonmusk And stop your using blond journalist Shit Slave "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101552242180366454",
+          "author": "indysports",
+          "searchJob": "indiana",
+          "text": "2029 4 ⭐️ CB @Kameron_Lowe3 has EARNED an offer from Indiana today. #iufb #Hoosiers #Indiana"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101551843801186781",
+          "author": "indysports",
+          "searchJob": "indiana",
+          "text": "2028 3 ⭐️ OT @FloriansNaglins has EARNED an offer from Indiana today. #iufb #Hoosiers #Indiana"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101550847326830795",
+          "author": "indysports",
+          "searchJob": "indiana",
+          "text": "2028 DE @fredntumba25 has EARNED an offer from Indiana. #iufb #Hoosiers #Indiana"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101550288221995450",
+          "author": "indysports",
+          "searchJob": "indiana",
+          "text": "2028 3 ⭐️ DL @mannymcmoore has EARNED an offer from Indiana. #iufb #Hoosiers #Indiana"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101576254436622434",
+          "author": "maramacseoinin1",
+          "searchJob": "arkansas-state",
+          "text": "A few years ago, I suffered a torn and inverted meniscus in my right knee and a Grade 4 ACL tear. I went to Orthopaedics the next day after a sleepless night of excruciating pain and was handed an exercise leaflet and told to keep mobile. I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101575202828095881",
+          "author": "inyangetten",
+          "searchJob": "arkansas-state",
+          "text": "@stanejike @HiikyaaTor @DonAzag Prof, don't do this na. Respect the academic level you have alluded to small. World Bank made an offer, thru the FG, it was within the rights of a state to say yes or no. Said funds was paid to the Anambra go"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101572570839658584",
+          "author": "emerson2992",
+          "searchJob": "arkansas-state",
+          "text": "@BigRank76 @Ethical_IsZay He's from Starkville and grew up a State fan. I hwve to imagine they'll find the money to field a competitive enough offer that he'll stick around."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101558742667903484",
+          "author": "sayvergheese",
+          "searchJob": "arkansas-state",
+          "text": "The Broken Heartland: Suicide and the Silence of the State in Kerala They call it \"God’s Own Country.\" It is a lush, vibrant lie. A postcard of backwaters, swaying palms, and impeccable literacy rates, sold with a seductive smile to the tou"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101546929444298985",
+          "author": "sherwoodc45491",
+          "searchJob": "arkansas-state",
+          "text": "@AyuBlossom1 @Brandons__1 A state was on offer in 47. Something that will never happen now. Instead, five Arab armies tried to crush Israel and lost. Kind of went on from there really."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101545712617918680",
+          "author": "usesendlane",
+          "searchJob": "arkansas-state",
+          "text": "@ukada_ng @iamchrisani Why do you think anyone would offer any semblance of \"intelligent response\" to lowlives and runts from Ekiti state??? A state where their citizens are stoned bread as at 2026 and who vote on credit. Are you okay????"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101544283740221839",
+          "author": "kopintwiitit",
+          "searchJob": "arkansas-state",
+          "text": "“The Palestinians were offered a state. They have always refused. A state wasn't their goal. Killing Jews was.\" https://t.co/Ox8ceq8rg5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101568586695532615",
+          "author": "usareport07",
+          "searchJob": "army",
+          "text": "🇸🇦Saudi is asking everyone for Help, But Absolutely nobody is helping Saudi.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ Reports say Saudi Arabia officially asked 🇸🇾 Syria, 🇹🇷 Turkey, 🇵🇰 Pakistan, 🇨🇳 China, 🇺🇸 America, 🇪\ud83c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101567822434574551",
+          "author": "waziristan1",
+          "searchJob": "army",
+          "text": "@_Punjabi_Dude_ So the army in balouchistan and kp with tanks and airforce keep dying because they offer them their behind? You dirty little pajeet supporter"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101558265515819436",
+          "author": "damianrazgriz",
+          "searchJob": "army",
+          "text": "There is a kind of movie that does not ask to be liked so much as endured, the way a fever asks to be endured, and The Keep from 1983 is that kind of movie. It stands in its field not because it is the cleanest horror picture of its decade "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101549682614817119",
+          "author": "orthodox_33ad",
+          "searchJob": "army",
+          "text": "🔸 September 20 - Saint Eustathios 🦌 🔸 Today, we commemorate the Great-Martyr Saint Eustathios, along with his wife Theopisti and their sons Agapios and Theopistos. St Eustathios was born with the name Plakidas and was an illustrious mili"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101549146037420312",
+          "author": "jessehofseth",
+          "searchJob": "army",
+          "text": "Although specific classified documents may be withheld under national security exemptions, Atomic Energy Commission (AEC) and Department of Energy (DOE) records are fully subject to the Freedom of Information Act (FOIA). With that in mind, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101547000948748323",
+          "author": "soumii05",
+          "searchJob": "army",
+          "text": "💜✨ I wrote a little article about Borahae Aura Studio and why I love creating digital goodies for ARMY! 🌌📱 Discover my little purple universe and what my shop has to offer. 💜 Come read it &amp; check out my shop! 🥹✨ https://t.co/IABOAH"
         }
       ]
     },
@@ -135,11 +300,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 19,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-20T07:28:03.885Z"
+    "status rebuilt locally from current store on 2026-09-20T07:43:11.703Z"
   ]
 }
