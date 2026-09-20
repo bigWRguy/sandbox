@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T04:12:01.376Z",
+  "generatedAt": "2026-09-20T04:27:57.507Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-20T04:12:01.129Z",
+    "at": "2026-09-20T04:27:57.178Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0086127777777778,
-    "p95Hours": 1.5062197222222222,
-    "worstHours": 1.7619769444444444
+    "medianHours": 0.7756830555555555,
+    "p95Hours": 1.5265152777777777,
+    "worstHours": 1.7718119444444445
   },
   "decisionCoverage": {
-    "total": 1,
-    "decided": 1,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "pending": {
@@ -49,48 +49,204 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1581,
+    "completeOffers": 1583,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-20T04:12:01.129Z",
-      "got": 4,
-      "new": 1,
-      "lag": 1.2
+      "at": "2026-09-20T04:27:57.178Z",
+      "got": 57,
+      "new": 24,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-09-20T04:11:37.591Z",
+    "at": "2026-09-20T04:26:25.008Z",
     "mode": "live",
     "collection": {
-      "returned": 4,
-      "kept": 1,
-      "duplicate": 3,
+      "returned": 57,
+      "kept": 24,
+      "duplicate": 33,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 17,
+      "rejected": 7,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "no_offer_term": 1,
+        "no_fbs_school": 4,
+        "hard_negative": 1,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2101505872556159102",
+          "author": "maddoxtravels",
+          "searchJob": "kent-state",
+          "text": "⚓️ We’re going back aboard OVATION of the Seas! One year after our back-to-back adventure, OVATION has undergone a major makeover and we’re heading back onboard to see what’s changed. Our complete guide includes original videos, tips, and m"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101505601624825895",
+          "author": "eagameover",
+          "searchJob": "liberty",
+          "text": "@lewhiteva @WhalenMona @wildangel1968 @Kelly7018 @CraftAshle37674 @LndamyDark @TheMAGAReporter @Angie1776q @RighterThanRigh @whale20564 @PaulCAmerica1st @emridog @1958TonyPozzy @ThaddeusOzik @BrendaO00357595 @BallDrbuilders @TexasTamieK @La"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101506813023641805",
+          "author": "natemfhughes",
+          "searchJob": "rice",
+          "text": "@RyanDillon99 @Big_Sean1212 is this offer still valid"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101515194547478890",
+          "author": "kterpsnyc",
+          "searchJob": "maryland",
+          "text": "@BudgeyLvp @boxin47 @terencecrawford @ynkhe @mb8364324160492 @burneddaboi03 He offered both boots and charlo a fight ya glizzy gobbler"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2101518518122430822",
+          "author": "pokeokc",
+          "searchJob": "oklahoma",
+          "text": "Oklahoma State offers C/O 2028 OL Dylan Goodson Celina HS | Celina, TX Goodson holds additional offers from Cal, NC State, UTSA, Akron and several others. #GoPokes 🤠"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2101504683395231929",
+          "author": "dylangoodson79",
+          "searchJob": "oklahoma",
+          "text": "What an amazing night in Stillwater, atmosphere was electric!! I want to thank @Coach_Crill for the conversation with me and my parents and offering me an athletic scholarship @CowboyFB ready to continue the grind. @__CoachMorris @BooneFeld"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101517944362766840",
+          "author": "kmuniez33",
+          "searchJob": "new-mexico",
+          "text": "Blessed with another offer to Northern New Mexico! Thank you God! @CoachMandyNic thank you for the opportunity https://t.co/qvFTkQbIuM"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 2,
+      "rejected": 15,
+      "reasons": {
+        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 10,
+        "multiple_resolved_schools": 3,
+        "author_not_recruit:different sport": 1
+      },
+      "samples": [
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2101518609847603274",
+          "author": "csmithscout",
+          "searchJob": "liberty",
+          "text": "#TN2028 Blackman Running Back .....#PRZTN New Offer: #Liberty ......#FlamesRise #CUSA #Blaze #MidTN28 #CSS #TNHSFB https://t.co/1AH1zvDZDv"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101506657322713137",
-          "author": "tylercoonsmaui",
-          "searchJob": "hawaii",
-          "text": "242 Keoawa Pl Lot 22 | Extraordinary Homesite Here, you’re not buying someone else’s vision. You’re creating your own. https://t.co/BuK1pHZIi0 🔑 Offered at $3,295,000 👉 Tyler Coons tyler@tylercoonsmaui.com 808.280.2480 REALTOR®S RS-55098 "
+          "postId": "2101513203910086685",
+          "author": "pantherfelis",
+          "searchJob": "liberty",
+          "text": "@NoticerNews That was the whole purpose of \"licensing\" Gov controls your life &amp; liberty It's not given as a right by God but gov offers it as a privilege which can be taken away any time"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101500848765272321",
+          "author": "archiehicoxgb",
+          "searchJob": "liberty",
+          "text": "@Suphii Did the offer actually get through to the seller? Or did the agent take the liberty to reject it without informing them?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101518251779924106",
+          "author": "dg4643mg",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. 🚩 💐 🍬 https://t.co/w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101516691977199896",
+          "author": "kimrice28",
+          "searchJob": "rice",
+          "text": "In 2001-2003 Oregon's budget was $34 Billion: 32% for education 25% for social programs 12% for infrastructure 12% for administration 6% for public safety 13% for everything else The 2025-27 budget was $140 Billion, over four times higher: "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101506636724744593",
+          "author": "hindgate",
+          "searchJob": "rice",
+          "text": "Bring the family together with a meal everyone can enjoy. Hind Gate Super Long Grain Basmati Rice offers extra-long grains, a pleasant aroma, and a satisfying taste for everyday cooking. For trade-related queries WhatsApp at +971553340453 #"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101517236561117332",
+          "author": "ntsupfirepower",
+          "searchJob": "iowa",
+          "text": "@WritesCoco I mean, Wisconsin didn’t offer him. Iowa State barely did. More so y’all were mad about that whole “Can’t beat Indiana in a playoff series” thing"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101526054917575164",
+          "author": "dreamzofgr8ness",
+          "searchJob": "maryland",
+          "text": "Saturday, September 19, 2026 · 11:59 PM ET We extend wars on paper and sit quarterbacks when the scoreboard is already a sermon — Saturday is the American sabbath between decree and kickoff, when excess and attrition share the same feed and"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2101521330642341936",
+          "author": "verbalcommits",
+          "searchJob": "ole-miss",
+          "text": "2028 The St. James (VA) G/F Isaiah Carter has received an offer from Mississippi State. https://t.co/1YrYMbe69A"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101514866301284760",
+          "author": "theragebaitking",
+          "searchJob": "ole-miss",
+          "text": "@BeGotGame2 cryy, ole miss wasn’t his only offer lmaooo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101507985893908735",
+          "author": "freshxdude",
+          "searchJob": "ole-miss",
+          "text": "aye @AtlantaFalcons .. call ole miss and offer that qb a contract !!!!!!!!!!"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101507582925901855",
+          "author": "unceasinghatred",
+          "searchJob": "ole-miss",
+          "text": "@markyzaguirre @matthackster @ChrisAnadale yeah, in the article the student quoted mentions becoming more positive on Mississippi because she was interviewing for some of their top scholarships. UCSD offered me Regents, and that put it next"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101527062385402103",
+          "author": "parvezalamm",
+          "searchJob": "georgia-tech",
+          "text": "Building bridges through international education. 🌎 The Crescent team led by Mr.Abdul Qadir, Pro Chancellor, BSACIST, and Chairman, CIIC and AIC-CIIC, connected with Ms.Lorie Johns Páulez, Director of Education Abroad, Office of Internatio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101509488989577583",
+          "author": "viviansky_2y",
+          "searchJob": "louisiana",
+          "text": "Join me for crepes and toes 😊💕 Never forget what I offer. I’m available for meetups, FaceTime, and Dropbox. 📩 DM me and ask for menu. #Louisiana #NewOrleans #BatonRouge #Shreveport #LafayetteLA #LakeCharles #MonroeLA #LouisianaLife https"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101518386538951168",
+          "author": "abortionfreenm",
+          "searchJob": "new-mexico",
+          "text": "❤️ UNITED IN THE MISSION The Abortion Free New Mexico team recently came together to share how God has been moving—on the sidewalks outside Albuquerque abortion centers, through prayer, and in one another’s lives. We shared testimonies, enc"
         }
       ]
     },
@@ -98,20 +254,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 5,
-      "failed": 1,
-      "requests": 6,
-      "errors": [
-        "jacksonville-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 15,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-20T04:12:01.377Z"
+    "status rebuilt locally from current store on 2026-09-20T04:27:57.508Z"
   ]
 }
