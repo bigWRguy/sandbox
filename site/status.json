@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T03:43:30.285Z",
+  "generatedAt": "2026-09-21T03:58:03.446Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-21T03:43:29.993Z",
+    "at": "2026-09-21T03:58:03.152Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7733530555555556,
-    "p95Hours": 1.5347480555555555,
-    "worstHours": 1.5347480555555555
+    "medianHours": 0.7666463888888889,
+    "p95Hours": 1.5288655555555555,
+    "worstHours": 1.5288655555555555
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,133 +55,147 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-21T03:43:29.993Z",
-      "got": 29,
-      "new": 14,
-      "lag": 0.05
+      "at": "2026-09-21T03:58:03.151Z",
+      "got": 31,
+      "new": 15,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-21T03:42:00.425Z",
+    "at": "2026-09-21T03:56:31.546Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 14,
-      "duplicate": 15,
-      "tooOld": 0,
+      "returned": 31,
+      "kept": 15,
+      "duplicate": 14,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 3,
+      "accepted": 9,
+      "rejected": 6,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "no_fbs_school": 5,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2101878600219885796",
-          "author": "torchmastered",
-          "searchJob": "marshall",
-          "text": "@Eleanorzex Eleawhore my dear , You must be super behind closed doors because you have nothing else to offer..."
+          "postId": "2101881884972122173",
+          "author": "reedcharbar",
+          "searchJob": "charlotte",
+          "text": "@Starbucks please offer oatmilk creamer not the oat and almond milk mixture as many people like me are allergic to almonds!"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2101854092674973962",
-          "author": "kymaverickreal",
-          "searchJob": "massachusetts",
-          "text": "Key quotes from the official 60 Minutes transcript, grouped by theme. Source: CBS News transcript. On Lindsay’s decline “No. I could piece together what it was like to be really, really anxious or depressed, but I didn’t know how to manage "
+          "postId": "2101881856128152060",
+          "author": "flatfatmeal",
+          "searchJob": "charlotte",
+          "text": "\"Garp didn't fail Ace because he alr offered Ace help during marineford!\" https://t.co/n99RBk5Q4K"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2101469834751991844",
-          "author": "deakenj10",
-          "searchJob": "indiana",
-          "text": "Great game day visit with @IndianaFootball Great catching up with coaches @CoachShanahan_ @CoachTSunseri and GM @MattWilsonDPP. Good win ! @HSEFootball @SpencerFox7_ @LevarJohnson3 @QuarterbackUniv @CoachShanefelt @SWiltfong_ @Bryan_Ault @A"
+          "reason": "no_fbs_school",
+          "postId": "2101873953954275506",
+          "author": "freexcharlottex",
+          "searchJob": "charlotte",
+          "text": "@Nichola14474235 @xxGoddessAlison She didn’t cause him to be a pathetic loser, he already was? He offered up his money so she took it. If she didn’t, another would. He yearns for this."
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2101879894082769380",
+          "author": "brady_way_",
+          "searchJob": "delaware",
+          "text": "Blessed to receive my 1st offer from Delaware County Community College https://t.co/fmzFybDndS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101872853096263709",
+          "author": "missourigirl16",
+          "searchJob": "missouri",
+          "text": "@I_Am_Da_Bat What parent would offer their baby up for clinical trial on a new vaccine? It would , in my opinion, be only for money because of starvation or some other dire need! Actually, what parent would vaccinate their child now that we"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101872945794605487",
+          "author": "brownieturd",
+          "searchJob": "colorado",
+          "text": "Back in the early 2000s, there were so many illegals living like they brought Tijuana to the sides of the mountains in Colorado. This was down the mountain route for Aspen. All of these illegals drove 1-3 hours one way, often in the snow, t"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 10,
+      "accepted": 0,
+      "rejected": 9,
       "reasons": {
-        "bare_mention_requires_llm": 7,
-        "school_not_resolved_confidently": 1,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 1,
+        "reporter_missing_player_name": 2,
+        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101876312545611944",
-          "author": "startchangeri",
-          "searchJob": "massachusetts",
-          "text": "@AAGDhillon Gemini states Co-Ed Participation Policy: Southbridge High School is a Massachusetts Interscholastic Athletic Association (MIAA) member school. Under MIAA Rule 43.2, if a school does not offer a separate boys' team for a specifi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101865945190846596",
-          "author": "fsuannette",
-          "searchJob": "massachusetts",
-          "text": "@SkyNole2 @TGMowerman Governor Healey is proposing free, voluntary visits from a nurse for Massachusetts families with newborns. The nurse would offer help with infant care and check the mother for postpartum depression or other mental-heal"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101870689720344749",
-          "author": "marianne716",
-          "searchJob": "rice",
-          "text": "Saudi Crown Prince Mohammed bin Salman Al Saud confirms that Trump is cleaning up the mess that Barack Obama, the world’s number one sponsor of terror, created. He gave Iran $150 billion in cash, and the IRGC “didn’t even build a single str"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101869021712752782",
-          "author": "hindgate",
-          "searchJob": "rice",
-          "text": "Bring home rice that fits every family meal. Hind Gate Indian White Rice offers long grains, a pleasant aroma, and satisfying taste from the first serving to the last. For trade-related queries WhatsApp at +971553340453 #ricemill #ricebowl "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101857824368099421",
-          "author": "robsrips",
-          "searchJob": "rice",
-          "text": "@JacobSoo3 appreciate your thoughts! part of me wants to take the offer to set the comp as well because so dickhead who told me he knows the ben rice market and it was a $300 card can eat his words😂"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2101859326751125904",
-          "author": "indysports",
-          "searchJob": "indiana",
-          "text": "2029 Hamilton Southeastern QB with multiple D1 offers so far. @DeakenJ10 #iufb #Hoosiers #Indiana"
+          "reason": "multiple_resolved_schools",
+          "postId": "2101872798020829606",
+          "author": "theworldcorresp",
+          "searchJob": "ohio",
+          "text": "HOW THE OPERATION WORKS The criminal structure is sophisticated and hierarchical. Specialized \"builders\" construct skimming devices so well-made that even diligent merchants miss them . Lower-level members install them at gas stations, conv"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2101879209048068523",
+          "postId": "2101877486048915684",
           "author": "jucoffrenzy",
-          "searchJob": "uconn",
-          "text": "2027 (@EMCCathletics) JUCO ATH @JacksonLokavion was offered by UConn HL https://t.co/bxrvpnH7sw https://t.co/vPDgqlwEj9"
+          "searchJob": "south-alabama",
+          "text": "2027 (@PearlRiverFB) JUCO OL @Brandonwhite_66 was offered by South Alabama HL https://t.co/trexW0j3fX https://t.co/1Lehy1CJQM"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2101878795133182040",
-          "author": "theaviatorny",
-          "searchJob": "uconn",
-          "text": "The Kathy Hochul Debacle How One Person Can Run a State Into the Ground Daily Countdown to November 3rd — Day 8 — 44 Days Until Election Day — September 20, 2026 A structural deficit is what you have when recurring spending outruns recurrin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101873677440585922",
-          "author": "ashlanddog",
-          "searchJob": "uconn",
-          "text": "...Unleashed 9.20.26... ...No Jesus, No peace...Know Jesus, Know Peace... For you did not receive the spirit of bondage again to fear, but you received the Spirit of adoption by whom we cry out, “Abba, Father.” —Romans 8:15 ...Thru the Bibl"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101877148542021783",
+          "author": "vijaybhambwani",
+          "searchJob": "south-florida",
+          "text": "Bulls Appear to be on Skid Row Friends, In my weekly @livemint column - https://t.co/U30qO4f882 I find bulls on a slippery slope. This is India's first and only media column to offer statistical data backed inputs to its readers."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101860744786551260",
-          "author": "timeismoney912",
-          "searchJob": "uconn",
-          "text": "@ari_zanger @shulkjowhit2 @postentrypass They definitely Slimed Connecticut out. First agreed to sell to a Celtic owner, even tho the offer to keep local paid more, then still sold to someone outside the state. SMH"
+          "postId": "2101870002764911078",
+          "author": "mendacityabout",
+          "searchJob": "michigan",
+          "text": "#SkyNews #ManchesterUnited #FoxNews And E.U. Offers to Make #Canada ‘Associate Member’ as U.S. Ties Weaken for Both #MurdochGutterMedia #cnn #BBCWorld #msnow #seattle #Scotland #portland .#london #EpsteinRegime #MSNOWNews #auspol #Ireland #"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2101879217835159962",
+          "author": "mimischlos70357",
+          "searchJob": "minnesota",
+          "text": "Truck drivers who came over the border illegally are given no name truck licenses from places like New York, California, Minnesota without English, without training without a test The have killed many many families with chilren going across"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101862203469013439",
+          "author": "kymaverickreal",
+          "searchJob": "northwestern",
+          "text": "@anne_shay51055 @KelseyCaterino I haven’t ruled out Boston, but from my research they probably aren’t as aggressive in taking on complex cases as Northwestern and especially Cleveland Clinic. Thanks for the offer and I will keep it in mind."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101866508339085699",
+          "author": "rogers_lee45882",
+          "searchJob": "california",
+          "text": "@BarbCalCol @BestNashTransit I do too but Green has nothing to offer that California has already shown doesn't work,"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2101876846715400315",
+          "author": "golz_tv",
+          "searchJob": "colorado",
+          "text": "“The lack of relegation for a head coach making his first step, it leads you to get a little bit more time if you are flirting at the bottom of the league. There's not so much panic.” Former Tottenham Hotspur assistant Matt Wells explains w"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101880445608833371",
+          "author": "maura1957905",
+          "searchJob": "notre-dame",
+          "text": "@irishexaminer Like most Irish women because zero to offer non English speaking parasitic hags in hijabs are taking up medical appointments most being for gyno care"
         }
       ]
     },
@@ -195,12 +209,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 10,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 9,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-21T03:43:30.286Z"
+    "status rebuilt locally from current store on 2026-09-21T03:58:03.447Z"
   ]
 }
