@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:28:05.180Z",
+  "generatedAt": "2026-09-21T11:43:06.781Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-21T11:28:04.866Z",
+    "at": "2026-09-21T11:43:06.459Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.028191111111111,
-    "p95Hours": 1.774166111111111,
-    "worstHours": 1.774166111111111
+    "medianHours": 0.7732966666666666,
+    "p95Hours": 1.7760672222222222,
+    "worstHours": 1.7760672222222222
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 32,
+    "decided": 32,
     "complete": true
   },
   "pending": {
@@ -55,138 +55,268 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-21T11:28:04.866Z",
-      "got": 28,
-      "new": 14,
-      "lag": 0.13
+      "at": "2026-09-21T11:43:06.459Z",
+      "got": 40,
+      "new": 32,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-21T11:26:30.315Z",
+    "at": "2026-09-21T11:41:40.282Z",
     "mode": "live",
     "collection": {
-      "returned": 28,
-      "kept": 14,
-      "duplicate": 14,
+      "returned": 40,
+      "kept": 32,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 5,
+      "accepted": 23,
+      "rejected": 9,
       "reasons": {
-        "unclassified_offer_text": 1,
-        "no_fbs_school": 2,
-        "no_offer_term": 2
+        "hard_negative": 1,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 6,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2101999053974229470",
+          "author": "volsonsi",
+          "searchJob": "memphis",
+          "text": "Tennessee football extends offer to 2027 DL Josh Lane Lane recently decommitted from Memphis More here: https://t.co/BC2u2Cy3VW https://t.co/mplrj3lxqi"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2101995705359347750",
+          "author": "lelandkorona4",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @LUCoachRobby I have received my 4th offer from Lakeland University! Go muskies! @LUCoachGlo @CoachLehto @LUCoachBruton @LUCoachLock @MichFBFrenzy @PrepRedzoneMI @coachboulter https://t.co/zl4NnrNO4m"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101998118791238083",
+          "author": "owengregorian",
+          "searchJob": "texas-tech",
+          "text": "How AI models decide not to answer a question | Ingrid Fadelli, Tech Xplore Large language models (LLMs), the artificial intelligence (AI) systems supporting the functioning of ChatGPT, Gemini and similar conversational platforms, are often"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101996527954891247",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US ] Razer has launched Viper V3 Pro Wireless Esports Gaming Mouse, Faker Edition, 8000 Hz Polling 840272920848 ( RZ01-05120500-R3U1 ) in the US online - priced at $159.54. [ad] https://t.co/HsRakpwuh6 Featuring a 54g ultra lightwe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101994298388402565",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "🛍️ [ Amazon US Pre-order | $84.88 ] ( 1000056978 ) DualSense® Wireless Controller – Grand Theft Auto VI White Limited Edition ( 711719072683 ) [ad] https://t.co/Q3oriyPw6i Price: $84.88 ( Lowest Price on Sep 21, 2026 ) This item will be re"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101989271729291612",
+          "author": "indiantechguide",
+          "searchJob": "texas-tech",
+          "text": "🚨 Pune has long had the talent, institutions and innovation ecosystem to be a serious GCC destination. Good to see industry leaders discussing what the city can offer in the next phase of growth!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2101918434221289674",
+          "author": "deosahil",
+          "searchJob": "texas-tech",
+          "text": "Why not Pune? Hon @Dev_Fadnavis ji addressing 25+ GCC leaders just now - showcasing what Pune has to offer, especially in the years to come! Kudos @navalMH, @GaneshBidkarBJP &amp; @SanjayBajajJLL for this effort! @aparanjape @kdhavse https:"
+        },
+        {
           "reason": "unclassified_offer_text",
-          "postId": "2101977097820418077",
-          "author": "adam76steel",
-          "searchJob": "nevada",
-          "text": "https://t.co/8GJmP41DLk Officials are offering $147,000 to anyone who can help catch what appears to be a serial tree poisoner responsible for 28 damaged pines at a Lake Tahoe beach in Nevada. https://t.co/oFfEZfUlMv"
+          "postId": "2101935737587499458",
+          "author": "binancewallet",
+          "searchJob": "texas-tech",
+          "text": "Introducing $pPOLY — a token issued by @Paimon_Finance. Featured in the first Pre-Access, provided by @PancakeSwap, and accessible via Binance Wallet Get indirect, tokenized exposure ahead of a potential public listing. PancakeSwap pPOLY Ca"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2101994970718572603",
-          "author": "mademetoxic",
-          "searchJob": "washington",
-          "text": "@PufffyCheeks @heather_power5 Apparently Sabrina was already planning this but she says she planned it because nothing Mis-Teeq related was planned. I don’t believe they weren’t at least offered festivals etc https://t.co/IoRR4pNaOj"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2101767305113817476",
-          "author": "drjppham",
-          "searchJob": "washington",
-          "text": "Representing #USA🇺🇲 strategic minerals company @IvanhoeAtlantic new non-executive director Amb. @tdf_dc &amp; I participated in the #Zimbabwe🇿🇼 Business Forum at margins of #UNGA🇺🇳 and honored to discuss our interest in opportunities "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2101980639880745275",
-          "author": "godfrey_bloom",
-          "searchJob": "washington",
-          "text": "HIN News have kindly invited me on their channel this week. We will cover this in some depth I offer 30 years a of experience, including RCDS (strategy) RMAS Soviet Studies Parliamentary Armed Forces scheme 5 years Lecture experience Joint "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2101809666627960938",
-          "author": "garethicke",
-          "searchJob": "washington",
-          "text": "A rich bloke who couldn't knock the skin off a rice pudding, says we should do our duty and die, to protect a status quo that delivers him fine wine, and the rest of the country bills they can't afford to pay."
+          "postId": "2101985296606716003",
+          "author": "mashable",
+          "searchJob": "texas-tech",
+          "text": "Flock Safety reportedly offered employees a \"generous\" severance package. https://t.co/BT6LNxfXrW"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 23,
       "reasons": {
-        "bare_mention_requires_llm": 9
+        "bare_mention_requires_llm": 7,
+        "multiple_resolved_schools": 1,
+        "player_display_name_unusable": 1,
+        "school_not_resolved_confidently": 14
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101992399547302311",
-          "author": "mikenietzel",
-          "searchJob": "vanderbilt",
-          "text": "Vanderbilt University expands its free tuition offer. https://t.co/Ieb0IW7LsP"
+          "postId": "2101997679886614542",
+          "author": "jackintully",
+          "searchJob": "massachusetts",
+          "text": "Typical MA. Massachusetts rules allow boys to join a girls team when the school does not \"offer an equivalent boys team in that sport and season\". Southbridge does not field a fall boys volleyball team. SO STOP calling it \"Girls\" Volley Bal"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101989379824591042",
-          "author": "bla_bidza",
-          "searchJob": "washington",
-          "text": "American and broader Western investment in Zimbabwe remains structurally constrained by sovereign risk. The legacy of US sanctions, the unresolved debt overhang and Washington’s reluctance to facilitate a decisive breakthrough in Zimbabwe’s"
+          "postId": "2102000070044401669",
+          "author": "theplacefood_ng",
+          "searchJob": "rice",
+          "text": "Sometimes, a little push is all you need to give in to a good plate of Pepper Chicken with Rice. P.S: This offer is available Mondays –Thursdays at any of our outlets. #PepperChickenPromo #ThePlaceRestaurantNigeria #ThePlaceShowTheFoodShine"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101988467001499969",
-          "author": "66dlm327350",
-          "searchJob": "washington",
-          "text": "\"President Trump’s announced deal with Denmark to ensure permanent U.S. access to Greenland brings to an end the nearly two-year contretemps over America’s interest in the world’s largest island. More important, it resolves a security chall"
+          "postId": "2101980189521498250",
+          "author": "eagleweighing",
+          "searchJob": "rice",
+          "text": "Moisture meters price analysis in Uganda +256 787089315 A Moisture Meters price analysis in Uganda shows that prices vary widely depending on the type of meter, number of crops supported, accuracy, measurement technology, brand and whether "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101988141376618715",
-          "author": "me_observer_",
-          "searchJob": "washington",
-          "text": "⚡️⭕️ Digest — 07:51–10:50 UTC Yemen/Saudi border: An official Yemeni source tells Al-Masirah that Saudi shelling on Al-Dhaher and Haydan districts (Saada) has exceeded 135 rockets and shells in 12 hours and is continuing, alongside separate"
+          "postId": "2101976057985614176",
+          "author": "bamnieboondin",
+          "searchJob": "rice",
+          "text": "DUNK X PATPAT #CamelliaOil2026xDunk : can you name one menu you’d make for Joong? 🌻: khao tom mud krub ( tie Joong together with him ) (( khao tom mud as a symbol of a couple. cause boiled rice is tied together with 2 pieces of dessert and"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101981615471608138",
-          "author": "trading_jazz",
-          "searchJob": "washington",
-          "text": "The idea that China \"needs to be helped to change\" stems from a flawed premise that ignores the reality of the global economy. China’s record trade surplus of around $1.2 trillion is not an \"anomaly\" or merely the result of state subsidies;"
+          "postId": "2101970407968354548",
+          "author": "eagleweighing",
+          "searchJob": "rice",
+          "text": "Coffee moisture meters price in Uganda +256 700225423 The Coffee Moisture Meters price in Uganda generally ranges from approximately UGX 1,000,000 to UGX 4,500,000+, depending on the model, measuring technology, crop calibrations, accuracy "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2101993775392301304",
+          "author": "dunnbilly87734",
+          "searchJob": "louisville",
+          "text": "Evan: A Welsh variation, often related to the Welsh name Ieuan or Ifan, but also recognized as a form of John. Sean (or Seán): An Irish form, derived from the anglicization of the Irish spelling Seán, which was adapted from the Norman-Frenc"
+        },
+        {
+          "reason": "player_display_name_unusable",
+          "postId": "2101979666177269935",
+          "author": "jrgarcia8_2028",
+          "searchJob": "louisville",
+          "text": "Extremely blessed and grateful to speak with @vincemarrow and receive my first DI offer from the University of Louisville @LouisvilleFB Thankful for God, my family, coaches, and especially my teammates @DentonGuyer_FB who push me every day."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101981270079082641",
-          "author": "chrislane_chris",
-          "searchJob": "washington",
-          "text": "@SenWarren What is true is you have been in office for decades and blame everyone else. You are a lifelong politician with nothing to offer. What is your plan? I think Washington and Jefferson had it right but you back Marx and Lenin whose "
+          "postId": "2101998401487352141",
+          "author": "waldofaldo123",
+          "searchJob": "miami",
+          "text": "@NBACARTALK Shaq left bc Alonzo Mourning got a 100m contract in Miami, and Orlando lowballed him with a slap in the face offer….when professional athletes act dumb as fck for a podcast"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2101980041093534177",
-          "author": "contextualchina",
-          "searchJob": "washington",
-          "text": "@XHNews Xi’s visit offers Washington and Beijing an opportunity to move beyond confrontation and address shared challenges. Trade, technology and global stability all depend on constructive dialogue between the world’s two largest economies"
+          "postId": "2101990651701125308",
+          "author": "forever_kandall",
+          "searchJob": "pittsburgh",
+          "text": "Calling all Livies in Pittsburgh, PA i wts 4 Olivia Rodrigo tickets for Tuesday d1 Sept 29 and 3 tickets for d2 sept 30 Selling below what I originally paid for ($235) lam open to your offer #Livies #Wts Scammers looking for proof to use ag"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101977527870714285",
-          "author": "yeryani",
-          "searchJob": "washington",
-          "text": "Told @CMraffko for @Mediapart : The question of whether the Houthis are a proxy of Iran or not misses the point. There is a high enough level of alignment and convergence between Iranian and Houthi strategic objectives. Through their action"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101996525379326090",
+          "author": "gnostos333",
+          "searchJob": "texas-tech",
+          "text": "In other words strongholds key user base (right now) isn’t as a checkout system for a coffee shop or lumber shipping company. It’s the banks or credit unions they are already using. Likely through IBM - they PROCESS the payment FOR the bank"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2101977251424125205",
-          "author": "histories_arch",
-          "searchJob": "houston",
-          "text": "Billie Jean King dominated tennis in the 1960s and 1970s. She reached world number one in singles multiple times and secured dozens of major titles across categories. She left a permanent mark on sports and society by winning 39 Grand Slam "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101996501027495970",
+          "author": "akashkrishna",
+          "searchJob": "texas-tech",
+          "text": "How to lose customers and goodwill in retail banking: @AxisBank's demonstration of exemplary customer service. Scene: I was offered a premium-tier upgrade on my @AxisBank credit card, and since the benefits better matched my purchase and sp"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101995719179837441",
+          "author": "ryanatopen",
+          "searchJob": "texas-tech",
+          "text": "BlackRock: “ bitcoin:native Still Offers Portfolio Diversification Even as Wall Street Money Pours In” BlackRock says that despite the sharp increase in institutional capital entering the market, Bitcoin’s role as a portfolio diversifier re"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101995063131898322",
+          "author": "vault_street",
+          "searchJob": "texas-tech",
+          "text": "🚀 New-Age Tech, Finance, Clean Energy & Consumer Brands 🪙 #IGM — ₹27.50 India Gold Metaverse offers exposure to the digital and asset-backed space. 📊 #Ticker — ₹28.25 Fintech and financial-market data platform serving India’s investment "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101994371243741244",
+          "author": "srajesh1989",
+          "searchJob": "texas-tech",
+          "text": "@volklub Absolutely correct, minimum electronics minimum issues and vice versa. Tech is increasingly getting more annoying. These days TVs are offered in Cars, I dont want screen I only want music thats it agar movie dekha hai to ghar pe or"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101992221901992376",
+          "author": "gpaandy",
+          "searchJob": "texas-tech",
+          "text": "@cangg_l @BeldexCoin zk tech offers real privacy solutions long-term"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101990079145406628",
+          "author": "smallbiztrends",
+          "searchJob": "texas-tech",
+          "text": "Meta and Stripe have partnered to integrate Stripe’s Link payment network with Meta’s AI assistant, Muse. This integration transforms Muse into an active shopping agent capable of completing purchases instantly using saved customer details."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101989823951110626",
+          "author": "tradeoptionflow",
+          "searchJob": "texas-tech",
+          "text": "China’s CXMT says its fifth-generation DRAM platform has entered mass production. Announced Sunday, the platform delivers at least 50% more chips per wafer on a normalized basis, according to the company. Its new mobile-memory products also"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101989289823261178",
+          "author": "phonexia",
+          "searchJob": "texas-tech",
+          "text": "We're hiring a Researcher in Speech Technologies! 🎙️ Join Phonexia's research team in Brno to work on emotion detection, deepfake analysis, and cutting-edge speech tech (Python/PyTorch, transformers). We offer a 4-day workweek, an educatio"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101987824098852923",
+          "author": "mediamanoz",
+          "searchJob": "texas-tech",
+          "text": "Media Man Web Tips SEO For Business And Brands Business SEO, Pop Culture, Sports And Trends Media Man SEO Tips And News To make a website SEO-friendly, you can optimize your content, website structure, and speed. You can also use SEO tools "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101986613630812373",
+          "author": "e_etini",
+          "searchJob": "texas-tech",
+          "text": "𝗧𝘂𝗿𝗻 𝗨𝗦𝗗𝗗 𝗗𝗲𝗙𝗶 𝗜𝗻𝘁𝗼 𝗮𝗻 𝗔𝗜 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄 𝘄𝗶𝘁𝗵 𝗨𝗦𝗗𝗗 𝗦𝗸𝗶𝗹𝗹𝘀 #USDD Skills could change how AI agents interact with DeFI What if you could ask an AI agent about USDD supply, APY, collateral, yo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101986398958182442",
+          "author": "chjokka",
+          "searchJob": "texas-tech",
+          "text": "YOU CAN'T MAKE THIS SHIT UP Binance and PancakeSwap launched their pre-access platform yesterday, and it's almost a copy of Premium. They even call their virtual stocks pSTOCK. Just like Premium. Same core idea: > On-chain tokens representi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101985956370776522",
+          "author": "mediamangroup",
+          "searchJob": "texas-tech",
+          "text": "Media Man Web Tips SEO For Business And Brands Business SEO, Pop Culture, Sports And Trends Media Man SEO Tips And News To make a website SEO-friendly, you can optimize your content, website structure, and speed. You can also use SEO tools "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2101985796777537588",
+          "author": "the__bluey",
+          "searchJob": "texas-tech",
+          "text": "It was the first Terminator armor design from 88. They added it to the lore as a different evolution process of Terminator armor. Lore says it's based on the Dark Age of Technology, made by an exiled group of tech priests from MARS to Satur"
         }
       ]
     },
@@ -201,11 +331,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 23,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-21T11:28:05.182Z"
+    "status rebuilt locally from current store on 2026-09-21T11:43:06.782Z"
   ]
 }
