@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T17:11:56.578Z",
+  "generatedAt": "2026-09-21T17:28:00.506Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-21T17:11:56.355Z",
+    "at": "2026-09-21T17:28:00.161Z",
     "jobsTotal": 162,
-    "sweptThisRun": 8,
-    "requests": 9,
-    "fullSweepCycles": 21
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0001044444444445,
-    "p95Hours": 1.5057694444444445,
-    "worstHours": 1.7531969444444444
+    "medianHours": 1.0252861111111111,
+    "p95Hours": 1.522055,
+    "worstHours": 1.7735269444444444
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 69,
+    "decided": 69,
     "complete": true
   },
   "pending": {
@@ -47,154 +47,387 @@
   "profileResolution": {
     "cached": 59
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1638,
+    "completeOffers": 1639,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-21T17:11:56.354Z",
-      "got": 19,
-      "new": 15,
+      "at": "2026-09-21T17:28:00.161Z",
+      "got": 108,
+      "new": 69,
       "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-21T17:11:23.570Z",
+    "at": "2026-09-21T17:26:26.731Z",
     "mode": "live",
     "collection": {
-      "returned": 19,
-      "kept": 15,
-      "duplicate": 4,
+      "returned": 108,
+      "kept": 69,
+      "duplicate": 39,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 8,
+      "accepted": 43,
+      "rejected": 26,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 3
+        "no_fbs_school": 10,
+        "no_offer_term": 10,
+        "hard_negative": 5,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2102085372385640526",
+          "author": "ahanewmexico",
+          "searchJob": "new-mexico",
+          "text": "Healthier communities grow stronger when solutions are led by the people who know those communities best. Cameron Johnson’s video story offers a look at that mission in action. #RuralatHeart https://t.co/5oImtPMjH4"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2102082924887609468",
-          "author": "malekanoms",
-          "searchJob": "marshall",
-          "text": "https://t.co/bG0re4meBt"
+          "postId": "2102070998233448704",
+          "author": "qz",
+          "searchJob": "rice",
+          "text": "https://t.co/QqtjxjPiG6"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102086011706593588",
+          "author": "ethanmmcdowell",
+          "searchJob": "michigan",
+          "text": "Michigan offered 2028 WR Joshua Parker, one of the top rising prospects in the country. He's teammates with Wolverine RB commit Tyson Robinson at Brandon (Miss.) High. His Rivals profile: https://t.co/DkSYrUkJ7d"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2102081858062438723",
-          "author": "radishlord_",
-          "searchJob": "marshall",
-          "text": "This past year has had me backed into a quiet corner of misunderstanding and being misunderstood. Yet, it has also granted me a clearer picture of Jesus in His role as Shepherd, and what a Good Shepherd truly embodies. Sheep you see are sim"
+          "postId": "2102080422616145950",
+          "author": "admiss_umflint",
+          "searchJob": "michigan",
+          "text": "Meet our Admissions Counselors for our First-Year Students! 💙💛 👋🏼 Each one serves different counties in the State and informs students of all that UM-Flint has to offer. #umflint #admissions https://t.co/9lpo9RZjws"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102073941401669711",
+          "author": "johnmarstonsd",
+          "searchJob": "michigan",
+          "text": "@Ike58Reese YouTheFan NCAA Michigan State Spartans Desk Pad - $9.99 - Free shipping for Prime members https://t.co/lLT4QVVq3D https://t.co/rpQ5D44l6J"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102084759262224813",
+          "author": "tennesseefandom",
+          "searchJob": "mississippi-state",
+          "text": "Tennessee football offers former Mississippi State commit #volunteers #vols #tennesseesports #tennesseevols https://t.co/f7pUV8n85Z"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102083117926260812",
+          "author": "volswire",
+          "searchJob": "mississippi-state",
+          "text": "Tennessee football offers former Mississippi State commit 📸 Vols Wire https://t.co/7cIkYD222w https://t.co/mcYYIO8w0j"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102070949541515616",
+          "author": "luv2laugh12",
+          "searchJob": "california",
+          "text": "🆘These 5 young Belgian Malinois mix puppies are still in danger at SASA in Modesto, CA!🆘 These puppies are now 13 weeks old, all females. Stanislaus Animal Services Agency in Modesto, CA is planning to 💉them on Wednesday 9/23 at 6:30 a.m"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2102077433516015657",
-          "author": "sunrises4b",
-          "searchJob": "massachusetts",
-          "text": "“Core body temperature is determined by measuring the thermal state of deep internal organs using direct invasive methods, traditional clinical sites, or advanced wearable thermal sensors. * Gold Standard (Invasive): Direct measurement insi"
+          "postId": "2102075213102059948",
+          "author": "michaelroesch16",
+          "searchJob": "california",
+          "text": "I, a White kid, attended an elementary school in Southern California in 1959-60. I often hung around two nerdy Black kids--Cornelius and William. We exchanged comics, visited each other, and we're mostly ignored by the vast majority of Blac"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2102069593774899417",
-          "author": "alleighmarre",
-          "searchJob": "massachusetts",
-          "text": "https://t.co/Em7CdQnERY"
+          "postId": "2102071481156956550",
+          "author": "theworthyhouse",
+          "searchJob": "california",
+          "text": "Of coming of age, of the unfortunate and unnecessary Afghan War, of relationships between the sexes, and of the oppression of young men. https://t.co/UGH4irqVk2"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2102070762454553005",
+          "author": "daps_magic",
+          "searchJob": "california",
+          "text": "More Options Than Ever Offered by Disney Cruise Line Out of San Diego, California https://t.co/VABJtToHMk"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102069409812533613",
+          "author": "cahighsierra",
+          "searchJob": "california",
+          "text": "At over a million year old, #MonoLake has been around awhile. And if you haven't seen it for yourself, you're missing out! It's salty, there's #tufatowers, &amp; the birds go bananas over it. This is a must see State Park in California. 👇 "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2101904250460623158",
+          "author": "luv2laugh12",
+          "searchJob": "california",
+          "text": "Please save Pearl!🙏 She’s only 1 yr old! Pearl is set to be 💉on Wednesday 9/23 at 6:30 a.m. at Stanislaus Animal Services Agency in Modesto, CA!😳 *Please see shelter volunteer notes in first comment. 🎥Autumn Serenity (on Stanislaus Anim"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2102065959989121148",
-          "author": "suzyql",
-          "searchJob": "massachusetts",
-          "text": "@Britsarmymom @TheKuhnerReport Not all schools have a co-ed team. In Massachusetts - a student of one sex may play on a single-sex team designated for the opposite sex if the school does not offer that specific sport for the student's sex. "
+          "postId": "2102064086737391866",
+          "author": "cincinnatinews_",
+          "searchJob": "cincinnati",
+          "text": "But, you offer no proof."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2102059224125607950",
-          "author": "martind1964",
-          "searchJob": "massachusetts",
-          "text": "@attackdogX https://t.co/Gld086wnfZ"
+          "postId": "2102054635955524081",
+          "author": "cherokeeluvsusa",
+          "searchJob": "cincinnati",
+          "text": "@CincinnatiNews_ This is totally true.. she doesn't allow you to ask questions"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2102080212519321947",
-          "author": "np4football_ot",
-          "searchJob": "memphis",
-          "text": "jaxton schmitt-QB-2027-TN @MemphisFB Game Day Visit #CFB"
+          "postId": "2102081659084398871",
+          "author": "weeklyvoice",
+          "searchJob": "notre-dame",
+          "text": "A film about a father, a son and a disappearing way of life in Nagaland delivered one of South Asian cinema’s defining moments at the 2026 Toronto International Film Festival. Theja Rio’s debut feature, Angh, won the Platform Prize, giving "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102069113551983037",
+          "author": "realirishacres",
+          "searchJob": "notre-dame",
+          "text": "I get offers to partner with GLP-1 companies all the time. I’m good, thanks. 😊 https://t.co/tcZ5JB8EFx"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102064329545621758",
+          "author": "walleyvision",
+          "searchJob": "notre-dame",
+          "text": "The Irish were active and enthusiastic participants in the British Empire. They took full advantage of the spoils on offer. Dr Angela Byrne, from the Dublin Museum of Emigration (EPIC) said: \"From low-ranking cabin boys to the most senior p"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102060849678467141",
+          "author": "irish_on_tour",
+          "searchJob": "notre-dame",
+          "text": "@JFloiss You're the one that asked me if the DPWT was ever offered/considered a deal."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2101724345450082447",
-          "author": "jaxton_schmitt1",
-          "searchJob": "memphis",
-          "text": "Had a great time at Memphis yesterday, thank you @CoachTimDuffie for inviting me out and can’t wait to get back on campus! @ashby_brandon @harvey_taylor09 @CSmithScout @TnVarsity @Brandon_Odoi https://t.co/0iSvgmoRNx"
+          "postId": "2101445476444701141",
+          "author": "elijahgpaez",
+          "searchJob": "uconn",
+          "text": "#OfficialVisit | @TCUBasketball https://t.co/tH46lIEmsz"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102065542869708951",
+          "author": "ccsu",
+          "searchJob": "uconn",
+          "text": "A new student-built bridge is bringing a quieter, more peaceful vibes to Student Center Circle💙🔱 Read more🔗https://t.co/lyfpAocQLc #WeAreCentral https://t.co/98m6FQTRAk"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102076258196590646",
+          "author": "winsrfree",
+          "searchJob": "buffalo",
+          "text": "@mikesburke @JFreshHockey If reporting is correct, he doesn’t even have a restrictive list and Florida doesn’t have the assets to outdo the deal Buffalo already offered and neither does Buffalo anymore"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102080558327111742",
+          "author": "fresnobee",
+          "searchJob": "fresno-state",
+          "text": "Driver in crash that killed Clovis mom sentenced to probation. Family offers forgiveness https://t.co/VWX637D4QK"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102080086132527602",
+          "author": "dave4572",
+          "searchJob": "ohio",
+          "text": "@JulianAssange You deserve all the peace and happiness this world has to offer, good luck old friend ."
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 7,
+      "accepted": 1,
+      "rejected": 42,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 5,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 33,
+        "multiple_resolved_schools": 8,
+        "player_display_name_unusable": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102085478250115418",
+          "author": "sunnypatchdaily",
+          "searchJob": "rice",
+          "text": "@phai97152 The exquisite harmony of tender beef, crisp bok choy, and wok-seared rice noodles infused with a rich smokiness offers a truly refined and comforting celebration of Asian flavors."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102082334333776108",
+          "author": "tfsjournal",
+          "searchJob": "rice",
+          "text": "Arsenal knew what they were doing. Rice moved. Ødegaard dropped. Bruno offered himself. Positions rotated. Normally, those movements create a chain reaction: one opponent follows, another space opens, Arsenal find the free man. Brighton kep"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102074635001135183",
+          "author": "carmenalbaran",
+          "searchJob": "rice",
+          "text": "Brown things are superior. The exquisite taste of brown coffee, the healthier brown rice alternative, and the rich color of brown skin that also offers great protection against harmful sunrays."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102069194653040773",
+          "author": "michaelsavaged",
+          "searchJob": "rice",
+          "text": "🚨 Saudi Prince Mohammed bin Salman confirms that Barack Obama is the world’s number one sponsor of terror. He gave Iran $150B in cash, and the IRGC didn’t even build a single street with that money. Instead, Iran used the money to make mis"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102064402270724194",
+          "author": "345livin",
+          "searchJob": "rice",
+          "text": "@thedrive30 @MahomesSZN15__ @theRealOneKD1 @SteinerHereford @JoeMama158710 @ChineseBuffet3 @DenB222 @MC_GotThaJuiice @chiefstalk1 @djgist @chiefs_Alpha @chessmyantidrug @JAYCH3FED @n305ate @_Honest_Sports @ege5thburner @ABMJ7982 That’s me o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102062221970878910",
+          "author": "dubememeka",
+          "searchJob": "rice",
+          "text": "\"Don't worry! What I gave you was rice powder. She's not going to die, because the poison was in you! When we feed grudges, our love slowly dies. When we make peace with ourselves and with those who offended us, then we can deal with the ot"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102083095297970545",
+          "author": "the1knocking",
+          "searchJob": "michigan",
+          "text": "According to Grok: Justin Amash left Congress in January 2021 after five terms representing Michigan’s 3rd district. He has not held elected office since, but he has stayed visible as a constitutional-libertarian commentator and occasional "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102081168925700189",
+          "author": "unplugtheempire",
+          "searchJob": "michigan",
+          "text": "American politics has long since degraded into a grotesque carnival, a dizzying collision of celebrity culture, high-stakes sports commentary, and imperial propaganda. Nowhere is this truer than in the modern digital media ecosystem, where "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102079707843801409",
+          "author": "miworkswestcent",
+          "searchJob": "michigan",
+          "text": "Need help building or updating your resume? Sign up for one of our workshops: https://t.co/lUkt7gklpk Michigan Works! West Central offers resume assistance and other career services to help job seekers succeed. #MichiganWorks #ResumeTips #J"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2102076639865639307",
-          "author": "rosewdc",
-          "searchJob": "marshall",
-          "text": "Trump Scores a Win in Greenland His pact will secure the Arctic even if the territory becomes independent of Denmark. President Trump’s announced deal with Denmark to ensure permanent U.S. access to Greenland brings to an end the nearly two"
+          "postId": "2102079400091033691",
+          "author": "officialanikaa",
+          "searchJob": "michigan",
+          "text": "Debates should not be optional: Mike Rogers (R) vs. Abdul El-Sayed (D) — Michigan Senate. Rogers declined a televised debate. Amy Acton (D) vs. Vivek Ramaswamy (R) — Ohio governor. Acton declined offered debate invitations. David Jolly (D) "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102079043004735818",
-          "author": "illiniwkr",
-          "searchJob": "massachusetts",
-          "text": "YAY more Nanny state from the liberals Why do they hate freedom and individual choice?? @VisitMA @MassGov @MassGovernor Massachusetts' plan to offer postpartum screening home visits sparks online debate https://t.co/mXJb4U6ouT"
+          "postId": "2102077747023487102",
+          "author": "dylaneveryday",
+          "searchJob": "michigan",
+          "text": "@JamesYoder Its sad Michigan only offered the worst one"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102074124017299596",
-          "author": "quirkcars",
-          "searchJob": "massachusetts",
-          "text": "What’s YOUR five year plan look like? 👀 Is it to travel more, start a new project, or perhaps to live life to the fullest? Sounds like you’ll need the right truck for wherever the road may lead. 😎 It’s Truck Month at Quirk Buick GMC, and "
+          "postId": "2102072865738649796",
+          "author": "edgytim",
+          "searchJob": "michigan",
+          "text": "Waubonsie Valley @FOOTBALLWVHS 2028 4 star ranked OT @MuralisKajus Kajus Muralis is set to make a game day visit soon to Michigan State who also recently offered a scholarship https://t.co/GTeViQmN6x"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102069494663332225",
-          "author": "cunninghamjeff",
-          "searchJob": "massachusetts",
-          "text": "I would completely agree on the bewilderment of someone who has earned our respect for decades and suddenly flip flops. Why? I offer my father in law, a Massachusetts Republican who probably voted for Henry Cabot Lodge. He is staunchly cons"
+          "postId": "2102071200302178397",
+          "author": "dorightbrent",
+          "searchJob": "michigan",
+          "text": "@JoshPateCFB That bitch portnoy telling Brandon walker he was going to offer him as much as it takes to get him to Michigan was funny."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2102084552785043530",
+          "author": "nrsmaine",
+          "searchJob": "minnesota",
+          "text": "Two men accused of collecting more than $60 million from Arizona’s Medicaid program for nonexistent or incomplete addiction and mental-health treatment face mandatory prison time if convicted of major fraud charges, in a case that allegedly"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2102087043132149899",
+          "author": "hrparrishh",
+          "searchJob": "mississippi-state",
+          "text": "@thecomebackid41 @CFBGrids @bordeauxyt I think Mississippi State could match what Lubbock would spend on a hack. I don’t think Mississippi State could match what Texas Tech offers to a baller. There’s levels."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2102085889925005633",
+          "author": "thecomebackid41",
+          "searchJob": "mississippi-state",
+          "text": "@hrparrishh @CFBGrids @bordeauxyt Texas tech offered 6 million to a hack at qb you think Mississippi state not gon match that?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102066761369563346",
-          "author": "antifahrdepart",
-          "searchJob": "massachusetts",
-          "text": "Massachusetts: “We'd like to offer every new family a free, voluntary visit with a maternal-child health nurse. You can decline it, and you can even meet somewhere other than your home.” Internet: “THE GOVERNMENT IS FORCING ITS WAY INTO OUR"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2102065523865383373",
-          "author": "taylorchar83070",
-          "searchJob": "massachusetts",
-          "text": "THE WEIRDEST EVENTS IN HISTORY: STRANGER THAN FICTION, 100% REAL SEPTEMBER 20TH EDITION “Truth is stranger than fiction, but it is because Fiction is obliged to stick to possibilities; Truth isn't.” ~ Mark Twain 19 BC — Emperor Augustus Win"
+          "postId": "2102074447637139749",
+          "author": "tralph30",
+          "searchJob": "mississippi-state",
+          "text": "@bordeauxyt That’s fine, but you don’t think he’s actually back at Mississippi state next year do you? Kiffin will offer him the world this offseason, can’t imagine Mississippi state can match it."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102057867666706758",
-          "author": "memphisflyer",
-          "searchJob": "memphis",
-          "text": "Local chefs, artisans, and others who deal in food and spirits offered their cuisine and drinks to guests at the seventh annual Craft Food &amp; Wine Festival, which was held September 6th at the Memphis Brooks Museum of Art. https://t.co/A"
+          "postId": "2102069673118319049",
+          "author": "shoneejackson",
+          "searchJob": "mississippi-state",
+          "text": "@TBAfanaccount13 @BrooksAustinBA Because a “couple million” is simply just not something anyone turns down. I hope Mississippi state can find the money match what he’s offered, but yeah you don’t just say no to more millions. This sport gua"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102064525029654858",
+          "author": "bordeauxyt",
+          "searchJob": "mississippi-state",
+          "text": "few thoughts: I believe he stays. Mississippi State will pay him very well, but still slightly less than his biggest offer He has deep ties to Mississippi State, if anyone was gonna be loyal, it’s him Schools gotta be able to sign guys to m"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102080936590348428",
+          "author": "birthrightstc",
+          "searchJob": "missouri",
+          "text": "Wondering if you might be pregnant? Common symptoms include missed periods, nausea, fatigue, and mood swings. We offer free pregnancy tests and counseling support to help you find answers and learn about the next steps. #listentoyourbody #p"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102082211155411352",
+          "author": "hillustrated",
+          "searchJob": "nebraska",
+          "text": "Mike Schaefer and Mike'l Severe offer their thoughts on how Nebraska played in the first three weeks and preview what lies ahead. https://t.co/GhPuK4USz6"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102080186120294445",
+          "author": "kearneyhub",
+          "searchJob": "nebraska",
+          "text": "Foes offer the kind of praise Husker fans covet, Sam McKewon writes, about Nebraska football's identity, but a Big Ten schedule without training wheels will prove it true or false. https://t.co/vU50aGxtzO"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102079707013431737",
+          "author": "theindependent",
+          "searchJob": "nebraska",
+          "text": "Foes offer the kind of praise Husker fans covet, Sam McKewon writes, about Nebraska football's identity, but a Big Ten schedule without training wheels will prove it true or false. https://t.co/szLEMw1LwB"
+        },
+        {
+          "reason": "player_display_name_unusable",
+          "postId": "2102078671951376384",
+          "author": "dontayethompson",
+          "searchJob": "boston-college",
+          "text": "Blessed to receive my 7th offer to Boston College!! @BCFootball @CoachWeedAC @CoachLewis_YLWA @AchsVikings @BrianDohn247 https://t.co/e0Wt5RKp5V"
         }
       ]
     },
@@ -202,20 +435,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 8,
-      "failed": 1,
-      "requests": 9,
-      "errors": [
-        "new-mexico: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 42,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-21T17:11:56.579Z"
+    "status rebuilt locally from current store on 2026-09-21T17:28:00.507Z"
   ]
 }
