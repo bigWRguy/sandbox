@@ -27,12 +27,16 @@ for (const a of accounts) {
   } catch (e) { console.log(`  build status unavailable: ${e.message}`); }
 }
 
+const TARGET_SITE_ID = process.env.NETLIFY_SITE_ID || '';
+
 console.log('\nper-project deploys this month (Netlify-side builds are the ones that cost):');
 const sites = await api('/sites?per_page=100');
 const rows = [];
 for (const site of sites) {
   let deploys = [];
   try { deploys = await api(`/sites/${site.id}/deploys?per_page=200`); } catch { continue; }
+  const mark = site.id === TARGET_SITE_ID ? '  <-- THIS IS OFFERWIRE (NETLIFY_SITE_ID)' : '';
+  if (mark) console.log(`  site id ${site.id}  url ${site.url}  custom_domain ${site.custom_domain || '-'}${mark}`);
   const month = deploys.filter((d) => new Date(d.created_at) >= MONTH_START);
   const built = month.filter((d) => d.build_id);
   const skipped = built.filter((d) => d.state === 'skipped' || d.skipped);
@@ -40,6 +44,8 @@ for (const site of sites) {
   const fromCli = month.filter((d) => !d.build_id);
   const gitSeconds = fromGit.reduce((n, d) => n + (d.deploy_time || 0), 0);
   rows.push({
+    id: site.id,
+    isTarget: site.id === TARGET_SITE_ID,
     name: site.name,
     linked: site.build_settings?.repo_url ? 'git-linked' : 'not linked',
     month: month.length,
@@ -56,13 +62,21 @@ for (const site of sites) {
 }
 rows.sort((a, b) => b.gitSeconds - a.gitSeconds);
 for (const r of rows) {
-  console.log(`  ${r.name.padEnd(34)} ${r.linked.padEnd(11)} deploys ${String(r.month).padStart(4)}  git-built ${String(r.git).padStart(4)} (${mins(r.gitSeconds)})  cli ${String(r.cli).padStart(4)}  skipped ${String(r.skipped).padStart(4)}`);
+  const flag = r.isTarget ? '  <-- OFFERWIRE' : '';
+  console.log(`  ${r.name.padEnd(34)} ${r.linked.padEnd(11)} deploys ${String(r.month).padStart(4)}  git-built ${String(r.git).padStart(4)} (${mins(r.gitSeconds)})  cli ${String(r.cli).padStart(4)}  skipped ${String(r.skipped).padStart(4)}${flag}`);
 }
 
 if (rows[0]?.recent?.length) {
   console.log(`
 newest deploys on ${rows[0].name}:`);
   for (const d of rows[0].recent) console.log(`  ${d.at}  built-by ${d.build.padEnd(7)} ${String(d.state).padEnd(9)} ${d.secs}s  ${d.sha}  ${d.why}`);
+}
+
+const target = TARGET_SITE_ID && rows.find((r) => r.isTarget);
+if (target && target.name !== rows[0]?.name && target.recent?.length) {
+  console.log(`
+newest deploys on ${target.name} (OfferWire):`);
+  for (const d of target.recent) console.log(`  ${d.at}  built-by ${d.build.padEnd(7)} ${String(d.state).padEnd(9)} ${d.secs}s  ${d.sha}  ${d.why}`);
 }
 
 const busiest = sites.find((x) => x.name === rows[0]?.name);
