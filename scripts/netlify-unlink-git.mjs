@@ -20,15 +20,18 @@ if (!before.build_settings?.repo_url) {
   process.exit(0);
 }
 
+// Plain `{ repo: null }` is silently ignored by the API. The field Netlify's
+// own dashboard "Stop builds" button flips is build_settings.stop_builds —
+// that's the one that actually prevents a build from ever being queued.
 const res = await fetch(`https://api.netlify.com/api/v1/sites/${SITE}`, {
   method: 'PATCH',
   headers: {
     Authorization: `Bearer ${TOKEN}`,
     'Content-Type': 'application/json',
   },
-  body: JSON.stringify({ repo: null }),
+  body: JSON.stringify({ build_settings: { stop_builds: true } }),
 });
-console.log(`unlink request: HTTP ${res.status}`);
+console.log(`stop_builds request: HTTP ${res.status}`);
 if (!res.ok) {
   console.error(await res.text());
   process.exit(1);
@@ -37,5 +40,5 @@ if (!res.ok) {
 const after = await fetch(`https://api.netlify.com/api/v1/sites/${SITE}`, {
   headers: { Authorization: `Bearer ${TOKEN}` },
 }).then((r) => r.json());
-console.log(`after: repo_url=${after.build_settings?.repo_url || '(none)'}`);
-console.log(after.build_settings?.repo_url ? 'FAILED: still linked' : 'OK: site is now unlinked from git');
+console.log(`after: stop_builds=${after.build_settings?.stop_builds} repo_url=${after.build_settings?.repo_url || '(none)'}`);
+console.log(after.build_settings?.stop_builds ? 'OK: builds are stopped on this site' : 'FAILED: stop_builds did not take');
