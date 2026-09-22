@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T03:58:02.850Z",
+  "generatedAt": "2026-09-22T04:13:06.602Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-22T03:58:02.562Z",
+    "at": "2026-09-22T04:13:06.279Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7702338888888889,
-    "p95Hours": 1.5157566666666666,
-    "worstHours": 1.7732294444444445
+    "medianHours": 0.7688047222222222,
+    "p95Hours": 1.5152213888888888,
+    "worstHours": 1.7667988888888888
   },
   "decisionCoverage": {
-    "total": 13,
-    "decided": 13,
+    "total": 38,
+    "decided": 38,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 59
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 1671,
     "incompleteOffers": 0
@@ -55,132 +55,308 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-22T03:58:02.561Z",
-      "got": 23,
-      "new": 13,
-      "lag": 0.06
+      "at": "2026-09-22T04:13:06.278Z",
+      "got": 48,
+      "new": 38,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-22T03:56:31.300Z",
+    "at": "2026-09-22T04:11:33.605Z",
     "mode": "live",
     "collection": {
-      "returned": 23,
-      "kept": 13,
+      "returned": 48,
+      "kept": 38,
       "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 5,
+      "accepted": 14,
+      "rejected": 24,
       "reasons": {
-        "no_offer_term": 1,
-        "no_fbs_school": 4
+        "no_fbs_school": 6,
+        "hard_negative": 17,
+        "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2102243765733986362",
+          "author": "kentw",
+          "searchJob": "kent-state",
+          "text": "@EzraJClark @writeclimbrun The Word Guessing Machine offers no judgment. The judgment comes in how we prompt, interpret, and iterate on the output from the Word Guessing Machine."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102240672816459859",
+          "author": "kentw",
+          "searchJob": "kent-state",
+          "text": "@dmalcolmcarson @writeclimbrun AI offers zero judgement. It’s GIGO. What you get is as good as your prompts and your iterative interaction with the model."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102224696544776465",
+          "author": "jucofootballace",
+          "searchJob": "ole-miss",
+          "text": "Jeremiah Thomas @jayythomas_11 @ Northeast Mississippi JuCo @nemcc_football picks up @racersfootball Offer @NEMCCTigers @jucoweekly @MSJUCOREPORT https://t.co/4Ukz9d9NWc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102245251800850459",
+          "author": "marketfloornews",
+          "searchJob": "south-carolina",
+          "text": "Latrobe Magnesium raises $8.5 million to fund demonstration plant completion and US study Latrobe Magnesium (ASX: LMGN) has secured firm commitments for an $8.5 million equity raising to complete its Victorian demonstration plant and advanc"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102249282606862824",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102249039198654701",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CmlX I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102248802652721545",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102248543817994306",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102247827607113893",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102246957947457734",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102245851938820476",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102244867804102953",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102244727299162183",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102244416077373494",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CmlX I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102244282652602543",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102243658682765484",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102243082188238862",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102242826969063683",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102242107188793727",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/GQrRD8CUbv I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102240851233841283",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initiated against CNN, the de"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2102236425437491377",
-          "author": "hobbybeacon",
-          "searchJob": "nebraska",
-          "text": "When a Warhammer Fan Owns the Gauntlet... We had a ton of feedback over the weekend – resulting in a change in how we will be implementing our loyalty/membership program in the coming weeks. In the meantime–Warhammer 15% OFF Thank you! ❤️ #"
+          "postId": "2102240010594353290",
+          "author": "thevicioussnake",
+          "searchJob": "texas",
+          "text": "Final Chapter to understanding the Workforce Collision and ideas on how to stop it. https://t.co/xjNK6TwbJM"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102239724958298376",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "I will ensure that President Trump is elected president again in 2028. I will help Trump. ==== Countless legal proceedings, including charges of obstruction of official duties and obstruction of office, will be initiated against CNN, the de"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2102230993352479083",
-          "author": "californiapost",
-          "searchJob": "california",
-          "text": "Billionaire's playground offers $147K to unmask mystery poisoning suspect https://t.co/kIamQWXtKV https://t.co/p6x6p8uVl8"
+          "postId": "2102247256413835462",
+          "author": "irishsunsport",
+          "searchJob": "notre-dame",
+          "text": "FIFA boss Gianni Infantino buckled under Uefa pressure as he offered a full independent review of the world body’s governance model. https://t.co/G8gz8Sw8sf"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2102222127374196826",
-          "author": "patriotnev18154",
-          "searchJob": "california",
-          "text": "@erocnomeDehT Personally, I put my carts back. I'll even offer mine to someone who's just parked. My mom likes to say, \"Job security.\" And just leave the cart wherever. That might be one of the reasons I don't talk to my mom anymore."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2102221463222980909",
-          "author": "america13342254",
-          "searchJob": "california",
-          "text": "@WiredPyromaniac @Kariann59589585 @DailyMail Yes it does. Look at the para Olympian (female) a couple of years ago who asked for a new ramp into her home for her wheelchair and was offered MAID instead"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2102219875443671431",
-          "author": "petronellawyatt",
-          "searchJob": "california",
-          "text": "Happy Birthday Paul Muni From a modern point of view, Muni occasionally has a whiff of what goes between two slices of bread, but in the 1930s, the star of “Scarface” was one of the biggest names in Hollywood, showing flashes of real brilli"
+          "postId": "2102224386027872400",
+          "author": "devaoki2002",
+          "searchJob": "notre-dame",
+          "text": "Gustong-gusto nila kong kunin sa paid collabs nila pero sobrang baba ng offer nila lol, pag di afford ang tf wag ipilit💀"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 14,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_player_name": 1
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 8,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2102245092908310583",
-          "author": "jeremiahscigar",
-          "searchJob": "mississippi-state",
-          "text": "@Ace__Lover @JoshPateCFB If they can match then of course he will stay. But if hes getting offered like 3x the month elsewhere that Mississippi state will give him then all of that other stuff is cute but it means very little"
+          "reason": "multiple_resolved_schools",
+          "postId": "2102228457597853723",
+          "author": "asherpress",
+          "searchJob": "liberty",
+          "text": "It's a matter of time: They bring talent, faith, family values, entrepreneurship, and a sincere desire to contribute to the Nation that offers them safety and religious liberty.\" A coalition of Christian lawmakers, faith leaders and civic o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102233018932899977",
-          "author": "statesaints",
-          "searchJob": "mississippi-state",
-          "text": "@JoshAllenStats @RedditCFB we don’t because we know he will stay. this narrative that we can’t pay this we can’t retain that is old and tired. we can match damn near any school’s offer and he has ties to state itself. ex: josh hubbard why w"
+          "postId": "2102225967930564765",
+          "author": "lil__pocho",
+          "searchJob": "liberty",
+          "text": "@souljagoyteller that’s why moms for liberty is an electoral juggernaut in a golden age of winning races. the current state of education is that it sucks and no side really offers any ideas, it’s just that the right is much for destructive "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2102230611629158594",
-          "author": "sempercaninus",
-          "searchJob": "mississippi-state",
-          "text": "@secnumbersguy Mississippi State was offered an SEC Championship by forfeit and declined. Missouri declared itself a national champion by forfeit."
+          "postId": "2102224667637321823",
+          "author": "renzograciebjj",
+          "searchJob": "liberty",
+          "text": "#Repost @escapingcanada Liveeeeeee ❤️❤️❤️❤️🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸 ・・・ Three years ago, Canada’s healthcare system left my wife for dead. She fled Canada for her life, returned home to the United States, and I immigrated with her. Today, o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102238112940175458",
-          "author": "dice_paper_mini",
-          "searchJob": "nebraska",
-          "text": "Finally! It's only taken 3 decades or so for a hobby store in Lincoln, NE, to offer a Warhammer discount with no strings attached.👍 Omaha doesn't have all the cool hobby shops now.😁 #tabletopgames #miniaturepainting #nebraska"
+          "postId": "2102246397793984704",
+          "author": "bigboybern80872",
+          "searchJob": "ole-miss",
+          "text": "@uncle_rico__ This is all fun and games but if another school offers him 3-5 mil more than what Mississippi st bro is gone. However, people underestimate the donor base that Mississippi st has. I would not be surprised is they jsut match or"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2102246079395979691",
+          "author": "dwildcard303007",
+          "searchJob": "ole-miss",
+          "text": "MONDAY NIGHT DISPATCH UPDATE | SEPTEMBER 21 A busy Monday evening across the metro included assaults on transit, multiple crashes, medical calls at Red Rocks, a stolen vehicle arrest, an alleged attempt to run over Red Rocks staff, and seve"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102221755096170809",
-          "author": "timverghese",
-          "searchJob": "nebraska",
-          "text": "Nebraska offers fast-rising 2028 Atlantic City (N.J) WR Dontaye Day-Thompson"
+          "postId": "2102247177338650974",
+          "author": "joseph_macau",
+          "searchJob": "penn-state",
+          "text": "Honored to be invited to @PennStateFball and experience everything this program has to offer. Special thanks to @CoachJWaters for taking the time to speak with me and share valuable insight on how I can continue to improve. @CoachMC_PSU @Ti"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102217057680925055",
-          "author": "raymiramontes_",
-          "searchJob": "california",
-          "text": "🏢 Looking for a duplex in Long Beach? Here’s what $899,900 gets you. 🚨 INTERESTED? CALL OR TEXT RAY DIRECTLY AT 562-600-9793 for the address, photos & full details. This classic Spanish-style Long Beach duplex offers approximately 2,466 s"
+          "postId": "2102231288845340677",
+          "author": "imnothereok",
+          "searchJob": "tennessee",
+          "text": "@Vollunscrubs @kyleumlang No, you are mixing things up. Those 30,000 soldiers were offered land grants, and they went largely because they were poor and had no chance of land ownership in elitist Tennessee."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102226130111721591",
-          "author": "2growup_org",
-          "searchJob": "colorado",
-          "text": "@RepJasonCrow @nickshirleyy - the Congressman apparently wants to do the right thing for once... can you please offer your services? Colorado could use some help."
+          "postId": "2102248094477799631",
+          "author": "jakorah",
+          "searchJob": "texas",
+          "text": "NEWS (SEPTEMBER 20TH &amp; 21ST) •Mamdani and DJT meeting at Gracie Mansion ahead of Bibi's UN general Assembly visit •Lawsuit against press ban at WH •UK to offer Saudi Arabia aerial refueling to counter houthis •ICE involved in another in"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2102230321777479682",
-          "author": "jucorecruiting",
-          "searchJob": "uab",
-          "text": "UAB has offered 6’10 F Kalvin Vengeto (@kalvinvengeto) from Southern Shreveport."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102243661610127449",
+          "author": "colmthompson",
+          "searchJob": "texas",
+          "text": "@NicoleAuerbach @SXMCollege Sure but Miami, Texas tech, or lsu will make an offer no one else can match. Just sad reality"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2102248669206487302",
+          "author": "fashionistaduke",
+          "searchJob": "duke",
+          "text": "Sometime in 2019, I had just completed my ND programme in Mass Communication at Kwara State Polytechnic. At the time, all I had in mind was finding a brand I could work with as a social media manager. That same year, a photography brand in "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102235817066270724",
+          "author": "jellyjelly214",
+          "searchJob": "duke",
+          "text": "So The ☕️ Is Duke really did that to Mustang because he offered $150 &amp; not $500 #badboys #badboyscancun #fyp #zues #ExploreReels"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102245309925806278",
+          "author": "jasonomahony",
+          "searchJob": "notre-dame",
+          "text": "Where is this country they are going to that offers an Irish quality of life plus lower cost of living, higher wages and has no shortage of affordable housing? https://t.co/qeq8klQIdp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102246333461446800",
+          "author": "zombiegoddessxi",
+          "searchJob": "akron",
+          "text": "@amazon been fine. The only packages that have issues are the ones that have to pass through Akron. They get scanned as \"arrived\" then scanned as \"processing\" and then I get a delayed notification and then then it updates to \"delivery date "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102238382038352351",
+          "author": "ryan_zarzaur",
+          "searchJob": "akron",
+          "text": "@failuntiluwin https://t.co/DO5rpcx5vx Sign up as a vendor Click the services you offer Enter the zips you offer that service in, or click the zips on the map provided Click submit and it’ll come to me"
         }
       ]
     },
@@ -195,11 +371,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 14,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-22T03:58:02.851Z"
+    "status rebuilt locally from current store on 2026-09-22T04:13:06.603Z"
   ]
 }
