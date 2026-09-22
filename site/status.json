@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T08:58:10.135Z",
+  "generatedAt": "2026-09-22T09:13:11.446Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-22T08:58:09.821Z",
+    "at": "2026-09-22T09:13:11.143Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7769969444444444,
-    "p95Hours": 1.5279141666666667,
-    "worstHours": 1.5279141666666667
+    "medianHours": 0.7746127777777778,
+    "p95Hours": 1.5280602777777779,
+    "worstHours": 1.5280602777777779
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,90 +55,139 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-22T08:58:09.821Z",
-      "got": 20,
-      "new": 7,
-      "lag": 0.2
+      "at": "2026-09-22T09:13:11.143Z",
+      "got": 23,
+      "new": 14,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-09-22T08:56:39.882Z",
+    "at": "2026-09-22T09:11:37.676Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 7,
-      "duplicate": 13,
+      "returned": 23,
+      "kept": 14,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 4,
+      "accepted": 11,
+      "rejected": 3,
       "reasons": {
-        "hard_negative": 1,
         "no_offer_term": 1,
         "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2102316394935353793",
-          "author": "dunnbilly87734",
-          "searchJob": "maryland",
-          "text": "The Revolutionary Tribunal determined that one-third to one-half the population had to be eliminated to establish security for the French Republic. The massacres were carefully organized by the Revolutionary Committees, whose members were s"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2102318520550015045",
-          "author": "upscprelim",
-          "searchJob": "rice",
-          "text": "https://t.co/ATnUcVuj2A"
+          "postId": "2102324208600756400",
+          "author": "willeng63",
+          "searchJob": "temple",
+          "text": "https://t.co/YOuCCaXZxQ"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2102317378981830744",
-          "author": "ged_rice51522",
-          "searchJob": "rice",
-          "text": "@deepanshu_s @carlfhoward @KnotweedDogs They have 5 years to change that offer."
+          "postId": "2102323458998985001",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Cooch Behar, West Bengal: Chief Minister Suvendu Adhikari offered prayers at home to Madan Mohan Temple of Cooch Behar https://t.co/VWkRm5HSue"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2102310704082763995",
-          "author": "wayneri38608761",
-          "searchJob": "rice",
-          "text": "@jasminerosix Sorry to hear of your loss you don’t realise how much of your heart ❤️ they hold till they are gone they are always there and offer unconditional love 🙏🏻"
+          "postId": "2102319992230597029",
+          "author": "morpheu5watcher",
+          "searchJob": "north-carolina",
+          "text": "PAYPAL $PYPL TURNED DOWN $60.50 A SHARE IN CASH. THE MARKET NOW SAYS $52.62: Six Len5es, six different ways of reading a market, and this morning they keep landing on the same uncomfortable shape: almost nothing is both obviously good and o"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 11,
       "reasons": {
+        "bare_mention_requires_llm": 9,
         "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 2
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102324513853591661",
+          "author": "dnarnyahq",
+          "searchJob": "temple",
+          "text": "The Lion at the Head of Nubia – Apedemak, heard danger before the watchmen saw dust on the horizon. In the southern heartland of Kush, between Meroe, Naqa, and Musawwarat es-Sufra, Apedemak belonged to the land itself: lion-headed, strong o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102323641971101729",
+          "author": "dnarnyahq",
+          "searchJob": "temple",
+          "text": "The Queen of the Burning Spring – Sulis, ruled the water before Rome knew the road to Britain. Beneath a valley, the earth released water hot enough to steam in winter. Britons lowered coins, bracelets, and whispered names into it, believin"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2102318288407871545",
-          "author": "dunnbilly87734",
-          "searchJob": "maryland",
-          "text": "All historians acknowledge the ascendancy of the popes began in 308 A.D., when King Clovis of the Salian or Merovingian Franks (later France), won the decisive battle in the Catholic and Arian religious war, thereby settling the dispute in "
+          "postId": "2102321502787961035",
+          "author": "dnarnyahq",
+          "searchJob": "temple",
+          "text": "The Eight-Banner War God – Hachiman, entered legend not with a cry of conquest, but with the measured silence before an arrow leaves the string. The people remembered him as the divine spirit of Emperor Ōjin, a ruler linked with new crafts "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102315066934665581",
-          "author": "galitoske",
-          "searchJob": "rice",
-          "text": "Join us on 23rd &amp; 24th September and enjoy our special Galito’s We're turning 30 Offers! Grab 3 #FlameGrilled chicken pieces, and chips or rice for KSh 550 or 6 #FlameGrilled chicken pieces with your choice of side for KSh900! Come cele"
+          "postId": "2102320594788184436",
+          "author": "kumar2205pardip",
+          "searchJob": "temple",
+          "text": "@mohan101162 Congress plundered the temple money and donated to Cristian and Muslims. Hindus acted like they haven't see what was happened. instead they offered more fund and money to temples Hundi (offere kept in a huge vessel) Hindus shou"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102307778236953012",
-          "author": "tshwalab",
-          "searchJob": "rice",
-          "text": "@CBHeresy @CourageHabit Dubya literally went around speaking Spanish to court the ‘natural conservatives’ and appointed Colin Powell and then Condoleezza Rice as the first African American Secretary of State. It never works because the Dems"
+          "postId": "2102319858759131314",
+          "author": "zyphullen",
+          "searchJob": "temple",
+          "text": "Your words hit like an electric current through still water. What rose in the aftershock was this: A woman walks into a quiet temple one day and kneels at a low table. The monk enters without hurry. He sets down the kettle, the bowl, the sm"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102318126771691761",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "#WATCH | As part of Exercise Yudh Abhyas 2026, troops of the Indian and US Armies visited the historic Junagarh Fort in Bikaner and the revered Badrinath Temple in Uttarakhand, experiencing two distinct facets of India’s rich cultural and c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102317936266649937",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "Exercise Yudh Abhyas | As part of Exercise Yudh Abhyas 2026, troops of the Indian and US Armies visited the historic Junagarh Fort in Bikaner and the revered Badrinath Temple in Uttarakhand, experiencing two distinct facets of India’s rich "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102303788774105336",
+          "author": "siddhantvm",
+          "searchJob": "temple",
+          "text": "🇮🇳 🇺🇸 Exercise Yudh Abhyas As part of Exercise Yudh Abhyas 2026, troops of the Indian and US Armies visited the historic Junagarh Fort in Bikaner and the revered Badrinath Temple in Uttarakhand, experiencing two distinct facets of India"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102298632758218757",
+          "author": "jerryzz2",
+          "searchJob": "temple",
+          "text": "Psalm 27. 4 One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to enquire in his temple. 3 Though an host should encamp agai"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102305663338590215",
+          "author": "gochenouer_john",
+          "searchJob": "toledo",
+          "text": "Most people don't realize how open Musk has been about sharing his company's inventions. Tesla started the EV revolution in China by sharing patents - creating the EV competitors like Geely and BYD. He has offered his Full Self Driving soft"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102317557558444285",
+          "author": "jimcoffey84",
+          "searchJob": "troy",
+          "text": "@En35583701James 100%, the owners left him short, needed cover at both LB and CF and done nothing and now we are suffering in those areas. Even Troy Parrott at 20m would have offered us something more than Zirkzee"
         }
       ]
     },
@@ -153,11 +202,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-22T08:58:10.136Z"
+    "status rebuilt locally from current store on 2026-09-22T09:13:11.447Z"
   ]
 }
