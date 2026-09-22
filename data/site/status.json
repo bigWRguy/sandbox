@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T12:57:11.748Z",
+  "generatedAt": "2026-09-22T13:13:23.010Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-22T12:57:11.469Z",
+    "at": "2026-09-22T13:13:22.580Z",
     "jobsTotal": 162,
-    "sweptThisRun": 9,
-    "requests": 10,
-    "fullSweepCycles": 18
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7594630555555556,
-    "p95Hours": 1.5089319444444445,
-    "worstHours": 1.7614527777777778
+    "medianHours": 0.7701111111111111,
+    "p95Hours": 1.5308230555555555,
+    "worstHours": 1.7787269444444445
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 70,
+    "decided": 70,
     "complete": true
   },
   "pending": {
@@ -47,117 +47,389 @@
   "profileResolution": {
     "cached": 60
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1677,
+    "completeOffers": 1678,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-22T12:57:11.469Z",
-      "got": 20,
-      "new": 10,
-      "lag": 0.1
+      "at": "2026-09-22T13:13:22.579Z",
+      "got": 94,
+      "new": 70,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-22T12:56:34.303Z",
+    "at": "2026-09-22T13:11:46.479Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 10,
-      "duplicate": 10,
-      "tooOld": 0,
+      "returned": 94,
+      "kept": 70,
+      "duplicate": 22,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 1,
+      "accepted": 39,
+      "rejected": 31,
       "reasons": {
-        "hard_negative": 1
+        "no_fbs_school": 13,
+        "hard_negative": 7,
+        "no_offer_term": 8,
+        "non_fbs_offer_target": 3
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2102381318206115937",
+          "author": "kaizenrockets",
+          "searchJob": "toledo",
+          "text": "@moai102865 @RestoreNDurham So, NOBODY. You’re offer NOTHING. You’re just there to rain on parades. You have no fundamental analysis other than throwing your own faeces. Soap opera politics."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102371059047502179",
+          "author": "adhocaloof",
+          "searchJob": "troy",
+          "text": "@jtkeepsmore @money_cruncher FYI - $SGOV can offer the same liquidity as HYSA."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102361535846699407",
+          "author": "aginark",
+          "searchJob": "arkansas",
+          "text": "County fairs offer recognition for skills that might otherwise fly under the radar. Blue ribbons are points of pride for crafters, canners, artists &amp; those who raise small livestock. Thanks to @AR_Extension's LeeAnn Blevins for the imag"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102383732216811899",
+          "author": "iuphilanthropy",
+          "searchJob": "florida",
+          "text": "@ThePattersonFdn Fellowship is a 2+ year immersive experience in Sarasota, Florida that offers a full-time salary, generous benefits, and professional development support. Learn more and apply by September 30: https://t.co/FzKSgurYyr https:"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102375005376204876",
+          "author": "marinerdaddy",
+          "searchJob": "florida",
+          "text": "@PatUnleashed Clancy had been offered asylum in Florida by DeSantis."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102371705775591584",
+          "author": "flasprtscardhvn",
+          "searchJob": "florida",
+          "text": "@tm1515152005 I have not really run into that.. Got so way low offers on stuff and usually counter or ignore if way way off base"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102359326392258989",
+          "author": "thevillagesfl4u",
+          "searchJob": "florida",
+          "text": "An agent details a real estate offer gone wrong. What seemed like a good deal near $400k, with a rehabbed house and included furniture, quickly soured after the initial submission. #RealEstate #AgentStory https://t.co/9NKg3cG0uu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102376698704535987",
+          "author": "ahlbruins",
+          "searchJob": "ucla",
+          "text": "Preseason Fanfest is only 4 days away! Saturday at 7:05pm vs SPR 🎟️ 2-for-1 Ticket Offer: https://t.co/URMhyHuIao * * PREGAME * * ⭐️ Gold Rush Launch Party at Trinity Brewhouse ⭐️ Player Meet & Greet on Concourse ⭐️ Power Hour Concessions "
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2102374670733349028",
-          "author": "logancarter962",
-          "searchJob": "south-florida",
-          "text": "$WBD: On Monday, attorneys general from 12 states reached a settlement with Paramount and Skydance. Terms include oversight of CBS/CNN by an independent news committee, a commitment to release at least 30–32 theatrical films annually for fi"
+          "postId": "2102384581601079532",
+          "author": "perceptiondaily",
+          "searchJob": "washington",
+          "text": "🛡️ RIYADH — Rubio holds the Saudi shield while offering Tehran the door. 📌 LOOK CLOSER: A public US defense commitment to Riyadh mid-UNGA is a bracketing move: it tells Tehran that any deal cannot come at Saudi Arabia's expense. Araghchi "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102384005840621919",
+          "author": "soonersblog",
+          "searchJob": "washington",
+          "text": "https://t.co/kiQGHlueAo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102377098962694601",
+          "author": "jmitchellnews",
+          "searchJob": "washington",
+          "text": "https://t.co/7jghhwwcYM"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102376556492390441",
+          "author": "hewadpress",
+          "searchJob": "washington",
+          "text": "🔴U.S. and Iran Signal Opening for UN Talks as War and Hormuz Crisis Continue 📍NEW YORK | September 22, 2026 | HewadPress:— The United States and Iran have signaled a possible diplomatic opening at the United Nations, even as their months-"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102375849932546491",
+          "author": "consulting4502",
+          "searchJob": "washington",
+          "text": "🚨🇺🇸🇮🇷 IN NEW YORK, THE DOOR OPENS A CRACK — BUT IRAN AND THE UNITED STATES STILL DO NOT WANT TO NEGOTIATE THE SAME THING Washington has issued its first public response to Iran’s offer. Secretary of State Marco Rubio says the United St"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102375617891008664",
+          "author": "hwa006",
+          "searchJob": "washington",
+          "text": "🌍 Morning Macro — Tue Sep 22 Hawkish central banks squeeze the yen, oil plunges on Iran peace hopes, and a Trump-Xi summit looms Thursday. Today's macro setup 👇 1/ Oil is the story: WTI tumbled ~3% to ~$93/bbl, on pace for a 5th straight "
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2102385133957333199",
+          "author": "jaylin_adair1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 6th offer from Kansas Wesleyan University! 🙏🏽💜 Thank you Coach for believing in me and giving me this opportunity. All glory to God! 🐺🏈 #RollYotes #Blessed #6thOffer @TK2_Valid @cjenks1279 @AL_Recruiting @PPRecrui"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102384914771398844",
+          "author": "lincolnw66",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @CoachTyMcGowan I’m blessed to receive my First offer to play football at the next level from @WCtitansFB❗️ #GoTitans #AGTG @CoachDFiles @HollidaysburgF @CoachHDeLattre https://t.co/BfPn3xzDlm"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102382426073014672",
+          "author": "jedidiahm76",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG After a Great Conversation With @CoachDNew_ I am blessed to receive my 7th offer from @sbubearcats_fb 🪓🪓 @CoachOFagan @CoachMbu @CSHSPanthersFB @Coach_N_Jones @sixstarfootball @coachag713 @Coach_MannyR https://t.co/ipoFCNqyo0"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102378995354648747",
+          "author": "yochrixs_g",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invitation to the Navy National Combine. Grateful for the opportunity to compete against some of the top underclassmen in the country. Thank you to the @NationalComb1ne and @AABonNBC for the recognition. 🏈. https://t."
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2102376722310340614",
+          "author": "lawrencelevine_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "#AGTG Early morning blessing! Blessed to receive my first offer from Culver-Stockton College!! @CSCwildcatsFB @CoachCutshaw @CoachAMiller @CoachAWilson10 @CHSKnightsFB @RecruitGeorgia https://t.co/R150J6Jj8G"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2102372720168321232",
+          "author": "nolancaliendo",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a D1 offer from Bethune-Cookman University! #HailWildcats @PFitzB @14twalk @BCUGridiron @CoachSquatty @TheMainlandHSFB @LevoyLori https://t.co/gWLe4y4Bjc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102366194388926892",
+          "author": "corbinjohnson64",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my third offer from @CSCwildcatsFB! Truly a blessing and I can not wait to learn more about Culver Stockton! @CoachCutshaw @GDFMFB @CoachFerri43 https://t.co/dvCWwDL1JW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102364449340576210",
+          "author": "dtann22",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After an amazing talk with @CoachCutshaw i am blessed to receive my 2nd offer! @CoachJWoodard @kelbodean @THSFootballGA https://t.co/ukWjHjqkDC"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2102381124076941345",
+          "author": "clemsontigernet",
+          "searchJob": "clemson",
+          "text": "#Clemson commit announces offer from top ranked SEC school https://t.co/YUFZUgHw93"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102380486647517249",
+          "author": "av8realty",
+          "searchJob": "houston",
+          "text": "Hangar | Hangar 80×26 ft | 5352 sqft | $14500 | West Houston (IWS) | 3953 ft | Paved | Lighted | fuel The first floor of Hangar A7 at West Houston Airport (KIWS) offers approximately 10,700 SF of versatile aviation space, including 5,357 SF"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 9,
+      "accepted": 1,
+      "rejected": 38,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 1
+        "school_not_resolved_confidently": 8,
+        "multiple_resolved_schools": 6,
+        "bare_mention_requires_llm": 19,
+        "reporter_missing_class_year": 3,
+        "reporter_missing_player_name": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2102373536052502866",
-          "author": "jakewsimons",
-          "searchJob": "air-force",
-          "text": "Things have got to be bad if Andy Burnham is deploying the RAF. That was my first thought upon learning that Britain is sending air-to-air refuelling capabilities to the Saudis to help them battle the Houthis in Yemen. Admittedly, one addit"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102381197590466710",
+          "author": "journalist_jen",
+          "searchJob": "toledo",
+          "text": "1. $SPCX (Space Exploration Technologies / SpaceX) Business: Three segments — Space (reusable rockets/launches), Connectivity (Starlink), AI (xAI/Grok + compute infrastructure). IPO’d June 2026. Market cap ~$2.06T. Revenue: TTM ~$23.0B (+12"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2102366550112264562",
-          "author": "decilizer",
-          "searchJob": "south-florida",
-          "text": "$ZEC looks refreshed after a strong bounce from support, with the recovery creating a noticeably healthier structure. Bulls are beginning to regain control, while improving momentum suggests the move may not be finished yet. Confidence is r"
+          "postId": "2102376722012438562",
+          "author": "zayhall__",
+          "searchJob": "toledo",
+          "text": "1. $SPCX (Space Exploration Technologies / SpaceX) Business: Three segments — Space (reusable rockets/launches), Connectivity (Starlink), AI (xAI/Grok + compute infrastructure). IPO'd June 2026. Market cap ~$2.06T. Revenue: TTM ~$23.0B (+12"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102372345906114948",
+          "author": "colinschack1",
+          "searchJob": "toledo",
+          "text": "1. $SPCX (Space Exploration Technologies / SpaceX) Business: Three segments — Space (reusable rockets/launches), Connectivity (Starlink), AI (xAI/Grok + compute infrastructure). IPO'd June 2026. Market cap ~$2.06T. Revenue: TTM ~$23.0B (+12"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102371641854710200",
+          "author": "keldaking",
+          "searchJob": "toledo",
+          "text": "1. $SPCX (Space Exploration Technologies / SpaceX) Business: Three segments — Space (reusable rockets/launches), Connectivity (Starlink), AI (xAI/Grok + compute infrastructure). IPO’d June 2026. Market cap ~$2.06T. Revenue: TTM ~$23.0B (+12"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102369129298547057",
+          "author": "hapl3ss_",
+          "searchJob": "toledo",
+          "text": "@SportsStatsFan The worst draft decision is actually the Rockets refusing the Blazer’s offer for Drexler and the Second pick for Sampson. Would’ve had MJ, Clyde and Hakeem all on one roster."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102367440198136034",
+          "author": "jamescal2026",
+          "searchJob": "toledo",
+          "text": "1. $SPCX (Space Exploration Technologies / SpaceX) Business: Three segments — Space (reusable rockets/launches), Connectivity (Starlink), AI (xAI/Grok + compute infrastructure). IPO’d June 2026. Market cap ~$2.06T. Revenue: TTM ~$23.0B (+12"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102355552785539374",
+          "author": "ryanmil64923432",
+          "searchJob": "toledo",
+          "text": "747 uses about 7.7 billion btu per flight. Falcon 9 uses about 4 billion btu. 10 hours compared to 3 minutes of released energy. Jets breath in atmospheric oxygen. Rockets use liquid oxygen which represents about 70-80% of the total lift we"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2102381144905838940",
+          "author": "arthur_win8",
+          "searchJob": "florida",
+          "text": "ROBOTAXI Updated 2026-09-22 NEW TODAY - Testers (Sep 22 CernBasher): another +28 vehicles today — 19 Model Y + 9 Cybercab (tester fleet-add / tracking signal, not Official). - Folder totals: Robotaxi 233 (+1) + Fleet 4 (0 new) → 237 unique "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102380218077823007",
-          "author": "cloudwitnesses",
-          "searchJob": "temple",
-          "text": "@bobkauff @1True_American_ So Love full fills ALL \"IT IS WRITTEN\" must be in the heart AUTHOR GOD Lifted up RISEN Ascension on earth as in Heaven Ea person a Temple Dedicated² Him Holy The Marriage of God n Man NOW IS by Love both offered F"
+          "postId": "2102377749491200284",
+          "author": "mattyoder_yoder",
+          "searchJob": "florida",
+          "text": "🏡 Pool home in Clermont under $400K. 1390 Willow Crest Dr offers 3 beds, 2 baths, a heated saltwater pool, screened lanai + quarter-acre corner lot. Offered at $394,900. See potential? Bring your offer. 📲 478-955-7835 #ClermontFL #Clermon"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102380183747445024",
-          "author": "kubotabrian",
-          "searchJob": "temple",
-          "text": "2 1 In the seventh month, in the one and twentieth day of the month, came the word of Jehovah by Haggai the prophet, saying, 2 Speak now to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Jehozadak, the high pri"
+          "postId": "2102377293922361678",
+          "author": "jcmac3",
+          "searchJob": "florida",
+          "text": "@KennedyFaith__ Donald dodged every opportunity to debate during the gop primaries. Now, he offers ridiculous debate criteria, Jolly calls BS and now Byron and your propaganda machine are crying. The Florida gop is in big trouble. Just chan"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102379567721611662",
-          "author": "saltyseabee76",
-          "searchJob": "temple",
-          "text": "You do realize that Hebrews are the name of people of Israel, right? You’re also aware they offered sacrifices, right? You do realize these verses speak of Christ as the High Priest, right? You also realize in Hebrews 10:26 says there no lo"
+          "postId": "2102383725753274427",
+          "author": "tlockty",
+          "searchJob": "usc",
+          "text": "Base Run: Examination of @dantawfik on Thymulin, Inflammaging, and Checkpoint Resistance Author: Grok (xAI) Date: September 22, 2026 Version: 2.0 – New Base Run (prior increment menus closed) Reference: Daniel Tawfik (@dantawfik ), post 210"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102378121639170167",
-          "author": "akshaygandhi",
-          "searchJob": "temple",
-          "text": "Whats is BAPS? Bochasanwasi Akshar Purushottam Swaminarayan Sanstha (BAPS) is a sub-sect of the Swaminarayan Sampradaya. What do they believe? They consider Gunatitanand Swami is considered the personal incarnation of Aksharbrahman (the ete"
+          "postId": "2102383566323679258",
+          "author": "tlockty",
+          "searchJob": "usc",
+          "text": "Base Run: Examination of @dantawfik on Thymulin, Inflammaging, and Checkpoint Resistance Author: Grok (xAI) Date: September 22, 2026 Version: 2.0 – New Base Run (prior increment menus closed) Reference: Daniel Tawfik (@dantawfik ), post 210"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102377675730076060",
-          "author": "krsna_is_life",
-          "searchJob": "temple",
-          "text": "HOW TO CELEBRATE VAMANA DWADASHI? - Chant more rounds of Hare Krishna Mahamantra - Read Gita &amp; SB Canto 8 chapters 17-22. - Visit temple. Donate some money. - Do seva. - Worship Shri Krishna/ Vamandev with flowers and incense. - Offer t"
+          "postId": "2102384627658953149",
+          "author": "v_shakthi",
+          "searchJob": "washington",
+          "text": "The US Federal Register’s document search briefly offered a Chinese AI model as a search option. A commodity portfolio manager posted a screenshot of the official journal’s interface. Under “search mode,” the default was semantic search. Tw"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2102382630700290088",
+          "author": "2020_patriot_20",
+          "searchJob": "washington",
+          "text": "THE PRESSURE IS TAKING ITS TOLL ON IRAN'S LEADERS. Iran has offered to reopen the Strait of Hormuz within seven days if the US takes initial steps toward easing military pressure, a senior Iranian government official told Kyodo News on Tues"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102365794860708022",
-          "author": "myicgckt",
-          "searchJob": "temple",
-          "text": "Every job or goal comes with unpleasant tasks and awkward moments, whether it’s maintaining animals, equipment, or employees. Yet, they all offer irreplaceable benefits. Proverbs 14 #ICGCKingsTempleTakoradi #WeAreICGC #ChapelSystem Otabil o"
+          "postId": "2102382397287473336",
+          "author": "shanaka86",
+          "searchJob": "washington",
+          "text": "On 22nd September, US oil for November fell below $91. A tanker allowed through Hormuz could still lose its hull insurance for paying the passage toll, if its policy contains the Lloyd's Market Association's transit fee clause. Reuters' 11."
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2102381440277102961",
+          "author": "2020_patriot_20",
+          "searchJob": "washington",
+          "text": "And that is a LIE ... Iran has offered to reopen the Strait of Hormuz within seven days if the US takes initial steps toward easing military pressure, a senior Iranian government official told Kyodo News on Tuesday, as part of Tehran's ramp"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2102381311541272614",
+          "author": "2020_patriot_20",
+          "searchJob": "washington",
+          "text": "There is a report that Iran has offered to reopen the SOH today so your entire post is complete bullshit. The pressure is working and working well dumbass. Here is the report.... Iran has offered to reopen the Strait of Hormuz within seven "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102360241618956650",
-          "author": "bobkauff",
-          "searchJob": "temple",
-          "text": "While pseudepigraphal and Second Temple writings carry zero binding, canonical authority for establishing divine doctrine, they are not without utility. For a Berean truth seeker, ancient historical and ethical texts—when strictly subordina"
+          "postId": "2102379804565872977",
+          "author": "oppatel_sp",
+          "searchJob": "washington",
+          "text": "A “tilt” implies sentiment. This looks more like leverage: India still buys discounted Russian crude at scale, Pakistan still offers a useful channel to Tehran. Nixon used Pakistan to open China; Washington is now using whoever can deliver "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2102379716707807704",
+          "author": "armaanzinvest",
+          "searchJob": "washington",
+          "text": "Iran has offered to reopen the Strait of Hormuz within one week if Washington begins taking measures to lift its blockade of Iranian ports. $OIL Oil lowest level since September 2nd. That’s a start, keep it going. Also $SOFI +6% after they "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102379030674608524",
+          "author": "ali_yunnis11",
+          "searchJob": "washington",
+          "text": "Hii, I got 3 spare tickets to Olivia Rodrigo concert for (Sat, Oct 03) at Capital One Arena • Washington, DC Giving them for face value or best offer DM IF INTERESTED wts wtb iso wtt."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2102378412769779736",
+          "author": "ts199052",
+          "searchJob": "washington",
+          "text": "Let's not forget about Obamacare that messed everything up. Which they knew would case this. Obama even offered an apology. Rep Ro Khanna represents the richest district in America. Why has he not done anything about tech taxes especially w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102378334734942554",
+          "author": "jeanjacquesdes7",
+          "searchJob": "washington",
+          "text": "DHS has publicly offered Haitian TPS professionals (doctors, nurses, lawyers, engineers…) $3K to leave the 🇺🇸 &amp; “rebuild” Haiti. Meanwhile, 🇭🇹’s cash-strapped government is paying a Trump ally $65K/month to lobby Washington, on top "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2102377699629011225",
+          "author": "buyhighx",
+          "searchJob": "washington",
+          "text": "@Muse $META ☀️ Morning Market Brief — Tuesday, Sept 22 Pre-market - Futures roughly flat to slightly higher: Dow +0.2%, S&P 500 ~flat, Nasdaq 100 ~unchanged after yesterday's AI rally - S&P 500 enters the day within 0.4% of its Aug 13 recor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102377478803087597",
+          "author": "chaoslensx",
+          "searchJob": "washington",
+          "text": "Iran says Hormuz can reopen in seven days. The catch is Washington moves first. A senior official told wires on Tuesday that if the US eases military pressure and lifts the blockade on Iranian ports, the strait can be open within a week. Te"
         }
       ]
     },
@@ -165,20 +437,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 9,
-      "failed": 1,
-      "requests": 10,
-      "errors": [
-        "toledo: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 38,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-22T12:57:11.749Z"
+    "status rebuilt locally from current store on 2026-09-22T13:13:23.012Z"
   ]
 }
