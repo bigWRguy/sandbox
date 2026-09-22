@@ -8,7 +8,7 @@ on:
         required: true
         default: block
         type: choice
-        options: [block, netlify, warp]
+        options: [block, netlify, warp, netlify-unlink-git]
 
 jobs:
   probe:
@@ -44,3 +44,10 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: node scripts/netlify-usage.mjs
+
+      - name: disconnect this site from git-triggered builds
+        if: inputs.probe == 'netlify-unlink-git'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: node scripts/netlify-unlink-git.mjs
