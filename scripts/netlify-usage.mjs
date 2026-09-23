@@ -36,7 +36,10 @@ for (const site of sites) {
   let deploys = [];
   try { deploys = await api(`/sites/${site.id}/deploys?per_page=200`); } catch { continue; }
   const mark = site.id === TARGET_SITE_ID ? '  <-- THIS IS OFFERWIRE (NETLIFY_SITE_ID)' : '';
-  if (mark) console.log(`  site id ${site.id}  url ${site.url}  custom_domain ${site.custom_domain || '-'}${mark}`);
+  if (mark) {
+    console.log(`  site id ${site.id}  url ${site.url}  custom_domain ${site.custom_domain || '-'}${mark}`);
+    console.log(`  stop_builds=${site.build_settings?.stop_builds}  site.state=${site.state}  processing_settings=${JSON.stringify(site.processing_settings || {})}`);
+  }
   const month = deploys.filter((d) => new Date(d.created_at) >= MONTH_START);
   const built = month.filter((d) => d.build_id);
   const skipped = built.filter((d) => d.state === 'skipped' || d.skipped);
