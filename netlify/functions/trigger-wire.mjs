@@ -42,9 +42,8 @@ export async function dispatchWire({
   return { ok: true, dispatched: true };
 }
 
-// HARD KILL 2026-09-23: this function was firing every 15 min and dispatching
-// wire.yml on GitHub, which triggered git-linked Netlify build attempts that
-// billed real money even when instantly canceled. Schedule removed so Netlify
-// stops invoking this at all. wire.yml itself now also refuses to run without
-// an explicit confirm_kill_switch=YES input, so this is inert even if called.
-export default async () => Response.json({ ok: true, disabled: 'kill switch 2026-09-23' });
+export default async () => Response.json(await dispatchWire());
+
+export const config = {
+  schedule: '10,25,40,55 * * * *',
+};
