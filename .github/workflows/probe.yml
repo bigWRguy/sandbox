@@ -8,7 +8,7 @@ on:
         required: true
         default: block
         type: choice
-        options: [block, netlify, warp, netlify-unlink-git]
+        options: [block, netlify, warp, netlify-unlink-git, netlify-deploy-once]
 
 jobs:
   probe:
@@ -23,7 +23,7 @@ jobs:
       - run: npm ci --no-audit --no-fund
 
       - name: install browser
-        if: inputs.probe != 'netlify'
+        if: inputs.probe != 'netlify' && inputs.probe != 'netlify-deploy-once'
         run: npx playwright install --with-deps chromium
 
       - name: raise a WARP tunnel
@@ -31,7 +31,7 @@ jobs:
         run: bash scripts/warp-up.sh
 
       - name: is the block the address or the account?
-        if: inputs.probe != 'netlify'
+        if: inputs.probe != 'netlify' && inputs.probe != 'netlify-deploy-once'
         env:
           X_SESSIONS: ${{ secrets.X_SESSIONS }}
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
@@ -51,3 +51,15 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: node scripts/netlify-unlink-git.mjs
+
+      # 2026-09-23: single manual publish only. Every production deploy costs
+      # 15 credits on Netlify's current pricing (confirmed from their own
+      # docs) — this is NOT run automatically by anything. It exists only so
+      # a human can deliberately push a rare page-shell change (like today's
+      # fix that made the page fetch data from GitHub instead of Netlify).
+      - name: one-time manual publish (costs ~15 credits, run deliberately only)
+        if: inputs.probe == 'netlify-deploy-once'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: npx --yes netlify-cli deploy --prod --dir site --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
