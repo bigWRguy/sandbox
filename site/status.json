@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:43:43.367Z",
+  "generatedAt": "2026-09-23T09:58:02.714Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-23T09:43:43.120Z",
+    "at": "2026-09-23T09:58:02.499Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7879277777777778,
-    "p95Hours": 1.5271305555555557,
-    "worstHours": 1.5271305555555557
+    "medianHours": 0.7756266666666667,
+    "p95Hours": 1.5243430555555555,
+    "worstHours": 1.5243433333333334
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 17,
+    "decided": 17,
     "complete": true
   },
   "pending": {
@@ -55,89 +55,159 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-23T09:43:43.119Z",
-      "got": 10,
-      "new": 7,
-      "lag": 0.1
+      "at": "2026-09-23T09:58:02.499Z",
+      "got": 26,
+      "new": 17,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-23T09:42:12.566Z",
+    "at": "2026-09-23T09:56:34.046Z",
     "mode": "live",
     "collection": {
-      "returned": 10,
-      "kept": 7,
-      "duplicate": 3,
+      "returned": 26,
+      "kept": 17,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 3,
+      "accepted": 11,
+      "rejected": 6,
       "reasons": {
-        "no_fbs_school": 2,
+        "hard_negative": 1,
+        "no_fbs_school": 4,
         "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2102698087558820282",
+          "author": "chainman1965",
+          "searchJob": "temple",
+          "text": "There have been a man name Jesus that was a Muslim. There was a man named Jesus that played baseball in the 80s Totally Impossible: Bible vs. Quran Why They Are Not The Same People Jesus Bible: The eternal, uncreated Son of God and God Inca"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2102693477863797042",
-          "author": "mrrooterweirton",
-          "searchJob": "ohio",
-          "text": "Trenchless Sewer Repai Are you worried that your sewer line is in bad condition? Get the help you need by calling Mr. Rooter Plumbing of Ohio Valley. Our certified plumbers are excited to offer quality residential and commercial sewer line "
+          "postId": "2102676093375529460",
+          "author": "pratidintime",
+          "searchJob": "temple",
+          "text": "Tense situation at the Kamakhya Temple, as more than 10,000 devotees from the Koch-Rajbongshi community gathered at the shrine. The group had arrived under the leadership of West Bengal Rajya Sabha MP Ananta Maharaj. A conflict broke out wh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102687881835815065",
+          "author": "bmnation",
+          "searchJob": "kentucky",
+          "text": "This one was taken by Trent Taylor in Kentucky during their opener 🏹 Trent shared his words with us below ⬇️ “So I found this buck a couple weeks ago on my grandpa’s farm. It’s been several seasons since the last time a deer like this was "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102698540573020260",
+          "author": "jameslatti40310",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer to @ALRaysFootball thanks to @TheRedZoneCoach💯 #agtg @CoachJay90 @CoachB189 @PrepRedzoneFL @CenFLAPreps @PrepRedzone https://t.co/GGzGPSsCuU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2102684477126295809",
+          "author": "prestige_mag",
+          "searchJob": "coastal-carolina",
+          "text": "For celebrations, private gatherings and business occasions, Regent Bali Canggu offers a selection of elegant event spaces, including Canggu’s only ballroom. #PartnerPost Read more here https://t.co/3XwUuP51OH https://t.co/4x3duJFjO8"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2102673835061362691",
-          "author": "nycjewishnurse",
-          "searchJob": "buffalo",
-          "text": "https://t.co/dQuxI0KIcc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2102685426423394782",
-          "author": "faith49ersgamer",
-          "searchJob": "charlotte",
-          "text": "A few nitpicks here. The open world areas are one of the weaker aspects that often lead you to a dead end. Side missions offer good rewards, but they may feel repetitive after a while. The camera can get stuck against walls during fights a "
+          "postId": "2102677262805979383",
+          "author": "carlothecurator",
+          "searchJob": "coastal-carolina",
+          "text": "This week’s Inside the Artwork looks at five works instead of one. We slowed down @bagdelete’s fast GIFs, frame by frame, to find the animals hidden in their landscapes and understand the ideas behind his latest collection, animals on @ninf"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 11
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102693818319720458",
-          "author": "jackstr42679640",
-          "searchJob": "new-mexico",
-          "text": "🗿 IN 1933, A 90-TON STONE BEARING THE TEN COMMANDMENTS WAS FOUND IN NEW MEXICO. And that’s where things get strange. The inscriptions appear to be in ancient Hebrew, while research has reportedly dated them to roughly 500–2,000 years ago. "
+          "postId": "2102696988370493546",
+          "author": "anbezhil12",
+          "searchJob": "rice",
+          "text": "The performer and the other family members must take a head bath and be ready. The performer must wear a clean/new dhoti without a shirt and a ring of Darbha grass on his finger. The Darbha or Kusha grass is said to be highly sacred and inv"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102691795813773489",
-          "author": "newpositively",
-          "searchJob": "new-mexico",
-          "text": "Meals on Wheels and New Mexico Gas, offer no-cost weatherizing before winter - KOB 4 https://t.co/8PkeXnx2oQ"
+          "postId": "2102693180705481176",
+          "author": "dezildezzzz",
+          "searchJob": "rice",
+          "text": "We also need to understand the importance of Lewis-Skelly, there are games whereby it should be a MF-3 of all MLS/Bruno/Rice when Odegaard goes off, it shouldn't automatically mean whenever Ode goes off we go straight to the SS types at 10 "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2102691765572563088",
-          "author": "jazzzmaestro",
-          "searchJob": "buffalo",
-          "text": "Thank you for laying this out so clearly. I want to engage each point seriously, because these are good questions and they deserve real answers, not dismissal. 1. Leviticus 5:11-13 (flour offering for sin) You're right that the text permits"
+          "postId": "2102675799644266881",
+          "author": "akintollgate",
+          "searchJob": "rice",
+          "text": "⭐️ Business of the Day Spotlight ⭐️ Today, we shine the spotlight on A.A COCKTAIL &amp; CHOPS, a food and drinks brand bringing great taste, refreshing drinks and beautiful presentation to every occasion. They offer cocktails, mocktails, sm"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2102678330000466426",
-          "author": "calvzynist",
-          "searchJob": "buffalo",
-          "text": "“For the choir director. A Psalm of David. When Nathan the prophet came to him, after he had gone in to Bathsheba. Be gracious to me, O God, according to Your lovingkindness; According to the abundance of Your compassion blot out my transgr"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102675685839896659",
+          "author": "chinaspic",
+          "searchJob": "rice",
+          "text": "The fifth Agriculture Support Week ran from September 17th to 23rd, bringing together quality agricultural products from across the country while supporting local specialty industries and helping farmers increase their incomes. SPIC has sel"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102673399529062734",
+          "author": "kameme101",
+          "searchJob": "rice",
+          "text": "Jamii Rice Millers mari guku Ihura Stadium makureheire offers utangitigithia, KIRO 7 CIA MUCEERE na ciringi ngiri imwe. #SawaMilkingJelly #FarmersClinic #SawaMilkingJellyInIhura https://t.co/kLGJFcSrK2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102692826173800959",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "PHOTO | UP CM Yogi Adityanath offered prayers at Gorakhnath Temple. (Source: Third Party) https://t.co/W9ZZqHUyWu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102689177087381553",
+          "author": "deccanchronicle",
+          "searchJob": "temple",
+          "text": "Nara Bhuvaneshwari offered prayers at the Lord Venkateswara Temple in Tirumala during the Srivari Brahmotsavams, joining devotees in the grand annual celebrations. #NaraBhuvaneshwari #Tirumala #SrivariBrahmotsavams #LordVenkateswara #Tirupa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102686722563686496",
+          "author": "yahuah_saves12",
+          "searchJob": "temple",
+          "text": "@Anmold2uv Sending Prayers: Greeks believed that the smoke from these candles carried their wishes and prayers up to the gods and goddesses in the celestial realm. The Ritual: These cakes were often offered at the temple of Artemis on the s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102677508663673139",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Andhra Pradesh CM Chandrababu Naidu's wife Nara Bhuvaneswari offers prayers at Lord Venkateshwara temple in Tirupati on the occasion of Srivari Brahmotsavams. https://t.co/6gh2OMyrl9"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102673428973285634",
+          "author": "gujaratfirst",
+          "searchJob": "temple",
+          "text": "Ambaji Temple: Khoraj Padyatra Sangh Hoists Sacred Flag, Siddhi Group Chairman Offers 20 KG Silver Ambaji: Khoraj ગામના પદયાત્રી સંઘે Ambaji માં શ્રદ્ધાપૂર્વક ધજા ચઢાવી | Gujarat First મા અંબાના ચરણોમાં સિદ્ધિ ગ્રુપના ચેરમેન મુકેશભાઈ પટેલ 2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2102672731003105435",
+          "author": "orthodox_33ad",
+          "searchJob": "temple",
+          "text": "🔸 September 23 - The Conception of Saint John the Forerunner 🔸 Today, we commemorate the Conception of the Glorious and Honourable Prophet, Saint John the Forerunner. The Holy Prophet Malachi prophesied that before the Messiah’s birth, Hi"
         }
       ]
     },
@@ -152,11 +222,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-23T09:43:43.368Z"
+    "status rebuilt locally from current store on 2026-09-23T09:58:02.714Z"
   ]
 }
