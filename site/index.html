@@ -221,8 +221,8 @@ async function load(){
   try{
     var t=Date.now();
     var results=await Promise.all([
-      fetch('wire.json?t='+t,{cache:'no-store'}),
-      fetch('status.json?t='+t,{cache:'no-store'})
+      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/wire.json?t='+t,{cache:'no-store'}),
+      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/status.json?t='+t,{cache:'no-store'})
     ]);
     var wr=results[0],sr=results[1];
     if(!wr.ok)throw new Error('wire '+wr.status);

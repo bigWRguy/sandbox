@@ -58,16 +58,6 @@ jobs:
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
           fi
-      - name: deploy directly to Netlify
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        run: |
-          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
-            echo "::warning::Netlify deploy is not configured. Add NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID, or link the repository in Netlify."
-            exit 0
-          fi
-          npx --yes netlify-cli deploy --prod --dir site --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
       - name: verify collector
         if: steps.backfill.outcome == 'failure'
         run: |
