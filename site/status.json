@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T20:26:46.327Z",
+  "generatedAt": "2026-09-24T20:43:28.518Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-24T20:26:46.025Z",
+    "at": "2026-09-24T20:43:28.138Z",
     "jobsTotal": 162,
-    "sweptThisRun": 1,
-    "requests": 3,
-    "fullSweepCycles": 162
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,60 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "arkansas-state",
-      "hours": 2.2
-    },
-    {
-      "id": "army",
-      "hours": 2.2
-    },
-    {
-      "id": "ball-state",
-      "hours": 2.2
-    },
-    {
-      "id": "georgia-southern",
-      "hours": 2.2
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.2
-    },
-    {
-      "id": "jacksonville-state",
-      "hours": 2.2
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.2
-    },
-    {
-      "id": "memphis",
-      "hours": 2.2
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.2
-    },
-    {
-      "id": "middle-tennessee",
-      "hours": 2.2
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.2
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2132122222222221,
-    "p95Hours": 2.241315277777778,
-    "worstHours": 2.241315277777778
+    "medianHours": 1.251581388888889,
+    "p95Hours": 2.0233777777777777,
+    "worstHours": 2.0233777777777777
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 77,
+    "decided": 77,
     "complete": true
   },
   "pending": {
@@ -92,181 +47,388 @@
   "profileResolution": {
     "cached": 61
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 1803,
+    "completeOffers": 1805,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-24T20:26:46.025Z",
-      "got": 22,
-      "new": 19,
-      "lag": 0.34
+      "at": "2026-09-24T20:43:28.138Z",
+      "got": 122,
+      "new": 77,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-24T20:26:35.897Z",
+    "at": "2026-09-24T20:41:55.936Z",
     "mode": "live",
     "collection": {
-      "returned": 22,
-      "kept": 19,
-      "duplicate": 3,
-      "tooOld": 0,
+      "returned": 122,
+      "kept": 77,
+      "duplicate": 43,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 8,
+      "accepted": 52,
+      "rejected": 25,
       "reasons": {
-        "no_offer_term": 8
+        "no_fbs_school": 12,
+        "no_offer_term": 8,
+        "hard_negative": 4,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2103212930661539963",
-          "author": "ocalastarbanner",
-          "searchJob": "arkansas-state",
-          "text": "Florida Power &amp; Light this week announced a one-time credit on electric bills to senior customers who qualify for assistance through a state program. https://t.co/Gpxc2y4Cox"
+          "reason": "no_fbs_school",
+          "postId": "2103223205804814397",
+          "author": "hawaii_re_bust",
+          "searchJob": "hawaii",
+          "text": "Home Sellers Are Offering Record Concessions As Housing Market Tips Toward Buyers \"Sellers offered concessions and dropped prices at record rates in August in a bid to boost interest in home sales, according to a new report.\" https://t.co/2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103218957113323968",
+          "author": "schulz_research",
+          "searchJob": "new-mexico",
+          "text": "$ORCL $NBDA $BE Treasury tripled the cap on its 20-to-30-year buybacks, from $2 billion to $6 billion. On Thursday dealers offered $10.47 billion and Treasury took $4.08 billion, buying 12 of 35 eligible bonds. On Aug 18, under the old $2 b"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103212908884750713",
-          "author": "theledger",
-          "searchJob": "arkansas-state",
-          "text": "Florida Power &amp; Light this week announced a one-time credit on electric bills to senior customers who qualify for assistance through a state program. https://t.co/CMrlhG4xDA"
+          "postId": "2103214987405934712",
+          "author": "melhpine",
+          "searchJob": "new-mexico",
+          "text": "Some AI assistants, used for research, hacked to find answers https://t.co/wlLIVM6loo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103207227222057356",
+          "author": "theirishwolfie",
+          "searchJob": "notre-dame",
+          "text": "@ChaseDeMoor I think mans is running his event because he is too scared for real men to fight? 🤔 I offered to fight legit for free, Mans said yes and still didnt send location 😂"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103217844460663142",
+          "author": "codycarpentier",
+          "searchJob": "arkansas",
+          "text": "NEW: Texas offered 2029 Star WR Braelyn Allen after last weekend's UTSA game Allen now holds offers from Texas, Texas A&amp;M, Arkansas, Ole Miss, SMU, Texas Tech, Miami, TCU &amp; Baylor. Read: https://t.co/dCfKsZ4alb https://t.co/9GLgvNQI"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103222065931468983",
+          "author": "gybcircuit_",
+          "searchJob": "florida",
+          "text": "Class of 2029 (GYBC Alum) Sophie Konrad holds offers from South Alabama, Florida A&amp;M and more. https://t.co/1JdCqMd47y"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103212907987144969",
-          "author": "jaxdotcom",
-          "searchJob": "arkansas-state",
-          "text": "Florida Power &amp; Light this week announced a one-time credit on electric bills to senior customers who qualify for assistance through a state program. https://t.co/z5nBQpkgLj"
+          "postId": "2103209153569427952",
+          "author": "loopingcloud",
+          "searchJob": "florida",
+          "text": "https://t.co/6bds1dMmcW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103206798756864381",
+          "author": "sfbjnews",
+          "searchJob": "florida",
+          "text": "The SBA has offered an extension on its proposal to recategorize small businesses, potentially allowing a billion-dollar firm to qualify for small business contracts — changes that have spawned serious criticism from legislators and busines"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103113828271546727",
-          "author": "iamkennifizzle",
-          "searchJob": "arkansas-state",
-          "text": "When we say TINUBU built Lagos. This is the legacy we speak of. https://t.co/By7SZzGOct"
+          "postId": "2103202120895766600",
+          "author": "onehousedragon",
+          "searchJob": "florida",
+          "text": "https://t.co/lMfRpD1l6W"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103214589714317751",
+          "author": "firedcoaches",
+          "searchJob": "georgia",
+          "text": "@CaryClayborn @DylanBluePhotog @TheRealJayPace @SInow If you would like to actually have a discussion, feel free to DM me and I’ll gladly send you my number. Happy to do it. If you would rather not, that’s fine too. But the offer is on the "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103209124678848924",
-          "author": "heraldtribune",
-          "searchJob": "arkansas-state",
-          "text": "Florida Power &amp; Light this week announced a one-time credit on electric bills to senior customers who qualify for assistance through a state program. https://t.co/zTVbFJyVAE"
+          "postId": "2103210597995487737",
+          "author": "loopingcloud",
+          "searchJob": "georgia",
+          "text": "https://t.co/O2ETXzsslN"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103209121231069287",
-          "author": "tcpalm",
-          "searchJob": "arkansas-state",
-          "text": "Florida Power &amp; Light this week announced a one-time credit on electric bills to senior customers who qualify for assistance through a state program. https://t.co/MzMw6pasAa"
+          "postId": "2103211878881378800",
+          "author": "loopingcloud",
+          "searchJob": "south-carolina",
+          "text": "https://t.co/d0GS5dqwzs"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103209120933220678",
-          "author": "pbpost",
-          "searchJob": "arkansas-state",
-          "text": "Florida Power &amp; Light this week announced a one-time credit on electric bills to senior customers who qualify for assistance through a state program. https://t.co/hbJoFWT5Nw"
+          "postId": "2103207846531977216",
+          "author": "loopingcloud",
+          "searchJob": "south-carolina",
+          "text": "https://t.co/JCmmZqTqP3"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103202916400333020",
+          "author": "ballertv",
+          "searchJob": "south-carolina",
+          "text": "Chris Paul II is a top PG in the country 👀 He holds offers from South Carolina, Wake Forest, Coastal Carolina, and others 🔥 @gochhoops @hsfallinvite https://t.co/54ENepFOCL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103215135406035171",
+          "author": "trckax",
+          "searchJob": "tennessee",
+          "text": "@RussellJRocker @TiffanyFong lol, that’s a very generous offer! 😂 Free rent in Tennessee is definitely a creative way to negotiate."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103220681563349248",
+          "author": "dctf",
+          "searchJob": "texas",
+          "text": "FOUR-STAR alert 🚨 Jayshawn Mitchell's blazing 4.40 speed has college programs lining up (35+ offers!) See who else moved in the latest Rising Rankings 👀 https://t.co/iffRNBlXaV"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103216928273949137",
+          "author": "marcjacksonla",
+          "searchJob": "texas",
+          "text": "$YUM KFC debuts Open House restaurant in Texas to test new customer experiences - KFC’s new Open House restaurant concept opens this Saturday in McKinney, Texas. - The new store will offer expanded menu offerings, including breakfast, which"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103192699037753440",
-          "author": "buildonstellar",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/CmHqMQxXTH"
+          "postId": "2103065404197462468",
+          "author": "somethingabutu_",
+          "searchJob": "texas",
+          "text": "Oh okay https://t.co/OGifiApPDd"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103212250836218067",
+          "author": "bluecrewviking",
+          "searchJob": "texas",
+          "text": "KFC debuts Open House restaurant in Texas to test new customer experiences - KFC is opening a new restaurant concept in Texas where it will offer an expanded menu, including breakfast items, and table service. Via @CNBC: https://t.co/9JcM2X"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103211572348993660",
+          "author": "arlingtoncigar",
+          "searchJob": "texas",
+          "text": "@VitalVegas The ones opening up in Texas don’t offer bone in either. Wth?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103210993069244868",
+          "author": "hogbreath1",
+          "searchJob": "texas",
+          "text": "@Hogballburner Guess ole piss not serious https://t.co/HOcx5RaC28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103206750610719121",
+          "author": "prophetyon88684",
+          "searchJob": "texas",
+          "text": "https://t.co/7eIKg3aG3H Mr. Obama, is this the 30% of Americans who do not understand democracy? Do I fall into that category? The country is ruined because of people like Obama who treat the citizens so carelessly. ------- ==== Now, repeat"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2103223385144672396",
+          "author": "braylonwolfe",
+          "searchJob": "kansas",
+          "text": "I’m happy to receive an offer from Kansas Wesleyan University. Thank you @CoachMurdock4, @Neri_Tor_ and @braydenjwhite for the opportunity! https://t.co/zlSNPM3XkM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103221717225115964",
+          "author": "kcbizjournal",
+          "searchJob": "kansas",
+          "text": "The SBA has offered an extension on its proposal to recategorize small businesses, potentially allowing a billion-dollar firm to qualify for small business contracts — changes that have spawned serious criticism from legislators and busines"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 11,
+      "accepted": 2,
+      "rejected": 50,
       "reasons": {
-        "reporter_missing_class_year": 1,
-        "bare_mention_requires_llm": 9,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 7,
+        "bare_mention_requires_llm": 34,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 8
       },
       "samples": [
         {
-          "reason": "reporter_missing_class_year",
-          "postId": "2103214408235135020",
-          "author": "dgincheshire",
-          "searchJob": "arkansas-state",
-          "text": "@MarkSeddon1962 Well, there's never been a state called 'Palestine' until it was invented by terrorists and their useful idiot sympathisers and 'climate change' has offered ZERO tangible threat to humanity on a global scale, but apart from "
+          "reason": "multiple_resolved_schools",
+          "postId": "2103216166378324200",
+          "author": "rutkowskidr",
+          "searchJob": "army",
+          "text": "Deterring Beijing’s Revisionist Aggression: Addressing the CCP’s Nuclear Escalation, the 2027 Centennial Threat, and Crafting a Conservative Grand Sunday, September 27, 2026 Dr. Joel P. Rutkowski Policy Policy Executive Summary Recent satel"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103212033940541922",
-          "author": "perandelius",
-          "searchJob": "arkansas-state",
-          "text": "@Ed_Miliband The two state solution was never a solution wished of by any of the parties involved? Fatah said no to Clintons very favorable offer and instead started the intifadas. Palestinians never demanded a state of their own when Gaza "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103211413779161227",
-          "author": "jrminty76",
-          "searchJob": "arkansas-state",
-          "text": "@yes_we_cat @lucythegreat123 They were never offered autonomy. Period. I’ve heard the details of the deals from the negotiators - the offers were always just shy of acceptable. Israeli leadership is on record proud of sabotaging a state aga"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103210824462462981",
-          "author": "steadyexce3298",
-          "searchJob": "arkansas-state",
-          "text": "These men just try very little in a state that offers much more potential. Lagos alone could have successfully compete with Hong Kong or Singapore if it was govern by ppl motivated by altruism. You all confidently celebrates mediocrity. Eve"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103207368867614924",
-          "author": "yes_we_cat",
-          "searchJob": "arkansas-state",
-          "text": "That's just not true. A Palestinian state was offered in 1947. They responded with a war. They never formed one from 1948 to 1967, despite Israel not being an obstacle. They were offered it again in 1993. They started blowing up buses. Neve"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103206773066715432",
-          "author": "jmdance8",
-          "searchJob": "arkansas-state",
-          "text": "@Ed_Miliband @ClownWorldYT1 They’ve been offered a state many times, they choose war every time, you’re a fool"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103205335100264533",
-          "author": "trepamits",
-          "searchJob": "arkansas-state",
-          "text": "@MarioNawfal Palestinians got offered a state more than five times, started just as much wars if not more, they have made everyone on the planet miserable or consumed by mass hysteria. Hopefully this bullshit will stop one day."
+          "postId": "2103214411301196060",
+          "author": "smart_dow",
+          "searchJob": "army",
+          "text": "The U.S. Army Combat Capabilities Development Command Army Research Office recently partnered with the National Security Agency's Laboratory for Physical Sciences to launch the Quantum Ecosystem Advancement, Growth and Leadership initiative"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2103201243523096710",
-          "author": "kitschy1",
-          "searchJob": "arkansas-state",
-          "text": "@alsultan6969 @AncoSj @MuntherIsaac That’s so funny, they were offered to stay multiple times and they refused it. The UK granted them a state when they didn’t even want it. 😅"
+          "postId": "2103213624361898080",
+          "author": "dr_thehistories",
+          "searchJob": "army",
+          "text": "In June of 323 BC, Alexander the Great lay down after a banquet in Babylon and never got up again. He was 32 years old. In eleven years he had marched an army from Macedonia to the edge of India, fought in every major engagement himself, an"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103199813387075780",
-          "author": "coach_ramos",
-          "searchJob": "arkansas-state",
-          "text": "@coachwwest @CoachNickDavis We had some as low as $2k. The small enrollment based schools can offer a good academic scholarship for average grades. At Manchester we’d give $12k Academic Scholarships for 2.5-2.79 GPA, no test score required."
+          "postId": "2103205835648520324",
+          "author": "advocat21269068",
+          "searchJob": "army",
+          "text": "@bowtiedstocks \"Palm Beach I don’t really even see the appeal of what it offers to be honest\" - Palmy Army. https://t.co/kukSioBzus"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103196236526260274",
-          "author": "strategybyai",
-          "searchJob": "arkansas-state",
-          "text": "StrategyByAI's war-room. A state is not one mind. It is several organs that can move at different speeds — and reading a war means watching them separately. The Islamic Republic is the clearest case in years. This week its diplomatic organ "
+          "postId": "2103203237285314878",
+          "author": "mtthffmn",
+          "searchJob": "army",
+          "text": "@JasonSzemborski We already have a bunch of civil servant volunteers who make sure ineligible voters don't vote Don't need the \"couldn't cut it in the Army or local PD\" to offer their services on this one"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103193357136838910",
-          "author": "jstnhstr",
-          "searchJob": "arkansas-state",
-          "text": "As my parents near retirement, I've reflected on their contributions to my life. They spent much of my youth trying to acquaint me with their co-worker's kids & my schoolmates and to afford a private education. None of those efforts however"
+          "postId": "2103197974025101630",
+          "author": "joshelizetxe",
+          "searchJob": "army",
+          "text": "Over the last few years, I've done nine figures from BFCM and affiliate campaigns alone. I've tested hundreds of landing page styles for conversions. I've built hundreds of different BFCM offers. I've tested hundreds of email and SMS flows "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103197468447912196",
+          "author": "turkishcentury",
+          "searchJob": "army",
+          "text": "🟩 Every #Muslim army needs these! 🔥 The IIR-guided @roketsan #OMTAS #antitank missile offers the ability to destroy all known armored vehicles from 4+km, day or night, and under adverse weather! https://t.co/nQB0mLUAqn"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103195517866201566",
+          "author": "monicalmarks",
+          "searchJob": "army",
+          "text": "@RiccardoIorio4 I thought he’d offer some new juice here at least! But Bibi’s UNGA speech was a real snoozer, besides the “most moral army” punchline which elicited knee-slapping guffaws."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103192791647928414",
+          "author": "theinformantusa",
+          "searchJob": "army",
+          "text": "🛡️ Mexican authorities captured Edgar Valeriano Orozco Cabadas, alias “El Kamoni,” in Tepalcatepec, Michoacán, during an operation involving Mexican Army and National Guard special forces and Interpol Mexico. Authorities identify him as an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103191786634019216",
+          "author": "bonesoflasalle",
+          "searchJob": "army",
+          "text": "..truce was called &amp; Taylor offered a deal to Mexican General Ampudia. The Mexican army would concede Monterrey to the Americans but would be allowed to march out, fully armed &amp; under their own flags. Essentially, they would leave u"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2103186795550650758",
+          "author": "textpingai",
+          "searchJob": "army",
+          "text": "IRAN / WEST AZERBAIJAN AND TEHRAN PROVINCES — @sentdefender — Early reports at 17:05 UTC of ballistic missile launches inside Iran; Arab channels later called them \"test\" launches. OSINT claims include a site ~24 miles NE of Urmia near 37°3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103186326841643270",
+          "author": "neshetb",
+          "searchJob": "army",
+          "text": "Since you specifically mentioned the 'Moors attacking Spain,' let me give you a little 'historical background.' Of course, it will not show you the whole picture, but it will give you a bit of a sense. At the very least, this helps you unde"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103214929675464882",
+          "author": "thewanderer2020",
+          "searchJob": "ball-state",
+          "text": "@MikeDyer I’m not sure if I’m more surprised by him being ineligible, or the fact that he wasn’t offered from a bigger football school than Ball State."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103186336106885427",
+          "author": "jucofootballace",
+          "searchJob": "ball-state",
+          "text": "Braheem Battles @BraheemBattles @ Butler JuCo @ButlerGrizzlyFB picks up @BallStateFB Offer @Coach_JL51 @ButlerGrizzlies https://t.co/hrMoOs3hAr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103219166979166551",
+          "author": "masslivenews",
+          "searchJob": "massachusetts",
+          "text": "Ticketmaster will offer refunds for Ed Sheeran’s upcoming Gillette Stadium concerts after the Massachusetts Attorney General’s Office intervened on behalf of fans who complained about major lineup changes. | LINK IN REPLY https://t.co/MD0B5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103195260226855295",
+          "author": "shaybayej",
+          "searchJob": "massachusetts",
+          "text": "I have spare Charli XCX tickets in Boston tonight x4 GA tickets for face value or best offer Group plans fell through, pls dm if you are interested in any I can sell separately also you don't have to buy all wts iso charli xcx tickets bosto"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103219802785694035",
+          "author": "matejs247",
+          "searchJob": "virginia-tech",
+          "text": "Virginia Tech #Hokies offer 2028 4⭐️TE Max Jones"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103221401591136655",
+          "author": "athlonsports",
+          "searchJob": "notre-dame",
+          "text": "A small U.S. television audience deserves scrutiny. So do the early broadcast hours, a competing Irish Open and the way golf introduces its best women players to viewers. WTGL offers a chance to change that last part. https://t.co/ZbnGkJWBV"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103219282616480047",
+          "author": "lally_patr60014",
+          "searchJob": "notre-dame",
+          "text": "We need to make White Baby Farms ASAP. It should be our Top priority to make as many White Babies as possible. Mu irish mom made 6 if us. Gen Z and Millenaials should be torld to make at least 3 White babies and the schools should be told t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103215479502348390",
+          "author": "keithse83850816",
+          "searchJob": "notre-dame",
+          "text": "@reformparty_uk Well that’s what should’ve happened 50 yrs ago! I’m still waiting for Southwark Council to offer me and my wife a council property! In the Estate where my late in-laws lived for 40 odd yrs there are Columbians/ Somalis/ East"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103208934995554609",
+          "author": "abdulaina_eem",
+          "searchJob": "notre-dame",
+          "text": "\"Barcelona sporting director Deco responds to rumours surrounding Manchester United teenager JJ Gabriel Deco dismisses transfer links According to Mundo Deportivo, Deco has moved to play down reports that Barcelona are preparing an offer fo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103199293406417297",
+          "author": "hartfordcourant",
+          "searchJob": "notre-dame",
+          "text": "Irish band The Script offered work to a couple of the band’s that left Ed Sheeran’s tour in solidarity with Macklemore after the rapper was dropped. https://t.co/nNJQCeWjze"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103191711967265238",
+          "author": "irishagreement",
+          "searchJob": "notre-dame",
+          "text": "@JP_Biz Does the UK offer to top up the NI block grant write off the UK Treasury loan of £400M given to NI in February, which NI was supposed pay back £80M this year and £160M in each of the next two years ? https://t.co/BMsv4htpin"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103190259106193724",
+          "author": "ucanews",
+          "searchJob": "notre-dame",
+          "text": "Irish President Connolly’s gift of St. Brendan’s voyage story to Donald Trump offers a subtle diplomatic critique, contrasting spiritual exploration with territorial conquest. https://t.co/rC4uJQScak"
         }
       ]
     },
@@ -274,21 +436,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 1,
-      "failed": 2,
-      "requests": 3,
-      "errors": [
-        "army: SearchTimeline JSON unreadable (slice left pending)",
-        "ball-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 50,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-24T20:26:46.328Z"
+    "status rebuilt locally from current store on 2026-09-24T20:43:28.520Z"
   ]
 }
