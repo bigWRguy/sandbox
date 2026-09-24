@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T19:41:54.072Z",
+  "generatedAt": "2026-09-24T19:58:09.227Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-24T19:41:53.779Z",
+    "at": "2026-09-24T19:58:08.940Z",
     "jobsTotal": 162,
-    "sweptThisRun": 3,
-    "requests": 4,
-    "fullSweepCycles": 54
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,52 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "east-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "old-dominion",
-      "hours": 2.3
-    },
-    {
-      "id": "oregon-state",
-      "hours": 2.3
-    },
-    {
-      "id": "tulsa",
-      "hours": 2.3
-    },
-    {
-      "id": "uconn",
-      "hours": 2.3
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.3
-    },
-    {
-      "id": "western-kentucky",
-      "hours": 2.3
-    },
-    {
-      "id": "western-michigan",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.9971427777777778,
-    "p95Hours": 2.2519488888888888,
-    "worstHours": 2.2519488888888888
+    "medianHours": 1.0155997222222222,
+    "p95Hours": 2.0116602777777777,
+    "worstHours": 2.0116602777777777
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 36,
+    "decided": 36,
     "complete": true
   },
   "pending": {
@@ -84,64 +47,294 @@
   "profileResolution": {
     "cached": 61
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1802,
+    "completeOffers": 1803,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-24T19:41:53.778Z",
-      "got": 10,
-      "new": 3,
-      "lag": 1.19
+      "at": "2026-09-24T19:58:08.939Z",
+      "got": 56,
+      "new": 36,
+      "lag": 0.18
     }
   },
   "audit": {
-    "at": "2026-09-24T19:41:38.766Z",
+    "at": "2026-09-24T19:56:42.184Z",
     "mode": "live",
     "collection": {
-      "returned": 10,
-      "kept": 3,
-      "duplicate": 7,
+      "returned": 56,
+      "kept": 36,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 19,
+      "rejected": 17,
+      "reasons": {
+        "no_fbs_school": 9,
+        "non_fbs_offer_target": 1,
+        "no_offer_term": 7
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103208297344237591",
+          "author": "marchen44",
+          "searchJob": "phrase:\"lands an offer from\"",
+          "text": "2027 ATH Courtney Lawson Jr. (@courtneylaw_5 ) lands an offer from @ECUTigersFB"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2103207038327120163",
+          "author": "courtneylaw_5",
+          "searchJob": "phrase:\"lands an offer from\"",
+          "text": "After a great conversation with @Coach_Tinez1 I am blessed to receive another offer from East Central University.@ECUTigersFB https://t.co/OPHIZzc4Ot"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103204917108437220",
+          "author": "loopingcloud",
+          "searchJob": "uconn",
+          "text": "https://t.co/mEIWmjse93"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103209436366147705",
+          "author": "soonersblog",
+          "searchJob": "minnesota",
+          "text": "https://t.co/xhN2vJf5zd"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103167581117133251",
+          "author": "j_divis",
+          "searchJob": "missouri",
+          "text": "Christians call Joseph a false prophet. Name one prophecy he gave that failed, or admit you’ve never actually read about him. https://t.co/9dNrvwUyI5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103189897263915509",
+          "author": "jaysonpace91",
+          "searchJob": "phrase:\"1st D1 offer\"",
+          "text": "College Coaches 2027 LB/TE take a look before it’s too late !!! got his 1st D1 offer last night surly more to come, proud of you kid !!!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2102395021937012789",
+          "author": "torendrucker",
+          "searchJob": "phrase:\"1st D1 offer\"",
+          "text": "Senior season weeks 1-3 stats and highlights‼️ 🔹 18 - Tackles 🔹 4 - TFL 🔹 2 - PBU 🔹 2 - QBH 🔹 20 - Carries 🔹 218 - Rush YDS 🔹 10.9 - YPC 🔹 5 - Rush TDs 🔹 2 - 2PT Con 🔹 6 - REC 🔹 55 - REC YDS 🔹 9.17 - YPR 🔹 273 Total YDS @MavHSF"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103194457558380700",
+          "author": "kjtoossmooth",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "That a great talk with coach Huhn I’m excited to say that I received my first offer go comets https://t.co/Jnv0XS0trQ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103194577742319958",
+          "author": "senshin108",
+          "searchJob": "stanford",
+          "text": "The Difference Between Capacity and Permission A system may be able to predict, classify, or decide with remarkable accuracy That still does not answer a different question: What authority should we give it over another human being? https:/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103207258960367691",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal $21.52 ] Mstbp02 | PN: BX02-MSTBP02-BG-L Maelstrom Travel Backpack for Men Women, 17.3\" Laptop with Shoe Compartment, Detachable Crossbody Bag, Airline Approved, Water Rresistant, Anti-theft Pocket, Luggage Belt, Best for W"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103206157070266680",
+          "author": "exoconscious",
+          "searchJob": "texas-tech",
+          "text": "HOW DO WE EDUCATE NEXT GENERATION OF SPACE LEADERS? For 15 years, I worked at Wright State, next to Wright-Patterson - the location of proposed U.S. Space Academy. Exoconsciousness belongs in space education. https://t.co/FbkepZI9XM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103201639913935152",
+          "author": "mictechofficiai",
+          "searchJob": "texas-tech",
+          "text": "Saudi Arabia has unveiled its first locally developed electric car, a major step toward building its own EV industry. The car is reported to offer up to 670 km of range on a single charge, showing the region’s growing focus on electric vehi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103201181036343673",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal $9.99 ] MLH94LL/A Beats 360 Cushion Kit for Earcups/Headband - UltraPlush, Cloud [ad] https://t.co/Zd7jWr1Lvb Offer Price: $9.99 ( List Price: $49.99 ) ( Lowest Price on Sep 24, 2026 )"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103198783974887683",
+          "author": "ot_vpresearch",
+          "searchJob": "texas-tech",
+          "text": "Looking for your next grant or funding opportunity? 💰 The Funding Bulletin offers handpicked funding opportunities tailored for researchers. Browse now: https://t.co/zf1SYISNwS 📬 #ResearchFunding #NSERCsupport #FundingOpportunity https://"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103193715569480024",
+          "author": "carglimpses",
+          "searchJob": "texas-tech",
+          "text": "The Audi A2 name returns for the electric era with a compact hatchback focused on efficiency, practicality and technology. The new A2 e-tron offers three battery sizes, four power outputs and up to 646 km of WLTP range. https://t.co/7IkECLr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103208573706875215",
+          "author": "redmanpg",
+          "searchJob": "ucf",
+          "text": "Could fall be the best time to buy a home in Central Florida? Discover why late October may offer Orlando-area buyers more choices, less competition, longer days on market and greater negotiating opportunities. LEARN MORE: https://t.co/ywNw"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103202530671104241",
+          "author": "loopingcloud",
+          "searchJob": "ucf",
+          "text": "https://t.co/RTwgRnxBJR"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 3,
+      "accepted": 1,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 11
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103190306996809925",
-          "author": "allegheny_co",
-          "searchJob": "pittsburgh",
-          "text": "Over the counter voting* is available at the County Office Building starting September 24 until October 27, 2026. Allegheny County offers over the counter voting from 8:30 am to 4:30 pm, Monday through Friday, at the County Office Building "
+          "postId": "2103203056536207528",
+          "author": "qb1canyon",
+          "searchJob": "eastern-michigan",
+          "text": "@TylerThedorff @EMUFBRecruiting @EMUFB Junior Year Pre-district highlights👀. 6,2 Dual Threat Qb/Db/ CO 2028/ 4.12 GPA/ 4.50 40 yd dash/ 4 offers https://t.co/tOrUTB1aGs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103190064624734686",
-          "author": "deeayysports",
-          "searchJob": "pittsburgh",
-          "text": "2027 6’3 Jahlil Owusu was a top player at the Steel City Showcase. The New Jersey 6th man of the year currently holds multiple division one offers, most recent from Mercyhurst. Bergen Catholic is a New Jersey Powerhouse with Jahlil maintain"
+          "postId": "2103196353254011101",
+          "author": "recruitzonehq",
+          "searchJob": "mississippi-state",
+          "text": "🚨 OFFER WIRE 🚨 4⭐️ Marcus Boyd (@Marcus_Boyd11) 2028 | Grace Prep (TX) | 6’3 PG ➜ Mississippi State (@HailStateMBK) https://t.co/nvVqc9lNak"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103175769333584335",
-          "author": "steelersdepot",
-          "searchJob": "pittsburgh",
-          "text": "‘Omar Khan’s Phone Has Been Ringing’: Insider Offers Odds Of Joey Porter Jr. Trade #Steelers #NFL #Pittsburgh https://t.co/CL4AcqHVH2"
+          "postId": "2103190249794904559",
+          "author": "coachhedge",
+          "searchJob": "mississippi-state",
+          "text": "@msudawg04 I dont think the QB will leave - obviously MSU is where he wants to be and I think that MSU will be able to come up with an offer to allow him to follow his heart - as for the coach - let him go - he is a scumbag and shouldnt eve"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103209625516425538",
+          "author": "fatherchrisvor1",
+          "searchJob": "missouri",
+          "text": "I have read Joseph Smith. I have studied his life and teachings. So when a Mormon says, “Christians call Joseph a false prophet. Name one prophecy he gave that failed,” I am not repeating something I picked up from someone else. I can name "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103205671663731027",
+          "author": "tp_recruiting",
+          "searchJob": "missouri",
+          "text": "🚨 WELCOME TO TP_RECRUITING, KAIMAN FLOWERS! We’re excited to welcome 2029 TE Kaiman Flowers to the brand! At 6’5” and 213 lbs, Kaiman already brings the size and frame college coaches look for at the tight end position. He’s also carrying "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103205328167071899",
+          "author": "profilefblive",
+          "searchJob": "nebraska",
+          "text": "Nebraska has extended scholarship offers to 5 prospects in the last 24 hours. @HuskerFootball 4.8⭐ 2028 Edge Ismael Schiefer @king_savage_2_8 4.1⭐ 2028 OT Amaree Joshua @AmareeJoshua 3.9⭐ 2028 OT Kajus Muralis @MuralisKajus 3.8⭐ 2028 LB Naz"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103207912436908058",
+          "author": "bazaartimes",
+          "searchJob": "texas-tech",
+          "text": "The Istanbul Shopping Center, located within the Istanbul Financial Center, will officially open its doors on September 24. This venue is poised to become a new landmark for Istanbul, offering a diverse blend of retail, dining, and social e"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103206993704144974",
+          "author": "drainmasterstuc",
+          "searchJob": "texas-tech",
+          "text": "no more digging up your yard 🚧 DrainMasters now offers trenchless sewer liner tech — we repair damaged pipes from the inside out, no torn-up landscaping or driveways. faster, less invasive, built to last. time for a pipe check? 520-690-988"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103205508232728652",
+          "author": "tetratechjobs",
+          "searchJob": "texas-tech",
+          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/BXVKriH6YA #LeadingWithScience"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103205460228657371",
+          "author": "marni_jo39184",
+          "searchJob": "texas-tech",
+          "text": "Created a 1-minute AI podcast interview about TechersOS for my assignment, highlighting what it offers young Nigerians in the tech space. 🇳🇬💻 Flow kept changing sir @silverpenydr face,no matter how hard I try🥺😁 @TechersOS @silverpenydr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103202339519692838",
+          "author": "koskoreen",
+          "searchJob": "texas-tech",
+          "text": "@_simonsmith Kinda weird, not everyone will feel same. For me, if I'm taking a walk I wanna talk to humans, experience everything nature has to offer, be at peace. Not still glued to some tech gadgets"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103199816264175958",
+          "author": "kaizen_investor",
+          "searchJob": "texas-tech",
+          "text": "The Nigerian equity market has surged 62% year-to-date. While developed markets are largely driven by AI-focused tech valuations, Nigeria’s momentum is anchored in a much more structural catalyst: explosive demographic growth. The country’s"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103198534015012881",
+          "author": "networkchain",
+          "searchJob": "texas-tech",
+          "text": "Onchain traders are now able to show &amp; prove. Blockchain tech &amp; social trading platforms offer traders the ability to be transparent while building their brand. The more successful the trader, the bigger brand. The bigger the brand,"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103196546980573300",
+          "author": "uphonestreal",
+          "searchJob": "texas-tech",
+          "text": "⚖️⛓️ BLOCKCHAIN CAN MOVE BILLIONS WITHOUT A BANK. BUT WHEN SOMETHING GOES WRONG—WHO DECIDES WHAT HAPPENS NEXT? A smart contract executes incorrectly. A protocol gets exploited. A DAO vote is contested. An exchange freezes an account. A toke"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103196249495396445",
+          "author": "simondelorean",
+          "searchJob": "texas-tech",
+          "text": "@DeepIceValue The force is with Meta for now. Will take some time for the market to understand the true impact. Muse for consumers is just the tip of the iceberg; they offer the same tech to hundreds of millions of businesses at the same ti"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103195679354937635",
+          "author": "0xlelouch_",
+          "searchJob": "texas-tech",
+          "text": "Backend engineer comp at a late-stage startup (Series D+, 500 to 2k ppl). Rough US ranges, varies a lot by scope + location. 1) Base (mostly level + market) - Mid (L4): $150–200k - Senior (L5): $190–250k - Staff (L6): $230–320k 2) Bonus (of"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103195385082618295",
+          "author": "bobbygiggz",
+          "searchJob": "texas-tech",
+          "text": "Vampire Attacks and Retail Loyalty Schemes: The Battle Between Wall Street, Big Tech, and Unified Money Summary Statement America needs people to buy its debt, and digital dollars (stablecoins) backed by US Treasuries have become a massive "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103194686458343426",
+          "author": "deborah_charron",
+          "searchJob": "ucf",
+          "text": "Showings without offers in today’s Central Florida market mean it’s time to rethink price or presentation, not panic. 🌴✨ What’s your go-to move when feedback is all visits, no offers? https://t.co/icVcHtcdyX"
         }
       ]
     },
@@ -149,20 +342,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 3,
-      "failed": 1,
-      "requests": 4,
-      "errors": [
-        "phrase:\"receives an offer from\": rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-24T19:41:54.073Z"
+    "status rebuilt locally from current store on 2026-09-24T19:58:09.228Z"
   ]
 }
