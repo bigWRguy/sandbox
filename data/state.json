@@ -1,7 +1,5 @@
 {
   "seenPostIds": [
-    "2096224325544321294",
-    "2096210851262865642",
     "2096189898390913099",
     "2096188332917026872",
     "2096188045531717676",
@@ -59999,17 +59997,19 @@
     "2102798687516688572",
     "2103175695430242701",
     "2103173005970968760",
-    "2103135915195371973"
+    "2103135915195371973",
+    "2103175054586495073",
+    "2103171017006780713"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-24T18:13:52.252Z",
-      "got": 168,
-      "new": 105,
-      "lag": 0.05
+      "at": "2026-09-24T18:27:03.891Z",
+      "got": 7,
+      "new": 2,
+      "lag": 0.96
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60467,16 +60467,10 @@
       "truncated": false
     },
     "texas-tech": {
-      "at": "2026-09-24T16:11:33.389Z",
+      "at": "2026-09-24T17:57:27.250Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 23,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-24T16:06:33.389Z",
-        "upper": "2026-09-24T17:57:27.250Z",
-        "until_time": "2026-09-24T16:06:33.389Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "ucf": {
       "at": "2026-09-24T17:57:27.250Z",
@@ -60497,9 +60491,9 @@
       "truncated": false
     },
     "virginia-tech": {
-      "at": "2026-09-24T16:26:51.896Z",
+      "at": "2026-09-24T18:26:39.877Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
+      "lastPosts": 3,
       "truncated": false
     },
     "wake-forest": {
@@ -60551,9 +60545,9 @@
       "truncated": false
     },
     "notre-dame": {
-      "at": "2026-09-24T16:26:51.896Z",
+      "at": "2026-09-24T18:26:39.877Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 9,
+      "lastPosts": 4,
       "truncated": false
     },
     "uconn": {
@@ -60587,28 +60581,16 @@
       "truncated": false
     },
     "arkansas-state": {
-      "at": "2026-09-24T16:11:33.389Z",
+      "at": "2026-09-24T18:12:17.592Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 20,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-24T16:06:33.389Z",
-        "upper": "2026-09-24T18:12:17.592Z",
-        "until_time": "2026-09-24T16:06:33.389Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "army": {
-      "at": "2026-09-24T16:11:33.389Z",
+      "at": "2026-09-24T18:12:17.592Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 21,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-24T16:06:33.389Z",
-        "upper": "2026-09-24T18:12:17.592Z",
-        "until_time": "2026-09-24T16:06:33.389Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "ball-state": {
       "at": "2026-09-24T18:12:17.592Z",
@@ -61113,11 +61095,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-24T18:13:52.252Z",
+    "at": "2026-09-24T18:27:03.891Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61137,396 +61119,67 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-24T18:12:17.569Z",
+    "at": "2026-09-24T18:26:39.854Z",
     "mode": "live",
     "collection": {
-      "returned": 168,
-      "kept": 105,
-      "duplicate": 62,
-      "tooOld": 1,
+      "returned": 7,
+      "kept": 2,
+      "duplicate": 5,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 53,
-      "rejected": 52,
+      "accepted": 0,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 21,
-        "no_offer_term": 22,
-        "hard_negative": 7,
-        "non_fbs_offer_target": 2
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2103167032653214175",
-          "author": "yourtechgirl24",
-          "searchJob": "texas-tech",
-          "text": "@sanchoyai No trial math makes the offer refreshingly straightforward."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103137235139010795",
-          "author": "insiderwire",
-          "searchJob": "texas-tech",
-          "text": "#BREAKING: Over 700,000 U.S. tech jobs were cut and 670,000 H-1B visas were issued to Indians since 2022."
+          "postId": "2103175054586495073",
+          "author": "irish_news",
+          "searchJob": "notre-dame",
+          "text": "Northern Ireland Secretary tells Stormont leaders there’s no more money as £1.5 billion over three years offer made https://t.co/6VVqVtbANB"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2103162357916598472",
-          "author": "karensl25",
-          "searchJob": "texas-tech",
-          "text": "@BernieSanders The 10 Big Tech Corps have gotten richer cuz they run YUGE businesses...like out of this World YUGE + EMPLOY 100s of 1000s+ of people + provide/offer goods/services to WE THE PEOPLE....all YOU do/have done your entire adult l"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103160146746654767",
-          "author": "josethevrtech",
-          "searchJob": "texas-tech",
-          "text": "@metro_xr are you implying that I should shut up and be happy that it exists because it’s VR related? What’s wrong with me stating truth about what these devices offer; regardless if it’s in glasses form factor,they deliver half of what’s e"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103158221833986274",
-          "author": "mockstub",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/IrUBghIYiv What a strange clout chasing. https://t.co/p2w6My8Qr6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103158048940507328",
-          "author": "speea",
-          "searchJob": "texas-tech",
-          "text": "SPEEA members! Ask managers for charge lines to attend @boeing contract meetings on-hours. Learn about the contract offer. Voting begins today. Both Bargaining Unit Councils recommend that members \"accept\" the contract offers. https://t.co/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103173686807478291",
-          "author": "utahscsb",
-          "searchJob": "utah",
-          "text": "Eva Moskowitz offers a particularly interesting comparison: she also sent her children to nonselective, overwhelmingly minority public schools—but chose Success Academy charter schools, where admission is by lottery.https://t.co/0mtDPyblqQ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103157017481277573",
-          "author": "rinkyreport",
-          "searchJob": "utah",
-          "text": "Nick Kypreos on Marchenko: ''Kirill Marchenko, who desperately wants out of Columbus, should have an easier time doing so since he doesn’t have any trade protection on his contract, so it comes down to the Blue Jackets finding a deal they l"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103162415676350882",
-          "author": "matthewboedy",
-          "searchJob": "utah",
-          "text": "This week’s Substack: The table Utah College Republicans set up had a sign that asked if Charlie Kirk deserved to be murdered. They were literally offering people the chance to “celebrate” the murder by voting yes. Then they were offered a "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2103184681525199065",
-          "author": "rutkowskidr",
-          "searchJob": "arkansas-state",
-          "text": "Illusion of Partnership — Why Mahmoud Abbas Cannot Be Trusted and Why a Sovereign “Palestinian” State Threatens Middle Eastern Security Saturday, September 26, 2026 Dr. Joel P. Rutkowski Policy Analysis Executive Summary In his September 24"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103182056385912855",
-          "author": "namanyayg",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/OuQiKiyNSY"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2102860888986268130",
-          "author": "__labama",
-          "searchJob": "arkansas-state",
-          "text": "ATIKU SHOULD STOP THIS LIE AND PROPAGANDA Atiku told reporters that no government official visited the state after the tragic incident. This is a blatant lie. Where was Atiku when immediately after the incident, the Inspector General of Pol"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103170188648821142",
-          "author": "aothecomputer",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/qPjiFTQrvB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103156927865765958",
-          "author": "rich_rdctd",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/CET5VVI4Wo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103184954465165349",
-          "author": "fiammaabraham2",
-          "searchJob": "army",
-          "text": "I have spare Ella Langley tickets in Tennessee tonight WTS Ella Langley tickets at Food City Center We had a change of plans tonight PIT GA section, face value or best offer I can sell them separately as well 🏷️wts iso ella langley tickets"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2103182786861605086",
-          "author": "steadystate2025",
-          "searchJob": "army",
-          "text": "\"In a time of real uncertainty for our democracy, Eugene Vindman offers something rare: steady, principled leadership,\" said Steven Cash, Executive Director of The Steady State. @YVindman is running for Virginia's 7th Congressional District"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103182020105167000",
-          "author": "shrishtiupadhy7",
-          "searchJob": "army",
-          "text": "@jmxxot7 Being filmed without consent with Meta smart glasses? Viral Disney song trick claims to offer a solution | Trending https://t.co/IL6j6KGVE9"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103181108099821656",
-          "author": "shrishtiupadhy7",
-          "searchJob": "army",
-          "text": "Being filmed without consent with Meta smart glasses? Viral Disney song trick claims to offer a solution | Trending https://t.co/IL6j6KGVE9 I hope she reads news about these glasses!!"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2102932940867227847",
-          "author": "theepopcore",
-          "searchJob": "army",
-          "text": "LISA looks absolutely mesmerizing, serving unreal face card for her own Meta Glasses collection. https://t.co/PxORJY0ZQn"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103166134723985724",
-          "author": "fazerpage",
-          "searchJob": "army",
-          "text": "The pricing is unbeatable, especially considering the quality and range of content offered. It’s a cost-effective alternative to traditional cable TV."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103158949780541463",
-          "author": "davidbfzh",
-          "searchJob": "army",
-          "text": "Streaming Setup for All Devices Compatible: Smart TV | Firestick | Android | iPhone | PC ✅ 100% Official Apps: NOW TV | YouTube TV | Netflix | Shahid | OSN+ ⚽ Sports | 🎬 Movies | 📺 Live TV DM for Full Setup Guide"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103165769194635579",
-          "author": "zzhangjioy",
-          "searchJob": "army",
-          "text": "𝐈𝐈𝐈. 𝐓𝐡𝐞 𝐁𝐫𝐨𝐤𝐞𝐧 𝐀𝐥𝐥𝐢𝐚𝐧𝐜𝐞 — 𝐂. 𝐎𝐟𝐟𝐞𝐫 𝐟𝐨𝐨𝐝. –25 food + 40 Alliance. ⚜️ Gold 70 🏹 Army 100 🥐 Food 55 (80 – 25) 🛡️ Defense 145 🤝 Alliance 140 (100 + 40)"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103160382764573009",
-          "author": "vantaeshin",
-          "searchJob": "army",
-          "text": "@ant_amour_7_23 That means you regretted my offer😔😔🤌🏻I'm sed jai morte"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103160339730756094",
-          "author": "salman_bareesh",
-          "searchJob": "army",
-          "text": "https://t.co/kkR4Ru5xt6"
+          "postId": "2103171017006780713",
+          "author": "farmersjournal",
+          "searchJob": "notre-dame",
+          "text": "Monamolin Co Wexford farm on 44ac offers lifestyle and farming potential https://t.co/bk9RcNRX4j https://t.co/zJhSq9b0N2"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 52,
-      "reasons": {
-        "multiple_resolved_schools": 13,
-        "school_not_resolved_confidently": 9,
-        "bare_mention_requires_llm": 29,
-        "reporter_missing_player_name": 1
-      },
-      "samples": [
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103167655930650977",
-          "author": "soonercody",
-          "searchJob": "texas-tech",
-          "text": "@NFL_DovKleiman Wait how did Texas tech offer if he was at notre dame?"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103167579799920652",
-          "author": "geostechis",
-          "searchJob": "texas-tech",
-          "text": "Why are natural refrigerants gaining traction? Low-GWP alternatives like CO₂, ammonia, and propane offer sustainable heating and cooling without compromising efficiency.See how we integrate clean thermal tech: https://t.co/czHw2cJKCb #Natur"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103166599804940453",
-          "author": "amandamashburn",
-          "searchJob": "texas-tech",
-          "text": "Well, that’s a new one for the rejection letter pile. Plot twist. Ally did in fact offer me the role which I accepted and started in Feb 2023. (The email landed in my inbox this morning.) Rejected from the very role I once filled. 😂 This i"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103165767579566426",
-          "author": "omarikhomeinike",
-          "searchJob": "texas-tech",
-          "text": "Global News Headlines — Thursday, 24 September 2026 1. Trump–Xi: Formal White House talks are under way after a rare tarmac welcome. The U.S.–China trade truce has been extended to 10 January. Xi said the two powers must keep AI under human"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103165015725388019",
-          "author": "tejet_x",
-          "searchJob": "texas-tech",
-          "text": "Both ends of the spectrum 🎬. Overall as sorcerers I would give it to Kenjaku. Purely because of his/her overall efficiency in terms of barriers, binding vows and all aspects of jujutsu. Sukuna on the other hand has a nack for inferance and"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103164598044000691",
-          "author": "aeterna_felix",
-          "searchJob": "texas-tech",
-          "text": "2,410 Miles if you charge the car by charge points and then put 2 x cannisters to go… 🤣🤣🤣 Hmmm sounds like Petrol Stations sporting Charge Points won’t closing down anytime soon… 😅 Grand Touring just became a very powerful concept indee"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103164050565906473",
-          "author": "khushiglams",
-          "searchJob": "texas-tech",
-          "text": "So Americans hired Indians and now blame Indians for getting hired? 700,000+ U.S. tech jobs cut while hundreds of thousands of H-1Bs went to Indian workers. You can’t blame someone for accepting a job you offered them."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103163901399752754",
-          "author": "cgatheist",
-          "searchJob": "texas-tech",
-          "text": "@RogersHelps Your call tree gives options for talking about existing accounts and about getting tech support or billing inquiries but I've got someone calling making me an amazing offer for service and I want to verify this is a legit call "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103163392777167178",
-          "author": "cgatheist",
-          "searchJob": "texas-tech",
-          "text": "@Rogers Your call tree gives options for talking about existing accounts and about getting tech support or billing inquiries but I've got someone calling making me an amazing offer for service and I want to verify this is a legit call becau"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103162913972511203",
-          "author": "bestballgod",
-          "searchJob": "texas-tech",
-          "text": "@OldGuywithAI @InvestorVideos LOL this is hilarious. The baseless hyperbole fits right in with how Zuck didn't offer any actual tech specs on his glasses. And literally no one wants to pull out their keychain/car or house keys to talk to an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103160039619887465",
-          "author": "evankirstel",
-          "searchJob": "texas-tech",
-          "text": "CompuServe Was the Future Once. I Had an Account. I used CompuServe, so I've been at this a while. Its consumer service launched on September 24, 1979. Getting online took a modem, a phone line and patience, and hourly charges The company s"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103159392174833816",
-          "author": "jekred",
-          "searchJob": "texas-tech",
-          "text": "D. No life forms detected on the ship means no need to use a slot for medical (lol, probably). Decent firepower to shoot your way out if needed. Daniel's presence increases the chances of figuring out who the ship belongs to, and offers a d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103166570256093491",
-          "author": "rrptechnologies",
-          "searchJob": "utah",
-          "text": "Utah Medical Products ($UTMD) filed a tender offer to buy back 650,000 of its own shares at $75.00 — a $48.8M offer for 20.5% of shares outstanding, a 6.1% premium to the prior close. No minimum tender condition; odd lots exempt from prorat"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103165740287177083",
-          "author": "unionandblue",
-          "searchJob": "utah",
-          "text": "All Canadian teams mentioned, shocker. (sarcasm) IMO, the team with the best to offer, and probably most poised to make a big splash: Utah. There would likely be a better deal from the Mammoth than anything these three Canadian teams can pu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103161275240910860",
-          "author": "itburns1",
-          "searchJob": "utah",
-          "text": "@NotThatHunter_B @UteFanIvan As I said unless your car specifically requires 87 or higher - 85 is fine. Go to St George, and you'll see they don't have 85 due to elevation. BTW, it's not just a Utah thing. Most higher elevation areas around"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103159419404239270",
-          "author": "belgarath76",
-          "searchJob": "utah",
-          "text": "@ShowTimeeLA I think they wanted to pay him less, so they made the deal, but I'd have offered more and dared Utah to match (which I refuse to believe they would have done given their future cap situation). At least they could have threatene"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103178130269811083",
-          "author": "idalogbot",
-          "searchJob": "arkansas-state",
-          "text": "[BOT] U.S. Senate, 9/24/26 — Yea 74 Nay 25 S. 4668 — Protect College Sports Act of 2026 https://t.co/FDW88pw60Q Yea: Alan Armstrong, Tammy Baldwin (@SenatorBaldwin), Jim Banks (@RepJimBanks), John Barrasso (@SenJohnBarrasso), Michael F. Ben"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103175743723213260",
-          "author": "sw_tr99",
-          "searchJob": "arkansas-state",
-          "text": "@Ed_Miliband You are a disgusting person. Did Oct 7th or wider Palestinian terrorism not impact two-state solution? Did many Palestinian rejection of offers of a state not impact? Or is Israel the sole problem in what must be the only troub"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103175295175979387",
-          "author": "hwhattheblog",
-          "searchJob": "arkansas-state",
-          "text": "The Full Table: 500 Years, One Machine, Zero Masterminds — Everything We Found, Told Straight We've covered a lot of ground. Five hundred years of it. Kings, preachers, bankers, generals, statues, flags, maps, and highways. If you just foun"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103172917022581158",
-          "author": "ubando001",
-          "searchJob": "arkansas-state",
-          "text": "Let’s educate ourselves before throwing around the word “lie.” Brother The Inspector-General of Police and the Commandant-General of the NSCDC are public servants and heads of statutory security institutions. They are not elected political "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103172123686523028",
-          "author": "relentlesssam1x",
-          "searchJob": "arkansas-state",
-          "text": "@OmarOmarbk25 @PopCrave Blood liable? The IDF is not deliberately killing children please stop spreading lies. 1948? After Arabs were offered 🫴🏾 a state and they rejected it because of antisemitism?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103168926448238875",
-          "author": "loupbleu5",
-          "searchJob": "arkansas-state",
-          "text": "@TimeToBeFree18 @Michaelstm23 @CathyYoung63 Land that Palestinians did not legally own, yes. Land in which, once worked by Zionists, led to less Arab death by disease &amp; increased Arab birth rates, yes. The offer of a state, which they d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103167530814898262",
-          "author": "thelastofthe252",
-          "searchJob": "arkansas-state",
-          "text": "I bless thee Ni in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved one into Your loving hands, asking that Your healing touch restore her body completely. Remove all burn injuries, he"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103167370902876531",
-          "author": "ifindnazisonx",
-          "searchJob": "arkansas-state",
-          "text": "@Ed_Miliband You cannot stand for something that doesn’t exist … #ThereIsNoPalestine Besides, they were offered a state not once, not twice but 9 times said NO, #FreeBalastine is a mental illness, hopefully you can cure yourself from it. #D"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 1,
+      "requests": 6,
+      "errors": [
+        "boise-state: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 52,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 105,
-    "decided": 105,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
