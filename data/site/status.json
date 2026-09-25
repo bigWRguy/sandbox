@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T07:29:13.750Z",
+  "generatedAt": "2026-09-25T07:55:15.111Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-25T07:29:13.434Z",
+    "at": "2026-09-25T07:55:14.909Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7958502777777777,
-    "p95Hours": 1.2855211111111111,
-    "worstHours": 1.5430766666666667
+    "medianHours": 0.9783125,
+    "p95Hours": 1.4744494444444445,
+    "worstHours": 1.7192325
   },
   "decisionCoverage": {
-    "total": 22,
-    "decided": 22,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,195 +55,145 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-25T07:29:13.433Z",
-      "got": 28,
-      "new": 22,
-      "lag": 0.04
+      "at": "2026-09-25T07:55:14.909Z",
+      "got": 21,
+      "new": 15,
+      "lag": 0.35
     }
   },
   "audit": {
-    "at": "2026-09-25T07:27:50.761Z",
+    "at": "2026-09-25T07:53:52.032Z",
     "mode": "live",
     "collection": {
-      "returned": 28,
-      "kept": 22,
-      "duplicate": 6,
-      "tooOld": 0,
+      "returned": 21,
+      "kept": 15,
+      "duplicate": 4,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 6,
+      "accepted": 12,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 2,
-        "hard_negative": 1
+        "no_offer_term": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2103364918884139517",
-          "author": "arrelious_p",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After a talk with @CoachSmithCats I am blessed and excited to receive an offer from @LinfieldFB @TigerNationFB @CoachWhitleyII @teamlillard7on7 @flyguyhuey5 @RCarterTV #YKWTII #EOGA https://t.co/yX4ADpCS6r"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103369999494824028",
-          "author": "cozydomainer",
-          "searchJob": "wake-forest",
-          "text": "I have offers of 10k and 13k for https://t.co/5KZpE9aoe0 What you think? Hold and sell for 6 figures?😳"
+          "reason": "no_offer_term",
+          "postId": "2103380755611099632",
+          "author": "realltmikamouse",
+          "searchJob": "missouri",
+          "text": "St. Louis is such a shitty place sometimes man. https://t.co/fpcprKxwVp"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103216659938852865",
-          "author": "zoomerhistorian",
-          "searchJob": "wake-forest",
-          "text": "We were historically welcoming to a tiny minority of French Protestants (who are nearly genetically identical to us) as well as individual, usually extremely talented or high profile, other Europeans. We were not historically welcoming to a"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103380419899003251",
-          "author": "arnoldcarton",
-          "searchJob": "notre-dame",
-          "text": "@Sourbake2 @irish_news I will decline that offer. We need to talk."
+          "postId": "2103322692686643300",
+          "author": "lindsay_rhodes",
+          "searchJob": "miami",
+          "text": "Entire game rushing numbers for Green Bay. 🤯 https://t.co/qP99lGbpvI"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103379165131014502",
-          "author": "rugbypass",
-          "searchJob": "notre-dame",
-          "text": "“It has created another pinnacle event for us.” 💬 - @joeharvey34 👨‍💻 spoke to the Black Ferns about the first-ever British &amp; Irish Lions tour https://t.co/nwrHnkJuSA"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2103364856418025556",
-          "author": "croyman99",
-          "searchJob": "arkansas-state",
-          "text": "@MichealMartinTD Palestinians don't want a state, they've been offered a state, many times. They want to destroy a state and commit genocide. Herein lies the problem 🙄"
+          "postId": "2103142162464383306",
+          "author": "villetavio",
+          "searchJob": "army",
+          "text": "Arlingtonin sotilashautausmaalla kunnioittamassa Suomen sotasankarien muistoa. Vierailin Lauri Törnin (Larry Thorne), Olavi Alakulpin ja Aito Keravuoren haudoilla. Arlingtoniin hautaaminen on suuri sotilaallinen kunnia ja hautapaikan saamis"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "school_not_resolved_confidently": 6
+        "bare_mention_requires_llm": 9,
+        "school_not_resolved_confidently": 2,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103373819633152301",
-          "author": "westermanrobbie",
-          "searchJob": "navy",
-          "text": "4. Officials explicitly distinguished releasing historical videos from protecting ongoing investigations April 20–22, 2020 | PDF pages 334–336 An email chain sets out the coordinated process for releasing historical Navy videos through NAVA"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103372905480335490",
-          "author": "jamesrosone",
-          "searchJob": "navy",
-          "text": "All I know is this, Tom. We fought a 19-year war in Afghanistan and eight years in Iraq. The ONLY general officer relieved of duty during that entire time was General Stan McChrystal, and it was for bad-mouthing President Obama, not incompe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103365130247389662",
-          "author": "vintagelagoon",
-          "searchJob": "navy",
-          "text": "💙 Vintage Blue Lagoon 🍂Preloved &amp; Vintage Autumn Fashion! 🛍️ New pieces added regularly. 🤎👡 Pins &amp; Needles Navy Polka Dot Fit &amp; Flare Dress | ¾ Sleeve | Small | £7 Offers still welcome on Vinted &amp; eBay Links in bio #Vin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103364798779945384",
-          "author": "timothymshadrix",
-          "searchJob": "indiana",
-          "text": "Sign Sophie Cunningham and Kelsey Mitchell . Then offer the first pick you have and Your point guard Lacan, and I think her name is legal-Walker or something like that and rivers that gives Indiana a new point guard and the other guards the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103377839605387295",
-          "author": "tnews_racing",
-          "searchJob": "kentucky",
-          "text": "UPI Horse Racing Weekend Preview > Breeders' Cup bids are on offer at Belmont Park and Santa Anita in weekend horse racing and the Road to the Kentucky Derby winds through the British Isles - Grade 1 racing returns to Japan while a potentia"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103378068165530058",
-          "author": "officialrolaai",
-          "searchJob": "maryland",
-          "text": "2/5 Baltimore alleges the platforms offer sports-betting-style products without the licenses required under Maryland law. The city is seeking injunctions, civil penalties, and restitution."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103383648963571914",
-          "author": "ttradingtalks",
-          "searchJob": "michigan",
-          "text": "Before the US open — 3 things I’m watching today: 1. S&P 500 — 7,700 remains the immediate battleground. The S&P 500 finished Thursday almost unchanged at 7,704, but the surface was weaker than the index suggested: eight of eleven sectors f"
+          "postId": "2103385113669050753",
+          "author": "letsarmukr",
+          "searchJob": "miami",
+          "text": "The Axios readout from Zelensky is useful. It shows the gap between what the Trump team wants to sell and what the Kremlin is actually willing to buy. The White House is floating three steps: an energy truce, restoration of the Black Sea gr"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2103385650590343578",
-          "author": "destinyosik",
-          "searchJob": "wake-forest",
-          "text": "My daily routine Wake up 》 Apply for jobs》 check Gmail if previous jobs got accepted 》 Check X Dm If anyone has an offer for me Repeat everyday Good morning X👉👈 https://t.co/D2bloLVN8I"
+          "postId": "2103373673512186042",
+          "author": "namingtime",
+          "searchJob": "miami",
+          "text": "🏔️ OWN ULTIMATE ALASKA DIGITAL ASSET: https://t.co/nwUvGXmLLs & .US Domain Bundle For Sale! 🌲 By utilizing https://t.co/nwUvGXmLLs (“Find Your Alaska” Popular Slogan; Also asset to convey Explorative Spirit; any media company #digitalasse"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2103383387457376728",
-          "author": "domainfractions",
-          "searchJob": "wake-forest",
-          "text": "Touch call. If enough people hold strong, it could reset the market and push .si prices across the board higher. That’s exactly what we need to see. $10K → $13K offers on a name like https://t.co/GTRaapEi7x… maybe the market is starting to "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103380783905784254",
-          "author": "laughingcav1",
-          "searchJob": "wake-forest",
-          "text": "In the wake of William of Orange ascending to the English throne there was a spring of anti-Dutch xenophobia, likely exacerbated by the effects Dutch immigration had on labour in the docks or such like, and which in response produced the fi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103377629822795964",
-          "author": "mikailhamzat",
-          "searchJob": "wake-forest",
-          "text": "I thought building a school management system was just coding. I was wrong. It’s records, academics, fees, security, integrations, training, and endless support calls. Every morning, I wake up to users request on WhatsApp. Yesterday, I met "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103374778853982567",
-          "author": "bigcloud101",
-          "searchJob": "wake-forest",
-          "text": "@AethernaDei @Olamilekan_bb You better wake up from the delusion that there are actually any good guys The goodies they offer you is inconsequential to their economy. You’re a country of over 200m consumers very little production of course "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103366967944216981",
-          "author": "ashishs23097428",
-          "searchJob": "wake-forest",
-          "text": "@AadiAchint Iranian president was in India for BRICS. We offered him hospitality, supported in catastrophic natural calamities yet these people treat us in this manner. Modi &amp; co should wake up."
+          "postId": "2103371260260725173",
+          "author": "gosu984",
+          "searchJob": "miami",
+          "text": "Which running back can they trade for? I would call Miami and offer 2027 third round pick for Achane."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103384536168165672",
-          "author": "el_fllibuster0",
-          "searchJob": "arkansas-state",
-          "text": "🔻'Can’t apply this willy nilly, using arguments that rely on a heavy amount of political cynicism rather than what is actually happening on the ground. look closely at how the cases involving Bonoan and Bersamin are playing out, the ‘lawfa"
+          "postId": "2103387604242862529",
+          "author": "austinburley1",
+          "searchJob": "army",
+          "text": "@JoeyMannarino Well when an army is at your door you should probably offer protection to not piss them off. That would be wise"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103374413085196455",
-          "author": "d1_david",
-          "searchJob": "arkansas-state",
-          "text": "They were offered a state. They refused to accept it. Instead, the day after partition was announced they started killing jews and then invented the Nakba lie when again they got their arses kicked. Why accept the creation of the jordanian "
+          "postId": "2103386393691251121",
+          "author": "itsjosswayar",
+          "searchJob": "army",
+          "text": "B. Offer military assistance −20 Army, +35 Alliance"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103370745032093733",
-          "author": "swordotx",
-          "searchJob": "arkansas-state",
-          "text": "The Mechanics of Comparison and the Path to Gratitude ​Envy is unique among the traditional vices because it offers no direct physical pleasure; instead, it is entirely rooted in psychological pain and discontent. While jealousy involves fe"
+          "postId": "2103384538957455659",
+          "author": "theneutralbay",
+          "searchJob": "army",
+          "text": "@georgedarroch Sometimes you find out regardless of what you asked for, they only offered the four approved haircuts of the People's Liberation Army... https://t.co/sXuv2djXTN"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103381647437775146",
+          "author": "xrpbrainst0rm",
+          "searchJob": "army",
+          "text": "Elon Musk: Most unfortunate. Rockets are hard. BOOM! <> boom🪞doom 👇Miss fortune <> Panda <> Seth Rich https://t.co/hTKGu7Syuq UNfortunate <> UN unfortunate <> USA going to cut the purse strings 'Most unfortunate' in Simple Gematria is 222"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103380368585891991",
+          "author": "pmakela1",
+          "searchJob": "army",
+          "text": "Finnish minister laid flowers to the tomb of an SS officer! And that's a great thing because Lauri Törni fought against Russia and communism where ever he went. Stalin offered a bounty for his head. US Army decorated him with a bronze star "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103377584188694922",
+          "author": "jamnewscaucasus",
+          "searchJob": "army",
+          "text": "Friday morning headlines from #Armenia, 25 September ● EU Commissioner for Enlargement Marta Kos said the EU has decided to open its market to almost 80% of Armenian goods, “from apricots and cherries to tomatoes and cut flowers”. “We want "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103370944026910869",
+          "author": "fterotos1981",
+          "searchJob": "army",
+          "text": "@Israel Come visit us , we are a lovely country, u can raoe a child here, if u like t ritual type ask for a rabbi. If u want to shoot a brown negro u can enrol to our most moral army of t universe. If u have other sadistic inclinations we h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103370138166686007",
+          "author": "bethbryan63",
+          "searchJob": "army",
+          "text": "@models_by_Russ There is no pain quite like the loss of a loyal canine friend. There is a bond that is deeper than a human can offer. There is a whole army of us out here sending our thoughts and feeling your grief. I will always remember B"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103382452664180785",
+          "author": "dan_sitbon_corp",
+          "searchJob": "buffalo",
+          "text": "69. THE NATIONS ARE BEGINNING TO TAKE PART IN THE CONSTRUCTION. Yesterday, we spoke about unity among human beings. Today, as we enter Sukkot, that unity expands even further. IT BECOMES GLOBAL. Sukkot reminds us that in the time of the Tem"
         }
       ]
     },
@@ -258,11 +208,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-25T07:29:13.751Z"
+    "status rebuilt locally from current store on 2026-09-25T07:55:15.112Z"
   ]
 }
