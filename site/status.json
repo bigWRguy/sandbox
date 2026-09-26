@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T06:58:12.397Z",
+  "generatedAt": "2026-09-26T07:12:54.044Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-26T06:58:12.121Z",
+    "at": "2026-09-26T07:12:53.735Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7706508333333333,
-    "p95Hours": 1.278601111111111,
-    "worstHours": 1.5180694444444445
+    "medianHours": 0.7653863888888889,
+    "p95Hours": 1.2721333333333333,
+    "worstHours": 1.5235030555555555
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -49,66 +49,103 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1901,
+    "completeOffers": 1902,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-26T06:58:12.120Z",
-      "got": 12,
-      "new": 3,
-      "lag": 0.58
+      "at": "2026-09-26T07:12:53.735Z",
+      "got": 24,
+      "new": 9,
+      "lag": 0.2
     }
   },
   "audit": {
-    "at": "2026-09-26T06:56:39.538Z",
+    "at": "2026-09-26T07:11:24.732Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 3,
-      "duplicate": 9,
+      "returned": 24,
+      "kept": 9,
+      "duplicate": 15,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 5,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "no_fbs_school": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2103720342061506851",
-          "author": "magats_exposed",
-          "searchJob": "hawaii",
-          "text": "Bhakti “Batarti” Gabbard, the 55-year-old brother of former Democratic Congresswoman and current Trump administration figure and MAGAt Tulsi Gabbard, was arrested on July 17, 2026, by the Honolulu Police Department. He faces criminal charge"
+          "postId": "2103737606135534041",
+          "author": "mbjmemphis",
+          "searchJob": "memphis",
+          "text": "Home sellers offered concessions and dropped prices at record rates in August in a bid to boost sales interest, according to a new report. https://t.co/QWY3IHZEqs"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2103730050121994740",
-          "author": "indystar",
-          "searchJob": "indiana",
-          "text": "The Indiana Statehouse's cornerstone had Bibles, newspapers and seeds and more. But the governor wanted to dig out the stone to add this tribute. https://t.co/9vr5JG0SGX"
+          "reason": "no_fbs_school",
+          "postId": "2103736835021091205",
+          "author": "fonsietrader",
+          "searchJob": "class:2026",
+          "text": "$TE — the floor is $3.50. The funds already know it. T1 Energy is not a concept. It is a factory. G1 Dallas is a working 5 GW module plant in Texas. Second quarter printed $250 million of sales and 935 MW of modules. Management says full-ye"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103741564220543173",
+          "author": "lnrailway",
+          "searchJob": "northwestern",
+          "text": "No parallel parking needed 😅 Get 50% off train travel when you sign up by 29 Sept for travel up until 25 Oct. Get your offer 👉 https://t.co/aD9BKc0U2j https://t.co/JTp3Ue172U"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103739768022421622",
+          "author": "yoyoyo98765",
+          "searchJob": "miami",
+          "text": "@CFBTalkDaily Bro had offers from Oregon, Miami, FSU, Oklahoma, aTm, and UT but ok."
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 4,
       "reasons": {
-        "multiple_resolved_schools": 1
+        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 2,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103732163564974238",
-          "author": "silvergracejean",
-          "searchJob": "kansas",
-          "text": "Traveled through 4 states today: Kansas, Oklahoma, Missouri &amp; Arkansas. Did the admin side answering emails and countering offers. Then I got an encouraging message 🥳 All in all, not too shabby for a Friday. #ugc https://t.co/qCz7LNNA4"
+          "reason": "reporter_missing_player_name",
+          "postId": "2103723294608236791",
+          "author": "drew_toennies",
+          "searchJob": "memphis",
+          "text": "#TN2027 EDGE out of Antioch picks up an offer from Memphis ⬇️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103741397656535495",
+          "author": "ourcryptotalk",
+          "searchJob": "class:2026",
+          "text": "$QNT pumped 50% in a week. The \"boring\" token that nobody talks about just got selected by the US and UK banking systems simultaneously. $10B is a 7x from here. And it looks more than possible right now. Check this out 👇 → What happened on"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103740689402216600",
+          "author": "biplabrozario",
+          "searchJob": "northwestern",
+          "text": "X says Lee Beebe Jr. is trending and offers zero explanation. His 203 rushing yards against Northwestern are an obvious hook, though. Guess the trend label is keeping its secrets."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103726485240508795",
+          "author": "thecoolermelb",
+          "searchJob": "miami",
+          "text": "@cash_money_cane @UM_radio_Mic The masters program I went to was only offered at miami or Barry so either way I was gonna have to fork out some cash. And I didn’t wanna move cuz I had my job that I worked thru grad school. I’m close to payi"
         }
       ]
     },
@@ -122,12 +159,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 4,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-26T06:58:12.398Z"
+    "status rebuilt locally from current store on 2026-09-26T07:12:54.045Z"
   ]
 }
