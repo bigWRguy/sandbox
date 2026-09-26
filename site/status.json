@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T17:24:32.490Z",
+  "generatedAt": "2026-09-26T17:43:04.468Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-26T17:24:32.131Z",
+    "at": "2026-09-26T17:43:04.100Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.9647458333333333,
-    "p95Hours": 1.7180763888888888,
-    "worstHours": 1.9628922222222223
+    "medianHours": 1.0269527777777778,
+    "p95Hours": 1.7758391666666666,
+    "worstHours": 1.7758391666666666
   },
   "decisionCoverage": {
-    "total": 68,
-    "decided": 68,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -55,380 +55,296 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-26T17:24:32.130Z",
-      "got": 97,
-      "new": 68,
+      "at": "2026-09-26T17:43:04.100Z",
+      "got": 64,
+      "new": 39,
       "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-26T17:23:00.990Z",
+    "at": "2026-09-26T17:41:28.620Z",
     "mode": "live",
     "collection": {
-      "returned": 97,
-      "kept": 68,
-      "duplicate": 28,
-      "tooOld": 1,
+      "returned": 64,
+      "kept": 39,
+      "duplicate": 23,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 41,
-      "rejected": 27,
+      "accepted": 27,
+      "rejected": 12,
       "reasons": {
-        "no_fbs_school": 12,
-        "hard_negative": 5,
-        "no_offer_term": 10
+        "no_offer_term": 4,
+        "unclassified_offer_text": 3,
+        "hard_negative": 1,
+        "no_fbs_school": 3,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2103894423314567400",
-          "author": "scarletjersey",
-          "searchJob": "ohio",
-          "text": "Sayin offered that into double coverage"
+          "reason": "no_offer_term",
+          "postId": "2103892228527599765",
+          "author": "madcowsyndicate",
+          "searchJob": "south-florida",
+          "text": "https://t.co/gwvtPb9m7b"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103894803411026125",
+          "author": "lastingczardd",
+          "searchJob": "temple",
+          "text": "Pass the trial by shadow it will actually change your life"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2103862875655749707",
+          "author": "gdavidmoses_",
+          "searchJob": "temple",
+          "text": "/ ↑ \\ 7 DAYS SUKKOT OFFERINGS Leviticus 29:12-38 Bulls 70×330+70×(490×0.30+390) = 60690 Rams 14×41+14×(490×0.20+390) = 7406 Lambs 98×372+98×(490×0.10+390) = 79478 = 147,574 Reinforcing: 14×7 [ 98 Gens Patriarchs to Gelson ] 147 The Root of "
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2103728079143059743",
+          "author": "gdavidmoses_",
+          "searchJob": "temple",
+          "text": "/ ↑ \\ The Fractional Shift: Mapping the Micro to the Macro In biblical cryptography and advanced gematria, a shift in the decimal point or a change in scale ( from single units to trillions ) does not alter the foundational essence of the n"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103886416191381514",
+          "author": "pastordavidhiga",
+          "searchJob": "temple",
+          "text": "Sovereignty and responsibility - What's your perspective? https://t.co/CWFE7B4339"
         },
         {
           "reason": "hard_negative",
-          "postId": "2103894167361405191",
-          "author": "thewildtrouble",
-          "searchJob": "ohio",
-          "text": "EAST CLINTWOOD Written by TheWildTroublemaker The world’s worst detective is accidentally the only one who can solve the case. Bradley Pritchett, mild-mannered Ohio insurance adjuster, wakes from a three-week coma and discovers his brain ha"
+          "postId": "2103897669588447541",
+          "author": "eliotclough",
+          "searchJob": "toledo",
+          "text": "Iowa offers 2029 running back out of Cincinnati Archbishop Moeller (OH), Britton Brown. Also holds offers from Miami (OH) and Toledo. Profile: https://t.co/gcmFw8Io9b"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103894392352166000",
+          "author": "jaydenthom75341",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "After a great conversation with @jimmy_peyton1 I have received my first offer @coachmarksnyder ,@SSUBEARSFB @mhspiratefball https://t.co/oRjIqiNibY"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103879590246744567",
+          "author": "eliasnike31",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "March 16 has become a pretty legendary date around here! That day in 1999, I got my first call to photograph Bob Dylan. Later that afternoon, I received my first offer to shoot Bruce Springsteen. Fast forward a few years, and I was called t"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2103896174566822339",
+          "author": "batmankave",
+          "searchJob": "miami",
+          "text": "After a great talk with Head Coach Tywayne Stevens, I am extremely blessed and honored to have received an offer from Miami Legends Junior College! @MiamiLegends26 #flhsfb #hsfootball #collegefootball #juco https://t.co/xOd2PRjb4H"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103891952810791148",
-          "author": "yourohionews",
-          "searchJob": "ohio",
-          "text": "@yourohionews https://t.co/8rZLoMCvE2"
+          "postId": "2103877448748155354",
+          "author": "miaminewtimes",
+          "searchJob": "miami",
+          "text": "Immigration advocate Thomas Kennedy told New Times the event is \"beyond poor taste.\" 🔗 https://t.co/u6XGfgLad2 https://t.co/WYDjVAldlP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2103874743975961038",
-          "author": "gnarlsdarkley",
-          "searchJob": "ohio",
-          "text": "@iamwholellc This was back in the old twitter days when black baldamore twitter was a thing i offered ocho the fade every time i was in Ohio cuz he was fucking up my ff team with his shitty performances"
+          "postId": "2103887398958436799",
+          "author": "exit99sports",
+          "searchJob": "phrase:\"picks up an offer from\"",
+          "text": "Saxony Junior @KenzieKeys2028 picks up an offer from Westminster!"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2103866179286962489",
-          "author": "gnarlsdarkley",
-          "searchJob": "ohio",
-          "text": "@Muva2Js I cussed him out a lot cuz he was fucking up my fantasy football team n i offered him the fade every time i was in Ohio😭😭😭😭😭 this back in the prime black baltimore twitter days and i wont say what i said to Amber to get blocke"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103897695098130642",
-          "author": "iamshinzdev",
-          "searchJob": "rice",
-          "text": "https://t.co/TweWL25Fsh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103885545889739254",
-          "author": "mike901rice",
-          "searchJob": "rice",
-          "text": "@wllcrwlr @ThePaintNBA Really so Matt wasn’t bucking up saying he’s a street N and that he got hands? Then some body offered to pay them to box. Matt backed out I ain’t throwing no hands. I got that thang on me, that’s how I get down. He di"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103876085368693195",
-          "author": "thearsfam97",
-          "searchJob": "rice",
-          "text": "So now you agree there is context as to why Bruno G and Rice haven't played, right? But I thought Arteta playing them was the argument? Was Bruno G not fit against Brighton, bastard? What happened? That is how I've destroyed your moronic \"A"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103874803480318191",
-          "author": "sodyhalliday",
-          "searchJob": "rice",
-          "text": "I’m glad you’re not Arteta, insane output that Arteta has decided to bin? You’re such a fool and engaging with you any further would make me lose brain cells. When we meet tough teams they fire blanks together in that system as you can see "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103896129293414677",
-          "author": "chrissmoothqb",
-          "searchJob": "class:2028",
-          "text": "#ᴀɢᴛɢ University of Alabama at Birmingham Offered @CoachCarmean @rvfc10 @KMHS_FootballGa https://t.co/eYg9N8FMXb"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2103896187728208104",
-          "author": "alfred3o3",
-          "searchJob": "minnesota",
-          "text": "#RANGERS AT #TWINS #ALFRED’S #KALSHI #MLB SCAN | SEPTEMBER 26, 2026 Snapshot: September 26, 2026 at 09:53 AM UTC-07:00 DESK VIEW Texas is a narrow market favorite: Rangers YES costs 53¢, Twins YES costs 48¢. Eovaldi has the stronger strikeo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103895098203451800",
-          "author": "tommherman",
-          "searchJob": "minnesota",
-          "text": "@SandyWhiteCA @Weird_Canadian CA and provinces have had trade barriers for yrs.They have not been free traders. There will always be trade disputes. Canadians have become entitled and complacent. The deal that was offered wasn’t perfect but"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103896901653311918",
-          "author": "missourirevenue",
-          "searchJob": "missouri",
-          "text": "#DOR offers several online services to better serve Missourians, including online license plate renewal. Visit https://t.co/JZ62coU9CS to see if you’re eligible to renew your plates online today! https://t.co/H0hv7Q4MAW"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103883109259420136",
-          "author": "spacesh_2spkers",
-          "searchJob": "missouri",
-          "text": "@mattvanswol https://t.co/zyr6rR7hEb"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103894443481027054",
-          "author": "braydentipp1",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG after great talks with @CoachOwens_12 blessed to receive my first collegiate offer to @BrevardF5!! @kingshannon_3 @Jahsai4Shannon @hoyoonlee5 https://t.co/sq2iERlaA6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103893051139854444",
-          "author": "lockdown_emann",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "AGTG!! I’m blessed to receive my 2nd official offer, love to see the sweat and tears pay off! @CUWFB @Coach_DixonNCHS @CoachASullivan @LakeIV @Coach_GLee_TC @akpoole2001 @s_bennight @CoachStrange06 https://t.co/9VPvOvLlB6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103887654819430664",
-          "author": "corbinprice79",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I’m grateful to have received an offer to continue my academic and athletic career at Marietta College! Thank you for believing in me and for making my family and me feel so welcome. I really enjoyed the family atmosphere and everything abo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103896560723526069",
-          "author": "coreynoles",
-          "searchJob": "florida-state",
-          "text": "@alexandr_wang When Muse offers to send a feature request to the team, do those actually go through? Thought it was really cool that it offered, but figured I'd ensure that was actually happening lol"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103234707215593498",
-          "author": "pawsntails4tx",
-          "searchJob": "houston",
-          "text": "💔🐾KIKI #A661224 Arrived 8/31 with sister BEBE ( has own video) 🚨At risk TB☠️ 9/25 2 yrs. 32lbs 😢Flinches when someone goes to pet her or give her a treat ⭐️HW- Please #PLEDGE #FOSTER #ADOPT Harris County Pets 612 Canino Houston #TX http"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103869954789703876",
-          "author": "janisfranq3x",
-          "searchJob": "houston",
-          "text": "😅 oslobet panelinde ilk hatam süre satırını sonraya bırakmaktı. Sonuç: 5 gün gecikme, 500 TL acemi paketi sonunda tanımlandı. Hatayı tekrarlama: https://t.co/VJRAmXQtC7 Tavsiyem: adımları numaralayın, vakit kazandırır. https://t.co/XDkcZWY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2103878575015317713",
-          "author": "bodyutah",
-          "searchJob": "utah",
-          "text": "Routine changes can disrupt sleep, energy, and digestion. Acupuncture may help with stress, headaches, and nausea, while hyperbaric oxygen therapy and physician-guided weight management can offer steadier support. https://t.co/P4daCcEDX8 #u"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2103879758698152012",
-          "author": "wvnews247",
-          "searchJob": "west-virginia",
-          "text": "🔗 https://t.co/Ii6KDYYuMN"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2103888748631007312",
-          "author": "wheeloff",
-          "searchJob": "army",
-          "text": "Satan never sleeps; his purpose is to kill, steal, and destroy. He wants to kill the spirit of the true God and Christ within believing Christians. He wants to steal human beings away from the only salvation that exists--through Jesus Chris"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2103888383470891272",
-          "author": "zerobarkthirty2",
-          "searchJob": "army",
-          "text": "TRUMP'S CARIBBEAN GAGGLE: A CUBA \"DEAL,\" NO MILITARY \"NEEDED,\" AND ELECTIONS TALK WITH VENEZUELA'S INTERIM LEADER WHAT HE SAID Speaking to reporters at the White House on Saturday, Sept. 26, 2026, President Donald Trump predicted a U.S. agr"
+          "reason": "unclassified_offer_text",
+          "postId": "2103557775771213864",
+          "author": "kenziekeys2028",
+          "searchJob": "phrase:\"picks up an offer from\"",
+          "text": "Huge thank you to Coach @Peyton_Whitted for the great visit and for offering me the opportunity to play basketball at Westminster College! @TC_Hoops @SaxonyGirlsBB @wc_bluejayswbb https://t.co/rZM5WGNpYD"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 40,
+      "accepted": 0,
+      "rejected": 27,
       "reasons": {
-        "bare_mention_requires_llm": 34,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_position": 1,
-        "player_missing_class_year": 1,
-        "author_not_recruit:no recruit fields": 1
+        "school_not_resolved_confidently": 10,
+        "multiple_resolved_schools": 6,
+        "bare_mention_requires_llm": 11
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103884731402068268",
-          "author": "michekyakeymii",
-          "searchJob": "ohio",
-          "text": "🚨 BIG VOTING RULING IN OHIO JUST WEEKS BEFORE THE MIDTERMS Ohio can once again require certain people registering to vote through the Bureau of Motor Vehicles to provide documentary proof of U.S. citizenship. A divided federal appeals cour"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103899479455797626",
+          "author": "jrinker2",
+          "searchJob": "south-florida",
+          "text": "Hebrews 10:1-4 Animal Sacrifices Insufficient 10 For the law, having a shadow of the good things to come, and not the very image of the things, can never with these same sacrifices, which they offer continually year by year, make those who "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103896148356317273",
-          "author": "stronggirllolla",
-          "searchJob": "rice",
-          "text": "A man will offer to buy you valuables, you reject and ask for cash thinking you are smart? 😂😂😂I am talking about refilling your Gas, food stuffs ,e.g yam, rice etc . And you say you prefer cash? You guys don’t know anything. That man wil"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103890505578758334",
-          "author": "akenday1",
-          "searchJob": "rice",
-          "text": "@vanguardngrnews 2027 Petrol 1 litre N1,500 Gas 1kg N1,959 Bag of rice 1 N98,000 Bag of beans 1 N170,000 Basket of tomatoes N60,000 Tuber of yam 1 N5,500 If you don't want another years of suffering please vote wisely, APC have nothing to o"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103878835838059003",
-          "author": "sodyhalliday",
-          "searchJob": "rice",
-          "text": "You’re a fool who thinks himself wise, and that’s the greatest type of fool you can be. You want to try to use analogies that don’t even make sense. Arteta would eventually use Rice and Guimaraes once both are fit. He did it against Brighto"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103876031140467137",
-          "author": "austincrypto24",
-          "searchJob": "rice",
-          "text": "@OgbajiIfeanyi What else can they offer if not rice?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103870800608776259",
-          "author": "astrocounselkk",
-          "searchJob": "rice",
-          "text": "Mahalaya paksha - Rituals for honouring Ancestors starts today. Let us remember them and get blessed: \" svadhA \" is a magnificent name of the Divine Mother Lalithadevi. It is the 536th name in the Sri Lalita Sahasranama. \" sva-Sktya viSvam "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103869655186305399",
-          "author": "astrohiranshi",
-          "searchJob": "rice",
-          "text": "5/ PITṚA PAKSHA I DO's & DON'Ts THEY ARE WATCHING. THEY ARE WAITING. ✅ WHAT TO DO ▫️Intake Sattvic food ➞ Keep your diet simple and pure. ▫️Feed cows, dogs & crows ➞ Offer food with श्रद्धा and respect. ▫️Pray & chant ➞ Light a diya and rem"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103869651390488909",
-          "author": "astrohiranshi",
-          "searchJob": "rice",
-          "text": "4/ HOW TO PERFORM TARPAN FOR ANCESTORS The essence of Shradh is श्रद्धा - remembrance, gratitude and respect for one's ancestors. 🚩Rise early on the Shradh day, take a bath and wear clean, sattvic clothes. 🚩Prepare the Tarpan water in a c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103869647510790265",
-          "author": "astrohiranshi",
-          "searchJob": "rice",
-          "text": "3/ PITRU DOSHA REMEDIES Pitru Paksha is a period of Shraddha, remembrance, seva and gratitude, not fear. Practice the following simple remedies. 👇🏻 1️⃣ SHRADDHA & TARPAN • Perform during Pitru Paksha. • Offer water, sesame and rice. • Rem"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103898534999101501",
+          "author": "jrinker2",
+          "searchJob": "south-florida",
+          "text": "Hebrews 10 Animal Sacrifices Insufficient 10 For the law, having a shadow of the good things to come, and not the very image of the things, can never with these same sacrifices, which they offer continually year by year, make those who appr"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2103891679556030533",
-          "author": "zoomzoombye",
-          "searchJob": "minnesota",
-          "text": "HOW IS THIS LEGAL? A Democrat \"Resistance Lab\" is TARGETING ICE! @RepJayapal says she’s trained 30,000 people to take to the streets. She called it “inspiring” when protesters surround courtrooms to keep ICE agents out. @RealTomHoman The Se"
+          "postId": "2103894669713133833",
+          "author": "jacthlete",
+          "searchJob": "south-florida",
+          "text": "I asked AI to design the perfect fall day and It gave me a bunch of garbage. This is actually the perfect fall day, crafted by me: Start off in the tree stand for a few hours. And by God’s grace, something walks in your line of sight. You d"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103882887925760332",
+          "author": "positiveosceola",
+          "searchJob": "south-florida",
+          "text": "🐎 BARREL RACING BRINGS THE ACTION TO SILVER SPURS ARENA The Silver Spurs Arena was filled with barrel racing action today, Saturday, September 26, as the Silver Spurs Club hosted a WPRA-approved competition featuring riders racing against "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103885199146717189",
-          "author": "obrienrick32",
-          "searchJob": "minnesota",
-          "text": "@BEACHSKATES @NHLart @oldhockeycards Minnesota offered all its draft picks. Quebec offered 3 Stastny bros. Habs offered 6 players, including Carbonneau GM EJ to Pens ownership telling him to make a trade: “When you have a player like that, "
+          "postId": "2103897460653613166",
+          "author": "jucofootballace",
+          "searchJob": "southern-miss",
+          "text": "Card'a Thompson @CardaThompson @ Southwest Mississippi JuCo @smccfootball picks up @SouthernMissFB Offer @SMCC_Athletics @CoachLGeorge @jucoweekly @MSJUCOREPORT https://t.co/DfTah0aNOn"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103885573320569230",
+          "author": "benbuckhoff",
+          "searchJob": "southern-miss",
+          "text": "@ConnorBrian15 @c0smic_cracker @_PatrickSimpson He almost took the Southern Miss job last offseason. The difference is when he starts getting P4 offers"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103897223771636068",
+          "author": "nikylamaria",
+          "searchJob": "temple",
+          "text": "The silver streak at my temple doubled over winter. My aunt offered a colorist for \"gray blending.\" I looked at it in the mirror: like salt on dark granite, time moving through a living head. I won't perform an illusion for people who fear "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103897147536011719",
+          "author": "lastingczardd",
+          "searchJob": "temple",
+          "text": "TRIAL OF SHADOW (Symbolic Version) [Intro – Whispered] ⟦⊘ ≺ 0 → 1⟧ 𒀭 𓂀 ∴ I entered the gate to name the thing beneath the name. Not for worship. Not for surrender. For sight. Oculi Animae Patent. --- [Verse I] I walked where the candles a"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2103877256011542717",
-          "author": "bluelivesmtr",
-          "searchJob": "minnesota",
-          "text": "HOW IS THIS LEGAL? A Democrat \"Resistance Lab\" is TARGETING ICE! Rep. Pramila Jayapal says she’s trained 30,000 people to take to the streets. She called it “inspiring” when protesters surround courtrooms to keep ICE agents out. The Seattle"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2103880745899196786",
-          "author": "nathanpurvis",
-          "searchJob": "mississippi-state",
-          "text": "| OFFERED | Micah Gunter (@MicahGunter8), the class of 2028 @247Sports 4⭐️ guard from Greensboro Day School (Greensboro, NC), picks up the offer from Mississippi State. https://t.co/e2TcZ4kIpN"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2103895362649878714",
-          "author": "cardathompson",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great phone call with Coach Coughlin, I am blessed to receive an offer from @CoachSCoughlin @SouthernMissFB!!!! #AGTG @JuCoFootballACE @JUCORush @JUCOFFrenzy @CoachLGeorge @Earvin_Moore https://t.co/aYIXdfPmqr"
+          "postId": "2103896813178692086",
+          "author": "aavelleascended",
+          "searchJob": "temple",
+          "text": "Leo Leo is the Latin word for lion. It is the same word as Greek λέων (léōn). In the ancient Mediterranean it named first the animal, then the constellation that carried the animal into the sky, then men and grades of initiation that took t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103886286582845896",
-          "author": "fsuwire",
-          "searchJob": "florida-state",
-          "text": "FSU extends offer to offensive tackle in Georgia 📸 Melina Myers, IMAGN IMAGES via Reuters Connect https://t.co/30UxgROTzR https://t.co/c3Mg90K1ii"
+          "postId": "2103895158261776507",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "TN : Puducherry BJP Minister Namassivayam offers prayers at Rameswaram temple. https://t.co/xNcSI1iw9b"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103897060760023325",
-          "author": "goldibee",
-          "searchJob": "houston",
-          "text": "💔 KIKI FLINCHES WHEN SOMEONE TRIES TO PET HER. That absolutely breaks my heart. Kiki #A661224 arrived at Harris County Pets with her sister Bebe on 8/31. She’s only 2 years old and 32 lbs. Shelter staff say she flinches when someone reache"
+          "postId": "2103891819042046038",
+          "author": "ani",
+          "searchJob": "temple",
+          "text": "#WATCH | Pratapgarh: Rajasthan Chief Minister Bhajanlal Sharma visited Pratapgarh district today. Upon his arrival, the Chief Minister visited the Deepeshwar Mahadev Temple and offered prayers. He was welcomed by the temple committee, and a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103885997331320952",
-          "author": "iam_bigvine",
-          "searchJob": "houston",
-          "text": "@spyritwriter @DubNationMedia Love that take but i would like to keep him and dray moody come back and keep tingus until u get a good offer be now that he doesn’t have that disease anymore so if he could come out there and avenge 20/10 and "
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2103880810793521213",
-          "author": "clementscrazies",
-          "searchJob": "houston",
-          "text": "@GS_Jacob @UHCougarFB I got tacos 🌮 but thanks for the offer!"
+          "postId": "2103889737761046564",
+          "author": "gdavidmoses_",
+          "searchJob": "temple",
+          "text": "/ ↑ \\ \"… DAVID shall never lack a man to sit on the Throne of the House of Israel [ HOJ&amp;HOI ], and the Levitical priests shall never lack a man in My Presence to offer burnt offerings, to burn grain offerings, and to make sacrifices FOR"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103868919169576979",
-          "author": "_kcoronado",
-          "searchJob": "houston",
-          "text": "I consistently get job offers in Houston. Almost on a daily basis. Is it a sign that I need to move back? Lol"
+          "postId": "2103887690777395552",
+          "author": "diprrajasthan",
+          "searchJob": "temple",
+          "text": "Chief Minister’s Visit to Pratapgarh CM Bhajan Lal Sharma’s Major Gifts to Udaipur Division: Performs Foundation Stone-Laying and Inauguration of Development Projects Worth ₹924 Crore State Government is working toward the development of ba"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103879756747886871",
-          "author": "wvnews247",
-          "searchJob": "west-virginia",
-          "text": "Over 225 West Virginia businesses are teaming up to offer free services, meals, and discounts during Freedom Day USA. See the participating business list in the comments #WestVirginia #FreedomDayUSA #Veterans #SupportOurTroops #WVNews https"
+          "postId": "2103883680783720568",
+          "author": "staciesonthebay",
+          "searchJob": "temple",
+          "text": "@cat_isana @NiallHarbison Leo kept trying to escape from HD, injuring himself. The oh so kind monk, friend of Earth’s took him in at a local temple. Guessing a friend/supporter of the monk’s/Earth/HD fell in love and offered Leo a real home"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103876710307414515",
+          "author": "762eagle",
+          "searchJob": "temple",
+          "text": "A message from me. Thank you to all the giants out there. The ones who sought this knowledge out so we can all have wisdom. You are the giants and we stand on your shoulders. I am grateful. ------------------------------ The Sun in Another "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103898150637641809",
+          "author": "reaasri",
+          "searchJob": "toledo",
+          "text": "RESOLUTE •The courage to continue. Elon Musk’s journey with SpaceX offers a powerful example of what persistence can achieve. When the company began developing reusable rockets, landing a rocket booster and bringing it safely back to Earth "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103889612192313384",
+          "author": "tomiz42069",
+          "searchJob": "toledo",
+          "text": "@TFTSAA @Based_Otto @TheOmniLiberal I am not antizionist. You have offered no explanation why supporting Palestinians necessistates supporting Hamas. It's just an allegation you keep repeating. I oppose shooting rockets at Jews.d You are ca"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103888276041978055",
+          "author": "truth_seeker_14",
+          "searchJob": "toledo",
+          "text": "I would with a plan in place. So much is lining up for the next month. I would put most of my assests into XRP and if it takes off you can buy back the other assests you sold, if you want to. Or if it doesn't take off the next two months yo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103877786423185870",
+          "author": "memedayz45",
+          "searchJob": "toledo",
+          "text": "Your “Palestine” was cooked up in the 1960s by Yasser Arafat, an Egyptian, to weaponise Arabs against Jews. Before that, no distinct Palestinian nation - just Arabs in a land Jews have lived in continuously for over 3,000 years. Rome rename"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103898188813889539",
+          "author": "mario1973p",
+          "searchJob": "kansas",
+          "text": "✍🏻🕵🏻‍♂️ Michael Schratt 📕 “Retrievals of the Third Kind – Cosmic Crashes, Corpses and Cover-ups” 🗓️ December 2013 🌐 https://t.co/ySkNZGE8gK🔗https://t.co/ZF0W0HBV8a This slideshow presents all 181 pages of “Retrievals of the Third Kin"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103893145616334930",
+          "author": "ballerschoice1",
+          "searchJob": "auburn",
+          "text": "#1 HOTTEST 2028 #UNCOMMITTED #UNRANKED ATH/DB/WR IN THE COUNTRY 6\"2 190 @ReedFowler_ AP STUDENT 4.1 #ELITESTUNDENTATHLETE BIG TIME PICK 6 #SUPERBALLER OFFERS: AUBURN, OREGON ST,OLE MISS, UNLV,ARK ST...................... 4SPORT ATH https://"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103894605489995920",
-          "author": "whatattbealive",
-          "searchJob": "arkansas-state",
-          "text": "What NEW with Lindsay Clancy 👨🏻‍💻👇 Lindsay Clancy’s murder trial ended in a mistrial on September 4, 2026. A jury of nine women and three men deadlocked 11-1 after about 38 hours of deliberations over seven days. Eleven jurors favored f"
+          "postId": "2103877830358511994",
+          "author": "valley_gmc",
+          "searchJob": "auburn",
+          "text": "#ROAD TRIP READY THURSDAYS #Complimentary Drive-Through Vehicle Check at Valley GMC Quick Lube Planning your next road trip? Let us help make sure your vehicle is ready to go! Road Trip Ready is a complimentary drive-through visual vehicle "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103890357306241493",
-          "author": "michaelashura",
-          "searchJob": "arkansas-state",
-          "text": "European leaders may go to war with Russia simply to prevent the growth of Eurosceptic dissent, as the rise of the AfD and anti-war right across the continent threatens the legitimacy of pro-EU elites—who now fear not only external defeat o"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103902676404838903",
+          "author": "_joanapala0",
+          "searchJob": "miami",
+          "text": "Would anyone be interested in 2 Aespa tickets for tonight at the Kaseya Center in Miami My sis and i can't go anymore😭but want to offer them cheap for people who actually are fans and want to go!"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103885754384724145",
-          "author": "wabilaura",
-          "searchJob": "arkansas-state",
-          "text": "structural read. PetLab Co. at 96 days live proves the offer stack is inevitable by the CTA. that is the whole trick. inevitability, not novelty, not surprise. angle: 🚨 most dog owners are making at least one of these dental mistakes. buil"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2103883723947041210",
-          "author": "emilykschrader",
-          "searchJob": "arkansas-state",
-          "text": "They can say whatever they want, that doesn’t make it true as unpopular as it is to say. Israel doesn’t pay terrorists. Israel accepted any offer for statehood that was made, but Palestinians did the opposite and launched wars instead, even"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103899963382001703",
+          "author": "alfred3o3",
+          "searchJob": "miami",
+          "text": "#ATLANTA #BRAVES AT #MIAMI #MARLINS #KALSHI #MLB SCAN September 26, 2026 — 09:59 AM PDT DESK VIEW: WAIT FOR LINEUP AND PITCHING-PLAN CLARITY Atlanta is a narrow market favorite, with YES offered at 52¢ versus Miami at 49¢. Atlanta’s stronge"
         }
       ]
     },
@@ -442,12 +358,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 40,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 27,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-26T17:24:32.491Z"
+    "status rebuilt locally from current store on 2026-09-26T17:43:04.470Z"
   ]
 }
