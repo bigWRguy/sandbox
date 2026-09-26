@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T15:41:47.425Z",
+  "generatedAt": "2026-09-26T15:58:03.549Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-26T15:41:47.179Z",
+    "at": "2026-09-26T15:58:03.211Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0055947222222221,
-    "p95Hours": 1.7559516666666666,
-    "worstHours": 1.7559516666666666
+    "medianHours": 1.0263952777777778,
+    "p95Hours": 1.7745,
+    "worstHours": 1.7745
   },
   "decisionCoverage": {
-    "total": 1,
-    "decided": 1,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
@@ -49,48 +49,195 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1911,
+    "completeOffers": 1912,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-26T15:41:47.179Z",
-      "got": 2,
-      "new": 1,
-      "lag": 0.07
+      "at": "2026-09-26T15:58:03.211Z",
+      "got": 35,
+      "new": 22,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-26T15:41:27.392Z",
+    "at": "2026-09-26T15:56:31.425Z",
     "mode": "live",
     "collection": {
-      "returned": 2,
-      "kept": 1,
-      "duplicate": 1,
+      "returned": 35,
+      "kept": 22,
+      "duplicate": 13,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 15,
+      "rejected": 7,
+      "reasons": {
+        "no_fbs_school": 5,
+        "hard_negative": 2
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103868171627196473",
+          "author": "bassburg",
+          "searchJob": "troy",
+          "text": "@LarryWild2028 Also, the new construction is much smaller sq ft than comparable used .. new still seems a waste of $$$. We're currently sitting on a fixer upper offer that is way overpriced."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103863537122656319",
+          "author": "troy81719319",
+          "searchJob": "troy",
+          "text": "@czrexchange just made the Genesis campaign more interesting. The pool has doubled from 5M to 10M CZR, while qualifying tasks now offer double campaign coins. CZR has been building around spot, which makes the ecosystem worth watching. Let’"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103871850447278538",
+          "author": "greeneyedlady_5",
+          "searchJob": "alabama",
+          "text": "@FreddyLA7 Outstanding game choice, young man!! 'Bama - Georgia Dawgs - LSU are, hands down, my favorite SEC teams to watch for that old school throw down Football. SEC Football is waaaay better than anything the NFL has to offer nowadays."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103860354354679998",
+          "author": "admedia__",
+          "searchJob": "alabama",
+          "text": "KEONI “🫣PEEKABOO🫣” SNIPES #11 IS UNREAL. HE HAS ALL SEC OFFERS AND IS A TOP DL IN ALABAMA😳 https://t.co/mVF2fmGTC9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103876187151831468",
+          "author": "karryaesp",
+          "searchJob": "miami",
+          "text": "Hello Everyone!! Anyone here looking for aespa tickets? 💙 I have 2 for tonight’s show at Kaseya Center in Miami, Florida 8PM. Sadly, I can’t make it anymore. Open to reasonable offers… DM me if interested!"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103867680109613414",
+          "author": "kg1735",
+          "searchJob": "miami",
+          "text": "Chinese Foreign Minister Wang Yi says President Xi Jinping’s visit to Washington helped preserve stability in relations with the United States and was intended to place the relationship on an equal footing. His assessment followed three day"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103874934502011317",
+          "author": "triumphantgo",
+          "searchJob": "virginia",
+          "text": "Enjoy. Thanks for talking civil, most only attack. No, I know Grok only know what the internet has to offer, but I wanted to see if there was any public info on missing people. I am curious where anyone got the idea that info is real, but i"
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 14,
       "reasons": {
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 6,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2103871543096865126",
-          "author": "rowberry_",
-          "searchJob": "kansas",
-          "text": "@bordeauxyt @BryceTinson I did a dynasty as Brennan Marion, did a year as OC for Colorado, finished the season 5-7 with a mid offense in the Big12, got the coaching carousel and I had 4th ranked Missouri &amp; 6th ranked Kansas State offer."
+          "postId": "2103870518747431394",
+          "author": "thebryceevins1",
+          "searchJob": "tulane",
+          "text": "2029 ATH First 4 Games 3 games at DB/WR 1 game at QB Offers: Houston, Tulane, UTSA, &amp; New Mexico 203 Total Yards 2 TDs 2 INTs 2 Solo Tackles 1 Asst @KLEINOAKFB @RecruitingTheO @Coach_BCarp @zkelley1985 @Coach_CJWard @coach_fav https://t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103861303894819256",
+          "author": "nickdall22",
+          "searchJob": "tulane",
+          "text": "@SouthernCharmSp Was just saying something very similar. It’s unbelievably misleading to those who don’t understand how offers work to compare this to a full ride at Tulane. This offer isn’t commitable!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103869884216270912",
+          "author": "jimmystein_lob",
+          "searchJob": "alabama",
+          "text": "@CFSfromGA Played with Eric Hines. I assume he has an Alabama offer? I wouldn’t know."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103869399627129073",
+          "author": "sestewart44",
+          "searchJob": "alabama",
+          "text": "Grubb was the one getting booed by the Alabama faithful, not the team! Grubb worked for Bama for less than a week before he quit & took the Seattle job in 2024! So, who's really the quitter! He needs to realize we BAMA fans don't boo our pl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103859905270800532",
+          "author": "pegsports7",
+          "searchJob": "alabama",
+          "text": "@Aurelian_27 @StickWithNate @IsaacEdelman Bama had an opening a few years ago and Lane wasn’t offered"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103873545386492267",
+          "author": "sparky124589764",
+          "searchJob": "michigan-state",
+          "text": "@LesterJone60254 @maverick_bet @claybwells10 I’m not doing a research project for you lmao all I have to tell you is Nick Saban himself said he left Michigan State for LSU because they offered better “administrative support” aka money for t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103865878315999568",
+          "author": "ruthjoy96960173",
+          "searchJob": "oklahoma",
+          "text": "Some good news for religious freedom coming out of Oklahoma. A federal court has ruled that the Oklahoma law that bars the establishment of religious charter schools violates the Free Exercise Clause of the First Amendment. A Jewish charter"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103857504522314066",
+          "author": "fbjunkies_",
+          "searchJob": "oklahoma",
+          "text": "Georgia has a monster recruiting visitor for Oklahoma today. Five-star 2028 EDGE Asher Ghioto, the No. 5 overall prospect and No. 1 EDGE in the 247Sports Composite, is visiting Athens. He reportedly already has more than 60 offers. Yahoo Sp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103872533162299625",
+          "author": "nealjosiah",
+          "searchJob": "louisville",
+          "text": "Louisville offered!! @DCCfootball @35Lewis53 @JMachDCC @jcessante @MarkIvey90 @vincemarrow https://t.co/khupys8BqL"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2103872322511818922",
+          "author": "dccfootball",
+          "searchJob": "louisville",
+          "text": "@nealjosiah @Amari_Dorsey02 offered by @LouisvilleFB #WeAreCC https://t.co/7KiYTq3SRl"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103873793168974315",
+          "author": "arunkatariaa",
+          "searchJob": "miami",
+          "text": "Idk about you guys But I’ve never purchased a coaching program based on someone having a nice car… And I’d be willing to bet most successful people on here didn’t either Try recalling the last time you paid someone thousands of dollars High"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103873554555281408",
+          "author": "thlandofthefree",
+          "searchJob": "miami",
+          "text": "@cartagena_11 Hey Jimmy is by far a 10 player of this generation and not everyone can win a ring. When Jimmy went to Miami he should have went LA like he was asked too but he declined the offer. 🤔 I'll say again if Jimmy didnt do what he d"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103864885155110998",
+          "author": "odds_shopper",
+          "searchJob": "miami",
+          "text": "How today's NRFI/YRFI prices compare to fair value YRFI Atlanta Braves vs Miami Marlins: +120 offered vs +113 fair (3.5% gap) YRFI Pittsburgh Pirates vs Detroit Tigers: +104 offered vs -100 fair (2.1% gap) Where these numbers come from: htt"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103852794780553512",
+          "author": "kngeliquenhoq",
+          "searchJob": "miami",
+          "text": "Now accepting a limited number of Miami clients. Beginning May 2026, Pure Method will offer chef-crafted meal prep designed for performance, wellness, and a refined lifestyle. Each plan is custom tailored to your goals. Availability is limi"
         }
       ]
     },
@@ -98,20 +245,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "colorado-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 14,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-26T15:41:47.426Z"
+    "status rebuilt locally from current store on 2026-09-26T15:58:03.550Z"
   ]
 }
