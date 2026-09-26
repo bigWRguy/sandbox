@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T03:58:13.494Z",
+  "generatedAt": "2026-09-26T04:13:08.256Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-26T03:58:13.235Z",
+    "at": "2026-09-26T04:13:07.924Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7688758333333333,
-    "p95Hours": 1.5283166666666668,
-    "worstHours": 1.7770908333333333
+    "medianHours": 1.0174208333333334,
+    "p95Hours": 1.5283752777777777,
+    "worstHours": 1.7768616666666666
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 18,
+    "decided": 18,
     "complete": true
   },
   "pending": {
@@ -49,110 +49,168 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 1897,
+    "completeOffers": 1898,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-26T03:58:13.234Z",
-      "got": 35,
-      "new": 10,
-      "lag": 0.25
+      "at": "2026-09-26T04:13:07.923Z",
+      "got": 27,
+      "new": 18,
+      "lag": 0.27
     }
   },
   "audit": {
-    "at": "2026-09-26T03:56:46.768Z",
+    "at": "2026-09-26T04:11:33.978Z",
     "mode": "live",
     "collection": {
-      "returned": 35,
-      "kept": 10,
-      "duplicate": 25,
+      "returned": 27,
+      "kept": 18,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 1,
+      "accepted": 12,
+      "rejected": 6,
       "reasons": {
-        "no_offer_term": 1
+        "no_fbs_school": 2,
+        "no_offer_term": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2103684038234079714",
+          "author": "squintyriceman",
+          "searchJob": "rice",
+          "text": "@tweeterofachero @mitchellvii @GlobalOSINTHQ @BRICSinfo Lol It's at 60% off the original offer now. We'll wait til Black Friday deal."
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2103664508715802689",
-          "author": "satxdad2025",
-          "searchJob": "houston",
-          "text": "@txsenatedem @TxDPS I haven’t met one person IRL who complains of this. Are there really .5 a million illegal aliens in Texas? That would align with all the other numbers democrats have pushed."
+          "postId": "2103679574894596557",
+          "author": "marylandhodl21",
+          "searchJob": "rice",
+          "text": "https://t.co/ZGTbvpMuh4"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103410785602912618",
+          "author": "tonioacc",
+          "searchJob": "rice",
+          "text": "Nossa Taylor que músicas boas https://t.co/sm5xC9U8pf"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103695220537733488",
+          "author": "theaviatorny",
+          "searchJob": "minnesota",
+          "text": "KATHY HOCHUL FORCES THE PURCHASE OF ELECTRIC SCHOOL BUSES (2/2) Again: No Financial Sense, and Performance Questionable at Best Daily Countdown to November 3rd, Day 11: 39 Days Remaining Today’s entry covers one policy: New York’s zero-emis"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103626474750439919",
+          "author": "sleepercfb",
+          "searchJob": "miami",
+          "text": "Free KJ Duff 😭 https://t.co/HJXng6jTFC"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103685725992386844",
+          "author": "_koach",
+          "searchJob": "phrase:\"picked up an offer from\"",
+          "text": "@XionEvans2027 x @BestEaglesMBB picked up an offer from @SWCCBasketball #ITWIT #GROW 🦅🦅🦅 https://t.co/H0ZSM2ew7c"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 8,
+      "rejected": 11,
       "reasons": {
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 8,
         "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 4,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_player_name": 1
+        "reporter_missing_position": 1
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103694898310324401",
+          "author": "diogenesinny71",
+          "searchJob": "rice",
+          "text": "Cranial Capacity & Mutual Admiration: Dismantling the Myth of Genetic Imperialism Presented by Diogenes Early physical anthropologists systematically measured human skulls to construct a false racial hierarchy that placed Europeans at the a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103675619590451331",
+          "author": "mikescardsnj",
+          "searchJob": "rice",
+          "text": "@dwdsportscards .50 OFFER ON RICE"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103673981018775658",
+          "author": "schwartznigel",
+          "searchJob": "rice",
+          "text": "Let's not pretend this isn't a fair representation of her entire discography. Not to be unfair to plain white rice &amp; steamed chicken breast -- at least they offer 𝑠𝑜𝑚𝑒 nourishment."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103688447965933751",
+          "author": "naltapkim",
+          "searchJob": "nebraska",
+          "text": "@Omaha531 Other than catching a wide open pass, what makes you think he would have a Nebraska offer? I don’t know who he is"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103685951767904525",
+          "author": "pj_more_muscle",
+          "searchJob": "northwestern",
+          "text": "This TE from Northwestern name Luke Dehnicke been getting busy! I bet he get offered a bag to transfer to another school once the season ends. He looks really good"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2103688140951113770",
-          "author": "troy_report",
-          "searchJob": "class:2029",
-          "text": "BREAKING: @eutsey26836 The Trojans have extended an offer to 2029 ATH Brayden Eutsey out of Charles Henderson High School! 🔥🏈 At 6-foot-5, 291 pounds, Eutsey is a two-sport athlete and a name to keep an eye on in the Class of 2029. THE HO"
+          "postId": "2103672985525846093",
+          "author": "kjwilliams__",
+          "searchJob": "miami",
+          "text": "How much yall think Miami offers him?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103689956933935433",
-          "author": "todaysworkclock",
-          "searchJob": "indiana",
-          "text": "My only take away from this Indiana Game: Please offer a Spanish version when RG3 is on the call"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103677152042611128",
-          "author": "big10bruin",
-          "searchJob": "indiana",
-          "text": "@DannyZzzzzz11 @DukesHokies @wutsbrewin Play games for free and the offer will come. Big time programs aren’t looking for hand outs to play a P4 game. If I’m Indiana I pull the 1.3 million and welcome you to the BIGS. Hell even the 500k Vir"
+          "postId": "2103681024542527687",
+          "author": "fox5dc",
+          "searchJob": "virginia",
+          "text": "A Virginia businessman publicly offered thousands of dollars in charitable donations to two mayoral candidates on the condition that they withdraw from the race. https://t.co/UI8EFWA7eF"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103684232581095932",
-          "author": "insanecontext",
-          "searchJob": "kentucky",
-          "text": "Kentucky family rejects $26 million offer to convert part of their farm into a data center despite the offer being about 10 times the going rate for farmland in the area. \"If it's my way, I'll stay and hold and feed a nation. 26 million doe"
+          "postId": "2103679990198092137",
+          "author": "rsmon77",
+          "searchJob": "virginia",
+          "text": "Mike Nichols was still considered more a comic actor and theatre director when he got offered this. Before he filmed this, he did his first movie, WHO’S AFRAID OF VIRGINIA WOOLF?, which helped get financing for this. #FridayNightFlix https:"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103678394013560917",
-          "author": "martya54091",
-          "searchJob": "maryland",
-          "text": "Just remove St Mary's County Maryland and fill in your County and State, To see how your County Commissioners are using and abusing you. THE CASH COW MACHINE: HOW ST. MARY’S COUNTY TURNS YOUR FAMILY INTO LIQUID ASSETSAn Open Forensic Briefi"
+          "postId": "2103688321595519287",
+          "author": "shadowlake21",
+          "searchJob": "liberty",
+          "text": "Is libertarian “free will” can still be the great good that makes a world of evil worth creating. 1. “If heaven cannot sin and is more free, freedom was never the ability to light the match.” Christians do not hope for an eternity of maybe-"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103668814164774977",
-          "author": "wfodavid",
-          "searchJob": "houston",
-          "text": "The ILLEGALS in Houston, Dallas, San Antonio and Austin are off the chart. They are everywhere. I could find 100 a day... I've offered to ICE. Never received a call."
+          "postId": "2103682981252526088",
+          "author": "charles46129363",
+          "searchJob": "liberty",
+          "text": ">“The Spirit of the Lord God is upon me, because the Lord has anointed me to bring good news to the afflicted; He has sent me to bind up the brokenhearted, to proclaim liberty to captives and freedom to prisoners.”—Isaiah 61:1 This line can"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2103685696188002648",
-          "author": "creekfb",
-          "searchJob": "kansas",
-          "text": "Another one. 👏 Congrats to Jayden Bates on earning an offer from Kansas! Big things ahead."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103678093609353233",
-          "author": "monstermel13",
-          "searchJob": "middle-tennessee",
-          "text": "@appsteve @RnImEbereEzeFan Bro WKU would leave if a decent offer was brought up they are not tied at the hip with MTSU lmao that’s pure comedy"
+          "reason": "reporter_missing_position",
+          "postId": "2103690764584899010",
+          "author": "brewsterhoops",
+          "searchJob": "san-jose-state",
+          "text": "Congratulations to Maxx Tjongondjoza on his newest D1 offer from San Jose State University! @Maxxtj2028 #StockRising🚀 #BrewsterFamily #BuiltOnTheLake https://t.co/gFOtxseyFm"
         }
       ]
     },
@@ -167,11 +225,11 @@
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 11,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-26T03:58:13.495Z"
+    "status rebuilt locally from current store on 2026-09-26T04:13:08.257Z"
   ]
 }
