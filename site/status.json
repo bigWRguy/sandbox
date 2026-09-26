@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T07:28:02.752Z",
+  "generatedAt": "2026-09-26T07:43:17.173Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-26T07:28:02.456Z",
+    "at": "2026-09-26T07:43:16.889Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7747533333333333,
-    "p95Hours": 1.5245522222222223,
-    "worstHours": 1.5245522222222223
+    "medianHours": 0.7771144444444444,
+    "p95Hours": 1.5219775,
+    "worstHours": 1.5219775
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -55,82 +55,152 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-26T07:28:02.456Z",
-      "got": 19,
-      "new": 6,
-      "lag": 0.03
+      "at": "2026-09-26T07:43:16.888Z",
+      "got": 22,
+      "new": 16,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-09-26T07:26:29.720Z",
+    "at": "2026-09-26T07:41:46.680Z",
     "mode": "live",
     "collection": {
-      "returned": 19,
-      "kept": 6,
-      "duplicate": 13,
+      "returned": 22,
+      "kept": 16,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 1,
+      "accepted": 11,
+      "rejected": 5,
       "reasons": {
-        "no_offer_term": 1
+        "no_offer_term": 3,
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2103747919513833862",
-          "author": "fintwitscraps",
-          "searchJob": "new-mexico",
-          "text": "https://t.co/3xFw58ePik"
+          "postId": "2103126561797095862",
+          "author": "nycmayor",
+          "searchJob": "liberty",
+          "text": "Never been to the opera before? Now’s your chance. We’re giving away 70,000 free tickets to the @MetOpera at the iconic Lincoln Center. Go to https://t.co/LpKzEcL0V5 to enter the lottery. There’s not a bad seat in the house. https://t.co/qd"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103734021356478970",
+          "author": "think_in_points",
+          "searchJob": "liberty",
+          "text": "🇪🇺 The first chapter of my new series, Exploring Europe 🇭🇺 Starting with Budapest, this guide covers where to stay, getting around, must-see places, food, nightlife, and practical tips from my trip. If Budapest is on your itinerary, boo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103735799963607211",
+          "author": "aguynamedben",
+          "searchJob": "texas",
+          "text": "@aunder Bay Area Longhorn, hook ‘em 🤘 Paywalled &amp; headline is sensational. Those courses are still being offered. “Core Curriculum” classes reducing from 1,000 courses to a smaller set. 42 hrs req -&gt; 36 hrs req so students get 6 bac"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103748747318681899",
+          "author": "crypto_tytn",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/LMS8gLrIGC"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103741403595456523",
+          "author": "irishsunsport",
+          "searchJob": "notre-dame",
+          "text": "LILY AGG does not know where she would be right now if he had got offered the Athlone Town job while at her lowest ebb https://t.co/lu3QU9ef8E"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 2
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103738228083744838",
-          "author": "jmusic53801",
-          "searchJob": "ohio",
-          "text": "You stand for. None of us really know what your goals are. Please enlighten us now. In my opinion, a failure to offer an informative response means we need to vote you out. So please, feel free to share your thoughts, goals, and those you s"
+          "postId": "2103741222397382789",
+          "author": "smrndmasshle",
+          "searchJob": "liberty",
+          "text": "how does the stuff for free crowd still exist? how are people still this dumb? these people want to live at the expense of the state but the state lives at the expense of everyone else it is literally impossible for anything to be free of c"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103741385178320974",
-          "author": "pembrokeflnews",
-          "searchJob": "ole-miss",
-          "text": "Mother of LSU Player Offers Emotional Update After Injury Against Ole Miss https://t.co/m1ZeMqEjli"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103748910850228401",
+          "author": "freebets_com",
+          "searchJob": "rice",
+          "text": "🎯 BET OF THE DAY: Harry Kane 1+ Shots on Target vs Spain, boosted to 50/1 with Paddy Power. England go in weakened (Palmer, Rice, Rashford, Mainoo & Livramento all out) but Kane's shot volume never dips. Claim Offer at: https://t.co/LT6dSn"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2103746600711696790",
-          "author": "davidkamatoy",
-          "searchJob": "arizona",
-          "text": "Looking for the best things to do in San Diego this weekend? From massive military air shows and authentic Oktoberfest celebrations to country rodeos, beachside music festivals, and Padres baseball, here is your ultimate San Diego event gui"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103747500582584518",
+          "author": "ddust08",
+          "searchJob": "rice",
+          "text": "Rice Bag - forcefully converting poor Hindus is not big feat, Islam offers more money they will convert from Xtainty to Islam too.What is the glory or integrity in leaving your ancestral daivat and accepting forieng phoney god like jesus,th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103741363351400673",
+          "author": "gamerwalt",
+          "searchJob": "rice",
+          "text": "If you offer to handle dinner, handle dinner. Don’t turn the kitchen into a call centre. “What should I cook?” “Where is the rice?” “Have we got oil?” “How much water?” By the time you finish helping, the resting person has become Head of F"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103736538211213353",
+          "author": "femboytradwife",
+          "searchJob": "rice",
+          "text": "@born2beaswiftie @jjangum16 @pitchfork Plain white rice is the most popular food on the planet. Would you say it is the best humanity has to offer?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103730172721791060",
+          "author": "mysterysnack1",
+          "searchJob": "rice",
+          "text": "In Japan, people offer simple dango (rice dumplings), but in the Chinese custom, they eat mooncakes. I bought some at my favorite shop that I always visit in Yokohama Chinatown. Wishing for my family's happiness and harmony."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103733867119005925",
+          "author": "homesmario",
+          "searchJob": "florida",
+          "text": "Buying a home in Florida? 🏡 The Hometown Heroes program may offer eligible buyers up to $35,000 toward down payment and closing costs. #FloridaHometownHeroes https://t.co/RT68i0tNkX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103750382555894197",
+          "author": "schatow",
+          "searchJob": "texas",
+          "text": "I find it a little ironic that Buzbee and co. are asking the judge to strike JD’s latest “bought-and-paid-for” declaration, considering that the declaration itself alleges JD was offered money & gifts by Buzbee and co.—including $200 in cas"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103735378179936660",
+          "author": "jodie529j",
+          "searchJob": "texas",
+          "text": "@gwilkie80 Texas and OU called the SEC because they wanted out. The SEC didn’t “poach” the Big12. The Big12 couldn’t offer what the SEC could. End of story."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103731486201368623",
+          "author": "robertbruce76",
+          "searchJob": "baylor",
+          "text": "@joe_spears7 @usatodayhss @FootballBga @Maddox_Porter3 Baylor will pay him double whatever BGA offers"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2103739353323516216",
-          "author": "mightiestpen",
-          "searchJob": "arizona",
-          "text": "Here’s the Green Bay program for August 28, when the Packers hosted the #AZCardinals in a preseason game. The cover features #Packers head coach Matt LaFleur of the Pack and his brother, newly hired Arizona Cardinals head coach Mike LaFleur"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2103740181472039412",
-          "author": "thisisformu1a1",
-          "searchJob": "buffalo",
-          "text": "🚨| Ferrari's SF-26: Is It Still Too Extreme for Race Protection? — Kimi Antonelli's error allowed George Russell to secure his fifth Pole Position of the season, marking his first in Azerbaijan. The high recharge limit favored the Silver A"
+          "postId": "2103741418409787404",
+          "author": "prestige_mag",
+          "searchJob": "coastal-carolina",
+          "text": "Blending holistic wellness, considered design and an accomplished culinary programme, Regent Bali Canggu offers a refined interpretation of coastal living on Bali’s vibrant shores. #PartnerPost Read more https://t.co/3XwUuP51OH https://t.co"
         }
       ]
     },
@@ -145,11 +215,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-26T07:28:02.754Z"
+    "status rebuilt locally from current store on 2026-09-26T07:43:17.174Z"
   ]
 }
