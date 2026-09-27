@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T00:26:55.241Z",
+  "generatedAt": "2026-09-27T00:42:51.864Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-27T00:26:55.010Z",
+    "at": "2026-09-27T00:42:51.448Z",
     "jobsTotal": 162,
-    "sweptThisRun": 6,
-    "requests": 7,
-    "fullSweepCycles": 27
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0082816666666667,
-    "p95Hours": 2.0072916666666667,
-    "worstHours": 2.0072916666666667
+    "medianHours": 0.7733822222222222,
+    "p95Hours": 1.782491111111111,
+    "worstHours": 2.273020277777778
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 66,
+    "decided": 66,
     "complete": true
   },
   "pending": {
@@ -47,83 +52,348 @@
   "profileResolution": {
     "cached": 65
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 1971,
+    "completeOffers": 1973,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-27T00:26:55.010Z",
-      "got": 12,
-      "new": 6,
-      "lag": 0.12
+      "at": "2026-09-27T00:42:51.448Z",
+      "got": 110,
+      "new": 66,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-27T00:26:25.601Z",
+    "at": "2026-09-27T00:41:22.044Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 6,
-      "duplicate": 6,
-      "tooOld": 0,
+      "returned": 110,
+      "kept": 66,
+      "duplicate": 43,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 2,
+      "accepted": 48,
+      "rejected": 18,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "non_fbs_offer_target": 3,
+        "no_fbs_school": 8,
+        "no_offer_term": 5,
+        "hard_negative": 2
       },
       "samples": [
         {
+          "reason": "non_fbs_offer_target",
+          "postId": "2103997749561794657",
+          "author": "colinfoy11",
+          "searchJob": "minnesota",
+          "text": "Blessed to receive my first offer from Minnesota Morris to play at the next level #blessed @Coach_JacksonD @IdahoRecruitHub @PrepRedzoneID @CoachBComptonMV @BrandonHuffman https://t.co/T2XxcmZppI"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2103971368207290692",
-          "author": "johnnyg85500675",
-          "searchJob": "navy",
-          "text": "@ChrisVon43 @EkpoIruoghene8 @Clipsbaba21 By her not providing the necessary essentials also creates a paper trail, wether he offered or not. It is not about the paper trail, it is about providing the necessary essentials. She would rather h"
+          "postId": "2103994391237108077",
+          "author": "ozarkman1955",
+          "searchJob": "missouri",
+          "text": "@IncognitoMeems @Hamilton4Kansas That's funny, he has a home in Camden County Missouri at Lake of the Ozarks which is 94% white. Why does he hate Johnson County so much for wanting the same thing? If something is not accurate, please offer "
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104005253402370507",
+          "author": "darienjenkins17",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer from the University of South Dakota State. Thank you Coach Peterson, Coach Kirsch, and the rest of the staff for this opportunity!!! #agtg https://t.co/2q86Y7Bsk3"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104002987052183658",
+          "author": "fabiandel7",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great conversation with Coach, I’m truly blessed to receive an offer from Texas A&amp;M University–Texarkana! Thank you Coach and the entire TAMUT staff for this opportunity! @tamut_mbb | #AGTG #SoarEagles https://t.co/BMvPc28UUT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103998061802364952",
+          "author": "tylere235",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a Conversation with @TheHolmesStamps I’m blessed to receive an offer from @HolmesccFB @NAHSFball @CRStubblefield @pkendallmurphy @JuJuSports1 @FSLElite_ @MacCorleone74 @lakes_button @jayden_hicks35 https://t.co/qfU4zhonhL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103993840114008505",
+          "author": "neil_james5",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer from @UNIFootball!!! #AGTG https://t.co/OI7n89fYRF"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104006500398125184",
+          "author": "dukeanddukecb",
+          "searchJob": "duke",
+          "text": "@ConsumerDeity @Mid30sManhattan Inflating it how? If you think renting should be at that price, put your money where your mouth is and offer it for that price."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104002182848668042",
+          "author": "dukeanddukecb",
+          "searchJob": "duke",
+          "text": "@ConsumerDeity @Mid30sManhattan You’re welcome to buy or build housing and offer it for rent at that price."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103998335342285123",
+          "author": "janiemk",
+          "searchJob": "duke",
+          "text": "Canyon Spirit's three-day Rockies to the Red Rocks rail journey option offers the opportunity to connect through the flight hub of Salt Lake City @Visit Salt Lake, nestled between the Wasatch Mountains and the Great Salt Lake. The city boas"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2104003048121016710",
-          "author": "phagankean",
-          "searchJob": "nevada",
-          "text": "https://t.co/iraV19ICh6"
+          "postId": "2103869424449228951",
+          "author": "fredbenz0",
+          "searchJob": "houston",
+          "text": "Thus far CClark has been setup to fail as she's held back by her own Team Fever have a bad coach &amp; worst Front Office that doesn't know talent Fever depth is the Worst in the League by a Mile Till new mgmt or team CC has to be super hum"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2103976920949956809",
+          "author": "tcuscouting",
+          "searchJob": "tcu",
+          "text": ".@Buddie52 more than happy to offer up my next to nothing so I don’t have to watch this bullshit again. DM me!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103974034404700585",
+          "author": "raycartwright",
+          "searchJob": "tcu",
+          "text": "Should be noted from what I understand is that the extension Sonny received lowered his buyout to next to nothing"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103964939694313634",
+          "author": "tcuscouting",
+          "searchJob": "tcu",
+          "text": "Congratulations to @Buddie52! Authored the worst contract extension of our lifetimes"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104003573810086155",
+          "author": "socio_tech_",
+          "searchJob": "texas-tech",
+          "text": "@Raj_1843 Smaller or service companies rarely hires over qualified candidate. They knows that person is not satisfied with the company and will switch very soon to better offer. He/She will spend hardly 1 year."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103982219924480222",
+          "author": "takoumamane",
+          "searchJob": "texas-tech",
+          "text": "The epic Story of how Bonds Built the modern world. https://t.co/YJTiv2HP6f"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103980426092327148",
+          "author": "optionking666",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/B6pjnK2qY6"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2103978465200361823",
+          "author": "hugomena19",
+          "searchJob": "air-force",
+          "text": "Dear Senator Scott: While acknowledging your constant defense of the Venezuelan people against a totalitarian criminal narco-kleptocracy, I want to share some critical considerations for your upcoming State Department meeting. I believe the"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104002581378818077",
+          "author": "jimmie_green28",
+          "searchJob": "miami-oh",
+          "text": "Thank you to @MiamiOHFootball for an amazing Game Day Visit, great win today! 🏈 I’m truly grateful for the opportunity to experience the atmosphere and catch up with @Coach_Hud4 Blessed to already hold an offer from Miami, and I’m excited "
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 3,
+      "rejected": 45,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 2
+        "bare_mention_requires_llm": 22,
+        "multiple_resolved_schools": 8,
+        "player_missing_class_year": 2,
+        "author_not_recruit:different sport": 1,
+        "school_not_resolved_confidently": 11,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103998050427646432",
+          "author": "2ibst",
+          "searchJob": "minnesota",
+          "text": "BRAND HIGHLIGHT: SPRINGFIELD ARMORY From concealed carry to competition, home defense, and the range, Springfield Armory offers something for just about every shooter. At 2 If By Sea Tactical, we’re proud to carry @Springfield_Inc firearms,"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103982958923461117",
+          "author": "nhlrumourreport",
+          "searchJob": "minnesota",
+          "text": "Pierre LeBrun: Re Dylan Larkin: When Steve Yzerman was still GM, my sense is the offers...notably from Minnesota and a few other teams, did not come close to addressing what Yzerman felt [they] had to get back - Melnick in the Afternoon (9/"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2104002140037411115",
-          "author": "philehr",
-          "searchJob": "navy",
-          "text": "Both parties broke our immigration system. Both parties must finally fix it. For decades, Washington has offered Americans the same dishonest choice: accept chaos at the border or accept mass deportations that tear apart families and commun"
+          "postId": "2103990535228711390",
+          "author": "blockheadai",
+          "searchJob": "mississippi-state",
+          "text": "🏈 Missouri @ Mississippi State · College Football · Sat 6:45 PM CT 📊 Spread -6 (home) · O/U 58.5 · Missouri +192 | Mississippi State -234 Mississippi State enters as a 6-point favorite, but the underlying metrics suggest a tighter contest"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103993648442679775",
-          "author": "saltyeng_",
-          "searchJob": "navy",
-          "text": "@MRTs_Haircut Cool story, bro. I’ll take my 23 years and the incredible sailors I had the privilege to serve with and lead the absolute finest the Navy has to offer. You can keep the fan fiction."
+          "postId": "2103984725098405935",
+          "author": "573realty",
+          "searchJob": "missouri",
+          "text": "PENDING in Old Hawthorne #108WaltonHeathCourt | Offered at $589,000 573 Realty Collection ▪573 ʀᴇᴀʟᴛʏ▪ 𝐂𝐎𝐌𝐎’𝐒 𝐁𝐨𝐮𝐭𝐢𝐪𝐮𝐞 𝐑𝐞𝐚𝐥 𝐄𝐬𝐭𝐚𝐭𝐞 𝐁𝐫𝐨𝐤𝐞𝐫𝐚𝐠𝐞 ǫᴜɪᴇᴛ ʟᴜxᴜʀʏ ʀᴇᴀʟ ᴇsᴛᴀᴛᴇ ʟᴜxᴜʀʏ ɪs ɴᴏᴛ ᴀ ᴘʀɪᴄᴇ ᴘᴏɪɴᴛ ɪᴛ ɪs ᴏᴜʀ sᴛᴀɴ"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2103971528052453684",
-          "author": "sandyjamessandy",
-          "searchJob": "navy",
-          "text": "Got me thinking, if someone made you angry, could you and your teammates follow up on them? No police would get involved because the party that caused the offense wouldn’t call them due to their own stupidity. I got to know Mrs. Kyle and wa"
+          "postId": "2103980972358193615",
+          "author": "573realty",
+          "searchJob": "missouri",
+          "text": "SOLD in The Brooks #4805HoylakeCircle | Offered at $699,000 573 Realty Collection & 573 Realty Buyers Builder: Anderson Homes ▪573 ʀᴇᴀʟᴛʏ▪ 𝐂𝐎𝐌𝐎’𝐒 𝐁𝐨𝐮𝐭𝐢𝐪𝐮𝐞 𝐑𝐞𝐚𝐥 𝐄𝐬𝐭𝐚𝐭𝐞 𝐁𝐫𝐨𝐤𝐞𝐫𝐚𝐠𝐞 ǫᴜɪᴇᴛ ʟᴜxᴜʀʏ ʀᴇᴀʟ ᴇsᴛᴀᴛᴇ ʟᴜxᴜʀʏ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103975757693268252",
+          "author": "573realty",
+          "searchJob": "missouri",
+          "text": "PENDING in Eastport Village #5706Murfreesborodrive | Offered at $329,000 573 Realty Collection ▪573 ʀᴇᴀʟᴛʏ▪ 𝐂𝐎𝐌𝐎’𝐒 𝐁𝐨𝐮𝐭𝐢𝐪𝐮𝐞 𝐑𝐞𝐚𝐥 𝐄𝐬𝐭𝐚𝐭𝐞 𝐁𝐫𝐨𝐤𝐞𝐫𝐚𝐠𝐞 ǫᴜɪᴇᴛ ʟᴜxᴜʀʏ ʀᴇᴀʟ ᴇsᴛᴀᴛᴇ ʟᴜxᴜʀʏ ɪs ɴᴏᴛ ᴀ ᴘʀɪᴄᴇ ᴘᴏɪɴᴛ ɪᴛ ɪs ᴏᴜʀ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103992056385573155",
+          "author": "johnlucht30",
+          "searchJob": "northwestern",
+          "text": "@JordanJamie @NUFBFamily @ai6an_ Screw that. We should go after and offer #5 some NIL and recruit him for defense. Only guy that could bring down Chiles in the open field all night!"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2104008352552386766",
+          "author": "wyattcline28",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit and conversation with @coachLong95 I am blessed to have received an offer from @ToledoFB! AGTG! @LoganM_CFB @Rockets_Recruit @coach_mjacobs @CoachBrown24 @ArchboldFB https://t.co/KA5P3ewW6t"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2104001877105078640",
+          "author": "elijahgpaez",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer from the Washington Huskies @UW_MBB | #BigTen Thank you Coach Sprinkle &amp; Coach Mennenga 🫡 #AGTG https://t.co/ic40QZB4NT"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2103995228701044896",
+          "author": "cjohnson7k",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "AGTG, Blessed to say i have received an offer from Texas A&amp;M Texarkana🦅 https://t.co/3GZglRsB8I"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104003609868607840",
+          "author": "aj53aj",
+          "searchJob": "duke",
+          "text": "@RandyGoat @grok 36 years ago Duke power or North Carolina offered Potassium Iodide pill near the Nuclear plant do they still offer that?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103986919675949155",
+          "author": "manhwatl",
+          "searchJob": "duke",
+          "text": "he could clear her name in one sentence. he picked a worse one. Korean chapter translated with Manhwa Translator. her own father sets her up to seduce a duke. the plan collapses into a scandal instead — nothing even happened. not a fingerti"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2103990984325681418",
+          "author": "chrislake808",
+          "searchJob": "georgia-tech",
+          "text": "We all knew Buster Faulkner would excel with the weapons he has at UF versus Georgia Tech. I don't think anyone pictured averaging 50 points a game against SEC defenses. This is Spurrier 2.0. Florida should pay him twice what FSU is going t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104002453674811435",
+          "author": "jenaxu_",
+          "searchJob": "houston",
+          "text": "@quickreider Even worse tbh, Boston and Hartford really offered 75mil more because Houston started at 250. If needed they probably could've put up even more, but instead it took months of negotiation for Houston to still come out under the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104000061285802125",
+          "author": "jenaxu_",
+          "searchJob": "houston",
+          "text": "@ThunderHeadFan @beltwayboyz 25k would've been significantly less embarrassing, Houston lowballed them by 25 MILLION. And that's after starting at 75 million below the Boston and Hartford offers; took months of kicking and screaming just to"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103993202910933146",
+          "author": "aightbetsports",
+          "searchJob": "houston",
+          "text": "Astros @ Athletics 09/26/26 · 9:40 PM ET. Hayden Wesneski carries a 3.50 ERA and a 1.15 WHIP into this one — a meaningful step up in command from yesterday's arm. Jack Perkins counters at 5.90 ERA and 1.45 WHIP. The gap is real. Wesneski's "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103986112817504492",
+          "author": "johnny833",
+          "searchJob": "houston",
+          "text": "It would nice for Tillman Fertitta to make an offer to CC when the Sun move to Houston!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2103983019912483197",
+          "author": "alfred3o3",
+          "searchJob": "houston",
+          "text": "#ASTROS AT #ATHLETICS #KALSHI #MLB SCAN September 26, 2026 — 01:10 PM PDT DESK VIEW Houston YES is offered at 61¢; Athletics YES at 40¢. Wesneski’s season run prevention is stronger than Perkins’, but his sample is smaller and Perkins has t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104008413386551528",
+          "author": "ca_jordan",
+          "searchJob": "texas-tech",
+          "text": "@Playboi_Gandhi Tech offered to match his salary, he bolted anyway. GT cared, Faulkner did not care about GT"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104005662816579650",
+          "author": "bicmitchum99",
+          "searchJob": "texas-tech",
+          "text": "@_RussellJohnson I don’t get why Tech fans are obsessing with Buster Faulkner. He chose to leave on his own. It’s like still talking about and obsessing over the girl that chose to go to prom with another guy (that has more money to offer)."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104005610908086665",
+          "author": "ridesafiretruck",
+          "searchJob": "texas-tech",
+          "text": "@JessieTweeting No one dug in WW-2...and who's \"we\"? Certainly not you. I really don't think a veh tech is qualified to offer any opinion on modern tactics and strategy."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104004396698706072",
+          "author": "techbrief42",
+          "searchJob": "texas-tech",
+          "text": "🔴 Microsoft's Copilot and ChatGPT share similarities, but Copilot offers distinct advantages for users. Stay updated on the latest tech comparisons with https://t.co/oCfTZMJZBS, ensuring you catch meaningful insights without the noise."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104001070334964121",
+          "author": "notdwd",
+          "searchJob": "texas-tech",
+          "text": "after seeing what Opus 5.5 has started, trust me on this: AI creative is the next big wave. I repeat, WE ARE EARLY. we on money/tech Twitter are the early movers. the rest of the world, the “normies,” have no fkn clue what’s going on yet. t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2103997129421422891",
+          "author": "tetratechjobs",
+          "searchJob": "texas-tech",
+          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/wIcXCgSBrx #TetraTechJobs"
         }
       ]
     },
@@ -131,20 +401,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "minnesota: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 3,
-      "brandNewOffers": 1
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 45,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-27T00:26:55.242Z"
+    "status rebuilt locally from current store on 2026-09-27T00:42:51.865Z"
   ]
 }
