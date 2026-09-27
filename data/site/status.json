@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T14:03:37.119Z",
+  "generatedAt": "2026-09-27T14:15:55.677Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-27T14:03:36.776Z",
+    "at": "2026-09-27T14:15:55.439Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 8,
+    "requests": 9,
+    "fullSweepCycles": 21
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "utsa",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.1209277777777777,
-    "p95Hours": 1.8692272222222222,
-    "worstHours": 1.8692272222222222
+    "medianHours": 1.0757191666666666,
+    "p95Hours": 1.824496111111111,
+    "worstHours": 2.0743819444444442
   },
   "decisionCoverage": {
-    "total": 38,
-    "decided": 38,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -47,7 +52,7 @@
   "profileResolution": {
     "cached": 65
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 2006,
     "incompleteOffers": 0
@@ -55,302 +60,109 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-27T14:03:36.775Z",
-      "got": 48,
-      "new": 38,
-      "lag": 0.05
+      "at": "2026-09-27T14:15:55.439Z",
+      "got": 14,
+      "new": 10,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-27T14:02:04.699Z",
+    "at": "2026-09-27T14:15:20.653Z",
     "mode": "live",
     "collection": {
-      "returned": 48,
-      "kept": 38,
-      "duplicate": 10,
+      "returned": 14,
+      "kept": 10,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 15,
+      "accepted": 7,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 11,
-        "hard_negative": 2,
+        "no_fbs_school": 1,
         "no_offer_term": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2104207564523131135",
-          "author": "fitzgeraldjr17",
-          "searchJob": "massachusetts",
-          "text": "Last night in 1960 this took place… Seventy million watched it happen in a Chicago studio. The people listening on the radio came away with a different winner. Richard Nixon stepped out of the car at the CBS studios of WBBM-TV in Chicago an"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2104207693133005205",
-          "author": "cwspeers",
-          "searchJob": "uab",
-          "text": "🚨 PHYSICIAN-SCIENTISTS AT ASTRO 2026: LET’S TALK. At #ASTRO26 in Boston this week? We would love to meet you, hear about your science, and tell you what we are building at UAB. UAB Radiation Oncology is recruiting physician-scientists at a"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104200149073539297",
-          "author": "tldr_x",
-          "searchJob": "minnesota",
-          "text": "@DieHard_Chicago On the other hand they prob could have re-signed him with a higher offer this summer. (He was unrestricted, Minnesota would not have been able to match)"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104197840322904399",
-          "author": "eth_pop_mike",
-          "searchJob": "missouri",
-          "text": "$72 MILLION FOR ONE WOMAN IN 2016. $72,000 EACH FOR 76,000 WOMEN IN 2026 same product. same company. same number — with three zeros missing Jacqueline Fox, Missouri. died of ovarian cancer. the jury gave her family $10 million, then added $"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2104204052963672468",
-          "author": "oxfordbuckeye",
-          "searchJob": "nebraska",
-          "text": "@thesportsontap Don’t forget that his first commitment was to Ohio State, that he then parlayed into an offer from Nebraska and decommitted."
+          "postId": "2104189929903497514",
+          "author": "clark_kent_2023",
+          "searchJob": "kent-state",
+          "text": "@silvina_jk Singapore is really good. But salaries are not competitive. I was offered salary just a little more than India."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2103884552355954700",
-          "author": "sputnik_africa",
-          "searchJob": "texas-tech",
-          "text": "🇷🇺🇧🇫 'Russia-Burkina Faso: Towards a Sustainable Strategic Partnership' Forum Held in Moscow The event brought together public, business, and civil society representatives to discuss collaboration in economy, energy, mining, trade & inv"
+          "postId": "2104104480778375404",
+          "author": "costamiguel1984",
+          "searchJob": "liberty",
+          "text": "LIVE 🔴📡 Guild Wars ⚔️✨ 🔸Today's Showcase: The Beauty in the World of Guild Wars https://t.co/xq0DcPJpJA"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2104205160171917753",
-          "author": "quantumstatex",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/xsroMyMaiM"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104203713758015575",
-          "author": "digitaltrends",
-          "searchJob": "texas-tech",
-          "text": "Frontier #AI labs such as OpenAI (the maker of #ChatGPT) and #Anthropic (which offers the #Claude series of AI models), along with independent security firms, are looking into thousands of “episodes.” https://t.co/iMCvssz0EP"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104203414854922322",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon Great Indian Festival Deal ] M1607GA-MB030WS ASUS Vivobook 16 Copilot+ Laptop, Quiet Blue 199291334816 - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟴𝟲,𝟵𝟵𝟬 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟭,𝟬𝟴,𝟵𝟵𝟬. [ad] Offer Link: https://t.co/NvL87HAf"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104202653375041899",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon Great Indian Festival Deal ] G614PH-RV073WS ASUS ROG Strix G16 Gaming Laptop, R9_8940HX | RTX 5050, Without Asus Care - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮,𝟮𝟵,𝟵𝟵𝟬 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮,𝟲𝟬,𝟵𝟵𝟬. [ad] Offer Link: htt"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104201471793451457",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon Great Indian Festival Deal ] M1407KA-LY131WS ASUS Vivobook 14 AI Laptop, Cool Silver, Without ASUS Care - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟳𝟬,𝟵𝟵𝟬 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟴𝟭,𝟵𝟵𝟬. [ad] Offer Link: https://t.co/vczSnxOQkH"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104200901082644725",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon Great Indian Festival Deal ] GZ302EA-RU520WS ASUS ROG Flow Z13 Gaming Laptop, 34 cm, Off Black 199291242746 - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮,𝟯𝟵,𝟵𝟵𝟬 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮,𝟲𝟵,𝟵𝟵𝟬. [ad] Offer Link: https://t.co/"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104200223514059236",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon Great Indian Festival Deal ] UX3407QA-QD259WS | ASUS Zenbook 14 | PN: 90NB1502-M00FL0 ASUS Zenbook A14 OLED Copilot+ AI PC, Without ASUS Care, Snapdragon X - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟴𝟲,𝟵𝟵𝟬 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 \ud835"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104199358657007894",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Great Indian Festival Sale Offer ] 11-inch | iPad Air 11-inch | PN: 920-012627 Logitech Combo Touch iPad Air Keyboard Case 097855195203 - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟭𝟲,𝟵𝟵𝟱 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮𝟯,𝟰𝟵𝟱. [a"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104195415646355593",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] RZ01-04620100-R3A1 Razer Basilisk V3 Pro Wireless Gaming Mouse, Wireless, Black - 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟵,𝟵𝟵𝟵 | 𝗟𝗶𝘀𝘁 𝗣𝗿𝗶𝗰𝗲: 𝗥𝘀 𝟮𝟳,𝟵𝟵𝟵. [ad] https://t.co/1kMhl3xEvY The mouse features 10+1 "
+          "postId": "2104210295015305533",
+          "author": "pit5000",
+          "searchJob": "liberty",
+          "text": "https://t.co/aXTl0H0Hbk"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 22,
+      "accepted": 0,
+      "rejected": 7,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_position": 1,
-        "school_not_resolved_confidently": 12
+        "bare_mention_requires_llm": 7
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104209445270020574",
-          "author": "bamsports_",
-          "searchJob": "minnesota",
-          "text": "Hammering This Over🔨 Baker Mayfield Over 16.5 Rushing Yards Hit in 8 of his last 10 games (80% L10 / 80% L5) 🎯 5 ❤️ For My NFL Play Of The Day Baker Mayfield has been absolute cash on his rushing prop, clearing 16.5 rushing yards in 8 of "
+          "postId": "2104213035157971440",
+          "author": "costamiguel1984",
+          "searchJob": "liberty",
+          "text": "This week, the Guild Wars team already worked really hard this week and posted a fifteen second video about the game's beauty 😆 Right now they're tired and taking the whole weekend off, so I took the liberty of doing their job for them aga"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104206804930506786",
-          "author": "rinkyreport",
-          "searchJob": "minnesota",
-          "text": "David Pagnotta about Larkin: \"And there remains plenty of “outside” interest, as teams like #GoHabsGo , #GoKingsGo , #LetsGoFlyers , #NHLBruins , #Canes and #SJSharks are among the clubs that have poked around since June. There are others. "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104202706189451419",
-          "author": "bordersskip1958",
-          "searchJob": "minnesota",
-          "text": "Ah, the intellegent, tolerant, and inclusive clan... Well aweetie, maybe you missed the part about not having a nitwit Governor that allows hundreds of riots and the burning of cities. In one breath some lunatics complain about not being ab"
+          "postId": "2104209674161557824",
+          "author": "todashby",
+          "searchJob": "liberty",
+          "text": "Muller argues the Edwards represents a \"parting of ways\" for the older Reformed tradition. I argue that Edwards Freedom of the Will should first be read in it polemical and intellectual context. Edwards was not writing from a Reformed schol"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104194100199129110",
-          "author": "onekindesign",
-          "searchJob": "minnesota",
-          "text": "This mountain-inspired home in Minnesota offers luxurious living spaces https://t.co/MrDU5kB6RQ https://t.co/0MnHrUwkAL"
+          "postId": "2104204987014279475",
+          "author": "hamphield",
+          "searchJob": "liberty",
+          "text": "@carneassada1234 @GestiTufo @ccamacho88 Fucking ignorant, there's no evidence this shit happened The Visigoths were suppressing the Jewish people, so when the Muslims offered them liberty, some (with Christians too) accepted them Fuck off w"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104193826936258751",
-          "author": "roggie32",
-          "searchJob": "minnesota",
-          "text": "@DemzDeliver Allah Akbar! Our Somali illegals LOVE Minnesota and all the learing centers we offer....."
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2104209612019036402",
-          "author": "nathanpurvis",
-          "searchJob": "mississippi-state",
-          "text": "| OFFERED | Tyler Willingham (@TylerW11358), the class of 2030 athlete from North Atlanta High School (Atlanta, GA), picks up the offer from the Mississippi State Bulldogs. #HailState https://t.co/USK2Nf8QTA"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104209499091283978",
-          "author": "hailstate",
-          "searchJob": "mississippi-state",
-          "text": "Bulldogs Win, You Win! Click the link below to claim your special offer, courtesy of Kroger ⬇️ 🔗: https://t.co/wHA8uZUVn0 #HailState https://t.co/0yuMOH5HQK"
+          "postId": "2104197698488340942",
+          "author": "ancaptain12",
+          "searchJob": "liberty",
+          "text": "Political ideas must specify both ends and means because the means chosen alter the ends achieved. Coercive collective action through the state produces concentrated power, distorted incentives, and outcomes that stray far from any promised"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104208163201564905",
-          "author": "jdiggagofigga",
-          "searchJob": "mississippi-state",
-          "text": "@RemDatBoi @TrifectasJam @spacemountn24_7 @DearOlState No, his offer is going match Underwood’s at minimum. So I can guarantee that Mississippi State is not paying 10 million plus."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104182774936551523",
-          "author": "d_foubert",
-          "searchJob": "duke",
-          "text": "11. That is where Jogaila, Grand Duke of Lithuania, entered the picture. For Poland, marriage to Jogaila meant an alliance with the largest state in Eastern Europe, a stronger position against the Teutonic Order, and the prospect of recover"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104209013189538244",
-          "author": "frontlinefoam",
-          "searchJob": "texas-tech",
-          "text": "Surprisingly good performance from this compact setup, hitting 150-160 FPS with a default configuration. It's not hard to prime and offers great power for its size. #flf #nerf #3dprint #Airsoft #Tech #Gadgets #FPS https://t.co/m7CwvAYciS"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104208185267716134",
-          "author": "haxeth89",
-          "searchJob": "texas-tech",
-          "text": "Macro: The Hike That Didn’t Kill Bitcoin The Fed hiked 25 basis points to 3.75%–4.00% in mid-September — the first increase since 2023. Bitcoin answered by ripping from the mid-$70Ks to $87K. That is the story Wall Street still cannot model"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104206675452252397",
-          "author": "sputnik_africa",
-          "searchJob": "texas-tech",
-          "text": "🇧🇫🇷🇺 Russia is a \"great agricultural nation\" capable of helping Burkina Faso support its farmers & improve crop yields: Expert to Sputnik Africa The Russia-Burkina Forum can offer key connections in fertilizers, mechanization, and agri-"
+          "postId": "2104190213878648862",
+          "author": "conortmcgrane",
+          "searchJob": "liberty",
+          "text": "@DrWHKitchen William III invaded England and certainly did not offer Civil and religious liberty for Catholics and Non Christians. He fought for the throne and Civil and religious liberty for some."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104205704189837769",
-          "author": "davidfloyd1980",
-          "searchJob": "texas-tech",
-          "text": "@Vader_Red_ I offered Jarhead to become a Texas Tech Red Raider fan."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104205103653699907",
-          "author": "jimbofeacher",
-          "searchJob": "texas-tech",
-          "text": "@pigskinpetey Buster Faulkner is going to get many HC offers. It's pretty obvious he was the brains around the Ga Tech offense."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104204419281891819",
-          "author": "metrowesth48891",
-          "searchJob": "texas-tech",
-          "text": "Master clinical skills with confidence. Pathway Vocational Institute of Health - Framingham offers personalized training plans for Medical Assistants. Focus on hands-on precision and clinical excellence in our high-tech labs. #CNATrainingin"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104196201134600525",
-          "author": "davidjberman",
-          "searchJob": "texas-tech",
-          "text": "@yoursnandieni I’ve worked with many wonderful Indian people. As far as engineers go, some were good, some not - and they are all building things designed by Americans using American tech. Thanks for the help if we need more help later we’l"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104195763630710801",
-          "author": "ro298711",
-          "searchJob": "texas-tech",
-          "text": "@cjsnowdon Complete grift. Multiple ‘tech’ companies now offer adhd/autism diagnosis. Huge volume via nhs right to choose. Charging thousands a diagnosis. NHS trusts didn’t realise that they’d spent hundreds of millions on it until recently"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104195558143623356",
-          "author": "cryptoogg_",
-          "searchJob": "texas-tech",
-          "text": "YOUR COLLEGE ID IS NOT JUST FOR ATTENDANCE 😭 SAVE THIS BEFORE YOU GRADUATE. SOFTWARE & TECH GitHub → Student Developer Pack + GitHub Pro JetBrains → Free student licenses Autodesk → Free educational access MATLAB → Student access/licensing"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104195461045227937",
-          "author": "edinnovation360",
-          "searchJob": "texas-tech",
-          "text": "Some students thrive independently, finding focus away from traditional classroom distractions. This tech age offers new ways to learn, favoring those with naturally independent demeanors. #EdTech #StudentEngagement https://t.co/0TWGbe5RED"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104195089203417232",
-          "author": "genttechbro",
-          "searchJob": "texas-tech",
-          "text": "PUBLIC SERVICE ANNOUNCEMENT. Greetings humanoids and agents. I have tried to follow everyone who is not a clearly bot account (I made that mistake once and got buried under hundreds of bot messages). There's a possibility I have missed some"
+          "postId": "2104188493027328275",
+          "author": "blueber08284370",
+          "searchJob": "liberty",
+          "text": "@BuyDirectUSA Most of my silverware is from the Oneida outlet connected to that factory. So much nostalgia! Off to see what Liberty Tabletop has to offer."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104197472197460054",
-          "author": "meettaqi",
-          "searchJob": "delaware",
-          "text": "What’s the best service for registering a Delaware C-Corp? I came across @EveryBanking, which claims to offer free incorporation. Has anyone used it? Are there any hidden or annual fees?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104195147559006316",
-          "author": "faufootball",
-          "searchJob": "florida-atlantic",
-          "text": "When the Owls win, you win a BOGO! 🦉🏈🍕 Celebrate a Florida Atlantic Football win with a buy-one-pizza, get-one-free deal from How Ya Dough’n! 🥳 Offer valid Sunday 9/27 + Monday 9/28 at the Boca Raton, Boynton Beach, and Coral Springs lo"
+          "postId": "2104183548118761947",
+          "author": "skeletonkey5555",
+          "searchJob": "liberty",
+          "text": "Michele Bachmann: If we took away the minimum wage -- if conceivably it was gone -- we could potentially virtually wipe out unemployment completely because we would be able to offer jobs at whatever level. Normalization (of gayness) through"
         }
       ]
     },
@@ -358,18 +170,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 8,
+      "failed": 1,
+      "requests": 9,
+      "errors": [
+        "utsa: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 22,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-27T14:03:37.121Z"
+    "status rebuilt locally from current store on 2026-09-27T14:15:55.678Z"
   ]
 }
