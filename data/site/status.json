@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T11:28:22.845Z",
+  "generatedAt": "2026-09-27T11:42:02.188Z",
   "searchCredentials": 0,
-  "searchConfigured": true,
+  "searchConfigured": false,
   "searchBlocked": false,
   "blockedRuns": 0,
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7837355555555555,
-    "p95Hours": 1.5307322222222222,
-    "worstHours": 1.5307322222222222
+    "medianHours": 1.0113311111111112,
+    "p95Hours": 1.7583277777777777,
+    "worstHours": 1.7583277777777777
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -62,159 +62,53 @@
     }
   },
   "audit": {
-    "at": "2026-09-27T11:26:54.534Z",
+    "at": "2026-09-27T11:41:33.222Z",
     "mode": "live",
     "collection": {
-      "returned": 21,
-      "kept": 15,
-      "duplicate": 6,
+      "returned": 0,
+      "kept": 0,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 3,
-      "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1,
-        "hard_negative": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104149009476542914",
-          "author": "thehancockgroup",
-          "searchJob": "illinois",
-          "text": "Multiple offers on your condo? Congrats. Now don't blow it. The highest price isn't always the best deal. Lo ok at your NET. Look at financing. Look at contingencies. And if a bigger offer shows up after you've signed? In Illinois, attorney"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2104161915501252961",
-          "author": "avsivasankaran",
-          "searchJob": "wake-forest",
-          "text": "Was our TRAI sleeping all these days, warrenting Cockroaches to wake up ??? https://t.co/NhwPAkT7hk"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2104152075990970481",
-          "author": "arc7614",
-          "searchJob": "wake-forest",
-          "text": "I am the light of the world. Whoever follows me will never walk in darkness, but will have the light of life. Over Skógafoss, Iceland. When Jesus spoke those words, He was not offering a slogan for easy days. He was standing among people wh"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
-      "reasons": {
-        "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 4,
-        "school_not_resolved_confidently": 6
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104151679281070263",
-          "author": "mccmcc77",
-          "searchJob": "navy",
-          "text": "@BrettErickson28 and mines placed in the water way. This being a direct response to a cocky American President refusing a generous offer as an off-ramp. We probably see some Navy ships attacked next. Congratulations on this incompetence, th"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104168137205682183",
-          "author": "movienewsusa",
-          "searchJob": "nevada",
-          "text": "Steve Hilton offers a progressive and affordable to families and hardship victims of #California https://t.co/myBCycNS6t UP @TeamSteveHilton @SteveHiltonx From The US Majority government The majority @SpeakerJohnson @LeaderJohnThune The maj"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104165786122068421",
-          "author": "movienewsusa",
-          "searchJob": "nevada",
-          "text": "Steve Hilton offers a progressive and affordable to families and hardship victims of #California https://t.co/2AU7tqCD8J UP @TeamSteveHilton @SteveHiltonx From The US Majority government The majority @SpeakerJohnson @LeaderJohnThune The maj"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104168284706799719",
-          "author": "foleynewsal",
-          "searchJob": "tennessee",
-          "text": "Midday Melodies Returns To Heritage Park In Foley In October Foley’s Heritage Park will come alive with live music this fall as Visit Foley Alabama brings back its popular Midday Melodies concert series. The free outdoor event will be held "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104166652212289823",
-          "author": "drdee52",
-          "searchJob": "tennessee",
-          "text": "@GretchenPSmith I truly understand how you feel. Tennessee used to be safe and conservative. This is why I like Florida with a no BS governor. Some areas are pricy. Others not so bad. Pick an area that will offer protection. If i can help y"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104170292968902711",
-          "author": "kakwenzarukira",
-          "searchJob": "wake-forest",
-          "text": "If every Ugandan who has watched gronk Muhoozi’s antics in silence suddenly spoke at once, would he really try to jail the entire country? Cells and soldiers exist, yes but they are finite. What he has relied on is not overwhelming force so"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104168359017201851",
-          "author": "pmansford96556",
-          "searchJob": "wake-forest",
-          "text": "@WakeUpPatriott Lie down with dogs, wake up with flees, in Billy boy gates case I believe it was a sexual transfer, he shared with others like his vacancies, Mr Trump take nothing offered by Billy boy he kills thousands to save hundreds, if"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104167905348800518",
-          "author": "emadex",
-          "searchJob": "wake-forest",
-          "text": "Lol 😂 Nigerians ehn Una love lies and fake news die. That we are having this discussion is proof of the fact that we love propaganda too much and the ruling class are very aware of it. Why should a Peter obi go on air to defend himself? Wh"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104166053085597948",
-          "author": "rjamericaworld",
-          "searchJob": "wake-forest",
-          "text": "#RKELLY ; THIS IS WHY WE DON'T HAVE THE @DaddyLoLo_ i.e @CelebratingRKelly, @DANAJAYDaBrand ; fake mentee, keeps thinking he knows Robert, @Levi4Kelly; fake cousin, #JoyceylnSavage, @theonlyazriel fake girlfriends, fake cell mates, fakes, d"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104160404859666602",
-          "author": "rosecryptoxx",
-          "searchJob": "wake-forest",
-          "text": "@sadatbnb Yes the immediate post wake state offers a unique unfiltered recall"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104150427952435350",
-          "author": "lizsocialmedia1",
-          "searchJob": "wake-forest",
-          "text": "Then I’d build an offer around the outcome. I wouldn't sell: “Social media management.” I'd sell: More qualified leads. More appointments. More customers. More revenue. Your customer doesn't wake up wanting your service. They wake up wantin"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104166713470157079",
-          "author": "c_jayjayk",
-          "searchJob": "coastal-carolina",
-          "text": "Clement Wasike is right that Reimagining Tourism can use MICE to showcase Kenya’s wider tourism offer. The Bomas Convention Centre can host delegates who may add safaris, cultural visits, coastal holidays or city for jobs for Kenya #MiceSec"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
+      "ok": false,
+      "reason": "east-carolina: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40ECUPiratesFB%20OR%20%22East%20Carolina%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40ECUPiratesFB%20OR%20%22East%20Carolina%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 0,
+      "failed": 162,
+      "requests": 0,
+      "errors": [
+        "east-carolina: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40ECUPiratesFB%20OR%20%22East%20Carolina%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40ECUPiratesFB%20OR%20%22East%20Carolina%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
+        "eastern-michigan: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40EMUFB%20OR%20%22Eastern%20Michigan%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"https://x.com/search?q=(%40ECUPiratesFB%20OR%20%22East%20Carolina%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40EMUFB%20OR%20%22Eastern%20Michigan%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
+        "kennesaw-state: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40KSUOwlsFB%20OR%20%22Kennesaw%20State%22%20OR%20%22Kennesaw%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"https://x.com/search?q=(%40EMUFB%20OR%20%22Eastern%20Michigan%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40KSUOwlsFB%20OR%20%22Kennesaw%20State%22%20OR%20%22Kennesaw%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
+        "massachusetts: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40UMassFootball%20OR%20%22Massachusetts%22%20OR%20%22UMass%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"https://x.com/search?q=(%40KSUOwlsFB%20OR%20%22Kennesaw%20State%22%20OR%20%22Kennesaw%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40UMassFootball%20OR%20%22Massachusetts%22%20OR%20%22UMass%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
+        "uab: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40UAB_FB%20OR%20%22UAB%22%20OR%20%22Alabama-Birmingham%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"https://x.com/search?q=(%40UMassFootball%20OR%20%22Massachusetts%22%20OR%20%22UMass%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40UAB_FB%20OR%20%22UAB%22%20OR%20%22Alabama-Birmingham%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
+        "unlv: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40unlvfootball%20OR%20%22UNLV%22%20OR%20%22Nevada-Las%20Vegas%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"https://x.com/search?q=(%40UAB_FB%20OR%20%22UAB%22%20OR%20%22Alabama-Birmingham%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40unlvfootball%20OR%20%22UNLV%22%20OR%20%22Nevada-Las%20Vegas%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
+        "utah-state: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40USUFootball%20OR%20%22Utah%20State%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"https://x.com/search?q=(%40unlvfootball%20OR%20%22UNLV%22%20OR%20%22Nevada-Las%20Vegas%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40USUFootball%20OR%20%22Utah%20State%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
+        "utep: navigation: page.goto: Navigation to \"https://x.com/search?q=(%40UTEPFB%20OR%20%22UTEP%22%20OR%20%22Texas-El%20Paso%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\" is interrupted by another navigation to \"https://x.com/search?q=(%40USUFootball%20OR%20%22Utah%20State%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\"\nCall log:\n  - navigating to \"https://x.com/search?q=(%40UTEPFB%20OR%20%22UTEP%22%20OR%20%22Texas-El%20Paso%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790502692%20until_time%3A1790509293&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 0,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-27T11:28:22.846Z"
+    "status rebuilt locally from current store on 2026-09-27T11:42:02.189Z"
   ]
 }
