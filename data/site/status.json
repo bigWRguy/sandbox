@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T02:26:37.673Z",
+  "generatedAt": "2026-09-27T02:43:06.556Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-27T02:26:37.412Z",
+    "at": "2026-09-27T02:43:06.176Z",
     "jobsTotal": 162,
-    "sweptThisRun": 3,
-    "requests": 4,
-    "fullSweepCycles": 54
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,28 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "tulane",
-      "hours": 2.2
-    },
-    {
-      "id": "uab",
-      "hours": 2.2
-    },
-    {
-      "id": "unlv",
-      "hours": 2.2
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2505461111111111,
-    "p95Hours": 2.0033483333333333,
-    "worstHours": 2.246506111111111
+    "medianHours": 1.2080352777777779,
+    "p95Hours": 2.029024722222222,
+    "worstHours": 2.029024722222222
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 42,
+    "decided": 42,
     "complete": true
   },
   "pending": {
@@ -60,58 +47,331 @@
   "profileResolution": {
     "cached": 65
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 1988,
+    "completeOffers": 1989,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-27T02:26:37.412Z",
-      "got": 3,
-      "new": 2,
-      "lag": 0.07
+      "at": "2026-09-27T02:43:06.176Z",
+      "got": 62,
+      "new": 42,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-27T02:26:20.678Z",
+    "at": "2026-09-27T02:41:31.298Z",
     "mode": "live",
     "collection": {
-      "returned": 3,
-      "kept": 2,
-      "duplicate": 1,
+      "returned": 62,
+      "kept": 42,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 20,
+      "rejected": 22,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "multiple_resolved_schools": 1
+        "no_fbs_school": 16,
+        "no_offer_term": 5,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2104013182444392458",
+          "author": "outsidemagazine",
+          "searchJob": "minnesota",
+          "text": "Sweetbriar Ridge in Pine City, Minnesota, offers luxury domes and wood-burning hot tubs just an hour outside of the Twin Cities. https://t.co/dlteSZq1lN https://t.co/HYzDuLsyWm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104027492394860996",
+          "author": "jordenhorton116",
+          "searchJob": "mississippi-state",
+          "text": "I’m extremely blessed to receive an 🅾️ffer from @HailStateFB @CoachUno1 @RecruitAthens @Coach_Crowson #AGTG @RecruitAthens @HallTechSports1 @UnLockYourGame_ @AL_Recruiting @247Sports @Coach_Crowson @Coach_Rwade @ChadSimmons_ @sixstarfootba"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104023605612863568",
+          "author": "miz_szn",
+          "searchJob": "missouri",
+          "text": "@GoNinjaGo_12 @FromTheLogoBR @secnumbersguy You had 2 chances at him and offered him neither time. He hates State"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104032969417486746",
+          "author": "bannercarlson",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great conversation with Coach Bradley I am blessed to receive an offer from Barry University! Thank you for the opportunity! #AGTG https://t.co/0UVvsG3QRS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104019900356530670",
+          "author": "jyrin_showtime",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I am blessed to announce i have received my first offer from, Arkansas Baptist university #AGTG @coachbailey_abc @GBock24 @Coach_SandersQ @PrepRedzoneAR @abc_football @Diamondboyz7v7 https://t.co/2p1jSLpmu5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104037813721477465",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] WK/1048GPBK42 Anne Klein Fashion Apple Watch Bracelet, Black/Gold - 𝗻𝗼𝘄 𝗮𝘁 $𝟯𝟮.𝟯𝟳 — 𝟯𝟬% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟰𝟲.𝟮𝟲 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/0RRAsArW0i Fashion bracelet designed specifica"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104037688789885156",
+          "author": "kannaroy",
+          "searchJob": "texas-tech",
+          "text": "Chinese propaganda brainwashed. Check it. Relax. Chill. Peace. Facts: The major cyber scam hubs operating across Laos, Myanmar, and Thailand are heavily controlled by Chinese organized crime syndicates that rely on trafficked Indian workers"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104037105328677348",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] WK-1017GPGP Anne Klein Fashion Chain Apple Watch Bracelet, Gold-Tone - 𝗻𝗼𝘄 𝗮𝘁 $𝟯𝟭.𝟭𝟬 — 𝟱𝟵% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟳𝟱.𝟬𝟬 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/aA3ECHFOIk Compatible with Apple Watch. Fea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104035233029038174",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] D399 CMF BY Nothing Watch 3 Pro Smartwatch, Dark Grey - 𝗻𝗼𝘄 𝗮𝘁 $𝟲𝟵.𝟬𝟬 — 𝟭𝟯% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟳𝟵.𝟬𝟬 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/JfoHocTpmQ Features a vibrant AMOLED display for clear vis"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104034140068999368",
+          "author": "lunatechai",
+          "searchJob": "texas-tech",
+          "text": "Instead of spending an hour on Netflix tonight. This 60-minute Cambridge lecture by Demis Hassabis offers a fascinating look at where AI is heading — and there’s a lot to learn from it. Save this for later and give it one hour. You might be"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104033577268805939",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] WIZ038 Belkin Qi2 25W 2-in-1 Foldable Charging Station, Black 745883930548 - 𝗻𝗼𝘄 𝗮𝘁 $𝟱𝟯.𝟵𝟵 — 𝟭𝟬% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟱𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/Pf5c7R4V0S Charge your iPhone and Qi2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103726524751139315",
+          "author": "bfmradio",
+          "searchJob": "texas-tech",
+          "text": "📍🟡 “There is a global shortage of engineering talent. Our challenge is to retain them when Taiwanese and Singaporean companies are poaching them for SGD5000-8000.” @sidecmy CEO Yong Kai Ping discuss: •⁠ How Selangor managed to train 600 i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104032804585807894",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 12+256GB Nothing Phone 4a Pro Unlocked Smartphone, Black - 𝗻𝗼𝘄 𝗮𝘁 $𝟱𝟬𝟵.𝟬𝟬 — 𝟭𝟱% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟱𝟵𝟵.𝟬𝟬 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/ZyYCHgX016 It features a 50MP Sony main sensor with"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104031560945336815",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] WIZ038 Belkin Qi2 25W 2-in-1 Foldable Charging Station, Black 745883930548 - 𝗻𝗼𝘄 𝗮𝘁 $𝟱𝟯.𝟵𝟵 — 𝟭𝟬% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟱𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/l6U4FSMovw Charge your iPhone or Qi2 "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104030960513896867",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] BBB014-SA Belkin 3-in-1 Magnetic Wireless Charging Station, Sand 745883943821 - 𝗻𝗼𝘄 𝗮𝘁 $𝟱𝟰.𝟵𝟵 — 𝟭𝟱% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟲𝟰.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/gddNnMdt47 Delivers up to 25W wire"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104030225302749553",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] Samsung Galaxy A57 5G Unlocked Smartphone, Phone only, 128 GB, Awesome Gray 198957285547 - 𝗻𝗼𝘄 𝗮𝘁 $𝟰𝟰𝟵.𝟵𝟵 — 𝟭𝟴% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟱𝟰𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/jKiGWBMcFp The smar"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104027778836554054",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] SM-L320NDAQXAA Samsung Galaxy Watch 8 Bluetooth Smartwatch, Graphite, 40mm, Watch8 198957218552 - 𝗻𝗼𝘄 𝗮𝘁 $𝟮𝟰𝟱.𝟬𝟬 — 𝟭𝟴% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟮𝟵𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/kCdXp8CQer F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104027012889198733",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 611247405710 Keurig K-Mini Mate Single Serve Coffee Maker, Red Rocks, Small 611247405710 - 𝗻𝗼𝘄 𝗮𝘁 $𝟰𝟵.𝟵𝟵 — 𝟰𝟰% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟴𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/8Poz9aloc5 Compact desi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104027838399824379",
+          "author": "utah_fromerid",
+          "searchJob": "utah",
+          "text": "@HansenForHire Not talking about self. Am glad accepted Mr. Hansen offer."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103554351482781974",
+          "author": "furbiddentruths",
+          "searchJob": "utah",
+          "text": "\"An anonymous tip regarding a potential threat involving an electronic-magentic-pulse device.\" Just wanted to throw this out there for all the people who don't think it's rational to speculate the usage of weaponized emf, rf, or electricity"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2103973365518057833",
+          "author": "polymarket",
+          "searchJob": "air-force",
+          "text": "JUST IN: UFO whistleblower Dylan Borland claims aliens may be harvesting human genetic material to preserve their species or potentially replace humanity."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104015464603214033",
+          "author": "youranoncentral",
+          "searchJob": "air-force",
+          "text": "Russia has launched more than 2,100 missiles, including 950 ballistic missiles, and 63,000 attack drones at Ukraine in 2026, From January through August, the UN recorded 15,280 civilian casualties in Ukraine—55% more than the same period la"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 2,
+      "rejected": 18,
+      "reasons": {
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 7,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 8
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104038659171463546",
+          "author": "ignis_rex",
+          "searchJob": "navy",
+          "text": "I think you got your facts wrong. The United Nations Security Council (UNSC) was formally established on 24 October 1945, the same day the UN Charter came into force. China, under the Republic of China led by Chiang Kai-shek, was offered an"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104014933511823708",
-          "author": "redsnation9",
-          "searchJob": "marshall",
-          "text": "@90Deathstroke @HerdFB Again for the millionth time we offered huff a new contract and denied it he hated Huntington"
+          "postId": "2104009454471782904",
+          "author": "unveiled_chinax",
+          "searchJob": "navy",
+          "text": "China told the Philippines to “stop provocations.” A week earlier its coast guard hit a Philippine fisheries ship. On September 18, near Sabina Shoal, China Coast Guard vessel 21585 struck BRP Datu Magat Salamat during a fuel run for Filipi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104017623201751182",
+          "author": "talkette",
+          "searchJob": "minnesota",
+          "text": "@kingfleury29_ Yeah… that signing annoys the crap out of me. Minnesota boy that decided not to take Billy G’s offer with the Wild. 😖"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104025020276133893",
+          "author": "notorious_rozay",
+          "searchJob": "mississippi-state",
+          "text": "@Lacy91Oh He’s going to get an offer he can’t refuse if he keeps this up but he’s really loyal to Mississippi State"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104021499107565578",
+          "author": "_v8n_",
+          "searchJob": "mississippi-state",
+          "text": "I hope Kamario stays at Mississippi State, it’ll be cool to see some loyalty in this era of NIL, I also think that if he getting offered life changing money he should take it"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2104023623363112991",
+          "author": "jeremiaharnoux",
+          "searchJob": "florida-state",
+          "text": "Extremely Blessed to Recieve an Offer from Florida State University‼️ @DBcoachadams @CoachJoeyKing @CarrolltonTroj1 @CoachStrick24 @CoachMasters @dareu_i @dbtips101 https://t.co/kA2jlwfSiP"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104023158261166262",
+          "author": "breachcutter",
+          "searchJob": "houston",
+          "text": "@woonernsfw &lt; Houston was kind of shock to ever hear such offer, taking a extra second to process what was said yet he snap out of the bemusement &gt; Tell ya what. When I go back to my room here at the hotel. Ill be sure to sketch somet"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104037026341486794",
+          "author": "axel_bitblaze69",
+          "searchJob": "texas-tech",
+          "text": "$NEAR is getting attention for Confidential Intents.but it’s not the only project working on private payments, transfers and apps.. Here are a few more alts with similar tech: - $RAIL lets you transfer existing ERC-20 tokens privately. - $Z"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104036507048914995",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 2-Pack Life360 Tile Starter Pack Bluetooth Trackers 819039025287 - 𝗻𝗼𝘄 𝗮𝘁 $𝟯𝟮.𝟵𝟵 — 𝟯𝟰% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟰𝟵.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/cm34d6armI Use the Tile Mate and Slim for your "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104034604487225731",
+          "author": "red3rdeye420",
+          "searchJob": "texas-tech",
+          "text": "That points directly to the ultimate function of the machinery: arresting that transformation to preserve a docile, predictable consumer. Nietzsche called the ultimate product of a pacified, friction-free culture the \"Last Man\"—a creature w"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104033565818446063",
+          "author": "arunkjhaies",
+          "searchJob": "texas-tech",
+          "text": "Turn deep-tech ideas into real startups! 💥 @NIAMT_Ranchi’s Incubation Centre offers funding &amp; mentorship to founders. 🚀 🔗 https://t.co/JijkEO6MiF @EduMinOfIndia @TOIRanchiNews #StartupIndia #NIAMT @toi @Telegraph @TOIPatna @Ganesh113"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104033064217399570",
+          "author": "azrulrhm",
+          "searchJob": "texas-tech",
+          "text": "If you're being offered a considerable amount of money by a foreign company to work on high-tech stuff, don’t think twice, go! Go NOW!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104029623495631262",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] Q3AIR | Q3 Air Basic TORRAS Q3 Air MagSafe Phone Case, Horizon Orange, iPhone 17 Pro 6.3\" - 𝗻𝗼𝘄 𝗮𝘁 $𝟱𝟲.𝟬𝟵 — 𝟭𝟱% 𝗼𝗳𝗳 𝘁𝗵𝗲 $𝟲𝟱.𝟵𝟵 𝗹𝗶𝘀𝘁 𝗽𝗿𝗶𝗰𝗲. [ad] Offer Link: https://t.co/rsiPT5Jxsk This case f"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104028794507960386",
+          "author": "bbuckley88",
+          "searchJob": "texas-tech",
+          "text": "Rubio won’t fall for any weird scam. The tech bros will offer him a huge clean salary, “Because you’ll be such an asset to us”, and have him believe it’s all on the up & up and not to just get him off the board. They want Vance because they"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104027635982508420",
+          "author": "padolsey",
+          "searchJob": "texas-tech",
+          "text": "Remember - there is nothing whatsoever special about the people who work at -- or in charge of -- big tech in silicon valley. They are incidents of circumstance. They are not smarter than any of us, and in no greater position of knowledge o"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2104033948200296734",
-          "author": "rrubal77",
-          "searchJob": "missouri-state",
-          "text": "Offers: - Texas State - UTSA - Missouri State"
+          "postId": "2104019975967019517",
+          "author": "furbiddentruths",
+          "searchJob": "utah",
+          "text": "My gut tells me George Zinn provided the tip. Here's why: 1. He's done it before. On April 17, 2013, two days after the Boston Marathon bombing, he emailed the Salt Lake City Marathon's marketing director: \"I was wondering if you needed any"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104037013695463923",
+          "author": "josephyala",
+          "searchJob": "air-force",
+          "text": "A strange theory has just entered the UFO disclosure conversation. During a September 24 appearance on Sean Hannity’s podcast, UAP whistleblower Dylan Borland was asked about the possible reason behind alleged non-human activity. Hannity su"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104027116022964359",
+          "author": "keifer044",
+          "searchJob": "air-force",
+          "text": "@RealAmVoice @MSNOWNews Congratulations RAV on your seats on Air Force One!🇺🇲 I'm sure we will be getting the best you journalist have to offer. We don't trust fake news like CNN, MS NOW AND POLITICO. If it weren't for airports, bus and t"
         }
       ]
     },
@@ -119,20 +379,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 3,
-      "failed": 1,
-      "requests": 4,
-      "errors": [
-        "tulane: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-27T02:26:37.675Z"
+    "status rebuilt locally from current store on 2026-09-27T02:43:06.557Z"
   ]
 }
