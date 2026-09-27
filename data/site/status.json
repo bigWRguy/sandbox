@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:26:56.790Z",
+  "generatedAt": "2026-09-27T23:42:57.409Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-27T23:26:56.353Z",
+    "at": "2026-09-27T23:42:57.026Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7531513888888889,
-    "p95Hours": 1.509188611111111,
-    "worstHours": 1.7670927777777778
+    "medianHours": 1.01999,
+    "p95Hours": 1.5258930555555557,
+    "worstHours": 1.7760272222222222
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 30,
+    "decided": 30,
     "complete": true
   },
   "pending": {
@@ -49,84 +49,257 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 2037,
+    "completeOffers": 2040,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-27T23:26:56.353Z",
-      "got": 9,
-      "new": 3,
-      "lag": 0.14
+      "at": "2026-09-27T23:42:57.025Z",
+      "got": 45,
+      "new": 30,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-09-27T23:26:37.824Z",
+    "at": "2026-09-27T23:41:27.150Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 3,
-      "duplicate": 6,
+      "returned": 45,
+      "kept": 30,
+      "duplicate": 15,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 3,
+      "accepted": 17,
+      "rejected": 13,
       "reasons": {
-        "non_fbs_offer_target": 2,
-        "no_offer_term": 1
+        "no_offer_term": 4,
+        "no_fbs_school": 8,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2104323585020207247",
-          "author": "maggie_king_29",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from UT Southern!! Thank you Coach Tipps for believing in me, GO FIREHAWKS!!! https://t.co/rfjingP8Ro"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2104322015289020680",
-          "author": "weston_shelton1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great camp today, I am blessed to receive an offer from Brescia University! Thank you Coach Karn and Coach Holland. @CoachWarrenC @NextUpRecruits https://t.co/TEF5yfCumO"
+          "reason": "no_offer_term",
+          "postId": "2104345551160401991",
+          "author": "mipaguy",
+          "searchJob": "memphis",
+          "text": "Models, Machines and Rockets: The Expanding Competition Among ChatGPT, Claude and Grok. https://t.co/yGKb4BWou0"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2104350079867867522",
-          "author": "millennialmike7",
-          "searchJob": "tulane",
-          "text": "https://t.co/iUfZ4QUVuq"
+          "postId": "2104031200142594227",
+          "author": "jbpritzker",
+          "searchJob": "illinois",
+          "text": "Don't be fooled. A vote for Darren Bailey is a vote for Donald Trump. https://t.co/J2rw60rezP"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104339189353284093",
+          "author": "emilaldaddah",
+          "searchJob": "illinois",
+          "text": "This isn't a directional market call. It’s an anatomy of why market timing is so difficult across different time horizons. ​Evaluating 8,218 daily rolling 12-month S&P 500 returns since 1994: • 12-month periods ended higher 81.9% of the tim"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104329580672868593",
+          "author": "rat3b",
+          "searchJob": "tennessee",
+          "text": "CBS has just announced due to the sub par team efforts, the remaining Tennessee Titans Games will only be shown on select gas pumps Tv's in Shell Stations across Europe. At this time no other network has offered to take over!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104346913281806733",
+          "author": "jwashpn",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great conversation with coach Shaw, im blessed to have received an offer from @ReiverMBB!! Thank you coach for taking a chance on me! https://t.co/Yq8xHUg4ZD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104346353660739728",
+          "author": "jwashpn",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a great conversation with coach Shaw, I’m blessed to have received an offer from @m"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104345255541911869",
+          "author": "shanesantora",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After some great conversations with @CoachTankBoni and @CoachPaladino I am beyond blessed to have received an offer from Springfield College Thank you for believing in me! I’m looking forward to my game day visit. @Mike_Cerasuolo @_SCFootba"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104338126714110328",
+          "author": "trent5alexander",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "After a call with @CoachKMurph I am blessed to have received an offer from @NWUFootball! @dcw_fb @CoachRDonner @MikeTroy76 https://t.co/dE78CVDUfh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104337301061116377",
+          "author": "tklinge08",
+          "searchJob": "phrase:\"honored to receive an offer\"",
+          "text": "After a great phone call with @NewBobDaviesFB I am honored to receive an offer to play football for @HamlineFootball. Excited about the vision for the program! @612Qs https://t.co/5fwCvHuA6F"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104351855341871446",
+          "author": "joshepps2029",
+          "searchJob": "charlotte",
+          "text": "Blessed to receive an invitation to compete at the Shock Doctor You Are Athlete Regional Camp Series in Charlotte,NC on November 28! Excited for the opportunity to compete against some of the top prospects. Thank you @youareathlete for the "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104345973912723846",
+          "author": "charlottedfw",
+          "searchJob": "charlotte",
+          "text": "Money is energy baby, and I am blessed to be able to tip heavy and offer higher wages than people expect Take care of others, lift people up, get better service and cut out all the shit that sucks because we don't pay for garbage"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104174676625035355",
+          "author": "pragdua",
+          "searchJob": "charlotte",
+          "text": "beyond a certain net worth, negotiating with people less privileged than you (cab drivers, house help, carpenters etc) causes rot to the soul. just overpay and move on"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104352663894962642",
+          "author": "stormingnm",
+          "searchJob": "new-mexico",
+          "text": "The news has died down on this a little, but PNM and Blackstone got caught doing a $400 million stock deal with no approval. PRC said it was illegal, fine them, then Undo it. Push the whole $11.5 billion buyout to 2027. Now they show back u"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 3,
+      "rejected": 14,
+      "reasons": {
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 7,
+        "reporter_missing_player_name": 1,
+        "player_missing_class_year": 2
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104348511286239411",
+          "author": "ulgensophia74",
+          "searchJob": "class:2030",
+          "text": "🚨🚨🚨WSJ: The former Fox News host has crisscrossed the Balkans to help Europe wean itself from Russian energy, via a “vertical gas corridor” meant to receive U.S. LNG in Greece and pipe it toward Ukraine. WSJ is reporting that The New Hit"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104353665406611872",
+          "author": "lghr",
+          "searchJob": "liberty",
+          "text": "Approved applicants only. Lending criteria apply. Marlene Liontis has access to a panel of lenders through Liberty Network Services Pty Ltd (ABN 65 151 158 628 | ACL 408042) (LNS). LNS may offer products funded by related companies under th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104349779472118122",
+          "author": "lawtimesdaily",
+          "searchJob": "liberty",
+          "text": "There is a a rough ranking of American corruption: Crédit Mobilier. The Whiskey Ring. Teapot Dome. Watergate. I'll say it plainly: the Trump family has blown past all of them, and it isn't close. For a century, the benchmark was Teapot Dome"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104335209038483914",
+          "author": "charles46129363",
+          "searchJob": "liberty",
+          "text": ">“The Spirit of the Lord God is upon me, because the Lord has anointed me to bring good news to the afflicted; He has sent me to bind up the brokenhearted, to proclaim liberty to captives and freedom to prisoners.”—Isaiah 61:1 This line can"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104347666926698554",
+          "author": "coachnegative",
+          "searchJob": "memphis",
+          "text": "@JustinN44647247 @Terrapins247 @team980 @NBCSports B1G head coaching job in his home area - yes he would. Memphis is a stepping stone job and coming to MD at its nadir is a big opportunity. If MD offers him 6+ for 6 years - he is coming… Wa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104334030368084036",
+          "author": "aihbmemphis",
+          "searchJob": "memphis",
+          "text": "\"Sell my house fast Lakeland\"? Get the repairs required by an offer in writing before hiring a contractor. I'm Nick, a Memphis buyer. (901) 763-6616 #AsIsHomeBuyerMemphis https://t.co/0sLRNg3zez"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104354327561425062",
+          "author": "os_beaver",
+          "searchJob": "oregon-state",
+          "text": "Shep's price going up and Oregon State will struggle to do much better than this. Offer needs to be formally extended immediately after a win over Colorado State. Deal won't get any better for OSU and should not wait. OSU leverage to secure"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104348271070310632",
+          "author": "sarahsburner_v2",
+          "searchJob": "illinois",
+          "text": "@anthonydavisinc Strange he took the DC role. He is known as expert in all sp teams worlds. Had nfl &amp; p4 offers, seems odd he took the Illini job. Great coach, regardless"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2104341861317919102",
+          "author": "_leo312",
+          "searchJob": "illinois",
+          "text": "Bro has offered ZERO solutions to make Illinois more affordable and safer it’s all just Trump Bad!! .. I can’t fucking stand democrats and their spineless voters"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104353781588574712",
+          "author": "stingoverture",
+          "searchJob": "wisconsin",
+          "text": "@kaefairy_ So here’s the plan: 1. You buy my book, “The Complete Idiot’s Guide to… Sensitive Young Men” 2. We drive to Wisconsin, cus cheese (sensitive young man magnet) 3. We find one. I offer him $13,500 in cash and a bag of chips to ask "
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2104339145149776214",
+          "author": "ayetr0n",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great conversation with @EthanBrenesFB, I’m extremely blessed and grateful to receive an offer from Western Michigan University!! 🐴🟤🟡🏈 @247Sports @AllenTrieu @JUCOFrenzy https://t.co/XXJbrEiml1"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2104354829330227441",
+          "author": "jadynhudson2",
+          "searchJob": "byu",
+          "text": "AG2G!! After a great conversation with Coach Warren, I am blessed to receive an offer from BYU!! #csmisdbu #ogisdbu @DemarioWarren @Coach_Popp @CSM_Football @coachTcsm @Ogthetruth #POPMODE💙 https://t.co/KH4v8CR7UJ"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104349252818477462",
+          "author": "dunnbilly87734",
+          "searchJob": "charlotte",
+          "text": "In the winter of 1618, Faulhaber’s comet appeared. Not long thereafter, the Paracelsian Lion prophecy was put together to support the Lion of the Woods, the Leo ex Silva, Fredrick of Wurtemberg. The Bohemians had begun their rebellion and F"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104349666691440782",
+          "author": "repgabevasquez",
+          "searchJob": "new-mexico",
+          "text": "Today, I was lucky enough to sit down with First Lieutenant James Clayton Flowers — a 110-year old WWII Veteran and Las Cruces resident. Lt. Flowers served for 5 years in the U.S. Army during World War II with the Tuskegee Airmen, as one of"
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "class:2030: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 14,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-27T23:26:56.791Z"
+    "status rebuilt locally from current store on 2026-09-27T23:42:57.411Z"
   ]
 }
