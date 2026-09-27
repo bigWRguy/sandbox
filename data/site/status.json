@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T09:57:58.588Z",
+  "generatedAt": "2026-09-27T10:13:06.710Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-27T09:57:58.338Z",
+    "at": "2026-09-27T10:13:06.370Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7666397222222222,
-    "p95Hours": 1.2746408333333332,
-    "worstHours": 1.5271177777777778
+    "medianHours": 0.7761888888888889,
+    "p95Hours": 1.2780619444444445,
+    "worstHours": 1.5268966666666666
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 17,
+    "decided": 17,
     "complete": true
   },
   "pending": {
@@ -55,95 +55,159 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-27T09:57:58.337Z",
-      "got": 15,
-      "new": 8,
-      "lag": 0.35
+      "at": "2026-09-27T10:13:06.369Z",
+      "got": 21,
+      "new": 17,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-09-27T09:56:32.191Z",
+    "at": "2026-09-27T10:11:31.048Z",
     "mode": "live",
     "collection": {
-      "returned": 15,
-      "kept": 8,
-      "duplicate": 7,
-      "tooOld": 0,
+      "returned": 21,
+      "kept": 17,
+      "duplicate": 3,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 2,
+      "accepted": 14,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 2
+        "no_offer_term": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2104136187736735867",
-          "author": "joshuaorekhie",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/X3IzJBsMwu"
+          "postId": "2103985073863225753",
+          "author": "sportscenter",
+          "searchJob": "michigan",
+          "text": "ANOTHER BIG HOUSE MIRACLE 😦 THIS TIME IOWA WINS IT IN THE FINAL SECOND 🔥 https://t.co/QatlLaVrrX"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104149053067952596",
+          "author": "nathanistic",
+          "searchJob": "notre-dame",
+          "text": "Ed Sheeran Faces Backlash as Tour Lineup Collapses After Macklemore Is Dropped Ed Sheeran is facing major public backlash after his concert promoter dropped Macklemore from the remaining tour dates following his pro-P⬛lestinian comments on "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2104140097016803783",
-          "author": "danwoodsweather",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/H49KRKSsJp"
+          "postId": "2103414131957051638",
+          "author": "piltr_xbt",
+          "searchJob": "buffalo",
+          "text": "$BTC orderflow update: Mentioned this in Discord earlier - we had light selling pressure with gradual spikes from perps, initially absorbed before price continued lower. On the reaction back up, buyers showed little real initiative, but the"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 14,
       "reasons": {
-        "school_not_resolved_confidently": 5,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 7
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104143236965019776",
-          "author": "paulgoldeagle",
-          "searchJob": "wake-forest",
-          "text": "👁 UPDATE: 847 DEEP STATE OPERATIVES JUST GOT ARRESTED AND NO ONE IS TALKING ABOUT IT I know what happened. September 25, 2026. 2:47 PM EST. The order was given. Not a report. Not a command. A PRESIDENTIAL EXECUTIVE ORDER, signed by Trump h"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104149094637637995",
+          "author": "thespartanswire",
+          "searchJob": "michigan",
+          "text": "Michigan State extends offer to Archbishop Moeller defensive lineman 📸 Tommy Gilligan, USA TODAY Sports via Reuters Con https://t.co/om32z1up64 https://t.co/9RpxjedgnT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104137504710660600",
+          "author": "asif1qbal",
+          "searchJob": "michigan",
+          "text": "KARMA: Week 1, we got a “miracle” second to pull off the win. Three weeks later, our own HOME clock forgets to start, gifts @TheIowaHawkeyes a “miracle” second, and @UMichFootball takes its first L. I knew karma kept receipts… I just didn’t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104150909903044993",
+          "author": "abrahamunity17q",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "PATRIQTS IN CQNTRQL 9/27/26 SUNDAY FUNDAY 0600 BQARD READ The hour came up and the board was already ours. ☀️🇺🇸 No caption under the night he sent. A plate that already knew the numbers. A salute. A horse. A stair. The office, posted with"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104135096433520835",
+          "author": "shahidmohmand79",
+          "searchJob": "california",
+          "text": "The recent debate upon a proposed tax on billionaires in California offers us a superb glimpse on how public policies evolve after thorough discussion and evidence, something completely absent in Pakistan. On both sides of debate are leadin"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2104141333317198331",
-          "author": "keneb003",
-          "searchJob": "wake-forest",
-          "text": "Most people reach for a cup of coffee because they want to wake up. But coffee does more than help you feel alert. In moderation, coffee may offer several health benefits: ☕ Can improve focus and concentration ☕ May enhance physical perform"
+          "postId": "2104150528041300282",
+          "author": "kris_etc_",
+          "searchJob": "notre-dame",
+          "text": "@LexiAIexander And I thought the Irish at least had their heads on straight 🤦🏼‍♀️ Maybe they're hoping Ed will offer them a personal concert."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2104139596602753370",
-          "author": "mrskyai",
-          "searchJob": "wake-forest",
-          "text": "OpenAI Unveils GPT-6: The Race for AI Supremacy Heats Up As we wake up to another lazy Sunday in September, the world of artificial intelligence is buzzing with news that could shake things up. OpenAI has just released GPT-6, their latest i"
+          "postId": "2104143487176261982",
+          "author": "kerner_maire",
+          "searchJob": "notre-dame",
+          "text": "National Chocolate Milk Day🍫🥤🍫🥛🤎😋 Each year on September 27 folks enjoy a tall frosty glass to celebrate National Chocolate Milk Day. Of course, the history of chocolate milk is inextricably tied to the discovery of chocolate. It is b"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2104127064102084658",
-          "author": "scholesnputd",
-          "searchJob": "wake-forest",
-          "text": "@PeterObi My president, that last paragraph no follow ooo abeg. We can't wake a man who's pretending to sleep. He has nothing to offer, he should be exiled. Affliction cannot continue to strive. My only prayer for him is that sickness will "
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2104136015396876747",
-          "author": "matthewknowlesg",
-          "searchJob": "coastal-carolina",
-          "text": "Manifesto no, there’s more policies than just immigration and more added constantly Funding is not a issue, Elon has offered whatever Restore need Abolish student loan interest — wipe past and future interest for British residents. • Mariti"
+          "postId": "2104136879369257084",
+          "author": "collietalking",
+          "searchJob": "notre-dame",
+          "text": "@Scottd6168 @Watchdog_MP @SkyNews Ah yes a “Scottish” nationalist, always Irish, every time🤣 literally offer nothing and neither did any of your ancestors ten child families"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2104126408926601385",
-          "author": "goeastlothian",
-          "searchJob": "coastal-carolina",
-          "text": "Golden hour on East Lothian’s Coast 🌅 Port Seton offers open coastal views looking out toward the Firth of Forth, and has an accessible footpath as part of the John Muir Way. It was built as a harbour in 1656 by the 11th Lord Seton, whose "
+          "postId": "2104133811978043457",
+          "author": "_000btc",
+          "searchJob": "notre-dame",
+          "text": "The undisputed OG of Irish digital real estate is available. 🥃 *https://t.co/2N9EFBrZpZ* represents the only whiskey style in the world that is exclusively Irish. The story? In 1785, a British tax on malted barley forced Irish distillers t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104132469964374058",
+          "author": "valkyriejdr",
+          "searchJob": "notre-dame",
+          "text": "@BrandonFalco121 My Irish ancestors were in America as slaves way before any black slaves were offered for sale in America . Does that mean I get reperations too? Shouldn't I get more by their logic? I want my reperations too! Jk people suc"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104147742633476441",
+          "author": "vfsglobal",
+          "searchJob": "buffalo",
+          "text": "Visa application is a crucial step in international travel, and for years, we have been a part of our customers’ journeys, making every step effortless. In line with this, we supported the Blue Bulls and Free State Cheetahs rugby teams by p"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104145188801126863",
+          "author": "piltr_xbt",
+          "searchJob": "buffalo",
+          "text": "$BTC orderflow The entire mini-range since Friday evening has been driven largely by old positioning, not fresh initiative. > Initially we saw long covering on Binance, followed by short covering, while spot remained gradually offered. > By"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104150562820260278",
+          "author": "charlesmuselli",
+          "searchJob": "liberty",
+          "text": "New Earth is my ongoing science fiction series exploring humanity’s journey to new worlds—and what it means to remain human. New entries drop every Sunday at 6am eastern. This week, Max offers Reed, Liberty and Tao a choice that could shape"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104139129411842229",
+          "author": "mileilens",
+          "searchJob": "liberty",
+          "text": "The charge that libertarianism is “utopian” usually means one of two things: either that a free society is impossible given human nature, or that it is unattainable because people will never choose it. Both collapse on inspection. True utop"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104135538949206068",
+          "author": "libertybooks_",
+          "searchJob": "liberty",
+          "text": "Grab your brushes , it's time to get tote-ally creative! Join us for a Paint Your Own Tote Bag workshop and turn a plain canvas tote into a piece of art that's completely YOU. 🗓️ 2nd October, Friday 🕓 4:00 PM – 6:00 PM 📍 Liberty Books Fl"
         }
       ]
     },
@@ -158,11 +222,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 14,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-27T09:57:58.589Z"
+    "status rebuilt locally from current store on 2026-09-27T10:13:06.711Z"
   ]
 }
