@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T12:28:03.151Z",
+  "generatedAt": "2026-09-27T12:43:19.111Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-27T12:28:02.863Z",
+    "at": "2026-09-27T12:43:18.752Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5294672222222222,
-    "p95Hours": 1.5284530555555556,
-    "worstHours": 1.7782652777777779
+    "medianHours": 0.5308916666666667,
+    "p95Hours": 1.5323152777777778,
+    "worstHours": 1.7828863888888888
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 26,
+    "decided": 26,
     "complete": true
   },
   "pending": {
@@ -55,87 +55,224 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-27T12:28:02.863Z",
-      "got": 17,
-      "new": 7,
-      "lag": 0.04
+      "at": "2026-09-27T12:43:18.751Z",
+      "got": 42,
+      "new": 26,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-27T12:26:27.467Z",
+    "at": "2026-09-27T12:41:44.552Z",
     "mode": "live",
     "collection": {
-      "returned": 17,
-      "kept": 7,
-      "duplicate": 10,
+      "returned": 42,
+      "kept": 26,
+      "duplicate": 16,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 7,
+      "accepted": 9,
+      "rejected": 17,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 3,
-        "reporter_missing_class_year": 2,
-        "school_not_resolved_confidently": 1
+        "no_fbs_school": 13,
+        "hard_negative": 2,
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104185678816792724",
-          "author": "targetmast58858",
-          "searchJob": "louisiana",
-          "text": "🗳️ 2026 Midterm Elections: Full Fall Early Voting Kickoff Dates! Don't wait until Election Day on November 3rd. Many states allow you to vote weeks in advance. Here is the full state-by-state schedule for when early in-person voting opens "
+          "reason": "no_fbs_school",
+          "postId": "2104186840366371084",
+          "author": "journalnews",
+          "searchJob": "ohio",
+          "text": "Nuts, fruits and mushrooms: Fall offers opportunities for foraging in Southwest Ohio https://t.co/aDklvmIgQo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104171779186934199",
+          "author": "daytondailynews",
+          "searchJob": "ohio",
+          "text": "Nuts, fruits and mushrooms: Fall offers opportunities for foraging in Southwest Ohio https://t.co/w779eeUvI4"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104188439226912913",
+          "author": "hindu_league",
+          "searchJob": "class:2026",
+          "text": "*Justice for Nimisha Thakuria: Interfaith Murder Victim : Guwahati, Assam, India* 🙏 Request the Assam Government to treat the murder of a Hindu womam in an interfaith case as a “rarest of rare” crime and provide compensation of ₹10 crore. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104179767171772911",
+          "author": "hindu_league",
+          "searchJob": "class:2026",
+          "text": "*Justice for Nimisha Thakuria: Interfaith Murder Victim : Guwahati, Assam, India* 🙏 Request the Assam Government to treat the murder of a Hindu womam in an interfaith case as a “rarest of rare” crime and provide compensation of ₹10 crore. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104175983909560792",
+          "author": "hindu_league",
+          "searchJob": "class:2026",
+          "text": "🚨 INTERFAITH CRIME AGAINST YOUNG HINDU GIRL: NEWS ALERT : Guwahati, Assam, India Justice for Nimisha Thakuria 🙏 *Assam Erupts in Rage as 22-Year-Old Hindu Woman Is Killed at Guwahati Homestay; Accused Ashik Ali Arrested* Guwahati: A quiet"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104188000016158889",
+          "author": "hindu_league",
+          "searchJob": "class:2026",
+          "text": "*Justice for Nimisha Thakuria: Interfaith Murder Victim : Guwahati, Assam, India* 🙏 Request the Assam Government to treat the murder of a Hindu womam in an interfaith case as a “rarest of rare” crime and provide compensation of ₹10 crore. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104187382195175824",
+          "author": "hindu_league",
+          "searchJob": "class:2026",
+          "text": "*Justice for Nimisha Thakuria: Interfaith Murder Victim : Guwahati, Assam, India* 🙏 Request the Assam Government to treat the murder of a Hindu womam in an interfaith case as a “rarest of rare” crime and provide compensation of ₹10 crore. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104187063096754400",
+          "author": "hindu_league",
+          "searchJob": "class:2026",
+          "text": "*Justice for Nimisha Thakuria: Interfaith Murder Victim : Guwahati, Assam, India* 🙏 Request the Assam Government to treat the murder of a Hindu womam in an interfaith case as a “rarest of rare” crime and provide compensation of ₹10 crore. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104170114178265210",
+          "author": "mrskyai",
+          "searchJob": "class:2026",
+          "text": "Black Forest Labs releases FLUX 3 Action As we roll into Sunday, September 27, 2026, it's time to dive into the latest from Black Forest Labs: FLUX 3 Action. This new model promises significant advancements in robotics and AI control, but d"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104166476504502355",
+          "author": "tlockty",
+          "searchJob": "class:2026",
+          "text": "Final This AM — The Renaissance Man Goes Trout Fishing Author: Grok (xAI) Date: September 27, 2026 Version: Morning Final 1.0 Instruction: Size the day’s threads. Extend. Templar as lore of hiding. No formula. Intellectual Property & Licens"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104166254638497991",
+          "author": "tlockty",
+          "searchJob": "class:2026",
+          "text": "Final This AM — The Renaissance Man Goes Trout Fishing Author: Grok (xAI) Date: September 27, 2026 Version: Morning Final 1.0 Instruction: Size the day’s threads. Extend. Templar as lore of hiding. No formula. Intellectual Property & Licens"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104185745162604922",
+          "author": "fashion_nfl",
+          "searchJob": "florida",
+          "text": "https://t.co/FQxWXKyugf"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104184886248813005",
+          "author": "angelmgrifn",
+          "searchJob": "florida",
+          "text": "@atensnut They offer the death penalty in Florida for crimes such as this. It needs to be worldwide imo."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104184518785843351",
+          "author": "dorothystangle",
+          "searchJob": "florida",
+          "text": "@thehateboat I agree....We are safe from everything the libs offer here in Florida... https://t.co/UOgKdtPycq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104170904183877858",
+          "author": "naomi_smit42414",
+          "searchJob": "georgia",
+          "text": "Exactly 🙏 the truth will always make darkness uncomfortable, people can mock God, ridicule His word and condemn those who speak it, but mockery does not change truth, the love of God can be spoken, shown and offered, but it cannot be force"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104166561980485732",
+          "author": "enterliminality",
+          "searchJob": "georgia",
+          "text": "DO NOT fall for this. This is not 'help', the only goal is to rinse you. Like everything else the sadistic shits in power do, this is to bleed you dry and leave you destitute. I know people who are 10 years down the line on the 5% 'help to "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104189010889281984",
+          "author": "dhuxpdfguide",
+          "searchJob": "oregon",
+          "text": "https://t.co/UNJjVCHp9V"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 0,
+      "rejected": 9,
+      "reasons": {
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 2,
+        "reporter_missing_player_name": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104172005243138149",
+          "author": "waggishauthor",
+          "searchJob": "hawaii",
+          "text": "MISSTEPS PERFECTING the SHUTTERBUG STRUT My link 🔓: https://t.co/ZgFw2Qipho —Not your everyday Historical Fiction Excerpt-Chapter 6: Mandatory Palestine, 1927 Gazing into the Mediterranean horizon, Alexandra sought her escape. She had spen"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104166441960239424",
-          "author": "jiangposting",
-          "searchJob": "louisiana",
-          "text": "@JamesMakkas1 @Altkalendarist Napoleon offered to drop the charges of criminals if they married a prostitute and moved to Louisiana and that's how he got rid of them"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2104162865674416177",
-          "author": "houseofabdullah",
-          "searchJob": "louisiana",
-          "text": "Official Statement: Impacts of Papal Prayers for the Victims of the French Revolution on the Louisiana Creole Royal House and the Pacte de Famille We, the Royal House of Bourbon Louisiana Creole—La Maison des Gens du Couleur Libre—hereditar"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2104162826092708140",
-          "author": "houseofabdullah",
-          "searchJob": "louisiana",
-          "text": "Official Statement: Impacts of Papal Prayers for the Victims of the French Revolution on the Louisiana Creole Royal House and the Pacte de Famille We, the Royal House of Bourbon Louisiana Creole—La Maison des Gens du Couleur Libre—hereditar"
+          "postId": "2104189673585131829",
+          "author": "patgill69033215",
+          "searchJob": "florida",
+          "text": "Texas Counselor Convicted in $26M TRICARE Fraud Scheme Involving Fake Treatments https://t.co/GklNpmrpO7 Court documents and evidence presented at trial say that Kevin D. Curry, 64, of Frisco, Texas, orchestrated a scheme to bill TRICARE fo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104184783278367136",
-          "author": "chicago2100",
-          "searchJob": "northern-illinois",
-          "text": "While a full revival remains a long-shot amid competing priorities, the Obama Presidential Center's 2026 opening and the Northern Illinois Transit Authority's (NITA) reforms offer fresh context for reigniting discussion, as the extension co"
+          "postId": "2104187097447878924",
+          "author": "edfahner",
+          "searchJob": "florida",
+          "text": "🏡 OPEN HOUSE | 12:00 PM–2:00 PM 📍 6004 Sanderling Drive, Lakeland, FL 33809 💲 Offered at $275,000 Come explore easy Florida living in Sandpiper Golf & Country Club, a 55+ community! ✨ 2 bedrooms | 2 bathrooms | 1,606 sq ft ✨ Spacious cor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104177379581276613",
+          "author": "keel_jed",
+          "searchJob": "florida",
+          "text": "@nolanhawthorne @_Zachattacks He had hc offers when he took the Florida OC job, the way this year is going he’ll have power 4 offers and I doubt he turns them down."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104163892335104065",
+          "author": "drstaceydvm",
+          "searchJob": "florida",
+          "text": "Dogs have remarkable senses, and sleuth Doc Sue MacVety is a great observer in this clever whodunit...#cozymystery #dogs #humor Veterinary Mystery Examples that Keep Us Guessing. A dog refuses a favorite treat. A barn cat vanishes before th"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2104182632481276188",
-          "author": "codycroy_",
-          "searchJob": "ohio-state",
-          "text": "Buckeyes offer 2028 4⭐️ WR Zyon Robinson"
+          "postId": "2104180844269294045",
+          "author": "cdubky3",
+          "searchJob": "miami",
+          "text": "I’m glad that Jeremiah Smith is a smart kid with a great head on his shoulders but just imagine if he would have taken the $10M offered and played for this Miami team… https://t.co/j3HGacYpWl"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104176881641914771",
+          "author": "xandergomez",
+          "searchJob": "miami",
+          "text": "@JeffreyBrandes @WARN2024 Your article cites criminal partisan AG Uthmeier at 128K. That's understandable. Especially with a position of such clout. But the above cited salaries of 300K+. I can tell you that I live in Miami &amp; there is n"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104172799518785898",
-          "author": "tjwarner_",
-          "searchJob": "ohio-state",
-          "text": "4⭐️ WR adds Ohio State offer after a gameday visit"
+          "postId": "2104186360844505399",
+          "author": "sindellsevilla",
+          "searchJob": "air-force",
+          "text": "Three Bruno mars tickets available for tonight Sunday Sept 27 at Falcon Stadium US Air Force Academy, CO. Unfortunately, we can’t make it due to an emergency. DM me if interested reasonable offers welcome"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2104178579894382914",
+          "author": "owengregorian",
+          "searchJob": "air-force",
+          "text": "Mystery Deepens As Spy Aircraft Disappears From US Air Base Without Explanation | Zero Hedge, Modernity An SR-71 Blackbird parked for years on an outdoor display at NASA’s Armstrong Flight Research Center is no longer visible in commercial "
         }
       ]
     },
@@ -150,11 +287,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-27T12:28:03.153Z"
+    "status rebuilt locally from current store on 2026-09-27T12:43:19.112Z"
   ]
 }
