@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T15:12:10.752Z",
+  "generatedAt": "2026-09-28T15:35:43.243Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-28T15:12:10.512Z",
+    "at": "2026-09-28T15:35:42.887Z",
     "jobsTotal": 162,
-    "sweptThisRun": 6,
-    "requests": 7,
-    "fullSweepCycles": 27
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,19 +30,112 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "akron",
+      "hours": 2.1
+    },
+    {
+      "id": "arizona",
+      "hours": 2.1
+    },
+    {
+      "id": "florida",
+      "hours": 2.1
+    },
+    {
+      "id": "georgia-state",
+      "hours": 2.1
+    },
+    {
+      "id": "james-madison",
+      "hours": 2.1
+    },
+    {
+      "id": "kansas-state",
+      "hours": 2.1
+    },
+    {
+      "id": "kennesaw-state",
+      "hours": 2.1
+    },
+    {
+      "id": "louisville",
+      "hours": 2.1
+    },
+    {
+      "id": "miami",
+      "hours": 2.1
+    },
+    {
+      "id": "missouri-state",
+      "hours": 2.1
+    },
+    {
+      "id": "nc-state",
+      "hours": 2.1
+    },
+    {
+      "id": "ole-miss",
+      "hours": 2.1
+    },
+    {
+      "id": "oregon",
+      "hours": 2.1
+    },
+    {
+      "id": "penn-state",
+      "hours": 2.1
+    },
+    {
+      "id": "purdue",
+      "hours": 2.1
+    },
+    {
+      "id": "rutgers",
+      "hours": 2.1
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.1
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.1
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.1
+    },
+    {
+      "id": "southern-miss",
+      "hours": 2.1
+    },
+    {
+      "id": "tcu",
+      "hours": 2.1
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.1
+    },
+    {
+      "id": "ucf",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.009438888888889,
-    "p95Hours": 2.0113066666666666,
-    "worstHours": 2.0113066666666666
+    "medianHours": 0.9879983333333333,
+    "p95Hours": 2.143555,
+    "worstHours": 2.143555
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
-    "total": 136
+    "total": 134
   },
   "profileResolution": {
     "cached": 69
@@ -55,72 +148,290 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-28T15:12:10.511Z",
-      "got": 7,
-      "new": 5,
-      "lag": 0.72
+      "at": "2026-09-28T15:35:42.887Z",
+      "got": 62,
+      "new": 39,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-28T15:11:43.755Z",
+    "at": "2026-09-28T15:34:09.346Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 5,
-      "duplicate": 2,
-      "tooOld": 0,
+      "returned": 62,
+      "kept": 39,
+      "duplicate": 22,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 28,
+      "rejected": 11,
+      "reasons": {
+        "no_fbs_school": 5,
+        "non_fbs_offer_target": 1,
+        "hard_negative": 5
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104595515329355948",
+          "author": "ucrrg",
+          "searchJob": "oklahoma",
+          "text": "Keys, lifts, code—your dealership runs on all three, and each can trigger a claim. Our Oklahoma-domiciled, member-owned Risk Retention Group offers garage liability and cyber liability coverage for auto dealers in select states."
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104579870399598887",
+          "author": "jaydencooper0",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "Beyond blessed to say I’ve received my first offer from Benedict College! @CoachBatts @CoachBrownDB @CoachKing_FB @FBConcordiaPrep @CoachLock4 https://t.co/jNDAP2MpNE"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104593901491273741",
+          "author": "bmfb1836",
+          "searchJob": "houston",
+          "text": "Premium Modified Wood Distributor in Texas: Arbor Wood Authorized Supplier 📷 US Lumber Brokers Sep 20, 202610 min read· -- Press enter or click to view image in full size Why Architects Choose Modified Wood for Contemporary Designs Modifie"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104584097217618349",
+          "author": "stellarhoops",
+          "searchJob": "houston",
+          "text": "Class of 2029 6’8 (Team CP3 EYBL) BJ Houston holds a offer from Eastern Kentucky and was MAGNIFICENT at the Elite 60 National Camp. BJ finishes with either hand, smart off the ball, runs the floor hard, embraces contact, physical in the lan"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104581959670267908",
+          "author": "n_parrott478",
+          "searchJob": "houston",
+          "text": "(#75) Horace Sanford (OL/DL) X: @HoraceSanford1 HT: 6'3 - WT: 265 lbs. C/O: '27 Offer(s): \"1\" D2 Offer Hudl(Sr. Season: WK 4): https://t.co/D6HGSCieYf Houston County High School (Warner Robins, HS) E-mail: horace.sanford123456@outlook.com @"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104588695885992304",
+          "author": "barnhockey",
+          "searchJob": "kansas",
+          "text": "People asking why would you count Lemieux’s Cups as an owner? He was no regular ordinary owner. No one has ever accomplished this. In 1999, the Penguins were in Chapter 11 bankruptcy with well over $120 MILLION in debt 🚫. Mario was the tea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104577727143821318",
+          "author": "realh2opologuy",
+          "searchJob": "stanford",
+          "text": "September 28 is: National Good Neighbor Day, National Ask a Stupid Question Day, International Poke Day, and National Drink Beer Day. It may not be stupid, but offer your neighbors beer and Poke today! https://t.co/eo6OlNhtEL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104594511473381594",
+          "author": "marshall97s",
+          "searchJob": "marshall",
+          "text": "@SachinK2001 Gold badge, 1K verified, that’s a bold boost offer"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104586690182762498",
+          "author": "hairycooiii",
+          "searchJob": "marshall",
+          "text": "@allanm1966 @Persianserene1 Sure, if you exclude the fact that they had already offered to surrender and it was being arranged. And when they dropped bombs on the peaceful Marshall Islanders, to study the impact of radiation on unwitting hu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104585671000387800",
+          "author": "brendam75978044",
+          "searchJob": "marshall",
+          "text": "Our destiny offers not the cup of despair, but the chalice of opportunity. So let us seize it, not in fear, but in gladness."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104574104472895805",
+          "author": "everettinfiniti",
+          "searchJob": "arkansas",
+          "text": "Explore current opportunities on new INFINITI models with our latest specials at INFINITI of Central Arkansas. Browse available offers and discover premium vehicles designed with comfort, technology, and performance in mind. https://t.co/5v"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 28,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 19,
+        "multiple_resolved_schools": 5,
+        "explicit_non_fbs_target": 1,
+        "unresolved_offer_target": 1,
+        "reporter_missing_player_name": 1,
         "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104573491538194554",
-          "author": "mrpool_qq",
-          "searchJob": "washington-state",
-          "text": "🔻 IN 2001, A FREQUENCY RESEARCHER CURED 16 TERMINAL PATIENTS IN 90 DAYS. HIS LAB WAS RAIDED. HIS EQUIPMENT WAS DESTROYED. HIS NAME WAS ERASED FROM EVERY MEDICAL DATABASE. HE DID IT WITH SOUND. Royal Raymond Rife did it first in 1934. He us"
+          "postId": "2104581921049059727",
+          "author": "legendarysprts",
+          "searchJob": "auburn",
+          "text": "*AUBURN OFFERED"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2104569866095140933",
-          "author": "rebswife65",
-          "searchJob": "washington-state",
-          "text": "WE DO NOT WANT the healthcare the DSA does... 𝐔𝐒𝐀𝐅 𝐕𝐄𝐓𝐄𝐑𝐀𝐍’𝐒 𝐒𝐓𝐀𝐆𝐄-𝟒 𝐃𝐈𝐀𝐆𝐍𝐎𝐒𝐈𝐒 𝐈𝐍 𝐂𝐀𝐍𝐀𝐃𝐀—𝐓𝐇𝐄 𝐌𝐀𝐈𝐋 𝐁𝐑𝐎𝐔𝐆𝐇𝐓 𝐀 𝐒𝐔𝐈𝐂𝐈𝐃𝐄 𝐏𝐀𝐌𝐏𝐇𝐋𝐄𝐓, 𝐍𝐎𝐓 𝐀 𝐃𝐎𝐂𝐓𝐎𝐑 Kristen Logan is a U.S. Ai"
+          "postId": "2104593474481782813",
+          "author": "i80club",
+          "searchJob": "michigan-state",
+          "text": "Live at noon, it's @UnemployedI80! @mikelsevere joins @mikejschaefer to recap Nebraska's 31-13 win over Michigan State, offer an early preview of Maryland, and more. Watch it live: https://t.co/rjdxShq8A2 https://t.co/zPuGMwX63U"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104594897194144227",
+          "author": "pghsportsnow",
+          "searchJob": "oklahoma",
+          "text": "Some WPIAL recruiting news as a few players were in Morgantown for the @WVUfootball game against Oklahoma State and one of those players received an offer. Details in the @frankwalkerlaw Daily Notebook. https://t.co/UNMYbMXhtb @RomanMaurizi"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104591971859710164",
+          "author": "kosuradio",
+          "searchJob": "oklahoma",
+          "text": "Leaders of one of the nation's only junior military colleges say they are under legal \"siege\" at their Pennsylvania campus. A state senator has offered Oklahoma as a new home to save the school and held a study to discuss the possibility. h"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104569118276063244",
-          "author": "rachstew13",
-          "searchJob": "washington-state",
-          "text": "How many other States are offering immigrants free rent and benefits? @grok does Washington State, run by Democrats for the past 40 years, offer programs like this to foreign immigrants? If so, please list Organizations. @BrandiKruse @theho"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104541380412608756",
-          "author": "nataliegwinters",
-          "searchJob": "washington-state",
-          "text": "🚨 Three months of FREE RENT. A security deposit. Monthly gift cards until food stamps kick in. That’s the offer to Afghan families relocating to St. Louis through the International Institute of St. Louis. The organization’s broader plan? R"
+          "postId": "2104579542840963570",
+          "author": "saintxavier_",
+          "searchJob": "houston",
+          "text": "@ash4nd1021 The difference in what he wanted &amp; what he was offered was 5Ms total. He was on what Duren is now. Ego comes in where ultimately, harden didn’t want to be the 3rd guy anymore &amp; do the things that came with that. Shown by"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104565545467048026",
-          "author": "redwavepress",
-          "searchJob": "alabama",
-          "text": "Alabama has reached a first-of-its-kind $100M settlement with TikTok that requires the company to CAP teen use at two hours a day by default, LOCK users out from midnight to 6 a.m., BAN cosmetic filters, ADD scrolling “pauses,” offer a non-"
+          "postId": "2104579364100735294",
+          "author": "housingrpt",
+          "searchJob": "houston",
+          "text": "Days on Market Matter. Stop Telling Sellers Otherwise. I have noticed agents posting that days on market do not matter. That might be one of the dumbest things we can tell sellers. Our responsibility is to explain what the market is telling"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104572705945338362",
+          "author": "sergioantonio70",
+          "searchJob": "houston",
+          "text": "Get ready for the start of the \"Monuments Are Here\" film series at Eldorado Ballroom Houston tomorrow. We're thrilled to offer two free screenings, hosted at , open for everyone in the community. https://t.co/VvzjoaVMz7"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104572308723503117",
+          "author": "jimcoventrynfl",
+          "searchJob": "houston",
+          "text": "I want to call Montgomery a buying opportunity once Collins returns. I'm just not convinced it stops Houston from feeding Marks too. Send a lowball offer for Montgomery if you can get him cheap. Just don't give up real value to do it."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104571923971891600",
+          "author": "cbbtexas",
+          "searchJob": "houston",
+          "text": "Launched 2023. Growing at 52.8% annually. Custom cabinetry, closets &amp; office furniture in Houston. Direct sales + architect/builder partnerships. Revenue $591K | Cash Flow $100K | Buyer to Make Offer. View listing details &amp; inquiry "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104571844825170173",
+          "author": "moduleone2025",
+          "searchJob": "houston",
+          "text": "𝗘𝗩𝗡𝗡𝗘 𝗙𝗔𝗡-𝗖𝗢𝗡𝗖𝗘𝗥𝗧 [𝗢𝗡𝗘 𝗧𝗔𝗞𝗘] 𝗡𝗢𝗥𝗧𝗛 𝗔𝗠𝗘𝗥𝗜𝗖𝗔 One take. 🎬 Five members. One journey. NORTH AMERICA January 15 — TORONTO — The Opera House January 17 — COLUMBUS — The King of Clubs *January 19 — LOUISVILLE — M"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104568559393538446",
+          "author": "blaketaylortxre",
+          "searchJob": "houston",
+          "text": "Sellers offered concessions in roughly three out of five Houston home sales in August. Nashville, Houston, and Las Vegas rank among the five strongest buyer's markets in the country, with more than twice as many sellers as buyers."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104563760388284505",
+          "author": "prettygirlala22",
+          "searchJob": "houston",
+          "text": "i gotta really really good feeling about this move i’m ngl like im focused as hell it really filled in the missing pieces too like idk i’ll always love houston bc that’s what opened the doors but like ive evolved and unfortunately houston n"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104563612237156793",
+          "author": "robertkeithfar1",
+          "searchJob": "stanford",
+          "text": "@madlibs69 @MobileMarauder @TJSalomone Madlibs you ignorant slut. Jameis was offered an athletic scholarship at Stanford University. 4.0 high school GPA. High score on Wonderlik. The fact is that Jameis is far more talented, intelligent, an"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2104583963943784812",
+          "author": "thejuiceonline",
+          "searchJob": "syracuse",
+          "text": "“#Syracuse can help me on and off the field with becoming a better man.” 2029 QB Nafis Watkins (@nafiswatkins) discusses his first offer from SU with our Charles Kang (@SICuseCK) ⬇️ https://t.co/vr1QSs5xp0"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2104579381624479924",
+          "author": "profilefblive",
+          "searchJob": "syracuse",
+          "text": "🚨 First D1 Offer 🚨 2028 ATH Milo Semioli from Chatham HS, NJ has received his first D1 offer from Syracuse. @milosemioli https://t.co/lezyy1Vcda"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2104588964254388456",
+          "author": "tuckerfootball",
+          "searchJob": "phrase:\"picked up an offer from\"",
+          "text": "2029 LB/Edge @JT_Tillman29 picked up an offer from the University of Florida during his game day visit this weekend #RecruitTucker #TuckerTigers #TuckerFootball #TuckerNation #TuckerFamily #WeAreTucker"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104591213596750062",
+          "author": "sueellenbeli",
+          "searchJob": "air-force",
+          "text": "America’s Mayor Tells Lara Logan He Knew by Nightfall on January 6 That It Was a “FIXED OPERATION” — And He Names the Man He Says Owns the Darkest Hours in American History ---America’s Mayor just said the quiet part out loud. ---Former New"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104574043588313300",
+          "author": "airforcetimes",
+          "searchJob": "air-force",
+          "text": "Do you know the basics of flood insurance for your home? Our finance expert from Navy Federal Credit Union offers top tips to know. https://t.co/D4wJwEPtSR"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104561835399688595",
+          "author": "everypilotuprt",
+          "searchJob": "air-force",
+          "text": "Two Barriers, One Remarkable Pilot The FAA’s historical profile of Hazel Ying Lee identifies her as the first Chinese American woman to earn a pilot’s license and the first to fly for the U.S. military. Born in Portland in 1912, Lee earned "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104583046741819568",
+          "author": "ohhtyg",
+          "searchJob": "fresno-state",
+          "text": "Hey I Have two spare tickets to Marco Antonio Solis concert for Oct 9 at Save Mart Center, Fresno, CA. Letting them go for face value but open to offers. DM me if interested! 🤍 wts wtb iso wtt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104572858647105536",
+          "author": "mcdub126",
+          "searchJob": "marshall",
+          "text": "@RogerMarshallMD Roger Marshall or any other Republican running for office after having supporting every policy or brain fart Trump could squeeze out, must offer plausible deniability (blame) for all the shitty things they (you) did before "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104589462441169287",
+          "author": "aisleseat111",
+          "searchJob": "rice",
+          "text": "@mmpandit 🙏MMPji for reinforcing. Having started daily simplest tarpana since months per PVRji it feels good. No pressure, FOMO about pitrupaksha. Daily rice, til already being offered. Now add svadhayibhyaha to clarify. We owe a lot to pi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104587253053829531",
+          "author": "shintoinari",
+          "searchJob": "rice",
+          "text": "The members-only Closing Talk is \"Shinto Shrines in Shimane - Ep. 1\". Just a reminder: If you have an Ofuda or a Kamidana, it’s traditional to offer Sake on the 1st and 15th of each month, along with the daily offerings of water, rice, and "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104585507267035161",
+          "author": "stevehoppy",
+          "searchJob": "rice",
+          "text": "@Arsenalinsider5 Shock horror. Football club on the way up offers good player and improved wage! wow....who would have thought it! I forgot that Arsenal obviously didn't offer Rice a higher salary than the bigger clubs did 🤣🤣🤣🤣🤣"
         }
       ]
     },
@@ -128,20 +439,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "auburn: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 28,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-28T15:12:10.753Z"
+    "status rebuilt locally from current store on 2026-09-28T15:35:43.244Z"
   ]
 }
