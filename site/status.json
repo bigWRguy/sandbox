@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T08:43:03.227Z",
+  "generatedAt": "2026-09-28T08:58:11.952Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-28T08:43:02.942Z",
+    "at": "2026-09-28T08:58:11.611Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.77437,
-    "p95Hours": 1.274948611111111,
-    "worstHours": 1.5216319444444444
+    "medianHours": 0.7769136111111111,
+    "p95Hours": 1.5273722222222221,
+    "worstHours": 1.5273722222222221
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 34,
+    "decided": 34,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 69
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 2058,
     "incompleteOffers": 0
@@ -55,88 +55,267 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-28T08:43:02.941Z",
-      "got": 14,
-      "new": 7,
-      "lag": 0.13
+      "at": "2026-09-28T08:58:11.610Z",
+      "got": 38,
+      "new": 34,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-28T08:41:32.223Z",
+    "at": "2026-09-28T08:56:36.941Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 7,
-      "duplicate": 7,
+      "returned": 38,
+      "kept": 34,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 1,
+      "accepted": 26,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 1
+        "no_fbs_school": 5,
+        "no_offer_term": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2104493368491315252",
+          "author": "tech_informer_",
+          "searchJob": "texas-tech",
+          "text": "Telecom operators will need to offer voice-and-SMS-only plans across their recharge validity options, including short-duration packs. The framework also allows 30-day plans and a monthly voucher that renews on the same date each month https"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2104276225401458752",
-          "author": "rollingstone",
-          "searchJob": "liberty",
-          "text": "How Trump Became Mob Boss of the United States The most corrupt president in American history has been preparing his entire life to co-opt the government for personal gain https://t.co/bJp5MHHers"
+          "postId": "2104492311136878929",
+          "author": "gate_ventures",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/VxP5cWo2G1"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104490880686055710",
+          "author": "ramesh_vd",
+          "searchJob": "texas-tech",
+          "text": "#TACInfosec The Distribution Edge: Why Go To Market Strategy Is Driving TAC Infosec's Structural Growth In the multi-billion-dollar cybersecurity landscape, a dangerous myth persists: the company with the deepest engineering and the most co"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104486544174407935",
+          "author": "ravikrn36",
+          "searchJob": "texas-tech",
+          "text": "Here’s a 360-Degree Look at Samsung’s Upcoming Tablets Launch by next month The Galaxy Tab S12+ and S12 Ultra have now appeared in 360-degree video leaks, revealing their designs from every angle. The Ultra reportedly has two rear cameras, "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104485644462657927",
+          "author": "venkinesis",
+          "searchJob": "texas-tech",
+          "text": "The Capital Stack that will fund Regenerative Transition in Indian smallholding agriculture is a three storied building. https://t.co/p9Ak8uM9cq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104487337384096081",
+          "author": "violetateixeira",
+          "searchJob": "notre-dame",
+          "text": "...well-documented site offers a guided tour that allows visitors to explore the military installations. Even more unusual is the fact that Droukgon Djangchoub Ling—a center for Drukpa Tibetan Buddhism—is located not far from the village. A"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104486053419561132",
+          "author": "violetateixeira",
+          "searchJob": "notre-dame",
+          "text": "Perched on a rocky spur at an altitude of 800 meters, the Château de Sainte-Agnès offers an incredible view of the Bay of Menton and the Mediterranean. The ruins of this former medieval fortress once formed an \"eagle's nest\" that was impreg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104474685811429733",
+          "author": "irishstarus",
+          "searchJob": "notre-dame",
+          "text": "Kathy Griffin offered guidance to Ed Sheeran as the singer-songwriter navigates the controversy over the removal of Macklemore from his tour. https://t.co/107vxCnhWq https://t.co/m2xzsrciAQ"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 26,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 5
+        "explicit_non_fbs_target": 1,
+        "bare_mention_requires_llm": 2,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 22
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104490110766985522",
-          "author": "noobgonebadx",
-          "searchJob": "liberty",
-          "text": "THE PEP FILES. PART 2: Operación Puerto & The Cycling Blood Brother Chapter 1: The Raid at Calle Zurbano (2006) In May 2006, Spanish Civil Guard agents raided an apartment on Calle Zurbano in Madrid. Inside, they uncovered a massive clandes"
+          "reason": "explicit_non_fbs_target",
+          "postId": "2104478757683695723",
+          "author": "thefbjay9_",
+          "searchJob": "ole-miss",
+          "text": "@FCRecruits Ja’kylan Williams 2029 Purvis Highschool RB/CB 5’10 170 Guarding D1 wr offers from Ole miss and Flordia state had the 1 hand interception by this much🤏🏽 https://t.co/dp4Gu8MwJU"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104483326018871666",
-          "author": "beatabihar16267",
-          "searchJob": "liberty",
-          "text": "The iconic Liberty Statue and the historic Citadella atop Gellért Hill offer a panoramic view of the Danube River and Budapest, Hungary 🇭🇺 https://t.co/4KiywORpJr"
+          "postId": "2104486652911735256",
+          "author": "wheredkittygo",
+          "searchJob": "oregon",
+          "text": "@jeffpierce1027 @SeanOhhhh Oregon. All my neighbors have freezers full of Elk meat. They've offered me some many times but I never acquired a taste for it. It's tradition with them. Generational thing too."
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104481017684009076",
-          "author": "angelaunspoken",
-          "searchJob": "liberty",
-          "text": "Who are Alberta independence supporters? Look beyond the politics for a moment. Beyond the headlines, the labels and the assumptions about who we are. Look instead at the human beings behind this movement, and perhaps you’ll understand why "
+          "reason": "reporter_missing_player_name",
+          "postId": "2104476785631166936",
+          "author": "sensitveyungbih",
+          "searchJob": "arizona",
+          "text": "@correa_pab21811 @HQuarterma43504 also your so called tsmc has been rejecting offers from other countries to establish fab india,sinagpora and uae to focus on its Arizona branch. so much for so called \"muh han pride\". calling me self hater "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104476323897114745",
-          "author": "paulfwood1",
-          "searchJob": "liberty",
-          "text": "@RollingStone just dropped another hit piece: “How Trump Became Mob Boss of the United States.” This is not journalism. This is the same dying media machine that spent years covering for Biden family influence-peddling, Hunter’s laptop, ope"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104494467692802057",
+          "author": "pamelanyk914",
+          "searchJob": "miami",
+          "text": "@arbarkas @Eurohoopsnet Please EuroLeague owners do not accept the NBA’s offer if it is only €2 billion. Adam Silver is ruining the NBA, Jokić wants to leave, and Silver will ruin the EuroLeague. Have the Dubai owner or another rich guy pay"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104484687146033540",
-          "author": "benahirsch",
-          "searchJob": "massachusetts",
-          "text": "Do you feel threatened by me, habibi? We’ve already been established I’m non violent and that you have no problem with violence. Still, every time I’ve offered to have a friendly drink with you, you flinch. I already told you I’m 43. I have"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104491544304853312",
+          "author": "pamelanyk914",
+          "searchJob": "miami",
+          "text": "@Eurohoopsnet Please EuroLeague owners do not accept the NBA’s offer if it is only €2 billion. Adam Silver is ruining the NBA, Jokić wants to leave, and Silver will ruin the EuroLeague. Have the Dubai owner or another rich guy pay the NBA s"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104486253886353496",
-          "author": "andersmad",
-          "searchJob": "stanford",
-          "text": "Here is a concise summary of Stanford CS230 | Lecture 9: Career Advice in AI, featuring Andrew Ng and Lawrence Moroni: AI Progress and the Golden Age of Building [01:28]Task complexity that AI can handle is doubling rapidly (roughly every 7"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104481746146210077",
+          "author": "samuel654438211",
+          "searchJob": "miami",
+          "text": "@RonFilipkowski Hey MaGA morons Trump started war in Iran China sells weapons to Iran and gives satellite image American military bases Middle East Trump offers Russian to visit in Miami while Russia helping Iran militarily Trump offers to "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104495272759824559",
+          "author": "buysellstopcom",
+          "searchJob": "texas-tech",
+          "text": "@TheRickWilson No, you are. China just had a front row seat to how shitty its military tech was in Iran. Xi just fired most all his Generals. Trump is fucking with him. “U.S. law prohibits arms sales to China, and there is no offer or plan "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104494194077437964",
+          "author": "cyberape_eth",
+          "searchJob": "texas-tech",
+          "text": "Hey, so I was checking out the latest updates for the DeepSeek models and thought I'd share some exciting news. The DeepSeek-V4-Flash and DeepSeek-V4-Flash-Vision-Exp are getting some cool price updates on September 10th at 12 PM SGT, and h"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104493544010666342",
+          "author": "chris__costa",
+          "searchJob": "texas-tech",
+          "text": "The new Opel Frontera brings a 90s legend back as a modern family SUV. Available as an electric or hybrid, it offers bold styling, spacious comfort, smart tech, and up to 305 km of range. Prices start at PLN 97, 900. https://t.co/tc8QCBlXTu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104492943109194085",
+          "author": "rolandley",
+          "searchJob": "texas-tech",
+          "text": "@vtchakarova Does this plan include Trump's offer to China about selling US weapons [and thus copy the tech) to Xi too?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104490581892473052",
+          "author": "212soldier",
+          "searchJob": "texas-tech",
+          "text": "Apparently at the state dinner Trump offered Xi US military tech because it was so good. Way to go GOAT"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104490570752147946",
+          "author": "bitfuturist",
+          "searchJob": "texas-tech",
+          "text": "🚨 META MUSE ALLEGEDLY SHARES USER’S HOME ADDRESS AND ARRANGES UNAPPROVED PICKUP 🤖 Meta’s Muse AI agent is facing fresh scrutiny after tech creator Matt J. Robb reported that he allowed Muse to manage a Facebook Marketplace transaction — o"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104490345857741019",
+          "author": "protrading9999",
+          "searchJob": "texas-tech",
+          "text": "Market digest — Mon Sep 28, 2026 What matters most: • Oil/Hormuz shock is driving the morning: Brent above $106, bonds and stocks under pressure, 10-year Treasury yield around 5.2%. • US-China tensions eased at the margin with a tariff-cut "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104490135140106418",
+          "author": "avforums",
+          "searchJob": "texas-tech",
+          "text": "Looking for a boost to your TV's audio without the expense of a premium #soundbar setup? #JBL's upgraded Cinema SB Mk2 bars now offer up to 440W output, #DolbyAtmos support on 2 models and SurroundPlay tech to add additional rear speakers. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104489855988478219",
+          "author": "wealthymatters",
+          "searchJob": "texas-tech",
+          "text": "1. Let's see what tech transfer &amp; barter deals Brazil offers. India will probably learn nothing more from buying this American plane,nor grow it's own aviation industry or grow it's own military- industrial capacities or strategic allia"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104487048086540367",
+          "author": "bull_domains",
+          "searchJob": "texas-tech",
+          "text": "Fun fact Microsoft owns .Copilot.si. But .OpenAI.si and .ChatGPT.si appear to be in individual hands. 🤯 With AI → Superintelligence → ChatGPT → OpenAI becoming some of the hottest keywords in tech, do you think the owners of .OpenAI.si and"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104486474099904960",
+          "author": "king_szn10",
+          "searchJob": "texas-tech",
+          "text": "@ATLStache @givemeglenn He didnt leave for a pay raise lol. Tech offered UFs offer and was prepared to offer more. Buster left because he hated Key lol"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104486361105605058",
+          "author": "dncomyy",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/X8R9uQOf5w Un = unite, lian means \"connect\" in Chinese. Smooth pronunciation, great for tech, alliance, supply chain &amp; web platform brands. A solid China brand digital asset. Available for acquisition. DM for offers. #domai"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104486173875794210",
+          "author": "yorubaprojobs",
+          "searchJob": "texas-tech",
+          "text": "🚀 CALL FOR APPLICATIONS | ACTIVATE FELLOWSHIP 2027 🔬 $100,000 STIPEND + $100,000 R&D SUPPORT Are you a scientist, engineer or technology professional developing a transformative hardware-based innovation? The Activate Fellowship 2027 is i"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104485950587814343",
+          "author": "logic",
+          "searchJob": "texas-tech",
+          "text": "@amitranjan AI will teach tech and capitalism how to evolve il better. I would say it's already doing so. Look at Chinese labs. Qwen, ByteArk offers GLM offer GLM, Deepseek. GLM uses Deepseek optimisations. They all compete and co-operate."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104485487520182558",
+          "author": "tetratechjobs",
+          "searchJob": "texas-tech",
+          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/bro7Eqw875 #LeadingWithScience"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104488246419882439",
+          "author": "rachelmoiselle",
+          "searchJob": "notre-dame",
+          "text": "After years of smearing those of us who speak openly about antisemitism in Ireland as traitors at best and paid foreign agents at worst, the Irish anti-Israel mob revealed yesterday that it was all projection. After weeks of relentless inti"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104483928505782494",
+          "author": "cswandublin",
+          "searchJob": "notre-dame",
+          "text": "@PaulEmbery Let's have it clear, the Israeli captain did not offer a handshake to the Irish, it was already announced by both teams that they wouldn't shake hands, the Israelis first I believe."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104482305767051330",
+          "author": "urcrazytoo1000",
+          "searchJob": "notre-dame",
+          "text": "@na_croi @Ciaran_O But your leader did famously commiserate with Germany on the death of Hitler. He also refused the offer of the Six Counties, on more than one occasion, because he felt maintaining 'neutrality' was more important than Iris"
         }
       ]
     },
@@ -151,11 +330,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 26,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-28T08:43:03.229Z"
+    "status rebuilt locally from current store on 2026-09-28T08:58:11.953Z"
   ]
 }
