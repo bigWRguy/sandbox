@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:28:05.709Z",
+  "generatedAt": "2026-09-28T09:43:23.199Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-28T09:28:05.463Z",
+    "at": "2026-09-28T09:43:22.874Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7759625,
-    "p95Hours": 1.5250594444444445,
-    "worstHours": 1.5250594444444445
+    "medianHours": 0.77951,
+    "p95Hours": 1.2780408333333333,
+    "worstHours": 1.5300377777777778
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -55,75 +55,152 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-28T09:28:05.462Z",
-      "got": 7,
-      "new": 5,
-      "lag": 0.03
+      "at": "2026-09-28T09:43:22.873Z",
+      "got": 22,
+      "new": 16,
+      "lag": 0.15
     }
   },
   "audit": {
-    "at": "2026-09-28T09:26:37.364Z",
+    "at": "2026-09-28T09:41:50.776Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 5,
-      "duplicate": 2,
+      "returned": 22,
+      "kept": 16,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 3,
+      "accepted": 12,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 2
+        "no_offer_term": 3,
+        "no_fbs_school": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2104452822829850711",
+          "author": "onyeani_kalu",
+          "searchJob": "marshall",
+          "text": "The war had ended. The rebuilding had only begun. In 1945, many German cities were landscapes of ruins. Homes, bridges, railways and entire neighborhoods had been destroyed, while everyday life had to continue through shortages, displacemen"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104501237752422529",
+          "author": "ricemason",
+          "searchJob": "rice",
+          "text": "https://t.co/yrVP3I7WFG #EUSEM2026 #EUSEM #EmergencyMedicine"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104469731184980307",
+          "author": "ak22_12",
+          "searchJob": "rice",
+          "text": "Same with Rice?"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2104503023191912783",
-          "author": "yourohionews",
-          "searchJob": "ohio",
-          "text": "WCH offers charity care, discounted pricing, payment plans and transportation for patients facing financial hardship. https://t.co/vl8QtJSAV4 https://t.co/yPeFliC98X"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2104486357364043842",
-          "author": "miljan_sto",
-          "searchJob": "utah",
-          "text": "I would rather code all day than prospect. Storyy’s first buyer paid $5K/month for about two posts a day. My next test: sell the painful output before I automate it. https://t.co/1pE27ElPam"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2104500147237658750",
-          "author": "precedentdailyy",
-          "searchJob": "virginia",
-          "text": "In February 1861 Joseph Holt's War Department report called secession treachery and spoliation — Buchanan buried it until Congress forced it out in July, after Fort Sumter. https://t.co/ClNVAvUKr4"
+          "postId": "2104227491304939550",
+          "author": "arsenalinsider5",
+          "searchJob": "rice",
+          "text": "Manchester City offered Nasri crazy money that Arsenal couldn't offer. Nasri was sold at below market price because City enticed him with corrupt money, Nasri went on to play a key part in Manchester City winning the league. That's a sporti"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 5
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104497779544318191",
-          "author": "kagisodoc",
-          "searchJob": "smu",
-          "text": "🎙️ SMU FM 97.1 is recruiting for 2027! We’re looking for enthusiastic, creative volunteers across news, presenting, production, social media, photography/videography and sports. 📻 16 voluntary positions are available for a 12-month opport"
+          "postId": "2104504922574295194",
+          "author": "futurecaps",
+          "searchJob": "coastal-carolina",
+          "text": "Is This Government-Backed Energy Giant the Next Big Multibagger for 2026? 🚀 Mangalore Refinery and Petrochemicals Limited (MRPL) is rapidly transforming from a traditional oil refiner into an integrated petrochemical powerhouse. Backed by "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2104501788095480074",
-          "author": "deeperdriller",
-          "searchJob": "buffalo",
-          "text": "@HatsOffff \"Tel Aviv\" (correct name Jaffa, \"Tel Aviv\" is a pure invention by Viennese journalist Theodor Herzl for his East European pals) will become the primary Emirati tourist destination: They offer, what they crave (also goat bucks &am"
+          "postId": "2104504714947674249",
+          "author": "dailyinvestorsa",
+          "searchJob": "coastal-carolina",
+          "text": "Buyers are increasingly choosing lifestyle farms in smaller towns such as Barrydale, Montagu and Swellendam, which offer more space and affordability than coastal areas such as Cape Town. https://t.co/dA2JA4QFen"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104493417703383189",
+          "author": "evervueofficial",
+          "searchJob": "coastal-carolina",
+          "text": "Cosmos Marine TV brings 4K entertainment outdoors ✨ With its marine-grade 316 stainless steel housing built for yachts and coastal environments, it offers corrosion-resistance, durability, and premium performance. https://t.co/nSv4EVX6H4"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104492810405867956",
+          "author": "beach_scenes",
+          "searchJob": "coastal-carolina",
+          "text": "From quiet coves to family favourites, the Mackay Northern Beaches offer some of Queensland’s best coastal escapes. Explore the top spots in my full guide #MackayBeaches #QueenslandCoast #BeachScenes #HiddenGems #TravelAustralia https://t.c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104489007841489277",
+          "author": "ukschooltrips",
+          "searchJob": "coastal-carolina",
+          "text": "PGL Little Canada, Isle of Wight offers a unique coastal, residential experience with private creek access for dragon boating &amp; watersports. Your school or group can enjoy a wide range of unforgettable activities &amp; coastal walks. Fi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104486481393832160",
+          "author": "janicea91439399",
+          "searchJob": "coastal-carolina",
+          "text": "@jeremyct I was in a coastal town in the UK last month. Some side roads were full of people living 'off grid' in vans. My initial thought was it was wrong. With further thought, I thought why not? What does work have to offer them if it doe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104481535013327144",
+          "author": "aroundaboutbrit",
+          "searchJob": "coastal-carolina",
+          "text": "Discover Cornwall Sights like the Minack Theatre from Beacon Cottage Farm, St Agnes. Beacon Cottage Farm Holidays offers camping and touring in a breathtaking coastal setting near St Agnes. https://t.co/DpwnuQAXsp #StAgnes #CornwallAttracti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104495719650406580",
+          "author": "salbinta",
+          "searchJob": "marshall",
+          "text": "#Fascismloveaffair The romanticism around Germany’s “rebuilding years” is extraordinary. Germany did not simply suffer a tragedy that fell from the sky. Germany started two world wars, carried out genocide, devastated Europe and peoples und"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104501061054521774",
+          "author": "bjacannga",
+          "searchJob": "rice",
+          "text": "@joejonahni @officialABAT @egi_nupe @grok how much is a 50kg bag of rice in Canada? On average, how much of a soft loan (line of credit) do banks there offer?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104494536353308757",
+          "author": "simon49arsenal",
+          "searchJob": "rice",
+          "text": "@AFCAMDEN I heard that right before the announcement, Declan Rice called Pep to thank him for the offer, but said he’d rather join Arsenal to help them win the league. He’s been following Arteta’s Arsenal for a while and wants to be the fut"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104493434157330584",
+          "author": "cumbriancalv",
+          "searchJob": "rice",
+          "text": "@AK22_12 Rice was being looked at for 80-95 city entered the race late knowing full well that Rice wanted Arsenal and drove the price up by offering West Ham a bigger offer. City have distorted the market along with Chelsea for years. Hopef"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104487783989415958",
+          "author": "arsenalinsider5",
+          "searchJob": "rice",
+          "text": "We signed Declan Rice by offering West Ham a big transfer fee, and to Declan Rice and amount of money West Ham can't reasonably afford but we offered money we made THROUGH FOOTBALL. Manchester City on the other hand didn't make the money th"
         }
       ]
     },
@@ -138,11 +215,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-28T09:28:05.710Z"
+    "status rebuilt locally from current store on 2026-09-28T09:43:23.201Z"
   ]
 }
