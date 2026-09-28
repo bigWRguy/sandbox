@@ -1,12 +1,5 @@
 {
   "seenPostIds": [
-    "2098009103264292937",
-    "2098005844017254489",
-    "2098005730297028651",
-    "2098022450655068526",
-    "2098018923408953602",
-    "2098018760518979728",
-    "2098035390758170908",
     "2098035183584727110",
     "2098034787394977918",
     "2098033152048386204",
@@ -59999,17 +59992,24 @@
     "2104554825895543045",
     "2104553435156582553",
     "2104551234082361403",
-    "2104550564977922546"
+    "2104550564977922546",
+    "2104557520282870055",
+    "2104551118537724414",
+    "2104346154242601179",
+    "2104545400233373804",
+    "2104568064276586834",
+    "2104567678039953887",
+    "2104566558748266707"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-09-28T13:43:26.139Z",
-      "got": 121,
-      "new": 87,
-      "lag": 0.05
+      "at": "2026-09-28T13:56:51.794Z",
+      "got": 10,
+      "new": 7,
+      "lag": 0.2
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60177,16 +60177,10 @@
       "truncated": false
     },
     "texas": {
-      "at": "2026-09-28T12:11:35.026Z",
+      "at": "2026-09-28T13:41:58.704Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 18,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-28T12:06:35.026Z",
-        "upper": "2026-09-28T13:41:58.704Z",
-        "until_time": "2026-09-28T12:06:35.026Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "texas-am": {
       "at": "2026-09-28T13:41:58.704Z",
@@ -60213,16 +60207,10 @@
       "truncated": false
     },
     "washington": {
-      "at": "2026-09-28T12:11:35.026Z",
+      "at": "2026-09-28T13:41:58.704Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 22,
-      "truncated": true,
-      "window": {
-        "lower": "2026-09-28T12:06:35.026Z",
-        "upper": "2026-09-28T13:41:58.704Z",
-        "until_time": "2026-09-28T12:06:35.026Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "wisconsin": {
       "at": "2026-09-28T12:26:26.966Z",
@@ -60731,19 +60719,19 @@
       "truncated": false
     },
     "liberty": {
-      "at": "2026-09-28T12:11:35.026Z",
+      "at": "2026-09-28T13:56:29.030Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 6,
       "truncated": false
     },
     "louisiana": {
-      "at": "2026-09-28T12:11:35.026Z",
+      "at": "2026-09-28T13:56:29.030Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 4,
       "truncated": false
     },
     "louisiana-monroe": {
-      "at": "2026-09-28T12:11:35.026Z",
+      "at": "2026-09-28T13:56:29.030Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -61107,11 +61095,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-09-28T13:43:26.140Z",
+    "at": "2026-09-28T13:56:51.794Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61131,377 +61119,82 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-09-28T13:41:58.689Z",
+    "at": "2026-09-28T13:56:29.017Z",
     "mode": "live",
     "collection": {
-      "returned": 121,
-      "kept": 87,
-      "duplicate": 32,
-      "tooOld": 2,
+      "returned": 10,
+      "kept": 7,
+      "duplicate": 3,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 62,
-      "rejected": 25,
+      "accepted": 3,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 15,
-        "no_offer_term": 5,
-        "hard_negative": 3,
-        "non_fbs_offer_target": 2
+        "no_offer_term": 2,
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2104555190120845412",
-          "author": "dakers_alex",
-          "searchJob": "kent-state",
-          "text": "Dispatch to Margate, Thanet, for @theipaper last Friday - published this morning as Chancellor John Healey told Labour Party conference that the ‘best thing we can offer a young person isn't a benefit payment, it's a first job, with trainin"
+          "reason": "no_offer_term",
+          "postId": "2104346154242601179",
+          "author": "heritage",
+          "searchJob": "liberty",
+          "text": "🇺🇸 https://t.co/C74eQwC37O"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2104564268116975919",
-          "author": "michfbfrenzy",
-          "searchJob": "class:2027",
-          "text": "Caledonia 2027 OL/DL Thomas Hodgson was offered by Calvin @THodg55 https://t.co/EZRkonxDbs"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104563785004614035",
-          "author": "michfbfrenzy",
-          "searchJob": "class:2027",
-          "text": "Chippewa Valley 2027 RB Bryce Locke was offered by Culver Stockton @lilblocke https://t.co/HVVLkjbwqZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104563503638221098",
-          "author": "michfbfrenzy",
-          "searchJob": "class:2027",
-          "text": "Mt. Pleasant 2027 RB Prosper Enehiroana was offered by Calvin @enehiroana_p https://t.co/39HfYNS5AL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104560206633934983",
-          "author": "georgematt44229",
-          "searchJob": "class:2027",
-          "text": "Malik is not the Dolphins franchise QB. He has been a backup for 4 years, no other team gave him an offer and he has not performed to the level of franchise QB. He has a strong arm and can run, and was the best QB on the roster (although he"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104558278004887844",
-          "author": "gahperd",
-          "searchJob": "georgia",
-          "text": "Thank you to @adasportsKC for supporting the 2026 GAHPERD Convention as an Exhibitor! Be sure to stop by their booth and learn more about the products and programs they offer. Want your organization featured in our next partner spotlight? h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104551632579006959",
-          "author": "mcaofgeorgia",
-          "searchJob": "georgia",
-          "text": "Attention #pipefitters, #plumbers, #welders, and #HVACtechs: If you’re #experienced and ready for a real #career, we’ve got your back.Our #contractors offer real #benefits, real #respect, and real #support for you and your #family. #Contact"
+          "postId": "2104545400233373804",
+          "author": "libertynation",
+          "searchJob": "liberty",
+          "text": "Your Monday Morning News Brief: 🧵 1. Foreign Minister: Iran ‘Fully Prepared’ for War to Go On Iranian Foreign Minister Abbas Araghchi on Sunday said his country is ready to resume the war with the US while still not ruling out a breakthrou"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2104560580199620744",
-          "author": "jecrosbie",
-          "searchJob": "texas",
-          "text": "https://t.co/y75fnalJTO"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2104553384275800413",
-          "author": "michaelarothman",
-          "searchJob": "texas",
-          "text": "𝐒𝐇𝐄’𝐒 𝐀 𝐍𝐀𝐓𝐔𝐑𝐀𝐋𝐈𝐙𝐄𝐃 𝐂𝐈𝐓𝐈𝐙𝐄𝐍 — 𝐉𝐀𝐘𝐀𝐏𝐀𝐋 𝐂𝐋𝐀𝐈𝐌𝐒 𝐓𝐑𝐔𝐌𝐏 𝐖𝐀𝐍𝐓𝐒 𝐇𝐄𝐑 𝐃𝐄𝐏𝐎𝐑𝐓𝐄𝐃 𝐓𝐎𝐎 Democrat Congresswoman Pramila Jayapal went on MSNOW’s “Connect” this weekend and told the country that 𝘩"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2104263550021824988",
-          "author": "electiontime_",
-          "searchJob": "texas",
-          "text": "🚨BREAKING: Incumbent Greg Abbott is STILL projected to win re-election for a FOURTH term as governor of Texas against Gina Hinojosa. Texas - 2026 Governor 🟥Greg Abbott* 50% (+4) 🟦Gina Hinojosa 46% See all TX Governor polls @Pollsmax. If "
+          "postId": "2104568064276586834",
+          "author": "hotgeeklucy",
+          "searchJob": "louisiana",
+          "text": "Starship enters orbit of Earth for the first time and starts deploying 26 Starlink satellites. They took the 19-second burn with an engine out. Then they opened the door. Full dispatch below. https://t.co/u8kPPcUDHH"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2104548804607492379",
-          "author": "ryanpcooney",
-          "searchJob": "texas",
-          "text": "How does @KenPaxtonTX, arguably the worst candidate in the history of politics, not take this offer? 🐔 https://t.co/v6xFW8Sd9i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104566961263001637",
-          "author": "flwrboyjin_",
-          "searchJob": "washington",
-          "text": "would anybody be interested in three Charli XCX tickets for Monday Sep 28 at Capital One Arena, Washington, DC? My friends and i can't go anymore but want to offer them to people who actually are fans and want to go.!"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2104394430849396844",
-          "author": "business",
-          "searchJob": "washington",
-          "text": "China’s massive coal market can easily accommodate 10 million tons a year of US imports, making the most specific pledge of the Trump-Xi summit an easy promise to keep https://t.co/CtcxXHSpdw"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2104560580015055001",
-          "author": "podcast_quickie",
-          "searchJob": "washington",
-          "text": "Podcast Summary | Candace: WE WERE RIGHT! UVU Releases Their Independent Review. | Ep 394 Overview The release of UVU's independent review into the September 10 security failures inverts the public narrative that dominated for a year: a thi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2104400213888622920",
-          "author": "___josh3x",
-          "searchJob": "washington",
-          "text": "Mid-season highlights 🔥🔥 ‼️CHECK EM OUT‼️ @CoachWeltonJ @CalvinLDavis3 @drobalwayzopen @COACHJMACRB @CoachDrake6 @LSOCFootball @Coach__OMalley @DeionSanders @PrepRedzoneTX @texashsfootball @LoneStarPrepsTX @TexasTopTalent_ @RebelsFBRec @L"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2104566817817805211",
-          "author": "nolanjohn123",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After great conversations with @GlynnDerek and the @gustiefootball coaching staff, I am blessed to receive an offer to play football at Gustavus! @huskiesfootball https://t.co/1yrXAQizum"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104566410827485421",
-          "author": "d1anta1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After A Great Conversation With Coach Fisher, I Am Blessed To Receive An Offer From @MUCrusadersWBB!!🫶🏽🫶🏽 #agtg #Blessed #notcommited https://t.co/gwPnWD5oZD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104562967110914476",
-          "author": "king_crash777",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from bethel college @TARIKEMBRACK https://t.co/SxkZdmei66"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2104560426906538130",
-          "author": "erikleejrqb1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to Receive an Offer From Lawrence University!! @Jason_Kradman @dhan561 @CoachLee_LW @PVHSCobraFB https://t.co/b7jDhzKqqr"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2104548624478736555",
-          "author": "natehamm11",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great camp and conversation with Coach Karn I blessed to receive an offer from Brescia university developmental team https://t.co/J4JtgL2Kx1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104564811363164546",
-          "author": "kvue",
-          "searchJob": "north-carolina",
-          "text": "A stranded couple's wedding on Hatteras Island turned into a surprise community celebration, drawing hundreds of locals to offer support and transform their day. https://t.co/OwdqrLyVyQ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2104564739405652148",
-          "author": "annah247",
-          "searchJob": "north-carolina",
-          "text": "UNC, Virginia, and Wake Forest among the teams in the mix for junior TE Brayden Crain of Arden (N.C.) Christ School. Crain returns to Chapel Hill this weekend: https://t.co/HNBvkblmWZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104562291475644704",
-          "author": "kare11",
-          "searchJob": "north-carolina",
-          "text": "A stranded couple's wedding on Hatteras Island turned into a surprise community celebration, drawing hundreds of locals to offer support and transform their day. https://t.co/4jGjyJ6D1x"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2104558859993883123",
-          "author": "freightwaves",
-          "searchJob": "north-carolina",
-          "text": "Lowe's is now the first home improvement retailer to offer drone delivery, launching a pilot with DoorDash and Alphabet's Wing that can get small items — think batteries, hand tools, and paint supplies — to customers in as fast as 20 minute"
+          "postId": "2104566558748266707",
+          "author": "firearmsguide",
+          "searchJob": "louisiana",
+          "text": "Fusion Thermal Launches WAVE Infrared ETHOS Thermal Hunting Scope HAMMOND, La. — Fusion Thermal, LLC, owner of the WAVE Infrared brand, today announced the launch of ETHOS, short for Extreme Thermal Hunting Scope. Designed to bring thermal "
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 59,
+      "accepted": 0,
+      "rejected": 3,
       "reasons": {
-        "school_not_resolved_confidently": 13,
-        "reporter_missing_player_name": 2,
-        "bare_mention_requires_llm": 36,
-        "reporter_missing_class_year": 1,
-        "multiple_resolved_schools": 4,
-        "player_display_name_unusable": 1,
-        "author_not_recruit:different sport": 1,
-        "reporter_missing_position": 1
+        "bare_mention_requires_llm": 2,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104566114269139100",
-          "author": "egyptianshumba",
-          "searchJob": "kent-state",
-          "text": "Oct 9, 2026 - CDTOP 1683 Pop Down Under – Beat, Baroque, Psych & Folk 45s From Australia & New Zealand Dusty Groove : There's so much here that we'd never have discovered otherwise – music that's every bit as groovy as the best that LA had "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104563143686939088",
-          "author": "alijanemoore",
-          "searchJob": "kent-state",
-          "text": "So why was it felt necessary to pay for accommodation? Plenty of people have long commutes across the county including some NHS staff and don't get offered a bed for the night. If the staff involved lived some way away, isn't that their loo"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2104550185473060957",
-          "author": "jamesleafe1",
-          "searchJob": "navy",
-          "text": "@Lisab08426784 @RickyBo17401513 @andyburnham How though, it is impossible to patrol the whole channel for fucks sake, the only solution Nigel has offered is bring in the Navy, will never happen, especially given we are now likely at war."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104557520282870055",
+          "author": "larimer1",
+          "searchJob": "liberty",
+          "text": "\"Life, Liberty, and the Pursuit of Happiness,\" clearly stated in our Declaration of Independence, are for the ownership and enjoyment of the individual citizen. By definition, no government or organization is qualified to claim, possess or "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104546084403945714",
-          "author": "marneen",
-          "searchJob": "navy",
-          "text": "Sept 28 Iran war update Trump turned down Tehran's \"seven-day\" offer this weekend, and he was right to. Iran said it would reopen the Strait of Hormuz and restart nuclear talks in a week, but only if the U.S. first lifted its naval blockade"
+          "postId": "2104551118537724414",
+          "author": "larimer1",
+          "searchJob": "liberty",
+          "text": "\"Life, Liberty, and the Pursuit of Happiness,\" clearly stated in our Declaration of Independence, are for the ownership and enjoyment of the individual citizen. By definition, no government or organization is qualified to claim, possess or "
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104553288880251154",
-          "author": "esportsvisuals",
-          "searchJob": "nevada",
-          "text": "ELITE NEWS! 2028 5’10” Combo Guard Zaida Jenkins (@ZaidaMJenkins) has officially been offered a scholarship from the University of Nevada (@NevadaWBB). https://t.co/ZFnzRRDYqI"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104564866220749013",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Madurai, Tamil Nadu: Chief Minister C. Joseph Vijay arrives in Madurai and visits the Meenakshi Amman Temple to offer prayers (Source: TN DIPR) https://t.co/8VrUtpCrYk"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104559388145164758",
-          "author": "ndtv",
-          "searchJob": "temple",
-          "text": "#Prime5 with @SehgalRahesha | Tamil Nadu CM Vijay offers prayers at Meenakshi Amman temple @DharanVija47684 reports https://t.co/R9iGtuxgQD"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104558822291615826",
-          "author": "macromatrix1",
-          "searchJob": "temple",
-          "text": "CM Vijay when visiting the Madurai Meenakshi Amman Temple to offer prayers, the Chief Minister fell at the feet of Rukmani—mother of former minister PTR Palanivel Thiaga Rajan and a temple trustee—who welcomed him with a golden shawl, and s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104558285441708181",
-          "author": "uptourismgov",
-          "searchJob": "temple",
-          "text": "Vindhyachal: A Confluence of Faith and Heritage Nestled along the banks of the Ganga, Vindhyachal is a revered pilgrimage destination where spirituality, mythology, and cultural heritage come together. Known for the sacred Vindhyavasini Dev"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104555759459844501",
-          "author": "tcf_updates",
-          "searchJob": "temple",
-          "text": "🚨 US ENVOY SERGIO GOR VISITS GOLDEN TEMPLE IN HIGH-PROFILE PUNJAB OUTREACH AMRITSAR, INDIA - Sending the US ambassador to Punjab changes which relationships are being cultivated. Diplomatic engagement is no longer being confined to nationa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104554379416424653",
-          "author": "rupa_prabhakar",
-          "searchJob": "temple",
-          "text": "🔱 Kailasha Vadyam in Ujjain 🛕 During the auspicious Shravan–Bhadrapada month, 20 shivanga sadhakas from Isha Yoga Center travelled to Ujjain to offer sacred Kailasha Vadyam in devotion to Mahakal On 6 September, the team offered Kailasha "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104554252899328496",
-          "author": "deccanchronicle",
-          "searchJob": "temple",
-          "text": "Madurai: Tamil Nadu Chief Minister #CJosephVijay on Monday visited the ancient #SriMeenakshiSundareswarartemple here and offered prayers and he was accorded a warm welcome by the people and devotees. Upon his arrival at the temple, the chie"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104551400021672265",
-          "author": "sheza_art",
-          "searchJob": "temple",
-          "text": "Good Morning I started my nft journey on December 2025 by minting art on @objktcom , i only had one sale there to @SheaZBackup. Then my phone broke and I lost my temple wallet and i make new wallet and minted first art on @teamartcollect My"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104550692342112383",
-          "author": "thisisgba",
-          "searchJob": "temple",
-          "text": "📚 As we mark the 2,577th anniversary of #Confucius' birth, #Foshan Ancestral Temple welcomed visitors from around the world for a cultural gathering. At the Confucius Memorial Ceremony on September 28, traditional rites, music and performa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104550642228351279",
-          "author": "texasman2022",
-          "searchJob": "temple",
-          "text": "And again, no one said anything about Paul being lawless. That is an assertion you're adding to my argument that I never made. Reading comprehension is needed on your part here. Let's stick to what was actually said. The question is whether"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104550316146618855",
-          "author": "nbdwrites",
-          "searchJob": "temple",
-          "text": "Well, the irony is that the British-appointed management of the Golden Temple had allowed Dyer much the same latitude. When they sought to induct him into the Sikh fold and he objected that he could not give up smoking, Arur Singh reportedl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104546941321568391",
-          "author": "unexplained_fs",
-          "searchJob": "temple",
-          "text": "After the news reached Calcutta he went to a Kali temple to offer prayers, suffered a stroke, and died two days later. Funeral rites on 13 August 1946. Bibhabati Debi kept her view. She later refused money from the estate. English Wikipedia"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104545816094572823",
-          "author": "news9tweets",
-          "searchJob": "temple",
-          "text": "#TamilNadu Chief Minister #Vijay arrived at the #MeenakshiAmman Temple in #Madurai during his visit to the city. He visited the historic temple and offered prayers amid the presence of devotees and supporters. https://t.co/uKyJ9HoqKS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104544181008081270",
-          "author": "ndtv",
-          "searchJob": "temple",
-          "text": "#Newsroom with @GargiRawat | Tamil Nadu CM Vijay offers prayers at Meenakshi Amman temple @DharanVija47684 reports https://t.co/vauJgx71pS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104552309887811769",
-          "author": "isaacfeldman",
-          "searchJob": "toledo",
-          "text": "No moron, learn history. Jews were in that area for thousands of years. It was called Judea (where Jews came from) and Samaria, it was also called the Kingdom of Israel. The British changed the name of this area to Mandate of Palestine wher"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104564325679505524",
-          "author": "truckingattys",
-          "searchJob": "georgia",
-          "text": "Fried Goldberg's Georgia Practice Pointers offers daily emails featuring practical tips, legal insights, and Georgia statutes and case law for plaintiff attorneys. Start receiving daily guidance for your Georgia personal injury practice: ht"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2104549789031604704",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia",
-          "text": "Clarkston SR DB earns an offer from Southern #RecruitGeorgia"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104565518976073923",
-          "author": "cnxsoft",
-          "searchJob": "texas",
-          "text": "SO-DIMM system-on-modules powered by Texas Instruments AM62, AM62A, or AM62P SoCs. https://t.co/hWHGKpzAUj Critical Link MitySOM-AM62x/A/P is a family of SoMs designed for industrial automation, HMI, and other embedded applications. The fam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104560940175790116",
-          "author": "podcast_quickie",
-          "searchJob": "texas",
-          "text": "Podcast Summary | Armchair Expert with Dax Shepard: Leanne Morgan Overview Leanne Morgan’s career is a case study in delayed payoff: nearly three decades of stand-up, repeated network deals that collapsed, and years earning roughly the same"
+          "reason": "multiple_resolved_schools",
+          "postId": "2104567678039953887",
+          "author": "willcookonx",
+          "searchJob": "louisiana",
+          "text": "__X__ A DRIVER’S PERSPECTIVE | MONDAY TRUCKING BRIEF September 28, 2026 DRIVERLESS TRUCKING Kodiak is running daily preparation trips between Dallas and Houston and says it plans to remove the safety observer by year’s end. Right now, a per"
         }
       ]
     },
@@ -61509,22 +61202,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 1,
+      "requests": 6,
+      "errors": [
+        "massachusetts: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 59,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 3,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 87,
-    "decided": 87,
+    "total": 7,
+    "decided": 7,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
