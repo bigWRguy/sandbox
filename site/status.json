@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T23:41:55.685Z",
+  "generatedAt": "2026-09-28T23:58:00.296Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-28T23:41:55.432Z",
+    "at": "2026-09-28T23:57:59.906Z",
     "jobsTotal": 162,
-    "sweptThisRun": 3,
-    "requests": 4,
-    "fullSweepCycles": 54
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0047591666666666,
-    "p95Hours": 2.005574166666667,
-    "worstHours": 2.005574166666667
+    "medianHours": 1.0234808333333334,
+    "p95Hours": 1.8777319444444445,
+    "worstHours": 1.8777319444444445
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 48,
+    "decided": 48,
     "complete": true
   },
   "pending": {
@@ -49,59 +49,357 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 2088,
+    "completeOffers": 2089,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-28T23:41:55.432Z",
-      "got": 0,
-      "new": 0,
-      "lag": null
+      "at": "2026-09-28T23:57:59.905Z",
+      "got": 89,
+      "new": 48,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-28T23:41:39.495Z",
+    "at": "2026-09-28T23:56:24.899Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 89,
+      "kept": 48,
+      "duplicate": 40,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 31,
+      "rejected": 17,
+      "reasons": {
+        "no_offer_term": 3,
+        "hard_negative": 3,
+        "non_fbs_offer_target": 3,
+        "no_fbs_school": 8
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2104607862555034093",
+          "author": "jamieshaw5",
+          "searchJob": "north-carolina",
+          "text": "4⭐️ Braeden Greenup headlines a North Raleigh Christian team with more college-level talent than you think. D-I to NAIA, there are multiple players here college coaches need to know 👀 I break them down from my latest stop on my Open Gym To"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104715182475804942",
+          "author": "5starfbrecruits",
+          "searchJob": "pittsburgh",
+          "text": "RANKED ⭐⭐⭐ - 5SFB 2028 DT Eddie Crattic (@Cratticgetsacks) has officially been ranked a 3⭐ prospect by Rivals! 🔥📈 The Florida prospect currently holds offers from Sacramento State, FIU, Pitt, Georgia Southern, Dartmouth, and Kansas. 👀💫 "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104721710968959370",
+          "author": "dolphinthirsty",
+          "searchJob": "south-florida",
+          "text": "@MiamiCanes1971 Do you have that same energy for every kid from South Florida that had an offer from UM but went elsewhere? 😆"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104719125352435886",
+          "author": "bondoroinsights",
+          "searchJob": "south-florida",
+          "text": "https://t.co/iKFFOx67h2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104700939839877387",
+          "author": "hederacommunity",
+          "searchJob": "class:2026",
+          "text": "From smart contracts to enterprise use cases. A look back at a HederaCon session exploring how @hedera can support developers, financial infrastructure, and real-world applications. Read the recap. https://t.co/kNUVscb1lz"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104718037186441369",
+          "author": "jaxsunnixon33",
+          "searchJob": "missouri",
+          "text": "#AGTG After a great talk with @Coach_Griffin32 I am blessed to say I have received my first offer from Missouri Valley. @JPRockMO @GSV_STL @6starfootballMO @SDAll_In @CoachTwan314 @qbserri15 @PrepRedzoneMO https://t.co/l5VdlTEu5p"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104710855447515417",
+          "author": "jiggynonstop_",
+          "searchJob": "missouri",
+          "text": "A Remarkably Preserved Nautiloid That Went Extinct 200 Million Years Ago Has Been Found in Missouri: A remarkable piece of prehistoric history was recently uncovered in central Missouri: a perfectly preserved internal cast, or 'steinkern,' "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104716276044058831",
+          "author": "lincolnmics",
+          "searchJob": "nebraska",
+          "text": "Any of my tweet peers with a Jeep in the market for a Clayton lift? Made in the USA lift kit for a 2018+ Jeep Wrangler JLU including a fresh set of Fox shocks for the same, making deals. Clayton Jeep Wrangler 2.5\" OVERLAND+ Lift Kit 2018+, "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2104720900277117278",
+          "author": "matthewnordine6",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After an amazing conversation with @CoachFam I’m blessed to earn my second division 2 offer to play football at @MSUBeaversFB!! @coachshields #WADL #EMAB #AGTG https://t.co/UyeZcuiAYc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104720731162485199",
+          "author": "cjallen_9",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great conversation with @CoachColemxxrf I am blessed to receive an offer from @SCWarriorFB #AGTG @CoachLangfordSC https://t.co/0lV9iK7ixK"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104720516485349449",
+          "author": "haidan2027",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a great conversation with @CoachCutshaw and @CSCwildcatsFB. I’m blessed to receive my 4th offer from Culver-Stockton College❗️ @PineFootball @Recruit_DFW @Coach_MikeWood @MikeRoach247 @TXRecruits @CoachSylvester1 @BallCoachHP @F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104720300583591985",
+          "author": "djhill_30",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive my first offer from lighthouse Christian college #AGTG @georgiadeac10 @coachjchastain https://t.co/I7nPMQDQCc"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2104720284180001067",
+          "author": "tyjohn_brooks24",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Blessed to receive a D1 Offer from Lindenwood University @Coach_Kratch @CoachKensey @IowaCentralFB @LindenwoodFB @CoachJackson32 @JuCoFootballACE @JUCOFFrenzy @AllenTrieu https://t.co/qxtfcOap2I"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104717309571211276",
+          "author": "terence_west23",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I’m blessed to receive my first D1 offer Prairie View A&amp;M @_McCollom_Steve @Mercier801 @coach_asuega #AGTG✝️ #jucoproduct https://t.co/uWVAmLpq08"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104712522884624766",
+          "author": "sledge_emaude1",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After I a great conversation with @CoachSlaughter2 I am blessed to receive my 6th division 1 offer from @LionUpFootball ‼️ #agtg @ChadSimmons_ @DemetricDWarren @samspiegs @ErikRichardsUSA @TomLuginbill @adamgorney @Perroni247 @CraigHaubert "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104707283267809746",
+          "author": "tshamberger2",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Atfer Talking to @CoachHiltman I’m Blessed to receive a Offer and Game Visit From @HawksFootball ❤️🤍 #gohawks #lank # https://t.co/oYys9gSUCv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104719710017270165",
+          "author": "faithfulpalette",
+          "searchJob": "duke",
+          "text": "Catholic Now — Top 5 feasts this week 🙏 Mon Sep 28 – Sun Oct 4, 2026 1️⃣ Tue Sep 29 · Sts Michael, Gabriel & Raphael, Archangels (Feast) Who: The three angels the Church honors by name from Scripture. • Michael, the prince of the heavenly "
+        }
+      ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 1,
+      "rejected": 30,
+      "reasons": {
+        "bare_mention_requires_llm": 17,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 8,
+        "explicit_non_fbs_target": 1,
+        "player_missing_class_year": 2
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104718209383297147",
+          "author": "jamieshaw5",
+          "searchJob": "north-carolina",
+          "text": "Braeden Greenup: 22.8 PPG, second among all North Carolina freshmen. A Top 50 player in 2029 with D-I offers on the table & averaging a double-double in high school. He broke out last year. Now the spotlight at @nrcabasketball gets bigger. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104706743804608536",
+          "author": "gut_bmj",
+          "searchJob": "north-carolina",
+          "text": "We hope you enjoy this September 2026 issue of @Gut_BMJ From dysbiotic microbiota driving colorectal cancer in PSC-IBD to AI-assisted colonoscopy, neuromodulation for IBS, dietary biomarkers in Crohn’s disease and new mechanisms of pancreat"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104720457249268101",
+          "author": "falkogreg",
+          "searchJob": "pittsburgh",
+          "text": "@ZeroContextVols @sthorn_23 @BrooksAustinBA If I were Tennessee I would offer the Pitt Boss 2 million a year to come back to Knoxville"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104717172757209234",
+          "author": "_jxssica22",
+          "searchJob": "pittsburgh",
+          "text": "Would anyone be interested in 2 Olivia Rodrigo tickets for tomorrow at the PPG Paints Arena in Pittsburgh. My sis and i can't go anymore😭but want to offer them cheap for people who actually are fans!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104705425685758155",
+          "author": "g_peraza",
+          "searchJob": "pittsburgh",
+          "text": "Olivia Rodrigo in Pittsburgh, PA 💜 I have 4 tickets for Day 1 — Tuesday, Sept. 29, and 4 tickets for Day 2 — Wednesday, Sept. 30. Unfortunately, I can no longer attend. Selling below what I originally paid. Open to reasonable offers. Scamm"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104721491032244440",
+          "author": "whatsthehapp5",
+          "searchJob": "notre-dame",
+          "text": "@Councillorsuzie It was reprehensible.The Israel captain put out his hand and the piece of shit Irish Captain shook hands with the referee and the two linesmen and ignored the offered hand of the Jewish https://t.co/BzHpfkCrwD not Jewish ei"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104706529807225109",
+          "author": "jfalletta1977",
+          "searchJob": "notre-dame",
+          "text": "@Fravel_Ryan Seems to me that there is a lot of misdiagnosis etc. going on with the medical professionals that notre dame uses and this is just not related to Quincy porter although I think Notre dame should have evaluated things further be"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104706526426579219",
+          "author": "fanaticsnd",
+          "searchJob": "notre-dame",
+          "text": "@JFK_Chicago @BKB639 Sometimes it’s about a fit, the same reason players are choosing Notre Dame over other schools that offer more money. The Porter injury is disappointing and hope he gets well soon, it’s way too early to write off Graham"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104706423657779288",
+          "author": "bsdetector89",
+          "searchJob": "notre-dame",
+          "text": "@EastRenAsks The same Irish leader that offered condolences to the German state had a forest planted in his name in Israel for his actions to help Jewish refugees during the war. Not everything is black and white you moron, particularly whe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104701214910783683",
+          "author": "driverdj1000",
+          "searchJob": "notre-dame",
+          "text": "@nickysboys61 @BerginColm92427 @RomBraslavski What in the love of all that is holy are you talking about? Hang on and let me process this. The Irish don't work? The Irish offered her daughters to Jihadists ? We hide behind American power an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104700631646888422",
+          "author": "mediamanoz",
+          "searchJob": "notre-dame",
+          "text": "Pop Culture Flashback Mafia Files (In Case You Missed It) Mafia rat who inspired Goodfellas had real-life criminal career steeped in blood - 14th June 2012 Gangster turned informant whose life and crimes were immortalised in the film Goodfe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104699807722041611",
+          "author": "mediamangroup",
+          "searchJob": "notre-dame",
+          "text": "Pop Culture Flashback Mafia Files (In Case You Missed It) Mafia rat who inspired Goodfellas had real-life criminal career steeped in blood - 14th June 2012 Gangster turned informant whose life and crimes were immortalised in the film Goodfe"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104692638880289246",
+          "author": "irishopcom",
+          "searchJob": "notre-dame",
+          "text": "✨ YOUR HERITAGE GLISTENS IN IRISH GOLD JEWELRY 🏷 Get up to 20% OFF Today 💚 Show the world where your heart belongs 🛒https://t.co/Ze14phxB1Y #irish #gold #jewelry #ring #claddagh #claddaghring #celtic #weddingring #irishdesign #madeinirel"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104692390246428952",
+          "author": "cordekeeler",
+          "searchJob": "james-madison",
+          "text": "@JacobLaFrance @JMUFootball Here are my Mid Season Highlights coach! Corde Keeler Torrey Pines High School(CA) Class of 2027 3.45 GPA Left Guard 6’1 250 3 Years of Varsity experience 3 offers 0 sacks allowed 📞: 858-888-6997 Email: CordeKee"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2104700443930542380",
+          "author": "jucoffrenzy",
+          "searchJob": "missouri-state",
+          "text": "2027 (@SMCC_Athletics) JUCO WR @TahjWilliby_10 was offered by Missouri State @MoStateFootball HL https://t.co/v6ah1rwn8A https://t.co/c35xyrUXQ3"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2104716005796634677",
+          "author": "djcrowe0",
+          "searchJob": "south-alabama",
+          "text": "Blessed and grateful to receive a offer from South Alabama @Trew30_ @Coach_JL51 @CoachTylerCurts @CoachJWebb__ @chrisjammar @A1Rsports https://t.co/xTMCBZzQDB"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104720478791213506",
+          "author": "gdxtrader",
+          "searchJob": "south-florida",
+          "text": "#SILVER In our #SILVER post from September 23 below, we highlighted that until bulls can break descending resistance, buying directly beneath it offers little appeal because overhead supply continues to limit upside momentum. Today we print"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104717585044365477",
+          "author": "thatcryptolad_",
+          "searchJob": "south-florida",
+          "text": "🌙 BTC EVENING WRAP ₿ BTC: $83,561.54 📈 Trend: MIXED 📊 RSI: 49.44 (NEUTRAL) 🎯 OVERNIGHT LEVELS 🟢 Bulls need: $84,999.04 🔴 Bears need: $82,630.38 📋 CURRENT BIAS 🟡 WAIT 👀 Watch above $84,999.04 for LONG 👀 Watch below $82,630.38 for S"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2104708411145212308",
+          "author": "jerryrecruiting",
+          "searchJob": "south-florida",
+          "text": "Carol City (FL) ’29 ATH Ben McFadden Jr. adds his 14th FBS offer, this one from Florida State via Coach Greg Moss. McFadden was selected to the Rising Stars All-South Florida Freshman Team. @BenMcFaddenJr9 @CoachGMoss https://t.co/irl1zGPGa"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2104716459863629922",
+          "author": "kwaleiii",
+          "searchJob": "southern-miss",
+          "text": "blessed to receive a D1 FBS offer from the University of Southern Mississippi🙏🏽 @SouthernMissFB @CoachMikeBethea @CoachKSHAVER https://t.co/vmKRndBMqj"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104717931460362641",
+          "author": "thespartanswire",
+          "searchJob": "class:2026",
+          "text": "MSU football offers 3-star WR Cordell Ball of Cincinnati 📸 Tony Tribble for The Enquirer, USA TODAY Network via Reuters Co https://t.co/m3jlqThuVH https://t.co/LKQ7c3xqV0"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104706190676758981",
+          "author": "chewy_05",
+          "searchJob": "minnesota",
+          "text": "@49ersSportsTalk I say no but if Minnesota wanted to offer him back to us they would have to pay half of his salary and will give them six round draft pick"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104713353599869218",
+          "author": "markdgibb",
+          "searchJob": "nebraska",
+          "text": "Well then you show your ignorance. I didn't even think of race. You confirmed my thoughts when you went ahead and listed the \"fancy\" things you think are the point of living. All the stuff you list is awesome. But things like that become le"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104708954227937770",
+          "author": "bryanmunson_",
+          "searchJob": "nebraska",
+          "text": "Nebraska has added its name to the growing list of offers for four-star OT Kajus Muralis (@MuralisKajus). The offer is a little \"late\", but Muralis says his process is beginning, and he is looking at a possible visit to Nebraska this fall. "
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 3,
-      "failed": 1,
-      "requests": 4,
-      "errors": [
-        "phrase:\"after a great conversation\" offer: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 30,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-28T23:41:55.686Z"
+    "status rebuilt locally from current store on 2026-09-28T23:58:00.298Z"
   ]
 }
