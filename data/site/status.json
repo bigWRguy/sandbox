@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T07:58:14.726Z",
+  "generatedAt": "2026-09-29T08:13:51.445Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-29T07:58:14.414Z",
+    "at": "2026-09-29T08:13:51.140Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7772183333333333,
-    "p95Hours": 1.7747691666666667,
-    "worstHours": 1.7747691666666667
+    "medianHours": 1.0374180555555557,
+    "p95Hours": 1.5352425,
+    "worstHours": 1.5352425
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 4,
+    "decided": 4,
     "complete": true
   },
   "pending": {
@@ -55,103 +55,66 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-29T07:58:14.413Z",
-      "got": 27,
-      "new": 9,
-      "lag": 0.05
+      "at": "2026-09-29T08:13:51.139Z",
+      "got": 11,
+      "new": 4,
+      "lag": 0.36
     }
   },
   "audit": {
-    "at": "2026-09-29T07:56:40.495Z",
+    "at": "2026-09-29T08:12:15.953Z",
     "mode": "live",
     "collection": {
-      "returned": 27,
-      "kept": 9,
-      "duplicate": 17,
+      "returned": 11,
+      "kept": 4,
+      "duplicate": 6,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 1,
+      "accepted": 2,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 1
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2104719635111186564",
-          "author": "haydenb123z",
-          "searchJob": "lsu",
-          "text": "@Brett_McMurphy Gators twice A&amp;M and Ole Miss. wow. Impressive"
+          "reason": "no_fbs_school",
+          "postId": "2104828689187733644",
+          "author": "lnrailway",
+          "searchJob": "northwestern",
+          "text": "Last chance! Ditch the car icks and enjoy 50% off train travel when you sign up to our offer by midnight tonight! Travel is valid up until 25 October. Get your offer 👉 https://t.co/Osc9wHPEIa https://t.co/cylC6UsKPk"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104835098550170083",
+          "author": "lexyunfiltered",
+          "searchJob": "california",
+          "text": "Governor Newsom just signed a law in California that REQUIRES all community colleges to offer medication abortion (the abortion pill). Student health centers will have to offer the abortion pill to students and they can even receive it via "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 2,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104814281128550804",
-          "author": "joshuathinks1",
-          "searchJob": "indiana",
-          "text": "Microsoft offered up to $1M in one-time grants for its $1B Indiana data center. A 25-congregation coalition wanted a binding 1% deal instead, about $30M-$40M a year. Community consent is becoming a line item on the AI build. #BigTech #AI"
+          "postId": "2104841677504708647",
+          "author": "advafshanawan",
+          "searchJob": "california",
+          "text": "GLOBAL CRACKDOWN, FBI OFFERS $1M BOUNTY FOR BISHNOI GANG LEADER SATINDERJEET SINGH (GOLDY BRAR) ​The addition of Satinderjeet Singh (Goldy Brar) to the FBI’s Ten Most Wanted list delivers a crushing blow to the Lawrence Bishnoi syndicate’s "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104828931371118947",
-          "author": "janejanerealty",
-          "searchJob": "iowa",
-          "text": "1/7 🏡 RENTAL INCOME STARTS WITH THE PROPERTY YOU BUY When people talk about property investment, the conversation often jumps straight to one number: “How much rent can I collect?” But the rent comes after the purchase. The more useful sta"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104823053209555108",
-          "author": "victoryslap4700",
-          "searchJob": "lsu",
-          "text": "It is impressive, that was the best the SEC had to offer or was Miami supposed to quantum leap back to 2019 and play LSU?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104842356205978081",
-          "author": "jeffand3js",
-          "searchJob": "michigan",
-          "text": "@BeerlyFootball Best hander offer there ever was. Michigan sucks."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2104815449410031630",
-          "author": "phantom14636",
-          "searchJob": "michigan",
-          "text": "@GuntherEagleman How much more can our youth take..CANADA .what really do you offer Michigan"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104837999238259191",
-          "author": "thisiswhyibuilt",
-          "searchJob": "miami",
-          "text": "@MDXreal Offers for Orla run from $10M to $20M but don't reflect fair value. Better to buy in London or Miami and a 3BR in a new Emaar building (about $1 - 1.5M) in Dubai."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2104833274396967198",
-          "author": "tygosoren",
-          "searchJob": "miami",
-          "text": "NBA OFFSEASON MOVES → TRAINING CAMP The 2026 NBA offseason reshaped the league—and the storylines aren't over yet. 🔥 Giannis Antetokounmpo → Miami Heat 🔥 Donovan Mitchell → 4-year, $273M Cavs extension 🔥 Trae Young → long-term deal with "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2104837836507955401",
-          "author": "gdgtify",
-          "searchJob": "coastal-carolina",
-          "text": "This is the most advanced Earth living atlas app I have made yet. I tend to test these ideas with different models. This one was done with Opus 5.5 in one try. It has so many cool features. Hard to believe what you can do with these models "
+          "postId": "2104817222216532154",
+          "author": "local12",
+          "searchJob": "cincinnati",
+          "text": "A Cincinnati man is charged with two counts of criminal child enticement after police say he offered a child money to get inside his vehicle, then tried to grab him: https://t.co/eSnyn90SDn https://t.co/XBYGpZEi4n"
         }
       ]
     },
@@ -166,11 +129,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-29T07:58:14.728Z"
+    "status rebuilt locally from current store on 2026-09-29T08:13:51.446Z"
   ]
 }
