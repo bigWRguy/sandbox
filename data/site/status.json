@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T19:26:55.978Z",
+  "generatedAt": "2026-09-29T19:58:05.111Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-29T19:26:55.752Z",
+    "at": "2026-09-29T19:58:04.808Z",
     "jobsTotal": 162,
-    "sweptThisRun": 2,
-    "requests": 3,
-    "fullSweepCycles": 81
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "wake-forest",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0052641666666666,
-    "p95Hours": 1.755968611111111,
-    "worstHours": 1.755968611111111
+    "medianHours": 1.271498611111111,
+    "p95Hours": 2.0224369444444443,
+    "worstHours": 2.2751722222222224
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 59,
+    "decided": 59,
     "complete": true
   },
   "pending": {
@@ -47,57 +52,387 @@
   "profileResolution": {
     "cached": 70
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 2142,
+    "completeOffers": 2143,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-29T19:26:55.752Z",
-      "got": 7,
-      "new": 2,
-      "lag": 0.67
+      "at": "2026-09-29T19:58:04.808Z",
+      "got": 94,
+      "new": 59,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-09-29T19:26:44.927Z",
+    "at": "2026-09-29T19:56:33.229Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 2,
-      "duplicate": 5,
-      "tooOld": 0,
+      "returned": 94,
+      "kept": 59,
+      "duplicate": 34,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 32,
+      "rejected": 27,
       "reasons": {
-        "bare_mention_requires_llm": 2
+        "no_offer_term": 12,
+        "no_fbs_school": 11,
+        "non_fbs_offer_target": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105006450334380507",
-          "author": "jucofootballace",
-          "searchJob": "virginia-tech",
-          "text": "Emanuel Mason @EmanuelMason16 @ Ellsworth JuCo @Ellsworth_CC_FB picks up @HokiesFB Offer @AthleticsECC https://t.co/Q44YxxWc92"
+          "reason": "no_offer_term",
+          "postId": "2105018371188375988",
+          "author": "daywrotethis",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/dl9ZMBzQDx"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105007395428536717",
+          "author": "garyalsmith",
+          "searchJob": "wake-forest",
+          "text": "“We noticed that a few of the Black Stars players were unhappy with each other. So we knew there was disruption [in the team]…” 🗣️ 🇬🇲 Gambia coach Johnathan McKinstry after their 4-2 win vs 🇬🇭 Ghana. https://t.co/iWfCZq6Lk7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104959487945633972",
+          "author": "menrva33",
+          "searchJob": "wake-forest",
+          "text": "Huge thanks for the shoutout on LinkedIn, @andr1ank 🙌 …this really means a lot! That’s exactly what this is all about: building together and pushing each other forward. 🦾 It started with a polite DM right here on X, followed by a quick vi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104934203053768753",
+          "author": "indosport",
+          "searchJob": "notre-dame",
+          "text": "‘Munster is not a well-run organisation’ ‘It kills a lot of the guys who have played to see some of the stuff going on’ Peter O’Mahony on the change he wants to see at his former club. Catch the full interview with @slatterywill on Indo Spo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104991781733703713",
+          "author": "chadwicksie",
+          "searchJob": "notre-dame",
+          "text": "Portwest Sealtex Essential Rainsuit. Waterproof, lightweight and ready for whatever the Irish weather has to throw at you! Including buckets of water! ☔️😂 Available now for €57.50 instore or online here 🔗 https://t.co/PKBrMHIeHf #fyp #Cha"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105023901860249852",
+          "author": "moldetroy",
+          "searchJob": "troy",
+          "text": "@AnthonyLaPanta Bought my annual subscription last night. It was a bit confusing because the page says start your free trial for 19.99/month. I knew they offered a year deal for $99. Way better deal for me. I couldn't find it. I clicked on "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105016060571213972",
+          "author": "cancerhealthmag",
+          "searchJob": "troy",
+          "text": "#CancerHealthStories David Dye, 77, a multiple myeloma survivor who lives in Troy, Alabama, was intrigued by an offer to be part of a Harvest for Health study. Now he’s training to be a master gardener. #myeloma #cancer https://t.co/cqnJ1h8"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105009614677012901",
+          "author": "aztjk35",
+          "searchJob": "troy",
+          "text": "@YahwehGraced Why would my focus be on the law of sin and death which has an inferior high priest and doesn't even offer direct access to Almighty God?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105008089921392692",
+          "author": "davetroy",
+          "searchJob": "troy",
+          "text": "Pertinent to my recent podcast episode on 'citizens assemblies,' Hélène Landemore and Audrey Tang offer this as one idea for how to manage AI challenges. https://t.co/eYQYAttLlW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105002106621165732",
+          "author": "troybrady2",
+          "searchJob": "troy",
+          "text": "GLAD we have Trump not VANCE as president. Iranians DEMAND EVERYTHING THEY WANT UP FRONT FOR PEACE.. and ONLY OFFER a PROMISE TO TALK about what they'll do in return!!! You'd HAVE TO BE PLAIN STUPID TO ACCEPT THAT?!! especially with their h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104995246954500414",
+          "author": "rad4lyfe_",
+          "searchJob": "troy",
+          "text": "My school never offered this class because it was a bad school."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104985074336932312",
+          "author": "franziamom",
+          "searchJob": "troy",
+          "text": "The idea that Hatebreed was as big as Slipknot …. open the fucking schools"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104969658747302214",
+          "author": "flieldy",
+          "searchJob": "troy",
+          "text": "@BASSGOD42069 Hatebreed was regularly playing ozzfest and other radio rock fests, in regular rotation on mtv2, bros had full rear window hatbreed decals on their lifted trucks. They were bigger than Lamb of God etc. and at the level of Slip"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105015928027328545",
+          "author": "qz",
+          "searchJob": "michigan",
+          "text": "https://t.co/X23RKSlBiS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2104994897484718515",
+          "author": "musktardncatsup",
+          "searchJob": "michigan",
+          "text": "Did you think that was all? Think again! 🧵THREAD🧵 (1/5) The equipment relationship 🇺🇸🇨🇳Sanjiang and Michigan-based CC&T formed 3JET in Zhuhai in 1998 to build Internet/PSTN telephone systems. 🇨🇳By October 1999, 3JET was manufacturin"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2104571972893962244",
+          "author": "propublica",
+          "searchJob": "minnesota",
+          "text": "Federal judges say they are losing faith in the Justice Department’s trustworthiness, legal scholars say. “Judges simply don't believe the representations that are being made by United States attorneys,” one former federal judge said. https"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105020382923169893",
+          "author": "ianplatts52",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @JWesley_Jr blessed to receive an offer from @GeorgiaKnightsC https://t.co/G2wxqxv3sO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105016761271607370",
+          "author": "william_peryy",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "Gods blessing 🙏 After a great conversation with Coach @CoachFugie72 I am blessed to receive my 4th offer to NDSCS https://t.co/8gD5XTxMMb"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2105013790488379719",
+          "author": "mason_nichols5",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @trogersOLCoach I’m blessed to receive an offer from Knox College #AGTG @bowievolfb @CoachStew06 @coachjsam https://t.co/P7qGsNrgLt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105013186042765472",
+          "author": "astallone13",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachRMoore34 I am blessed to receive my first college football offer from @HamCollFootball !! @MsgrFarrellFB @CoachParnese66 @CoachDMurray3 @PrepRedzoneNY @PRZcory https://t.co/GpSmdqBpsU"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2105023101008523704",
+          "author": "aarondavis066",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "Blessed to receive my first D1 offer from Prairie View A&amp;M University‼️ All glory to God. Thank you Coach Asuega for believing in me. 🏈🙏🏾 #Blessed #RecruitMe @coach_asuega @RaivioMatt @DionLeonard_2 @BrandonYounger @kennycoleman81 ht"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105021100761506213",
+          "author": "miaminewtimes",
+          "searchJob": "miami",
+          "text": "While only the most religious people in today’s society might turn their noses up at haunted houses, an upcoming pop-up in Homestead seems to be pushing the boundaries of provocativeness. 🔗 https://t.co/u6XGfgLad2 https://t.co/LdJR366xDA"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105012798430363930",
+          "author": "zarilliontrades",
+          "searchJob": "miami",
+          "text": "https://t.co/NgV5bF9L1I"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2105005254282449230",
+          "author": "rmtcpirates",
+          "searchJob": "miami",
+          "text": "A special thank you to Lourdes Anaya for sharing the amazing free resources offered by Miami-Dade Public Libraries with our English Language Learners! 📚😊#YourBestChoiceMDCPS #PiratePride @MiamiSupt @fox1914 @susymauri @LDIAZ_CAO @MDCPSTec"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 1,
+      "rejected": 31,
+      "reasons": {
+        "school_not_resolved_confidently": 18,
+        "bare_mention_requires_llm": 11,
+        "player_missing_class_year": 1,
+        "reporter_missing_player_name": 1
+      },
+      "samples": [
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105021153026650367",
+          "author": "freedom_guider",
+          "searchJob": "wake-forest",
+          "text": "🚨 JESSICA HAD 312,000 FOLLOWERS. MARCUS HAD 34,000. AMINA HAD JUST 7,400. If I showed you only their social-media profiles and asked: “WHO HAS THE STRONGEST BUSINESS?” Most people would probably choose Jessica. Huge mistake. Because the nu"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105019871431950423",
+          "author": "planetaby",
+          "searchJob": "wake-forest",
+          "text": "The best time to remember Allah is in solitude. The best time to pray is at night. And the essence of it is tahajjud, a prayer offered in solitude at night. Ya Allah grant me the strength to battle laziness and sleep, so that I may wake up "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105017880437760064",
+          "author": "geneenroth",
+          "searchJob": "wake-forest",
+          "text": "Back in the last century, I weighed almost twice as much as I do now—and I desperately wanted to be thin. So much so that if a genie had appeared (I'm not proud of this fact) and offered me 1 wish, it would have been to wake up thin the nex"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105015937707426163",
+          "author": "adjei_baron1",
+          "searchJob": "wake-forest",
+          "text": "Meaning confusion still dey camp herh chale 😭😭😭.....Mr. President @JDMahama please wake up oo cuz this GFA is full with Cartels and nothing serious to offer us."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105012370821337163",
+          "author": "harmless_human",
+          "searchJob": "wake-forest",
+          "text": "Im sure the other two countries are good with free trade. Who wouldnt want free unlimited access to the largest consumer market on the planet? You offer a corner store equivalent in return. Then can then turn around and sell that generous a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105010321484349863",
+          "author": "meoowwwooff",
+          "searchJob": "wake-forest",
+          "text": "friends who offer to wake you up because they know you snooze alarms &gt;&gt;&gt;"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105007811847766152",
+          "author": "sgtvito1",
+          "searchJob": "wake-forest",
+          "text": "Wake up America- the handwriting is on the wall - these insurrectionists have publicly advertised their intentions, their platforms, and should be considered sky and cunning. The Present Democrats in office have publicly declared their inte"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105006447772029245",
+          "author": "robertnschlesi1",
+          "searchJob": "wake-forest",
+          "text": "Warren Buffett, the world's most successful investor offers a reality check &amp; wake-up call regarding taxation of U.S. corporations. Most Americans don't realize the U.S. is a socialist state providing unnecessary welfare for the rich &a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105004839319343472",
+          "author": "thoughttape",
+          "searchJob": "wake-forest",
+          "text": "Happy Birthday, @lazzyy_gaaarl ❤️ I hope this year brings you the kind of happiness that reaches deep into your heart and stays there. May you wake up every day with a little more peace, a little more hope, and a lot more reasons to smile. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105004563300250009",
+          "author": "menrva33",
+          "searchJob": "wake-forest",
+          "text": "It’s Tuesday, so my weekly rage is overdue 😬. I reposted this lovely shoutout on my WhatsApp Status. I have 2,000+ people from the fitness industry seeing my daily work. In the picture attached: a first reaction from a former colleague. I "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105000849176932560",
+          "author": "titohussein85",
+          "searchJob": "wake-forest",
+          "text": "Here you go another lowlife person she’s had no life no work or education she just wake up every morning to feed the media with her hatred just for Muslim without knowing anything about Islam and if anyone offers to here flights to Dubai sh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104994699325136920",
+          "author": "sterlingcooley",
+          "searchJob": "wake-forest",
+          "text": "Frequent nighttime micro-awakenings between ages 50 and 69 are more than just poor sleep. They are a specific signal of your polygenic risk for Alzheimer’s. A polygenic risk score tallies thousands of small genetic variants to map inherited"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104993762627957210",
+          "author": "taylorholiday",
+          "searchJob": "wake-forest",
+          "text": "Meta could onboard every 18-44m by turning Muse into the best fantasy football GM ever. Just get an ESPN connection. You wake up it tells you your waiver claims. Suggests trade offers. Makes sure your lineup is always set. Market dominated."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105021536520577029",
+          "author": "therugbyissue",
+          "searchJob": "notre-dame",
+          "text": "It doesn’t take a genius to see there is a systemic issue in how Munster has been managed throughout the pro era💯 Munster had already dropped behind Leinster as the top Irish province in terms of both trophy success and representation in t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105015819457704211",
+          "author": "dipecar",
+          "searchJob": "notre-dame",
+          "text": "I highly recommend the service I received from . They took my simple ideas and measurements and expertly handled the design, color, and storage planning. It is an Irish family-run business that offers trendy, high-quality furniture at price"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2104999583181107384",
+          "author": "georgedillon",
+          "searchJob": "notre-dame",
+          "text": "@ChiuauaTeardrop What are you a spokesman for? You offered an unhinged OP with a ludicrous premise. And then got in a huff when real Irish nationalists tackled you on it. You're a random faceless Bag of Shit."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2104997987210695003",
-          "author": "jucofootballace",
-          "searchJob": "virginia-tech",
-          "text": "Jalen Johnson @ayetr0n @ Dodge City JuCo @GoConqsFB picks up @HokiesFB Offer @GoConqs https://t.co/KQ8U8y5rGM"
+          "postId": "2105012302194102600",
+          "author": "odeliaenergy",
+          "searchJob": "new-mexico",
+          "text": "A $1.4B REACTOR FOR PATIENTS, NOT THE GRID THE BUILD · Eden Radioisotopes named Kiewit nuclear EPC for its planned Lea County, NM medical isotope complex. · New Mexico will offer incentives for Eden's investment of up to $1.4B. · Eden expec"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105010010044645716",
+          "author": "kaisollax",
+          "searchJob": "troy",
+          "text": "@troystakeonkick This is exactly why smart players switch codes. The lossback + double bonus combo most casinos don’t offer at this level makes TROY stand out — already checking the Discord."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105015104811274435",
+          "author": "kallalalla33",
+          "searchJob": "michigan",
+          "text": "@brenmidov I am one of the few whole loved this move. My heart wanted him up in MTL but I am a huge ncaa hockey fan and the way Michigan program is and everything they offer behind the scenes is amazing and will definitely help him in the l"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105011796054622328",
+          "author": "bestbesleevin",
+          "searchJob": "michigan",
+          "text": "Posting new items each and every day until I leave for Michigan! Come shoot some offers or DM through here https://t.co/OKhcD9NRL7 #thehobby #tradingcards #topps"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105023908655059183",
+          "author": "jw32457",
+          "searchJob": "minnesota",
+          "text": "@MinnesotaDFL This doesn't mean much, given that existing AG Keith Ellison sued Menards over its rebate program, while NOT suing daycare companies defrauding Minnesota for BILLION$. Apparently Ellison offers the office under a Rent-to-own p"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105022536719233231",
+          "author": "tnertz",
+          "searchJob": "minnesota",
+          "text": "Councilwoman Elizabeth Shaffer finally offers some pushback on this bill. She say in June, the board voted unanimously to have staff do a report on rideshare data. She wants a staff report finished before a vote especially since the state l"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2104994870435721645",
+          "author": "micyoung75",
+          "searchJob": "minnesota",
+          "text": "ProPublica reviewed hundreds of cases where federal judges criticized DOJ lawyers and found more than 40 that explicitly question the presumption of regularity, the old assumption that the government can be taken at its word. The judges are"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2105010024573464958",
+          "author": "darien_carlisle",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a Great Conversation with @CoachMarkWatson I am blessed to receive an offer from Missouri State!! @CoachDonerson @MiltonWAdamsII @CoachL__ @JuCoFootballACE @JUCOInsiderRep https://t.co/RwqVzkWnro"
         }
       ]
     },
@@ -105,20 +440,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 2,
-      "failed": 1,
-      "requests": 3,
-      "errors": [
-        "wake-forest: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 31,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-29T19:26:55.979Z"
+    "status rebuilt locally from current store on 2026-09-29T19:58:05.112Z"
   ]
 }
