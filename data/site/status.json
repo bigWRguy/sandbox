@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T04:58:00.912Z",
+  "generatedAt": "2026-09-30T05:13:12.534Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-30T04:58:00.585Z",
+    "at": "2026-09-30T05:13:12.275Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7736488888888889,
-    "p95Hours": 1.5249038888888888,
-    "worstHours": 1.7753075
+    "medianHours": 0.5296694444444444,
+    "p95Hours": 1.5275072222222221,
+    "worstHours": 1.5275072222222221
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 12,
+    "decided": 12,
     "complete": true
   },
   "pending": {
@@ -55,135 +55,125 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-30T04:58:00.584Z",
-      "got": 33,
-      "new": 14,
-      "lag": 0.24
+      "at": "2026-09-30T05:13:12.275Z",
+      "got": 29,
+      "new": 12,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-09-30T04:56:25.544Z",
+    "at": "2026-09-30T05:11:42.393Z",
     "mode": "live",
     "collection": {
-      "returned": 33,
-      "kept": 14,
-      "duplicate": 19,
+      "returned": 29,
+      "kept": 12,
+      "duplicate": 17,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 14,
+      "accepted": 5,
+      "rejected": 7,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 12,
-        "reporter_missing_player_name": 1
+        "hard_negative": 1,
+        "no_offer_term": 3,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105156622620520582",
-          "author": "dsfisaddlepated",
-          "searchJob": "kent-state",
-          "text": "What the actual bloody *ell is going on here? What happened to the Evergreen State? The Emerald City? These are the headlines from Seattle and other WA state cities today. Don't believe me, check out https://t.co/3YhOT8CuvD •Woman accused o"
+          "reason": "hard_negative",
+          "postId": "2105153026570736021",
+          "author": "torontokimm",
+          "searchJob": "massachusetts",
+          "text": "You and I, together, have explored the police investigation of this...occurrence. Honestly, I have to admit that I had nightmares on a number of nights doing a deep dive into this case. The kids. I'm a mother and a grandmother. My grandkids"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105162742701117838",
+          "author": "abc24memphis",
+          "searchJob": "memphis",
+          "text": "Two Ole Miss students were found dead on Sept. 21. Their deaths are believed to be unrelated. https://t.co/UJLOJHyNjB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105159035184173485",
+          "author": "martinmoreyra2",
+          "searchJob": "florida",
+          "text": "My debut single, “5 Foot 9,” is out now, and I'm overjoyed to share it. I believe it offers a small reminder that life is full of good things. After all, the good things like whiskey, dirt roads, and country music come from God. But the tru"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105158834671231218",
+          "author": "fl941_srq",
+          "searchJob": "florida",
+          "text": "Don’t worry The Cuckering has offered to help. https://t.co/dkKIGHfBQj"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105066411383251302",
+          "author": "shanecashman",
+          "searchJob": "florida",
+          "text": "Rumble isn't allowing me to upload videos. I emailed their support team and bots pretending to be humans reply with no help. I also applied to get some ads for the audio side of my new show but was immediately denied because of \"copyright i"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105052648928051437",
+          "author": "the_johnblack",
+          "searchJob": "florida",
+          "text": "@ShaneCashman @YouTube isn’t sending me alerts. The tech overlords are suppressing the Lord’s Work"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105156070025117895",
+          "author": "naomi_smit42414",
+          "searchJob": "georgia",
+          "text": "Time is the most precious thing we can offer each other. Everything else this world gives can be replaced, rebuilt, or found again. That is why presence is one of the purest forms of love. 🙏🤍"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 0,
+      "rejected": 5,
+      "reasons": {
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 3
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105163493347308031",
+          "author": "gabrielsshorts",
+          "searchJob": "florida",
+          "text": "Daily Gabriel World Shorts 🌍 | September 30, 2026 – 1-min read 🇰🇷 Seoul demanded North Korea immediately halt new fortifications along the inter-Korean border. 🛡️ 🇰🇵 Pyongyang threatened retaliation after Seoul blamed a North Korean m"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105142026295808305",
-          "author": "halberenson",
-          "searchJob": "navy",
-          "text": "I pointed that out elsewhere, but not exactly what you say. On the F-35 it is just the center fuselage. LM produces the forward fuselage, and BAE the aft fuselage. The bigger deal for NG is the radar and other mission systems they supply. I"
+          "postId": "2105155503680590164",
+          "author": "cornbreadcowboi",
+          "searchJob": "south-carolina",
+          "text": "I’m not a delusional fan. I understand it’s tough to win in this league. It’s even tougher to win at South Carolina. I enjoy football season and all it has to offer. The fellowship and tailgating is so much fun win or lose. I have no contro"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105157190667702336",
+          "author": "raajendraguupta",
+          "searchJob": "texas",
+          "text": "A Bennett Coleman (Times Group / BCCL) warrant dispute sat on this process. BCCL claimed conversion of warrants from a 2023 agreement. After a Delhi HC petition, Lord's Mark acknowledged entitlement to 10,28,483 shares at ₹158 (about ₹13 cr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105141601484026228",
-          "author": "atomictrucker",
-          "searchJob": "navy",
-          "text": "@TateAdamiak Welcome back. Did @SECNAV or @SecWar ever reach out and offer reinstatement in the Navy? Would you take it?"
+          "postId": "2105156274182602878",
+          "author": "brendajb79",
+          "searchJob": "texas",
+          "text": "HIT AND RUN ARLINGTON TEXAS 76017 🤬 Reward Offered$ https://t.co/v8hmmxPAGf"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105134257337442579",
-          "author": "rick_theslick",
-          "searchJob": "navy",
-          "text": "I got a homie who found a champion afterhood in navy a couple months back. He had a $5000 offer off the bat..here we are almost 5 months later &amp; he sold it for 8K. This vintage shit gets wild"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105145864545026114",
-          "author": "reviewjournal",
-          "searchJob": "nevada",
-          "text": "From zero to market in three days. That is essentially the speed Zero Labs strives to reach in its Innovation Launchpad, which offers intensive three-day programs focused on core Nevada industries like gaming, sports, hospitality, entertain"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105152610118533351",
-          "author": "np_nationpress",
-          "searchJob": "temple",
-          "text": "CM Mohan Yadav Offers Prayers at Narmadapuram's Bachawani Ganesh Temple MP CM Dr. Mohan Yadav shared a devotional post seeking Lord Ganesha's blessings from the Bachawani temple in Narmadapuram for peace and prosperity. https://t.co/iCjYGUs"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105151489673195648",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Puri, Odisha: The Sri Gundicha Temple, regarded as the birthplace of Lord Jagannath, is fully opened to devotees. Before the temple was opened at an auspicious time, Sri Jagannath Temple Chief Administrator, Puri SP Prateek Singh and temple"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105145698949927351",
-          "author": "sportskeeda",
-          "searchJob": "temple",
-          "text": "Rinku Singh offered prayers and sought the blessings of Lord Mahakaleshwar during the early-morning Bhasma Aarti at the Mahakaleshwar Jyotirlinga Temple in Ujjain. 🙏🕉️❤️ #Rinku #India #Sportskeeda https://t.co/XEJvXQDlwP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105143605723812261",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Gorakhpur: Uttar Pradesh Chief Minister Yogi Adityanath (@myogiadityanath) on Tuesday paid obeisance and offered prayers at the statue of Mahant Avaidyanath Ji Maharaj at Gorakhnath Temple on the occasion of his 12th death anniversa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105142480798966093",
-          "author": "japanpathak",
-          "searchJob": "temple",
-          "text": "Trustee cum Secretary of Shri Somnath Trust in a recent podcast said Somnath temple was attacked as invaders were attracted by its treasure !! Trustee Secretary, a retired IAS officer, ignores the fact that religious zeal of Mahmud Ghazni a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105140734475018243",
-          "author": "grantcalncaa",
-          "searchJob": "auburn",
-          "text": "🚨BREAKING: Former Auburn staffer David Jenrath has reportedly been arrested for leaking football information to opposing programs, sources tell CSN. Investigators believe Jenrath provided opponents with confidential scouting reports and ga"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105147709418025175",
-          "author": "stringfellow911",
-          "searchJob": "clemson",
-          "text": "I've got two tickets to Miami/Clemson I'm looking to unload in the visiting section uooer deck, Row X. Sick dog, so I'm not going. Make me an offer, especially if you're a Cane. Signal boosting welcome. #GoCanes"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105141737958064562",
-          "author": "cullumsmith",
-          "searchJob": "pittsburgh",
-          "text": "Just a few weeks ago, the Diocese of Pittsburgh ended its last remaining parish TLM. Now an anonymous indult priest from outside the diocese is being shipped to an independently owned chapel to offer a private TLM. I mean, based, but this p"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2105139378003623968",
-          "author": "kafafzynx",
-          "searchJob": "pittsburgh",
-          "text": "@agent8911 @IsaacMoha3 Stingley signed his last year. Salary cap has increased by 20 + million. So JPJ will demand more based on % of cap. Porter already turned down a 27M year offer from Pittsburgh as. Witherspoon/Gonzo are 34m, so JPJ mos"
+          "postId": "2105141087945756891",
+          "author": "fake_journals",
+          "searchJob": "stanford",
+          "text": "Saw this on the web site of Edelweiss Applied Science and Technology (E_ISSN: 2576-8484). The second image shows the more detailed page. If you are a Stanford top 2% author, you can get complete waiver of article Processing Charges (APCs). "
         }
       ]
     },
@@ -191,20 +181,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "delaware: SearchTimeline HTTP 404,404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 14,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-30T04:58:00.914Z"
+    "status rebuilt locally from current store on 2026-09-30T05:13:12.535Z"
   ]
 }
