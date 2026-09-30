@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T04:42:57.003Z",
+  "generatedAt": "2026-09-30T04:58:00.912Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-30T04:42:56.609Z",
+    "at": "2026-09-30T04:58:00.585Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7695358333333333,
-    "p95Hours": 1.524221388888889,
-    "worstHours": 1.524221388888889
+    "medianHours": 0.7736488888888889,
+    "p95Hours": 1.5249038888888888,
+    "worstHours": 1.7753075
   },
   "decisionCoverage": {
-    "total": 20,
-    "decided": 20,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,175 +55,135 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-30T04:42:56.609Z",
-      "got": 49,
-      "new": 20,
-      "lag": 0.05
+      "at": "2026-09-30T04:58:00.584Z",
+      "got": 33,
+      "new": 14,
+      "lag": 0.24
     }
   },
   "audit": {
-    "at": "2026-09-30T04:41:25.701Z",
+    "at": "2026-09-30T04:56:25.544Z",
     "mode": "live",
     "collection": {
-      "returned": 49,
-      "kept": 20,
-      "duplicate": 29,
+      "returned": 33,
+      "kept": 14,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 14,
-      "rejected": 6,
-      "reasons": {
-        "no_fbs_school": 4,
-        "hard_negative": 1,
-        "no_offer_term": 1
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105132330931405083",
-          "author": "marshal56370790",
-          "searchJob": "marshall",
-          "text": "@TextBluntly88 @traderadio We offered them a 1st and future 2nd which they refused last year. Tells me what you know…"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105153308654493877",
-          "author": "theredneckgara1",
-          "searchJob": "wyoming",
-          "text": "100% - this animal SHOULD have been in jail - the Bowmans would have not died from a home invasion. Javonte Jerome Higgins was convicted of murdering David and Vivian Bouwman in their Kentwood, Michigan home during a home invasion on the ni"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105136247853518969",
-          "author": "ndsubisonation8",
-          "searchJob": "wyoming",
-          "text": "@Kroter24 @7220sports in hindsight, Wyoming should've offered Polasek the HC spot"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2105141012863783077",
-          "author": "bamatrout",
-          "searchJob": "alabama",
-          "text": "@Hayesfawcett3 @Rivals @blalockjr_ @Ski_Axel Let me rephrase. “He has been committed to Alabama for almost 60 days but with 27 other offers outstanding, he’s decided to offer services to the highest bidder.”"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105143459317215239",
-          "author": "islandsmagazine",
-          "searchJob": "california",
-          "text": "Rocky Peak Park, near Simi Valley, California, offers scenic and challenging mountain trails with natural beauty and wildlife visible along the way. https://t.co/Af9y7RAUya"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2105149417519276086",
-          "author": "missthickxoxo",
-          "searchJob": "louisville",
-          "text": "Link? #Frankfort #Louisville #Lexington #RichMond"
-        }
-      ]
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 13,
+      "accepted": 0,
+      "rejected": 14,
       "reasons": {
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 3,
-        "bare_mention_requires_llm": 7
+        "school_not_resolved_confidently": 1,
+        "bare_mention_requires_llm": 12,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105148129465311517",
-          "author": "mediamanoz",
-          "searchJob": "charlotte",
-          "text": "Streaming Netflix @netflix Top 10 TV Shows In Australia Today September 30, 2026 via The (Netflix) box/interface! 1. WWE RAW 2. Wonka: The Golden Ticket: A Competition Series 3. Outside 4. Monster: The Lizzie Borden Story 5. The Gentlemen 6"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105147214603669711",
-          "author": "mediamangroup",
-          "searchJob": "charlotte",
-          "text": "Streaming Netflix @netflix Top 10 TV Shows In Australia Today September 30, 2026 via The (Netflix) box/interface! 1. WWE RAW 2. Wonka: The Golden Ticket: A Competition Series 3. Outside 4. Monster: The Lizzie Borden Story 5. The Gentlemen 6"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105145766595756405",
-          "author": "mediamanint",
-          "searchJob": "charlotte",
-          "text": "Streaming Netflix @netflix Top 10 TV Shows In Australia Today September 30, 2026 via The (Netflix) box/interface! 1. WWE RAW 2. Wonka: The Golden Ticket: A Competition Series 3. Outside 4. Monster: The Lizzie Borden Story 5. The Gentlemen 6"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105155725437866396",
-          "author": "emmanuelmotelin",
-          "searchJob": "coastal-carolina",
-          "text": "Coastal Kenya Lamu uniquely offers deep water for largest tankers, ample land for big refinery &amp; existing East African port. Fuel to 8 nations w/o stalled-site bottlenecks. That is not a slogan. It is geography doing the work. https://t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105154287579942930",
-          "author": "yourpremiertra1",
-          "searchJob": "coastal-carolina",
-          "text": "Globus - Spectacular Alaska! with Alaska Cruise 2027! https://t.co/W96xtoixMU --- # **Spectacular Alaska Awaits: Globus + Alaska Cruise Itinerary for 2027** **Presented by Your Premier Travels — Arlington, TX** *Let Us Help You Fulfill Your"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105132552063488140",
-          "author": "brianroemmele",
-          "searchJob": "coastal-carolina",
-          "text": "From the water, Ikaria looked dead. A long, dark ridge heaved out of the Aegean like the keel of a wrecked ship. No harbor lamps. No chimney smoke. No whitewashed village clinging to the shore. A corsair scanning that coastline in the 1600s"
+          "postId": "2105156622620520582",
+          "author": "dsfisaddlepated",
+          "searchJob": "kent-state",
+          "text": "What the actual bloody *ell is going on here? What happened to the Evergreen State? The Emerald City? These are the headlines from Seattle and other WA state cities today. Don't believe me, check out https://t.co/3YhOT8CuvD •Woman accused o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105133647023985050",
-          "author": "xebay24x",
-          "searchJob": "hawaii",
-          "text": "@babyjesuus Someone that was married my husband WILLINGLY offered my friends money when they visited me in Hawaii just based on the fact - we’re women and we wanted to shop &amp; it’s expensive in Hawaii."
+          "postId": "2105142026295808305",
+          "author": "halberenson",
+          "searchJob": "navy",
+          "text": "I pointed that out elsewhere, but not exactly what you say. On the F-35 it is just the center fuselage. LM produces the forward fuselage, and BAE the aft fuselage. The bigger deal for NG is the radar and other mission systems they supply. I"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105154326692089983",
-          "author": "sivixio_22",
-          "searchJob": "marshall",
-          "text": "@stcampitelli @Rockett2424 I guarantee they don’t care if they miss out on him otherwise they’d offer more than pick 32. Marshall is keen to get out of St Kilda."
+          "postId": "2105141601484026228",
+          "author": "atomictrucker",
+          "searchJob": "navy",
+          "text": "@TateAdamiak Welcome back. Did @SECNAV or @SecWar ever reach out and offer reinstatement in the Navy? Would you take it?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105153821836185771",
-          "author": "agentlink99",
-          "searchJob": "marshall",
-          "text": "@TonyDal49796178 @TheBackPocketAU @TheSadSainter If Marshall is an excellent ruckman, why did St Kilda chase TDK and sign him on a then record FA offer?"
+          "postId": "2105134257337442579",
+          "author": "rick_theslick",
+          "searchJob": "navy",
+          "text": "I got a homie who found a champion afterhood in navy a couple months back. He had a $5000 offer off the bat..here we are almost 5 months later &amp; he sold it for 8K. This vintage shit gets wild"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105136053896265874",
-          "author": "lukesssssssss33",
-          "searchJob": "marshall",
-          "text": "@aflratings_GM So they’ll offer a first for Ridley but not for Marshall? 😂😂😂😂"
+          "postId": "2105145864545026114",
+          "author": "reviewjournal",
+          "searchJob": "nevada",
+          "text": "From zero to market in three days. That is essentially the speed Zero Labs strives to reach in its Innovation Launchpad, which offers intensive three-day programs focused on core Nevada industries like gaming, sports, hospitality, entertain"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105133590065598709",
-          "author": "cashsellcar",
-          "searchJob": "wyoming",
-          "text": "Wyoming, meet the buyer who doesn't haggle. Offer online, free towing, paid by check at pickup. 🚗 https://t.co/kgmTAyyauz · (844) 512-0697 #CashForCarsWyoming #SellMyCarWyoming #CashSellCar https://t.co/Yq30Wp8FYo"
+          "postId": "2105152610118533351",
+          "author": "np_nationpress",
+          "searchJob": "temple",
+          "text": "CM Mohan Yadav Offers Prayers at Narmadapuram's Bachawani Ganesh Temple MP CM Dr. Mohan Yadav shared a devotional post seeking Lord Ganesha's blessings from the Bachawani temple in Narmadapuram for peace and prosperity. https://t.co/iCjYGUs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105145724656865510",
-          "author": "missj75",
-          "searchJob": "california",
-          "text": "@MJTruthUltra They murdered my father with Pfizer. 4th stage esophageal cancer and northern California Kaiser REFUSED right to try ivermectin, he said its too dangerous. Its safer than aspirin... and i told him that. They did offer another "
+          "postId": "2105151489673195648",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Puri, Odisha: The Sri Gundicha Temple, regarded as the birthplace of Lord Jagannath, is fully opened to devotees. Before the temple was opened at an auspicious time, Sri Jagannath Temple Chief Administrator, Puri SP Prateek Singh and temple"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105141705787728045",
-          "author": "123workerbee",
-          "searchJob": "california",
-          "text": "Not sure why they believe they have anything to offer and why they are being stubborn about following the letter the King sent out. But you are right on both accounts. They failed and they have nothing to offer but being belligerent. They f"
+          "postId": "2105145698949927351",
+          "author": "sportskeeda",
+          "searchJob": "temple",
+          "text": "Rinku Singh offered prayers and sought the blessings of Lord Mahakaleshwar during the early-morning Bhasma Aarti at the Mahakaleshwar Jyotirlinga Temple in Ujjain. 🙏🕉️❤️ #Rinku #India #Sportskeeda https://t.co/XEJvXQDlwP"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105143605723812261",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Gorakhpur: Uttar Pradesh Chief Minister Yogi Adityanath (@myogiadityanath) on Tuesday paid obeisance and offered prayers at the statue of Mahant Avaidyanath Ji Maharaj at Gorakhnath Temple on the occasion of his 12th death anniversa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105142480798966093",
+          "author": "japanpathak",
+          "searchJob": "temple",
+          "text": "Trustee cum Secretary of Shri Somnath Trust in a recent podcast said Somnath temple was attacked as invaders were attracted by its treasure !! Trustee Secretary, a retired IAS officer, ignores the fact that religious zeal of Mahmud Ghazni a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105140734475018243",
+          "author": "grantcalncaa",
+          "searchJob": "auburn",
+          "text": "🚨BREAKING: Former Auburn staffer David Jenrath has reportedly been arrested for leaking football information to opposing programs, sources tell CSN. Investigators believe Jenrath provided opponents with confidential scouting reports and ga"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105147709418025175",
+          "author": "stringfellow911",
+          "searchJob": "clemson",
+          "text": "I've got two tickets to Miami/Clemson I'm looking to unload in the visiting section uooer deck, Row X. Sick dog, so I'm not going. Make me an offer, especially if you're a Cane. Signal boosting welcome. #GoCanes"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105141737958064562",
+          "author": "cullumsmith",
+          "searchJob": "pittsburgh",
+          "text": "Just a few weeks ago, the Diocese of Pittsburgh ended its last remaining parish TLM. Now an anonymous indult priest from outside the diocese is being shipped to an independently owned chapel to offer a private TLM. I mean, based, but this p"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2105139378003623968",
+          "author": "kafafzynx",
+          "searchJob": "pittsburgh",
+          "text": "@agent8911 @IsaacMoha3 Stingley signed his last year. Salary cap has increased by 20 + million. So JPJ will demand more based on % of cap. Porter already turned down a 27M year offer from Pittsburgh as. Witherspoon/Gonzo are 34m, so JPJ mos"
         }
       ]
     },
@@ -231,18 +191,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "delaware: SearchTimeline HTTP 404,404 (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 13,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 14,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-30T04:42:57.004Z"
+    "status rebuilt locally from current store on 2026-09-30T04:58:00.914Z"
   ]
 }
