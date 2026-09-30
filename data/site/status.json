@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T10:58:09.383Z",
+  "generatedAt": "2026-09-30T11:13:27.557Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-30T10:58:09.055Z",
+    "at": "2026-09-30T11:13:27.241Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7681327777777778,
-    "p95Hours": 1.2721725,
-    "worstHours": 1.5209375
+    "medianHours": 0.7811236111111111,
+    "p95Hours": 1.277075,
+    "worstHours": 1.5272208333333332
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -55,125 +55,103 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-30T10:58:09.055Z",
-      "got": 16,
-      "new": 12,
-      "lag": 0.18
+      "at": "2026-09-30T11:13:27.240Z",
+      "got": 15,
+      "new": 9,
+      "lag": 0.2
     }
   },
   "audit": {
-    "at": "2026-09-30T10:56:39.062Z",
+    "at": "2026-09-30T11:11:52.056Z",
     "mode": "live",
     "collection": {
-      "returned": 16,
-      "kept": 12,
-      "duplicate": 4,
+      "returned": 15,
+      "kept": 9,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 4,
+      "accepted": 4,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 3,
-        "hard_negative": 1
+        "no_fbs_school": 2,
+        "no_offer_term": 3
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2105238918316917041",
-          "author": "axetogrind99",
-          "searchJob": "maryland",
-          "text": "You make some good points. The problem is society, has one foot in the past and one in the modern world. In the past women, children and other vulnerable people were offered much more protection. Countless laws were written to protect women"
+          "postId": "2105241748129595757",
+          "author": "spappasa",
+          "searchJob": "class:2027",
+          "text": "#Space #Cosmos Now is the best time to see Saturn all year — yes, even with the naked eye https://t.co/LMvk86wjOh Saturn is about to reach its annual opposition this week, when it appears at its brightest and biggest all year and becomes th"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105229254115971342",
-          "author": "sueromulus",
-          "searchJob": "michigan",
-          "text": "@strujillo075 Many voting districts offer early in-person voting BEFORE November 3rd! There’s almost no wait if early vote. Early in-person voting begins Saturday October 24th here in Michigan. https://t.co/A3JfbaYa1v"
+          "postId": "2105246231563821135",
+          "author": "mamorez17243",
+          "searchJob": "california",
+          "text": "Meet **ABVC BioPharma, Inc.** — NASDAQ: **ABVC** (quoted as ABVC-USD). Clinical-stage biotech based in Fremont, California. Focus: plant-derived drugs and medical devices for unmet needs in CNS and oncology. Pipeline highlights: - **ABV-150"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2105242812031656123",
-          "author": "arizman2",
-          "searchJob": "minnesota",
-          "text": "BUILT A CULTURE ! Tou Lue Vang, a Laotian national, was convicted in Minnesota of first-degree criminal sexual conduct involving a 10-year-old girl. Vang repeatedly raped and sexualy abused the victim extending from early 2002 through July "
+          "reason": "no_offer_term",
+          "postId": "2105245690519503273",
+          "author": "tickeron",
+          "searchJob": "california",
+          "text": "$MXL https://t.co/EuinMpvQtW"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2105246045282197707",
-          "author": "mrdimasta420",
-          "searchJob": "buffalo",
-          "text": "A 1,000 kg animal just made a mistake that cost it everything it had. And what happened in the next 90 seconds is the most stressful thing I have watched all year. Not because of blood. Not because of violence. Because of pure, slow, mechan"
+          "reason": "no_offer_term",
+          "postId": "2105242915035324496",
+          "author": "tickeron",
+          "searchJob": "california",
+          "text": "$TXG https://t.co/XAnhYLX2mu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105250107205595462",
+          "author": "amazonnews",
+          "searchJob": "charlotte",
+          "text": "https://t.co/a7LvwlARWf"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 4,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105237006007861700",
-          "author": "foxtruecrime",
-          "searchJob": "massachusetts",
-          "text": "Lindsay Clancy's defense lawyer stunned a Massachusetts courtroom Tuesday, arguing for the first time that prosecutors failed to prove the former nurse actually killed her three children. Attorney Kevin Reddington spent more than eight minu"
+          "postId": "2105248025706733861",
+          "author": "uphonestreal",
+          "searchJob": "california",
+          "text": "Fuel prices are everywhere. The intelligence around them isn't. A station can be cheaper— and still cost more after the detour. A truck can buy cheaper diesel— and lose the savings through wasted miles. A fleet can negotiate discounts— and "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105236885165814077",
-          "author": "foxusnews",
-          "searchJob": "massachusetts",
-          "text": "Lindsay Clancy's defense lawyer stunned a Massachusetts courtroom Tuesday, arguing for the first time that prosecutors failed to prove the former nurse actually killed her three children. Attorney Kevin Reddington spent more than eight minu"
+          "postId": "2105242586210517025",
+          "author": "bkroaddog71",
+          "searchJob": "california",
+          "text": "@caffeinechick @CProvinse I'm not angry, but if you don't like it move. There are plenty of States which align with your values and it's not that difficult to relocate. You just need the will to do it. Otherwise just enjoy all that Californ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105251633785450774",
+          "author": "uphonestreal",
+          "searchJob": "coastal-carolina",
+          "text": "Some destinations are sold by the hotel. Others by the beach. But Samoa has something much harder to package: AN ENTIRE WAY OF LIFE. Volcanic mountains rising from the Pacific. Rainforests dropping toward turquoise lagoons. Coral reefs. Wat"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105246950954000887",
-          "author": "ogofimpact",
-          "searchJob": "toledo",
-          "text": "People often ask me why do many governments, and the IGO/NGO global industrial complex, hate @elonmusk so much? When you know the answer, you know the problem, and why he is the solution. Making A Profit While Making A Difference In 1993 th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105234671357272547",
-          "author": "sgt_howie",
-          "searchJob": "toledo",
-          "text": "@hzomlot @Ed_Miliband But the Pallys dont want peace ... they want to kill jews .. Gaza got billions in western aid .. all spent on tunnels, rockets, teaching jew hate to kids as the leaders grew rich in Qatar. Offered a 2 state solution wh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105232716950106444",
-          "author": "movienewsusa",
-          "searchJob": "michigan",
-          "text": "UP #MICHIGAN US House majority defender and adviser Roland @rolandjackson confirms ``John James offers a progressive life to every families of Michigan´´ From The US 47 @POTUS The Majority government The majority @SpeakerJohnson @LeaderJohn"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105230796512747933",
-          "author": "steve_jj84061",
-          "searchJob": "michigan",
-          "text": "@RobSchneider @UAW and @Freep are all in on a party that aligned with Hasan Piker's Anti-US Constitution ideology. They claim El-Sayed offers a fresh perspective for their politics. They use ambiguous words to mislead Michigan voters? Why? "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105229087732007202",
-          "author": "truthisfacts",
-          "searchJob": "minnesota",
-          "text": "@NRA2ndAmendment @Michele_Tafoya Notice how idiots like you only push fear. Because the idiot Republicans you follow like a lap dog, only offer fear. You can't name one benefit this moron promised for Minnesota because she hasn't offered on"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105248084456558592",
-          "author": "mediamanoz",
-          "searchJob": "buffalo",
-          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything Edition! Part I Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Digital Bush Telegraph \"Wall Street Shuffle\" (10cc) \"Poker Face\" (Lady G"
+          "postId": "2105247795477193162",
+          "author": "empiremagafrica",
+          "searchJob": "coastal-carolina",
+          "text": "The Westin Turtle Bay Resort &amp; Spa, Mauritius offers an all-suite escape along the serene shores of Turtle Bay, blending elegant design, wellness-focused stays and breathtaking coastal views. 🇲🇺🌊 Would you escape here for a wellness "
         }
       ]
     },
@@ -188,11 +166,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-30T10:58:09.384Z"
+    "status rebuilt locally from current store on 2026-09-30T11:13:27.558Z"
   ]
 }
