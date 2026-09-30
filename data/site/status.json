@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T07:58:04.548Z",
+  "generatedAt": "2026-09-30T08:12:59.115Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-30T07:58:04.303Z",
+    "at": "2026-09-30T08:12:58.909Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7748025,
-    "p95Hours": 1.5179552777777778,
-    "worstHours": 1.7675969444444444
+    "medianHours": 0.5214505555555555,
+    "p95Hours": 1.42525,
+    "worstHours": 1.7664463888888888
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,82 +55,139 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-30T07:58:04.302Z",
-      "got": 14,
-      "new": 6,
-      "lag": 0.13
+      "at": "2026-09-30T08:12:58.909Z",
+      "got": 17,
+      "new": 14,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-09-30T07:56:37.718Z",
+    "at": "2026-09-30T08:11:31.389Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 6,
-      "duplicate": 7,
-      "tooOld": 1,
+      "returned": 17,
+      "kept": 14,
+      "duplicate": 3,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 3,
+      "accepted": 10,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "no_offer_term": 2,
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2105183589323186448",
-          "author": "cedifootball247",
-          "searchJob": "class:2029",
-          "text": "🚨 Bayern Munich are reportedly eyeing a January move for Barcelona midfielder Dani Olmo, citing squad uncertainty around key attackers. Olmo, who has Bundesliga experience from RB Leipzig, could offer proven quality if a transfer materiali"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105197143732666686",
-          "author": "charlottesmhgai",
-          "searchJob": "charlotte",
-          "text": "Nothing beats having Boursin on my basketball watch party cheeseboard! The Garlic &amp; Fine Herbs cheese provides the perfect amount of bold garlic and herb flavor, and their Dairy-Free Garlic &amp; Herbs spread is a great way to offer tha"
+          "reason": "no_offer_term",
+          "postId": "2105203252635877877",
+          "author": "kagawatomo",
+          "searchJob": "class:2030",
+          "text": "https://t.co/8OuLdEzUQa"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105203499071856776",
-          "author": "danwoodsweather",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/BBupc7vXLv"
+          "postId": "2105113502134218910",
+          "author": "slocumfortexas",
+          "searchJob": "colorado",
+          "text": "Great time tonight in Houston stumping for Paxton, recruiting volunteers, and handing out yard signs to midterm voters! 🇺🇸 ARE YOU ALL IN FOR KEN ?!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105194821459620286",
+          "author": "stephan1702",
+          "searchJob": "miami",
+          "text": "Resozialisierung? Der Herr hat eine Frau mit dem Hammer totgeschlagen. In 2 Wochen wird dieser Herr hingerichtet: On March 30, 1976, two young women, Sally Ivester and Barbara Savage, were with two men inside a motel room in North Miami Bea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105193432423489660",
+          "author": "miamiherald",
+          "searchJob": "miami",
+          "text": "Lawyers offer contrasting views of SoFla pastor in Moïse assassination trial https://t.co/9Zn2R6W2rd"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 10,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 1,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105178913961889929",
-          "author": "jdpereira",
-          "searchJob": "uab",
-          "text": "UAB offers copilot enterprise. I ask it to do a mock NIH review of a grant. It forgets the grant mid-review. And lied to me. Our AI overlords, everyone. “That's actually why I'm confused too. Based on the metadata shown in this conversation"
+          "postId": "2105208231198855553",
+          "author": "_l3r0yy_",
+          "searchJob": "rice",
+          "text": "@ceebadx I agree but I think what his ball carrying will offer is less to rice or Anderson's"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105182034763169959",
-          "author": "orgusgold",
-          "searchJob": "california",
-          "text": "@davidrkadler California has such crazy potential to just leap ahead of every state in every way under the right leadership, like its just right there. Next time there needs to be a massive push against corperate shills who offer nothing"
+          "postId": "2105203180044796274",
+          "author": "arsenalviv",
+          "searchJob": "rice",
+          "text": "TBH! We did expect Bruno to be a starter when we signed him and we expected him to partner Rice in the midfield. The game against Brighton was the first game Rice partnered Bruno and it won't be the last. Arteta will still try different com"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105197841631113538",
+          "author": "mikeazyy",
+          "searchJob": "rice",
+          "text": "Cooking for your boyfriend, doing all his laundry, helping him clean his house are all nice gestures but Note that they are not your Responsibilities and if that is all what you can offer in the long run, then you go work tire. So that when"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105188419785642488",
+          "author": "awoyemijoshua61",
+          "searchJob": "rice",
+          "text": "Declan Rice is set to sign a new Arsenal deal in 2026, with the contract running until 2031. The England international will receive a wage increase, bringing him in line with Bukayo Saka and William Saliba as Arsenal’s salary benchmarks. Ju"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105200829816815700",
-          "author": "ecofactecology",
-          "searchJob": "coastal-carolina",
-          "text": "Cormorants: convenient scapegoats for Ireland’s salmon crisis The Great Cormorant (Phalacrocorax carbo) is a much misunderstood bird which has been persecuted for centuries - just because it eats fish. These stunning and vulnerable birds ar"
+          "postId": "2105206463887032753",
+          "author": "choicemccrae",
+          "searchJob": "arkansas",
+          "text": "@TMFStockAdvisor MR JEFF BAZOS THANK YOU FOR THE OFFER BUT I DIDN'T GET ANYTHING. HOGS FROM HELL ARE TOO ALL OVER ANYTHING I TRY TO GET GLENDA J MCCRAE MURPHY"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105208306511835295",
+          "author": "alina_ulyana",
+          "searchJob": "auburn",
+          "text": "I’VE GOT 2 HAYLEY WILLIAMS TICKETS FOR TONIGHT’S SHOW! @ WHITE RIVER AMPHITHEATRE, AUBURN, WA. MY MOM GOT VERY SICK, AND I NEED THE MONEY TO SORT OUT HER BILLS 😭 BUY THEM FOR THE BEST OFFER! DM IF INTERESTED! #HAYLEYWILLIAMS #TICKETSONIGHT"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105205782216118366",
+          "author": "movienewsusa",
+          "searchJob": "colorado",
+          "text": "UP TEXAS UP KEN PAXTON Roland Jackson ``Ken Paxton and Caroline Harris offers a progressive life to every Texas families´´ US House majority adviser @rolandjackson ``AFFORDABLE LIFE TO EVERY #TEXAS FAMILIES´´ UP @KenPaxtonTX UP @CarolineFor"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105198633477927140",
+          "author": "movienewsusa",
+          "searchJob": "colorado",
+          "text": "UP TEXAS UP DALLAS Roland Jackson ``Ken Paxton and Caroline Harris offers a progressive life to every Texas families´´ US House majority adviser @rolandjackson ``AFFORDABLE LIFE TO EVERY #TEXAS FAMILIES´´ UP @KenPaxtonTX UP @CarolineForTX @"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105196774038069475",
+          "author": "movienewsusa",
+          "searchJob": "colorado",
+          "text": "Roland Jackson ``Ken Paxton and Caroline Harris offers a progressive life to every Texas families´´ US House majority adviser @rolandjackson ``AFFORDABLE LIFE TO EVERY #TEXAS FAMILIES´´ UP @KenPaxtonTX UP @CarolineForTX @TexasYRs @HouseGOP "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105186965280690183",
+          "author": "paleogina",
+          "searchJob": "hawaii",
+          "text": "@TipOfTheBanana 7-11 Spam musubi are my favorite snack when in Hawaii. Most grocery stores offer them too. Even the Westin convenience shops stock them."
         }
       ]
     },
@@ -145,11 +202,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-30T07:58:04.549Z"
+    "status rebuilt locally from current store on 2026-09-30T08:12:59.116Z"
   ]
 }
