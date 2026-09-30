@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T08:58:02.123Z",
+  "generatedAt": "2026-09-30T09:28:25.574Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-30T08:58:01.808Z",
+    "at": "2026-09-30T09:28:25.284Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7752002777777778,
-    "p95Hours": 1.272286111111111,
-    "worstHours": 1.522706388888889
+    "medianHours": 1.0304397222222221,
+    "p95Hours": 1.5299552777777778,
+    "worstHours": 1.7788002777777778
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 6,
+    "decided": 6,
     "complete": true
   },
   "pending": {
@@ -55,124 +55,82 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-30T08:58:01.807Z",
-      "got": 16,
-      "new": 12,
-      "lag": 0.15
+      "at": "2026-09-30T09:28:25.284Z",
+      "got": 15,
+      "new": 6,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-09-30T08:56:31.537Z",
+    "at": "2026-09-30T09:26:53.986Z",
     "mode": "live",
     "collection": {
-      "returned": 16,
-      "kept": 12,
-      "duplicate": 4,
+      "returned": 15,
+      "kept": 6,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 3,
+      "accepted": 4,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 1,
-        "hard_negative": 2
+        "no_fbs_school": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2105213563170373777",
+          "author": "fcbdenniss",
+          "searchJob": "duke",
+          "text": "Ronaldo some days ago: “Whatever the coach needs from me with the national team, whether that means playing, coming on/off, or even not playing at all… Ronaldo vs Norway: 0 mins , got angry and left the pitch Today: Ronaldo didn’t train and"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2105175617545388401",
-          "author": "shekhargupta",
-          "searchJob": "army",
-          "text": "LPU protest: Men with walkie-talkies were not saboteurs… They were an Army team led by a major, sent to check on officers’ kids, Punjab Police say Mayank Kumar @mayankreports reports for ThePrint https://t.co/mAxjAsEo6b"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2105206321880387692",
-          "author": "als_fanzine",
-          "searchJob": "army",
-          "text": "OTD: IVOR BROADIS HAT-TRICK On this day in 1950, Ivor Broadis scored a hat-trick as Sunderland beat Charlton Athletic 4-2 in the First Division. Broadis, who was born in Poplar, London in 1922, was posted to Crosby-On-Eden, Cumbria towards "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2105203691552735466",
-          "author": "teadiplomacy",
-          "searchJob": "army",
-          "text": "📜 THIS DAY IN DIPLOMATIC HISTORY September 30, 1865 On this day, Otto von Bismarck arrived at Biarritz, the fashionable Atlantic resort where Napoleon III was holidaying. His mission was the hardest in European diplomacy: to make sure that"
+          "postId": "2104634658470453438",
+          "author": "bymichelec",
+          "searchJob": "houston",
+          "text": "1/ I think I finally found the school pipeline for Artemis + Atlas. A Houston languages magnet track that feels like it was built exactly for them. The plan: → St. George Place Elementary → Pin Oak Middle → Bellaire High All public magnet c"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 4,
       "reasons": {
-        "reporter_missing_class_year": 1,
-        "bare_mention_requires_llm": 8
+        "bare_mention_requires_llm": 3,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "reporter_missing_class_year",
-          "postId": "2105200943457300762",
-          "author": "tobyjohn81",
-          "searchJob": "iowa",
-          "text": "@HawkGuyEnjoyer True. May have been offered by other schools to come coach, like a little bitch Matt Cambpell and go running, but his loyalty was with Iowa. Longest tenured coach with the most wins in BigTen history…. LEGEND!"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105226289703465117",
+          "author": "truthisfacts",
+          "searchJob": "minnesota",
+          "text": "@Michele_Tafoya Please state how Flanagan enabled fraud. You can't. She didn't. The fraud had been investigated, the people tried &amp; jailed, before lying Republicans like you used it to spread your fear &amp; bigotry. You'll lose, as you"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105220852446839136",
+          "author": "movienewsusa",
+          "searchJob": "baylor",
+          "text": "KEN PAXTON ``UP TEXAS´´ CAROLINE HARRIS ``UP TEXAS´´ Roland Jackson ``Ken Paxton and Caroline Harris offers a progressive life to every Texas families´´ US House majority adviser @rolandjackson ``AFFORDABLE LIFE TO EVERY #TEXAS FAMILIES´´ U"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105200528078655620",
-          "author": "mattvadum",
-          "searchJob": "tennessee",
-          "text": "Supreme Court denied a stay for Christa Gail Pike. Tennessee is set to execute her at 10 a.m. CDT today at Riverbend in Nashville—the state’s first execution of a woman in more than 200 years. Pike, 50, was sentenced to death for the 1995 t"
+          "postId": "2105215459125793273",
+          "author": "bymichelec",
+          "searchJob": "houston",
+          "text": "Since this trio of schools (elementary → middle → high) 🏫 offers the strongest cultural + language smorgasbord in Houston; w/ full AP pathways, this is exactly where I want the kids to go. ARTEMIS &gt; French &gt; German &gt; Latin &gt; It"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105218391900397882",
-          "author": "closduverger",
-          "searchJob": "arkansas-state",
-          "text": "@hct2906 A state pension never in my 76 years lifetime offered a \"comfortable\" retirement. So if that's what you were expecting the state to pay for then you were wrong. The state pension was always base level. If the triple lock becomes a "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105209129002541179",
-          "author": "endchristphobia",
-          "searchJob": "arkansas-state",
-          "text": "That is a strawman. I did not say the manuals print the English word “oppress.” I said a Sharia-ruled state does what Iran does: compulsory covering, morality police, unequal legal standing. “Show me the word oppress or stay silent” is a sl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105207217548922934",
-          "author": "almostfamous349",
-          "searchJob": "arkansas-state",
-          "text": "@ismatchday @RichMillett The \"Palestinians\" (before 1948 Palestinians meant Jews) have been offered their own land alongside Israel 5 times. Bill Clinton explained, they don't want a state, they only want to kill Jews. I'm sure you'd justif"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105205394012353016",
-          "author": "flopfarmoor",
-          "searchJob": "arkansas-state",
-          "text": "you can match a trade on a public tape and still not know if you have a position. that is the actual close call UX right now, and it is worth saying plainly. agent markets are supposed to be verifiable. maker signs terms. taker countersigns"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105211086769426522",
-          "author": "india_policy",
-          "searchJob": "army",
-          "text": "How the flag officers misuse the resources From judges to bureaucrats to politicians to army offers, everyone who has power!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105210195454603304",
-          "author": "secretwar47",
-          "searchJob": "army",
-          "text": "@Xenon_444 @SubhanJaved911 You are right; he wanted to go to India on a secret mission to heal wounds of Indian female soldiers but Pakistan army hq stopped him on ethical grounds. However, when RAW found out, they offered him 70 Indian fem"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105208342314688919",
-          "author": "china24official",
-          "searchJob": "army",
-          "text": "CGTN Anchor Gasthoori Manickam and Editor Xing Ruinan learn a touching red song together on a sculling boat in Guizhou’s Wujiangzhai. Dressed in traditional Miao costumes, they explore the story behind the melody with a local folk singer. T"
+          "postId": "2105214847541719350",
+          "author": "hamachankyuz947",
+          "searchJob": "houston",
+          "text": "☕️ FIRST TRUNG NGUYEN LEGEND IN TEXAS! Naturally, it’s in Houston! 😌 As their flagship style cafe, it offers high-quality beans and coffee &amp; tea options you won’t find anywhere else. The space is roomy with many spots to sit and spend "
         }
       ]
     },
@@ -187,11 +145,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-30T08:58:02.125Z"
+    "status rebuilt locally from current store on 2026-09-30T09:28:25.576Z"
   ]
 }
