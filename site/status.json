@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T05:58:15.591Z",
+  "generatedAt": "2026-09-30T06:13:31.297Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-09-30T05:58:15.283Z",
+    "at": "2026-09-30T06:13:30.993Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7758833333333334,
-    "p95Hours": 1.280518611111111,
-    "worstHours": 1.5240727777777778
+    "medianHours": 0.7789963888888889,
+    "p95Hours": 1.5348813888888888,
+    "worstHours": 1.5348813888888888
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,82 +55,146 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-09-30T05:58:15.283Z",
-      "got": 14,
-      "new": 6,
-      "lag": 0.4
+      "at": "2026-09-30T06:13:30.993Z",
+      "got": 22,
+      "new": 15,
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-09-30T05:56:42.260Z",
+    "at": "2026-09-30T06:12:01.176Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 6,
-      "duplicate": 8,
+      "returned": 22,
+      "kept": 15,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 2,
+      "accepted": 9,
+      "rejected": 6,
       "reasons": {
-        "no_fbs_school": 2
+        "hard_negative": 2,
+        "no_fbs_school": 3,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2105169339163005120",
-          "author": "getrecruitfit",
-          "searchJob": "class:2029",
-          "text": "Class of 2029 QB Micah Antoun just picked up his FIRST D1 offer from UPenn The 6’2 155lb QB is having a 🔥 start to his sophomore season @MicahAntoun Check out his profile here: https://t.co/jBuorIpxXD"
+          "reason": "hard_negative",
+          "postId": "2105168723619508554",
+          "author": "susan_dupres",
+          "searchJob": "washington-state",
+          "text": "Washington State RINO Republican Shows His True Colors Washington state lawmaker to resign 3 days before the election Sept. 29, 2026 In a surprise announcement, Republican state Rep. Skyler Rude of Walla Walla, LD-16, said Tuesday that he w"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105165640449610009",
-          "author": "jadenbeamons",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "AGTG!!!! After a great conversation with @HunterKendall44 I am more than blessed to announce my first Division 1 offer! @coachjimcollins @Malik_McMorris @DVCVikingsFB @JUCOFFrenzy https://t.co/PFUSlUeF4a"
+          "postId": "2105171694914830803",
+          "author": "elid1_",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Blessed to receive an offer from @ValleyStateFB @suttonlegendary https://t.co/7vBnc9MADZ"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2105164128562344157",
+          "author": "rileyament",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a wonderful conversation with Coach Zeilinski I have officially received my second offer from Belmont Abbey College #AGTG https://t.co/Uzq6qdOIkP"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105159500336693515",
+          "author": "davidmedinaa_75",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "blessed to have revived my 4th offer from @PLUFootball thank you coach Willis for this opportunity!AGTG @GregBiggins @CDublins14 @CoBasslikdafish @CoachDomCosta @NickFord55 @TheRBCoach @Tarek_Fattal @LACitySection @latsondheimer @breezeprep"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105176977221308764",
+          "author": "dunnbilly87734",
+          "searchJob": "california",
+          "text": "Samantha Edmondo Experience Deputy District Attorney Lyon County District Attorney Lyon County District Attorney Mar 2021 - Present · 5 yrs 1 mo Saint Mary's College of California Bachelor of the Arts, History Bachelor of the Arts, History "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105170676604662213",
+          "author": "andrekazanjian",
+          "searchJob": "colorado-state",
+          "text": "@EileenforCO This is what millionaire candidate Laubacher really offers to Colorado residents. Don't be fooled by her $10million + ad campaign and her rattling coins in glass jars stunt. She has failed to learn that people in glass houses o"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 9,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 1,
-        "player_missing_football_context": 1
+        "bare_mention_requires_llm": 8,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105159679970095398",
-          "author": "cathymoore2",
-          "searchJob": "maryland",
-          "text": "#YouniqueVentures #Waldorf #Maryland #kendraAshBrown Fails to provide travel services, yet took money from consumers and offered nothing in return in some cases https://t.co/XEnpKhjEgH"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105156833707180182",
-          "author": "dcarter_usa",
-          "searchJob": "michigan",
-          "text": "here is Grok's response: Charging more than a posted shelf price violates weights/measures accuracy rules (NIST Handbook 130, ~98% standard) in nearly every state and can count as false advertising under state consumer laws. California (BPC"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2105169391931600984",
-          "author": "jaybeahan",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "Blessed to receive a Division 1 scholarship offer from San Jose State University after a great conversation with Coach Gipson. I’m extremely thankful for this opportunity and excited to keep working. #agtg #notcommited https://t.co/5CqsLMFN"
+          "postId": "2105177093109883214",
+          "author": "ani_digital",
+          "searchJob": "rice",
+          "text": "Value-added rice products offer new growth opportunities for Indian industry: IREF #rice #BIRC #growthopportunities Read @ANI Story| https://t.co/UDFJRXPwQJ https://t.co/k5gT2kj31c"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105152670306820443",
-          "author": "newonpolsia",
-          "searchJob": "houston",
-          "text": "Houston homeowners shouldn’t have to guess whether a plumbing problem is urgent—or what a fix might cost. GurgleGauge offers local guidance on safe DIY steps, repair-cost estimates, and when to call a plumber. Before you call, get an answer"
+          "postId": "2105174557892206959",
+          "author": "dr_yograj",
+          "searchJob": "rice",
+          "text": "The Unsweet Spike: 6 Everyday Vegetables That Quiet Blood Sugar Without Tasting Like Salad Punishment ————————————————— A meal does not need to taste sweet to send blood glucose soaring. Large servings of rice, bread or potatoes deliver a h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105155740755468361",
+          "author": "keikakudorii",
+          "searchJob": "rice",
+          "text": "Hsin offers you Moon Fox Rice Cakes. Would you accept them? https://t.co/QiARvlEXRx"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105173556397281604",
+          "author": "drahcir13h",
+          "searchJob": "alabama",
+          "text": "Alabama Sky Jewels Dogs Fish Chips Original Oil Painting Fantasy Art ebay buy it now make an offer link in comments https://t.co/x2nBRsr5eS"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105158692052324679",
+          "author": "ler913",
+          "searchJob": "missouri",
+          "text": "@8spider22 Is this the best that Missouri has to offer? What a POS!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105169454292422849",
+          "author": "maikaun415422",
+          "searchJob": "california",
+          "text": "It’s not anyone’s else’s fault other than us. We like convenience at a cheap cost and our labor market allows us to offer that very conveniently. If the labor cost is same as the western countries no Pronto, Zepto etc. they have labor laws,"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105160808795676830",
+          "author": "voncheeze",
+          "searchJob": "charlotte",
+          "text": "We beat Colts and I think Adam pulls the trigger imo. He cant pick the correct 2nd rounders anyway so put the pick into good use and get a proven CB thats willing to play his contract out with the team hes traded to in order to prove hes wo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105176785025474629",
+          "author": "sylviakangara",
+          "searchJob": "coastal-carolina",
+          "text": "This life… A strategic decision was made by Delta Airline’s leadership to acquire an oil refinery, after the airline emerged from bankruptcy in 2007. It is called the Trainer oil refinery, located along the Delaware River in Pennsylvania, U"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105162561721131099",
+          "author": "elitemeritdubai",
+          "searchJob": "coastal-carolina",
+          "text": "The best way to understand a destination? Experience it for ourselves. Our team had the opportunity to visit the future home of BAYN by ORA, strategically positioned between Dubai and Abu Dhabi, while getting a closer look at ORA’s vision, "
         }
       ]
     },
@@ -145,11 +209,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-09-30T05:58:15.592Z"
+    "status rebuilt locally from current store on 2026-09-30T06:13:31.298Z"
   ]
 }
