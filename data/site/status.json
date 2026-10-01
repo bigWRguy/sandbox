@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T05:43:08.183Z",
+  "generatedAt": "2026-10-01T06:00:30.627Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-01T05:43:07.971Z",
+    "at": "2026-10-01T06:00:30.357Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7706783333333334,
-    "p95Hours": 1.2747733333333333,
-    "worstHours": 1.5274930555555555
+    "medianHours": 0.8162836111111111,
+    "p95Hours": 1.3138805555555555,
+    "worstHours": 1.5643411111111112
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 29,
+    "decided": 29,
     "complete": true
   },
   "pending": {
@@ -55,89 +55,247 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-01T05:43:07.971Z",
-      "got": 15,
-      "new": 7,
-      "lag": 0.1
+      "at": "2026-10-01T06:00:30.357Z",
+      "got": 49,
+      "new": 29,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-10-01T05:41:39.640Z",
+    "at": "2026-10-01T05:59:02.997Z",
     "mode": "live",
     "collection": {
-      "returned": 15,
-      "kept": 7,
-      "duplicate": 8,
+      "returned": 49,
+      "kept": 29,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 1,
+      "accepted": 15,
+      "rejected": 14,
       "reasons": {
-        "no_offer_term": 1
+        "no_fbs_school": 6,
+        "no_offer_term": 5,
+        "hard_negative": 2,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2105536998349877592",
+          "author": "gigglingganon",
+          "searchJob": "illinois",
+          "text": "Completely unhinged woman racks up the felonies after getting arrested for warrants after police get called on her when a man wants her out of his house. A 911 trespass call in Urbana, Illinois, completely unravels on bodycam after officers"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2105527895116374376",
-          "author": "mcre1",
-          "searchJob": "kansas",
-          "text": "Then let the city manager do the job. https://t.co/v1eK5d3N8T"
+          "postId": "2105523493664170203",
+          "author": "gigglingganon",
+          "searchJob": "illinois",
+          "text": "Some new sports and leisure trivia. In the game of chess, what is the term for the rare defensive move where a player moves their King two squares toward a Rook, and the Rook hops over to the adjacent square? https://t.co/IzYvd8Osti"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105343241747087471",
+          "author": "graytyson17",
+          "searchJob": "ole-miss",
+          "text": "I am truly grateful to be invited to the North vs South MS AII-Star Game #agtg💯@HornLakeFB @recruitHLeagles @CoachHectorne https://t.co/ci93WpMm8e"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105536144171536895",
+          "author": "zepplarouche",
+          "searchJob": "washington",
+          "text": "https://t.co/CS3BpARJF6 The Lead Who Is in Control? by Jason Ross (EIRNS) — Sep. 30, 2026 Three tankers were struck by “unknown projectiles” in the Strait of Hormuz on Tuesday, according to three advisories posted by the U.K. Maritime Trade"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105531106942386628",
+          "author": "mexicotimes",
+          "searchJob": "washington",
+          "text": "#Now #AMLO reappears to present his new book #Pueblo—but also calls #US “decadent,” attacks its “hard hand” &amp; accuses it of meddling. Why now? Just after reports US agencies examine allegations involving his son Andy. Coincidence? Timin"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105052569601294798",
+          "author": "whitehouse",
+          "searchJob": "washington",
+          "text": "Official. https://t.co/BoTuIhxbTg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105520466697851206",
+          "author": "meyerbarbraaa",
+          "searchJob": "washington",
+          "text": "This is really last minute but does anyone want 4 tickets for Olivia Rodrigo in Washington, DC D1 &amp; d2 i wanted to exchange it but the agents were taking forever to respond so i just bought a closer seats It was $249 (presale price, ins"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105516571699388772",
+          "author": "krem2",
+          "searchJob": "washington",
+          "text": "If passed, I-001 would require schools to offer parents faster and broader access to their child’s health and education records. https://t.co/lZHs5QttI8"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105515566580560296",
+          "author": "straightupgal",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@Pasi_Koetle We are blessed to receive God's grace snd mercy. In His loving name Amen🙏🏽♥️"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2105533928815902924",
+          "author": "loganburns2027",
+          "searchJob": "arizona",
+          "text": "After a great conversation I have received my first official offer from Ottawa University Arizona! #SpiritFootball @CoachMurphyQB @CoachMoorhead @OUAZFootball https://t.co/b4NTFl8xtK"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105518278353330555",
+          "author": "prepredzoneaz",
+          "searchJob": "arizona",
+          "text": "2027 Offer Tracker: Anthony Dimas | @NoahDurham2027 | @ruocco_trevor | @aidann_c | @BlakeMcglory3 | @smithhassan10 | @kaiden_conner11 | @Jay_Arnold13 | @EvanAdamczyk14 | @buddha_booker | @Vfiantaca https://t.co/CO0kajTBiR"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105533707100594341",
+          "author": "cweston_indo",
+          "searchJob": "notre-dame",
+          "text": "Bank shakes up savings market with rate it says is highest on offer https://t.co/mScAvYOqLU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105518235676533234",
+          "author": "irish_doris",
+          "searchJob": "notre-dame",
+          "text": "@andyburnham Nope you’ve offered nothing but a bunch of platitudes and your own personal pet projects. Actually mention the immigration problem instead of ignoring it and you might actually convince people you mean anything you say"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105536580802744732",
+          "author": "blackincanx9",
+          "searchJob": "arkansas-state",
+          "text": "I noticed a while ago, that they were committing false flags off my information. In the phenomenon of terrorism and gaslighting, I find that fascinating. https://t.co/VPW8k16Jg8 If Europe is sounding the alarm over Putin being invited to th"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 11,
+        "multiple_resolved_schools": 1,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105522298975642109",
-          "author": "frogbetvictoria",
-          "searchJob": "toledo",
-          "text": "Toledo is 60 miles each way. At $3.40 a gallon, my car costs about $15 in gas. Would you drive for a $25 freeplay offer, or stay near Detroit and keep your night? Shift starts at midnight."
+          "postId": "2105534176409645293",
+          "author": "recruithleagles",
+          "searchJob": "ole-miss",
+          "text": "‘27 DL will represent North Mississippi in the Bernard Blackwell All-Star Game this December! Holds SWAC and multiple Mississippi JUCO offers."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105535017976053911",
+          "author": "snake_n_bake",
+          "searchJob": "ucla",
+          "text": "@grover_lou @zacharycneel you angry that the head coach of Ucla offered to help a former Bruin. https://t.co/Poqp7RObtX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105527758940168384",
+          "author": "zook1226",
+          "searchJob": "ucla",
+          "text": "@Adam_Bradford14 @USC_Nico UCLA will match any offer USC will have. The sleeping giant is awakening. Fear is losing Chesney to the NFL."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105535301741384003",
+          "author": "mylovanov",
+          "searchJob": "washington",
+          "text": "Ferchuk met US economic, cyber and telecom officials plus World Bank leaders in Washington. Ukraine offers more than products: lessons on keeping a state digital, connected and functional while missiles target its infrastructure. 5/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105527311223451853",
+          "author": "keepitr53756140",
+          "searchJob": "washington",
+          "text": "@MichaelTay27324 @realBrandonGill But many of the tight butt Republicans are “not speaking to the masses of what they have to offer”?! Why is that?? What kind of game Washington is playing with midterms, as if the other party has to win!? P"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2105532169523171547",
-          "author": "newmediane52690",
-          "searchJob": "florida",
-          "text": "Pulling Thursday’s Pulse — first of October, five layers.🌴 Palm Beach Pulse – Thursday, October 1, 2026 Balanced mix: World → US → Florida → SoFla → Palm Beach County 🌐 World Dump: Hormuz is still restricted. AIS-visible commercial traffi"
+          "postId": "2105523108375302211",
+          "author": "worldwidennx",
+          "searchJob": "washington",
+          "text": "1 AM Top-of-the-Hour News Passengers on a flight from Dubai to Tel Aviv say they wrestled with one of the pilots who stabbed the other. The co-pilot is believed to have been trying to crash the aircraft. The plane took a steep dive before m"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105522643403178351",
+          "author": "b_gnation1",
+          "searchJob": "washington",
+          "text": "Well, the mistake Omar and co. made with Joey Porter Jr. was waiting as long as they did to make him an offer; meanwhile, they can no issues signing Nick Herbig, Darnell Washington, and Keeanu Benton beforehand. A player at a premium positi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105521177884283164",
+          "author": "mantancino_",
+          "searchJob": "washington",
+          "text": "The White House just swapped \"AI\" for \"Super Intelligence\" across federal policy. Yet rebranding vocabulary is not regulating frontier compute. Behind the administrative pivot lies a stark reality: Washington built the rhetoric without an o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105515484489855031",
+          "author": "aamir__haider",
+          "searchJob": "washington",
+          "text": "@S_almentheri Yes, Because you are the loyal worshipers of \"Baal\" Netayanhu is your Prophet &amp; Trump is your Allah.. Your holy places are Washington DC &amp; Tel Aviv. You offer your women's to pleasure for your benefits."
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2105529285037682990",
+          "author": "sbvcfb",
+          "searchJob": "arizona",
+          "text": "Valley Offensive Lineman was offered by Arizona State University! #ValleyUp | #ALLIN"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105523751345586233",
-          "author": "rzitup",
-          "searchJob": "oregon",
-          "text": "@RinkyReport @myshisha 8 years was only an option for the Ducks, not an offer sheet."
+          "postId": "2105534467519426717",
+          "author": "kilkennyof",
+          "searchJob": "notre-dame",
+          "text": "@TonightVMTV @loreillysf And then you all claim you stand with the #Irish team and have not coerced, harassed, intimidated or bullied the #Ireland football team and the #FAI Is that the type of \"leadership\" you offer? The FAI and it's membe"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105518074497581149",
-          "author": "usatodaysports",
-          "searchJob": "oregon",
-          "text": "UCLA coach Bob Chesney offered to check on Oregon quarterback Dante Moore in the hospital, Dan Lanning revealed on Wednesday, Sept. 30: https://t.co/ZshBT3qzOv"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105532410011984156",
-          "author": "arnaudmercier",
-          "searchJob": "texas",
-          "text": "The Senator from Texas claims this bill doesn't offer enough protection for satire and parody, despite claims from supporters that he is mistaken. https://t.co/92z1moTYun"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105531370596393120",
+          "author": "kilkennyof",
+          "searchJob": "notre-dame",
+          "text": "@ClareDalyIRL And then you all claim you stand with the #Irish team and have not coerced, harassed, intimidated or bullied the #Ireland football team and the #FAI Is that the type of \"leadership\" you offer? The FAI and it's members did a go"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105523443571507305",
-          "author": "vickynotlo",
-          "searchJob": "texas",
-          "text": "I pray when I get my degree I get a job offer in cali or Texas. Ima leave this town one day and I’ll probably never return. I’ll love everybody from a distance but I gotta take care of me cause nobody else will &amp; it’s been proven nobody"
+          "postId": "2105530982971605231",
+          "author": "space_phd",
+          "searchJob": "arkansas-state",
+          "text": "3) Quantum tomography can reconstruct a state through many measurements, but the required data increases exponentially with photon number. Entangled measurements offer a more efficient alternative by identifying a state directly through a o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105530967125282973",
+          "author": "zepplarouche",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/UiMO5R67Q4 It is one thing to recognize the impending death of the imperial financial arrangements of the Western world. It is another to know that there are objective solutions that are ‘win-win’ for both more developed and le"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105520345252032918",
+          "author": "mercytaraskkf",
+          "searchJob": "arkansas-state",
+          "text": "Exclusive 2 BHK offer: Secure your 657 sq. ft. home in Noida Sector 66 for ₹5, 67, 888, with premium amenities including a state-of-the-art gym. This price ends this week. Call +91 89898 00808. https://t.co/pPdtWnK7JK"
         }
       ]
     },
@@ -152,11 +310,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-01T05:43:08.184Z"
+    "status rebuilt locally from current store on 2026-10-01T06:00:30.629Z"
   ]
 }
