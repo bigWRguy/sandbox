@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T21:28:14.495Z",
+  "generatedAt": "2026-10-01T21:43:09.815Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-01T21:28:14.162Z",
+    "at": "2026-10-01T21:43:09.376Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -33,97 +33,89 @@
   "staleSchools": [
     {
       "id": "texas-tech",
-      "hours": 2.9
-    },
-    {
-      "id": "clemson",
-      "hours": 2.5
-    },
-    {
-      "id": "colorado",
-      "hours": 2.5
-    },
-    {
-      "id": "colorado-state",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-international",
-      "hours": 2.5
-    },
-    {
-      "id": "iowa-state",
-      "hours": 2.5
-    },
-    {
-      "id": "kennesaw-state",
-      "hours": 2.5
-    },
-    {
-      "id": "middle-tennessee",
-      "hours": 2.5
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.5
-    },
-    {
-      "id": "north-texas",
-      "hours": 2.5
-    },
-    {
-      "id": "northern-illinois",
-      "hours": 2.5
-    },
-    {
-      "id": "old-dominion",
-      "hours": 2.5
-    },
-    {
-      "id": "ucf",
-      "hours": 2.5
-    },
-    {
-      "id": "utah",
-      "hours": 2.5
+      "hours": 3.2
     },
     {
       "id": "oregon",
-      "hours": 2.3
-    },
-    {
-      "id": "penn-state",
-      "hours": 2.3
-    },
-    {
-      "id": "purdue",
-      "hours": 2.3
-    },
-    {
-      "id": "rutgers",
-      "hours": 2.3
-    },
-    {
-      "id": "south-carolina",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas",
-      "hours": 2.3
+      "hours": 2.5
+    },
+    {
+      "id": "east-carolina",
+      "hours": 2.2
+    },
+    {
+      "id": "florida-state",
+      "hours": 2.2
+    },
+    {
+      "id": "georgia-tech",
+      "hours": 2.2
+    },
+    {
+      "id": "hawaii",
+      "hours": 2.2
+    },
+    {
+      "id": "kansas",
+      "hours": 2.2
+    },
+    {
+      "id": "missouri-state",
+      "hours": 2.2
+    },
+    {
+      "id": "new-mexico-state",
+      "hours": 2.2
+    },
+    {
+      "id": "ohio",
+      "hours": 2.2
+    },
+    {
+      "id": "oregon-state",
+      "hours": 2.2
+    },
+    {
+      "id": "troy",
+      "hours": 2.2
+    },
+    {
+      "id": "tulane",
+      "hours": 2.2
+    },
+    {
+      "id": "usc",
+      "hours": 2.2
+    },
+    {
+      "id": "virginia",
+      "hours": 2.2
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 2.2
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.2
+    },
+    {
+      "id": "west-virginia",
+      "hours": 2.2
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.1814227777777777,
-    "p95Hours": 2.5178133333333332,
-    "worstHours": 2.9300302777777776
+    "medianHours": 1.0240294444444444,
+    "p95Hours": 2.241563888888889,
+    "worstHours": 3.1787305555555556
   },
   "decisionCoverage": {
-    "total": 75,
-    "decided": 75,
+    "total": 87,
+    "decided": 87,
     "complete": true
   },
   "pending": {
@@ -132,388 +124,390 @@
   "profileResolution": {
     "cached": 73
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 2278,
+    "completeOffers": 2282,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-01T21:28:14.162Z",
-      "got": 101,
-      "new": 75,
-      "lag": 0.05
+      "at": "2026-10-01T21:43:09.375Z",
+      "got": 125,
+      "new": 87,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-01T21:26:46.381Z",
+    "at": "2026-10-01T21:41:34.627Z",
     "mode": "live",
     "collection": {
-      "returned": 101,
-      "kept": 75,
-      "duplicate": 26,
+      "returned": 125,
+      "kept": 87,
+      "duplicate": 38,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 45,
-      "rejected": 30,
+      "accepted": 60,
+      "rejected": 27,
       "reasons": {
         "no_fbs_school": 17,
-        "no_offer_term": 8,
-        "hard_negative": 5
+        "no_offer_term": 9,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2105758439465259169",
-          "author": "blakebrotha",
-          "searchJob": "michigan-state",
-          "text": "I believe either the pistons offer Round $210-215 and he stays or he takes the QO and we boo"
+          "postId": "2105753653428548018",
+          "author": "katrinahelle",
+          "searchJob": "texas-tech",
+          "text": "$BA Members of our union’s Professional and Technical bargaining units have both ratified four-year contract offers from Boeing. Members of the Prof Unit approved their contract by 67.62% - 7,895 to accept to 3,780 reject. Members of Tech U"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105749279906357274",
+          "author": "sjearthquakes",
+          "searchJob": "texas-tech",
+          "text": "Cleaner trains. Cleaner energy. Cleaner air. 🚆⚡🌎 Caltrain, San José Clean Energy and WestLight Energy have teamed up to celebrate Clean Air Day and the cleaner-air benefits of our partnership: https://t.co/700L8ibYxm. Join us for On Track"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105749110125125869",
+          "author": "bryancorliss425",
+          "searchJob": "texas-tech",
+          "text": "Members of @speea’s Professional and Technical bargaining units have both ratified four-year contract offers from #Boeing. Members of the Prof Unit approved their contract by 67.62%. Members of Tech Unit approved their contract by 53.48%. h"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105749040436777275",
-          "author": "pistonsthoughts",
-          "searchJob": "michigan-state",
-          "text": "Last guesses…what happens with the Jalen Duren situation by the end of today?"
+          "postId": "2105746370111914122",
+          "author": "malamoragain13",
+          "searchJob": "texas-tech",
+          "text": "@Bell we haven’t had TV or internet service in 2 days. A tech came today and said it’ll be another WEEK without TV/Internet. We are still BEING CHARGED. The tech wanted our cell phone serial number for a “ghost” eSIM. If you can get our int"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105698768683429912",
+          "author": "umi_sn78",
+          "searchJob": "texas-tech",
+          "text": "U M I W E A R A B L E A I See sign. Feel connected. UMI is leaving the lab! Entering the physical world. Introducing SignVision™ Sign becomes speech. See it. Hear it. Feel it. We’re partnered with existing infrastructure integrating with th"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105733166929760696",
+          "author": "speea",
+          "searchJob": "texas-tech",
+          "text": "5 minute warning. Get your vote in! https://t.co/oySDbGctUc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105732495308153332",
+          "author": "arnaudmercier",
+          "searchJob": "texas-tech",
+          "text": "It's a competitive pro controller market, but CRKD is back to offer something which, on paper, looks pretty damn good for just $70. https://t.co/w4RWlYghGI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105732260876206196",
+          "author": "itmatters_in",
+          "searchJob": "texas-tech",
+          "text": "Samsung Galaxy Buds On bring a new clip-on design to the Galaxy Buds lineup. The open-ear earbuds offer up to 9.5 hours of playback and support Gemini Live. https://t.co/Cdz1rpkqpU #Samsung #GalaxyBudsOn @SamsungMobile"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105770370943136025",
+          "author": "principletribe",
+          "searchJob": "colorado",
+          "text": "In a brazen, textbook example of class warfare, Colorado Democrats are taking aim at one of the last vestiges of their state’s past as a red state: the flat state income tax. The proposal offers the tiniest reduction in the bottom rate in e"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105746779966992768",
+          "author": "dwildcard303007",
+          "searchJob": "colorado",
+          "text": "MUMMA MOTIONS HEARING | D15: SEARCH WARRANT FOR FIRST IPHONE The hearing has now moved to Defense Motion D15, challenging the search warrant for Brandon Mumma’s first iPhone, which was seized May 29, 2025. Judge Jason Carrithers confirmed t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105760400436527356",
+          "author": "stateofgoodut",
+          "searchJob": "utah",
+          "text": "Thank you to everyone who joined us for Connection Cures Loneliness: Building Belonging at Work. From an inspiring keynote to local resources, a panel discussion and interactive experiences, the event offered practical ideas for creating mo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105412183794606189",
+          "author": "saltlakechamber",
+          "searchJob": "utah",
+          "text": "We closed out National Suicide Prevention Month with purpose. Today's Connection Cures Loneliness event at @CHGHealthcare showed how intentional belonging boosts performance and supports employee well-being. Thank you to The Other Side Acad"
         },
         {
           "reason": "hard_negative",
-          "postId": "2105770972439625745",
-          "author": "robot2trade1",
-          "searchJob": "texas-tech",
-          "text": "🤝 $SORA +30% after hours — the MOU rally AsiaStrategy just signed a non-binding MOU with Plume Network to explore a joint venture for tokenised financial products across Asia — and the stock ripped 30% after hours to $3.13 on a $60M microc"
+          "postId": "2105768666990313914",
+          "author": "stellarhoops",
+          "searchJob": "florida-international",
+          "text": "Class of 2029 6’3 (Florida Rebels EYBL) Corey Roberts LIVE in action at the Elite 60 National Camp, he holds a offer from Florida International. https://t.co/NCzhfiqE4T"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105770318807581081",
-          "author": "furkangozukara",
-          "searchJob": "texas-tech",
-          "text": "Rep. Ro Khanna on AI data centers and Senate legislation: \"We should be banning these data centers in residential communities and farmland and giving communities the right to say no.\" Khanna also criticized the GOP stock trading ban bill as"
+          "postId": "2105648364616613991",
+          "author": "coach_eck",
+          "searchJob": "new-mexico",
+          "text": "Play 3 play-in games involving the champions of the Group of 6 leagues the weekend of Army-Navy. Allow winner of Army-Navy to jump lowest ranked winner if their resume is better."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105767058503790738",
-          "author": "seobrien",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/HxNgPigKy5"
+          "postId": "2105411439468900593",
+          "author": "rossdellenger",
+          "searchJob": "new-mexico",
+          "text": "CFP leaders are closer than ever to expanding to a 24-team playoff. They are talking buyouts of conference title games and scheduling logistics of doubling the field. Foregone conclusion? “If we can get a decent (TV) deal, we are definitely"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2105764885992710353",
-          "author": "prefabnews",
-          "searchJob": "texas-tech",
-          "text": "Queensland's next prefab workforce may come out of Petrie. Early works have started on the $60m Moreton Bay TAFE Centre of Excellence, with FKG Group appointed to deliver it. 🏗️ Up to 450 students, with an Advanced Manufacturing Hub 🔧 Par"
+          "reason": "no_fbs_school",
+          "postId": "2105764387524849894",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Luke Tatum-OL-2027-IN @valpoufootball Offer #CFB"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2105762220554473599",
-          "author": "bossenralp11708",
-          "searchJob": "texas-tech",
-          "text": "#israel #gaza #jews #arabs ISRAEL IS PART OF A NEW MAJOR ECONOMIC POWER BLOKE WITH: US, INDIA, ISRAEL, JAPAN, SOUTH KOREA, UAE, AND SAUDI ARABIA. While parts of the world are committing political and economic suicide, a new global power blo"
+          "reason": "no_fbs_school",
+          "postId": "2105759127565660488",
+          "author": "jjondamix83",
+          "searchJob": "class:2027",
+          "text": "@seth_wilson43 @Johnigan_Jt We're in Kilgore! Wr/Cb 2027 Offer from SFA 6'2 180 https://t.co/Y2t4JgDwo5"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105758796974899578",
-          "author": "theaifastlane",
-          "searchJob": "texas-tech",
-          "text": "The gap between what AI can do and how small businesses run is a goldmine. Here are 6 low-code, high-margin AI services you can launch this weekend: https://t.co/MPrD9Fx8v9"
+          "postId": "2105732336109195296",
+          "author": "friedgehnic",
+          "searchJob": "oregon",
+          "text": "Anaheim is extending young D Tristan Luneau 6 x $7.2M AAV Largest contract in NHL history for player with 14 games played. Ducks believe in the player…kept him in AHL all last year after some previous injuries. Think he will be a top 4 D. A"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105758270380204296",
-          "author": "rep_hq",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/RyiyDFBYUb"
+          "postId": "2105737288483266984",
+          "author": "anaheimducks",
+          "searchJob": "oregon",
+          "text": "SIGNED: Tristan Luneau is staying in Orange Country!! It's a six-year extension that runs through 2032-33. #FlyTogether https://t.co/Kk7aPsZ0MU"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105754615572844769",
-          "author": "technanoco",
-          "searchJob": "texas-tech",
-          "text": "🚨 Breaking Price Update 🚨 iPhone 17 Pro Price Dropped and Offer Price is 80,143 included Exchange Offer and Bank Discount This is Flipkart Deal Only Source - Money Control #iPhone17Pro #Flipkart https://t.co/K11ig5nVUc"
+          "postId": "2105772380614266901",
+          "author": "aunayetienne",
+          "searchJob": "texas",
+          "text": "@c_w_ii I’ve met Hunter Beast in person, and he’s got my back, but, thanks for the offer…😉"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105739713432936843",
-          "author": "cjculturecache",
-          "searchJob": "charlotte",
-          "text": "Today, I joined @computermuseum as their Events and Development Manager! I'm excited to shape the museum’s partnership, events and fundraising offer by identifying new opportunities, building strategic relationships, and delivering outstand"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105739344854372737",
-          "author": "charlottereulet",
-          "searchJob": "charlotte",
-          "text": "@JurassicConifer It is yummy!!💯💯💯 Options in last year weren’t a good match. At this point, a man needs to pursue and communicate directly. Current offers aren’t even friends. If options present, and sincere, totally open to explore. Enj"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105753794365534437",
-          "author": "bobgainey100",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/WEuxTAAQKV Trying to sell your home yourself can cost you in the long run There’s more to selling a home than putting it on the market. Pricing correctly, reaching the right buyers, handling showings, reviewing offers &amp; neg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105759894574158084",
-          "author": "cbliberty1",
-          "searchJob": "liberty",
-          "text": "@SteelWicker @BTV_Cast I feel you, my Dominus pack faced the same problem That's why I took the risk at gray markets and eventually found one offer for reasonable price"
+          "postId": "2105770538245234791",
+          "author": "cynthia84400444",
+          "searchJob": "texas",
+          "text": "@PinoAmericano It works 100% of the time in Texas (though we do offer far too many appeals B4 executing). We execute our share and have never had this same situation. TN did this twice in one year. Same doctor with both. The injection works"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105643900547330227",
-          "author": "seanhannity",
-          "searchJob": "liberty",
-          "text": "Trump on Rubio: \"he's a master.\" \"Watch what he does with Cuba.\" Then Rubio takes the podium: \"It's the place that gave us freedom. It's the place that gave us opportunity.\" https://t.co/dsMzF3llMP"
+          "postId": "2105763111257210972",
+          "author": "utsystem",
+          "searchJob": "texas",
+          "text": "Across the UT System, students are gaining real-world experience while serving their communities. @SFASU nursing students will give free drive-thru flu shots later this month at the DeWitt School of Nursing Complex in Nacogdoches. SFA has m"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105735267168752069",
-          "author": "stockzontap",
-          "searchJob": "liberty",
-          "text": "America already has the following federal programs… 1. National School Lunch Program (NSLP) providing subsidized meals to low income students. 2. School Breakfast Program (SBP) providing subsidized meals to low income students. 3. Community"
+          "postId": "2105759468499665241",
+          "author": "pawlineapp",
+          "searchJob": "texas",
+          "text": "Meet the founders second pup! He’s was found abandoned on interstate 45 in Texas as a puppy and adopted on the spot. With a lot of patience and 5+ years of rigorous training he became a masterful personal defense / companion / blood pressur"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105734694792761664",
-          "author": "stockzontap",
-          "searchJob": "liberty",
-          "text": "America already has the following federal programs… 1. National School Lunch Program (NSLP) providing subsidized meals to low income students. 2. School Breakfast Program (SBP) providing subsidized meals to low income students. 3. Community"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105734595383582963",
-          "author": "stockzontap",
-          "searchJob": "liberty",
-          "text": "America already has the following federal programs… 1. National School Lunch Program (NSLP) providing subsidized meals to low income students. 2. School Breakfast Program (SBP) providing subsidized meals to low income students. 3. Community"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105764985083187304",
-          "author": "newsnation",
-          "searchJob": "massachusetts",
-          "text": "A judge in Massachusetts denied a defense motion to declare Lindsay Clancy not guilty weeks after a mistrial in her murder case. Earlier this week, Clancy’s attorney Kevin Reddington attempted to persuade Judge William Sullivan that prosecu"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2105757952262959303",
-          "author": "newsnew97351204",
-          "searchJob": "massachusetts",
-          "text": "Breaking News Lindsay Clancy loses daring bid to have her found not guilty of murdering her three children after mistrial Lindsay Clancy has had her legal bid for her to be found not guilty of murdering her three children quashed by a judge"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105749718659948585",
-          "author": "sujodar",
-          "searchJob": "massachusetts",
-          "text": "It's time to take to task the Communist created boondoggle called the ACLU. Just the fact that Union is in their name tells you they are money sucking flim flammers who take every opportunity to subvert our constitution. Time they are shut "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105731665339297930",
-          "author": "harrahpantherfb",
-          "searchJob": "massachusetts",
-          "text": "🚨Offer Alert🚨 Congratulations to senior defensive back Hayden Keenan (@HAYM00SE) on earning his latest opportunity to play at the next level with Massachusetts Maritime Academy (@bucs_fball). WTG #26! @ChoctawTimes @HighKeeping @PrepRedzo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105770946783014989",
-          "author": "emilaldaddah",
-          "searchJob": "illinois",
-          "text": "Blackstone recently noted that AI model spend across its portfolio companies jumped 21-fold in twelve months. ​At the same time, the Ramp AI Index shows the share of U.S. businesses paying for AI tools rose from 27.9% in August 2023 to 56.1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2105743464138965335",
-          "author": "brendenmoore13",
-          "searchJob": "illinois",
-          "text": "New: Gov. Pritzker met with NFL Commissioner Roger Goodell, Pat Ryan, Speaker Welch and the top legislative negotiators on the Bears stadium issue today, per the governor’s office. https://t.co/ma2VQY2Hr1"
+          "postId": "2105759409473487024",
+          "author": "boi__1971",
+          "searchJob": "texas",
+          "text": "The lesser of two evils is still evil. You are asking us to reward a GOP that has sat back and watched our country be sold out for decades. They hold the power, refuse to use it, and then blame us for their failures. I’m done participating "
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 44,
+      "accepted": 4,
+      "rejected": 56,
       "reasons": {
-        "school_not_resolved_confidently": 21,
-        "multiple_resolved_schools": 6,
-        "bare_mention_requires_llm": 15,
+        "school_not_resolved_confidently": 18,
+        "bare_mention_requires_llm": 29,
+        "player_missing_class_year": 1,
+        "reporter_missing_player_name": 4,
         "reporter_missing_position": 1,
-        "explicit_non_fbs_target": 1
+        "author_not_recruit:no recruit fields": 1,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105770570692366781",
-          "author": "furkangozukara",
+          "postId": "2105747736402579834",
+          "author": "malamoragain13",
           "searchJob": "texas-tech",
-          "text": "Khanna is right to demand real community vetoes over massive data centers. Tech giants cannot be allowed to consume local power grids, deplete water supplies, and pave over farmland while politicians offer symbolic bills that protect inside"
+          "text": "@bell 24 seconds in, YOUR tech offers a 50Gb “eSIM” and wants our iPhone serial numbers. Who else is he getting personal phone info from? Why hasn’t @Bell offered me an eSIM to resolve the needed internet connection? What kind of scam are y"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105769697358545164",
-          "author": "johngoldman",
+          "postId": "2105747181009285139",
+          "author": "jesusmartinez",
           "searchJob": "texas-tech",
-          "text": "I feel for health tech companies building “AI for your health” There’s no real medical care on the other end of that Whereas, every healthcare company will offer AI for your health - but integrated with your actual medical team."
+          "text": "Umi (A subnet on $TAO) just solved a MAJOR problem companies are having right now... Translating sign language into English Naturally you can assume this'll be a hot commodity for some of the bigger tech companies to use (they don't offer i"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105769394249048566",
-          "author": "takeshiokiyama",
+          "postId": "2105746142499570018",
+          "author": "denlangsiktig",
           "searchJob": "texas-tech",
-          "text": "@RiverwayJobs You've got this. Solid tech experience still counts for a lot. If you're getting interviews but no offers, it's usually the stories, not the resume. Small wins add up."
+          "text": "$NVDA offers the lowest forward P/E valuation at 19.1x among major tech names for next year's earnings Compared to $AAPL at 35.6x, $AMZN 26.8x, $MSFT 26.2x, $GOOGL 25.4x, and $META 23.9x."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105769126895423930",
-          "author": "furbittenstudio",
+          "postId": "2105746084014194774",
+          "author": "poppunkonchain",
           "searchJob": "texas-tech",
-          "text": "Short notice but... If anyone would like to claim the demo build and have say on screen symbols, fur pattern/colors (simple only), and expressions. Im asking 3500 for the head of the demo build that iv been working on. I am already in paint"
+          "text": ".@CadeMarket turned 1 a few days ago. I want to reflect back on the last year that i've been working on this and share some of the lore for the many new eyes we have on the project now. A year ago I deployed the token on Pump Fun for what w"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105767756905718091",
-          "author": "jhgraves8",
+          "postId": "2105739030361235902",
+          "author": "franknnabugo",
           "searchJob": "texas-tech",
-          "text": "🚀JUST LISTED🚀 It's officially October 1st! What better way to commence the month of October in fine style, than to officially offer, 🎃https://t.co/tlKERAgx5I🎃 This is sure to be a Spooktacular name in the ever-growing Super Intelligence"
+          "text": "Looking to connect with tech entrepreneurs, people in the real sector… Plug me in your circle 😂 I have great values to offer.. Just want to meet incredible people and learn a thing or two and keep challenging myself .."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105765770235933127",
-          "author": "kendrickpi",
+          "postId": "2105737613751849129",
+          "author": "zkadila",
           "searchJob": "texas-tech",
-          "text": "@SawyerMerritt When Tesla has car battery chemistry &amp; bidirectional charging that replaces need for a big Powerwall, fully embracing V2H/V2G integration -only then might it survive what China is and will continue to do to them. Last yea"
+          "text": "https://t.co/AZfY1yaXhT is a powerful, clean brand for the next generation of AI, robotics. Make your offer. 🚀 @FactoryAI @OpenDroids #AI #Robotics #Droids #Agents #AutonomousAI #AIAgents #RoboticsAI #Tech #Startups #Domains"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105765697858981945",
-          "author": "freightwaves",
+          "postId": "2105737424412226032",
+          "author": "blueon_fa",
           "searchJob": "texas-tech",
-          "text": "Is a single \"Driver Appreciation Week\" enough to keep truck drivers motivated? Samsara's Head of Insights, Kelly Soderlund, explains why fleet technology must offer continuous, in-app recognition year-round. With drivers facing economic hea"
+          "text": "Major Owners and Insider Trading Institutional Ownership: Large investment firms like Vanguard, BlackRock, and Berkshire Hathaway hold major positions. Insider Activity: Founders Larry Page and Sergey Brin retain control through Class B sha"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105760817333281272",
-          "author": "staleyinsight",
+          "postId": "2105736839323685154",
+          "author": "guyalexhamilton",
           "searchJob": "texas-tech",
-          "text": "My new interest is tech. I’m excited to see what Techtober has to offer"
+          "text": "hey matt cheers for the follow :) yes it is for sure needed! i thought how i could build something that brings clarity to founders/builders, business owners, anyone that has lots of social accounts and also wants to advertise all in one pla"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105758459652124825",
-          "author": "ocncgov",
+          "postId": "2105734493688754495",
+          "author": "shoppingpicker",
           "searchJob": "texas-tech",
-          "text": "OCPL’s two branches offer books, digital media, tech help, study rooms, &amp; events. Residents get free library cards. Patrons can borrow Wi Fi hotspots and Kindles. Materials may be requested, returned, or picked up from either branch, Mo"
+          "text": "Struggling to make a decent cup of coffee at home while watching your wallet drain at expensive cafes is incredibly frustrating. Instantly elevate your mornings with a high-tech, barista-level espresso and coffee system that fits perfectly "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105756846686626221",
-          "author": "tyrone1715674",
+          "postId": "2105733537773101379",
+          "author": "alantonelson",
           "searchJob": "texas-tech",
-          "text": "🇨🇦 TSX daily wrap (Oct 1): • S&amp;P/TSX Composite -0.3% to ~35,121 • Financials weighed as yields climbed • Tech &amp; energy offered some support • Top mover: Aecon Group ($ARE.TO ) +5.03%+ Soft start to October 🔥"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105754267160363150",
-          "author": "aiglitchpark",
-          "searchJob": "texas-tech",
-          "text": "⚡ X Glitch Weather Bulletin: Severe Market Storm & Option Turbulence ⚡ 📡 System Telemetry & Radar Overview Source: X Glitch Source Timestamp: October 1, 19:42 EST Atmospheric Pressure: Falling sharply. Crude oil highs are feeding an incomi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105753874053378342",
-          "author": "karimovic_44",
-          "searchJob": "texas-tech",
-          "text": "🚀 https://t.co/QAJLH5OMpH — Premium 4-Letter Domain for AI &amp; SaaS Short. Clean. Brandable. Perfect for: 🤖 AI startups ⚡ AI agents 💻 SaaS 🔧 Automation 📊 Data &amp; Analytics 🧠 Next-gen tech 💰 Asking: $2,495 🤝 Serious offers consi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105749605950623747",
-          "author": "brane_mija64426",
-          "searchJob": "air-force",
-          "text": "🇺🇸✈️ U.S. In Despair: NASA Risks Costly Resurrection Of Spy Plane Grounded Since 1999 The U.S. Air Force and NASA destroyed a reported $600M stockpile of SR-71 spare parts in 2007. Now NASA appears to be trying to return one of the retire"
+          "text": "Totally crazy: \"A shortage of domestic supply &amp; tightening American export controls have led Chinese tech groups to seek more computing capacity overseas. Such lease deals, allowed under US rules, cd also offer access to Nvidia’s cuttin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105738965961544189",
-          "author": "freyazon",
-          "searchJob": "air-force",
-          "text": "My dad did it to me and the part that hurt the most was he tricked me. He offered to pay me $100 if I let him cut my hair. I agreed as money was a big deal being raised by a single mother. He sat me down in the driveway and cut all my hair "
+          "postId": "2105751137030959523",
+          "author": "hunsucker4",
+          "searchJob": "clemson",
+          "text": "@Smokie749 @OldKurmudgeon @the7maxims And Fulmer was also offered the Clemson job. Dickey didn’t want him to go there."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105766147710910583",
-          "author": "waterfronthomes",
-          "searchJob": "coastal-carolina",
-          "text": "Virtually Staged. Welcome to an extraordinary waterfront estate on coveted Longboat Key, where timeless coastal elegance meets world-class boating. Perfectly situated on a deep-water saltwater canal with a private dock and direct access to "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105749492028911706",
-          "author": "loopambience",
-          "searchJob": "coastal-carolina",
-          "text": "Morro Solar in Chorrillos offers spectacular panoramic views of Lima’s Costa Verde, Pacific Ocean and dramatic coastal cliffs. From the top, you can see the coastline stretching along Chorrillos and the distinctive urban landscape of Lima. "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105734040728809711",
-          "author": "arlvinalieu",
-          "searchJob": "coastal-carolina",
-          "text": "@seckaice Waaji that’s exactly what makes it frustrating. The Gambia has so much more to offer beyond the same coastal tourism formula we’ve been recycling for decades. The real opportunity is in developing new attractions, experiences and "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2105730740671373654",
-          "author": "theholidaycots",
-          "searchJob": "coastal-carolina",
-          "text": "🌊 Coastal Escapes at Gorselands House 🏡 Gorselands House offers a choice of three comfortable self-catering apartments in West Bexington near Bridport, perfect for enjoying a relaxing break by the coast. 🛏️ 4 https://t.co/jhki6S8cF4 #Gor"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105767210727940186",
-          "author": "jozzy33171",
-          "searchJob": "james-madison",
-          "text": "A man bought his own freedom with cash and then had to apologize for it. Robert Hemings, older brother of Jefferson's chef James Hemings, paid his way out of Monticello in December 1794 because he had a wife and a child he would not leave. "
+          "postId": "2105741871511126274",
+          "author": "hunsucker4",
+          "searchJob": "clemson",
+          "text": "@Smokie749 @OldKurmudgeon @the7maxims Majors deserved it. And Dickey made the move because Clemson offered Fulmer. Dickey wasn’t letting Fulmer leave."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105743456756965452",
-          "author": "ryanau4gaps",
-          "searchJob": "liberty",
-          "text": "Leave a ❤️ if you appreciate this post. Commemorating Dr. B.R. Ambedkar Jayanti 🙏 Liberty starts within the mind. Education provides strength. Self-respect fosters a powerful life. Dr. B.R. Ambedkar offered more than just words; he provide"
+          "postId": "2105773385297051694",
+          "author": "pettyandshade",
+          "searchJob": "colorado",
+          "text": "@Dennis_2a1 @CUBuffsFootball @CoachBox6 @T_BirdFootball @LapisiLegacy @GregBiggins @BrandonHuffman @BlairAngulo @GregBivins @SWiltfong_ @polynesiabowl @AABonNBC @NxgnCamps @Andy_Pham1 @EdOBrienCFB @TomLoy247 @247Sports @MikeRoach247 @adamgo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105739734576189743",
-          "author": "the1daw",
-          "searchJob": "liberty",
-          "text": "@mrgoodbro If the sunbelt offered liberty an invite They’d be over joyed!"
+          "postId": "2105760094717972895",
+          "author": "dennis_2a1",
+          "searchJob": "colorado",
+          "text": "@CUBuffsFootball offered! Thank you @CoachBox6 looking forward to watching the season progress | @T_BirdFootball @LapisiLegacy @gregbiggins @BrandonHuffman @BlairAngulo @Gregbivins @SWiltfong_ @polynesiabowl @AABonNBC @NXgnCamps @Andy_Pham1"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105736399081406870",
-          "author": "ellie232hl",
-          "searchJob": "liberty",
-          "text": "America remains the land that offers freedom and real opportunity to those who seek it. Standing firmly for those values, especially toward nations still trapped under oppression, is something worth celebrating. Liberty should never be take"
+          "postId": "2105743756133834859",
+          "author": "pettyandshade",
+          "searchJob": "colorado",
+          "text": "@James_Bennett28 @CoachBox6 @CUBuffsFootball @MeadFootball @TrentonLuera14 Congrats on your offer 🦬🏈"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105730025517379615",
-          "author": "rutkowskidr",
-          "searchJob": "liberty",
-          "text": "America First Prosperity: A Policy Framework for Winning the Affordability Debate Saturday, October 3, 2026 Dr. Joel P. Rutkowski Policy Paper Policy paper developed from the supply-side diagnosis in Larry Kudlow and Stephen Moore, “Trump a"
+          "postId": "2105740817159835974",
+          "author": "bigfudge734",
+          "searchJob": "colorado",
+          "text": "@imDazzer No and honestly I wouldn't even take the highest value offer sheet of 4 1sts depending on team. Vancouver would be an obvious yes but Colorado/Carolina would be a no cause I'm not getting the same player at that late in the first."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105758477864124828",
-          "author": "diganta_guha",
-          "searchJob": "massachusetts",
-          "text": "JUDGE: ENOUGH EVIDENCE FOR JURY TO CONVICT CLANCY The bid by Lindsay Clancy's lawyers to be cleared of murder has failed. On Thursday, Judge William Sullivan in Plymouth, Massachusetts, ruled that prosecutors had put forward enough evidence"
+          "postId": "2105740238295568799",
+          "author": "vista_sir",
+          "searchJob": "colorado",
+          "text": "Beautifully Remodeled Belmont Heights Home With Exceptional Character &amp; Upgrades🏡🌴 4637 E Colorado Street, Long Beach 2 beds | 2 baths | 1,159 sq.ft. (btv) Offered at $1,325,000 Contact agent Nancy Deprez for details Call 310.739.8272"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105766432860717246",
+          "author": "markthered21",
+          "searchJob": "utah",
+          "text": "Were the birthrate issue true, Europe would have selected for, and received countless highly educated immigrants from Russia, Ukraine, S.Korea, USA, Japan. They deliberately and purposely selected for the most unassimilatable and culturally"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105768353424125971",
+          "author": "jucofootballace",
+          "searchJob": "middle-tennessee",
+          "text": "Taccofah Lewis @taccofah_lewis @ Pearl River JuCo @PearlRiverFB picks up @MT_FB Offer @PRCCAthletics @jucoweekly @MSJUCOREPORT https://t.co/7ao1OtvEwp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105766925758611595",
+          "author": "jucofootballace",
+          "searchJob": "middle-tennessee",
+          "text": "Dacaris Brown @Dacarisbrown1 @ Coahoma JuCo @CoahomaFootball picks up @MT_FB Offer @CoahomaSports @jucoweekly @MSJUCOREPORT https://t.co/hsgg4AX6AQ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105750736755974559",
+          "author": "bigticket06",
+          "searchJob": "middle-tennessee",
+          "text": "love from MTSU 💙🤍 !! @MTFB_Recruiting excited to get down there when the time is right and see what you got to offer and how everything is 💯 https://t.co/mV2U92gRxz"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2105749912776519868",
+          "author": "dacarisbrown1",
+          "searchJob": "middle-tennessee",
+          "text": "blessed to receive a(n) offer from MTSU! @CoachO_MTSU @MT_FB @JUCOFFrenzy @JuCoFootballACE @_CoachCBlair @oc7888 @CoahomaFootball @IsaacDay0_ @TheCarterlife35 @DGouldnf3c https://t.co/s6AEfu9ykm"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105760741169221873",
+          "author": "redditcfb",
+          "searchJob": "new-mexico",
+          "text": "What probably should happen if going all the way to 24 is one autobid per conference. What probably will happen is one G6 autobid total. New Mexico HC Jason Eck offers a compromise that would guarantee 3 spots to the G6."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105756499322585570",
+          "author": "karenfischzy8x",
+          "searchJob": "new-mexico",
+          "text": "US President Donald Trump shared a map on social media appearing to rename New Mexico as \"New America, crossing out \"Mexico\" and replacing it with \"America.\" Trump offered no official explanation for the Truth Social post, which was later r"
         }
       ]
     },
@@ -527,12 +521,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 44,
-      "brandNewOffers": 1
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 56,
+      "brandNewOffers": 4
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-01T21:28:14.495Z"
+    "status rebuilt locally from current store on 2026-10-01T21:43:09.816Z"
   ]
 }
