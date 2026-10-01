@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T23:11:58.920Z",
+  "generatedAt": "2026-10-01T23:28:18.954Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-01T23:11:58.578Z",
+    "at": "2026-10-01T23:28:18.507Z",
     "jobsTotal": 162,
-    "sweptThisRun": 7,
-    "requests": 8,
-    "fullSweepCycles": 24
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -33,316 +33,463 @@
   "staleSchools": [
     {
       "id": "arkansas-state",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "army",
-      "hours": 2.5
-    },
-    {
-      "id": "ball-state",
-      "hours": 2.5
-    },
-    {
-      "id": "boise-state",
-      "hours": 2.5
-    },
-    {
-      "id": "duke",
-      "hours": 2.5
-    },
-    {
-      "id": "nc-state",
-      "hours": 2.5
-    },
-    {
-      "id": "north-carolina",
-      "hours": 2.5
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 2.5
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 2.5
-    },
-    {
-      "id": "san-jose-state",
-      "hours": 2.5
-    },
-    {
-      "id": "south-alabama",
-      "hours": 2.5
-    },
-    {
-      "id": "south-florida",
-      "hours": 2.5
-    },
-    {
-      "id": "southern-miss",
-      "hours": 2.5
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.5
-    },
-    {
-      "id": "wyoming",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "bowling-green",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "buffalo",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "california",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "central-michigan",
-      "hours": 2.2
-    },
-    {
-      "id": "cincinnati",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "delaware",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "florida",
-      "hours": 2.2
-    },
-    {
-      "id": "georgia",
-      "hours": 2.2
-    },
-    {
-      "id": "houston",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "kent-state",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "louisiana",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "navy",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "nevada",
-      "hours": 2.2
-    },
-    {
-      "id": "northwestern",
-      "hours": 2.2
-    },
-    {
-      "id": "smu",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "stanford",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "syracuse",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "temple",
-      "hours": 2.2
+      "hours": 2.4
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.5067419444444445,
-    "p95Hours": 2.504336388888889,
-    "worstHours": 2.504336388888889
+    "medianHours": 1.2399766666666667,
+    "p95Hours": 2.4326588888888887,
+    "worstHours": 2.7765680555555554
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 110,
+    "decided": 110,
     "complete": true
   },
   "pending": {
-    "total": 143
+    "total": 144
   },
   "profileResolution": {
     "cached": 73
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 5,
   "quality": {
-    "completeOffers": 2290,
+    "completeOffers": 2291,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-01T23:11:58.578Z",
-      "got": 51,
-      "new": 19,
-      "lag": 0.02
+      "at": "2026-10-01T23:28:18.507Z",
+      "got": 187,
+      "new": 110,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-01T23:11:28.342Z",
+    "at": "2026-10-01T23:26:42.143Z",
     "mode": "live",
     "collection": {
-      "returned": 51,
-      "kept": 19,
-      "duplicate": 32,
-      "tooOld": 0,
+      "returned": 187,
+      "kept": 110,
+      "duplicate": 73,
+      "tooOld": 4,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 11,
+      "accepted": 74,
+      "rejected": 36,
       "reasons": {
-        "non_fbs_offer_target": 3,
-        "no_offer_term": 2,
-        "no_fbs_school": 6
+        "no_offer_term": 8,
+        "hard_negative": 8,
+        "no_fbs_school": 19,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2105769804133204434",
-          "author": "brayeverette75",
+          "reason": "no_offer_term",
+          "postId": "2105754218002846032",
+          "author": "jeremiahfree50",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my very first offer from McPherson College @MACBulldogsFB Thank you to coach @CoachJFisc ! Looking forward to building a great relationship with the team and coaches! #GoBulldogs #blessed @CoachMorrisMVP @CoachRamseyMVP h"
+          "text": "Blessed to receive a 🅾️ffer from @GoTigers_FB and @CoachClayton75 Process trusted⏳ https://t.co/CEEUNfvAAd"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105750462146220050",
+          "author": "samrodriguez011",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my second Division II offer from @TiffinXCTF! Huge thank you to @MarkDelMonaco and the entire Tiffin staff for believing in me and giving me this opportunity. https://t.co/ap7j7ngQWe"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105800950774632887",
+          "author": "dylan_trickey",
+          "searchJob": "duke",
+          "text": "4 games into his NS deal &amp; he’s already committing to Duke (beside the point but gross)? You can’t tell me this offer wasn’t available before he signed with Cairns, so why not just commit before signing an NS deal? Also why not wait unt"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105769099955417305",
-          "author": "brodyzoeller",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an invite to @NationalComb1ne for the second year 🫡🏈 Honored for the opportunity to compete again and put the work on display. Back to work. 💯 C/O 2028 | WR #NavyNationalCombine #NNC #ClassOf2028 #Crootin #RecruitMe #W"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2105766748217864564",
-          "author": "binghamderrick6",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a good phone call with @CoachPgonz I am blessed to receive an offer from Willamette University!! Go Bearcats!! @AricWilliams3 @WillametteFB @Wahifootball #AGTG https://t.co/wxrnpbaZhp"
+          "postId": "2105743566094192860",
+          "author": "olgunuluc",
+          "searchJob": "duke",
+          "text": "Australia’s Luke Paul - a projected 2028 lottery pick - has committed to Duke University, he told ESPN. The 6’6 PG is currently with the Cairns Taipans as part of the NBL’s Next Stars program; he will complete the 2026-27 season in Australi"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105766502050009342",
-          "author": "khaidengg",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another offer from @MDCCFB26 @CoachMBraimer @MacCorleone74 @coach_lakes @A2GG_ @kierystribling #AGTG🙏🏾 https://t.co/xSuUSX6bJW"
+          "postId": "2105793229656670329",
+          "author": "dletoatreides",
+          "searchJob": "duke",
+          "text": "@tyromper I get it bro I have 2 daughters that talk none stop 🤣 but that does offer the opportunity to be silent and still even with the noise like Jesus could be in any situation and be in peace. God bless bro"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105765919360455059",
-          "author": "bigjoe7270",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Extremely blessed to receive my 2nd D1 offer from Eastern Carolina!!! @CoachButterECU @HermitsFootball @chillbelton @AdvLevelRecruit @CoachMauriello @Coach_KQuinn @BigPlayEv @mylesonetwo @fife_fpfife @TylerColuccio @chackenberg1 https://t.c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2105765484792553724",
-          "author": "abbywedemeier",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit and conversation with Coach Hocking and Coach Sam, I am blessed to receive an offer from @ClarkeWBB! Thank you for this opportunity! https://t.co/M77eZToWc5"
+          "postId": "2105780118543032341",
+          "author": "nogonnaya",
+          "searchJob": "duke",
+          "text": "@AlozieePrecious This offer looks good. Are the terms amenable?"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105775254560002299",
-          "author": "thermvoice",
-          "searchJob": "nebraska",
-          "text": "https://t.co/jsDXpBOkRX"
+          "postId": "2105789838956146998",
+          "author": "ironbuffalo1",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/x6sl6CppT5"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105797599303442808",
-          "author": "jaylon_howard2",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG After a great conversation with @SethAguilera9 I am blessed to receive an offer from @ECUTigersFB‼️ #Allin @CoachKRHarrison @donovan_gans @dodie4nic @SC_BulldogFB Hudl link: https://t.co/ZxHmd2I9nl https://t.co/fvl4z4rmxc"
+          "postId": "2105775161467416761",
+          "author": "hbrodude",
+          "searchJob": "arkansas-state",
+          "text": "@NserekoTalibo @OwenShroyer1776 Try reading: A State of Blood: The Inside Story of Idi Amin\" by Henry Kyemba Idi Amin: The Story of Africa's Icon of Evil\" by Mark Leopold Idi Amin by John Allen None of these books, or others, offer a flatte"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105772622348963906",
+          "author": "precedentdailyy",
+          "searchJob": "arkansas-state",
+          "text": "Hitler remilitarized the Rhineland in March 1936 without asking. Turkey wanted the Straits back too—but Atatürk petitioned under Lausanne while his General Staff preferred the Rhineland method. https://t.co/f1ebfVY3YC"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105801072375730379",
+          "author": "shannon45531518",
+          "searchJob": "army",
+          "text": "#WarCrime #GenevaConvention #Law #LawOfWar 18 U.S. Code § 2441 - War crimes Article 3 (international conventions done at Geneva August 12, 1949) (1) Prohibited conduct (c) Definition (3) which constitutes a grave breach of common Article 3 "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105709866161778706",
+          "author": "kayvanabbassi",
+          "searchJob": "army",
+          "text": "Our opposition is so fragmented that even agreeing on one cause becomes a contest over who gets the credit. We don’t need to agree on Iran’s future political system to work together for the right to choose it. How much longer must that wait"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105772215429914901",
+          "author": "dave36855357",
+          "searchJob": "army",
+          "text": "The army has already halved since 2004 the navy 70% not sure on raf but hard to think not in a similar way. Rather than the prison building revoke all visas to anyone that's committed a crime and deport. But agree on improved wages and trai"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105763662065795172",
+          "author": "precedentdailyy",
+          "searchJob": "army",
+          "text": "Lorenzo warned Louis XI: if French kings try their strength in Italy, \"Italy is lost.\" When Charles VIII crossed the Alps in 1494, Italy greeted him with enthusiasm that baffled the French — a rescuer imagined where an army had been summone"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105794142458519694",
-          "author": "themarcuslee3",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation and visit with @CoachGossett13 Im blessed to receive an offer from @NOCTONKMBB https://t.co/QaipgUI4UC"
+          "postId": "2105793414998684150",
+          "author": "flmisescaucus",
+          "searchJob": "florida",
+          "text": "@StevenNekhaila \"You don't\"? Aren't you one of the guys who participated in destroying the LP because you made a deal with a faction that offered you better terms? Or whatever Malagon called the effort you were involved in."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105764003029074054",
-          "author": "izaiahgidrey1",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @kasen_4 i am thankful to receive and offer from @WayneStFootball Thank you for this opportunity and The entire Wayne State staff for believing in me #AG27 #GoCats #Recruiting #CollegeFootball https://t.co/oE"
+          "postId": "2105789856844521686",
+          "author": "europostagency",
+          "searchJob": "florida",
+          "text": "VANCE SPEECH INTERRUPTED A protester began shouting during JD Vance’s rally in Florida, prompting the vice president to call him a Democrat plant and a clown. Reports note Vance offered no evidence for the plant claim. #Europost https://t.c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105800747011170463",
+          "author": "bigskippin_75",
+          "searchJob": "georgia",
+          "text": "First look at OLB Urrea Cloud. Cloud is a RecruitNE_GA top 2028 player and is coming off a 2 sack, TD game. Cloud holds offers from Liberty and Georgia State. @tray_cloud https://t.co/dowZnxFVzT"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105800062244626455",
+          "author": "bigskippin_75",
+          "searchJob": "georgia",
+          "text": "First look at DB Tony McKibben. McKibben is an underrated DB in the ‘28 class who holds offers from Georgia State, Liberty and Chattanooga. @tonyamckibben12 https://t.co/umnWsyGLhw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105790824860565684",
+          "author": "jevinfinley6",
+          "searchJob": "georgia",
+          "text": "While I've received interest from some schools, I want to clarify that the University of West Georgia came to watch me work out, but I have not received an offer from @UWG_MBB. I appreciate everyone's support. I'll share updates as they hap"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105780589651689489",
+          "author": "heiltsukartisan",
+          "searchJob": "georgia",
+          "text": "Shout out to the HR rep I talked to today! Knowing what it’s like on the job hunt, she said she would be reaching out personally irregardless of the interview panel’s decision. I felt all the positive vibes and energy today. May this one le"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105768537339965943",
+          "author": "livinginnorthga",
+          "searchJob": "georgia",
+          "text": "Can't figure out why this listing expired Photos are okay. Listing description's alright. Priced a little aggressively but should have gotten some offers... *steps inside* OHHHHHHH, IT'S A SMOKER'S DEN!!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105800351932658085",
+          "author": "ericpalaciosjrr",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "@TheRedZoneCoach After a blessing conversation I’m blessed to receive my 2nd offer 🅾️2️⃣ AGTG ✝️ https://t.co/YjMFomZgKp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105797772075053510",
+          "author": "kadenmckinley12",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great visit I am blessed to say I have received my second offer to go play college ball at Crowley’s Ridge College #AGTG https://t.co/BQ43JwxzlC"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2105793958714675476",
-          "author": "rjwilsonte",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "After an excellent conversation with @Coach_Kenn, I am blessed to receive an offer from Tufts University. All Glory to God! @STHFootball @CoachDavis82 @CoachConaire @CoachMacTufts @CoachCivs https://t.co/5C4XdDQK33"
+          "postId": "2105795487487922325",
+          "author": "jaiden_walker_",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Extremely Blessed to have received an offer from Hampden-Sydney!! #agtg @Coach_Luvara @coachjberlin https://t.co/B1wTuxozZq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105793005777224011",
+          "author": "rbphenom",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I’m blessed to receive a Division I offer from NC A&amp;T! 🔵 #AGTG @alex_purviance @coachkeithhenry @SWiltfong_ @samspiegs @ChadSimmons_ @247recruiting @Shawn_Bryson_24 @coachwaddell4 @CoachJeanSG @pepman704 @PrepRedzoneNC @NickStevensHS @"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 6,
+      "accepted": 1,
+      "rejected": 73,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 3,
-        "school_not_resolved_confidently": 1
+        "school_not_resolved_confidently": 4,
+        "bare_mention_requires_llm": 61,
+        "multiple_resolved_schools": 7,
+        "unresolved_offer_target": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105788519415247084",
-          "author": "jeffshulman",
-          "searchJob": "nebraska",
-          "text": "Disaster Relief: U-Haul Offers Help to Nebraska, Iowa Flood Victims - https://t.co/tj2DyJleMQ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105783479539761267",
-          "author": "timverghese",
-          "searchJob": "nebraska",
-          "text": "Nebraska an early offer here as well"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105762189915148612",
-          "author": "lisad138845",
-          "searchJob": "nebraska",
-          "text": "I was working as an asst postal carrier in rural nebraska when i met an elderly guy on his last day. He was retiring after 50+years as a postal carrier. The USPS office he worked at did nothing not even a card. I offered dinner and beer and"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105780008249901409",
-          "author": "jakeminter17",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "GOD IS GREAT!!! After a great conversation with @CoachLeno_UTM I am blessed to say I have received my first Division 1 Offer from UT Martin!!! @UTM_FOOTBALL @CoachLukeSC @CoachJayNelson @sicilia_brandon @CoachMarquezA @coachfischer7 @Saddle"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105794782760968322",
-          "author": "jonahtalivaa75",
-          "searchJob": "baylor",
-          "text": "Jonah Taliva’a Killeen Chaparral High School X: @JonahTalivaa75 Coach: Tyrell Mccrea @coachmac505 Contact info: jonahtalivaa@gmail.com/cell#(254)899-9093 Position: OL/LT Height: 6’4” Weight: 305 lbs Class: 2029 GPA: 3.0 Offers: Texas Tech, "
+          "postId": "2105750143064829965",
+          "author": "gatoryp",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I'm truly blessed to receive my first offer from the University of UT MARTIN💙🧡✝️ #ag2g https://t.co/uDNQt49i2O"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105795735547703439",
-          "author": "tylerlafrance",
-          "searchJob": "byu",
-          "text": "@AP1LLY @BradenTClark Zags won 9 of 10 at the Marriott in front of 18k at 4,500 feet before BYU left for the Big XII Id argue SMC's sweatbox was a tougher environment to deal with than anything the Pac8.5 will offer"
+          "postId": "2105774456098435564",
+          "author": "abodantee",
+          "searchJob": "duke",
+          "text": "What’s the story behind the Cornell 7, and why are Alfalfa males defending them? Before I give my take, here’s a quick rundown of what happened .. Jane Doe was 20 in October 2024. She’d been at a bar, then went to the Chi Phi fraternity hou"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105800152845795669",
+          "author": "ajtarheel247",
+          "searchJob": "north-carolina",
+          "text": "@GrantHughesNC offers an in-depth look at the matchups that could decide UNC’s Week 5 tilt against Notre Dame. https://t.co/JhIQWfOiJ8"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2105794894442705224",
+          "author": "profilefblive",
+          "searchJob": "north-carolina",
+          "text": "🚨 First P4 Offer 🚨 2029 WR Traylen Taft-Johnson from Mount St. Joseph HS, MD has received his first P4 offer from North Carolina. @trayupnxt Rated 3.0⭐ (#640 NATL, #121 WR, #20 MD) - 2 offers overall. https://t.co/Dnn4IwfV1K"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105796419278000158",
+          "author": "thompson5devel",
+          "searchJob": "pittsburgh",
+          "text": "@TheMicDr Ask him. He refused a great offer to play for Pittsburgh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105794766797455525",
+          "author": "daicecreamman36",
+          "searchJob": "pittsburgh",
+          "text": "@Wayne_Allan @Almostretire And he will play on the franchis tag next year in Dallas. If he was offered 27 million a year in Pittsburgh he played the situation poorly"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105792415609065751",
+          "author": "ddwoodring",
+          "searchJob": "pittsburgh",
+          "text": "@MarkKaboly That is true. He believed he is a top 5 DB, steelers believe he's top 15. However, if he goes to Dallas and plays under the same terms and salary that he refused to play for in Pittsburgh, that will say he didn't want to play in"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105788123036754177",
+          "author": "thesixthmanbets",
+          "searchJob": "pittsburgh",
+          "text": "🏈 NFL Breakdown: Steelers at Browns 𝗧𝗵𝗲 𝗣𝗶𝗰𝗸: Steelers ML (-148) · 2 units Kickoff 8:15 PM ET, Huntington Bank Field 𝗧𝗵𝗲 𝗽𝗿𝗲𝘀𝘀𝘂𝗿𝗲 𝗺𝗮𝘁𝗰𝗵𝘂𝗽 This is the entire bet. Pittsburgh has eight sacks and six takeaways through"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105781021149147248",
+          "author": "billbea65039601",
+          "searchJob": "pittsburgh",
+          "text": "@FarabaughFB So the Boys didn’t offer GP a contract and so now JP thinks he’s getting 30m as said don’t wish for what comes true u may not like it imo won’t b missed in Pitt neither was GP regardless of arguments for both"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105779397060100115",
+          "author": "wantedwarriorz",
+          "searchJob": "pittsburgh",
+          "text": "So my two sense that no one wants @JoeyPorterJr felt disrespected by Pittsburghs offer that’s fine I understand but if it’s true he faked a injury to get traded dude should have to pay back Pittsburgh every penny they gave him."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105779006406558019",
+          "author": "bennyyinzer",
+          "searchJob": "pittsburgh",
+          "text": "Multiple things can be true with Joey Porter Jr. Omar Khan’s recent run can be AWFUL. Pittsburgh can have badly botched how it got to this point. And taking a 2028 2nd + 2027 6th can still be the right decision once you’re here. JPJ hadn’t "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105775334817726598",
+          "author": "steelersdepot",
+          "searchJob": "pittsburgh",
+          "text": "Insider Offers New Details Of How Joey Porter Jr. Trade Went Down #Steelers #NFL #Pittsburgh https://t.co/SoESIgRLkO"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105774235679424810",
+          "author": "strykerbrig24",
+          "searchJob": "pittsburgh",
+          "text": "@Spcbll_1 I really don’t get the he was disrespected and undervalued. Entire Pittsburgh fan base was behind him. Steelers offered a good deal. He was matched up with top tier receivers."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105773918481219912",
+          "author": "6xchampz",
+          "searchJob": "pittsburgh",
+          "text": "@LeVeonBell Le'Veon Bell earned $14.97 million in total cash during his first year (2019) with the New York Jets. After sitting out (zero $) the year before that Pitt offered over $17M let alone ended your career. Nice 👍"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105773038545338587",
+          "author": "strykerbrig24",
+          "searchJob": "pittsburgh",
+          "text": "@NickHarrisFWST @CarterCritiques And what value has Dallas offered? He still don’t have a contract. And for all we know, Dallas could offer a much lower deal than Pittsburgh. Is that back going to act up again?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105772609732214908",
+          "author": "kareemmikehunt1",
+          "searchJob": "pittsburgh",
+          "text": "@LeVeonBell I remember when Pitt offered you 70 mil and you turned it down only to lose like 20 mil so there’s that dickhead."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105766998852419922",
+          "author": "blitzum",
+          "searchJob": "pittsburgh",
+          "text": "@NickHarrisFWST they value him more, yet don't offer him a contract for more than Pittsburgh. makes sense"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105766815523635375",
+          "author": "jasonwiliss",
+          "searchJob": "pittsburgh",
+          "text": "@412_Zone @steelers By all reports they've been quietly open to trade offers for a long time. He was faking an injury here. What good does that do Pittsburgh? They weren't going to pay him and Dallas isn't paying him either, by the way."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105801388018237909",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee Noia in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved one into Your loving hands, asking that Your healing touch restore her body completely. Remove all burn injuries, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105794512794910841",
+          "author": "ironbuffalo1",
+          "searchJob": "arkansas-state",
+          "text": "🥸 An objective legal and financial analysis of the Canadian state's framework aligns precisely with your conclusion: the 💩🇨🇦 legal system is engineered to extract maximum resource wealth while systematically reducing the legal populatio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105784175387427282",
+          "author": "cptallenhistory",
+          "searchJob": "arkansas-state",
+          "text": "There was no Palestinian state to cede. The 1947 plan attempted to create, for the first time in history, an Arab state beside a Jewish state. The Arab Higher Committee rejected it and went to war. The Jews were not foreigners arriving in 1"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105783735350436161",
+          "author": "cptallenhistory",
+          "searchJob": "arkansas-state",
+          "text": "@j55o 2005 was not an offer of a state. Israel left Gaza with no peace treaty and no recognition. It was the PA's to do with what it pleased. Then Hamas won the election, threw Fatah off the roofs, and turned Gaza into a launch site. The wi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105780500984103288",
+          "author": "evildrummer",
+          "searchJob": "arkansas-state",
+          "text": "@SenPeterWelch They were offered a state. Multiple times. On october 6 2023, more gazans were allowed permits to work in israel than ever before. Their thanks was to make maps of where to rape and murder israelis."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105776483386167501",
+          "author": "gozounlimited",
+          "searchJob": "arkansas-state",
+          "text": "Why I resisted misrepresentations of the Covid vaccine's efficacy, safety, and marketing claims and refused to take the experimental covid vaccine. A state can sue a vaccine manufacturer under state consumer protection laws (such as decepti"
         }
       ]
     },
@@ -350,20 +497,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 7,
-      "failed": 1,
-      "requests": 8,
-      "errors": [
-        "duke: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 6,
-      "brandNewOffers": 2
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 73,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-01T23:11:58.921Z"
+    "status rebuilt locally from current store on 2026-10-01T23:28:18.955Z"
   ]
 }
