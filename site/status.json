@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-02T05:26:36.424Z",
+  "generatedAt": "2026-10-02T05:43:16.132Z",
   "searchCredentials": 0,
-  "searchConfigured": false,
+  "searchConfigured": true,
   "searchBlocked": false,
   "blockedRuns": 0,
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-02T05:13:01.801Z",
+    "at": "2026-10-02T05:43:15.766Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.9973977777777778,
-    "p95Hours": 1.749878611111111,
-    "worstHours": 1.749878888888889
+    "medianHours": 0.7803941666666667,
+    "p95Hours": 1.5290688888888888,
+    "worstHours": 1.7795377777777779
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -49,66 +49,155 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 2318,
+    "completeOffers": 2319,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-02T05:13:01.799Z",
-      "got": 39,
-      "new": 24,
-      "lag": 0.05
+      "at": "2026-10-02T05:43:15.766Z",
+      "got": 26,
+      "new": 14,
+      "lag": 0.29
     }
   },
   "audit": {
-    "at": "2026-10-02T05:26:34.066Z",
+    "at": "2026-10-02T05:41:46.686Z",
     "mode": "live",
     "collection": {
-      "returned": 0,
-      "kept": 0,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 26,
+      "kept": 14,
+      "duplicate": 10,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "search": {
-      "ok": false,
-      "reason": "rutgers: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40RFootball%20OR%20%22Rutgers%22%20OR%20%22Scarlet%20Knights%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40RFootball%20OR%20%22Rutgers%22%20OR%20%22Scarlet%20Knights%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-      "jobs": 162,
-      "swept": 0,
-      "failed": 162,
-      "requests": 0,
-      "errors": [
-        "rutgers: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40RFootball%20OR%20%22Rutgers%22%20OR%20%22Scarlet%20Knights%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40RFootball%20OR%20%22Rutgers%22%20OR%20%22Scarlet%20Knights%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-        "army: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40ArmyWP_Football%20OR%20%22Army%22%20OR%20%22Black%20Knights%22%20OR%20%22West%20Point%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40ArmyWP_Football%20OR%20%22Army%22%20OR%20%22Black%20Knights%22%20OR%20%22West%20Point%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-        "ball-state: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40BallStateFB%20OR%20%22Ball%20State%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40BallStateFB%20OR%20%22Ball%20State%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-        "boise-state: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40BroncoSportsFB%20OR%20%22Boise%20State%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40BroncoSportsFB%20OR%20%22Boise%20State%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-        "san-jose-state: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40SanJoseStateFB%20OR%20%22San%20Jose%20State%22%20OR%20%22SJSU%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40SanJoseStateFB%20OR%20%22San%20Jose%20State%22%20OR%20%22SJSU%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-        "south-alabama: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40WeAreSouth_FB%20OR%20%22South%20Alabama%22%20OR%20%22USA%20Jaguars%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40WeAreSouth_FB%20OR%20%22South%20Alabama%22%20OR%20%22USA%20Jaguars%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-        "south-florida: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40USFFootball%20OR%20%22South%20Florida%22%20OR%20%22Bulls%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40USFFootball%20OR%20%22South%20Florida%22%20OR%20%22Bulls%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n",
-        "southern-miss: navigation: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://x.com/search?q=(%40SouthernMissFB%20OR%20%22Southern%20Miss%22%20OR%20%22Golden%20Eagles%22%20OR%20%22Southern%20Mississippi%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\nCall log:\n  - navigating to \"https://x.com/search?q=(%40SouthernMissFB%20OR%20%22Southern%20Miss%22%20OR%20%22Golden%20Eagles%22%20OR%20%22Southern%20Mississippi%22)%20(offer%20OR%20offered%20OR%20offers%20OR%20%22blessed%20to%20receive%22)%20-filter%3Aretweets%20-%22walk-on%22%20-%22preferred%20walk%22%20-%22transfer%20portal%22%20-%22offer%20list%22%20since_time%3A1790912196%20until_time%3A1790918794&f=live&src=typed_query\", waiting until \"domcontentloaded\"\n"
+      "accepted": 8,
+      "rejected": 6,
+      "reasons": {
+        "no_offer_term": 4,
+        "no_fbs_school": 2
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2105890781131051431",
+          "author": "lughaengusog",
+          "searchJob": "army",
+          "text": "https://t.co/EfLOew7Py9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105873484505047470",
+          "author": "landofpuntites",
+          "searchJob": "army",
+          "text": "https://t.co/tXPljq6b3f"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105885980423262545",
+          "author": "jeteristrash",
+          "searchJob": "florida-state",
+          "text": "@InstructorDuke So you think Ole Miss is better than last year? And UF hiding behind that big bad SEC schedule is why they can’t play Miami? https://t.co/hjdq8ijw6L"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105880923174813952",
+          "author": "englishkstate",
+          "searchJob": "kansas",
+          "text": "\"Finding your own purpose and passion in work, Dave reminded us, is an amazing moment of revelation\": Dave Isay offers insights on StoryCorps and on _Callings_, the 2026 K-State First Book https://t.co/NsFpR0QI0x"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105891923990917368",
+          "author": "supersmooth_fi",
+          "searchJob": "stanford",
+          "text": "Be Super with Supersmooth. In service of self custody. https://t.co/98uSj0EU1m"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105886992190013739",
+          "author": "willybobward",
+          "searchJob": "buffalo",
+          "text": "@djohnson2305 @Badgers_44 @The_Cornshucker @ryansperry98 @RHULEROFNEB Careful, David will not respond to you because he doesn’t have anything of substance to offer and then lie about other people blocking him to appear cool for his friends "
+        }
       ]
     },
+    "extraction": {
+      "accepted": 1,
+      "rejected": 7,
+      "reasons": {
+        "bare_mention_requires_llm": 7
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105892023681298699",
+          "author": "padhegaindia_",
+          "searchJob": "army",
+          "text": "📍 : Apollo Bunder Docks, Bombay 🗓️ : January 1915 🕒 : 6:00 AM The massive hull of the S.S. Arabia cuts through the morning mist, slowly docking against the pier. Stepping off the gangway is a 46 year old veteran of global civil rights, a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105877606491156724",
+          "author": "subhas1946",
+          "searchJob": "army",
+          "text": "*INDIA WINS FREEDOM: A STORY OF GLORIUS JOINT EFFORT* If you want to see how India won freedom, don't look at a solo photo. *Look at a group photo.* *Our freedom is a superhit friendship film.* A Hindu poet wrote a line, *a Muslim friend sa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105873636112679177",
+          "author": "ani",
+          "searchJob": "army",
+          "text": "#WATCH | Delhi | LoP Rajya Sabha, Mallikarjun Kharge says, 'Today marks the birthdays of two great men: Mahatma Gandhi, who secured the nation's independence, and Lal Bahadur Shastri, a great hero who guided the country in the right directi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105874208060219821",
+          "author": "rinbisims",
+          "searchJob": "kentucky",
+          "text": "The entire state of #Kentucky and none of the schools offer mortuary sciences. Like, lots of problems in the state but no internal morticians seems like a big one. Are you just bringing in out of state morticians forever? Hiring people with"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105872511993053572",
+          "author": "autistic_powers",
+          "searchJob": "tennessee",
+          "text": "@Jerri_M_Green Get the fuck out of Tennessee. We are stuck with Marsha because you simple minded retards offer no good competition"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105889637042630689",
+          "author": "instructorduke",
+          "searchJob": "florida-state",
+          "text": "This motherfucker is offered to coordinator in that dumb fucking quarterback from Florida State. Got these ACC fans fucking stupid. How about you win the ACC before you talk shit about my conference."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105887551156261319",
+          "author": "bonduelleioat",
+          "searchJob": "stanford",
+          "text": "$70,000 A YEAR — OR $0. Right now, you can take a program that costs tens of thousands of dollars at Stanford and complete it on your own. 119 lectures. ~95 hours. 7 courses. 6 hands-on projects. And it’s all free on YouTube. But the bigges"
+        }
+      ]
+    },
+    "search": {
+      "ok": true,
+      "reason": null,
+      "jobs": 162,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
+    },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 7,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-02T05:26:36.424Z"
+    "status rebuilt locally from current store on 2026-10-02T05:43:16.133Z"
   ]
 }
