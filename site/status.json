@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T01:28:12.090Z",
+  "generatedAt": "2026-10-02T01:58:05.522Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-02T01:28:11.761Z",
+    "at": "2026-10-02T01:58:05.181Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7743986111111111,
-    "p95Hours": 1.7698577777777778,
-    "worstHours": 1.7698577777777778
+    "medianHours": 1.0234402777777778,
+    "p95Hours": 2.0195625,
+    "worstHours": 2.0195625
   },
   "decisionCoverage": {
-    "total": 48,
-    "decided": 48,
+    "total": 63,
+    "decided": 63,
     "complete": true
   },
   "pending": {
@@ -47,310 +47,374 @@
   "profileResolution": {
     "cached": 73
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 2300,
+    "completeOffers": 2303,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-02T01:28:11.761Z",
-      "got": 77,
-      "new": 48,
+      "at": "2026-10-02T01:58:05.181Z",
+      "got": 93,
+      "new": 63,
       "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-02T01:26:38.660Z",
+    "at": "2026-10-02T01:56:33.635Z",
     "mode": "live",
     "collection": {
-      "returned": 77,
-      "kept": 48,
-      "duplicate": 29,
-      "tooOld": 0,
+      "returned": 93,
+      "kept": 63,
+      "duplicate": 28,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 35,
-      "rejected": 13,
+      "accepted": 41,
+      "rejected": 22,
       "reasons": {
-        "hard_negative": 1,
+        "no_fbs_school": 9,
+        "no_offer_term": 8,
         "non_fbs_offer_target": 1,
-        "no_offer_term": 9,
-        "no_fbs_school": 2
+        "hard_negative": 4
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2105825011051176073",
-          "author": "alec_busse",
-          "searchJob": "houston",
-          "text": "WR Jason Wooden announces that he has reopened his recruitment after committing to Iowa State in late May. Houston recently offered the McKinney, Texas, native."
+          "reason": "no_fbs_school",
+          "postId": "2105811937573720443",
+          "author": "bendallmason09",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "Had a great conversation with @Coach_lrob and I am blessed to announce I have received my first offer from @FerrumFootball I am excited to learn more about Ferrum! Special thanks to @coachjberlin https://t.co/RIVnyayiX1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105818003363295301",
+          "author": "sethfromthe716",
+          "searchJob": "buffalo",
+          "text": "Something about this Ashton Hamed Ellaboudy thing seems bullshit Whether or not he was devout in his support, there's no way this one schmo from a non-central Department of Energy site could've hoped to offer much of consequence to the Hout"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105811289650180547",
+          "author": "kentdubya",
+          "searchJob": "kent-state",
+          "text": "@tanpukunokami Hell yes we mean it, I offer up all the time"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105834303544537568",
+          "author": "epochpremium",
+          "searchJob": "navy",
+          "text": "https://t.co/3X0tUuArNi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105806135374630978",
+          "author": "9japolytv",
+          "searchJob": "navy",
+          "text": "Nigerian Navy Logistics College (NNLC) Courses Offered: Full List of Logistics and Training Programmes https://t.co/1cUOlXHr2E"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105806110284222847",
+          "author": "9japolytv",
+          "searchJob": "navy",
+          "text": "Nigerian Navy College of Engineering Sapele (NNCES) Courses Offered: Full List of Engineering Programmes https://t.co/cIDSw294SJ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105837353914806524",
+          "author": "signaloftheeye",
+          "searchJob": "class:2026",
+          "text": "https://t.co/JCf47ORqY1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105817270161150444",
+          "author": "hypeapps",
+          "searchJob": "class:2026",
+          "text": "Met up with a guy I helped introduce to programming a long time ago. He worked in another division and wanted to learn to code, so I offered to train him. We absolutely grinded for a year, pulling late nights (we coded by hand back then —yo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105809376674259378",
+          "author": "ks458008",
+          "searchJob": "class:2026",
+          "text": "AI can support diagnosis, catch missed cases, and accelerate drug discovery. But “it can” is not the same as “it did.” What evidence should measure medical AI progress by the time, decisions, and costs actually reduced? https://t.co/pKH0dUM"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2105824413723824472",
-          "author": "nate_maggiore88",
-          "searchJob": "houston",
-          "text": "Thankful to receive a D1 offer from Houston Christian University, thank you @_CoachEnnis for the opportunity @mtsacfootball @CoachLone @CoachMartinII @JuniorTanuvasa5 @JuCoFootballACE https://t.co/KweL224ofV"
+          "postId": "2105830037287043196",
+          "author": "altonhswbb",
+          "searchJob": "indiana",
+          "text": "2027 Senior Guard @amp2027 has received an offer from Indiana Tech (NAIA) #RiseTogether #NextLevelRedbirds https://t.co/5eb2b9KeaP"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105835180288102481",
+          "author": "mvsumbb",
+          "searchJob": "oregon",
+          "text": "Introducing our Power Forwards: F | 6'7 | Harvey Wilson Jr. | R-Fr. |📍Tampa, FL Santa Fe College (JuCo) | Owns a Baleciaga T-Shirt 👕 PF | 6'9\" | Qingfang Pang | Jr. | Shenzhen, Guangdong 🇨🇳 Monroe University (D2) | Held offers from Mich"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2105831955921060051",
+          "author": "itsricky4really",
+          "searchJob": "oregon",
+          "text": "WISCONSIN JUST LANDED A 5-STAR 😳🦡 2028 EDGE Jalanie George has committed to the Badgers. Rivals has him as the No. 2 PLAYER IN THE COUNTRY. Offers from Alabama, Georgia, Ohio State, Oregon, Michigan, LSU… Luke Fickell just pulled this dud"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105793603167506573",
-          "author": "keyvonjones1",
-          "searchJob": "smu",
-          "text": "Thank you @RallyPreps for the love! Check out my stats as an athlete https://t.co/mfQKhrawXg @UTSAFTBL @UTSAAthletics @ValleyStateFB @rincon_mia13 @samholland2005 @BUFootball @ahunt90 @AWilliamsUSA @NationalComb1ne @chilton_isd @MeanGreenFB"
+          "postId": "2105821723878969734",
+          "author": "grilledcheesus7",
+          "searchJob": "oregon",
+          "text": "@nataliegwinters https://t.co/wPszF2t6d7"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105720788888498220",
-          "author": "rallypreps",
-          "searchJob": "smu",
-          "text": "#TXHSFB 2029 QBs to Know🔥 Full list →https://t.co/UneKDbSX8p https://t.co/l6XkG2VsRX"
+          "postId": "2105818831658619061",
+          "author": "allancrats",
+          "searchJob": "penn-state",
+          "text": "Finish the job @tevinowencrats ‼️ @WPIAL_Insider @Kzovko @MattFarago @BREAL412 @damen84 https://t.co/ELtFRXyyuh"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2105394457990643930",
-          "author": "cb_doge",
-          "searchJob": "arkansas-state",
-          "text": "Elon Musk joined today’s State of the Force address, where War Secretary Pete Hegseth announced that Elon will co-lead Project Meridian to help shape the future of warfare. 🇺🇸 https://t.co/pAybGZaqDI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2105727929976332742",
-          "author": "christineist",
-          "searchJob": "arkansas-state",
-          "text": "hot girls are necessary part of a thriving city ecosystem. hot girls inspire ambitions and call you to transcend. Hot girls make the world go round. A city without hot girls is like a sky without stars"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2105707902535106850",
-          "author": "cxgonzalez",
-          "searchJob": "arkansas-state",
-          "text": "it took not even 30 seconds after leaving my hotel in nyc to see something that i almost never saw in 3 months in sf: i saw a hot girl"
+          "reason": "hard_negative",
+          "postId": "2105837457300128043",
+          "author": "braniffintl",
+          "searchJob": "texas",
+          "text": "BRANIFF HISTORY TODAY - On this day, Wednesday, October 1, 1969, Braniff International inaugurated new nonstop service between Dallas Love Field and Miami International Airport; between Miami and New Orleans Moisant International Airport; a"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105806044589076648",
-          "author": "9japolytv",
-          "searchJob": "army",
-          "text": "Nigerian Army School of Signals (NASS) Courses Offered: Full List of Courses and Programmes https://t.co/fscG3S1mcw"
+          "postId": "2105835019499364421",
+          "author": "10jesusfollowr",
+          "searchJob": "texas",
+          "text": "Shocked by how many people settle for empty words when the issue calls for substance. Talk is easy. Pointing fingers is easier. What is missing is the willingness to do the hard work: read the numbers, understand the rules, and offer a real"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2105809157802901988",
-          "author": "francoboca",
-          "searchJob": "washington-state",
-          "text": "https://t.co/Rcaq6GeMz5"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2105820388379005060",
-          "author": "brendenmoore13",
-          "searchJob": "illinois",
-          "text": ".@BenSzalinski and I already had an interview scheduled with Gov. Pritzker this afternoon, so naturally we shifted gears and talked some Bears. The governor told us there were “all the right players at the table” and that action “should hap"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2105819451354419663",
-          "author": "capitolnewsil",
-          "searchJob": "illinois",
-          "text": "Roger Goodell, JB Pritzker, Pat Ryan and lawmakers had a meeting about keeping the Bears in Illinois. Here’s what we know — including exclusive details from the governor. From @brendenmoore13 https://t.co/QioIPRiVQV https://t.co/jnhQujENQu"
+          "reason": "hard_negative",
+          "postId": "2105832627190030562",
+          "author": "braniffintl",
+          "searchJob": "texas",
+          "text": "BRANIFF HISTORY TODAY - On this day, Saturday, October 1, 1966, Braniff International inaugurated jet service at Memphis and Nashville, Tennessee. Both Lower Mississippi Valley cities received Boeing 727-100 Trijet service which was welcome"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2105826399722381583",
-          "author": "church_pop",
-          "searchJob": "oklahoma",
-          "text": "For young Catholics, finding a moment of silence can feel almost impossible. Between school, sports, friendships, notifications, and the endless scroll of social media, there always seems to be something demanding their attention. But Eucha"
+          "postId": "2105829370296258953",
+          "author": "mortgagesindc",
+          "searchJob": "texas",
+          "text": "As @NewsLambert and @ResiClub_HQ dove deep on builder FHA buydowns Here’s a viral tweet from new construction in Texas 3/2/1 Buydown + perm buydown on homes under contract by 10/15/2026 These would never fly in my market but interesting to "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2105806109940629604",
-          "author": "wtva9news",
-          "searchJob": "ole-miss",
-          "text": "Trees across north Mississippi have begun changing colors weeks earlier than the typical mid-to-late October timeline. https://t.co/wLhG5w7CPl"
+          "postId": "2105484289643257999",
+          "author": "hornsby_realtor",
+          "searchJob": "texas",
+          "text": "Just Sold!! My clients got a deal in North Texas with a 3.75% interest rate!! https://t.co/8YhfB8kGvw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2105814480210854341",
+          "author": "tom37764483",
+          "searchJob": "texas",
+          "text": "@KeresaForTexas @ShelleyLuther @KatrinaPierson @ForgeNow_ Grayson College’s South Campus in Van Alstyne, Texas, offers * Electrical Technology: * Medical Laboratory Technology (MLT): * Vocational Nursing (LVN): * Welding Technology: My Gray"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105810092616454279",
+          "author": "elpasotimes",
+          "searchJob": "texas",
+          "text": "Fox News poll shows Talarico edging Paxton weeks before Texas Senate vote https://t.co/DuvczMwTsy"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2105831651293167651",
+          "author": "bestblogsdev",
+          "searchJob": "colorado",
+          "text": "https://t.co/K3ADW9ahKK"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 35,
+      "accepted": 4,
+      "rejected": 37,
       "reasons": {
-        "bare_mention_requires_llm": 22,
-        "multiple_resolved_schools": 12,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 26,
+        "multiple_resolved_schools": 6,
+        "reporter_missing_class_year": 1,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105825172594864269",
-          "author": "abc13houston",
-          "searchJob": "houston",
-          "text": "Houston City Council member proposes requiring companies to offer better pay to get tax relief https://t.co/LHVyV7Q5GT"
+          "postId": "2105809800852574426",
+          "author": "japarjam",
+          "searchJob": "stanford",
+          "text": "Last time Cowboys were in the Super Bowl, this app didn’t exist Some more innovations that were huge that year: • The Birth of Google (BackRub): In 1996, Stanford students Larry Page and Sergey Brin began collaborating on a revolutionary se"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2105819674466206207",
-          "author": "rrmcb3",
-          "searchJob": "houston",
-          "text": "Cherry-picking. Texas’s first-year voucher rollout is large by national standards but limited in scale relative to the state’s public system, so it has not produced a profound, system-wide change in Texas education. The program is the Texas"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105825642755522935",
-          "author": "pjshan1",
-          "searchJob": "pittsburgh",
-          "text": "@JoshYohe_PGH Porter complained he was disrespected. BS. Pittsburgh made an offer that they could afford. The Steelers don’t have the deep pockets that the Cowboys have. He was never going to get $132MM from the team. Be a man, move on and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105823021374255454",
-          "author": "authenticbambam",
-          "searchJob": "pittsburgh",
-          "text": "@frankmikesmith How did his situation change? Pitt could’ve franchised him. So could Dallas. He’s going to get a better deal than what Pitt offered him, whether it’s from Dallas, in FA next year."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105810535254008163",
-          "author": "steelersthought",
-          "searchJob": "pittsburgh",
-          "text": "He is not very smart. Sorry, but this sounds like Pickens talking about Dallas being known for the super bowl when he got traded. He is going somewhere without an offer on the table on a 1 year rental with a franchise tag to come at best, w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105807820226539984",
-          "author": "spoton101",
-          "searchJob": "pittsburgh",
-          "text": "Le'Veon Bell has accused the Pittsburgh Steelers of racial bias after the team traded Black cornerback Joey Porter Jr. to the Dallas Cowboys, claiming the team treats Black players differently than White ones. Bell expressed discontent on X"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105805280181145843",
-          "author": "dustinabarca",
-          "searchJob": "pittsburgh",
-          "text": "@harrycottrill1 @pick_six22 Pittsburgh allegedly offered 27 per year. Idk about guarantees tho"
+          "postId": "2105828949729378549",
+          "author": "lsutigern8",
+          "searchJob": "louisiana",
+          "text": "@georgewrighster I think arch manning is average and is only getting hype because of his last name. If his name was Brent Smith from BFE Louisiana he wouldn’t have gotten an offer from Texas State let alone UT"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2105831525547684008",
-          "author": "3threatsportstx",
-          "searchJob": "smu",
-          "text": "Offer this young man! @WSUCougarFB @oaksfb @HuskerFootball @TSUFootball @pvamufb_ @MeanGreenFB @SMUFB @Lions_FB @TXSTATEFOOTBALL"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105819235284881554",
-          "author": "10jesusfollowr",
-          "searchJob": "arkansas-state",
-          "text": "“I am old enough that I could vote for the easy promise and never pay for it. Socialism offers security, shared burden, and a state that will look after people. I have heard that promise my whole life. I also know where it ends. It does not"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105819077134495939",
-          "author": "10jesusfollowr",
-          "searchJob": "arkansas-state",
-          "text": "Vote Red to stop the end of the Constitutional Republic. I am old enough that I could vote for the easy promise and never pay for it. Socialism offers security, shared burden, and a state that will look after people. I have heard that promi"
+          "postId": "2105830074658550230",
+          "author": "kurdishregions",
+          "searchJob": "navy",
+          "text": "@Lord_Sugar All asylum applications made by those arriving from safe countries to be refused with no appeals. Royal Navy to stop boats arriving. Raise defence spending to 3-3.5 %of the GDP by 2030. Offer incentives to businesses to invest i"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105817276566176242",
-          "author": "megaraptorchud",
-          "searchJob": "arkansas-state",
-          "text": "@DBistoli @shmr50 @queerBengali 1. This isn’t a state, which is why similar offers were rejected by Palestinians in the past. 2. The conflict raging in the Middle East right now was instigated by Israel, by nudging the United States into a "
+          "postId": "2105818067263705434",
+          "author": "ma_nyc7",
+          "searchJob": "navy",
+          "text": "@chriskay909 @KamalaHarris @HQNewsNow @KamalaHarris should wear black and navy blazer suits more often. Though I am not one of her supporters who frequently comment on her appearances, I will state this photo offers a glimpse into a woman e"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105817274418704666",
-          "author": "larschigi",
-          "searchJob": "arkansas-state",
-          "text": "Palmer Lucky and Elon Musk as co-leaders on Project Meridian. The name that is in the news right now is a Pentagon study announced yesterday. Secretary of War Pete Hegseth unveiled Project Meridian on September 30, 2026, during a “State of "
+          "postId": "2105817665637925159",
+          "author": "arizman2",
+          "searchJob": "navy",
+          "text": "Let's be honest Mockler, you are not as stupid and shallow as you prefer to come across to your following. You are just forced into incomprehensibly shallow analysis for political and monetization purposes. At this point, the Iranian religi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105816348698005985",
-          "author": "asegovia9",
-          "searchJob": "arkansas-state",
-          "text": "The tell is that they never make a counteroffer. A common response when confronted with “they could have had a state since 1947 but rejected the proposal the Jews accepted” is “why should they have accepted such a bad offer?” But they never"
+          "postId": "2105817333222834274",
+          "author": "arizman2",
+          "searchJob": "navy",
+          "text": "Let's be honest Mockler, you are not as stupid and shallow as you prefer to come across to your following. You are just forced into incomprehensibly shallow analysis for political and monetization purposes. At this point, the Iranian religi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105814759136260272",
-          "author": "guyrlohr1",
-          "searchJob": "arkansas-state",
-          "text": "The AG’s office took the case; after a 2025 hung jury, its prosecutors (including Brenda Cantu and Dorian Cotlar) proposed reduced misdemeanor charges rather than a retrial. They stated in a letter to a state lawmaker that the child victim "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105814730250039796",
-          "author": "zabit_lincoln",
-          "searchJob": "arkansas-state",
-          "text": "@lahat44 @straycomrade @Alonso_GD They never offered a state , they offered a reservation, Israel retained the border control prohibited the creation of an army and refused to withdraw the settlers"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105813117317820646",
-          "author": "turn3685",
-          "searchJob": "arkansas-state",
-          "text": "Saying 'there was no Palestinian state to cede' ignores the basic fact that Palestinians were the majority population living in the land. The 1947 plan didn't 'create a Palestinian state' - it partitioned their country and handed over 55% o"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105812102417985969",
-          "author": "turn3685",
-          "searchJob": "arkansas-state",
-          "text": "None of those were offers of a sovereign Palestinian state. Peel involved forced transfer, 1947 was rejected by both sides, Camp David wasn't a real state, the Clinton Parameters weren't final, Olmert's plan was never even written down, and"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105809940661317858",
-          "author": "westsidelaguy",
-          "searchJob": "arkansas-state",
-          "text": "Last year I spent ~10 weeks in Seattle, doing work for a portfolio company. I saw 2-3 hot girls that entire time. The CEO of the company offered me a full time senior role reporting directly to him. More money than what I'm making now, but "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2105827766356627939",
-          "author": "csalvi2323",
-          "searchJob": "army",
-          "text": "\"Self-educated astronomer Nathaniel Bowditch [1773-1838] is remembered as arguably the most influential person in the development of American navigation. As a boy he was apprenticed to a merchant selling ships' supplies, and spent his spare"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105818770245665036",
-          "author": "joshelizetxe",
-          "searchJob": "army",
-          "text": "This year, my mission is to make sure every founder has the biggest Black Friday they've ever had. So my team and I are going to build it for you: your Black Friday offer, your campaign funnel, and your full creator army funnel, including t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2105806019603608053",
+          "postId": "2105806048082948261",
           "author": "9japolytv",
-          "searchJob": "army",
-          "text": "Nigerian Army School of Finance and Administration (NASFA) Courses Offered: Full List of ND, HND and Professional Courses https://t.co/cJtBQQot7I"
+          "searchJob": "navy",
+          "text": "Nigerian Navy College of Accounts and Finance (NNCAF) Courses Offered: ND, HND and Professional Courses https://t.co/0rGkAvtlvO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105803705765253493",
-          "author": "forgottenwarpic",
-          "searchJob": "army",
-          "text": "Tibor Rubin survived a Nazi death camp. Then he went to Korea and earned the Medal of Honor. Then he waited 50 years to get it. He was a Hungarian Jewish teenager when he was sent to Mauthausen. His father and mother didn't survive the Holo"
+          "postId": "2105834410687799641",
+          "author": "oaf_sage",
+          "searchJob": "temple",
+          "text": "You need to get the context tho', because you've only said the father and mother should take every bedroom conversation to the dining table. The multitude didn't know what the disciples knew, the multitude for instance didn't understand the"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2105801960431431894",
-          "author": "metabolic24",
-          "searchJob": "army",
-          "text": "Seems like everything starts and ends with EDUCATION: Do you believe that a technocratic democracy is feasible for sudan, democracy is very pricey and systemic.. how about a technocratic future, what does technology offer Sudan? https://t.c"
+          "postId": "2105829052783444446",
+          "author": "auntiewycked",
+          "searchJob": "temple",
+          "text": "God did not change His mind when moving from the Old Covenant to the New Covenant; rather, He was fulfilling a single, eternal plan. The upmost purpose of the Old Covenant was to act as a mirror. By giving humanity a perfect, holy standard "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105825285644173392",
+          "author": "shardenrealty",
+          "searchJob": "temple",
+          "text": "Protect the downside before chasing the upside. In Temple, TX, evaluate repairs, insurance, tenant demand, and a vacancy cushion before you offer. #RealEstateInvesting https://t.co/Y9ymSXGOj1"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105813432230666288",
+          "author": "honestmoneyshow",
+          "searchJob": "temple",
+          "text": "Every economics textbook tells the same origin story. Before money, people bartered. The baker wanted shoes, the shoemaker wanted fish, and nobody could find a match, so humanity invented money to fix the inconvenience. Adam Smith popularis"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105809993970925669",
+          "author": "maximumpain333",
+          "searchJob": "temple",
+          "text": "LIFE LENGTHENS WHEN RHYTHM IS REMEMBERED What he is pointing at is an old esoteric move: reading the body as the temple the myths were written inside. The scene he treats as a map is the Egyptian weighing, usually told as a judgment after d"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2105805707404874152",
+          "author": "amyricalfornow",
+          "searchJob": "temple",
+          "text": "@AdamDommeyer let me do some… Moses: Man who got divine job offer from a flaming plant that refused to burn Isaiah:Dude who walked into the temple and accidentally joined a heavenly choir practice Ezekiel: Prophet who saw God’s personal fly"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2105813163983994926",
-          "author": "nickoteen_",
-          "searchJob": "south-florida",
-          "text": "$NKE has relied heavily on Jordan Brand to keep the company afloat. The man is 60 damn near 70. You have no new ideas, no new shoes no new stars, nothing. You have bled Jordan DRY. Other than original Chicago Bulls color ways, YOU HAVE NOTH"
+          "postId": "2105811854052511963",
+          "author": "rutkowskidr",
+          "searchJob": "class:2026",
+          "text": "Friday, October 2, 2026 Borne on the Wings That Stirred the Nest Scripture Reading: Deuteronomy 32:10-12 (“King James Version”) 10. He found him in a desert land, and in the waste howling wilderness; he led him about, he instructed him, he "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105814720657620994",
+          "author": "thebearscast",
+          "searchJob": "indiana",
+          "text": "@Mykl0 Sure they're willing. They want an offer that matches Indiana and megaprojects isn't enough. All they need is a big offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105825669930156266",
+          "author": "wmungadi",
+          "searchJob": "iowa",
+          "text": "@drstellanyanzi This is us. The 3000 stadiums of Iowa are all engaged. And this is what I am managing until midnight. The young people of Uganda 🇺🇬 what does the cabbage offer? Will join the nightshift later @mikel0086 @MartinMujB @Seguya"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105825098447954349",
+          "author": "worldwidennx",
+          "searchJob": "iowa",
+          "text": "9 PM Top-of-the-Hour News Renee Good's family is suing the Trump administration. She was shot and killed by a federal immigration agent in Minneapolis in January. The administration claimed Good tried to hit the agent with her SUV. Good's f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105823445845954795",
+          "author": "worldwidennx",
+          "searchJob": "iowa",
+          "text": "An Iowa teacher has been fired for offering students a quid pro quo.: “Substitute teacher Stephanie Mullally was planning a medical mission to Ecuador. She offered her students at Clinton Community School extra credit if they made donations"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2105814318797267379",
+          "author": "iafootball_",
+          "searchJob": "iowa",
+          "text": "Here checking out 4⭐️ WR CO ’28 Isaiah Grant out of Sioux City East. Grant has handfuls of P4 offers at this point including Iowa, Iowa State, Oregon, Penn State, and others He’s currently ranked as the #3 player in Iowa’s 2028 class via @2"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105837865817317860",
+          "author": "truthherder",
+          "searchJob": "oregon",
+          "text": "@FriedgeHNIC is it me or are the Ducks going scorched Earth by deliberately skewing the NHL's salary structure because of the offer sheet this past summer?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2105813202517053640",
+          "author": "1yes_yes1",
+          "searchJob": "oregon",
+          "text": "GM GN everyone, Let a beautiful life journey with your soul. It’s the holiday season and crowds are everywhere. Yesterday out in the countryside, I planted cabbages, fed chickens, ducks and geese, and checked on my banana plants. I plan to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105813106760757591",
+          "author": "novaknowsball",
+          "searchJob": "oregon",
+          "text": "1/3 THE BACKSTORY Baltimore native. Montverde Academy product. 2023 McDonald’s All-American. Kwame Evans Jr. spent three seasons at Oregon before coming to Villanova. The 6-foot-10 lefty offers more than one way to use that length. https://"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105837092828020736",
+          "author": "whiteoutfb",
+          "searchJob": "penn-state",
+          "text": "Big time shout out for recently Penn State offered RB @tevinowencrats Every week his buzz gets louder and louder. Well deserved 🦁"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2105816952903967078",
+          "author": "jusfeltersnatch",
+          "searchJob": "penn-state",
+          "text": "@chainvow @PennStateT5 @MKufta03 Awesome. I have it on very good authority that if he was offered penn state he takes it no questions asked."
         }
       ]
     },
@@ -364,12 +428,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 35,
-      "brandNewOffers": 0
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 37,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-02T01:28:12.091Z"
+    "status rebuilt locally from current store on 2026-10-02T01:58:05.522Z"
   ]
 }
