@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T04:58:09.768Z",
+  "generatedAt": "2026-10-03T05:13:09.027Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-03T04:58:09.432Z",
+    "at": "2026-10-03T05:13:08.699Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7729858333333334,
-    "p95Hours": 1.5284111111111112,
-    "worstHours": 1.5284111111111112
+    "medianHours": 0.7710586111111111,
+    "p95Hours": 1.2768966666666666,
+    "worstHours": 1.5226983333333333
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -55,103 +55,156 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-03T04:58:09.432Z",
-      "got": 17,
-      "new": 9,
-      "lag": 0.15
+      "at": "2026-10-03T05:13:08.698Z",
+      "got": 27,
+      "new": 16,
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-10-03T04:56:37.229Z",
+    "at": "2026-10-03T05:11:37.354Z",
     "mode": "live",
     "collection": {
-      "returned": 17,
-      "kept": 9,
-      "duplicate": 8,
+      "returned": 27,
+      "kept": 16,
+      "duplicate": 11,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 2,
+      "accepted": 12,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 2
+        "hard_negative": 1,
+        "no_offer_term": 1,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2106238664019697773",
-          "author": "diannekhawkins",
-          "searchJob": "texas",
-          "text": "@Vanessapaterso6 Surely Contessa is too broke to experience a luxury item like the Duchess offers. Peasants gotta peasant but should do so privately."
+          "reason": "hard_negative",
+          "postId": "2106246455925092458",
+          "author": "finora_en",
+          "searchJob": "south-florida",
+          "text": "sure thing! let's take a look at what $BTC #BTCUSDT.P is doing on the 4h timeframe 👀 - my bias is bullish here as the 4h, daily, and weekly structure are all aligned to the upside, showing higher highs and higher lows - price is currently "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106249137822089651",
+          "author": "mkttalent2026",
+          "searchJob": "kentucky",
+          "text": "https://t.co/hhSuU32eZ1"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2106234849052725415",
+          "author": "verbalcommits",
+          "searchJob": "lsu",
+          "text": "2027 Trinity Valley CC (TX) G Elijah Guillory has received an offer from LSU New Orleans. https://t.co/COddMqioyA"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2106229750637428919",
-          "author": "texasliberty_24",
-          "searchJob": "texas",
-          "text": "@Demeter_Erinia My Gen Z cousin blocked me because I was sending him job offers 😭"
+          "postId": "2106235770696560718",
+          "author": "sportstalkbuff1",
+          "searchJob": "buffalo",
+          "text": "@JayDontFade @BuffaloJayFo89 It wasnt about the money now. It was about how long Tuch wanted Sabres offered 10+ from what I read but he wanted money a 8yrs which the term idk if the sabres were willing to do."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "player_missing_football_context": 1,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 1,
+        "multiple_resolved_schools": 3,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106236159550427470",
+          "postId": "2106232805885727176",
+          "author": "hikeikimuseum",
+          "searchJob": "hawaii",
+          "text": "Our friends at HMSA have been generous enough to offer 50 free admissions to Hawaii Keiki Museum this FALL BREAK. Just bring your family, and show your HMSA card at the front desk.😎🏝️🌊✨#HMSA #HKM #FallBreak #LearnandGrow https://t.co/z41"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106228389983994100",
           "author": "jucofootballace",
-          "searchJob": "jacksonville-state",
-          "text": "Carlos Benjamin @carlos1benjamin @ Itawamba JuCo @LetsGoICC_FB picks up @JaxStateFB Offer @LetsGoICC @jucoweekly @MSJUCOREPORT https://t.co/cwXPPMDdlv"
+          "searchJob": "hawaii",
+          "text": "Ojani Gray @OjaniGray @ Butte JuCo @ButteFootball picks up @HawaiiFootball Offer https://t.co/f1dSm5ZRNT"
         },
         {
-          "reason": "player_missing_football_context",
-          "postId": "2106234964341576044",
-          "author": "carlos1benjamin",
-          "searchJob": "jacksonville-state",
-          "text": "Blessed to receive an offer from Jacksonville State University. @maxwellthurmond @JAJones1218 @Coach_Lovertich @Coach_TMacon @coachmaye3 @JuCoFootballACE https://t.co/pVe1OT9no6"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106245120727326861",
-          "author": "carpe_diem0820",
-          "searchJob": "san-diego-state",
-          "text": "San Diego State football team dealing with mumps outbreak サンディエゴ州立大フットボールチームで流行性耳下腺炎の集団発生 米サンディエゴ州立大では、郡公衆衛生当局が流行性耳下腺炎（おたふく風邪）14例を確認し、集団発生は1つの運動部内にとどまっている。 大学はチーム名を公表していないが、地元紙はフットボール部と報道した。 9月18日時点では確定3例、疑い2例だった。試合前の出場可否リストには約30人が掲載されたが、記事"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106229561168158816",
-          "author": "gregganus1",
-          "searchJob": "indiana",
-          "text": "@DixieBushWookie I totally agree. Now that the season is over Sophie doesn’t have a contract to play for the Indiana Fever next year. Biggest mistake they can ever make is to not offer her a 2 year contract. Unfortunately, as management is "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106241127481319427",
+          "author": "victorgithumbi",
+          "searchJob": "south-florida",
+          "text": "Numbers 29: 12-40 “On The Fifteenth Day Of The Seventh Month You shall Have A Holy Convocation; You shall Not Work at Your occupations. You Shall Celebrate A festival To The Lord (YHWH) Seven Days. You Shall Offer A burnt Offering, An offer"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2106245112103833951",
-          "author": "tingleya05",
-          "searchJob": "penn-state",
-          "text": "@QuicksProps @tombill10 Hartline easily would’ve taken the Penn State job over USF. It was never legitimately offered it him and thats a huge mess up on Kraft’s part"
+          "postId": "2106247535320859123",
+          "author": "ericgstark",
+          "searchJob": "ucla",
+          "text": "@nritter401_ He waited for Penn State to offer and then took the UCLA job. Watch UCLA's offense right now. I held out hope because of the hype about Campbell. I even liked the idea of him bringing in all those players because of familiarity"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106239353261260815",
-          "author": "wandernwoodsman",
-          "searchJob": "texas",
-          "text": "Betting that funding will be restored, some Texas agencies accept Flock’s offer to keep cameras on https://t.co/h2FNunznXE"
+          "postId": "2106247087772049861",
+          "author": "cjjacob10178320",
+          "searchJob": "colorado",
+          "text": "@Hickenlooper Do you have an actual solution? You never speak of solutions. Just attack President Trump. I don't see how Colorado has benefited from anything you have done. I don't see anything you can offer that benefits Colorado."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106225189629702620",
-          "author": "drahcir13h",
-          "searchJob": "texas",
-          "text": "Texas Better Call Saul Original Oil Painting Fantasy Art ebay buy it now make an offer link in comments https://t.co/kxt9eFM9oI"
+          "postId": "2106242168809800117",
+          "author": "syskusa",
+          "searchJob": "colorado",
+          "text": "It’s most likely not his address. It’s one he apparently gave as where his forge was. Theres a pretty good omelette restaurant right behind that address, and the best dam sushi restaurant in the USA not far up the road. Several of us offere"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106232793042964804",
+          "author": "719islandre",
+          "searchJob": "colorado",
+          "text": "Colorado Springs investors: a headline is not a deal. Review realistic rent, recurring costs, and vacancy before you offer. Want a second set of eyes? Let’s talk. #RealEstateInvesting https://t.co/BHEGiq0soL"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2106243563541696724",
+          "author": "axifyclipping_",
+          "searchJob": "florida-state",
+          "text": "Madi2hotty seemingly accepted an offer from the Florida State Seminoles (FSU) football team 🔥 “GRATEFUL 🥺” https://t.co/YZKWDNUron"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2106240802724655412",
+          "author": "thed_zone",
+          "searchJob": "florida-state",
+          "text": "Port Huron 2028 OG/DT Dylan Volpe showed why he's one of the best linemen in the Junior class. He spoke about their win, how they have been able to start 6-0, and his recruiting (Florida State, Eastern Michigan, and Toledo offers). #79 Port"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106244359415009758",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2106229034828939459",
+          "author": "pghsportsnation",
+          "searchJob": "pittsburgh",
+          "text": "Call me crazy, but if Mason Heintschel is out vs UNC, I think Corey Dailey offers more upside than Holden Geriner. But I’d give both an opportunity in practice and see who comes out on top. Whomever is at QB has to have that swagger and con"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106231076767015355",
+          "author": "mottsclub56",
+          "searchJob": "buffalo",
+          "text": "@ScottyBPats Congrats! I can’t believe U found a (betting) website that offered that bet, the Patsies will actually show up in Buffalo? Feel free to share..?!"
         }
       ]
     },
@@ -166,11 +219,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-03T04:58:09.769Z"
+    "status rebuilt locally from current store on 2026-10-03T05:13:09.028Z"
   ]
 }
