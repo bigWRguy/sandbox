@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T00:44:21.381Z",
+  "generatedAt": "2026-10-04T00:57:00.005Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-04T00:44:21.004Z",
+    "at": "2026-10-04T00:56:59.666Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,58 +32,122 @@
   },
   "staleSchools": [
     {
-      "id": "coastal-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "colorado",
-      "hours": 2.3
-    },
-    {
       "id": "georgia-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ohio",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "oregon-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "rice",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "troy",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "tulane",
-      "hours": 2.3
-    },
-    {
-      "id": "virginia",
-      "hours": 2.3
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "wake-forest",
+      "hours": 2.5
+    },
+    {
+      "id": "akron",
+      "hours": 2.3
+    },
+    {
+      "id": "alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "appalachian-state",
+      "hours": 2.3
+    },
+    {
+      "id": "arizona",
+      "hours": 2.3
+    },
+    {
+      "id": "colorado-state",
+      "hours": 2.3
+    },
+    {
+      "id": "hawaii",
+      "hours": 2.3
+    },
+    {
+      "id": "iowa-state",
+      "hours": 2.3
+    },
+    {
+      "id": "maryland",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan",
+      "hours": 2.3
+    },
+    {
+      "id": "nc-state",
+      "hours": 2.3
+    },
+    {
+      "id": "sam-houston",
+      "hours": 2.3
+    },
+    {
+      "id": "tulsa",
+      "hours": 2.3
+    },
+    {
+      "id": "uab",
+      "hours": 2.3
+    },
+    {
+      "id": "unlv",
+      "hours": 2.3
+    },
+    {
+      "id": "utah-state",
+      "hours": 2.3
+    },
+    {
+      "id": "utep",
+      "hours": 2.3
+    },
+    {
+      "id": "vanderbilt",
+      "hours": 2.3
+    },
+    {
+      "id": "washington",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
+      "hours": 2.3
+    },
+    {
+      "id": "wisconsin",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0463941666666667,
-    "p95Hours": 2.2970830555555555,
-    "worstHours": 2.2970830555555555
+    "medianHours": 1.2571233333333334,
+    "p95Hours": 2.2555455555555555,
+    "worstHours": 2.5078122222222223
   },
   "decisionCoverage": {
-    "total": 41,
-    "decided": 41,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -92,305 +156,181 @@
   "profileResolution": {
     "cached": 75
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 2444,
+    "completeOffers": 2445,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-04T00:44:21.003Z",
-      "got": 84,
-      "new": 41,
-      "lag": 0.26
+      "at": "2026-10-04T00:56:59.665Z",
+      "got": 24,
+      "new": 20,
+      "lag": 0.21
     }
   },
   "audit": {
-    "at": "2026-10-04T00:42:45.993Z",
+    "at": "2026-10-04T00:56:35.174Z",
     "mode": "live",
     "collection": {
-      "returned": 84,
-      "kept": 41,
-      "duplicate": 43,
+      "returned": 24,
+      "kept": 20,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 29,
-      "rejected": 12,
+      "accepted": 12,
+      "rejected": 8,
       "reasons": {
-        "no_fbs_school": 7,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 2,
-        "no_offer_term": 2
+        "no_offer_term": 5,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2106507634383692218",
-          "author": "sparklikdiamond",
-          "searchJob": "charlotte",
-          "text": "the rumour about people who smile too easily. Those are the wicked ones. They’re not always loud. They’re often nice. They remember your birthday, they offer help, they lend you sugar, or a hand. But they keep score, quietly."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2106533666172092697",
-          "author": "ddsportsnetwork",
-          "searchJob": "kentucky",
-          "text": "KNIGHTS OFFER “BONES” LAFFERTY Prestonsburg linebacker Crayson “Bones” Lafferty has picked up an offer from Kentucky Christian University, and the Knights know a bad man when they see one! With OVER 500 CAREER TACKLES, Bones has made a livi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2106517991688990992",
-          "author": "danajacoby2",
-          "searchJob": "rutgers",
-          "text": "Tradition! Celebrating the best @rutgers football has to offer. The @EricLeGrand52 @LeGrandWhiskey toast and the birthday of our favorite loyal son @GreenyRU with @petewitk @BillHolobowski https://t.co/PJMFlYTufB"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2106541946881954192",
-          "author": "pokeokc",
-          "searchJob": "tennessee",
-          "text": "Oklahoma State offers C/O 2027 ⭐️⭐️⭐️ CB Preston Glasco Grayson HS | Loganville, GA Glasco holds additional offers from Alabama, Georgia, South Carolina, Tennessee and several others. #GoPokes 🤠"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2106541841818771650",
-          "author": "donedealcardco",
-          "searchJob": "tennessee",
-          "text": "Check out 2025 Topps Chrome Rookie Cam Ward #314 Tennessee Titans Refractor Football https://t.co/1fy1EshPZG #eBay via @eBay $20 🛳️ Free shipping! 🤝 Shoot us an offer!"
+          "reason": "no_offer_term",
+          "postId": "2106106735065010301",
+          "author": "jacobl1994_",
+          "searchJob": "wake-forest",
+          "text": "The reason leftists deny Jewish peoplehood is because the Jewish experience blasts a giant hole in their worldview. Leftism is the belief that any disparity in outcomes are due to oppression, because everyone is the same. But then there’s u"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2106538547662709069",
-          "author": "brentswancer",
-          "searchJob": "tennessee",
-          "text": "https://t.co/7vr55eIr88"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2106532017861018049",
-          "author": "aroarah14",
-          "searchJob": "tennessee",
-          "text": "Family Fun With @raysontheroad1 We took the whole crew to The Island in Pigeon Forge for an action-packed day of VIP rides, new attractions, arcade madness, and sweet treats! Join the family as we see what this East Tennessee hotspot has to"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2106541545776452074",
-          "author": "arrowwind09",
-          "searchJob": "colorado",
-          "text": "Nobody is screwed...a nation is being rebuilt.....Economic benefits: taxes, income, employment, and trade: Lower individual income-tax rates. The 2017 Tax Cuts and Jobs Act reduced several tax brackets and nearly doubled the standard deduct"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2106538843310895587",
-          "author": "colorado_clock",
-          "searchJob": "colorado",
-          "text": "@MBeasleyMD I mean, your wife did walk by right after and offered to suck me off because she thought it was so cool, I told her I only dated women with teeth."
+          "postId": "2106534235523752036",
+          "author": "kingsolomon_jnr",
+          "searchJob": "wake-forest",
+          "text": "STAKE MIDNIGHT TICKETS 🌌🕛 💥 Wake up to Big BoooM. 💵 🏆2 odds ➡️ https://t.co/UEZ1lCOctP 🏆2 odds ➡️ https://t.co/pn8WflkHCD 💻 Register here 🔽🔽🔽 🔗 https://t.co/1lUMt39tNo Use Promocode: KINGJNR to get up to $500 bonus https://t.co/8"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2106501301278523496",
-          "author": "assocanderson",
-          "searchJob": "virginia",
-          "text": "A second dead felon had their rights restored by the Gov of Virginia. This time with explicit instructions on how to register online to vote by mail (because let’s face it - it’s hard for dead people to do this in person - so we need accomm"
+          "postId": "2106525292848119975",
+          "author": "georgeonlinellc",
+          "searchJob": "wake-forest",
+          "text": "From a purely astronomical standpoint, the sun does physically pass through Ophiuchus for 18 days each year. However, ancient astronomers weren't just tracking the sun; they were building a functional, cyclical calendar. A 360-degree celest"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106509511234052283",
+          "author": "genehophoto",
+          "searchJob": "wake-forest",
+          "text": "Why did they HIDE the Most Important Constellation?! Everyone thinks there are 12 Zodiac Signs. You know them… Aries, Leo, Gemini. They were selected because these were the constellations that the SUN passes through. But there is another… O"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106445337875337278",
+          "author": "amitsegal",
+          "searchJob": "wake-forest",
+          "text": "Plumber by Trade, Army Cook by Duty: The Hero of Flight 1073 Reveals the Incredible Story of the Hijacking and Rescue https://t.co/h435xlsJGy"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2106529565506253133",
-          "author": "farmingvirgina",
-          "searchJob": "virginia",
-          "text": "Democrats run states and cities offer the worst of everything. The most crime The most blight The most expensive gasoline The most homelessness The highest housing costs The most poverty The worst drug problems The highest taxes The most ex"
+          "postId": "2106517711081865703",
+          "author": "middaywake",
+          "searchJob": "wake-forest",
+          "text": "If I may offer a more constructive take on this : I think this is bullish for $STONK coin itself and I think it goes to multiple billions in valuation If I were @LaunchOnSF I’d lift up the early builders like $ZCAT, $NEARKAT and ensure larg"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2106513151974117580",
-          "author": "pjvaught2",
-          "searchJob": "virginia",
-          "text": "@Riley_Gaines_ Same for Mark Warner in Virginia! All he offers is TDS + Communism!"
+          "postId": "2106506523656810577",
+          "author": "memenalu808",
+          "searchJob": "wake-forest",
+          "text": "If I may offer a more constructive take on this : I think this is bullish for $STONK coin itself and I think it goes to multiple billions in valuation If I were @LaunchOnSF I’d lift up the early builders like $ZCAT, $NEARKAT and ensure larg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2106432242943967297",
+          "author": "yishanyugong",
+          "searchJob": "wake-forest",
+          "text": "If I may offer a more constructive take on this : I think this is bullish for solana:6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx coin itself and I think it goes to multiple billions in valuation If I were @LaunchOnSF I’d lift up the early "
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 27,
+      "accepted": 1,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 21,
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_class_year": 1,
-        "explicit_non_fbs_target": 1
+        "school_not_resolved_confidently": 9,
+        "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106535898552607117",
-          "author": "elacock419",
-          "searchJob": "buffalo",
-          "text": "I had an awesome two days at the University at Buffalo! Thank you @PlimptonChelsea, @Steph_Roan6, and Coach G for taking so much of your time to introduce me to the team, the University, the culture, academics, and your coaching styles. I a"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106545953855467568",
+          "author": "hyuchast",
+          "searchJob": "wake-forest",
+          "text": "@mehezal and then u wake up to reality and historically every society controlled by women collapsed also they are the ones who initiate the most wars Hell even fucking cleopatra went to Rome to offer her body to initiate a war to kill her o"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2106519775841022197",
-          "author": "49erswebzone",
-          "searchJob": "charlotte",
-          "text": "#49ers offer scouting reports on Bo Nix, Talanoa Hufanga ahead of Broncos game #FTTB Read: https://t.co/1IDH78bcTP"
+          "postId": "2106545699957399715",
+          "author": "izatabaro",
+          "searchJob": "wake-forest",
+          "text": "This is an interesting way of thinking about why the denial of Jewish peoplehood fits so comfortably into contemporary leftwing politics. I’d add another dimension to it. The denial of Jewish peoplehood on the left actually has a very long "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2106518232538423589",
-          "author": "authentictake_",
-          "searchJob": "charlotte",
-          "text": "Sources suggest the 49ers front office considered him overrated, potentially leading Hufanga to leave for better appreciation and offers. He's now fresh off AFC Defensive Player of the Week honors and misses Dre Greenlaw. #49ers #NFL https:"
+          "postId": "2106541677083349205",
+          "author": "eddiemcpigskin",
+          "searchJob": "wake-forest",
+          "text": "I brought up all the trades that occurred in my main league from the last 10 years and found that the managers with the most trades executed have all won championships and 90% of those seasons, included a trade. This was a wake up call for "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106538005590843418",
+          "author": "super_ransom",
+          "searchJob": "wake-forest",
+          "text": "@TheDonCoogi Pharrell &amp; Pusha been tryna rally and wake up certain artist together to take out the “Owl Man” . Idk how they’ve been approaching these guys, but I’m pretty sure it’s been with an offer then can’t refuse 😂"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106532287160402423",
+          "author": "genehophoto",
+          "searchJob": "wake-forest",
+          "text": "Common question we get here: Who is our “source.” Where do we get our information? Have you followed our posts? WHO today is giving out information like this? The BETTER question to ask is? Who is the “source” of ALL those FAKE MAGA podcast"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106531806828761289",
+          "author": "eggsneedlove2",
+          "searchJob": "wake-forest",
+          "text": "@RedRattler_ Bush 8 Obama 8 Trump 4 Biden 4 Trump 2 so out of the last 26 it’s 12 -14 Republicans wake up neither side is fixing anything war debt and and empty promises are all either duopoly party have to offer."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106531062725669023",
+          "author": "concupiscible26",
+          "searchJob": "wake-forest",
+          "text": "You are pathetic! First off, I put on a uniform and offer my life for this country. I primarily grew up in South Alabama in a farming community where I worked my ass off. My father retired of Lieutenant Colonel and was a chopper pilot in Vi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106509240504582366",
-          "author": "charlottej868",
-          "searchJob": "charlotte",
-          "text": "@RepKeithSelf FU. Betting that Abbott will soon restore funding, some Texas agencies accept Flock’s offer to keep cameras on. https://t.co/16zIzSJzjD"
+          "postId": "2106530403741798644",
+          "author": "liron",
+          "searchJob": "wake-forest",
+          "text": "Jesus, I've never seen an interview like this! 🤯 Watch the whole thing or at least read my notes: 1. Yaniv was sitting in Row 11, not Business Class. He heard a woman up front yelling “Stabbings!\" (She didn't say who.) Yaniv immediately st"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106517635701600428",
+          "author": "sapphiresun7",
+          "searchJob": "wake-forest",
+          "text": "@FatherHagood @calvinrobinson When we struggle with this through anger or hate we offer all these feelings up to God and ask him to take those damaging feelings from us and ask him to help purify our hearts. Then we can let go off all the h"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106512905038680109",
+          "author": "ayomosuro",
+          "searchJob": "wake-forest",
+          "text": "@higgsfield @JeanPhilMadame wake up, check Twitter, see AI influencers, post them, drive traffic to an offer, go to bed, repeat https://t.co/rhgdsfdWsP"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106512692915695688",
-          "author": "slkeeton",
-          "searchJob": "north-texas",
-          "text": "Off Market North Texas 3 bedrooms 2 baths 3 car garage Offered at $289,900 Message me for info https://t.co/xmT4WDo0de"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106541846436643240",
-          "author": "burntshirtlifer",
-          "searchJob": "lsu",
-          "text": "@Dwayne42005782 Wife has a coworker who gets season tickets for LSU she offered us two tickets to come out to Baton Rouge! Might be seated!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106532857598398465",
-          "author": "allvolreport",
-          "searchJob": "tennessee",
-          "text": "Tennessee offers in-state 2028 6’6” TE Jake Payne🍊"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2106529010419150922",
-          "author": "ashlyn554",
-          "searchJob": "tennessee",
-          "text": "4 TICKETS—Alabama vs Tennessee Alabama Crimson vs Tennessee at Neyland Stadium, Knoxville, TN. Sat, Oct 17 Plans changed. Great seats available Reasonable offers welcome DM if interested #TennesseeVols #tennessee #TennesseeFootball #Neyland"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106523711457161380",
-          "author": "10tampabay",
-          "searchJob": "tennessee",
-          "text": "Tennessee Gov. Bill Lee announced that the commissioner of the state's department of corrections offered his resignation and will step down from his role this month. https://t.co/2695YIOTgE"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106523442355069380",
-          "author": "blackhistorical",
-          "searchJob": "tennessee",
-          "text": "A whole Black community gave up the biggest Sunday of their year, brand new Easter clothes and all, just to keep their money out of stores that would not serve them. Within weeks the most powerful merchants in Nashville were begging them to"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2106523098379907299",
-          "author": "pinkcamosoul",
-          "searchJob": "tennessee",
-          "text": "Tennessee Department of Correction Commissioner Frank Strada has offered his resignation, Governor Bill Lee announced Saturday, October 3. He will step down this month as an independent review examines the failed execution of Christa Pike. "
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2106519165859512671",
-          "author": "kentrelltolber3",
-          "searchJob": "tennessee",
-          "text": "Blessed to receive an offer from university of Tennessee at martin @CoachGsteeleUTM @JasonKervin https://t.co/09zTdIMbmP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106513429943210428",
-          "author": "archangeldawn",
-          "searchJob": "tennessee",
-          "text": "@pns_disability @UHClayborn33 I stay in Richmond-Rosenberg and with the price of gas an everything going up, it doesn't help that there are no deals at the concession stands. If it's an 11am Kick-off, at least offer half price beers. Tennes"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2106530016385220756",
-          "author": "michrules32",
-          "searchJob": "ucla",
-          "text": "You can go get the HC at UCLA, UK, Florida and many other coaches that have proven they can coach. No reason sticking with Kyle for more than a year the game has passed him by. Hell go make Cig and offer he can’t refuse!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106538190345474057",
-          "author": "ghostofpfm",
-          "searchJob": "usc",
-          "text": "@AYSSPORTS @joedeleone Why is there a Question mark That’s already done They need to get the guy from Wake before Clemson fires Daybo and offers a bigger bag 💰 Or usc fires their knucklehead and offers even more 💵"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106516166760149359",
-          "author": "chadsimmons_",
-          "searchJob": "clemson",
-          "text": "Elite 2028 WR Madoxx Davis adds Clemson offer on his visit to Death Valley today. @PaulStrelowTI https://t.co/pZJYxGRdig"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106534890988822839",
-          "author": "mtprinceton2023",
-          "searchJob": "colorado",
-          "text": "🤶🎄 Mount Princeton Hot Springs 🎅🎄 https://t.co/9QIKlaxJb2 🎄🎄 (719) 398-3694 🎄🎄 Get ready for the holiday season by celebrating in the Colorado mountains. 🎄🎄 Mount Princeton Hot Springs Resort offers breathtaking views and beautifu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106534260392050983",
-          "author": "mtprinceton2023",
-          "searchJob": "colorado",
-          "text": "🍂🍂 Foliage season reservation yet? 🧡🍂🍂 Mount Princeton Hot Springs https://t.co/Uvia0swIlW 🧡🍂🍂 Escape to Mount Princeton Hot Springs Resort and discover the ultimate in relaxation and natural beauty. Whether you’re seeking a day of "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106518869095669846",
-          "author": "celestialwater3",
-          "searchJob": "colorado",
-          "text": "@BTruth13 @SenatorBennet Healthcare is a human right and a universal one though. How is denying help to Colorado cuz Colorado offers Healthcare to everyone a fair comparison?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106514500094402783",
-          "author": "meetbob69xx",
-          "searchJob": "colorado",
-          "text": "@TClemdenen @MarkInColumbo Again, he tried, and the only one willing to come was Staub from Colorado. And AGAIN, WHO do you think the answer would have been? You're quick to criticize and complain, but have yet to offer anything if real sub"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106523834795094506",
-          "author": "beast502mode",
-          "searchJob": "louisville",
-          "text": "@beebs4201 Guess we will see huh? And if that’s your stance then that’s even worse bcuz UofL isn’t goin to pay these kids what other universities will offer the bigger recruits… that’s for damn sure… 🤷🏻‍♂️"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106515857669304474",
-          "author": "neoludditism",
-          "searchJob": "louisville",
-          "text": "@PghSportsNation You are crazy, but so was anyone who thought Mason Heintschel, a true freshman (who was a third string at the time) with one P4 offer, would go 6-2 after the Louisville game last year."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106523655672930627",
-          "author": "ns_242424",
-          "searchJob": "utah",
-          "text": "@trevormccue @bluebyninety Should’ve left Whittingham in retirement. Guy was mediocre his entire career at Utah. Jason Beck’s play calling is complete garbage, Underwood is garbage. I see why Harbaugh didn’t offer him."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106518534344016362",
-          "author": "utahman4life",
-          "searchJob": "utah",
-          "text": "@MrFrank1212 They went for the money and nothing else. They were never Utah guys. Smith and his team were trying to cut deals with other programs constantly. Then he'd use those to milk more money out of Utah. Utah was JJ's best offer out o"
+          "postId": "2106527915982590387",
+          "author": "chrissmoothqb",
+          "searchJob": "coastal-carolina",
+          "text": "#ᴀɢᴛɢ Coastal Carolina Offered🙏🏾 #27 @Ry_Beard @NickPetrinoCCU @rvfc10 @ChadSimmons_ @CoachCarmean https://t.co/PmcVBfcRY2"
         }
       ]
     },
@@ -398,18 +338,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 1,
+      "requests": 6,
+      "errors": [
+        "georgia-state: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 27,
-      "brandNewOffers": 2
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 11,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-04T00:44:21.382Z"
+    "status rebuilt locally from current store on 2026-10-04T00:57:00.006Z"
   ]
 }
