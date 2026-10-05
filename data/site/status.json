@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:13:17.784Z",
+  "generatedAt": "2026-10-05T10:28:43.360Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-05T10:13:17.504Z",
+    "at": "2026-10-05T10:28:43.015Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7765619444444445,
-    "p95Hours": 1.5272105555555555,
-    "worstHours": 1.5272105555555555
+    "medianHours": 0.5338358333333333,
+    "p95Hours": 1.5323230555555556,
+    "worstHours": 1.784315
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 76
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 2515,
     "incompleteOffers": 0
@@ -55,104 +55,173 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-05T10:13:17.503Z",
-      "got": 18,
-      "new": 9,
-      "lag": 0.25
+      "at": "2026-10-05T10:28:43.014Z",
+      "got": 29,
+      "new": 19,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-05T10:11:49.049Z",
+    "at": "2026-10-05T10:27:09.863Z",
     "mode": "live",
     "collection": {
-      "returned": 18,
-      "kept": 9,
-      "duplicate": 9,
-      "tooOld": 0,
+      "returned": 29,
+      "kept": 19,
+      "duplicate": 8,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 4,
+      "accepted": 14,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 2,
-        "hard_negative": 1,
-        "no_offer_term": 1
+        "no_fbs_school": 1,
+        "no_offer_term": 4
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2107041316115042472",
-          "author": "dr_thehistories",
-          "searchJob": "oregon",
-          "text": "Susan Kuhnhausen fought for her life when a hitman tried to kill her in a murder-for-hire plot orchestrated by her husband... On September 6, 2006, Susan Kuhnhausen came home from work and found a stranger waiting inside her bedroom with a "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2107046048560812142",
-          "author": "dunnbilly87734",
-          "searchJob": "texas",
-          "text": "Cardinal Louis Raphael Sako is going to be elected as the next Pope Paul VII before his 80th birthday in the year 2029, after the assassination of Pope Leo XIV at Temple Mount in Jerusalem. Cardinal Sako born when? Louis Raphaël I Cardinal "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107046589504045561",
-          "author": "walter_daviskw",
-          "searchJob": "houston",
-          "text": "Northwest Houston offers a variety of incentives for new homes, usable toward closing costs, upgrades, or builder perks. https://t.co/bqnFsCvW4k"
+          "postId": "2107054616831496252",
+          "author": "mazharbutt2030",
+          "searchJob": "marshall",
+          "text": "@RealGabeItch Really enjoying this project! I offer FREE support, just DM me! 🚀"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107032526157979825",
-          "author": "nycjewishnurse",
-          "searchJob": "buffalo",
-          "text": "https://t.co/lusOproHkN"
+          "postId": "2107042352938561658",
+          "author": "roodog2006",
+          "searchJob": "marshall",
+          "text": "@alfra26 Did you apply the same logic to Tim Kelly or does thay only apply to Geelong getting players?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106981079412621481",
+          "author": "kingswitchmatt",
+          "searchJob": "marshall",
+          "text": "St Kilda not willing to give GWS what they think Aleer is worth= Saints are assholes Geelong not willing to give St Kilda what they think Marshall is worth= Saints are assholes"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107002408538898801",
+          "author": "stk__itk",
+          "searchJob": "marshall",
+          "text": "And can we stop pretending like Geelong have been completely reasonable with their negotiations, pick 32 or whatever it was is a joke. Theres a middle ground to be found but its on Geelong to find it. If this trade goes through, St Kilda wi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107049266539626624",
+          "author": "ra_cap1tal",
+          "searchJob": "class:2030",
+          "text": "Vertiv Holdings Co $VRT Investment Thesis https://t.co/I2wxfIE6rz"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 14,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 4
+        "bare_mention_requires_llm": 12,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107039230576951337",
-          "author": "abundantly444",
-          "searchJob": "oregon",
-          "text": "Blueface thinks he’s so f*cking smart but he’s DUMB🤣🤣😩😩😩😩 He ducks food because he’s vision impaired and can SMELL things like candy and foods being offered so he turns his head A NON FOOD item doesn’t smell like food so he thinks its"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107043876100096491",
+          "author": "gohannojikan333",
+          "searchJob": "hawaii",
+          "text": "Zippy's is a local family restaurant in Hawaii! I’d love to go back. It's great for large groups, but they’re also thoughtful enough to offer mini-sized menu items! https://t.co/KIFGbYA70L"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107030292435181632",
-          "author": "aaaahhh_1234",
-          "searchJob": "penn-state",
-          "text": "@keldonGOAT @MagicGilasFan Kieffer only played here in the US for a few months kaya kakaunti mga offers tapos hindi pa malalakas unlike Gemao na nakikita maglaro despite being in Canada kaya kinuha ng Penn State."
+          "postId": "2107048524793909315",
+          "author": "editedbylaura",
+          "searchJob": "marshall",
+          "text": "@deathrows122 @jdonohoe12 I also think this BnF situation will see St Kilda open the floor to other clubs. Because we’ve gone from “Geelong or keep him” to now not being able to keep him. So if I’m St Kilda, I’m entertaining all offers and "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107036781984059526",
-          "author": "widdershins30",
-          "searchJob": "tennessee",
-          "text": "@timmcgahren @fascinatingonX You offer noting to solve the problem ? come now surly with your leading intelligent comment you can solve a problem that tennessee started with a law . Don't be just another whiner dazzle the crowd with with yo"
+          "postId": "2107048481663963536",
+          "author": "simonevans_76",
+          "searchJob": "marshall",
+          "text": "@BigBirdsBigGame My take: - Miers wants to stay. But has done a medical in case Eagles make an offer too good to refuse - if they do, he can accept without cutting his holiday short. - cats happy for Miers to leave as it is a way to bleed a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107037867059101899",
-          "author": "atholt",
-          "searchJob": "buffalo",
-          "text": "ActionSA on the streets of Buffalo City canvassing for public support. Our offer is simple, are you “Gatvol”? Let us Fix it. https://t.co/CxYIfWooI7"
+          "postId": "2107048271621640594",
+          "author": "alfra26",
+          "searchJob": "marshall",
+          "text": "It applies to anyone ending up having to seek a trade for the second year running. Some similarities only, some crucial differences. Tim was traded for a fair and commensurate deal in the second year (he challenged for a Brownlow) once West"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107047754060964146",
-          "author": "okpalatobias",
-          "searchJob": "maryland",
-          "text": "@OLCoachKnox @OLCoachKnox best frame here! You got one right here! Tobias Okpala ATH C/O 2027 3.0 Gpa 6’2/ 193 lbs 30.5” STANDING Vertical ( June 19th;Maryland Terrapins camp) 32” Arm Length 4.64 40 1 Offer Ravensburg Razorbacks (Germany)"
+          "postId": "2107047761858425270",
+          "author": "skip20161",
+          "searchJob": "marshall",
+          "text": "@SaintsTragic @tommorris32 @7AFL @7NewsMelbourne @1116sen Come on Tom leak the contract offer Marshall got from the cats! Surely the number 1 footy news breaker would know this?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107040932487156127",
+          "author": "simonevans_76",
+          "searchJob": "marshall",
+          "text": "@Cade_Wilsonn The Cats offer is somewhat low given that F1st will likely be a mid-30 pick in a diluted draft pool. I would counter with a somewhat overs offer. But countering with 14, another pick and a player for Marshall is just a pi55tak"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107040414633214273",
+          "author": "davram88",
+          "searchJob": "marshall",
+          "text": "@ash_gallagher @andybuds23 You're forgetting about the 'for a fair deal' clause that went with that promise. Cats current offer is a joke and Marshall should be offended thats all they think he's worth, after chasing him for 2+ years."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107035111896056113",
+          "author": "alexwilliams282",
+          "searchJob": "marshall",
+          "text": "This isn't how the Aleer deal fell apart. Saints offered a healthy offer to Leek and pulled it at the last minute. They were assholes. I also think Marshall is worth more than what Geelong will pay."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107033882503823594",
+          "author": "nmps56",
+          "searchJob": "marshall",
+          "text": "@Cade_Wilsonn Just like Merrett was three 1sts and a player last year. This year, one 1st and two 2nds. Cats gave Saints a good offer and they said no. Marshall a year older. Keep wasting $2.5 million a year on the ruck. Cats will take Mars"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107032974508048672",
+          "author": "dovydas44444",
+          "searchJob": "marshall",
+          "text": "🇺🇸US is using a 🇷🇺Russian seaport and a 🇲🇭Marshall Islands vessel to ship 30,000 tonnes of 🇧🇾Belarusian potash. This is a first potash shipment to the West since US sanctions were imposed on Belarus in 2021. The price or specific US"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107032027207995572",
+          "author": "stk__itk",
+          "searchJob": "marshall",
+          "text": "We didn’t want to trade Marshall last year, hence we rejected a very reasonable offer, in fact we didn’t even entertain it. I’m not surprised Rowan wants out, and I support it, but we have every right to get a more than fair price for a con"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107031215262048299",
+          "author": "alfra26",
+          "searchJob": "marshall",
+          "text": "Remember how you stiffed Marshall and Andrew Mackie in a reasonable deal last year walking away from 19 +f2 and so now you think he’s worth 14 and or a best 23 player a year later. Such breathtaking arrogance. Glad to see you think your tea"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2107052607659229226",
+          "author": "rdejay",
+          "searchJob": "arkansas",
+          "text": "🔔 TURN ON NOTIFICATIONS 🚨 13 STATES HAVE VOTER-REGISTRATION DEADLINES TODAY October 5, 2026. 29 days until Election Day. For the November 3 election, TODAY is the registration deadline in: Arizona Arkansas Florida Georgia Indiana Kentucky"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2107040193765068898",
+          "author": "julie_wade",
+          "searchJob": "michigan",
+          "text": "Morning Market Report 🌞 Monday, October 5, 2026 Opening Perspective: Consumer Sentiment and Midterm Precedent Historically, no governing political party—Republican or Democrat—has successfully held control of the U.S. House of Representati"
         }
       ]
     },
@@ -167,11 +236,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 14,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-05T10:13:17.784Z"
+    "status rebuilt locally from current store on 2026-10-05T10:28:43.361Z"
   ]
 }
