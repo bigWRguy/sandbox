@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T01:11:06.124Z",
+  "generatedAt": "2026-10-05T01:43:08.680Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-05T01:11:05.794Z",
+    "at": "2026-10-05T01:43:08.409Z",
     "jobsTotal": 162,
-    "sweptThisRun": 6,
-    "requests": 7,
-    "fullSweepCycles": 27
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,22 +32,22 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.9900733333333334,
-    "p95Hours": 1.4893363888888889,
-    "worstHours": 1.7430086111111112
+    "medianHours": 1.0246897222222222,
+    "p95Hours": 1.774278888888889,
+    "worstHours": 2.0233797222222223
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 48,
+    "decided": 48,
     "complete": true
   },
   "pending": {
-    "total": 121
+    "total": 120
   },
   "profileResolution": {
     "cached": 76
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 2503,
     "incompleteOffers": 0
@@ -55,42 +55,337 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-05T01:11:05.794Z",
-      "got": 3,
-      "new": 2,
-      "lag": 0.57
+      "at": "2026-10-05T01:43:08.409Z",
+      "got": 82,
+      "new": 48,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-10-05T01:10:39.376Z",
+    "at": "2026-10-05T01:41:38.852Z",
     "mode": "live",
     "collection": {
-      "returned": 3,
-      "kept": 2,
-      "duplicate": 1,
-      "tooOld": 0,
+      "returned": 82,
+      "kept": 48,
+      "duplicate": 33,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 30,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "no_fbs_school": 5,
+        "non_fbs_offer_target": 3,
+        "no_offer_term": 7,
+        "hard_negative": 3
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2106900750399922597",
+          "author": "br_openice",
+          "searchJob": "oregon",
+          "text": "Leo Carlsson gets a LOUD ovation in his first home game post offer sheet as well as Granlund's first intro as captain! 🔥🦆 https://t.co/YhPwEUCekz"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2106921141734429031",
+          "author": "monithomas22",
+          "searchJob": "tennessee",
+          "text": "Blessed to receive a offer from Tennessee Valley @Chandaman91 @CoachJC16 @footballopelika @OpelikaRecruits @AL6AFootball https://t.co/SfuOBa29Ca"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106921004102730101",
+          "author": "dinidu",
+          "searchJob": "tennessee",
+          "text": "https://t.co/GZJ9Q0xzS1"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2106918572698022122",
+          "author": "kavionclay0",
+          "searchJob": "tennessee",
+          "text": "Blessed and Thankful to receive an offer from Tennessee Valley! #AGTG @NavendraWoods @Mitchell_Spates @RepToTheMax @CoachDevinG_RB @raveryjr @HallTechSports1 @PrepRedzoneAL @Tyler_NPreps @tvdefenders @Chandaman91 @poe_cam @KelvisWhite https"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106914564151324836",
+          "author": "hapi12334223",
+          "searchJob": "tennessee",
+          "text": "https://t.co/xT5veFkoTu"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2106909452066529744",
+          "author": "cmoore2027",
+          "searchJob": "tennessee",
+          "text": "After a conversation with @Chandaman91 I am blessed to receive an offer from Tennessee Valley #AGTG https://t.co/NQysq7RqmX"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2106918801409282169",
+          "author": "braniffintl",
+          "searchJob": "texas",
+          "text": "BRANIFF HISTORY TODAY - On this day, Wednesday, October 4, 1967, Braniff International petitioned the Civil Aeronautics Board for nonstop service between Miami, Florida, and London, England. The new route application was announced by Thomas"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2106913527214571551",
+          "author": "braniffintl",
+          "searchJob": "texas",
+          "text": "BRANIFF HISTORY TODAY - On this day, Monday, October 4, 1943, Braniff Airways, Inc., petitioned the Civil Aeronautics Board for authority to operate service between Chicago, Illinois, and Newark, New Jersey/New York, New York. The new route"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2106913046538932475",
+          "author": "texitdarling",
+          "searchJob": "texas",
+          "text": "@cjs214 I was going to DM you but I think they’re closed. I have someone who’s blocked by you and I offered to reach out to see if it was a glitch. I’ve had Twitter glitches where it unfollowed people for me and blocked me from people who h"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106903926540755077",
+          "author": "amuse",
+          "searchJob": "texas",
+          "text": "TEXAS GOVERNOR'S RACE: I keep hearing property taxes have increased +80% and I realized that they were referring to the appreciation of real estate and not the tax rate - the effective rate is down since Abbott took office. https://t.co/Utg"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106901535376437536",
+          "author": "oortizduarte",
+          "searchJob": "texas",
+          "text": "We have a classical canon of books. Why not movies? https://t.co/UxYX67p3Ts"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2106906567497187681",
+          "author": "dukeanddukecb",
+          "searchJob": "duke",
+          "text": "@naterkane Creating shortages through policy that mean less housing is offered for rent, that that housing is of lower quality, and that the shortages the policy creates lead to higher market rents is a feature of rent controls, not a persp"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2106902858411155531",
+          "author": "ssn_shsu",
+          "searchJob": "houston",
+          "text": "🚨COMMITMENT🚨 @BearkatsFB gets their 13th commitment of the 2027 class in 6’1 210lbs QB from Troup, TX!!! The Kats just offered him yesterday and he also held offers from Utep, HCU, among others. #ClassOf27 #KlawsOut https://t.co/RTZgQP9lT"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106907880725324023",
+          "author": "stanfordminds",
+          "searchJob": "stanford",
+          "text": "https://t.co/gfdxdFOQNS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2106906151094993090",
+          "author": "alanreay",
+          "searchJob": "charlotte",
+          "text": "Can the @RamsNFL @49ers @Seahawks @AZCardinals @ChicagoBears @packers @Vikings @Lions @cowboys @Giants @Eagles @Commanders @Saints @Buccaneers @AtlantaFalcons @Colts offer some cancer support or just share for awareness https://t.co/kPVT2bA"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2106895907346350326",
+          "author": "c_corday",
+          "searchJob": "charlotte",
+          "text": "I reckon a future first in addition to their tabled offer gets it done, probably with something from us going back the other way. We need 2027 points and Tas are taking all the talent next year anyway, if Hawthorn won't give that pick up it"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106909408135676036",
+          "author": "brentswancer",
+          "searchJob": "rice",
+          "text": "https://t.co/vLzJRPC1um"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106918734258393471",
+          "author": "m_yudysky",
+          "searchJob": "troy",
+          "text": "Latin’s everyday words reveal an Italic inheritance shaped by Etruscan and Greek contact. Explore what language, archaeology and ancient DNA tell us about Roman origins—and why the Aeneid’s Trojan ancestry remains unproven. https://t.co/ikE"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 0,
+      "rejected": 30,
+      "reasons": {
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 23,
+        "school_not_resolved_confidently": 3
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2106921721437491309",
+          "author": "tramblejoe",
+          "searchJob": "ohio",
+          "text": "THEUNIT MIDWEST RECRUITMENT Spotlight Athlete: @Noahcooper_35 @FlintPrepFan @DBCoachWhite @Coach_CoreyB @douglass_elijah @D_Hicks_ @CoachFoster23 2029 ATH Noah Cooper 5'10 160lbs GPA: 3.7 Grand Blanc HS, Michigan Offers: Miami of Ohio, Tole"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106906429378502831",
-          "author": "arminkhanick",
-          "searchJob": "buffalo",
-          "text": "@CarvinNescope @Yodhaa_warrior Defend?? Lmao give me a break honky😂😂😂 Mother Fvcker read history, your POS ancestors fight dirty like pigs. By infecting blankets with virus and offer them to the natives, or mass killing buffalo herds to "
+          "postId": "2106918084900442462",
+          "author": "eliarmjack2",
+          "searchJob": "ohio",
+          "text": "My best play yet so far of my career. Coaches, I’m interested and looking forward to building relationships! Versatile athlete, I’m able to play anywhere you need me at. 📏6’3 | 205 | 3.92 GPA 16 Y/O (C/O 2028) 📍Cleveland Heights, Ohio 📚L"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106917586906522027",
+          "author": "eliarmjack2",
+          "searchJob": "ohio",
+          "text": "My best play yet so far of my career. Coaches, I’m interested and looking forward to building relationships! Versatile athlete, I’m able to play anywhere you need me at. 📏6’3 | 205 | 3.92 GPA 16 Y/O (C/O 2028) 📍Cleveland Heights, Ohio 📚L"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106915366223962596",
+          "author": "realpeterotten",
+          "searchJob": "ohio",
+          "text": "@BuchananEndH1B he´s not worse than Amy, but he also isnt much better... he offers the people of Ohio a different type of scam. One that involves making everything scarce and expensive in Ohio. Basically, selling out the state."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106903933943697560",
+          "author": "jakeforchange",
+          "searchJob": "ohio",
+          "text": "@MathewsforOhio @OhioSenateGOP @OHRGOPCaucus @VivekGRamaswamy The best thing the Ohio Republican Party has to offer you is $6 diesel. Vote blue up and down the ballot, Ohio!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106899977117078013",
+          "author": "blue_beefalo",
+          "searchJob": "kentucky",
+          "text": "@TerribleMaps Kentucky offers a super unfriendly greeting"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106897225368351229",
+          "author": "skimaskna45",
+          "searchJob": "lsu",
+          "text": "@BuckeyeBat Wonder what LSU offered him"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2106916203683803338",
+          "author": "byumaximus",
+          "searchJob": "oregon",
+          "text": "🏈 THE 2025 TEST RUN: CLOSE. NOT IDENTICAL. I applied THE MAXIMUS RESUME A1.3 to the 2025 season—including conference championship games—and compared it with the final AP and CFP rankings. MAXIMUS excluded bowls and playoff games. 🎯 13 of "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106915294862336046",
+          "author": "sportshashhash",
+          "searchJob": "oregon",
+          "text": "Thank God Briere offer sheeted Carlsson the Ducks are a problem. Yowzer."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106902892217283070",
+          "author": "tpblue4",
+          "searchJob": "oregon",
+          "text": "@BunchaSheeple @Dudenamed_Mark @BowelsIrritable @TinaKotek @DanRayfield It’s highly doubtful. 😆 Though, about 30 states offer some variation of community college for free — including Oregon. 🤔"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106900960387748194",
+          "author": "mikebartner",
+          "searchJob": "oregon",
+          "text": "The dumbest people on this app were saying Ducks fans were going to hate him after the offer sheet LMFAOOOO"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106903825726521782",
+          "author": "aj_ffball",
+          "searchJob": "rutgers",
+          "text": "It looks like Charlie Becker is trending towards being the consensus WR2 in the 2027 class. He's a good prospect but I'm not sure I'm all the way there on the top 10 grades that I've been seeing around. One reason is that he offers next to "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106904769482875274",
+          "author": "solve2day",
+          "searchJob": "tennessee",
+          "text": "\"The Tennessee Theatre is proud to offer a wide variety of events\" was a lie. The drag show mirrors her tenure. Conversely, @sevierheights Living Christmas Tree was so successful it outgrew the Theatre. She watched that success as GM and di"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106915017064898958",
+          "author": "jeffyunafortx",
+          "searchJob": "texas",
+          "text": "What Claude has to say about this post. It's a scam, or at best a bait-and-switch. The \"comment CLAUDE, like, retweet, follow\" part gives it away. That's engagement farming: the account grows, and whatever arrives in your DMs is usually one"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2106912943850008790",
+          "author": "schitzoziris",
+          "searchJob": "texas",
+          "text": "Something for the Rabbi ! I’m getting confusing dates for today. One thing is telling that the 5th of October is (Tishrei ) the 5787th Birthday of Adam and another is telling me it was on September 11 ! Anyway Happy Birthday, Mud Baby, Adam"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106906123513029074",
+          "author": "lynnnodima",
+          "searchJob": "texas",
+          "text": "A warning went unheard. A choice was made. And three days later, the ranch fell silent. Janelle only intended to spend spring break at home. But when a faint panther scent drifts across Texas Ranch Wolf Pack land—and vanishes just as quickl"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2106899436173435073",
+          "author": "warriors_mom",
+          "searchJob": "texas",
+          "text": "Strikes by North Sea oil workers could ‘severely disrupt’ UK fuel supplies ⛽️ Union says staff left with no choice but industrial action after breakdown in pay talks with Texas oil firm Apache. “We believe our final offer to the union is fa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106898880134558032",
+          "author": "redpilllaredo",
+          "searchJob": "texas",
+          "text": "Betting that @GregAbbott_TX will soon restore funding, some Texas agencies accept Flock’s offer to keep cameras on #TexasDPS #GregAbbott #Atlanta #Countycommission https://t.co/Crt2Sg9SKu https://t.co/FTjHtovHpk"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106912261134500049",
+          "author": "worldwidennx",
+          "searchJob": "air-force",
+          "text": "9 PM Top-of-the-Hour News The sound of America bomber jets as the U-S Air Force has brought home its bombers that were stationed at a U-S-run military air base in England. That base was used to strike Iran following an investigation into a "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2106904404737597683",
+          "author": "detroitpodcast",
+          "searchJob": "charlotte",
+          "text": "Feels like Lions made a mistake matching Brock Wright offer from 49ers! What does he do well consistently?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106919352201085413",
+          "author": "vjb143",
+          "searchJob": "rice",
+          "text": "@SkipCanada Ur customer service reps r useless. Ordered paneer Tikka masala as am a veg and received leftover half eaten chicken rice as courier delivered wrong order. Instead of accepting mistake ur rep offered only a portion of refund and"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106919021153013975",
+          "author": "vjb143",
+          "searchJob": "rice",
+          "text": "@SkipCanada Ur customer service reps r useless. Ordered paneer Tikka masala as am a veg and received leftover half eaten chicken rice as courier delivered wrong order. Instead of accepting mistake ur rep offered only a portion of refund and"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106914538767421592",
+          "author": "vjb143",
+          "searchJob": "rice",
+          "text": "Ur customer service reps r useless. Ordered paneer Tikka masala as am a veg and received leftover half eaten chicken rice as courier delivered wrong order. Instead of accepting mistake ur rep offered only a portion of refund and cut the cha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106905018305765812",
+          "author": "_cnderfnckerlla",
+          "searchJob": "rice",
+          "text": "+ i ended up buying him a meal hehe, bought him chicken with rice, fries, and a burger. binigyan ko rin siya ng drink. i even offered him some money, pero hindi niya tinanggap. pagkain lang talaga yung gusto niya."
         }
       ]
     },
@@ -98,20 +393,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "ohio: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 30,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-05T01:11:06.125Z"
+    "status rebuilt locally from current store on 2026-10-05T01:43:08.680Z"
   ]
 }
