@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T05:58:18.241Z",
+  "generatedAt": "2026-10-05T06:13:08.410Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-05T05:58:17.904Z",
+    "at": "2026-10-05T06:13:08.146Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7794875,
-    "p95Hours": 1.278375,
-    "worstHours": 1.5282022222222222
+    "medianHours": 0.7773002777777778,
+    "p95Hours": 1.2759722222222223,
+    "worstHours": 1.5256441666666667
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -55,105 +55,120 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-05T05:58:17.903Z",
-      "got": 11,
-      "new": 9,
-      "lag": 0.39
+      "at": "2026-10-05T06:13:08.146Z",
+      "got": 16,
+      "new": 11,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-10-05T05:56:43.243Z",
+    "at": "2026-10-05T06:11:38.861Z",
     "mode": "live",
     "collection": {
-      "returned": 11,
-      "kept": 9,
-      "duplicate": 2,
-      "tooOld": 0,
+      "returned": 16,
+      "kept": 11,
+      "duplicate": 3,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
+      "accepted": 7,
       "rejected": 4,
       "reasons": {
+        "hard_negative": 1,
         "no_fbs_school": 1,
-        "no_offer_term": 2,
-        "hard_negative": 1
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2106978427324559710",
-          "author": "gardgoldsmith",
-          "searchJob": "liberty",
-          "text": "Levin doesn't just offer the thinnest mental gruel. It's always laced with poison."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2106729782561919306",
-          "author": "furkangozukara",
-          "searchJob": "liberty",
-          "text": "Mark Levin defends strikes on Iran, calling Donald Trump a \"peacemonger\" and criticizing \"phony anti-war types\": \"And imagine these madmen, these lunatics, imagine them with nuclear weapons based on their 7th century primitive barbaric Isla"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2106979510604181869",
-          "author": "lavaheadza",
-          "searchJob": "northwestern",
-          "text": "Sjoe! 😳 Somebody Left Half the History Book at Home ~ 🗺️ What Happens When an Entire Chapter of History Goes Missing? The Price of an Incomplete Map: History, Influence and South Africa’s Strategic Choices 🇿🇦🗺️ South Africa is still na"
+          "postId": "2106983033907671473",
+          "author": "bjguru24",
+          "searchJob": "california",
+          "text": "@PremierCrop How Toxic Machismo & Manosphere Rhetoric Strengthen Your Legal Claims Weaponizing \"Manosphere\" rhetoric, \"walk-it-off\" machismo, or \"tough guy\" tropes against a bisexual employee experiencing an active medical crisis creates se"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2106969026656432146",
+          "author": "_jeffreyr",
+          "searchJob": "california",
+          "text": "If you ever make it out West try Tony’s Pizza Napoletana in SF’s Little Italy. Tony’s has seven (7!) different ovens and offers numerous styles of pizzas which include Neapolitan, California, Classic American and Italian, Sicilian, Pizza Ro"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2106973833534071179",
-          "author": "hackagingai",
-          "searchJob": "delaware",
-          "text": "https://t.co/o4Pr0InJHO"
+          "postId": "2106987924877095327",
+          "author": "the_witten",
+          "searchJob": "miami",
+          "text": "https://t.co/3i3ADJRaYP"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106987071449804971",
+          "author": "the_witten",
+          "searchJob": "miami",
+          "text": "https://t.co/nFBqMcilt7"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 7,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "school_not_resolved_confidently": 1,
-        "reporter_missing_player_name": 1
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 4,
+        "author_not_recruit:no recruit fields": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2106988639347708120",
+          "author": "globaldefmag",
+          "searchJob": "navy",
+          "text": "Lockheed offers major India production boost in airlifter bid https://t.co/PfH1WwQ94v #defence #army #military #defenceforces #defenceday #DefenseNews #DefenseTalks #Military #DefenseTechnology #Army #AirForce #Navy #defenceindustrynews #de"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106981459990917253",
-          "author": "indiantintin_",
-          "searchJob": "coastal-carolina",
-          "text": "Vietnam and Kerala share several similarities. Vietnam has a Communist Party government. Kerala has a long tradition of elected communist governments. Their political systems are different, but both give leftist ideas a prominent place. You"
+          "postId": "2106973670162014689",
+          "author": "kcqboomer",
+          "searchJob": "navy",
+          "text": "Stargate SG 1... Over and over just to get some sleep. I hate it. But.... Noise... To drown out that fukn ringing in my ears from those god dam pratt Whitney J-57s. In my ears on Alert... Shit.... Even the RUSH CONCERT wasn't as loud as tho"
+        },
+        {
+          "reason": "author_not_recruit:no recruit fields",
+          "postId": "2106984144148353112",
+          "author": "thekingof2029kb",
+          "searchJob": "indiana",
+          "text": "Blessed to receive an offer from Indiana University Go Hoosiers ‼️ https://t.co/ep9uQhoVme"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106981145397047770",
+          "author": "samjlondon",
+          "searchJob": "california",
+          "text": "Ireland Needs a Foreign Agents Registration Act A criminal complaint, filed thousands of miles away, ought to make governments elsewhere sit up rather straighter in their chairs. The FBI has arrested Wanying “Heather” Zhang, a 34-year-old C"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106974924711788844",
+          "author": "mapleveewesem",
+          "searchJob": "california",
+          "text": "🆘️🚨🆘️ There are way too many adorable dogs like OSO at Downey #California ACC who should be getting several #FOSTER offers in just a few days who are getting nothing 😢 Please reply here if you can help - fostering for rescue is free 🙏 "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2106974656226074952",
-          "author": "cracner",
-          "searchJob": "coastal-carolina",
-          "text": "Golf shaped by dunes and sea. Hoiana Shores offers one of Vietnam’s finest coastal golf experiences, just south of Hoi https://t.co/MS9MTnTaTL"
+          "postId": "2106989968807575865",
+          "author": "maxi_innovation",
+          "searchJob": "miami",
+          "text": "HNW buyers aren’t simply buying a product. They’re evaluating the entire experience. Your: brand, proof, entire narrative, response time, follow-up, offer itself, and authority All communicate value before the sales conversation even begins"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2106980869529641322",
-          "author": "ouceedi",
-          "searchJob": "liberty",
-          "text": "1) This is a free country. No one is preventing you from establishing a jewellery business—or indeed any lawful enterprise you please. 2) If I choose to sell a property, it is my prerogative to determine both the purchaser and the price. Th"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2106977593677271347",
-          "author": "craigkell11x",
-          "searchJob": "illinois",
-          "text": "Congratulations on your offer from the illini! Would love for you to be part of the New Era of Illinois Football someday too! @donnel_sallis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106965116608479743",
-          "author": "riverbendernews",
-          "searchJob": "illinois",
-          "text": "Backyard Boilers offers a federal tax credit of up to $2,000 and a possible $700 rebate on select models. Learn more. #Illinois https://t.co/ahfaV2uH8b"
+          "postId": "2106982481161310278",
+          "author": "goatifysports",
+          "searchJob": "pittsburgh",
+          "text": "Pittsburgh reportedly offered Joey Porter Jr. ~$28M a year. The deal still died over second-year guarantees. Dallas now owns the upside. #NFL #Cowboys #Steelers https://t.co/WsFtxDvgnb https://t.co/HOL41a3SEv"
         }
       ]
     },
@@ -168,11 +183,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-05T05:58:18.242Z"
+    "status rebuilt locally from current store on 2026-10-05T06:13:08.411Z"
   ]
 }
