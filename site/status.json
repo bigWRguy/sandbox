@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:42:25.222Z",
+  "generatedAt": "2026-10-05T08:58:23.515Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-05T08:42:24.896Z",
+    "at": "2026-10-05T08:58:23.158Z",
     "jobsTotal": 162,
-    "sweptThisRun": 11,
-    "requests": 12,
-    "fullSweepCycles": 15
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "temple",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.9464552777777778,
-    "p95Hours": 2.011261388888889,
-    "worstHours": 2.011261388888889
+    "medianHours": 0.7781122222222222,
+    "p95Hours": 1.7786880555555555,
+    "worstHours": 2.277453888888889
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 26,
+    "decided": 26,
     "complete": true
   },
   "pending": {
@@ -47,7 +52,7 @@
   "profileResolution": {
     "cached": 76
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 2515,
     "incompleteOffers": 0
@@ -55,103 +60,224 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-05T08:42:24.895Z",
-      "got": 15,
-      "new": 9,
-      "lag": 0.03
+      "at": "2026-10-05T08:58:23.157Z",
+      "got": 47,
+      "new": 26,
+      "lag": 0.17
     }
   },
   "audit": {
-    "at": "2026-10-05T08:41:39.801Z",
+    "at": "2026-10-05T08:56:46.974Z",
     "mode": "live",
     "collection": {
-      "returned": 15,
-      "kept": 9,
-      "duplicate": 6,
+      "returned": 47,
+      "kept": 26,
+      "duplicate": 21,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 3,
+      "accepted": 18,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 1,
-        "no_fbs_school": 2
+        "no_offer_term": 4,
+        "no_fbs_school": 2,
+        "hard_negative": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2107024875819028906",
-          "author": "ddball67",
-          "searchJob": "hawaii",
-          "text": "https://t.co/ZhDLhZRfxT"
+          "postId": "2107025409850130506",
+          "author": "0xkyz",
+          "searchJob": "stanford",
+          "text": "https://t.co/RuY4hQJuDA"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2107013147479699533",
-          "author": "thesadsainter",
-          "searchJob": "marshall",
-          "text": "@silverhalo30058 Yeah it's about right. I think we are just playing silly buggers to get them to just offer 14"
+          "postId": "2107009422874607895",
+          "author": "thefamilylens",
+          "searchJob": "charlotte",
+          "text": "I recently used Gymshark and was given an offer for my friends to get £10 off your first order over £50. I thought you might like it. I'll also get a reward, so it's a win-win! #discount #gymshark https://t.co/yiAtGMfBQ2"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2107027416631665004",
-          "author": "mart_life",
-          "searchJob": "maryland",
-          "text": "🌿 Independence Wellness Offer Still On! 🇳🇬 Your wellness reset continues! 🌿 10% OFF Basic Detox Packages 💆‍♀️ 20% OFF Extra Therapies 📅 Ends 10 October 2026 📞 +234809 751 0398 📍 21 Mobolaji Bank Anthony Way, Maryland, Ikeja, Lagos D"
+          "postId": "2107000227010113597",
+          "author": "c_corday",
+          "searchJob": "charlotte",
+          "text": "@Trats1999 @SWEB1994 There’s a lot of reasons why the deal didn’t get done but primarily we didn’t have the list spot available to take 22. Hawks left it to the last minute to table the offer so there wasn’t time to reach a deal that worked"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107010658260877399",
+          "author": "dandoinit",
+          "searchJob": "massachusetts",
+          "text": "https://t.co/iWH0Qv61Wu"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107018371367657704",
+          "author": "mercuryblues101",
+          "searchJob": "memphis",
+          "text": "As soon as you go online you can see that MSM (political mouthpiece and propaganda machine for the radicalized Democrat Party) is doing its utmost to help defeat President Trump and Republicans in the mid-term. They never mention that Democ"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107030008837677319",
+          "author": "dunnbilly87734",
+          "searchJob": "nevada",
+          "text": "Cardinal Louis Raphael Sako is going to be elected as the next Pope Paul VII before his 80th birthday in the year 2029, after the assassination of Pope Leo XIV at Temple Mount in Jerusalem. Cardinal Sako born when? Louis Raphaël I Cardinal "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107021797950468427",
+          "author": "precedentdailyy",
+          "searchJob": "temple",
+          "text": "Paris, 1329: bishops tell Philip de Valois that fearing God means showering the church with gifts — Moses’s raised hands, priests’ prayers. The printed reply reaches for Lawrence: the poor are the treasury, not overfed chaplains. https://t."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2106762839075561968",
+          "author": "bythespectrum",
+          "searchJob": "temple",
+          "text": "If you don't reply to this with your prettiest or favorite area in genshin I will curse you and your family"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 4,
-        "school_not_resolved_confidently": 2
+        "bare_mention_requires_llm": 13,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107028124927926692",
-          "author": "bricky324",
-          "searchJob": "marshall",
-          "text": "St Kilda have submitted an after hours offer to Geelong. Rowan Marshall for pick 14 and Connor O'Sullivan #AFLTrade"
+          "postId": "2107025606751686955",
+          "author": "nexo",
+          "searchJob": "michigan",
+          "text": "With the data calendar light, this is a week about reading the Fed rather than the economy. Wednesday's minutes offer the clearest look yet at how policymakers are thinking ahead of the October 27–28 meeting. Around them, the 10- and 30-yea"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107008433904066742",
-          "author": "skip20161",
-          "searchJob": "marshall",
-          "text": "@tommorris32 @7AFL @7NewsMelbourne @1116sen Come on Tom! Leak the Marshall contract offer by the cats. Let’s see how much they really value him 👍"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107001517144440877",
-          "author": "skip20161",
-          "searchJob": "marshall",
-          "text": "@tommorris32 @stkildafc @7AFL @7NewsMelbourne @1116sen Tom you have been all over this reporting info from Marshalls management! So what’s the actual contract offer the cats have put forward to Marshall- years and dollars??? That should giv"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2106997087279993342",
-          "author": "chookie94",
-          "searchJob": "marshall",
-          "text": "Marshall should be asking the club he’s trying to get to why they haven’t bothered to offer up enough to satisfy a trade for three years instead of blaming the place he signed a long term, front ended deal with 🤷‍♀️"
+          "reason": "multiple_resolved_schools",
+          "postId": "2107022049730347277",
+          "author": "hereeligo",
+          "searchJob": "michigan",
+          "text": "a 5’5 QB that got Nebraska and Michigan offers lmaaaooo that’s the fakest shit in #Lanterns"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107006156174430386",
-          "author": "marketspulse24h",
-          "searchJob": "maryland",
-          "text": "Amazon has signed a 20-year power purchase agreement with Constellation Energy to support an expansion of the Calvert Cliffs nuclear plant in Maryland. The deal comes as U.S. electricity demand climbs, driven in large part by data center gr"
+          "postId": "2107011350883090723",
+          "author": "sell_the_teamfa",
+          "searchJob": "ucla",
+          "text": "@ducks2007quack @walsha @OctagonHockey Bruins were supposedly willing to offer 27 1st, 28 1st and a prospect so 2 1sts and a prospect is the price."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107007668426871256",
+          "author": "stragglerliu",
+          "searchJob": "stanford",
+          "text": "The Hidden Layer of Open-Source AI: Post-Training Knowledge Transfer Is Rewriting the Model Ecosystem Open-source AI has become a network where models teach each other through synthetic data. The direction of that teaching has shifted from "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2107029265221128396",
+          "author": "dunnbilly87734",
+          "searchJob": "nevada",
+          "text": "AI Overview deadpan /ˈdedˌpan/ Deadpan means delivering a joke, remark, or serious message with an impassive, expressionless face and a matter-of-fact tone. [1, 2] What is Deadpan? Meaning: A style of speaking or acting that hides all emoti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107016649719370082",
+          "author": "pikaphoebe",
+          "searchJob": "temple",
+          "text": "For fave places that I visit very often: Pervases Temple, I visit the Temple, offer incense, play the lyre/keyboard in front of it. it's also part of my summoning ritual. Mondstadt library, it's very cosy &amp; I love being around books(in "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107013381261803673",
+          "author": "vayambharat",
+          "searchJob": "temple",
+          "text": "Former Indian cricketer Shikhar Dhawan visited the famous Tirumala Temple in Tirupati, Andhra Pradesh, and offered prayers to Lord Venkateswara. After his darshan, Dhawan expressed his gratitude and praised the arrangements made by the temp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107010589633790230",
+          "author": "thestatesmanltd",
+          "searchJob": "temple",
+          "text": "🎥 | Defence Minister Rajnath Singh offers prayers at the Shri Ram Janmabhoomi Temple in Ayodhya, Uttar Pradesh. @rajnathsingh | #RajnathSingh #Ayodhya #RamMandir #TheStatesman https://t.co/MwCK7hWPIF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107008224528625668",
+          "author": "theprintindia",
+          "searchJob": "temple",
+          "text": "Defence Minister Rajnath Singh offers prayers at the Shri Ram Janmabhoomi Temple in Ayodhya Watch LIVE: https://t.co/5BFUd69rMB https://t.co/KclYyeZats"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107006617820835992",
+          "author": "httweets",
+          "searchJob": "temple",
+          "text": "#WATCH | Defence Minister Rajnath Singh offers prayers at the Shri Ram Janmabhoomi Temple in Ayodhya, Uttar Pradesh. 📲 For News on the go, Download HT app. Click https://t.co/UY76F4VRH8 https://t.co/GGHqGt06Kv"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107004317899321765",
+          "author": "aweassam",
+          "searchJob": "temple",
+          "text": "Situated in Silghat in Nagaon, the Trishuldhari Shiva Temple is a 2000 year old temple. It offers a panoramic view of the river Brahmaputra and is a paradise for nature lovers. #Trishuldhari #AwesomeAssam #ExploreAssam #NatureLovers https:/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107002856997802179",
+          "author": "jk247news",
+          "searchJob": "temple",
+          "text": "#UttarPradesh | Defence Minister @rajnathsingh offers prayers at the Shri Ram Janmabhoomi Temple in #Ayodhya. https://t.co/CtkG2AUMh1"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107002578299220250",
+          "author": "thedailyjagran",
+          "searchJob": "temple",
+          "text": "#Watch | A divine moment for former India cricketer Shikhar Dhawan! 🙏✨ The star batter visited the sacred Tirumala temple in Tirupati and offered prayers, seeking the blessings of Lord Venkateswara. The spiritual visit saw Dhawan embrace a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106999674318307807",
+          "author": "savera_hp",
+          "searchJob": "temple",
+          "text": "Former Indian cricketer Shikhar Dhawan offers prayers at Tirumala temple in Tirupati #ShikharDhawan #Tirupati #TirumalaTemple #Tirumala #AndhraPradesh https://t.co/cU9iorP50I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106999667313848505",
+          "author": "savera_haryana",
+          "searchJob": "temple",
+          "text": "Former Indian cricketer Shikhar Dhawan offers prayers at Tirumala temple in Tirupati #ShikharDhawan #Tirupati #TirumalaTemple #Tirumala #AndhraPradesh https://t.co/01aeV4X6de"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2106999659881512987",
+          "author": "newsx",
+          "searchJob": "temple",
+          "text": "Uttar Pradesh: Defence Minister Rajnath Singh offers prayers at the Shri Ram Janmabhoomi Temple in Ayodhya. #RajnathSingh #UttarPradesh #Ayodhya #AyodhyaRamMandir #AyodhyaRamTemple #AyodhyaDham #NewsX https://t.co/aZCxm1bDUK"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107006152454082722",
-          "author": "marketspulse24h",
-          "searchJob": "maryland",
-          "text": "Amazon has signed a 20-year power purchase agreement with Constellation Energy to support an expansion of the Calvert Cliffs nuclear plant in Maryland. The deal comes as U.S. electricity demand climbs, driven in large part by data center gr"
+          "postId": "2107012819678073206",
+          "author": "milesmintin",
+          "searchJob": "class:2026",
+          "text": "🏨 Axis × FabHotels Double Dip! 🔥 Get 25% OFF on FabHotels with an Axis Bank card. Use code FABADN10 📅 Valid till 15 Oct 2026 And the interesting part 👀 💳 Pay with Axis Atlas → earn 5X EDGE Miles on the eligible hotel spend. So you pote"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107002855404228659",
+          "author": "baobetting",
+          "searchJob": "class:2026",
+          "text": "Week 4🏈Today’s Top NFL Play 1 🎮ATL@NO #DirtyBirds 🏈Austin Hooper o9.5 Rec Yds (-115) New user offer 🎁 New users on @ProphetX can trade $50 and get $75 with code “BAO” 👉 https://t.co/YFKP8CxeSR 🎮ATL@NO 🏈Austin Hooper o9.5 Rec Yds (-11"
         }
       ]
     },
@@ -159,20 +285,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 11,
-      "failed": 1,
-      "requests": 12,
-      "errors": [
-        "michigan: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 18,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-05T08:42:25.223Z"
+    "status rebuilt locally from current store on 2026-10-05T08:58:23.516Z"
   ]
 }
