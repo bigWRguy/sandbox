@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T18:44:19.725Z",
+  "generatedAt": "2026-10-06T18:59:51.956Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-06T18:44:19.330Z",
+    "at": "2026-10-06T18:59:51.581Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "arkansas-state",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7927458333333334,
-    "p95Hours": 1.794225,
-    "worstHours": 1.794225
+    "medianHours": 0.7986186111111111,
+    "p95Hours": 1.8009652777777778,
+    "worstHours": 2.0531780555555557
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 67,
+    "decided": 67,
     "complete": true
   },
   "pending": {
@@ -47,376 +52,391 @@
   "profileResolution": {
     "cached": 76
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 2570,
+    "completeOffers": 2571,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-06T18:44:19.329Z",
-      "got": 75,
-      "new": 55,
-      "lag": 0.05
+      "at": "2026-10-06T18:59:51.581Z",
+      "got": 112,
+      "new": 67,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-06T18:42:44.257Z",
+    "at": "2026-10-06T18:58:14.102Z",
     "mode": "live",
     "collection": {
-      "returned": 75,
-      "kept": 55,
-      "duplicate": 19,
+      "returned": 112,
+      "kept": 67,
+      "duplicate": 44,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 24,
-      "rejected": 31,
+      "accepted": 43,
+      "rejected": 24,
       "reasons": {
-        "hard_negative": 4,
-        "no_fbs_school": 13,
-        "non_fbs_offer_target": 7,
+        "no_fbs_school": 11,
+        "hard_negative": 5,
         "no_offer_term": 6,
-        "unclassified_offer_text": 1
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2107539867332939868",
-          "author": "vjwilliams9_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my First division 2 offer to Benedict college @Omega_7 @AlwaysM12 @GoTigers_FB @EdOBrienCFB @PrepRedzoneMD https://t.co/hocjHuwe6w"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2107537991178793358",
-          "author": "marcuscameron25",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 5th offer from @ClarkeU. @trestonwomack @CoachHartley_CU @CoachZuck @midgetdynamite @_CoachStewart @XOScoaching @strengthcoach34 @CSmithMedia @CSmithScout https://t.co/uT3zlKzc3q"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107537875570938084",
-          "author": "cj_hemingway1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @CatawbaMBB !All glory to God 🙏 @BrunswickCC_MBB https://t.co/0v1ded8l78"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107537772093530150",
-          "author": "k1ngstonjames3",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @AlcornStateFB , thank you @Coach_Mitch2 for this opportunity‼️ #Agtg @TFloss32 @TXPSMedia @SportPrepX @PrepRedzoneTX @TXRecruits @homesquadsports @DfwSho @247recruiting @ura_athlete https://t.co/PY41ea8foi"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107537660898075096",
-          "author": "braylonnester1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great Gameday visit and conversation with @_CoachDay_ I’m blessed to receive an offer from Union Commonwealth University! Thank you to the coaching staff for this opportunity. #AGTG #WeNotMe @MontgomeryFTBL @CoachJ_Ray @chirico_joe "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107537611950903773",
-          "author": "cjohnson7k",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "AGTG, Blessed to receive an Division 1 Offer to East Texas 🔵🟡 https://t.co/tTZisj0Vcw"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107536850789314636",
-          "author": "kiawan_ford",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @_CoachSisnerosD I’m blessed to receive my second offer from @ClarkePrideFB #AGTG ✝️ https://t.co/bifVVOQO21"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2107536372445901165",
-          "author": "taytonjackman2",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a game day invite from @CoachMullinCWU on the 24th! Go Cats!! @CWUFB @Matt_Johnson37 @EvansRankings @247Sports @RecruitRadarNW @PrepRedzoneWA https://t.co/ZG6Lbbg1XI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2107536150189769082",
-          "author": "coachnorris_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I have loved every second coaching this young man! The college football program who is blessed to receive Ashton’s commitment will be better on Day 1. He is the hardest worker in the room and elevates everyone around him💪🏻🏈"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2107366783468601774",
-          "author": "ashtongoddard27",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Bye week and we still working https://t.co/XZj0prEKGZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107535227224756284",
-          "author": "pey_hen",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After constant prayer and an amazing conversation with Coach Rob and his staff I am beyond blessed to receive my first collegiate offer to further my academics and athletics at Milligan University. All Glory to God! @MilliganMBB @CoachRobBu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107533772379799839",
-          "author": "davidc_2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Sewanee @CooperGosch @wcsIHSfootball @CoachN8Graham https://t.co/XBz24Tw9oh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107531856354976240",
-          "author": "kalebcorder",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from @ClarkePrideFB to play football at the next level! Thank you @BrandonMueller_ for the opportunity!! @FootballPbhs @CoachNick56 https://t.co/Rh6O1xTywC"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107531560790466622",
-          "author": "jadenrobinsonx",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Brevard College! 🙏🏾 This is only the beginning. All the work, sacrifice, and late nights finally starting to pay off. Thank you to Coach and the entire Brevard College staff for believing in me and g"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107531395589357873",
-          "author": "kylenknox_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a Great convo with @CoachMJohnson0 I’m blessed to receive my First offer from Missouri Valley University!! @MovalFootball @NAHSFball @CRStubblefield https://t.co/iviY9uQuKC"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107530422435414349",
-          "author": "wyattsnellfb",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After talking with @QBcoachsnyder I am blessed to receive my 3rd offer and opportunity to play college football @kwufootball #AGTG @RoderickStinso3 @CoachCLJohnson @CoachLukeSexton @coachdcarr1 https://t.co/SDkenseSfq"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107528961559335201",
-          "author": "suraythomas71",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a offer from Shawnee state university @jimmy_peyton1 @JTimmons75 @CoachDonerson @CoachCoulson_ @MiltonWAdamsII https://t.co/R7oRjE2b3N"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2107528380086366718",
-          "author": "thebarron__",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a PWO from @UNewHavenFB!!!! @CoachRGhanim @coachdveach https://t.co/NkB49TDgZv"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107527772331495744",
-          "author": "1lilmell",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "after great conversations with @QBcoachsnyder i’m blessed to receive my 3rd offer from KANSAS WESLEYAN UNIVERSITY‼️ https://t.co/g1DyjytfYJ"
+          "postId": "2107539125360271467",
+          "author": "thespirighost",
+          "searchJob": "kansas",
+          "text": "would anybody be interested in three Turnstile tickets for tonight at University of Kansas at the Hill, Lawrence, KS? My friends and i can't go anymore but want to offer them to people who actually are fans and want to go.!"
         },
         {
           "reason": "hard_negative",
-          "postId": "2107534760142836203",
-          "author": "pokeokc",
-          "searchJob": "oklahoma-state",
-          "text": "Oklahoma State offers C/O 2028 ⭐️⭐️⭐️ WR Seven Rashad Buford HS | Buford, GA Rashad holds additional offers from Auburn, Georgia, Mississippi State, Tennessee and several others. #GoPokes 🤠"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107520749267480655",
-          "author": "sackchasintana",
-          "searchJob": "uconn",
-          "text": "Blessed to receive an offer from Central Connecticut State University!! @Abaskerville_7 @FBCoachCJ @RylandWidener99 https://t.co/LGeMowCEat"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107540221185180008",
-          "author": "theashesoftroy",
-          "searchJob": "troy",
-          "text": "I've had an idea for a video about the symbology of walls in modern Liberal discourse and philosophy. Walls aren't just physical barriers, they offer a kind of definition to that which they encircle, and they're a statement of intent. It's "
+          "postId": "2107527587299811744",
+          "author": "mcallistermike1",
+          "searchJob": "syracuse",
+          "text": "Bergeron came to a Syracuse camp as part of a group of Canadian prospects. He was unknown to the coaching staff when he arrived. After a few reps, the coaching staff knew Bergeron was special. They offered and he committed shortly thereafte"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107398180019302741",
-          "author": "id_communism",
-          "searchJob": "troy",
-          "text": "The Berlin Wall was bad The Berlin Wall was bad The Berlin Wall was bad... But our walls are incredible! https://t.co/mZIENaAsvk"
+          "postId": "2107470141030281359",
+          "author": "nhb_jamir",
+          "searchJob": "syracuse",
+          "text": "Matthew Bergeron one of the best Syracuse products of my lifetime. What a monster."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107276754561966099",
+          "author": "baldynfl",
+          "searchJob": "syracuse",
+          "text": ".@AtlantaFalcons @Saints Bergeron &amp; Lindstrom are an excellent of OG's...Bijan knows where the daylight is going to be #BaldysBreakdowns https://t.co/FzsA89BXiM"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107518830008262746",
+          "author": "vasyracuse",
+          "searchJob": "syracuse",
+          "text": "Today, we had the privilege of welcoming New York State VFW Commander Belinda Cole to the Syracuse VA Medical Center. Commander Cole met with our Executive Leadership Team to discuss resources available to Veterans and learn more about the "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2107517940228862316",
-          "author": "troytroyspud",
-          "searchJob": "troy",
-          "text": "@hilaryjuliet_ Eat more and offer to share it with them along with the sausage and ham"
+          "postId": "2107517102731006303",
+          "author": "pridestaffakron",
+          "searchJob": "akron",
+          "text": "Scale up, evaluate fit, or hire talent with confidence. PrideStaff offers flexible staffing models (temporary, temp-to-hire, and direct hire) customized to match your operational demands. https://t.co/O6cgnf6p8C"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107535251983495587",
+          "author": "elliotkaufman6",
+          "searchJob": "arkansas-state",
+          "text": "\"Every Jew and Israeli remembers where he was on Oct. 7, 2023.\" But not everyone had an experience like @FalkOphir's, in the Prime Minister's Office. He wrote about it for @WSJopinion: https://t.co/mq78Zh6ODT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107533550652154017",
+          "author": "libertyunionus",
+          "searchJob": "liberty",
+          "text": "I was debunking your false claim that the term “Palestine” has some ancient indigenous claim for a particular people. Which it most certainly does not. Jews cannot be occupiers of their own homeland. However, I do not dispute that other gro"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107528359563727143",
+          "author": "galtrand13",
+          "searchJob": "liberty",
+          "text": "Enriched your crime family with bribes and showering with your daughter Ashley. Donald Trump's family earned their billions legitimately in our free market capitalist Republic, and Ivanka Trump never had to worry about her dad jumping in th"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107516238431649928",
+          "author": "freestatenh",
+          "searchJob": "liberty",
+          "text": "The Free State Project offers something rare in American libertarianism: realistic optimism. https://t.co/CJyHky8Yku"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107538293399466192",
+          "author": "mjwatkins519",
+          "searchJob": "class:2027",
+          "text": "After a Great Conversation with @trestonwomack, I am blessed to announce that I have received another offer from Clarke University! #AGTG https://t.co/5qri0aKNfc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107524535302144419",
+          "author": "michfbfrenzy",
+          "searchJob": "class:2027",
+          "text": "Kalamazoo United 2027 OL Brody Bell was offered by Mercyhurst @BrodyBell78 https://t.co/YZhs0JyLrE"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107523604992942387",
+          "author": "jpbuckets2",
+          "searchJob": "class:2027",
+          "text": "Blessed to receive my 2nd OFFICIAL OFFER from Lakeland University! 🏈💙💛 Thank you @LUCoachRobby and the Lakeland coaching staff for believing in me and giving me this opportunity. Truly grateful for every door God continues to open. 2027 "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107535591122616586",
+          "author": "randyferrell",
+          "searchJob": "maryland",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 6, 2026 | Total receipts: 510 • 10/5/26: Trump says Iran could take out LA and San Diego • 10/5/26: Trump orders f"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107535456485425509",
+          "author": "randyferrell",
+          "searchJob": "maryland",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 6, 2026 | Total receipts: 510 • 10/5/26: Trump says Iran could take out LA and San Diego • 10/5/26: Trump orders f"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107535117694718394",
+          "author": "carolyn_from",
+          "searchJob": "maryland",
+          "text": "@jazzfan71 @liberalpuppy @SenatorCollins Seriously? The republican president just offered a bribe to voters to the tune of $1.2 trillion dollars. I guess that doesn’t count because it’s just another lie though. Meanwhile Republicans are res"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107539270814879941",
+          "author": "danvanorden",
+          "searchJob": "michigan",
+          "text": "Michigan State Police program offers treatment instead of handcuffs for addiction https://t.co/zRDm3YmN21"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107527178531532960",
+          "author": "loomerunleashed",
+          "searchJob": "michigan",
+          "text": "During Abdul El-Sayed @AbdulElSayed’s expensive fundraiser in New York last night, AOC @AOC credited Abdul for being a “Muslim doctor” and “pulling out of the genocide in Gaza.” The elected Democrats and their big New York donors have trans"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107523948791402787",
+          "author": "michfbfrenzy",
+          "searchJob": "michigan",
+          "text": "Byron Center 2028 TE/LB/DB Caden Meyering was offered by Hope @CadenMeyering27 https://t.co/paxEljXK7P"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107521094634688720",
+          "author": "lymanstoneky",
+          "searchJob": "michigan",
+          "text": "we were up in michigan last week friday, i drove the 9 hours home with the 3, 4, and 6 year olds; ruth stayed back with the 1 year old to help her sister decorate/paint the new cabin, and to enjoy the fall colors. she comes home tomorrow ni"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107519569497596087",
+          "author": "shebringsjoy",
+          "searchJob": "michigan",
+          "text": "If I am ever blessed enough to have grandchildren, I will be as much free childcare as possible- my husband feels the same. This attitude is ridiculous."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2107377720233443571",
+          "author": "priyav012",
+          "searchJob": "michigan",
+          "text": "Grandparents are not free childcare. They have their own lives to live. Just coz they're there doesn't mean you have 24x7 access to their time. Stop whinging &amp; plan your childcare better. https://t.co/SYOb6SVgss"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107536982192816343",
+          "author": "wbbnhstrojans",
+          "searchJob": "northwestern",
+          "text": "We are so proud of Senior Ni’yah Colvin and her first college offer from @MontreatWBB Ni’yah exemplifies what our program is built on with character, hard work, and commitment. 💛💜🏀 #movingforward https://t.co/j3V426al0x"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107533884917424448",
+          "author": "ducksblogger",
+          "searchJob": "oregon",
+          "text": "@JonArauzo Most small businesses qualify for better than bank loans but don’t realize alternative funding now offers flexible repayment tied to revenue."
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 22,
+      "accepted": 1,
+      "rejected": 42,
       "reasons": {
-        "bare_mention_requires_llm": 12,
-        "school_not_resolved_confidently": 5,
-        "multiple_resolved_schools": 2,
+        "reporter_missing_position": 2,
+        "bare_mention_requires_llm": 27,
+        "multiple_resolved_schools": 6,
+        "school_not_resolved_confidently": 3,
+        "explicit_non_fbs_target": 1,
         "reporter_missing_player_name": 2,
-        "reporter_missing_class_year": 1
+        "author_not_recruit:different sport": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107540548571591137",
-          "author": "acerumble",
-          "searchJob": "arizona",
-          "text": "When did Broncos twitter become such a bunch of whiny bitches? There are plenty of things to work on, but 2-2 vs. the best the NFL has to offer is hardly anything to be ashamed of. If Arizona routs us tho I think that's legitimate cause for"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107538682789949654",
-          "author": "arizonafandom",
-          "searchJob": "arizona",
-          "text": "Arizona has a new 2028 QB target Star Thomas talks offer from Wildcats recent visit #arizonawildcats #arizonasports https://t.co/yfhkCQGV74"
+          "reason": "reporter_missing_position",
+          "postId": "2107528549070410017",
+          "author": "bricemarich",
+          "searchJob": "kansas",
+          "text": "#Michigan basketball has offered Kansas City (KS) Monarch Academy 2028 four-star SF Isaac Smith Jr. A Top50 nationally ranked player in America with over a dozen offers in his recruitment. https://t.co/G2wWcMA7d5"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107532686428377450",
-          "author": "karigutierrezre",
-          "searchJob": "arizona",
-          "text": "Same Arizona market. Different situations. Different strategies. Your next move depends on more than the headlines. Consider these four starting points: Paying cash? A simpler purchase can appeal to sellers. Still, compare value before maki"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107538884062044177",
-          "author": "profilefblive",
-          "searchJob": "oklahoma-state",
-          "text": "Oklahoma State has extended three new scholarship offers to class of 2028 prospects. @CowboyFB 4.2⭐ 2028 DE Merrick Ham @MerrickHam72 4.1⭐ 2028 Edge Marley Underwood @marunderwood_ 3.9⭐ 2028 WR Seven Rashad @SevenRashad_WR View all of Oklah"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107539463400231247",
-          "author": "steelersdepot",
-          "searchJob": "pittsburgh",
-          "text": "‘Not Good’: Nick Herbig Offers Blunt Assessment Of His Play Through Four Games #Steelers #NFL #Pittsburgh https://t.co/G27MOdA5yy"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107531793687580877",
-          "author": "pityinzer",
-          "searchJob": "pittsburgh",
-          "text": "@BLACKsafy @thestephf @ButterAubrey Pittsburgh didn’t want his rat ass Dad and him. Overated and not worth more than they offered."
+          "postId": "2107523783565234203",
+          "author": "derekschmidtks",
+          "searchJob": "kansas",
+          "text": "Kansas parents need access to safe, quality child care—and they need it at a price they can afford. We’re delivering results: - $2,200 per child in a permanent, inflation-indexed child care tax credit. - More incentives for businesses to pr"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2107528937140085150",
-          "author": "cedifootball247",
-          "searchJob": "pittsburgh",
-          "text": "Four Weeks In: Should These NFL Teams Panic? As the NFL season hits the four-week mark, teams are starting to reveal who they are. Over the next couple of weeks, contenders should emerge while others look ahead to next season. So, is it tim"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2107533242408620525",
-          "author": "billyembody",
-          "searchJob": "smu",
-          "text": "SMU offers 2028 Hesperia (Calif.) Oak Hills OL Epalahame Finau. https://t.co/ab5aUlGhGo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107524092287172702",
-          "author": "onlymyhealth",
-          "searchJob": "stanford",
-          "text": "A new Stanford Medicine study suggests the brain’s front and back regions may have evolved from two separate nervous systems over 550 million years ago. 🧠 The discovery could offer new insights into brain development and neurological condi"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2107530877806748045",
-          "author": "monroeblade",
-          "searchJob": "toledo",
-          "text": "Some roster news from @ToledoWalleye camp: G Matt Jurusik has signed to play for a team in Slovakia. Jurusik, who signed with Toledo last Monday, just received the offer yesterday. Juice posted a 9-3-4 record with a 2.27 GAA and a .918 save"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107520169874522286",
-          "author": "stinkyfartstien",
-          "searchJob": "toledo",
-          "text": "@Richard06857734 @statusisdown Yep didn't get paid for my last dash. And nothing's coming through now no offers. In Toledo"
+          "postId": "2107538504008032499",
+          "author": "andreastmakris",
+          "searchJob": "north-carolina",
+          "text": "NEW OPPORTUNITY: Linwood Self Storage | Gastonia, NC Makris Self Storage Group is pleased to present this 12,000 SF self-storage facility in Gastonia, North Carolina, just 35 minutes outside of Charlotte, offered for $1,100,000. • Near full"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107518556581892418",
-          "author": "karendavid47792",
-          "searchJob": "toledo",
-          "text": "What you can call the actions of Israel in Gaza. -Call it urban warfare, an extremely difficult type of war which tragically has a high casualty rate. -Call it the result of having been the target of 30,000-40,000 rockets aimed at civilians"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107512399087714689",
-          "author": "radresrevo",
-          "searchJob": "toledo",
-          "text": "The fact is, the data, which you clearly don't understand and therefore rely on a biased interpretation of, and under your own rationale, actually proves my point. It is the homeland of the Jews. Calling me moron shows you have no real conf"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2107538417504457057",
-          "author": "lubitelua",
-          "searchJob": "troy",
-          "text": "Gold holds its recovery, with a lasting reversal still unproven 6 October 2026. Kitco’s Gold Spot Bid chart at 21:20 Kyiv (18:20 UTC, 14:20 EDT) shows $4171.10 per troy ounce: up $31.60, or 0.76%, from the previous close of $4139.50. The st"
+          "postId": "2107537915400110285",
+          "author": "annah247",
+          "searchJob": "north-carolina",
+          "text": "Mooresville (N.C.) Lake Norman LB Charlie Jones discusses his first game day visit to UNC after the Tar Heels offered last spring: https://t.co/vrzSTH2gZ2 @charliejone41"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107524122070679673",
-          "author": "unlvresearch",
-          "searchJob": "unlv",
-          "text": "Working in a UNLV lab or makerspace? If your work involves lab hazards, you must complete Chemical Hygiene &amp; Laboratory Safety Training. Sessions offered: Oct. 9, Nov. 6, &amp; Dec. 18, 9 a.m.-noon, CSB 223. CHIMERA required to register"
+          "postId": "2107523700711145473",
+          "author": "decretorius",
+          "searchJob": "north-carolina",
+          "text": "Local law enforcement leaders in NC have noted that when someone is arrested, officers look at their North Carolina driver's license for identification. The NC Division of Motor Vehicles (DMV) tracks race, but historically hasn't mandated e"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2107523556540059857",
+          "author": "iommicusefan",
+          "searchJob": "syracuse",
+          "text": "@MiloSemioli Milo, I’m friends with Coach Phil P, the “Voice of the Cougars.” As a proud Syracuse alum and a member of CHS Class of ‘89, I’m so happy you’ve received a well-deserved offer from SU. I hope you’ll wear Orange in 2028. Best to "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107538526912852291",
-          "author": "thecvffey",
-          "searchJob": "alabama",
-          "text": "He needs that bama offer like yesterday.. make it happen @TrentSeaborn !!"
+          "postId": "2107544974610817048",
+          "author": "lyzl",
+          "searchJob": "arkansas-state",
+          "text": "Here is a rundown of the math. If you want to flip a state you need to register new voters and GOTV. Can you do that with candidates that offer nothing new? https://t.co/1AulLZkO9t?"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2107544716594311389",
+          "author": "psycyber13nv",
+          "searchJob": "arkansas-state",
+          "text": "AI Mode Conversation: is the song #handsoffmybody by sara bareilles akin to the ideas of #PresenceCognition is the song #handsoffmybody by sara bareilles akin to the ideas of #PresenceCognition Yes, Sara Bareilles' song \"Hands Off My Body\" "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107538309685678533",
-          "author": "midnightbaccup",
-          "searchJob": "alabama",
-          "text": "@maceomelano I’d take it. I got offered to drive someone from downtown Nashville to Birmingham Alabama but only for $220 😒"
+          "postId": "2107543776583397766",
+          "author": "dansorek",
+          "searchJob": "arkansas-state",
+          "text": "What a gripping piece by @FalkOphir . Excerpts that shocked me in particular with my reactions in ( ). Ophir, thank you for sharing. I think we can all add to the last lines of your piece: This was Israel's finest hour and Israel's greatest"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107517595444498859",
-          "author": "robinvalente60",
-          "searchJob": "alabama",
-          "text": "Alabama state lawmaker among 17 arrested in prostitution sting operation — and 3 others were illegal aliens, cops say https://t.co/QSLcav2ZZy A law enforcement sting operation led to the arrest of several men who allegedly tried to pay for "
+          "postId": "2107542614128078864",
+          "author": "conlin_lauren",
+          "searchJob": "arkansas-state",
+          "text": "\"Complainant consumed ketamine in powdered form on the night of October 19, 2024. During the hearing on May 2, 2025, Complainant described her experience of the effects of ketamine to include feeling like her \"lights were on, but no one was"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107541715150401854",
-          "author": "razorbacksonsi",
-          "searchJob": "arkansas",
-          "text": "Razorbacks latest to offer intriguing 2027 big man. MORE ➡️ https://t.co/mK7plLAUOc https://t.co/7rYsi49JxD"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107542496259768814",
+          "author": "michaelslon",
+          "searchJob": "arkansas-state",
+          "text": "@itsabbilina Palestinians were offered a state many times but they chose death. They chose the desire to eliminate Israel. They chose massacring Jewish women, children and babies that they burned, raped and killed. What the fxxx are you tal"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107541558346285070",
-          "author": "jacobdaviscfb",
-          "searchJob": "arkansas",
-          "text": "Razorbacks latest to offer intriguing 2027 big man. MORE ➡️ https://t.co/lY79nTgVM6 https://t.co/pznQR6fgPZ"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107541587215679501",
+          "author": "dansorek",
+          "searchJob": "arkansas-state",
+          "text": "What a gripping piece by @FalkOphir via the @WSJ Opinion section led by @ElliotKaufman6. Excerpts that shocked me in particular with my reactions in ( ). Ophir, thank you for sharing. I think we can all add to the last lines of your piece: "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107540796648092013",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee Mateo in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved one into Your loving hands, asking that Your healing touch restore his body completely. Remove all heart problems"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107537143174414738",
+          "author": "journeymacro",
+          "searchJob": "arkansas-state",
+          "text": "They're in a death cult “Look, I worked on this hard. And the only time Yasser Arafat didn’t tell me the truth was when he promised he was going to accept the peace deal that we had worked out, which would have given the Palestinians a stat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107529941587763372",
+          "author": "profjnmoyo",
+          "searchJob": "arkansas-state",
+          "text": "The ZimInd Publishers lawsuit against its own newsroom: what was Trevor Ncube’s 5 March 2026 apology for? The action by ZimInd Publishers (Private) Limited, the company through which Trevor Ncube controls the core of Alpha Media Holdings (A"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107529649731318259",
+          "author": "dupontlucinda",
+          "searchJob": "arkansas-state",
+          "text": "@lauzenge @journo_ben @alsaadoons The \"Palestinians\" had several generous offers of a state of their own [leaving aside the fact that they already have a state of their own, called Jordan] &amp; they've refused it every time, like spoiled c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107524984725758358",
+          "author": "turn3685",
+          "searchJob": "arkansas-state",
+          "text": "Sovereignty is not required for existence, rights, self determination, and indigeneity. You cannot ''offer'' a non‑sovereign people pieces of their own land and call it generosity' Its a foul thing to say frankly. You can't offer people pie"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107523309881458828",
+          "author": "imakesyoulaugh",
+          "searchJob": "arkansas-state",
+          "text": "@Truthwills26171 @AdamMossoff @cem_uk_ There are no take backs in the middle east. They are welcome to a state as long as Israel's security is assured. They were offered basically 67' lines by both Barak and Olmert and turned them down."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107519725563679056",
+          "author": "raminrealtalk",
+          "searchJob": "arkansas-state",
+          "text": "GAVIN JUST CALLED A SPEECH TREASON AND POINTED A THREAT CENTER AT IT. He cut the clip in half. Told you Trump offered Los Angeles and San Diego to Iran. Then he aimed a state intel center at a sentence. Play the whole thing. Trump said a nu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107518992764301562",
+          "author": "ironylil",
+          "searchJob": "arkansas-state",
+          "text": "@soidntgetfind @scottyDunham3 The rights of the Church are superior to any so called rights of a state. Bishops and Priests should have a right to visit and offer the sacrament to those in prison, regardless of anything as the Lord wants th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107518844637991113",
+          "author": "madmart33363545",
+          "searchJob": "arkansas-state",
+          "text": "@triangledread @nick_garber false. or better said, he thinks it can exist, but not as a state that offers self-determination to Jews. As he said he \"firmly believes\" in BDS BDS=right of return for Pals RoR=Jews being minority in \"Israel\" th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107517950408221078",
+          "author": "trumpschange24",
+          "searchJob": "arkansas-state",
+          "text": "Tell Gov Hochul of NY that when you let in 25 million unvetted illegals you can be sure these third world illegals didn't follow any MMR schedule for vaccines from where they came from. You declare a state of emergency with a measles out br"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107545115996860605",
+          "author": "v__wedderburnii",
+          "searchJob": "georgia-state",
+          "text": "@nahil_perkins @DellMcGee @jwindon35 @GeorgiaStateFB Team Captain 6’0 195lbs safety #3 Juco in Cali | #6 in the nation Week 5 conference defensive player of the week Currently hold 1 division 1 offer https://t.co/oLcGb3JIaq"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2107534879646949776",
-          "author": "losangelespress",
-          "searchJob": "nebraska",
-          "text": "At a Nebraska rally, Trump said Iran could “take out” #LosAngeles and #SanDiego and called the destruction of both cities “a very small price to pay.” He offered no evidence of a specific threat against either city. #California officials co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107533242601758950",
-          "author": "timverghese",
-          "searchJob": "nebraska",
-          "text": "Rising 2028 DL Micah Price made his first visit to Nebraska less than two weeks after landing an offer He dives in-depth on the Huskers’ hospitality, his fit along the DL and why Nebraska “moved up” in his list of 20+ offers https://t.co/pa"
+          "postId": "2107543241000124853",
+          "author": "usaday250",
+          "searchJob": "liberty",
+          "text": "Nature Study: The First Science Classroom That Did Not Need Four Walls: Part 1 This essay belongs to the series What Used to Work—an examination of practices that once reliably formed capable, attentive children and were later set aside in "
         }
       ]
     },
@@ -430,12 +450,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 22,
-      "brandNewOffers": 2
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 42,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-06T18:44:19.727Z"
+    "status rebuilt locally from current store on 2026-10-06T18:59:51.957Z"
   ]
 }
