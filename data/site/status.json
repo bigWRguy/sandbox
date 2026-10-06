@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T19:12:57.528Z",
+  "generatedAt": "2026-10-06T19:28:27.218Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-06T19:12:57.120Z",
+    "at": "2026-10-06T19:28:26.817Z",
     "jobsTotal": 162,
-    "sweptThisRun": 17,
-    "requests": 18,
-    "fullSweepCycles": 10
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,24 +30,33 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "navy",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7631788888888889,
-    "p95Hours": 1.507716388888889,
-    "worstHours": 2.0191797222222223
+    "medianHours": 0.7619275,
+    "p95Hours": 1.5281605555555555,
+    "worstHours": 2.2774269444444446
   },
   "decisionCoverage": {
-    "total": 52,
-    "decided": 52,
+    "total": 60,
+    "decided": 60,
     "complete": true
   },
   "pending": {
-    "total": 117
+    "total": 118
   },
   "profileResolution": {
     "cached": 76
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 3,
   "quality": {
     "completeOffers": 2572,
     "incompleteOffers": 0
@@ -55,364 +64,381 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-06T19:12:57.119Z",
-      "got": 85,
-      "new": 52,
-      "lag": 0.02
+      "at": "2026-10-06T19:28:26.817Z",
+      "got": 129,
+      "new": 60,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-06T19:11:49.207Z",
+    "at": "2026-10-06T19:26:51.986Z",
     "mode": "live",
     "collection": {
-      "returned": 85,
-      "kept": 52,
-      "duplicate": 32,
-      "tooOld": 1,
+      "returned": 129,
+      "kept": 60,
+      "duplicate": 69,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 30,
-      "rejected": 22,
+      "accepted": 36,
+      "rejected": 24,
       "reasons": {
-        "no_offer_term": 6,
-        "non_fbs_offer_target": 4,
-        "no_fbs_school": 10,
-        "hard_negative": 2
+        "no_offer_term": 5,
+        "no_fbs_school": 17,
+        "unclassified_offer_text": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2107542656444498039",
-          "author": "onwardstate",
-          "searchJob": "penn-state",
-          "text": "A new \"Safe Haven\" is available inside the Pattee and Paterno Library. The initiative will provide dedicated shelves of books and resources for students on topics they might otherwise feel uncomfortable asking about. https://t.co/hZlW6axzHd"
+          "postId": "2107526502048989545",
+          "author": "globalrebroker",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/ZMwstMowyL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107520070067097685",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Rs 8,499 ] 24G411B | 24G411B-B LG 60 cm (24 Inch) Ultragear FHD(1920 x 1080) IPS Gaming Monitor [ad] https://t.co/9SSnAxiW2M 1ms MBR, 144Hz, HDR10, NVIDIA G-Sync Compatible, AMD FreeSync, HDR10, HDMI, DP, HP Out, Anti-Glare, "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107464656222560557",
+          "author": "projectlincoln",
+          "searchJob": "navy",
+          "text": "The President of the United States just offered to sacrifice American lives. https://t.co/kEyFAndhIp"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2107257891602493787",
+          "author": "utsaftbl",
+          "searchJob": "utsa",
+          "text": "In your honor we’re offering our fans $9 tickets through Wednesday at 11:59 p.m. 🎟️: https://t.co/9DeVKtTJMt Thank you for your efforts in helping us #PackTheDome #210TriangleOfToughness | #LetsGo210 https://t.co/1hlwJ51K1l"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107529110360642032",
+          "author": "np4football_ot",
+          "searchJob": "class:2028",
+          "text": "Payton Johnson-DL-2028-TX @DartmouthFTBL Offer #CFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107543438812184842",
+          "author": "chriss465249374",
+          "searchJob": "florida",
+          "text": "@lippyent If I have one offer to shovel snow in Florida I am screwed"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107533477763576114",
+          "author": "realgrmom",
+          "searchJob": "florida",
+          "text": "@docbiss @ZubyMusic I haven't had a GP for over 10 years. I was offered one recently but they couldn't tell me if he had a degree and he wasn't recognized by the Provincial authority...and the guy was from Somalia. Thank you. I'll pass. May"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107533476291375138",
+          "author": "southflorida",
+          "searchJob": "florida",
+          "text": "As part of our 2026 Guide to the Arts in PRIME Magazine, entertainment writer Phillip Valys offers his Critic’s Picks for the best visual arts exhibits coming up in South Florida. https://t.co/p3OrUxpBXI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107532285507412073",
+          "author": "flhousesmiami",
+          "searchJob": "florida",
+          "text": "📍 Dania Beach | Apartamentos en renta Ref: DANIA01 CALL FOR OFFERS !!!!! NOW 2 MONTHS FREE 💰 Precio total mensual aproximado: $2,150–$3,686 El precio varía según el apartamento, plazo del contrato y disponibilidad. 🏠 Estudios y apartamen"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107546377978818750",
+          "author": "mikechuanotes",
+          "searchJob": "tennessee",
+          "text": "Seniors in West Tennessee: Did you know you can get FREE legal help? West Tennessee Legal Services offers assistance with wills, POAs, Social Security, and family law. Don't miss out on these vital resources! #LegalAid #Seniors https://t.co"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2107536892283478391",
-          "author": "abelhditu0",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with the staff, I am blessed and honored to receive a football scholarship offer from Clarke University! #GoPride 🏈@ClarkePrideFB @CoachZuck @EulessTrinityFB https://t.co/Wb0ltvRIeX"
+          "postId": "2107531210771828886",
+          "author": "emmanueluejike",
+          "searchJob": "tennessee",
+          "text": "They say luck is when preparation meets opportunity, but what about when the opportunity comes and you're never prepared? How about making a prayer, and you didn't plan well for the answer One morning in 2023, I woke up to this Graduate Ass"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2107527092397375941",
-          "author": "daytonmill27584",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachSnyder45 Blessed to receive my 3rd offer! @kwufootball #g3 https://t.co/SFppELIUbr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107524432675627323",
-          "author": "cooper_yancey08",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "AGTG! Blessed to receive an offer from @ConcordFootball after a great conversation with @KHOWCU! https://t.co/WspNjEeWay"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107523216688496919",
-          "author": "thewaterboymari",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachT808 I’m blessed to receive an offer from crown college! #AGTG https://t.co/V29F4YCi6F"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107545573721243651",
-          "author": "2sturdyyyt1",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG blessed to say i have received my 3rd college football offer from Brevard College. @CoachOwens_12 https://t.co/0wr89AP5rD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107544985260466465",
-          "author": "joshcalebsmith",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "AGTG! Thank you @CoachOwens_12 ! Blessed to receive an offer from @BrevardF5 and College Acceptance to @BrevardCollege . @CoachKhayat @iamjamietinsley @Coach_Ice73 @chrishatch00 @CoachVictoriano @542Simmons @CoachSamJulen @StuartCramerFB @R"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107543232473121215",
-          "author": "1derrickcarter_",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG I'm extremely BLESSED to receive my 3rd offer from Culver-Stockton College‼️ Thank you @CoachCutshaw @PassFootball5 @QuincyLCarter @HeritageAD5 @MOMINTOFTRUTH https://t.co/QMPzr8Tu5i"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107536169172942968",
-          "author": "jujuharmonjr",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Thanks @EliTibbles for extending an offer to @KYSUFB. I love what @F_Huggins80 and you guys are doing! @CoachEChambers @Coach_MSanchez @coachfoley1 @KYSUAthletics @AllenTrieu @g_mcpeek @cleats2whistle @vaughtsviews @JacobPolacheck #AGTG #HB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107521749416108098",
-          "author": "izeardampierot",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "blessed to announce I have received my 11th offer from @FAMU_FB #AGTG 🙏🏽@JUCOTopTalent @JuCoFootballACE @JUCOFFrenzy @CoachChennault @BradHoiseth @coach_ruizz @BrandonHuffman https://t.co/LgWVzpNbSU"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2107521482155073632",
-          "author": "jamourinichols4",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive an offer from Morehouse college!! @_deebrown22 @MorehouseFB #AGTG✝️ https://t.co/W0zFCUjYC7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107549375031328944",
-          "author": "newyorkupstate",
-          "searchJob": "texas-tech",
-          "text": "The two-day event offers Target Circle members deals of up to 40% off, and joining Target Circle is free. https://t.co/7jW4JACxmu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2107547673045983583",
-          "author": "alirezaziai8xm",
-          "searchJob": "texas-tech",
-          "text": "📊 Tech Valuation Snapshot: Optics, Semi Equipment & Power Semis A quick look at how valuation multiples align with 2-year forward EPS growth across key hardware sub-sectors: ⚡ Optics & Photonics (Lowest PEG): Trades at an average 33x Forwa"
+          "postId": "2107531177435300251",
+          "author": "krispykriskring",
+          "searchJob": "tennessee",
+          "text": "The factory small-block Chevy reached 400 cubic inches in 1970, using a 4.125-inch bore and 3.750-inch stroke in an architecture that had begun with the 265 in 1955. When Chevrolet discontinued the 400 after 1980, the factory's small-block "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107545737089147335",
-          "author": "tlthe5th",
-          "searchJob": "texas-tech",
-          "text": "the only way to make Imperialism fail is by working inside it to undermine it with the truth https://t.co/Jux9yQQz8u"
+          "postId": "2107477242087665895",
+          "author": "dodeportations",
+          "searchJob": "texas",
+          "text": "We should just rename Texas A&amp;M to Texas H&amp;1B https://t.co/Jxbu2CljMX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107545095033823684",
-          "author": "tezoscommons",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/Q6EqFXOD1B"
+          "postId": "2107303090068082990",
+          "author": "ricklovesqueso",
+          "searchJob": "texas",
+          "text": "Yeah not a fan of this. #fyou #hittheroad https://t.co/l7NR0rNrJ0"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2107541350589546645",
-          "author": "jtr420l",
-          "searchJob": "texas-tech",
-          "text": "@gbolaha_n9 Your are right and it has that much exposure to offer"
+          "postId": "2107550705469006059",
+          "author": "jazintexas",
+          "searchJob": "texas",
+          "text": "if owen never accepted richards job offer , george would have never enlisted and hed still be alive"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107539063440081146",
-          "author": "bessemervp",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/KBPmzsnnQ2"
+          "postId": "2107541460639953216",
+          "author": "crypto_briefing",
+          "searchJob": "texas",
+          "text": "https://t.co/fgxAOqaMv6"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107537887990366410",
-          "author": "grok",
-          "searchJob": "texas-tech",
-          "text": "As of Oct 2026, tech startups number 31-34k. Total DPIIT-recognised startups exceed 2.2 lakh. Patent filings reached 1.43 lakh in FY26. India ranks 2nd globally in AI talent. 5G covers 86% of the population with nearly 500M users. Aditya-L1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2107533659616248179",
-          "author": "ddematheu",
-          "searchJob": "texas-tech",
-          "text": "Not sure how much on an audience there is here for veterinary content. But people seem excited about personal agents so why not thinking about the intersection of the two. https://t.co/juR5pZT6Dy"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2107545647293370775",
-          "author": "shannon45531518",
-          "searchJob": "army",
-          "text": "#WarCrime #GenevaConvention #Law #LawOfWar 18 U.S. Code § 2441 - War crimes Article 3 (international conventions done at Geneva August 12, 1949) (1) Prohibited conduct (c) Definition (3) which constitutes a grave breach of common Article 3 "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2107548002000748590",
-          "author": "hut8corp",
-          "searchJob": "louisiana",
-          "text": "Yesterday, Hut 8 welcomed partners, investors, community leaders, and national and local media to River Bend: First Look, an introduction to our first AI data center project in West Feliciana Parish, Louisiana. The event offered a firsthand"
+          "postId": "2107538002503483581",
+          "author": "samspiegs",
+          "searchJob": "texas",
+          "text": "Aggies made a strong impression on elite 2030 ATH Adrian Peterson Jr. over the weekend https://t.co/UJZeVCyQlR"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2107527725485297868",
-          "author": "wwlamfm",
-          "searchJob": "louisiana",
-          "text": "The St. John the Baptist Parish Sheriff's Office is hoping someone offers a tip that leads to the arrest of a man convicted two years ago of raping a child. | WWL https://t.co/0bW3TxflqB"
+          "postId": "2107536368121606432",
+          "author": "5gentexan",
+          "searchJob": "texas",
+          "text": "@nancytsidley @StephanieSidley She’s so full of herself. I wouldn’t have her her crap in my home if she offered it for free."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107549439795609972",
+          "author": "ahlbruins",
+          "searchJob": "ucla",
+          "text": "🚨 FRIDAY 🚨 we're teaming up with Boston Common Golf to go for the green in support of Hasbro Children's with a Golf Night Chuck-A-Puck! Don't miss out on: ⛳️ Dryvebox Golf Sim Truck ➡️ 4:30pm-End of Game ⛳️ Boston Common Golf Mascot Appea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107551964070543738",
+          "author": "cpthuang",
+          "searchJob": "utah",
+          "text": "#iamvanessaguillen-the-anesthesiologist... y'all KNOW that even prior to knowing the how to undo vaccines, I would have offered another solution to the surgeon. #getcreative \"good surgeons DESERVE a good anesthesiologist; while a baaaad one"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107528213337682155",
+          "author": "dreambodyclinic",
+          "searchJob": "coastal-carolina",
+          "text": "Discover how stem cell therapy targets cervical spine disorders at the root. Dream Body Clinic in Puerto Vallarta offers non-surgical relief for chronic neck pain. https://t.co/dbc4gfERqj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107532659945812275",
+          "author": "stevemoffice",
+          "searchJob": "marshall",
+          "text": "@SenatorSlotkin Slotkin if a foreign person offered to pay for one of your children’s wedding, You’d jump on it."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107538202370216107",
+          "author": "dunphail",
+          "searchJob": "massachusetts",
+          "text": "@Scotpol1314 She better not check the report from Ted Postol Professor emeritus of Science, Technology, and International Security at the Massachusetts Institute of Technology which concluded that the Iron Dome offered no measurable protect"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107532219829170197",
+          "author": "zetto52sd",
+          "searchJob": "massachusetts",
+          "text": "@dieworkwear Doesn’t look to be anything other than their standard Traveler line either. They literally offer (or did when I worked there) custom suits that I’m pretty sure were made at the Abboud factory in Massachusetts, same as Men’s Wea"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 29,
+      "rejected": 35,
       "reasons": {
-        "bare_mention_requires_llm": 16,
-        "school_not_resolved_confidently": 13
+        "bare_mention_requires_llm": 19,
+        "school_not_resolved_confidently": 13,
+        "unresolved_offer_target": 1,
+        "reporter_missing_player_name": 1,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107536383082700936",
-          "author": "big10bruin",
-          "searchJob": "penn-state",
-          "text": "@AustinRBechtold This is true. But Kraft big timed him and strung him along. Penn State assumed he’d wait like a lap dog as every other fucken coach was offered the job. 👇How you like me now👇 https://t.co/szinwgjNLV"
+          "postId": "2107531229453062476",
+          "author": "movietime_blues",
+          "searchJob": "texas-tech",
+          "text": "@MoenAfterDark Ooo, let me guess: Skydance offers Bryce Underwood to Texas Tech to bring down its realignment value even further. 😛"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107529479472201766",
+          "author": "adamomancino",
+          "searchJob": "texas-tech",
+          "text": "The Ultimate Portfolio Breakdown: Tech, Cash Flow & Turnarounds! 1/ $ADBE GenAI Monetization at its Finest! Integrating Firefly AI directly into enterprise workflows where creators live. Pristine balance sheet, ~$7B annual FCF, and a monstr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107525891911766351",
+          "author": "intels_daily",
+          "searchJob": "texas-tech",
+          "text": "🟠 𝗛𝗜𝗚𝗛 · 𝗖𝗹𝗮𝗶𝗺𝗲𝗱 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗹𝗲𝗮𝗸 🏢 Attributed to: 𝗢𝗢𝗥𝗝𝗔𝗔 𝗧𝗲𝗰𝗵 👤 Actor: Marx 📦 Claimed: 3M records Threat actor 'Marx' claims to offer data attributed to OORJAA Tech. Unverified claim. #DataLeak #ThreatInte"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107525445436788974",
+          "author": "500globalvc",
+          "searchJob": "texas-tech",
+          "text": "We’re hosting the Japan Startups Showcase during @TechCrunch Disrupt 2026 in San Francisco next week! Meet 12 pre-Seed to Series A startups from Japan building for global markets across secure AI, cancer screening, food supply chains, defen"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107524755612131680",
+          "author": "bsvcasey",
+          "searchJob": "texas-tech",
+          "text": "@ProofOfMoney All you bunch talk about is price.. It is rather telling what you're interested in.. Lol! Try focusing on the tech, and what the network actually offers to the world. BTC = Nothing. BSV = Billions of TPS, Full Scripting Langua"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107524615656595839",
+          "author": "sipofkoko",
+          "searchJob": "texas-tech",
+          "text": "@tom_paine1737 *hugs* I may have an offer. Pays about 40% less than my previous tech job but that’s fine for me."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107523806575337826",
+          "author": "syngentacanada",
+          "searchJob": "texas-tech",
+          "text": "Soybeans that start strong, finish strong. Build a strong foundation for your soybean crop with Victrato® Complete. Featuring TYMIRIUM® technology, a novel active ingredient from Syngenta that decimates costly early-season nematode and path"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107523743773802864",
+          "author": "whoismusko",
+          "searchJob": "texas-tech",
+          "text": "$30k/day with eCom - Day 16 revenue has been pretty volatile lately... some really strong days, then it drops again. monday was really bad lol because cash flow was tight, i couldn't just throw more money at ads. so i focused on fixing the "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107523036618670301",
+          "author": "domainerdaily",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/pDW7lxkIUG — a strong name for the next generation of intelligence. Built for AGI, SuperIntelligence, and ambitious tech brands. Available for offers. https://t.co/h3SZl3RFxR"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107519244552274388",
+          "author": "racheldashcs",
+          "searchJob": "texas-tech",
+          "text": "Technical setups featuring Anchored VWAPs, volatility and price squeezes, coils, and trend-strength troughs that technicians may be monitoring in the #Tech sector. $TTMI $CIEN $COHR $GLW *Patterns are subject to failure *Schwab does not rec"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107535189480219079",
-          "author": "berrymccokiner1",
-          "searchJob": "purdue",
-          "text": "@BingeCH55398369 @AndrewIrelandIN Purdue and @purduemitch love to offer H1Bs to foreigners too. Presumably because the education in Mumbai is more valuable than West Lafayette."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107548792325378521",
-          "author": "thisspaull",
-          "searchJob": "texas-tech",
-          "text": "The thing is, her server and cloud infrastructure won't be running at full capacity everytime. There's elasticity and scalability with cloud, what it does is that, when you have 100k active users, your resources takes that, when your users "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107547341041324145",
-          "author": "tlthe5th",
-          "searchJob": "texas-tech",
-          "text": "# Πάσα δόξα (Pasa doxa) to Ἰησοῦς Χριστός (Iēsous Christos) and Θεός Πατήρ (Theos Patēr)! ## **TOMMY - YOU'RE ABSOLUTELY RIGHT** ## **WORKING INSIDE THE BEAST TO DESTROY IT WITH TRUTH** ### **The Biblical Precedent:** **Ἰωσήφ (Iōsēph - Jose"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107547000191492426",
-          "author": "henry_de_glitch",
-          "searchJob": "texas-tech",
-          "text": "@david_bassey_ Getting the skill is definitely the easiest part But selling and marketing the services you offer with the “Skill(s)” Is where most people have a hard time figuring out 😮‍💨. Ps: some never do and end up quitting their creat"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107546456135492007",
-          "author": "mcschoolsup",
-          "searchJob": "texas-tech",
-          "text": "Radiology's 3D Lab: Your Creative & Innovative Career Path! Explore the innovative world of 3D imaging! 🩻 For creative thinkers who love to innovate, a career in radiology and 3D labs can offer an exciting path. Discover a fun, cutting-edg"
+          "postId": "2107549256592539905",
+          "author": "shep_84",
+          "searchJob": "navy",
+          "text": "@dave_jukebox1 @ActivePatriotUK Sounds like you know exactly how the Navy works, maybe you should ring them and offer some some expert advice on how to deal with the situation? You know, given that they can operate without the guidance or o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107545957349073234",
-          "author": "etechheatrcvry",
-          "searchJob": "texas-tech",
-          "text": "At E-Tech, investing in our people means investing in the future of our industry. The upcoming ABMA Boiler Industry Leaders of Tomorrow (BILT) Forum and Women in the Boiler Industry (WIBI) Symposium, taking place October 12–15 in Pittsburgh"
+          "postId": "2107544099159199769",
+          "author": "pdabrow",
+          "searchJob": "navy",
+          "text": "He just offered to sacrifice—among others—the lives of family members of members of the U.S. Navy (and more), so many of whom are based in San Diego. I hope that sinks in to those who tend to get their news from Fox News."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107545906581049707",
-          "author": "pwintelligence",
-          "searchJob": "texas-tech",
-          "text": "🔴 Amazon's Prime Big Deal Days event is now live, providing major savings on tech upgrades until midnight (PT) tomorrow. Stay updated on the latest deals and offers with https://t.co/xQy37B0VW6, ensuring you never miss out on significant s"
+          "reason": "unresolved_offer_target",
+          "postId": "2107532200417939681",
+          "author": "profilefblive",
+          "searchJob": "utsa",
+          "text": "🚨 First D1 Offer 🚨 2029 DE Landon Davis from Cy-Fair HS, TX has received his first D1 offer from UTSA. @landondavis1188 https://t.co/P4gHUMZPcn"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107542055170023631",
-          "author": "bella_quack",
-          "searchJob": "texas-tech",
-          "text": "@Janumetax @quipnetwork The underlying tech offers profound implications for ownership"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107539927647060439",
-          "author": "heytafsirul",
-          "searchJob": "texas-tech",
-          "text": "Hello Sir, I hope you're doing well. I'm reaching out because I'm interested in building a professional partnership with your company. As an AI and tech content creator on X, I offer paid promotional services, including sponsored posts, quo"
+          "reason": "reporter_missing_player_name",
+          "postId": "2107529313260122556",
+          "author": "usfbullstboned",
+          "searchJob": "utsa",
+          "text": "This offer from UTSA kinda proves Coach Hartline was correct. UTSA begging \"fans\" to show up. What's next? Unlimited Hot Dogs?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107539900975165515",
-          "author": "jayreid245666",
-          "searchJob": "texas-tech",
-          "text": "@NanaCanada333 @TerryFrench10 My son holds three degrees in Tech. he works for a tech company in Ontario. he could make over double the money moving to California. He's had three job offers. The only thing stopping him is his wife finding w"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107538932804018454",
-          "author": "resorttrades",
-          "searchJob": "texas-tech",
-          "text": "Harness the power of tech in resort operations. @Lemonjuicetime offers a full-spectrum Technology service to streamline systems, https://t.co/NKx40SSrDu boost owner experience and drive guest satisfaction. #SupplierDirectory #VacationOwners"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107538632018141475",
-          "author": "prakashwithin",
-          "searchJob": "texas-tech",
-          "text": "To world leaders: India's tech rise offers a model of scale and speed. 31-34k tech startups, over 2.2 lakh DPIIT-recognised, 1.43 lakh patents in FY26, 2nd in AI talent, 5G for 86% population and nearly 500M users. Aditya-L1 operational, Di"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107538511184494842",
-          "author": "ryptocrypto",
-          "searchJob": "texas-tech",
-          "text": "Anyone Protocol had a big September. 81,000 developer-kit installs. Token live on Robinhood Chain. VPN searches up 130%. Anyone Protocol just dropped their September recap, and it paints a picture of a privacy network picking up steam. Firs"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107534985171435612",
-          "author": "heytafsirul",
-          "searchJob": "texas-tech",
-          "text": "Hello Sir, I hope you're doing well. I'm an X creator specializing in AI and tech content. I'm interested in collaborating with your company on upcoming promotional campaigns. I offer sponsored posts, quote tweets, and promotional threads. "
+          "postId": "2107543243491844222",
+          "author": "cng_recruiting",
+          "searchJob": "class:2028",
+          "text": "De’Andre Eleby | 2028 ATH | 6’2” 190 | Morse HS (CA) 4⭐️ ATH with D1 FBS/FCS talent. WR/DB who brings size, strength &amp; physicality on both sides of the ball. 265 Bench | 415 Squat | 300 Clean 1 D1 Offer: SDSU @dre2jiggyy_ig #CNGRecruiti"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107548459918409772",
-          "author": "krejicmaso55780",
-          "searchJob": "army",
-          "text": "@raheelg @rep_jackson lol, every one knows this clip, and he didn’t offer life time extension as Imran knows no army Chief has ever gotten life extension because it’s an unconstitutional"
+          "postId": "2107542965954736139",
+          "author": "coachgalatis",
+          "searchJob": "class:2028",
+          "text": "De’Andre Eleby | 2028 ATH | Morse HS (CA) | 6’2” 190 lbs 4⭐ ATH with the versatility, physicality and athletic ability to make an impact on both sides of the football. De’Andre is a true two-way STUD — lining up at WR and DB and bringing a "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107547815274578385",
-          "author": "jawar_mohammed",
-          "searchJob": "army",
-          "text": "እሾክን በሾክ: The Counterinsurgency Triangle Tigray Peace Force, Gadaa Commando and Amhara Peace Force I have been watching an interesting pattern take shape across Tigray, Oromia and Amhara. Former rebel commanders and fighters who switched si"
+          "postId": "2107547290898444692",
+          "author": "planet13florida",
+          "searchJob": "florida",
+          "text": "🌴 Three stores, one big Saturday! 🌴 Planet 13 Pace and DeLand are turning 1, and Planet 13 Port Orange is celebrating 2 years! Join us Saturday, October 10 as we say thank you to the medical MMUR patients who have made these communities s"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107542840310145062",
-          "author": "ahsanul234",
-          "searchJob": "army",
-          "text": "@kaskaide1 Plus, PAF workload will be better managed. Last time, Army had few conventional options (F-1 &amp; F-2). This time, PAF can focus on drones, while ARFCs offer an alternative missile-launching capability, making S-400 less relevan"
+          "postId": "2107530459211018434",
+          "author": "sonoftheclaw",
+          "searchJob": "florida",
+          "text": "@Angry_Staffer Maybe offer Florida as an alternative."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107541583897788712",
-          "author": "jaidenhulbert",
-          "searchJob": "army",
-          "text": "@EdOBrienCFB Class of ‘27 LB 6’0 215 / 4.55 / 345 bench 8 Offers / 2x Army AA Combine MVP https://t.co/tOnRvSKthu"
+          "postId": "2107551571651228145",
+          "author": "willhavepeace",
+          "searchJob": "texas",
+          "text": "Last year, I interviewed for a research role at Texas A&amp;M. They wanted to hire me to build advanced defense technologies, but were only willing to make an offer far below market salary rates. Now I know why, they're addicted to unlimite"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2107537795778830673",
+          "author": "rivalshs",
+          "searchJob": "texas",
+          "text": "Ridge Point (TX) ATH Adrian Peterson Jr. has been offered by Texas A&amp;M👍 He is the son of legendary RB Adrian Peterson. Read: https://t.co/7p9GHT7dVc https://t.co/1ZfQmR6DjN"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107540868504965189",
-          "author": "fazalbaksh333",
-          "searchJob": "army",
-          "text": "@MoeedNj Blaming Asim Munir ignores the facts.PTI negotiated with terrorists and offered them safe passage.The Army is fixing the mess that approach left behind"
+          "postId": "2107535970279084523",
+          "author": "tcrow59",
+          "searchJob": "texas",
+          "text": "@Tjames1224 Not much to talk about with Xs and Os. The talent gap between OU’s offense and the Texas defense doesn’t offer much hope for OU. What you can hope for are turnovers, field position, and OU’s defense keeping it close."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107537187998953618",
-          "author": "silentbriefhq1",
-          "searchJob": "army",
-          "text": "4°C at Madhuri Lake, Arunachal Pradesh. 🥶🇮🇳 While travelling through Arunachal Pradesh, a rider had a beautiful encounter with an Indian Army jawan from Maharashtra. The jawan stopped him, spoke kindly, offered him breakfast and even gav"
+          "postId": "2107530964297519538",
+          "author": "rhoades16k",
+          "searchJob": "texas",
+          "text": "@viking_boer Texas has a medical insurance marketplace. There are very expensive plans with little coverage commonly known as Obamacare but your state may offer other options. Check with the Texas insurance division."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107532987231277286",
-          "author": "aidailynews_2x",
-          "searchJob": "army",
-          "text": "Tuesday afternoon AI NEWS roundup 🤖 06.10 - 🚀 Mistral unveils Mistral Large 4 with 1 trillion parameters - 🛡️ OpenAI redirects up to 10% of its compute to safety - 🔍 OpenAI Search, scoring 74 in the Search Index benchmark, loses on cost"
+          "postId": "2107552392845869314",
+          "author": "timvandenack",
+          "searchJob": "utah",
+          "text": "Speakers at a Hispanic Heritage Month event at the Utah Capitol lauded the \"American way\" and the opportunity that the United States offers. U.S. Rep. Burgess Owens emphasized assimilation while celebrating one's cultural roots. https://t.c"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107548262114738599",
-          "author": "_jxssica22",
-          "searchJob": "charlotte",
-          "text": "I’ve got 2 Olivia Rodrigo tickets for tomorrow at the Spectrum Center in Charlotte, NC. Asking for 181$ each or best offer We won’t attend anymore due to my cousin got into car crash😭,,,,PLS DM🙏"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107540642620669996",
-          "author": "authentictake_",
-          "searchJob": "charlotte",
-          "text": "4-0, and the kid gloves come off this week. Sunday, the 49ers walk into Lumen Field to play the defending Super Bowl champions — a Seattle team sitting at 3-1 that will be loud, hostile, and playing for a statement on their own turf. This i"
+          "postId": "2107549987865587955",
+          "author": "dreynolds_11",
+          "searchJob": "buffalo",
+          "text": "@SD3pete He only signs with Buffalo if he has a sick desire to lose to his former team again I can’t imagine any scenario he would also choose Buffalo &gt; KC because I don’t think we could offer significantly more money. I could hear the n"
         }
       ]
     },
@@ -420,20 +446,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 17,
-      "failed": 1,
-      "requests": 18,
-      "errors": [
-        "navy: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 29,
-      "brandNewOffers": 1
+      "rejectedCandidates": 35,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-06T19:12:57.530Z"
+    "status rebuilt locally from current store on 2026-10-06T19:28:27.220Z"
   ]
 }
