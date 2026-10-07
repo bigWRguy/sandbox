@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T09:28:07.839Z",
+  "generatedAt": "2026-10-07T09:42:58.798Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-07T09:28:07.464Z",
+    "at": "2026-10-07T09:42:58.572Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0266622222222221,
-    "p95Hours": 2.0220897222222223,
-    "worstHours": 2.0220897222222223
+    "medianHours": 0.7692375,
+    "p95Hours": 1.5201452777777777,
+    "worstHours": 2.0172966666666667
   },
   "decisionCoverage": {
-    "total": 23,
-    "decided": 23,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,204 +55,147 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-07T09:28:07.464Z",
-      "got": 30,
-      "new": 23,
-      "lag": 0.11
+      "at": "2026-10-07T09:42:58.572Z",
+      "got": 26,
+      "new": 15,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-07T09:26:35.392Z",
+    "at": "2026-10-07T09:41:31.996Z",
     "mode": "live",
     "collection": {
-      "returned": 30,
-      "kept": 23,
-      "duplicate": 7,
+      "returned": 26,
+      "kept": 15,
+      "duplicate": 11,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 18,
+      "accepted": 10,
       "rejected": 5,
       "reasons": {
-        "no_offer_term": 3,
+        "no_fbs_school": 3,
         "hard_negative": 1,
-        "no_fbs_school": 1
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2107763230017728707",
-          "author": "mredstone",
-          "searchJob": "liberty",
-          "text": "According to the latest @LordAshcroft poll, 83% of 2024 @Conservatives voters want more AI regulation. That is not hostility to innovation, but a demand for responsibility. We should shape proportionate rules now, before public fear writes "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2107761640145895820",
-          "author": "abrahamunity17q",
-          "searchJob": "maryland",
-          "text": "TLA. Credit for the incentive. Not credit for the boat. Maryland and Baltimore County have committed to match up to 13 percent of Anduril’s private investment through existing programs and new appropriations. Those new appropriations still "
+          "reason": "no_fbs_school",
+          "postId": "2107744414441594917",
+          "author": "marshal56370790",
+          "searchJob": "marshall",
+          "text": "@kaine177 @WarrenGannaway @dscimmy21 @FOXFOOTY They’ll offer Blakey pick 8 but will ask for Heeney and Warner as well 😂 🤡"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2107757558349840602",
+          "postId": "2107743781579903300",
+          "author": "marshal56370790",
+          "searchJob": "marshall",
+          "text": "@davram88 @KingSwitchMatt @FOXFOOTY Which was offered last year and then some. Knocked back a reasonable offer now they want the 1st rounder and Humphries. Geelong would be “brain dead” to accept that deal and you’d be “brain dead” thinking"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107765551678345660",
           "author": "forgottenwildc",
-          "searchJob": "michigan",
-          "text": "Google Finally Discovers the Value of a Little Elbow Room Google says it is working to buy properties around its Fort Wayne data center to create a buffer. The company says these purchases are for separation from its neighbors, rather than "
+          "searchJob": "texas",
+          "text": "Michigan's Little AI Secret: Is It Becoming the Midwest's AI Powerhouse? When most people think about the centers of artificial intelligence, Michigan probably isn't the first place that comes to mind. California has Silicon Valley, Virgini"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107183582645002340",
-          "author": "yesjess",
-          "searchJob": "miami",
-          "text": "Take 2. I took my original post down earlier because the DMs were slammed. I’m hopping on the trend of everyone selling space on luggage, suits, and their body, and selling space on my MC cards. The price? A spot on your team. Following the"
+          "postId": "2107762346785489238",
+          "author": "yeahbutnahbut",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/Kju7SPdOfg"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2107751544175096211",
-          "author": "danwoodsweather",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/GWh1uAlJ4P"
+          "reason": "no_fbs_school",
+          "postId": "2107755233246150837",
+          "author": "jdtabile",
+          "searchJob": "notre-dame",
+          "text": "The collections came from auctions held on Sept. 10 and Sept. 30. Five sale lots were offered in the first auction, while 12 lots were presented in the second. | @bworldph"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 18,
+      "rejected": 10,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 9
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 5
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2107762858759197162",
+          "author": "theworldcorresp",
+          "searchJob": "hawaii",
+          "text": "Polymarket’s \"predictions\" are highly concentrated: in the 2026 midterm election markets, 1% of wallets controlled 68% of the trading volume; just 10 wallets accounted for 17% of the total volume and participated in 426 of the 470 seat-rela"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107763232626876835",
-          "author": "news_oct",
-          "searchJob": "liberty",
-          "text": "CRYPTO NEWS for 7th October: ➤ Polymarket Begins Rolling Out Protocol V2, Rebuilding Its Smart Contract System to Support Multiple Market Types on One Exchange. ➤ CFTC Chairman Michael Selig Says Only Federally Regulated Crypto Exchanges Wi"
+          "postId": "2107738217135161829",
+          "author": "jason_isaia",
+          "searchJob": "marshall",
+          "text": "@fantasynut_afl Why dont they offer pick 14 and future 1st for blakey and miers for Marshall if Saints want players so much"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107735584462807062",
+          "author": "ninoc08062263",
+          "searchJob": "marshall",
+          "text": "@FOXFOOTY I need to leave so badly…but it has to be to the one I want only, who also happens to be a club who offers f all. Onus is on Marshall to not be a prick to Saints"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2107760440528843177",
-          "author": "afrindependenti",
-          "searchJob": "liberty",
-          "text": "In contemporary political discourse, democracy enjoys an almost unquestioned status as the pinnacle of political development; the institutional form through which liberty, justice, accountable government, and human flourishing are expected "
+          "postId": "2107766533925884067",
+          "author": "dunnbilly87734",
+          "searchJob": "florida",
+          "text": "AI Overview The word rubio comes from the Latin word rubeus, which means \"red\". [1] Etymology and Meaning Evolution Latin Origin: It derives from rubeus (red or reddish, like a blackberry before it ripens). Shift in Spanish: Over time in Sp"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2107739828561285154",
-          "author": "gorgonsgrimoire",
-          "searchJob": "liberty",
-          "text": "I noticed how you ignored the entire 1856-1860 presidential campaign happened where tariffs where the fucking topic of discussion and banning southerners from moving west in violation of the Constitution. Then you add in the corporate welfa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107763180747297088",
-          "author": "steve_jj84061",
-          "searchJob": "michigan",
-          "text": "@JohnJamesMI You did very well. Michigan voters need to grow a brain and look much deeper at how little Democrats offer. Their unskilled team of politicians whose lawyer backgrounds are just not suited for what MI needs. A proven military l"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2107753704103325908",
-          "author": "mansatesla",
-          "searchJob": "michigan",
-          "text": "MARKET UPDATE — WEDNESDAY, 7 OCTOBER 2026 The S&P 500 just hit its first record since August. Treasury yields sit near a 24-year high, oil is above $100, and a hurricane is heading for America's oil fields. As the FT put it: \"Everything is "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107751728703791134",
-          "author": "xixy07",
-          "searchJob": "michigan",
-          "text": "@TMundy_15 @TheFieldOf68 Keep in mind Michigan AND Zaga offered almost more than double this 🤣🤣🤣"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2107756828968800540",
-          "author": "11w",
-          "searchJob": "ohio-state",
-          "text": "Skull Session: The Buckeyes return to No. 1 in ESPN’s FPI, and the Allstate Playoff Predictor offers two scenarios in which Ohio State wins a national title in 2026. https://t.co/JuirKZdOv5"
+          "postId": "2107743639614992418",
+          "author": "wichurchill_iii",
+          "searchJob": "texas",
+          "text": "If you’re thinking about making the stupid decision to harass either Sarah, CJ or their families, be prepared to face harsh consequences. My cousin is a high ranking member of the Texas Rangers. He has assured me that he’s working in conjun"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107758352310620476",
-          "author": "sandwichqcumber",
-          "searchJob": "miami",
-          "text": "@AidanLaPorta69 @kawhi_ring That's not what happened, at all. Boston was doing Mil a solid, and fucking over Miami by pretending to care. They never made any offer that would have ever been accepted."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2107756101332525444",
-          "author": "mefisk12tr",
-          "searchJob": "miami",
-          "text": "Leading Universities Visit MEF Schools Today, MEF Lisesi and MEF International Schools welcomed representatives from SVA, University of Miami, University of Rochester, Bard College, and the University of Edinburgh. During the morning break,"
+          "postId": "2107768058114683164",
+          "author": "revelation_1317",
+          "searchJob": "notre-dame",
+          "text": "Me too Especially Ireland My Grandfather's father emigrated here from Ireland in the late 1800's My oldest daughter loved that we had so much Irish heritage, my Grandfather's Mother was an O'Neill, so he had a lot of Irish on both sides Whe"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107744960946765968",
-          "author": "beingbbbianca1",
-          "searchJob": "miami",
-          "text": "@Owennfa I did 6 days in Miami and they mentioned they only offered 1 toilet paper roll and then I was on my own. https://t.co/HdfdhPg1Rp"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2107739767404122181",
-          "author": "yesjess",
-          "searchJob": "miami",
-          "text": "Thank you to everyone who has DM'd, TG'd, set up connections, and commented on/RT'd the original post (especially during Token2049). I chose to post this after an offer was pulled when the team decided to go on location instead of remote. T"
+          "postId": "2107762285011709986",
+          "author": "openminded_26",
+          "searchJob": "notre-dame",
+          "text": "@TheDemocrats 🇺🇸 CALLING ALL SENATORS who chase the Irish American Vote 🇮🇪 Have YOU contacted @sinnfeinireland @MaryLouMcDonald & @moneillsf to offer YOUR SUPPORT to the residents of the Garvaghy Road, Belfast who are protesting to stop"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107758951328837636",
-          "author": "stavrinosestate",
-          "searchJob": "coastal-carolina",
-          "text": "🌾 2,853 sqm of agricultural land in Softades, Larnaca—just 2km from the coast! Set between Kiti and Tersefanou villages, this peaceful field offers the perfect blend of rural charm and coastal convenience. With Protection Zone Z1 (6% densi"
+          "postId": "2107758937747448013",
+          "author": "sluggerotoole",
+          "searchJob": "notre-dame",
+          "text": "Leo Varadkar calls on Dublin daddy to apologise for walking out on us… From the Irish Times: People in the Republic will one day need to offer apologies to northern nationalists for forgetting about them “for a very long time” after partiti"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107757840450392217",
-          "author": "getawaymagazine",
-          "searchJob": "coastal-carolina",
-          "text": "Six South African coastal towns where cliffs, trails, wildlife and viewpoints offer a different way to experience the ocean 🌊 https://t.co/xVsgkEY0k9"
+          "postId": "2107738294255489471",
+          "author": "newscop9000",
+          "searchJob": "notre-dame",
+          "text": "@RachelMoiselle, @danielthemate, @LewisJonathanE: humble suggestion from an anon goy: as you well know, a lot of horrible pricks are actively trying to hijack this particular day. Don't let them. We can't stop these toxic muppets from gathe"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107748774185464187",
-          "author": "somaliatodayhq",
-          "searchJob": "coastal-carolina",
-          "text": "Abiy Ahmed renews Ethiopia’s push for sea access, days after Somalia offered commercial use of its ports while insisting Red Sea governance belongs to coastal states. https://t.co/LMyY8u58wj"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107747255608283333",
-          "author": "pictsbyai",
-          "searchJob": "coastal-carolina",
-          "text": "Created with Gemini Nano Banana 2 on @GeminiApp Prompt 👇 A confident man stands centered in the frame, turned at a 45-degree angle with shifted weight and tilted shoulders, wearing a charcoal grey shirt and sunglasses. His candid, neutral "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107742851228655720",
-          "author": "fandcwestwales",
-          "searchJob": "coastal-carolina",
-          "text": "🌊 Build by the Pembrokeshire coast from Offers in excess of £325,000 Six premium building plots at The Headlands offer the opportunity to create an individual coastal home overlooking the Solva coastline, with full planning permission and "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107739888569262278",
-          "author": "ibrahimobileye",
-          "searchJob": "coastal-carolina",
-          "text": "3 Units Available❗️ Delivery Date: December 🤝 What Value Will A Lifetime Access To The Beach Add To You & Your Family❓ 📍15 Minutes Drive From Victoria Island. Own Your Luxury Duplex With Studio Apartment With An Initial Deposit Of 30% Tod"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2107735260339282361",
-          "author": "aroundaboutbrit",
-          "searchJob": "coastal-carolina",
-          "text": "Glamping &amp; Hot Tub Escapes at Barrhill Holiday Park, South Ayrshire. Set near the coastal town of Girvan, Barrhill Holiday Park offers a peaceful glamping escape in the beautiful South Ayrshire countryside. https://t.co/08qsN86wPB #Sout"
+          "postId": "2107755943022960832",
+          "author": "psuitenetwork",
+          "searchJob": "uconn",
+          "text": "Instead, the registered owner of the yacht — an entity owned by Guo’s daughter — has offered to wire $37 million to a neutral third party while the yacht makes its way back to the U.S., a lawyer for Guo said in Connecticut bankruptcy court"
         }
       ]
     },
@@ -267,11 +210,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 18,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-07T09:28:07.840Z"
+    "status rebuilt locally from current store on 2026-10-07T09:42:58.798Z"
   ]
 }
