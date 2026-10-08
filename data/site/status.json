@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T00:41:57.941Z",
+  "generatedAt": "2026-10-08T00:58:06.455Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-08T00:41:57.631Z",
+    "at": "2026-10-08T00:58:05.983Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,75 +32,405 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.00618,
-    "p95Hours": 1.9162136111111112,
-    "worstHours": 1.9162136111111112
+    "medianHours": 1.0204333333333333,
+    "p95Hours": 1.775915,
+    "worstHours": 1.775915
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 81,
+    "decided": 81,
     "complete": true
   },
   "pending": {
-    "total": 117
+    "total": 116
   },
   "profileResolution": {
     "cached": 78
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 2633,
+    "completeOffers": 2640,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-08T00:41:57.631Z",
-      "got": 2,
-      "new": 2,
-      "lag": 1.16
+      "at": "2026-10-08T00:58:05.983Z",
+      "got": 115,
+      "new": 81,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-08T00:41:33.411Z",
+    "at": "2026-10-08T00:56:29.815Z",
     "mode": "live",
     "collection": {
-      "returned": 2,
-      "kept": 2,
-      "duplicate": 0,
+      "returned": 115,
+      "kept": 81,
+      "duplicate": 34,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 43,
+      "rejected": 38,
       "reasons": {
-        "no_fbs_school": 1
+        "no_fbs_school": 22,
+        "hard_negative": 4,
+        "non_fbs_offer_target": 7,
+        "no_offer_term": 5
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2107970264281604549",
-          "author": "mikemorrisjr0",
-          "searchJob": "phrase:\"thankful to receive an offer\"",
-          "text": "Thankful to receive an offer from @eccc_football! @Coach__Pratt @I_am_Topps @Morris4Mike @PregonS24 https://t.co/cVPs8iJ63A"
+          "postId": "2107997329928458471",
+          "author": "ryanhess1221",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachhatem, I am blessed to receive an offer from @DUFootball @garnet_football @CoachAJThompson @coachjo51 @PRZcory https://t.co/mBIi8uDvS9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107997177091874823",
+          "author": "noahperez_2",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachtaylor2698 i am blessed to say i have received my first official offer to play college football! @BBPBFoootball https://t.co/0wqz9dZF4U"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107995886378778765",
+          "author": "zacherywarren18",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachFrase I’m grateful to receive a offer from @UTM_FOOTBALL @CoachSeanKelly @CoachCrissup @Waleed_Gaines @JUCOFFrenzy @JuCoFootballACE @JUCOTopTalent https://t.co/QHQrVnmV2n"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107995708204663010",
+          "author": "michaelg1366",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coachcalexander I am blessed to receive a offer from capital university @Coach_Law23 https://t.co/a7zallb3LG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107992344243142814",
+          "author": "kylekortlin",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachColemxxrf I am blessed to receive an offer to Sterlington College! #AGTG #Unleashthewarrior @JaceLejeune https://t.co/LoSdrA6PiC"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107991890570170852",
+          "author": "myles0rice",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with @KHOWCU I am blessed to say i've received a division 2 offer from @ConcordFootball @AHMO_FOOTBALL @CoachCarter68 @cleewash @CoachStraka @ChadSimmons @Kennedy247 @MikeRoach247 @TFloss32 @adamgorney @Youn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107989110300291211",
+          "author": "lucasengle12",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with @RussHeidiSLC I’m blessed to receive my first college football offer from @HendrixFootball !! @CoachBindel @Coach_Grayson21 @CoachCastles @gobobcatfb @RecruitCelinaFB @james_engle @logane_12 https://t.c"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107989057422647411",
+          "author": "will_miller250",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach @Hunter__Pullen I am blessed to receive my second offer from Sterling College!! @mcvey_todd @LaytonBrian @jarrell_05 @BuckFitz @npatexas1 @coachupton43 @Linebackers_U https://t.co/5GnlZnidhH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107988451127890267",
+          "author": "coxetanio",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @PriceShone im blessed to receive an offer from @abc_football #Buffup @AriesNelson6 @coach_mac007 @johnvarlas @CSmithScout https://t.co/3lQfnpqtSP"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107987766843740209",
+          "author": "abekolody",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachDenecke, I’m Blessed to receive an offer from John Carrol University!!! @JCUFootball @jcusports https://t.co/vH623Wusu1"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107987403638006004",
+          "author": "parkerbeam10",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with coach @CoachKennedy6_. I am blessed to receive and offer from Wittenberg University! https://t.co/h5jgYme789"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107987303918354640",
+          "author": "xavierkatamba23",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "after a great conversation with the coaching staff I’m blessed to receive an offer from Arkansas Baptist College!🙏🏾#agtg https://t.co/e8wE6QQGfc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107987148830101872",
+          "author": "uriahmazyck8",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachNeroHawks I am blessed to receive my first offer!! #Beardown @grider_s @CoachSmittyC @CoachLarryG @RecruitGeorgia https://t.co/Z8cVIgbfqY"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107988585257578557",
+          "author": "nathangabany2",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "Blessed to receive an offer from Saint Francis University. All glory to God 🙏 https://t.co/VJYz3mxkxa"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107998320161636576",
+          "author": "roberto_lopez7",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a great call I am blessed to receive my 3rd offer from @NorwichFB! Thank you to @CoachKeithEmery for helping me through this process! @Prep_Football @CoachJustin10 @ffldprepjesuits @THEcoachRussell https://t.co/kWordo5Uxq"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2107997819714109562",
+          "author": "dkarin_johnson",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive a basketball offer from allen community college. Thank you to @Coach_Nee and the entire staff for believing in me. More work to do. 🗣️💯 #AGTG #Blessed #RecruitMe @Mustangbball_ @OkieBall_1 @coachbrandonj_ https://t.co/o"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107993456371277857",
+          "author": "derekjewell_10",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a great phone call with @MaccusD, I am blessed to receive my 4th offer from Juniata ‼️ https://t.co/9g3B9YtpWu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107990484123599021",
+          "author": "dannon_turner1",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a good conversation with @CoachJGarc1a I am truly blessed to receive my 7th offer from @GracelandFB 💛💙 @CoachMbu @Coach_N_Jones @CoachOFagan @larenzo_seals @archie_reggie @CoachJGarc1a @sixstarfootball @LoneStarPrepsTX @PrepRe"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107989925199007796",
+          "author": "kellie04grant",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive my 2nd offer from Lees-McRae college!! #AGTG✝️ @coach_ecullen @dfitz_01 @TCHSCeltics @FHSAA https://t.co/ciczdT57cV"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2107985630982787233",
+          "author": "kochtraevon",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive another division 1 offer from University of Arkansas at Pine Bluff #agtg🙏🏽 https://t.co/hZypjykFMx"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107993991652294711",
+          "author": "grantblomgren64",
+          "searchJob": "phrase:\"my first D1 offer\"",
+          "text": "After a great call and conversation with @CoachDtjackson and @Coach_Benedetto I am beyond blessed and honored to receive my first D1 offer to play at @GoJacksFB. GO JACKS🐰 @CoachBangSDSU @bvhsfootball @CoachMCBV https://t.co/2xckL8rlAc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107996637129785604",
+          "author": "kinnyckpurhadt",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "Received my first offer today from grandview! Beyond grateful but hungry for more! https://t.co/4M1t63Motw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107991993825775926",
+          "author": "braydengammel",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "I’m beyond grateful to announce I’ve received my first offer to play at the next level! God bless. @AsharThomas0 @CUWFB @CUWisconsin @RingsNthingsCA @TerrenceMackey2 @Ackerman_Coach @great_dailey https://t.co/Idny0DXqAQ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2107982032290611234",
+          "author": "andreaverbanic",
+          "searchJob": "kansas",
+          "text": "This is my client population. I work as a therapist in a Psychiatric Residential Treatment Facility (PRTF) in Kansas. It’s an inpatient psychiatric hospital. It’s a psych ward in layman’s terms. Kids who cannot function well in society live"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 7,
+      "rejected": 36,
       "reasons": {
-        "school_not_resolved_confidently": 1
+        "explicit_non_fbs_target": 1,
+        "school_not_resolved_confidently": 2,
+        "player_missing_class_year": 3,
+        "unresolved_offer_target": 1,
+        "bare_mention_requires_llm": 26,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2107995938652299635",
+          "author": "michaelg1366",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @WETEMUP4 I am blessed to receive an offer from the Georgia knights!!! @Coach_Law23 https://t.co/fnIoik67dN"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2107977325031907584",
-          "author": "brianlefevre21",
-          "searchJob": "usc",
-          "text": "@TexanTrojan94 @SSN_USC @29_daryus it isn’t 2004 anymore, and he got offered to USC lmao"
+          "postId": "2107989187031150720",
+          "author": "showerstaz2024",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachFrase I’m so blessed and honored to receive my first division 1 offer from UT Martin!🧡💙 @CoachCrissup @jdwarren09 @JUCOFFrenzy @JuCoFootballACE https://t.co/pXgihCqm0F"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2107997696095134027",
+          "author": "_malikthomas4",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG I received another blessing from @UTEPFB I appreciate the offer and enjoyed the conversation @Coach_Brookins ‼️@CoachCollins_1 @Coach_J_Morgan @BallCoachNelson @CatchitPat @Coach1zzy https://t.co/gL2nfzDyNy"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2107989761113894981",
+          "author": "jaxonflowers7",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "THIS ONE IS PERSONAL (my family is from there and my mom coached there)🐘🔥 Beyond blessed to receive an offer from ALABAMA!!! ROLL TIDE!!! #RollTide #AGTG @Coachcliff904 @KalenDeBoer @PlayerProMorgan @AlabamaFTBL @RTRnews @KaneWommack @TDA"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2107985136180760986",
+          "author": "david_nosa1",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive my 6th D1 Offer to University of Virginia #Godsplan #Agtg @CoachJones_RCS @BdortRCS @HerechukR @KoachAdams @Coach_TElliott @WillVapreps @AllenTrieu @adamgorney @ChadSimmons_ @SWiltfong_ https://t.co/X3YZ2G5jrL"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107987840122392602",
+          "author": "kshsaa",
+          "searchJob": "kansas",
+          "text": "Galyon offers voice of experience to Kansas student council representatives #KSHSAACovered x @CapFed https://t.co/p9uMYRFz3g https://t.co/zVrNtETTSs"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107982161232199886",
+          "author": "jucofootballace",
+          "searchJob": "kansas",
+          "text": "Jekai Lee @Jekailee003 @ Butler JuCo @ButlerGrizzlyFB picks up @KU_Football Offer @Coach_JL51 @ButlerGrizzlies https://t.co/w1RQ46z1y8"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107973836599627954",
+          "author": "jucofootballace",
+          "searchJob": "kansas",
+          "text": "Eddie Robinson @Eddie_robin5076 @ Trinity Valley JuCo @TVCCFOOTBALL picks up @KU_Football Offer https://t.co/wuXkAaopO4"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2107969846109446183",
+          "author": "eddie_robin5076",
+          "searchJob": "kansas",
+          "text": "After a great conversation with @Coach_JoeDineen I have received a D1 offer from @KU_Football @coachmcase @CoachLeoHunt @TVCCFOOTBALL @JuCoFootballACE https://t.co/FmpcmnJJSx"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107995271342985222",
+          "author": "obabysteph19",
+          "searchJob": "charlotte",
+          "text": "I’ve got 2 Olivia Rodrigo tickets for tomorrow at the Spectrum Center in Charlotte. Asking for 181$ each or best offer We won’t attend anymore due to my cousin got into a car crash😭PLS DM if you’re interested 🙏"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2107993514948825405",
+          "author": "klhor5032",
+          "searchJob": "charlotte",
+          "text": "Brock Purdy RC BGS 9.5 $80 Last sales of $60, $90 49ers looking like one of the best teams despite all the injuries Open to offers! $5 shipped, $100 ships free, stack until 10/8 https://t.co/AjO1peDdyN"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107990693738381647",
+          "author": "ulalusha",
+          "searchJob": "charlotte",
+          "text": "anyone looking to get three Olivia Rodrigo tickets for tonight Wed October 7 at Spectrum Center Charlotte, NC Unfortunately we can’t attend due to an emergency. Dm if you’re interested, reasonable offers welcome"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107989313149669508",
+          "author": "flwrboyjin_",
+          "searchJob": "charlotte",
+          "text": "would anybody be interested in three Olivia Rodrigo tickets for Thu Oct 8 at Spectrum Center, Charlotte, NC? My friends and i can't go anymore but want to offer them to people who actually are fans and want to go.!!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107980200822579620",
+          "author": "mizzalmondjoy",
+          "searchJob": "charlotte",
+          "text": "@_Rico21 It takes being around the right people to really experience, Charlotte and what it has to offer. That’s been my experience."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107968576267468954",
+          "author": "cobham_life",
+          "searchJob": "charlotte",
+          "text": "Just Wondering if anyone else still needs of Olivia Rodrigo Tickets. I have 4 vip floor tickets for October 7th @ Spectrum Center, Charlotte, NC (willing to offer together or separately).can’t make it after all. it's negotiable.Kindly Dm me"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107968537818190133",
+          "author": "cobham_life",
+          "searchJob": "charlotte",
+          "text": "Just Wondering if anyone else still needs of Olivia Rodrigo Tickets. I have 4x vip floor tickets for October 7 @ Spectrum Center, Charlotte, NC (willing to offer together or separately).can’t make it after all. it's negotiable.Kindly Dm me "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107968468545122641",
+          "author": "cobham_life",
+          "searchJob": "charlotte",
+          "text": "Just Wondering if anyone else still needs of Olivia Rodrigo Tickets. I have 4x vip floor tickets for October 7th @ Spectrum Center, Charlotte, NC (willing to offer together or separately).can’t make it after all. it's negotiable.Kindly Dm m"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107995539048403441",
+          "author": "zoeymarieva",
+          "searchJob": "ohio",
+          "text": "Got 3 extra tickets for Twenty One Pilots show for Saturday, October 17 at Ohio Stadium, Columbus, OH, but I can no longer attend. If anyone is interested in purchasing my tickets, feel free to message me now. Happy to share the Ticketmaste"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107994788347683318",
+          "author": "fritzurquhart",
+          "searchJob": "ohio",
+          "text": "@Dictator_Day Ohio people are incredibly stupid! It’s called declining an offer. They still played that bowl so, there was a winner and a loser. https://t.co/XiAyvIB3MB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107984057757810984",
+          "author": "yefyz61139453",
+          "searchJob": "rice",
+          "text": "🎁 A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavors. http"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107983948605231283",
+          "author": "jjfom39551142",
+          "searchJob": "rice",
+          "text": "🎉 A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Indian heritage. Regional variations add unique flavors. Such cuisine unites people across shared meals. Chefs master it through years of practice. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107983738093396124",
+          "author": "migvx65553196",
+          "searchJob": "rice",
+          "text": "🍁 🧢 A plate of biryani offers a burst of flavors. Made with basmati rice and nori, it reflects Japanese tradition. It’s central to cultural celebrations. Such cuisine unites people across shared meals. Regional variations add unique flavo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107983641389191230",
+          "author": "ytadb39712156",
+          "searchJob": "rice",
+          "text": "🌱 A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. It’s central to cultural celebrations."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2107983530181673295",
+          "author": "nsxte78533135",
+          "searchJob": "rice",
+          "text": "👑 🎌 A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and pecorino cheese, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. https://t.co/M55"
         }
       ]
     },
@@ -108,20 +438,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 5,
-      "failed": 1,
-      "requests": 6,
-      "errors": [
-        "phrase:\"after a great conversation\" offer: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 0
+      "acceptedEvidence": 7,
+      "rejectedCandidates": 36,
+      "brandNewOffers": 7
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-08T00:41:57.942Z"
+    "status rebuilt locally from current store on 2026-10-08T00:58:06.456Z"
   ]
 }
