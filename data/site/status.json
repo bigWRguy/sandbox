@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T06:28:07.305Z",
+  "generatedAt": "2026-10-09T06:43:37.726Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-09T06:28:07.043Z",
+    "at": "2026-10-09T06:43:37.382Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7744361111111111,
-    "p95Hours": 1.2747783333333333,
-    "worstHours": 1.5183372222222222
+    "medianHours": 0.7838366666666666,
+    "p95Hours": 1.281598611111111,
+    "worstHours": 1.533228611111111
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -55,74 +55,103 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-09T06:28:07.042Z",
-      "got": 9,
-      "new": 5,
-      "lag": 0.2
+      "at": "2026-10-09T06:43:37.382Z",
+      "got": 10,
+      "new": 9,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-10-09T06:26:38.493Z",
+    "at": "2026-10-09T06:42:08.036Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 5,
-      "duplicate": 4,
+      "returned": 10,
+      "kept": 9,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
+      "accepted": 7,
       "rejected": 2,
       "reasons": {
-        "no_offer_term": 2
+        "no_offer_term": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2108369531865338222",
-          "author": "claudiashein",
-          "searchJob": "notre-dame",
-          "text": "Ayer recibimos en Palacio Nacional al director ejecutivo de Nestlé, Philipp Navratil; nos informó que duplicarán la inversión en México, al pasar de mil a dos mil millones de dólares durante el sexenio. En 2028-2030, impulsarán la producció"
+          "postId": "2108428989845086267",
+          "author": "thehoopscrew",
+          "searchJob": "marshall",
+          "text": "A career-best year in the VFL for Mitch Knevitt, but will he be on Geelong's list in 2027? Jake reviews the young midfielder's season over on Patreon. ✍️ https://t.co/gwYyKNUVGL"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2108429697331912816",
-          "author": "chknstwrt",
-          "searchJob": "notre-dame",
-          "text": "https://t.co/nnvPOLpaRs"
+          "reason": "no_fbs_school",
+          "postId": "2108440585828966838",
+          "author": "flmisescaucus",
+          "searchJob": "florida",
+          "text": "Don't be this guy who complains about an email he didn't read and doesn't offer any solutions of his own. Sign up at https://t.co/yuvLMTrwkP and find out the difference."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 7,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 5,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108441300680741221",
-          "author": "the202_youtube",
-          "searchJob": "notre-dame",
-          "text": "@BabaGeshin @VOduebs @real_POK Was it also communism when fucking potato got blighted in Ireland in the late 19th century when no one offered help but the Ottomans? The Irish Famine in the 1700s? Belgium? Prussia? France? The Netherlands? I"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108438263639753060",
-          "author": "rgrangui",
-          "searchJob": "notre-dame",
-          "text": "Mexico continues to attract major international investment. Nestlé has announced plans to double its investment in Mexico to USD 2 billion, strengthening local production, sourcing and agricultural supply chains. An important example of the"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108430112215707862",
+          "author": "alfra26",
+          "searchJob": "marshall",
+          "text": "@GeelongCats need to free up one more pick for the National Draft and the only senior listed player still without an offer for 2027 is Mitch Knevitt. This also tells you that we were out of the Blakey equation just on list vacancy alone onc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108418964938498145",
-          "author": "tfloss32",
-          "searchJob": "notre-dame",
-          "text": "Kerrville Tivy '28 WRs Kyrin Armelin (@ArmelinKyrin) and Kenyon Armelin (@Armelinkenyon2) are reporting Notre Dame offers. #GoIrish🍀 https://t.co/G3AaGhwdoj https://t.co/yJCYplmvqh 𝕏 @CoachNeill | @TFNDFootball"
+          "postId": "2108425394097406045",
+          "author": "lans_institute",
+          "searchJob": "florida",
+          "text": "Yesterday, we posted an off-the-cuff remark about Florida Amendment #3 and got criticised for it. In the early hours of the morning, we posted a six (6) pointe position statement totaling about one thousand words. Absolute silence. If you w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108432142392869141",
+          "author": "cryptsyg",
+          "searchJob": "wisconsin",
+          "text": "I'm sure there are people lying so I will offer some context Winning state for AAA wasn't that impressive because it was a select team for all of south eastern Wisconsin We mostly had to travel out of state or up to Canada for reasonable co"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108433239207817332",
+          "author": "keviv9",
+          "searchJob": "arizona-state",
+          "text": "I agree that assessments need to evolve in the age of AI, but I wouldn't say pen-and-paper exams and in-person vivas are the only scalable solutions, particularly for large university classes with hundreds of students. At Arizona State Univ"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108437900673335729",
+          "author": "harp00n707",
+          "searchJob": "miami",
+          "text": "@sundevildesert @smelvilthe42nd Since tis the season For wishlists, Let’s make an offer To Miami for Kenneth Grant 🤷‍♂️"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108431733255209265",
+          "author": "atfooty_",
+          "searchJob": "miami",
+          "text": "Lionel Messi has won virtually everything football has to offer, building a career that has taken him from Barcelona’s golden era to international glory with Argentina and continued success at Inter Miami. He has lifted the Champions League"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108447109804327359",
+          "author": "russell_sl",
+          "searchJob": "pittsburgh",
+          "text": "Some more thoughts on the disgrace of Na(zi)Con in Jerusalem. Almost all of the conference was classic right-wing: immigration, family values, national identity, and security. On Wednesday night (Oct 7), the conference hosted a panel on the"
         }
       ]
     },
@@ -137,11 +166,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-09T06:28:07.306Z"
+    "status rebuilt locally from current store on 2026-10-09T06:43:37.727Z"
   ]
 }
