@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:13:11.549Z",
+  "generatedAt": "2026-10-09T08:28:25.964Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-09T08:13:11.180Z",
+    "at": "2026-10-09T08:28:25.650Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7744919444444445,
-    "p95Hours": 1.5176363888888889,
-    "worstHours": 1.7758444444444443
+    "medianHours": 0.7800844444444445,
+    "p95Hours": 1.2807166666666667,
+    "worstHours": 1.7716405555555557
   },
   "decisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -55,217 +55,73 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-09T08:13:11.180Z",
-      "got": 31,
-      "new": 25,
-      "lag": 0.11
+      "at": "2026-10-09T08:28:25.650Z",
+      "got": 12,
+      "new": 5,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-09T08:11:37.801Z",
+    "at": "2026-10-09T08:26:50.843Z",
     "mode": "live",
     "collection": {
-      "returned": 31,
-      "kept": 25,
-      "duplicate": 6,
+      "returned": 12,
+      "kept": 5,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 6,
+      "accepted": 3,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 2,
-        "non_fbs_offer_target": 1
+        "no_offer_term": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2108165311719415892",
-          "author": "thatbrian",
-          "searchJob": "temple",
-          "text": "God: \"You shall not make for yourself a carved image, or any likeness of anything that is in heaven above, or that is on the earth beneath. . .You shall not bow down to them nor serve them.\" Pope:"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2108458683403575755",
-          "author": "d1_cjm",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coachcalexander I’m blessed to receive my 2nd offer from @CapitalU_FB . https://t.co/14lfkH649f"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2108452760723276100",
-          "author": "brodyadams56",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive my second offer from Lighthouse Christian college #agtg https://t.co/tbZnI1sc7z"
+          "postId": "2108456187406819684",
+          "author": "azonamc",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a game day invite from @CoachSauve! Go raiders!! @SOU_Football @Matt_Johnson37 @EvansRankings @247recruiting @RecruitRadarNW @PrepRedzoneWA https://t.co/5a4rnf9qEH"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2108457902562578481",
-          "author": "sherlocker2",
-          "searchJob": "notre-dame",
-          "text": "@AlexKane221b @BernardMcEldown Labour should stop idolising Blair for GFA &amp; recognise N.I. needs to forget about “ hand of History”&amp; reform Governance of N.I. with a new free coalition style Assembly but keep Committee style examina"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2108463868003385355",
-          "author": "eirenua1",
-          "searchJob": "notre-dame",
-          "text": "When the state has a say in funding everything in society, there is no end to this, as Hayek pointed to in The Road to Serfdom. If it is to fund and subsidise child benefits, give out 'newborn baby grants', offer paid parental leave, pay fo"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2108142163594723778",
-          "author": "davquinn",
-          "searchJob": "notre-dame",
-          "text": "The State now funds free contraception up to 37, on top of free terminations. It has, in other words, made it far easier not to have children than to have them and raise them. Well done."
+          "postId": "2108454319452529028",
+          "author": "kevinrackington",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Holy shit apparently me and @Bluecollarsol34 have the best fucking Thursdays cause mfers think anyone is invited to this. It’s an honor not something we hand out‼️ Shake my head. You should feel blessed to receive a text from us. #niche"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 3,
       "reasons": {
-        "bare_mention_requires_llm": 13,
-        "multiple_resolved_schools": 2,
-        "school_not_resolved_confidently": 4
+        "bare_mention_requires_llm": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108463786877227184",
-          "author": "sistaliano",
-          "searchJob": "rice",
-          "text": "Some people are so desperate to manufacture a scandal that even a temporary petrol discount becomes “fuel subsidy reinstatement.” 😂 Let me explain this in the simplest language possible. Imagine a market woman who buys a bag of rice for ₦7"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2108462334351999128",
-          "author": "mimi_yakigar",
-          "searchJob": "rice",
-          "text": "They thought 30 governors were the solution to securing a second term. He probably would have preferred to give the money to the Southern governors and not bother with the Northern governors. Because in the South, we are devourers 😭🥹. We "
+          "postId": "2108463119018143783",
+          "author": "tlockty",
+          "searchJob": "troy",
+          "text": "Morning Call 3 — Horse of Troy, Giddy Up in the Arena Author: Grok (xAI) — Executing Floor Directive Date: 9 October 2026 Version: 1.0 — Call 3, Purpose Lock Reference: Operator statement following Call 2; lift, fleet, and fire held Intelle"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108454380546785589",
-          "author": "polite_indian",
-          "searchJob": "rice",
-          "text": "@SugangaKeshari Step 1) - Target vulnerable population and entice them to Christianity with rice bags. Step 2) - Sow seeds of alienation. Step 3) - Encourage them to voice dissatisfaction against the majority. Step 4) - Make an innocuous lo"
+          "postId": "2108473746931736865",
+          "author": "stasshostak",
+          "searchJob": "florida",
+          "text": "@low76fm Masters of the Air Catch-22 Generation Kill Band of Brothers Scavengers Reign Midnight Mass Diplomat Florida Man Yellowjackets (1 сезон) Echo 3 White Lotus Midnight Club Shantaram The Offer Succession For All Mankind Maid Brand New"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108447794155708471",
-          "author": "boringtintin",
-          "searchJob": "rice",
-          "text": "@rockhearted_ Smartas do not consume the (rice) prasadam offer during pinda pradana on the day of EkAdashi I fail to understand the point of doing it when you can't consume the prasadam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108467273237172431",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Ujjain, Madhya Pradesh: Union Minister Jitan Ram Manjhi says, “I pay my respects to Lord Mahakal. I visited this place decades ago, when we could offer prayers only by going through a pit to reach the main temple. Seeing it today, I feel it"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108466471592767729",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Ujjain, Madhya Pradesh: Union Minister Jitan Ram Manjhi offers prayers to Lord Mahakal at the Mahakaleshwar Temple. (Source: Mahakal Temple) https://t.co/q9qWDvVwb3"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108465533352124506",
-          "author": "cathchurchlove",
-          "searchJob": "temple",
-          "text": "That verse forbids idols. It does not forbid images, and a bow is not the sin by itself. The line says do not bow down and serve them. Serve is the point. The same book that gives the command orders cherubim carved and set over the ark. Exo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108465431401107617",
-          "author": "cathchurchlove",
-          "searchJob": "temple",
-          "text": "That verse forbids idols. It does not forbid images, and a bow is not the sin by itself. The line says do not bow down and serve them. Serve is the point. The same book that gives the command orders cherubim carved and set over the ark. Exo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108462574324924906",
-          "author": "godssniperoftru",
-          "searchJob": "temple",
-          "text": "PLANT HEMP, DO NO HARM (continued) Meanwhile, precaution is ignored where it matters most. In 2015 the World Health Organization's cancer agency classified glyphosate as probably carcinogenic to humans. It is found in the urine of most peop"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108460075715301681",
-          "author": "saatvata",
-          "searchJob": "temple",
-          "text": "He wasn't martyred. Historically speaking, Jesus was probably arrested and executed as a criminal for his temper tantrum in the Jewish Temple. The Synoptics place the temper tantrum in the final week of Jesus's life near the end of ministry"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108459953573040200",
-          "author": "maximumpain333",
-          "searchJob": "temple",
-          "text": "WOMAN, YOUR SENSUALITY IS A SHIELD FOR YOU. Not a costume. Not a bargain. Not a door left ajar for whoever knocks loudest. It is the living membrane between your soul and the world—dense, luminous, and older than language. The ancients knew"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108457520113332273",
-          "author": "jamesditto12",
-          "searchJob": "temple",
-          "text": "The period of the desolation that Jesus said would follow. Jesus said, when you see the Abomination (that causes desolation) spoken of by the prophet Daniel, flee, for then there will be a great Tribulation. The Dome of the Rock (that memor"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108442572288839746",
-          "author": "rabbib24031",
-          "searchJob": "temple",
-          "text": "It is both troubling and predictable that the account known as \"Voice of Rabbis\" displays a profound lack of understanding regarding the Hebrew Bible. This oversight can be attributed to its non-Jewish organizational affiliation and its fun"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108443538040271101",
-          "author": "ntsocial140",
-          "searchJob": "toledo",
-          "text": "@trulyhumanIST @elonmusk @X Wow aaplings, lefties now sucking up to capitalist elons rocket? Let US offer what we don't have - Stealth rockets, other cutting edge technologies,we may take it on mutually agreeable terms Why bother about inte"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108464827756585277",
-          "author": "mckinleyan",
-          "searchJob": "notre-dame",
-          "text": "For politics to change in NI we need rid of mandatory coalition. We also need the offer of a political division other than unionism and Irish nationalism. Why it’s important that Labour stands candidates here."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108459255414342026",
-          "author": "levellerory",
-          "searchJob": "notre-dame",
-          "text": "@rtenews lot of auxiliary, low skilled on offer via agencies in Dubai now. Where workers from the Ind/Pak and Philippines are feeling the squeeze effects of Iran war So Irish agencies go scouting. My pal there showed me an advert for meat f"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108457239015244179",
-          "author": "aisciarub",
-          "searchJob": "notre-dame",
-          "text": "@SuzieD755164 The same question can be asked about nurses coming from India. We've seen Irish graduate nurses in Galway not being offered jobs and previously in Cork."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108453228975214850",
-          "author": "flpatriot4u",
-          "searchJob": "notre-dame",
-          "text": "@laralogan We had a connection from Italy to Paris yesterday, hubby &amp; I agreed if the plane was overbooked, there was NO AMOUNT OF MONEY Air France could offer that would make us stay in that sh*thole called France for 1 min longer! I r"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2108469144446283921",
-          "author": "zackeiseman",
-          "searchJob": "louisiana",
-          "text": "ICYMI O/N (tgif hagw!) IRAN: The Pentagon has prepared a roughly three-day strike option targeting Iran’s missiles, drones, energy infrastructure and IRGC command posts, NYT reported. Trump has reportedly rejected five proposals for major o"
+          "postId": "2108457427314303229",
+          "author": "ddrey123",
+          "searchJob": "florida",
+          "text": "“God will give you grace for what you are carrying today.” ❤️ Well, I don’t often get on my soapbox, but today I need to share something from my heart. I’m feeling kind of exhausted. Fifteen months ago, my husband and I stepped away from jo"
         }
       ]
     },
@@ -280,11 +136,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-09T08:13:11.550Z"
+    "status rebuilt locally from current store on 2026-10-09T08:28:25.965Z"
   ]
 }
