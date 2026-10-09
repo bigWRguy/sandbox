@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:43:29.822Z",
+  "generatedAt": "2026-10-09T15:58:12.110Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-09T15:43:29.402Z",
+    "at": "2026-10-09T15:58:11.718Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0258841666666667,
-    "p95Hours": 2.0310288888888888,
-    "worstHours": 2.0310288888888888
+    "medianHours": 1.024318611111111,
+    "p95Hours": 1.7723652777777779,
+    "worstHours": 1.7723652777777779
   },
   "decisionCoverage": {
-    "total": 46,
-    "decided": 46,
+    "total": 91,
+    "decided": 91,
     "complete": true
   },
   "pending": {
@@ -47,317 +47,389 @@
   "profileResolution": {
     "cached": 79
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 2738,
+    "completeOffers": 2739,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-09T15:43:29.402Z",
-      "got": 81,
-      "new": 46,
-      "lag": 0.22
+      "at": "2026-10-09T15:58:11.717Z",
+      "got": 124,
+      "new": 91,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-09T15:41:51.622Z",
+    "at": "2026-10-09T15:56:42.278Z",
     "mode": "live",
     "collection": {
-      "returned": 81,
-      "kept": 46,
-      "duplicate": 35,
-      "tooOld": 0,
+      "returned": 124,
+      "kept": 91,
+      "duplicate": 32,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 17,
-      "rejected": 29,
+      "accepted": 48,
+      "rejected": 43,
       "reasons": {
-        "no_fbs_school": 16,
-        "no_offer_term": 7,
-        "non_fbs_offer_target": 6
+        "no_offer_term": 11,
+        "no_fbs_school": 25,
+        "hard_negative": 3,
+        "non_fbs_offer_target": 4
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2108569479567343854",
-          "author": "voxliturgica",
-          "searchJob": "kent-state",
-          "text": "We Understood the Latin Mass “Strip our altars; leave us only the Corn and Vine, and a rock for our altar, and we will worship with posture as lowly and hearts as loving as in the grandest cathedral. Let persecution rise; let us be driven f"
+          "reason": "no_offer_term",
+          "postId": "2108580692259152117",
+          "author": "tomeityler",
+          "searchJob": "virginia",
+          "text": "Virginia Tech fans in town for the game pulling up to the Chevy’s in Emeryville (it’s the best Mexican food they have had in their life). https://t.co/hBcBfGuKan"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2108563646896836948",
-          "author": "magreenbuilding",
-          "searchJob": "massachusetts",
-          "text": "Free Online Training with Urban Green Council: What's New in the NYS Energy Code, offered October 15, 27, 29: 12m ET: https://t.co/J4fiyWjoXO @UrbanGreen #energycode #NewYork #NY #building #construction #architecture #engineering #energyeff"
+          "postId": "2108581817699713436",
+          "author": "1medicalsurplus",
+          "searchJob": "virginia",
+          "text": "Who Needs an Air Mattress for a Hospital Bed? What is Low Air Loss? https://t.co/AhJd0u1R0a via @YouTube 🛏️ WHO NEEDS AN AIR MATTRESS FOR A HOSPITAL BED? WHAT IS LOW AIR LOSS? 🎥 Learn with Mr Hospital Bed! Video https://t.co/0DpSy1934D Wh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2108579508643147931",
-          "author": "memphis_valde",
-          "searchJob": "memphis",
-          "text": "@Charcoalman2 America is parched for stories of violence and misery. We know that that’s all the world has to offer for us, so going forward, the angst will gradually make its way into pop culture. The 2000s on angel dust. Ready to see what"
+          "postId": "2108555272134299889",
+          "author": "mcompassmedia",
+          "searchJob": "virginia",
+          "text": "TUSLA CONTRACTOR CASE: LABOUR COURT UPHOLDS €30,000 AWARDS TO HEALTHCARE WORKERS The Labour Court has upheld awards of more than €30,000 each to two Zimbabwean healthcare workers who came to Ireland after being recruited by a private compan"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2108558509570945397",
-          "author": "johnmemphi18129",
-          "searchJob": "memphis",
-          "text": "Nigeria’s economic landscape is shifting! 📉 CBN cuts MPR to 23% Customs’ $300 duty free threshold offers opportunities for eligible imports, but it’s not new. ⚖️ Labour tensions put petrol prices and wages back in focus."
+          "postId": "2108555073672364150",
+          "author": "alliancebirth",
+          "searchJob": "virginia",
+          "text": "TUSLA CONTRACTOR CASE: LABOUR COURT UPHOLDS €30,000 AWARDS TO HEALTHCARE WORKERS The Labour Court has upheld awards of more than €30,000 each to two Zimbabwean healthcare workers who came to Ireland after being recruited by a private compan"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108572484111143136",
+          "author": "rcatholicprayer",
+          "searchJob": "liberty",
+          "text": "The first reading for Friday October 9, 2026: Book of Galatians (Galatians 3:7-14) They claimed descent from Abraham. But only faith made them his true children The law placed a curse on all who failed it. Christ redeemed them by becoming t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108569268904153560",
+          "author": "darleygo_io",
+          "searchJob": "liberty",
+          "text": "Two P2P offers can show similar prices but very different conditions. Check payment methods, order limits and available volume before choosing an offer. Compare P2P markets with Pryanik 👇 https://t.co/JWj63VUrE4 #P2P #CryptoTrading"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108563564537819593",
+          "author": "darleygo_io",
+          "searchJob": "liberty",
+          "text": "P2P trading is more than finding the lowest buy price. Payment methods, ad limits and available volume can change the whole picture. Compare offers before choosing your next route 👇 https://t.co/JWj63VUZtC #P2P #Crypto"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108563270248374371",
+          "author": "darleygo_io",
+          "searchJob": "liberty",
+          "text": "P2P traders: don't chase price alone. Payment methods, ad limits and available volume matter just as much. Compare offers before you trade 👇 https://t.co/JWj63VUrE4 #P2P #Crypto"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108555906418172344",
+          "author": "darleygo_io",
+          "searchJob": "liberty",
+          "text": "Buying USDT on P2P? Don't compare price alone. Payment methods, ad limits and available volume can change which offer actually works for you. Compare rates before trading 👇 https://t.co/JWj63VUZtC"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108555634560168409",
+          "author": "darleygo_io",
+          "searchJob": "liberty",
+          "text": "Found a great P2P price? Check the ad limits before planning your trade. The best rate is useless if the available offer doesn't fit your amount or payment method. Compare real offers with Pryanik 👇 https://t.co/JWj63VUZtC"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108555354057703589",
+          "author": "darleygo_io",
+          "searchJob": "liberty",
+          "text": "The cheapest P2P offer isn't always the best deal. Check the payment method, ad limits, available volume and the price you can actually trade at. Compare before you commit 👇 https://t.co/JWj63VUZtC"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2108580824866046051",
-          "author": "elitepokerguide",
-          "searchJob": "class:2026",
-          "text": "ROOM COMPARISON · 2026 https://t.co/MXvH4XYBWu"
+          "postId": "2108135408425177384",
+          "author": "daveatherton",
+          "searchJob": "navy",
+          "text": "Isabel, it is not only Manchester, it is Liverpool too. \"Taxis at night bringing Palestine families from Speke airport to furnished houses in Liverpool. Students and their families, the next generation of potential insurgency within univers"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2108576806932488228",
-          "author": "simplybuckhead",
-          "searchJob": "class:2026",
-          "text": "WELLNESS REDEFINED Inside “Amazing Race” alums Leticia and Rod Gardner’s cutting-edge med spa. Dynamic3 Med Spa has the feel of an upscale retreat. The wellness destination in the heart of Buckhead is wrapped in soft neutral tones, sculptur"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2108570444018155785",
-          "author": "betashop",
-          "searchJob": "class:2026",
-          "text": "https://t.co/08LLGMoFVG"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2108565949163155757",
-          "author": "friendliai",
-          "searchJob": "class:2026",
-          "text": "Open-weight or closed models? We compared accuracy, cost, speed, and real-world design tasks. The answer depends on what you’re building. Full comparison 👇 https://t.co/gPpGePlXHg"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2108565376002892218",
-          "author": "doctortro",
-          "searchJob": "class:2026",
-          "text": "https://t.co/IPv9KrhbWQ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2108561258173599829",
-          "author": "hoyacapital",
-          "searchJob": "class:2026",
-          "text": "https://t.co/6IBrnXkAJY"
+          "postId": "2108573988020769265",
+          "author": "lovingzuhas",
+          "searchJob": "navy",
+          "text": "@ryuk3nn twitter user lovingzuhas politely declines the offer for the equality of everyone he called out in his post https://t.co/KmYwg3W8kq"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2108580465313452109",
-          "author": "tuula27_",
-          "searchJob": "class:2027",
-          "text": "Very excited to announce I have received an official offer from @URGFootball! Thank you to @D1_smith1 and @michael_bartrum for this opportunity, excited to keep working! #Classof2027 #AGTG #football #uncommitted @Hono_Football @PrepRedzoneI"
+          "postId": "2108568645764833375",
+          "author": "utsavolleyball",
+          "searchJob": "utsa",
+          "text": "FLASH SALE ALERT 🚨 For a limited time, you can save $25 on select single-session tickets to the 2026 NCAA DI Women’s Volleyball Championship in San Antonio! Offer ends Oct. 23 at midnight — secure your seats today! https://t.co/7Ltaa1elSk"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2108578836623597691",
-          "author": "lockedinpreps",
-          "searchJob": "class:2027",
-          "text": "@cccfball 2027 DL Mason Quilhot has received an offer from @MsideFootball! Congratulations on the offer, Mason!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2108577812365840467",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Devin Hopper-WR-2027-NC @ConcordFootball Offer #CFB"
+          "postId": "2108587140971975056",
+          "author": "absolutelym4ne",
+          "searchJob": "florida",
+          "text": "@NHLRumourReport And now look, Jets aren't getting anything! If not, they are getting worse offers."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2108575955555897613",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Andrew Power-OL-2027-KS @NWBearcat_FB Commit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2108372867444531545",
-          "author": "andrewpower73",
-          "searchJob": "class:2027",
-          "text": "HOME📍🟢⚪️ #GoCats #OABAAB @Coach_Prosser @CoachMcMenamin @NWBearcat_FB @BV_CoachTerrell @BrandonOlney79 @coachrowe77 @WOWKCfootball @KansasPregame https://t.co/G9OiPnCZRa"
+          "postId": "2108345782571274443",
+          "author": "william_terry30",
+          "searchJob": "florida",
+          "text": "Free website build for Emerald Coast contractors and businesses! Fort Walton Beach Marketing will build your new website for free. Call 229-585-1481 to claim yours today! #FortWaltonBeach #EmeraldCoast #SmallBusiness #FreeWebsite #WebDesign"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2108578541503939063",
-          "author": "ohhtyg",
-          "searchJob": "maryland",
-          "text": "Hey I Have two spare tickets to Kelela concert for Oct 13 at The Fillmore Silver Spring, Maryland. Letting them go for face value but open to offers. DM me if interested! 🤍 wts wtb iso wtt"
+          "postId": "2108581860494258458",
+          "author": "carbiztoday",
+          "searchJob": "florida",
+          "text": "FTC targets Greenway Auto Group over $3,350 in alleged hidden fees The Federal Trade Commission (FTC) announced that Orlando-based Greenway Auto Group has agreed to a proposed order addressing alleged deceptive vehicle pricing and prize pro"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108578283239473518",
+          "author": "golfweek",
+          "searchJob": "florida",
+          "text": "What's the latest on Trump wanting to turn Florida golf club into retreat? https://t.co/hu3BzU7m8d 📸 BRUCE R. BENNETT/PALM BEACH POST https://t.co/ERprobWmGK"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108576318677815741",
+          "author": "straightflorida",
+          "searchJob": "florida",
+          "text": "🚨 PLEASE READ BEFORE SENDING A DM 🚨 To help triage incoming requests as fast as possible, please format the very first line of your message like this: [COUNTY / CITY] - [NEED or OFFER] Examples: ⚠️ [BAY COUNTY / PANAMA CITY] - NEED (Gener"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108569773890261197",
+          "author": "bitarteam",
+          "searchJob": "wisconsin",
+          "text": "📩 This Week with the Bitar Team 🎥 COMING NEXT WEEK! Kenosha Housing Market: What's Ahead in 2027? What do Kenosha's Q3 housing numbers tell us about the market heading into 2027? Tony breaks down home prices, sales activity, inventory, an"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108586817159090594",
+          "author": "officialbray1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After great call with @CoachColbert11 I’m blessed to receive an offer from Prairie View!💜 @CatchitPat @Coach_J_Morgan @Coach1zzy @CoachCollins_1 @BallCoachNelson @CoachGuillot @JUCOFFrenzy @JuCoFootballACE https://t.co/RLowaGfa0a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108586156346474614",
+          "author": "jahannajojo",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach Jemperrie, I am Blessed to receive an offer from @uftl_wbb ❤️💛 https://t.co/nntwbsybZJ"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108585488114450733",
+          "author": "matthewt_22",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After an awesome visit with @mattshiz13 this week, I am extremely blessed to receive a Division 2 offer from @QUHawksBaseball!! @Cage52Bananas | @Dawgs_Baseball https://t.co/cekWGeRSE5"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2108577026328396234",
-          "author": "courtneylaw_5",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachBehbahani and stopping by to see me. I am blessed to receive another offer from Colorado State University-Pueblo. @CSUPFootball https://t.co/mklPfYqxXy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2108577009442210244",
-          "author": "dayveonq",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation @CoachWare35 im blessed to receive my 2nd offer https://t.co/Mv1fOZcsIM"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2108576929519419648",
-          "author": "courtneylaw_5",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachBehbahani and stopping by to see me. I am blessed to receive another offer from Colorado State University-Pueblo. @CSUPFootball https://t.co/wlmUIklj0k"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2108573721732800691",
-          "author": "gavin247_",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "after a great conversation with @coachhWilliams2 i’m blessed to receive my 3rd offer #AGTG #vikingswin @Centurion_Pride @247recruiting @rolramirez381 @ATHLX4 @AthleteEditsHQ https://t.co/AiP9mLZVJ7"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2108571017073627301",
-          "author": "kamleftridge1",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @coachhWilliams2 I am blessed to receive an offer from Lawrence University!! https://t.co/4gtUQY3sXB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2108569349019566263",
-          "author": "bruceakobi",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @ElijahJeudy I’m blessed to receive an offer from @HCCscotties !! @CoachJTGlen @quarii25 @ONeaglesFB @RampyLuke @CoachPeete https://t.co/hyzZa10WfJ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2108565020657250602",
-          "author": "deverioust",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coach_Dantzler I'm excited to announce I have received an offer from morehouse college. @MorehouseFB @RylandWidener99 @JohnathanbRiley https://t.co/mInOaaewet"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2108580846785749271",
-          "author": "thequasheard",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to receive my first offer from Campbell University @CoachQuaun @GoCamelsFB @ChadSimmons_ @RustyMansell_ @harrison2121 @RecruitGeorgia @TomLoy247 @adamgorney https://t.co/LX5zCm7DLw"
+          "postId": "2108585221260005610",
+          "author": "coltoncook2027",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive an offer from Ottawa University!! @DanielS18896891 @Coach_CEdwards @KohlsHighlights @CSKRECRUITING https://t.co/qJPbPjgbBB"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 14,
+      "accepted": 1,
+      "rejected": 47,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 5,
-        "multiple_resolved_schools": 2,
-        "author_not_recruit:not high-school recruit": 1
+        "bare_mention_requires_llm": 25,
+        "reporter_missing_position": 1,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 15,
+        "reporter_missing_player_name": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108579254019780629",
-          "author": "thecrereport_",
-          "searchJob": "kent-state",
-          "text": "FPA Multifamily acquired The Groves, a 366-unit apartment community in Kent, Washington, for $72M, or $196,721 per unit. With 68% of the apartments already renovated, the remaining 117 units offer the opportunity to increase rents through t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108564401741496448",
-          "author": "der_kaiser1859",
-          "searchJob": "kent-state",
-          "text": "Je hebt het wel tegen een bot, idioot. Een zuiver rationele psycho als het ware. Hij ként het woord “belangenvermenging” wel, maar kan de zuiver mensellijke link tussen een “gunstige lening” (an offer you can t refuse - plomo o plata) en de"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108551763510890984",
-          "author": "thedroneu",
-          "searchJob": "kent-state",
-          "text": "1 Course, No screen, how is the pilot accomplishing anything? Three job offers after 12 weeks is a great outcome. Sports venues are a smart niche, but they come with stadium TFRs and rules for flying over people. Did the pathway cover getti"
+          "postId": "2108587141802647671",
+          "author": "twistnh7",
+          "searchJob": "virginia",
+          "text": "Just saw the Virginia tech truck driving west on 24 from Walnut Creek towards Berkeley. James Franklin is enjoying everything the jewel of the east bay, Walnut Creek, has to offer !!!"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108579605908967773",
-          "author": "drewkochanny",
-          "searchJob": "class:2026",
-          "text": "Michigan became the latest Power-4 program to offer rising junior Traverse City QB @BrayTillman10 Friday, who has seen a surge since summer. https://t.co/Ovrs5O1HKm"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108572633038229877",
-          "author": "jeffsiegel",
-          "searchJob": "class:2026",
-          "text": "Donald Trump Threatened 300% Tariffs on Countries That Don't Invest in the U.S., Just Days After a Trump-Xi Summit Offered Only Limited Trade Relief. Here's Why That Threat Keeps Markets on Edge. https://t.co/brhNAqDHDp #tariffs"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108565650285408397",
-          "author": "devtalksro",
-          "searchJob": "class:2026",
-          "text": "⏳ 4 days left until Regular Registration closes! The companies behind the technology you use are joining the conversations at DevCon 2026. Will you? With Systematic as our Main Partner, alongside companies including DB Global Technology, PP"
+          "postId": "2108585830113518008",
+          "author": "drsusanjenkins",
+          "searchJob": "virginia",
+          "text": "🏡 FRIDAY OPEN HOUSE in Virginia Beach, VA! ✨ NEW PRICE! MORE SPACE! YOUR NEXT HOME COULD BE WAITING! Start your weekend with a tour of 4025 Bakerfield Road and discover a home filled with charm, space, and possibilities! 💚 📍 4025 Bakerfi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108578187605078392",
-          "author": "laserrematt",
-          "searchJob": "class:2027",
-          "text": "#FSU offered a 2027 DB yesterday, and he had already set a visit, but his recruitment is blowing up and the Noles have some work to do: https://t.co/WogPwWrrBu https://t.co/OxV7FYzdr2"
+          "postId": "2108582362552349101",
+          "author": "reallyamerican1",
+          "searchJob": "virginia",
+          "text": "The Nobel Peace Prize went to a South African judge who walked into a room of applause and offered to share it with him if people clapped harder. A Virginia county sued the administration Thursday to stop his 250-foot arch, and the filing d"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108564258019770466",
-          "author": "leggoshero",
-          "searchJob": "lsu",
-          "text": "@GoodmanHoops Heard Gonzaga initially offered him the keys this offseason yet later rescinded after questioning his intent/motivation to play basketball again. Not sure how true it is yet that was the rumor floating around a couple wks befo"
+          "postId": "2108581579329056889",
+          "author": "marsofold",
+          "searchJob": "virginia",
+          "text": "@elonmusk We have Starlink here in rural West Virginia and love it. I will be signing up for service on the very first day that Starlink offers voice cellphone access. God bless Elon Musk, a true American hero!"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2108579175162421370",
+          "author": "wvthunderuaa",
+          "searchJob": "virginia",
+          "text": "Bryce Webster ‘30 (@Brycewebster01) has picked up an offer from Georgia Tech! #WVThunderFam | ⚡️⚡️ https://t.co/KEFtF3mdLP"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2108573771758022819",
-          "author": "ieee_grss",
-          "searchJob": "maryland",
-          "text": "🚀 Elevate Your Career: New Opportunities on the IEEE GRSS Job Board for OCTOBER 2026 Check out the IEEE GRSS Job Board for a curated, global selection of impactful opportunities for researchers, academics, and specialists in Geoscience and"
+          "postId": "2108578757363499422",
+          "author": "velitesgear",
+          "searchJob": "virginia",
+          "text": "RT @velitesgear | Full Text Article: https://t.co/cvVK8q9iro | Author: @TasmanianTgrUSA Cimarron Firearms Showcases 250th Commemorative Frontier Rifle at NASGW Distributors can see the limited-edition flintlock at Booth 630 in Phoenix, Ariz"
         },
         {
-          "reason": "author_not_recruit:not high-school recruit",
-          "postId": "2108573783821013498",
-          "author": "isaiahwinston29",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG after a great conversation with @CoachAdamMann I have received a D1 offer from South Alabama @RylandWidener99 @CoachBPedruzzi @coach_dobler @CoachYancy_ @JUCOFFrenzy @JUCOFFrenzy @JuCoFootballACE https://t.co/cuFFIzstBv"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108577602000544167",
+          "author": "drsusanjenkins",
+          "searchJob": "virginia",
+          "text": "🏡 TWO OPEN HOUSES THIS WEEKEND in Virginia Beach, VA! ✨ A NEW PRICE, PLENTY OF SPACE, AND TWO CHANCES TO FIND YOUR NEXT HOME! Looking for a home with classic charm, spacious living areas, and room to make it your own? 4025 Bakerfield Road "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108571232874774577",
+          "author": "kapitakosimo888",
+          "searchJob": "virginia",
+          "text": "@RemigrationHub I wish the USG would just offer bounties to US citizens to turn people in. It would take care of these people really fast. See an Indian FOB, report, get your bounty, deport right away. In 1600s Virginia, the locals got boun"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2108567354070229240",
-          "author": "ensormalakai",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to say i have received another offer! Thank you Wildcats! #co27 #agtg https://t.co/BidTEFkdbR"
+          "postId": "2108563567662215274",
+          "author": "dailyreitbeat",
+          "searchJob": "virginia",
+          "text": "🚀 Why Data Center REITs Are Emerging as Wall Street’s Top Infrastructure Bet As alternative investment giants like Blackstone, Blue Owl, and Brookfield push into digital infrastructure, Data Center REITs (Real Estate Investment Trusts) are"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108578726568927463",
-          "author": "blandsi_",
-          "searchJob": "louisville",
-          "text": "@c_harrin62546 @KentuckySlime @JaHeisman So yall are banking on a lifelong louisville fan who isnt getting offered more money from yall and isnt getting offered a better program from yall to flip to yall based one ONE one off? Yall got it b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2108576349723980161",
-          "author": "blandsi_",
-          "searchJob": "louisville",
-          "text": "@HoodieVex @JaHeisman 2 of those never got offered from louisville and one was a three star who chose three teams before yall lol, not at ALL the same, miss me with that narrative champ"
+          "postId": "2108579461511733374",
+          "author": "ohhtyg",
+          "searchJob": "fresno-state",
+          "text": "Hey I Have two spare tickets to Marco Antonio Solis concert tonight at Save Mart Center, Fresno, CA. Letting them go for face value but open to offers. DM me if interested! 🤍 wts wtb iso wtt"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2108573209041817712",
-          "author": "baobetting",
-          "searchJob": "louisville",
-          "text": "Week 6🏈Best CFB Play 3 🎮FSU@LOU #GoCards 🏈Lincoln Kienholz o237.5 Pass Yds (-122) New user offer 🎁 New users on @ProphetX can trade $50 and get $75 with code “BAO” 👉 https://t.co/YFKP8CwH3j 🚨 “I felt good, felt really good.” That was "
+          "postId": "2108573701591466487",
+          "author": "devilsdigest",
+          "searchJob": "hawaii",
+          "text": "To close out its non-conference slate, the Sun Devils face a Hawaii team that has struggled quite a bit this year and offers ASU a great chance to bounce back from a bitter Baylor loss. @JoeHealey42 examines Arizona State’s upcoming opponen"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108555252303794496",
+          "author": "osamujulia62",
+          "searchJob": "hawaii",
+          "text": "Dear Ms. Julia Roberts, In case something unexpected happens to me, I would like to provide you with a rough outline of my plans for November 5 and beyond. Although it is not on a regular basis, I still report to the official in charge at t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108580904897495178",
+          "author": "smannan",
+          "searchJob": "liberty",
+          "text": "@mickitiki The only way Republicans can win is offer all kinds of checks/bribes to buy the DUMB VOTE - - HAHA $5000 dividend is never coming you morons - don’t sell your freedom &amp; liberty for NOTHING - WAKE UPPPPPP"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108578163387162748",
+          "author": "jucofootballace",
+          "searchJob": "liberty",
+          "text": "Godspower Otuonye @gp_3007 @ Fullerton JuCo @FullColl_FB picks up @LibertyFootball Offer https://t.co/EGSJo3QTGh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108577976879108428",
+          "author": "np4football_ot",
+          "searchJob": "liberty",
+          "text": "Godspower Otuonye-OT-JUCO @LibertyFootball Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108562242027372596",
+          "author": "rao_2026_",
+          "searchJob": "liberty",
+          "text": "How did a dissident become one of the architects of Kenya’s Constitution? The panel on Constitution, Reform and the Long Struggle took up that question at #RAO2026. Moderator Ms. Michelle Ngele set the tone. To her, Raila’s political life w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108584246407205208",
+          "author": "najones317",
+          "searchJob": "navy",
+          "text": "Add Newcastle, and Birmingham to the mix. Remember Burnham offered to take 4000 Ceuta invaders off Dirty Sanchez's hands. Spanish navy ship has been in the Channel several times the last few weeks too ????"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2108587242075619335",
+          "author": "e7johnny",
+          "searchJob": "florida",
+          "text": "STOP GUESSING. START TRADING SPORTS WITH INSTITUTIONAL PROBABILITY. Most sports bettors bleed their bankrolls because they bet with emotion, chase public favorites, and risk arbitrary dollar amounts without calculating expected value (+EV)."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108585277111550177",
+          "author": "liesorliars",
+          "searchJob": "florida",
+          "text": "Jeffrey Epstein offered to anonymously pay for one of Dean Kamen's wheelchairs so it could go to a man who had lost his legs. Kamen is the New Hampshire inventor behind the Segway, the iBOT stair-climbing wheelchair and the FIRST robotics c"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108583022832619623",
+          "author": "tonyseruga",
+          "searchJob": "florida",
+          "text": "America Is Becoming a Photocopy—One Ugly Subdivision/Complex at a Time—Welcome to Marxism We hear the warnings everywhere: falling birthrates, empty classrooms, an aging population. A West struggling to reproduce itself. Then we look out an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108582624990011883",
+          "author": "vladdadtrump",
+          "searchJob": "florida",
+          "text": "@RHigley11 @BuffaloJayFo89 The problem was that Chevy overplayed his hand. Thought he could finesse a bit more. Failed. And now the offers are 10% or what he got before. He should've accepted that Florida offer. Pure insanity"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108582111162822792",
+          "author": "william_terry30",
+          "searchJob": "florida",
+          "text": "Florida chambers @MiamiChamber @NaplesChamber @GNVChamber: we'd love to help your members get online. Fort Walton Beach Marketing offers free website builds for Florida small businesses and contractors. Call 229-585-1481. https://t.co/RvRYN"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108579924743520323",
+          "author": "dngg294601",
+          "searchJob": "florida",
+          "text": "SpaceX / Tesla — Latest Developments October 9, 2026 | 7:00 AM PT Executive Summary: SpaceX is expanding into integrated mobile communications, while Tesla faces another Cybercab regulatory milestone. Investment Thesis: SpaceX’s addressable"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108578382262989181",
+          "author": "m_alonsorealty",
+          "searchJob": "florida",
+          "text": "OPEN HOUSE | WEDNESDAY, OCTOBER 14TH 4:00 PM – 7:00 PM | WILTON MANORS You’re invited! I’d love to welcome you to this beautiful modern home in the heart of Wilton Manors. Some properties are simply better experienced in person, and this is"
         }
       ]
     },
@@ -371,12 +443,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 14,
-      "brandNewOffers": 2
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 47,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-09T15:43:29.824Z"
+    "status rebuilt locally from current store on 2026-10-09T15:58:12.111Z"
   ]
 }
