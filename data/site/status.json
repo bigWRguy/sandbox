@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T05:43:14.095Z",
+  "generatedAt": "2026-10-09T05:58:11.300Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-09T05:43:13.772Z",
+    "at": "2026-10-09T05:58:10.934Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7702233333333334,
-    "p95Hours": 1.2770791666666668,
-    "worstHours": 1.5256319444444444
+    "medianHours": 0.5242580555555556,
+    "p95Hours": 1.276068888888889,
+    "worstHours": 1.5263027777777778
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,97 +55,140 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-09T05:43:13.772Z",
-      "got": 18,
-      "new": 8,
-      "lag": 0.23
+      "at": "2026-10-09T05:58:10.933Z",
+      "got": 30,
+      "new": 14,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-10-09T05:41:39.312Z",
+    "at": "2026-10-09T05:56:35.894Z",
     "mode": "live",
     "collection": {
-      "returned": 18,
-      "kept": 8,
-      "duplicate": 10,
+      "returned": 30,
+      "kept": 14,
+      "duplicate": 16,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 2,
+      "accepted": 9,
+      "rejected": 5,
       "reasons": {
-        "hard_negative": 1,
-        "no_offer_term": 1
+        "no_offer_term": 2,
+        "no_fbs_school": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2108005789076230474",
+          "author": "fatsamoan",
+          "searchJob": "iowa",
+          "text": "It’s Wednesday and I’m at a work event at Rice Eccles Stadium and what is incredibly odd is that the Iowa State football truck is parked here. Iowa State plays BYU on Friday, why is their truck here? 🤔 https://t.co/880ZCmgpv1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108416033388442041",
+          "author": "iowacentralfb",
+          "searchJob": "iowa",
+          "text": "🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱🚨🔱 OFFER ALERT 🐾🐾 This Triton TE is making waves, and the next level is calling! 🌊⚓️ #RollTritons #EarnedNotGiven #D1Bound"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2108424368271339757",
-          "author": "kevinnbass",
-          "searchJob": "houston",
-          "text": "You told me you are Paxton's right hand. I told you your office is violating state and federal law and the United States Constitution on Texas Tech's behalf. You told me Paxton does not know about my case, so he is not responsible for what "
+          "postId": "2108435235709104418",
+          "author": "alice_kinzer",
+          "searchJob": "oregon",
+          "text": "VOTE OREGON RED! In the debate between Christine Drazan and Tina Kotek on Wednesday evening, several areas were covered. Regarding her record for homelessness Kotek attempted to make it sound like she had improved things for them. We know i"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2107876085656424949",
-          "author": "michellebbz",
-          "searchJob": "houston",
-          "text": "@kevinnbass I appreciate your vote, but you know the real details of what is happening here. We have spoken in depth about it. Our office is representing the college per the constitution and you know why."
+          "postId": "2108418888119800094",
+          "author": "589xrp",
+          "searchJob": "hawaii",
+          "text": "A bank can have a private market on the XRP Ledger. A payment in that market can only use that market. The coin sitting outside the gate is not in the payment. One payment. One room. #XRP https://t.co/WqrH0DJEob"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108424972443988445",
+          "author": "praisecleveland",
+          "searchJob": "ohio",
+          "text": "Cleveland has no shortage of frightening stories, mysterious landmarks and places with reputations that might make your skin crawl. As Halloween approaches, Northeast Ohio&amp;#8217;s haunted history offers plenty of reasons to explore the "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 9,
       "reasons": {
-        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 6,
         "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 4
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2108422264794333658",
-          "author": "lakhilakhi5",
-          "searchJob": "new-mexico",
-          "text": "If you release prisoners now and they see what's happening in Palestine, they will immediately react to save the Palestinians. Take that against nst these powerful leaders who are doing NOTHING ON EARTH TO GET A BAG OF RICE, FLOUR, A BED IN"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108410916026937486",
+          "author": "jucofootballace",
+          "searchJob": "oregon-state",
+          "text": "Malim Thomas @_MalikThomas4 @ Navarro JuCo @NCDAWGPOUND picks up @BeaverFootball Offer https://t.co/jclHiTrRe7"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2108428335566959061",
-          "author": "mosundunrin",
-          "searchJob": "south-florida",
-          "text": "Hebrews 9:13-15 NKJV [13] For if the blood of bulls and goats and the ashes of a heifer, sprinkling the unclean, sanctifies for the purifying of the flesh, [14] how much more shall the blood of Christ, who through the eternal Spirit offered"
+          "postId": "2108426426995093620",
+          "author": "rich_compass",
+          "searchJob": "class:2028",
+          "text": "SpaceX is reportedly spending 8 billion on spectrum. Why jump into cell service?👇 ⠀ Private equity firm Grain Management said on October 8, 2026 that it signed a final deal to sell its nationwide 800 MHz spectrum portfolio to SpaceX ($SPCX"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108416071925682497",
-          "author": "aaronserrewx",
-          "searchJob": "alabama",
-          "text": "I’m excited to share that I’ve graduated with my M.S. in Atmospheric Science from the University of Alabama in Huntsville and accepted a final job offer to join the National Weather Service Tampa Bay! Grateful for everyone who supported me "
+          "postId": "2108423551074373647",
+          "author": "coachbenreaves",
+          "searchJob": "indiana",
+          "text": "@DbCoachJulian @J_Carrasquillo8 @IndianaFootball @LiveLoveLavell @FiredCoaches @RustyMansell_ @ChadSimmons_ @TWithJay Not a zoom you were on. Just a tweet about a kid. My b. You may think he’s mid. But CKS thinks he’s an offer take 😬😬 htt"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108422134762553412",
+          "author": "coachbenreaves",
+          "searchJob": "indiana",
+          "text": "I’ll find the clip bc I’m petty. But yes you called 0 mid. & we used that as fuel. Now he can guard 14 going to Indiana ironically after he picked up a UGA offer? Maybe. This is friendly fire I want no part of bc I love them both. But we al"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108435561598042186",
+          "author": "brownbearslc",
+          "searchJob": "iowa",
+          "text": "All the \"truck stop\" jokes aside, teams always do walk throughs on the road somewhere. Would not be surprised if Utah offered to host Iowa State and rolled out the red carpet as well. Enemy of my enemy is my friend."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108429036175126990",
-          "author": "eyeworldnews444",
-          "searchJob": "minnesota",
-          "text": "🇺🇸 TRUMP DEMANDS STRONGER FEDERAL ACTION IN MINNESOTA Trump accused Minnesota’s leadership of failing to address alleged crime and fraud, and offered federal assistance if state authorities requested it. His remarks have triggered critici"
+          "postId": "2108424718835474653",
+          "author": "mangareporter",
+          "searchJob": "tennessee",
+          "text": "\"Firefly Wedding\" Final Vol 13 and Special Volume (5 Extra Chapters) by Tachibana Oreco. ▪︎Series has reached 5 million copies in circulation for vols 1-12 incl. digital. ▪︎TV Anime will start Oct 9, 2026. Historical Action Romance set in f"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108428177529839684",
-          "author": "mi_5mo",
-          "searchJob": "minnesota",
-          "text": "Ok I’m literally afraid to post on Facebook qu’est-ce qui se passé au Québec. Specifically en Beauce. My family vibe there is pretty liberal and definitely have a touch of TDS. was the PQ seat gain surprising or expected. Are people shocked"
+          "postId": "2108432056942494011",
+          "author": "thegame7guy",
+          "searchJob": "liberty",
+          "text": "@RickHerkimer @nrstanley01 @IrateSocrates @thefalkon The Liberty dont want her around.. Stewy hates Caitlyn, thats why she never offered her a UNRIVALED contract.. *Caitlyn is a terrible teammate, no one wants her.."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108429646593450145",
-          "author": "eyepodster",
-          "searchJob": "kansas",
-          "text": "The Kansas Legislature amended the statute in 2018 to narrow its scope, exempting sole proprietorships, individual contractors, and contracts valued under $100,000. That's good, I support that. A single individual should be free to boycott "
+          "postId": "2108428567461998906",
+          "author": "thealchemist473",
+          "searchJob": "liberty",
+          "text": "Um, who is James talking to?None of this says you are saved by works🤦‍♂️🤦‍♂️🤦‍♂️😂😂😂omg how pathetic! James is writing to scattered believers under trial (1:1–2), and his burden from the start is hearing that does not become doing. The"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108428022722527263",
+          "author": "yerttlizz",
+          "searchJob": "ohio",
+          "text": "Selling 2 tickets to Twenty One Pilots at Ohio Stadium on Oct 17. $390 each (open to offers). Ticketmaster transfer only… https://t.co/xCa6ybhG9j"
         }
       ]
     },
@@ -160,11 +203,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-09T05:43:14.096Z"
+    "status rebuilt locally from current store on 2026-10-09T05:58:11.301Z"
   ]
 }
