@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T18:41:46.100Z",
+  "generatedAt": "2026-10-09T18:58:11.309Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-09T18:41:45.799Z",
+    "at": "2026-10-09T18:58:10.969Z",
     "jobsTotal": 162,
-    "sweptThisRun": 2,
-    "requests": 3,
-    "fullSweepCycles": 81
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,86 +32,427 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7463486111111111,
-    "p95Hours": 1.7469505555555556,
-    "worstHours": 1.7469505555555556
+    "medianHours": 1.0200177777777777,
+    "p95Hours": 1.7665227777777779,
+    "worstHours": 1.7665227777777779
   },
   "decisionCoverage": {
-    "total": 1,
-    "decided": 1,
+    "total": 89,
+    "decided": 89,
     "complete": true
   },
   "pending": {
-    "total": 123
+    "total": 124
   },
   "profileResolution": {
     "cached": 79
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 2757,
+    "completeOffers": 2759,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-09T18:41:45.799Z",
-      "got": 5,
-      "new": 1,
-      "lag": 1.19
+      "at": "2026-10-09T18:58:10.968Z",
+      "got": 125,
+      "new": 89,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-09T18:41:33.095Z",
+    "at": "2026-10-09T18:56:38.535Z",
     "mode": "live",
     "collection": {
-      "returned": 5,
-      "kept": 1,
-      "duplicate": 4,
+      "returned": 125,
+      "kept": 89,
+      "duplicate": 36,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 57,
+      "rejected": 32,
       "reasons": {
-        "no_fbs_school": 1
+        "no_fbs_school": 16,
+        "hard_negative": 6,
+        "no_offer_term": 8,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2108611107476648397",
-          "author": "kstatecollegian",
-          "searchJob": "kansas-state",
-          "text": "Shop Local, Think Local High Horse Stables inc. offers full-service boarding, riding and event services! https://t.co/CmPg5uLpaR #ad https://t.co/jiEYT51rEb"
+          "postId": "2108603235191935075",
+          "author": "evan_wood42",
+          "searchJob": "phrase:\"receives an offer from\"",
+          "text": "@GinnyRothTO True story for you, Ginny: older home down the street from me receives an offer from a family hoping to buy an affordable home. Later to end up in and losing a bidding war against a developer planning to build 8/units at ~$2,00"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108631766005387517",
+          "author": "matahiwanoboru",
+          "searchJob": "rice",
+          "text": "New Student Clubs Open in California! ORANGE COUNTY, Calif.—High school students in Southern California are bringing the spirit of “One Youth. Infinite Hope” to their campuses. … The clubs aim to give students a place to explore Buddhist ph"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108614945181179929",
+          "author": "laurits73",
+          "searchJob": "rice",
+          "text": "@KingG8th @TheRealPDQ @NYCMayor It doesn't matter if it was 20 years ago Obama deports millions, most without due process Trump tries to get a wall built, they left scream bloody murder Biden allows millions in Trump closes border immediate"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108606975042781485",
+          "author": "wealthg5924",
+          "searchJob": "rice",
+          "text": "@meijer @USEEOC @PeterMeijer Kristen W. Phillip K. Terry L. Erin D. Buzz S. Ginger R. You’re all fired. I offer you 8 months of pay and benefits as long as allowed. You can keep ALL of your stocks, but get the fuck out of my office. You spe"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108606458824728863",
+          "author": "rxbremen",
+          "searchJob": "rice",
+          "text": "Cardinal stones sends in Johnvents Group Financial Highlights. So far in H1 2026, Johnvent has made over 410B naira. — Johnvents Industries Limited is a fully Nigerian-owned agribusiness, specialising in the processing, manufacturing, expor"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108140158910366172",
+          "author": "rxbremen",
+          "searchJob": "rice",
+          "text": "Even Presco and Okomu don’t make this revenue 👀👀👀 I’ve written about Johnvent multiple times actually but this revenue is crazy."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108065817313095724",
+          "author": "theisaacola",
+          "searchJob": "rice",
+          "text": "In 2021, this Nigerian company made N6.32 billion in revenue. Four years later, it made N802.36 billion from same Nigerian agriculture. What changed?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108587940423053659",
+          "author": "chukserice",
+          "searchJob": "rice",
+          "text": "\"Collect their rice and vote wisely.\" — Man says as he shows off a bag of rice he received from the APC. https://t.co/aEG2chYvjN"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108598179717362165",
+          "author": "allanroblw1e",
+          "searchJob": "temple",
+          "text": "@Ark13Vongdara Fokus pada pemulihanmu dulu. Kesehatanmu nomor satu."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108609725491494935",
+          "author": "afghansocietyha",
+          "searchJob": "temple",
+          "text": "The President of the Society’s European Journey On September 25, 2026, the President of the Society embarked on a memorable journey through Europe, visiting Milan and Rome in Italy, Paris in France, and Barcelona and Madrid in Spain. The pu"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108631722292031896",
+          "author": "noy_garrett",
+          "searchJob": "arkansas",
+          "text": "MBA at Father Ryan @MBAFootball @FRHS_Football @MaxPreps Tennessee #3 Montgomery Bell Academy (6–1) visits Father Ryan (3–4). College prospects across both rosters, including recruited upperclassmen and younger players worth getting on film"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108620701410177362",
+          "author": "arkansasquant",
+          "searchJob": "arkansas",
+          "text": "7-8 weeks til top portal players will be hearing out NIL offers from teams. 8-9 weeks til they make up their mind before Christmas. The money for a more competitive 2027 roster has to be in place by then. 30-35 business days. Have we seen a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108622787879309369",
+          "author": "kyedandlabor",
+          "searchJob": "kentucky",
+          "text": "The Independent Living program offered by the Office of Vocational Rehabilitation helps enable individuals with vision impairments to achieve their maximum level of independence at home, in their community and/or workplace. Learn more: http"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108631708295938173",
+          "author": "iinisraeliran",
+          "searchJob": "texas",
+          "text": "ترامپ: جمهوری اسلامی برای توقف جنگ حاضر است هر پیشنهادی ارائه کند دونالد ترامپ، رئیس‌جمهوری آمریکا، در تجمعی انتخاباتی در سن‌آنتونیوِ تگزاس گفت جمهوری اسلامی برای متوقف‌کردن جنگ حاضر است هر پیشنهادی به آمریکا ارائه دهد. او با اشاره به ادامه"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108630419482767810",
+          "author": "texasfight78003",
+          "searchJob": "texas",
+          "text": "@bourscheid Your Queen Kamala offers up the best word salad. You had to learn it somewhere."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108627146814202114",
+          "author": "samspiegs",
+          "searchJob": "texas",
+          "text": "SMU offers Texas State DL commit Charles Egbo https://t.co/vOED1APIh1"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2108626768366362977",
+          "author": "davidgardner54",
+          "searchJob": "texas",
+          "text": "Thank you Jesus✝️ I am Blessed to Receive an Offer From Texas A&amp;M University Texarkana ! @coachuselton63 @OPhenoms @coach_swagg82 @GeBOW17 @JuCoFootballACE https://t.co/puFPSKFuru"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108625698479108386",
+          "author": "davidsm70645074",
+          "searchJob": "texas",
+          "text": "MID-COUNTY, DON'T MAKE ME SWING PAST YOUR HOUSE! 😂🕸️ I'm on a mission to buy 2 MORE HOUSES in Mid-County! And no, your house doesn't have to look like something out of a real estate magazine. Old house? I'll look at it. Needs repairs? Sti"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2108624281009639914",
+          "author": "jaywiill__",
+          "searchJob": "texas",
+          "text": "After a conversation with @CoachThompson6 I am blessed to receive an offer from East Texas A&amp;M!! @CoachCollins_1 @Coach_J_Morgan @CoachGuillot @CatchitPat @BallCoachNelson https://t.co/4XKLqEXdQV"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108620509915070930",
+          "author": "nwmsound",
+          "searchJob": "texas",
+          "text": "🚨 THE PRE-MIDTERM STRIKE PAUSE: TRUMP VOWS NO RESUMPTION OF MILITARY STRIKES ON IRAN BEFORE NOV. 3 AS WITKOFF CONTINUES BACK-CHANNEL TALKS AMID HORMUZ BLOCKADE! 🚨 A dramatic tactical recalibration has emerged from the Commander-in-Chief j"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108617823870144546",
+          "author": "felibertyangelo",
+          "searchJob": "texas",
+          "text": "The 1st decommitment of Clemson’s 2027 class is here. Hudson recently scheduled an official visit with Texas after receiving an offer from the program a few weeks ago."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108612461087666614",
+          "author": "caajobsite",
+          "searchJob": "texas",
+          "text": "🚨 Dallas, TX area full time Anesthesia Assistant job opening for GI cases 💼 View job: https://t.co/wVE0MGM5G3 📍 BAA101, Texas-Dallas An established practice in the Dallas, TX area full time Anesthesia Assistant job opening for GI cases. "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108625974510129291",
+          "author": "joetipton",
+          "searchJob": "vanderbilt",
+          "text": "NEWS: 4⭐️ Declan Griffiths has committed to Vanderbilt, he told @Rivals. The 6-foot-7 sharpshooter is ranked No. 35 overall nationally in the 2027 class, according to Rivals. https://t.co/eUbMFEpVte https://t.co/nDRWNl76Qv"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108625691205902449",
+          "author": "nytimes",
+          "searchJob": "washington",
+          "text": "Breaking News: The new White House press secretary is the political commentator Katie Zacharia, according to people familiar with the matter. She will succeed Karoline Leavitt, who left the position in August. https://t.co/r8OlSmDQWb"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 2,
+      "rejected": 55,
+      "reasons": {
+        "multiple_resolved_schools": 7,
+        "author_not_recruit:different sport": 2,
+        "bare_mention_requires_llm": 34,
+        "reporter_missing_player_name": 4,
+        "player_missing_football_context": 2,
+        "school_not_resolved_confidently": 3,
+        "unresolved_offer_target": 1,
+        "player_missing_class_year": 1,
+        "reporter_missing_class_year": 1
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108632253714595966",
+          "author": "_brianreichert",
+          "searchJob": "nc-state",
+          "text": "Josh Rivera @step_basketball FIU visit postponed. TBD on new date USC visit next Tuesday and Wednesday NC State just offered and is working on a visit"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2108625841471255024",
+          "author": "joshrivera22",
+          "searchJob": "nc-state",
+          "text": "Blessed to receive an offer from NC State University. https://t.co/MZucBpFoZV"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108631463344365765",
+          "author": "nygeshikta",
+          "searchJob": "arkansas-state",
+          "text": "They were offered their own state in 1947, 2000 and 2008 , each time they refused. Not only was it their choice, but when Egypt controlled Gaza and Jordan controlled Judea and Samaria, they never asked for their own state, why is that? If t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108627323402481879",
+          "author": "hatzlakah1",
+          "searchJob": "arkansas-state",
+          "text": "@EvanCull @TimesRadio @cathynewman Well it would help if Palestinian leaders accepted the offer of a state, instead of turning the offer down, time and time again. Turning down the offer of a state does not make Jews racist."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108623960283693494",
+          "author": "ostinatorigore4",
+          "searchJob": "arkansas-state",
+          "text": "I’m thinking out loud, and the hypothetical that this is a recursive reverse engineering, that would mean he’s taken out my support system, somehow, and the next objectives would be to engineer evidence for behavioral health condition sympt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108620228842213449",
+          "author": "drgad1900",
+          "searchJob": "arkansas-state",
+          "text": "@cenkuygur Palestinians were offered a state multiple times and refused each time. It is unclear what they want"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108619127934115879",
+          "author": "tau157472",
+          "searchJob": "arkansas-state",
+          "text": "@kieran_andrieu The Arabs were offered a state numerous times, and on generous terms, but rejected it as killing Jews was more important than peace and prosperity."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108613685488816546",
+          "author": "suzielazarus",
+          "searchJob": "arkansas-state",
+          "text": "Some usual points next time you interview a racist @DawnNeesom @GBNEWS @schneiderhome Gaza is not occupied. Israel withdrew 2005. 2m Muslims live in Israel with equal rights inc Arab parties taking part in national election. Palestinians of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108610122230669823",
+          "author": "kashifmd",
+          "searchJob": "arkansas-state",
+          "text": "Germany’s special responsibility was to ensure it would never again be complicit in genocide. Instead, it continues to offer unconditional support to a state repeating against Palestinians the horrors Germany once inflicted upon the Jewish "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108609042310390128",
+          "author": "nitramlevi",
+          "searchJob": "arkansas-state",
+          "text": "@mar2vickers @HadleyFreeman That is historical nonsense. The Palestinians have been offered a state of their own multiple times, and they rejected it out of hand each time."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108604717723230411",
+          "author": "shoshana51728",
+          "searchJob": "arkansas-state",
+          "text": "@Warbreaker_VZ @noam_dworman Asswipe, in 1939 the Arabs were offered a state FROM THE RIVER TO THE SEA. They said NO. Why? Because they had to accept a Jewish minority. Fuck you and your ilk!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108604540069274073",
+          "author": "thelastofthe252",
+          "searchJob": "arkansas-state",
+          "text": "I bless thee Eileen in the Name of the Father and of the Son and of the Holy Spirit! Amen! Heavenly Father, I lift this beloved one, Eileen , into Your loving hands, asking that Your healing touch restore her body completely. Remove all can"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108631859898757565",
+          "author": "stratifyorg",
+          "searchJob": "army",
+          "text": "That number is popular fiction. The British borrowed from Indian merchant-banking communities — mainly Jain and Hindu Bania houses — whose credit made East India Company expansion possible long before London capital could do it alone. The m"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108624787207790969",
+          "author": "echoesofwaryt",
+          "searchJob": "army",
+          "text": "Oct 9, 1781. Yorktown, Virginia. After three days of digging, the American and French batteries open fire, and Cornwallis's army starts getting pounded to pieces. The first parallel, the long siege trench dug on the night of Oct 6, had put "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108620905047806045",
+          "author": "donaldmichael",
+          "searchJob": "army",
+          "text": "As commander-in-chief of the Continental Army, George Washington approved and ordered public executions under military law, mainly for desertion, mutiny, and espionage. These were carried out before assembled troops (and sometimes civilians"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108618130264379721",
+          "author": "azxaetheral",
+          "searchJob": "army",
+          "text": "'While the expansionist-imperialist mood of Wilhelmian society and the provocative nature of some of Berlin's policies before and during the First World War are beyond doubt, the picture of rampant German imperialism presented by Marxist wr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108613787544629602",
+          "author": "forgottenheroe9",
+          "searchJob": "army",
+          "text": "@BalaamBarugahar The fact is that the fight on corruption was just used as a tool but the main reason for traversing the whole country was to campaign for an offer who's still serving in the army, i wonder where this lives the constitution "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108612818501050519",
+          "author": "drwhotradess",
+          "searchJob": "army",
+          "text": "2. September 21: U.S. Army Project Strengthens Commercial Credibility Another important development occurred on September 21. Terrestrial Energy announced its involvement in Ameresco’s proposed energy development at the U.S. Army’s Aberdeen"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2108611671208104004",
+          "author": "defensedtb",
+          "searchJob": "army",
+          "text": "The Nigerian Chief of Army Staff (COAS), Lieutenant General Waidi Shaibu, has offered to share the Nigerian Army’s experience in counter-terrorism, counter-insurgency and drone warfare technology with Bangladesh as both countries move to st"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108608432659923450",
+          "author": "dejiadesogan",
+          "searchJob": "army",
+          "text": "COAS DEEPENS MILITARY-TRADITIONAL INSTITUTIONAL PARTNERSHIP FOR NATIONAL SECURITY The Chief of Army Staff (COAS), Lieutenant General Waidi Shaibu, on Friday, 9 October 2026, paid homage to the Andoma of Doma Kingdom, His Royal Highness Alha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108603023618707544",
+          "author": "minimoanie",
+          "searchJob": "army",
+          "text": "GUESS WHAT STRONG INDEPENDENT ARMY JUST HAD AN OFFER ACCEPTED ON A HOUSE? https://t.co/kFiFTHq1JZ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108604392207253951",
+          "author": "sirphash11",
+          "searchJob": "rice",
+          "text": "Collect their money and rice and whatever they offer you and vote NDC #NDC ✌️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108602980278870208",
+          "author": "camimccluskey",
+          "searchJob": "rice",
+          "text": "@FreddyLA7 We are a hidden gem. Our state has so much to offer in so many areas. We have a great food scene, as well. Lots of history and incredible outdoor activities. Presidential Library, rice capital of the world, etc. Enjoy your time h"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2108622504499794395",
+          "author": "solomon_baeza",
+          "searchJob": "san-jose-state",
+          "text": "Extremely thankful and beyond blessed to receive my first D1 offer from San Jose State University. Huge thanks to Coach Majesty Tutson and those who have led me up to this opportunity. Go Spartans! 🟡🔵 https://t.co/2e6ZrE7zp1"
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 2,
-      "failed": 1,
-      "requests": 3,
-      "errors": [
-        "nc-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 55,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-09T18:41:46.102Z"
+    "status rebuilt locally from current store on 2026-10-09T18:58:11.310Z"
   ]
 }
