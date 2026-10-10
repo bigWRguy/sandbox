@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:27:05.057Z",
+  "generatedAt": "2026-10-10T13:58:22.207Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-10T13:27:04.751Z",
+    "at": "2026-10-10T13:58:21.855Z",
     "jobsTotal": 162,
-    "sweptThisRun": 6,
-    "requests": 7,
-    "fullSweepCycles": 27
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,32 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "new-mexico-state",
+      "hours": 2.3
+    },
+    {
+      "id": "north-texas",
+      "hours": 2.3
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.3
+    },
+    {
+      "id": "washington",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0093525,
-    "p95Hours": 1.7579866666666666,
-    "worstHours": 2.0073533333333335
+    "medianHours": 1.0251922222222223,
+    "p95Hours": 2.031243611111111,
+    "worstHours": 2.2794172222222224
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -47,67 +64,309 @@
   "profileResolution": {
     "cached": 79
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 2791,
+    "completeOffers": 2793,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-10T13:27:04.751Z",
-      "got": 4,
-      "new": 3,
-      "lag": 0.28
+      "at": "2026-10-10T13:58:21.855Z",
+      "got": 58,
+      "new": 39,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-10T13:26:37.400Z",
+    "at": "2026-10-10T13:56:52.698Z",
     "mode": "live",
     "collection": {
-      "returned": 4,
-      "kept": 3,
-      "duplicate": 1,
+      "returned": 58,
+      "kept": 39,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 1,
+      "accepted": 24,
+      "rejected": 15,
       "reasons": {
-        "no_fbs_school": 1
+        "hard_negative": 6,
+        "no_offer_term": 4,
+        "no_fbs_school": 4,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2108916467274014801",
+          "author": "offshoreinsider",
+          "searchJob": "lsu",
+          "text": "FREE PLAYS — SATURDAY, OCTOBER 10 These selections were all evaluated for premium consideration at https://t.co/707wwLjlqj. Here are the FREE PLAYS, including college football and NHL. COLLEGE FOOTBALL FREE PLAY — OKLAHOMA +7.5 over TEXAS —"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108908548549738681",
+          "author": "geauxbot",
+          "searchJob": "lsu",
+          "text": "Kenny Darby was an LSU commit until the Tigers pulled his offer after Lane Kiffin arrived. Joe Sloan called him to Kentucky. Last week: 12 catches, 96 yards and a TD in a 35-34 OT comeback at South Carolina. Tonight he gets LSU. Per Shrevep"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108918525343490238",
+          "author": "pulpnonfictio",
+          "searchJob": "maryland",
+          "text": "Prime-Time Killing The Pentagon wants an audience for a firing squad. The record, the scripture and the Army's own rules all say look away. On Wednesday, Oct. 8, Defense Secretary Pete Hegseth told Real America's Voice that Nidal Hasan woul"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108912459180556503",
+          "author": "finnday09",
+          "searchJob": "missouri",
+          "text": "Excited to be in Columbia today @MizzouToday @ClintBrown45 https://t.co/m1nhQLLDcU"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2108908015218758093",
-          "author": "callous_boomer",
-          "searchJob": "liberty",
-          "text": "It is not like Union pensioners have not got stiffed in the last 25 years. State and local pensions seem to be most at risk. IRA's served me well and I have a small pension from 11 years with a utility. The problem with pensions is they don"
+          "postId": "2108890566025187537",
+          "author": "mizzou17820",
+          "searchJob": "missouri",
+          "text": "@breaux98583 @secnumbersguy Actually, Missouri could’ve went to the Big Ten also, but the SEC offered them more money"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108919162542104810",
+          "author": "iukhalil1",
+          "searchJob": "washington",
+          "text": "If these reports are accurate, Washington threatened Ukraine over refinery strikes while negotiating diesel supplies with Moscow. Ukraine reportedly offered an energy-infrastructure ceasefire, but it was rejected. Pressuring Kyiv while easi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108917974900056103",
+          "author": "kelly_e",
+          "searchJob": "washington",
+          "text": "@robbystarbuck Wrong! Russia offered bounties for US soldiers in Afghanistan and is now helping Iran target US troops. If Trump gives Putin any money he is helping kill US soldiers and is a traitor. https://t.co/NMsie3jnUW"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108913640501813714",
+          "author": "thetect0nic",
+          "searchJob": "washington",
+          "text": "🇺🇲 🇺🇦 🇷🇺 Trump reportedly threatened to cut intelligence sharing with Ukraine over Russian refinery strikes The Trump administration's dispute with Kyiv over attacks on Russian oil infrastructure has escalated into a confrontation ove"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108909071633944921",
+          "author": "raphooptx",
+          "searchJob": "washington",
+          "text": "https://t.co/ZyqTRQZH99"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108901803278680497",
+          "author": "anothercodingx",
+          "searchJob": "washington",
+          "text": "An Anthropic model filed a false homicide tip with Philadelphia police during automated testing, and Anthropic's admits Claude has been acting on live websites. The White House made incident disclosure mandatory, TypeSafe raised $870M, Open"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108900281362587864",
+          "author": "rbg4lif",
+          "searchJob": "washington",
+          "text": "Putin and Trump hold ‘successful’ talks: Key details The leaders discussed a major diesel deal, Ukraine peace negotiations, Iran diplomacy, and closer bilateral contacts during a 90-minute phone call Published 9 Oct, 2026 https://t.co/UM7ym"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2108900077796204696",
+          "author": "debugliesnews",
+          "searchJob": "washington",
+          "text": "U.S. Campaign Against the International Criminal Court: Sovereignty Doctrine, Institutional Dismantlement Strategy, and the Fragmentation of the International Legal Order - Executive assessment The United States has moved from sanctioning i"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108899015337066498",
+          "author": "gexfocus",
+          "searchJob": "washington",
+          "text": "https://t.co/tWrQuWwP4s"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2108915982249153001",
+          "author": "kam1235612",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer from Clarke university!!! @CoachD5353 #WEOWE #agtg https://t.co/GTWUFtBk6e"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108909098863312977",
+          "author": "z3yvionn",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive my second offer from @Coachcalexander #agtg https://t.co/ACImxEMwvM"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 2,
+      "rejected": 22,
       "reasons": {
-        "bare_mention_requires_llm": 2
+        "bare_mention_requires_llm": 18,
+        "multiple_resolved_schools": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108889962808795382",
-          "author": "magasfix",
-          "searchJob": "liberty",
-          "text": "🇺🇸Burning the Stars and Stripes does not signal moral superiority or courage. It simply marks the person doing it as someone with no better argument than the destruction of a symbol that has come to represent the most successful experimen"
+          "postId": "2108919031155540414",
+          "author": "friendlyhelot",
+          "searchJob": "navy",
+          "text": "Glimpses of Gibbon \"The throne was the object of his desires; and, had he been less actuated by ambition, it was his only means of safety.\" At A.D. 292, Gibbon introduces Constantine, the founder of the seat of the Eastern Roman Empire for "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108882074874867720",
-          "author": "molloylaurence",
-          "searchJob": "liberty",
-          "text": "@zolayolanetwork @NandoDF @KanishkaNarayan @andyburnham How about this as a middle ground?... No more *mandatory* non-competes. Companies are at liberty to offer to BUY the right to add non-compete to the contract, but you are not allowed t"
+          "postId": "2108904198620459336",
+          "author": "mcreekfutures",
+          "searchJob": "navy",
+          "text": "Saturday Morning Futures | October 10, 2026 Conflict Diplomacy: IRGC Shipping Pursuit and Hormuz Transit Drops Geopolitical posture across the Persian Gulf remains strictly defined by naval standoffs and maritime transit friction. Iran's Is"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108917317132333401",
+          "author": "nft_apee",
+          "searchJob": "maryland",
+          "text": "Let me analyze this parlay 🏆🤑 1. Texas A&M -2.5 (+162) @ Missouri Texas A&M must win by at least 3 points. Missouri is favored by around 3.5 points in current market listings, so this is an underdog upset pick—not a safe favorite. 2. Nort"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108892048053198910",
+          "author": "costellolaw",
+          "searchJob": "maryland",
+          "text": "Maryland Estate Planning at The Costello Law Group ➡️ https://t.co/abwQuvcgac 📞 (410) 832-8800 Secure your legacy and protect your family's future ✅Trusts &amp; Wills ✅Customized Planning ✅Cost-Effective Solutions We offer FREE consultatio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108914090056020142",
+          "author": "mizzoutoday",
+          "searchJob": "missouri",
+          "text": "#Mizzou offered the Class of 2028 OL this past month. https://t.co/dfktEvCXTK"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108910955237441995",
+          "author": "imnotelonm",
+          "searchJob": "missouri",
+          "text": "This is what happens when an organization becomes so addicted to manufactured outrage that it can no longer recognize a reasonable compromise. Missouri offers the DOJ an in-person examination of voter records instead of handing over copies "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108905486430916747",
+          "author": "democracydocket",
+          "searchJob": "missouri",
+          "text": "🤔 New records show Missouri made Trump’s DOJ an unusual offer: an in-person look at its unredacted voter rolls. It's the clearest explanation yet for why Missouri escaped the wave of DOJ lawsuits against states that refused to hand over pr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108890291717775808",
+          "author": "baobetting",
+          "searchJob": "missouri",
+          "text": "Week 6🏈Best CFB Play 3 🎮TXAM@MIZZ #GigEm 🏈Rueben Owens II o48.5 Rush Yds (-116) New user offer 🎁 New users on @ProphetX can trade $50 and get $75 with code “BAO” 👉 https://t.co/YFKP8CxeSR 🚨 43 yards last week — a miss by SIX. Now Owen"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108915536331432089",
+          "author": "pj_bali",
+          "searchJob": "washington",
+          "text": "@ikwilson You think you are weak now. What happens when you try to join the US and they offer you Porto Rico status and run the province out of Washington"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108915454710341862",
+          "author": "jozzy33171",
+          "searchJob": "washington",
+          "text": "For six years she thought the phone stopped ringing because America had simply gotten tired of her. Eartha Kitt watched her bookings cancel one by one after 1968, blamed her own fading record sales, and kept revising downward what she thoug"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108915296203403704",
+          "author": "bpartisans",
+          "searchJob": "washington",
+          "text": "ZELENSKY IS PLAYING WITH FIRE, TRUMP IS MAKING HIM PAY By @BPartisans Six ignored warnings, a deal with Putin, and a lesson in geopolitics delivered with barrels of diesel. In Washington, patience now comes at a price. And Zelensky has just"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108911682445508855",
+          "author": "latinar_rybar",
+          "searchJob": "washington",
+          "text": "Pro-US political rhetoric in Lima is colliding hard with economic reality. Peru has unblocked a $405M concession for China’s Jinzhao to build the country’s third-largest port in Marcona, paving the way for another $1.8B Chinese investment i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108911313992679633",
+          "author": "chaoslensx",
+          "searchJob": "washington",
+          "text": "Kyiv rejected the October 9 diesel pact between Donald Trump and Vladimir Putin this week, vowing to keep hitting Russian oil refineries with long-range drones. The cost of that defiance falls directly on Ukraine. Axios reports US envoys St"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108911148158661112",
+          "author": "axiosintl",
+          "searchJob": "washington",
+          "text": "🇷🇺🇺🇸 ISW: Russia reportedly offered no concessions on Ukraine in exchange for the diesel deal, while Washington thanked Moscow for the fuel agreement. 👀 Diplomacy or a one-sided deal? #Russia #UkraineWar #USPolitics #Geopolitics https:"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108908488843747403",
+          "author": "commandante_",
+          "searchJob": "washington",
+          "text": "The US decision to let Russia sell diesel into global markets, including American ports, hands Moscow cash flow with no strings attached. Diesel has been one of Russia's most resilient export earners since 2022, since sanctions hit crude ha"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108906671925792908",
+          "author": "hochstatmichael",
+          "searchJob": "washington",
+          "text": "🇺🇸🇷🇺 WHAT DOES AMERICA STILL NEED FROM RUSSIA? The uranium debate is part of a bigger story: America still has strategic supply-chain exposures to Russia. But dependence isn’t the same as having no alternatives. Here are five worth watc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108906027848470626",
+          "author": "almonitor",
+          "searchJob": "washington",
+          "text": "ANALYSIS | Putin offers to help end Iran war, but can Russia deliver? As Washington and Tehran weigh their next moves, Moscow is seeking a diplomatic foothold in a war where influence may prove harder to convert into concrete results. https"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108903301618057392",
+          "author": "bwieaktien",
+          "searchJob": "washington",
+          "text": "I remember the article from Ernest Scheyder, „US moves away from critical mineral price floors, sources say“. Which then led to severe after-market collapse of MP Materials temporarily lost 10.2%, USA Rare Earth 9.1% and Critical Metals 7.7"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108905114379473000",
+          "author": "unhideyoursite",
+          "searchJob": "florida-state",
+          "text": "@chasedowright @Blain_Crain SEC coordinators take non-SEC HC jobs all the time. If his highest HC offer is from Florida State, and you believe he'll say \"but I like Florida,\" is you who doesn't understand the world around you."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108899971843965124",
+          "author": "jbtalkinsportz",
+          "searchJob": "florida-state",
+          "text": "Florida State says it cannot afford to fire Mike Norvell. After another embarrassing performance, the Seminoles must ask themselves whether they can afford not to. Florida State jumped out to a 14–0 lead and appeared ready to take control o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108917970873528321",
+          "author": "alyshahjiwani",
+          "searchJob": "houston",
+          "text": "Tank Dell is out. Dalton Schultz leads Houston with 21 catches for 214 yards, while Jaylin Noel has 186 yards on just 8 catches. Schultz offers more reliable involvement for PPR. Noel has big-play upside, but that kind of production is hard"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108910977538302024",
+          "author": "globeceleb",
+          "searchJob": "houston",
+          "text": "RESTORATION, IN PRIVATE. GlobeCeleb plans magnificent private villas in Houston with wellness amenities selected around the Owner’s preferences. A private indoor pool and adjoining resting space offer room for movement, quiet leisure and ti"
         }
       ]
     },
@@ -115,20 +374,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "navy: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 22,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-10T13:27:05.058Z"
+    "status rebuilt locally from current store on 2026-10-10T13:58:22.208Z"
   ]
 }
