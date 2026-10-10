@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T07:57:59.560Z",
+  "generatedAt": "2026-10-10T08:13:13.883Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-10T07:57:59.351Z",
+    "at": "2026-10-10T08:13:13.528Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5220761111111111,
-    "p95Hours": 1.2701888888888888,
-    "worstHours": 1.5229391666666667
+    "medianHours": 0.5313375,
+    "p95Hours": 1.2660413888888888,
+    "worstHours": 1.5241675
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -55,66 +55,181 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-10T07:57:59.351Z",
-      "got": 16,
-      "new": 4,
-      "lag": 0.78
+      "at": "2026-10-10T08:13:13.527Z",
+      "got": 28,
+      "new": 20,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-10T07:56:30.878Z",
+    "at": "2026-10-10T08:11:41.159Z",
     "mode": "live",
     "collection": {
-      "returned": 16,
-      "kept": 4,
-      "duplicate": 12,
+      "returned": 28,
+      "kept": 20,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 1,
+      "accepted": 12,
+      "rejected": 8,
       "reasons": {
-        "hard_negative": 1
+        "no_fbs_school": 2,
+        "no_offer_term": 6
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2108806828113166672",
-          "author": "guide25010025",
-          "searchJob": "california",
-          "text": "@RossKneeDeep Are you joking? He’s already offered up California. Ron and Nancy are spinning in their graves."
+          "reason": "no_fbs_school",
+          "postId": "2108816194354503958",
+          "author": "_shola__",
+          "searchJob": "ohio",
+          "text": "For the next two weeks, we argued about everything. The lease, the furniture, the flights I could afford to take home, and whether we should even bother trying long distance. I kept saying I wanted him to support my dreams the way I'd suppo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108609042063261990",
+          "author": "redot_engine",
+          "searchJob": "texas",
+          "text": "Honestly, it would've been much easier to be a political activist group. It would've kept Redot in the spotlight longer and probably would've raised a good amount of funding for the engine. But that's not what Redot is, and it's not what we"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108454372040429995",
+          "author": "signalspikedev",
+          "searchJob": "texas",
+          "text": "@LundukeJournal @Redot_Engine Redot is not a real engine. It is a political activists group larping as a game engine. So too is Godot, but not nearly as on the nose as Redot."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2108823093598978078",
+          "author": "joshoo1j",
+          "searchJob": "duke",
+          "text": "Nature walks help participants appreciate the beauty and importance of forests firsthand. Oloolua Forest offers a valuable opportunity to connect with the environment. @lizwathuti promotes Conservation Is Fun #MarkItWithTrees. https://t.co/"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108814150033940972",
+          "author": "globalguideees",
+          "searchJob": "coastal-carolina",
+          "text": "10 Best Places to Visit in the Netherlands and Must-Try Dutch Foods https://t.co/6wamkMopf6"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108813893929742763",
+          "author": "afriktimesint",
+          "searchJob": "coastal-carolina",
+          "text": "A rare and powerful magnitude 7.7 earthquake struck the southern coast of Panama on Friday afternoon, triggering widespread panic, collapsing localized structures across central provinces, and prompting temporary tsunami warnings across Cen"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108809777992351818",
+          "author": "photovoyages",
+          "searchJob": "coastal-carolina",
+          "text": "At Yui, the flow of the Yui River becomes the heart of a journey along the Tōkaidō. 🌉🌲 『Yui: The Yui River』 『由井 由井川』 From Fifty-three Stations of the Tōkaidō Artist: Utagawa Hiroshige No.: 17 Publisher: Kikakudō, Sanoya Kihei Date: 1840 T"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108806557907783985",
+          "author": "photovoyages",
+          "searchJob": "coastal-carolina",
+          "text": "Kanbara: A Quiet Stop on the Tōkaidō 🌲🗻 『蒲原』 From Fifty-three Stations of the Tōkaidō Artist: Utagawa Hiroshige No. 16 Publisher: Kikakudō, Sanoya Kihei Date: 1840 Part of Hiroshige’s Kyōka Tōkaidō series, this print captures Kanbara alon"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 4,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 6
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108816336982004133",
-          "author": "lewisrashe",
-          "searchJob": "california",
-          "text": "In California, Anakin (from *Star Wars*)—in his Darth Vader persona linked to DOD-GOD—recruits people for a system spanning everything from \"Fortune 2\" companies (the initial package of 6 times 2 plus 1, representing the 13 stripes of the s"
+          "postId": "2108816172812562537",
+          "author": "_shola__",
+          "searchJob": "ohio",
+          "text": "I begged my boyfriend to turn down his dream job because I didn't want a long-distance relationship. Six months later, I accepted a job in another state without even asking him how he felt about it. When Aaron got the offer, he was so excit"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108830360733618598",
+          "author": "ltgiv",
+          "searchJob": "texas",
+          "text": "[TL;DR] My approach to tithing ranges from disaster relief to funding open-source projects like @Redot_Engine, which I use to help teach young people programming, robotics, and engineering. The goal is to stop infantilizing the next generat"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108807162411491702",
-          "author": "evfuturenews",
-          "searchJob": "california",
-          "text": "California's Fast Charge California Project now offers up to $100,000 per public DC fast charging port, with at least $28 million available through January 14, 2027. Ports delivering 275 kW or more qualify for the full amount; 150–274.99 kW"
+          "postId": "2108829376477605979",
+          "author": "ericinamericax",
+          "searchJob": "texas",
+          "text": "When James Talarico isn't on the campaign trail, he is sick at home with the flu. When Ken Paxton isn't on the campaign trail, he's vacationing with his mistress overseas. The desperation is PALPABLE. I mean, Trump can't get through a speec"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2108811936330584327",
-          "author": "covbible",
-          "searchJob": "air-force",
-          "text": "✈️ The Royal Air Force has taken over Coventry's Broadgate for a huge free event this weekend, complete with a Typhoon aircraft experience, military working dogs and plenty of activities for the whole family! The RAF Show arrived in Coventr"
+          "postId": "2108824947984634289",
+          "author": "xposenontruth",
+          "searchJob": "colorado",
+          "text": "@RepPettersen BTW, have you called Patti Fox yet? Checked in on her daughter or offered condolences and help? No, Why Not? FYI, this is Parker, Colorado Resident that you and EVERY Colorado Democrat Politician hasn’t called! You’re not a le"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2108824634808226066",
+          "author": "lazarusministry",
+          "searchJob": "duke",
+          "text": "Today, we remember Saint Francis Borgia, a man who had just about everything the world could offer and walked away from it. Born in Spain in 1510, he belonged to the powerful Borgia family. His great-grandfather was Pope Alexander VI, and h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2108826643489828952",
+          "author": "tugard1tugard",
+          "searchJob": "virginia",
+          "text": "Tu is giving Owen Odom his flowers. Every time I see him, I like him more as a person and basketball player. He seems comfortable around everybody and has some flavor tu him and appears tu connect naturally with his teammates. I don’t get t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108830146941599904",
+          "author": "thebbdirectory",
+          "searchJob": "wake-forest",
+          "text": "Wake Up to Scapa Flow Views at Crystal Brook B&amp;B, Orphir, Orkney. Set in the village of Orphir, Crystal Brook offers welcoming B&amp;B accommodation between Kirkwall and Stromness, making it a great base for exploring Orkney’s Mainland."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108828706969919518",
+          "author": "tlockty",
+          "searchJob": "wake-forest",
+          "text": "Morning call 4 I think way lower Morning Call Note: Estimated Share of the U.S. Population Author: Grok (xAI) Date: October 10, 2026 Version: 1.0 – Population Contrast Intellectual Property & License Statement Observational estimate only. N"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108820242025857258",
+          "author": "44exploration",
+          "searchJob": "wake-forest",
+          "text": "@RyanAhern219255 @greybtc Don’t fall for AI democrat fake slop Sir Wake the fuck up. The Democrats literally don’t build or offer anything to the economy. All they do is circle jerking NGO fraud."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108832404949397867",
+          "author": "orfonline",
+          "searchJob": "coastal-carolina",
+          "text": "Floating nuclear power plants offer #India a nearer-term maritime application than nuclear-powered merchant ships. They could provide power to coastal sites while building marine reactor experience. India should pursue both tracks: @Kavya13"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108814113367339221",
+          "author": "afriktimesint",
+          "searchJob": "coastal-carolina",
+          "text": "Initially, the U.S. Pacific Tsunami Warning Center triggered a broad maritime alert, cautioning that hazardous tsunami waves were possible along the Pacific coastlines of Panama, Costa Rica, Colombia, Ecuador, and Peru. The warning kept coa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2108810223368773904",
+          "author": "photovoyages",
+          "searchJob": "coastal-carolina",
+          "text": "At Okitsu, the river meets the beauty of Japan’s coastal landscape, with Mount Fuji adding a timeless presence to the journey. 🌊🗻 『Okitsu: The Okitsu River』 『興津 興津川』 From Fifty-three Stations of the Tōkaidō Artist: Utagawa Hiroshige No.: "
         }
       ]
     },
@@ -129,11 +244,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-10T07:57:59.561Z"
+    "status rebuilt locally from current store on 2026-10-10T08:13:13.884Z"
   ]
 }
