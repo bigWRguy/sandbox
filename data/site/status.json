@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T00:13:12.583Z",
+  "generatedAt": "2026-10-11T00:28:10.521Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-11T00:13:12.192Z",
+    "at": "2026-10-11T00:28:10.091Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7732383333333334,
-    "p95Hours": 2.021809722222222,
-    "worstHours": 2.021809722222222
+    "medianHours": 0.775245,
+    "p95Hours": 1.7735225,
+    "worstHours": 1.7735225
   },
   "decisionCoverage": {
-    "total": 27,
-    "decided": 27,
+    "total": 55,
+    "decided": 55,
     "complete": true
   },
   "pending": {
@@ -47,233 +47,389 @@
   "profileResolution": {
     "cached": 79
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 2838,
+    "completeOffers": 2840,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-11T00:13:12.191Z",
-      "got": 53,
-      "new": 27,
-      "lag": 0.03
+      "at": "2026-10-11T00:28:10.091Z",
+      "got": 67,
+      "new": 55,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-11T00:11:39.579Z",
+    "at": "2026-10-11T00:26:41.590Z",
     "mode": "live",
     "collection": {
-      "returned": 53,
-      "kept": 27,
-      "duplicate": 26,
+      "returned": 67,
+      "kept": 55,
+      "duplicate": 12,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 22,
-      "rejected": 5,
+      "accepted": 26,
+      "rejected": 29,
       "reasons": {
+        "hard_negative": 7,
+        "no_fbs_school": 12,
         "no_offer_term": 3,
-        "non_fbs_offer_target": 2
+        "non_fbs_offer_target": 7
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2109077765878071450",
+          "author": "jessetemple",
+          "searchJob": "ohio",
+          "text": "Wisconsin commit Kingston Allen earns an Ohio State offer on a gameday visit today. He talked about his recruitment and how he's handling new attention, including a visit to Ohio State, in a story that published yesterday at Badger Connect:"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109076608497713599",
+          "author": "allentrieu",
+          "searchJob": "ohio",
+          "text": "Ohio State offers Cleveland (Ohio) St. Ignatius LB and current Buffalo commit: https://t.co/ftqqztJl8Z @mickdwalker"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109072833108132048",
+          "author": "ohiostatestats",
+          "searchJob": "ohio",
+          "text": "Jake Cook with his first career start today. Big for the Westerville native who worked so hard for an offer."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109068321337331992",
+          "author": "jokotagbaposi",
+          "searchJob": "ohio",
+          "text": "I had sex with my wife’s younger sister while my wife was away for work, and the heartbreak of watching my wife cry after I confessed is something I don’t think I’ll ever recover from. My wife, Angela, had been working in a neighboring town"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2109073885232562497",
-          "author": "benfink2028",
-          "searchJob": "utsa",
-          "text": "Blessed to receive a game day invite from @Coach_Cotton713 and @UTSAFTBL can’t wait to meet an outstanding coaching staff! @irvin8robert @CoachScifers @Coach_Killough https://t.co/xM8yJfjqnA"
+          "postId": "2108862358902751279",
+          "author": "wewillbefree24",
+          "searchJob": "ohio",
+          "text": "Vivek Ramaswamy's Official Position on H1B Immigration • No Cap on # of Immigrants • Applicants that \"match\" H1B postings • Debureaucratize VISA Immigration • Speed it Up https://t.co/uryQffRu5b"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2108972022399139904",
+          "author": "randyr358",
+          "searchJob": "south-florida",
+          "text": "Usf fans, keep your head up. Higgins and hartline will figure things out in the offseason. They had to replace 60 plus guys on the roster with mostly unknowns. He has not had a recruiting class yet. Let him build this roster the right way o"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109071234952540234",
+          "author": "kpopmomot12",
+          "searchJob": "lsu",
+          "text": "@intrinsicvalyou @UMichFootball Seeing the reason why former QB Coah Harbaugh didn't offer him NIL and let him commit to LSU to begin with."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109072938225791007",
+          "author": "mdbaynews",
+          "searchJob": "maryland",
+          "text": "WES MOORE HITS WISCONSIN CAMPAIGN TRAIL FOR DEMOCRAT DAVID CROWLEY — DAYS AFTER REFUSING TO COMMIT TO FULL SECOND TERM IN MARYLAND. MADISON, Wis. — Maryland Gov. Wes Moore traveled to Wisconsin Friday to campaign for Democratic gubernatoria"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109060398192144715",
+          "author": "blakkbox_reborn",
+          "searchJob": "missouri",
+          "text": "@UncleNedPO @NoForeignTies @ThomBrady5 I was offered a path to Israeli citizenship and soundly rejected it. I was born on a cattle farm in Southern Missouri. My people and history are of this land. I reject all those who serve foreign inter"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109076012529029155",
+          "author": "verafiles",
+          "searchJob": "washington",
+          "text": "Salmon in the Philippines is considered food for rich people. It’s nutritious but since it’s imported (mostly from Chile and Norway), it’s expensive for ordinary Filipinos. Chinese food technology research offers the enticing prospect of ma"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109074737985175687",
+          "author": "gomaestroorg",
+          "searchJob": "washington",
+          "text": "https://t.co/QYZF7JFp5A"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109072048630718820",
+          "author": "bryantmcgill",
+          "searchJob": "washington",
+          "text": "https://t.co/bPf5mHRbL9 The United States sanctioned the ICC as an institution — not individual officials this time, the Court itself, placed on OFAC's Specially Designated Nationals list under Executive Order 14203. Dollar clearing, bankin"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109068989888675957",
+          "author": "jratcliff",
+          "searchJob": "washington",
+          "text": "When Elon Musk and the other AI oligarchs tell you that the future is wonderful and AI is gonna bring Universal High Income, let’s be clear: that’s a complete and total load of horseshit. And they know it. So, why are they saying it? Becaus"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109058453947748838",
+          "author": "clb515151",
+          "searchJob": "washington",
+          "text": "Oh please. Stop gaslighting the people of PA. Republicans in Washington have no backbone. They voted for tax breaks for the 1%, the most wealthy human beings on the planet. They voted against releasing the Epstein files which contain the na"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109055466722783509",
+          "author": "dimmedrythm",
+          "searchJob": "washington",
+          "text": "@DaRealGeeQue @mookieblay10ck @PrizePicks They have select players for CFB reboots, Washington WB Demond Williams Jr. got injured first half and didn't return and no reboot was offered by PP. Theres a player panel in the cfb \"reboot policy\""
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109072686022619609",
+          "author": "emorylynch20",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "So so grateful to receive an offer to play college ball from Marion Military Institute! Thank you Coach Jeff Benson and @Mmitigerssoftba for making me feel so welcome and giving me this amazing opportunity! @Thunderbolts202 @LadyAggieSB @Mm"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109054094245871892",
+          "author": "kevinjunkin",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great visit, I’m extremely grateful to receive an offer to play basketball at Oberlin College. Thank you for the opportunity! @PrepHoopsOR @summithighhoops https://t.co/vn9O1yjRpf"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2109053048551027042",
-          "author": "nljagsfootball",
-          "searchJob": "kentucky",
-          "text": "Congratulations to Class of ‘30 Tucker Boroviak on receiving his first offer from Kentucky State University! Go Jags! @BoroviakTu25892 https://t.co/QDNgu7rpnT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109047777367928960",
-          "author": "txchristabelle",
-          "searchJob": "texas",
-          "text": "If you need a ride to the polls, there are ways to get a free ride, even if you have mobility issues. Please contact @Rideshare2voteA or your local public transportation organization. Also please remember the agencies needs drivers. DM me i"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2108422083642581345",
-          "author": "ovolakeshow",
-          "searchJob": "vanderbilt",
-          "text": "Vando steal and dunk 2 minutes into his stint Entire bench on their feet Whole organization loves him beside his head coach True terrorist behavior and nothing will be done about it"
+          "postId": "2109064104346562817",
+          "author": "truth_caesar",
+          "searchJob": "phrase:\"thankful to receive an offer\"",
+          "text": "I am thankful to receive an offer from Campbell University! @MattKubik @larrydace @DrStevenWright @BillLiedy @CoachDrew__ @football_cghsnc @Rivals @247recruiting @on3recruits @DonCallahanIC @NCHSBlueSheet @sixstarfootball @playfastspeed @Pr"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2109071784545063153",
-          "author": "d1_koy",
-          "searchJob": "oklahoma-state",
-          "text": "After a great conversation with coach @coachk80 I’m blessed to receive an offer from Northwestern Oklahoma State University! @Eric_Mims_Sr @Dannie_Snyder52 @HawthorneCoach @CoachWhiteDB1 @CORESportsRec @806hsscmedia https://t.co/vbH9Zr1F2R"
+          "postId": "2109062369699659854",
+          "author": "_scoutb31",
+          "searchJob": "phrase:\"thankful to receive an offer\"",
+          "text": "I’m excited and thankful to receive an offer from Lindsey Wilson University! I had a great camp and loved getting to hang out with the girls basketball team! Thank you to the coaches and players for making me feel so welcomed. I’m so gratef"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2109076287151083983",
+          "author": "brysonscales13",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coachcalexander I am blessed to receive another offer from The Capitol University #thankyoulord #AGTG @CoachReavesJr @CoachMorrisGW @JayPerdue9 @C_Perdue4 @CurtisS03225707 @BTownBulls7v7 @GWEagleFootball @GD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109076230968422498",
+          "author": "nolandacus14",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachMacMCScots, I’m excited to receive an offer to continue my academic and athletic career at Maryville College! Thank you to @QBCoachFox and the rest of the coaching staff for believing in me and giving m"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109071391894982703",
+          "author": "akannis62",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachSpence_NCC I am blessed to receive an offer from @football_ncc #agtg @CoachWhitaker1 @CoachJohnson_us @KyleNeddenriep @IndianaPreps @indyhsscores @PrepRedzoneIN @WARRENCENTRALFB @Bryan_Ault https://t.co"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109067028275556567",
+          "author": "orlandowil92199",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with coach @timwashington52 I’m Blessed to receive my second offer to @nwosufootball @CoachAdamGaylor @Coach_JHarding @JenksFootball @RecruitJenksFB https://t.co/JuaaYGJeWF"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2109062655021289916",
+          "author": "damariall3n",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Blake_Littman I’m blessed to receive another offer from Austin Peay University!!🔴⚪️ #GoGovs @j_lloyd5 @StevenKearneyJr @GovsFB @TannerH01 @wbwallace12 @nick93punter @RileyElite3 @PattonBoy_11 @ChadSimmons_ "
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 21,
+      "accepted": 2,
+      "rejected": 24,
       "reasons": {
-        "multiple_resolved_schools": 5,
-        "bare_mention_requires_llm": 12,
-        "player_missing_football_context": 1,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 19,
+        "reporter_missing_class_year": 1,
+        "player_missing_class_year": 2,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109070807792341127",
-          "author": "richardreb4",
-          "searchJob": "navy",
-          "text": "@EdwardGLuce Russia isn't OUR enemy. They are a cash poor country with a peasant army &amp; no Navy, so not a threat to us. Trump offered to broker peace for two years. Zelensky had his chance &amp; refused. Fuck him. We have bigger things "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109050694724714811",
+          "author": "pureblarney",
+          "searchJob": "notre-dame",
+          "text": "@Eagles @BillColarulo @975TheFanatic Howie and Jeffrey should fly to Notre Dame and offer a blank check to Marcus Freeman. He will be in the NFL next year and the Birds 🦅 should pounce. He would resurrect our pitiful Nick Sirianni offense."
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2109077849307013278",
+          "author": "kyleneddenriep",
+          "searchJob": "ohio",
+          "text": "Fishers TE Max Hopkins offered by Ohio State"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2109074815143624826",
+          "author": "kingstonallen17",
+          "searchJob": "ohio",
+          "text": "Very thankful to receive an offer from The Ohio State University. I’m grateful for every opportunity and everyone who has supported my journey. https://t.co/Y6ieemo3ti"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109066217189175748",
-          "author": "qpatriotmlo17",
-          "searchJob": "navy",
-          "text": "I was uninvited from the TRUMP rally in San Antonio. The very rude, Trump Deranged TSA agent was screaming and hollering at Kimmie Sue and I. He was an itsy bitsy tiny man with short mans disease and Trump Derangement Syndrome. He told me t"
-        },
-        {
-          "reason": "player_missing_football_context",
-          "postId": "2109068724355428660",
-          "author": "chaz_wallace1",
-          "searchJob": "arkansas",
-          "text": "I'm blessed to receive my first Division 1 offer from the University of Arkansas at pine Bluff! Thank you Coach Bozeman #Agtg❤️ #LongLiveAuntieSidney https://t.co/B78olLAo3T"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109051289841897888",
-          "author": "standinginn",
-          "searchJob": "arkansas",
-          "text": "These blue-haired fat liberal cross-dressers and the hogs that follow them around like to live behind the freedom that this country offers but then question the means by which it was actually defended. They're all hypocrites. They're all we"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109047528276803759",
-          "author": "darwinproximo",
-          "searchJob": "arkansas",
-          "text": "The Arkansas Razorbacks are beating the Tennessee Volunteers. Does Kalshi offer bets on hell freezing over?"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109072347533807713",
-          "author": "nmlinguaphile",
-          "searchJob": "south-carolina",
-          "text": "A language with no relatives? The Yuchi (YOO-chee), also called Euchee, call themselves Tsoyaha (tso-YAH-hah), “Children of the Sun.” Their language is an isolate. Linguists have not demonstrated a relationship to any other family. Proposal"
+          "postId": "2109073142564131301",
+          "author": "hindsitealytics",
+          "searchJob": "ohio",
+          "text": "@BuckeyeNatty I mean ohio st would surely handle any team the sec has to offer then! It’s actually almost 100 percent Ohio st fault sec teams are given preferential treatment"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109074341132644485",
-          "author": "get_em_pa",
-          "searchJob": "texas",
-          "text": "@FravelMchaney We’re heading to the best beach Texas has to offer now."
+          "postId": "2109051498210464205",
+          "author": "scottyo427",
+          "searchJob": "ohio",
+          "text": "Tribalism is a natural thing. That’s why it is important as white men in this country that we not only not import more of this, we dial back the current population. Ohio has to have something more to offer than an Indian big pharma scammer."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109067337760661626",
-          "author": "donedealcardco",
-          "searchJob": "texas",
-          "text": "Check out 2026 Bowman Chrome 1st Bowman Cam Coleman /99 Green Mojo - Texas Longhorns https://t.co/13quoFBQIP #eBay via @eBay $135 🛳️ Free shipping! 🤝 Shoot us an offer!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109067068750680269",
-          "author": "bloccchaindawg",
-          "searchJob": "texas",
-          "text": "@CFB_Pat Texas fans always seem to live in the biggest castles of delusion. I bet you Shark is fired this year if they don’t make the CFP, and they offer Will M the HC."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109066548430451070",
-          "author": "da63koijdb9151",
-          "searchJob": "texas",
-          "text": "① It all started on July 25, 2024, when Mr. Morgan, a Texas real estate agent, offered me an offer to buy a mobile home in Mesa, Arizona for $30,000, so I paid 1 million yen in virtual currency as a down payment. After that, I was told that"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109055454659711485",
-          "author": "texpat1307",
-          "searchJob": "texas",
-          "text": "Hey, TEXAS!!! Almost time to vote! If you need a ride or can offer a ride, let's GOTV!!!!! #TurnTexasBlue https://t.co/Wk4OcVxUtg"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109052713661276184",
-          "author": "orangebloodnokc",
-          "searchJob": "texas",
-          "text": "@TexasFootball @AGENT0__ @PjLocke4 We're choking away a game to a terrible team and this is what you offer?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109051791690334595",
-          "author": "nottoosensitiv1",
-          "searchJob": "texas",
-          "text": "@espn If I was Texas I would offer Keelon Russell $50 million dollars or just stick with that pos manning turd…either way Texas is a suck ass football program."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109066632698204427",
-          "author": "sheintochm",
-          "searchJob": "ucla",
-          "text": "@PSUinPA @AustinRBechtold A kid from the east coast isn’t choosing UCLA over PSU. I mean anything can happen but most likely we didn’t offer him. This is football not basketball loll"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109065823075578293",
-          "author": "willysteam",
-          "searchJob": "ucla",
-          "text": "@andivushaj1 @KingKhusy At first they were rumored to want a player for player swap and not picks/prospects but now it's the opposite. The Bruins have valuable prospects and picks to offer. The biggest stumbling block is Larkin's list. If h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109062345721016390",
-          "author": "avgmarinersfan_",
-          "searchJob": "ucla",
-          "text": "@MrBeavv You guys love to act like your program wasn’t trying to jump ship as soon as USC and UCLA left lmao. Your program just didn’t get offered a spot anywhere. But I get it, you’re scared OSU won’t be able to retain its coaches and play"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109050322660573386",
-          "author": "zook1226",
-          "searchJob": "ucla",
-          "text": "@MarkTully20 @RyanPaganetti @CoachDanCasey Had him at UCLA too. Coach didn’t want played to visit. CCK didn’t offer Mason Graham, Cam Skattebo, and only offered Jayden Daniels really late."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109056072258625804",
-          "author": "cjaxyjackson",
-          "searchJob": "usc",
-          "text": "@Mikeycoe7181 @hollywoodszn So even though there was official reports that USC made them an offer to continue playing the game and ND saying no, you are saying you don’t believe that."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109071562691248435",
-          "author": "tennessean",
-          "searchJob": "vanderbilt",
-          "text": "Ole Miss didn't need help to beat Vanderbilt, but the Commodores offered plenty | Estes https://t.co/heC4ChyIqY"
+          "postId": "2109063263891935555",
+          "author": "bobkauff",
+          "searchJob": "south-florida",
+          "text": "A Berean Synthesis: The Whole Counsel on Dispensationalism A true Berean examination (Acts 17:11) searches the Scriptures to test whether a doctrinal system harmonizes with the whole counsel of God. Dispensationalism—originating in the 1830"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2109052636959846557",
-          "author": "csmithscout",
-          "searchJob": "vanderbilt",
-          "text": "#TN2027 Brentwood Acad. O-lineman ....#PRZTN New Offer: #Vanderbilt .......#Dores #SEC #Eagles #MidTN27 #CSS #TNHSFB https://t.co/59Ji6cvnHt"
+          "postId": "2109059404163391715",
+          "author": "usfbullstboned",
+          "searchJob": "south-florida",
+          "text": "I totally understand this stance. I will always support my alma mater. However, this team has a TON of talent. We see glimpses. But to have consistency we need leadership. Starts at the top. More importantly, we need leadership from the pla"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109051415633318182",
-          "author": "brickcityshay",
-          "searchJob": "vanderbilt",
-          "text": "How about Vanderbilt asks for a trade, and let’s see if any of the other 29 teams ITL make an offer for him."
+          "postId": "2109062609630548159",
+          "author": "ashlyn554",
+          "searchJob": "pittsburgh",
+          "text": "Anyone looking for Colts–Steelers tickets? I have 4 seats for Indianapolis Colts vs Pittsburgh Steelers on Sunday, Oct.11 at Acrisure Stadium Plans changed, so I won’t be able to make it. Open to reasonable offers. DM if interested #Steeler"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109055730259038621",
+          "author": "north_maggi",
+          "searchJob": "pittsburgh",
+          "text": "i don’t have any strong opinions on noah wyle but if he accepts the sexiest man alive offer i might never be able to watch the pitt again out of sheer second hand embarrassment"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109075933508325678",
+          "author": "hesikiahsbutter",
+          "searchJob": "lsu",
+          "text": "@JoshCPA67 @TigerTylerD @Lane_Kiffin @LSUfootball He was offered the exact same from ole miss btw.."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109072020428226755",
+          "author": "opentoworktony",
+          "searchJob": "lsu",
+          "text": "@JoshCPA67 @TigerTylerD @Lane_Kiffin @LSUfootball Not like the contract offers were the exact same. All it takes is a google dumbass"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109067239693463608",
+          "author": "duckoff22939710",
+          "searchJob": "lsu",
+          "text": "@LVann_Sports Canes is going introduce spicy tenders and cajun fries. LSU is going to offer Arch $10mil+ to transfer 🔥🔥🔥🔥🔥"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109053043002278258",
+          "author": "myspactom",
+          "searchJob": "lsu",
+          "text": "@HamDawg115 @Rivals @SWiltfong_ @Corey_Bender @Blake_Alderman @ChadSimmons_ @adamgorney @samspiegs @AllenTrieu @easton_3k @BrandonHuffman @GregBiggins He’s watching the briefcase. When LSU said this is the final offer you know it’s only abo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109075165388685393",
+          "author": "gouravrao09",
+          "searchJob": "washington",
+          "text": "🚨 BREAKING: The United States strongly condemns reported Houthi attacks on Saudi Arabia, including a strike on King Khalid International Airport in Riyadh. 🇺🇸 Rubio's statement says civilians were killed, including an American citizen. \ud83c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109075139832750346",
+          "author": "officialmadam8",
+          "searchJob": "washington",
+          "text": "Grateful to President Trump and his peacekeeping efforts in the African Continent 🙏 Ummm He may want fix this Super Intelligent response from grok listed below 👇 Most of the core claims are exaggerated or false; a few have partial groundi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109074500859924585",
+          "author": "beefeater_fella",
+          "searchJob": "washington",
+          "text": "🇺🇸 NYT: U.S. negotiators offered Russia three major economic incentives in exchange for a limited cease-fire covering energy infrastructure or maritime operations. The proposals included releasing billions in frozen Russian sovereign asse"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109074012932645351",
+          "author": "smo_vz",
+          "searchJob": "washington",
+          "text": "THE UKRAINIAN DELEGATION’S STUNNED SILENCE EXPOSED A DEEPER TRUTH ABOUT THE CONFLICT! When Steve Witkoff and Jared Kushner informed the Ukrainian and European representatives that the United States was preparing to ease sanctions, the room "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109073472945061923",
+          "author": "radezz",
+          "searchJob": "washington",
+          "text": "@RojavaNetwork Better save their lives. The train has left the station: when offered to work with the government of Syria, the Kurds trusted their puppetmaster — Washington — and Assad was replaced with outright terrorists. Now they're not "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109071875825369467",
+          "author": "thetect0nic",
+          "searchJob": "washington",
+          "text": "🇪🇺 🇷🇺 Europe breaks with Trump on Russian diesel: Kallas says Brussels will not ease pressure and foreign ministers move Monday on the largest Russia sanctions listings of the war EU foreign policy chief Kaja Kallas answered the US dies"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109061108673728562",
+          "author": "fab87f",
+          "searchJob": "washington",
+          "text": "Trump did ask Zelenskyy to stop striking Russian refineries. That much is true. But you’re confusing a request with an agreement. Zelenskyy offered to halt attacks on Russian energy infrastructure if Russia reciprocated. Moscow never confir"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109055935712747839",
+          "author": "sprinterpress",
+          "searchJob": "washington",
+          "text": "American negotiators have offered Russia three main economic incentives in exchange for a limited ceasefire, covering either energy infrastructure or naval operations. According to The New York Times, a publication frequently accused by Tru"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109054676544917937",
+          "author": "is0_dw",
+          "searchJob": "washington",
+          "text": "Coaches take a look 🚨🥞‼️ Dalton Washington 2027 Midseason Highlights 6’0 265 IOL (RG) (2 Offers) PURE DOMINATION🐗🥞‼️#trench @WiHiFB @Coachphil73 @ESProspects https://t.co/qZaVzcnlgt https://t.co/oQQVHZhZlW"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109052774659109022",
+          "author": "trumpnews_baby",
+          "searchJob": "washington",
+          "text": "DEMOCRATS’ $49 TRILLION SOCIALIST PLATFORM EXPOSED: 40% FEDERAL TAX SURGE WOULD CRUSH EVERY WORKING FAMILY — VOTE RED OR AMERICA IS COOKED! By Jonathan Gregory Washington, D.C. - October 10, 2026 A stunning new calculation has just dropped,"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2109067409189654880",
+          "author": "jernard7_",
+          "searchJob": "phrase:\"thankful to receive an offer\"",
+          "text": "Extremely blessed and thankful to receive an offer from the University of Alabama! @CoachAlexMathis @ChuckCantor #ROLLTIDE https://t.co/mQvJtJEswS"
         }
       ]
     },
@@ -287,12 +443,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 21,
-      "brandNewOffers": 1
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 24,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-11T00:13:12.585Z"
+    "status rebuilt locally from current store on 2026-10-11T00:28:10.522Z"
   ]
 }
