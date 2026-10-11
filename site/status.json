@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T07:58:07.988Z",
+  "generatedAt": "2026-10-11T08:13:13.429Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-11T07:58:07.779Z",
+    "at": "2026-10-11T08:13:13.090Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7711419444444444,
-    "p95Hours": 1.5191741666666667,
-    "worstHours": 1.5191741666666667
+    "medianHours": 0.5238547222222222,
+    "p95Hours": 1.2765966666666666,
+    "worstHours": 1.5260922222222222
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "pending": {
@@ -55,25 +55,25 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-11T07:58:07.779Z",
-      "got": 15,
-      "new": 3,
-      "lag": 0.51
+      "at": "2026-10-11T08:13:13.089Z",
+      "got": 18,
+      "new": 8,
+      "lag": 0.55
     }
   },
   "audit": {
-    "at": "2026-10-11T07:56:44.871Z",
+    "at": "2026-10-11T08:11:36.657Z",
     "mode": "live",
     "collection": {
-      "returned": 15,
-      "kept": 3,
+      "returned": 18,
+      "kept": 8,
       "duplicate": 10,
-      "tooOld": 2,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
+      "accepted": 7,
       "rejected": 1,
       "reasons": {
         "no_fbs_school": 1
@@ -81,34 +81,70 @@
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2109174391900692605",
-          "author": "bench424nmore",
-          "searchJob": "kansas",
-          "text": "Brixton Thompson is a dynamic prospect from Wichita, Kansas who presents an array of problems for defenders from both the strong forward and shooting guard spots. With multiple offers in hand, the 6’3” junior is just getting started. Brixto"
+          "postId": "2109182772585566309",
+          "author": "mrrooterweirton",
+          "searchJob": "ohio",
+          "text": "Our Experts Offer 24-Hour Plumbing Repair for Local Clients At Mr. Rooter Plumbing of Ohio Valley, we understand how important it is for you to have your plumbing problem under control quickly. No one should have to wait hours or days to .."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 7,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 4,
+        "school_not_resolved_confidently": 2,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109177479902396617",
+          "author": "willowthorns777",
+          "searchJob": "iowa",
+          "text": "The Lahn campaign in a nutshell. Block every Iowan that asks real questions and dick ride the dumbest Iowa has to offer. https://t.co/BxTS2AJoUd"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109165986847068449",
-          "author": "tom_degen68",
-          "searchJob": "texas-tech",
-          "text": "GM everyone. Anyone remember celestia:native? @celestia (TIA) is a modular blockchain project focused on Data Availability. It helps L2s and rollups store and verify data at a low cost. Celestia offers DA at a very low price. That helps it "
+          "postId": "2109184365716537543",
+          "author": "nigageng",
+          "searchJob": "california",
+          "text": "Bulk Distribution in Los Angeles, California Quality Zaza and exotic flower filled with terpenes.We offer carts, wax,live rosin, and gourmet edibles.Indica and sativa THC liquid extracts shipped to cities like Amsterdam, Miami, Berlin, and "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109182863853937017",
+          "author": "zedman888",
+          "searchJob": "california",
+          "text": "@MarioNawfal For the same reason if Japan invaded USA asking for full annex of; - Alaska - Hawaii - California .....Can't imagine why USA would not take that deal. Only a fool would reject such a good offer. Is it clearer yet 🎺."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109184039181603240",
+          "postId": "2109174075004493989",
+          "author": "justpassingof",
+          "searchJob": "california",
+          "text": "I don’t know where you live, but telling young people to simply leave California seems to miss part of the picture. The cost of living and housing are extremely high, but many still choose to stay because California continues to offer caree"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109187345266208773",
+          "author": "blairvic02",
+          "searchJob": "miami",
+          "text": "My family says I let money change me. The truth is, money just showed me who was comfortable spending mine. I’m 29F, and last Christmas, I paid $2,400 to rent a cabin so my family could spend four days together. Nobody offered to split it. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109184816524493163",
+          "author": "aggie_bread",
+          "searchJob": "miami",
+          "text": "@RvrsOnTwitch @TexAgs It is quite clear we suffered a material degradation in performance and prep when our staff started fielding other job offers. I think our performance against SC was indicative of this for Elko. And, in the (semi-relat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109179565109031330",
           "author": "clandro",
-          "searchJob": "duke",
-          "text": "Today in History October 11th 2025 Diane Keaton Dies of Bacterial Pneumonia at 79 Hollywood lost one of its most beloved and distinctive stars when Diane Keaton died on October 11, 2025, at the age of 79, in California. Her death was attrib"
+          "searchJob": "north-carolina",
+          "text": "Today in History October 11th 1910 Theodore Roosevelt Becomes the First U.S. President to Fly in an Airplane On October 11, 1910, former President Theodore Roosevelt made aviation history when he became the first person who had served as Pr"
         }
       ]
     },
@@ -123,11 +159,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-11T07:58:07.989Z"
+    "status rebuilt locally from current store on 2026-10-11T08:13:13.430Z"
   ]
 }
