@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T07:13:22.331Z",
+  "generatedAt": "2026-10-11T07:28:15.106Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-11T07:13:21.991Z",
+    "at": "2026-10-11T07:28:14.774Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7731583333333333,
-    "p95Hours": 1.5288525,
-    "worstHours": 1.5288525
+    "medianHours": 0.7765577777777778,
+    "p95Hours": 1.2763952777777778,
+    "worstHours": 1.5259333333333334
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -55,139 +55,74 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-11T07:13:21.990Z",
-      "got": 21,
-      "new": 14,
-      "lag": 0.03
+      "at": "2026-10-11T07:28:14.774Z",
+      "got": 11,
+      "new": 5,
+      "lag": 0.23
     }
   },
   "audit": {
-    "at": "2026-10-11T07:11:51.854Z",
+    "at": "2026-10-11T07:26:44.166Z",
     "mode": "live",
     "collection": {
-      "returned": 21,
-      "kept": 14,
-      "duplicate": 7,
+      "returned": 11,
+      "kept": 5,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 6,
+      "accepted": 2,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 1,
-        "non_fbs_offer_target": 1
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2109157607537828142",
-          "author": "benloney",
-          "searchJob": "temple",
-          "text": "Animal Farm and Jesus Clearing the Temple. https://t.co/Z0olfOjTKM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109156345270456354",
-          "author": "kashmirahead",
-          "searchJob": "temple",
-          "text": "https://t.co/cdCUbEQ8H0"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109155953023283207",
-          "author": "indiatvnews",
-          "searchJob": "temple",
-          "text": "माता वैष्णो देवी मंदिर में उमड़ी भक्तों की भीड़, नवरात्रि के पहले दिन लगी लंबी-लंबी कतारें https://t.co/y4QSx3cDwn"
+          "reason": "no_fbs_school",
+          "postId": "2109180782988390549",
+          "author": "pgtrip",
+          "searchJob": "florida",
+          "text": "@catturd2 100% correct. I’ve been in Florida since 2007. If I was offered a million dollars to vote for her, the answer would be NO. Please everyone vote Red in November. Keep Communism out of the country. My father fought in WWII to keep o"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2109173790458433769",
-          "author": "arcfunmi",
-          "searchJob": "maryland",
-          "text": "This might have been made with AI, but situations like this are common in construction for one reason. If you have been to the Mende area of Lagos, Maryland, you might see some examples. In this area, I saw someone's building undergoing und"
+          "postId": "2109177180047507568",
+          "author": "iowasnewsnow",
+          "searchJob": "florida",
+          "text": "The footage offers a view of the cleanup challenges communities face after the storm moved through the region https://t.co/WbgYCRwDCU"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2108847397619032458",
-          "author": "bossyator",
-          "searchJob": "maryland",
-          "text": "You cannot build a good house on a weak foundation. Always put more resources on the bones! https://t.co/r6poDrgYn9"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2109173242409951594",
-          "author": "brayeverette75",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Apes_Tampa , I’m blessed to receive my 5th offer from Florida Community Christian College! @CoachRamseyMVP @CoachMorrisMVP @PRecruiting7 https://t.co/7yClEKHDQT"
+          "reason": "no_fbs_school",
+          "postId": "2109174951844479252",
+          "author": "kportcam",
+          "searchJob": "florida",
+          "text": "@GreatKellyB Rogers has zero to offer MI voters - we do not want a trump sycophant - and he lives in Florida."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 2,
       "reasons": {
-        "bare_mention_requires_llm": 7,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109160394828947807",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Guwahati, Assam: A large number of devotees gathered at the Maa Kamakhya Temple atop Nilachal Hill in Guwahati on the first day of Navratri on Sunday to offer prayers, perform religious rituals and seek the Goddess’s blessings https://t.co/"
+          "postId": "2109165553722302687",
+          "author": "archetypical20",
+          "searchJob": "marshall",
+          "text": "@willsextonx America needs a Belt and Road / Marshall Plan style project for Central and South America. Create a transcontinental highway, do major infrastructure development, revivie local economies, give the countries offers they can't re"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109157642950299734",
-          "author": "jayalko1",
-          "searchJob": "temple",
-          "text": "A leader rooted in Dharma, a devotee before Maa and a symbol of Sanatan pride 🔥 Uttar Pradesh Chief Minister Yogi Adityanath visited the Maa Pateshwari Devi temple in Balrampur on the opening day of Shardiya Navratri to offer prayers https"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109153746014163103",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Dewas, Madhya Pradesh: Devotees gather at Mata Tekri Temple to offer prayers on the first day of Navratri. https://t.co/K3nTrNpnEt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109152882499203458",
-          "author": "ani",
-          "searchJob": "temple",
-          "text": "#WATCH | Gorakhpur, Uttar Pradesh: Devotees offer prayers at Kali Temple on the first day of Navratri. https://t.co/yeIrw5rbsO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109150992466092304",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Hyderabad, Telangana: Devotees visit the Bhagyalakshmi Temple near Charminar to offer prayers during Navratri. https://t.co/SYDFnCo8za"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109158221080621514",
-          "author": "jucofootballace",
-          "searchJob": "troy",
-          "text": "Ethan Nedio @2Nedio @ Coffeyville JuCo @Red_Raven_FB picks up @TroyTrojansFB Offer https://t.co/c0zPdwAfTU"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109180154903933105",
-          "author": "ctombazos",
-          "searchJob": "washington",
-          "text": "Dear Michael, as the cliche goes, you are entitled to your own opinion but not your own facts. What you write here is somewhat misleading. Had it not been for the intervention of Boris Johnson and the opposition of influential figures in Wa"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2109179482389070242",
-          "author": "slantchev",
-          "searchJob": "washington",
-          "text": "At some point, we will have to blame Mearsheimer, Sachs, and their fellow travelers for much more than just peddling wrong explanations and misleading people. These guys have influence in policy circles, their words have policy consequences"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109173562389266812",
+          "author": "gaelactico80215",
+          "searchJob": "notre-dame",
+          "text": "@CR2836322256813 @UpMyKilt_ The Crown wanted rid of the growing Presbyterian threat. Instead of an expensive war they were offered land in Ireland. Complete communities were literally “planted” in Ireland. Additional benefit- the Planters w"
         }
       ]
     },
@@ -202,11 +137,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-11T07:13:22.332Z"
+    "status rebuilt locally from current store on 2026-10-11T07:28:15.107Z"
   ]
 }
