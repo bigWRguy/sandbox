@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T20:28:19.108Z",
+  "generatedAt": "2026-10-11T20:40:03.623Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-11T20:28:18.719Z",
+    "at": "2026-10-11T20:40:03.239Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 6,
+    "requests": 7,
+    "fullSweepCycles": 27
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7766697222222222,
-    "p95Hours": 1.5277966666666667,
-    "worstHours": 1.5277966666666667
+    "medianHours": 0.9723683333333333,
+    "p95Hours": 1.4722475,
+    "worstHours": 1.7234952777777777
   },
   "decisionCoverage": {
-    "total": 30,
-    "decided": 30,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -49,246 +49,109 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 2881,
+    "completeOffers": 2882,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-11T20:28:18.719Z",
-      "got": 55,
-      "new": 30,
-      "lag": 0.03
+      "at": "2026-10-11T20:40:03.239Z",
+      "got": 17,
+      "new": 10,
+      "lag": 0.02
     }
   },
   "audit": {
-    "at": "2026-10-11T20:26:50.531Z",
+    "at": "2026-10-11T20:39:36.852Z",
     "mode": "live",
     "collection": {
-      "returned": 55,
-      "kept": 30,
-      "duplicate": 24,
-      "tooOld": 1,
+      "returned": 17,
+      "kept": 10,
+      "duplicate": 7,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 21,
-      "rejected": 9,
+      "accepted": 9,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 5,
-        "non_fbs_offer_target": 1
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2109359944352907739",
-          "author": "danbrrw_2030",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive some verbal interest from Catawba University. @LCBfootball @CatawbaFootball @CatawbaIndians https://t.co/kRH2aUOLn0"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109372786561220613",
-          "author": "gsvyourang",
-          "searchJob": "marshall",
-          "text": "https://t.co/kct3MxwrEN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109364693194113107",
-          "author": "marshallavfc",
-          "searchJob": "marshall",
-          "text": "@TheRedhemming @liannesanderson Do you have evidence of that, so Grealish is a cheat for going to City when they offered him 300k a week. Those City players will go back to be adored by fans of they clubs they leave City for if the get rele"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109371297759424974",
-          "author": "vineettiruvadi",
-          "searchJob": "georgia",
-          "text": "people ask me why i tweet the way/frequency I do - i don't think they realize how many job offers/collaborations/chill folk I get through here on a weekly basis..."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109373377983217924",
-          "author": "lakesfirearmstr",
-          "searchJob": "georgia",
-          "text": "@toxicAmeriCAN Offer not valid in Georgia 🤬🤬🤬"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109326058801770847",
-          "author": "joebloggslife",
-          "searchJob": "georgia",
-          "text": "To all South African refugees! Please be very, very careful. This post appeared on Facebook today and is very good advice. https://t.co/6FV7j1egLU"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2109358672883093590",
-          "author": "chimykw",
-          "searchJob": "phrase:\"received my first offer\"",
-          "text": "After a great talk with Coach Tahaney i am blessed to say i have received my first offer from Elmhurst University! @Coach_Tahaney @ElmhurstU_FB https://t.co/etnQgjcFG0"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109370565718938004",
-          "author": "arizonaa100",
-          "searchJob": "arizona",
-          "text": "MY SISTER TOOK THE MONEY I HAD BEEN SAVING FOR THREE YEARS I’m still struggling to understand how someone I grew up with could do this to me. For three years, I saved almost every little amount I could because I wanted to open my own busine"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109373431041159347",
-          "author": "elainehulse_",
-          "searchJob": "colorado",
-          "text": "Therapy dogs offer comfort at Colorado school traumatized by shooting https://t.co/too0iPv2TU @bunsenbernerbmd Therapy dogs AFTER INCIDENT. Could dogs in schools PREVENT problems if they were regular visitors or staff?"
+          "reason": "hard_negative",
+          "postId": "2109362561259082058",
+          "author": "grantedbygrace",
+          "searchJob": "liberty",
+          "text": "Great question, and thanks for asking it this way. In the confessions, \"author of sin\" means the one who actually commits the sin: whose own will chooses evil, who intends it as evil, and who tempts toward it or approves of it. That's why W"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 19,
+      "accepted": 1,
+      "rejected": 8,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 4,
-        "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 2,
-        "unresolved_offer_target": 1
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109378736680276384",
-          "author": "biggdev1212",
-          "searchJob": "marshall",
-          "text": "@BlakeKresses @JohnDoyle 5 Marshall plans? Social welfare was designed to destroy. Pretenting like it was a policy other than that is intellectually dishonest. Dozens if cities were deindustrialized and welfare was offered."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109377160826007863",
-          "author": "curlymoved",
-          "searchJob": "marshall",
-          "text": "https://t.co/AExr5mhUjt Baltimore Man Released from Prison After City Official Vouched for Him Charged with Murdering 12-Year-Old Girl Eight Days Later 🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬🤬 (Practically every day we read about ju"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109375323963871613",
-          "author": "daniellellecco",
-          "searchJob": "georgia",
-          "text": "I am also an asshole who graduated from Georgia Tech, but no one has ever offered me anything based on my tweets"
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2109373453279326579",
-          "author": "honestniner",
-          "searchJob": "georgia",
-          "text": "@CSOonX I could’ve gotten offers from Bama or Georgia if I played here 😭"
+          "postId": "2109380476704076140",
+          "author": "koranimalkrakrz",
+          "searchJob": "air-force",
+          "text": "No, I was in College to be a pastor when the Twin Towers were hit. That one incident changed my life. For 3 and a half years, I worked as a Youth Minister, but supported myself by doing IT work. The business that I opened took off, and I ga"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109373078106980489",
-          "author": "gahousebuyers",
-          "searchJob": "georgia",
-          "text": "🏡 Dreading repairs, commissions &amp; endless showings? Georgia House Buyers buys Middle Georgia homes AS IS for cash. Get an offer in 48 hours and close in as little as 10 days—with zero commissions or closing costs! 📲 (478) 739-3968 #Se"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2109370901846454423",
-          "author": "biackeyesmite",
-          "searchJob": "georgia",
-          "text": "Life update: Received 2 job offers in the past week, going to start touring Georgia apartments soon :) Not sure when I'm returning to stream. I told myself after the depressive episode that I'd stream when I felt like playing Smite again an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109367180529705243",
-          "author": "stoneampseo",
-          "searchJob": "georgia",
-          "text": "Kings Bay MSF Pier in Georgia offers anglers optimal fishing opportunities during specific bite windows. Understanding these periods can dramatically enhance catch rates. https://t.co/p3uK36sdVG"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109365397166211333",
-          "author": "iicoalition",
-          "searchJob": "georgia",
-          "text": "This is why we cant have nice things @JoeBloggsLife OFFICIAL RESPONSE FROM THE BRIDGE TO LIBERTY We believe in transparency and accountability, and we welcome legitimate questions about our organization. However, when information about The "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109364193338036730",
-          "author": "oliveeue",
-          "searchJob": "georgia",
-          "text": "This is why we can't have nice things! OFFICIAL RESPONSE FROM THE BRIDGE TO LIBERTY We believe in transparency and accountability, and we welcome legitimate questions about our organization. However, when information about The Bridge to Lib"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109358175786762279",
-          "author": "charalambousb",
-          "searchJob": "georgia",
-          "text": "PROVEN 5* kicker Charlie has some of the statistical highest kickoffs in the state of Georgia. COACHES offer now !"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109380201117519932",
-          "author": "montchelle66_2",
-          "searchJob": "michigan",
-          "text": "WTH??? Is this man really proposing to open the doors of #Michigan to illegals and give them such broad sanctuary? Do the people of Michigan realize they will become the ultimate nanny state of North America? There doesn’t seem to be a sing"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109374471119176093",
-          "author": "web3luveer",
-          "searchJob": "michigan",
-          "text": "RGIII reveals Michigan offered him a job to coach Bryce Underwood, and he's glad he turned it down 😳🏈 \"They guaranteed this guy $12 million in an NIL deal, and they have completely failed Bryce Underwood.\" \"Michigan actually offered me a "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109367751420567578",
-          "author": "ltsmash420",
-          "searchJob": "michigan",
-          "text": "🇺🇸 Even Kamala Harris's Husband Privately Prefers She Skip Another White House Run Doug Emhoff has told people he would rather his wife not launch a third presidential campaign, even as she keeps her options open and some Democratic donor"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109359363781738587",
-          "author": "toosnide",
-          "searchJob": "michigan",
-          "text": "Meanwhile, you continue to show us that being “educated” is not a sign of actual intelligence. You‘ve taken advantage of every advantage America has to offer, but you hate it and support those who want to destroy it. You go to Michigan on s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109360324063150214",
-          "author": "kleaversports",
-          "searchJob": "arizona",
-          "text": "I have a theory that the Patriots are in on MHJ but Arizona wants to see if their WR play today would make them increase their offer out of desperation Just a thought"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109379761503920590",
-          "author": "_haliqa_",
-          "searchJob": "colorado",
-          "text": "WTS MALCOLM TODD TICKETS I have spare x3 Malcolm Todd tickets at Mission Ballroom selling for face value or best offer i can also sell individually dm/reply if interested wts iso malcolm todd tickets denver colorado"
+          "postId": "2109373643663048726",
+          "author": "willmason643531",
+          "searchJob": "air-force",
+          "text": "@murta79 @R_D_Z_King @BoxLoner You understand that that whole “95%” of the 67 borders was not an actual state right? The Palestinians would have “control” of that land but not fully a country. They couldn’t have a military, an Air Force, co"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109368732816441489",
-          "author": "fogartyjack",
-          "searchJob": "notre-dame",
-          "text": "@andrewhdonohoe @colin_a_mcbride In a small way I think that the ticket as a whole needs a big name in there. All of our ticket is very Irish focused- welcomed Dermody when he came in, offers something different. It's essentially an all Iri"
+          "postId": "2109380669763690526",
+          "author": "weaslewords",
+          "searchJob": "kent-state",
+          "text": "You’re wrong if the conclusion is “everyone must simply fold into Reform.” That is how you get more Kent, Blackpool elections, not fewer. Rupert Lowe already made a public offer of talks. Reform answered with preconditions, insults to the v"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109361334290645379",
-          "author": "geturtrackerbk",
-          "searchJob": "notre-dame",
-          "text": "@EoinLenihan People forget this hospital was supposed to cost the Irish taxpayer nothing not a penny. We were to sell off the lotto for €450 million in 2014 and these funds were to pay for the hospital in full. If memory serves the state wa"
+          "postId": "2109373140228870219",
+          "author": "ihuffsolventsss",
+          "searchJob": "kent-state",
+          "text": "vi som var offer för kent boten"
         },
         {
-          "reason": "unresolved_offer_target",
-          "postId": "2109360887161401598",
+          "reason": "multiple_resolved_schools",
+          "postId": "2109382687190646906",
+          "author": "mediamangroup",
+          "searchJob": "liberty",
+          "text": "Motorsport Formula One @F1 Past, Present And Future Singapore Grand Prix Marina Bay Street Circuit October 11, 2026 Video Race Highlights | 2026 Singapore GP https://t.co/ugqbBIoV0z Max Verstappen and Charles Leclerc share the front row, an"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109380343526740286",
+          "author": "mediamanint",
+          "searchJob": "liberty",
+          "text": "Motorsport Formula One @F1 Past, Present And Future Singapore Grand Prix Marina Bay Street Circuit October 11, 2026 Video Race Highlights | 2026 Singapore GP https://t.co/kszgxdsfjY Max Verstappen and Charles Leclerc share the front row, an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109380013493760471",
+          "author": "mshull05",
+          "searchJob": "liberty",
+          "text": "@Wolfpack4life80 @Bradleybigchubb @PackChat1887 @UNCFootball Just like your garbage team, you have nothing to offer. Y’all should be used to it by now. Lather, rinse, repeat. Year after year. What exactly makes you think Liberty is a heathe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109365922746237294",
           "author": "profilefblive",
-          "searchJob": "uconn",
-          "text": "🚨 First D1 Offer 🚨 2028 CB Tyjohn Hamilton from St. Joseph's Prep HS, PA has received his first D1 offer from Connecticut. @tyjonhamilton https://t.co/orwrJXdr7u"
+          "searchJob": "massachusetts",
+          "text": "UMass has extended four new scholarship offers to HS prospects in the last 24 hours. @UMassFootball 3.2⭐ 2028 IOL Tommy Mahoney @tommymahoney99 3.0⭐ 2028 LB Charles Costanzo @CharlesCost3 2.4⭐ 2028 ATH Didier Marroquin @dider28_ 2.4⭐ 2029 O"
         }
       ]
     },
@@ -296,18 +159,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 6,
+      "failed": 1,
+      "requests": 7,
+      "errors": [
+        "miami-oh: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 19,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 8,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-11T20:28:19.109Z"
+    "status rebuilt locally from current store on 2026-10-11T20:40:03.624Z"
   ]
 }
