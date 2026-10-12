@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T06:40:43.212Z",
+  "generatedAt": "2026-10-12T06:58:05.480Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-12T06:40:42.981Z",
+    "at": "2026-10-12T06:58:05.128Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2360991666666667,
-    "p95Hours": 1.733133611111111,
-    "worstHours": 1.980946111111111
+    "medianHours": 1.2758052777777777,
+    "p95Hours": 1.7726308333333334,
+    "worstHours": 2.0226525
   },
   "decisionCoverage": {
-    "total": 13,
-    "decided": 13,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,133 +55,146 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-12T06:40:42.981Z",
-      "got": 14,
-      "new": 13,
-      "lag": 0.06
+      "at": "2026-10-12T06:58:05.128Z",
+      "got": 19,
+      "new": 15,
+      "lag": 0.38
     }
   },
   "audit": {
-    "at": "2026-10-12T06:39:17.311Z",
+    "at": "2026-10-12T06:56:34.793Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 13,
-      "duplicate": 1,
+      "returned": 19,
+      "kept": 15,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 4,
+      "accepted": 12,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 1,
-        "hard_negative": 1
+        "no_fbs_school": 2,
+        "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2109531894857478279",
+          "author": "estherjakovic",
+          "searchJob": "ohio",
+          "text": "@fred_guttenberg @nicksortor @jamestalarico Maybe the real issue here is not that someone (talarico didn't, and, really, ohio?) would seek treatment but be condemned for doing so especially by people who probably should. This is all paxton "
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2109520690470625710",
-          "author": "victormanjul",
-          "searchJob": "coastal-carolina",
-          "text": "How about the SOKOTO-BADAGRY HIGHWAY?💀😂 A bigger scam than the COASTAL HIGHWAY, right? Tinumumatics 😁"
+          "postId": "2109510379202384069",
+          "author": "biniwockee",
+          "searchJob": "rice",
+          "text": "sino mahilig mag-samgyup dito? 😭 HAHAHAHA paano n'yo nalalaman kung sulit na yung kinain n'yo sa binayad n'yo? kasi tuwing nagsa-samgyup ako, feeling ko lagi akong lugi 😭 parang hindi ko nababawi yung bayad ko HAHAHAHAHA #Samgyup #FoodieP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2109524753950404985",
-          "author": "frenstronaut",
-          "searchJob": "coastal-carolina",
-          "text": "@saatvrn @_FromTheIsland she was terrible at the game. Sat on the beach with her group of 5 and made zero effort to build any other relationships. Learn the numbers, there are 6 of them 5 of you. Immediately rebuked Kilby when he offered up"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109409703818318270",
-          "author": "dangbanamanager",
-          "searchJob": "coastal-carolina",
-          "text": "APC unleashed its army of slaves and pigs on Donald Duke for daring to say the Lagos–Calabar Coastal Highway wouldn’t go much beyond Lagos. Now, reality is exposing the propaganda merchants. Bola Tinubu came to steal, kill and destroy. Reje"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2109521280378486828",
-          "author": "fearlovegod",
-          "searchJob": "coastal-carolina",
-          "text": "Tianliang on Politics — Edited English Transcript Hello, everyone! Today, the winner of the 2026 Nobel Peace Prize was announced: South African international judge Navi Pillay. The announcement immediately sparked considerable controversy a"
+          "postId": "2109525662704816130",
+          "author": "theattagirls",
+          "searchJob": "notre-dame",
+          "text": "Woman of the Day Irish-born Madge Connor died OTD in 1952 at age 77 in Victoria, Australia, Australia’s first woman police officer and after retirement, proprietor of one of the first private detective agencies in Melbourne. Madge is someth"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 12,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 3,
-        "school_not_resolved_confidently": 4
+        "bare_mention_requires_llm": 8,
+        "school_not_resolved_confidently": 3,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109529224914862310",
-          "author": "ownedbyjmoney",
-          "searchJob": "western-kentucky",
-          "text": "@tlebow2026 @HerboHusker Also how exactly does NIL level the playing field when the top teams have significantly larger budgets than small schools? A 5 star recruit could be making $500K from Western Kentucky then Texas comes along and offe"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109531193590866327",
+          "author": "ben59495008",
+          "searchJob": "rice",
+          "text": "@SirLeoBDasilva Arsenal have just offered Rice £18.2m a year to stay 🤣🤣"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109509445487092065",
-          "author": "marketfloornews",
-          "searchJob": "oklahoma",
-          "text": "AXP Energy launches $2.25 million entitlement offer to fund Oklahoma expansion AXP Energy (ASX: AXP) has launched a non-renounceable entitlement offer to raise up to $2.25 million, with proceeds earmarked for its recently announced Oklahoma"
+          "postId": "2109530778824536100",
+          "author": "shoyebi",
+          "searchJob": "rice",
+          "text": "**Growth!** It was December 25th, 2008, Christmas Day. I had not eaten for four straight days. I had turned my hunger into a fast, hoping God would show mercy. Later that evening, one of my neighbours offered me their leftover jollof rice. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109505601369784463",
-          "author": "marketfloornews",
-          "searchJob": "oklahoma",
-          "text": "AXP Energy launches A$2.25M entitlement offer at $0.005 to fund Oklahoma expansion AXP Energy (ASX: AXP) has launched a non-renounceable entitlement offer to raise up to A$2.25 million, with proceeds earmarked for its recently announced Okl"
+          "postId": "2109527795449659841",
+          "author": "nomardicspring9",
+          "searchJob": "rice",
+          "text": "@Onsogbu Guess what? they’ll still treak home, no light, but fuel at 1,400, eat the packed rice they would be given and be hungry next morning plus let another party come and offer the same package, it’s same crowd 🤣🤣🤣🤣on Election Day y"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109533751113924799",
-          "author": "ekpoiruoghene8",
-          "searchJob": "arizona",
-          "text": "That afternoon, before leaving for another shift, I crossed the hall and knocked on Mrs. Patterson’s door. She was eighty-one, tiny, and always wore reading glasses on a beaded chain. When I showed her the invoice, she let out a long sigh. "
+          "postId": "2109524395723272267",
+          "author": "washdl_",
+          "searchJob": "rice",
+          "text": "For me masusulit mo yung binayad mo sa samgyupsal kapag at the end of your meal eh satisfied ka, hindi sobrang busog at hindi yun \"naumay\" ka sa kinain mo. Maraming ways and here are the tips para masulit mo ang samgyup experience mo: 1. Hu"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109530986853576925",
-          "author": "iowafirstmedia",
-          "searchJob": "colorado",
-          "text": "WEST DES MOINES, Iowa – Mark Cook, the Colorado-based cybersecurity and IT specialist who founded the Hand Count Roadshow, will speak Monday, October 19, at the West Des Moines Library on election integrity and the case for returning ballot"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109516739679510613",
+          "author": "adunniolaide02",
+          "searchJob": "rice",
+          "text": "You will enter the market, price good rice, beans and garri, then complain that the seller is expensive. You will leave and buy cheaper foodstuff somewhere else. When you get home and discover stones in the rice, insects in the beans or poo"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109533502420984307",
-          "author": "estherg84737372",
-          "searchJob": "coastal-carolina",
-          "text": "Nigerians, APC is a scam! Tinubu is thief! His supporters are even angry that why will Tinubu and Umahi announce to stop the project of lagos to Calabar coastal road, that they would have waited till after election. So they knew since all t"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109508461264580747",
+          "author": "xpbali",
+          "searchJob": "rice",
+          "text": "Set in the peaceful and increasingly sought-after area of Kediri, Tabanan, Bali, this exceptional freehold villa offers a rare combination of generous land, substantial living space, tropical surroundings, and uninterrupted views of rice fi"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109522520617767016",
-          "author": "esoteric_fx",
-          "searchJob": "coastal-carolina",
-          "text": "Tinubu the master strategist has robbed Nigerians with the coastal highway.. it’s really a shame that this is what he has to offer Nigerians."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109517071713202523",
-          "author": "flowfy02",
-          "searchJob": "coastal-carolina",
-          "text": "So that’s how 15 Billion vanished and no coastal road ? I woke up this morning , and one thing kept lingering in my mind . Since when did we become this defeatist as a pple ? During babangida regime and abacha pple didn’t like something , t"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109533413938229347",
+          "author": "mir_ilyas_inc",
+          "searchJob": "oregon",
+          "text": "West Bengal: Hindu organisation has alleged that a school in Habra has provided Muslim students with a separate room and a designated time to offer namaz during school hours. Members of the Hindu organisation protested against this arrangem"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109511752014791062",
-          "author": "ggeorgebrown7",
-          "searchJob": "coastal-carolina",
-          "text": "@PO_GrassRootM They already claimed the coastal lands they want for them selfs in the name of coastal high way. APC have nothing to offer to Nigerians. They are leaving that project inconclusive because Nigeria Must Be Ok Come 2027"
+          "postId": "2109527736092066163",
+          "author": "aranea569385122",
+          "searchJob": "oregon",
+          "text": "@MyLordBebo Zelensky only makes the offer because he knows Putin is not interested in any ceasefire where Zelensky can rearm &amp; get all his ducks in line. He should not have conditions for elections anyway, he should be democratically ki"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109524867313967450",
+          "author": "trashstarcrazy",
+          "searchJob": "oregon",
+          "text": "Hindsight is Always 20/20 but I wish the carlsson offer sheet had had a bigger number, the flyers had so so much cap space and I think of it had been just a little bigger the ducks wouldn't have been able to afford it"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109525285691408822",
+          "author": "kingsaluu",
+          "searchJob": "duke",
+          "text": "One key reason Yanga lost was the drop in off-ball work rate after the substitutions. Duke, Mudathir and Maxi offer greater running power, counterpressing and duel intensity. Komara,Mwijage and Ngoma didn’t provide the same profile, leaving"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109509895569445267",
+          "author": "evisitorguide",
+          "searchJob": "notre-dame",
+          "text": "🍻😄 Downtown Chicago adventures deserve a proper happy hour! 🍷🍺 Emerald Loop offers drink specials, pub favorites, and the perfect place to unwind after a day of sightseeing or shopping. ✅ Great food, drinks, and a true Irish welcome.👉 "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2109524494461145194",
+          "author": "thatoptometrist",
+          "searchJob": "delaware",
+          "text": "📢 #Postdoc fellowship positions in #HealthcareDeliverySciences and #PediatricResearch at the Center for Healthcare Delivery Science (CHDS), Nemours Children's Health, USA. The two-year fellowship offers three positions for 2027-2029: two i"
         }
       ]
     },
@@ -196,11 +209,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-12T06:40:43.212Z"
+    "status rebuilt locally from current store on 2026-10-12T06:58:05.481Z"
   ]
 }
