@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T04:43:24.065Z",
+  "generatedAt": "2026-10-12T04:58:15.619Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-12T04:43:23.701Z",
+    "at": "2026-10-12T04:58:15.291Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7773211111111111,
-    "p95Hours": 1.5283072222222223,
-    "worstHours": 1.5283072222222223
+    "medianHours": 0.7767980555555556,
+    "p95Hours": 1.5238166666666666,
+    "worstHours": 1.5238166666666666
   },
   "decisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -55,161 +55,50 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-12T04:43:23.700Z",
-      "got": 29,
-      "new": 17,
-      "lag": 0.39
+      "at": "2026-10-12T04:58:15.291Z",
+      "got": 7,
+      "new": 2,
+      "lag": 0.18
     }
   },
   "audit": {
-    "at": "2026-10-12T04:41:51.783Z",
+    "at": "2026-10-12T04:56:43.908Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 17,
-      "duplicate": 12,
+      "returned": 7,
+      "kept": 2,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 4,
-      "reasons": {
-        "no_offer_term": 1,
-        "no_fbs_school": 2,
-        "non_fbs_offer_target": 1
-      },
-      "samples": [
-        {
-          "reason": "no_offer_term",
-          "postId": "2109496414703112426",
-          "author": "nnefariousjack",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/Z5axCGJngK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109489746435309756",
-          "author": "somethingwasoff",
-          "searchJob": "ohio",
-          "text": "When a man died alone in his apartment, investigators discovered something more disturbing than his death: the person he claimed to be had been dead for 57 years. In 2002, a man living in Ohio died by suicide. He was known as Joseph Newton "
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2109494518521233635",
-          "author": "hkust",
-          "searchJob": "northwestern",
-          "text": "Kellogg-HKUST EMBA Ranked No. 1 in the World in the Financial Times Executive MBA Ranking 2026 The Kellogg-HKUST Executive MBA (KH EMBA) Program has secured the No. 1 position globally in the Financial Times Executive MBA Ranking 2026, rele"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109483754351952175",
-          "author": "pure_prospects",
-          "searchJob": "phrase:\"picked up an offer from\"",
-          "text": "🚨 Woodford County SG Rylan Maples @Rylanmaples2029 picked up an offer from KCU @GoKnightsMBB &amp; @Chpack20 after a great performance at the Pure Prospects Elite Camp yesterday! 🏀🔥 Congratulations, Rylan! https://t.co/lTu35BUVs7"
-        }
-      ]
+      "accepted": 2,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 2,
       "reasons": {
-        "school_not_resolved_confidently": 4,
-        "bare_mention_requires_llm": 8,
-        "multiple_resolved_schools": 1
+        "player_missing_football_context": 1,
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109497806981619820",
-          "author": "aronestyerik",
-          "searchJob": "coastal-carolina",
-          "text": "@KnowbodyKnew @WeatherNation the people who owned coastal properties offered to pay for it the state refused to let them build it they weren't begging fo a handout"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109497400624619806",
-          "author": "mbutulotin",
-          "searchJob": "coastal-carolina",
-          "text": "Lagos is not meant to be this populated and saddled with so much investment when other states could genuinely offer better. Sometimes I just feel like it will cave in and the ocean will swallow it. That coastal road was criminal. Everybody "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109487016756785655",
-          "author": "coneheads8020",
-          "searchJob": "coastal-carolina",
-          "text": "🏡 Dream Home Sunday — Indian Pass, FL This week’s Dream Home Sunday takes us to Indian Pass, where Gulf-front acreage and resort-style outdoor living come together in one remarkable coastal retreat. This five-bedroom, four-and-a-half-bath "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109484435380863288",
-          "author": "charleswmartin",
-          "searchJob": "coastal-carolina",
-          "text": "@TheLaurenChen It is the population dense areas everywhere. Same in Upstate NY, rural NH and Maine...beautiful but zero representation due to cities. In N East we could seige coastal cities (no food nor energy production) and w a Naby offer"
+          "reason": "player_missing_football_context",
+          "postId": "2109506174777204930",
+          "author": "officialbrayl4n",
+          "searchJob": "mississippi-state",
+          "text": "I am grateful to say I have received my first division 1 offer from Mississippi State! Thank you to Coach Anwar and to the staff for believing in me. #gobulldogs #notcommited https://t.co/7whWsuBOEX"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109488344732504348",
-          "author": "obabysteph19",
-          "searchJob": "ohio",
-          "text": "Selling 2 GA Twenty One Pilots tickets for 10/17 at the Ohio Stadium in Columbus. Asking for 242$ each or best offer We won’t attend anymore due to my cousin got into car crash PLS Dm if you’re interested 🙏"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109488314067595500",
-          "author": "ladyinyellow53",
-          "searchJob": "ohio",
-          "text": "So you assume the majority of people who would move here from another state would be liberal...not sure how you determine that. I know it is anecdotal but during Covid all the people I met who moved here from TX and CA were conservative. Pe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109491678247829549",
-          "author": "civilsarank",
-          "searchJob": "rice",
-          "text": "Traditional Rice Varieties FOR UPSC 2027 !!!!!! BOOKMARK THIS FOR PRE Chakhao Poireiton: Aromatic black rice from Manipur. Called \"Forbidden rice\" or \"Emperor's rice\" because it was reserved for kings. Rich in anthocyanins. Kalanamak: Aroma"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109482915855732951",
-          "author": "rugby0574864371",
-          "searchJob": "rice",
-          "text": "Bullshit. There was actual prolonged starvation and when israel allows in food, it is never enough, it never offers even the bare minimum of fruit, vegetables, or meat (unless it is canned) and anything other than rice, humous, and lentils,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109482108527825328",
-          "author": "sirleobdasilva",
-          "searchJob": "rice",
-          "text": "Knowing that Manchester City could have offered Declan Rice one of their astronomical under the table wages but he still chose Arsenal is making me rate him even more."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109492274455318957",
-          "author": "sluggmania",
-          "searchJob": "alabama",
-          "text": "Maaan Fuck BAMA !!! And everything they have to offer"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109499251373867181",
-          "author": "praying_medic1",
-          "searchJob": "arizona",
-          "text": "🚨WOW!!! An 18-year-old saw an 80-year-old man with a walker crossing a busy Arizona road in shoes that were FALLING APART... ...so he pulled over, took the shoes OFF HIS OWN FEET, and gave them to him!!! He found out the man had just lost "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109496163225526714",
-          "author": "burncitysports",
-          "searchJob": "arizona",
-          "text": "Arizona Cardinals head coach Mike LaFleur offered some insight into the decision to trade Marvin Harrison Jr. #ArizonaCardinals #RiseUpRedSea #NFL https://t.co/hqI3lmBKPG"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109484399272022100",
-          "author": "digitalmre",
-          "searchJob": "colorado",
-          "text": "Arizona’s mountain ranges reflect three major physiographic regions: the high Colorado Plateau in the north, the rugged Transition Zone through the center, and the Basin and Range province across the south and west. The state has more than "
+          "postId": "2109489456856391893",
+          "author": "run_leyland",
+          "searchJob": "oregon",
+          "text": "@Blutman27 Oregon at +300 must be an absolute money pit for draft kings? Feel that should be +100000 or not offered at all?"
         }
       ]
     },
@@ -224,11 +113,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-12T04:43:24.066Z"
+    "status rebuilt locally from current store on 2026-10-12T04:58:15.620Z"
   ]
 }
