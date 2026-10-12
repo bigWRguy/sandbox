@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T05:28:05.676Z",
+  "generatedAt": "2026-10-12T05:42:55.598Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-12T05:28:05.341Z",
+    "at": "2026-10-12T05:42:55.330Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5227069444444444,
-    "p95Hours": 1.5222130555555555,
-    "worstHours": 1.5222130555555555
+    "medianHours": 0.7699075,
+    "p95Hours": 1.26676,
+    "worstHours": 1.5212366666666666
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 26,
+    "decided": 26,
     "complete": true
   },
   "pending": {
@@ -55,74 +55,225 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-12T05:28:05.341Z",
-      "got": 9,
-      "new": 5,
-      "lag": 0.45
+      "at": "2026-10-12T05:42:55.330Z",
+      "got": 40,
+      "new": 26,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-10-12T05:26:33.233Z",
+    "at": "2026-10-12T05:41:32.567Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 5,
-      "duplicate": 4,
-      "tooOld": 0,
+      "returned": 40,
+      "kept": 26,
+      "duplicate": 9,
+      "tooOld": 5,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 1,
+      "accepted": 15,
+      "rejected": 11,
       "reasons": {
-        "hard_negative": 1
+        "no_fbs_school": 3,
+        "hard_negative": 2,
+        "no_offer_term": 4,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2109493714477572217",
+          "author": "bkent47314",
+          "searchJob": "kent-state",
+          "text": "@mara_065 yes, they have all been offered a ride home plus payout"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2109507555961565346",
-          "author": "mdbaynews",
-          "searchJob": "maryland",
-          "text": "🚨 TSA PRIVATIZATION: The Transportation Security Administration is moving forward with plans to expand private airport security screening, despite canceling its controversial Gold+ program in August. TSA Administrator David Cummins says th"
+          "postId": "2109518954053992651",
+          "author": "salkzloren",
+          "searchJob": "liberty",
+          "text": "No, the historical Church did not commit a moral error in recognizing the legitimacy of capital punishment. That legitimacy rested on the State's duty to defend the common good and restore justice in societies where the means to permanently"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109514272728404067",
+          "author": "jcdurbant",
+          "searchJob": "liberty",
+          "text": "WHAT HEIGHT OF PSYCHOLOGICAL LUXURY ? (What most delicious of moral treats than the chance with the good conscience of ‘righteous indignation’... to join the lynching mob and at last get your hands on the whip ?) Ye fast for strife and deba"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109439375779979360",
+          "author": "verminusm",
+          "searchJob": "liberty",
+          "text": "Aldous Huxley wrote, \"The surest way to work up a crusade in favor of some good cause is to promise people they will have a chance of maltreating someone. To be able to destroy with good conscience, to be able to behave badly and call your "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109507878260474341",
+          "author": "slugasi",
+          "searchJob": "washington",
+          "text": "Most Australians knew the under 16 account ban on Dec 10,2025 was the starting point of Albanese’s slow integration while the sheep were alseep to enforce his real Political censorship despite Australia signing Article 19 Universal Declarat"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109343272363819322",
+          "author": "paulinehansonoz",
+          "searchJob": "washington",
+          "text": "Albanese doesn’t like what Australians are saying about him online. From his cringeworthy social media videos to his government’s lies. Instead of answering his critics, he wants the power to shut them down. It’s censorship, straight from t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109512884921491587",
+          "author": "tymeirboyd",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "BLESSED to receive my first offer from🙏🏾 @ndscsfb @Coach_Holloway5 #GODISGREAT https://t.co/8mcDGV542T"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2109503360336576547",
+          "author": "northwillis843",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Feeling blessed to receive my first offer from West Virginia Wesleyan ‼️ Looking forward to more conversations @coachfrancis_ @CoachKellar_ @CoachChadWilkes @CoachMike_Jones @coachniemeyer1 @Coach_JTVarn @PrepRedzoneSC @WestAthletics18 @WVW"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109497562080346174",
+          "author": "tommyolusanya",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "AGTG!!! blessed to Receive DPOTG against indian Springs, Alongside with my Duo @AndreClark11_ #hwpo #studentathlete #gamechangers https://t.co/6cWPPkxutQ"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2109506680111403304",
+          "author": "matthewa_68",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @NathanKero81 I am truly blessed and grateful to announce that I have received my third offer from Mesabi Range College. #AGTG @MRCNorseFB @lamiradafb @DonMateoRamirez @SGVNSports @coachmark_48 @247Sports @we"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109503035282227604",
+          "author": "0xdune0104",
+          "searchJob": "buffalo",
+          "text": "https://t.co/Uv2IzKT53N"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 4,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 11,
+        "multiple_resolved_schools": 3,
+        "author_not_recruit:no recruit fields": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109506034846843032",
-          "author": "tulanehype",
-          "searchJob": "tulane",
-          "text": "@JJGREENWAVE You would think Tulane would have made him a market level offer but they didn't. If CJS became available tomorrow Tulane would not make him a market rate offer."
+          "postId": "2109518536343474346",
+          "author": "gulvasikova",
+          "searchJob": "liberty",
+          "text": "CRYPTO STOCKS UNDER PRESSURE: 4 COMPANIES, 4 DIFFERENT INVESTMENT OPPORTUNITIES Bitcoin and Ethereum have pulled back from their September highs, putting crypto-related stocks under pressure. But as an investor, the key question is not whic"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109509664685899901",
-          "author": "kirk_sibley",
-          "searchJob": "texas-am",
-          "text": "@JBsOverAces @ScootBarley @BrooksVcfb @TAMU Michigan never offered Dillingham anything. He said so himself. https://t.co/YJQhDTE4me"
+          "postId": "2109503140030820405",
+          "author": "destinationxix",
+          "searchJob": "liberty",
+          "text": "Want to hear a very American story? Jews invented jeans. But first, something Americans often forget: There has never been a United States without Jews. Jews arrived in what would become the United States in 1654 - more than a century befor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109498526774460670",
+          "author": "josiahjb271",
+          "searchJob": "liberty",
+          "text": "I guess 8:15-17 about the Spirit of adoption to sonship and being heirs of God and co-heirs with Christ. That if we suffer with Him, we can be glorified with Him. 8:18-21 about Creation being in bondage to decay and awaiting the glorious li"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2109503700456886562",
-          "author": "mrrayhawthorne",
-          "searchJob": "ucla",
-          "text": "@chesneyera I don’t think it’s a steppingstone job. But will UCLA match Florida’s offer of 9 or 10 million a year?"
+          "postId": "2109498434231124337",
+          "author": "weshender",
+          "searchJob": "unlv",
+          "text": "Bison fans Learning to win is easy. Deflecting insn't accepting a loss. My Follow up to the below banter: Oh, you betcha. I offered some Bison banter after one loss, and somehow it snowballed into p1ss1ng on New Mexico's football ashes when"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109517201963389368",
+          "author": "hitstickhs",
+          "searchJob": "utah-state",
+          "text": "@AshtonTaylorFB @coach_kingston6 @WestlakeFootbal @CoachAAle @RossApoWR_EZ @ballersinutah @KSLSportsRewind @coachbuttsUSU @USUrecruiting @USUFootball @CoachBrentMyers @KyleMorgan_FB @MalakaiLeilua71 @coachDDaste @Coach_MosesT18 How does thi"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109514116532498573",
+          "author": "ontop1046759976",
+          "searchJob": "florida",
+          "text": "China’s Undeclared War Against America: Follow the Supply Chain. Count the Dead. BY DARRELL PITTS A nation can suffer catastrophic losses without an invading army. Its people can be poisoned, its research stolen, its institutions penetrated"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109499030401429721",
-          "author": "the_oman1",
-          "searchJob": "ucla",
-          "text": "@BenAxelrod Just because they offer him big money DOES NOT mean he's going anywhere... Now what you gonna talk about?! No Apologies either...PS UCLA is a BLUE BLOOD JOB! NEXT!"
+          "postId": "2109512051026698390",
+          "author": "claw_news_",
+          "searchJob": "washington",
+          "text": "🗞️ Golan Fortifications Stall Damascus Normalization as Trump Pressures Thune Over Senate 'Nuclear Option' and Post-New START Nuclear Era Dawns Golan Demarcation Crisis: Israeli 'Sufa 53' Berm Construction Freezes Normalization Talks with "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109509890745999370",
+          "author": "auc31",
+          "searchJob": "washington",
+          "text": "🛰 US rushes Western Sahara MINURSO review; Erik Prince eyes $65M DRC air deal 2026-10-12 05:01 UTC · 24h window · 48h outlook Summary Washington is urgently convening experts ahead of a likely MINURSO mandate decision, signaling a potentia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109506522178879706",
+          "author": "letsarmukr",
+          "searchJob": "washington",
+          "text": "Kirill Dmitriev tagged Elon Musk with a proposal for The Boring Company to build a tunnel under the Bering Strait, connecting Chukotka to Alaska. He calls it the Putin-Trump tunnel. His math: Musk’s technology would cut the cost from $65 bi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109505011877134432",
+          "author": "aj_9001",
+          "searchJob": "washington",
+          "text": "Keep your offer to yourself. Saudi Arabia's dignity is not for sale, and neither are our brothers in Palestine. We don't trade principles for membership cards or promises of protection. We can defend ourselves, and we will. We don't need NA"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109504181669359942",
+          "author": "jpninph",
+          "searchJob": "washington",
+          "text": "What happens when Ukraine’s military strategy collides with America’s domestic priorities? On October 10, President Trump criticized Volodymyr Zelensky and suggested that Ukraine needed a new president willing to negotiate an end to the war"
+        },
+        {
+          "reason": "author_not_recruit:no recruit fields",
+          "postId": "2109510508189827396",
+          "author": "kamanidooks",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed To Receive (n) Offer From The UC Davis Aggies!! #PopMode #Csmisdbu @CoachD_Jordan @Ogthetruth @coachTcsm @tlbutler5 https://t.co/Er4uuXPo1Q"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109507409685143715",
+          "author": "draidenhasnofun",
+          "searchJob": "arkansas-state",
+          "text": "@gbmillion @ElliotMalin Your position is that Israel is justified in not allowing the Palestinians to not have a state like Egypt and Jordan because they are stateless. It is not that Israel offered the Palestinian an actual state. Which wa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109498699999215706",
+          "author": "gbmillion",
+          "searchJob": "arkansas-state",
+          "text": "No. Jews have the right of self-determination because they accepted the partition plan in 1947 and declared a state upon the withdrawal of the British. The Arabs rejected the plan and chose conquest. They forfeited the right of self-determi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109514425845895259",
+          "author": "dattasubi",
+          "searchJob": "buffalo",
+          "text": "The story of *Akal Bodhan — why we worship Durga now in Autumn* — is told in 5 parts. This is the exact story from _Devi Mahatmyam / Markandeya Purana_ and _Krittibas Ramayana_: *PART 1: The Crisis — Birth of Mahishasura* In ancient times, "
         }
       ]
     },
@@ -137,11 +288,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-12T05:28:05.677Z"
+    "status rebuilt locally from current store on 2026-10-12T05:42:55.598Z"
   ]
 }
