@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T06:13:20.042Z",
+  "generatedAt": "2026-10-12T06:40:43.212Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-12T06:13:19.708Z",
+    "at": "2026-10-12T06:40:42.981Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0266758333333332,
-    "p95Hours": 1.52451,
-    "worstHours": 1.77355
+    "medianHours": 1.2360991666666667,
+    "p95Hours": 1.733133611111111,
+    "worstHours": 1.980946111111111
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 13,
+    "decided": 13,
     "complete": true
   },
   "pending": {
@@ -55,110 +55,133 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-12T06:13:19.707Z",
-      "got": 19,
-      "new": 10,
-      "lag": 0.14
+      "at": "2026-10-12T06:40:42.981Z",
+      "got": 14,
+      "new": 13,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-12T06:11:49.803Z",
+    "at": "2026-10-12T06:39:17.311Z",
     "mode": "live",
     "collection": {
-      "returned": 19,
-      "kept": 10,
-      "duplicate": 9,
+      "returned": 14,
+      "kept": 13,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
+      "accepted": 9,
       "rejected": 4,
       "reasons": {
+        "no_offer_term": 2,
         "no_fbs_school": 1,
-        "no_offer_term": 3
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2109520690470625710",
+          "author": "victormanjul",
+          "searchJob": "coastal-carolina",
+          "text": "How about the SOKOTO-BADAGRY HIGHWAY?💀😂 A bigger scam than the COASTAL HIGHWAY, right? Tinumumatics 😁"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2109520013317328941",
-          "author": "techstoriesin",
-          "searchJob": "class:2026",
-          "text": "[ AmazonIN Great Indian Festival Deal Rs 1,03,990 ] 27-cr0721in HP 27-inch All-in-One FHD Desktop Computer 821844252161 [ad] - Offer Price: Rs 1,03,990 + Bank Offer Discounts | MRP: Rs 1,47,523. https://t.co/CwKRwH6ftZ #GreatIndianFestivalS"
+          "postId": "2109524753950404985",
+          "author": "frenstronaut",
+          "searchJob": "coastal-carolina",
+          "text": "@saatvrn @_FromTheIsland she was terrible at the game. Sat on the beach with her group of 5 and made zero effort to build any other relationships. Learn the numbers, there are 6 of them 5 of you. Immediately rebuked Kilby when he offered up"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2109519107351810241",
-          "author": "engineer_num1",
-          "searchJob": "class:2026",
-          "text": "https://t.co/B7C3s2Vq5y"
+          "postId": "2109409703818318270",
+          "author": "dangbanamanager",
+          "searchJob": "coastal-carolina",
+          "text": "APC unleashed its army of slaves and pigs on Donald Duke for daring to say the Lagos–Calabar Coastal Highway wouldn’t go much beyond Lagos. Now, reality is exposing the propaganda merchants. Bola Tinubu came to steal, kill and destroy. Reje"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2109514745006948620",
-          "author": "null_station7",
-          "searchJob": "class:2026",
-          "text": "https://t.co/LmSq8GZ67R"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109503785118961869",
-          "author": "kerryshi_08",
-          "searchJob": "class:2026",
-          "text": "LVMH presides over the fertility of an entire industry and has none of its own. Arnault wrote the operating system. He never wrote a novel on it. Cha Ling: dead in 6 years. Tiffany: $15.8B. A eunuch’s receipt. Full essay: https://t.co/pB3Bt"
+          "reason": "hard_negative",
+          "postId": "2109521280378486828",
+          "author": "fearlovegod",
+          "searchJob": "coastal-carolina",
+          "text": "Tianliang on Politics — Edited English Transcript Hello, everyone! Today, the winner of the 2026 Nobel Peace Prize was announced: South African international judge Navi Pillay. The announcement immediately sparked considerable controversy a"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 9,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 1
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109520458647208240",
-          "author": "israelingeorgia",
-          "searchJob": "georgia",
-          "text": "🇮🇱🇬🇪 A warm welcome to Georgia’s academic delegation in Israel! Yesterday, 11 October, 14 senior representatives of Georgian universities and higher education institutions arrived for a professional visit organized by the Israeli embass"
+          "reason": "multiple_resolved_schools",
+          "postId": "2109529224914862310",
+          "author": "ownedbyjmoney",
+          "searchJob": "western-kentucky",
+          "text": "@tlebow2026 @HerboHusker Also how exactly does NIL level the playing field when the top teams have significantly larger budgets than small schools? A 5 star recruit could be making $500K from Western Kentucky then Texas comes along and offe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109510334541074913",
-          "author": "kookabrah_xrpl",
-          "searchJob": "georgia",
-          "text": "After what I've seen go down in the NFT realm in just the last week, I'm confident, no, CERTAIN that all XRPL NFTs that bring utility/rewards are going to become unobtainable as soon as the tokens they offer as monthly rewards skyrocket in "
+          "postId": "2109509445487092065",
+          "author": "marketfloornews",
+          "searchJob": "oklahoma",
+          "text": "AXP Energy launches $2.25 million entitlement offer to fund Oklahoma expansion AXP Energy (ASX: AXP) has launched a non-renounceable entitlement offer to raise up to $2.25 million, with proceeds earmarked for its recently announced Oklahoma"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109522386877878584",
-          "author": "kephen20936",
-          "searchJob": "pittsburgh",
-          "text": "Anyone whom I'd take money from. If someone approaches me for a given task, say, \"Mowing a Yard\", I go out, get a lawnmower, and Mow. The person I'm working for is paying me as a 1099. If A newspaper, say in Pittsburgh, offers me a job (say"
+          "postId": "2109505601369784463",
+          "author": "marketfloornews",
+          "searchJob": "oklahoma",
+          "text": "AXP Energy launches A$2.25M entitlement offer at $0.005 to fund Oklahoma expansion AXP Energy (ASX: AXP) has launched a non-renounceable entitlement offer to raise up to A$2.25 million, with proceeds earmarked for its recently announced Okl"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109525772738199933",
-          "author": "dwildcard303007",
-          "searchJob": "utah",
-          "text": "AFTER-MIDNIGHT DISPATCH UPDATE MONDAY, OCTOBER 12, 2026 A final look at Sunday night’s calls across the metro area. All times below are MDT from Sunday, October 11. These are preliminary reports drawn from dispatch summaries, not confirmed "
+          "postId": "2109533751113924799",
+          "author": "ekpoiruoghene8",
+          "searchJob": "arizona",
+          "text": "That afternoon, before leaving for another shift, I crossed the hall and knocked on Mrs. Patterson’s door. She was eighty-one, tiny, and always wore reading glasses on a beaded chain. When I showed her the invoice, she let out a long sigh. "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109530986853576925",
+          "author": "iowafirstmedia",
+          "searchJob": "colorado",
+          "text": "WEST DES MOINES, Iowa – Mark Cook, the Colorado-based cybersecurity and IT specialist who founded the Hand Count Roadshow, will speak Monday, October 19, at the West Des Moines Library on election integrity and the case for returning ballot"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109520175657836841",
-          "author": "atnewschannel",
-          "searchJob": "charlotte",
-          "text": "LA JUNGLE DRUMS OMINOUS AFTER CHARGERS' 0-5 START Everybody has a bad day, but the LA Chargers have already had a bad year with a disastrous 0-5 start. Rebellion is beginning to rear its ugly head online and in the press. Fans are frustrate"
+          "postId": "2109533502420984307",
+          "author": "estherg84737372",
+          "searchJob": "coastal-carolina",
+          "text": "Nigerians, APC is a scam! Tinubu is thief! His supporters are even angry that why will Tinubu and Umahi announce to stop the project of lagos to Calabar coastal road, that they would have waited till after election. So they knew since all t"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109506542513131709",
-          "author": "puropinchepacks",
-          "searchJob": "charlotte",
-          "text": "Check out San Francisco 49ers Card Lot Montana Rice Purdy Willis and more https://t.co/xInxznSupm #eBay via @eBay Send offer"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109522520617767016",
+          "author": "esoteric_fx",
+          "searchJob": "coastal-carolina",
+          "text": "Tinubu the master strategist has robbed Nigerians with the coastal highway.. it’s really a shame that this is what he has to offer Nigerians."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109517071713202523",
+          "author": "flowfy02",
+          "searchJob": "coastal-carolina",
+          "text": "So that’s how 15 Billion vanished and no coastal road ? I woke up this morning , and one thing kept lingering in my mind . Since when did we become this defeatist as a pple ? During babangida regime and abacha pple didn’t like something , t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109511752014791062",
+          "author": "ggeorgebrown7",
+          "searchJob": "coastal-carolina",
+          "text": "@PO_GrassRootM They already claimed the coastal lands they want for them selfs in the name of coastal high way. APC have nothing to offer to Nigerians. They are leaving that project inconclusive because Nigeria Must Be Ok Come 2027"
         }
       ]
     },
@@ -173,11 +196,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 9,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-12T06:13:20.043Z"
+    "status rebuilt locally from current store on 2026-10-12T06:40:43.212Z"
   ]
 }
