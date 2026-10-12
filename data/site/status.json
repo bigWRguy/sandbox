@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T19:58:12.893Z",
+  "generatedAt": "2026-10-12T20:14:06.821Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-12T19:58:12.523Z",
+    "at": "2026-10-12T20:14:06.432Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5252475,
-    "p95Hours": 1.524143888888889,
-    "worstHours": 1.524143888888889
+    "medianHours": 0.7902275,
+    "p95Hours": 1.5399808333333334,
+    "worstHours": 1.789123888888889
   },
   "decisionCoverage": {
-    "total": 24,
-    "decided": 24,
+    "total": 96,
+    "decided": 96,
     "complete": true
   },
   "pending": {
@@ -47,217 +47,389 @@
   "profileResolution": {
     "cached": 81
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 2924,
+    "completeOffers": 2930,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-12T19:58:12.522Z",
-      "got": 45,
-      "new": 24,
-      "lag": 0.18
+      "at": "2026-10-12T20:14:06.431Z",
+      "got": 126,
+      "new": 96,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-12T19:56:37.764Z",
+    "at": "2026-10-12T20:11:55.915Z",
     "mode": "live",
     "collection": {
-      "returned": 45,
-      "kept": 24,
-      "duplicate": 20,
-      "tooOld": 1,
+      "returned": 126,
+      "kept": 96,
+      "duplicate": 30,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 18,
-      "rejected": 6,
+      "accepted": 48,
+      "rejected": 48,
       "reasons": {
-        "non_fbs_offer_target": 2,
-        "no_fbs_school": 4
+        "no_offer_term": 12,
+        "no_fbs_school": 23,
+        "hard_negative": 4,
+        "unclassified_offer_text": 1,
+        "non_fbs_offer_target": 8
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2109724958981243102",
+          "author": "andrewedgraham",
+          "searchJob": "central-michigan",
+          "text": "🔗: https://t.co/klWWrunRFM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109731887216574925",
+          "author": "sergiopunky27",
+          "searchJob": "charlotte",
+          "text": "@Coach_Yac @49ers so niners have to give draft picks for a guy who decided on his own left the team instead accepting the generous offer niners put on the table for him?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109720284018417817",
+          "author": "snepofthewest",
+          "searchJob": "charlotte",
+          "text": "I dunno if I just missed a bit in the book where the Weasleys politely refused but I thought it was kinda wild he didn't offer"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109717934222221781",
+          "author": "ostinatorigore4",
+          "searchJob": "charlotte",
+          "text": "https://t.co/OJbCTOCDXm"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109717064852152449",
+          "author": "garretpike2",
+          "searchJob": "toledo",
+          "text": "🚨FROM ONE DIVISION I SCHOLARSHIP OFFER TO ALL-AMERICAN HONORS TO OMAHA🚨 My baseball journey wasn't always straightforward, and looking back, there's a lot I wish I knew about recruiting when I was 16. Here's my story. 🧵⚾️ https://t.co/RZ"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109722761384034530",
+          "author": "troyaitken_",
+          "searchJob": "troy",
+          "text": "micro1 just committed $1B over 12 months to license operational data from businesses that's one broker https://t.co/AM9QyL7xVA is moving $30M over the next 8 weeks on the same type of deals that's roughly $3.75M a week going out to companie"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2109736589828247611",
+          "author": "weartv",
+          "searchJob": "florida",
+          "text": "Two Northwest Florida Walmarts are turning into a relief hub for people impacted by Hurricane Isaias -- offering free food and water, as well as a place to do laundry and shower. Read more: https://t.co/MEUfWJFAuA https://t.co/vaEWBsPuGq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109736213926080735",
+          "author": "fl_daytr8r",
+          "searchJob": "florida",
+          "text": "NNBR the ole last 5 minute sell into the bid......too typical, smh. had some great buying strength today with a rather weak semis backdrop. still firmly believe this range at/below 4 offers very favorable upside over next year or two."
+        },
+        {
           "reason": "non_fbs_offer_target",
-          "postId": "2109721069208617135",
-          "author": "marshallsumm1",
-          "searchJob": "marshall",
-          "text": "After a great visit and conversation with @CoachPSully and @Grant_Spicer1, I am blessed to receive an offer from Allegheny College. https://t.co/XlGS7fEAzR"
+          "postId": "2109735646503792678",
+          "author": "kinleycox6",
+          "searchJob": "florida",
+          "text": "I’m incredibly honored to receive an offer from Northwest Florida State College! A huge thank you to Coach Andy Lee for the amazing visit, hospitality, and opportunity! So grateful for all that God continues to do in my softball journey! 🥎"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109731484265570629",
+          "author": "realaprilhunter",
+          "searchJob": "florida",
+          "text": "Yes on 3 #Florida. Even landlords benefit! And if you're a renter, you'll benefit in the future as well! #amendment3 #taxes https://t.co/RaT1Cstu2i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109730780180304012",
+          "author": "dandacosta8",
+          "searchJob": "florida",
+          "text": "@RNCResearch By legal immigrants you retard!!! Yeah good luck with that not in Florida they don't want trash and that's all you got to offer right next to that coward that's also trash if anything both of you belong in jail"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109724369870365056",
+          "author": "joeydhansen",
+          "searchJob": "florida",
+          "text": "I was renting a house in Jacksonville, Florida ten minutes from the beach and my landlord offered to sell it to me for $140,000"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109498492682981438",
+          "author": "riqsz5",
+          "searchJob": "florida",
+          "text": "For those who were adults during the 2008 financial crisis, what was your holy crap, the economy is actually crashing moment?"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109722023048171556",
+          "author": "haleytaylors17",
+          "searchJob": "florida",
+          "text": "So grateful to receive my second offer to play softball at Trinity College of Florida!! Go tigers! @DiamondAddicts https://t.co/H1gOsDtAtH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109718367108022438",
+          "author": "floridasownmac",
+          "searchJob": "florida",
+          "text": "I would like to offer Kim the position of my MILF Mommy should she lose her post."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109716712342098298",
+          "author": "polymarket",
+          "searchJob": "florida",
+          "text": "BREAKING: Kimberly Guilfoyle projected to be ousted as U.S. Ambassador to Greece by month's end amid allegations she traded government access for \"gifts\" of up to $100,000. 69% chance. https://t.co/hsSBZMimOm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109725523379380634",
+          "author": "reiteconmig0",
+          "searchJob": "washington",
+          "text": "@MarioNawfal Millions exposed. A 12-month fix? Officials say the Pentagon breach affected 3M+ people, exposing Social Security numbers, birth dates and some military job details. Up to 12 months of credit monitoring cannot make that data pr"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109728028423270699",
+          "author": "mstemberg1",
+          "searchJob": "washington",
+          "text": "Incorrect. U.S. opposition to the ICC has remained largely bipartisan and is rooted in specific constitutional, legal, and geopolitical arguments. The core reasons include: 1. Protection of U.S. Servicemembers and Sovereignty The primary fe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109722575567774021",
+          "author": "flpress",
+          "searchJob": "washington",
+          "text": "FLP CHAPBOOK OF THE DAY: I Wonder by Sophia M. Giudici On SALE: https://t.co/hIDBNFYC60 I Wonder is a collection for the wondering, wandering heart. Flush with moments that shout, whisper, plea, and praise, this chapbook explores the relati"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109719007402061902",
+          "author": "mainstayrsrch",
+          "searchJob": "washington",
+          "text": "Four companies, three strategies, one race to make quantum computing pay off. From medicine to hedge funds: how NVDA, IBM, IONQ, and RGTI are betting on quantum. https://t.co/RyyCJRRdh4"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109716560231399775",
+          "author": "wagop",
+          "searchJob": "washington",
+          "text": "Congratulations @BrandiKruse. Sure hope @seaCityattorney learns to stop sqaundering taxapayer dollars on partisan litigation. \"The Public Records Act is a critical tool to ensure government transparency. Seattle should have admitted its err"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2109728309235904838",
-          "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "🚨 First D1 Offer 🚨 2028 WR Tylan Simpson from Rome HS, GA has received his first D1 offer from Southern University. @TylanSimpson https://t.co/Ak4vqIIxJ4"
+          "postId": "2109736847840846239",
+          "author": "el_ju1ian",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach Glenn and Coach Bruce, I am blessed to receive an offer from Rivier University. Thank you for the coaching staff for believing in me. @Hoops863 @PRO16League @DHS_Basketball1 @Coachbruce_1114 https://t.c"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109736215444677006",
+          "author": "dustinhanna226",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invitation to the National Combine Class of 2028 | RB/LB | Cohoes High School. Staying focused and continuing to work toward my goals. More work to do #FootballRecruiting #ClassOf2028 https://t.co/VOlguvFfpW"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2109711443620741581",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Mason Stephens-WR-2028 @MercerFootball Offer #CFB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109719964714459148",
-          "author": "cinthiaxaa",
-          "searchJob": "miami",
-          "text": "Putting out my 2x Katseye tickets for sale to Concert in Miami, on tomorrow show! Date: Tue Oct 13, 2026 Venue: Kaseya Center - Miami, FL. Message me if you’re interested in the tickets, willing to accept your offers."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109720759941910799",
-          "author": "qualityplusauto",
-          "searchJob": "nc-state",
-          "text": "🎡 NC STATE FAIR SPECIAL! 🎡 Oct. 15–26 ONLY! Save 10% off labor—up to $150—when you schedule a vehicle repair during the offer period! Mention the discount when scheduling. Tires &amp; oil changes excluded. Cannot combine with other offers"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109725844432191645",
-          "author": "connpost",
-          "searchJob": "uconn",
-          "text": "The seasonal bar will also offer candy apples. https://t.co/czInptfKBH"
+          "postId": "2109735515519877458",
+          "author": "jalbee",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer to play golf at Maryville College in Knoxville! Thank you to Coach Paluszak for a great visit! https://t.co/aCyvwXrMb3"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 18,
+      "accepted": 6,
+      "rejected": 42,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 6
+        "bare_mention_requires_llm": 17,
+        "school_not_resolved_confidently": 19,
+        "multiple_resolved_schools": 5,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109720288086708606",
-          "author": "mariaebyrd",
-          "searchJob": "san-diego-state",
-          "text": "There are few great men in history who do not have both their ardent admirers and their virulent traducers. Christopher Columbus is no exception. But there is one main difference in the case of Columbus. We can identify his critics by their"
+          "postId": "2109734152337563789",
+          "author": "regulartweetsuk",
+          "searchJob": "charlotte",
+          "text": "Press Release: KRISPY KREME® Brings Fans a New Halloween Experiment with Limited-Time Looney Tunes™ Lab Dozen: Available Oct. 13-15, the three-day offer includes a dozen green doughnuts for just $13 CHARLOTTE, N.C.--(BUSINESS WIRE)--Krispy "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109732720297554081",
-          "author": "cosmicshakti37",
-          "searchJob": "temple",
-          "text": "I am SAANYA: High Priestess Bruja | Reiki Grand Master | 8-Clair Specialist in Energetic Surgery, Pranic-Shamanic Healing & Ancestral Excision I am a private counsel, stepping directly into the abysses others fear to tread to facilitate hig"
+          "postId": "2109733930710786553",
+          "author": "regulartweetsuk",
+          "searchJob": "charlotte",
+          "text": "Press Release: KRISPY KREME® Brings Fans a New Halloween Experiment with Limited-Time Looney Tunes™ Lab Dozen: Press Release link on the following post. Available Oct. 13-15, the three-day offer includes a dozen green doughnuts for just $13"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109731303151038803",
-          "author": "trophimusaccusd",
-          "searchJob": "temple",
-          "text": "Second Temple Judaism isn’t modern Rabbinic Judaism. Jesus was a Galilean from Nazareth who fulfilled the prophecies of the Scriptures. Listing moral commands doesn’t turn the Talmud’s Noahide path into the gospel. Rejecting a system that o"
+          "postId": "2109734012109664293",
+          "author": "matt_nasta",
+          "searchJob": "charlotte",
+          "text": "Many great movement therapies came out of that era. Good on ya D-Weck! Keeping the movement going… Esalen Institute (Big Sur, California), a hub of the Human Potential Movement from the 1960s onward, served as a key laboratory and launchpad"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109716758269727157",
+          "author": "49ers_34",
+          "searchJob": "charlotte",
+          "text": "@NoahF31511 So has the Denver Broncos so we it’s not our fault that the NFL wants to host Super Bowls at Levi Stadium but never will host one in Seattle. Pathetic city has nothing to offer anybody that’s coming in other than coffee and depr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109732361399152869",
+          "author": "farmerstrend",
+          "searchJob": "coastal-carolina",
+          "text": "🇰🇪🌱 𝗣𝗢𝗦𝗜𝗧𝗜𝗩𝗘 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗠𝗘𝗡𝗧𝗦 𝗜𝗡 𝗖𝗔𝗦𝗛𝗘𝗪 𝗙𝗔𝗥𝗠𝗜𝗡𝗚 𝗜𝗡 𝗞𝗘𝗡𝗬𝗔 Cashew farming presents opportunities for Kenyan farmers, especially in the coastal counties where warm temperatures and suitable growing cond"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109732220294337005",
+          "author": "davidcrest1572",
+          "searchJob": "coastal-carolina",
+          "text": "From Gemini. The value Jews provided to Arabs far outweighed those evictions. If they only said yes to peace instead of war… Did Jewish Land Purchases Prior to 1948 Displace ~15,000 Arabs? Yes, that figure is generally accurate within histo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109730945737904445",
+          "author": "farmerstrend",
+          "searchJob": "coastal-carolina",
+          "text": "🌱🥜 𝗖𝗔𝗦𝗛𝗘𝗪 𝗙𝗔𝗥𝗠𝗜𝗡𝗚 𝗜𝗡 𝗞𝗘𝗡𝗬𝗔: 𝗚𝗥𝗢𝗪 𝗙𝗢𝗥 𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘! Cashew farming offers Kenyan farmers an opportunity to earn income from their land, especially in suitable coastal and warm regions. With proper seedling"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109724083764293749",
+          "author": "thesolarhaven",
+          "searchJob": "coastal-carolina",
+          "text": "Install solar now and win one Air Conditioner in our Ember promo. 🤯 Offer last till January. Terms and conditions apply! #Solar #Coastal #Electricity #Doku #Newcastle https://t.co/Nr810G9Pvr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109724649512915432",
-          "author": "edd2022march",
-          "searchJob": "temple",
-          "text": "@AsaabaCharlotte Mathew 5:23-24\"So if you are presenting a sacrifice at the altar in the Temple and you suddenly remember that someone has something against you, leave your sacrifice there at the altar. Go and be reconciled to that person. "
+          "postId": "2109722403823853724",
+          "author": "notnarb77",
+          "searchJob": "coastal-carolina",
+          "text": "@chillyrainbow @OctopusEnergy 📢 Blygold Coil Coating: For high-risk or coastal installations in the UK (where salt-laden air or heavy industrial pollution accelerates rust), Daikin UK offers an optional factory or specialized Blygold treat"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109718409214591043",
+          "author": "ganwani",
+          "searchJob": "coastal-carolina",
+          "text": "India is the manufacturing opportunity of a lifetime for Europe. Build in India and ship to the world. Factory output is up 9 percent, electronics production has surged from $25 billion to over $156 billion, and the country is targeting a $"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109713754900296033",
+          "author": "cra_advocacy",
+          "searchJob": "coastal-carolina",
+          "text": "THE COASTAL ROAD DIVERSION: HOW AMAECHI SAW TOMORROW AND WAS CRITICIZED FOR IT By Sopriala Membere (@SoprialaMembere) Columnist, Scholar and Member CRA Advocacy Network ——————————————— I have been thinking about Rotimi Amaechi these past fe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109716697372328178",
-          "author": "mariaangelagrow",
-          "searchJob": "temple",
-          "text": "Lessons 1-3 from the Divine Office for Monday in the Second Week of October: I Machabees 4:52-61 . And they arose before the morning on the five and twentieth day of the ninth month (which is the month of Casleu) in the hundred and forty-ei"
+          "postId": "2109735858937196935",
+          "author": "profilefblive",
+          "searchJob": "kent-state",
+          "text": "Kent State has extended five new scholarship offers to HS prospects in the last 24 hours. @KentStFootball 3.3⭐ 2028 WR Rowan Kennedy @RowanKennedy03 3.1⭐ 2028 TE Carter Maxa @carter_maxa 3.0⭐ 2028 Edge Anthony Jemison @Ajemison6 2.8⭐ 2028 W"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109726465293987875",
+          "author": "macklinh",
+          "searchJob": "toledo",
+          "text": "@wokeisterne The claim was that Hamas would have to surrender and release the hostages. Hamas didn't offer to surrender or even to stop firing missiles and rockets."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109725083656974620",
+          "author": "erik0015",
+          "searchJob": "toledo",
+          "text": "@RT_com Israel's war is with Hamas. Hamas ARE terrorists. It just so happens that Hamas calls the territory typically known as palestine, their home. They store munitions, bombs, rockets, and other military supplies there. They have miles o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109712083818516862",
-          "author": "regionsfrance",
-          "searchJob": "temple",
-          "text": "The announcement by Pope Leo XIV regarding his surgery resonates in the hearts of the faithful as a call to ecclesial communion. Faced with illness, the Pope has chosen transparency and simplicity, making a single request: \"I entrust myself"
+          "postId": "2109717075749159026",
+          "author": "garretpike2",
+          "searchJob": "toledo",
+          "text": "I sent countless emails to college coaches. Most went unanswered. I ended up with ONE Division I scholarship offer. The University of Toledo. Toledo believed in me when nobody else did, and I'll forever be grateful they gave me that opportu"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109729896058773861",
-          "author": "kade66939042",
-          "searchJob": "lsu",
-          "text": "@Jackboymarlo7 Bro lane pulled his offer, you don’t think he’s gonna dance on our grave when he beats us? I’m an lsu fan but to think he wouldn’t do this is just unrealistic"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109722728743759926",
-          "author": "geraldrich9190",
-          "searchJob": "lsu",
-          "text": "@Sheadixon @BengalTigerOn3 @glenwest21 @samspiegs @SWiltfong_ @Blake_Alderman @Corey_Bender @NiebuhrOn3 @GregBiggins @BrandonHuffman @AllenTrieu LSU NIL offer wasn’t big enough"
+          "postId": "2109731123542536443",
+          "author": "troyathletics",
+          "searchJob": "troy",
+          "text": "𝗬𝗢𝗨𝗧𝗛 𝗦𝗣𝗢𝗥𝗧 𝗗𝗔𝗬 Join @TroyTrojansFB at the Vet next Saturday, October 24 for Youth Sport Day! Fans can take advantage of $5 General Admission tickets, which includes pregame field access for photos and a high-five tunnel for Tr"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2109730657848930696",
-          "author": "hoosier1pitt",
-          "searchJob": "ucla",
-          "text": "Wayne Knight balling out for UCLA. Most people don’t know that Cig was the only FBS coach (besides Navy’s) who offered Knight. More evidence this staff has ultra-elite talent identification. #Iufb https://t.co/I7qOBb42U0"
+          "postId": "2109737549363073294",
+          "author": "bbelefski",
+          "searchJob": "tulane",
+          "text": "@scottjackson175 That's why the PAC-12 has to raid the top American programs. Offer the house now for Memphis and Tulane."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109724556831395851",
+          "author": "ssn_pac12",
+          "searchJob": "tulane",
+          "text": "Another PAC-12 realignment thought. MW is likely non-poachable (avoid legal battle) The CUSA/MAC/SBC west don’t offer any good candidates SBC east is too far for 1 team Memphis/Tulane/USF not interested I would go full chips on the table fo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109727727054139481",
-          "author": "calpostbbolch",
-          "searchJob": "ucla",
-          "text": "Does UCLA really offer this? https://t.co/lXI5SlvLMT"
+          "postId": "2109733789111119928",
+          "author": "dreamallamerica",
+          "searchJob": "florida",
+          "text": "🏆 CONGRATULATIONS DAVID HUNTER — #10 IN THE CLASS OF 2028! Congratulations to David Hunter, who has officially been named the #10 prospect on the National Radar Class of 2028 Top 50 Prospect List! David, a talented quarterback out of Flori"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109728546616643903",
+          "author": "truckdrivernews",
+          "searchJob": "florida",
+          "text": "Emergency trucking relief remains active in Alabama and Florida as recovery efforts continue following Hurricane Isaias. Both states have issued emergency orders providing temporary exemptions for qualifying commercial vehicle operations. H"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109724117721297385",
+          "author": "mikemike091245",
+          "searchJob": "florida",
+          "text": "@mennoknight427 @TheS1lverScrub @NikLynam Would love to know if the rumoured offer from Florida was legit and if so why Chevy declined I get why Chevy passed on the Buffalo one"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109723912380551407",
+          "author": "freedom09993255",
+          "searchJob": "florida",
+          "text": "Why did Russia sell Alaska Thought for 8s Russia sold Alaska to the United States in 1867 (under Tsar Alexander II) because it had become an expensive, hard-to-defend liability that no longer fit the empire’s priorities.⁠Britannica The deal"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109714518452707453",
-          "author": "petermichael00",
-          "searchJob": "louisville",
-          "text": "Less than a year later, I was pitching in the College World Series for Louisville. But I want to be careful about the lesson you take from that. I was worthy of being loved before Omaha. Before Louisville. When my ERA was nearly 16. When I "
+          "postId": "2109737368035176579",
+          "author": "grumpytechbro",
+          "searchJob": "washington",
+          "text": "Kyiv and Washington are both using your diesel price as leverage. Ukraine hits Russian refineries. Global diesel gets tight. US diesel hits records with the midterms weeks out. So Trump licensed Russian diesel back onto the market until Apr"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109731411309797450",
-          "author": "leo487092",
-          "searchJob": "miami",
-          "text": "@enmyzh @kapankapanyak_ @Razer240z4 Alba is good player right🤔they also get more money from the promotion of messi now look at inter miami dead club but they get more offers now,the main reason we are angry because the president backstab, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109730641600512016",
-          "author": "boythatneverwaz",
-          "searchJob": "miami",
-          "text": "@TheBillsGuys Miami should offer next 3 1sts. Finally correct the tua mistake."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109729503480250560",
-          "author": "kerato_nyc",
-          "searchJob": "miami",
-          "text": "MIAMI 🏝️ We’re so excited to be back soon! And we’re bringing a special offer❗ Call us 📞 +1 (866) 426-5671 to book your appointment #KERATO #Keratopigmentation #biochromaeyes® #EyeColorChange #bioticphocea https://t.co/401t3rplEH"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109722302652846220",
-          "author": "steaksauc3",
-          "searchJob": "miami",
-          "text": "@DukeDogBurner And Miami (OH) allegedly offered $30-$40m 💀"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109720762324005171",
-          "author": "kalshinba",
-          "searchJob": "miami",
-          "text": "\"The Knicks, Timberwolves and Warriors were also interested in Ben Simmons, but none offered a contract. However, once the Miami workout for Kings GM Scott Perry had been scheduled, Simmons was so confident the Kings would sign him that he "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109716694847410673",
-          "author": "johnnichel",
-          "searchJob": "miami",
-          "text": "@tjayjones8 Loomis has never been good. I guess you can give him credit for Payton, but it's not like Sean had too many offers. Brees fell into his lap when Miami said no. He's had 1 good draft in 25 years is the def. of getting lucky."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2109712522865443278",
-          "author": "steamtrader",
-          "searchJob": "miami",
-          "text": "Total Marketing budget for GTA 6 is reportedly $150M. Rockstar offered Miami under 1M of that sum to post 'Welcome to Vice City' signs accross facilities including airport. The deal is in jeopardy, commissioners are OUTRAGED that the city w"
+          "reason": "multiple_resolved_schools",
+          "postId": "2109737195346985397",
+          "author": "ruud_steve9838",
+          "searchJob": "washington",
+          "text": "\"Medicare for All\" is enjoying a political resurgence. A KFF poll released last week found that two-thirds of Americans support a national health plan — the highest level since the organization began asking about the idea in 2017. But enthu"
         }
       ]
     },
@@ -265,18 +437,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "buffalo: SearchTimeline response missing — bot-check interstitial did not clear: x.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 18,
-      "brandNewOffers": 0
+      "acceptedEvidence": 6,
+      "rejectedCandidates": 42,
+      "brandNewOffers": 6
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-12T19:58:12.895Z"
+    "status rebuilt locally from current store on 2026-10-12T20:14:06.822Z"
   ]
 }
