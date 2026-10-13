@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T08:58:26.061Z",
+  "generatedAt": "2026-10-13T09:13:37.152Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-13T08:58:25.771Z",
+    "at": "2026-10-13T09:13:36.800Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7790052777777777,
-    "p95Hours": 1.776296111111111,
-    "worstHours": 1.776296111111111
+    "medianHours": 0.7818011111111111,
+    "p95Hours": 1.7798291666666666,
+    "worstHours": 1.7798291666666666
   },
   "decisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 12,
+    "decided": 12,
     "complete": true
   },
   "pending": {
@@ -55,160 +55,125 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-13T08:58:25.770Z",
-      "got": 29,
-      "new": 17,
-      "lag": 0.03
+      "at": "2026-10-13T09:13:36.800Z",
+      "got": 16,
+      "new": 12,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-13T08:56:56.207Z",
+    "at": "2026-10-13T09:11:58.704Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 17,
-      "duplicate": 11,
-      "tooOld": 1,
+      "returned": 16,
+      "kept": 12,
+      "duplicate": 4,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
+      "accepted": 8,
       "rejected": 4,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 3
+        "no_offer_term": 1,
+        "no_fbs_school": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2109925182777253997",
+          "author": "policyseed",
+          "searchJob": "james-madison",
+          "text": "https://t.co/5gfTtC81vi"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2109912841461420309",
-          "author": "jobscholarhub",
-          "searchJob": "new-mexico",
-          "text": "🎓 2027 M.S. Graduate Assistantship at Eastern New Mexico University 🇺🇸 📍Location: USA 🇺🇸 📅Deadline: November 2, 2026 What the assistantship offers: 📌A graduate assistantship stipend of approximately $11,000 per 9-month academic year"
+          "postId": "2109934744238780627",
+          "author": "semioticpsyche",
+          "searchJob": "stanford",
+          "text": "@The_Discernible What do you think the class is about? A Stanford–Binet IQ test (SB-5) determined by IQ is 143 and my reading comprehension is in the 99% percentile. If I made a mistake, I'd like to analyze it. Please offer me your ideas."
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2109931292733182208",
-          "author": "tomclilog",
-          "searchJob": "class:2026",
-          "text": "https://t.co/ppmW9CgTq1"
+          "reason": "no_fbs_school",
+          "postId": "2109929340578443692",
+          "author": "charlotte158918",
+          "searchJob": "charlotte",
+          "text": "🏕️ An Easy Firestarter Hack Every Camper Should Know! Starting a campfire can be challenging when you're outdoors and need a simple solution. This cardboard firestarter trick offers a clever DIY idea for your camping kit. Watch how an ordi"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2109910266938843358",
-          "author": "web3_grinders_",
-          "searchJob": "class:2026",
-          "text": "https://t.co/paS9E9KDDB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109915632762339604",
-          "author": "microinteracti1",
-          "searchJob": "army",
-          "text": "https://t.co/g6a45ZKOPG"
+          "reason": "hard_negative",
+          "postId": "2109923036090487112",
+          "author": "ashfordtownwfc",
+          "searchJob": "charlotte",
+          "text": "🟠⚫ NEW PLAYER SPONSOR | PLG SPORTS COACHING We’re delighted to welcome PLG Sports Coaching to Ashford Town Women as a new player sponsor for the 2026/27 season! 🤝 PLG Sports Coaching are proudly supporting four of our First Team players: "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 8,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109918776531599628",
+          "author": "jayedwardswrnj",
+          "searchJob": "hawaii",
+          "text": "#RNJNEWS: Bad Ass Coffee of Hawaii to offer free coffee to people named Madison at its Morris County location https://t.co/ps0QkMzQxU"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109911231570255988",
+          "author": "kamehamehahi808",
+          "searchJob": "hawaii",
+          "text": "@KHONnews Thank your governor @GovJoshGreenMD for keeping the gasoline prices artificially high. He could easily reduce the taxes on gasoline just like Red states on the mainland, but he doesn’t want to offer his constituents any decency as"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109932656347779415",
+          "author": "lizpaddington",
+          "searchJob": "iowa",
+          "text": "@Be_Like_Dolly Me too Dolly - Josh Turek has so much to offer Iowa 👏 💪🩵"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109913195066593726",
+          "author": "kaitoxai",
+          "searchJob": "stanford",
+          "text": "Sam Altman invited Peter Thiel to Stanford to teach a lesson most entrepreneurs still ignore. His message? “Competition is for losers.” In his famous 2014 Stanford lecture, Thiel explained why the biggest businesses don’t win by fighting co"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109933658689954253",
+          "author": "marvkard",
+          "searchJob": "ucf",
+          "text": "@pinktastic615 UCF offered a condensed Chemistry class for EEs. I honestly did myself a disservice taking it and not a proper 2 semester sequence. I would actually enjoy taking Chem now, with no pressure."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109926317873598774",
+          "author": "petermoelius",
+          "searchJob": "buffalo",
+          "text": "@thealepalombo Buffalo and San Diego offer same quality of life?"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109924204468425145",
-          "author": "testingcatalog",
-          "searchJob": "class:2027",
-          "text": "DAILY AI BRIEF 🗞 — Oct 13 META 🔥: - Meta released Muse Wonder, its first frontier model, on the Meta Model API and in Muse Code at $4/$20 per million input/output tokens. - Muse Wonder Full, Meta's max-reasoning variant, is launching only"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2108818845460844904",
-          "author": "testingcatalog",
-          "searchJob": "class:2027",
-          "text": "DAILY AI BRIEF 🗞 — Oct 10 MICROSOFT 🔥: - Microsoft launched Microsoft-Decision-1 in Foundry, a fast decision-scoring model post-trained on Qwen3.5-9B, with OpenRouter support coming soon. GOOGLE 🔥: - The Gemini app now offers low, medium"
+          "postId": "2109920632993398939",
+          "author": "stockfarmmag",
+          "searchJob": "buffalo",
+          "text": "Get ready for an elite bull auction where every lot boasts exceptional genetics. Vlakte Bonsmara’s 17th bull auction: 16 October, Farm Doornpan. 65 bulls &amp; 350 female animals on offer. 400km free delivery. https://t.co/wdyEY6jZjv https:"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109917643386036346",
-          "author": "forrestpato7",
-          "searchJob": "alabama",
-          "text": "Trump has repeatedly offered practical, success-oriented life advice—especially on hard work, mindset, family, and perseverance—that many find useful. It’s not rarefied philosophy, but it’s explicit and repeated. Ask yourself and Grok: 2025"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109924651933577241",
-          "author": "azcentral",
-          "searchJob": "arizona",
-          "text": "Photos: Bullhead City is along the Colorado River in western Arizona and offers many water adventures to escape the hot Arizona sun. See historic photos that show life in the city nearly 50 years ago. https://t.co/BhPry2CgL2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109906893401391578",
-          "author": "azdevils95",
-          "searchJob": "arizona",
-          "text": "They're not going to. He's managing a venue out in a prime area for football. What do I mean? Arizona offers fans from the Midwest or back east the opportunity to escape the cold. Imagine, it's November or December, it's snowing, it's cold,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109930874145824789",
-          "author": "l1ifeanyi",
-          "searchJob": "arkansas-state",
-          "text": "@gaiuschibueze So after stealing most of their land, they offered them a state? It's just like the UN offering Igbo people a state without including every Igboland in Rivers, Edo, Delta etc, do you expect Igbo Nation to accept that?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109927603268211030",
-          "author": "bing_bong_banjo",
-          "searchJob": "arkansas-state",
-          "text": "Of course the second part of the Balfour declaration was honoured by Israel. Arab Citizens of Israel have full equal rights. B’Tselem and Haaretz are the last orgs we should listen to. They are both largely beholden to outside interests and"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109916564367540457",
-          "author": "hatzlakah1",
-          "searchJob": "arkansas-state",
-          "text": "@jexxa23 @AlexGandler It's amazing how Palestinians can continue to turn down the offer of a state and white western progressives will continue to treat them like children with no agency."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109915384237224337",
-          "author": "anne73447231035",
-          "searchJob": "arkansas-state",
-          "text": "Andrea endorses the destruction of Israel, replacement of a State which has no State religion, with an Islamist state. Who will offer gay Arabs/ trans asylum now in Middle East? HIAS Israel 2026 report “If I Had Wings, I Would Fly”: Palesti"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109928186700079370",
-          "author": "kesaridhwaj",
-          "searchJob": "army",
-          "text": "Congress and the End Game. - I'm not particularly worried about all the nonsense being created by Congress in the name of Vote Chori, SIR etc. - Simply because these are manufactured items which have no traction amongst the masses. - And if"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109927878729118074",
-          "author": "pkpundit",
-          "searchJob": "army",
-          "text": "@TheMuppetPastor At the beginning of the war Lee was offered the command of the Union army. He refused because he was a Virginian first, US citizen second. My state right or wrong. Jackson was similar. He didn't like slavery and financially"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109925224494043273",
-          "author": "pswmonty1992",
-          "searchJob": "army",
-          "text": "@ImAvdheshkumar Bhim army will offer Samman in a great manners"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109915496376062184",
-          "author": "xpress_24_7",
-          "searchJob": "army",
-          "text": "The U.S. Army faces a heavily contested, multi-domain battlefield and needs platforms that can operate from the tactical edge without unsustainable sustainment costs. General Atomics offers Mojave STOL for runway-independent, expeditionary "
+          "postId": "2109925174933922185",
+          "author": "charlottewelker",
+          "searchJob": "charlotte",
+          "text": "It’s hilarious how you get proven wrong over and over again. Cope and seethe. 😆 “Could the Discord statement by Tyler Robinson, “Hey guys, I have bad news for you all. It was me at UVU yesterday. I’m sorry for all of this. I’m surrendering"
         }
       ]
     },
@@ -223,11 +188,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-13T08:58:26.062Z"
+    "status rebuilt locally from current store on 2026-10-13T09:13:37.153Z"
   ]
 }
