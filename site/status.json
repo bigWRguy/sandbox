@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T02:58:47.498Z",
+  "generatedAt": "2026-10-13T03:12:05.666Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-13T02:58:47.032Z",
+    "at": "2026-10-13T03:12:05.341Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5355886111111111,
-    "p95Hours": 1.7844022222222222,
-    "worstHours": 2.0384544444444446
+    "medianHours": 0.7573016666666667,
+    "p95Hours": 2.006115277777778,
+    "worstHours": 2.0061155555555557
   },
   "decisionCoverage": {
-    "total": 42,
-    "decided": 42,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 81
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 2954,
     "incompleteOffers": 0
@@ -55,325 +55,74 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-13T02:58:47.032Z",
-      "got": 67,
-      "new": 42,
-      "lag": 0.07
+      "at": "2026-10-13T03:12:05.341Z",
+      "got": 12,
+      "new": 5,
+      "lag": 0.35
     }
   },
   "audit": {
-    "at": "2026-10-13T02:57:07.140Z",
+    "at": "2026-10-13T03:11:41.042Z",
     "mode": "live",
     "collection": {
-      "returned": 67,
-      "kept": 42,
-      "duplicate": 25,
-      "tooOld": 0,
+      "returned": 12,
+      "kept": 5,
+      "duplicate": 6,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
-      "rejected": 16,
+      "accepted": 4,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 10,
-        "no_offer_term": 4,
-        "hard_negative": 2
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2109839740056826137",
-          "author": "texasfanvy10",
-          "searchJob": "texas",
-          "text": "@LHFanBattle We will play a close game and maybe lose. Best I can offer you."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109837573916889174",
-          "author": "thebrockmoore",
-          "searchJob": "texas",
-          "text": "@TweetsbyCoachP Brock Moore 6'1 CG Top 5 in made 3s in Texas for 2028 Ranked prep hoops and GASO 3 current offers https://t.co/y4deN9l6NA"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2109713353350459818",
-          "author": "theghostofriel",
-          "searchJob": "texas",
-          "text": "Watch MAGA X invent a scandal about James Talarico in real time. For four days they teased it and built up to the big day. Paxton called him \"missing.\" Spencer Pratt's \"sources\" put him in a mental health facility. Then, at 1:05 pm, Nick So"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109552095942651998",
-          "author": "theghostofriel",
-          "searchJob": "texas",
-          "text": "How MAGA hallucinations became real I pay for the data behind these myself and it take a lot of time and effort to analyze and create these graphics. If you want more of them, SUPPORT LINKS ARE IN BIO At 1:05 p.m. on Oct 11, Nick Sortor pos"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109824773769355346",
-          "author": "yourpremiertra1",
-          "searchJob": "texas",
-          "text": "Globus: Holiday Magic in New York City - 2027! From $3,899* *prices per person, based on double occupancy for 1 December 2027 departure https://t.co/hkNQ0uBBRG 5 Days | Roundtrip from New York City Celebrate the most enchanting time of year"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2109824178916614308",
-          "author": "xbz25yeti",
-          "searchJob": "texas",
-          "text": "@HankDesmondPhD It's the other way around you lying fake bot. Talarico has accepted multiple debate invitations from local Texas stations, CNN, and offered to appear on Fox News with Bret Baier, while Paxton's campaign has declined or faile"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109838563588427867",
-          "author": "jnightr007",
-          "searchJob": "california",
-          "text": "@rajuvamsi007 I am on https://t.co/EHJT2s6GOw still nothing offered for me here in California"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2109837800975843637",
-          "author": "tromblybaseball",
-          "searchJob": "california",
-          "text": "After a strong summer, Ethan Smith has continued to elevate his game this fall. He made the commitment to travel from California to Arizona three weekends in a row to compete in the @AZFallClassic—and his work is paying off. Ethan recently "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109833974528807248",
-          "author": "carsonmcd",
-          "searchJob": "california",
-          "text": "@Charles95684721 @CarlPaulus Hey Mark in California aka @Charles95684721 (odd handle for a guy who ostensibly goes by Mark)…do you think the odds are above the 15% offered in prediction markets? Seems like a sweet chance to 6x your money if"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109821519157207393",
-          "author": "houbizjournal",
-          "searchJob": "houston",
-          "text": "The restaurant will offer a menu that combines traditional Malaysian fare with traditional American cuisine. https://t.co/9HrJWE5RHN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109834122466300142",
-          "author": "indianairforce",
-          "searchJob": "air-force",
-          "text": "@hindus47 @Drpooookie So why is she roaming around in crowded places, pretty well knowing she is pregnant ??? So her first stop 🛑 is a BJP Politician’s office and that politician offered her an “ X Ray “ ? to a pregnant woman ??? Which is "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109827893098357203",
-          "author": "icplegend1966",
-          "searchJob": "air-force",
-          "text": "🚨♾️🔥 $ICP — DELOITTE, KFC, MONEYGRAM AND 7 OTHERS NAMED BY RANSOMWARE GROUP! @EsselLeroy THE CYBERSECURITY THREAT IS GETTING BIGGER! The Gentlemen ransomware group has reportedly listed 10 new alleged victims on its dark-web leak site, ea"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109774384902574531",
-          "author": "dailydarkweb",
-          "searchJob": "air-force",
-          "text": "🚨 THE GENTLEMEN RANSOMWARE GROUP LISTS 10 NEW VICTIMS, INCLUDING DELOITTE, KFC AND MONEYGRAM The Gentlemen ransomware group has added a new batch of alleged victims to its leak site. Each listing carries a countdown before data is due to b"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109812337486221811",
-          "author": "airforcepam",
-          "searchJob": "air-force",
-          "text": "@WatsonSpeaking @TLM_JD Vote BLUE NO MATTER WHAT! That Black elderly woman or any elderly woman losing their home from higher property taxes just needs to speak up. Nearly 40 states &amp; the District of Columbia offer senior-exemptions, fr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109821231809859991",
-          "author": "dinidu",
-          "searchJob": "navy",
-          "text": "https://t.co/hlnQ0EvQ5Q"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109826559855022367",
-          "author": "mattreynolds615",
-          "searchJob": "nevada",
-          "text": "Your Dad didn’t hit so hot in his interview here. I found the interview you're describing. It's Errol Musk speaking on the Wide Awake Podcast in February 2025, and the sequence is almost exactly as you described. He calls Elon a bad father,"
+          "postId": "2109839308760777081",
+          "author": "thedanlorenz",
+          "searchJob": "miami",
+          "text": "Gotta love a franchise with the balls to show you the good, bad and ugly in their FDD. https://t.co/p2IxxZlPj1"
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 24,
+      "accepted": 0,
+      "rejected": 4,
       "reasons": {
-        "author_not_recruit:different sport": 2,
-        "multiple_resolved_schools": 3,
-        "bare_mention_requires_llm": 16,
-        "reporter_missing_player_name": 1,
-        "reporter_missing_class_year": 1,
-        "player_missing_class_year": 1
+        "bare_mention_requires_llm": 3,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2109840119901614408",
-          "author": "maxmoody24",
-          "searchJob": "texas",
-          "text": "After a great conversation with Coach Davis and Coach Sharr I am blessed to receive and offer from Texas A&amp;M Corpus Christi! #blessed #agtg✝️ @Texasimpact413 @CoachToine_24 @SOC_boysbball @zaybooker54 https://t.co/hq8gpyvsYB"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109835893922033753",
-          "author": "toby_lux",
-          "searchJob": "texas",
-          "text": "KJ Herndon @herndonnnn just earned an Alabama offer! 6’5” 235 EDGE as a freshman already producing in the Trinity League. Offers Received • University of Alabama (newest) • USC • Oregon • UCLA • Texas A&M • Miami • Ole Miss • Texas Tech • S"
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109835835566903783",
-          "author": "grooganfox26",
-          "searchJob": "texas",
-          "text": "On a recent edition of “Battleground Texas” I offered my assessment that the fight for U.S. Senate will depend on the success/failure of GOP efforts to claw back Independents, who thus far are leaning @jamestalarico @FOX26Houston https://t."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109828533904347402",
-          "author": "ericinamericax",
-          "searchJob": "texas",
-          "text": "These MAGA propagandists and conspiracists humiliated themselves and should be held accountable. But they'll go on calling themselves \"journalists\" while breaking every ethical, moral and legal norm imaginable and complaining that any unfav"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109828503483101430",
-          "author": "ericinamericax",
-          "searchJob": "texas",
-          "text": "These MAGA propagandists and conspiracists humiliated themselves and should be held accountable. But they'll go on calling themselves \"journalists\" while breaking every ethical, moral and legal norm imaginable and complaining that any unfav"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109828460579533102",
-          "author": "ericinamericax",
-          "searchJob": "texas",
-          "text": "These MAGA propagandists and conspiracists humiliated themselves and should be held accountable. But they'll go on calling themselves \"journalists\" while breaking every ethical, moral and legal norm imaginable and complaining that any unfav"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109828427012612185",
-          "author": "narcissiticg",
-          "searchJob": "texas",
-          "text": "@thejosiahdewd The first compelling offer a texas oomf has made to make me consider flying down."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109822715565834699",
-          "author": "milehijules",
-          "searchJob": "texas",
-          "text": "@sunvomit He doesn't bed them. He uses artificial insemination so he can experiment and genetically modify the embryo, such as CRISPr. I heard a random Texas woman talk about her being trafficked as a young girl, and through the grapevine, "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109818623397163058",
-          "author": "rebornfatboy",
-          "searchJob": "texas",
-          "text": "BAN ISLAM NOW, NATIONWIDE! WOW 📷 Texas Cattle Rancher says Texas politicians are pushing to make ALL food in Texas schools Halal to accommodate Muslims “What's happening here in Texas, they're pushing to use state funds to have only halal "
+          "postId": "2109830800153960739",
+          "author": "terrycollins11",
+          "searchJob": "kansas",
+          "text": "@robbiehendricks FYI--many states offer 'free' nursing school in exchange for working in that state for some years after graduation. My daughter received Kansas Prime scholarship in exchange for agreement to work in KS for 3 years. No debt."
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2109815079214670008",
-          "author": "amrapalivictim",
-          "searchJob": "texas",
-          "text": "@dictatorsage @DifferentRanga @teekappa24 En vagitir pa.. When did Texas instruments hire 18-20 from bvb? It's hardly 4-5 full time offers.. Rest will join Robert bosch kind of companies.. If you want to talk about 20 lpa+ offers from bvb t"
+          "postId": "2109817041763062032",
+          "author": "maddoxweil",
+          "searchJob": "louisville",
+          "text": "Blessed to be offered by University of Louisville. @deionbranch84 @CoachNateUofL @Dre_Muhammad @TractionAp @AllenTrieu @SWiltfong_ @TomLoy247 @IndianaPreps @FwBruinsFB @gainseparation https://t.co/EaxYml6jKT"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109810630970753059",
-          "author": "bundy3113",
-          "searchJob": "texas",
-          "text": "@adamfrancisco_ My state has been flooded by the worst the world had to offer. They're trying to make Texas fall."
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2109827312174920113",
-          "author": "gregoryboylucas",
-          "searchJob": "california",
-          "text": "Why Mortgage and Real Estate Professionals Should Vote No on Proposition 37 Mortgage professionals, real estate agents, and brokers should vote no on Proposition 37. Its advertisements suggest that voting yes would allow buyers to purchase "
+          "postId": "2109832791387193359",
+          "author": "mrredlegs22",
+          "searchJob": "miami",
+          "text": "@bruce_weingart Interesting that JMU is paying less to get in than what Miami offered."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109815177533104543",
-          "author": "sfchronicle",
-          "searchJob": "california",
-          "text": "New scientific research offers a particularly comprehensive look at the state of glaciers across the Lower 48, including those in the Sierra Nevada and on Mount Shasta. https://t.co/mRhAFLxvqd"
-        },
-        {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2109826517458882964",
-          "author": "phrecruitnews",
-          "searchJob": "cincinnati",
-          "text": "2029 Bellbrook (OH) F Julian Sam received an offer from Cincinnati #PhenomHoops @Coach_Rick57 @colbylewis20 @POBScout @JeffreyBendel_ @Phenom_Hoops @ty1ewis @UnderratedAthl_ @MasercolaMiles https://t.co/EuEDaWzwu6"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109838018102083993",
-          "author": "tfloss32",
-          "searchJob": "houston",
-          "text": "Waller '27 WR Glowin Mbobile (@GMbobile_11) brings in a Sam Houston State offer. #EatEmUpKats https://t.co/sD0ZazvASW https://t.co/l6bej5L2Bk 𝕏 @MarcusMendoza | @waller_football | @AthleticsWaller"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109827931866374477",
-          "author": "atifh",
-          "searchJob": "houston",
-          "text": "Mon 10/12 small/micro-cap theme: low-float momentum chaos. Thin floats + volume did the heavy lifting. $MNDR +257% no fresh catalyst, extreme volume vs tiny float $LNKS +138% pure momentum, no news $YMAT +125% Houston drone-frame facility P"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2109825686093369771",
-          "author": "djcrowe0",
-          "searchJob": "houston",
-          "text": "Blessed and grateful to receive a offer from the University of Sam Houston @CoachMooring @Coach_JL51 @coachtylercurts @CoachJWebb__ @chrisjammar https://t.co/bR4guG7EZa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109818409282072997",
-          "author": "tfloss32",
-          "searchJob": "houston",
-          "text": "Austin Hyde Park '27 WR Houston Shaw (@houston_shaw5) claims a Bucknell offer. #rayBucknell https://t.co/R5QQrJEW0K 𝕏 @RossRoby1 | @HP_ThePark"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109837513359581258",
-          "author": "realhonestash",
-          "searchJob": "navy",
-          "text": "Photos and evidence •Claimed he took HD, zoomed photos of vehicles, license plates, drones, and people at Fort Huachuca. •Later said phones were left in a backpack inside the building so no recording of the group was possible. •Then said ph"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109834447151337504",
-          "author": "thomhimes",
-          "searchJob": "navy",
-          "text": "Sean Strickland (@SStricklandMMA) spent weeks bashing American veterans. Tonight he told me his buddies collect disability without ever doing a tour, and he \"supports\" them because \"f*** this government.\" I'm a Navy vet and former House VA "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109815440742502629",
-          "author": "big_poppa61",
-          "searchJob": "navy",
-          "text": "@deeprickings @ingridhookem18 The United States Naval Academy does not offer separate athletic scholarships for football players. Instead, every student at the Naval Academy receives a 100% full government-funded scholarship that covers ful"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109817947896033722",
-          "author": "tfloss32",
-          "searchJob": "missouri",
-          "text": "'29 WR Jashaud Sims (@Jashaudsims11) out of Denison collects a Missouri offer. #MIZ https://t.co/K1CeOkZrDL 𝕏 @CoachBrianLilly | @DenisonFB"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109839085548491225",
-          "author": "tintin049",
-          "searchJob": "usc",
-          "text": "@BBelefski @scottjackson175 There is no house to offer. You are in the west coast 1500 miles from you. You don’t think they are hearing about Stanford, usc, ucla’s horror stories."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2109826784535408658",
-          "author": "kmillerc21",
-          "searchJob": "usc",
-          "text": "@Re2pectsport Haha! ND came crawling back to USC playing on USC's terms. ND could have kept the rivalry going without the 5 year interruption had they agreed to the new terms last year. ND has no clout when it comes to scheduling. IU has an"
+          "postId": "2109823352625897758",
+          "author": "davisdecory",
+          "searchJob": "miami",
+          "text": "The Streets Are Talking: 🚨🔥 THIS IS WHY WE NEED TO VOTE RECYCLED LEADERSHIP OUT OF OFFICE IN MIAMI-DADE COUNTY! 🔥🚨 💥 THEY SAY I CRITICIZE THE PROBLEMS BUT DON’T OFFER SOLUTIONS. WELL, GUESS WHAT?! TODAY, I’M GIVING YOU BOTH THE PROBLEM"
         }
       ]
     },
@@ -381,18 +130,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 1,
+      "requests": 6,
+      "errors": [
+        "nc-state: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 24,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 4,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-13T02:58:47.499Z"
+    "status rebuilt locally from current store on 2026-10-13T03:12:05.667Z"
   ]
 }
