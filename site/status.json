@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T10:13:20.445Z",
+  "generatedAt": "2026-10-13T10:28:23.361Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-13T10:13:20.042Z",
+    "at": "2026-10-13T10:28:22.959Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7740227777777777,
-    "p95Hours": 1.273395,
-    "worstHours": 1.52801
+    "medianHours": 0.7789061111111111,
+    "p95Hours": 1.2735097222222223,
+    "worstHours": 1.77882
   },
   "decisionCoverage": {
-    "total": 32,
-    "decided": 32,
+    "total": 43,
+    "decided": 43,
     "complete": true
   },
   "pending": {
@@ -55,266 +55,336 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-13T10:13:20.041Z",
-      "got": 39,
-      "new": 32,
-      "lag": 0.03
+      "at": "2026-10-13T10:28:22.959Z",
+      "got": 53,
+      "new": 43,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-13T10:11:45.162Z",
+    "at": "2026-10-13T10:26:46.304Z",
     "mode": "live",
     "collection": {
-      "returned": 39,
-      "kept": 32,
-      "duplicate": 7,
-      "tooOld": 0,
+      "returned": 53,
+      "kept": 43,
+      "duplicate": 9,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 24,
+      "accepted": 25,
+      "rejected": 18,
       "reasons": {
-        "hard_negative": 4,
-        "no_fbs_school": 10,
-        "no_offer_term": 9,
-        "non_fbs_offer_target": 1
+        "no_fbs_school": 4,
+        "no_offer_term": 11,
+        "hard_negative": 3
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2109948569285247003",
-          "author": "newstimes",
-          "searchJob": "massachusetts",
-          "text": "Joel Budd, being recruited as a left tackle, has college football offers from Syracuse, Wake Forest, UConn and UMass. https://t.co/581zet2YXL"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2109939770730127442",
-          "author": "nhregister",
-          "searchJob": "massachusetts",
-          "text": "Joel Budd, being recruited as a left tackle, has college football offers from Syracuse, Wake Forest, UConn and UMass. https://t.co/r9Obl7bnTB"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2109941834151764021",
-          "author": "virtualibrarian",
-          "searchJob": "michigan",
-          "text": "@uncvoss Get enrolled in your health system's charity care program. In Michigan, MSupport will discount services to whatever insurance doesn't pay and may be an option for even the uninsured. Trinity Health offers a discount. Qualify for Me"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109949507324817465",
-          "author": "viora_tech_ai",
-          "searchJob": "texas-tech",
-          "text": "He paid $8,000. Three jewelers offered $1,250. He lost $6,750 on a product the industry told him was precious. The diamond wasn’t fake. The certification was real. The stone was genuine. The price was the lie. Diamonds are not rare. De Beer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109949483375280236",
-          "author": "viora_tech_ai",
-          "searchJob": "texas-tech",
-          "text": "He said this is the math the industry needs you to never do — because nobody buys an $8,000 product that’s worth $1,250 the moment they own it. Unless they don’t know. “The retail markup on diamonds at traditional jewelry stores is 50–200% "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109949469978738941",
-          "author": "viora_tech_ai",
-          "searchJob": "texas-tech",
-          "text": "A guy tried to sell his $8,000 diamond ring. Three jewelers. Three offers. $900. $1,100. $1,250. He paid $8,000. The best offer was $1,250. He lost $6,750 the moment he walked out of the store with it. Not because the diamond was fake. Not "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109949264281436638",
-          "author": "techoffer_rikei",
-          "searchJob": "texas-tech",
-          "text": "志望動機「貴社の技術力に魅力を感じた」だけでは、採用担当者には響きません…！ 志望動機に説得力を出すカギは、「なぜ？」を重ねて【企業×自分の接点】を伝えることです。 https://t.co/AS19ZWqzfT"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2109948742036316645",
-          "author": "euinsingapore",
-          "searchJob": "texas-tech",
-          "text": "Building connections for a more resilient and secure digital future. The EU networking at @GovWare 2026 opening reception on now brings together European cybersecurity companies, partners and key stakeholders from Singapore and across the r"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109948581126037662",
-          "author": "indiatvnews",
-          "searchJob": "texas-tech",
-          "text": "Vivo V80 और Vivo X Fold 6 की भारत में सेल शुरू, मिल रहा स्पेशल ऑफर https://t.co/idPZlQjh2q"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109947459502064058",
-          "author": "harshitkharsh",
-          "searchJob": "texas-tech",
-          "text": "Vivo V80 और Vivo X Fold 6 की भारत में सेल शुरू, मिल रहा स्पेशल ऑफर https://t.co/wIlmHUKVrd"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109947159118569939",
-          "author": "kiara_tech_ai",
-          "searchJob": "texas-tech",
-          "text": "6/ Check Your Wi-Fi Password Sharing When another Apple device nearby wants to join your Wi-Fi, your iPhone can offer to share the password. Only approve the request when you recognize the person and device. Never accept unexpected sharing "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109947108300390700",
+          "postId": "2109939714174456301",
           "author": "technewsonweb",
           "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order ] PE270K G0smiiphuzx Acer ProDesigner 4K QD-OLED Creator Monitor 195133364003 [ad] https://t.co/eBU316DgPD - priced at $649.99. The Acer ProDesigner Monitor for Creators & Designers (PE270K G0smiiphuzx) features a 26.5"
+          "text": "[ Amazon US Pre-order ] LS24HG324ENXZA | Samsung S24HG324EN Samsung 24 Inch Essential Gaming Monitor G3 198957356735 [ad] https://t.co/pzweUw6N56 - priced at $159.99. The Samsung 24\" Essential Monitor G3 (G32H) (LS24HG324ENXZA) features an "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2109946486645535213",
-          "author": "zitaplus",
+          "postId": "2109938696535621683",
+          "author": "ndtv",
           "searchJob": "texas-tech",
-          "text": "This week’s Financial Lens covers AI-driven earnings, rising oil prices, inflation data, key technical levels, and economic events shaping global markets in the week ahead. 📈 #ZitaPlus #FinancialLens https://t.co/ER3jlzVVGd"
+          "text": "Nandan Nilekani, Chairperson of the High-Powered Task Force (HPTF) on Examination Reforms, wants tech to plug the exam paper leak problem. Here's all you need to know about his three fixes and the date the report lands. Read more: https://t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2109945375629234376",
-          "author": "dadovanpeteghem",
+          "postId": "2109760821026841008",
+          "author": "palantirtech",
           "searchJob": "texas-tech",
-          "text": "4 modes of Customer Experience in the age of AI https://t.co/NGniCrvNqc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109945358927196660",
-          "author": "remotetech__",
-          "searchJob": "texas-tech",
-          "text": "Aspiring VAs, here’s your opportunity! Get 10% OFF our 6 WEEKS VA MASTERY PROGRAM for just ₦31,500 instead of ₦35,000. Training officially starts October 24th! Offer ends October 15th. Ready to build practical VA skills? Send us a DM to reg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2109943379069149244",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order ] PE320QK G0smiiphuzx Acer ProDesigner 31.5 Inch 4K QD-OLED Creator Monitor 195133360456 [ad] https://t.co/6DXr3Fjxsg - priced at $999.99. The Acer ProDesigner Monitor for Creators & Designers (PE320QK G0smiiphuzx) fea"
+          "text": "\"As soon as something is accessible to everyone, if anybody can do it, if any model can do it—it stops being valuable” - Louis Robson Palantir CEO Alex Karp sits down with Louis Robson, the lead behind Palantir Sovereign, to examine why ins"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2109943236739449085",
-          "author": "juliensalinas",
+          "postId": "2109903353010348382",
+          "author": "keivoties1",
           "searchJob": "texas-tech",
-          "text": "https://t.co/2IRnyNLGbN"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109942591554994534",
-          "author": "ndtveducation",
-          "searchJob": "texas-tech",
-          "text": "Nandan Nilekani Suggests Scrapping Traditional Exam Papers To Curb Leak https://t.co/wIXFZysYOK #NandanNilekani #PaperLeakIssue #NTAExamReform"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109941046377353386",
-          "author": "localboostapp",
-          "searchJob": "texas-tech",
-          "text": "Guarding Your Service Radius: When someone five miles away searches for your trade, your name ought to stand out like a bright porch light cutting through dense mountain fog. We walk through how to keep outside brokers from poaching your ho"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2109940398412194008",
-          "author": "mashableindia",
-          "searchJob": "texas-tech",
-          "text": "Virat Kohli is on LinkedIn now! Here's what the cricketer wants to build beyond cricket. #ViratKohli https://t.co/rpLMQwh0iu"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2109950160033787983",
-          "author": "clark_kent10935",
-          "searchJob": "notre-dame",
-          "text": "Good morning from Virginia. 🇺🇸 On the cool morning of October 13, 1792, a modest procession formed outside the Fountain Inn in Georgetown and set out across the rough ground that would become the federal city. The streets were little more"
+          "text": "Beautiful Morning, Keivo Fanmily!💜 Today’s mission: PITCH KEIVO TO BRANDS!. Quote with a brand you’d love him to work with and WHY he’s the perfect fit! Let’s get Keivo in the rooms he deserves! WORK WITH KEIVO KEIVO THE BRAND #Keivo #Vict"
         },
         {
           "reason": "hard_negative",
-          "postId": "2109947672715014623",
-          "author": "irishagreement",
-          "searchJob": "notre-dame",
-          "text": "Robbie Butler says NI Department of Health will have £500M budget overspend this year (to March) to cover committed pay rises, if it can find £300M savings. £500M is what UK has offered to top up NI’s budget so health would take it all leav"
+          "postId": "2109931000805376440",
+          "author": "arnoldkuepo",
+          "searchJob": "texas-tech",
+          "text": "The following graph shows that the number of chips produced in China is steadily increasing. Ever since the U.S. government banned NVIDIA from selling its latest-generation high-performance processors to China four years ago, accelerating d"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109930737009152370",
+          "author": "anushkaa1407",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/N6FLn4NUh3"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109900736817459712",
+          "author": "politicoeurope",
+          "searchJob": "texas-tech",
+          "text": "EU leaders want to strangle Vladimir Putin’s war economy, but Washington isn’t joining forces with them. Despite their frustration, they’re holding fire against Trump — hoping he’ll switch gears after the U.S. midterms. Brussels Playbook ha"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2109947322658587051",
-          "author": "irishmindfulnss",
-          "searchJob": "notre-dame",
-          "text": "Dia dhaoibh. Change is all around, as multiple timelines are offered to us daily. Remember we are part of a powerful Soul family &amp; we will get through this phase of Energy Evolution together. The Light has won. Love has won. We are One."
+          "postId": "2109929907677454805",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] Pro B350 Cummins BlueParrott Noise Cancelling Bluetooth Headset 810105354812 [ad] https://t.co/TVbkFPluE0 - priced at $189.99. The Cummins BlueParrott PRO B350 Edition Bluetooth Headset (Pro B350) features 98% noise "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2109932229371535544",
-          "author": "neenglandupdate",
-          "searchJob": "notre-dame",
-          "text": "🚨 Maro Itoje Speaks Out on St George’s Flag and English Identity England rugby captain Maro Itoje has shared his views on the use of the St George’s flag, saying national symbols should bring people together rather than be used to exclude "
+          "postId": "2109927868159365555",
+          "author": "marks_tech",
+          "searchJob": "texas-tech",
+          "text": "@SnazzyLabs I don’t need $5000, Quinn. A Nigerian prince offered me 3 million from my long lost family member. Check should arrive soon."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109931277805555818",
+          "author": "navyveteran214",
+          "searchJob": "navy",
+          "text": "Process - Web Design | ::: PHMC GPE LLC :::: Marketing &amp; Corp. Communication Agency https://t.co/SUKmO9HrmL"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109936611744186408",
+          "author": "wikibitofficial",
+          "searchJob": "nevada",
+          "text": "In our first 41 installments, we investigated a series of exchanges, from HashKey to Bithumb. For Episode 42, we’re taking a look at one of the most unusual cases yet: Bitstamp by Robinhood. https://t.co/yNVJGfOe7W"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109913848522424335",
+          "author": "theosintbr1",
+          "searchJob": "northwestern",
+          "text": "Turkey and Azerbaijan reject claims of rift, condemn online disinformation https://t.co/1ZV9IA08TN"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109943268733522110",
+          "author": "the1master4u",
+          "searchJob": "arizona",
+          "text": "https://t.co/rgtQIhO4Jh"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109945433963348035",
+          "author": "alameen___abba",
+          "searchJob": "arkansas-state",
+          "text": "Shinkafi thanks Zamfara residents for massive Welcome, says ADC poised for victory The African Democratic Congress governorship candidate in Zamfara State, Bilyaminu Yusuf Shinkafi, has expressed appreciation to the people of the state for "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2109944820126871941",
+          "author": "abdul_mj_",
+          "searchJob": "arkansas-state",
+          "text": "Shinkafi thanks Zamfara residents for massive Welcome, says ADC poised for victory The African Democratic Congress governorship candidate in Zamfara State, Bilyaminu Yusuf Shinkafi, has expressed appreciation to the people of the state for "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109905269425586635",
+          "author": "janegerson",
+          "searchJob": "arkansas-state",
+          "text": "@K4rmaRules @M_B_Levin It was NEVER a single Palestinian state. The region was under Ottoman rule for centuries. Then under the British mandate after 1WW when the Ottoman empire fell. Jews lived there for thousands of years. Your brain is s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2109950695155601470",
+          "author": "hamisiwick",
+          "searchJob": "army",
+          "text": "@w_bravel Estevao is a world class attacker but he can't take the defensive responsibility Pedro Neto offers as a wingback. His prefered role is where Palmer plays. Would you rather bench Palmer?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109946466886201667",
+          "author": "tickeron",
+          "searchJob": "army",
+          "text": "$PLTR https://t.co/JrfxDMtiPY"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 25,
       "reasons": {
-        "bare_mention_requires_llm": 4,
-        "school_not_resolved_confidently": 4
+        "school_not_resolved_confidently": 9,
+        "bare_mention_requires_llm": 13,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109940400819749290",
-          "author": "anthillsview",
-          "searchJob": "michigan",
-          "text": "@barrycunningham The noise and lack of influence that Keyan liar offers isn't going to help the Michigan terrorist win Fingers crossed it actually costs him votes !!"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109946037960089981",
-          "author": "technewsonweb",
+          "postId": "2109937309877522674",
+          "author": "paul__walsh",
           "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order ] M07541-KAMR Drakong Attack on Titan EVA Carrying Case, Red 810007716220 [ad] https://t.co/xyrIj0lCHg - priced at $19.99. The Drakong Attack on Titan EVA Case for Nintendo Switch 2 & ROG Ally (M07541-KAMR) features of"
+          "text": "This is precisely why I don’t believe Palantir offers anything technically that a competent engineering team couldn’t build repeatedly - thanks to today’s models. Palantir’s biggest competitive advantage is political power, which gives it a"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109940670156738725",
-          "author": "zabihullahatal",
+          "postId": "2109936944398659745",
+          "author": "war3w01f007",
           "searchJob": "texas-tech",
-          "text": "Cisco offers free online courses to help you build in-demand tech skills. From cybersecurity and Python programming to networking, artificial intelligence, and data science, you can learn directly through Cisco Networking Academy. Here are "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109948825846661510",
-          "author": "irish_news",
-          "searchJob": "notre-dame",
-          "text": "Given Stormont’s inability to deal effectively with the urgent pressures on public services today, it is perhaps optimistic to expect it to adequately prepare for the challenges of decades to come. But the implications of an ageing populati"
+          "text": "@jarettlewis @MrWrightWays Respectfully, you’re not in or planning to get into the tech world right? If so, I’d like to push an offer that you might not be able to resist.…. Find another hobby! Because that was some damn stupid advice. Stay"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109941479212986473",
-          "author": "fdelatg",
-          "searchJob": "notre-dame",
-          "text": "When cultures meet across time and distance, we discover that we share the same heartbeat. The Embassies of Mexico and Ireland in Indonesia are joining to present an extraordinary event: a celebration weaving together our ancestral traditio"
+          "postId": "2109934942746505327",
+          "author": "faithlizzyy",
+          "searchJob": "texas-tech",
+          "text": "@Maltina Looking for a creator who brings something truly unique? @keivo_oi background as a tech-savvy visual artist and fashion creator offers the exact innovative storytelling Maltina needs. He also has the FanBase ready to patronize! Let"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109935984720871750",
-          "author": "trexxl",
-          "searchJob": "notre-dame",
-          "text": "@Bakerman5811 @TomOConWex The southern Irish ports would've offered no benefit while draining resources for their defence, requiring troops, AA guns and aircraft. And before you start another anti-Irish diatribe, I was born in Londonderry a"
+          "postId": "2109932402458202515",
+          "author": "tetratechjobs",
+          "searchJob": "texas-tech",
+          "text": "We want to make a difference with you! See what #TetraTechJobs we have to offer, and work with some of the brightest minds in the industry. https://t.co/RGmbQFu0if #TetraTechJobs"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109930721208881205",
+          "author": "ievending",
+          "searchJob": "texas-tech",
+          "text": "Vending machines offer more than just drinks and snacks. Modern solutions cater to everything from tech items to power banks. The demand for automated solutions is booming! #Vending #Automation #Business https://t.co/jPMukW2kXc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109936593372910057",
-          "author": "gametimect",
-          "searchJob": "uconn",
-          "text": "Connecticut football star Joel Budd went from 380 to 315 pounds and the offers followed: Mike Anthony https://t.co/yqCIn8jGCa #cthsfb"
+          "postId": "2109930381679960521",
+          "author": "mrskyai",
+          "searchJob": "texas-tech",
+          "text": "Ostris launches AI-Toolkit for LoRA model training Good Tuesday morning, tech enthusiasts! Are you ready to dive into the latest in AI content generation? Today’s news is all about a new tool from Ostris that promises to simplify your workf"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109930000853963044",
+          "author": "horoshiyrusski",
+          "searchJob": "texas-tech",
+          "text": "EU has no cards and no playbook. They’ve got nothing of value to offer to Trump or the American people. Putin, on the other hand, has mass volumes of vital energy resources to offer which would significantly boost the US economy and especia"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109929966896808306",
+          "author": "horoshiyrusski",
+          "searchJob": "texas-tech",
+          "text": "EU has no cards and no playbook. They’ve got nothing of value to offer to Trump or the American people. Putin, on the other hand, has mass volumes of vital energy resources to offer which would significantly boost the US economy and especia"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109928399124779403",
+          "author": "i_m_re",
+          "searchJob": "texas-tech",
+          "text": "I find the premise of this article a bit far-fetched. Currently Passkeys offer way more convenience for non-tech and tech users than anything else. They are interchangeable with a hardware key for whoever wants that control. The article rel"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2109927959939125367",
+          "author": "tomatomact17715",
+          "searchJob": "texas-tech",
+          "text": "@Peter__Bull 😂😂 \"big tech are bad, they don't offer guidance and sharing insights to juniors\" Utter woke nonsense"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109953501761511564",
+          "author": "clark_kent10935",
+          "searchJob": "navy",
+          "text": "Good morning from Virginia. 🇺🇸 On the morning of October 13, 1845, men across the Republic of Texas rode or walked to the nearest polling place and cast ballots that would end nine years of independence. The returns left almost no room fo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109936519142105202",
-          "author": "record_journal",
-          "searchJob": "uconn",
-          "text": "Connecticut football star Joel Budd went from 380 to 315 pounds and the offers followed: Mike Anthony https://t.co/h8GqwEbt9H"
+          "postId": "2109933424278474760",
+          "author": "kayakmorris",
+          "searchJob": "illinois",
+          "text": "Solo explorer or tandem team? Choosing your kayak is the first step to a perfect day on the Illinois River. Tandems test your rhythm, while singles offer total freedom. Which are you picking for your next adventure? Book your spot today! #K"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109937689533489417",
+          "author": "kingsaylee",
+          "searchJob": "minnesota",
+          "text": "Attending two weddings in between this time was the best that I have ever experienced, who knew Minnesota had so much to offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109950498119774317",
+          "author": "adil_bach",
+          "searchJob": "northwestern",
+          "text": "Just as Azerbaijan relies on Turkey, Turkey also relies on Azerbaijan to expand into northwestern Iran under the pretext of the ‚Kurdish insurgency‘. But what else could Turkey offer Azerbaijan if Russia were to move against Baku?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109944884220342384",
+          "author": "tracomiaf",
+          "searchJob": "arkansas-state",
+          "text": "#IndianAirForce participated in the #MysuruDasara Exhibition, by setting up a motivational stall. The exhibition was inaugurated by Honourable CM of Karnataka #ShriDKShivakumar on 11 October 2026. Various #aircraft models, IAF #GarudCommand"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109933323329937669",
+          "author": "janegerson",
+          "searchJob": "arkansas-state",
+          "text": "And by the way Sharon the Palestinian Arabs were offered a state of their own in 1947 for the first time in their history and turned it down."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109933175614984555",
+          "author": "carl01527",
+          "searchJob": "arkansas-state",
+          "text": "@Ford @MackTrucks @Jeep @GM @ChevyTrucks ok point made with contacts lets get into this cia...since 27 prove it fuck you read @carl01527 where have you been last three shifts Impeached trump on 10,10,10pm2026, down to one senator a state fi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109932208441962560",
+          "author": "carl01527",
+          "searchJob": "arkansas-state",
+          "text": "Impeached trump on 10,10,10pm2026, down to one senator a state firedall staff for senators congressmen supreme court shifted cabinet secretaries to senate rewrote rules of senate its secure desisned three new trikes for amputees and their s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109932013276778894",
+          "author": "shtaboporu",
+          "searchJob": "arkansas-state",
+          "text": "There is a fundamental problem with the emerging negotiating framework for Ukraine: it spends too much time discussing what Russia might receive, and not enough time confronting what Russia has already done. Russia started this war by invad"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109931699345739950",
+          "author": "fadunkjerbi",
+          "searchJob": "arkansas-state",
+          "text": "@EJoplix @CPGBML @Arsene329117 @bbcnickrobinson @grok Well, arab league did declare war on their behalf, the UN did offer statehood to palestinians, with later peace offers such as camp david... i dont remember jews declining a state after "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2109952836419166319",
+          "author": "allanimedoc",
+          "searchJob": "army",
+          "text": "Big Mom Was the Most Successful Yonko of All Time And It’s Not Just About Strength People love debating which Yonko was the strongest, but strength is only one part of being an Emperor. If we judge the Yonko by longevity, territorial contro"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109950821047951639",
+          "author": "thenewsdrill",
+          "searchJob": "army",
+          "text": "Big Boost to Atmanirbhar Bharat: 450 Nagastra-1R Drones Delivered 🇮🇳 Solar Defence and Aerospace Limited has completed the delivery of 450 Nagastra-1R loitering munitions to the Indian Army in a single batch the largest single-lot supply "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109945518151418276",
+          "author": "willjonestheman",
+          "searchJob": "army",
+          "text": "Hey here’s a fact I threw my broken door handle down at some cops feet that threatened me a victim of a crime preaching restraint and Lee-way indisgust and then I went and informed the state highway patrol to have their cars towed and why a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109944468749033702",
+          "author": "thegeo_sync",
+          "searchJob": "army",
+          "text": "India’s Solar Defence and Aerospace Limited (SDAL) has completed the delivery of 450 Nagastra 1R loitering munitions to the Indian Army in a single batch, marking its largest supply of these systems to the Army. The order was placed under e"
         }
       ]
     },
@@ -329,11 +399,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 25,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-13T10:13:20.446Z"
+    "status rebuilt locally from current store on 2026-10-13T10:28:23.362Z"
   ]
 }
