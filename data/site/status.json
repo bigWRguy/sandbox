@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T05:28:12.722Z",
+  "generatedAt": "2026-10-13T05:43:23.819Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-13T05:28:12.332Z",
+    "at": "2026-10-13T05:43:23.379Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7660158333333333,
-    "p95Hours": 1.4913741666666667,
-    "worstHours": 1.4913741666666667
+    "medianHours": 0.7776908333333333,
+    "p95Hours": 1.5276402777777778,
+    "worstHours": 1.5276402777777778
   },
   "decisionCoverage": {
-    "total": 22,
-    "decided": 22,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -55,194 +55,182 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-13T05:28:12.332Z",
-      "got": 39,
-      "new": 22,
-      "lag": 0.15
+      "at": "2026-10-13T05:43:23.378Z",
+      "got": 46,
+      "new": 20,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-10-13T05:26:38.945Z",
+    "at": "2026-10-13T05:41:52.454Z",
     "mode": "live",
     "collection": {
-      "returned": 39,
-      "kept": 22,
-      "duplicate": 17,
-      "tooOld": 0,
+      "returned": 46,
+      "kept": 20,
+      "duplicate": 24,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 2,
+      "accepted": 17,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 2
+        "hard_negative": 1,
+        "no_fbs_school": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2109854839396319633",
-          "author": "rkumar9844",
-          "searchJob": "army",
-          "text": "@adhdwonderwoman Cisco also offered free coding"
+          "reason": "hard_negative",
+          "postId": "2109868003768553491",
+          "author": "streetkedha",
+          "searchJob": "rice",
+          "text": "President Emmerson Mnangagwa’s leadership continues to demonstrate that Government commitments must go beyond words and be matched by tangible action that makes a difference in the lives of ordinary citizens. Following assurances that Gover"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2109871130286715008",
-          "author": "socialtrainers",
-          "searchJob": "illinois",
-          "text": "Tell your homie thanks for checking out the website from his trailer park in Illinois. He is a fraud. Now to your statement. The average home price is 500k in most big cities. $1-3M is mid market in SF, Vegas, NY. Even at $500k 6% is $30K. "
+          "postId": "2109865663028252832",
+          "author": "tgg_buffalo",
+          "searchJob": "buffalo",
+          "text": "Programmatic Direct advertising offers unique advantages for marketers looking to streamline their ad buying process. By eliminating the middleman, advertisers can gain better control over their inventory, improve targeting accuracy, and op"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109862857215254675",
+          "author": "sugar_t32",
+          "searchJob": "charlotte",
+          "text": "ถามจริง ว่ารักเขาจริงๆกันมั้ย ต่างฝ่ายต่างขุดเรื่อง ศลป ออกมาด่ามาแซะ ทำไมไม่ด่าตัวเองมั่งว่าสันดานเสีย เพราะสิ่งที่ตัวเองทำ หรือคิดว่าดีแล้ว?"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 20,
+      "rejected": 17,
       "reasons": {
-        "bare_mention_requires_llm": 18,
-        "multiple_resolved_schools": 1,
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 12,
         "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109875848035606793",
-          "author": "hudifletcher",
-          "searchJob": "arkansas-state",
-          "text": "Hello, I am Palestinian. 🇵🇸 And since honesty is rare in my politics, allow me to confess a few things. The UN offered me a state. Alongside Israel. Borders, independence, recognition. I said no. My leaders promised that the war would \"dr"
+          "reason": "multiple_resolved_schools",
+          "postId": "2109875231296827887",
+          "author": "vivianvossnet",
+          "searchJob": "marshall",
+          "text": "❯ Upgrades: Your Edited Config Survives the Upgrade on FreeBSD Edit one line in a Debian config file, and the next update that ships a new version of it is held back by unattended-upgrades, security fixes included, until somebody answers a "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109875686605234485",
-          "author": "hudifletcher",
-          "searchJob": "arkansas-state",
-          "text": "Hello, I am Palestinian. 🇵🇸 And since honesty is rare in my politics, allow me to confess a few things. The UN offered me a state. Alongside Israel. Borders, independence, recognition. I said no. My leaders promised that the war would \"dr"
+          "postId": "2109876900562887059",
+          "author": "godistheword1",
+          "searchJob": "ohio",
+          "text": "@vimal4USA Why are you making us do this to you. You could have offered a heritage american. Ohio has plenty. You gave us an anchor baby that hates american culture. And now we Have to elect covid queen."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109874386081546691",
-          "author": "hudifletcher",
-          "searchJob": "arkansas-state",
-          "text": "Hello, I am Palestinian. 🇵🇸 And since honesty is rare in my politics, allow me to confess a few things. The UN offered me a state. Alongside Israel. Borders, independence, recognition. I said no. My leaders promised that the war would \"dr"
+          "postId": "2109868360884470212",
+          "author": "stealthmole_int",
+          "searchJob": "ohio",
+          "text": "📷 One Telegram channel. A much wider digital network. 𝗕𝗹𝗼𝗼𝗱 𝗧𝗿𝗶𝗯𝗲 𝗢𝗵𝗶𝗼’s online activity offered more than a collection of posts. By following the digital traces left across platforms, the investigation uncovered connections "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109874321367683402",
-          "author": "hudifletcher",
-          "searchJob": "arkansas-state",
-          "text": "Hello, I am Palestinian. 🇵🇸 And since honesty is rare in my politics, allow me to confess a few things. The UN offered me a state. Alongside Israel. Borders, independence, recognition. I said no. My leaders promised that the war would \"dr"
+          "postId": "2109863607643353449",
+          "author": "godistheword1",
+          "searchJob": "ohio",
+          "text": "@BeezlyKre @VivekGRamaswamy @TPUSA @tpusastudents @OhioYRs @ohiogop Why are you making us do this to you. You could have offered a heritage american. Ohio has plenty. You gave us an anchor baby that hates american culture. And now we Have t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109873603449680262",
-          "author": "hudifletcher",
-          "searchJob": "arkansas-state",
-          "text": "Hello, I am Palestinian. 🇵🇸 And since honesty is rare in my politics, allow me to confess a few things. The UN offered me a state. Alongside Israel. Borders, independence, recognition. I said no. My leaders promised that the war would \"dr"
+          "postId": "2109880323081150488",
+          "author": "irdafrica_kenya",
+          "searchJob": "rice",
+          "text": "@WilliamsRuto @CS_MoALD @mugaa_eric @jmueke @EphantusKim @DrRonohpaul @DavidNdii . ​Water buffaloes will not be the panacea for Kenya's animal feed deficit. A 600 kg live bufallo metabolically needs 2-3% of its weight daily, 15 to 18 kg of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2109869827099664663",
-          "author": "gymnosophia",
-          "searchJob": "arkansas-state",
-          "text": "WODEMAN A Romaunce in Three Actes THE JESTER VI Violanté climbed upon a chair and announced that he had a toast of his own. \"To the road!\" he cried. \"May it be straight, may it be broad, and may every man who has laboured upon it be able to"
+          "postId": "2109871075651924411",
+          "author": "paktexcouncil",
+          "searchJob": "rice",
+          "text": "🇵🇰 PTC | Morning News Update 📅 Tuesday, October 13, 2026 🌍 International & Politics • Iran to respond to the US position on its Hormuz proposal after completing its review. • A Dar-led committee to oversee KP affairs. • Government says "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109866892433166726",
+          "author": "greenlily55125",
+          "searchJob": "rice",
+          "text": "In the remote mountainous regions of southern China, there were Miao villages where I once lived and spent time with the children. Back then, I didn’t have a video camera, only a still camera. I took many photos of the children, but I never"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109863405330821178",
+          "author": "trueonx",
+          "searchJob": "rice",
+          "text": "THEY ARE NOW SELLING 3D-PRINTED SALMON IN AMERICAN GROCERY STORES, AND I THINK EVERYONE DESERVES TO KNOW EXACTLY WHAT THEY ARE EATING. On September 3, 2026, an Israeli biotechnology and food-technology company called Steakholder Foods offic"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2109866253443568066",
-          "author": "melfication",
-          "searchJob": "arkansas-state",
-          "text": "whose methodical, purposeful intentions find expression in different leadership dimensions. One was the sound of a state at ease; the other are the silence of women who finally feels safe and the one who is afraid to die after waiting for d"
+          "postId": "2109880661716910102",
+          "author": "mediamanoz",
+          "searchJob": "south-florida",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Crown Jewel and WWE Survivor Series Markets, Wrestling, Streami"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109862805004308832",
-          "author": "not_only11",
-          "searchJob": "arkansas-state",
-          "text": "@Haydar_Ayie2109 @SennAbdulkadir Go to sleep.. You have nothing to offer; you're reposting this video from yesterday. The mentality of a state is incomparable to that of a terrorist militia."
+          "reason": "multiple_resolved_schools",
+          "postId": "2109875897969115539",
+          "author": "mediamangroup",
+          "searchJob": "south-florida",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Crown Jewel and WWE Survivor Series Markets, Wrestling, Streami"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109859538002137279",
-          "author": "biomance",
-          "searchJob": "arkansas-state",
-          "text": "They “legally” stole land. Eminent domain is also legal but highly immoral and unethical. Hiding behind legality doesn’t hide the grotesque nature of stealing that land from Palestinians by foreign invaders. Palestinians were “offered” a st"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109859228819050919",
-          "author": "fvortsman",
-          "searchJob": "arkansas-state",
-          "text": "@grok validate and distinguish between fact and fiction. Provide clarity with respect to claims of stolen land, the UN partition plan that was passed but rejected by the Arabs now calling themselves the palestinians, the reason why Israel's"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109858677142495508",
-          "author": "themichaelgbell",
-          "searchJob": "arkansas-state",
-          "text": "7/ 2000: At Camp David the US floats a state on ~91% of the West Bank plus Gaza. Clinton's December plan: 94-96% plus swaps. Israel accepts it with reservations; Clinton said Arafat's amounted to a no. Some US aides argue Israel's offers ha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109852985148989828",
-          "author": "safiranand",
-          "searchJob": "arkansas-state",
-          "text": "ET talks of top 10 Indian co’s cap share hitting 9 year lows. Samir arora talks in detail on top cos failing to innovate in India. I’ve been very vocal on this for a long time. 1. Many cos in India need to understand innovation is not now a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109876560836653313",
-          "author": "jadedisney2",
-          "searchJob": "army",
-          "text": "Do you really need advanced logistics to out bomb African infrastructure. Jets can only be effective when they have good maintenance which africa alone would struggle to handle. Germany and Soviets would out produce anything africa offers. "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109876508974100921",
-          "author": "seehhowthisis33",
-          "searchJob": "army",
-          "text": "@FMarineCWO3Ret I went Army they saw my ASVAB score. &amp; said pick any job you want. They offered PA school or DLab in Monterey Bay, anything. AF said too old at 25 but then changed their mind after seeing scores &amp; gave me a waiver. I"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109866589965230513",
-          "author": "gio_tbilisi",
-          "searchJob": "army",
-          "text": "Dude did you played it? You don't even meed to shoot single bullet in boss fight, boss will die by himself you just have to stand there & watch... You're constantly helped by asthmatic, single eye person, apparently female, how is she best "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109859390023200926",
-          "author": "moawiam50863610",
-          "searchJob": "army",
-          "text": "X thread: Jabal al-Uqaydat, in Sudan’s Northern Valley near the northeastern border: Sudanese miners searching for gold to support their families were struck by Egyptian military aircraft. They were civilians, not an armed force. Survivors "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109864112490524827",
-          "author": "leeshelton4",
-          "searchJob": "minnesota",
-          "text": "@GrageDustin Being an outspoken advocate for child murder should win over pro-lifers. Honestly, if this is the best Minnesota Republicans can offer, then the state really is lost."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109862616453832729",
-          "author": "go_on_bite_me",
-          "searchJob": "minnesota",
-          "text": "@DonAtkinsonNFL The ship has sailed on Jauan Jennings. 49ers offered him a multi-year extension worth $17 million per year, and he turned it down just to sign for 1 year at $8 million with Minnesota. He's getting what he deserves."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2109870210140295457",
-          "author": "cpenny81",
-          "searchJob": "oklahoma",
-          "text": "Well.....here we go!!! Before I get the \"OMG I CAN'T BELIEVE YOU WOULD GO TO AN OKLAHOMA SCHOOL, YOU TRAITOROUS BASTARD\". It's a Ph.D. program and those are VERY specialized with what schools have them. I'd LOVE to go to Texas for my Ph.D. "
+          "reason": "multiple_resolved_schools",
+          "postId": "2109872716371378516",
+          "author": "mediamanint",
+          "searchJob": "south-florida",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Crown Jewel and WWE Survivor Series Markets, Wrestling, Streami"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2109856966478565858",
-          "author": "hullvikings",
-          "searchJob": "james-madison",
-          "text": "Apart from Greer, who did a magnificent job for the Dukes in the absence of Kroeze and reserve Mike Lohmann, Halifax had little to offer once Vikings had got on top."
+          "postId": "2109878734920589625",
+          "author": "icplegend1966",
+          "searchJob": "oregon",
+          "text": "🚨🇯🇵♾️🔥 $ICP — JAPAN’S CLOUD INFRASTRUCTURE HIT BY RANSOMWARE! 495 ORGANISATIONS AFFECTED! FOUR CLOUD ZONES BADLY DAMAGED — CUSTOMERS WARNED THEIR DATA MAY NOT BE RECOVERABLE! AND GOVERNMENTS STILL NEED TO ASK WHY ALTERNATIVE DIGITAL INF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109876154002002189",
+          "author": "debbien97142",
+          "searchJob": "oregon",
+          "text": "Well make sure everyone requests baseline testing done then so they have something to refer back to in case of an adverse reaction How can we get baseline testing in as being offered to families PRIOR to all vaccines? I have spoken at the O"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109870017194180850",
+          "author": "cccdinstructor",
+          "searchJob": "colorado",
+          "text": "October Special: 10% OFF ALL Concealed Carry Class Tickets! Looking for a Colorado CHP class in Denver? Save 10% on new and renewal concealed carry permit training throughout October! Offer ends October 31. https://t.co/DrfAsKC6Iu #Colorado"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109880308912750848",
+          "author": "fsuniverse_",
+          "searchJob": "syracuse",
+          "text": "🍢 FSU SCOUTING WATCH 2030 WR Amari Roberts (5’11”, 170 lbs) 📍 MICDS (MO) | Class 5 - ⭐️ Unranked (Rivals) - Offers: Syracuse, Texas State, Sac State 2026 (6 games): 1,026 AP YDS, 10 TOTAL TD Explosive YAC threat with great burst, agility "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109872350636179808",
+          "author": "donedealcardco",
+          "searchJob": "buffalo",
+          "text": "Check out Keon Coleman Lot (6) Buffalo Bills https://t.co/h45o4Kth8B #eBay via @eBay $6 🛳️ Free shipping! 🤝 Shoot us an offer!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2109873934099230845",
+          "author": "rozanavoyan",
+          "searchJob": "charlotte",
+          "text": "Yeah please, everyone, STOP! 🤍 Enough with the accusations, and the constant attempts to portray one as the villain and the other as the victim. Why is it that every time something happens, you feel the need to blame someone? Neither Engfa"
         }
       ]
     },
@@ -257,11 +245,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 20,
+      "rejectedCandidates": 17,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-13T05:28:12.723Z"
+    "status rebuilt locally from current store on 2026-10-13T05:43:23.821Z"
   ]
 }
