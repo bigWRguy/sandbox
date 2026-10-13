@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T20:58:27.245Z",
+  "generatedAt": "2026-10-13T21:11:40.298Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-13T20:58:26.919Z",
+    "at": "2026-10-13T21:11:40.008Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 6,
+    "requests": 7,
+    "fullSweepCycles": 27
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "texas-tech",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7750066666666666,
-    "p95Hours": 1.6692188888888888,
-    "worstHours": 2.0281652777777777
+    "medianHours": 0.9952991666666666,
+    "p95Hours": 1.8895113888888888,
+    "worstHours": 2.248457777777778
   },
   "decisionCoverage": {
-    "total": 69,
-    "decided": 69,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -47,7 +52,7 @@
   "profileResolution": {
     "cached": 82
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 2971,
     "incompleteOffers": 0
@@ -55,380 +60,116 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-13T20:58:26.918Z",
-      "got": 131,
-      "new": 69,
-      "lag": 0.04
+      "at": "2026-10-13T21:11:40.007Z",
+      "got": 27,
+      "new": 11,
+      "lag": 1.11
     }
   },
   "audit": {
-    "at": "2026-10-13T20:56:49.035Z",
+    "at": "2026-10-13T21:11:12.193Z",
     "mode": "live",
     "collection": {
-      "returned": 131,
-      "kept": 69,
-      "duplicate": 60,
-      "tooOld": 2,
+      "returned": 27,
+      "kept": 11,
+      "duplicate": 16,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 44,
-      "rejected": 25,
+      "accepted": 8,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 12,
-        "hard_negative": 3,
-        "no_offer_term": 8,
-        "unclassified_offer_text": 1,
-        "non_fbs_offer_target": 1
+        "no_fbs_school": 3
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2110106842533970355",
-          "author": "peoplescompany",
-          "searchJob": "iowa",
-          "text": "LAND AVAILABLE | 230 Acres M/L in Jackson County, IA Peoples Company is proud to present 230.00 acres m/l located near Zwingle, Iowa, in Jackson County. This diverse farm offers a strong combination of productive cropland, quality pasture, "
+          "postId": "2110099472302887245",
+          "author": "kentuckysupreme",
+          "searchJob": "kentucky",
+          "text": "2027 @johnharrismoore earns an offer from @CoachDoss20 and @UTFMBB All the hard work, dedication and sacrifice paying off!🟢🟡🟢🟡 #supremefamily @DayneBordelon_ @DustinRoberts8 @GregOverstreet5 @StangsB_Ball @SEHoopsReport @mosesk225 @Next"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2110105910722830768",
-          "author": "kiwaradio",
-          "searchJob": "iowa",
-          "text": "Iowa College Students Need to Be Wary of Shady Offers https://t.co/PIR1mrp2Jh https://t.co/tNgjGtFIoK"
+          "postId": "2110088743369781593",
+          "author": "agdailymedia",
+          "searchJob": "kentucky",
+          "text": "AgRevolution is growing in Kentucky horse country! Its new Lexington facility offers Fendt tractors, hay equipment, parts and mobile repairs for equine, livestock and farming operations - helping producers spend less time waiting on repairs"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2110099559301198124",
-          "author": "riggins7779",
-          "searchJob": "ole-miss",
-          "text": "@raftersranch17 @GeorgeGorn I would be, but I got a job offer in Mississippi that I couldn't turn down. Just a bonus that I get to do ten days of paramotor training in Corpus on my way there! Wish me luck in the himidity!"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110091661749690481",
-          "author": "xaigorgo",
-          "searchJob": "ole-miss",
-          "text": "How the AI buildout is being financed, and how it works. Long read, but worth it if you want to understand what we are facing with AI. The world created $6.1 trillion of new money in 2024. Total money supply is now $151.5 trillion. In 2021 "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110107570266570982",
-          "author": "qb_brycejohnson",
-          "searchJob": "arizona",
-          "text": "Stopping by (ACU) @ACU_AZ Arizona Christian University the 1st school that offered me and it’s always love a great vibes everytime! Thanks for being a great chaperone @KelleyBeMoore https://t.co/HLaKpxeOmD"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110096285193687090",
-          "author": "itsjohnapolinar",
-          "searchJob": "arizona",
-          "text": "https://t.co/RU6Yzh1p64"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110094471073247341",
-          "author": "kansannews",
-          "searchJob": "kansas",
-          "text": "The University of Kansas Annual Security and Fire Safety Report provides students, faculty and staff with the number of rapes, domestic violence and stalking cases each year. The university also offers multiple resources for anyone who need"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110097934981411211",
-          "author": "canes2026champs",
-          "searchJob": "miami",
-          "text": "And Miami will be fine either way. That’s the thing. One decommitment doesn’t make or break us. He’s gotta do what’s best for him and his family. I’m sure he got a much larger NIL offer, and I can’t blame him if he takes it. How many of us "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110097550560931872",
-          "author": "loopingcloud",
-          "searchJob": "miami",
-          "text": "https://t.co/X3AvMvdpf7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110092533103526353",
-          "author": "realdakotad12",
-          "searchJob": "miami",
-          "text": "@JMUSportsFan @sstaedtler8787 40 million is insane to offer just to join the AAC where Miami of Ohio would get spanked in."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110110295964233786",
-          "author": "lidaosen",
-          "searchJob": "north-carolina",
-          "text": "The Indium Phosphide Bottleneck: Why Silicon Photonics Rescued Pluggable Optics—and Triggered a Global Laser Wafer Crisis Inside the 7-stage photonic supply chain, China's MOFCOM controls &amp; the 2.1x CW wafer yield salvation inside 1.6T "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110109523621167320",
-          "author": "wonderfullinc",
-          "searchJob": "texas-tech",
-          "text": "🎁 You Asked. We Listened! Quite a few friends reached out today asking: “If I buy DJI T100 batteries, can I get the protective case for free?” Our answer is YES! 🎉 To support safer battery handling and transportation for Canadian farmers "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110108729744208253",
-          "author": "dottechdomains",
-          "searchJob": "texas-tech",
-          "text": "5 startup funds accepting applications. Including .tech’s $1M equity-free fund. https://t.co/LQVztv7ZVF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110108117170090357",
-          "author": "usbank",
-          "searchJob": "texas-tech",
-          "text": "Hi Sam, thank you for taking a moment to reach out. We offer general banking assistance and support via this social media channel. If you need general assistance with our products or services, please send us a DM. For assistance with troubl"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110102813980152118",
-          "author": "harrychow_",
-          "searchJob": "texas-tech",
-          "text": "I landed in SF last Wednesday for Tech Week, running on 3 hours of sleep And the first thing I did was find a pitch event: @infragrid x @UseCorgi demo night I spent the flight editing our demo video, and a few hours later I was pitching @ge"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110102614411214988",
-          "author": "offerscout",
-          "searchJob": "texas-tech",
-          "text": "🚨 Data Eminence is hiring Software Engineer I! > India | Fully Remote > Contract > Entry-level | 0-2 years of experience Tech stack: JavaScript, TypeScript, Python, Java, React, Next.js, Node.js, REST APIs, SQL, MongoDB, Git & Docker. Work"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110101212083458122",
-          "author": "karthikeast",
-          "searchJob": "texas-tech",
-          "text": "SpaceXSI says Grok Bot saved it from hiring 200 people. I read every source I could find and tested it on my own bot. Here's what it does, where it saves money, where it breaks and 4 prompts you can copy. https://t.co/7Xm7GMQNUO"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2110100685740265981",
-          "author": "offerscout",
-          "searchJob": "texas-tech",
-          "text": "🚨 Onsurity is hiring Software Development Engineers! > Bengaluru | On-site > 6-month internship > Full-time SDE I opportunity based on performance Work on production features across healthcare, insurance, payments and fintech-related produ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110093852665344353",
-          "author": "patentlyapple",
-          "searchJob": "delaware",
-          "text": "https://t.co/7tvGwOltyo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110111783872541167",
-          "author": "marshallcsmith",
-          "searchJob": "marshall",
-          "text": "@gerovich Excellent. A generous offer to benefit shareholders."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110099033964597741",
-          "author": "bmars69",
-          "searchJob": "marshall",
-          "text": "@elonmusk I am a 72 yr old senior that just was finally able to purchse a 2026 Model y Standard. While I love the 1 month of free FSD that I go, I find it very diffucult to contine at the current $99 mth price.. Are there any plans to offer"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110095406109729277",
-          "author": "davidbaugh_02",
-          "searchJob": "ohio",
-          "text": "@CoachZAlley Would appreciate a look at ‘27 LB Jaylen Murray out of Warren G. Harding HS in Ohio! 6’0”, 215 lbs. He’s back from last year’s ACL tear with 6 games of senior film. Already holds an offer from Hiram and recently visited Tiffin!"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110106209760260322",
-          "author": "alijlari",
-          "searchJob": "rice",
-          "text": "In Memoriam Ashton Hall https://t.co/iLPrlZLWNw"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110083145546506685",
-          "author": "licialeal",
-          "searchJob": "south-florida",
-          "text": "Two adjacent condo towers in South Florida can share the same street yet have completely different flood zones and `SIRS compliance` funding. Broad county averages hide that hyper-local risk. Audit reserve studies before submitting an offer"
+          "postId": "2110088573294694491",
+          "author": "kentuckysupreme",
+          "searchJob": "kentucky",
+          "text": "Congratulations 2027 @johnharrismoore on your @UTFMBB offer 🟢🟡"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 44,
+      "rejected": 8,
       "reasons": {
-        "bare_mention_requires_llm": 20,
-        "multiple_resolved_schools": 6,
-        "school_not_resolved_confidently": 18
+        "school_not_resolved_confidently": 5,
+        "bare_mention_requires_llm": 3
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110111912029503495",
-          "author": "gpintn1",
-          "searchJob": "iowa",
-          "text": "@Alkemyst707 @SimonaFGoyal @ChadLeistikow Its yr to yr. I dont think Iowa wanted to shell out for her again so didnt offer her much if anything. Encouraging her to look elsewhere.."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110105057576333429",
-          "author": "dubjellison",
-          "searchJob": "iowa",
-          "text": "Iowa Western CC cornerback Coaleon Johnson nets #Purdue offer. Same school that produced current Boilers Jeremy Lewis and Dax Noles. https://t.co/aZSZrKBJRL"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110088655159144693",
-          "author": "sundermanfarm",
-          "searchJob": "iowa",
-          "text": "Sale pending on the Runyon Farm in Webster County, Iowa. This 276.74± acre property offered highly productive farmland with a CSR2 of 83.1 and a great location along a hard-surface county road. We’re excited to see this property moving forw"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110108463548211567",
-          "author": "offshoreinsider",
-          "searchJob": "oregon",
-          "text": "SPORTS BETTING INTEL — TUESDAY, OCTOBER 13, 2026 LATE-AFTERNOON UPDATE — COLORADO WITHOUT CALE MAKAR; ANAHEIM LOSES LEADING GOAL SCORER; BEDARD CLEARED TO RETURN; CAROLINA CAPTAIN OUT LONG-TERM NHL — Colorado Avalanche at Dallas Stars — TUE"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2110098138371637410",
-          "author": "bettingsherpa",
-          "searchJob": "oregon",
-          "text": "Our NHL picks start tonight! We wait 2 weeks until we offer up our picks to the world. Money Line only friends: Ducks over Flames Canadians over Sabres Devils over Red Wings Blue Jackets over Panthers Hurricanes over Caps Kraken over Flyers"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110093703423406325",
-          "author": "amalackjack",
-          "searchJob": "oregon",
-          "text": "Oregon was always doomed for failure because they have Phil Knight money and the best Nike can offer but their uniforms are always the ugliest in the league"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110093026777583791",
-          "author": "susan_g_530",
-          "searchJob": "oregon",
-          "text": "It's insulting to me that Oregon in the shape it is after nearly 4 years of your leadership is in the worst shape it's probably ever been in, and you find this acceptable and the best you have to offer. I won't bother wasting my time typing"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110111781658181706",
-          "author": "magasfix",
-          "searchJob": "arizona",
-          "text": "SCOTUS punts another election case The Supreme Court denied certiorari in Andrew D. Parker v. Bill Gates, leaving intact $122,000 in sanctions against @KariLake lawyers over their 2022 Arizona lawsuit that challenged electronic voting machi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110110556594287001",
-          "author": "sacha_eozzah",
-          "searchJob": "arizona",
-          "text": "@DrinkAriZona Aloe water. Why doesn't Arizona offer any aloe drinks?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110098424238322087",
-          "author": "azmnh",
-          "searchJob": "arizona",
-          "text": "The Arizona Museum of Natural History's Internship Program offers hands-on experience for emerging museum and science professionals. Interns work alongside staff, building real-world skills while exploring future career paths. Internship du"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110089374604070971",
-          "author": "freedakprescott",
-          "searchJob": "arizona",
-          "text": "@DanaCotromano Value isn’t there for Arizona to make that move. If we just offer a second I think they’ll be more likely to take it. If we’re going to trade bland we’re going to have to start dishing out firsts."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110111884510916895",
-          "author": "krystenpeek",
-          "searchJob": "baylor",
-          "text": "Quincy Acy’s son, Bear, is a 2029 forward who already has 3 high major offers from Kansas, Baylor and Texas Tech. He was one of the more physical imposing bigs in the younger group at USAB. https://t.co/DIGMHCYKXW"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110102031889318394",
-          "author": "breaking_battle",
-          "searchJob": "kansas",
-          "text": "Which states could tell us how the midterms are going before the night is even over? Henry Olsen, Senior Fellow at the Ethics and Public Policy Center and host of Beyond the Polls and Conservative Crossroads, joins Breaking Battlegrounds to"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110095498413482436",
-          "author": "harveycountyks",
-          "searchJob": "kansas",
-          "text": "If you use Medicare Part D, make yourself a reminder that enrollment starts this week - and remember that the Senior Health Insurance Counseling for Kansas program offers free, no obligation consultations to help you review your coverage op"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110086962245673376",
-          "author": "kstatecollegian",
-          "searchJob": "kansas-state",
-          "text": "Shop Local, Think Local! Check out everything Wesley Wildcats has to offer! https://t.co/MEv5XNNTJr #ad https://t.co/0TybywqMzO"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110112392734769312",
-          "author": "bigginsinusa",
-          "searchJob": "miami",
-          "text": "@sptnjd113 @JimCosta_ You're never going to outspend Miami, and even if you spend the same as Miami, Malachi Toney is choosing Miami 100 out of 100 times. You just need to accept that MSU has nothing to offer anyone."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110109975939060011",
-          "author": "stillintooongi",
-          "searchJob": "miami",
-          "text": "WTS X2 (two) katseye miami tickets! tuesday 10/13 - sec fl2, row 2 - seated together - would like to make back what I paid for but open to reasonable offers - can send any proof ! please dm if interested for more info! wtb iso eyekons kasey"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110109778173403391",
-          "author": "rmsorrybabe",
-          "searchJob": "miami",
-          "text": "WTS X2 (two) katseye miami tickets! tuesday 10/13 - sec fl2, row 2 - seated together - would like to make back what I paid for but open to reasonable offers - can send any proof ! please dm if interested for more info! wtb iso eyekons kasey"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110106069452357842",
-          "author": "arclightpnw",
-          "searchJob": "miami",
-          "text": "@AshNicoleMoss Because New Jersey offers really good tax incentives thus making it much cheaper to film there and change it to look like Miami than to film in Miami itself."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110096591285817564",
-          "author": "kathmlee1",
-          "searchJob": "miami",
-          "text": "Ummmm. Now that you're bringing up Epstein he was a dirty pervert. I've read all of the files going back to his 2006 areest in Miami. The other person only wants to talk about Trump. This was an international sex trafficking ring with real "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110090965952221355",
-          "author": "edisoncre",
-          "searchJob": "miami",
-          "text": "For Lease – Last-Mile Distribution Yard in Miami, FL 📍 3200 NW 67th Ave, Miami FL Position your operation at the center of South Florida’s logistics network. This 17-acre IU-2 zoned property offers flexible yard sizes, from 1 acre and up, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110088331564405139",
-          "author": "yallluvcris",
-          "searchJob": "miami",
-          "text": "@AshNicoleMoss Because places like NJ offer more generous film tax credits which can stretch the budget further. Plus they’re recreating 1985 Miami so a controllable location with the right period look can make more sense than shooting in m"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110094202088706429",
-          "author": "lunchizforwimps",
-          "searchJob": "north-carolina",
-          "text": "$OPEN Very, very interesting. Opendoor's new waitlist offer lets you own a North Carolina home with 2% down and no mortgage. You get equity on day one, buy more every month, and your payment stays fixed for five years, with taxes, insurance"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110111330233454837",
-          "author": "johnkayusmc",
+          "postId": "2110094473589923910",
+          "author": "theedescence",
           "searchJob": "texas-tech",
-          "text": "@CoreyWriting If I hadn’t just retired as a sr exec at tech giant I’d apply as a veteran then tell him to GF if he offers a job. Wonder if he’ll match the 7 figure salary and options."
+          "text": "@sophiabarbelo Hi Sophia, I hope you're well? Please, would you be kind enough to offer any suggestions on how I could get into this; perhaps where I could look or apply to? I work in tech consulting and have done some analytics as well. An"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110094221386432568",
+          "author": "blockjock2017",
+          "searchJob": "texas-tech",
+          "text": "Quoting “The early enthusiasm, easy funding assumptions, and willingness to work indefinitely on promises of future growth are giving way to more difficult commercial questions. Who is paying for the work? Who is generating revenue? Who is "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110093470350049517",
+          "author": "michaelslus",
+          "searchJob": "texas-tech",
+          "text": "from @CocaCamhi Translated from Spanish Hello, I am Palestinian. 🇵🇸And since honesty is so rare in my politics, let me confess a few things. 1947. The UN offered me a state. Alongside Israel. Borders, independence, recognition. I said no."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110091408162066589",
+          "author": "techsignalil",
+          "searchJob": "texas-tech",
+          "text": "Apple wants a permanent place in your home: What's behind HomeView? You walk into the kitchen, and the screen shows your personal information. Someone else approaches, and the display changes. While cooking, you can talk to Siri, set a time"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110091217186738480",
+          "author": "marketeran",
+          "searchJob": "texas-tech",
+          "text": "Meant as a framework for people evaluating job offers but in reality it's a skill.md for founders to evaluate an idea before touching it. From the post \"There are only four compounding advantages that really matter. Every major tech company"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110090723559121257",
+          "author": "williampar60374",
+          "searchJob": "texas-tech",
+          "text": "The below says it all. Gazans are \"willing pawns\" in the islamic war on Israel (and on the Western Democracies). (((Coca Camhi))) @CocaCamhi · 18h Translated from Spanish Hello, I am Palestinian. 🇵🇸And since honesty is so rare in my polit"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110090717838114933",
+          "author": "theinformation",
+          "searchJob": "texas-tech",
+          "text": "Self-driving software maker Applied Intuition is fielding offers at a valuation of at least $30 billion as it expands into autonomous military vehicles and competes with defense tech startups Anduril and Saronic. More details: https://t.co/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110092525709000758",
+          "author": "be_nky",
+          "searchJob": "kentucky",
+          "text": "What makes Northern Kentucky a strong location for advanced manufacturing? The numbers tell the story. 🏭 1.5X concentration in industrial machinery and equipment manufacturing compared to the U.S. average 📈 6.4% projected employment growt"
         }
       ]
     },
@@ -436,18 +177,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 6,
+      "failed": 1,
+      "requests": 7,
+      "errors": [
+        "penn-state: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 44,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-13T20:58:27.245Z"
+    "status rebuilt locally from current store on 2026-10-13T21:11:40.299Z"
   ]
 }
