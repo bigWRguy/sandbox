@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:28:42.452Z",
+  "generatedAt": "2026-10-13T21:43:31.909Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-13T21:28:41.960Z",
+    "at": "2026-10-13T21:43:31.425Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,36 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "arkansas-state",
+      "hours": 2.1
+    },
+    {
+      "id": "army",
+      "hours": 2.1
+    },
+    {
+      "id": "liberty",
+      "hours": 2.1
+    },
+    {
+      "id": "texas",
+      "hours": 2.1
+    },
+    {
+      "id": "ucla",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0321294444444444,
-    "p95Hours": 1.8739208333333333,
-    "worstHours": 1.8739208333333333
+    "medianHours": 1.0154566666666667,
+    "p95Hours": 1.7773330555555555,
+    "worstHours": 2.120992222222222
   },
   "decisionCoverage": {
-    "total": 51,
-    "decided": 51,
+    "total": 101,
+    "decided": 101,
     "complete": true
   },
   "pending": {
@@ -47,380 +68,392 @@
   "profileResolution": {
     "cached": 82
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 6,
   "quality": {
-    "completeOffers": 2971,
+    "completeOffers": 2972,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-13T21:28:41.960Z",
-      "got": 91,
-      "new": 51,
-      "lag": 0.03
+      "at": "2026-10-13T21:43:31.424Z",
+      "got": 163,
+      "new": 101,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-13T21:27:00.886Z",
+    "at": "2026-10-13T21:41:46.589Z",
     "mode": "live",
     "collection": {
-      "returned": 91,
-      "kept": 51,
-      "duplicate": 40,
+      "returned": 163,
+      "kept": 101,
+      "duplicate": 62,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 28,
+      "accepted": 55,
+      "rejected": 46,
       "reasons": {
-        "no_fbs_school": 5,
-        "no_offer_term": 2,
-        "hard_negative": 21
+        "no_offer_term": 8,
+        "no_fbs_school": 16,
+        "hard_negative": 21,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2110102052428988475",
-          "author": "revalf1",
-          "searchJob": "penn-state",
-          "text": "@PennAutoZone @B1OBEY0ND We like Penn State Coach Campbell saw something in my son Asa Burch early and he was the first Big Ten school to offer Asa . The Burch’s have never forgot it."
+          "reason": "no_offer_term",
+          "postId": "2110116424064917988",
+          "author": "mexicotimes",
+          "searchJob": "texas",
+          "text": "#Now AT&amp;T exits #Mexico after investing billions to challenge Carlos Slim's #Telcel. @Televisa &amp; Fintech will acquire its Mexican operation for $2 billion USD, gaining nearly 25 million mobile subscribers. A major shake-up in #Mexic"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2110098008067211346",
-          "author": "pennstateoto",
-          "searchJob": "penn-state",
-          "text": "The 5th Annual Thyroid Radiofrequency Ablation Training Course returns June 4-5, 2027 at @PennStHershey. This two-day course offers expert-led education and hands-on training in the use of RFA for thyroid nodule management. ➡️ Save the date"
+          "postId": "2110113458981056834",
+          "author": "txhomeloanstan",
+          "searchJob": "texas",
+          "text": "Real estate agents: Are you working with a lender who can provide multiple credit scoring options? I offer access to VantageScore, which could potentially unlock a higher credit score and open up new avenues for your homebuyers.* Reach out "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110112596171137492",
+          "author": "repcuellar",
+          "searchJob": "texas",
+          "text": "More Texans will now have access to federal Pell Grants to help pay for short-term job training programs. Five Texas community colleges have been approved to offer eligible Workforce Pell programs, including Texas Southmost College in Brown"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110112356944478600",
+          "author": "crossroadstoday",
+          "searchJob": "texas",
+          "text": "VICTORIA, Texas - Starting Monday, Victoria County Animal Services will offer several services at its office on Profit Street. https://t.co/eXjal48wok"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110123451222499492",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110123329084428544",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110123194183241768",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110123122573619376",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110123029430763573",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110122926464799133",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110122825805627491",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110122746537779375",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110121934763536820",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110121649324380568",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110121327059234880",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110121053313810841",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110120907016712200",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110120332954579328",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110120152977334373",
+          "author": "randyferrell",
+          "searchJob": "ucla",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2110098318483235224",
-          "author": "irishtimeshome",
-          "searchJob": "notre-dame",
-          "text": "A distinctive feature of this property is the stained-glass window set into its facade. The home was once owned by the founder of the Oriel Gallery, Oliver Nulty, who had the same glass as appears on the facade of the Clare Street gallery i"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110118824192426178",
-          "author": "dunnbilly87734",
-          "searchJob": "temple",
-          "text": "̶A̶ ̶p̶a̶p̶a̶l̶ ̶r̶e̶n̶u̶n̶c̶i̶a̶t̶i̶o̶n̶ ̶(̶L̶a̶t̶i̶n̶:̶ ̶r̶e̶n̶u̶n̶t̶i̶a̶t̶i̶o̶)̶,̶ ̶a̶l̶s̶o̶ ̶c̶a̶l̶l̶e̶d̶ ̶a̶ ̶p̶a̶p̶a̶l̶ ̶a̶b̶d̶i̶c̶a̶t̶i̶o̶n̶,̶ ̶o̶c̶c̶u̶r̶s̶ ̶w̶h̶e̶n̶ ̶t̶h̶e̶ ̶c̶u̶r̶r̶e̶n̶t̶ ̶p̶o̶p̶e̶ ̶o̶f̶ ̶t̶h̶e̶ ̶C̶a̶t̶h̶o̶l̶i̶c̶ "
+          "postId": "2110121003980394816",
+          "author": "epochpremium",
+          "searchJob": "colorado",
+          "text": "https://t.co/fZP8SCULOh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2110110694171373730",
-          "author": "prophetessanya",
-          "searchJob": "temple",
-          "text": "Joel 1:8-12 NLT Weep like a bride dressed in black, mourning the death of her husband. For there is no grain or wine to offer at the Temple of the Lord. So the priests are in mourning. The ministers of the Lord are weeping. The fields are r"
+          "postId": "2110117608372789412",
+          "author": "noriskanoreward",
+          "searchJob": "colorado",
+          "text": "Hear me out: do it *in the schools.* our district in Colorado does this. A bunch of different fee-based after school programs run by 3rd party operators. They take place in the same schools the kids attend. Maybe schools could even offer th"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2110094287975149850",
-          "author": "hapi12334223",
-          "searchJob": "temple",
-          "text": "https://t.co/vxKPBs0s10"
+          "reason": "no_fbs_school",
+          "postId": "2110104623029842410",
+          "author": "magamarcher",
+          "searchJob": "colorado",
+          "text": "@otokyo__ You don't have anything to offer🖕"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2110120087600664737",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+          "reason": "no_fbs_school",
+          "postId": "2110096328340443358",
+          "author": "flpress",
+          "searchJob": "colorado",
+          "text": "FLP CHAPBOOK OF THE DAY: hard rain by Liza Sparks On SALE: https://t.co/9CdpbFoG3w hard rain is an exploration of the complications of womanhood in relationship to systemic oppression and the longing for full personhood. The speaker invokes"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2110119954808725557",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110119809555821026",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110119586368573909",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110119523714048335",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110119340569722936",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110119144465264738",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110119065729769609",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110118989858840986",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110118894627123605",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110118360985780463",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110118064708899189",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110117945107951739",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110117719064330451",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110117645039391098",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110117543419551958",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110117251638809054",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110117123494453557",
-          "author": "randyferrell",
-          "searchJob": "maryland",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 13, 2026 Total receipts: 573 • 10/13/26: Reuters counts 85 Trump corruption-case clemencies • 10/12/26: Agents rai"
+          "reason": "no_fbs_school",
+          "postId": "2110113484205625855",
+          "author": "smumeadows",
+          "searchJob": "smu",
+          "text": "This week’s Alumni Spotlight is Film alum Austin Flores, M.A. ’19! 🎬 As a Location Specialist with the Dallas Film Commission, he helps productions find filming locations and shows industry professionals what Dallas has to offer. Read more"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 23,
+      "accepted": 1,
+      "rejected": 54,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 16,
-        "school_not_resolved_confidently": 4,
-        "reporter_missing_position": 1
+        "bare_mention_requires_llm": 42,
+        "player_missing_class_year": 1,
+        "multiple_resolved_schools": 5,
+        "reporter_missing_position": 1,
+        "reporter_missing_player_name": 2,
+        "player_missing_football_context": 1,
+        "school_not_resolved_confidently": 1,
+        "author_not_recruit:no recruit fields": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110120560542007526",
+          "author": "monierphd",
+          "searchJob": "texas",
+          "text": "@DemocraticWins Despite Texas's 32 yrs of Repubs control,big hats&amp;cowboy boots,Texas (1/7th of US population)has never made the nat'l median household income ($87k)or ACT scores (22). Repubs' lifelong Gov't hacks offer none but sympolis"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110119585307619501",
+          "author": "jrw1955",
+          "searchJob": "texas",
+          "text": "🔻 The Clean-Up Continues: The British Elite There's not much that Lord Jacob Rothschild's bloodline was not involved in. The Inception of Israel. The Implementation of the Federal Reserve. The 9/11 False Flag. The War on Palestine. The Hum"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110119346886320234",
+          "author": "zblostein247",
+          "searchJob": "texas",
+          "text": "Texas offers Vero Beach DL Josiah Taylor. @JasonSuchomel44"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2110113157553508850",
+          "author": "josiahtaylor75",
+          "searchJob": "texas",
+          "text": "Blessed to receive a offer from university of Texas @Jimmy_UTFB @TexasFootball https://t.co/Xoe6ZPw4EP"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2110116428363759831",
-          "author": "middleroadtakes",
-          "searchJob": "purdue",
-          "text": "@IndySports @MicahMohlerMDM An Indiana shooting guard with an offer from Purdue? I like it. #iubb"
+          "postId": "2110118676980527166",
+          "author": "drschmuck",
+          "searchJob": "texas",
+          "text": "They were Jordanian prior, not Israeli 99% of the lands in the area are Muslim so 1% being Jewish with a strong Muslim minority works for me There was never a sovereign Palestine nor a Palestinian Muslim people distinct from other Arabs bef"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110106175832559617",
-          "author": "barstool_sotey",
-          "searchJob": "purdue",
-          "text": "@kylerstaley @MicahMohlerMDM @MidwestBBClub @TheHoosierOn3 @allasley @drew_rosenberg2 @ben_kruer1 @JamieShaw5 @JoeTipton @Rivals @On3 Purdue never offered him so he didn’t exactly choose over them but go on…."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110110662252748871",
-          "author": "designed_future",
-          "searchJob": "rutgers",
-          "text": "In the U.S., a college is typically smaller and focused mainly on undergraduate degrees (associate’s or bachelor’s), while a university is usually larger and offers both undergraduate and graduate degrees (master’s and doctoral), often with"
+          "postId": "2110118046706852133",
+          "author": "undisputedtrths",
+          "searchJob": "texas",
+          "text": "The Rallies Are Supplying the Footage Valhalla VFT reviewed the midterm rally file and the scenes are already complete without additional commentary. At one stop Trump told the crowd he could say the stupidest things and they would still cl"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2110117263357747496",
-          "author": "chadsimmons_",
-          "searchJob": "south-carolina",
-          "text": "Florida's loss to South Carolina didn't stop the Gators from making recruiting moves over the weekend. Jon Sumrall and his staff flipped a 5-star, extended new offers and gained ground with top targets. Intel: https://t.co/ZY5IfnqOuX https:"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110090780979212641",
-          "author": "thesunnews",
-          "searchJob": "south-carolina",
-          "text": "What do people in SC fear most? A new study offers a surprising answer https://t.co/bJyV8N90j8"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110088256146522156",
-          "author": "rhherald",
-          "searchJob": "south-carolina",
-          "text": "What do people in SC fear most? A new study offers a surprising answer https://t.co/vBNZy580dv"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110088242900959570",
-          "author": "islandpacket",
-          "searchJob": "south-carolina",
-          "text": "What do people in SC fear most? A new study offers a surprising answer https://t.co/5mbeFahASc"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110088242154418557",
-          "author": "beaufortgazette",
-          "searchJob": "south-carolina",
-          "text": "What do people in SC fear most? A new study offers a surprising answer https://t.co/GWJKf59Fr2"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110103690845773910",
-          "author": "sprinterpress",
-          "searchJob": "notre-dame",
-          "text": "Bernam offers Britons a \"one-foot-in\" return to the EU and a referendum to make it possible. LABOUR PARTY WANTS TO HALT BRITAIN'S POVERTY AND SOLVE THE \"FARAGE PROBLEM.\" Both Andy Bernam and the majority of the Labour Party opposed Brexit. "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110099051840749871",
-          "author": "irishwill83",
-          "searchJob": "notre-dame",
-          "text": "@KeithJBailie @BelTel I’m on favor of Irish League switching calendar &amp; agree the Mar-Nov would be the preferred alternative to current model. I think momentum for IL change has been hampered as the league chiefs haven’t offered clarity"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110098615704199207",
-          "author": "charlesblazer41",
-          "searchJob": "notre-dame",
-          "text": "2/2 her stunning figure she 😁. thanks. in another shop talking to woman on the till. let busty woman in low cut top go beefy me( only had 2 items). chatting me was a Irish traveller. nice woman. said think Ur husband offered me cheap tobac"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110088863368782301",
-          "author": "astriche",
-          "searchJob": "notre-dame",
-          "text": "A fall football weekend @NotreDame offers plenty to see: familiar landmarks, old friends &amp; the excitement of game day. But what I enjoy most are the people I know I will see &amp; those I meet along the way. This was fun to muse...and t"
+          "postId": "2110116536799445214",
+          "author": "expostmedia",
+          "searchJob": "texas",
+          "text": "EX POST!™ EVENING EDITION • OCTOBER 13, 2026 MAGA’S ETHICS CRISIS Paxton’s Dubai gathering. Guilfoyle’s forced exit. The betrayal of public trust. Public trust is not a private asset. An elected office is not a license to cultivate wealthy "
         },
         {
           "reason": "reporter_missing_position",
-          "postId": "2110118988558586108",
-          "author": "alertsnova",
-          "searchJob": "uconn",
-          "text": "NEWS: Villanova has offered 2028 4 ⭐️ Carter Smith, per @ARosenfeldHoops He attends Penn Charter in Philly. Smith is the #67 overall player and #5 player in PA, per 247. Smith was on an unofficial visit last year at the UConn game. https://"
+          "postId": "2110113646852374896",
+          "author": "c3scouting",
+          "searchJob": "texas",
+          "text": "6-foot-8 2029 Noah Woods, the #1 prospect in South Dakota, picks up an offer from the University of Texas. https://t.co/t3yTkjW0Or"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110113452253716672",
-          "author": "jonathandebar78",
-          "searchJob": "uconn",
-          "text": "🇺🇸 CT-5 VOTERS DESERVE A DEBATE, NOT JUST A CANDIDATE FORUM! 🇺🇸 Tonight, October 13, 2026, Congresswoman Jahana Hayes and Republican challenger Chris Shea will participate in a Candidate Forum hosted by the League of Women Voters of Lit"
+          "postId": "2110111802390684055",
+          "author": "isabelsmit6375",
+          "searchJob": "texas",
+          "text": "@FoxNews Politics should be about kindness, fairness and looking after people, not swagger and threats. If this is the best the campaign has to offer, I hope Texas voters see straight through it."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110111277775286622",
-          "author": "johnnyribbs",
-          "searchJob": "uconn",
-          "text": "@MarcNYC36 It seems like that should be easy....but unlike a YouTube stream which allows you to connect to your Samsung with one click....the Uconn+ video does not offer an easy button."
+          "postId": "2110109742752268450",
+          "author": "tastingtable",
+          "searchJob": "texas",
+          "text": "Texas LongHorn Steakhouse offers more exciting sides than Texas Roadhouse, including the Crispy Brussels Sprouts and Steakhouse Mac &amp; Cheese with bread crumbs. https://t.co/huQX32gfa7"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110110917702865306",
-          "author": "ericaddison",
-          "searchJob": "san-diego-state",
-          "text": "@TheKyleDe I remember hearing at one point, SDSU went to the Chargers and wanted to get a new scoreboard &amp; video screen for the stadium. SDSU offered to pay half if the Chargers paid half...Chargers said no. Didn't want to spend the mon"
+          "postId": "2110109360483414128",
+          "author": "cw33",
+          "searchJob": "texas",
+          "text": "Circle K is set to offer Inner Circle members 40 cents off per gallon for 24 hours this Thursday, Oct. 15, at more than 600 participating locations across Texas. https://t.co/OrU2J4qJJT"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2110105320257175679",
+          "author": "robinhoodapp",
+          "searchJob": "texas",
+          "text": "See Texas race by race: https://t.co/hVzMio9Zxm Futures and cleared swaps trading involves significant risk and is not appropriate for everyone. Event contracts are offered by Robinhood Derivatives, LLC., a registered futures commission mer"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110102105356972346",
+          "author": "jaythe3rdd",
+          "searchJob": "texas",
+          "text": "@LeadingReport bullshit. Probably Florida. Nobody likes the ghetto state of Texas and how it has nothing to offer but bullshit boring republican maga red state life."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110120129593798695",
-          "author": "simeonlegion",
-          "searchJob": "temple",
-          "text": "@MartinOtie819 Never. Only satanic temple in Nigeria has this offer"
+          "postId": "2110114326736679363",
+          "author": "mr_mcnilly",
+          "searchJob": "byu",
+          "text": "@JGdeIx17 @shawn543215 @jacksoble56 That was the most level assessment a loyal fan could offer and you’re calling him delusional for a perfectly reasonable take. Some BYU fans just project their west coast sports insecurities onto everyone "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110110715784708423",
-          "author": "prophetessanya",
-          "searchJob": "temple",
-          "text": "Joel 1:13 NLT Dress yourselves in burlap and weep, you priests! Wail, you who serve before the altar! Come, spend the night in burlap, you ministers of my God. For there is no grain or wine to offer at the Temple of your God."
+          "postId": "2110096940268749280",
+          "author": "guild_1775",
+          "searchJob": "byu",
+          "text": "Mormon Jesus: 1. Jesus was the spirit child of Heavenly Father and Heavenly Mother. Jesus was first made, then progressed, then eventually became exalted to godhood, where he’s now united in purpose and power with Heavenly Father. Jesus was"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110108204705489195",
-          "author": "_thesanatani",
-          "searchJob": "temple",
-          "text": "Kanya Pujan: Why Nine Girls Are Worshipped on Ashtami or Navami… 🙏 On Ashtami or Navami during Navratri, many Hindu families perform Kanya Pujan, also called Kumari Puja or Kanjak, by worshipping young girls as living forms of the Devi. > "
+          "postId": "2110115112728076541",
+          "author": "denvergazette",
+          "searchJob": "colorado",
+          "text": "The candidates for Colorado Secretary of State offered different visions for the state’s election system at the Denver Press Club on Saturday. Throughout an hour-long debate, Democrat Amanda Gonzalez defended Colorado’s mail-in ballot syste"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110106893826118028",
-          "author": "jubalharshaw18",
-          "searchJob": "temple",
-          "text": "@LiberalJaxx Picture taken at the ruin of a temple where hearts were offered to the gods, and severed heads rolled down the steps."
+          "postId": "2110110136245133801",
+          "author": "whittiernews",
+          "searchJob": "colorado",
+          "text": "Pasadena offers details on upcoming ‘people-powered,’ car-free day on Colorado Blvd. https://t.co/cecTFZffBY"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110098712030798321",
-          "author": "devanayagam",
-          "searchJob": "temple",
-          "text": "Vijayawada, Andhra Pradesh: Tamil Nadu Chief Minister Joseph Vijay visits the Sri Durga Kanaka Temple and offers prayers🙏🙏 #CMVijay @CMOTamilnadu @TVKVijayHQ https://t.co/hdbfVEeO8Y"
+          "postId": "2110109408415920319",
+          "author": "ladailynews",
+          "searchJob": "colorado",
+          "text": "Powered by the people, Pasadena offers details on upcoming ‘car-free’ day on Colorado Blvd. https://t.co/FB9k9sDbN6"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110098257011728430",
-          "author": "isaiah61n2021",
-          "searchJob": "temple",
-          "text": "Thin, Fine, Wispy Hair isnt a problem that needs correcting. What God gave you is youthful, light & pretty. ✍️Wearing someone else's cut hair is from a spiritual ritual to another God is not wise. I would sense the #ritual & the #spirits to"
+          "postId": "2110108919221682492",
+          "author": "dailybreezenews",
+          "searchJob": "colorado",
+          "text": "Powered by the people, Pasadena offers details on upcoming ‘car-free’ day on Colorado Blvd. https://t.co/FwF7jyVhqk"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110095475395195139",
-          "author": "voshka14",
-          "searchJob": "temple",
-          "text": "Part 4: The Ways of Ancient Egypt—Dreams, Ears, Oracles, and Sacred Plants In the ancient land of Egypt, prayer, visions, and dreams belong to Heka, the divine energy that orders the cosmos. The boundary between the physical world and the s"
+          "postId": "2110108913299313012",
+          "author": "presstelegram",
+          "searchJob": "colorado",
+          "text": "Powered by the people, Pasadena offers details on upcoming ‘car-free’ day on Colorado Blvd. https://t.co/hFF1i7GAJX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110106782395757053",
+          "author": "passtarnews",
+          "searchJob": "colorado",
+          "text": "Powered by the people, Pasadena offers details on upcoming ‘car-free’ day on Colorado Blvd. https://t.co/5APoqbIoxm"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110113173655482378",
+          "author": "oldheadhst",
+          "searchJob": "pittsburgh",
+          "text": "@YallLuvCris @AshNicoleMoss Pittsburgh offers this too"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110099944803578366",
+          "author": "chartman16137",
+          "searchJob": "pittsburgh",
+          "text": "@JmRamsey55 Its what we call bartering we would like a 3rd or 4th but we will settle for best offer 😆 🤣 Pittsburgh is know for bad trades throw us a 3rd and 4th and hes yours 😆 🤣 😂 don't you guys need a WR?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110120706910331182",
+          "author": "alienpirate1",
+          "searchJob": "arkansas-state",
+          "text": "This appeared todayHello, I am Palestinian. 🇵🇸 And since honesty is so rare in my politics, let me confess a few things. 1947. The UN offered me a state. Alongside Israel. Borders, independence, recognition. I said no. My leaders promised"
         }
       ]
     },
@@ -434,12 +467,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 23,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 54,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-13T21:28:42.453Z"
+    "status rebuilt locally from current store on 2026-10-13T21:43:31.910Z"
   ]
 }
