@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T12:28:25.113Z",
+  "generatedAt": "2026-10-14T12:43:10.300Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-14T12:28:24.739Z",
+    "at": "2026-10-14T12:43:10.038Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7746469444444445,
-    "p95Hours": 1.2763252777777778,
-    "worstHours": 1.5220291666666668
+    "medianHours": 0.7713269444444445,
+    "p95Hours": 1.270485,
+    "worstHours": 1.5222105555555556
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -49,115 +49,181 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 2996,
+    "completeOffers": 2997,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-14T12:28:24.739Z",
-      "got": 20,
-      "new": 10,
-      "lag": 0.15
+      "at": "2026-10-14T12:43:10.038Z",
+      "got": 30,
+      "new": 20,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-14T12:26:48.211Z",
+    "at": "2026-10-14T12:41:40.940Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 10,
-      "duplicate": 10,
-      "tooOld": 0,
+      "returned": 30,
+      "kept": 20,
+      "duplicate": 9,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 2,
+      "accepted": 15,
+      "rejected": 5,
       "reasons": {
-        "hard_negative": 1,
-        "no_offer_term": 1
+        "no_offer_term": 1,
+        "no_fbs_school": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2110344796556640273",
-          "author": "pokeokc",
-          "searchJob": "oklahoma",
-          "text": "Oklahoma State offers C/O 2028 CB Christian Blivens! Lipscomb Academy | Nashville, TN Blivens holds additional offers from Boston College, Northwestern, Miami (OH), and Columbia. #GoPokes 🤠"
+          "reason": "no_offer_term",
+          "postId": "2110341654846828775",
+          "author": "mansionglobal",
+          "searchJob": "florida",
+          "text": "The 10-acre property has groomed trails, a pool, a dock, pickleball and a mainland carpark https://t.co/fGGf4mVvFc"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2110341109067006192",
-          "author": "itsmattjason",
-          "searchJob": "wake-forest",
-          "text": "AI made building easier. It did NOT make selling easier. The winners won’t be the people collecting 100 prompts they’ll be the ones who can turn attention into trust, clicks and customers. I broke down the AI business skill that actually co"
+          "reason": "no_fbs_school",
+          "postId": "2110338905199260142",
+          "author": "padamo510",
+          "searchJob": "florida",
+          "text": "@Scoobs9563 @AbdulElSayed @MikeRogersForMI Very few clinicians are actually Medicare providers. In Florida we have low cost healthcare facilities that offer Medicare or free services. https://t.co/5e5Bq7rH7S"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110333570208215212",
+          "author": "thebaynetcom",
+          "searchJob": "maryland",
+          "text": "For families looking for something to do after a trip to the pumpkin patch or on a rainy afternoon, fall crafts offer a reason to gather around the kitchen table. https://t.co/4RIFvCFtKO"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110348292248756677",
+          "author": "uacrisis",
+          "searchJob": "miami",
+          "text": "📰 Russia seeks to cut off Ukraine from U.S. intelligence with manipulations on talks and ceasefire, ISW says ⚔️ Russia continues to demonstrate commitment to continuing the war, rejecting ceasefire initiatives and peace talks. The Kremlin "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110342416654098669",
+          "author": "dawson_kent",
+          "searchJob": "kent-state",
+          "text": "@osakajayms Never even been offered one, and I go to all the markets"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 8,
+      "accepted": 1,
+      "rejected": 14,
       "reasons": {
-        "school_not_resolved_confidently": 8
+        "bare_mention_requires_llm": 8,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110340411180884128",
-          "author": "allegiantfaith",
-          "searchJob": "wake-forest",
-          "text": "October 24, 2008. Dr. Sean George is on the way home from his medical clinic in West Australia when the unthinkable happens. He starts to experience chest pains and other signs of a heart attack even though he's only 39-years-old. Though he"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110348239505662029",
+          "author": "haanyeshaanyes",
+          "searchJob": "rice",
+          "text": "@InvertTheWing Rice was a die hard chelsea fan It doesnt really matter Whoevee offers the money he goes there that is it"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110348202746765510",
+          "author": "dvs542",
+          "searchJob": "rice",
+          "text": "Dhammapada - Yamakavagga. The Story of Matthakundali In the ancient city of Savatthi, there lived a Brahmin named Adinnapubbaka. His name literally meant \"He who never gave anything to anyone.\" He was immensely wealthy, yet his stinginess w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110346673839120820",
+          "author": "china_caribbean",
+          "searchJob": "rice",
+          "text": "Journalists from media outlets in six countries—the Bahamas, Grenada, Suriname, Trinidad and Tobago, Jamaica, and Guyana—visited Huaiyin District in Jinan on Oct. 13, for on-site tours of high-end equipment manufacturing enterprises, a floa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110340524137963760",
+          "author": "lofi_chill82733",
+          "searchJob": "rice",
+          "text": "Nottingham Forest’s Defence 🔴 vs Arsenal’s Attack 🔵 Nottingham Forest’s Defence 🔴 - 1-5-4-1 / 1-5-2-3 High Press + Counter 🔴 - 1-3-4-3 / 1-5-2-3 (vs Coventry City) Trigger 🔴 - The moment of a BACKPASS. - The #9 blocks the passing lane "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110335033018134778",
+          "author": "goanewshub",
+          "searchJob": "rice",
+          "text": "TATOBA ENTERPRISES —Bringing the goodness of fresh grains and authentic flavours to your kitchen. We offer quality Wheat Flour (Chakki Atta), Jwari Flour, Ragi Flour, Rice Flour, Multigrain Flour, daal flour , Tikat Masala and Goan Garam Ma"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110332400941289768",
+          "author": "faxianshandong",
+          "searchJob": "rice",
+          "text": "On Oct. 13, journalists from media outlets in six countries—the Bahamas, Grenada, Suriname, Trinidad and Tobago, Jamaica, and Guyana—visited Huaiyin District in Jinan, the City of Springs, for on-site tours of high-end equipment manufacturi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110346777664659740",
+          "author": "paid__tourist",
+          "searchJob": "san-diego-state",
+          "text": "@_undertherock_ @IceBorg @herdit1112 @Jaybartley34 @natesportsguy Yes, just like SDSU would do if they moved up to the MW and South Dakota offered to pay to play SDSU..."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110349922419560858",
+          "author": "alanpetersonsba",
+          "searchJob": "florida",
+          "text": "Posted last month that Florida is third in the country in 7(a) dollars. Same cut, business purchases only, per SBA's data. Florida business purchases: 2024: 480 deals, $587 million 2025: 628 deals, $775 million 2026 through June: 376 deals,"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110346340668514305",
+          "author": "metisgenius",
+          "searchJob": "florida",
+          "text": "Probably because the additional benefit wouldn’t justify the infrastructure and operating costs. SpaceX already gets about 88–90% of the equatorial rotational speed from Florida and Texas. Moving to the equator would add only around 170–200"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110343614467563544",
+          "author": "blackhistorical",
+          "searchJob": "kentucky",
+          "text": "A woman he used to belong to sent him a bill. In February 1860, Sarah Logue wrote to Syracuse from Tennessee, demanding $1,000 for the man she still called her property. She had already sold his brother and sister to cover a debt of her own"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110343240910348754",
+          "author": "japan_nobunaga",
+          "searchJob": "kentucky",
+          "text": "At a laundromat in Kentucky at ten at night, an old man in a veteran cap stood before a fitted sheet like a man facing an army alone. He folded it once. It became a knot. He shook it out again. His hands were trembling. In my land, you do n"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110339834854223927",
+          "author": "nkozinko1",
+          "searchJob": "lsu",
+          "text": "@MattMoscona The headline says outbid with a number of $1.6 million. How much did LSU and Texas offer then?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110346903774691458",
+          "author": "collegefbtoday",
+          "searchJob": "mississippi-state",
+          "text": "CFN RECRUIT UPDATE — OCTOBER 14, 2026 🏈 5 newly added unique recruits: • 2028 Dieter Weber — UConn (June 19, 2026). • 2028 Bryce Johnson, Germantown MS — Vanderbilt, Ole Miss, Mississippi State and Virginia Tech; latest verified offer Oct."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2110338179966403053",
-          "author": "lionel_lingard",
-          "searchJob": "wake-forest",
-          "text": "Diogo Dalot has been disappointing lately, and his performance against Atlético Madrid was another reminder that he needs to step up. Honestly, he looks mentally distracted on the pitch. The sharpness, concentration and confidence we expect"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110332652972548314",
-          "author": "emmaogabor",
-          "searchJob": "wake-forest",
-          "text": "You wake up early, get your car ready, buy fuel and hit the road. Your earnings should reflect that effort. SimpliRide offers drivers zero commission, so you keep 100% of every fare you earn. #DriversDeserveBetter"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110332524673044604",
-          "author": "tzolkin_00376",
-          "searchJob": "wake-forest",
-          "text": "This term that gets tossed around ad-nauseum “White Supremacists” is a made-up idea designed by nefarious propagandist as a means to control people’s emotions to help steer and guide them to act or react in a certain way. Ever hear of the b"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110331512608428367",
-          "author": "maverickvaks",
-          "searchJob": "wake-forest",
-          "text": "@City_of_Pirates @NkanyeziKubheka Not worth it guys, you're also an employee it's not your company, be fair,be firm,don't wake every day with a mission to make examples of people,I'm still revered by people I took as cleaners,dishwashers, h"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110329898594140191",
-          "author": "fionakittymom",
-          "searchJob": "wake-forest",
-          "text": "@_Bull_ @DataRepublican @BU_CR @amyactonoh @VivekGRamaswamy That is absurd. A governor can’t dictate H1B policy. Your one issue is so pale in comparison to everything else that will happen to this country if you let a democrat win. Nothing "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110329133393760655",
-          "author": "infool7",
-          "searchJob": "wake-forest",
-          "text": "Good morning, friends. As the first light of October 14, 2026, gently wakes the world at this early hour, I invite you to pause with me and receive a simple, powerful word for the day ahead. Our verse in the Fear Not series comes from Genes"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110325031054282963",
-          "author": "susynmontalvo71",
-          "searchJob": "wake-forest",
-          "text": "@Great_Cdn_Moose 👏👏👏👏👏 It's about time Canadians wake up to the fact that they are being and have been taken. I offer my congratulations, nothing could be worse than Carney."
+          "postId": "2110340830795886880",
+          "author": "brightocular",
+          "searchJob": "miami",
+          "text": "Female Indian comedian Zoya Garg, who is from New York, is in Madrid, Spain, along with Chelsea Handler, the host of the Chelsea Handler show that I used to watch. Chslea used to date 50 Cents, whom I watched perform this past Saturday in P"
         }
       ]
     },
@@ -171,12 +237,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 14,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-14T12:28:25.114Z"
+    "status rebuilt locally from current store on 2026-10-14T12:43:10.300Z"
   ]
 }
