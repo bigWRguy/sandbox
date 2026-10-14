@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T07:43:17.386Z",
+  "generatedAt": "2026-10-14T07:58:12.317Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-14T07:43:17.052Z",
+    "at": "2026-10-14T07:58:12.067Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7721755555555555,
-    "p95Hours": 1.7783219444444445,
-    "worstHours": 1.7783219444444445
+    "medianHours": 0.7709247222222222,
+    "p95Hours": 1.274385,
+    "worstHours": 1.5237302777777777
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 12,
+    "decided": 12,
     "complete": true
   },
   "pending": {
@@ -55,102 +55,125 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-14T07:43:17.051Z",
-      "got": 12,
-      "new": 9,
-      "lag": 0.67
+      "at": "2026-10-14T07:58:12.067Z",
+      "got": 13,
+      "new": 12,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-14T07:41:47.392Z",
+    "at": "2026-10-14T07:56:43.452Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 9,
-      "duplicate": 3,
+      "returned": 13,
+      "kept": 12,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 1,
+      "accepted": 6,
+      "rejected": 6,
       "reasons": {
+        "no_offer_term": 5,
         "no_fbs_school": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2110271748633403527",
+          "author": "ioccupynigeria",
+          "searchJob": "navy",
+          "text": "https://t.co/I6RRMaggCn"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110276047556026422",
+          "author": "danwoodsweather",
+          "searchJob": "florida",
+          "text": "https://t.co/v6HbEpHpfy"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2110265112825041293",
-          "author": "abc24memphis",
-          "searchJob": "memphis",
-          "text": "The IRS announced a program that will offer a match of up to $1,000 per year for retirement contributions for some tax filers. Here's how it will work. https://t.co/BJpJmDAOBW"
+          "postId": "2110266857001455937",
+          "author": "mft_get_funded",
+          "searchJob": "miami",
+          "text": "Crypto Hardware Wallet Attacks Like many of you, I’ve found the recent wave of crypto wallet breaches and hacks deeply concerning. I understand the principle of “not your keys, not your crypto,” but from a pure security perspective, I’ve be"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110262617843597722",
+          "author": "pawankhera",
+          "searchJob": "air-force",
+          "text": "Because they are the terrorists??"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110253080357089547",
+          "author": "livelawindia",
+          "searchJob": "air-force",
+          "text": "In #MadrasHighCourt While hearing a plea against denial of permission for #RSS route march Judge: If they're able to have a march in a terrorist infected place like J&amp;K, why is TN police denying permission every year https://t.co/0pw0jY"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110069512343265464",
+          "author": "siddhaneeta",
+          "searchJob": "air-force",
+          "text": "Pakistan doesn't have as many terrorists as we have traitors in our own country."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 6,
       "reasons": {
         "bare_mention_requires_llm": 3,
-        "school_not_resolved_confidently": 5
+        "school_not_resolved_confidently": 1,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110263694613508298",
-          "author": "dovydas44444",
-          "searchJob": "massachusetts",
-          "text": "🇺🇸Massachussets could become the first jurisdiction to reverse course on cannabis legalisation, 10 years after Massachusetts voters legalised recreational marijuana. The 3 November election offers an interesting snapshot of how the mariju"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110244776272687292",
-          "author": "goat_flagg32",
-          "searchJob": "toledo",
-          "text": "@kampagnepapi I think rockets, pistions, Htx would call if he’s playing well. If you offer 28 I guarantee you could get 1 on them. I agree too but if you can get real value you have to trade him. It would be malpractice not to braise we are"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110258497107685618",
-          "author": "jce_186",
-          "searchJob": "oregon",
-          "text": "@DucksFanZone He's got 9 points in 6 games...flyers gave the 18 mill offer...if Ducks don't match then you do lose a game breaker and the Ducks are faaaar worse off. Let's calm down and give the kid some room to improve. It's crazy how ppl "
+          "postId": "2110272194827977179",
+          "author": "x_aurelion",
+          "searchJob": "navy",
+          "text": "An early demonstration of the threat U-boats would pose throughout the war. Germany could never match the Royal Navy ship for ship. But submarines offered another route. Attack Britain’s supply lines, sink tonnage faster than it could be re"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110258519748563026",
-          "author": "polypocketknife",
-          "searchJob": "arizona",
-          "text": "if i lived closer to LA i would be constantly hosting bands and friends when they come through offer open to oomfs in touring bands who plan to head east after an LA show btw. if your next stop is arizona i’m prime real estate. i’ll make y’"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110263211781984510",
-          "author": "sacred_chakra",
-          "searchJob": "wake-forest",
-          "text": "I’ve noticed something while reading posts about relationships, healing, and people trying to change their lives. More women than men keep coming back to these subjects, especially the things that still don’t feel settled. I’ve heard differ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110261451244056592",
-          "author": "iambarabas29",
-          "searchJob": "wake-forest",
-          "text": "@zubic_eth I miss those emails, especially if you wake up with offers."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110260498335732029",
-          "author": "meowththestarry",
-          "searchJob": "wake-forest",
-          "text": "♊ Link Between Realms 🌟 — I was born with the power to command the Underworld and guide lost souls to their next journey. Mayhap you would call me 'gifted'. I would not fault you for it... Your reality has ever been dependent of those rais"
+          "postId": "2110269498720739542",
+          "author": "analyticacamil1",
+          "searchJob": "navy",
+          "text": "I’m sorry, I’m trying not to have an aneurysm here “Europe had 65k naval vessels and 30k combat ships” no the fuck it didn’t, this is what the entirety of the Royal Navy had to offer in 1939 (the German, Polish, French and Italian navies ar"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110253629374677487",
-          "author": "mrfresno_expert",
-          "searchJob": "fresno-state",
-          "text": "Could your Fresno property offer more flexibility? ADU space, multigenerational living, or a home office may be worth exploring. Your Fresno real estate resource, George Ozburn 559-304-4349 DRE #01942906 #FresnoRealEstate #FresnoHomes https"
+          "postId": "2110266249532076157",
+          "author": "paperdragons81",
+          "searchJob": "florida",
+          "text": "@leevalueroach Yeah, that’s the real bottleneck, not the offer price. Duane Buziak Mortgage Maestro can shop DSCR and portfolio stuff across hundreds of lenders, plus no credit hit to start, which matters when Florida insurance is being a m"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110272894299193511",
+          "author": "caldotheapache",
+          "searchJob": "miami",
+          "text": "@aaron0505 Offer more money. Your pay is dog shit. You have no concept of the cost of living or inflation. You need at minimum 22 to not be a slave laborer in Miami. You will never attract talent at your pay. Show workers faith and compensa"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110278537420898475",
+          "author": "krishnaprachaos",
+          "searchJob": "air-force",
+          "text": "Do uk after 26/11 Air force wanted to do air strike on pakistan but sonia gandhi refused it saying it will upset muslim later they offer$25 million dollars to pakistan And 9 months after 26/11 Rahul Gandhi said hindu are bigger threat then "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110274203014553945",
+          "author": "krishnaprachaos",
+          "searchJob": "air-force",
+          "text": "Do uk after 26/11 Air force wanted to do air strike on pakistan but sonia gandhi refused it saying it will upset muslim later they offer$25 million dollars to pakistan And 9 months after 26/11 Rahul Gandhi said hindu are bigger threat then "
         }
       ]
     },
@@ -158,20 +181,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "iowa-state: SearchTimeline HTTP 404,404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-14T07:43:17.387Z"
+    "status rebuilt locally from current store on 2026-10-14T07:58:12.317Z"
   ]
 }
