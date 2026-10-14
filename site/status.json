@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T10:43:22.230Z",
+  "generatedAt": "2026-10-14T10:58:37.190Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-14T10:43:21.861Z",
+    "at": "2026-10-14T10:58:36.848Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7776980555555556,
-    "p95Hours": 1.5219766666666668,
-    "worstHours": 1.5219766666666668
+    "medianHours": 0.7796530555555555,
+    "p95Hours": 1.2799694444444445,
+    "worstHours": 1.5313663888888889
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,145 +55,139 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-14T10:43:21.861Z",
-      "got": 20,
-      "new": 15,
-      "lag": 0.03
+      "at": "2026-10-14T10:58:36.847Z",
+      "got": 14,
+      "new": 14,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-10-14T10:41:46.723Z",
+    "at": "2026-10-14T10:57:05.791Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 15,
-      "duplicate": 4,
-      "tooOld": 1,
+      "returned": 14,
+      "kept": 14,
+      "duplicate": 0,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 4,
+      "accepted": 12,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 2
+        "non_fbs_offer_target": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2110303037411700858",
-          "author": "morpheu5watcher",
-          "searchJob": "ohio",
-          "text": "VALERO $VLO IS AT A RECORD HIGH AND ON NONE OF THE SIX LEN5 WATCHLISTS: Valero (VLO) at $456.46, +$20.46 / +4.69% on Tuesday. - Since the quoted card's $433.75: +$22.71 / +5.24% (arithmetic). - Tuesday's high: $457.20, the most the stock ha"
+          "reason": "non_fbs_offer_target",
+          "postId": "2110318223774396619",
+          "author": "jb_brad25",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive my first offer from Indiana tech many more to come #AGTG🙏🏾 @INTechTF https://t.co/vsRkeOTGZf"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2109380811313254612",
-          "author": "morpheu5watcher",
-          "searchJob": "ohio",
-          "text": "VALERO $VLO TOUCHED A NEW HIGH FRIDAY AND CLOSED DOWN 2.3%. DIESEL FELL 4% AND CRUDE DID NOT: Valero (VLO) at $433.75, -$10.05 / -2.26% on Friday. The quoted post named peace as the risk to the San Antonio refiner's record margin, the gap b"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110310556934586538",
-          "author": "itizwatitizpod",
-          "searchJob": "ole-miss",
-          "text": "Imagine a city where the Black community built and runs its own full system—hospital, bank, and schools. Mound Bayou, Mississippi, achieved 100% high school graduation and offers houses for under $60k. A testament to self-sufficiency. #Moun"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110057427378790667",
-          "author": "wwg1wga_qq",
-          "searchJob": "california",
-          "text": "Virginia is allowing 22-year-old grown men, illegal migrants who don’t speak English, to enroll in public high school with your 14- and 15-year-old daughters. Mind you, American kids get booted at 20. Illegals can stay until 22 free of char"
+          "postId": "2110312109783269475",
+          "author": "0xwast3",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/7Ni0ZtIUfO"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 9,
-        "multiple_resolved_schools": 2
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110296062187675990",
-          "author": "usa_patriot_gop",
-          "searchJob": "ohio",
-          "text": "@foxnewspolitics Fifty years of career politician Sherrod Brown and high energy bills are the best Democrats can offer Ohio. It is time to elect Jon Husted and put hardworking taxpayers first!"
+          "reason": "multiple_resolved_schools",
+          "postId": "2110322493940535318",
+          "author": "dailysouthtown",
+          "searchJob": "rice",
+          "text": "With offers in hand from Illinois and Michigan, Brother Rice freshman QB Sam Holcomb keeps head on straight https://t.co/XTrQJTIZRO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110320115703226719",
-          "author": "xhnews",
-          "searchJob": "iowa",
-          "text": "Following President #XiJinping's recent visit to the U.S., we look back to the warm welcome he received in 1985 in #Iowa. @MiaoXiaojuan talks with Luca Berrone, who helped organize that historic visit & whose friendship with Xi has endured "
+          "postId": "2110321020728930739",
+          "author": "mrdimasta420",
+          "searchJob": "rice",
+          "text": "A bird you could hide in a closed hand was trapped inside a plant engineered to dissolve it. One cut decided everything. Watch the last second. Then tell me you didn't hold your breath. — Let me set the scene without ruining it. There is a "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110310532360319260",
+          "author": "h4556155",
+          "searchJob": "rice",
+          "text": "🛒 *GROCERY 🔥 Blockbuster Deals* 🎉 *GREAT INDIAN FESTIVAL 📣 LIVE NOW* 🔹 Extra ₹250 cashback only for prime 🔹 Up to 10% Extra, only for Prime members 🌟 10% Instant Discount up to ₹57,750 off on SBI Debit/Credit Card & Credit Card EMI |"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2110315456779129025",
-          "author": "jweebles",
-          "searchJob": "iowa",
-          "text": "@rachelle_morris @RealProblem_HD Actually she chose Iowa because Uconn didn't offer her. She didn't choose shit lol"
+          "postId": "2110309264405430520",
+          "author": "righteousrowdy",
+          "searchJob": "rice",
+          "text": "Timeline of events: A stray dog named Subramani follows Hindu pilgrims for around 450 km on their annual pilgrimage to the Kathirkamam Murugan temple in Sri Lanka. Despite being a stray dog, Subramani abstains from eating meat throughout th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110304267768594476",
-          "author": "ms_maga33",
-          "searchJob": "ole-miss",
-          "text": "@GadSaad @OleMiss @umdeclaration Welcome to Mississippi. We humbly ask that you not disclose how amazing and wonderful we are, as that could cause an influx of Democrats to want to invade our charming atmosphere. Again, Welcome and enjoy al"
+          "postId": "2110302346215309684",
+          "author": "radarph_media",
+          "searchJob": "rice",
+          "text": "A construction worker’s plea for a few days of work was met with a demand to kneel before a foreman, drawing online outrage after screenshots of their exchange circulated on social media. The worker’s daughter shared screenshots of the conv"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110317796592611487",
-          "author": "springerrc24720",
-          "searchJob": "california",
-          "text": "The U.S. Constitution authorizes the states when it comes to their education. Then, in steps the Dept. of Ed taking some of that authority on themselves. However, in this instance, each state can pass their own laws. Virginia educates the m"
+          "postId": "2110299714503819573",
+          "author": "flicks_n_licks",
+          "searchJob": "rice",
+          "text": "🔥 Dansoman, are you ready?! 🤩🍕🍚 This Friday, enjoy 10% OFF your favourite Assorted Rice Dishes, Flicks Pizza, and Flicks Combo! 😍 Hurry! The offer is exclusively for the first 30 walk-in customers at our Dansoman branch. 🏃🏽‍♀️💨 Don’"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110306539584036939",
-          "author": "66dlm327350",
-          "searchJob": "california",
-          "text": "\"Even satirical interviews can be especially brutal. On Monday, Nigerian-American comedian, writer, and actress Ziwe Fumudoh, best known for turning celebrity interviews into polite interrogations, released one with socialist Twitch streame"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110306000750457099",
-          "author": "rgicocom",
-          "searchJob": "california",
-          "text": "How much should you really offer over asking? 🏠📈 There is no magic number. It depends on the comps, the market, and the home. Only go over when recent sales support it and there’s real competition. In most markets right now, homes sell at"
+          "postId": "2110320254245077248",
+          "author": "okmagazine",
+          "searchJob": "arizona",
+          "text": "An Arizona burglar stole empty Mac mini boxes instead of computers worth up to $1,900 each, prompting a $1,500 reward offer. https://t.co/xtWHdvfpRR https://t.co/ZrvbNGy0MC"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110311137363238945",
-          "author": "afrugalfoodie",
-          "searchJob": "utah",
-          "text": "🚨 4 sports-triggered food deals are LIVE today! 🏒🔥 Columbus: Jet’s 50% off (CBJ50) + FREE Roosters chili. Utah: FREE Jumbo Jack w/ large drink (GOMAMMOTH26). Vegas: 6 FREE BWW wings w/ $10+ qualifying purchase. Regional offers. Check loc"
+          "postId": "2110320901744984277",
+          "author": "arcticjim59",
+          "searchJob": "houston",
+          "text": "@corememunlocked This car was akin to a Temu version of a VW Rabbit. There was a gimmick in Houston in the late 80's where a Yugo was offered free if you bought a qualifying higher end Buick or Cadillac."
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110310845376823621",
-          "author": "clark_kent10935",
-          "searchJob": "virginia",
-          "text": "Good morning from Virginia. 🇺🇸 On the clear morning of October 14, 1962, Major Richard Heyser guided his U-2 high above the western end of Cuba, the great camera in its belly clicking steadily as the aircraft crossed the countryside near "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110318563730817269",
+          "author": "lsposner",
+          "searchJob": "wake-forest",
+          "text": "#Tfw the headline says it all. Via @nytimes “Trump Hands Victories to Putin, Who Offers More War in Return” When will #magaMORONS wake up?"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110304751787131302",
-          "author": "clark_kent10935",
-          "searchJob": "virginia",
-          "text": "Good morning from Virginia. 🇺🇸 On the evening of October 14, 1912, the streets around Milwaukee’s Hotel Gilpatrick were packed with people waiting for Theodore Roosevelt. He was fifty-four years old, no longer the youngest president the c"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110316234042421375",
+          "author": "zartonkmedia",
+          "searchJob": "wake-forest",
+          "text": "Armenia's Foreign Minister Says \"We Could Easily Wake Up Tomorrow Morning\" to News of Open Border With Turkey After 33 Years ➖➖➖ Armenian Foreign Minister Ararat Mirzoyan said normalization with Turkey has \"matured considerably\" and that th"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110316803398259028",
-          "author": "rozanavoyan",
-          "searchJob": "charlotte",
-          "text": "Happy Birthday @KkMarima ! Wishing you all the beautiful things life has to offer! I’m so happy Charlotte has you in her life. A 20-year friendship is a true treasure! 🥹🫶🤍🙏 SMILEY BESIDE CHARLOTTE14 #ชาล็อตออสติน #CharlotteAustin @itsch"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110305485052113129",
+          "author": "olayinkajubri",
+          "searchJob": "wake-forest",
+          "text": "@Marleykhus39637 The rich will definitely reciprocate, even more than what they offered , its called an investment, what does d poor have to pay back with ? Wake up to reality bro"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110304739464540462",
+          "author": "kimyounkyoung2",
+          "searchJob": "wake-forest",
+          "text": "@kostetskyi It is Zelenskyy and the Ukrainian people who have rejected the help offered to rescue them from the abyss of evil. Wake up to the reality for yourselves!"
         }
       ]
     },
@@ -208,11 +202,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-14T10:43:22.231Z"
+    "status rebuilt locally from current store on 2026-10-14T10:58:37.191Z"
   ]
 }
