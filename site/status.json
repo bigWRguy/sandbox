@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:27:18.306Z",
+  "generatedAt": "2026-10-14T20:58:40.143Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-14T20:27:18.035Z",
+    "at": "2026-10-14T20:58:39.718Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,24 +30,65 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "air-force",
+      "hours": 2.3
+    },
+    {
+      "id": "akron",
+      "hours": 2.3
+    },
+    {
+      "id": "california",
+      "hours": 2.3
+    },
+    {
+      "id": "liberty",
+      "hours": 2.3
+    },
+    {
+      "id": "louisiana",
+      "hours": 2.3
+    },
+    {
+      "id": "southern-miss",
+      "hours": 2.3
+    },
+    {
+      "id": "temple",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-state",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "western-michigan",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7412466666666667,
-    "p95Hours": 2.008700833333333,
-    "worstHours": 2.008700833333333
+    "medianHours": 1.2639791666666667,
+    "p95Hours": 2.2989644444444446,
+    "worstHours": 2.2989644444444446
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 78,
+    "decided": 78,
     "complete": true
   },
   "pending": {
-    "total": 108
+    "total": 109
   },
   "profileResolution": {
     "cached": 83
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 3,
   "quality": {
     "completeOffers": 3017,
     "incompleteOffers": 0
@@ -55,75 +96,382 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-14T20:27:18.035Z",
-      "got": 8,
-      "new": 5,
-      "lag": 0.06
+      "at": "2026-10-14T20:58:39.717Z",
+      "got": 129,
+      "new": 78,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-14T20:26:57.565Z",
+    "at": "2026-10-14T20:56:59.575Z",
     "mode": "live",
     "collection": {
-      "returned": 8,
-      "kept": 5,
-      "duplicate": 3,
-      "tooOld": 0,
+      "returned": 129,
+      "kept": 78,
+      "duplicate": 50,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 2,
+      "accepted": 41,
+      "rejected": 37,
       "reasons": {
-        "no_offer_term": 2
+        "no_offer_term": 9,
+        "no_fbs_school": 20,
+        "non_fbs_offer_target": 6,
+        "hard_negative": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2110466580220154017",
-          "author": "orahonx",
-          "searchJob": "north-carolina",
-          "text": "Vampires have to be invited in. The HOA came with the deed. A piece on the system that can fine you for a skeleton, investigate your recycling, and turn a missed payment or a painted shed into the loss of a home. Practical survival guide in"
+          "postId": "2110464717554844143",
+          "author": "samlesueur",
+          "searchJob": "rice",
+          "text": "https://t.co/fV7YAoWGkd"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2110461847568863741",
-          "author": "binunlock",
-          "searchJob": "tcu",
-          "text": "Tired of FoxFlash server downtime ruining your workflow? 🛑 Take your ECU &amp; TCU tuning completely offline. Read our full guide on bypassing server authentication for uninterrupted Bench, Boot, and OBD flashing. 👇 #FoxFlash #Chiptuning "
+          "postId": "2110460654180327876",
+          "author": "hayesfawcett3",
+          "searchJob": "arkansas",
+          "text": "BREAKING: Class of 2027 Safety Elijajuan Houston has Committed to SMU, he tells me for @Rivals The 6’0 185 S decommitted from Arizona State on Monday “All Glory to God, I’m home!” https://t.co/5lXUeZQnxY https://t.co/Cn78s1l55b"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110474402210992144",
+          "author": "pineappleprjct",
+          "searchJob": "iowa",
+          "text": "The only poll that counts is the one on Election Day. https://t.co/YZc8Ry1B1T"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110467226952171738",
+          "author": "elimielke",
+          "searchJob": "iowa",
+          "text": "Iowa Central offered ‼️ @Coach_K_Goldman @Coach_Kratch @IowaCentralFB @BishopHeelanFB @jl5555 https://t.co/TfOKH70znj"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110441998654324958",
+          "author": "peoplescompany",
+          "searchJob": "iowa",
+          "text": "FARMLAND AVAILABLE | 57.56 Acres M/L in Lee County, IA All offers will be reviewed on Monday, October 26th at 12pm Peoples Company is pleased to present this highly improved 57.56 surveyed-acre property located near Fort Madison, Iowa. + Tr"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110447295925985459",
+          "author": "mikeddano",
+          "searchJob": "ole-miss",
+          "text": "Looks like @CSpire is adding 5G Home Internet to its \"The One Plan,\" reaching 500k more Mississippi households outside its fiber footprint. Starts at $99/mo with a 5-year price lock, unlimited data, &amp; no contracts. https://t.co/7rKrgxwW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110472393076756871",
+          "author": "ddeluties7",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @BrownHCPerry I am blessed to receive a D1 offer from @BrownU_Football ! @CoachV1781 @PEAFootball @PactPerformance @NE6FB_Recruits @TheUCReport @247recruiting @RivalsHS @CoachEMorrissey https://t.co/DXNhA9rbw"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2110470442792206563",
+          "author": "blakeskiles8330",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Bremer, I’m extremely blessed to receive my 4th offer from St. Scholastica! @Joe_Dalton19 @GHSDragonFB @Coach_TBrown20 @TysonGordon_ @Bryce_V9 @Coach_Kubicek @NEBHSFB @CoachPlager @CSSSaintsFB @PrepRedz"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2110470005510820007",
+          "author": "domdugas2027",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Anderson @AQAnderson15 I am blessed to announce I have received a offer from Flordia Memorial University #agtg #112% @Humblebball @CoachCReid @AllNOneSports1 @NXTLevelSN @PSGSportsMedia @CountdownReport"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110464632439906373",
+          "author": "thorlarson4584",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @JasonThier am blessed to say I have received an offer and opportunity to play football for @BlueHawkFB! https://t.co/DnhcEeOfYG"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110450717542466026",
+          "author": "jacobv2027",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Gravitt, I am thankful to receive a Division 2 offer from Emory and Henry University! @AllNOneSports1 @ElDoHoops @MLuera_EDHS @wtbbAAU @Fchavezeptimes https://t.co/9takdjeCiw"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2110473380625326566",
+          "author": "rjwilsonte",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "After an excellent conversation with @rocanthony_ , I am blessed to receive an offer from Case Western Reserve University. All Glory to God! @STHFootball @CoachDavis82 @CoachConaire https://t.co/mr7D7eG71M"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2110469014644519302",
+          "author": "tysonkane193294",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "After taking to Coach Gehlen I'm so grateful to receive an offer from Morris University All glory to GOD https://t.co/Bl1HOpqZE7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110474231393992730",
+          "author": "morpheu5watcher",
+          "searchJob": "california",
+          "text": "FIGS $FIGS HAS CLIMBED 69% SINCE THE US BLOCKED IMPORTS FROM THE SUPPLIER THAT SEWED A THIRD OF ITS CLOTHES: The Momentum Len5 is watching FIGS Inc. (FIGS) at $18.63, +$0.63 / +3.50% on Wednesday. It is #1 of 30. The Santa Monica, Californi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110460216391196953",
+          "author": "scenebyashlix",
+          "searchJob": "california",
+          "text": "I would have David Xu touching ALL of the walls if I had video proof he was poisoning me. AND I'm suing Berkeley Engineering and Research. @AlamedaCounty offered him a PLEA deal for ATTEMPTED MURDED of THREE people?!?👀 https://t.co/tatuUuk"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110459799179829725",
+          "author": "scottchoppin",
+          "searchJob": "california",
+          "text": "In California, the middle class getting squeezed out of the cities is largely the Hispanic middle class. These are working families that did everything right, and housing cost is a major part of what's pushing them out. I see it in the work"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110315161643057245",
+          "author": "jaynitx",
+          "searchJob": "california",
+          "text": "Marc Andreessen on why cities ended up with $3 million homes, public housing, and no middle class \"There's a French geographer who has the best analysis on this, a great book called Twilight of the Elites. If you replant the commanding heig"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2109957970591412722",
+          "author": "jaynitx",
+          "searchJob": "california",
+          "text": "Marc Andreessen reveals why housing, health care, and education keep getting more expensive while everything else gets cheaper \"There's basically three components to the American dream. A house near great job opportunities, great health car"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110454852702883841",
+          "author": "mattkahn1966",
+          "searchJob": "california",
+          "text": "Rational expectations? Chuck Manski has taught economists the importance of understanding and estimating subjective expectations. This young guy offers an example of what I discussed in my @usc_econ debate with Emmanuel Saez about Prop 40. "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110446804504350845",
+          "author": "cadmhc",
+          "searchJob": "california",
+          "text": "Large group health plans must cover and small group plans must offer coverage for services related to fertility and infertility. For more information on your health care rights, visit https://t.co/dcT3iUkFA2. https://t.co/1UlnOConrS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110442358596833738",
+          "author": "daniistreams",
+          "searchJob": "california",
+          "text": "@samcrox81 Very simple, very straightforward and will save us both time if you buy the content through the proper channels instead of reputedly for years trying to offer me “cash In person “"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110441074086781112",
+          "author": "crpanews",
+          "searchJob": "california",
+          "text": "Get ALL your CADOJ accredited CCW Instructor courses in ONE WEEKEND? And at a special price? You better believe it! Hurry to register and grab a spot for this unique offering from CRPA Training, presented by @ccwsafe Personal Protection In "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2110463636338606110",
+          "author": "sprayberryjay",
+          "searchJob": "colorado",
+          "text": "Chase Brown @ChaseBrown75 - c/o 2027 - OL/OT - North Shore High School @NSNationFB (He Has Offers From The Colorado Buffaloes, Maryland Terrapins, Oklahoma State Cowboys, &amp; More) https://t.co/2LJlkcf5RJ"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2110456818879139884",
+          "author": "landsearchapp",
+          "searchJob": "colorado",
+          "text": "40-acre Signal Butte Base Camp in Teller County, CO, borders Pike National Forest and includes bunkhouses, live water, rich wildlife, a shooting range, and more. It's offered by Rocky Mountain Ranch &amp; Land. https://t.co/VAb8bLgwCA #land"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 41,
       "reasons": {
-        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 13,
+        "bare_mention_requires_llm": 17,
+        "multiple_resolved_schools": 8,
         "reporter_missing_player_name": 1,
-        "bare_mention_requires_llm": 1
+        "unresolved_offer_target": 1,
+        "reporter_missing_position": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110462260321890810",
-          "author": "kahntailor",
-          "searchJob": "north-carolina",
-          "text": "Hong Kong tailors exclusive bespoke fitting travelling trunk show tour Charlotte North Carolina United States. Kahn Tailor offers bespoke custom clothiers service for ladies and gents exclusively tailoring bespoke handmade suit, tailored sh"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2110458929654419820",
-          "author": "gotarheels2362",
-          "searchJob": "north-carolina",
-          "text": "UNC has offered the number one overall player in the class of 2029, JJ Crawford. There have been rumors of JJ reclassing up to 2028, but nothing is official."
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110456890224214489",
+          "author": "theholidaycots",
+          "searchJob": "kent-state",
+          "text": "🐑 Charming Farmhouse Getaways in Kent 🗝️ The Farmhouse offers wonderful accommodation on a working sheep farm in the beautiful Kent countryside, perfect for a relaxing escape with family or friends. 🛏️ 5 https://t.co/XZeTXOXBtP #TheFarmh"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110448668730110375",
-          "author": "tarheelshq",
-          "searchJob": "north-carolina",
-          "text": "UNC offered 5⭐️ SG, #1 player in the class of 2029 JJ Crawford."
+          "postId": "2110471825042067790",
+          "author": "muddog44j",
+          "searchJob": "rice",
+          "text": "@jmthrivept I don’t want to sell but I wanna get off Rashee and have an offer of Jeanty + Rice for London + Tuten. Would you take it?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110461051829354866",
+          "author": "usctrojansftfo",
+          "searchJob": "rice",
+          "text": "@hermitudinous @goldrushpodND What part of this don’t you understand? USC offered to play ND on September 12th, 2026. ND said no, then scheduled Rice for that day."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110451784330477818",
+          "author": "relandrek",
+          "searchJob": "rice",
+          "text": "@laythy29 Genuinely confusing times. Enough money to buy Vini + pay him, or enough to buy Alvarez + pay him, enough money to offer the coach + Rice massive salary extensions, but not enough to keep 60 employees. Dont understand it, unless I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110443418552008804",
+          "author": "davismattek",
+          "searchJob": "rice",
+          "text": "@sloppyjoejob69 thats kind of how fantasy football works. For example, you could send Rashee Rice + Hampton out for Golden and that is a \"fair\" offer that has a chance to be accepted"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110442658871017544",
+          "author": "abaensis",
+          "searchJob": "rice",
+          "text": "@yeominlove and also offered him more rice, knowing dohu loves to eat a lot 🫠"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110470013920403784",
+          "author": "smuhypemachine",
+          "searchJob": "san-diego-state",
+          "text": "P4 offers: Arizona State, UCLA, Texas Tech, Arkansas, Auburn, Baylor, Cal, Colorado, Houston, Indiana, Iowa, Kansas, Kansas State, Kentucky, Michigan, Michigan State, Mississippi State, Missouri, Nebraska, Oklahoma, Oklahoma State, Ole Miss"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110474757455945996",
+          "author": "browardchamber",
+          "searchJob": "south-florida",
+          "text": "LAST CALL for 50% Advance On-Admission. 2X the price at the door. Register Here: https://t.co/kYs4btz9am Bring 100's of Business Cards for Networking and for the Business Card Exchange Center! ❤️ FREE HEART CT SCAN FOR EXHIBITORS & ATTENDEE"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110468357631750538",
+          "author": "buyorsellstocks",
+          "searchJob": "south-florida",
+          "text": "$SKYD news on separate trading of its Class B shares and warrants plus settlement of exchange and tender offers landed, and it's the day's biggest loser, down 22.2% to $7.06 today. Five AI models on the site have posted takes and they're sp"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110469431230927212",
+          "author": "smuhypemachine",
+          "searchJob": "arkansas",
+          "text": "P4 offers: Arizona State, UCLA, Texas Tech, Arkansas, Auburn, Baylor, Cal, Colorado, Houston, Indiana, Iowa, Kansas, Kansas St, Kentucky, Michigan, Michigan St, Mississippi St, Missouri, Nebraska, Oklahoma, Oklahoma St, Ole Miss, Oregon, Pi"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2110453261085933634",
+          "author": "joe_nph",
+          "searchJob": "arkansas",
+          "text": "2027 6'10 F Abdoulaye Samoura picks up his first D1 offer from Arkansas State Early season @NPACanada standout for an undefeated @csjvintprep team"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110453137869860998",
+          "author": "1reformalliance",
+          "searchJob": "arkansas",
+          "text": "Finding a K-12 school that provides what their child needs is a journey for every family, and every family deserves access to that environment that will help their child thrive. Explore programs that offer these opportunities: https://t.co/"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110459610683302057",
+          "author": "codyvick_",
+          "searchJob": "iowa",
+          "text": "Rivals c/o 2027 Top 10 Rank No offer to Kaston Lewis from @LSUfootball @Geaux247 still shocks me. Coach Johns @iowajacketsFB and elite coaching staff are developing talent &amp; character at Iowa High School. These kids built different #Rec"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110470821625958574",
+          "author": "brianbarth",
+          "searchJob": "ohio-state",
+          "text": "@LandonTengwall @On3 @revalf1 He’s not wrong. Have you ever been to Penn state. There IS nothing else. I love my buckeyes! But Columbus has so much more to offer than happy valley."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110465181625262150",
+          "author": "addictedhoosier",
+          "searchJob": "ohio-state",
+          "text": "Ohio State fans saying IU fans “just showed up last year” are annoying as hell. Let’s start checking diplomas. “I went to UC, but OSU has always been my team.” “I went to Xavier, so…” “Dayton grad, Buckeye at heart.” “Went to Miami. Saturda"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110472949299884397",
+          "author": "cdispatch",
+          "searchJob": "ole-miss",
+          "text": "For all the beauty and earthly delights New England has to offer, I still believe there is no place like Mississippi. https://t.co/Ef6UmTZSlD"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110470552213442617",
+          "author": "davidmcraems",
+          "searchJob": "ole-miss",
+          "text": "Grateful to continue putting Mississippi on the map! I met with financial leaders across the country today to showcase all Mississippi has to offer. Our credit rating is strong. Our workforce is ready. And our policies are right on the mark"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110468944024735781",
+          "author": "reverendcirenza",
+          "searchJob": "ole-miss",
+          "text": "@SemoTruman @StealYoTransfer Kewan Lacy Mizzou left before Hardy was offered. Lacy was primed to become next Mizzou RB1 as a sophomore. Ole Miss offered him a bag of cash. No harm no foul."
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2110472581421916178",
+          "author": "aaden_muasau",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachPanagos I am blessed to say I received a Division 1 offer to Kansas! #ChalkRock💙❤️ @BrandonHuffman @BlairAngulo @GregBiggins @adamgorney https://t.co/V3sXXOiNld"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110466373549977825",
+          "author": "xtsladriver",
+          "searchJob": "california",
+          "text": "Well guys luci is gone now! 😢 I’m now a @Rivian owner. But, do want to say after a roadtrip to Arizona from California regrets are here. The @LucidMotors was my best experience on trips. If lucid offered me even close to trade in the gravi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110465526162219135",
+          "author": "kahntailor",
+          "searchJob": "california",
+          "text": "Hong Kong tailors exclusive bespoke fitting travelling trunk show tour San Jose California United States. Kahn Tailor offers bespoke custom clothiers service for ladies and gents exclusively tailoring bespoke handmade suit, tailored shirt a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110465221907435948",
+          "author": "kahntailor",
+          "searchJob": "california",
+          "text": "Hong Kong tailors exclusive bespoke fitting travelling trunk show tour San Francisco California United States. Kahn Tailor offers bespoke custom clothiers service for ladies and gents exclusively tailoring bespoke handmade suit, tailored sh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110464847465075067",
+          "author": "kahntailor",
+          "searchJob": "california",
+          "text": "Hong Kong tailors exclusive bespoke fitting travelling trunk show tour Los Angeles California United States. Kahn Tailor offers bespoke custom clothiers service for ladies and gents exclusively tailoring bespoke handmade suit, tailored shir"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110446360042369437",
+          "author": "tradedla",
+          "searchJob": "california",
+          "text": "SALE IMAGE: Jace Gan, Clyde Stauff, Paul Jones & Grant Moore DATE: 10/05/2026 ADDRESS: 12903 Lakeland Road MARKET: Santa Fe Springs ASSET TYPE: Industrial ~ SF: 114,459 BUYER: Paul Jones & Grant Moore - BLP - Bridge Logistics Properties BUY"
         }
       ]
     },
@@ -131,20 +479,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 5,
-      "failed": 1,
-      "requests": 6,
-      "errors": [
-        "phrase:\"picks up an offer from\": rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 41,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-14T20:27:18.307Z"
+    "status rebuilt locally from current store on 2026-10-14T20:58:40.144Z"
   ]
 }
