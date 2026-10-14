@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T07:28:20.277Z",
+  "generatedAt": "2026-10-14T07:43:17.386Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-14T07:28:19.956Z",
+    "at": "2026-10-14T07:43:17.052Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7765961111111112,
-    "p95Hours": 1.529125,
-    "worstHours": 1.778691388888889
+    "medianHours": 0.7721755555555555,
+    "p95Hours": 1.7783219444444445,
+    "worstHours": 1.7783219444444445
   },
   "decisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -55,160 +55,102 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-14T07:28:19.955Z",
-      "got": 26,
-      "new": 17,
-      "lag": 0.19
+      "at": "2026-10-14T07:43:17.051Z",
+      "got": 12,
+      "new": 9,
+      "lag": 0.67
     }
   },
   "audit": {
-    "at": "2026-10-14T07:26:51.758Z",
+    "at": "2026-10-14T07:41:47.392Z",
     "mode": "live",
     "collection": {
-      "returned": 26,
-      "kept": 17,
-      "duplicate": 9,
+      "returned": 12,
+      "kept": 9,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 7,
+      "accepted": 8,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 4,
-        "no_offer_term": 2,
-        "hard_negative": 1
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2110258641056199107",
-          "author": "winonakent",
-          "searchJob": "kent-state",
-          "text": "“Mystery fans are in for a treat...The humour, suspense, puzzle-solving intrigue, poignancy, and edginess offer something for everyone. A truly entertaining read.” —Debra Purdy Kong https://t.co/v6scKWhc5D Murder on the Menu's available now"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110264914753253865",
-          "author": "alohauefn",
-          "searchJob": "temple",
-          "text": "We will be releasing Aloha Battlegrounds as a community beta later today! The purpose of the beta is to get groundbreaking feedback on the maps mechanics and gameplay loop to fix and major issues and complaints. The map is unlisted and requ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2110238024575615348",
-          "author": "_baskarohenry",
-          "searchJob": "temple",
-          "text": "Good Morning from Varanasi 😭😭 https://t.co/xAmMVw5WOZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110253354790330601",
-          "author": "adamfttb",
-          "searchJob": "charlotte",
-          "text": "@oktrashdidntask @PrivacyIsXtinct @IEatNiners They do offer remedial math courses online fucktard."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110262504576143668",
-          "author": "geek4liberty",
-          "searchJob": "liberty",
-          "text": "@SumDumPhook @mgb43245234 @PeterAPatriot @RepLuna Peace is the best solution, but putin won't offer it. He wants to steal Ukrainian land while his occupying troops rape, torture and murder Ukrainian citizens. And \"peace\" through a deal whic"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2110260046726877362",
-          "author": "warriorpoet26",
-          "searchJob": "liberty",
-          "text": "Dhamma Chakra Pravartan Day : On 14 October 1956, Babasaheb Dr. B.R. Ambedkar embraced Buddhism at Deekshabhoomi, Nagpur, along with lakhs of followers. It was not merely a religious conversion, it was a historic rejection of caste-based op"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2110257237776126184",
-          "author": "katieliberty22",
-          "searchJob": "liberty",
-          "text": "@RedEagleUpdates Dems can’t win without cheating, lying and stealing. They have nothing to offer American citizens. Zero!"
+          "postId": "2110265112825041293",
+          "author": "abc24memphis",
+          "searchJob": "memphis",
+          "text": "The IRS announced a program that will offer a match of up to $1,000 per year for retirement contributions for some tax filers. Here's how it will work. https://t.co/BJpJmDAOBW"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 8,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 9
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 5
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110263694613508298",
+          "author": "dovydas44444",
+          "searchJob": "massachusetts",
+          "text": "🇺🇸Massachussets could become the first jurisdiction to reverse course on cannabis legalisation, 10 years after Massachusetts voters legalised recreational marijuana. The 3 November election offers an interesting snapshot of how the mariju"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2110245481272000629",
-          "author": "kentroadsafety",
-          "searchJob": "kent-state",
-          "text": "The safer option is to keep your child rear-facing for as long as possible as this offers better protection for the head and neck. For more car seat tips and advice, visit our website 👇 https://t.co/02sZ1kEddP #KentRoadSafety #ChildSeatSaf"
+          "postId": "2110244776272687292",
+          "author": "goat_flagg32",
+          "searchJob": "toledo",
+          "text": "@kampagnepapi I think rockets, pistions, Htx would call if he’s playing well. If you offer 28 I guarantee you could get 1 on them. I agree too but if you can get real value you have to trade him. It would be malpractice not to braise we are"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110258497107685618",
+          "author": "jce_186",
+          "searchJob": "oregon",
+          "text": "@DucksFanZone He's got 9 points in 6 games...flyers gave the 18 mill offer...if Ducks don't match then you do lose a game breaker and the Ducks are faaaar worse off. Let's calm down and give the kid some room to improve. It's crazy how ppl "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110268614418866583",
-          "author": "cocooncacho",
-          "searchJob": "temple",
-          "text": "@irinamanna114k @grok @prayingneyzen @BasedSamParker But they broke that covenant with King Salomon and started worshipping Baal. That's when Assyria and Babylon conquered them and destroy the Temple. Because of that the Covenant Ark vanish"
+          "postId": "2110258519748563026",
+          "author": "polypocketknife",
+          "searchJob": "arizona",
+          "text": "if i lived closer to LA i would be constantly hosting bands and friends when they come through offer open to oomfs in touring bands who plan to head east after an LA show btw. if your next stop is arizona i’m prime real estate. i’ll make y’"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110263211781984510",
+          "author": "sacred_chakra",
+          "searchJob": "wake-forest",
+          "text": "I’ve noticed something while reading posts about relationships, healing, and people trying to change their lives. More women than men keep coming back to these subjects, especially the things that still don’t feel settled. I’ve heard differ"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110261451244056592",
+          "author": "iambarabas29",
+          "searchJob": "wake-forest",
+          "text": "@zubic_eth I miss those emails, especially if you wake up with offers."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110260498335732029",
+          "author": "meowththestarry",
+          "searchJob": "wake-forest",
+          "text": "♊ Link Between Realms 🌟 — I was born with the power to command the Underworld and guide lost souls to their next journey. Mayhap you would call me 'gifted'. I would not fault you for it... Your reality has ever been dependent of those rais"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110267487002693668",
-          "author": "pataalpuri",
-          "searchJob": "temple",
-          "text": "@Scionofkekeya I think Pashu Bali is still offered in Tarkulhi Devi temple of Gorakhpur."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110264063401885936",
-          "author": "voicetvurdu1",
-          "searchJob": "temple",
-          "text": "Deputy CM @Surinderch55 Visits Kheer Bhawani Temple in Ganderbal, Offers Prayers for Peace and Prosperity.@JKNC_ https://t.co/22WLX58EGI"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110261282612150562",
-          "author": "orissapostlive",
-          "searchJob": "temple",
-          "text": "Devotees gathered at Maa Sarala Temple in Jagatsinghpur district Wednesday, the fourth day of Navaratri, to offer prayers and witness the goddess in her Kushmanda Besha. Shrine witnessed a rush of devotees during the morning Mangala Alati. "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110260924976406569",
-          "author": "drdwivedi7602",
-          "searchJob": "temple",
-          "text": "This is the Ganga-Jamuni Tehzeeb of Banaras. ❤️ Bharat Ratna Ustad Bismillah Khan reportedly declined an offer to settle in the US because he couldn't imagine leaving Banaras, Maa Ganga, and the Sankat Mochan Hanuman Temple, where he played"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110256633368777175",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Vijayawada, Andhra Pradesh: Goddess Kanaka Durga was adorned as Sri Maha Chandi Devi on the fourth day of the ongoing Sharannavaratri celebrations at the Sri Durga Malleswara Swamy Varla Devasthanam on Indrakeeladri in Vijayawada. A large n"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110252960878092299",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Lucknow, Uttar Pradesh: Minister Jaiveer Singh says, \"Today, during the auspicious days of Navratri, we have come to the Badi Kali Temple to bow our heads at the feet of the Goddess and offer our prayers. May the blessings of Devi Maiya bri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110245138417197211",
-          "author": "augadhbhudeva",
-          "searchJob": "temple",
-          "text": "🔱 Somnath Temple-The Eternal Shrine of Lord Shiva-Har Har Mahadev 🔱 🌊 Standing majestically on the shores of the Arabian Sea in Prabhas Patan, Gujarat, Somnath Temple is one of the most sacred pilgrimage sites in India. 🛕 ✨ Spiritual Si"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2110246631060992313",
-          "author": "marvionex",
-          "searchJob": "liberty",
-          "text": "Four partnerships in four days. Looks like four deals, but it's really one thing. World Liberty Financial, Coinstore, Fasanara Capital and GroveX all plugged into @ZIGMarkets. An issuer, an asset manager and two distributors, so this is ado"
+          "postId": "2110253629374677487",
+          "author": "mrfresno_expert",
+          "searchJob": "fresno-state",
+          "text": "Could your Fresno property offer more flexibility? ADU space, multigenerational living, or a home office may be worth exploring. Your Fresno real estate resource, George Ozburn 559-304-4349 DRE #01942906 #FresnoRealEstate #FresnoHomes https"
         }
       ]
     },
@@ -216,18 +158,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "iowa-state: SearchTimeline HTTP 404,404 (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-14T07:28:20.278Z"
+    "status rebuilt locally from current store on 2026-10-14T07:43:17.387Z"
   ]
 }
