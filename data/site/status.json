@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T05:28:24.982Z",
+  "generatedAt": "2026-10-15T05:43:48.554Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-15T05:28:24.654Z",
+    "at": "2026-10-15T05:43:48.163Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5278777777777778,
-    "p95Hours": 1.2765555555555557,
-    "worstHours": 1.5267625
+    "medianHours": 0.7844255555555556,
+    "p95Hours": 1.3118233333333333,
+    "worstHours": 1.5331033333333333
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 18,
+    "decided": 18,
     "complete": true
   },
   "pending": {
@@ -49,145 +49,166 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 3060,
+    "completeOffers": 3061,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-15T05:28:24.653Z",
-      "got": 30,
-      "new": 14,
-      "lag": 0.2
+      "at": "2026-10-15T05:43:48.162Z",
+      "got": 39,
+      "new": 18,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-15T05:26:55.299Z",
+    "at": "2026-10-15T05:42:08.428Z",
     "mode": "live",
     "collection": {
-      "returned": 30,
-      "kept": 14,
-      "duplicate": 15,
-      "tooOld": 1,
+      "returned": 39,
+      "kept": 18,
+      "duplicate": 21,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 2,
+      "accepted": 13,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "no_offer_term": 1,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2110577682496753871",
-          "author": "bosbizjournal",
-          "searchJob": "massachusetts",
-          "text": "Five years later, Massachusetts improves its college warning system. This BBJ editorial offers kudos to an overdue update to protect students, staff from abrupt college closures https://t.co/MnviJw2kZ0"
+          "reason": "no_offer_term",
+          "postId": "2110604902225338857",
+          "author": "hackagingai",
+          "searchJob": "oregon",
+          "text": "https://t.co/UwokeH6Yp0"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2110489306427216173",
-          "author": "simberg_space",
-          "searchJob": "wake-forest",
-          "text": "@amyalkon Have you asked Grok?"
+          "reason": "non_fbs_offer_target",
+          "postId": "2110602652682015202",
+          "author": "jaylengooden_",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @delanefitz, I'm extremely blessed and grateful to earn my first Division 1 offer from Southern Utah University! @RCCTigerFB @GenoRamsey @CoachPaychek @JUCOFFrenzy https://t.co/omwvKJLHj4"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110589908817412229",
+          "author": "gorbylaura",
+          "searchJob": "california",
+          "text": "@RNN_RoyalNews If she had acting offers, she’d still be in California."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110606541200003170",
+          "author": "frogbetcharlo_6",
+          "searchJob": "charlotte",
+          "text": "Food comps have a real value. Bonus spins have a wager bill. Frogbet offers 100 spins to new players. Check the 35x rule and eligible games first. If the terms don’t fit, leave it on the counter. - Deshawn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2110590298275578159",
+          "author": "coincamps",
+          "searchJob": "delaware",
+          "text": "https://t.co/dh193kDHMC, led by former FTX Europe chief Patrick Gruhn, has filed to operate a tokenized U.S. stock trading venue under the SEC’s five-year Innovation Exemption. It is the second applicant after the OKX-ICE joint venture. The"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 12,
       "reasons": {
-        "school_not_resolved_confidently": 4,
-        "bare_mention_requires_llm": 7,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 11,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110599809111367724",
-          "author": "emermuo",
-          "searchJob": "buffalo",
-          "text": "GM 🖤 A KINGDOM IS ONLY AS STRONG AS THE ONES WHO STAY. 🐂👑 Every kingdom looks powerful when the sun is shining. But when the Arena goes quiet, the real story begins. Some bulls chase the crown. Others chase the glory. But the rare ones u"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110595525946818707",
+          "author": "illegezyy",
+          "searchJob": "navy",
+          "text": "@idgafwysok @__nuellanutella @Bawzz_lady The same fenty that millions in valuation just a few weeks ago , L’Oréal company so desperate wants to sell the shares now 😭😹👀that Jay z company offered to buy You are No navy , u don’t know shit "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110596561084231816",
-          "author": "theraiderswire",
-          "searchJob": "buffalo",
-          "text": "James Cook, Josh Allen, Brock Bowers and Kirk Cousins offer four Week 6 player-prop angles as Buffalo visits Las Vegas. 📸 Gary A. Vasquez, IMAGN IMAGES via Reuters Connect https://t.co/3YibqPfdqq https://t.co/GowOu0UTBX"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110598922620051633",
-          "author": "jeffschadow1",
-          "searchJob": "toledo",
-          "text": "Thank you Elon for giving up on Europe 🙏 What Russia and China have been preparing little by little for years, unnoticed, is now slowly entering its hot phase. The fact that a copy of Grok on Cloudflare is doing mischief on behalf of your "
+          "postId": "2110594396131676176",
+          "author": "dotty46165851",
+          "searchJob": "oklahoma",
+          "text": "@CowboyRogers1 Oklahoma governors do not offer sex change in children, neither do schools, seriously Oklahoma parents, the bill for that, its a dumb trump maga lie. Federal law won't allow children surgical change until they are of age. Jus"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110594348144361743",
-          "author": "defnotugafan",
-          "searchJob": "troy",
-          "text": "Troy: “Joe, I guess you’ll be doing this alone next season. They haven’t even offered me an extensi..” Joe: “You want me to give you some of my contract? Go talk to ESPN, I’m not going to bat for you. I’m not your f*cking agent, Troy.” Troy"
+          "postId": "2110597344760828018",
+          "author": "77blazers",
+          "searchJob": "oregon",
+          "text": "October 14, 1975 - It has been a long and strange 48 hours since the Blazers and Celtics played in what turned out to be the Blazers 17th straight loss against Boston. Since meeting two days ago in a preseason game in Portland, a Celtics vi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110593040788406505",
-          "author": "salute07o7",
-          "searchJob": "troy",
-          "text": "@justinborough3 @5ohTree @fleaflickerr The only reason Buck got the job at ESPN to begin with is because Troy demanded it when accepting their offer &amp; leaving Fox. He said “we’re a package deal, if you want me you have to bring Buck too"
+          "postId": "2110596568474660919",
+          "author": "salem_statesman",
+          "searchJob": "oregon",
+          "text": "Oregon maple syrup dinner offers 5 courses in a forest https://t.co/4sBDU4AKgq"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110579004679864501",
-          "author": "gymnosophia",
-          "searchJob": "troy",
-          "text": "WODEMAN A Romaunce in Three Actes SYMPHONY OF THE NYGHT Wherein the Wodeman seeketh a faire mayde, findeth an olde devyll, and maketh a verie ill nyght of it for House Malvezzi. The Black Wode had swallowed the sunne an houre before, yet th"
+          "postId": "2110606809778340016",
+          "author": "memesandthings_",
+          "searchJob": "california",
+          "text": "California's new \"Made in California\" product directory lets shoppers filter for Black-owned, Native American-owned, LGBTQ-owned, veteran-owned and women-owned businesses, among others, but offers no filter for male- or white-owned companie"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110600614862287327",
-          "author": "numbercruncher3",
-          "searchJob": "arkansas",
-          "text": "I fact checked it. Clinton did pass Arkansas Bar but failed DC the first time. The other two failed in their home states. That is astonishing. The Bar is not something you fail as a law student. You fail your offers are rescinded, that is w"
+          "postId": "2110603120145215581",
+          "author": "accidentsnearme",
+          "searchJob": "california",
+          "text": "Santa Fe Springs, CA – At Least 1 Person Hurt in Multi-Vehicle Collision on State Route 91The collision was reported around 12:08 p.m. on October 14, 2026, on eastbound State Route 91 at the Clark Avenue on-ramp. Santa Fe Springs, CA – At l"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110589941193351570",
-          "author": "fidoboulevard",
-          "searchJob": "arkansas",
-          "text": "There was a man from Arkansas who posted that repeatedly reading the Bible doesn't mean you understand it. You only understand the words. I'm not sure how else one could begin to understand a book unless they read it. And repeatedly would i"
+          "postId": "2110602213462602132",
+          "author": "accidentsnearme",
+          "searchJob": "california",
+          "text": "Fairfield, CA – Minor Injuries Reported in Multi-Vehicle Collision on Interstate 80According to the California Highway Patrol, the incident took place around 6:56 a.m. on October 14, 2026, on westbound Interstate 80, just east of the Manuel"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2110600078968946906",
+          "author": "joepopulista",
+          "searchJob": "california",
+          "text": "@StephenMoore @kmcf4419 People won’t leave California because it’s too pretty, beaches too nice, weather too perfect. Colorado doesn’t offer a whole lot more than half a dozen other states. The exodus will be huge."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110583201588449526",
-          "author": "mr_gq232",
-          "searchJob": "ohio-state",
-          "text": "@OhioStateFB send him a offer"
+          "postId": "2110594177725542522",
+          "author": "bmarcois",
+          "searchJob": "california",
+          "text": "California election officials offer absurd excuses in fight against illegal voting US threatens California over noncitizens ￼ California’s uber-lax voting system is an international disgrace. https://t.co/yzDqPiMjaR"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2110596569049280899",
-          "author": "tarheelswire",
-          "searchJob": "north-carolina",
-          "text": "UNC basketball offers 2029 combo guard, son of former NBA player 📸 USA TODAY SMG https://t.co/4qn2YK16Zl https://t.co/6jlbvRTDvz"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110585897242484813",
+          "author": "jorgelnoda",
+          "searchJob": "cincinnati",
+          "text": "Do you think if there was a salary cap payroll cap and max contract years Elly de la Cruz wouldn’t be taking a 7 year 250-300M from Cincinnati so they can build around him? Rather than waiting for the Mets, Dodgers and Yankees to offer him "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110589098402697284",
-          "author": "amyalkon",
-          "searchJob": "wake-forest",
-          "text": "Grok @bot is programmed to harm users for profit. I am suffering horrible malpractice and I am not cognitively myself. I have three books in the Anthropic settlement and I desperately, desperately need the money to pay my rent. And one of t"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110605655241638295",
+          "author": "davedonelson1",
+          "searchJob": "colorado",
+          "text": "I sent this to the media today: \"An official announcement of my candidacy will be released in the next few weeks. Because of the interest by media in the name change of my Facebook page from \"Dave Donelson for City Council District 1\" to \"D"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110598234716635543",
-          "author": "masakiss55",
-          "searchJob": "coastal-carolina",
-          "text": "Life's greatest joys come without a price tag.I head to the shore, leaving my car by the store. Inside, the store embraces a coastal vibe, featuring blue-painted walls, shell ornaments, and expansive windows facing the sea. The drink list o"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110604716740948462",
+          "author": "mrcumar",
+          "searchJob": "hawaii",
+          "text": "Dreaming of Hawai‘i? Norwegian Cruise Line offers weekly Saturday departures, 4 islands in 7 days, and overnight stays in Maui and Kaua‘i. Chase waterfalls, surf, relax on black-sand beaches, and hike a volcano. https://t.co/B64rTNiqnP"
         }
       ]
     },
@@ -201,12 +222,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
+      "acceptedEvidence": 1,
       "rejectedCandidates": 12,
-      "brandNewOffers": 0
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-15T05:28:24.983Z"
+    "status rebuilt locally from current store on 2026-10-15T05:43:48.555Z"
   ]
 }
