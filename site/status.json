@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T07:58:09.675Z",
+  "generatedAt": "2026-10-16T08:13:06.315Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-16T07:58:09.299Z",
+    "at": "2026-10-16T08:13:06.045Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -30,20 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "utah-state",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0232919444444444,
-    "p95Hours": 1.7644527777777779,
-    "worstHours": 2.274176111111111
+    "medianHours": 0.9664286111111111,
+    "p95Hours": 2.0135194444444444,
+    "worstHours": 2.0135194444444444
   },
   "decisionCoverage": {
-    "total": 13,
-    "decided": 13,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -54,138 +49,116 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 3121,
+    "completeOffers": 3122,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-16T07:58:09.299Z",
-      "got": 17,
-      "new": 13,
-      "lag": 0.04
+      "at": "2026-10-16T08:13:06.045Z",
+      "got": 24,
+      "new": 11,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-10-16T07:56:35.459Z",
+    "at": "2026-10-16T08:11:41.328Z",
     "mode": "live",
     "collection": {
-      "returned": 17,
-      "kept": 13,
-      "duplicate": 4,
-      "tooOld": 0,
+      "returned": 24,
+      "kept": 11,
+      "duplicate": 11,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 3,
+      "accepted": 6,
+      "rejected": 5,
       "reasons": {
-        "no_offer_term": 1,
-        "no_fbs_school": 2
+        "no_fbs_school": 4,
+        "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2110997062745567663",
+          "author": "dailydarkweb",
+          "searchJob": "ohio",
+          "text": "1.4 MILLION IMPACTED: CENTRAL OHIO PRIMARY CARE UPDATES BREACH SCOPE Central Ohio Primary Care Physicians (COPC) says in an October 15 update that its initial investigation found approximately 1.4 million patients and employees impacted. CO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111006438378414258",
+          "author": "optionking666",
+          "searchJob": "class:2026",
+          "text": "JX Advanced Metals is projected to expand its semiconductor sputtering target operating profit from ¥26bn in FY2024 to ¥83bn in FY2028, lifting operating margins from 27% to 36%, according to UBS. The company holds a 60% global market share"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2110731061479059578",
-          "author": "auforga",
-          "searchJob": "georgia",
-          "text": "I’m proud to serve on this term’s study committee evaluating the availability of kratom products in this state, and am so pleased GA Attorney General Chris Carr is weighing in on our work ahead. “The core problem is that the consumer cannot"
+          "postId": "2110981660586156499",
+          "author": "navnoorquant",
+          "searchJob": "class:2026",
+          "text": "When the Strait of Hormuz closed in early 2026, two private trading firms posted Q1 trading revenue that topped the trading desks of JPMorgan, Goldman Sachs, and Bank of America. https://t.co/lQZXz5CW5y"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2110994850648875510",
-          "author": "nvrmaga",
-          "searchJob": "georgia",
-          "text": "Maybe if we make it harder to get a gun than a GED and offer mental health resources in schools they wouldn't be a fact of life. Fuck are people really this stupid? https://t.co/v8e1To23rH"
+          "postId": "2110976490913382430",
+          "author": "arnaudmercier",
+          "searchJob": "class:2026",
+          "text": "Can Edge-Deployable Vision–Language Models Identify Species? : https://t.co/SiGWy07nkj \"XAI-Arena: Can LLMs Assess the Quality of XAI Explanations? YANFEI HU FLEISCHHAUER, LMU Munich, Germany ALONA ZHAROVA, Chair of Information Systems, Sch"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2110977390914818325",
-          "author": "chiefskingdomcp",
-          "searchJob": "kansas",
-          "text": "Chiefs' perfect Jerry Jeudy trade offer to Browns to add help for Patrick Mahomes at trade deadline https://t.co/9HMlVMRNYa"
+          "postId": "2110979112126788079",
+          "author": "miami_inno",
+          "searchJob": "miami",
+          "text": "Here are the companies that offer the most internships in the Albany area. https://t.co/PqLdYxAbTd"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 10,
+      "accepted": 1,
+      "rejected": 5,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 6
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2111003214552186983",
-          "author": "theparishteller",
-          "searchJob": "georgia",
-          "text": "Friday cut: lawsuits and Senate panic in America, bank-raid talk and a Holyrood offer from Burnham. 🇺🇸 USA UPDATE: California missed the Justice Department's 48-hour deadline, so the DOJ has sued the state over its voter list. It claims m"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2110973530951336259",
+          "author": "kabraxfx",
+          "searchJob": "wyoming",
+          "text": "$ROOT WELCOMES WYOMING INTO THE FOLD! 🎉 This brings $ROOT up to 38 states where they are able to offer affordable auto insurance. 🔥 Wyoming is home to roughly 459k drivers as of 2025 data. https://t.co/nhl21n3Xnm"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111002187736195342",
-          "author": "toddaunderwood1",
-          "searchJob": "georgia",
-          "text": "This is an easy problem to solve if Georgia is willing to establish clear rules and fund enforcement. If the concern is that consumers don’t know what they’re buying, give them transparency, traceability, and accountability. Here’s the fram"
+          "postId": "2110991273503109530",
+          "author": "sniper71127",
+          "searchJob": "arizona",
+          "text": "🏠 A falling property price doesn't always mean a better investment opportunity. In real estate, price is only one piece of the puzzle. A property may look attractive because its asking price has dropped by 10%. But what if there are hidden"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111003439266173099",
+          "author": "heyshobhan",
+          "searchJob": "miami",
+          "text": "@hxxntrr Bro called himself a \"loan shark\" when his entire operation is literally Home Depot reward points and a 0% APR intro offer from Chase. Peak Miami hustle."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2110989113113379253",
+          "author": "marianalan5166",
+          "searchJob": "miami",
+          "text": "@dandinohill A little brain all was consumed by dementia. Thw little he had promised a 100 million for Peru i was terrified and always he was offering. He when to Miami and he also offered to pay the apartments of the building that crumble."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2110990932778828125",
-          "author": "shahab_langah",
-          "searchJob": "georgia",
-          "text": "Not true. USSR attacked Finland and defeated them twice once in the winter war and second time during WW2 but didn’t take all of Finland and they have been at peace since then. Russia defeated Georgia in 2008 they didn’t take all of it they"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2110992721846374433",
-          "author": "kickrocks2026",
-          "searchJob": "charlotte",
-          "text": "In the early hours of 16 October 1793 she wrote a last letter to her sister-in-law Madame Élisabeth (imprisoned separately). It expressed calm, asserted her innocence, regretted abandoning her children, offered blessings, and affirmed her C"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110977633257451657",
-          "author": "49ersara",
-          "searchJob": "charlotte",
-          "text": "Your Sunday plans are sorted! 🏈🔥 Join us at McGettigan’s JLT as the 49ers take on the Falcons. Enjoy food and drinks offers, with chances to win exciting prizes, and all the game day action with fellow NFL fans! 📍 McGettigan’s JLT, Dubai"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111002348776534027",
-          "author": "getachewfa5067",
-          "searchJob": "coastal-carolina",
-          "text": "Ethiopia’s pursuit of sea access is not an attempt to challenge Eritrea’s sovereignty or lay claim to its territory. It is a matter of Ethiopia’s legitimate national interest and strategic necessity, one that can be addressed through peacef"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111001968462205238",
-          "author": "getachewfa5067",
-          "searchJob": "coastal-carolina",
-          "text": "Ethiopia’s pursuit of sea access is not an attempt to challenge Eritrea’s sovereignty or lay claim to its territory. It is a matter of Ethiopia’s legitimate national interest and strategic necessity, one that can be addressed through peacef"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111001791106056664",
-          "author": "getachewfa5067",
-          "searchJob": "coastal-carolina",
-          "text": "Ethiopia’s pursuit of sea access is not an attempt to challenge Eritrea’s sovereignty or lay claim to its territory. It is a matter of Ethiopia’s legitimate national interest and strategic necessity, one that can be addressed through peacef"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110996980558364760",
-          "author": "pnagovph",
-          "searchJob": "coastal-carolina",
-          "text": "Pangasinense mother crafts seashell scraps into world-class home decors By Hilda Austria MALASIQUI, Pangasinan – A mother from the coastal Pangasinan city of Alaminos has turned discarded seashells into world-class home décor and kitchen ac"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2110992341175529607",
-          "author": "pnagovph",
-          "searchJob": "coastal-carolina",
-          "text": "BFAR prepares Southern Leyte communities ahead of sardines fishing ban By Sarwell Meniano TACLOBAN CITY – The regional office of the Bureau of Fisheries and Aquatic Resources (BFAR) here has intensified its information campaign on the sardi"
+          "postId": "2110996714337493075",
+          "author": "amitsha77280075",
+          "searchJob": "stanford",
+          "text": "Sam Altman invited Peter Thiel to Stanford to teach a lesson most entrepreneurs still ignore. His message? “Competition is for losers.” In his famous 2014 Stanford lecture, Thiel explained why the biggest businesses don’t win by fighting co"
         }
       ]
     },
@@ -193,20 +166,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "utah-state: SearchTimeline HTTP 404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 5,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-16T07:58:09.676Z"
+    "status rebuilt locally from current store on 2026-10-16T08:13:06.315Z"
   ]
 }
