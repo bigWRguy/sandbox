@@ -1,4 +1,7 @@
+import { createHash } from 'node:crypto';
 import { sleep } from '../lib/http.js';
+
+const credId = (token) => `s:${createHash('sha256').update(token).digest('hex').slice(0, 6)}`;
 
 let _pw = null;
 async function playwright() {
@@ -18,11 +21,11 @@ export function loadCredentials() {
   if (process.env.X_SESSIONS) {
     for (const pair of process.env.X_SESSIONS.split(',')) {
       const [authToken, ct0] = pair.split(':').map((s) => s && s.trim());
-      if (authToken && ct0) creds.push({ authToken, ct0, id: `s:${authToken.slice(0, 6)}` });
+      if (authToken && ct0) creds.push({ authToken, ct0, id: credId(authToken) });
     }
   }
   if (process.env.X_AUTH_TOKEN && process.env.X_CT0) {
-    const id = `s:${process.env.X_AUTH_TOKEN.slice(0, 6)}`;
+    const id = credId(process.env.X_AUTH_TOKEN);
     if (!creds.some((c) => c.id === id)) {
       creds.push({ authToken: process.env.X_AUTH_TOKEN, ct0: process.env.X_CT0, id });
     }

@@ -99,7 +99,7 @@ async function collect(state, log, audit) {
     log('  !! Per-school search is the engine of this system. Without a credential the');
     log('  !! only thing running is corroboration of posts from accounts you already');
     log('  !! follow, which is exactly the coverage the recruiting services already have.');
-    log('  !! Set X_AUTH_TOKEN + X_CT0 (or X_SESSIONS). See README.');
+    log('  !! Set X_AUTH_TOKEN + X_CT0 (or X_SESSIONS).');
     log('');
     state.searchConfigured = false;
   } else {

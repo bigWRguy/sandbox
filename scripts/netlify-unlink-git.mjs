@@ -1,8 +1,3 @@
-// One-shot: disconnect this Netlify site from its linked git repo so a push
-// can never again trigger even a canceled Netlify-side build attempt.
-// The site is already updated exclusively via `netlify deploy --dir site`
-// (a plain file upload, no build minutes); this just removes the now-vestigial
-// continuous-deployment wiring that still fires (and gets ignored) on every push.
 const TOKEN = process.env.NETLIFY_AUTH_TOKEN;
 const SITE = process.env.NETLIFY_SITE_ID;
 if (!TOKEN || !SITE) {
@@ -20,9 +15,6 @@ if (!before.build_settings?.repo_url) {
   process.exit(0);
 }
 
-// Plain `{ repo: null }` is silently ignored by the API. The field Netlify's
-// own dashboard "Stop builds" button flips is build_settings.stop_builds —
-// that's the one that actually prevents a build from ever being queued.
 const res = await fetch(`https://api.netlify.com/api/v1/sites/${SITE}`, {
   method: 'PATCH',
   headers: {
