@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:58:24.034Z",
+  "generatedAt": "2026-10-17T18:13:23.142Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-17T17:58:23.637Z",
+    "at": "2026-10-17T18:13:22.673Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "california",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.2758702777777777,
-    "p95Hours": 2.0280686111111113,
-    "worstHours": 2.0280686111111113
+    "medianHours": 1.027111111111111,
+    "p95Hours": 2.026572222222222,
+    "worstHours": 2.277820833333333
   },
   "decisionCoverage": {
-    "total": 43,
-    "decided": 43,
+    "total": 82,
+    "decided": 82,
     "complete": true
   },
   "pending": {
@@ -47,7 +56,7 @@
   "profileResolution": {
     "cached": 84
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
     "completeOffers": 3175,
     "incompleteOffers": 0
@@ -55,344 +64,380 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-17T17:58:23.636Z",
-      "got": 90,
-      "new": 43,
-      "lag": 0.04
+      "at": "2026-10-17T18:13:22.672Z",
+      "got": 123,
+      "new": 82,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-17T17:56:44.852Z",
+    "at": "2026-10-17T18:11:44.250Z",
     "mode": "live",
     "collection": {
-      "returned": 90,
-      "kept": 43,
-      "duplicate": 46,
-      "tooOld": 1,
+      "returned": 123,
+      "kept": 82,
+      "duplicate": 37,
+      "tooOld": 4,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 20,
+      "accepted": 47,
+      "rejected": 35,
       "reasons": {
-        "no_fbs_school": 10,
-        "non_fbs_offer_target": 7,
-        "no_offer_term": 2,
-        "unclassified_offer_text": 1
+        "no_offer_term": 9,
+        "no_fbs_school": 25,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2111514220458324348",
-          "author": "tylersmith_73",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "AGTG!! After a great conversation with @coachmsimmonds and @devinbice88 Im blessed to receive an offer to play at The University of West Georgia!!! @JaxCoRecruitsFB @CoachMobbs @CoachPJones65 @CoachDMHendrix @jadenbass32 @rojas_evan @CoachD"
+          "reason": "no_offer_term",
+          "postId": "2111517729668657421",
+          "author": "grazi",
+          "searchJob": "california",
+          "text": "https://t.co/VthEzDwAkR"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111512470217257170",
-          "author": "jacksonmann123",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @h_rodriguez23 I am blessed to receive my first offer from SCU. Thank you Coach for believing in me. https://t.co/hk8jYxKGih"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2111496446642188427",
-          "author": "nehemiahtupua",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "THANK YOU JESUS! After a great conversation with @CoachCarskie and Coach @LOGGER_LBCOACH , I am blessed to have Receive an offer from the University of Puget sound! All glory to God! https://t.co/EMn2G4vUi3"
+          "postId": "2111517604443488758",
+          "author": "damonstrong",
+          "searchJob": "california",
+          "text": "San Diego, California — Deputies responded to a call about an unhoused individual suffering from a possible overdose. The man, later identified as 51-year-old Gary Gates, was known to frequent the area near the Imperial Beach Pier. When dep"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111489525356896503",
-          "author": "jordan_king52",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @jefthomas4 I am blessed to have receive an offer from @P_S_football Thank you Coach for your belief in me! https://t.co/qyOlTKy7az"
+          "postId": "2111514494295740491",
+          "author": "chinauncensored",
+          "searchJob": "california",
+          "text": "Sometimes, this job is so sweet... A Chinese national was arrested in California after allegedly spying on the son of Taiwan’s president—and the FBI says the operation went far beyond simple surveillance. From tracking Lai Ching-te’s son in"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111483677297230050",
-          "author": "iamzaydenmartin",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CatchitPat I am blessed to announce I have received my 3rd offer from @NCDAWGPOUND ! Thank you to my coaches and teammates who continue to push me to be great everyday. @Tuck11Carter @CoachThibodeaux @LHSTX_"
+          "postId": "2111511820318171591",
+          "author": "cozy_poster",
+          "searchJob": "california",
+          "text": "@skumWgmi In California, you can't background and drug test someone unless you give them an offer first. Not sure what other states do."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2111503047671034076",
-          "author": "operatingbyjohn",
-          "searchJob": "rice",
-          "text": "https://t.co/Gwpco7d04K"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2111513480184406521",
-          "author": "rep1exposure",
-          "searchJob": "alabama",
-          "text": "🚨 ANOTHER OFFER FOR A REP 1 ATHLETE! The offers keep coming! 🔥🏈 Congratulations to Michael Hosea (@Mike_Hosea13), a Class of 2027 TE, on receiving his 5th collegiate offer from Alabama A&M University! 🐶 Congratulations to Michael, and a"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2111507413182632337",
-          "author": "mike_hosea13",
-          "searchJob": "alabama",
-          "text": "After a great talk with @CoachBradB I am bless to receive my 5th offer from Alabama A&amp;M University. @cjmoody88 @AL_Recruiting @hopo125 @m_howard44 @Rep1Exposure @CoachKDTaylor @TDARecruiting @HallTechSports1 @ChadSimmons_ https://t.co/p"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2111512026430521347",
-          "author": "willslee7",
-          "searchJob": "michigan",
-          "text": "Congratulations to HB ELITE 2027 guard Addy Burns (Boyne City HS) on receiving an offer from Mid Michigan College (NJCAA)! 🏀🔥 Another opportunity earned through hard work, dedication, and consistency! Proud of you, Addy! Keep stacking the"
+          "postId": "2111504406881374380",
+          "author": "bidziil1964",
+          "searchJob": "california",
+          "text": "Paternal filicides happen inside a home. This one happened on a sidewalk near a high school and a restaurant. The father was pushing a cart carrying a propane tank, with a “Happy Meal” box placed on top, while the boys walked beside him; th"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111509622049935409",
-          "author": "3prog4u",
-          "searchJob": "michigan",
-          "text": "i don’t get AI in food advertising. isn’t that supposed to be your food that you offer?"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2111508085730648517",
-          "author": "thereallevikerr",
-          "searchJob": "michigan",
-          "text": "thank you @UMichFootball for offering me! https://t.co/Xre9Zv1De7"
+          "postId": "2111501558055657879",
+          "author": "americaredvoice",
+          "searchJob": "california",
+          "text": "Ted Nugent says he was a little bit surprised when Jelly Roll called him and asked him to participate in the Northwest California Country Festival this weekend. \"I offered to play a short set for him last year,\" Nugent said. \"He turned me d"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111504158297657812",
-          "author": "ick_galg",
-          "searchJob": "michigan",
-          "text": "📄 The Jewish American Democrat Attorney General of the state of Michigan 🇺🇸 @dananessel would like to weaponize Jewish Queen Esther the great savior of the Jewish people- against the Jewish people today, with a cultish advice to the Jewi"
+          "postId": "2111494952144543823",
+          "author": "go511",
+          "searchJob": "california",
+          "text": "Go Metro to the Taste of Soul on Saturday, Oct. 17! Three K Line stations offer easy access to the event: Expo/Crenshaw, Martin Luther King, Jr., and Leimert Park. The E Line's Expo/Crenshaw Station is also at the festival's north end. More"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111520522270093755",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US ] 📦 ZikeDrive U35 Bolt+ (U35-8T-80G) – 8TB USB4 Portable USB-C SSD with up to 6000 MB/sec speeds at $2799.00 [ad] https://t.co/MYfIPCYWHw – 8TB storage capacity for huge RAW libraries and demanding files – USB4 80Gbps design fo"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2111502750894727304",
-          "author": "newstribune",
-          "searchJob": "missouri",
-          "text": "Like any working professional, Mid-Missouri author E. Jane Rutter has had her fair share of career moments that's had her question what's important in life. Access the News Tribune for this feature. #JCMO #MidMo https://t.co/a5ZcZbWr6J http"
+          "postId": "2111520479697863027",
+          "author": "pit5000",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/kFqa0mJTF9"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111516540969656754",
-          "author": "mctaquitos",
-          "searchJob": "nebraska",
-          "text": "@AdityaUmale17 @investwithpaul open the offer. you’ll see"
+          "postId": "2111520395430093091",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 📦 Lenovo IdeaCentre AIO (F0HR00CFIN) – AMD Ryzen 5 7533HS, 8GB RAM, 512GB SSD, 23.8-inch Full HD IPS All-in-One Desktop at Rs 65,990 (MRP Rs 1,27,690) [ad] https://t.co/WZ9m3EZSKv – Powered by AM"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111513623176909198",
-          "author": "devincrutcher27",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After a good conversation with @Coach_RReid1 im extremely blessed to receive my first offer from the university of bethel! @BeechFootball https://t.co/6QOF0CIZDj"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2111511347443945884",
-          "author": "grant09crawford",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive an offer from Sterling College! Thank you @CoachBoehler and the whole coaching staff at Sterling College for this opportunity! #AGTG @DerekRosa5 @vtdnews @_CoachRogers @devrosa5 @SCWarriorFB @PGregorian @JacksonMoore247 h"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2111509848214946197",
-          "author": "jakaichapman27",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive my 3rd offer from North Greenville University #AGTG @elodge4 @BerkeleyStagsFB @Stag_Strength @CoachFaulkner10 @StagsRecruiting @PrepRedzoneSC @PRecruiting7 @CoachL59 @NyleGrove https://t.co/JbaHVjP5op"
+          "postId": "2111518799577125376",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 📦 HP All-in-One (24-cr0023in) – AMD Ryzen 7 7730U, 16GB DDR4, 512GB SSD, 23.8-inch FHD IPS All-in-One PC at Rs 69,990 (MRP Rs 82,414) [ad] https://t.co/KCoMMdyhbH – Powered by AMD Ryzen 7 7730U p"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111509526545313795",
-          "author": "hannagrace33",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to receive an Offer from @TLUwbb #AGTG https://t.co/Sfp5ixJ0bb"
+          "postId": "2111518264287543735",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 Eaton Tripp Lite Industrial Switch (NGI-U08C2P8-4) – 8-Port Unmanaged Industrial PoE+ Switch at $800.00 [ad] https://t.co/w9y4P7Ize6 – Connects Gigabit Ethernet devices and delivers up to 30W per PoE+ port – Featu"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111508280661164133",
-          "author": "nazh_88_free",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG to receive an offer from UAPB https://t.co/iemNQaXWtx"
+          "postId": "2111517607081754671",
+          "author": "techcreatorshq_",
+          "searchJob": "texas-tech",
+          "text": "2 of 20 is a slow start for a good offer. Post the ambassador brief on Elev8or Collabs. Creators with 1K to 10K followers apply with verified profiles, you approve or pass. https://t.co/Hi4UB9OBS1"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2111505731988177156",
-          "author": "jack5cbb",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great visit and conversation with Coach Olin Parker I am blessed to receive my first offer From Southern University of New Orleans #AGTG @TheProspectLab @LEADAtlanta https://t.co/UUHEBjzDhV"
+          "reason": "no_offer_term",
+          "postId": "2110592131706532219",
+          "author": "dherealmark",
+          "searchJob": "texas-tech",
+          "text": "Day 2 of my 0-to-100users challenge. Today I'm launching a big-ish micro-influencer campaign. My goal is to get at least 20 creators to sign up as ambassadors for VidEngineer. So far, I have 2 ☠️ but I'm really looking for creators with 1,0"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2110380476368117769",
+          "author": "dherealmark",
+          "searchJob": "texas-tech",
+          "text": "Everyone says software is dead. I don’t buy it. I’m a businessman, and I’ll always find a way to make business work. I did it pre-AI, and I’ll do it now. I’ve spent months building a video tool that’s a game changer for those who make video"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111517262591217894",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 📦 ASUS V440 (V440VAB-KWC3001WS | ASUS V400) – Intel Core 3 100U, 8GB RAM, 512GB SSD, 23.8-inch FHD All in One PC at Rs 55,990 (MRP Rs 1,22,900) [ad] https://t.co/XQuZ6zrhNL – Powered by an Intel "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111515101266411974",
+          "author": "davetechbeyond",
+          "searchJob": "texas-tech",
+          "text": "The PREDICTORIUM CUP is bringing traders and prediction enthusiasts together for a week of competition, running from October 14 at 9:00 AM UTC to October 21 at 9:00 AM UTC. With 10,900 $WAVES in rewards distributed across 8 winning spots, p"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111506593112056158",
+          "author": "_eyetest",
+          "searchJob": "utah",
+          "text": "There are 3 days left until the start of the 2026/2027 season. It feels like the anticipation for the season to begin grows every year, almost every team has something exciting to offer. You’ve got Dybantsa on the Wizards, an intriguing sta"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111511703523643516",
+          "author": "1fokoleta",
+          "searchJob": "liberty",
+          "text": "Iran’s regime killed my brother. I refuse to hate Muslims. Hormoz Shariat October 17, 2026 The men who executed Hamraz ruled through terror. Christ demanded something harder of me: Love the people I once wanted to punish and resist the tyra"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111511676826861614",
+          "author": "weeklyvoice",
+          "searchJob": "liberty",
+          "text": "For riders, several basic purchasing decisions remain unanswered. Waymo says passengers will eventually book through its app, but its Toronto announcement does not provide a fare schedule or a final passenger... https://t.co/mq2UtlVjWH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111503093171180031",
+          "author": "_trumerican",
+          "searchJob": "liberty",
+          "text": "@karlykingsley Do a little research about @elonmusk and his offer to solve world hunger before posting and proving to everyone you’re an idiot."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111496311052648703",
+          "author": "libertykatjg",
+          "searchJob": "liberty",
+          "text": "@yoursnandieni I find it humorous you think the US relies on India in any way. Look, India has a few things to offer, but given your lack of integrity in managing them, you do not have a good track record. Now, take care of those sandalwood"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111492852874363115",
+          "author": "galtrand13",
+          "searchJob": "liberty",
+          "text": "If the charges are proven, how could we NOT put her in prison and then Deport her? I know that since 2016, partisan Democrat Communist Cult judges seem to think there are three levels of law/Judicial enforcement: One for the commissars in t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111518914945355871",
+          "author": "el_investments",
+          "searchJob": "louisiana",
+          "text": "Wall Street is buying forests. Not stocks. Not crypto. Actual trees. Institutions are scooping up about 1 million acres of U.S. timberland every year, according to Bank of America. Why would sophisticated money tie itself up in something th"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 23,
+      "accepted": 1,
+      "rejected": 46,
       "reasons": {
-        "bare_mention_requires_llm": 17,
+        "bare_mention_requires_llm": 22,
+        "multiple_resolved_schools": 8,
         "reporter_missing_player_name": 3,
-        "multiple_resolved_schools": 3
+        "school_not_resolved_confidently": 12,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111505192151838862",
-          "author": "coco7fg",
-          "searchJob": "fresno-state",
-          "text": "I Have two extra tickets for Fuerza Regida concert on Oct 28 at Save Mart Center, Fresno, CA. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111515558458081471",
-          "author": "lalovestrump",
-          "searchJob": "rice",
-          "text": "@AzusAPride Typical burrito in la comes with rice .. There were beans in it .. some places go too crazy with beans Some places offer an “all meat” burrito but obviously it will cost more Im sure most places would be happy not to put rice bu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111505888347652425",
-          "author": "astro_panditji_",
-          "searchJob": "rice",
-          "text": "♋ CANCER (Lagna / Moon) Predictions - Jupiter supports personal growth, confidence, and new opportunities from late January. - Saturn encourages spiritual growth and disciplined learning. - February–March favors self-improvement and long-te"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111503279762952566",
-          "author": "theatreofpies",
-          "searchJob": "rice",
-          "text": "Kilmarnock 3-2 Motherwell In large parts of the game I thought we were brilliant and in attack showed lots of good play. Rice deserved his starting spot but he played from the start like he was injured and Tish looked a lot better than rece"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111501514850111928",
-          "author": "olowo_daniels",
-          "searchJob": "rice",
-          "text": "Today, i went to get the regular jollof rice and chicken at Kilimanjaro, 2,700 plus take away, had cash 3k but cashier did not have change, so this older woman next to me payed for the 200 to sort out the change issues. I was so happy, i th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111496001802621307",
-          "author": "twshannon",
-          "searchJob": "rice",
-          "text": "@BolandDrummer @evie10151 And Brad Rice is in my comments w nothing to offer other than the hopes of being acknowledged. You’re welcome."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111493960690770049",
-          "author": "alfiecoulson08",
-          "searchJob": "rice",
-          "text": "i’m really struggling to keep Declan Rice above Moises Caicedo as footballers. i just think Caicedo offers essentially everything defensively, whilst having more consistent technical upside. his technical ceiling is much higher, i think Ric"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2111492963692130498",
-          "author": "ashujhanwar",
-          "searchJob": "rice",
-          "text": "India has shut sugar out of #ethanol for all of 2026-27. The OMC tender (~1,100 crore litres, Nov–Oct) takes no offers from cane juice, syrup, sugar or B-heavy molasses. Only C-heavy molasses, maize, damaged grain and FCI rice are in. Cane "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111491438991085595",
-          "author": "tatjana_holmes",
-          "searchJob": "rice",
-          "text": "Ah the 'good old days', when something was called 'exotic' because it had curry powder in it 😄 - Aldi has smoked coley fillets on offer which made me think of kedgeree. Usually smoked haddock is used but coley, mackerel or herring (kippers"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111487402405499089",
-          "author": "ahkrice",
-          "searchJob": "rice",
-          "text": "1121 Golden Sella Basmati offers long grains and a distinctive golden appearance for importers, wholesalers and foodservice businesses. Explore Pakistani rice sourcing with AHK Rice. https://t.co/BwPiLQeB11 #1121Basmati #GoldenSella #Basmat"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111509792657113363",
-          "author": "aprilancira",
-          "searchJob": "utsa",
-          "text": "@KnutsonActual @UTSAFTBL Actually, I offered to pay for an extra night in San Antonio at a hotel &amp; he declined my offer. Based on briefly chatting with him. He probably would have stayed &amp; just bought his own tickets. However, I was"
+          "postId": "2111510266374721944",
+          "author": "escobarmarvpbm",
+          "searchJob": "california",
+          "text": "Ready to take your Alfa Romeo further? MADNESS Autoworks offers performance parts, accessories, customization, and installation services in California and Texas, delivered straight to your door. Contact us for inquiries. https://t.co/3ObIof"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2111507961910612245",
-          "author": "williamseals",
-          "searchJob": "alabama",
-          "text": "Iowa State offers 2028 Alabama HS CB. PROFILE: https://t.co/Zo2vjPTsdG"
+          "postId": "2111505006553862635",
+          "author": "beefmaps",
+          "searchJob": "california",
+          "text": "A Nevada sheep outfit in the family since 1903 lost its buyers in 2022 and never got them back. Its rancher testified at the U.S. International Trade Commission on Oct. 16. Michael Bardsley of John Espil Sheep Company testified for R-CALF U"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111504634980553216",
+          "author": "andrewchampagne",
+          "searchJob": "california",
+          "text": "Happiness is a YouTube Premium trial offer coming exactly when ridiculous one-sided ads for California propositions are impossible to ignore without it."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111502941047644216",
+          "author": "headdoc03",
+          "searchJob": "california",
+          "text": "Awww thank you dear friends. I have not, I am still busy showing them off. But, a good friend is staying here with her two Goldens next weekend and my California Sister in Law and Brother in law are coming to visit. After they admire them, "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2111500051428016540",
-          "author": "juicemanpoker",
-          "searchJob": "alabama",
-          "text": "Draftkings &amp; Fanduel offer a 50% boost today that can be used on a single bet on the Tennessee vs Alabama game. If you bet over 50.5 on FD, and under 50.5 on DK, using the boosts, u r gauranteed to win 1 bet &amp; profit ~$4 no matter w"
+          "postId": "2111502769420976626",
+          "author": "soldbyzito",
+          "searchJob": "california",
+          "text": "California or Texas? 🌴🤠 From mountain views in the Inland Empire to lake days around Lake Travis, both have something special to offer. After 20 years in real estate, I'm proud to help buyers and sellers in both states. Team California or"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111514161616470169",
-          "author": "mstephenslaw",
-          "searchJob": "michigan",
-          "text": "@infodexx Your Michigan plate is outdated as that plate is no longer offered. And we have several other uglier options… https://t.co/Emnpb1gQKP"
+          "postId": "2111502503770824810",
+          "author": "lwinterbottom7",
+          "searchJob": "california",
+          "text": "I have spare Charli XCX tickets at Kia Forum x3 Floor GA tickets available for face value or best offer pls dm if you are interested in any I can sell individually also wts iso charli xcx tickets los angeles california https://t.co/IGLlFs5P"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111512706503336272",
-          "author": "glamorgan50",
-          "searchJob": "michigan",
-          "text": "@MikeRogersForMI You represent yourself and another state and are funded by another State. You are fake - you come from the other end of the country - you have no idea about local issues in Michigan and you support Trump whose policies have"
+          "postId": "2111499285313487355",
+          "author": "oxblood__",
+          "searchJob": "california",
+          "text": "@WallStreetApes L post Separate your business argument from your immigration argument Plenty of legals have these California rapes you in taxes to open up brick and mortar just to have all your SYSCO food taste the same These offer deliciou"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111509413420757025",
-          "author": "swiltfong_",
-          "searchJob": "michigan",
-          "text": "Michigan offers one of the top 2028 QBs in the country today in Levi Kerr who is in Ann Arbor for a visit: https://t.co/mrGaGOpxal"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2111509054078234955",
-          "author": "swiltfong_",
-          "searchJob": "michigan",
-          "text": "Michigan has offered one of the top 2028 QBs in the country today in Levi Kerr during today’s visit. https://t.co/mrGaGOq4ZT"
+          "postId": "2111489958158410086",
+          "author": "danaworley10",
+          "searchJob": "california",
+          "text": "Spencer is pissed off and so are we! Thank you both for taking on the Democratic Machine to offer REAL Hope & Change. Spencer was cheated out of a Mayoral race that he fought for. We all watched happen in real time. I hope California voters"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111508674128564564",
-          "author": "ethanmmcdowell",
-          "searchJob": "michigan",
-          "text": "👀 Big offer here! Michigan is hosting 4 ⭐️’28 QB Levi Kerr from Waxhaw (N.C.) Marvin Ridge High today. He’s the No. 102 recruit in the country. His Rivals profile: https://t.co/daQxVS9FPB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111491993704579193",
-          "author": "metavaria",
-          "searchJob": "michigan",
-          "text": "@infodexx Michigan doesn’t offer that one anymore"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111487536900006371",
-          "author": "mistormchasers",
-          "searchJob": "michigan",
-          "text": "WEEKLY WEATHER MONITOR! A pretty quiet stretch is setting up for Michigan overall. Sunday brings the main thing to watch with dry and windy conditions across the U.P., while Monday and Tuesday look calm. A few rain chances may sneak back in"
+          "postId": "2111488487396422022",
+          "author": "stevehiltonx",
+          "searchJob": "california",
+          "text": "Corrupt Sacramento politicians have priced working families OUT of college. A UC education now costs about $47,000 a year, and only about 35% of Cal State students graduate in four years. As governor, I’ll: - FREEZE in-state tuition at our "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2111516594887164087",
+          "postId": "2111507395700785211",
           "author": "benjamingolan",
-          "searchJob": "missouri",
-          "text": "Mansfield Timberview EDGE Preston Stauts (@30kpreston) has arrived for his visit at #TexasTech. Offers from Oklahoma State, SMU, Ole Miss, Missouri + more @RedRaiderSports https://t.co/qd8ooDtQsI https://t.co/pFBnCgNW3Y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111494121089036599",
-          "author": "casgrading",
-          "searchJob": "missouri",
-          "text": "CAS IS LIVE AT MISSOURI FAN EXPO! We’re in Springfield, Missouri, TODAY and TOMORROW (October 17–18) at the Springfield Expo Center! Bring your favorite collectibles, meet the CAS team and take advantage of THREE great offers when you submi"
+          "searchJob": "smu",
+          "text": "Richardson DL Noah Ross (@Noah_Ross1216) is at #TexasTech today for an unofficial visit. The 3-star prospect holds several offers including SMU, TCU, Texas, USC + more @RedRaiderSports https://t.co/bFerXnk0Z7 https://t.co/HURo1boMXd"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2111512028699562215",
-          "author": "andrewjordan_12",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Just received my first D1 offer from JSU #agtg https://t.co/NWCMmankgt"
+          "postId": "2111519252243185784",
+          "author": "csaprepstar",
+          "searchJob": "syracuse",
+          "text": "Congrats on your offer from Syracuse! PrepStar has identified you as a top college prospect. Elevate your recruiting and NIL opportunities to the next level by creating your Free Recruiting Profile and get seen by thousands of college coach"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111517004792512783",
+          "author": "pag_football",
+          "searchJob": "syracuse",
+          "text": "Class of 2027 CBA Syracuse (NY) DL/TE @CarterAchuff55 adds a Middlebury offer. @MiddFootball"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111520420910567854",
+          "author": "kamyasamuel",
+          "searchJob": "texas-tech",
+          "text": "Potential lead to lead to closed sale. Patience. Explaining. Understanding a client's pain point some more. Improving the offer and solution. Being mindful of cost of goods. The final markup. The fight against feeling like you're too expens"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111520388387901674",
+          "author": "blackstarolivia",
+          "searchJob": "texas-tech",
+          "text": "@f1owerpicking @guest123413 @JucheAffirmer i'd have have gone with industrial assassination by the marketing and, accounting who offer them tech bros the cars, and then the engineers who designed it as they manically laugh thinking there bo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111520084833304593",
+          "author": "brotherjoseph",
+          "searchJob": "texas-tech",
+          "text": "Find guidance from a model who bridged tradition and tech. This novena offers prayers for faith in the digital age and families seeking modern holiness. A steady companion for daily devotion. #ad #JourneysOfFaith #Faith Tap the link in bio."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111519861071282495",
+          "author": "abduljalilmb",
+          "searchJob": "texas-tech",
+          "text": "@Teehanz005 I can see you're into tech, but please go out and look for jobs. If you have friends with established businesses, offer to volunteer for them. Keep yourself busy and keep applying for jobs."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2111519198329618725",
+          "author": "wpialrecruits",
+          "searchJob": "texas-tech",
+          "text": "@Mari412pa @ZacDiles @CoachLehmeier @PCC_FOOTBALL @JasonPinkstonOL @7Twice @247Sports @WPIAL_Insider @PA_TodaySports Congrats Demari! Cal one week after Texas Tech, that's two Power 4 offers in a week for the 6-3, 280 Central Catholic junio"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2111517825445892238",
+          "author": "itsantwright",
+          "searchJob": "texas-tech",
+          "text": "Held USC, Indiana, Georgia Tech, Xavier, Florida State offers"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111517654267711684",
+          "author": "bharat_canada",
+          "searchJob": "texas-tech",
+          "text": "🇨🇦 Same tech sector. 100 vs 0 CRS job-offer points? From Nov 3, 2026: 💻 NOC 20012 IT managers: 100 NOC 21231 Software engineers: 70 NOC 21233 Web designers: 0 Job-offer points require a qualifying offer. 👇 Comment your NOC + job title! "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111517599884538217",
+          "author": "pirat_nation",
+          "searchJob": "texas-tech",
+          "text": "Sony could be working on its own frame generation tech for the PS6, and a new patent offers interesting clues. Instead of rendering every frame, the system could predict and generate the next one. For example, if you press the jump button, "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111517209650430075",
+          "author": "ghparker9",
+          "searchJob": "texas-tech",
+          "text": "So, I would warn against looking for a single study (or even a collection) to get a handle on this. It's honestly probably more useful to look at anecdotes from schools. I'm not being exclusionary or claiming you have to have an Ed degree t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111515822070083793",
+          "author": "riolongacre",
+          "searchJob": "texas-tech",
+          "text": "Yes, for sure. AdTech has always been very specialized and difficult, and thus best left to startups wth more room/ability to innovate. Agreeing with your earlier point, AI is making it much easier to create orchestration tools, e.g. OMNI a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111514965031133618",
+          "author": "zaitoon",
+          "searchJob": "texas-tech",
+          "text": "Nathan Fielder offers a new genre and a cultural catharsis in his treatment of one of the definitive fraud stories of our post-truth, tech dominated era. Elizabeth Holmes a perfect subject in ‘You Can See Everything’. https://t.co/MO5uZtRj6"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111519717227737216",
+          "author": "moderncamp",
+          "searchJob": "utah",
+          "text": "Utah’s national parks now offer all-terrain wheelchairs, setting a new standard for accessibility. Could adaptive equipment transform your campground’s guest experience? Learn how to make your outdoor property more inclusive—read the full s"
         }
       ]
     },
@@ -406,12 +451,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 23,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 46,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-17T17:58:24.035Z"
+    "status rebuilt locally from current store on 2026-10-17T18:13:23.143Z"
   ]
 }
