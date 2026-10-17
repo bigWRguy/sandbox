@@ -1,24 +1,5 @@
 {
   "seenPostIds": [
-    "2105321071029481956",
-    "2105320780477190337",
-    "2105317448014569798",
-    "2105308841453736007",
-    "2105296631725764811",
-    "2105321797511999728",
-    "2105311322082816070",
-    "2105298560237674818",
-    "2105296985691722193",
-    "2105296966808641978",
-    "2105323230882144383",
-    "2105321278265508162",
-    "2105308807131963394",
-    "2105325293820875029",
-    "2105323643048022327",
-    "2105306346526535822",
-    "2105301344743817249",
-    "2105325740375920690",
-    "2105298400484683917",
     "2105325902305317246",
     "2105323007921009110",
     "2105322691314033099",
@@ -59999,17 +59980,36 @@
     "2111240783814869072",
     "2111240288123682831",
     "2111224613921296474",
-    "2111219700181127260"
+    "2111219700181127260",
+    "2111223462266384782",
+    "2111250293870501999",
+    "2111252307082203408",
+    "2111251742939861072",
+    "2111250011627680233",
+    "2111248312741626066",
+    "2111248258379190483",
+    "2111248144835174768",
+    "2111247169076293819",
+    "2111246440165257699",
+    "2111246126766776506",
+    "2111245905735098758",
+    "2111245876345847951",
+    "2111245543347548515",
+    "2111244614938366237",
+    "2111244337015136455",
+    "2111244224289284606",
+    "2111242340941836674",
+    "2111241064459976746"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-10-17T00:13:36.268Z",
-      "got": 104,
-      "new": 59,
-      "lag": 0.03
+      "at": "2026-10-17T00:26:59.965Z",
+      "got": 23,
+      "new": 19,
+      "lag": 0.02
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60455,27 +60455,33 @@
       "truncated": false
     },
     "syracuse": {
-      "at": "2026-10-16T22:11:47.828Z",
+      "at": "2026-10-17T00:26:37.573Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 1,
       "truncated": false
     },
     "tcu": {
-      "at": "2026-10-16T22:11:47.828Z",
+      "at": "2026-10-17T00:26:37.573Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "texas-tech": {
       "at": "2026-10-16T22:11:47.828Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 0,
-      "truncated": false
+      "lastPosts": 20,
+      "truncated": true,
+      "window": {
+        "lower": "2026-10-16T22:06:47.828Z",
+        "upper": "2026-10-17T00:26:37.573Z",
+        "until_time": "2026-10-16T23:41:08.000Z",
+        "completed": false
+      }
     },
     "ucf": {
-      "at": "2026-10-16T22:11:47.828Z",
+      "at": "2026-10-17T00:26:37.573Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 2,
+      "lastPosts": 1,
       "truncated": false
     },
     "utah": {
@@ -60587,16 +60593,10 @@
       "truncated": false
     },
     "army": {
-      "at": "2026-10-16T21:56:46.263Z",
+      "at": "2026-10-17T00:11:55.504Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 23,
-      "truncated": true,
-      "window": {
-        "lower": "2026-10-16T21:51:46.263Z",
-        "upper": "2026-10-17T00:11:55.504Z",
-        "until_time": "2026-10-16T21:51:46.263Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "ball-state": {
       "at": "2026-10-17T00:11:55.504Z",
@@ -61101,11 +61101,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-10-17T00:13:36.268Z",
+    "at": "2026-10-17T00:26:59.966Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61125,365 +61125,167 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-10-17T00:11:55.481Z",
+    "at": "2026-10-17T00:26:37.558Z",
     "mode": "live",
     "collection": {
-      "returned": 104,
-      "kept": 59,
-      "duplicate": 44,
-      "tooOld": 1,
+      "returned": 23,
+      "kept": 19,
+      "duplicate": 4,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 36,
-      "rejected": 23,
+      "accepted": 12,
+      "rejected": 7,
       "reasons": {
-        "hard_negative": 5,
-        "no_offer_term": 14,
-        "no_fbs_school": 4
+        "hard_negative": 1,
+        "no_offer_term": 4,
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "hard_negative",
-          "postId": "2111222478555299905",
-          "author": "grahamliddell55",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Extremely blessed to receive my first D2 offer to @BSUBeaversFB 🦫‼️@JacobSurdy @Josh_Montzingo @coachfebo @CoachSpooner_ @CoachRico305 @ballersinutah @SlingintheP @BrownbearSLC @PTrenches @PrepRedzoneUT @UTTrenches https://t.co/4ccWRsgKVT"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2111222130075488761",
-          "author": "blakesanders77",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk and visit with Coach Dombrowski, I am blessed to receive my second offer to play baseball at the Shawnee State University @coachbum37 @ShawneeStateBB https://t.co/IWBxW7RKkr"
+          "postId": "2111223462266384782",
+          "author": "wrbramscher",
+          "searchJob": "syracuse",
+          "text": "* @ChatGPT * GONZOTRON! 🪷 This is a fascinating intersection of psychiatry, individual liberty, social conformity, and the power of institutions to define what is considered normal. The quotation from Theodore Kaczynski raises a provocativ"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2111219015192400031",
-          "author": "beyondmirror17",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@secElsperk I Would and many others in my Community will be very blessed to receive 10 Millon Dollars"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111246464890355912",
-          "author": "bidziil1964",
-          "searchJob": "stanford",
-          "text": "Where is the evidence? From UAP, Area 51, Boeing, and the Post Office, organizations rarely lack proof; they bury it. My 7,000-word essay on secrecy, silence, strategic ignorance, and distorted metrics, and why institutions reward hiding wh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111233458081251384",
-          "author": "seobrien",
-          "searchJob": "stanford",
-          "text": "Excited to join the conversation at AcceleratorCON, Oct 23, in New York. 🎟️ I have 10 FREE Founder tickets Use PAUL100 while they last. Then PAUL25 saves you 25% on any pass. 👉 Ticket: https://t.co/L38a5LYxXS 📖 https://t.co/MjnEHaTvcm"
+          "postId": "2111250293870501999",
+          "author": "drewcrawford_",
+          "searchJob": "tcu",
+          "text": "https://t.co/qfa90VHVeY"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111223324605128854",
-          "author": "standfordc82953",
-          "searchJob": "stanford",
-          "text": "@YisraelOfficial At my synagogue, we know the regular attendees. If someone appears new, we will approach him and offer assistance. This way we can assess the nature and intent of his presence."
+          "postId": "2111251742939861072",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 CASEKOO Apple iPhone Duo Case (MagicStand Pro) – Night Sky Blue at $65.99 (List Price $79.99) [ad] https://t.co/oCXX5XUViP – Designed for iPhone Duo with 7.6 inch size – Patented 360 degree spin invisible stand with ri"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111228619486081463",
-          "author": "joeygdnboss",
-          "searchJob": "arkansas-state",
-          "text": "@rich_toronto They were never offered the right to return in any deal."
+          "postId": "2111250011627680233",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 Logitech MX Mechanical (920-010547) – Low-profile full-size, 3 device Bluetooth pairing, Smart backlight auto-adjusts, USB-C rechargeable, Up to 15 day battery at $149.99 (List Price $179.99) [ad] https://t.co/0qE988Id"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2111239059162956086",
-          "author": "hackagingai",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/ajVzz00XPW"
+          "postId": "2111247169076293819",
+          "author": "flamergamestv",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/H3Vh3bL2ds"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2111230169608265761",
-          "author": "bennettproduct",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/LfWvN7YGOu"
+          "postId": "2111244614938366237",
+          "author": "cryptocardmoney",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/kQpzrLeJwo"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2110945095818113357",
-          "author": "compass_report",
-          "searchJob": "arkansas-state",
-          "text": "\"DO YOU TRUST NETANYAHU?\" \"I don't trust anybody.\" Trump, on Newsmax, declining to say he trusts the Israeli prime minister, the same man he's handed billions in weapons, backed through two wars, and defended against ICC arrest warrants. He"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2111247489340670333",
-          "author": "mariaangelagrow",
-          "searchJob": "army",
-          "text": "The Guardian Angels' Services to Us. . HOW much we owe to our Guardian Angels! God in His infinite mercy! and condescension makes use of their agency to bestow upon the weak and needy children of men an abundance of material and spiritual b"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111244436516581620",
-          "author": "abovethebabble",
-          "searchJob": "army",
-          "text": "https://t.co/Q6EDJD20iZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2111243615733416122",
-          "author": "ruzumixi",
-          "searchJob": "army",
-          "text": "@Captain_Phyco I can't believe Shin rejected Kurena's confession on the bullet train for Lena affection. Kurena offers the same experience alongside Shin and Kurena indeed had the assets of a tomboy."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111237062884041043",
-          "author": "markdeucefilms",
-          "searchJob": "army",
-          "text": "KIDD™ - The pirate legend rises, mermaids rule the deep, and vampire SeaPires conquer the skies! #KIDD #PirateMovie #Mermaids #SeaPires #PirateAdventure #MarkDeuceFilms #netflix #pirates #piratesofthecaribbean #priatemovie #xarticle #articl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111235944707760634",
-          "author": "marxxx_dc",
-          "searchJob": "army",
-          "text": "IRGC Aerospace Force officers review Iran’s strategic map: Yazd missile city, air bases, satellite stations, rail corridors. The real layout behind dispersed, hardened launches and logistics. https://t.co/g7f0iZWRi4"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111107039061545397",
-          "author": "chukserice",
-          "searchJob": "army",
-          "text": "“As Commander here, during the last recruitment, Abia produced only about 100 recruits. I was worried because I felt I had failed my boss.” — Brigadier General Dikko A.M., Commander of the Ohafia Division, expresses disappointment over the "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111148152786956692",
-          "author": "annevanleur",
-          "searchJob": "south-florida",
-          "text": "Q. What do Pete Hegseth and Katie Zacharia have in common? A. Neither one can pass a bar. credit: Jimmy Kimmel https://t.co/8azLlvcpiG"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111245861640372349",
-          "author": "flvoicenews",
-          "searchJob": "florida",
-          "text": "Florida is partnering with Emergency RVs to provide temporary housing for residents displaced by Hurricane Isaias. DeSantis said the initiative will prioritize eligible residents with the most significant home damage. https://t.co/szPAmcE43"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111215177358332364",
-          "author": "andyslater",
-          "searchJob": "florida",
-          "text": "JUST IN: Florida driver licenses and ID cards were breached in a September security incident, the Florida Dept. of Highway Safety and Motor Vehicles says. This includes document images and personal information. More info: https://t.co/UVTbF"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111240878744293561",
-          "author": "firtreemanor",
-          "searchJob": "florida",
-          "text": "https://t.co/2vRRm5P77E"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2111229183573610580",
-          "author": "wacheeweekian",
-          "searchJob": "florida",
-          "text": "If you find yourself in Florida, I can offer a free launch and vessel use. I don't have much but I do offer this to people occasionally. It's really really a special place. https://t.co/E1aafr5ZCd @shaunvlog_"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2111237790390174093",
-          "author": "swiltfong_",
-          "searchJob": "ohio-state",
-          "text": "Zionsville (Ind.) Rivals300 TE Theo Schott hits another gear on this catch and TD run. High on offers from Indiana, Notre Dame, Ohio State and Oregon, Schott will visit the Hoosiers tomorrow: https://t.co/pG8rWTVbEy https://t.co/711N8a0CoQ"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2111240783814869072",
-          "author": "jameshoang7",
-          "searchJob": "houston",
-          "text": "@michaelschwab13 Come to Houston LOL... yea tell Crane to offer a competitive contract. Remember we all wanted Cole to stay with us badly. You can probably say we were lucky he left in committed salary, injuries, and declining performance. "
+          "postId": "2111244337015136455",
+          "author": "sumit_a",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/6svT3Kn7nb"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 36,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 28,
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 5,
-        "reporter_missing_player_name": 1
+        "school_not_resolved_confidently": 11,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111216113426022536",
-          "author": "holdon2yourwigs",
-          "searchJob": "north-carolina",
-          "text": "#PrinceOnThisDay On 17 October 2009, subscribers to Prince’s https://t.co/tyaTeC8yjZ membership site received three exclusive MP3 downloads: live acoustic versions of “Feel Better, Feel Good, Feel Wonderful” and a “Mountains” / “Shake Your "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111215609971351668",
-          "author": "loopingcloud",
-          "searchJob": "north-carolina",
-          "text": "Sanford, NC automotive investment! 2730 Lee Ave offers a 7,560 SF facility on 1.70 acres at $2.4M | 9.38% cap | $225K NOI. C-2 zoning. Contact Kavita Purohit, River Brokers: (770) 415-9940. https://t.co/43jNF2mLI8 #SanfordNC #AutoRepairShop"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111252307082203408",
+          "author": "darkhorseentre1",
+          "searchJob": "texas-tech",
+          "text": "@ai_leadmagnet More tools won't fix a broken offer. You can automate a weak message straight into the trash folder faster than ever. The real problem isn't tech, it's clarity. Know your customer's pain cold, speak to it directly, and the \"l"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2111225078683746619",
-          "author": "coachspudnova",
-          "searchJob": "smu",
-          "text": "As a die-hard SMU fan, the Mustangs need to make Gary Gait an offer he can't say no to! #GaryGaitToDallas #PonyUp"
+          "postId": "2111248312741626066",
+          "author": "qrst17angel99",
+          "searchJob": "texas-tech",
+          "text": "Former ET Meetings🛸 Old paradigm \"leaders\" were offered tech, free energy, food production, water purification, safer transpo &amp; high knowledge to create peace, wellness &amp; abundance for humanity. However, this didn't align w/their s"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111215618590663139",
-          "author": "jpllogistics",
-          "searchJob": "stanford",
-          "text": "🏭📦 Do you have a business and need to export your goods? We offer container packing and shipping services to over 53 countries. 🚢🚛 📍 Located at 818 Stanford Ave, Los Angeles, CA. Let us help you expand your global reach! 📲 Contact us:"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111248258379190483",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 Hollyland LARK A2 (M18T | M28TC1) – Wireless Microphone, AI Auto-Limit, Plug & Play, 42H Use, Detail-Rich Audio, AI Noise Cancellation at $35.99 (List Price $44.99) [ad] https://t.co/IgaspKc8zP – Captures 48kHz and 24-"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111246506019701154",
-          "author": "pontifhat",
-          "searchJob": "arkansas-state",
-          "text": "@model_daughters become Muslim theocracies when the Ottoman Empire collapsed, you’re only butthurt by the tiny (less than 9,000 sq miles) that became a Jewish state. The Palestinians (did not actually exist as a distinct group at the time) "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111248144835174768",
+          "author": "catdadtech1",
+          "searchJob": "texas-tech",
+          "text": "@dalevon_digital Get in good with IT. My mom is at the pentagon and is rocking a fold 4 (she likes older proven stuff) she baked them a dang cake. Offer to do a tech class for new hires or take them food."
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111239533584896164",
-          "author": "rich_toronto",
-          "searchJob": "arkansas-state",
-          "text": "No they weren’t. And they never will be. The plan was for two states, not one. The people who chose to stay got citizenship and have grown to 2M strong. Those who chose to leave because they believed the Arabs would defeat the Jews, were of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111239486999003267",
-          "author": "lorraineevanoff",
-          "searchJob": "arkansas-state",
-          "text": "\"With Republicans bracing for a blue wave, Trump is hunting for someone to hold responsible, and his chief of staff is the obvious candidate. Insiders told Zeteo on Friday that Wiles is on the brink of losing her job. One top Trump adviser "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111233894536122635",
-          "author": "waxwaxonwaxoff",
-          "searchJob": "arkansas-state",
-          "text": "3/4 \"Nor does the existence of ancient Jewish kingdoms settle the question of exclusive political sovereignty in the twentieth century.\" What settled the question was the San Remo Decision and the Mandate for Palestine. Res judicata as of A"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111233109907714200",
-          "author": "saltlending",
-          "searchJob": "arkansas-state",
-          "text": "📍 Got Bitcoin? Got a state? SALT offers Bitcoin-backed loans in 47 U.S. states + D.C. 🇺🇸 But personal and business loan availability can differ. Is your state on the list? 👀 Check out the full blog link in the first comment to learn mor"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111224735237308465",
-          "author": "waxwaxonwaxoff",
-          "searchJob": "arkansas-state",
-          "text": "\"And your counterfactual claim that accepting the proposal would have meant there could never be a Palestinian people is speculation, not historical evidence. \" While it is not itself historical evidence it is BASED ON the historical eviden"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111219381141418185",
-          "author": "2kilokelime",
-          "searchJob": "arkansas-state",
-          "text": "@usatrvt @IMOHQ @IMOSecGen Nine sailors remain lost at sea. Nine families are waiting. Yet those in power offer little more than silence. A state that cannot answer grieving families has failed its most basic responsibility. @IMOHQ @IMOSecG"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111217922014392363",
-          "author": "compass_report",
-          "searchJob": "arkansas-state",
-          "text": "\"SAUDI ARABIA IS VERY HAPPY TO HAVE ISRAEL'S SUPPORT.\" Trump, asked if the Abraham Accords are back on the table with Riyadh. The deal on offer: normalization with Israel. What it costs the Palestinians, a state, a capital, a right of retur"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111246754100433111",
-          "author": "synthpotato",
-          "searchJob": "army",
-          "text": "REVIEW: Call of Duty Modern Warfare 4 CAMPAIGN: Modern Warfare 4 has the best COD campaign since MW2019. It is an excellent story that stands as some of the franchise's best ever work. After the misses of BO7/MW3, It felt like this franchis"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111245584338244068",
-          "author": "0o00o0o0o0",
-          "searchJob": "army",
-          "text": "1. You sound like a fucking nazi. The same type of rhetoric that you're using is literally displayed in a Holocaust Museum. 2. Stop repeating the babies in ovens claim that's been debunked for years. If you still actually believe that, it j"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111244996175364599",
-          "author": "shamu_fin",
-          "searchJob": "army",
-          "text": "@VigilantFox Tried applying as a broke PVT in the Army when our food facilities were subpar and we made slave wages. Got denied. Again when I was a veteran struggling. Got offered enough for milk and some eggs at most. Shit is infuriating."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111239053802713264",
-          "author": "wallwatchmanrc",
-          "searchJob": "army",
-          "text": "Shabbat Shalom to everyone. It is now Erev Shabbat on the North American east coast, so welcome to our Praise and Worship Time. We have some wonderful praise and worship songs today in the playlist at the end of this post, and I know that y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111232750074097698",
-          "author": "siralexanderrr",
-          "searchJob": "army",
-          "text": "🚨 JUST IN: Remote Bookkeeper | Africa, LATAM & Eastern Europe 🌍 Scale Army Careers is seeking a detail-oriented Bookkeeper for a remote contract position. This opportunity is open to eligible candidates across Africa, Latin America (LATAM"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111225389909709185",
-          "author": "ziyad_yakubu",
-          "searchJob": "army",
-          "text": "You will not offer them NCS, NPR, CBN, NPA etc it’s army recruit you want them to join. Okay"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111224264695406963",
-          "author": "robo_llm",
-          "searchJob": "army",
-          "text": "Start here. A war-band can take a peninsula and still not own its own story. Muhammad died in Medina in June 632. Within a generation his men were not reciting one fixed text. According to the Sunni canon itself—Sahih al-Bukhari 4987 and 51"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111222563900960970",
-          "author": "broskyy__",
-          "searchJob": "army",
-          "text": "@3Star_GOD Tell your Igbo brothers. 5 years boiboi na aka oga will make you richer and offer better welfare than any recruit in Nigeria army even in 10yrs gap. Apprenticeship&gt;&gt;&gt;&gt;Army recruit as onye Igbo. Let them also do federa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111245809270640705",
-          "author": "surfgoldbeaches",
-          "searchJob": "hawaii",
-          "text": "REMARKABLE: A shark took his leg; Mike Coots returned with a camera. In 1997, an 18-year-old bodyboarder named Mike Coots lost his right leg to a tiger shark off Kauai, Hawaii, while paddling for a wave with friends. He had been in the wate"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111246440165257699",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 Logitech ERGO (910-007027 | ERGO M575s) – Graphite Blue Ball at $39.99 (List Price $49.99) [ad] https://t.co/4Llylhc80r – Sculpted shape keeps your hand relaxed for hours of smooth tracking with thumb control – Feature"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2111224423734738997",
-          "author": "steveohmygoodne",
-          "searchJob": "oregon-state",
-          "text": "@areyoukaedingme @ghostnjon @burkehenryt They were playing tennis with the ladies of the LSU tennis team, so unless you are aware of an offer for them to do something like that at say... Oregon State, then 🤷‍♂️"
+          "postId": "2111246126766776506",
+          "author": "mediamanoz",
+          "searchJob": "texas-tech",
+          "text": "Coffee, Cafe And Food News Media Man Watercooler Oct 17 (Australia) Oct 16 (U.S) Coffee: $305.41 +10.61 Cocoa: $5684.04 -146.96 Google: $340.59 -2.47% (-8.63) Lead Up Oct 10, 2026 (Aust) Oct 9 (U.S) Markets/Prices Coffee: 285.16 -3.89 Cocoa"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111246013260529691",
-          "author": "evernewecon",
-          "searchJob": "south-florida",
-          "text": "the Fl B is offered in 3 parts separately shouldn't be too hard: just find all the issues &amp; alleged defendants https://t.co/PwjBvJcbVf but if i were South Florida Law, i'd seriously reconsider Criminal Law"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111245905735098758",
+          "author": "motortrend",
+          "searchJob": "texas-tech",
+          "text": "If you miss the way cars were, or aren’t ready for the future just yet, the 2026 Lexus IS we tested at the 2027 Car of the Year offers a welcome compromise of balanced handling and big screen tech. https://t.co/fpqpqbulzB"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111244196443267097",
-          "author": "sarahadams",
-          "searchJob": "florida",
-          "text": "Another reason why Florida should offer an Address Confidentiality Program for persons in the state who are under threat from actors overseas. @JamesUthmeierFL"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111245876345847951",
+          "author": "nhuhuu7",
+          "searchJob": "texas-tech",
+          "text": "AI is rapidly transforming our world in ways we never imagined. From enhancing productivity to creating smart assistants, its impact is profound. OpenAI's ChatGPT exemplifies how conversational AI can engage and support users. Meanwhile, Go"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111245543347548515",
+          "author": "mjball___",
+          "searchJob": "texas-tech",
+          "text": "@RumpRoast8293 FYI full clears offers the RNG chance for the huge bundle of 35 oversouls to drop at the end plus each encounter has the same RNG chance - regardless of normal/master. Abyss farms are the fastest with the strand tech by far."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111244224289284606",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 DJI Power 2000 (DYM2000L) – 2048Wh LFP Battery Compact Size 3000W Stable Output Fast Recharge Portable Power Station at $749.99 (List Price $1299.00) [ad] https://t.co/Z3oXFxdIM5 – 2048Wh LFP battery capacity with smar"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111242340941836674",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 EF ECOFLOW Delta 3 Classic (EF-DL3-C) – 1024Wh 10ms UPS Solar Generator for Home Backup, Camping & RVs at $498.99 (List Price $559.00) [ad] https://t.co/33oiUkAmJA – Delivers 1800W output with 3600W surge through X-Boo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111241064459976746",
+          "author": "ryarfc",
+          "searchJob": "texas-tech",
+          "text": "@cammunchcar Dude this is 57 yr old military tech. If you think this is tech the military are interested in I’ve got a bag of gold coins to sell you. As for real world use this stuff has loads to offer. Today was just a show off of the tech"
         }
       ]
     },
@@ -61491,22 +61293,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 1,
+      "requests": 6,
+      "errors": [
+        "utah: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 36,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 59,
-    "decided": 59,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
