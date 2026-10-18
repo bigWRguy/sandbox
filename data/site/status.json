@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T06:41:06.561Z",
+  "generatedAt": "2026-10-18T06:58:21.793Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-18T06:41:06.231Z",
+    "at": "2026-10-18T06:58:21.409Z",
     "jobsTotal": 162,
-    "sweptThisRun": 10,
-    "requests": 11,
-    "fullSweepCycles": 17
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7387919444444444,
-    "p95Hours": 1.7409194444444445,
-    "worstHours": 1.7409194444444445
+    "medianHours": 0.7747847222222223,
+    "p95Hours": 1.5245316666666666,
+    "worstHours": 1.5245316666666666
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 18,
+    "decided": 18,
     "complete": true
   },
   "pending": {
@@ -55,67 +55,166 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-18T06:41:06.231Z",
-      "got": 6,
-      "new": 4,
-      "lag": 0.45
+      "at": "2026-10-18T06:58:21.409Z",
+      "got": 21,
+      "new": 18,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-18T06:40:24.907Z",
+    "at": "2026-10-18T06:56:46.360Z",
     "mode": "live",
     "collection": {
-      "returned": 6,
-      "kept": 4,
-      "duplicate": 2,
+      "returned": 21,
+      "kept": 18,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 2,
+      "accepted": 15,
+      "rejected": 3,
       "reasons": {
+        "no_offer_term": 1,
         "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2111701921798959235",
-          "author": "patrickcma1",
-          "searchJob": "louisiana",
-          "text": "Join us to reimagine, revolutionize cancer care and cancer research in the State of Louisiana, starting at the hub at New Orleans to impact the cancer outcomes statewide in LA. NOLA offers Amazing work-life balance, with tons of sunshine, r"
+          "reason": "no_offer_term",
+          "postId": "2111552837230424451",
+          "author": "foreignaffairs",
+          "searchJob": "air-force",
+          "text": "“Air superiority cannot win all wars,” writes @Justin_Br0nk. “But if it can be credibly achieved, it all but guarantees deterrence by denial against state opponents considering territorial aggression of their own.” https://t.co/W90sYlS5do"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111687422840885418",
-          "author": "arty_flexluger",
-          "searchJob": "south-florida",
-          "text": "Fanatics referral for new users. $55 is the limit plus more on the welcome offer screen! Good luck https://t.co/x2P2VLg7qV"
+          "postId": "2111691538971418691",
+          "author": "hsloverlulu",
+          "searchJob": "massachusetts",
+          "text": "This is urgent 🚨‼️ Selling 4 tickets to Olivia Rodrigo concert for 10/18 at 🏟️📍TD Garden - Boston, Massachusetts - for some reasons we can’t attend anymore but were able to purchase for another date😭 (Asking for $240 each) I’m open to o"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111710099966218554",
+          "author": "brothercliffs",
+          "searchJob": "temple",
+          "text": "Last Update (I'm going to bed). It is 11:43 p.m. The core narrative remains the Yemen-Saudi confrontation (with Iranian proxy dimensions, airport/oil risks, and possible Egyptian involvement), layered on the unfinished US-Iran conflict and "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 15,
       "reasons": {
-        "school_not_resolved_confidently": 1,
+        "bare_mention_requires_llm": 14,
         "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111698822993002678",
-          "author": "yom_yhwh",
-          "searchJob": "south-florida",
-          "text": "<Psalm 51> A Psalm of David when Nathan the prophet went to him, after he had gone in to Bathsheba. “Have mercy on me, O God.. According to Your unfailing love.. According to Your abundant mercy.. Blot out my transgressions.. Wash me thorou"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111700332871102808",
+          "author": "tryhardrowland",
+          "searchJob": "stanford",
+          "text": "@BreidenFehoko Bro you missed the boat. Should have gone to stanford when they offered you, then you wouldn't be making these CTE takes"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111699417447199212",
+          "author": "masterdasu1",
+          "searchJob": "stanford",
+          "text": "@Billgetzfroggy Nigga it’s not disrespectful to not offer you just because your Catholic and wanted to play at a catholic school. They didn’t think you were good enough. In fact only Stanford did."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111712654788026389",
+          "author": "booknoteapp",
+          "searchJob": "air-force",
+          "text": "If you haven’t read The Billion Dollar Spy by David E. Hoffman yet... you’re missing the best spy story of the Cold War. In 1977, a Soviet engineer named Adolf Tolkachev walked up to Americans on the streets of Moscow and offered to give th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111689097937101281",
+          "author": "ahlawat2012",
+          "searchJob": "air-force",
+          "text": "Control of the air via air superiority/dominance offers not an assurance of victory; rather an insurance against defeat. Advances in dronery and air defence systems has caused two major problems for the airpower planners. Protagonists can c"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2111702344228336097",
-          "author": "samuel_ric5149",
-          "searchJob": "nebraska",
-          "text": "In the vast landscape of crypto innovation, most projects are still racing over who builds the fastest car. But Telcoin? Telcoin is rewiring the highways that already pulse through nearly every human on Earth—and putting the architects of t"
+          "postId": "2111708904841150950",
+          "author": "andytvwatchlist",
+          "searchJob": "buffalo",
+          "text": "📺 AndyTV - BEST SPORTS TODAY Sunday, October 18 1. ⚾ Tampa Bay Rays @ Cleveland Guardians - 5:00 PM ET - TBS, truTV TB -1.5 · ML -131 / +109 · O/U 6.5 With the ALCS tied 2-2, Game 5 can put either club one win from the World Series. Drew R"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111686544046363113",
+          "author": "gmsastry2",
+          "searchJob": "massachusetts",
+          "text": "Life and Resistance in Tehran with Sara Online Webinar October 24, 12:00 pm - 1:00 pm EDT REGISTER Dear Mruthyunjaya Sastry, MAPA will be hosting a free-to-join webinar next weekend. Join us for a timely and compelling conversation with Sar"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111711239013589286",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Indore: Madhya Pradesh Chief Minister Mohan Yadav offers condolences to the bereaved after after a truck crashed into devotees gathered near the Sheetla Mata Temple in Gwalior and claimed at least 15 lives. CM Yadav said, \"I pray fo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111708237959737353",
+          "author": "cnnnews18",
+          "searchJob": "temple",
+          "text": "Rahul Gandhi has expressed grief over the deaths of devotees after an out-of-control truck ran over people near Sheetla Mata Temple in Gwalior, Madhya Pradesh, killing at least 12 people. Calling the incident heartbreaking, he offered his c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111708155034153222",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Banaskantha, Gujarat: Chief Minister Bhupendra Patel offered prayers to Maa Amba at Ambaji Temple during Navratri, seeking blessings for Gujarat’s progress, prosperity, peace and the well-being of its people https://t.co/lqnxpx31F5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111707216772526413",
+          "author": "technewsonweb",
+          "searchJob": "temple",
+          "text": "[ Amazon US ] 📦 Meta Glasses (SK-1002346-01) – Capri AI Glasses at $379.00 [ad] https://t.co/NxFu40x7me – AI glasses designed for everyday wear – Integrated camera for capturing photos and videos – Built-in open-ear speakers for audio play"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111706327722627170",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Bihar: Former Chief Minister Nitish Kumar offers prayers at the Sheetla Mata temple and Badi Patan Devi temple in Patna on Maha Ashtami. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/xK1HaNCEsC"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111705672987406632",
+          "author": "siindividuation",
+          "searchJob": "temple",
+          "text": "Luciferian Points of Power By Michael W. Ford 1. Lucifer represents the light of intellect, wisdom and power unique to the individual with the courage to ascend to this responsibility. 2. The symbol of the Adversary is that of the self-libe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111703346851504144",
+          "author": "cnnnews18",
+          "searchJob": "temple",
+          "text": "#Kolkata | Union Home Minister Amit Shah is visiting those injured in the North Kolkata Durga Puja pandal stampede &amp; will offer prayers at Kolkata’s Kalighat temple for their well-being @madhuparna_N reports from the stampede site &amp;"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111684905524687191",
+          "author": "kalingatv",
+          "searchJob": "temple",
+          "text": "Amit Shah to Visit Kolkata Stampede Victims, Offer Prayers at Kalighat Temple #amitshah #kolkata #stampede #kalingatv https://t.co/CNQ6mnNH2z"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111700677932007517",
+          "author": "sitsio",
+          "searchJob": "illinois",
+          "text": "I find it frankly astonishing that Vatican News @VaticanNews has chosen to publish this glowing tribute to Cardinal Joseph Bernardin under the headline “An example for the Church and the world.” @CardinalBCupich offers what amounts to an un"
         }
       ]
     },
@@ -123,20 +222,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 10,
-      "failed": 1,
-      "requests": 11,
-      "errors": [
-        "penn-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-18T06:41:06.562Z"
+    "status rebuilt locally from current store on 2026-10-18T06:58:21.794Z"
   ]
 }
