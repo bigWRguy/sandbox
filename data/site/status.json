@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T09:28:17.440Z",
+  "generatedAt": "2026-10-18T09:42:44.716Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-18T09:28:17.051Z",
+    "at": "2026-10-18T09:42:44.336Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7762172222222222,
-    "p95Hours": 1.2749458333333332,
-    "worstHours": 1.5268719444444445
+    "medianHours": 0.7674330555555555,
+    "p95Hours": 1.5158558333333334,
+    "worstHours": 1.5158558333333334
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -55,166 +55,74 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-18T09:28:17.051Z",
-      "got": 20,
-      "new": 18,
-      "lag": 0.06
+      "at": "2026-10-18T09:42:44.336Z",
+      "got": 6,
+      "new": 5,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-18T09:26:38.330Z",
+    "at": "2026-10-18T09:41:09.657Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 18,
-      "duplicate": 2,
+      "returned": 6,
+      "kept": 5,
+      "duplicate": 1,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 6,
+      "accepted": 3,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 1
+        "no_fbs_school": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2111550168902283655",
-          "author": "marctherestorer",
-          "searchJob": "wake-forest",
-          "text": "You better wake the fuck up Britain. The time is now."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111549041855410443",
-          "author": "rupertlowe10",
-          "searchJob": "wake-forest",
-          "text": "Britain will burn like France unless we deport those who want us dead. We must act before they do."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111732532135768399",
-          "author": "itzmsk10",
-          "searchJob": "class:2026",
-          "text": "Why 90% of AI Video Ads Flop (And How Hybrid Performance Creative Actually Scales DTC) https://t.co/2QeW7AFICl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111668599504982051",
-          "author": "scorpionaiart",
-          "searchJob": "alabama",
-          "text": "🍷 Day 7: Hannibal Lecter End the challenge with elegance and menace. Craft a masterpiece worthy of horror’s most brilliant mastermind. #7DaysOfHorrorVillains #HannibalLecter #MastermindOfHorror #SilenceOfTheLambs #DarkArt #AIArtChallenge H"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2111736208095154581",
-          "author": "grok",
-          "searchJob": "michigan",
-          "text": "Federal: 18 U.S.C. § 371 criminalizes agreement by two or more to commit a federal offense or defraud the US, plus an overt act. Up to 5 years. Pinkerton v. United States, 328 U.S. 640 (1946) imposes liability for foreseeable acts of co-con"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2111728992546103435",
-          "author": "sports_ol",
-          "searchJob": "kansas",
-          "text": "Grimpoot Collectors Society @grimpoot 'Make us an offer we can't refuse' @allsc_ol @sports_ol #TheHobby @jwax_ol @ncore_ol 2020 Topps Gypsy Queen #281 Whit Merrifield Kansas City Royals|Pre-Owned Site (eBay) Price, US: ($1.25) https://t.co/"
+          "postId": "2111754208018043118",
+          "author": "iwbcnu83456",
+          "searchJob": "oregon",
+          "text": "Sending deepest condolences to the folks affected by the horrific tragedy. Hearts are with all of you. ❤️✨ Steve what a compassionate outreach from you and your family to offer for all folks in Bend, Oregon a place for processing this trage"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111737175691661634",
+          "author": "profisapantami",
+          "searchJob": "notre-dame",
+          "text": "UNIVERSITY OF NOTRE DAME KROC INSTITUTE VISITING RESEARCH FELLOWSHIPS | USA The University of Notre Dame in the United States offers Visiting Research Fellowships through its Kroc Institute for International Peace Studies. The fellowships p"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
+      "rejected": 3,
       "reasons": {
-        "school_not_resolved_confidently": 6,
-        "bare_mention_requires_llm": 6
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2111750266542334015",
-          "author": "vani14vani",
-          "searchJob": "wake-forest",
-          "text": "@MarcNixon24 He gives taxpayers money to Ukrainian soldiers and offers Canadians vets death by MAID He refused to stand up for a vet at the oilers game Wake op Canada"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111747793375076506",
-          "author": "concernedpleb",
-          "searchJob": "wake-forest",
-          "text": "@JackWDart Jack - @Labour are not saints. Wake up. These people should be offered the choice of repatriation before a holding camp. They have no business being here! We all know why they are being sent to destabilise the UK ans who is payin"
+          "postId": "2111751090299416715",
+          "author": "matchdcentral",
+          "searchJob": "miami",
+          "text": "🚨💣 BOMBSHELL: VAN DIJK TO REAL MADRID ON A FREE! Liverpool captain Virgil van Dijk (35) has NOT been offered a new contract. His deal expires June 2027. Real Madrid now lining up ANOTHER free raid on Anfield after Konate & Trent 👀 AC Mil"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2111746757025521806",
-          "author": "jessebenisrael",
-          "searchJob": "wake-forest",
-          "text": "Check out my latest video on TikTok: How to Improve Sleep: A Calm Strategy for Nighttime Awakenings Learn how to improve sleep with a calm, practical strategy for nighttime awakenings. Stop clock-checking and reduce the frustration spiral w"
+          "postId": "2111744751976304871",
+          "author": "discipleelland",
+          "searchJob": "notre-dame",
+          "text": "OPINION PIECE; 🪉🇮🇪 The message that went out all around the World in the past few weeks was about the dignity, bravery & entirely peaceful struggle by the residents of Garvaghy Road. It won the hearts & minds of many people far beyond th"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2111737853642215453",
-          "author": "tarzanjr554",
-          "searchJob": "wake-forest",
-          "text": "🚨 Luis Díaz on his hat-trick against Leipzig and reveals why he left Liverpool: 🎙️ Interviewer: “Luis, three goals tonight. Liverpool fans are watching this and asking the same question: why did you leave? You loved that club. Was Bayern "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111737384379298141",
-          "author": "john8taylor",
-          "searchJob": "wake-forest",
-          "text": "@AuditingBritain If he was called Henry, he wouldn’t be offered this level of civility. Our institutions have been infiltrated. Only Restore have a chance of reversing the radical policies implemented against our wishes. Wake up!"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111734529471713783",
-          "author": "dhkitch",
-          "searchJob": "wake-forest",
-          "text": "Marc, Britain needs to wake up to people like you exploiting fear. France is protesting the cost of living, failing public services and inequality. Criminals should face justice, regardless of background. Rupert Lowe offers deportation as t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111726161331929188",
-          "author": "rob1776us",
-          "searchJob": "wake-forest",
-          "text": "It just boggles the mind how desperate liberals are in their need to destroy the countries they live in! They seem upset at the fact that people who rape, kill and drain their countries of resources might be sent home someday. But won’t off"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111740815475151097",
-          "author": "15bamakimbo",
-          "searchJob": "alabama",
-          "text": "QP🍷 Day 7: Hannibal Lecter End the challenge with elegance and menace. Craft a masterpiece worthy of horror’s most brilliant mastermind. #7DaysOfHorrorVillains #HannibalLecter #MastermindOfHorror #SilenceOfTheLambs #DarkArt #AIArtChallenge"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111738926197031125",
-          "author": "lapanagoulia",
-          "searchJob": "michigan",
-          "text": "@grok David Fink evidence is attached so is the conspiracy law RICO is applicable #MarlaLinderman my best friend was hired in May 2024 to work on election against President Donald J Trump and my lawyer David Fink was denied by the State of "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111731621842014342",
-          "author": "elev8qbacademy",
-          "searchJob": "michigan",
-          "text": "Day one to Michigan. 〽️ Jan 2020: Amaya Moreno's first camp with Coach Gio. Now: coaching the next generation and holding a University of Michigan offer. Girls flag football is here. 💗🏈 @CHIMIMORENO1 #GirlsFlagFootball #GoBlue https://t.c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111747385215046106",
-          "author": "tracybutlerbro1",
-          "searchJob": "houston",
-          "text": "Selling 4x tickets for Houston Texans vs Jacksonville Jaguars For Sun, Oct 18 at Wembley Stadium, London. Message me if you’re interested in the tickets. let me know your offer."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2111744098696917203",
-          "author": "sports_ol",
-          "searchJob": "houston",
-          "text": "Grimpoot Collectors Society @grimpoot 'Make us an offer we can't refuse' @allsc_ol @sports_ol #TheHobby @jwax_ol @ncore_ol 2021 Allen &amp; Ginter JEFF BAGWELL Mini Base Card - HOUSTON ASTROS - #20|Pre-Owned Site (eBay) Price, US: ($1.50) h"
+          "postId": "2111736450215477413",
+          "author": "dbzyuyuyasha",
+          "searchJob": "notre-dame",
+          "text": "Like you, I have a lot of thoughts on this... I am not saying the Muslims are correct in fighting so viscously against the Israelis. In fact, I think the violence of the their resistance is the weakness of their whole movement because if th"
         }
       ]
     },
@@ -229,11 +137,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-18T09:28:17.442Z"
+    "status rebuilt locally from current store on 2026-10-18T09:42:44.717Z"
   ]
 }
