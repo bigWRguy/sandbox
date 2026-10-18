@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:26:37.326Z",
+  "generatedAt": "2026-10-18T17:43:23.288Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-18T17:26:36.949Z",
+    "at": "2026-10-18T17:43:22.857Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,22 +32,22 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.9971375,
-    "p95Hours": 1.747116111111111,
-    "worstHours": 1.747116111111111
+    "medianHours": 1.0306858333333333,
+    "p95Hours": 1.7730080555555556,
+    "worstHours": 1.7730080555555556
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 66,
+    "decided": 66,
     "complete": true
   },
   "pending": {
-    "total": 104
+    "total": 105
   },
   "profileResolution": {
     "cached": 85
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 3253,
     "incompleteOffers": 0
@@ -55,89 +55,374 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-18T17:26:36.949Z",
-      "got": 9,
-      "new": 7,
-      "lag": 0.15
+      "at": "2026-10-18T17:43:22.856Z",
+      "got": 93,
+      "new": 66,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-18T17:26:17.120Z",
+    "at": "2026-10-18T17:41:47.257Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 7,
-      "duplicate": 2,
-      "tooOld": 0,
+      "returned": 93,
+      "kept": 66,
+      "duplicate": 22,
+      "tooOld": 5,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 5,
+      "accepted": 43,
+      "rejected": 23,
       "reasons": {
-        "no_fbs_school": 4,
-        "no_offer_term": 1
+        "no_offer_term": 8,
+        "hard_negative": 4,
+        "no_fbs_school": 9,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2111860342976299127",
+          "author": "robert_dorfer",
+          "searchJob": "class:2029",
+          "text": "https://t.co/S4RL63paYm"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111854182823350703",
+          "author": "otiskirk23",
+          "searchJob": "arkansas",
+          "text": "Got a great guest coming on at the recording at 1 with Pig Trail Nation. @RashaadSilver_3 will talk the #Hogs. He is committed and was a priority for this staff from Day 1. He has 35 offers and is headed to #WPS. This kid will be outstandin"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2111869264823198108",
-          "author": "tommygoirish",
-          "searchJob": "notre-dame",
-          "text": "@caroljsroth Funny thing is, Spectrum offers most of those apps for free with their subscription."
+          "postId": "2111849811057991867",
+          "author": "simmonsbnkarena",
+          "searchJob": "arkansas",
+          "text": "No tricks, just treats! Visit your local Arkansas Select Buick Dealerships for the latest offers. 🔗 https://t.co/fDt9nh4Wkb https://t.co/MC8Ji8LzKh"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2111870872613175372",
+          "author": "mat2fy33",
+          "searchJob": "minnesota",
+          "text": "I am truly blessed to receive my first offer from Minnesota North college vermilion #Ironhawks @MNCVermilionAth @CookZuriel https://t.co/LijrZYJodo"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2111679544906449205",
-          "author": "dana_greene",
-          "searchJob": "notre-dame",
-          "text": "Bear Bachmeier says Notre Dame disrespected him and his family coming out of high school, so he was extra motivated to beat the Fighting Irish tonight. https://t.co/PmzGt2eSiq"
+          "postId": "2111555348003766627",
+          "author": "barnabyhistory",
+          "searchJob": "south-carolina",
+          "text": "🇺🇸 South Carolina ceded Fort Sumter to the United States on December 21, 1836. All right, title, and claim to the site and the adjacent territory. After they seceded on December 20, 1860, they demanded it back. The state said it was fully"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111177860325228999",
+          "author": "spencerpratt",
+          "searchJob": "texas",
+          "text": "Pick your fighter, America: Elon or Ilhan. https://t.co/7ycFU1ueTS"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111867853406150705",
+          "author": "hapi12334223",
+          "searchJob": "texas",
+          "text": "https://t.co/4tWKGljenQ"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111859930043240761",
-          "author": "archeohistories",
-          "searchJob": "notre-dame",
-          "text": "Grace Kelly (1929-1982) was an American Oscar-winning actress who left Hollywood at age 26 to marry Prince Rainier III and become the Princess of Monaco. Born in Philadelphia, Pennsylvania, into a wealthy Irish-American family; her father w"
+          "postId": "2111859279884071231",
+          "author": "marytilestexas",
+          "searchJob": "texas",
+          "text": "It would be cool if 𝕏 offered something like trial reels so our content could be pushed to non followers since most of us can’t gain followers for over a year, could be beneficial."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111858927264780724",
-          "author": "bohanrob",
-          "searchJob": "notre-dame",
-          "text": "[2] Buy one original drawing. Get a second for just €50! Until 31 October 2026, buy one drawing and get a second of equal value for just €50 (about £45 / $55). Two original artworks. One extraordinary offer. Message me directly to claim thi"
+          "postId": "2111857907092664774",
+          "author": "growth_edge_",
+          "searchJob": "texas",
+          "text": "@paresh_pisipati WTI is West Texas Intermediate crude Oil produced in USA. It is lower because it involves higher transport cost (assume offered as discount) Brent is what produced in gulf and we import this one. At this moment, tracking Br"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111848310482887039",
-          "author": "eoinpandabear",
-          "searchJob": "notre-dame",
-          "text": "@Ambo_91 Bruno been shit all season. Yes there are worse players like cunha and mbeumo who offer nothing. And amad just isnt good anymore 🤣"
+          "postId": "2111853192296173903",
+          "author": "osaheritagehome",
+          "searchJob": "texas",
+          "text": "...independent as long as possible. That’s why I'm worried.\" 2) Share specific observations (not judgments) \"I've noticed you’ve been skipping meals and aren’t eating fruit like you used to.\" 3) Offer partnership, not a decision \"Can we loo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111851141621284919",
+          "author": "osaheritagehome",
+          "searchJob": "texas",
+          "text": "...independent as long as possible. That's why I’m worried.\" 2) Share specific observations (not judgments) Ex: \"I observed you have been skipping meals and you don't eat fruits again as you used to.\" 3) Offer partnership, not a decision Ex"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111872568068325437",
+          "author": "cknighten2009",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "All glory to God! 🙏🏾🏈 Blessed to receive my 3rd football offer! I’m thankful for every opportunity and everyone who has supported me throughout this journey. The work doesn’t stop here. More to come! 💯 #Blessed @CoachCutshaw @CoachL_Joh"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2111875249666982345",
+          "author": "ryan_matheson08",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Blessed to receive an offer from Utah Tech University! #gotrailblazers @CJTurner__ @CoachClarkJ @UtahTech_Fball @Tritonfootball @jbecktwelve @GregBiggins @BrandonHuffman @BlairAngulo @adamgorney @alecsimpson5 https://t.co/ObXP216GC0"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111873193262874994",
+          "author": "simonsefton",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive a offer from Mesabi Range! #AGTG @NathanKero81 https://t.co/FbvA30o7Ig"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111872432051228829",
+          "author": "waylon_marbury",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "AGTG! blessed to receive my 4th offer from @OttawaBravesFB! @CoachJonesWR @CoachWatson14 @HallTechSports1 @AL6AFootball https://t.co/HR9NCyuRsQ"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111871928281784400",
+          "author": "quaid_thomas24",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I’m blessed to receive a Division 2 offer from Roberts Wesleyan University!! #agtg @BrestonWesley @94ftexposure @BasketballPAC https://t.co/CD0fFtWGW1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111857674178474389",
+          "author": "dawsongray2",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#agtg after an amazing conversation with @MiltonWAdamsII i’m blessed to say i’ve earned an offer! @CoachSB_4theG @d_leon84 @Coach_Wright50 @RedElephant_FB https://t.co/eJpR1FjQyi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111874431878607356",
+          "author": "m_christianity",
+          "searchJob": "arkansas-state",
+          "text": "989/990 Divine Knowledge, Divine Concurrence, Agent Causation, Soteriology, Created Ecosystems, Lonergan, Aquinas, and High Calvinism Classical Christian theology affirms that human agents exist within complex environments comprising innume"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111873339144692100",
+          "author": "m_christianity",
+          "searchJob": "arkansas-state",
+          "text": "669/670 Divine Knowledge, Divine Concurrence, Agent Causation, Soteriology, Created Ecosystems, Lonergan, Aquinas, and High Calvinism Classical Christian theology affirms that human agents exist within complex environments comprising innume"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111850790797144529",
+          "author": "marcabouab1579",
+          "searchJob": "arkansas-state",
+          "text": "اخر مشروع انطرح ع السكان العرب بفلسطين كان بقرار التقسيم الدولي ١٨١، ويللي ع اساسو منح هودي العرب ٤٩٪ من فلسطين الانتداب البريطاني ليعملو دولتون؛ بس السكان العرب، المدعومين من بعض الدول العربية رفضوا رفض قاطع هيدا القرار، لانو بدون ياها كله"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111875149309853976",
+          "author": "melissa_king_tx",
+          "searchJob": "army",
+          "text": "This is a legal warning from heaven to the press. We do not consent to a fabricated far right. We will not call them Republican. The same people fund both poles. Stop calling the far right Republican. Audit yourselves. Cease and desist. htt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111865773786558895",
+          "author": "youranoncentral",
+          "searchJob": "army",
+          "text": "At several people are reported dead and dozens injured after a fire and reported explosion at a Canada military base in Wainwright, Alberta. Hospitals activated mass-casualty protocols to treat wounded. Investigation underway, terrorism rul"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111856577619866092",
+          "author": "norrie2burger",
+          "searchJob": "army",
+          "text": "@JABtheWriter Born in 74’ and I was heartbroken after ROTJ as I fully wanted Luke and up his dad to team up and crush everyone. After Empire and the cool ships weapons and music everyone was for the empire 😃"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 43,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 5,
+        "bare_mention_requires_llm": 32,
+        "unresolved_offer_target": 1,
+        "school_not_resolved_confidently": 4,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2111864696106070441",
+          "author": "jrebibo",
+          "searchJob": "air-force",
+          "text": "Look, it is clear that you have Nazi tendencies and you are trying to cover them up by deflecting. Israel doesn't want to kill all the Palestinians, if they wanted to they would have. An Air Force and complete air superiority would make it "
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111863127897932074",
-          "author": "irish_fan_81",
-          "searchJob": "notre-dame",
-          "text": "@mattbegreatyt Didn't offer him a scholarship. Byu was his backup"
+          "postId": "2111845222661656875",
+          "author": "snsnet",
+          "searchJob": "air-force",
+          "text": "@TheRealMadOx Last words: join the air force they said. I can offer only prayers plus my attempted humor."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111853442218004699",
+          "author": "shoemakerm75535",
+          "searchJob": "hawaii",
+          "text": "Social Hypocrisy, Forcing people against their will could be in the hearts/minds of… —Robbers —Thieves —Rapists —Slave Owners —Dictators —Feudal Lords —Totalitarians —Authoritarians And… In modern history we have had numerous examples in th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111844246109966796",
+          "author": "saxbymanor",
+          "searchJob": "hawaii",
+          "text": "These are evidence based lies - there is no denying them and this is only a sample . If a man says lies it makes him a liar doesn’t it “The 2020 election was stolen.” Recounts, audits, court cases and Trump’s own attorney general found no e"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2111869919985913998",
+          "author": "profilefblive",
+          "searchJob": "class:2029",
+          "text": "🚨 First P4 Offer 🚨 2029 RB Jaylin Miles from Tyler Legacy HS, TX has received his first P4 offer from SMU. @ayejayupnext Rated 3.2⭐ (#465 NATL, #47 RB, #81 TX) - 5 offers overall. https://t.co/PXyPVK9Tyr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111874913501847636",
+          "author": "jchat85",
+          "searchJob": "arkansas",
+          "text": "The amount of people that offered to bring hogs to the New Heights Tailgate in KC is both impressive and concerning"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111872837174652944",
+          "author": "arkstatefair",
+          "searchJob": "arkansas",
+          "text": "🌟 WINNER! 🌟 Swain’s Pizza is our Media’s Choice winner for their Pickle Pesto Pizza at the Arkansas State Fair Media Luncheon! 🍕🥒 Stop by Swain’s Pizza to try their award-winning creation and explore all the delicious food our vendors h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111870007449694573",
+          "author": "jhrtravel",
+          "searchJob": "minnesota",
+          "text": "The figure you’re probably referring to is 6,320 Somali refugees resettled in Minnesota during Barack Obama’s presidency, from 2009 to January 2017. That number is real, but the context matters: it was not 6,320 Somalis brought into the ent"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2111861104628699621",
-          "author": "irish_fan_81",
-          "searchJob": "notre-dame",
-          "text": "Damn must suck for BYU fans to find out their QB wanted to go to Notre Dame but settled for BYU cause ND didnt offer him."
+          "postId": "2111874072032301068",
+          "author": "nmlifestyles",
+          "searchJob": "south-carolina",
+          "text": "# FOLLOW THE MONEY, FOLLOW THE DOCUMENTS, AND LET THE FACTS SPEAK ## Darline Graham, Her Husband’s Business Relationships, Chinese Imports, Turkish Firearms, and Questions South Carolinians Deserve Answered *By Christopher S. Lawton | Octob"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111852568129528105",
+          "author": "jeff_davis1808",
+          "searchJob": "south-carolina",
+          "text": "Hayne's Response on 2/7/1861 Your reply, through your Secretary of the War Department, to my communication of the 31st of January, covering the demand of the Governor of South Carolina for the delivery of Fort Sumter, was received yesterday"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111864894928871734",
+          "author": "devonstpoker",
+          "searchJob": "tennessee",
+          "text": "An accountant turned an $86 online tournament into $2.5 million. Then millions of people decided they could do it too. In 2003, Chris Moneymaker was a 27-year-old accountant from Tennessee. He had never played a live poker tournament. He en"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111852315741409360",
+          "author": "ro_co_vols",
+          "searchJob": "tennessee",
+          "text": "Vols offer Isaiah Ritzmann…Vol Legacy recruit! Absolutely love it! Son of Constantin Ritzmann! Awesome moment for Isaiah and Pops, I’m sure!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111873280265138427",
+          "author": "jamesbohanpitt",
+          "searchJob": "texas",
+          "text": "If you watch anything today, watch this from @spencerpratt. The #1 thing that bothers me is UNGRATEFULNESS. We live in the safest place on the planet. Two massive oceans bookend us. Ally to the North and the majority to the South too. No on"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111872829306126484",
+          "author": "coflsyndicate",
+          "searchJob": "texas",
+          "text": "🏈👀 Mrs. Karla has RUNNING BACK potential! Big shoutout to @ExplorePflugerville for joining the Texas Syndicate fun! Look at that footwork! 😂🔥 Should we offer her a contract? #TexasSyndicate #UniteTheHustle #Pflugerville https://t.co/Xuz"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111872460287066612",
+          "author": "roberts_gr49521",
+          "searchJob": "texas",
+          "text": "@TheDemocrats Everyone should support the psychotic pedo-marxist loon who thinks there are 6 genders and kids should be mutilated before they realize how horrific teachers/adults can be. A meatless Texas with a destroyed energy sector is th"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111865294906093976",
+          "author": "thekryst",
+          "searchJob": "texas",
+          "text": "@WhiteHouse @CIA @FBI @NSAGov The Problem with Your approach to Me is; You don’t understand that there Is No Difference In The Messenger & The Message. All Of These Are The Works of God Highest. Thus, for Your Nation & Your “Intelligence” s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111864283378373026",
+          "author": "johncooney666",
+          "searchJob": "texas",
+          "text": "@R34lTakes @PhilPrazan @grok Did Greg Abbott work to bring data centers to Texas and offer them a tax break"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111863464830664827",
+          "author": "koreanswithil",
+          "searchJob": "texas",
+          "text": "🇮🇱🇰🇷 A Jewish Hero of Korea: Tibor \"Ted\" Rubin, Holocaust Survivor, Korean War Veteran, Medal of Honor Recipient He was still a boy when the Holocaust took everything from him. His mother and little sister were murdered in the gas chamb"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2111861480282882478",
+          "author": "tryandtakeit",
+          "searchJob": "texas",
+          "text": "Why give unknown wacko Talarico air time. Informed Texans already know the success of AG PAXTON and what he stands for in policies and delivered wins. Best attorney in the Nation and hands down will bring his earned experience & legal exper"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111852199995396414",
+          "author": "swlcollectibles",
+          "searchJob": "texas",
+          "text": "https://t.co/blVu0qcuYa 1975 Texas Rangers Lot of 24 https://t.co/Dl2bpMTbLK 1975 Milwaukee Brewers Lot of 23 https://t.co/MA5SEES3x3 1975 Montreal Expos Lot of 23 Combo shipping, more teams avail. Take a look &amp; make an offer. #sweetlou"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111871466153414708",
+          "author": "tatemiller19",
+          "searchJob": "byu",
+          "text": "@Irish_fan_81 Another school offered him big money last offseason and he took less to come back to BYU, he knows where he’s supposed to be now and that’s all that matters"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111861841425260577",
+          "author": "b_barben",
+          "searchJob": "byu",
+          "text": "@RyBen3 @Da_Farns Bear turned down multiple NIL offers last season that were double and triple what BYU had for him. He wants to be here. Worry about guys like Legend Glasker instead of Bear my friend."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111874835798528175",
+          "author": "wtaf___",
+          "searchJob": "arkansas-state",
+          "text": "@mehdirhasan @robertshrimsley The Palestinians don’t want a state, they’ve been offered one many times before. They just want destruction - as proven by their actions."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2111874528359895549",
+          "author": "engleryves",
+          "searchJob": "arkansas-state",
+          "text": "As part of Marc Carney’s extreme militarism, he’s putting $2 billion into one of the most secretive, US aligned parts of the Canadian government. But the media focus has been almost entirely about controversy over data centres. On Friday th"
         }
       ]
     },
@@ -145,20 +430,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "phrase:\"has offered\" recruit: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 43,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-18T17:26:37.327Z"
+    "status rebuilt locally from current store on 2026-10-18T17:43:23.289Z"
   ]
 }
