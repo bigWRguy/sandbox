@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:40:49.122Z",
+  "generatedAt": "2026-10-18T04:58:14.011Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-18T04:40:48.769Z",
+    "at": "2026-10-18T04:58:13.609Z",
     "jobsTotal": 162,
-    "sweptThisRun": 9,
-    "requests": 10,
-    "fullSweepCycles": 18
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,17 +32,17 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.73618,
-    "p95Hours": 1.4842269444444445,
-    "worstHours": 1.4842269444444445
+    "medianHours": 0.7733958333333333,
+    "p95Hours": 1.524753888888889,
+    "worstHours": 1.524753888888889
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 21,
+    "decided": 21,
     "complete": true
   },
   "pending": {
-    "total": 105
+    "total": 104
   },
   "profileResolution": {
     "cached": 84
@@ -55,160 +55,180 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-18T04:40:48.768Z",
-      "got": 29,
-      "new": 18,
-      "lag": 0.2
+      "at": "2026-10-18T04:58:13.608Z",
+      "got": 31,
+      "new": 21,
+      "lag": 0.15
     }
   },
   "audit": {
-    "at": "2026-10-18T04:40:10.929Z",
+    "at": "2026-10-18T04:56:39.228Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 18,
+      "returned": 31,
+      "kept": 21,
       "duplicate": 10,
-      "tooOld": 1,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 4,
+      "accepted": 16,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 3
+        "no_offer_term": 1,
+        "no_fbs_school": 2,
+        "hard_negative": 2
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2111665603153146347",
+          "author": "marilynliu97",
+          "searchJob": "stanford",
+          "text": "Can tactile gloves turn human actions into reliable robot training data? We explores sensing technologies, product designs, and the trade-offs between natural movement, richer signals, consistency, and durability—with insights from industry"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2111660462916194396",
-          "author": "jonmarshall",
-          "searchJob": "marshall",
-          "text": "@HRH_SHP My mom passed right when they offered the 'remembering me\" page for her profile. I did have to upload a copy of her death certificate. I can't delete it because of the comments she made on my page and the chat history."
+          "postId": "2111674234053259410",
+          "author": "commiect",
+          "searchJob": "uconn",
+          "text": "What are you so afraid of Bob Duff? We are tired of the Trump hate speech. Democrats have nothing to offer except Trump derangement syndrome. Where are your policies, where is your plan to increase economic growth in Connecticut? Why is thi"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2111668314607153172",
-          "author": "kidai_0001",
-          "searchJob": "south-florida",
-          "text": "https://t.co/gCvFYhuGA4"
+          "reason": "hard_negative",
+          "postId": "2111670823211630740",
+          "author": "thyphoidjack",
+          "searchJob": "air-force",
+          "text": "18 October 2026 Today in History 1652 From the diary of Jan van Riebeeck. Daybreak at the Cape brought westerly winds accompanied by rain. The inhabitants of the fort did not complain, however, as the rain was beneficial to the crops that h"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2111633455465545935",
-          "author": "blueboxdave",
-          "searchJob": "michigan",
-          "text": "This is 5 minutes of El-Sayed refusing to disavow the Muslim Brotherhood while insulting a voter for asking the question. Should be a Rogers ad tomorrow."
+          "reason": "no_fbs_school",
+          "postId": "2111675958428090644",
+          "author": "hsloverlulu",
+          "searchJob": "massachusetts",
+          "text": "This is urgent 🚨‼️ Selling 4 tickets to Olivia Rodrigo concert for 10/18 at 🏟️📍TD Garden - Boston, Massachusetts - so damn broke and need some $ to pay my rent so I won’t get evicted 😭 (Asking for $240 each) I’m open to offers. Transfer"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2111627277578731885",
-          "author": "abdulelsayed",
-          "searchJob": "michigan",
-          "text": "This is Tommy. Tommy had a question about my allegiances. Listen to the end to hear about his. https://t.co/p09eMtsh0x"
+          "reason": "hard_negative",
+          "postId": "2111656990543925423",
+          "author": "gybcircuit_",
+          "searchJob": "massachusetts",
+          "text": "Class of 2029 (GYBC Alum) Giuliana Huaranga holds offers from Massachusetts, Stony Brook and more. https://t.co/Bj5ARnMQJu"
         }
       ]
     },
     "extraction": {
       "accepted": 1,
-      "rejected": 13,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 9,
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 15
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111670801053155685",
-          "author": "tradergirlq",
-          "searchJob": "liberty",
-          "text": "WILL THE STATUE OF LIBERTY BE DESTROYED⁉️ Massive Riots Are Underway In Paris October 17 Eyes On Lady Liberty 🇫🇷🗽 Statue Of Liberty Was Dedicated By Grover Cleveland On Oct 28 The Birth Of 'Q', Julia Roberts, Joaquin Phoenix, Death Of Je"
+          "postId": "2111678161734058110",
+          "author": "brockinvegas",
+          "searchJob": "air-force",
+          "text": "@MattPrehm Wasn’t he offered a scholarship to Air Force? You have to be mobile to play there."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111671309130190860",
-          "author": "tevinmacharia",
-          "searchJob": "louisiana",
-          "text": "Daddy Yankee led dozens of incarcerated men to accept Jesus during a visit to a Louisiana prison, according to God Behind Bars. The Puerto Rican artist led worship and delivered a short sermon before inviting the crowd of 2,000 men to respo"
+          "postId": "2111676439645036943",
+          "author": "gogolicart",
+          "searchJob": "air-force",
+          "text": "#GogoliCart Jhope Nike Air Force Low ‘01 JH Size: 27cm DM your offer Can ship worldwide via EMS from Japan RFS: Not my size will get from reseller my size. Open for trade also. 25.5 cm must be from Manila wts lfb bts pc ph rm namjoon jin yo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111664994420969963",
-          "author": "warguy_",
-          "searchJob": "louisiana",
-          "text": "🚀 🇺🇸 A social-media post shared by Mario Nawfal says SpaceX is planning a “Starbase Louisiana” project in Louisiana’s Acadiana region, potentially bringing rocket-related activity to the area. The post offers no timeline, location, launc"
+          "postId": "2111674321265369589",
+          "author": "carolinachaser",
+          "searchJob": "air-force",
+          "text": "True facts! My gosh, I remember hearing the damage reports on the Wichita police scanner as we were driving back to NC. Crazy day. ————- SEVERE WEATHER STATEMENT NATIONAL WEATHER SERVICE WICHITA KS 1033 PM CDT SAT APR 14 2012 ...A TORNADO W"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111663194569650455",
-          "author": "alsnjtfltal",
-          "searchJob": "louisiana",
-          "text": "Every now and then, someone on the internet says: “America doesn’t have real culture.” And somewhere in Louisiana, a grandmother making gumbo just felt a disturbance in the universe. 📷 Because which America are we talking about? The jazz c"
+          "postId": "2111677262684622920",
+          "author": "nft_apee",
+          "searchJob": "buffalo",
+          "text": "Let me analyze this parlay🤑🏆 🔍 1. Cam Skattebo — Anytime Touchdown (−110) Confidence: 6/10 Matchup: New Orleans Saints @ New York Giants Skattebo has a plausible path to scoring through rushing attempts near the goal line and receiving o"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111654684687548567",
-          "author": "drofjunkology",
-          "searchJob": "marshall",
-          "text": "1957 @Chevrolet Model unknown Owner: Marshall Motors (at the time) Jackson, MI 2017 \"No low ball offers. I know what I got.\" https://t.co/tccY1vcnuR"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111664777525411969",
-          "author": "jaintafa",
-          "searchJob": "south-florida",
-          "text": "BTC IS HOLDING THE LINE. 👀 As shared in my last update, BTC is still moving inside the ascending channel. Price is now bouncing from the lower yellow trendline — the major support bulls need to defend. 📍 Entry: $81,000 🎯 Long-term target"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2111657006881022445",
-          "author": "55dfs5",
-          "searchJob": "south-florida",
-          "text": "@AnimeshLochan @Melbourne__82 Condition matters Eng &amp; Sa both offers spotting wkt in 2018 In cricket, condition is king that makes even ordinary bowler like Ngidi &amp; Philander bigg bulls. Main boys are Anderson, Rabada, Broad, Morkel"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2111675882695733746",
-          "author": "kirk_sibley",
-          "searchJob": "michigan",
-          "text": "@ASU_SuperFan This all goes back to asu being stupid enough to double his salary. He is now a top 22 paid coach in the ncaa div 1 and second highest in Big 12. ASU is not getting their return on this ridiculous investment they gave him when"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2111675570698289407",
-          "author": "redbenzoid",
-          "searchJob": "michigan",
-          "text": "@JocelynBenson If voters choose you, it's more of the same. My wife &amp; I will be leaving our home state of 65 years. Democrats have destroyed Michigan. Florida, Tennessee, Texas &amp; South Carolina all offer much more than our state in "
+          "postId": "2111680918088040624",
+          "author": "sathyasaiodisha",
+          "searchJob": "temple",
+          "text": "Loving Sairam.. With the Blessings of Bhagawan Sri Sathya Sai Baba, Trayeerudram was offered with devotion on 17th October 2026 near the Dhyana Vrikshya at Sapte Swar Temple, Jatiapalli, under Dashapalla Samithi, Nayagarh District. #TrayeeR"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111668781202227455",
-          "author": "bricemarich",
-          "searchJob": "michigan",
-          "text": "#Michigan offers River Rouge (Mich.) 2028 ATH Jerrimiah Cross, who visited Ann Arbor today. The local standout holds over double-digit offers in his recruitment. https://t.co/XBvbJqIupc"
+          "postId": "2111679968011042995",
+          "author": "xpressandhra",
+          "searchJob": "temple",
+          "text": "Madhya Pradesh Chief Minister Mohan Yadav offered prayers at Sri Kanaka Durga Temple in Vijayawada. @NewIndianXpress #KanakaDurgaTemple #Vijayawada #AndhraPradesh #CMMadhyaPradesh #DrMohanYadav https://t.co/FiqLuHVuBD"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111665939896770692",
-          "author": "kirk_sibley",
-          "searchJob": "michigan",
-          "text": "@GoldyHappens They sure do. Coach Dingleberry is not a coaching prodigy. He’s an overpriced charlatan who sold himself as a golden boy coach thanks to Skattebo. Time will reveal all. Michigan never offered him any job and they definitely wo"
+          "postId": "2111679717904417017",
+          "author": "newsdaily123",
+          "searchJob": "temple",
+          "text": "📌Seven people, including organisers of the Chorbagan Durga Puja pandal, have been arrested in connection with the stampede that killed 19 people and injured 25 others in north Kolkata. Kolkata Police register culpable homicide case. Police"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111663296067870877",
-          "author": "kiwihcm",
-          "searchJob": "michigan",
-          "text": "@SamSeder The Proposition: Beydoun claimed Johnson offered the funds if Beydoun agreed to drop out of the Michigan U.S. Senate race and instead launch a primary challenge against incumbent U.S. Representative Rashida Tlaib. [1] •The Funding"
+          "postId": "2111673377215979650",
+          "author": "ani_digital",
+          "searchJob": "temple",
+          "text": "Amit Shah to visit Kolkata pandal stampede victims in hospital, offer prayers at Kalighat temple Read @ANI Story | https://t.co/yH6ZcVD5Zp #AmitShah #Kolkatapandalstampede #Kalighattemple https://t.co/drbDzLq5cx"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2111660776654000245",
-          "author": "iloanya1",
-          "searchJob": "michigan",
-          "text": "WTF does Muslim brotherhood got to do with people of Michigan getting health care, jobs, clean water, good roads etc..Y'all are freaking jokers. #MikeRogers ain't got shit to offer so let's debate Hamas"
+          "postId": "2111672922079428636",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Kolkata, West Bengal: Union Home Minister Amit Shah arrives at Kalighat Temple to offer prayers. https://t.co/W91qyVbvjv"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111672410734768227",
+          "author": "lawrenceramano",
+          "searchJob": "temple",
+          "text": "SUNDAY MORNING DEVOTION: ¹⁸ OCT ²⁰²⁶: 📖 ⁴⁶\"About the ninth hour Jesus cried out in a loud voice, \"Eloi, Eloi, lama sabachthani?\"--which means, \"My God, my God, why have You forsaken me?\" ⁵⁰And when Jesus had cried out again in a loud voice"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111671736177692931",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Prayagraj, Uttar Pradesh: A large number of devotees visit the Maa Alop Shankari Shaktipeeth Temple on Maha Ashtami during Sharadiya Navratri to offer prayers and perform Kanya Pujan. https://t.co/eTHXK4jLtM"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111671680624201886",
+          "author": "pmuralidharrao",
+          "searchJob": "temple",
+          "text": "had the divine opportunity to visit the Mahankali Temple at Yapral, Medchal District, and offer prayers to seek the blessings of Maa Mahankali. Shri Parmesh, Smt. Sudharshini and members of the Temple Committee were present during the visit"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111668931614425170",
+          "author": "basnetbhagirath",
+          "searchJob": "temple",
+          "text": "#Jaipur: Chief Secretary V. Srinivas visited Moti Dungri Ganesh Temple and offered prayers."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111665238697529383",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Dewas, Madhya Pradesh: A large number of devotees visit the Chamunda Mata temple to offer prayers on the eighth day of Navratri. https://t.co/yAkndf9uOH"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111660252546707632",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Varanasi, Uttar Pradesh: Devotees gather at the Annapurna Devi Temple to offer prayers on Maha Ashtami during Sharadiya Navratri and seek blessings from Goddess Mahagauri. https://t.co/kqAhFGU7Pp"
         }
       ]
     },
@@ -216,20 +236,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 9,
-      "failed": 1,
-      "requests": 10,
-      "errors": [
-        "mississippi-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 1,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-18T04:40:49.123Z"
+    "status rebuilt locally from current store on 2026-10-18T04:58:14.012Z"
   ]
 }
