@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T09:58:20.745Z",
+  "generatedAt": "2026-10-19T10:13:36.977Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-19T09:58:20.309Z",
+    "at": "2026-10-19T10:13:36.591Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7746538888888889,
-    "p95Hours": 1.2741669444444443,
-    "worstHours": 1.5270275
+    "medianHours": 0.7815958333333334,
+    "p95Hours": 1.2734794444444444,
+    "worstHours": 1.5286758333333332
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "pending": {
@@ -55,175 +55,209 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-19T09:58:20.308Z",
-      "got": 28,
-      "new": 19,
-      "lag": 0.03
+      "at": "2026-10-19T10:13:36.591Z",
+      "got": 36,
+      "new": 24,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-19T09:56:47.542Z",
+    "at": "2026-10-19T10:12:02.042Z",
     "mode": "live",
     "collection": {
-      "returned": 28,
-      "kept": 19,
-      "duplicate": 9,
+      "returned": 36,
+      "kept": 24,
+      "duplicate": 12,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 3,
+      "accepted": 18,
+      "rejected": 6,
       "reasons": {
-        "hard_negative": 1,
-        "no_offer_term": 1,
-        "no_fbs_school": 1
+        "no_offer_term": 3,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2112118939840864422",
-          "author": "jcdurbant",
-          "searchJob": "toledo",
-          "text": "IT’S A DEATH CULT THAT YOU’RE SUPPORTING, STUPID ! (What better definition of the demonic ?) And when the king of Moab saw that the battle was too sore for him, he took with him seven hundred men that drew swords, to break through even unto"
+          "reason": "no_offer_term",
+          "postId": "2112117970025824508",
+          "author": "ddball67",
+          "searchJob": "west-virginia",
+          "text": "https://t.co/q6jMNfSYHF"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2111827185468100769",
-          "author": "nayibbukele",
-          "searchJob": "wake-forest",
-          "text": "J’ai entendu dire que la France était finie, qu’il était trop tard pour la sauver. Mais la France est toujours aussi belle, enviable même. Sa grandeur n’a pas disparu, elle ne demande qu’à renaître. Nous avons surmonté en un an un problème "
+          "postId": "2112087034101989848",
+          "author": "anesmansory",
+          "searchJob": "washington",
+          "text": "منطقة اصبحت اثيوبية في اليمن 🇾🇪 بالقرب من الحدود اليمنية السعودية هذا استيطان وخطر يهدد اليمن وسيادتها مستقبلا..ماذا خلف هولاء من رتب ونسق وجمع ودعم ولماذا https://t.co/9bowrYdxeP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112105123568611484",
-          "author": "phemisna",
-          "searchJob": "wake-forest",
-          "text": "u go to the pharmacist and they’re like do u want this one or this one and then offer zero further explanation ab what differentiates them"
+          "postId": "2112121346323013698",
+          "author": "precedentdailyy",
+          "searchJob": "washington",
+          "text": "In 1969 a club of industrial countries, the Group of Ten, capped the IMF's quota increase at 33 per cent. To fit a 25 per cent general rise under that ceiling, six of its members were believed willing to take less than the quotas offered th"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112121198570074472",
+          "author": "roxomtv",
+          "searchJob": "washington",
+          "text": "https://t.co/OuSlMKT81Y"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112112984344474050",
+          "author": "joshoo1j",
+          "searchJob": "duke",
+          "text": "@ItsAndyke Development should be reflected in reliable services, better livelihoods and opportunities for young people. Kirinyaga’s focus on healthcare, farming and investment offers several areas for evaluating county performance. DP Waigu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112109376563544097",
+          "author": "joshoo1j",
+          "searchJob": "duke",
+          "text": "@iam_elviske Good governance requires institutions that work, programmes that serve people and decisions that address real needs. Waiguru’s public service journey offers a perspective on the importance of delivery. DP Waiguru #WaiguruSpeaks"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 18,
       "reasons": {
-        "bare_mention_requires_llm": 7,
-        "school_not_resolved_confidently": 8,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 11,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 6
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112114031464939863",
-          "author": "envisionedplus",
-          "searchJob": "ohio",
-          "text": "Two new Ohio grants offer $10.5 million in education funding! Explore the CPE and MPP grants to help students discover career pathways and prepare for future careers. CPE: https://t.co/8lZMTAD3SQ MPP: https://t.co/8HyhfLL5dN #OhioEducation "
+          "postId": "2112106498641780887",
+          "author": "jamnewscaucasus",
+          "searchJob": "georgia",
+          "text": "Georgia is offering displaced families 10,000 lari (about $3,860) per eligible family member instead of waiting for state-provided housing. But with property prices far beyond reach and families giving up their claim to future housing suppo"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112120360631927215",
-          "author": "riesebosc",
-          "searchJob": "toledo",
-          "text": "Starlink is fully operational today with a massive consumer-focused network; Telesat Lightspeed is a planned enterprise/government system not expected to offer commercial service until early 2028. Current status and scale • Starlink: ~11,00"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112120724764950709",
-          "author": "chrisrivers78",
-          "searchJob": "class:2028",
-          "text": "“The Roadster flying around the streets with `Hot or Cold’ gas is a `Deafening Window Shattering’ Fantasy. Such flying cars won’t get beyond the turbo-prop fan systems for levitation and propulsion?” Google ai-mode: Yes, using high-thrust g"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112124185220989206",
+          "author": "aprajitanefes",
+          "searchJob": "washington",
+          "text": "🇾🇪|THEY TURNED A COUNTRY INTO A SLAUGHTERHOUSE AND CALLED IT REGIONAL STABILITY Yemen. A nation under total lockdown. Blockade at sea. Bombardment from air. Mercenaries on ground. Settlements on borders. Migrant boats off coast. Drones ov"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2112120382903681530",
-          "author": "aggieswire",
-          "searchJob": "florida",
-          "text": "Texas A&amp;M has reportedly offered two rising 2027 DBs out of Florida 📸 Aggies Wire, USA TODAY Sports https://t.co/S3B9CyDuk3 https://t.co/BemJbFUxpU"
+          "postId": "2112124106392977898",
+          "author": "clark_kent10935",
+          "searchJob": "washington",
+          "text": "Good morning from Virginia. 🇺🇸 It was a crisp October morning in New York City in 1789 when John Jay stepped forward to take the two solemn oaths that would make him the first Chief Justice of the United States. The city still carried the"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112119072347533357",
-          "author": "canesyeti",
-          "searchJob": "florida",
-          "text": "@johnalabban4629 @RiseOfTheU To be fair Miami vs Florida really isn’t a rivalry. Florida has beaten Miami 5 times since 1975. And every time Miami offers they decline. I always thought sec meant more"
+          "postId": "2112120575602626867",
+          "author": "albertomose",
+          "searchJob": "washington",
+          "text": "GLOBAL WATCH | HORMUZ: DEAL OR DEADLOCK? 🛢️ Iran says its offer to reopen the Strait of Hormuz within seven days remains available—but only if Washington accepts Tehran’s conditions. This is a proposal, NOT a reopened shipping route. https"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112117355342102783",
-          "author": "whaleido",
-          "searchJob": "florida",
-          "text": "URGENT NEWS Tramp offers Russia part of Florida in a complex teritorial swap proposal in his 38 points peace plan"
+          "postId": "2112119057352732672",
+          "author": "welattven",
+          "searchJob": "washington",
+          "text": "“Six-Day Offer”: Iran Links Resumption of Talks with Washington to Acceptance of Its Strait of Hormuz Conditions https://t.co/APqSXYfYH4 https://t.co/pf7jEwkBFH"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112116768861024268",
-          "author": "whaleido",
-          "searchJob": "florida",
-          "text": "@mcaliente21 If I understood well under “teritorial swap” he plans to offer part of Florida to Russia?"
+          "postId": "2112117684368269603",
+          "author": "worldcontextn",
+          "searchJob": "washington",
+          "text": "🚨 PUTIN WANTS TRUMP AND XI AT THE SAME TABLE — BUT WHAT ABOUT UKRAINE? 🇷🇺🇺🇸🇨🇳 Three world powers could discuss ending a war that has devastated millions of Ukrainian lives. 1/4 — THE PROPOSAL According to The Wall Street Journal, Put"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112117830053191755",
-          "author": "dmregister",
-          "searchJob": "iowa",
-          "text": "$5.4M Iowa estate offers a home, wedding venue and 148 acres https://t.co/Ny1omj8DtL"
+          "postId": "2112114040155644283",
+          "author": "pettunia14",
+          "searchJob": "washington",
+          "text": "\"Vladimir Putin has proposed meeting President Donald Trump and Chinese leader Xi Jinping next month to pursue a Ukraine settlement on terms favorable to Moscow. The proposed talks would leave Ukrainian President Volodymyr Zelensky and Euro"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112119104890974480",
-          "author": "abdulkarim2",
-          "searchJob": "california",
-          "text": "🚨 TOP 10 CRYPTO & WEB3 UPDATES FOR OCTOBER 19, 2026 🚨 Today's themes: CME × CRYPTO FUTURES • CIRCLE GLOBAL EXPANSION • TOKENIZED STOCKS • USDC × EU REGULATION • CRYPTO TAXATION • FIDELITY SETTLEMENT • CREATOR BOUNTIES • WEB3 GRANTS 👇 1️⃣"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112117628835647668",
-          "author": "itsmaidsonrose",
-          "searchJob": "wake-forest",
-          "text": "You're offered $10 million, but you have to wake up at 5:30 AM every morning for a year. Would you take the deal? 👀 Good morning! ☀️ Happy Monday!"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112116315276099897",
-          "author": "ayvnews",
-          "searchJob": "wake-forest",
-          "text": "“Sierra Leone’s Coffea stenophylla offers a promising, climate-resilient option that could help sustain global coffee production in the coming decades.” Amb. Solomon Rutega, Secretary General–IACO, speaking on Wake Up Sierra Leone. https://"
+          "postId": "2112113460225966267",
+          "author": "indepakofficial",
+          "searchJob": "washington",
+          "text": "Iran has insisted that its offer to reopen the Strait of Hormuz within seven days remains on the table, as Pakistan’s foreign minister urged Tehran and Washington to keep talking. Pakistan presses Iran and US to keep talking as Tehran holds"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112112863858852153",
-          "author": "foundonardy",
-          "searchJob": "wake-forest",
-          "text": "# 🎭 PLAYWRIGHT vs SELENIUM: TWO TOOLS THAT LET SOFTWARE CONTROL YOUR BROWSER. WHICH ONE SHOULD YOU USE? Imagine you have a job that requires opening a website every morning. You need to: 1. Open the website. 2. Log in. 3. Click a few butto"
+          "postId": "2112109159273435545",
+          "author": "pettunia14",
+          "searchJob": "washington",
+          "text": "\"Iran's offer to the United States to reopen the Strait of Hormuz within seven days is still on ​the table, Foreign Minister Abbas Araqchi told Iranian media ‌outlets on Sunday. Iran presented its proposal in mid-September after an interim "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112108531688047006",
+          "author": "grahaminhell",
+          "searchJob": "washington",
+          "text": "\"Ukraine never wanted this war....\" Did you know in 2014, Ukraine needed a loan? There were two offers on the table: 🔴 The IMF dangled $15 billion,but with strings attached: -Scrap the ban on private land ownership. -Slash pensions and fue"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112105978208424169",
+          "author": "rusi_org",
+          "searchJob": "washington",
+          "text": "Luiz Inacio Lula da Silva and Flávio Bolsonaro traded accusations of corruption and sparred over ties to Washington in the first runoff debate. RUSI’s Daniela Portella Sampaio offers the broader context: whichever candidate prevails on 25 O"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112106220165455899",
+          "author": "jhoward1012",
+          "searchJob": "arizona",
+          "text": "@davedltn I lived and voted in Arizona for 12 years I know a lot more about Arizona elections than you. Statewide races were always decided on election night until a cartel lawyer got control of Maricopa County’s elections. If you think the"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2112112526117019677",
-          "author": "allovertheform",
-          "searchJob": "wake-forest",
-          "text": "New Zealand Racing Must Stop Playing the Victim: Seven Group 1 Races Under Threat Opinion | New Zealand racing needs to look in the mirror. If seven Group 1 races are threatened with downgrading by the Asian Pattern Committee, perhaps it is"
+          "postId": "2112104752829907135",
+          "author": "theanswer75",
+          "searchJob": "notre-dame",
+          "text": "“I’m Irish qualified, I got in touch with Kevin Maggs and he said come and do an IQ tour around Ireland. I did schools and clubs and eventually I got offers from Ulster and Connacht and chose Ulster.” Henry Walker explains how he joined Uls"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2112110808691839315",
-          "author": "enigmafund",
-          "searchJob": "wake-forest",
-          "text": "Imagine in 2021 if France and @EmmanuelMacron had embraced this mentality. Imagine if they had embraced Bitcoin. France would be such a different place. Same for Italy, Belgium etc. It’s not too late. These is TERRORISM. It’s how it works. "
+          "postId": "2112118070210949588",
+          "author": "artsyndrome75",
+          "searchJob": "coastal-carolina",
+          "text": "This striking purple-teal pairing offers something more dramatic than a calm, ocean-toned turtle piece, making it a bold choice for a coastal or modern room alike. https://t.co/JB49Vs0Rfc https://t.co/8QVKEZsrZ2"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2112106884526137653",
-          "author": "catholicpebble",
-          "searchJob": "wake-forest",
-          "text": "I'm looking at the protests happening around Europe (not in my own country) and there seem to be many takes on them. Some claim it is mainly immigrants; others, that this is somehow connected to Russia. Some say the protests are spontaneous"
+          "postId": "2112110217924419901",
+          "author": "nbtworldnews",
+          "searchJob": "coastal-carolina",
+          "text": "The Tourism Authority of Thailand has launched the Amazing Multi-Racing Festival 2026, bringing together sports, music, and coastal lifestyle events in Songkhla, Phuket, and Prachuap Khiri Khan provinces from October to December to boost ye"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2112105256763187656",
-          "author": "eyeswid17521280",
-          "searchJob": "wake-forest",
-          "text": "@JohnAlbert1979 @TherealStuartLa @vaccine81097956 It's the logical conclusion of your argument. The governments, who have access to ALL the information you think you have, must KNOW that covid vaccination causes injury and death, yet contin"
+          "postId": "2112109453080232014",
+          "author": "mypropertynam",
+          "searchJob": "coastal-carolina",
+          "text": "Experience effortless coastal living in this exceptional Kramersdorf, Swakopmund home complete with a flatlet and sparkling swimming pool. Listed at N$5.95m, this property offers 3 bedrooms, 2 bathrooms, 2 garages, and 840 m² of land. #MyPr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112107798796423221",
+          "author": "itstaylorsmith9",
+          "searchJob": "coastal-carolina",
+          "text": "when protesters reach the Central Bank, the regime has officially run out of road, @steve_hanke. for years, Western capitals ignored the systemic rot because Edi Rama offered transactional favors: building offshore migrant camps for Italy a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112103635291165017",
+          "author": "velitesgear",
+          "searchJob": "coastal-carolina",
+          "text": "RT @velitesgear | Full Text Article: https://t.co/pkMiCTClq9 | Author: @militarnyi Romania Offers to Cover Part of U.S. Troop Deployment Costs Romania has offered to partially cover the costs of maintaining the U.S. military contingent stat"
         }
       ]
     },
@@ -231,20 +265,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "west-virginia: SearchTimeline HTTP 404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 18,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-19T09:58:20.746Z"
+    "status rebuilt locally from current store on 2026-10-19T10:13:36.979Z"
   ]
 }
