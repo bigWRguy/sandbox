@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T09:28:18.107Z",
+  "generatedAt": "2026-10-19T09:43:24.094Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-19T09:28:17.807Z",
+    "at": "2026-10-19T09:43:23.672Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7734338888888889,
-    "p95Hours": 1.5254313888888889,
-    "worstHours": 1.5254313888888889
+    "medianHours": 0.5255841666666666,
+    "p95Hours": 1.2779577777777777,
+    "worstHours": 1.5261033333333334
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 29,
+    "decided": 29,
     "complete": true
   },
   "pending": {
@@ -55,79 +55,244 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-19T09:28:17.806Z",
-      "got": 13,
-      "new": 6,
-      "lag": 0.27
+      "at": "2026-10-19T09:43:23.671Z",
+      "got": 40,
+      "new": 29,
+      "lag": 0.18
     }
   },
   "audit": {
-    "at": "2026-10-19T09:26:43.213Z",
+    "at": "2026-10-19T09:41:50.429Z",
     "mode": "live",
     "collection": {
-      "returned": 13,
-      "kept": 6,
-      "duplicate": 7,
-      "tooOld": 0,
+      "returned": 40,
+      "kept": 29,
+      "duplicate": 10,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 6,
+      "accepted": 19,
+      "rejected": 10,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 1
+        "no_offer_term": 3,
+        "no_fbs_school": 7
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2112095779519090726",
+          "author": "fromthetyne",
+          "searchJob": "navy",
+          "text": "Can the system be defeated? https://t.co/EsnH8kHQwx"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112099146471514441",
+          "author": "burgess7281975",
+          "searchJob": "temple",
+          "text": "(1) It’s sounds to me like you are confusing “Immaculate Conception” with “Miraculous Conception.” (2) You are misrepresenting what Francis said about the Blessed Virgin Mary (11/13/2024): “Saint Francis of Assisi, in one of his prayers, gr"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112087275597082848",
+          "author": "tobeawitness",
+          "searchJob": "temple",
+          "text": "You're confusing miraculous conception with marriage, and none of your Scriptures establishes your claim. Matthew 1:18–20 explicitly identifies Joseph as Mary's husband. Luke 1:35 uses the Greek ἐπισκιάσει (“will overshadow”), not “marry.” "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112111746626224349",
+          "author": "yourpremiertra1",
+          "searchJob": "texas",
+          "text": "#yourpremiertravels #travelphotography #wanderlust #exploremore #instatravel #traveladdict #vacationmode #adventuretime #traveldiaries #travelgoals #adventureawaits #exploretheworld #exploreeverything #travelinspiration #roamtheplanet Certi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111821351333859711",
+          "author": "vitalsun_app",
+          "searchJob": "texas",
+          "text": "Circadian analysis: LeBron James ⠀ He's 41, he just left the Lakers for the 76ers, and he's starting an NBA record 24th season. He reportedly spends around $1.5 million a year on his body, so I broke down his routine from a light perspectiv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112106568757944549",
+          "author": "miami_inno",
+          "searchJob": "miami",
+          "text": "Here are the companies that offer the most internships in the Albany area. https://t.co/F7stSbW7yp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112110494563676479",
+          "author": "revdcharlotte",
+          "searchJob": "charlotte",
+          "text": "28/ the anaphylactic shock has started, the team offer a glass of water and then walk away.... If you wouldn't do that (which I hope they wouldn't!) then don't dismiss severe asthmatics either."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112110144750534804",
+          "author": "revdcharlotte",
+          "searchJob": "charlotte",
+          "text": "24/ His response? We'll make sure we disclose it for future shows. He then smiled sympathetically AND WALKED AWAY. There was no offer of first aid. He did not come back to check on me again, even though I eventually moved to sit down at one"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112110135896379863",
+          "author": "revdcharlotte",
+          "searchJob": "charlotte",
+          "text": "20/ cannot breathe and you offer water then walk away? I said yes, while literally trying to get enough air into my lungs (as in panting) so he fetched me some then asked if I wanted tissues, to which I said no."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112110090245554631",
+          "author": "revdcharlotte",
+          "searchJob": "charlotte",
+          "text": "TLDR: Last night, I went to see Georgie Carroll, at Victoria Halls in Stoke, but had to leave because I was struggling to breathe. Managers were not interested, NO first aid was offered. Full story: I adore Georgie Carroll, she is one of my"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 0,
+      "rejected": 19,
+      "reasons": {
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 11,
+        "school_not_resolved_confidently": 5
+      },
+      "samples": [
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112114614716469430",
+          "author": "zackeiseman",
+          "searchJob": "navy",
+          "text": "ICYMI O/N & WEEKEND MACRO: Nvidia CEO Jensen Huang said AI-market turmoil would pass, arguing the industry remains early in a transformative investment cycle and returns justify continued spending. (BBG) BofA says customer VIX-call position"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112092245847666749",
-          "author": "ashokdadhwal196",
-          "searchJob": "liberty",
-          "text": "THE GARDEN MAY BE DESTROYED, BUT SPRING CANNOT BE STOPPED! | RAJU PARULEKAR & PROF. RAVIKANT In a powerful conversation, political commentator Raju Parulekar and Professor Ravikant discuss Rahul Gandhi's political journey, the legacies of M"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112109460693078251",
-          "author": "captcricstocks",
-          "searchJob": "south-florida",
-          "text": "@SakSpeaksHQ Great signing by the Bulls but the batting is the worry. Marne and Renners are big holes to fill. We should’ve offered Uzzy a pay as you play deal or lured Ben McDermott out of Tassie to shore up the batting. @qldcricket"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112100222373417232",
-          "author": "onearmor",
-          "searchJob": "south-florida",
-          "text": "I'm not answering from a 'Christian' point of view simply because I can't put myself in a Christian point of view.. The Bible is clear that the meaning of the covenant with the children of Israel was far more EARTH BASED than spiritual. The"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112091055608955222",
-          "author": "cali_xauusd",
-          "searchJob": "south-florida",
-          "text": "#XAUUSD Although bulls have continued to keep XAUUSD above 4170, its momentum is gradually weakening. Consequently, establishing short positions in the 4190–4200 range offers a favorable risk-reward profile. The above reflects my personal o"
+          "postId": "2112097147026071979",
+          "author": "technewsonweb",
+          "searchJob": "navy",
+          "text": "[ Amazon US Pre-order ] 📦 HTC Vive Eagle AI Glasses – Navy at $499.00 [ad] https://t.co/yxqyjgid0E – Live translation in over 90 languages with VIVE AI Pro Subscription – Image translation for signs menus and text – Listening mode through "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2112099534721401023",
-          "author": "sideline_satire",
-          "searchJob": "utah",
-          "text": "Utah offers a $2,800 BYU baby bonus. Indiana’s governor has to set the mood. The tax office has one request: “Please do not send video.” https://t.co/o056gi2DYU #BYU #CollegeFootball Satire • AI art https://t.co/iKdcfpO5cg"
+          "postId": "2112104293251858489",
+          "author": "lifeunl0cked",
+          "searchJob": "new-mexico",
+          "text": "Before Mexico ever saw Germany's secret offer, British codebreakers were already reading it. January 1917. German foreign secretary Arthur Zimmermann offered Mexico a war pact if the US joined World War I against Germany. With German aid, M"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112091340628484538",
-          "author": "rolexbruno1",
-          "searchJob": "hawaii",
-          "text": "Struggling with acidity, heartburn, bloating, or occasional constipation? We offers soothing digestive support to help you feel more comfortable naturally. 📞 Order now: 0706 508821 📍 Eldoret City, Hawaii, along Iten Road 🚚 Countrywide de"
+          "postId": "2112114033381736777",
+          "author": "maximumpain333",
+          "searchJob": "temple",
+          "text": "ONE OF THE BIGGEST VEHICLE FOR TRAUMA IS PORN Pornography stands among the most potent of these: not merely images of flesh, but a counterfeit sacrament, a stolen fire that promises union while delivering isolation, fragmentation, and the s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112109894287688088",
+          "author": "dmc_dad",
+          "searchJob": "temple",
+          "text": "Dear Trade Partner, Greetings from DAD DMC PVT LTD– Your Trusted DMC for THAILAND, VIETNAM, DUBAI,MALAYSIA, SINGAPORE. At DAD DMC, we offer: FIX DEPARTURE FOR THAILLAND (15 JAN 2027) FLIGHTS:- INDIGO DEL-BKK 6E1347RN BKK-DEL 6E1054QN HOTEL "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112108813000028311",
+          "author": "agyeitah",
+          "searchJob": "temple",
+          "text": "Again edge case scenario. Let me take you to your Bible because this isn't about what you or I say it's about what God says and the fact that she joins the hallelujah challenge means what God says should have preeminence over what you or I "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112102946708337120",
+          "author": "channel1india",
+          "searchJob": "temple",
+          "text": "Himachal Governor Kavinder Gupta Offers Prayers at Mata Bawe Wali Ji Temple on Last Day of Navratri नवरात्रि पर मां के दरबार में पहुंचे राज्यपाल कविंदर गुप्ता, देश की खुशहाली के लिए की प्रार्थना! #KavinderGupta #jammunews #navratrispecial #"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112101899155767719",
+          "author": "partisanviews",
+          "searchJob": "temple",
+          "text": "@MR_COOL77777 Because darling “Namaaz” can be offered at any clean place.. but a “Puja” has to be done at a temple only."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112099825626104139",
+          "author": "travelwithkhaki",
+          "searchJob": "temple",
+          "text": "There’s much more to Cambodia than just the magnificent Angkor Wat temple – floating villages, French colonial architecture, the royal palace of Phnom Penh, the brutal regime of the Khmer Rouge, and of course, temples and more temples built"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112097057096048988",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Patna, Bihar: Chief Minister Samrat Choudhary visited the Bansghat Kali Temple, offered prayers to Goddess Kali and sought her blessings. https://t.co/ASMklA3DHH"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112094761893183991",
+          "author": "earlypostdaily",
+          "searchJob": "temple",
+          "text": "#WATCH: Himachal Pradesh Governor Kavinder Gupta offers prayers at Bawe Wali Mata Temple in Jammu. @KavinderGupta https://t.co/TjRlpQuZ5i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112114038943457544",
+          "author": "wgme",
+          "searchJob": "auburn",
+          "text": "It is spooky season in Maine, and Wallingford’s Orchard in Auburn offers one of the scariest Halloween experiences in the state. https://t.co/VQ8rahCJWR"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112111166629528065",
+          "author": "vitalsun_app",
+          "searchJob": "texas",
+          "text": "DAY 2 - Circadian analysis: Elon Musk @elonmusk ⠀ He builds rockets that land themselves, but his body clock is honestly one of the most chaotic schedules I've ever looked at. Here's how his routine scores from a light perspective: ⠀ Sleep:"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112107539110281273",
+          "author": "tudoranalin",
+          "searchJob": "texas",
+          "text": "📊 MARKET WATCH — OCT 19 Wall Street futures are recovering after a difficult week for AI stocks. Falling oil prices and Treasury yields are providing some relief, but major earnings will test investor confidence. 📈 GLOBAL MARKETS — RECOVE"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112099797058605238",
+          "author": "applekhankorea",
+          "searchJob": "miami",
+          "text": "STRATEGIC FORECAST ANALYSIS ::: Pi Network: Beyond the Industrial Revolution Toward an Economic Revolution — October 2026 to January 2027, the Potential Tipping Point of a Suprasovereign, Ownership-Based Autonomous Economic Operating System"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112110400405672246",
+          "author": "therepublicorg",
+          "searchJob": "north-carolina",
+          "text": "In 1988 Dolly Parton pulled every 7th and 8th grader in Sevier County into a room and told them to pick a buddy. She made them sign a contract.. if BOTH graduate, she hands you both $500. One fails, nobody gets paid. The county dropout rate"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112101298736861673",
+          "author": "pocketcrumble",
+          "searchJob": "charlotte",
+          "text": "🏈 Monday Night Football: 49ers vs Commanders! 🏈 🔥 Get a 50% BET BUILDER BOOST with BoyleSports, plus £30 in free bets when you join &amp; bet £10! 👉 https://t.co/DYImcpCCEY [#Ad] | 18+ | New Customer Offer | T&amp;Cs Apply | https://t.c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112101194219077989",
+          "author": "nfldraftsi",
+          "searchJob": "charlotte",
+          "text": "🏈 Monday Night Football: 49ers vs Commanders! 🏈 🔥 Get a 50% BET BUILDER BOOST with BoyleSports, plus £30 in free bets when you join &amp; bet £10! 👉 https://t.co/wQrXoHvgFq [#Ad] | 18+ | New Customer Offer | T&amp;Cs Apply | https://t.c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112100965776286125",
+          "author": "thetouchdownnfl",
+          "searchJob": "charlotte",
+          "text": "🏈 Monday Night Football: 49ers vs Commanders! 🏈 🔥 Get a 50% BET BUILDER BOOST with BoyleSports, plus £30 in free bets when you join &amp; bet £10! 👉 https://t.co/LtmsljiY0i [#Ad] | 18+ | New Customer Offer | T&amp;Cs Apply | https://t.c"
         }
       ]
     },
@@ -142,11 +307,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 19,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-19T09:28:18.107Z"
+    "status rebuilt locally from current store on 2026-10-19T09:43:24.096Z"
   ]
 }
