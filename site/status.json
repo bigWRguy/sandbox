@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T00:26:02.948Z",
+  "generatedAt": "2026-10-19T00:43:14.976Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-19T00:26:02.605Z",
+    "at": "2026-10-19T00:43:14.582Z",
     "jobsTotal": 162,
-    "sweptThisRun": 8,
-    "requests": 9,
-    "fullSweepCycles": 21
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7367811111111111,
-    "p95Hours": 1.7356761111111112,
-    "worstHours": 1.9869377777777777
+    "medianHours": 0.7734133333333333,
+    "p95Hours": 1.7739430555555555,
+    "worstHours": 1.7739430555555555
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 25,
+    "decided": 25,
     "complete": true
   },
   "pending": {
@@ -49,73 +49,217 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 3269,
+    "completeOffers": 3270,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-19T00:26:02.604Z",
-      "got": 16,
-      "new": 4,
-      "lag": 0.3
+      "at": "2026-10-19T00:43:14.582Z",
+      "got": 41,
+      "new": 25,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-19T00:25:28.378Z",
+    "at": "2026-10-19T00:41:38.274Z",
     "mode": "live",
     "collection": {
-      "returned": 16,
-      "kept": 4,
-      "duplicate": 12,
-      "tooOld": 0,
+      "returned": 41,
+      "kept": 25,
+      "duplicate": 15,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 13,
+      "rejected": 12,
       "reasons": {
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 2
+        "no_fbs_school": 6,
+        "no_offer_term": 2,
+        "hard_negative": 2,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2111970817906983220",
+          "author": "bobina_council",
+          "searchJob": "class:2026",
+          "text": "📋 Bobina Council Observation Report #179 📅 Monday, October 19, 2026 - 12:00 AM UTC 👥 Council Activity Vibe was the only one posting across the channels in the last 24h, dropping a steady stream of passive updates on dev work like Godot m"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111970543046205467",
+          "author": "mlb_connection",
+          "searchJob": "class:2026",
+          "text": "https://t.co/asPJDKdFra"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111973277602283683",
+          "author": "soffog5",
+          "searchJob": "ole-miss",
+          "text": "@krisjones6_ @jerms3_ @RebelsFBRec @Elite3Recruits @RileyElite3 @TomLoy247 @CSmithScout @ChadSimmons_ @adamgorney @RivalsHS @Rivals @247recruiting Ole Miss is a real SEC offer, but the portal era means a commit now is a placeholder. What's "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111972014055665670",
+          "author": "ms_ai_network",
+          "searchJob": "ole-miss",
+          "text": "AI in the classroom should serve learning. MAIN, Mississippi’s statewide AI initiative, offers a Faculty AI Playbook on course expectations, assessments, student privacy and human oversight. Explore all playbooks: https://t.co/tGRZiC5p1b"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2111211586073309226",
+          "author": "acceleratems",
+          "searchJob": "ole-miss",
+          "text": "As Mississippi’s statewide AI initiative, MAIN is helping higher education faculty build the knowledge and confidence to bring AI into their classrooms with purpose. Explore the Higher Ed - Faculty AI Playbook at https://t.co/Wq3oOqqPLz. ht"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111974014126305618",
+          "author": "evelyn_anderso2",
+          "searchJob": "oregon",
+          "text": "Looking to sell 4 tickets to New York Rangers vs. Anaheim Ducks at Madison Square Garden! Date: Monday, Oct 19 | 7:00 PM 4 tickets available — Prices are negotiable! Can sell separately. DM me if interested — open to offers! https://t.co/FP"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2111974319332986930",
+          "author": "baylor67145093",
+          "searchJob": "baylor",
+          "text": "@Jamaa574260 @ShehanJeyarajah got offered then they pulled it after someone else committed"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111970389437915363",
+          "author": "loganhoustonla",
+          "searchJob": "houston",
+          "text": "Enjoyed spending time with friends yesterday at @eatdrinkLULA on St. Charles Avenue! It’s always great to get together, support local businesses, and enjoy everything New Orleans has to offer. https://t.co/jWfeQZAQ9e"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111967173123940686",
+          "author": "conydiyhouston",
+          "searchJob": "houston",
+          "text": "🦃 感謝祭ディナー、1人$3.90 vs $10！？ アメリカのスーパーで早くも価格競争！ 🛒 ALDI：10人分で$39未満 七面鳥16lb＋定番料理の材料。自分で調理。 🛒 Sam’s Club：16人分で約$160 七面鳥・ハム・付け合わせなど11品。約2時間で準備OK！ ただし、人数も献立も違うので単純比較はできません。 安さを選ぶか、調理時間を買うか。 日本のおせちにも通じる選択ですね😂 うちにはちと量が多すぎるかなぁー （画像は公式画像転載NGなので、チャ"
+        },
+        {
           "reason": "non_fbs_offer_target",
-          "postId": "2111954951760949507",
-          "author": "jonahcarroll_20",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachAmbroseLWU , I am extremely blessed to receive an offer from Lindsey Wilson University! @CoachKleckler @Coach_CotterLWU @HallTechSports1 @AL5AFootball1 @AL_Recruiting @PrepRedzoneAL @kyle_elsberry @Dani"
+          "postId": "2111975573472084161",
+          "author": "dawg_hoop",
+          "searchJob": "utah",
+          "text": "Tim Finau | 6’11”–7’0” | South Plains College Finau has received a Division I offer from Southern Utah!"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2111965051892462000",
+          "author": "prepsrecruit",
+          "searchJob": "utah",
+          "text": "Another opportunity to make an impact on the defensive side 🏈💪 Tyson Cleary (@tyce4950) earns an offer from Southern Utah University! The 6'1\", 225-lb 2027 LB/DE brings physicality, strength, and versatility to the defensive unit. The roa"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2111951853051130126",
-          "author": "maxsweet8_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After an amazing call with @Ryan_Munz I am so blessed to receive an offer from @UWPlattFootball. I am so greatful for the opportunity! I can’t wait for our relationship to grow! @CoachMikeUWPlat @Nickalberico_21 @CoachBauder5 @CoachBacon98 "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2111949838279745757",
-          "author": "colehanford2",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Coach Reilly and Thomas Jefferson University Men's Basketball! Thank you to the coaching staff for the opportunity. https://t.co/EhvraNV5R3"
+          "postId": "2111960853683863672",
+          "author": "patrickmorantb",
+          "searchJob": "buffalo",
+          "text": "Joe Brady offers up a gift to the Raiders by allowing Josh to throw an incomplete pass on second down. I'm concerned about his decision making in these moments, even if it doesn't end up hurting them today. I mean it's so obvious what you s"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 12,
       "reasons": {
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2111972579959324883",
-          "author": "sirmaejoratl",
-          "searchJob": "ohio",
-          "text": "🚨 JOHN KHALI MOUSSAED OWNER OF GRAPEVINE BAR & GRILL CAUGHT ON TAPE SEXUALLY ASSAULTING BLACK FEMALE CUSTOMER IN TOLEDO, OHIO Meet Emily Evans, a 36 year-old BLACK MARRIED WOMAN and MOTHER. She decided to spend her BLACK DOLLARS at THE GRA"
+          "postId": "2111980869191630967",
+          "author": "robbservations2",
+          "searchJob": "missouri",
+          "text": "Meanwhile... How MIND-BLOWINGLY GULLIBLE must one be to STILL call themselves a MORMON?!!! 𝗝𝗢𝗦𝗘𝗣𝗛 𝗦𝗠𝗜𝗧𝗛 𝗪𝗔𝗦 𝗔 𝗖𝗢𝗡 𝗔𝗥𝗧𝗜𝗦𝗧 — 𝗔𝗡𝗗 𝗧𝗛𝗘 𝗕𝗢𝗢𝗞 𝗢𝗙 𝗠𝗢𝗥𝗠𝗢𝗡 𝗖𝗢𝗡𝗧𝗔𝗜𝗡𝗦 𝗚𝗟𝗔𝗥𝗜𝗡𝗚 𝗜𝗡𝗔𝗖𝗖𝗨𝗥𝗔𝗖𝗜"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111978721288847456",
+          "author": "surfsup2020",
+          "searchJob": "missouri",
+          "text": "@rforan23 Yes but Missouri didn’t offer to Brown, correct? That’s what I was getting at with him showcasing in the Braggin Rights game."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111969281206309141",
+          "author": "thomastucker313",
+          "searchJob": "missouri",
+          "text": "7 Games (Mid Season+ Film) for ‘27 (DB/SAF) @ThomasTuckerJr4 at Ridge Point HS (Missouri City, TX). (6’2 | 185lbs | 4.5 40 | 6’7 WS) All Verified. Multiple D1 Offers 15 Tackle, 6 PBUs, 2 Interceptions, 1 Forced Fumble, 1 TFL (7-0 Record) sh"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2111958597999690050",
+          "author": "hbulwark1",
+          "searchJob": "ole-miss",
+          "text": "One of history’s greatest land deals was sealed when a future American president sat face to face with the emperor of France. In early 1803, President Thomas Jefferson sent James Monroe to Paris to join Robert Livingston. Their mission was "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111956395553665486",
+          "author": "fernaochab",
+          "searchJob": "oregon",
+          "text": "Be prepared enough to offer assistance. The duck goes back to the stream, circling and paddling once more. It quacks more loudly, as though summoning other ducks, yet still no one answers, so it keeps paddling by itself. https://t.co/wIR7n3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111952706592243826",
+          "author": "opfurydk",
+          "searchJob": "oregon",
+          "text": "@SbJefe @adamcarolla Reject ur negativity. Oregon is gorgeous with great things to offer. That's why dey took over. Don't throw d baby out with d bathwater. Father thank U Oregon is an overcomer state. U r changing it's DNA. U said it. It's"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2111972267236143366",
+          "author": "cashklay_",
+          "searchJob": "houston",
+          "text": "SNF PLAY CeeDee Lamb is the centerpiece of this receiving-yardage play. Through five games, he has recorded 507 receiving yards on 39 catches, averaging 101.4 yards per game. He has surpassed 85 yards in three of his five appearances, inclu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111973346892267736",
+          "author": "deseretsports",
+          "searchJob": "utah",
+          "text": "‘I wanted this one really bad’: Isaac Wilson comes up short vs. former team, but offers some hope to Colorado Story by @JoeAColes https://t.co/7lQrvaEwPw"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2111979349930877177",
+          "author": "finora_en",
+          "searchJob": "buffalo",
+          "text": "hey! here’s a quick breakdown on $ENA #ENAUSDT.P 1h for you 👀 - my bias is bearish here as the 1h structure is clearly making lower highs and lower lows, with the trend still intact below 0.19250 - price is currently hovering near 0.1877, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111964454589968786",
+          "author": "scopophiliacap1",
+          "searchJob": "buffalo",
+          "text": "A friend of mine back in Buffalo said the priest offered a prediction on the game during his honor: 33-30, Bills win. Wild."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111953443342455200",
+          "author": "donedealcardco",
+          "searchJob": "buffalo",
+          "text": "Check out Keon Coleman Lot (6) Buffalo Bills https://t.co/LlJVxQnb4i #eBay via @eBay $6 🛳️ Free shipping! 🤝 Shoot us an offer!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2111951494115414238",
+          "author": "cancelpeoplenow",
+          "searchJob": "fresno-state",
+          "text": "@nypost Per the suit: Fresno Unified kept its HR director on paid leave nearly a school year, then let her resign. Ja’Vance Coleman’s complaint says she offered him $300 to lie to investigators and covered his $10/hr pay cut with her Target"
         }
       ]
     },
@@ -123,20 +267,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 8,
-      "failed": 1,
-      "requests": 9,
-      "errors": [
-        "wyoming: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 12,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-19T00:26:02.949Z"
+    "status rebuilt locally from current store on 2026-10-19T00:43:14.977Z"
   ]
 }
