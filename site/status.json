@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T22:12:12.027Z",
+  "generatedAt": "2026-10-20T22:43:17.075Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-20T22:12:11.669Z",
+    "at": "2026-10-20T22:43:16.639Z",
     "jobsTotal": 162,
-    "sweptThisRun": 7,
-    "requests": 8,
-    "fullSweepCycles": 24
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,36 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "army",
+      "hours": 2.3
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 2.3
+    },
+    {
+      "id": "james-madison",
+      "hours": 2.3
+    },
+    {
+      "id": "old-dominion",
+      "hours": 2.3
+    },
+    {
+      "id": "wyoming",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0042072222222223,
-    "p95Hours": 2.005053333333333,
-    "worstHours": 2.005053333333333
+    "medianHours": 1.2739083333333334,
+    "p95Hours": 2.0214908333333335,
+    "worstHours": 2.271701111111111
   },
   "decisionCoverage": {
-    "total": 22,
-    "decided": 22,
+    "total": 41,
+    "decided": 41,
     "complete": true
   },
   "pending": {
@@ -55,195 +76,330 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-20T22:12:11.669Z",
-      "got": 24,
-      "new": 22,
-      "lag": 0.13
+      "at": "2026-10-20T22:43:16.638Z",
+      "got": 64,
+      "new": 41,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-20T22:11:39.883Z",
+    "at": "2026-10-20T22:41:44.197Z",
     "mode": "live",
     "collection": {
-      "returned": 24,
-      "kept": 22,
-      "duplicate": 2,
+      "returned": 64,
+      "kept": 41,
+      "duplicate": 23,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 13,
+      "accepted": 21,
+      "rejected": 20,
       "reasons": {
-        "no_fbs_school": 7,
-        "no_offer_term": 6
+        "no_fbs_school": 8,
+        "hard_negative": 4,
+        "no_offer_term": 6,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2112661514167452074",
-          "author": "rupertpitt1",
-          "searchJob": "pittsburgh",
-          "text": "“However, online users quickly found Whittaker’s social media profiles, where she posts pictures of herself vacationing in places like Oman, the island of Ré, Sicily, the Greek islands, Malaysia, and Egypt. She earned a bachelor’s degree fr"
+          "postId": "2112659054871134605",
+          "author": "tulsazoo",
+          "searchJob": "tulsa",
+          "text": "For an even better view, head to the H.A. and Mary K. Chapman Zebra Overlook, where you’ll be able to enjoy the habitat with a treat from the nearby concession area. The overlook will also offer a unique space for private events after hours"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112525993478889604",
-          "author": "visegrad24",
-          "searchJob": "pittsburgh",
-          "text": "A French left-wing activist mocked those whose livelihoods had been destroyed by violent rioters and looters over the past few days. “Your little shops, that’s real cute,” said Lola-Fleur Whittaker, who defended the rioters during a French "
+          "postId": "2112656464628306143",
+          "author": "tulsahurricane",
+          "searchJob": "tulsa",
+          "text": "The countdown to kickoff starts at the tailgate! 🏈 Get to H.A. Chapman Stadium early this Friday and enjoy everything gameday has to offer! Tailgating starts at 4 PM at Chapman Commons with plenty happening before kickoff! #ReignCane https"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112670746447347745",
+          "author": "adrianbroaddus",
+          "searchJob": "uab",
+          "text": "UTEP sophomore guard Cam McDaniels (6-foot-5, 220) spoke with the media on Tuesday. The JUCO guard averaged 17.4 points and 5.1 rebounds while starting 23 of 29 games last season at John A. Logan College. He was named a second-team NJCAA Al"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112667334884372501",
+          "author": "psunationrec",
+          "searchJob": "unlv",
+          "text": "@realfbllliason I think of recruiting rankings like it gives you an advantage but means nothing if you don’t utilize it correctly. Some people act like having a top 5 class means there team is a playoff lock lol."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112667487116623917",
+          "author": "np4football_ot",
+          "searchJob": "class:2029",
+          "text": "Johnathon Hampton-QB-2029-AL @BlueGreyFB Combine Invite #CFB"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2112672827354529884",
+          "author": "brycefisher29",
+          "searchJob": "alabama",
+          "text": "Blessed and honored to receive a offer from the University of North Alabama 💜 #AllGLORYTOTHEMANABOVE🙏🏾 https://t.co/m724nErFXq"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112649540864221386",
-          "author": "stanfordpain",
-          "searchJob": "stanford",
-          "text": "Patients deserve the truth. If a procedure is painful, they should be told upfront—and offered options for pain relief."
+          "postId": "2112665193209622785",
+          "author": "almentalhealth",
+          "searchJob": "alabama",
+          "text": "Warm lines are here to help! A Warm line is a peer-run phone line that offers callers emotional support. https://t.co/lTvAwkHOm6"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2112663853808988611",
+          "author": "alabamagenerals",
+          "searchJob": "alabama",
+          "text": "6’3 G Jackson Nance (@jackson_nance08 ) out of North Torrance HS (CA) picked up an offer from Graceland University #GoYellowJackets #TheFamily #AttentionToDetail #AGBasketball https://t.co/TbhyxvMr6A"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112659280474329245",
+          "author": "andrewg_6",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "After a call with coach @idunklewis I am blessed to have received my first offer from miles college @DaydayJones3_ @Aurionpeoples_ @MatthewTago https://t.co/p77JTGTJsb"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112671592559849553",
+          "author": "avcishow",
+          "searchJob": "houston",
+          "text": "Four-star class of 2027 wing, Maci Pringle, has committed to the #LadyVols. Pringle commits to Tennessee and Coach Kim Caldwell over offers from Arizona State, Houston, Texas A&amp;M, Georgia, Vanderbilt, and others. Graphic - @dallas_bowli"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2112666336488813028",
-          "author": "nvee3",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/TcYpA3GeR7"
+          "postId": "2112671360258564486",
+          "author": "adelsteintom",
+          "searchJob": "houston",
+          "text": "https://t.co/YnpbtHcI6N"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112675197576986787",
+          "author": "lee88psu",
+          "searchJob": "virginia",
+          "text": "Falzone had offers from Ohio State, Auburn, Virginia Tech and many many many many more."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112673061417758848",
+          "author": "mightyofva",
+          "searchJob": "virginia",
+          "text": "Did you know? Mighty offers a complete program for heavy-duty fleets, diesel repair facilities, and off-highway operations. Ask your local Mighty Rep to learn more! https://t.co/jZCSyRaRSc"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112659365056397473",
+          "author": "thesportsontap",
+          "searchJob": "virginia",
+          "text": "Not one Division I program offered Javonte Green a basketball scholarship. The only scholarship anybody ever put in front of him was to play quarterback. Tonight, at 33 years old, he made five threes on opening night and Detroit came back f"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2112661054756999349",
+          "postId": "2112651002767638550",
+          "author": "cybrancee",
+          "searchJob": "virginia",
+          "text": "Hosting a Rust server takes more than pressing start and hoping for the best. From small private servers to busy public ones, the setup you build on decides how every wipe plays out. https://t.co/9fR3WfF6TH https://t.co/KNEbsVxXgL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112644169483387325",
+          "author": "cavs",
+          "searchJob": "virginia",
+          "text": "Get a special-edition breast cancer awareness beanie with this special ticket offer! FIND TICKETS HERE: https://t.co/0Q3uAFkSOG @ClevelandClinic | #LetEmKnow https://t.co/7OEpfcpvS8"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112657309835121096",
           "author": "itilvescu",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/Apg1GKIC55"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112658889162498542",
-          "author": "epochpremium",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/lyyW4EOyy9"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112142248519324124",
-          "author": "minikothe3rd",
-          "searchJob": "arkansas-state",
-          "text": "WHY I SUPPORT TINUBU, IN VERY SIMPLE TERMS. I BELIEVE IT SHOULD BE MORE THAN ENOUGH REASON FOR YOU TOO. 🇳🇬 A THREAD 🧵 I agree, Asiwaju Bola Ahmed Tinubu is not perfect. I agree, the standard of living has deteriorated under his administr"
+          "searchJob": "army",
+          "text": "https://t.co/YPLsycYjmy"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112641921860706343",
-          "author": "teenaj",
-          "searchJob": "arkansas-state",
-          "text": "YOU DO NOT UNDERSTAND- NOT EVEN NORMAL EVERYDAY SECURITY WAS IN PLACE! A JOINT session SHOULD be a HIGHER LEVEL OF security! A State of the Union required certain HIGHWAYS and tunnels to be shut down! NOT EVEN LEVEL 1 security was in place!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112641883210141758",
-          "author": "teenaj",
-          "searchJob": "arkansas-state",
-          "text": "YOU DO NOT UNDERSTAND- NOT EVEN NORMAL EVERYDAY SECURITY WAS IN PLACE! A JOINT session SHOULD be a HIGHER LEVEL OF security! A State of the Union required certain HIGHWAYS and tunnels to be shut down! NOT EVEN LEVEL 1 security was in place!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112641841040613456",
-          "author": "teenaj",
-          "searchJob": "arkansas-state",
-          "text": "YOU DO NOT UNDERSTAND- NOT EVEN NORMAL EVERYDAY SECURITY WAS IN PLACE! A JOINT session SHOULD be a HIGHER LEVEL OF security! A State of the Union required certain HIGHWAYS and tunnels to be shut down! NOT EVEN LEVEL 1 security was in place!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112641699658830105",
-          "author": "teenaj",
-          "searchJob": "arkansas-state",
-          "text": "YOU DO NOT UNDERSTAND- NOT EVEN NORMAL EVERYDAY SECURITY WAS IN PLACE! A JOINT session SHOULD be a HIGHER LEVEL OF security! A State of the Union required certain HIGHWAYS and tunnels to be shut down! NOT EVEN LEVEL 1 security was in place!"
+          "postId": "2112656576402366875",
+          "author": "mufc_ra",
+          "searchJob": "army",
+          "text": "Even after dishing 1000’s of free tickets to grassroot clubs/schools for this fixture it’s still diabolically empty 😭😮‍💨 They can’t fill the place with free seats on offer. How does a club this size claim to generate more revenue than Ut"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2112640676001366138",
-          "author": "thenabeelkhan",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/PUWao9Ym3W"
+          "postId": "2112626153886195980",
+          "author": "thesunfootball",
+          "searchJob": "army",
+          "text": "Thousands of empty seats at the Etihad tonight 😳 https://t.co/ZfuchG2C3y"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2112638361752174759",
-          "author": "jamiemillerau",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/Hd8dEyD74R"
+          "reason": "no_fbs_school",
+          "postId": "2112651925300916636",
+          "author": "pencil_army",
+          "searchJob": "army",
+          "text": "@gfys35 I nabbed it from MovieZyng just to make sure I got one but I was less enthused when it had the same image as the Blu Ray cover itself, rendering it kinda moot in my opinion. Still, if it's offered you should get it."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 21,
       "reasons": {
-        "reporter_missing_player_name": 1,
-        "bare_mention_requires_llm": 7,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 14,
+        "multiple_resolved_schools": 5,
+        "reporter_missing_class_year": 2
       },
       "samples": [
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2112650356455043090",
-          "author": "stanfordrivals",
-          "searchJob": "stanford",
-          "text": "2029 4-star PG Quali Giran (@qualigiran2029) out of Millikan High School in Long Beach, CA has landed an offer from Stanford. #Stanford #ACC #ACCMBB"
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112665451641684306",
-          "author": "curtishouck",
-          "searchJob": "arkansas-state",
-          "text": "On Tuesday’s ‘CBS Mornings,’ Norah O’Donnell fretted “violent protesters” had taken “over the streets during the weekend,” while Stretch focused on the curfew’s in French cities and a State Department alert. He also noted President Trump sa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112662877693685777",
-          "author": "cgtnamerica",
-          "searchJob": "arkansas-state",
-          "text": "France imposes curfews in cities after weekend of protests French authorities set curfews in parts of several cities on Monday, including Paris, Lille and Nice, as they faced pressure over security failings after a weekend of riots and loot"
+          "postId": "2112669934421725500",
+          "author": "realfbllliason",
+          "searchJob": "unlv",
+          "text": "Darian Mensah had one FBS offer. Trinidad Chambliss came from D-II. Drew Mestemaker never played varsity. Jayden Maiava came through UNLV. Noah Fifita was overlooked, too. The 2 best NFL QB’s Patrick Mahomes and Josh Allen had 3 ⭐️’s and 2 "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2112661773686132808",
-          "author": "viarifnote",
-          "searchJob": "arkansas-state",
-          "text": "Trump administration holds back another $1.2 billion in California Medicaid funds The Trump administration is deferring an additional $1.2 billion in Medicaid reimbursements to California over concerns about potential fraud in a state progr"
+          "postId": "2112672206144552998",
+          "author": "trevordenton37",
+          "searchJob": "alabama",
+          "text": "When he entered the portal, Cody Sigler had visits lined up to Mississippi State, Oklahoma and Alabama (his childhood favorite team). But Auburn won out: \"Nowhere near the most money I got offered, but it's just the opportunity and the peop"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112658152927936983",
-          "author": "marcoscand19501",
-          "searchJob": "arkansas-state",
-          "text": "Yes, very familiar. I offer this perspective to you... Let's go with your conclusion. IMO, it's better for an enemy to show up now and compel us to act and make our weapons sharper for the long run. It's better now to have an enemy than whe"
+          "postId": "2112664376473706904",
+          "author": "brokenbarnet",
+          "searchJob": "lsu",
+          "text": "@_christinew59_ LSU is easier to get to from Barnet than Loreto, but both schools rarely took girls from this far out. I suspect you are right: LSU offers a perfect opportunity for profiteering development."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112650708155777391",
-          "author": "_lwalter_",
-          "searchJob": "arkansas-state",
-          "text": "@AzelfDaGirl Think of it this way, OK offers him far less in a future run than TX but he's choosing to spend the DGA's limited resources in a state where $$$ go further. It tells me he's not following blind ambition and is taking his DGA ro"
+          "postId": "2112667952503734731",
+          "author": "houstonchron",
+          "searchJob": "houston",
+          "text": "Texas transgender advocacy groups have denied sending out the material, leading many to believe they may be coming from someone hoping to stir up Republican voters, rather than offer aid to transgender youth as they purport to be doing. htt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112647557427896536",
-          "author": "mollypo66713747",
-          "searchJob": "arkansas-state",
-          "text": "@Chasten All this does is offer an explanation as to why she is such a messed-up person. She definitely shouldn't be running a state. Sorry."
+          "postId": "2112662777756094622",
+          "author": "cityoftomball",
+          "searchJob": "houston",
+          "text": "🚧 Temporary Traffic Impact Advisory for Saturday, Oct. 24, 2026🚧 Please note that there may be temporary slowdowns in the Tomball area this Saturday from approximately 8:00 a.m. to noon due to increased foot traffic from the Tidy Up Tomba"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112644151888220532",
-          "author": "sir_elhermz",
-          "searchJob": "arkansas-state",
-          "text": "THE @Minikothe3rd's LONG ESSAY: CAMPAIGN IN THE GUISE OF PERSONAL OPINION - By: 𝐀 𝐂𝐎𝐍𝐂𝐄𝐑𝐄𝐍𝐄𝐃 𝐂𝐈𝐓𝐈𝐙𝐄𝐍 1/4 I took time to read everything in your long tweet. You have taken so much time and effort to explain your decision to"
+          "postId": "2112647319397044279",
+          "author": "mattdagley",
+          "searchJob": "houston",
+          "text": "A statement from Nova Scotia Premier Tim Houston in response to questions about the proposed Point Tupper data centre. Shared by Brian Wong, MLA for Waverley, Fall River, Beaver Bank on Facebook: \"We accept and expect that Nova Scotians hav"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112641308141470005",
-          "author": "robbybobbybaby1",
-          "searchJob": "arkansas-state",
-          "text": "@scott4670 @ilyssa_danielle @ClearReason No. I wasn't near the place. It was Hamas who started a war even though they have been offered a state several times, but they would rather kill Jews. https://t.co/o3kw3eQ8lz"
+          "postId": "2112645371822477745",
+          "author": "jbrighteous83",
+          "searchJob": "houston",
+          "text": "Houston builders are paying buyers right now: rate buydowns to 4.99%, up to $20K flex cash, closing costs covered. I track every verified offer weekly. Get the list 👇 https://t.co/dF5TZKPOyY — JoVon B. The Realtor, EXP REALTY, 832-534-2406"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112664009170104786",
+          "author": "d_excellence_",
+          "searchJob": "virginia",
+          "text": "https://t.co/PMj9CCWCR8 Simon the beguiler vs. the earnest eunuch. Control vs. faith - France and other places show consequences of changing perceptions. No confidence in leaders. True leaders are unseen, nor do they put the people first. L"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112662981376889207",
+          "author": "ontaphoops",
+          "searchJob": "virginia",
+          "text": "Javonte Green did not play a single minute of the first half today. The Detroit Pistons were down 22 points to the Boston Celtics in the opening game of the season. Green sat and watched all of it. Then he came in and scored 17 points in th"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112657611791401281",
+          "author": "prepredzonewv",
+          "searchJob": "virginia",
+          "text": "😴SLEPT-ON SENIORS: UNOFFERED 2027 MIDDLE LBs WORTH A CLOSER LOOK😴 🗣️EVERY senior MLB with film without a public offer who needs to be on your recruiting board‼️ 🔗: https://t.co/0mKXJGnKpq 💤 ‘27 Martinsburg LB @xXcarsonknight 💤 ‘27 Hun"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112647255354470548",
+          "author": "thelastmegawatt",
+          "searchJob": "virginia",
+          "text": "Virginia regulators just got their first real look at the $67B Dominion–NextEra merger, and the deal as filed isn't getting through. In testimony filed Monday at the SCC: • Commission staff said the petition fails the Utility Transfers Act "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112672448013586511",
+          "author": "charlotlkl",
+          "searchJob": "army",
+          "text": "My people originated in Germany, then moved to Russia when Queen Catherine offered them free land in the Volga region of Russia. After the Queen died, many of the freedoms she had granted them were quickly suspended. Bands of Russian men ca"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112671967044141380",
+          "author": "davidzvsur",
+          "searchJob": "army",
+          "text": "@kaitlancollins The deal Putin offered is: Give Russia land it hasn’t been able to occupy. Limit the size of the Ukrainian army. No peace keeping troops to enter Ukraine. Putin wants a pause to mobilise more troops &amp; to rearm. Then he w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112668003842007528",
+          "author": "debbobsmith",
+          "searchJob": "army",
+          "text": "@jeremyct In state colleges are much better priced. Community colleges are even better priced. The AirForce, Army &amp; Marines offer 2 &amp; 4 year ROTC scholarships and their Academies have zero tuition. You have options."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112667105526980700",
+          "author": "bighrizzds",
+          "searchJob": "army",
+          "text": "@asterslop evil dead 1 is literal slop to me i really don’t think it has much to offer in the monster department, character department, comedy or action. Evil dead 2 has all of that and better although it lowkey is the same movie just make "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112660589130772545",
+          "author": "nexuswars_",
+          "searchJob": "army",
+          "text": "Still doing work in progress on the Chozen- Pulsar AS-RS model Once the game is in good shape, i will be accepting public skin offers for the models, and so on, i do not want to limit peoples imagination with the army that i provide so modi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112654350216531989",
+          "author": "seniorplanet",
+          "searchJob": "army",
+          "text": "History has plenty of stories worth revisiting, and Roam From Home brings them directly to you. This monthly series from with the Center for Interactive Learning and Collaboration offers a closer look at museum collections, historical event"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2112643833888674154",
+          "author": "4321bigboy",
+          "searchJob": "army",
+          "text": "@NSACyber I took the most technical MOS offered by the U. S. Army, Signal Corps, accidental, bumped into a spy hornets's nest, Gomer Pyle, only six months of AD; my buddy died, under disputed allegation,{not my fault- what the hell} in that"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2112642196486901781",
+          "author": "davidzvsur",
+          "searchJob": "army",
+          "text": "@JackPosobiec The only deal Putin has offered is: Give Russia land it hasn’t been able to occupy. Limit the size of the Ukrainian army. No peace keeping troops to enter Ukraine. Putin wants a pause to mobilise more troops, rearm and then tr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112666384715124801",
+          "author": "loyaltylobby",
+          "searchJob": "hawaii",
+          "text": "Japan Airlines offers a 60% bonus on FLY ON points for business class travel between Japan and the United States or Canada until December 31, 2026. Note that Hawaii and Guam are excluded. https://t.co/6vADBsJVvv https://t.co/phzuZHQye2"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112662054733574555",
+          "author": "cosmicdude420",
+          "searchJob": "hawaii",
+          "text": "A COUNCIL OF MANU'A ISLANDS CHIEFS AND TWO COMMUNITY GROUPS SUED YESTERDAY TO BLOCK THE FIRST U.S. DEEP-SEA MINING LEASE SALE, OFF AMERICAN SAMOA. who sued. Faleula o le Manu'atele, a council of matai, or chiefs, joined Fa'asao Amerika Samo"
         }
       ]
     },
@@ -251,20 +407,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 7,
-      "failed": 1,
-      "requests": 8,
-      "errors": [
-        "georgia-southern: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 21,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-20T22:12:12.029Z"
+    "status rebuilt locally from current store on 2026-10-20T22:43:17.077Z"
   ]
 }
