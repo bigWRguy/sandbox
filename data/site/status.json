@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T11:13:28.089Z",
+  "generatedAt": "2026-10-20T11:28:30.802Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-20T11:13:27.746Z",
+    "at": "2026-10-20T11:28:30.388Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7748788888888889,
-    "p95Hours": 1.7725144444444445,
-    "worstHours": 1.7725144444444445
+    "medianHours": 0.7769369444444445,
+    "p95Hours": 1.7767,
+    "worstHours": 1.7767
   },
   "decisionCoverage": {
-    "total": 33,
-    "decided": 33,
+    "total": 47,
+    "decided": 47,
     "complete": true
   },
   "pending": {
@@ -55,276 +55,358 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-20T11:13:27.746Z",
-      "got": 49,
-      "new": 33,
-      "lag": 0.07
+      "at": "2026-10-20T11:28:30.387Z",
+      "got": 64,
+      "new": 47,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-20T11:12:01.288Z",
+    "at": "2026-10-20T11:26:56.523Z",
     "mode": "live",
     "collection": {
-      "returned": 49,
-      "kept": 33,
-      "duplicate": 15,
-      "tooOld": 1,
+      "returned": 64,
+      "kept": 47,
+      "duplicate": 17,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 17,
+      "accepted": 26,
+      "rejected": 21,
       "reasons": {
-        "no_offer_term": 7,
-        "no_fbs_school": 7,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 1,
-        "unclassified_offer_text": 1
+        "no_fbs_school": 6,
+        "no_offer_term": 11,
+        "non_fbs_offer_target": 4
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2112497071647498747",
+          "author": "salvationarmyma",
+          "searchJob": "army",
+          "text": "EDS Update: @SalArmyEDS team from Springfield responded to Monday night fire in Chicopee to offer support to first responders and residents."
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2112495085237776692",
-          "author": "ditto_anc",
-          "searchJob": "class:2026",
-          "text": "https://t.co/QU5wBPWTH5"
+          "postId": "2112388306491064767",
+          "author": "nbc10boston",
+          "searchJob": "army",
+          "text": "NEW: A person was found dead in a fire at a public housing complex in Chicopee Monday night, officials say. https://t.co/75VNtgCAuf"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112481725872021619",
+          "author": "emmywayne64",
+          "searchJob": "army",
+          "text": "Avengers: Infinity War https://t.co/Lz6QpAcuxG"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112482219654774836",
+          "author": "drsumalik",
+          "searchJob": "army",
+          "text": "Behind the Fear - History’s Other Face https://t.co/EFzXABaiMg"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112491692628808097",
-          "author": "wegro_app",
-          "searchJob": "class:2026",
-          "text": "RR MetalMakers India Limited announces the outcome of the Independent Directors Committee meeting held on Oct 20, 2026, to provide recommendations on the Open Offer for acquiring up to 23,42,295 equity shares by RB International Holdings Li"
+          "postId": "2112485896322703390",
+          "author": "kentbike1",
+          "searchJob": "kent-state",
+          "text": "@RepAshleyHinson You have to lie because (a) you’re counting on the fact voters don’t actually fact-check, (b) you have nothing else to offer, and (c) “They’re eating dogs!” didn’t work last time. How sad. Pathetic, really."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112267279497105455",
+          "author": "jamestate121",
+          "searchJob": "kent-state",
+          "text": "You have to really compromise any morals you have to lie like this."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112231540209983517",
+          "author": "atrupar",
+          "searchJob": "kent-state",
+          "text": "Ashley Hinson claims Josh Turek supports \"allowing kids to change their gender at school and not tell the parents about it\" (This literally has never happened! Not once!) https://t.co/roHD9ZPGgt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112504746577653889",
+          "author": "boomertime1",
+          "searchJob": "liberty",
+          "text": "The French Enlightenment promised liberty, equality, fraternity, and the triumph of reason. What followed? The guillotine, religious persecution, an emperor, and centuries of unrest. A satirical look at France's revolutionary legacy. https:"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112491664032121281",
-          "author": "speedystox",
-          "searchJob": "class:2026",
-          "text": "📊 RR METALMAKERS INDIA LTD - 531667 | 📈 Insider Trading / SAST RB International Holdings Limited, Suyog Yogesh Desai, and Nikita Suyog Desai (collectively referred to as the \"acquirers\") have made an open offer for the acquisition of up t"
+          "postId": "2112503339145412811",
+          "author": "ricey63",
+          "searchJob": "rice",
+          "text": "@Laurau5mc It's all about what you want right? Not a word about what you offer a man."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112498669043826943",
+          "author": "ricefanpage022",
+          "searchJob": "rice",
+          "text": "@DuelbitsSports has a huge offer up for grabs! Prediction psg vs barca scoreline Prediction and stand a chance to win.💰 I'm seeing an aggregate of 10 goals,what do u see? https://t.co/9xkb6YyPZw"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112483299671023891",
+          "author": "duelbitssports",
+          "searchJob": "rice",
+          "text": "𝟱 𝘅 $𝟮𝟱 𝗙𝗿𝗲𝗲 𝗕𝗲𝘁𝘀 𝗨𝗽 𝗳𝗼𝗿 𝗚𝗿𝗮𝗯𝘀! Here's your chance to win a free bet during PSG 🇫🇷 vs Barcelona 🇪🇸 in the #UCL tonight 🔥 How to Enter: ✅ Follow @DuelbitsSports 👀 Predict the winner 👉 Tag a friend and drop your U"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112498323055837274",
+          "author": "nichstreet",
+          "searchJob": "class:2027",
+          "text": "https://t.co/GzUbG1BPhj"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2112499129976774686",
-          "author": "dalt13k",
-          "searchJob": "michigan",
-          "text": "#AGTG After great conversations with Coach Damien Dumonceaux, I am blessed and humbled to receive an offer from Saint John’s University! 🏈🔴 ​Dalton Kelley Class of 2027 Warren De La Salle (MI) Nose Tackle (0, 1, 2i) ​6'0\" | 295 lbs | 1.62"
+          "postId": "2112493121049100436",
+          "author": "couriernews",
+          "searchJob": "illinois",
+          "text": "Aurora Christian’s TJ Anderson, with offers from Eastern Illinois and Valparaiso, takes game to next level https://t.co/frwcT9Ljqs"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2111074570262524043",
-          "author": "fft1776",
-          "searchJob": "michigan",
-          "text": "⚠️YOUR KID’S NEXT ONLINE PURCHASE COULD BE A VIAL Parents, watch this warning about black-market peptides. Ask what your kids are buying and who’s convincing them to try it. https://t.co/TnLh28dMSd"
+          "reason": "non_fbs_offer_target",
+          "postId": "2112486277689827772",
+          "author": "beaconnews",
+          "searchJob": "illinois",
+          "text": "Aurora Christian’s TJ Anderson, with offers from Eastern Illinois and Valparaiso, takes game to next level https://t.co/Hft9EiBHvu"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2112481254134178103",
-          "author": "whiteracelives",
-          "searchJob": "ole-miss",
-          "text": "this is really why i say that the north and the south are separate american cultures the divide has existed longer than the united states has, and ive always said “us history is just the north telling the south what to do.” southern cultura"
+          "reason": "non_fbs_offer_target",
+          "postId": "2112486277622767616",
+          "author": "ecnsports",
+          "searchJob": "illinois",
+          "text": "Aurora Christian’s TJ Anderson, with offers from Eastern Illinois and Valparaiso, takes game to next level https://t.co/4cDr3iVvBg"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2112046295699382344",
-          "author": "echoesofwaryt",
-          "searchJob": "ole-miss",
-          "text": "Oct 18, 1767 is the date usually given for the completion of the Mason-Dixon line. It was drawn to end a family feud and ended up dividing the country. For about 80 years, the Penn family of Pennsylvania and the Calvert family of Maryland f"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112501332015972790",
-          "author": "bradenreed015",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great game day visit @HopeCollegeFB, I am blessed to receive an official offer. #RollDutch @PStuursm @Coach_HThompson @CoachBird_7 @CoachHawken @OwossoTrojan_FB https://t.co/C7jAuxaULA"
+          "reason": "non_fbs_offer_target",
+          "postId": "2112485224852684892",
+          "author": "beaconnsports",
+          "searchJob": "illinois",
+          "text": "Talking about TJ. Aurora Christian's TJ Anderson, with offers from Eastern Illinois and Valparaiso, takes game to next level. \"Always working on my speed.\" @RickArmstrong28 with story for #TribSuburbanSports. @FootballAurora @TJanderson0962"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112500310258364467",
-          "author": "2waycj",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @NelsonUFootball ! 🙏🏾🏈 #AGTG! Thank you @CoachJohnson99 for the opportunity… #tnfg @WillieCarter34 @Coach_A_Nowell @CoachSnell @tiji_paul5 @EBGSkills @coach_hudgins @streetziam @SkysTheLimitWR @ConnallyCa"
+          "postId": "2112479905548247491",
+          "author": "injured_indiana",
+          "searchJob": "indiana",
+          "text": "@MarcD1075 this trade offer is poopier than your yard!! https://t.co/9DiJ6CIfrj"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2112494975154057626",
-          "author": "chadhatten1",
-          "searchJob": "colorado",
-          "text": "The Unthinkable Decade: How One Man’s Predatory Grooming Devastated a Community BROOKFIELD, OH — For nearly a decade, Josh Grau lived a double life. To neighbors, he was quiet and approachable. To parents, he was dependable. At church, he v"
+          "reason": "no_offer_term",
+          "postId": "2112446434226090213",
+          "author": "charlesgava_256",
+          "searchJob": "stanford",
+          "text": "The issue isn't about getting the masters degree.. The issue is about what skills you pick from it. I look at a masters degree as preparation for \"early early\" career researching. At the very least, one should be able to diagnose a problem,"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112456317034176717",
+          "author": "badassatronnn_",
+          "searchJob": "buffalo",
+          "text": "Similar to how Keralites have made eating beef their whole personality and somehow feel superior about it, Bengalis are trying hard to mimick the same thing by eating nonveg during Navratri."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112205616106373134",
+          "author": "honubroto",
+          "searchJob": "buffalo",
+          "text": "লুচি আর মাংস = শুভ অষ্টমী 😌😌😇😇 https://t.co/j8R6rkKBIt"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112497403047694804",
-          "author": "morpheus_blvcq",
-          "searchJob": "duke",
-          "text": "Na you dey advertise yourself, In search of Good working conditions You didn't mention what you have to offer to the establishment that decides to look your way You are here dropping standards Carry on, Shiloh is in December..."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112177096835416562",
-          "author": "iamdimma4",
-          "searchJob": "duke",
-          "text": "Name : Dimma S.O.O : Anambra state Occupation: A GRADUATE AGE: 23 Height: 5\"2 Looking for a Neat, tall ,handsome and financially stable man with good character and giver. Emphasis on tall, giver and financially stable 🙃 https://t.co/7k0hwS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112493109208556006",
-          "author": "enwelikusamuel",
-          "searchJob": "duke",
-          "text": "@kay4027 @JustKingss You're an idiot. You're just hell bent on supporting a failed druggie that you don't even have value in their grand scheme of existence. Idiots like yourself are ready to sacrifice their children and existence on the al"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112496134337740955",
-          "author": "cmerandi",
-          "searchJob": "arkansas-state",
-          "text": "We are getting closer to uncovering the truth about some of the loudest voices demonizing benzodiazepines. Are they being paid by law firms? Are they working with a film producer making a documentary about benzodiazepines? Are they affiliat"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112495323310428545",
-          "author": "benzosarebad",
-          "searchJob": "arkansas-state",
-          "text": "@dsowens17 @CMerandi Money could help with research and providing much needed help to those affected."
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2112473952593285208",
-          "author": "fbermingham",
-          "searchJob": "arkansas-state",
-          "text": "Merz \"...that we have to give an answer to imbalances, overcapacities, subsidies, undervalued currencies &amp; that we feel strong enough to come into a discussion. We're offering tariff-free access to one of the biggest markets in the worl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112486556678193546",
-          "author": "zhihufrontier",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/kdS6fLzBI2"
+          "postId": "2112487664532193471",
+          "author": "buffalofireside",
+          "searchJob": "buffalo",
+          "text": "$CVAT IT'S G🟢 TIME!!! Great work @KickoStocks! 😆 FULL UPDATE HERE: https://t.co/mo5o4oK6PD The @cvatinfo_ tender offer filings can be any day now!!! Bring it home @NeilVoloshin https://t.co/79kqjGo18V"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 26,
       "reasons": {
-        "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 1,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 22,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_class_year": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112483589527093540",
-          "author": "vlad_draculua",
-          "searchJob": "wyoming",
-          "text": "@KalshiResearch for those of you wondering why Wyoming: 1. No State Taxes 2. Anonymity when forming the LLC 3. Wyoming offers single-member LLCs that have the strongest charging order protections in the USA"
+          "postId": "2112498699687383406",
+          "author": "romcio0",
+          "searchJob": "army",
+          "text": "You seriously think the only way to help Putin is to send money directly to his army? Trump suspended military aid and intelligence sharing with Ukraine, delayed critical air defenses, and eased restrictions on Russian energy exports. Every"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112498563993252048",
+          "author": "romcio0",
+          "searchJob": "army",
+          "text": "You seriously think the only way to help Putin is to send money directly to his army? Trump suspended military aid and intelligence sharing with Ukraine, delayed critical air defenses, and eased restrictions on Russian energy exports. Every"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112495418823053712",
+          "author": "fromadstoassets",
+          "searchJob": "army",
+          "text": "hmm not sure if I can join Tiktok shop while dropshipping from China about the creator army I did post my brand on trybe and I got like 80+ requests in 48 hours (I offered 5% GMV for the creators) to be honest I ended up sending my product "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112491658470396404",
+          "author": "actionrohingya",
+          "searchJob": "army",
+          "text": "WEEKLY HUMAN RIGHTS REPORT: 8–16 October 2026 Rohingya in Rakhine face forced recruitment, extortion, torture, arbitrary arrests, and deadly airstrikes, while a Nobel Peace Prize offers a glimmer of hope for justice. Read the full report ht"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2112499650674475379",
-          "author": "mansatesla",
-          "searchJob": "michigan",
-          "text": "MARKET UPDATE — TUESDAY, 20 OCTOBER 2026 A $150m IPO in Seoul just asked a trillion-dollar question. South Korean AI cloud firm Elice was 389 times oversubscribed, priced at the top of its range, then crashed 32% on day one. With Brent abov"
+          "postId": "2112490123048730856",
+          "author": "historyinwds",
+          "searchJob": "army",
+          "text": "In three thirty-three BC. after Alexander had just crushed Darius at Issus, he was pushing into Cilicia when he came down with a violent fever. His physicians were terrified to give him anything strong, so he did what impatient twenty-two-y"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112499568763973889",
-          "author": "bhhshendrick",
-          "searchJob": "michigan",
-          "text": "Trade the trail for the water! 🛶 Discover a Michigan paddling route that offers a refreshing way to explore the outdoors. Who’s ready to paddle? Berkshire Hathaway HomeServices Clyde Hendrick, REALTORS® | (616) 842-5970 https://t.co/WGBbVA"
+          "postId": "2112488894008525071",
+          "author": "omoalade005",
+          "searchJob": "army",
+          "text": "Amid all the chaos in Infinity War, it was genuinely refreshing to see T’Challa handle the mess that landed on his doorstep without hesitation. One of my least favourite tropes is when people in positions of power let selfishness or persona"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112491066129588667",
-          "author": "fft1776",
-          "searchJob": "michigan",
-          "text": "THEY VOTED HER ONTO HOMECOMING COURT JUST TO HUMILIATE HER. BUT THEY NEVER EXPECTED AN ENTIRE TOWN TO STAND UP FOR HER. In 2012, 16-year-old Whitney Kropp thought something wonderful had happened. The Michigan teenager had been selected for"
+          "postId": "2112476826908217571",
+          "author": "beenakhemani",
+          "searchJob": "army",
+          "text": "EME School Vadodara Signs MoU with Bhailal Amin General Hospital for Healthcare Services Access to Specialist Medical Consultations, Advanced Diagnostics and Treatment Facilities • Diagnostic Tests at 75% of Prescribed CGHS Rates VADODARA: "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112475724980359542",
+          "author": "okaibedi",
+          "searchJob": "kent-state",
+          "text": "Given a job offer with an identical salary across Newcastle, Leeds, London, or Kent, which location in the UK would you prefer to settle in? #CriticalMatters"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112503329603387864",
+          "author": "robertvanwechel",
+          "searchJob": "liberty",
+          "text": "So since we're talking about anti Christ spirits how are the holidays related to Babylon? I suppose that can be debated. One thing that can't be debated regarding holidays, you can't find the practices described or directions given to obser"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112501585179763003",
+          "author": "laughlin4880",
+          "searchJob": "liberty",
+          "text": "© Restoration Training Center • All Rights ReservedWe Are Not Ready! Now you are the body of Christ, and members individually. And God has appointed these in the church: first apostles, second prophets, third teachers, after that miracles, "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112493415313084445",
+          "author": "randysevy",
+          "searchJob": "liberty",
+          "text": "The Fall of the Christian West: A Civilization Betrayed, A World in Chaos! Oct. 19th, 2026 NOTE: Dietrich Bonhoeffer was KILLED for his Christian testimony during World War II! Steve Quayle: “France is burning, & the images pouring out of E"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112480143700848644",
+          "author": "pdxmoderate",
+          "searchJob": "liberty",
+          "text": "America cannot afford to surrender its founding principles to radical ideologues who despise its institutions, undermine public order, and mistake destruction for progress. The radical Left, including DSA-aligned activists and Antifa milita"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2112497399876730966",
-          "author": "piratenations1",
-          "searchJob": "ole-miss",
-          "text": "“For you, today, a bargain – 3 cents an acre” – 223 yrs ago. On October 20, 1803, the U.S. Senate ratified the Louisiana Purchase treaty, 24 to 7,with France”, a land deal that doubled the size of the United States. For $15 million, the U.S"
+          "postId": "2112505731299598505",
+          "author": "foleynewsal",
+          "searchJob": "rice",
+          "text": "Ghouls Just Want to Have Fun: Where to Celebrate Halloween in Foley, Alabama With the spookiest season of the year in full swing, Foley, Alabama offers a full lineup of family-friendly trick-or-treat events, community gatherings, and thrill"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112499605678030913",
-          "author": "neostatsai",
-          "searchJob": "oregon",
-          "text": "🏒 NHL — ⭐ MY FINAL CARD 📅 OCTOBER 20, 2026 ⭐ 1. Carolina Hurricanes @ Vancouver Canucks 🎯 Carolina Hurricanes ML 💵 Odds: 1.34 / -291 🟢 Confidence: 70% — HIGH ⭐ 2. Los Angeles Kings @ Washington Capitals 🎯 Washington Capitals ML 💵 Odd"
+          "postId": "2112501945772425324",
+          "author": "lvsterer",
+          "searchJob": "rice",
+          "text": "@MushBosh @AFCYop_ Tell me what Vitinha can offer to the team that no one can’t and I’ll tell you what Rice offers to the team that no one can"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112484115568107588",
-          "author": "bridgetolifeltd",
-          "searchJob": "duke",
-          "text": "How can transplant programs safely consider more donor livers that may once have been passed over? A new article from Duke Health offers a practical look at how hypothermic oxygenated perfusion (HOPE) is helping its liver transplant team ad"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112491516882997466",
-          "author": "ballineurope",
-          "searchJob": "miami",
-          "text": "Giannis Antetokounmpo has won almost everything the NBA has to offer. Now he's in Miami, where anything short of a serious playoff run could make his big move look pointless. He's one of three Europeans with plenty to prove. https://t.co/K8"
+          "postId": "2112490264933626092",
+          "author": "pnagovph",
+          "searchJob": "rice",
+          "text": "‘Out-authenticating’ tourism rivals in Southeast Asia MANILA – From crystalline waters, white sand beaches to majestic mountains and valleys all over the archipelago, the Philippines has no shortage of postcard-perfect islands and destinati"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112499864722387371",
-          "author": "adfeath",
-          "searchJob": "arkansas-state",
-          "text": "1/14 Puerto Rico. An unincorporated territory of the United States in the Caribbean. US citizens by birth since 1917. Not a state. Not a country. Something in between. Act 60 — the Export Services and Individual Investors Act — offers: 4% c"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112498611728621909",
-          "author": "ko_amarti",
-          "searchJob": "arkansas-state",
-          "text": "Oh so the US, a country established via settler colonialism, is valid now? Good. My grandparents came to this country legally in the 50s. It was a country recognized by the UN (Arabs were offered a state as well, but they declined and preff"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2112496735775854635",
-          "author": "benzosarebad",
-          "searchJob": "arkansas-state",
-          "text": "This is hilarious. Paranoia seems to be evident here. I am a retired on a state pension. No one has offered me a penny."
+          "postId": "2112486357499314498",
+          "author": "yolina43",
+          "searchJob": "rice",
+          "text": "A plate of pasta carbonara offers a burst of flavors. Made with basmati rice and saffron, it reflects Japanese tradition. Chefs master it through years of practice. Such cuisine unites people across shared meals."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112496090557689934",
-          "author": "benzosarebad",
-          "searchJob": "arkansas-state",
-          "text": "@CMerandi @dsowens17 I don't spread misinformation. That is obviously your role here. I have already told you I am retired, live on a state pension. I have spent thousands of pounds trying to recover from benzo harm. No one offered me a pen"
+          "postId": "2112486296723824751",
+          "author": "koyo_ryoma_0916",
+          "searchJob": "rice",
+          "text": "A plate of sushi offers a burst of flavors. Made with basmati rice and nori, it reflects Italian cuisine. Chefs master it through years of practice. Such cuisine unites people across shared meals. It’s central to cultural celebrations."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112496054952243317",
-          "author": "fresh___guy",
-          "searchJob": "arkansas-state",
-          "text": "🚀 *MY ALPHA IS NOW LIVE! + CONTENT COMP* 🚀 An *all-new, completely FREE trading journal* is now available to all Alpha users! To celebrate this launch, we're bringing you some incredible offers! 🔥 💰 *40% OFF Direct Plans* 💰 *30% OFF AL"
+          "postId": "2112485765188120741",
+          "author": "qmt1qismu635407",
+          "searchJob": "rice",
+          "text": "From this point forward, I will no longer allow anyone to escape accountability. I played along with all of you only until the age of divine justice began to unfold. Do not mistake my patience for weakness, or my silence for ignorance. You "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112496011423932674",
-          "author": "honeymoonsszn",
-          "searchJob": "arkansas-state",
-          "text": "especially at a state school i know private schools probably have more offered to them sigh"
+          "postId": "2112480953327141227",
+          "author": "bythefans_1",
+          "searchJob": "rice",
+          "text": "@BigTeezo “Backed away from a high-cost” Levy would of sold him to us, if we offered the right money. But the club was never going to do that &amp; that is Ten Hag’s point. He wanted Rice &amp; Kane, you think we’d be as shit as we are now "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112490263658528804",
-          "author": "amvoicerising",
-          "searchJob": "arkansas-state",
-          "text": "France Imposes Overnight Curfews After Weekend Riots French authorities ordered overnight curfews Monday in parts of Paris and several other cities. The measures cover Place de la République and the Les Halles area in the capital from 11 p."
+          "postId": "2112503813135536459",
+          "author": "klnoga",
+          "searchJob": "illinois",
+          "text": "No surprise Illinois is in the gray state area. Because of his hatred, Pritzker vetoes everything President Trump offers Illinois deserves better. #VoteRed"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112488452784582679",
-          "author": "ulrichspeck",
-          "searchJob": "arkansas-state",
-          "text": "China, as a state-led and state-driven economy, cannot offer fair trade in an open market. Chinese businesses always follow political priorities, and the state is always deeply involved in business."
+          "postId": "2112496734471651774",
+          "author": "leroymgoldstein",
+          "searchJob": "indiana",
+          "text": "Indiana Dem Offers Hilarious Explanation for Her Sloppy Debate Performance That Went Viral https://t.co/bCGK42H3wd"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112481493498872120",
+          "author": "weskambale",
+          "searchJob": "stanford",
+          "text": "master's degrees here are mostly for higher salaries skills gained don't matter; just show your degree and get a better paycheck and academia treats 'em as a requirement, not career growth most graduates can't offer solutions to challenges "
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2112501033838461213",
+          "author": "ron_from_nm",
+          "searchJob": "buffalo",
+          "text": "@AdamSchefter The wording of the post makes it sound like White turned down the Bills several times (\"turned down several opportunities to return to Buffalo\") when I think it is supposed to mean that White turned down offers from several OT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112496638476591177",
+          "author": "rajatsaha_",
+          "searchJob": "buffalo",
+          "text": "You havs absolutely no idea what Durga Puja is. If you knew, you'd know Mahishasura is the buffalo demon killed by the goddess, and she is traditionally venerated by sacrificing a buffalo or a goat, and the meat is offered as prasad."
         }
       ]
     },
@@ -339,11 +421,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 26,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-20T11:13:28.090Z"
+    "status rebuilt locally from current store on 2026-10-20T11:28:30.803Z"
   ]
 }
