@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T08:28:32.137Z",
+  "generatedAt": "2026-10-20T08:43:27.187Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-20T08:28:31.778Z",
+    "at": "2026-10-20T08:43:26.811Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5294661111111111,
-    "p95Hours": 1.280483611111111,
-    "worstHours": 1.5301813888888889
+    "medianHours": 0.7780911111111111,
+    "p95Hours": 1.274796111111111,
+    "worstHours": 1.5291086111111112
   },
   "decisionCoverage": {
-    "total": 16,
-    "decided": 16,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -55,151 +55,109 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-20T08:28:31.777Z",
+      "at": "2026-10-20T08:43:26.811Z",
       "got": 17,
-      "new": 16,
-      "lag": 0.02
+      "new": 10,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-10-20T08:27:04.668Z",
+    "at": "2026-10-20T08:41:53.824Z",
     "mode": "live",
     "collection": {
       "returned": 17,
-      "kept": 16,
-      "duplicate": 1,
+      "kept": 10,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 6,
+      "accepted": 7,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 4
+        "no_offer_term": 3
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2112451010170089887",
-          "author": "dandoinit",
-          "searchJob": "new-mexico",
-          "text": "https://t.co/KoyhkCbStF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112060443384807812",
-          "author": "chandrakbose",
-          "searchJob": "temple",
-          "text": "Just to set the records straight… For all non-Bengalis who confuse Durga Puja (of Bengal) with Navaratri (outside Bengal), there's a simple big difference in the way it's celebrated. While Navaratri could be religious (as people claim it to"
+          "postId": "2112455389727846775",
+          "author": "anne_salto87031",
+          "searchJob": "texas",
+          "text": "https://t.co/GYHkSF0KoN"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2112460575879888996",
-          "author": "m_yudysky",
-          "searchJob": "south-carolina",
-          "text": "Can we know the future? From Fátima and the fictional Titan to recorded premonitions and laboratory experiments, the strongest apparent successes deserve a careful hearing. What do they establish—and what remains unexplained? https://t.co/N"
+          "postId": "2112463592884982008",
+          "author": "lanz5000",
+          "searchJob": "wake-forest",
+          "text": "@Schuldensuehner What a disaster for private investments All capital is only attracted by the US - wake up Germany wake up"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2112449766806163791",
-          "author": "geoboy35680",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Apes_Tampa I have received my fourth offer https://t.co/OUhq4DsAMH"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112444482452963533",
-          "author": "thefamilylens",
-          "searchJob": "charlotte",
-          "text": "I recently used Gymshark and was given an offer for my friends to get £10 off your first order over £50. I thought you might like it. I'll also get a reward, so it's a win-win! https://t.co/yiAtGMfBQ2 #discount AFF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112443729554411603",
-          "author": "thefamilylens",
-          "searchJob": "charlotte",
-          "text": "I recently used Gymshark and was given an offer for my friends to get £10 off your first order over £50. I thought you might like it. I'll also get a reward, so it's a win-win! #discount #gymshark https://t.co/yiAtGMfBQ2"
+          "reason": "no_offer_term",
+          "postId": "2112424295661985826",
+          "author": "pikettywil",
+          "searchJob": "wake-forest",
+          "text": "High schoolers, students: the twilight of macronism Hundreds of thousands of young people work hard to earn their high school diplomas, but there is nothing planned to welcome them into higher education https://t.co/NY73y5iXyF"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 7,
       "reasons": {
-        "bare_mention_requires_llm": 10
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112458736514310492",
-          "author": "deccanchronicle",
-          "searchJob": "temple",
-          "text": "Devotees visit Hyderabad’s Amberpet Mahakali Temple to offer prayers and seek blessings, as worshippers gather at the revered shrine for religious observances. #AmberpetMahakaliTemple #Hyderabad #Devotees (Video:PTI) https://t.co/4aP0prEs7P"
+          "postId": "2112457591443902972",
+          "author": "oyinadebash",
+          "searchJob": "troy",
+          "text": "With $GGBR representing 1/1000th of a troy ounce of in-situ gold, the project offers a different way to explore gold ownership on-chain. For me, it’s not just about holding an asset; it’s about discovering new ways to connect traditional va"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112453811726127257",
-          "author": "monapatelt",
-          "searchJob": "temple",
-          "text": "On the occasion of Vijayadashami, CM Yogi Adityanath performed special worship and rituals at the Gorakhnath Temple, and offered prayers to Shrinath Ji and the divine idols. https://t.co/qAJiGGMIQ8"
+          "postId": "2112457878099357764",
+          "author": "jeffreybrandes",
+          "searchJob": "florida",
+          "text": "The projections come from the Florida Legislature’s own fiscal analysts. The budgets come from local governments. My models use those numbers to show what happens when recurring revenue falls while operating costs continue rising. Every ass"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112452921518670075",
-          "author": "cisfairport",
-          "searchJob": "temple",
-          "text": "𝐍𝐀𝐕𝐑𝐀𝐓𝐑𝐈 𝐂𝐄𝐋𝐄𝐁𝐑𝐀𝐓𝐈𝐎𝐍𝐒 𝐀𝐓 𝐀𝐒𝐆 𝐃𝐄𝐋𝐇𝐈 On the auspicious occasion of Navratri, prayers were offered with deep reverence and devotion at the temple in Shahbad Camp. Shri Senthil Avoodai Krishna Raj S., IG/APS-I, Shr"
+          "postId": "2112452124399530133",
+          "author": "ericinamericax",
+          "searchJob": "texas",
+          "text": "Lol, it speaks volumes you can't say one positive thing about Paxton. Republicans have been out of options since the disreputable Ken Paxton won his primary, so they're only recourse has been to work tirelessly to drum up conspiracy theorie"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112452730207842398",
-          "author": "chris_wals67335",
-          "searchJob": "temple",
-          "text": "Jer 35:35 This is the message the Lord gave Jeremiah when Jehoiakim son of Josiah was king of Judah: 2 “Go to the settlement where the families of the Recabites live, and invite them to the Lord’s Temple. Take them into one of the inner roo"
+          "postId": "2112450843886977492",
+          "author": "ericinamericax",
+          "searchJob": "texas",
+          "text": "WHAT!? You smarmy, disingenuous piece of shit! You've been too chickenshit to debate Talarico despite his many requests because you know that any moderated debate would reflect extremely poorly on you and discredit your constant lies about "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112452325118005588",
-          "author": "yashraajsharrma",
-          "searchJob": "temple",
-          "text": "Durga Puja is a puja first. The name says it. The pandals, lights, food and music all grew around the worship, never the other way round. Even its timing comes from scripture. Our tradition counts the 6 months of Dakshinayana as the night o"
+          "postId": "2112444637482828123",
+          "author": "perp338",
+          "searchJob": "syracuse",
+          "text": "Paul McCartney reveals the Beatles’ bitter fight over their manager and why he went against his three lifelong friends. McCartney recalled that Allen Klein wanted 20% of the Beatles’ earnings. When the others pushed forward with Klein, Paul"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112450304373670389",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Puri, Odisha: BJP MP Dharmendra Pradhan, along with his wife, offered prayers at the Shree Jagannath Temple in Puri, visited Shankaracharya Math, and performed puja to Gomata at Prajnanananda Mission Gaushala https://t.co/F7FhFUnlF9"
+          "postId": "2112443161679118767",
+          "author": "jonwiltshire_",
+          "searchJob": "wake-forest",
+          "text": "This latest article from Thomas Pikkety, the renowned French economist and leading authority on wealth inequality, should be essential reading here in the UK. His argument is simple. France has never been wealthier. Yet education funding pe"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112445890850127980",
-          "author": "pti_news",
-          "searchJob": "temple",
-          "text": "VIDEO | Hyderabad: Devotees offer prayers at the Amberpet Mahakali temple. (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/SQMaLDaqJb"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112441590321148236",
-          "author": "outofofficedaku",
-          "searchJob": "temple",
-          "text": "🌍 Ultimate Travel Accommodation Guide Essential Tips To Save Money On Hotels, Hostels, Airbnb, Other Stays & Other Useful Info A useful thread for budget travelers. 1. 🏨 Things to Check Before Booking Free Wi-Fi & parking Airport shuttle "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112440932159402089",
-          "author": "argusnews_in",
-          "searchJob": "temple",
-          "text": "Puri: Sambalpur MP Dharmendra Pradhan offered prayers to Lord Jagannath and Maa Bimala at the Shree Jagannath Temple on Vijayadashami. “One is fortunate to get the Lord’s darshan on Dashami. I pray for peace, happiness, courage and harmony "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112440033244508506",
-          "author": "argusnews_in",
-          "searchJob": "temple",
-          "text": "#WATCH | Hyderabad, Telangana: Festive fervour gripped the city on the occasion of Dussehra as crowds of devotees lined up at the Mahakali Temple in Amberpet to offer prayers (ANI) https://t.co/FZAinlNpuw"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112441718469759105",
+          "author": "concertaftamine",
+          "searchJob": "wake-forest",
+          "text": "@3amaryaderety You are delusional 😂 Russia benefits from the war, why to mediate or offer to stop the war. BTW, no country can force Iran to surrender as you have seen in the last 7 months Dont dream Wake up"
         }
       ]
     },
@@ -214,11 +172,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-20T08:28:32.138Z"
+    "status rebuilt locally from current store on 2026-10-20T08:43:27.188Z"
   ]
 }
