@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T12:13:38.554Z",
+  "generatedAt": "2026-10-20T12:28:27.025Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-20T12:13:38.152Z",
+    "at": "2026-10-20T12:28:26.580Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7783358333333333,
-    "p95Hours": 1.2814552777777777,
-    "worstHours": 1.5290902777777777
+    "medianHours": 0.7748752777777778,
+    "p95Hours": 1.5282527777777777,
+    "worstHours": 1.7758877777777777
   },
   "decisionCoverage": {
-    "total": 40,
-    "decided": 40,
+    "total": 64,
+    "decided": 64,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 88
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 3328,
     "incompleteOffers": 0
@@ -55,321 +55,380 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-20T12:13:38.151Z",
-      "got": 45,
-      "new": 40,
-      "lag": 0.03
+      "at": "2026-10-20T12:28:26.580Z",
+      "got": 83,
+      "new": 64,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-10-20T12:12:04.114Z",
+    "at": "2026-10-20T12:26:51.536Z",
     "mode": "live",
     "collection": {
-      "returned": 45,
-      "kept": 40,
-      "duplicate": 5,
+      "returned": 83,
+      "kept": 64,
+      "duplicate": 19,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 22,
-      "rejected": 18,
+      "accepted": 31,
+      "rejected": 33,
       "reasons": {
-        "no_offer_term": 9,
-        "no_fbs_school": 9
+        "no_fbs_school": 20,
+        "no_offer_term": 10,
+        "non_fbs_offer_target": 1,
+        "hard_negative": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2112505083271467490",
-          "author": "sambitnk",
-          "searchJob": "temple",
-          "text": "This is Beef-Parotta-fication of Odisha. Like how Mellu and Bongs have reduced their entire identity to \"Look we eat Beef-Parotta\", \"See, we eat Chicken roll on Durga Puja\". Eat whatever you like on whichever day. Your wish. But advertising"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112208453519511864",
-          "author": "devasissarangi",
-          "searchJob": "temple",
-          "text": "My Pure 😉 Non vegetarian lunch today on Maha Navami (as per our Jagannath &amp; Shakti tradition) Naysayers can take a walk. 🚶‍♂️ #Odisha https://t.co/5zRumwt2t0"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112506916249415780",
-          "author": "machahary",
-          "searchJob": "temple",
-          "text": "@badassatronnn_ The world is a little bigger than the silo you are in. You are worried about a day in Navaratri. Let me introduce you to the famous Kalighat Maha Prasad - https://t.co/TPBbIjoGaF"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2112516087422083121",
-          "author": "formulage",
-          "searchJob": "georgia",
-          "text": "Fake job advertisements offering employment in Georgia may be used to recruit people into contracts with the Russian Defence Ministry, according to the Russian anti-war organisation Idite Lesom (“Get Lost”), which helps Russians avoid consc"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112364654991409339",
-          "author": "datarepublican",
-          "searchJob": "georgia",
-          "text": "🚨🚨THE DEMOCRACY FILES, PART 2: WHEN AND HOW TO DECLARE THE FEDERAL GOVERNMENT ILLEGITIMATE 🚨 Some questioned whether a group of 200 ex-USAID officials could actually pull off their ambitions to rewrite the Constitution. Here, they descri"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112516013048946972",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order ] 📦 Acer TravelMate X2 (TMX214-52-56KM) – Intel Core 5 120U, 16GB RAM, 512GB SSD, 14-inch WUXGA 120Hz Clamshell Notebook at $1399.99 [ad] https://t.co/lZ1oxykzo9 – Powered by Intel Core 5 120U with hybrid 10-core arch"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112515851467239755",
-          "author": "ollieparrot",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/1xmXQ59Q8t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112514572771000388",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order ] 📦 Acer Aspire Lite (AL15-410P-R5BL | Aspire Lite AL15-410P) at $849.99 [ad] https://t.co/rtGVui9f3Y – 15.6\" Clamshell Notebook - Full HD - 60 Hz - AMD Ryzen 5 Ryzen 3000 Series 3500U - 16 GB - 256 GB PCI Express NVM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112514306545684584",
-          "author": "techdropsdeals",
-          "searchJob": "texas-tech",
-          "text": "Woot [$1,999.99]: MSI Vector A18 HX Ryzen 9 9955HX RTX 5070Ti 🛍 https://t.co/sPy38xT5PV Covered by 180-day MSI warranty. ⏰ 07:00:15 #ad https://t.co/dknNzSKQhU"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112513866710340034",
+          "postId": "2112507728006701530",
           "author": "techstoriesin",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India Great Indian Festival Deal ] 90247AP03C Titan Celestor Swift GPS Smartwatch with Badminton Mode, Beige [ad] https://t.co/sS8QecnYjw - Offer Price: Rs 8,999 + Bank Offer Discounts | MRP: Rs 9,499. The Titan Celestor Swift Smar"
+          "text": "[ Amazon India Great Indian Festival Deal ] 010-02809-80 Garmin Forerunner 965 GPS Running Smartwatch, 47mm, Black/Powder Gray 753759318420 [ad] https://t.co/zTBpnwPYRK - Offer Price: Rs 39,990 + Bank Offer Discounts | MRP: Rs 67,490. The G"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112513016743006436",
-          "author": "technewsonweb",
+          "postId": "2112507405590507743",
+          "author": "maat93489673",
           "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order ] 📦 Acer TravelMate P6 (TMP614-74-710X) – Intel Core Ultra X7 Series 3 358H, 32GB RAM, 1TB SSD, 14-inch WQXGA+ 120Hz Copilot+ PC at $3299.99 [ad] https://t.co/EtTrfp2wWz – 14 inch 2880 x 1800 screen – 22.50 hours batt"
+          "text": "Instagram Suspends ‘No Kings’ Account for Suspicious Activity, Leftists Led by Bernie Sanders Suddenly Care About Censorship Zuckerberg’s offers explanation after Instagram account of the No Kings movement was suspended during nationwide ra"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112511433162555572",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Pre-order ] 📦 TCL 25P1AD – 24.5-inch 1080p FHD HFS Panel, 300Hz OC, 1ms GTG, AMD FreeSync Premium at $299.99 [ad] https://t.co/zrFgyG17Qr – 24.5-inch flat screen size with HFS panel technology – 1080p FHD resolution – 300Hz ove"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112511304992743538",
-          "author": "_inspirator",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/zuhN0CsMJS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112510754746475006",
+          "postId": "2112506263531860405",
           "author": "techstoriesin",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India Great Indian Festival Deal ] G29 Driving Force Logitech G29 Racing Wheel and Floor Pedals [ad] https://t.co/cKl8XrEdSh - Offer Price: Rs 29,999 + Bank Offer Discounts | MRP: Rs 61,675. The Logitech G29 Driving Force Racing Wh"
+          "text": "[ Amazon India Great Indian Festival Deal ] HL-L2321D Brother Monochrome Laser Printer with Duplex Printing [ad] https://t.co/5As4y8L23U - Offer Price: Rs 10,999 + Bank Offer Discounts | MRP: Rs 13,090. The Brother HL-L2321D (HL-L2321D) is "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112509373042114641",
-          "author": "techhome100",
+          "postId": "2112504812923486612",
+          "author": "technewsonweb",
           "searchJob": "texas-tech",
-          "text": "@imraviboora Let’s see what Apple offers."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112507981636268262",
-          "author": "edels0n",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/qR6HULCCBI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112501947827626288",
-          "author": "kairo_post",
-          "searchJob": "notre-dame",
-          "text": "https://t.co/WyRqQMFA1L"
+          "text": "[ Amazon US Pre-order ] 📦 HP Solid State Drive (D00BBA) – 256 GB Solid State Drive at $545.70 [ad] https://t.co/BArlHHIY0F – Provides sufficient storage capacity of 256 GB for your computer – Ensures ample space for all your files and appl"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112514180154806495",
-          "author": "bhsworldwide",
-          "searchJob": "uconn",
-          "text": "49 Wolfpit Avenue Listed at $999,000, this updated Colonial offers roughly 2,710 square feet on a rare, level 0.52-acre lot in one of Norwalk’s most sought-after neighborhoods. https://t.co/4CUxNKYuaQ https://t.co/AKGQvPZMOD"
+          "postId": "2112504552335585399",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 3-in-1 | 0.600.8A7.BF0 Bosch Universal Aquatak 130 High Pressure Washer [ad] https://t.co/oLE5QFBmyh - Offer Price: Rs 14,223 + Bank Offer Discounts | MRP: Rs 20,999. The BOSCH Universal Aquatak 1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112503505760276543",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 Belkin Hard Shell Case (MSA081fqCW) – Indigo at $39.99 [ad] https://t.co/qSk4hpqD0Q – 360 degree scratch resistant protection shields your device from scratches on every side – Built in heat dissipation vents keep"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112502888161538421",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Deal ] EC890GR De'Longhi Dedica Duo Cold Brew Espresso Machine, Pistachio Green 044387189033 [ad] https://t.co/m5lzmQXrfS - Offer Price: Rs 19,999 | MRP: Rs 49,999. The De’Longhi Dedica Duo Cold Brew Espresso Machine with Mil"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112501971986833617",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 Manfrotto Half Ball Adapter (520BALLSX | PN: 520BALLSHX) at $74.99 [ad] https://t.co/k7FIcm1HDI – 75mm Half Ball Adapter to use 75mm Flat Base Head with 75mm Bowl Video Tripod – Designed for Ø75mm half ball system"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2111525699261522026",
+          "author": "onlythedeadknow",
+          "searchJob": "texas-tech",
+          "text": "Non-Fiction Novel: Nothing Here is a Theory A Documented History of Chemical and Biological Warfare, from IG Farben to 2026 Fiction Series: Guardians of Valor Volume 1: The Last Muster Volume 2: The Record Volume 3: The Matter Volume 4: The"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112501793640874066",
+          "author": "tech_deceptoris",
+          "searchJob": "texas-tech",
+          "text": "@Over_Taxed_X @andyschmitt99 @ShawnRyan762 @ShawnRyanShow That was the stand thing though, he didn't direct the interview to steer it away from where it went. I also see where she may not be able to reveal a lot of her work so it's a strang"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112501400207081935",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 3-Axis DJI Osmo Pocket 4 Creator Combo Camera, small 190021158542 [ad] https://t.co/zRRFDK1mly - Offer Price: Rs 64,990 + Bank Offer Discounts | MRP: Rs 83,990. The DJI Osmo Pocket 4 Creator Combo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112501080294621658",
+          "author": "techoffer_rikei",
+          "searchJob": "texas-tech",
+          "text": "評価される研究概要の共通点は「専門用語の排除」と「研究姿勢のビジネスへの翻訳」です。 ⭕️ 実際の通過ES（一部抜粋） 「素材開発において性能にばらつきが出る課題に対し、従来の評価基準を疑い『物理特性』に着目して機械学習で分析。見過ごされていた根本原因を特定しました。この『既存の枠に囚われず、データから真の課題を抽出する力』は、日立の大規模な社会インフラ構築やシステム開発において……」 自身の専門性を、いかに「ビジネスで活きる強み」に変換したのか？ 『日立製作所』を通過した研"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112501079871033666",
+          "author": "techoffer_rikei",
+          "searchJob": "texas-tech",
+          "text": "「初任給約31.2万円」「年間休日126日」「住宅手当最大60万円/年」 理系から圧倒的な人気を誇る総合電機メーカー『日立製作所』。 理系の選考において最重要とも言える「研究概要」。 倍率が高いこの企業に、先輩たちは一体どんな研究概要を書いて内定を獲得したのか？ 通過した理系学生のリアルな書き方を公開します👇"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112500461236568194",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 Manfrotto ONE Video (MKONEVA-500X) – Aluminum video tripod with 500X fluid video head and leveling mechanism at $519.99 [ad] https://t.co/iCkbIWhrDY – 11 lbs payload capacity suitable for mirrorless cameras and co"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112499994649587962",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Deal ] All-in-1 | B1700 DS with Attachments Kuvings Cold Press Juicer for Home with Attachments, Dark SIlver with Attachments [ad] https://t.co/dUin4zFWKg - Offer Price: Rs 23,999 + Bank Offer Discounts | MRP: Rs 43,900. The "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112518398408274329",
+          "author": "moldetroy",
+          "searchJob": "troy",
+          "text": "@MarioNawfal when a liar offers you something, ignore them, they don't care about their word, its just noise."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112518069394473392",
+          "author": "auroledger",
+          "searchJob": "troy",
+          "text": "https://t.co/QcQFAvuG7y"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112504072771187020",
+          "author": "troy_bc",
+          "searchJob": "troy",
+          "text": "They're gonna offer man city some pixie sticks, some paella and a spotify subscription + 50m 😂"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112114532038426708",
+          "author": "deadlinedaylive",
+          "searchJob": "troy",
+          "text": "🚨 Barcelona have OPENED negotiations over a sensational move for Manchester City striker Erling Haaland. 🇳🇴 The Catalan giants are looking to steal a march on rivals Real Madrid by making the first move for the Norwegian superstar before"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112507912912277943",
+          "author": "rwallama",
+          "searchJob": "class:2028",
+          "text": "https://t.co/JmB4O2ZmHj"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2112514450540634137",
+          "author": "jaydenlewis1107",
+          "searchJob": "alabama",
+          "text": "After a great conversation with @TheRedZoneCoach I’m blessed to receive another offer from the Alabama Rays #AGTG✝️ @coachjoesalas @JasonRo05350457 https://t.co/k6oNtJaV8u"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112306806319964634",
+          "author": "baltochild",
+          "searchJob": "maryland",
+          "text": "Know where the candidates for your local school board stand on important issues thanks to this guide from the University of Maryland. https://t.co/C83aKTlhqx https://t.co/N8cyEpoQU0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112519679591768143",
+          "author": "pettunia14",
+          "searchJob": "washington",
+          "text": "\"Iran has deliberately prolonged talks with the US to try to weaken Donald Trump politically ahead of November's US midterm elections, senior officials say, while fears of renewed military action and deep distrust of Washington have reinfor"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112517331280638281",
+          "author": "paul__walsh",
+          "searchJob": "washington",
+          "text": "Microsoft is announcing new capabilities for its \"Sovereign Cloud\". And where better to make that announcement than Paris, where France has publicly declared it wants to remove its dependence on US tech companies. If you add the word \"Sover"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 22,
+      "rejected": 31,
       "reasons": {
-        "bare_mention_requires_llm": 9,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 10
+        "school_not_resolved_confidently": 5,
+        "bare_mention_requires_llm": 20,
+        "multiple_resolved_schools": 4,
+        "reporter_missing_class_year": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112515715014295803",
-          "author": "congress4ts",
-          "searchJob": "temple",
-          "text": "కొండారెడ్డిపల్లిలోని ఆంజనేయ స్వామి దేవాలయంలో కుటుంబసమేతంగా ప్రత్యేక పూజల్లో పాల్గొన్న ముఖ్యమంత్రి రేవంత్ రెడ్డి గారు. CM Revanth Reddy Offers Special Prayers at Anjaneya Swamy Temple in Kondareddypalli with His Family #RevanthReddy #Telanga"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112505232790045167",
+          "author": "striver_79",
+          "searchJob": "texas-tech",
+          "text": "I was talking to a friend at an ed-tech company that thrived when I started. He said their management hates @takeUforward_ for killing their 10-50K business. The market then: - DSA: ₹10K - CP: ₹10–15K - LLD: ₹5–10K - HLD: ₹10–20K These were"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112504828744077794",
+          "author": "techbuildafrica",
+          "searchJob": "texas-tech",
+          "text": "TECHBUILD DAILY NEWS 🗞️ African tech is moving money, markets and machines this week. 😂 📈 Egypt’s MNT-Halan begins trading after a roughly $150M IPO, with shares rising above the offer price. https://t.co/Ezdxl2625P"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112501845096579094",
+          "author": "onlythedeadknow",
+          "searchJob": "texas-tech",
+          "text": "“Write it Down and Let it Go” “The Fold” “The Swarm” “The Collective” No idea the totality of any of that but I know it just about broke me. It’s all written now. When I have the big “spells” anger does overtake me. Over time you learn to h"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112501373480661026",
+          "author": "sangwasifa",
+          "searchJob": "texas-tech",
+          "text": "📢HAPPENING Holland Green Tech (@HGTRwanda) in partnership with The Quinta Group (@QuintaGroupInt) are hosting a pivotal Greenhouse Seminar at the M Hotel in Kigali today, bringing together an inspiring room of government representatives, p"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112512497471344878",
-          "author": "sambitnk",
-          "searchJob": "temple",
-          "text": "@guptanumis Mun ketebele kahili change kariba pain.. in fact who am I to even say that. I saw non veg being offered in a temple for the first time in my life. I didn't like it. That's it. That's my view. Nobody needs to agree to this."
+          "postId": "2112514234881819010",
+          "author": "wnct9",
+          "searchJob": "ohio",
+          "text": "Come Election Day, a Quaker leader will travel from the nation’s capital to her home state of Ohio. A Christian minister and a Jewish rabbi will stand vigil outside a polling place in Arizona. A Buddhist nun will offer support to voters in "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112510391045812363",
-          "author": "astro_raghv",
-          "searchJob": "temple",
-          "text": "🙏 Dussehra Ritual: Why Recite Bajrang Baan Instead of Hanuman Chalisa ✨ Dussehra is highlighted as an important tithi for spiritual remedy. Especially for those dealing with: ✅ Ongoing legal or court matters ✅ Feeling that someone is secre"
+          "postId": "2112513847655354629",
+          "author": "lwvohio",
+          "searchJob": "ohio",
+          "text": "What’s at stake in Ohio’s secretary of state race in November The two major candidates offer dramatically different views on Ohio’s voter ID law, drop boxes, redistricting and election fraud concerns. by Jake Zuckerman https://t.co/sce1VKC0"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112506313494413450",
+          "author": "newsforceohio",
+          "searchJob": "ohio",
+          "text": "Cleveland Clinic Akron General Offers Free Breast Exams Tuesday in Akron Full story: https://t.co/OSAKykrF3H #Ohio #OhioNews https://t.co/n0ScTksemA"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112502040186269872",
+          "author": "us_parks",
+          "searchJob": "toledo",
+          "text": "Ever watched a rocket launch in person? From Playalinda Beach FL &amp; Space View Park FL to Beattie Park CA &amp; Robert Reed Waterfront Park VA, some parks offer front-row views of rockets heading into space! Where would you watch a launc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112507966578688115",
-          "author": "guptanumis",
-          "searchJob": "temple",
-          "text": "https://t.co/1fDQIEZEzs Lets also not go overboard with Northie vegetarian traditions too....we are Shakta land and our worship differs from other traditions...Maa Bimala within Mahaprabhu temple is offered non-veg bhoga too. https://t.co/1"
+          "postId": "2112502053620609335",
+          "author": "mdbaynews",
+          "searchJob": "maryland",
+          "text": "🚨 MARYLAND SCHOOL BOARD VOTER GUIDE PUTS CANDIDATES ON RECORD AHEAD OF NOVEMBER 3 ELECTION A University of Maryland journalism project surveyed 137 school board candidates across Maryland, asking where they stand on student achievement, ch"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112493671811784741",
-          "author": "ddnewssrinagar",
-          "searchJob": "temple",
-          "text": "#MahaNavami celebrations fill the revered Kheer Bhawani Temple in Tulmulla, Ganderbal, as devotees gather to offer prayers to Goddess Durga, seeking peace, prosperity and well-being. Special rituals and devotional chants mark the ninth day "
+          "postId": "2112517551733231996",
+          "author": "thejohnettecruz",
+          "searchJob": "washington",
+          "text": "Eight Additional Early Voting Locations Open Wednesday in Hamilton County (NOBLESVILLE, OCTOBER 19, 2026) – Hamilton County will expand early voting for the November 3 General Election on Wednesday, October 21, with eight additional locatio"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112492829654360293",
-          "author": "ians_india",
-          "searchJob": "temple",
-          "text": "Kolkata, West Bengal: Governor R.N. Ravi offered prayers to Goddess Kali at Kalighat Temple (Source: Shebait, Kalighat Temple, Kolkata) https://t.co/VBybIHfcn5"
+          "postId": "2112517025314623500",
+          "author": "luiscaicaguare",
+          "searchJob": "washington",
+          "text": "You yourself admit Washington wants elections in July 2028. That's nearly two more years with Delcy Rodríguez and her circle in charge, and you present it as good news. You say they don't trust María Corina Machado. Who's \"they\"? The same p"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112491172790964691",
-          "author": "sikkimmedia",
-          "searchJob": "temple",
-          "text": "Sikkim Governor Dushyant Gautam visited Ganesh Tok Temple and Enchey Monastery in Gangtok on his first day in office and offered prayers. #Sikkim #DushyantGautam @PMOIndia @dushyanttgautam @ @PSTamangGolay @MDoNER_India @PIBGangtok @OmMathu"
+          "postId": "2112516709479289294",
+          "author": "ldyheart",
+          "searchJob": "washington",
+          "text": "BankThink Washington must do more to maintain dollar-settlement dominance How prepared is your financial institution to support tokenized deposits? Key insight: China does not need to replace the dollar to normalize non-dollar settlements. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112516944549081199",
+          "postId": "2112516170410586520",
+          "author": "magasfix",
+          "searchJob": "washington",
+          "text": "Don’t do drugs! Zelenskyy acts like a child who has lost his allowance, treating American limits on intelligence and Starlink as a personal slight rather than a change in priorities. He offers a pause on Russian energy strikes only if the U"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112511746971693088",
+          "author": "ww3finalboss",
+          "searchJob": "washington",
+          "text": "EUROPE PAID FOR UKRAINE’S MISSILES. TRUMP’S PENTAGON STILL WON’T RELEASE THEM. 🇺🇸🇺🇦🇪🇺🇷🇺 Volodymyr Zelenskyy has confirmed that Patriot interceptor deliveries are being delayed by Washington, even though Ukraine’s European partners h"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112509248538136994",
+          "author": "p_f_lherisson_",
+          "searchJob": "washington",
+          "text": "🇭🇹🇩🇴⚽️🚫 Tuesday 20 October 2026.🔺⚙️🛠️🔺🌐 The World Clock — Worldwide https://t.co/GgjvZlg7Zf Source: almomento.*net Football, Haiti and RD: Capitulation before the fascism caller (OPINION) imagen The author is political. Resides in "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112508554334577005",
+          "author": "thetect0nic",
+          "searchJob": "washington",
+          "text": "🇺🇦 Two days ago, @JayinKyiv warned that Washington might seek a pre-election armistice with Putin, offering Moscow concessions while putting pressure on Ukraine to accept a deal. Today, Zelensky heads to Oslo for talks involving Trump's e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112506618717896715",
+          "author": "earth_funeral",
+          "searchJob": "washington",
+          "text": "A funeral doesn’t have to require a cemetery plot. Human composting offers Washington families a more affordable alternative to burial and cremation while reducing the need for cemetery space. Learn more: https://t.co/xciuJZANyh https://t.c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112505172697960773",
+          "author": "rbg4lif",
+          "searchJob": "washington",
+          "text": "Trump has made a deal with Moscow, but Zelensky has other ideas Moscow’s diesel agreement with Washington marks a diplomatic success, but offers no guarantee of a Ukraine peace deal Published 19 Oct, 2026 16:50 By Anton Grishanov, Chief Res"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112504385859190991",
+          "author": "mdbaynews",
+          "searchJob": "washington",
+          "text": "🚨 MYSTERY GROUP FIGHTS TO BLOCK DRIVERLESS TAXIS IN D.C. — QUESTIONS EMERGE ABOUT FUNDING AND LOBBYING CONNECTIONS A newly formed organization is lobbying Washington, D.C., officials to block Waymo robotaxis, but a Washington Post investig"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112503889853383098",
+          "author": "influenze1",
+          "searchJob": "washington",
+          "text": "@KyivIndependent Same week Moscow pitches an \"energy ceasefire\" to Washington, 12 Ukrainian regions lose power. The offer goes to the US, the bill goes to Ukrainian homes"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112517942084768135",
+          "author": "blackhistorical",
+          "searchJob": "wisconsin",
+          "text": "An appraiser valued Hattie McDaniel's Oscar at nothing and wrote it down. Not as a sum he could not work out. As an item of no worth, on a California probate form, in 1954. The award was the first Academy Award ever won by a Black performer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112504684967825499",
+          "author": "stephenattong",
+          "searchJob": "arizona",
+          "text": "i have nothing to offer ai slop Arizona Stevie Nicks https://t.co/Im7vEghjie"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112519608166973633",
           "author": "wesleydavidson",
-          "searchJob": "georgia",
-          "text": "@elonmusk @realDonaldTrump @DataRepublican GOP, RNC have done nothing! No ground game! They just started ad campaigns! They can’t be trusted and we have to oust Ossoff! Biggest Moves for Midterms for Georgia 1. Hispanic Voters- Marco Rubio "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112507254419177743",
-          "author": "andreafreedom76",
-          "searchJob": "georgia",
-          "text": "Reiff’s Overseas Reform Experience, USAID Ecosystem, Undermining U.S. Judiciary Legitimacy. 🚨 Add-on to Data Republican report 🚨 \"Reiff, an Obama-era USAID staff member who was later fired under the Trump administration, was previously in"
+          "searchJob": "california",
+          "text": "@elonmusk @realDonaldTrump @DataRepublican @marcorubio Maximum impact over time for Georgias Win! 1. Hispanic voters 2. 18-28 year olds 3. National Strategic Vision and Incentives(Farmers, Port) 1. trillions in your back pocket! 2. Can’t wo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112505564140011783",
-          "author": "brandonk0404",
-          "searchJob": "kentucky",
-          "text": "🏡 KENTUCKY HOMEOWNERS — I HAVE A QUESTION FOR YOU! 👀 If someone offered you the right price for your home today… would you consider selling? Maybe you’ve been thinking about: https://t.co/p3JH0DfLOo"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112517133489856657",
-          "author": "iameddycryp",
-          "searchJob": "texas-tech",
-          "text": "𝗪𝗵𝘆 𝗕𝗶𝘁𝗧𝗼𝗿𝗿𝗲𝗻𝘁 𝗥𝗲𝗺𝗮𝗶𝗻𝘀 𝗥𝗲𝗹𝗲𝘃𝗮𝗻𝘁 𝗜𝗻 𝗔 𝗖𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗧𝗲𝗰𝗵 𝗟𝗮𝗻𝗱𝘀𝗰𝗮𝗽𝗲 Some technologies capture attention for a season. Others remain useful because they solve problems that never disappear. BitTor"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112515501087727926",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🚀 Premium Domain Available: https://t.co/0Yb41VLeGC Autonomous AI systems are scaling fast—and trust is the missing infrastructure layer. https://t.co/0Yb41VLeGC is the definitive brand identity for: • Multi-agent AI governance & safety pl"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112514452578844769",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🚀 Premium Brand Bundle: https://t.co/EeOTXrq6rM & https://t.co/TAdkrFTCBo Property management, smart living, and residential services are moving rapidly toward full automation and 24/7 AI-driven support. Home365 (.ai / .si) delivers a reli"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112514314187751564",
-          "author": "volsighthq",
-          "searchJob": "texas-tech",
-          "text": "Buying $SPY calls when 64% of its components are declining is like betting on a relay team where most runners are limping. Today's breadth numbers tell a story the index price often hides. Only 169 of 500 stocks are advancing, and less than"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112514305706918239",
-          "author": "ahmed_swailm",
-          "searchJob": "texas-tech",
-          "text": "🚀 Premium Creative Tech Brand Bundle: https://t.co/gPgZaS1UZz & https://t.co/GK4wkIlDkW \"Fanan\" (فنان - meaning \"Artist\" or \"Creator\") is an iconic, universally recognized name across the MENA region and global creative communities. Fanan "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112514165801963758",
-          "author": "womenon_it",
-          "searchJob": "texas-tech",
-          "text": "Inspired by Ada Lovelace, we’re looking back at the Women On IT livestream archives to revisit conversations that still offer valuable lessons for today’s tech professionals. 🔗 Check out this: https://t.co/lkhXVSUtW7 #WomenOnIT #AdaLovelac"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112512804917739781",
-          "author": "_iammedy",
-          "searchJob": "texas-tech",
-          "text": "Happened. Like weather. I replayed it all week at my kitchen table, until one detail snagged. Six months ago, my password had expired, and the IT desk had been down, so I'd texted my new one to the one person who was always helpful with tec"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112512325085528372",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] 9-Stage | WINBOT MINI Ecovacs Winbot Window Cleaning Robot With Ultrasonic Spray [ad] https://t.co/YglOkhbmrd - Offer Price: Rs 16,999 + Bank Offer Discounts | MRP: Rs 59,999. The ECOVACS WINBOT Window Cleaning Robot 9"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112509113292960241",
-          "author": "techstoriesin",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Deal ] 13000Pa | A30 Pro ILIFE Robot Vacuum and Mop [ad] https://t.co/ld0sEtZGnY - Offer Price: Rs 19,899 | MRP: Rs 69,999. The ILIFE A30 Pro Robot Vacuum Cleaner with LiDAR Navigation, Self-Empty Station, 13000Pa Suction, Va"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112512530312741329",
-          "author": "wvsportsdotcom",
-          "searchJob": "phrase:\"picked up an offer from\"",
-          "text": "2028 DE Kemontae Chaplin made his first trip to Morgantown for the Cincinnati game and picked up an offer from #WVU. He came away impressed with the atmosphere and his conversations with Zac Alley and Deke Adams. Interview 👉 https://t.co/L"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112512544942227850",
-          "author": "kminnicksports",
-          "searchJob": "notre-dame",
-          "text": "A dynamic N.J. football star, Don'Taye Thompson picks up ‘dream’ Alabama offer as stock keeps rising 🏈🏈 https://t.co/DBPOknrZtu @AchsVikings @AcVikings_ @Dontayethompson @WJFCA2020 @AlabamaFTBL @NDFootball https://t.co/UOHOhqBHr1"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112510579755954576",
-          "author": "djpedromc1",
-          "searchJob": "notre-dame",
-          "text": "@djames0191 @weepep @BBCNewsNI What do you have to offer society Dave, your masked has slipped the bitterness oozing out of you. This is Ireland or can’t you see or read a map. The whole island of glorious Ireland is 100% Irish."
+          "postId": "2112511523180671237",
+          "author": "rhapsodyintrue",
+          "searchJob": "california",
+          "text": "@mike00617140414 @UN Immigration is not bringing in millions of people of the same ilk. It should be strategically bringing people in from all the countries around the world,where the person has something to offer. My Caucasian friend from "
         }
       ]
     },
@@ -384,11 +443,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 22,
+      "rejectedCandidates": 31,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-20T12:13:38.555Z"
+    "status rebuilt locally from current store on 2026-10-20T12:28:27.027Z"
   ]
 }
