@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T07:43:15.705Z",
+  "generatedAt": "2026-10-21T07:58:19.842Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-21T07:43:15.415Z",
+    "at": "2026-10-21T07:58:19.462Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7733008333333333,
-    "p95Hours": 1.7740927777777777,
-    "worstHours": 1.7740927777777777
+    "medianHours": 0.7755208333333333,
+    "p95Hours": 1.52439,
+    "worstHours": 1.52439
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -55,74 +55,174 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-21T07:43:15.415Z",
-      "got": 13,
-      "new": 5,
-      "lag": 0.47
+      "at": "2026-10-21T07:58:19.462Z",
+      "got": 28,
+      "new": 19,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-10-21T07:41:50.489Z",
+    "at": "2026-10-21T07:56:49.609Z",
     "mode": "live",
     "collection": {
-      "returned": 13,
-      "kept": 5,
-      "duplicate": 8,
+      "returned": 28,
+      "kept": 19,
+      "duplicate": 9,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 3,
+      "accepted": 11,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 2,
-        "no_fbs_school": 1
+        "no_offer_term": 5,
+        "no_fbs_school": 3
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2112786120660451414",
-          "author": "conversationus",
-          "searchJob": "california",
-          "text": "There are 1 million species threatened with extinction. But which ones should we save first? At a U.N. summit this week, world leaders are debating who should pay and who gets a say. https://t.co/mc2xTa6WuN"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112782334189822273",
-          "author": "regaliaroots",
-          "searchJob": "california",
-          "text": "🜔⬡ 𝑪𝒂𝒑𝒂𝒄𝒊𝒕𝒚 𝑹𝒆𝒔𝒊𝒅𝒖𝒂𝒍 𝑶𝒑𝒆𝒓𝒂𝒕𝒐𝒓 https://t.co/ms4UGJ9vUd"
+          "postId": "2112602082859725115",
+          "author": "shruti_0810",
+          "searchJob": "duke",
+          "text": "Checkout here: https://t.co/2hNEJ4hgbg"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112795800023847367",
-          "author": "marshallmc5utw",
-          "searchJob": "marshall",
-          "text": "@D_onald_trump Yes ,been scammed by the offers and lost credit card and debit card before"
+          "postId": "2112798906954228197",
+          "author": "musika_j",
+          "searchJob": "duke",
+          "text": "@SyloveO It's no longer an offer"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112644213276135637",
+          "author": "royalfamily",
+          "searchJob": "duke",
+          "text": "The Sultan of Oman is pictured alongside The King and Queen ahead of the State Banquet at Windsor Castle. https://t.co/r4AhU5FnWS"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112813024914346044",
+          "author": "danwoodsweather",
+          "searchJob": "miami",
+          "text": "https://t.co/wLlNcODDqU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112802417884475679",
+          "author": "hustleinvestor",
+          "searchJob": "miami",
+          "text": "@USAO_SDFL Career readiness alongside mentoring is an encouraging part of this. Is there a public sign-up for Miami-Dade employers who want to offer students job-shadowing opportunities?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112802288238559704",
+          "author": "itsphotogptai",
+          "searchJob": "navy",
+          "text": "https://t.co/FeroDsjJP7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112795803785838878",
+          "author": "amanvaibhav",
+          "searchJob": "illinois",
+          "text": "https://t.co/osNJ5MN5Pz"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112813397267878164",
+          "author": "jem2jerica",
+          "searchJob": "michigan",
+          "text": "He said absolutely nothing...... \"Bootlicks at The Root asked Abdul El-Sayed what he’ll do for Black people in Michigan if he wins, and he said a whole bunch of nothing. He offered no real policies or anything tangible. Black people y’all b"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 2
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112804831912222918",
-          "author": "hp88",
-          "searchJob": "california",
-          "text": "@hizaga Also a pc sent in 1800s by ancestor of a current vineyard proprietor in California. He was thrilled to receive it, and offered me wine and olive oil, but I said no bc of shipping etc. Friends have just moved nr there so they can get"
+          "reason": "multiple_resolved_schools",
+          "postId": "2112813845123097010",
+          "author": "me_mborzellino",
+          "searchJob": "colorado",
+          "text": "I know this is a long post, but it's interesting about Matthew @McConaughey and supports my response to his \"political monologue\" when I told him to \"coach politicians\". The news outlets didn't seem to grasp the depth of what he was saying:"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112805944698777939",
+          "author": "shrutitrip8k",
+          "searchJob": "duke",
+          "text": "In 1998, Warren Buffett gave a 1-hour masterclass on how to never lose money investing. Here are the 22 most valuable lessons from his lecture: 1. You only have to get rich once. If you have $100 million and can make 10% unleveraged or 20% "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112802757815988347",
-          "author": "cargile_wade",
-          "searchJob": "kansas-state",
-          "text": "TRENCH WARRIOR ALERT 🚨🚨🚨 MICHAEL INKELAAR, 6'2, 275, OL/DL, Andover Central, '30, (#79 below) he is a freshman starter for the Jaguars, handling business at left guard alongside his 6'6, 330 big bro @ThomasInkelaar, (#74 below) who is ju"
+          "postId": "2112800539050209605",
+          "author": "tigersdd",
+          "searchJob": "duke",
+          "text": "@CBBcontent Since when does Duke offer 3 stars?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112796317961568675",
+          "author": "scottisal",
+          "searchJob": "duke",
+          "text": "The splendour and traditions of a #StateVisit are more than mere ceremony. Our constitutional monarchy offers a non-partisan platform for diplomacy, strengthening international relations and representing Britain with dignity and continuity."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112785305241637363",
+          "author": "ultrawing_vit",
+          "searchJob": "duke",
+          "text": "To put it simple. Us in the west simply want the Most simple and easy way to consume media. The best way to fight Piracy in the west is to simply offer a more convenient service than what the Pirates offer."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112804732947312981",
+          "author": "vinewood_motors",
+          "searchJob": "miami",
+          "text": "Some of the advertisement in Miami - thx to @HippOnDaStix for sending them over! Also another little shoutout is that he offered to fly me out, unfortunately, I am in the UK &amp; not US and that costs a pretty penny. However, mad respect \ud83e"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112811083220267187",
+          "author": "wyooldbull",
+          "searchJob": "navy",
+          "text": "You have to be retarded to say that, which doesn't surprise me because you are an irrelevant globalist cuck in Canada. -Trump defunded and left the World Health Org. -Trump defunded and left the Paris Climate Agreement. -Trump left the UN H"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112800608138797061",
+          "author": "velitesgear",
+          "searchJob": "navy",
+          "text": "RT @velitesgear | Full Text Article: https://t.co/Vmx9s26zPk | Author: @militarnyi Australia’s Ghost Shark Underwater Drone to Carry Asteria Smart Mines and ALTIUS Kamikaze Drones Australia has revealed the weapons systems of its new Ghost "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112812669480681815",
+          "author": "viralupdate24",
+          "searchJob": "south-florida",
+          "text": "𝗥𝗛𝗔𝗣𝗦𝗢𝗗𝗬 𝗢𝗙 𝗥𝗘𝗔𝗟𝗜𝗧𝗜𝗘𝗦 CHRIST JESUS—THE ULTIMATE REDEEMER TUESDAY 21ST OCTOBER 2026 PASTOR CHRIS OYAKHILOME In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace (Ephes"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112804859174949161",
+          "author": "stockfarmmag",
+          "searchJob": "south-florida",
+          "text": "The Au Albidus Brahman group’s 9th production auction offers 20 bulls, 30 stud female animals and 190 commercial female animals. 24 October 2026 at 11:00 at the Warmbaths Stock Market. For queries, contact Carel Chalmers at 082 896 9586. ht"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112796102768673258",
+          "author": "space_ranger_o",
+          "searchJob": "michigan",
+          "text": "7/ The Family Connection. The Michigan election storyline just got a family tree reveal. Remember Tommy Teepell, the guy who confronted Abdul El-Sayed about the Muslim Brotherhood? Well, meet his dad. A top GOP strategist whose firm was jus"
         }
       ]
     },
@@ -137,11 +237,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-21T07:43:15.706Z"
+    "status rebuilt locally from current store on 2026-10-21T07:58:19.843Z"
   ]
 }
