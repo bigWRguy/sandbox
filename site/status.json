@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T08:28:40.506Z",
+  "generatedAt": "2026-10-21T08:43:26.129Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-21T08:28:40.059Z",
+    "at": "2026-10-21T08:43:25.860Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5307997222222223,
-    "p95Hours": 1.2812608333333333,
-    "worstHours": 1.53019
+    "medianHours": 0.5283327777777778,
+    "p95Hours": 1.2770558333333333,
+    "worstHours": 1.5272672222222223
   },
   "decisionCoverage": {
-    "total": 13,
-    "decided": 13,
+    "total": 7,
+    "decided": 7,
     "complete": true
   },
   "pending": {
@@ -55,131 +55,88 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-21T08:28:40.059Z",
-      "got": 31,
-      "new": 13,
-      "lag": 0.07
+      "at": "2026-10-21T08:43:25.860Z",
+      "got": 15,
+      "new": 7,
+      "lag": 0.22
     }
   },
   "audit": {
-    "at": "2026-10-21T08:27:07.033Z",
+    "at": "2026-10-21T08:41:58.356Z",
     "mode": "live",
     "collection": {
-      "returned": 31,
-      "kept": 13,
-      "duplicate": 18,
+      "returned": 15,
+      "kept": 7,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 1,
+      "accepted": 3,
+      "rejected": 4,
       "reasons": {
-        "no_offer_term": 1
+        "no_offer_term": 3,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2112809076925300910",
-          "author": "taxtmi",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/XvH5uPnQhm"
+          "postId": "2112823711954800684",
+          "author": "m_yudysky",
+          "searchJob": "washington",
+          "text": "A crashed saucer, alleged bodies, and a genuine FBI memo—but what connects them? Part 17 traces Aztec through Scully, Newton, GeBauer, and Hottel, separating documented claims from evidence of the recovery itself. https://t.co/OyNuda4qeC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112817917951648056",
+          "author": "alearesearch",
+          "searchJob": "washington",
+          "text": "https://t.co/dIEUmYSZg7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112816601472840098",
+          "author": "azcounties",
+          "searchJob": "arizona",
+          "text": "AACo has partnered with NACo’s Public Promise Procurement (PPP) to bring cost-effective cooperative purchasing to Arizona counties. This offers access to 300M+ products and competitive pricing. Register for the October 22nd webinar to learn"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112813621755379921",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@Samsung fuck you for developing a camera that generates pictures instead of actually taking them https://t.co/77on1hG4SI"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
+      "rejected": 3,
       "reasons": {
-        "school_not_resolved_confidently": 7,
-        "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 3
+        "bare_mention_requires_llm": 3
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112804880976933133",
-          "author": "speedbet_win",
-          "searchJob": "ohio",
-          "text": "Chalk isn't safe and longshots aren't dead, and the books got hit from both ends. The rest of the board is the industry scrambling to rewrite the rules. THE BOOKS 🔴 A bettor in Ohio turned $375 into $76,450 at @CaesarsSports on a 3-leg liv"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112821489749704982",
+          "author": "olenarohoza",
+          "searchJob": "washington",
+          "text": "🇨🇦🇺🇸 TRUMP IS TALKING ABOUT CANADA AGAIN: CANADIANS CAN KEEP THEIR NATIONAL ANTHEM AND HOCKEY — IF THEY AGREE TO BECOME THE 51ST U.S. STATE! Donald Trump continues to joke about turning Canada into America's 51st state. This time, he de"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112806927139000496",
-          "author": "rebateatclosing",
-          "searchJob": "florida",
-          "text": "Florida new-home buyers — we’ll help you get more than the standard builder offer for walk-in visits. Keep thousands in your pocket. Restrictions apply. Please visit website in bio. https://t.co/k8f5eQhm3U"
+          "postId": "2112807325656342768",
+          "author": "bpartisans",
+          "searchJob": "washington",
+          "text": "WITKOFF MEETS WITH PUTIN: THE DANCE OF EUROPEAN ILLUSIONS By @BPartisans After consulting with Zelensky and his European backers in Oslo, Steve Witkoff is set to present a new peace proposal to Vladimir Putin. According to Axios, Washington"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112806828505457081",
-          "author": "rebateatclosing",
-          "searchJob": "florida",
-          "text": "Florida new-home buyers — we’ll help you get more than the standard builder offer for walk-in visits. Keep thousands in your pocket. Restrictions apply. Please visit website in bio. https://t.co/Q9Te69AnaY"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112822353650700649",
-          "author": "madisonbatts",
-          "searchJob": "wake-forest",
-          "text": "@ReclaimD1 God bless you! This happens a lot in Buckhead. My former Uber driver in ATL shared almost the exact story when someone dumped their drunk friend in her car. The girl didn’t know where she lived, offered the driver her bank card a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112806982453194760",
-          "author": "heatherbwriter",
-          "searchJob": "wake-forest",
-          "text": "So thrilled to wake up to an Amazon bestsellers flag this morning for The Nanny - number 1 in Urban Fiction. It's currently on offer for just 99p at: https://t.co/TIEdTZXzhT #PsychologicalThriller #Kindle #thriller https://t.co/yQKVRDlM6q"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112805674375880772",
-          "author": "nameshapes",
-          "searchJob": "wake-forest",
-          "text": "being able to wake up every day and be able to offer positive shifts and real wisdom in a world where it's almost completely gone is such a wonderful massive privilege. to be a real ass wizard in 2026!"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112803472835768529",
-          "author": "josephpeterame1",
-          "searchJob": "wake-forest",
-          "text": "THE PAIN NOBODY SEES 💔 Sometimes, the people who laugh the loudest are fighting the hardest battles inside. You wake up every morning pretending you're okay, even when your mind is full of worries. You encourage others while secretly wishi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112819377200615901",
-          "author": "mediamanoz",
-          "searchJob": "charlotte",
-          "text": "Streaming Netflix @netflix Top 10 TV Shows In Australia Today October 21, 2026 via The (Netflix) box/interface! 1. The Diplomat 2. WWE RAW 3. Below 4. TYSON 5. Cyberpunk: Edge Runners 6. East Of Eden 7. Spike 8. InstaDocs: Al Gone Wild 9. M"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112818470572483025",
-          "author": "mediamangroup",
-          "searchJob": "charlotte",
-          "text": "Streaming Netflix @netflix Top 10 TV Shows In Australia Today October 21, 2026 via The (Netflix) box/interface! 1. The Diplomat 2. WWE RAW 3. Below 4. TYSON 5. Cyberpunk: Edge Runners 6. East Of Eden 7. Spike 8. InstaDocs: Al Gone Wild 9. M"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112815358084042857",
-          "author": "mediamanint",
-          "searchJob": "charlotte",
-          "text": "Streaming Netflix @netflix Top 10 TV Shows In Australia Today October 21, 2026 via The (Netflix) box/interface! 1. The Diplomat 2. WWE RAW 3. Below 4. TYSON 5. Cyberpunk: Edge Runners 6. East Of Eden 7. Spike 8. InstaDocs: Al Gone Wild 9. M"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112812159767863326",
-          "author": "tcg_hamidiye",
-          "searchJob": "coastal-carolina",
-          "text": "Complete and utter lie and only propaganda. EU should be ashamed of even proposing this. Article 121 establishes maritime entitlement; it does not settle boundaries. Article 74 requires an equitable solution where entitlements overlap. Gree"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112807859826069543",
-          "author": "danwoodsweather",
-          "searchJob": "coastal-carolina",
-          "text": "Indian River County Weather Summary Wednesday, October 21, 2026 | NWS Melbourne Breezy conditions continue today, but the biggest concern is another round of dangerous coastal weather this weekend. Today: Partly cloudy with a 20–30% chance "
+          "postId": "2112804821828845962",
+          "author": "iukhalil1",
+          "searchJob": "washington",
+          "text": "Iran’s distrust is rooted in a fundamental problem: negotiations cannot succeed when one side fears that diplomacy may again be followed by military attacks. Trust cannot be demanded; it must be earned. Washington must offer credible guaran"
         }
       ]
     },
@@ -194,11 +151,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-21T08:28:40.507Z"
+    "status rebuilt locally from current store on 2026-10-21T08:43:26.130Z"
   ]
 }
