@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T11:43:43.304Z",
+  "generatedAt": "2026-10-21T11:57:01.147Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-21T11:43:42.879Z",
+    "at": "2026-10-21T11:57:00.737Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 9,
+    "requests": 10,
+    "fullSweepCycles": 18
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5194358333333333,
-    "p95Hours": 1.2740716666666667,
-    "worstHours": 1.5272841666666668
+    "medianHours": 0.7410588888888889,
+    "p95Hours": 1.4956947222222223,
+    "worstHours": 1.4956947222222223
   },
   "decisionCoverage": {
-    "total": 39,
-    "decided": 39,
+    "total": 4,
+    "decided": 4,
     "complete": true
   },
   "pending": {
@@ -55,259 +55,67 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-21T11:43:42.879Z",
-      "got": 53,
-      "new": 39,
-      "lag": 0.09
+      "at": "2026-10-21T11:57:00.736Z",
+      "got": 11,
+      "new": 4,
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-10-21T11:42:03.138Z",
+    "at": "2026-10-21T11:56:21.198Z",
     "mode": "live",
     "collection": {
-      "returned": 53,
-      "kept": 39,
-      "duplicate": 14,
+      "returned": 11,
+      "kept": 4,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 32,
-      "rejected": 7,
+      "accepted": 3,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 6,
         "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2112858971061031330",
-          "author": "thefatcatfi",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/A2142HuxsB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112851211267477974",
-          "author": "paytmcheckin",
-          "searchJob": "temple",
-          "text": "It’s the festive season, and spiritual travel is booming.✨ Discover India’s top spiritual destinations and plan your next getaway with #PaytmTravel. https://t.co/0yHg2mYr6n"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2112866515762512174",
-          "author": "hawkcentral",
-          "searchJob": "iowa",
-          "text": "Kirk Ferentz press conferences offer unpredictable entertainment https://t.co/7z3sJg2cyx"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112865911111581858",
-          "author": "garonsen",
-          "searchJob": "iowa",
-          "text": "New director for the Center for Intellectual Freedom is a fellow at the Trump-boosting Claremont Institute who recently penned an article opposing NYT v Sullivan (and praising Trump for also opposing it), essential to press freedom in the U"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112866721652519121",
-          "author": "hackagingai",
-          "searchJob": "minnesota",
-          "text": "https://t.co/DixiqCokNZ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112815458361688451",
-          "author": "sandyxiaotong",
-          "searchJob": "charlotte",
-          "text": "ONE NATION CARTOONS: Transport Minister Catherine King claims One Nation Please Explain cartoons caused the Helen Haines. She also took aim at Mark Nicholsons depiction of the bambino Labor Senator. Watch https://t.co/yputiKoGUH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112869004356546943",
-          "author": "realtynxt",
-          "searchJob": "coastal-carolina",
-          "text": "#Exclusive | Mangaluru appeals to people seeking coastal surroundings, greenery and established healthcare facilities. https://t.co/0U0fEWuFxe #RealtyNXT #Mangaluru #Mysuru #IndianRealEstate #PropertyMarket"
+          "postId": "2112853695259955542",
+          "author": "namracka",
+          "searchJob": "ohio",
+          "text": "The Evolution of the Guitar Volume Pedal, 1930s–2026 The volume pedal allows amplified guitar control without interrupting playing. Hawaiian and lap-steel musicians used foot controls before World War II to soften attacks and extend perceiv"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 32,
+      "rejected": 3,
       "reasons": {
-        "bare_mention_requires_llm": 18,
-        "reporter_missing_player_name": 2,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 11
+        "bare_mention_requires_llm": 2,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112870828379390414",
-          "author": "ginadshaffer",
-          "searchJob": "arkansas-state",
-          "text": "@JonWiltshire_ This should alarm everyone: A person like you telling Jewish children whether they feel safe or not? The \"Palestine flag\" is not just a symbol for bilateral peace in the middle east, and you know it. If it was, then Palestine"
+          "postId": "2112873715092365538",
+          "author": "juckonbucks",
+          "searchJob": "ohio",
+          "text": "Yes there is a chance. Many questions to be answered. I just think the odds are it’s someone else. Is a top flight transfer gonna come if Sayin remains? Is Sayin gonna stick around if a top flight transfer is coming? Is ohio state gonna pay"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112868840015020224",
-          "author": "madjeric",
-          "searchJob": "arkansas-state",
-          "text": "The Mind Illuminated - A Complete Meditation Guide Integrating Buddhist Wisdom and Brain Science.pdf CULADASA (JOHN YATES, PH.D.) AND MATTHEW IMMERGUT, PH.D. WITH JEREMY GRAVES THE MIND ILLUMINATED A COMPLETE MEDITATION GUIDE INTEGRATING BU"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112864348100075839",
-          "author": "joshg99",
-          "searchJob": "arkansas-state",
-          "text": "@nielsbrinch You mean the solution that Israel repeatedly offered and Palestinians rejected every single time? That one? Seems like Palestinian leaders aren't interested in a state and prefer to enrich themselves off donations. Hating on Is"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2112859742515192317",
-          "author": "bharri17191789",
-          "searchJob": "arkansas-state",
-          "text": "It is the difference between a state that does exist, Israel, and a state that is a fiction,Palestine, which exists only in the minds of its believers!If Arab states truly believed in the plight of the \"Palestinians\", they wuld have offered"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112854911058690320",
-          "author": "ginadshaffer",
-          "searchJob": "arkansas-state",
-          "text": "@ElmasriMom94009 \"Palestine\" was offered a state 4 times. And then in 2005 Israel gave you one unilaterally. We know how that turned out."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112854742066200924",
-          "author": "priscamutema2",
-          "searchJob": "arkansas-state",
-          "text": "Zimbabwe is the only country in the whole world where, by law, a single government minister can arbitrarily redefine mineral classifications or decree a resource exclusively reserved for black, local ownership by a simple stroke of a pen, @"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112854082113413308",
-          "author": "ginadshaffer",
-          "searchJob": "arkansas-state",
-          "text": "@AbubakerAbedW And you get to tell Jewish school children not to feel threatened, how exactly?? A 'Palestine Flag' isn't a call for bilateral peace - as a \"journalist\" in Ireland, you should know this. If it was, then Palestine would have b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112852198187237612",
-          "author": "ginadshaffer",
-          "searchJob": "arkansas-state",
-          "text": "@Bushra1Shaikh Since when do you dictate to Jewish school children when they feel threatened or not? The 'palestine flag' is not a call for bilateral peace and you know it. If it was, then 'Palestine' would have been a state long ago (4x of"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112851027271524784",
-          "author": "ginadshaffer",
-          "searchJob": "arkansas-state",
-          "text": "@cem_uk_ Let's be clear. YOU don't get to tell Jewish school children when they feel threatened or not. The 'palestine flag' isn't a call for bilateral peace, and you know it. If it was then Palestine would have been a state long ago (4 tim"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112849696276516911",
-          "author": "hardharry111",
-          "searchJob": "arkansas-state",
-          "text": "@uwusunsation Because there is nothing to be embarrassed about. On the other had what exactly is it you're proud of lack of elections, using children to dig tunnels and be martyrs, refusing to accept a state despite four legitimate offers, "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2112846370134790372",
-          "author": "nchsaa",
-          "searchJob": "arkansas-state",
-          "text": "🎾 Game. Set. Championship! The Women's Individual Tennis State Championships are almost here! 🏆 Get ready for championship weekend with everything you need to Know Before You Go, delivered by Papa Johns! 🍕 ➡️ Swipe to slide 2 for an excl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112865604617343004",
-          "author": "ommcomnews",
-          "searchJob": "temple",
-          "text": "Bollywood actor Govinda on Wednesday visited the Jagannath Temple in Puri and offered prayers to Lord Jagannath on the auspicious occasion of Vijaya Dasami, witnessing the deity’s Suna Besha (golden attire). #Odisha #OmmcomNews https://t.co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112862952110104961",
-          "author": "hema221992",
-          "searchJob": "temple",
-          "text": "On the auspicious occasion of Sri Devi Navaratri, offered special prayers and sought the divine blessings of Nagole Mahankali and Miyapur Kalika Mata temple.. Jai Mata Di! 🌺🚩 #Navratri #DivineBlessings #MahankaliAmma #KalikaMata #Hyderaba"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112861573261996452",
-          "author": "thestatesmanltd",
-          "searchJob": "temple",
-          "text": "🎥 | Puri | Bollywood actor #Govinda visited the Shree Jagannath Temple on Vijayadashami and offered prayers. “The Lord has bestowed this grace upon me,” he said, adding that he had come to pray on the auspicious occasion. #Vijayadashami #T"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112860641757421654",
-          "author": "romenborthakurr",
-          "searchJob": "temple",
-          "text": "Visited Tripura Sundari temple &amp; offered puja for self &amp; all. https://t.co/lRMQ6rjAlZ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112859274766590200",
-          "author": "lokmattimeseng",
-          "searchJob": "temple",
-          "text": "Bollywood actress Sara Ali Khan visited the Golden Temple in Amritsar to offer prayers and seek blessings. The actress was seen getting emotional during her prayers at the sacred shrine. #SaraAliKhan #AyushmannKhurrana #GoldenTemple #Amrits"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112851843202396472",
-          "author": "ddnewslive",
-          "searchJob": "temple",
-          "text": "No matter how far you go, never forget where you come from. Suchika Tariyal visited a temple and offered her medal to God, sharing a heartfelt reminder to stay connected to our roots, culture and values, no matter how much we achieve. For h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112846365206466717",
-          "author": "alexwynnashwood",
-          "searchJob": "temple",
-          "text": "What did a woman’s work in an Egyptian temple look like? This painted figure offers a glimpse, with a rattle held upright in her hand. Dating to about 1250–1200 BCE, this fragment of a tomb painting from Deir el-Medina shows a woman holding"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112860928253264079",
-          "author": "polis_in_exile",
-          "searchJob": "minnesota",
-          "text": "WATCH LIVE: President Trump and VP Vance to Announce $25 million Fraud Whistleblower Incentive Program for Fraud Tipsters by Jordan Conradson Oct. 20, 2026 1:10 PM President Trump and Vice President JD Vance, Chairman of the White House Tas"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2112871133514997848",
-          "author": "rickjeff78",
-          "searchJob": "penn-state",
-          "text": "Big rumors circling out of Penn State that a certain long time position coach is not going to return next season and has an open offer from a former Penn State head coach. 👀"
+          "postId": "2112859735372300497",
+          "author": "mixed4pe",
+          "searchJob": "ohio",
+          "text": "Telling them to go back to Ohio is the only defense I’d offer an Ohioan. That said, the cameraman is clearly instigating. The right to film in public doesn't grant a license to harass total strangers. I hope videos like this fade away but t"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2112870885770383865",
-          "author": "ddhuj7ojwx5ixa0",
-          "searchJob": "wake-forest",
-          "text": "ちなみに、「君の名」（５３）の大庭秀雄監督は、横浜映画学校１年の時の「演出」の授業をお持ちだった。監督作の大阪同郷のバタヤンこと川端康成原作「雪国」（６５）の演出とシナリオの違いを概説なさる半期授業だった。 カントを大阪下町人にしたように超まじめな私は、「雪国」の原作をばらばらにして、シナリオの該当箇所にファイルアップして、授業開始を待ち、１度目は出たところ、その２ヶ月ほど前、日比谷東劇でテオ・アンゲロプロスの２３０分の「旅芸人の記録」（７５）を１日に２回見た※１記録をもって"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112869114662547664",
-          "author": "ozconvictcolony",
-          "searchJob": "wake-forest",
-          "text": "@AaronCSmith1 @mmkay822 @KatrinaPresco1 @Oilfield_Rando If you think there are jobs being offered in retail or office admin you need to wake up"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112865341973959131",
-          "author": "trendfusionng",
-          "searchJob": "wake-forest",
-          "text": "I knew I was deceived bcoz 1. I have studied 4 generations of my family who believed in this madness. (my great-grandmother passed when I was about 10) 2. I have seen my family and extended families say same prayers nonstop with no improvem"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112864059317952622",
-          "author": "squirrelygirl44",
-          "searchJob": "wake-forest",
-          "text": "The Echoes of Her Wings She walks the world as light walks water— soft, and yet the surface never stays the same. A beautiful woman, and in her wake the air remembers. A glance becomes a turning. A quiet word, offered like bread, finds its "
+          "postId": "2112857662815625360",
+          "author": "obernard51967",
+          "searchJob": "toledo",
+          "text": "@MiddleEastEye Selective moral condemnation. Israel got up one morn and attacked Gaza. Right?Moreover, Israel offered Hamas a 20-day deal on Oct 8,9: Release the hostages/hand over those responsible for the attack. Hamas replied with circa "
         }
       ]
     },
@@ -315,18 +123,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 9,
+      "failed": 1,
+      "requests": 10,
+      "errors": [
+        "purdue: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 32,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-21T11:43:43.305Z"
+    "status rebuilt locally from current store on 2026-10-21T11:57:01.149Z"
   ]
 }
