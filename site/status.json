@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T06:41:15.610Z",
+  "generatedAt": "2026-10-21T06:58:27.249Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-21T06:41:15.270Z",
+    "at": "2026-10-21T06:58:26.782Z",
     "jobsTotal": 162,
-    "sweptThisRun": 10,
-    "requests": 11,
-    "fullSweepCycles": 17
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.9909619444444444,
-    "p95Hours": 1.7421730555555555,
-    "worstHours": 1.7421730555555555
+    "medianHours": 1.0272994444444445,
+    "p95Hours": 1.7767452777777777,
+    "worstHours": 1.7767452777777777
   },
   "decisionCoverage": {
-    "total": 1,
-    "decided": 1,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -55,42 +55,182 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-21T06:41:15.269Z",
-      "got": 3,
-      "new": 1,
-      "lag": 0.44
+      "at": "2026-10-21T06:58:26.781Z",
+      "got": 23,
+      "new": 20,
+      "lag": 0.27
     }
   },
   "audit": {
-    "at": "2026-10-21T06:40:31.545Z",
+    "at": "2026-10-21T06:56:51.801Z",
     "mode": "live",
     "collection": {
-      "returned": 3,
-      "kept": 1,
-      "duplicate": 2,
+      "returned": 23,
+      "kept": 20,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 12,
+      "rejected": 8,
       "reasons": {
-        "school_not_resolved_confidently": 1
+        "no_offer_term": 4,
+        "hard_negative": 1,
+        "no_fbs_school": 3
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2112779968937685298",
+          "author": "wilsonthegreat0",
+          "searchJob": "ole-miss",
+          "text": "Blessed to receive a gameday invite from Mississippi Valley State University!!🟢🔴 @MVSUDEVILS @SunilSportsNews @TheRedZoneCoach @CoachWil98 @27TBuck #Blessings https://t.co/o5wPwL2Vxw"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112778462121300210",
+          "author": "will466513",
+          "searchJob": "ole-miss",
+          "text": "🇺🇸 ON THIS DAY IN U.S. HISTORY — OCTOBER 20, 1803 🇺🇸 THE LOUISIANA PURCHASE — THE DEAL THAT DOUBLED THE SIZE OF AMERICA On October 20, 1803, the U.S. Senate voted 24–7 to approve the Louisiana Purchase treaty, authorizing one of the lar"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112789851141726557",
+          "author": "lanz5000",
+          "searchJob": "wake-forest",
+          "text": "Just listen to business people Europe needs to wake up"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112544558785708186",
+          "author": "euronews",
+          "searchJob": "wake-forest",
+          "text": "\"Ursula von der Leyen is useless.\" Ryanair CEO Michael O'Leary tells #EuropeToday the EU Commission president is doing \"nothing\" to make Europe more competitive. https://t.co/Zxl0egng7V"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112791277850759255",
+          "author": "freexcharlottex",
+          "searchJob": "charlotte",
+          "text": "This happened to my F*ndom page as well for advertising CashM**ts / M**t-ups… I have a long of friends on here who do esc*rting who usually know this but a lot of those who offer in-person services who aren’t FSSW don’t realize it!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112780377018486894",
+          "author": "702valetparker",
+          "searchJob": "charlotte",
+          "text": "FYI… twitter’s rules explicitly ban escort services and any offline in person sexual services for money. AllMyLinks, Linktree, email or FMTY / worldwide / touring in the bio is an easy way to lose the account under the illegal and regulated"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112784825895510247",
+          "author": "frogbetcharlo_6",
+          "searchJob": "charlotte",
+          "text": "A signup bonus is inventory, not income. Frogbet offers 150% plus 100 spins, but 35x wagering can eat the value fast. I’d price the rollover before depositing. Shop closed until the numbers work."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112788501259559179",
+          "author": "cyberalertpit",
+          "searchJob": "florida",
+          "text": "Pakistan Cyber Crime Arrest in $126M Fake US Postage Scam \"Pakistan’s NCCIA arrested Faheem Akram over https://t.co/ycNZMTHz1p, accused of selling 5.1M+ fake USPS labels and causing $126M+ losses. He was indicted in Florida; a $100K reward "
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 0,
+      "rejected": 12,
+      "reasons": {
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 4,
+        "multiple_resolved_schools": 2
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112774903074287922",
+          "author": "davidwingatemd",
+          "searchJob": "nebraska",
+          "text": "@emilymaeheller @jareddiamond @JacobFeldman4 @MLBONFOX @SInow @MLB @MLBNetwork @Sportico @cubs this is how you do it. Not like how you screwed over the 46,000 fans that got no refund for the Wrigley Volleyball debacle and offered no refund "
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2112789707310739812",
-          "author": "runprofits",
-          "searchJob": "toledo",
-          "text": "Europe’s Energy Squeeze, America’s AI Earnings Abraham George Marco Rubio is back in India for the second time this year. His observation is revealing: wherever he travels, countries are struggling with diesel supplies. The problem extends "
+          "postId": "2112790974191763631",
+          "author": "krish_mohana",
+          "searchJob": "wake-forest",
+          "text": "The Green Ribbon Part 4: The Years Between The Homecoming... Then, one Thursday, four years after the bus had carried away a fourteen-year-old boy who could scarcely bear to release her hand, he came home. The bus climbed through the Wester"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112783117526155720",
+          "author": "jessyiswet",
+          "searchJob": "wake-forest",
+          "text": "My hands trembled as I opened the first letter. My love, If you're reading this, you're probably angry with me. You have every right to be. I know I should have told you everything from the beginning. I know I stole your chance to make your"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112774978731184387",
+          "author": "tubelessready",
+          "searchJob": "wake-forest",
+          "text": "The entire political system of all countries is rife with money laundering. During Covid, countless politicians were bribed. Jagmeet Singh was amongst the first in Canada. Then it was Australia, New Zealand, UK, USA, EU. Ukraine took it to "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112778658159235183",
+          "author": "scitechgirl",
+          "searchJob": "coastal-carolina",
+          "text": "China Is Moving AI Data Centers Under the Sea What if the future of artificial intelligence was hidden beneath the ocean? China is exploring a remarkable solution to one of AI’s biggest challenges: keeping powerful computers cool without wa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112771504270409908",
+          "author": "mmechanics24",
+          "searchJob": "coastal-carolina",
+          "text": "A wave skimming electric seaglider capable of a reported 180 mph is receiving another $5 million funding push from the US Marine Corps. The technology could offer a new option for fast movement of personnel and cargo across coastal waters. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112796544726708637",
+          "author": "rebateatclosing",
+          "searchJob": "florida",
+          "text": "Florida new-home buyers — we’ll help you get more than the standard builder offer for walk-in visits. Keep thousands in your pocket. Restrictions apply. https://t.co/LtGqsamoMn https://t.co/D9RsOiYwRz"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112793545937477808",
+          "author": "reef_research",
+          "searchJob": "florida",
+          "text": "WELL PAID CORAL INTERNSHIP: Reef Renewal USA – Re5 Coral Restoration Internship (Florida, with the University of Miami) - USD $2,400 Per Month! Reef Renewal USA is hosting a hands-on coral restoration internship designed to support their on"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112792973981155529",
+          "author": "antonioarchil11",
+          "searchJob": "florida",
+          "text": "@PassingDrill if florida offers lundell they could get it done don’t know if that’s a good idea for them though"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112791000615670050",
+          "author": "rebateatclosing",
+          "searchJob": "florida",
+          "text": "Florida new-home buyers — we’ll help you get more than the standard builder offer for walk-in visits. Keep thousands in your pocket. Restrictions apply. https://t.co/LtGqsalQWP https://t.co/iMsPS26s7u"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112790815856636184",
+          "author": "officialhotrod",
+          "searchJob": "florida",
+          "text": "@RossKneeDeep Wow I genuinely wish Florida voters the worst life has to offer."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112785965697630556",
+          "author": "worldwidennx",
+          "searchJob": "florida",
+          "text": "2 AM Top-of-the-Hour News Nearly a decade after Boeing unveiled its largest 737 Max jet, the Federal Aviation Administration approved the Max 10 for passenger service, ending years of delays.: “Transportation Secretary Sean Duffy says the c"
         }
       ]
     },
@@ -98,20 +238,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 10,
-      "failed": 1,
-      "requests": 11,
-      "errors": [
-        "nebraska: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-21T06:41:15.611Z"
+    "status rebuilt locally from current store on 2026-10-21T06:58:27.250Z"
   ]
 }
