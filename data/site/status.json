@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:57:59.442Z",
+  "generatedAt": "2026-10-21T01:28:11.701Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-21T00:57:59.088Z",
+    "at": "2026-10-21T01:28:11.310Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -33,77 +33,89 @@
   "staleSchools": [
     {
       "id": "army",
-      "hours": 2.3
-    },
-    {
-      "id": "ball-state",
-      "hours": 2.3
-    },
-    {
-      "id": "boise-state",
-      "hours": 2.3
-    },
-    {
-      "id": "bowling-green",
-      "hours": 2.3
-    },
-    {
-      "id": "georgia-southern",
-      "hours": 2.3
-    },
-    {
-      "id": "georgia-state",
-      "hours": 2.3
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.3
-    },
-    {
-      "id": "iowa-state",
-      "hours": 2.3
-    },
-    {
-      "id": "smu",
-      "hours": 2.3
-    },
-    {
-      "id": "tulsa",
-      "hours": 2.3
-    },
-    {
-      "id": "uab",
-      "hours": 2.3
-    },
-    {
-      "id": "unlv",
-      "hours": 2.3
-    },
-    {
-      "id": "utep",
-      "hours": 2.3
-    },
-    {
-      "id": "virginia",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "washington-state",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
-      "id": "western-kentucky",
-      "hours": 2.3
+      "id": "boston-college",
+      "hours": 2.5
+    },
+    {
+      "id": "buffalo",
+      "hours": 2.5
+    },
+    {
+      "id": "central-michigan",
+      "hours": 2.5
+    },
+    {
+      "id": "charlotte",
+      "hours": 2.5
+    },
+    {
+      "id": "coastal-carolina",
+      "hours": 2.5
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 2.5
+    },
+    {
+      "id": "james-madison",
+      "hours": 2.5
+    },
+    {
+      "id": "kennesaw-state",
+      "hours": 2.5
+    },
+    {
+      "id": "kent-state",
+      "hours": 2.5
+    },
+    {
+      "id": "maryland",
+      "hours": 2.5
+    },
+    {
+      "id": "missouri",
+      "hours": 2.5
+    },
+    {
+      "id": "old-dominion",
+      "hours": 2.5
+    },
+    {
+      "id": "syracuse",
+      "hours": 2.5
+    },
+    {
+      "id": "tcu",
+      "hours": 2.5
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 2.5
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.5
+    },
+    {
+      "id": "wyoming",
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2657488888888888,
-    "p95Hours": 2.270894722222222,
-    "worstHours": 2.270894722222222
+    "medianHours": 1.0241816666666668,
+    "p95Hours": 2.522669722222222,
+    "worstHours": 2.7743
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 53,
+    "decided": 53,
     "complete": true
   },
   "pending": {
@@ -112,354 +124,339 @@
   "profileResolution": {
     "cached": 90
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 3355,
+    "completeOffers": 3356,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-21T00:57:59.088Z",
-      "got": 111,
-      "new": 55,
-      "lag": 0.03
+      "at": "2026-10-21T01:28:11.310Z",
+      "got": 122,
+      "new": 53,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-21T00:56:31.483Z",
+    "at": "2026-10-21T01:26:45.976Z",
     "mode": "live",
     "collection": {
-      "returned": 111,
-      "kept": 55,
-      "duplicate": 54,
-      "tooOld": 2,
+      "returned": 122,
+      "kept": 53,
+      "duplicate": 68,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 36,
-      "rejected": 19,
+      "accepted": 18,
+      "rejected": 35,
       "reasons": {
-        "non_fbs_offer_target": 4,
-        "no_fbs_school": 9,
-        "no_offer_term": 6
+        "no_fbs_school": 13,
+        "hard_negative": 18,
+        "no_offer_term": 3,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2112690479691079827",
-          "author": "detraunbrown12",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to receive an offer from Bethune-Cookman @BCUGridiron @14twalk @Coach_OC14 @CoachJones2010 @MauriceMilsap @coachmicahlewis @crosby_coach https://t.co/mX6vpApPXa"
+          "reason": "no_fbs_school",
+          "postId": "2112715555593421132",
+          "author": "elegantqiaoling",
+          "searchJob": "virginia",
+          "text": "Traveled with Mr. Baltimore to Shenandoah National Park in Virginia to see the Fall Foliage. Nature is amazing! Oh and they even offered Chinese program, how cool is that!!! https://t.co/XUfawlyF0L"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112699368759550236",
-          "author": "maraphoenix",
-          "searchJob": "ohio",
-          "text": "@mmeganrussell what a tempting offer"
+          "postId": "2112714720600068309",
+          "author": "nicholasfgarcia",
+          "searchJob": "virginia",
+          "text": "@Michael_Farley1 Cuzzo energy is the best kind lol. Congrats to Josh on that Virginia State offer, love seeing it"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112716791755493403",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112715491688976852",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112715292702883891",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112715101182816320",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112714969649147921",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112714874975384046",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112714352939896902",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112709549278773390",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112709328708759725",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112709240712282224",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112708976743686378",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112708846082773478",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112707993800507669",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112707817467412622",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112707644850946219",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112707574592147539",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112707280483254347",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2112706003259015330",
+          "author": "randyferrell",
+          "searchJob": "army",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: October 20, 2026 Total receipts: 646 • 10/20/26: Rubio says Ukraine interceptors may be delayed • 10/19/26: DOJ charges 28"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112667931930984497",
-          "author": "ohiogunowners",
-          "searchJob": "ohio",
-          "text": "We give David Joyce (Congressional District 14) an F. Here’s the record. Joyce has no candidate survey on file with us. He voted YES on the Bipartisan Safer Communities Act (2022). Joyce co-sponsored H.R. 744, the Protecting Our Communities"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112678837456679405",
-          "author": "nypost",
-          "searchJob": "toledo",
-          "text": "Elon Musk chose to throttle Ukraine's access to Starlink: report https://t.co/msVyzeUaVG https://t.co/6qS0J8VZ1z"
+          "postId": "2112690160936915203",
+          "author": "linebackers_u",
+          "searchJob": "class:2029",
+          "text": "Bishop Gorman DL Walker Hampson🚨🚨🚨 C/O 2029 6’4 285lbs 1 FBS Offer - Very powerful - Very quick and fast for his size - Not surprised if he has a breakout season next year - Great motor - Very violent hands - Great hips Athlete: @WJamari"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112690868385661372",
-          "author": "moldetroy",
-          "searchJob": "troy",
-          "text": "Don't do this. It's super annoying to agents and gets you started on the wrong foot. If you're not using an agent then draft your own offer, have proof of funds, earnest money and present your offer. Then try your approach but don't act lik"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2112690325680501147",
-          "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "🚨 First D1 Offer 🚨 2028 WR Oliver Siegle from Franklin Christian Academy, TN has received his first D1 offer from Murray State. @oliverjsiegle https://t.co/Ne9x2PVhIJ"
+          "postId": "2112710493911572829",
+          "author": "ryan_eminhizer",
+          "searchJob": "maryland",
+          "text": "𝐏𝐚𝐭𝐫𝐢𝐜𝐤 𝐁𝐫𝐢𝐭𝐭𝐨𝐧-𝐇𝐚𝐫𝐫 𝐂𝐨𝐧𝐯𝐢𝐜𝐭𝐞𝐝 𝐢𝐧 $18.7 𝐌𝐢𝐥𝐥𝐢𝐨𝐧 𝐌𝐞𝐝𝐢𝐜𝐚𝐫𝐞 𝐅𝐫𝐚𝐮𝐝 A federal jury in Maryland convicted Patrick Britton-Harr, 42, of Annapolis, yesterday for a scheme that billed Medicare $18.7 m"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112680264858325103",
-          "author": "sports_ol",
-          "searchJob": "pittsburgh",
-          "text": "Grimpoot Collectors Society @grimpoot 'Make us an offer we can't refuse' @allsc_ol @sports_ol #TheHobby @jwax_ol @ncore_ol 2017 Topps Series 1 Jameson Taillon #323 Pittsburgh Pirates|Pre-Owned Site (eBay) Price, US: ($0.99) https://t.co/iGW"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112333548644692129",
-          "author": "mcfaul",
-          "searchJob": "stanford",
-          "text": "Over 5,000 Ukrainians fought in Iraq, helping us to fight our war there. https://t.co/03EqJXxr7L"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112268669312983214",
-          "author": "rapidresponse47",
-          "searchJob": "stanford",
-          "text": ".@POTUS: \"We've given a lot to Ukraine. They've given nothing to us. Remember that.\" https://t.co/rZv7sxDhMS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112679160791330839",
-          "author": "9lizmchugh",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/ePswZRNw7V"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112676729701716393",
-          "author": "farehirantv",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/AyCYjXvcZI"
+          "postId": "2112715255638004172",
+          "author": "mikemacman21",
+          "searchJob": "michigan",
+          "text": "@BR_OpenIce @SpectorsHockey @HeleneStJames First 3 have no cap space and no elite assets to offer the rest have nice options wings will like 👍"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2112706698863390944",
-          "author": "almentalhealth",
-          "searchJob": "alabama",
-          "text": "Finding mental health and substance use support can feel overwhelming. Created with families and people with lived experience, this guide offers resources for navigating care with a loved one: https://t.co/kT9gJbNHA5 https://t.co/BUiW3PHzma"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112703122447413679",
-          "author": "tfloss32",
-          "searchJob": "alabama",
-          "text": "'28 DB Pat Lyles (@Patlyles21) from Aldine Davis takes home a North Alabama offer. #RoarLions #RaiseTheRoar https://t.co/IoirSLbJzQ 𝕏 @CoachKChatham | @davis__football"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112701562204123162",
-          "author": "tfloss32",
-          "searchJob": "alabama",
-          "text": "Fort Bend Crawford '29 WR Bryce Fisher (@Brycefisher29) pulls in a North Alabama offer. #RoarLions #RaiseTheRoar https://t.co/q5G5eBSfYS https://t.co/zz8vJwBwRL 𝕏 @CoachJackACHS | @ACHS_ChargerFB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112684037177319626",
-          "author": "_silasallen",
-          "searchJob": "alabama",
-          "text": "North Alabama offered! @jovante_moffatt @AiCReem_25 @CoachRack75 https://t.co/rVHR9AVVm5"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2112676589544538441",
-          "author": "benton_welker44",
-          "searchJob": "phrase:\"my first Division 1 offer\"",
-          "text": "Extremely blessed and thankful to receive my first division 1 offer from Iona University. Thank you so much Landry Kosmalski and the rest of the coaching staff for this opportunity and for believing in me. https://t.co/UuJOTRGNPs"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2112704554718372303",
-          "author": "orion_reuben",
-          "searchJob": "phrase:\"received my first offer\"",
-          "text": "After a Great Conversation with @CoachWatkinsTC I’m Blessed to have received my first offer to @football_ncc https://t.co/Fuv5VFyu7q"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2112698106894815571",
-          "author": "ansleychester77",
-          "searchJob": "phrase:\"received my first offer\"",
-          "text": "I’m beyond blessed and excited to announce that I have received my first offer from Reid State Community College! I’m so grateful for this opportunity and thankful to Coach Steadman for having me out. @coachsteadman80 @ReidStateCC @TNMojo20"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112623919022887371",
-          "author": "cyberdulce",
-          "searchJob": "houston",
-          "text": "i hate when you bring up texas minimum wage being $7.25 and everyone’s like “no one pays that” yes they do especially if it’s an immigrant being hired"
+          "postId": "2112705236234355015",
+          "author": "abedamnfroman",
+          "searchJob": "michigan",
+          "text": "@oldirtydangles At this point they should just take the best offer on the table, lick their wounds, and move on."
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 33,
+      "accepted": 1,
+      "rejected": 17,
       "reasons": {
-        "bare_mention_requires_llm": 21,
-        "school_not_resolved_confidently": 7,
-        "reporter_missing_player_name": 1,
-        "unresolved_offer_target": 2,
-        "multiple_resolved_schools": 1,
-        "author_not_recruit:no recruit fields": 1
+        "school_not_resolved_confidently": 3,
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 10,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112707199734534342",
-          "author": "lawrence_haugh",
-          "searchJob": "ohio",
-          "text": "@ChrisVanHollen @Ilhan The only thing that keeps your ass in the Senate is name recognition. Other than that, you have nothing to offer the citizens of Maryland. If you ever had a fastball it is long gone and it’s obvious."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112705837135229411",
-          "author": "sportslifetalk",
-          "searchJob": "ohio",
-          "text": "💰🏀 “WE’RE NOT THROWING OUT 40 OFFERS BECAUSE YOU PLAYED WELL ONE WEEKEND.” Recruiting has changed. NIL. Money. Revenue sharing. The portal. But Chelsea Welch says one thing STILL matters at OU: RELATIONSHIPS. 💯 They want to know more tha"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112695367070613560",
-          "author": "buckeyenatty",
-          "searchJob": "ohio",
-          "text": "This is interesting… Sometimes your backup QB is better suited to come off the bench and steady the ship. But sometimes your 3rd-string QB offers a much higher ceiling and gives you a better chance long-term. Ohio State finds itself in that"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112670451529023979",
-          "author": "franyafranya",
-          "searchJob": "ohio",
-          "text": ".@VivekGRamaswamy See how stooping to personal attacks backfires on you? Dragging a sexual abuse enabler into the spotlight to lie about her own child, who became a success in spite of her terrible mother, only serves to show you have nothi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112698320523301006",
-          "author": "randysevy",
-          "searchJob": "toledo",
-          "text": "Israel’s Religious Revival Faces Its First Test at the Ballot Box By PNW Staff October 21, 2026 At a gathering in the Knesset sukkah this month, Benjamin Netanyahu read from the Book of Samuel and spoke of a “great deliverance.” Whether the"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112679436222919148",
+          "author": "gecko39",
+          "searchJob": "iowa-state",
+          "text": "Palaeoclimate constraints narrow uncertainty in future Arctic winter sea ice projections Open access Download PDF https://t.co/784Z2s6zqZ Published: 16OCT2026 Nature Geoscience (2026) C. Y. Fu, M. B. Osman & M. A. Aquino-López https://t.co/"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2112693014552563999",
-          "author": "revivedgamerhd",
-          "searchJob": "toledo",
-          "text": "@DCarter8 @Yinoma2001 @Purpl3andGold Smart literally said the lakers offered more than the rockets did lol"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112691825936826873",
-          "author": "uhpridehistory",
-          "searchJob": "toledo",
-          "text": "@OleTimeHardball Crazy to think the @HoustonRockets almost had the 1 &amp; the 2 that year. The @trailblazers wanted Ralph Sampson, and offered Clyde Drexler &amp; the #2 for him…..Rockets said no. They would’ve had Hakeem, Clyde &amp; Jord"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112685289919655965",
-          "author": "allthemoney",
-          "searchJob": "toledo",
-          "text": "🚨 Scam Watch 5 of 15: Rug Pulls 🪤 A new coin shoots up +899% 📈 Everyone's posting rockets 🚀 Then one day the price hits $0, the website vanishes and the team is gone 👻 How it works: 1️⃣ The Launch: cheap new token, slick site, anonymou"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112683473613815913",
-          "author": "mod2severe",
-          "searchJob": "toledo",
-          "text": "No government on earth offered to help finance Elon to launch weekly rockets to put 11,000 satellites into low earth orbit. Especially not Ukraine. Elon built Starlink, it's his baby. It is entirely his call how it gets used and by whom. Ow"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112681156932211131",
-          "author": "lakersfaithful_",
-          "searchJob": "toledo",
-          "text": "@Purpl3andGold Smart also said he wanted to be home and play with udoka. And from what I can recall lakers still offered him more than rockets. I’m not even trying to defend pelingka. Just saying there were other factors. Goodwin left for b"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2112673727007674677",
-          "author": "purpl3andgold",
-          "searchJob": "toledo",
-          "text": "@mikeowens1 If Pelinka offered Smart the Sexton deal, he would be a Laker right now. But he did not and now the Rockets will benefit."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112701142652321881",
-          "author": "np4football_ot",
-          "searchJob": "troy",
-          "text": "Eddie Robinson Jr-DL-JUCO @TroyTrojansFB Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112674262205288941",
-          "author": "jucofootballace",
-          "searchJob": "troy",
-          "text": "Adam Kirtley @AdamKirtley9 @ Blinn JuCo @BLINNFBRECRUIT picks up @TroyTrojansFB Offer @Coach_RyanMahon @BlinnAthletics https://t.co/6xRKBkZCjf"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112700123511656629",
-          "author": "connorcolyer",
-          "searchJob": "tulane",
-          "text": "@Captain92394 @krysiak_sarah @LosSignmakrDeCt @sshaf91 @FoxNews SPEAK AMERICAN? 😭😭 Mate, you’ve spent four days correcting my English and now you’ve invented an entirely new language rather than admit you were wrong. Please tell me Tulane"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2112707589092082047",
-          "author": "realnews102",
-          "searchJob": "class:2028",
-          "text": "2028 ATH @rj_dunning picks up his first D1 offer from East Carolina University. Electric with the ball in his hands, but his defensive film is worth a look 👀 Full breakdown on the latest Drew’s Prospect Watch ⬇️ @TheRundown102 @polk_way @D"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2112701374286766356",
-          "author": "mitchellhsfb",
-          "searchJob": "class:2028",
-          "text": "🚨 OFFER ALERT 🚨 Congratulations to 2028 ATH Robert Dunning on receiving an offer from East Carolina University! #GoMustangs | #TheStandard https://t.co/3GyQMczBw9"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112692001627881651",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Carter Horton-Edge-2028-MI @KentStFootball Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112695302230544504",
-          "author": "mmccunney",
-          "searchJob": "pittsburgh",
-          "text": "C offers the most variety, so that's a plus. The weather seems rough. E doesn't even get Boston, NYC, or Philly. Hard pass, sorry Pittsburgh A has some variety on the coast, but meh B is basically Militia-land F is the right answer. D gets "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112701805893222772",
-          "author": "lynda555e",
-          "searchJob": "stanford",
-          "text": "McFaul is a conservative Hoover sr fellow., Stanford scholar,former ambassador to Russia./ McFaul notes a Trump remark is false; Ukrainian soldiers fought beside US troops in Iraq.(The CIA-warned Trump that Russia,offered the Taliban a boun"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112704929026789753",
-          "author": "patrick_amand",
-          "searchJob": "utah",
-          "text": "@VioletDante @Ade780 Youre gm got no levrage now he wait to much utah offer is not gonna be better than that they know you gonna pay him to not play too and youre team owner gonna force youre gm to take it soon he’s cheap he not gonnapay 8."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112681134157172812",
-          "author": "illmalec",
-          "searchJob": "utah",
-          "text": "@_williamherman @NoFlagsFilm Cool but I'm already on it haha. I've seen some hoops highlights and know that Tubby Smith offered him a basketball scholarship before Utah offered him for football."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112689082186772827",
-          "author": "lgbforil",
-          "searchJob": "arkansas-state",
-          "text": "Palestinians were offered a state in 1937, 1947, 2000, and 2008. There were also peace/autonomy overtures in 1967 and 1979. They said no every time... and answered with war or terror. Netanyahu wasn’t in the picture. They could still take t"
+          "postId": "2112679181960008002",
+          "author": "gecko39",
+          "searchJob": "iowa-state",
+          "text": "Palaeoclimate constraints narrow uncertainty in future Arctic winter sea ice projections Open access Download PDF https://t.co/784Z2s6zqZ Published: 16OCT2026 Nature Geoscience (2026) C. Y. Fu, M. B. Osman & M. A. Aquino-López https://t.co/"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2112688529390129396",
-          "author": "aimeetaylor240",
-          "searchJob": "arkansas-state",
-          "text": "Verdict: Unverified — with several indications that this story may be fabricated. As of October 20, 2026, I could find no credible reporting, public statement, or official documentation confirming that Jane Fonda made these remarks. Here's "
+          "postId": "2112708979096690800",
+          "author": "staniskrapivnik",
+          "searchJob": "virginia",
+          "text": "Reagan was a “Paleo” Conservative, not a Neo-Conservative! Although he was anti-Soviet and anti-Communist, he was NEVER anti-Russian! Just the opposite, in fact! I even wrote a research paper in 1985, citing documentary evidence to back to "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112698092231487878",
+          "author": "owengregorian",
+          "searchJob": "virginia",
+          "text": "Study: Calling Insurance-Listed Therapists Rarely Yields An Appointment | StudyFinds In A Nutshell - Researchers made 5,822 calls to insurer-listed psychiatrists and psychologists in five states, and only 12.4% ended with an appointment off"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2112687629082747331",
-          "author": "unreadbyline",
-          "searchJob": "arkansas-state",
-          "text": "So I went to vote, and it was almost suspiciously easy. Met at the door by a friendly reminder to turn the phone off. Paper notes? Perfectly fine. Voter registration? Good enough. Driver’s license? Not required. In and out in ten minutes, t"
+          "postId": "2112708648359350561",
+          "author": "harvey13m",
+          "searchJob": "army",
+          "text": "@RegimentGG @Brparadox The Donkey dick is the best piece of equipment the army had to offer!!!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112707297415659894",
+          "author": "macklinh",
+          "searchJob": "army",
+          "text": "After WW1, the Ottomans lost the land and abandoned it. The land was then held by the Allies of WW1. There are multiple binding treaties that detail this. The Allies along with the League of Nations used the Mandate System to establish all "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112712604351373785",
+          "author": "jucofootballace",
+          "searchJob": "georgia-state",
+          "text": "Keizavion Woods @KeiiWoods @ Hutch JuCo @BlueDragonsFB picks up @GeorgiaStateFB Offer @CoachDrewDallas @HCC_Collegian https://t.co/AG0Ey7oe8Z"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112712150359687535",
+          "author": "keiiwoods",
+          "searchJob": "georgia-state",
+          "text": "Blessed @GeorgiaStateFB Offered 🙏🏿 #HumbleBeast🦁 https://t.co/VagmzVs15E"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112687699156926649",
+          "author": "jucofootballace",
+          "searchJob": "georgia-state",
+          "text": "Andre Williams @andre_will7 @ Hutch JuCo @BlueDragonsFB picks up @GeorgiaStateFB Offer @CoachDrewDallas @HCC_Collegian https://t.co/PBjKU1AIgZ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112699454877044969",
+          "author": "iamrodneysmith",
+          "searchJob": "hawaii",
+          "text": "Today, I had the honor of meeting Alicia in Hawaii, who shared the heartbreaking story of her mother’s battle with breast cancer. ❤️🎀 Her mother was diagnosed in 2005, underwent chemotherapy, and went into remission. But just as she approa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112716539762003978",
+          "author": "jucofootballace",
+          "searchJob": "utep",
+          "text": "Jaydn Wood @WoodJaydn @ New Mexico Military JuCo @nmmibroncos picks up @UTEPFB Offer @NMMIAthletics https://t.co/9QLTg8UcFG"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2112711777897283920",
+          "author": "woodjaydn",
+          "searchJob": "utep",
+          "text": "So blessed to receive a offer from @UTEPFB @AustinFurgatch_ 🔥🔥🔥🔥 https://t.co/lPIdTAAnBS"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112686912318169237",
+          "author": "lorrshaw13",
+          "searchJob": "western-kentucky",
+          "text": "#agtg🙏🏾 Western Kentucky offered! https://t.co/IRe6ojHsnl"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112684808614867260",
+          "author": "chadsimmons_",
+          "searchJob": "class:2029",
+          "text": "Aggies offer 2029 OL in Georgia. @JosephAHastings"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2112716650428444942",
+          "author": "mattreynolds615",
+          "searchJob": "michigan",
+          "text": "Here’s a little recap of that @ewarren interview by @WME’s Kaitlan Collins on @TheSourceCNN on @CNN @yaelsheinfeld @SarabiaTX AI: The most revealing thing about this interview is that Kaitlan Collins asked several substantive questions, but"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112712696349004074",
+          "author": "hennyspiff",
+          "searchJob": "michigan",
+          "text": "@JamesYoder @Genetics56 Good. He needs to go somewhere he can actually learn to play QB better. Michigan was always a stupid move. But I also don’t blame him for the amount of $ they offered"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2112695397235806626",
+          "author": "mistormchasers",
+          "searchJob": "michigan",
+          "text": "Heading to bed soon? We're going to stop you in your tracks real quick. Take a look at what you should prepare for on Wednesday, October 21st, 2026. Hint, prepare for sun... again. Besides some morning fog, and a light deck of clouds moving"
         }
       ]
     },
@@ -467,18 +464,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "washington-state: SearchTimeline HTTP 404,404 (slice left pending)"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 33,
-      "brandNewOffers": 3
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 17,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-21T00:57:59.443Z"
+    "status rebuilt locally from current store on 2026-10-21T01:28:11.702Z"
   ]
 }
