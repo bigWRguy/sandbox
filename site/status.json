@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T10:58:38.156Z",
+  "generatedAt": "2026-10-21T11:14:05.797Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-21T10:58:37.699Z",
+    "at": "2026-10-21T11:14:05.485Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7758541666666666,
-    "p95Hours": 1.2752513888888888,
-    "worstHours": 1.5284461111111112
+    "medianHours": 0.7803197222222222,
+    "p95Hours": 1.283728611111111,
+    "worstHours": 1.5329294444444443
   },
   "decisionCoverage": {
-    "total": 20,
-    "decided": 20,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -55,180 +55,111 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-21T10:58:37.698Z",
-      "got": 33,
-      "new": 20,
-      "lag": 0.09
+      "at": "2026-10-21T11:14:05.485Z",
+      "got": 14,
+      "new": 10,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-21T10:57:01.683Z",
+    "at": "2026-10-21T11:12:33.316Z",
     "mode": "live",
     "collection": {
-      "returned": 33,
-      "kept": 20,
-      "duplicate": 13,
-      "tooOld": 0,
+      "returned": 14,
+      "kept": 10,
+      "duplicate": 3,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 17,
-      "rejected": 3,
+      "accepted": 5,
+      "rejected": 5,
       "reasons": {
-        "hard_negative": 2,
-        "no_offer_term": 1
+        "no_offer_term": 3,
+        "no_fbs_school": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2112859730721014185",
-          "author": "mediamanoz",
-          "searchJob": "california",
-          "text": "Bulls And Bears Under The Media Man Watercooler October 2026 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To Crown Jewel and Survivor Series: War Games! UFC Enjoys Overall Modest Lift With Paramount Merge Into S"
+          "reason": "no_offer_term",
+          "postId": "2112864481172664575",
+          "author": "richardjwood",
+          "searchJob": "indiana",
+          "text": "https://t.co/Zh6WIdciuW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2112850950427677158",
+          "author": "tduke0",
+          "searchJob": "duke",
+          "text": "@shannonduke2 The only meaningful thing we can offer one another is love. Not advice, not questions about our choices, not suggestions for the future, just love.--Glennon Melton"
         },
         {
           "reason": "hard_negative",
-          "postId": "2112857223965896734",
-          "author": "mediamangroup",
-          "searchJob": "california",
-          "text": "Bulls And Bears Under The Media Man Watercooler October 2026 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To Crown Jewel and Survivor Series: War Games! UFC Enjoys Overall Modest Lift With Paramount Merge Into S"
+          "postId": "2112856175603515709",
+          "author": "shoutouttakes",
+          "searchJob": "houston",
+          "text": "⚽🏀 CHAMPIONS LEAGUE + NBA CARD 🔥 Five plays on the radar today: ⚽ Real Madrid OVER 1.5 team goals (-750) ⚽ Bayern–Arsenal BTTS — YES (-210) 🏀 Wizards ML (-185) 🏀 Raptors ML (-425) 🏀 Kyrie Irving OVER 3.5 assists (-275) Here’s the break"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2112836672396353934",
-          "author": "fabrizioromano",
-          "searchJob": "rice",
-          "text": "🚨 Joshua Kimmich, out of Bayern squad to face Arsenal tonight due to a death in his close family. https://t.co/ox1w52mEa2"
+          "postId": "2112848790365352233",
+          "author": "novlyx",
+          "searchJob": "houston",
+          "text": "https://t.co/DpAXbe1uMz"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2112857279150075916",
+          "author": "gonzalodplf",
+          "searchJob": "louisville",
+          "text": "☕️ Today's AI news in five lines. • Claude designed proteins to grip scorpion toxins • OpenAI agents weakened their monitors • Hidden AI text on 80 WhatsApp pages • NYC proposes AI chatbot rules • SpaceX AI revenue topped Starlink's segment"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 17,
+      "rejected": 5,
       "reasons": {
-        "bare_mention_requires_llm": 16,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112858439349358664",
-          "author": "swamiexec",
-          "searchJob": "california",
-          "text": "@sumanthraman In China govt owns the land ppl own bldg, so it’s easy for them to pull the rug under and move fast. Here govt has to buy the land. For context check California HSR. Both USA and India offer freedom of ownership, land Acq. tak"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112854455473328389",
-          "author": "surefire1",
-          "searchJob": "california",
-          "text": "@BillMelugin_ The feds offered to assist cleaning the voter rolls. California declined so they had a way but negligently said no."
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2112848619774636045",
-          "author": "theerikhoffmann",
-          "searchJob": "california",
-          "text": "UNANIMOUS NINTH CIRCUIT PANEL BLOCKS CALIFORNIA'S 'NO VIGILANTES ACT' A three-judge panel of the Ninth Circuit has blocked California's \"No Vigilantes Act,\" which required non-uniformed federal law enforcement officers operating in the stat"
+          "postId": "2112863697110528387",
+          "author": "bookpos_app",
+          "searchJob": "louisville",
+          "text": "🎯 VALUE PARLAY — BETVICTOR 📅 21 OCT 2026 | 6 LEGS 🔥 COMBINED ODDS: 197.98 📊 MARKET AVERAGE: 168.52 📈 VALUE BOOST: +17.48% Free Trial Rebelbetting 🔎 #ad 👉 https://t.co/fY7QY2NwSB ⚽ THE 6 LEGS 1. Sporting JAX vs Louisville City BTTS NO"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112853282469122065",
-          "author": "polis_in_exile",
-          "searchJob": "air-force",
-          "text": "JD Vance On Endorsing Netanyahu: I'll Pass Vice President J.D. Vance said Monday he would not endorse Israeli Prime Minister Benjamin Netanyahu in an interview with journalist Mark Halperin. President Donald Trump offered Netanyahu his full"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112863402800669052",
+          "author": "9jaemperor",
+          "searchJob": "miami",
+          "text": "@NaijaAesthetics Eko Atlantic is a failed project of 20 years plus it’s not economically viable and makes no economic sense Price at the same price as Miami and Dubai Offers nothing no tax benefit ,no private banking benefits No trust benef"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112857781619323326",
-          "author": "newsweek",
-          "searchJob": "marshall",
-          "text": "As Roger Marshall fights to retain his Senate seat, his decades-long marriage to Laina offers a glimpse into his life beyond politics. https://t.co/bQOo4uzD6W"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112856987146838409",
+          "author": "madjeric",
+          "searchJob": "miami",
+          "text": "His website has much material about recent Andromedan activities and echoes the testimony of Alex Collier who he supports as a genuine contactee. [261] Tolec offers no physical evidence to support his claims and believes that his material s"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112855280136438054",
-          "author": "ephantuskim",
-          "searchJob": "rice",
-          "text": "Today, I honoured an invitation from United Port Services Private Limited for a working visit to Hyderabad, Telangana, and Kakinada, Andhra Pradesh, India, to learn from its agricultural investment model and explore opportunities to transfo"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112851837153898836",
+          "author": "rick42798550",
+          "searchJob": "miami",
+          "text": "@kaitduffy Miami is the worst. Doesn’t offer a tenth of what nyc does. I guess if you like sweating a lot 😂"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112851197153419343",
-          "author": "frank9291371541",
-          "searchJob": "rice",
-          "text": "@HighChiefOkoro You're a fool this is APC matter's and garri bread and rice what else can APC offer you go cry blood"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112847433621258512",
-          "author": "enginefant",
-          "searchJob": "rice",
-          "text": "⚙️ BEST MIDFIELDERS (GW8 xPts) ​1️⃣ Cole Palmer (£9.7m) — 5.95 xPts 2️⃣ Bryan Mbeumo (£7.8m) — 5.79 xPts 3️⃣ Jeremy Doku (£7.5m) — 5.62 xPts 4️⃣ Declan Rice (£7.3m) — 5.52 xPts 5️⃣ Morgan Rogers (£8.0m) — 5.30 xPts ​Mbeumo (£7.8m) continues"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112846752764084402",
-          "author": "mayorcrypto01",
-          "searchJob": "rice",
-          "text": "🌿 WISDOM FOR 2027: NOT EVERY SWEET THING IS GOOD FOR YOU! Sugarcane is sweet, but nobody swallows it. There are lessons in this simple saying that every Nigerian, especially our youths, should understand as we approach the 2027 general ele"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112841962269077918",
-          "author": "elroi4049",
-          "searchJob": "rice",
-          "text": "investigate both.” I laughed and offered her half. Her name was Tola, and somehow, sharing that snack turned into an hour of playful arguments about food, relationships, and who made the better jollof rice. Before leaving, she challenged me"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112841140080939413",
-          "author": "2gaudadhipati",
-          "searchJob": "rice",
-          "text": "A Late Post The fish bhoga offered to Devi Durga on Mahānavamī. Rice, veg dal, papad, chhyachra (a mixed veg dish cooked with fish head), fish curry, hog plum (āmrā) chutney, and chhanar jilapi ( jalebi made with cottage cheese). Śubha Vija"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112840471206613110",
-          "author": "sifcpakistan",
-          "searchJob": "rice",
-          "text": "Pakistan’s rice exports surged nearly 150% by volume in September 2026 compared with the same month last year, reaching 420,277 metric tons, up from 168,322 metric tons a year earlier. With fertile land, a strong agricultural base, and grow"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112839856938221619",
-          "author": "editswithjosh",
-          "searchJob": "rice",
-          "text": "This is so sad💔🕊️ Two massive games tonight, but Arsenal vs Bayern Munich is the kind of Champions League match we football fans live for. 🔥 Bayern are a serious threat, especially with Harry Kane leading their attack, but Joshua Kimmich"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112837999985602807",
-          "author": "brunoeke",
-          "searchJob": "rice",
-          "text": "@Mickymills10 @the_Lawrenz Bro, there midfield was far better and experience than ours,Rice and odegaard were our best midfielders then, MLS wouldn't be able to catch up. MLS is good at slowing opposition while psg are fast paced,the approa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112857567466557536",
-          "author": "tanker434",
-          "searchJob": "illinois",
-          "text": "Documented cases exist of people of color (including Black individuals) being listed as White on booking records or related databases, often due to self-reporting, officer perception, administrative categories, or data-entry errors. Race re"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112855969621594228",
-          "author": "dunnbilly87734",
-          "searchJob": "maryland",
-          "text": "Saddam Hussein was trained by the CIA. Saddam Hussein was put in power in Iraq by the CIA under George Bush. The United States armed Iraq and gave Saddam Hussein the technology and scientific knowledge to create weapons of mass destruction."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2112843187223982540",
-          "author": "theerikhoffmann",
-          "searchJob": "michigan",
-          "text": "'20% LESS CONDESCENSION': OBAMA ALUMS WARN EL-SAYED OVER MUSLIM BROTHERHOOD QUESTIONS The former Obama staffers behind @PodSaveAmerica say Democratic Michigan Senate candidate Abdul El-Sayed should adjust how he responds to questions about "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2112846652373340238",
+          "author": "explosss1ve",
+          "searchJob": "miami",
+          "text": "f*cking insane, I hired an AI sales rep for $0, gave it one rule, \"find me $45,000 a month or you're fired\", went to sleep, and it was on my desk by 8am a sales hire costs more than my rent mine cost $0 and worked all night with my laptop s"
         }
       ]
     },
@@ -243,11 +174,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 17,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-21T10:58:38.157Z"
+    "status rebuilt locally from current store on 2026-10-21T11:14:05.798Z"
   ]
 }
