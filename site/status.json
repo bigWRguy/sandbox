@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T04:55:38.368Z",
+  "generatedAt": "2026-10-22T05:13:30.178Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-22T04:55:38.118Z",
+    "at": "2026-10-22T05:13:29.816Z",
     "jobsTotal": 162,
-    "sweptThisRun": 13,
-    "requests": 14,
-    "fullSweepCycles": 13
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7253388888888889,
-    "p95Hours": 1.478855,
-    "worstHours": 1.7261177777777779
+    "medianHours": 0.7766086111111111,
+    "p95Hours": 1.5228633333333332,
+    "worstHours": 1.77658
   },
   "decisionCoverage": {
-    "total": 28,
-    "decided": 28,
+    "total": 26,
+    "decided": 26,
     "complete": true
   },
   "pending": {
@@ -55,239 +55,224 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-22T04:55:38.118Z",
-      "got": 44,
-      "new": 28,
-      "lag": 0.03
+      "at": "2026-10-22T05:13:29.815Z",
+      "got": 50,
+      "new": 26,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-22T04:54:49.136Z",
+    "at": "2026-10-22T05:12:00.390Z",
     "mode": "live",
     "collection": {
-      "returned": 44,
-      "kept": 28,
-      "duplicate": 16,
-      "tooOld": 0,
+      "returned": 50,
+      "kept": 26,
+      "duplicate": 22,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 12,
+      "accepted": 19,
+      "rejected": 7,
       "reasons": {
-        "no_offer_term": 8,
-        "hard_negative": 2,
-        "no_fbs_school": 1,
-        "non_fbs_offer_target": 1
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 4,
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2112899954226454908",
-          "author": "bleacherreport",
-          "searchJob": "akron",
-          "text": "LeBron went back-and-forth with a Knicks fan sitting courtside 👀 (Via @shotclockshow) https://t.co/d8xgb76s4w"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113131546190200885",
-          "author": "nycjewishnurse",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/r52VGYaEgC"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2113107990182338857",
-          "author": "sherriestyle",
-          "searchJob": "arkansas-state",
-          "text": "Saudi Arabia’s rejection of Israel is hurting it. Riyadh wants room in two different versions of the Middle East: one that builds a future with Israel, and one that remains obsessed with rejecting it. VANESSA BERG OCT 13, 2026 Saudi Arabia "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113131648308920353",
-          "author": "thelonggame_son",
-          "searchJob": "army",
-          "text": "Ten billion snow crabs vanished. Then the Bering Sea hosted a family reunion nobody saw coming. The guest list exploded, Alaska had to rethink its fishing rules, and at least one teenager was thoroughly unimpressed. https://t.co/OiBWaMFHgA"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113131241348178069",
-          "author": "reallarabridge",
-          "searchJob": "army",
-          "text": "💷🇬🇧 My Budget plan: getting Britain back to work https://t.co/eY4fdPh9gJ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112767183923397050",
-          "author": "ibn_ghazi_",
-          "searchJob": "army",
-          "text": "Sanghi Priyanka can't digest that a Muslim thinker is pointing out how a majoritarian system has oppressed Indian Muslims since independence and how the constitution protects that system."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112213039131046367",
-          "author": "priyankac19",
-          "searchJob": "army",
-          "text": "“Sharjeel Imam openly calls the Constitution fascist, labels secularism a trap, and denounces democracy as a contrivance to deny Muslims their political rights.” Can’t wait to hear the views of the new age gatekeepers of democracy and const"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2113109821650333743",
-          "author": "mr_gaurified",
-          "searchJob": "army",
-          "text": "This is nothing. Kashmiri Muslims even offer sex with their daughters to the terrorists who have come from Pakistan. They commit treason against the army and hide them in their homes."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112944297922453538",
-          "author": "communist_adda",
-          "searchJob": "army",
-          "text": "When I was in Tihar, I had a conversation with a Muslim jailmate from UP, about Sharjeel Imam. He said, “Hamare gaaon me hum sab log har roz ek waqt ki namaaz Sharjeel bhai ke liye padhte hai.” That day, I realised just what it is that Shar"
+          "reason": "non_fbs_offer_target",
+          "postId": "2113133837983023313",
+          "author": "chris_carroll45",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#AGTG After a great conversation with @Coach_Saint I’m blessed to receive a offer from Lafayette College @coachanthony46 @247recruiting @CoachBigBrown https://t.co/Ii60tmfhCL"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2113118998376419789",
-          "author": "whatmattersinga",
-          "searchJob": "georgia",
-          "text": "Fox guards the hen house … NIH hospital board Chair overseeing the new vaccine injury center - profits from vaccines. Next thing we know, NIH vaccine injury center will offer medical assistance in dying. So very corrupt."
+          "postId": "2113133412362174642",
+          "author": "mcoria77",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Lewis I am blessed and honored to receive my first scholarship offer to the University of LaVerne @jameslewiscoach @coach_fierro @CoachNick_0 @coachcastro626 @coachmark_48 #blessed #Agtg #humble https:/"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2112910917235097785",
-          "author": "maryhollandnyc",
-          "searchJob": "georgia",
-          "text": "Jack Leslie’s firm, Weber Shandwick, has represented Pfizer, Moderna, and GSK, and once held a $50M CDC vaccine-promotion contract. He chairs the NIH hospital board overseeing the new vaccine injury center. The NYT ran his criticism without"
+          "postId": "2113122497574949259",
+          "author": "dayvonbennet27",
+          "searchJob": "texas-tech",
+          "text": "What are you selling today?"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2113116685095854236",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia",
-          "text": "Lovett's All-State lineman earns an offer from Berry College #RecruitGeorgia"
+          "reason": "no_fbs_school",
+          "postId": "2113123271273041930",
+          "author": "xtrskcapital",
+          "searchJob": "texas-tech",
+          "text": "XTRSK Hourly Market Digest | 2026-10-22 04:15 UTC • Hong Kong’s Hang Seng Index fell 2.7% intraday, breaking below 23,000, while the Hang Seng TECH Index dropped 4.38% as AI‑related stocks such as Tianshu Zhixin and Zhipu each slid more tha"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2113122765460914198",
+          "author": "technicalzilla",
+          "searchJob": "texas-tech",
+          "text": "@nypost Sad that the left refuses to offer actual help to these people"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2113122736860213559",
+          "author": "sosovaluecrypto",
+          "searchJob": "texas-tech",
+          "text": "SoSoValue Flash: Brent Tops $110 on Hormuz Mining, Meta Beats Q3 as Tesla Cuts Capex, Pre-Midterm Heating Oil Release Supplies 315K Barrels 💥 Core Catalyst: Macro & Geopolitics: IRGC naval forces mined the Strait of Hormuz, leaving a super"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2113122494697890255",
+          "author": "kob4",
+          "searchJob": "new-mexico",
+          "text": "New Mexico’s 48th Annual Conference on Aging brought workshops on caregiving, dementia and legal planning. https://t.co/nA6tsIOoOc"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 19,
       "reasons": {
-        "multiple_resolved_schools": 7,
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 11,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113130806273020096",
-          "author": "rdominguezibar",
-          "searchJob": "akron",
-          "text": "LeBron James went back and forth with a Knicks fan courtside and reminded him he's from Ohio. The most valuable decision of his career happened in Ohio too, at an Akron hotel in May 2003, when he was 18 and a $10 million check sat on the ta"
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113111213110436344",
-          "author": "lavaheadza",
-          "searchJob": "arkansas-state",
-          "text": "🌍 Africa Wants the Veto. Who Holds the Key? ~ ⚖️ The Price of a Permanent Seat: Power, Secrecy and Accountability. On 21 October 2026, inside a hearing room in Pretoria, a commission created to examine what the country’s intelligence struc"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113106318131093808",
-          "author": "juniorpartdeux",
-          "searchJob": "arkansas-state",
-          "text": "A: correct! B: it’s been pretty laid out on the American side. Canada got the best deal offered to anybody in the world For some reason, Canada wants to be treated like a state. But they’re not a state It’s like your family goes on vacation"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113131200160116911",
-          "author": "parvathisam1078",
-          "searchJob": "army",
-          "text": "This is how stupid these Islamists can be. Since independence, we had a Muslim president, Muslim VP, Muslim army generals, Muslim SC/HC judges (even CJI), A Muslim scientist was world famous for developing our missile defense system. Even t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113130406396440906",
-          "author": "reallarabridge",
-          "searchJob": "army",
-          "text": "💷🇬🇧 My Budget plan: getting Britain back to work 📰 The background In tonight's Daily Mail, Dan Hodges argues that Kemi Badenoch risks walking into a Labour trap over the Budget. If she gets her response wrong, he says, it could give And"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113128985592745987",
-          "author": "donstefan____",
-          "searchJob": "army",
-          "text": "#BREAKING 🚨 MIDDLE EAST ERUPTS! Houthi Drones Kill at Saudi Oil Field & Airport as US-Israel Plot Fresh Iran Strikes + Gaza Death Toll Climbs Amid Olive Harvest Chaos! 🔥** 1️⃣ **🛢️ HOUTHI DRONES HIT SAUDI ARAMCO & AIRPORT – DEADLY STRIKE"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113125472620228964",
-          "author": "whiplash437",
-          "searchJob": "army",
-          "text": "I’VE NEVER SEEN PRESIDENT TRUMP GET ANGRY. Here’s what happened. \"Wait a minute, wait, wait, wait, QUIET. QUIET. What's WRONG with you? Are you a sick person? No, I actually think there's something wrong with you.\" Andrew Feinberg asked a q"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113119096116294040",
-          "author": "firstpost",
-          "searchJob": "army",
-          "text": "Turkey, Nato’s second-largest army, has a robust defence industry. Qatar has the money to bankroll such a deal whereas Indonesia has experience in joint development and domestic production. Pakistan too offers manufacturing capacity, as wel"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113119034212528566",
-          "author": "sadaashree",
-          "searchJob": "army",
-          "text": "Today is Jayanti of Komaram Bheem, who led an intense uprising against the British and Nizam in North Telangana forests. The movie RRR was loosely based on his character. Born in a Gond family at Sankepalli, a small hamlet in the Mandamarri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113110265126322646",
-          "author": "republicanuck",
-          "searchJob": "army",
-          "text": "@DataRepublican T just announced a new fraud finder bounty initiative but many of us who might be interested lack your the skill set. Any chance you could offer/sell a course on leveraging AI to connect the dots like you do to unleash an ar"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113109954626302205",
-          "author": "newshawkslive",
-          "searchJob": "army",
-          "text": "That common military experience makes Sibanda’s potential role worth examining, although their political trajectories and positions in the current contest are not identical. Sibanda spent more than two decades at the highest levels of milit"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113131020870656057",
-          "author": "brentswancer",
-          "searchJob": "georgia",
-          "text": "INFAMOUS CRYPTOZOOLOGY AND PARANORMAL HOAXES The Georgia Bigfoot Hoax The study of cryptozoology, or the search for undiscovered, unknown animals, is populated by both well-meaning people seeking answers and also its fair share of charlatan"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113130205891944959",
-          "author": "waybeyondthesky",
-          "searchJob": "georgia",
-          "text": "Elias’s approach is high-volume, venue-sensitive, and procedurally aggressive. The goal is to maximize the chance of preliminary relief that freezes or alters election rules close to an election, while framing losses as political rather tha"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113129176853029316",
-          "author": "jose66542",
-          "searchJob": "georgia",
-          "text": "LEADING LIGHT — FLOWERS FOR THE LIVING -MR. CHUKWUDI “CHUDI” OFILI I give flowers while we can still smell them. When I joined Bloomfield LP, I had just come from being a star associate at Olaniwun Ajayi LP — valued enough that the firm gra"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113117050633630020",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia",
-          "text": "Ohio offers the freshman QB out of Greater Atlanta Christian #RecruitGeorgia"
+          "postId": "2113130776518893757",
+          "author": "jenniferconrad_",
+          "searchJob": "kansas",
+          "text": "@2pamalert Finding Phoenix on my profile isn’t investigative journalism. I was born and raised in Hutchinson, Kansas, lived there 22 years, and my entire family still lives there. You’ve offered assumptions, zero evidence, and not one defen"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2113110923460182221",
-          "author": "iowacentralfb",
-          "searchJob": "iowa",
-          "text": "🚨🦅 This Iowa Central Triton OL could be taking his talents to new heights with a D1 OFFER from the UT Martin Skyhawks! 🦅🚨 The trenches travel well… and this one could be headed for the SKY! ☁️🏈 #TritonPride #D1Bound"
+          "postId": "2113135829539229810",
+          "author": "anton_viborniy",
+          "searchJob": "texas-tech",
+          "text": "Had a call today with one of our apiway clients. He told me what he's planning to vibe-code. What caught my attention wasn't the idea itself, but how he plans to make money from it. He runs a successful 3D rendering studio. Clients all over"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113135045171134635",
+          "author": "domainarry",
+          "searchJob": "texas-tech",
+          "text": "🚀 **YOUR NEXT BIG VIDEO TECH BRAND STARTS HERE!** 🔥 **https://t.co/PS56LtBOkv — A Domain Built for the Future of Visual Technology!** Every screen is an opportunity. Every video tells a story. Every great digital brand begins with the rig"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113134556035396025",
+          "author": "ssauraabi",
+          "searchJob": "texas-tech",
+          "text": "My BioWare story: I was a high school dropout and self taught programmer in the early 90’s. I worked in tech, from Dell to Apple. I had always been a gamer and one day it occurred to me that I didn’t really care for programming. I was miser"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113134113259475045",
+          "author": "firstakiba",
+          "searchJob": "texas-tech",
+          "text": "════════════════════════════════════ 𝗧𝗲𝘁𝗵𝗲𝗿 𝗕𝗿𝗶𝗻𝗴𝘀 𝗢𝗻-𝗗𝗲𝘃𝗶𝗰𝗲 𝗔𝗜 𝘁𝗼 𝘁𝗵𝗲 𝗡𝗲𝘅𝘁 𝗪𝗮𝘃𝗲 𝗼𝗳 𝗦𝗺𝗮𝗿𝘁 𝗧𝗲𝗰𝗵 ════════════════════════════════════ AI is moving beyond screens and into the devices people use in"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113133753765630213",
+          "author": "firstakiba",
+          "searchJob": "texas-tech",
+          "text": "════════════════════════════════════ 𝗧𝗲𝘁𝗵𝗲𝗿 𝗕𝗿𝗶𝗻𝗴𝘀 𝗢𝗻-𝗗𝗲𝘃𝗶𝗰𝗲 𝗔𝗜 𝘁𝗼 𝘁𝗵𝗲 𝗡𝗲𝘅𝘁 𝗪𝗮𝘃𝗲 𝗼𝗳 𝗦𝗺𝗮𝗿𝘁 𝗧𝗲𝗰𝗵 ════════════════════════════════════ AI is moving beyond screens and into the devices people use in"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113133676972200143",
+          "author": "ttaimox",
+          "searchJob": "texas-tech",
+          "text": "📈 𝐌𝐀𝐑𝐊𝐄𝐓𝐒 - Private investors hold about 70% of US government debt, the highest share in roughly 35 years. Hedge funds own nearly 10% of the Treasury market, making demand more sensitive to price and policy risk. - Brent is above $⁠"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113131919793865141",
+          "author": "joelthayer911",
+          "searchJob": "texas-tech",
+          "text": "@SkylineSportsMT @ASchmidtacular Annese has been coaching football since 1984 and has never left the state of Michigan. 42 Years. Seems a little egotistical to think that he has this dream of coaching the 2nd maybe 3rd (Tech) best team in M"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113131183563317475",
+          "author": "wilber_cars",
+          "searchJob": "texas-tech",
+          "text": "2019 SUBARU FORESTER e-BOXER SKE 🔥 ✅ Hybrid – fuel-saver & smooth power ✅ Symmetrical AWD – all-terrain confidence ✅ Panoramic roof | Eyesight safety tech ✅ Low mileage | Immaculate condition ✅ Keyless entry | Reverse cam | Apple CarPlay \ud83d"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113126703115489301",
+          "author": "jodan_college",
+          "searchJob": "texas-tech",
+          "text": "𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐄𝐃 𝐅𝐎𝐑𝐌 𝐅𝐎𝐔𝐑 𝐀𝐍𝐃 𝐖𝐎𝐍𝐃𝐄𝐑𝐈𝐍𝐆 𝐖𝐇𝐀𝐓 𝐍𝐄𝐗𝐓? Build your future at 𝐉𝐨𝐝𝐚𝐧 𝐂𝐨𝐥𝐥𝐞𝐠𝐞 𝐨𝐟 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 – 𝐓𝐡𝐢𝐤𝐚, proudly recognized as the Best Technical & Medical Institution in Kenya"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113122160080191520",
+          "author": "bitcoinchina_",
+          "searchJob": "texas-tech",
+          "text": "WATCH: @Meta is reportedly introducing a new class of non-voting shares that could help finance its massive investments in artificial intelligence, according to @Bloomberg. The move could provide the tech giant with an additional funding me"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113118779844575512",
+          "author": "ptsp86",
+          "searchJob": "texas-tech",
+          "text": "@MarioNawfal Well.. at this point the eu has interests in this agenda, so there's a lot of candidates to offer such tech, including the UK"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113115675153826188",
+          "author": "subodh_sisodia",
+          "searchJob": "texas-tech",
+          "text": "Introduction The editorial “How Exposed Is India to Foreign Tech?” examines India’s strategic dependence on foreign-controlled technologies, including satellite communications, navigation systems, cloud computing, digital payments and milit"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113114715199242684",
+          "author": "10takka",
+          "searchJob": "texas-tech",
+          "text": "🧠 Deepinder Goyal is taking his health-tech ambitions to the next level! The Zomato founder will open pre-orders for Temple, a health wearable, in India on November 1, 2026. Unlike conventional fitness trackers, Temple uses light sensors p"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113130409383149774",
+          "author": "redcorner_mma",
+          "searchJob": "buffalo",
+          "text": "Khamzat Chimaev calls Sean Strickland’s claims of injuries “bulls**t,” saying Strickland has 1 day left to accept his $1 million offer to fight him if he’s not happy with his current UFC pay 👀 “If he accepts tomorrow, yeah. If he’s not acc"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113118068125626597",
+          "author": "donedealcardco",
+          "searchJob": "buffalo",
+          "text": "Check out Topps 1992-93 50 Point Club Insert Michael Jordan Chicago Bulls #205 https://t.co/Yhkwj7SNc3 #eBay via @eBay $25 🛳️ Free shipping! 🤝 Shoot us an offer!"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2113135733875875914",
+          "author": "dunnbilly87734",
+          "searchJob": "navy",
+          "text": "Pope Pius VI asked the new president, George Washington, for a candidate for the new diocese of Baltimore. He refused to recommend anyone, saying it was not the new government’s place to do so. The pope then turned to the most famous Americ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113135122556113008",
+          "author": "logosintell",
+          "searchJob": "navy",
+          "text": "🚨The Secret World Government or “The Hidden Hand” (1926) by Maj.-Gen. Count Arthur Cherep-Spiridovich is a polemical conspiracy treatise published by the Anti-Bolshevist Publishing Association in New York. It is not a conventional history "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113133471879008349",
+          "author": "daizedandrew",
+          "searchJob": "navy",
+          "text": "Sometimes I still think about this really nice, very stressed black Friday old navy worker I met in high school. She said she'd been working for like 20 hours straight so my dad and I offered to put our own shit back where we found it inste"
         }
       ]
     },
@@ -295,20 +280,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 13,
-      "failed": 1,
-      "requests": 14,
-      "errors": [
-        "ohio-state: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 19,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-22T04:55:38.369Z"
+    "status rebuilt locally from current store on 2026-10-22T05:13:30.179Z"
   ]
 }
