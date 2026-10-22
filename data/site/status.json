@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T11:59:47.415Z",
+  "generatedAt": "2026-10-22T12:12:49.819Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-22T11:59:46.996Z",
+    "at": "2026-10-22T12:12:49.424Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 10,
+    "requests": 11,
+    "fullSweepCycles": 17
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,146 +32,106 @@
   },
   "staleSchools": [
     {
-      "id": "new-mexico",
-      "hours": 2.5
-    },
-    {
-      "id": "new-mexico-state",
-      "hours": 2.5
-    },
-    {
-      "id": "north-texas",
-      "hours": 2.5
-    },
-    {
-      "id": "northern-illinois",
-      "hours": 2.5
-    },
-    {
-      "id": "notre-dame",
-      "hours": 2.5
-    },
-    {
-      "id": "south-florida",
-      "hours": 2.5
-    },
-    {
-      "id": "utah-state",
-      "hours": 2.5
-    },
-    {
-      "id": "utsa",
-      "hours": 2.5
-    },
-    {
-      "id": "arkansas",
-      "hours": 2.3
-    },
-    {
       "id": "central-michigan",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "charlotte",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "clemson",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "colorado",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "colorado-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "duke",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "florida-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "georgia-tech",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "houston",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "iowa-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "kansas-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "louisville",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "miami",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ohio",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "temple",
-      "hours": 2.3
-    },
-    {
-      "id": "tennessee",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas-am",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "toledo",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "troy",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ucla",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "uconn",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "wisconsin",
-      "hours": 2.3
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.9781358333333333,
-    "p95Hours": 2.5177175,
-    "worstHours": 2.5177175
+    "medianHours": 0.7659091666666666,
+    "p95Hours": 2.513618888888889,
+    "worstHours": 2.513618888888889
   },
   "decisionCoverage": {
-    "total": 32,
-    "decided": 32,
+    "total": 11,
+    "decided": 11,
     "complete": true
   },
   "pending": {
@@ -188,266 +148,117 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-22T11:59:46.995Z",
-      "got": 40,
-      "new": 32,
-      "lag": 0.23
+      "at": "2026-10-22T12:12:49.424Z",
+      "got": 21,
+      "new": 11,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-22T11:58:13.441Z",
+    "at": "2026-10-22T12:12:08.743Z",
     "mode": "live",
     "collection": {
-      "returned": 40,
-      "kept": 32,
-      "duplicate": 8,
+      "returned": 21,
+      "kept": 11,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 13,
+      "accepted": 7,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 9,
-        "no_offer_term": 3,
-        "hard_negative": 1
+        "no_fbs_school": 4
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2113230793656951242",
-          "author": "sleeping_man79",
-          "searchJob": "memphis",
-          "text": "@_MansaTre My wife and i took a tour at 2 predominantly black campuses that offered a specific degree that was pretty rare. We chose a different career path for her. The one in Memphis, we left the tour early."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112895586156347428",
-          "author": "silentpolitics1",
-          "searchJob": "navy",
-          "text": "WATCH: Trump touts $1 billion Camp Lejeune payouts at NC rally Ties remaining veteran settlements to a GOP midterm win https://t.co/obN8r7zQSl"
+          "postId": "2113238554637635888",
+          "author": "bohanrob",
+          "searchJob": "notre-dame",
+          "text": "[2] Buy an original drawing. Get a second for just €50! *Until 31 Oct 2026, buy one &amp; get a second of equal value for just €50 (~£45 / $55). Two original artworks. One extraordinary offer. Msg me to claim this limited-time deal before i"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2113232851592413467",
-          "author": "rihsadvocate",
-          "searchJob": "navy",
-          "text": "@manonakgae @renaissancedept @rihmemberdiz Who’s to say they were vocally challenging when they were offered to her? They didn’t become that until Beyonce sung them smart one. Rihanna has passed on dozens of songs even non vocally challengi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113233897664245881",
-          "author": "acdfnetworks",
-          "searchJob": "maryland",
-          "text": "Africa’s Digital Sovereignty, Built to Connect: Local data centers and sovereign cloud need cyber resilience, shared rules and regional cooperation to protect interests while supporting innovation and AI. Read Zelalem Mengistu’s article. #A"
+          "postId": "2113218773301747801",
+          "author": "irishagreement",
+          "searchJob": "notre-dame",
+          "text": "@cellah26bsky Chris Bryant and Andy Burnham have been so explicit there is no more money this year than their existing budget top up offer of £525M they will look pathetic if they concede anything like the extra £1B the Executive say they n"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2113000924662616186",
-          "author": "koaxbt",
-          "searchJob": "maryland",
-          "text": "George Zimmer opened Men's Wearhouse at 24 with $7,000. By the end, one in five American suits came from his stores. Then his board fired him. His furniture was already in storage. He says part of the reason was a $1.8 billion rival he woul"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113050690297999760",
-          "author": "mikerogersformi",
-          "searchJob": "michigan",
-          "text": "ROLL THE TAPE: Abdul El-Sayed wants open borders. https://t.co/9kfZZ5lB1k"
+          "postId": "2113217395036917821",
+          "author": "bohanrob",
+          "searchJob": "notre-dame",
+          "text": "[2] Buy an original drawing. Get a second for just €50! *Until 31 Oct 2026, buy one &amp; get a second of equal value for just €50 (~£45 / $55). Two original artworks. One extraordinary offer. Msg me to claim this limited-time deal before i"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2113216042009088292",
-          "author": "khalidbaig56392",
-          "searchJob": "michigan",
-          "text": "@MikeRogersForMI Wat’s your position on healthcare? How r u going to improve Michigan schools? Where do U stand on housing policy? Wats ur plan to uplift miccihiganders? other than Islamophobic, fearmongering attack ads wat have u to OFFER "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113210056896643304",
-          "author": "catherinehislo3",
-          "searchJob": "oregon",
-          "text": "States Are Forcing Hospitals To Offer More People Financial Aid. In Oregon, It’s Working. - https://t.co/QLN39sCA4p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113235358292885646",
-          "author": "pccolumbia",
-          "searchJob": "south-carolina",
-          "text": "The restaurant offers a dining experience with a 360-degree view of Columbia and is the only eatery of its kind in South Carolina, according to its website. https://t.co/oxyhPJzOER"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113213955363520765",
-          "author": "jmaseratii",
-          "searchJob": "south-carolina",
-          "text": "Not me getting two offers to go teach in South Carolina and Detroit 😂 I rather go to NY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113235225807355974",
-          "author": "kentumin",
-          "searchJob": "california",
-          "text": "Another credit union offers a 5% APY CD. As mentioned in today’s CD leaderboard by @DepositQuestKCJ, California-based Kinecta Federal Credit Union is offering 5% APY on a 30-month promo certificate. Kinecta is a large credit union with $6.8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113222094565601585",
-          "author": "homogalactic",
-          "searchJob": "california",
-          "text": "-Bonnie and Clyde, 1934. -The reactions of audience members seeing a burlesque dance performed by a stripper for the first time. Los Angeles, California, 1966. -A female guard from Muammar Gaddafi's personal guard, Libya, 1983. -Einstein wa"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2113172144683356185",
-          "author": "dunnbilly87734",
-          "searchJob": "california",
-          "text": "AI Overview In Christian theology, the Lion of Judah and the Lamb of God are titles that both refer to Jesus Christ, converging directly at the crucifixion. The Title (Revelation 5:5): In the Book of Revelation, Jesus is proclaimed as the \""
+          "postId": "2113215987667366239",
+          "author": "bohanrob",
+          "searchJob": "notre-dame",
+          "text": "[2] Buy an original drawing. Get a second for just €50! *Until 31 Oct 2026, buy one &amp; get a second of equal value for just €50 (~£45 / $55). Two original artworks. One extraordinary offer. Msg me to claim this limited-time deal before i"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 7,
       "reasons": {
-        "school_not_resolved_confidently": 3,
-        "bare_mention_requires_llm": 12,
-        "multiple_resolved_schools": 4
+        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 3,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2113225633182662923",
-          "author": "techshotsapp",
-          "searchJob": "memphis",
-          "text": "Data Center Surge: SpaceX Offers 20% Pay Bump for AI Supercomputer Deployment SpaceX is offering employees a 20% salary increase, covered travel expenses, and performance bonuses for six-week temporary relocations to Memphis, Tennessee, or "
+          "postId": "2113241378473832812",
+          "author": "histofarch",
+          "searchJob": "notre-dame",
+          "text": "The most crushingly sad lack of leadership in the last 1000 years: Von Moltke the Younger: The deployment of millions cannot be improvised. Kaiser Wilhelm: You uncle would have given me a different answer. There were other off ramps besides"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113223850880016484",
-          "author": "stnweather",
-          "searchJob": "middle-tennessee",
-          "text": "ANOTHER FANTASTIC FALL DAY AHEAD ACROSS SOUTHERN MIDDLE TENNESSEE! We're waking up to some patchy fog in a few spots this morning, especially in our valleys and low-lying areas, but once that burns off, we're in for yet another BEAUTIFUL da"
+          "postId": "2113239572293247413",
+          "author": "neome_com",
+          "searchJob": "notre-dame",
+          "text": "CRYPTO BREAKING NEWS: Only the latest. No repeats 💙 • Bybit Secures VARA Licence for Exchange Services in Dubai • Grayscale Lets Eligible Investors Swap Tokens for ETF Shares • Bitcoin Değerinin Altında Mı? Enerji Verileri Ne Diyor? • PEPE"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2113235155183673851",
-          "author": "owengregorian",
-          "searchJob": "navy",
-          "text": "WATCH: Trump Promises Quick Payments to Veterans Sickened by Camp's Toxic Water; Almost $1 Billion Already Paid | Lowell Cauffiel, Breitbart President Donald Trump — his administration already closing in on nearly a one billion dollars in p"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113232834387124320",
-          "author": "tunetribuneoffi",
-          "searchJob": "navy",
-          "text": "TuneTribune: Thursday Update – Seven Tankers, $111 Paper, No Talks Iran’s IRGC Navy claims seven oil tankers were hit or damaged overnight in and near Hormuz — four simultaneously while transferring oil in the north-central Gulf, three afte"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113229843441578390",
-          "author": "thebus7779",
-          "searchJob": "navy",
-          "text": "October 22, 1707. Isles of Scilly, England. A Royal Navy fleet heading home from the Mediterranean ran onto rocks off Cornwall in the dark. Admiral Sir Cloudesley Shovell's flagship and others were lost, and more than 1,300 sailors died. Af"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113209016776085753",
-          "author": "fleet_family",
-          "searchJob": "navy",
-          "text": "You don’t have to be on base to use your FFSC. The vWFL offers training workshops, mobile training, &amp; 1-on-1 consultations supporting commands, Sailors, &amp; families, especially in geographically isolated &amp; remote locations. Start"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113221447153811646",
-          "author": "rdominguezibar",
-          "searchJob": "maryland",
-          "text": "George Zimmer opened the first Men's Wearhouse in Houston in August 1973 with $7,000 in savings. Most of it went to rent. The cash register was a cigar box. Forty years later his own board fired him by press release, on the morning of the a"
+          "postId": "2113236515249631472",
+          "author": "sobebyf",
+          "searchJob": "south-florida",
+          "text": "I am only talking about Florida. I work in real estate here and my wife has been a PMI underwriter for 30 years. The new condo law passed in 2022, the state changing how Citizens offer HOI in relation to private companies and changing the l"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2113231396663636144",
-          "author": "funding4trdrs",
-          "searchJob": "michigan",
-          "text": "PRE-MARKET ALERTS & MACRO DATA – OCTOBER 22, 2026 Good morning, F4T community! Welcome to Thursday. Following yesterday's steady mid-week energy and Treasury auction flows, institutional desks across ES and NQ turn their focus back to the U"
+          "postId": "2113234178414096719",
+          "author": "finora_en",
+          "searchJob": "south-florida",
+          "text": "hey! here’s a quick breakdown of $LSK #LSKUSDT.P on the 4h for you 👀 - my bias is bearish here as the 4h structure is clearly making lower highs and lower lows, with daily also bearish despite weekly and BTC trending up (so any bounce is c"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113217503660781842",
-          "author": "mattnachtrab",
-          "searchJob": "michigan",
-          "text": "Seriously? If you are here illegally you should get access to everything Michigan offers to us here legally. This is a Muslim trying to import Muslims to escort our country toward Islamic state policy. That is what he is doing."
+          "postId": "2113241694107754846",
+          "author": "larryinmissouri",
+          "searchJob": "arkansas",
+          "text": "Happy Birthday to the late J.T. King, out of Wilmot, Arkansas ( population 416); While @TexasTechFB had voted to officially integrate its athletic programs on December 7, 1963, the Athletic Departments remained entirely white for several ye"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113215036403363883",
-          "author": "khalidbaig56392",
-          "searchJob": "michigan",
-          "text": "@MikeRogersForMI What’s your position on healthcare? How are you going to improve Michigan schools? Where do you stand on housing policy? Do you have anything to offer the people of Michigan other than Islamophobic, fearmongering attack ads"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113214570365939973",
-          "author": "khalidbaig56392",
-          "searchJob": "michigan",
-          "text": "@MikeRogersForMI What’s your position on healthcare? How are you going to improve Michigan schools? Where do you stand on housing policy? Do you have anything to offer the people of Michigan other than Islamophobic, fearmongering attack ads"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2113230852318761146",
-          "author": "jaredalextan",
-          "searchJob": "oregon",
-          "text": "Evening Yoga Yoga is soothing. The usual crowd surrounded them, grinning and applauding—the elderly man who fed the ducks dabbing at a tear, the street performer playing a romantic tune, the dog walkers pausing to offer their congratulation"
+          "postId": "2113233908133449936",
+          "author": "jasoncurry",
+          "searchJob": "arkansas",
+          "text": "I'm speaking this morning at the Arkansas Association of Health-System Pharmacists Conference. As I've been preparing, I've been reminded of something that applies to every one of us, regardless of our profession. Whether you work in health"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2113231964077457584",
-          "author": "lincolncabwrks",
-          "searchJob": "california",
-          "text": "@izme_josh Joshipoo,you big fucking woosie. Change the tax code. Do something meaningful with your life. Everyone knows Florida has more to offer than California."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113230023083675695",
-          "author": "owengregorian",
-          "searchJob": "california",
-          "text": "Scientists Left AI Alone on a Deserted Island With Nothing to Do. It Invented Games and Started Behaving Like Children at Play | Tibi Puiu, ZME Science What happens when you put an AI on a virtual deserted island, all alone with no task or "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113226689450783138",
-          "author": "westidp",
-          "searchJob": "california",
-          "text": "For everyone thinking the feds will take over, get ready to be disappointed. The feds offer C5ISR and some tactical augmentation, but the its the City and County's jurisdiction and vast bulk of resources under its command. If local LE implo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113226533250720012",
-          "author": "matt4885279860",
-          "searchJob": "california",
-          "text": "Thanks for any work offers but no thanks I'm only working as being myself as my lifestory for content and getting my happiness back by moving to California 💛 Asap get the ball rolling people!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113213494078456016",
-          "author": "dunnbilly87734",
-          "searchJob": "california",
-          "text": "Pope Leo says he has 'no fear' after Trump labels him 'weak' and 'terrible' in feud over Iran war The first American pontiff told @NBCNews on Monday that he would keep up his appeals for peace, which he said were rooted in the gospel. April"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113212181130936493",
-          "author": "rccoulombe",
-          "searchJob": "california",
-          "text": "So once more the rumours start. Okay, my return to California is not to take up a teaching position at Harvard-Westlake School. I am not in negotiations with their board to become the Defence Against the Dark Arts professor, as a result of "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113217801812840891",
-          "author": "jimfrombaseball",
-          "searchJob": "cincinnati",
-          "text": "\"A man so fiercely modest and private that while at the University of Cincinnati on a basketball scholarship, he didn't tell his parents back in Brooklyn that he was also on the baseball team. The man whose mother requested one of the first"
+          "postId": "2113231833911435534",
+          "author": "dreamybunny61",
+          "searchJob": "tennessee",
+          "text": "@TWOTIMESABITCH Florida is all paper ballots, Tennessee and Texas offer both..... where are your receipts"
         }
       ]
     },
@@ -455,18 +266,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 10,
+      "failed": 1,
+      "requests": 11,
+      "errors": [
+        "texas: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-22T11:59:47.417Z"
+    "status rebuilt locally from current store on 2026-10-22T12:12:49.820Z"
   ]
 }
