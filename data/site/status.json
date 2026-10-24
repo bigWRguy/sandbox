@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T05:42:52.924Z",
+  "generatedAt": "2026-10-24T05:58:43.237Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-24T05:42:52.625Z",
+    "at": "2026-10-24T05:58:42.912Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7677769444444444,
-    "p95Hours": 1.2672369444444445,
-    "worstHours": 1.5121188888888888
+    "medianHours": 0.77527,
+    "p95Hours": 1.2779844444444444,
+    "worstHours": 1.5312127777777778
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,67 +55,141 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-24T05:42:52.624Z",
-      "got": 12,
-      "new": 5,
-      "lag": 0.13
+      "at": "2026-10-24T05:58:42.912Z",
+      "got": 22,
+      "new": 14,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-24T05:41:17.963Z",
+    "at": "2026-10-24T05:57:10.473Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 5,
-      "duplicate": 7,
+      "returned": 22,
+      "kept": 14,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 3,
+      "accepted": 8,
+      "rejected": 6,
       "reasons": {
-        "no_fbs_school": 2,
-        "hard_negative": 1
+        "no_fbs_school": 3,
+        "no_offer_term": 1,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2113866803994570962",
-          "author": "trumpgirl_stl",
-          "searchJob": "california",
-          "text": "Zuckerberg Threatens to LEAVE California - Meta Makes Him an Offer He Can’t Refuse! https://t.co/LYfHguFQqv"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2113859623207801226",
-          "author": "clemsonphil",
-          "searchJob": "clemson",
-          "text": "@_willcompton This is actually a positive trend for the game we love(d). He quiets the outside noise, gets to experience a “signing day” he never had, stayed with his original team who is a G5 despite getting offered millions from P4 teams,"
+          "postId": "2113861460447363327",
+          "author": "pass_kathe",
+          "searchJob": "new-mexico",
+          "text": "Or are the politicians and officials reflecting the interests of the powers that control things, for now, in New Mexico; namely their cartel buddies, with their threats, bribes and blackmail? Here's an important question: can the corrupt po"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2113850106516558107",
-          "author": "csl_duke",
-          "searchJob": "duke",
-          "text": "@mikewichter JB not a good value on the super max deal he had and was due for a big extension. JB starts tanking his value across the league by saying he won’t re-sign so the C’s take the best offer in a shrinking market. Teams across the l"
+          "postId": "2113846183651049613",
+          "author": "ncswc2024",
+          "searchJob": "new-mexico",
+          "text": "Dear Mr. President @realDonaldTrump, San Juan county, New Mexico, is experiencing massive flooding at this time. The community is in need. Many neighbors are coming together to help one another and an entire community of families are workin"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2113866713267675319",
+          "author": "globalguideees",
+          "searchJob": "rice",
+          "text": "10 Best Places to Visit in Senegal: Travel Guide &amp; Local Foods https://t.co/c98DenCIza"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2113857535631335821",
+          "author": "hair_nose37880",
+          "searchJob": "michigan",
+          "text": "@TheWuhanClan STFU trumptard. I am forced to vote for a Muslim in Michigan. Republicans only offer sellout old Zionist boomers ...I am done voting for the party of ISRAEL FIRST. GOP deserves to lose"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2113860785239687500",
+          "author": "lowkeykjj",
+          "searchJob": "oregon",
+          "text": "@G8torBait89 Yea he didn't have a signing day in high-school and Oregon st was his only offer so hes getting that experience by doing it there"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2113852006150336941",
+          "author": "maddoxrose09",
+          "searchJob": "kansas",
+          "text": "After a great phone call this morning I have been blessed with an offer from Kansas Wesleyan University. https://t.co/bexuer69r9"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 0,
+      "rejected": 8,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 6,
+        "reporter_missing_class_year": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113843567672115351",
-          "author": "walkerdev_wire",
-          "searchJob": "delaware",
-          "text": "@gyokuto_usagi Thank you for the article! You are right, the headset definitely isn't perfect compared to others in the market; however we do take pride in what we can offer! It's also crazy (In a good way) seeing how much research you did!"
+          "postId": "2113867525893034410",
+          "author": "bbgreatmoments",
+          "searchJob": "rice",
+          "text": "Sam Rice retired in 1934 with 2,987 hits, 13 short of 3,000, and said later he didn't even know how many he had. A couple of years after he quit, Clark Griffith told him and offered him a comeback with the Senators to go get the last 13. Ri"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113864256076587071",
+          "author": "jose66542",
+          "searchJob": "rice",
+          "text": "FOR JANUARY 2027 And as we prepare for the elections in January 2027 — _date to be confirmed with INEC_ — Give us sense, Lord. Give us wisdom. For those of us who will be offered money by politicians, let us know in our hearts that it is ok"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113864070675734726",
+          "author": "jose66542",
+          "searchJob": "rice",
+          "text": "Fabulous Father, At this hour, while Nigeria sleeps, we bring this nation before You. 1. RESTORATION Restore this land, O Lord. Where there has been blood on the soil, let there be harvest again. Where there has been fear on our roads, in o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113863053561528777",
+          "author": "astro_raghv",
+          "searchJob": "rice",
+          "text": "🌕 Sharad Purnima Kheer Ritual — How to Do It & Why It Matters ✨ 🪔 What Is Sharad Purnima? Also called Kojagiri Purnima, it is the full moon night when the moon is believed to shine with all 16 kalas (divine qualities). According to tradit"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2113858815460549063",
+          "author": "amontgomerylive",
+          "searchJob": "oregon",
+          "text": "@JustinMacmahan I was a senior at Agoura when Deluca was freshmen. Wrote a story on him for the school newspaper about how he got an offer from Oregon before he played a high school game. Seemed like forever ago"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113872038838579690",
+          "author": "frankindie",
+          "searchJob": "kansas",
+          "text": "1990–2026 · A Timeline of American Comics 📚 One title per year, based on its first publication. American comics include creators from around the world. 1990 — Ghost Rider — Howard Mackie and Javier Saltares: Danny Ketch becomes a flaming s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113872115351121988",
+          "author": "stephdalchemist",
+          "searchJob": "miami",
+          "text": "Taurus, Capricorn, Virgo General Channeled Collective messages Seeing Angel numbers 443,444,222,333,1010,1212,606,666,999,777,1010,1212,1111,000,6666,5555,9999,555,404,818,414,515,1144 •The first thing I intuitively heard is “Brabus” an ear"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2113860316656271429",
+          "author": "chadtrojanfan",
+          "searchJob": "miami",
+          "text": "@LaffyTaffy0112 The only thing Miami can offer him is better weather in the winter and no state income tax 🤣"
         }
       ]
     },
@@ -129,12 +203,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 8,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-24T05:42:52.925Z"
+    "status rebuilt locally from current store on 2026-10-24T05:58:43.238Z"
   ]
 }
