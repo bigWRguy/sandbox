@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T20:56:30.872Z",
+  "generatedAt": "2026-10-24T21:08:31.420Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-24T20:56:30.425Z",
+    "at": "2026-10-24T21:08:31.118Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 6,
+    "requests": 7,
+    "fullSweepCycles": 27
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,18 +32,50 @@
   },
   "staleSchools": [
     {
-      "id": "arkansas-state",
+      "id": "charlotte",
+      "hours": 2.2
+    },
+    {
+      "id": "nevada",
+      "hours": 2.2
+    },
+    {
+      "id": "northern-illinois",
+      "hours": 2.2
+    },
+    {
+      "id": "ohio",
+      "hours": 2.2
+    },
+    {
+      "id": "oregon-state",
+      "hours": 2.2
+    },
+    {
+      "id": "san-diego-state",
+      "hours": 2.2
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.2
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.2
+    },
+    {
+      "id": "south-florida",
       "hours": 2.2
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.9871372222222222,
-    "p95Hours": 1.993785,
-    "worstHours": 2.2423755555555553
+    "medianHours": 1.1872894444444444,
+    "p95Hours": 2.1939372222222224,
+    "worstHours": 2.1939372222222224
   },
   "decisionCoverage": {
-    "total": 54,
-    "decided": 54,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -52,7 +84,7 @@
   "profileResolution": {
     "cached": 97
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 3570,
     "incompleteOffers": 0
@@ -60,344 +92,175 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-24T20:56:30.424Z",
-      "got": 87,
-      "new": 54,
-      "lag": 0.03
+      "at": "2026-10-24T21:08:31.117Z",
+      "got": 30,
+      "new": 19,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-10-24T20:54:52.785Z",
+    "at": "2026-10-24T21:08:03.861Z",
     "mode": "live",
     "collection": {
-      "returned": 87,
-      "kept": 54,
-      "duplicate": 32,
+      "returned": 30,
+      "kept": 19,
+      "duplicate": 10,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 35,
-      "rejected": 19,
+      "accepted": 14,
+      "rejected": 5,
       "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 2,
-        "non_fbs_offer_target": 3,
-        "hard_negative": 2
+        "no_fbs_school": 2,
+        "no_offer_term": 3
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2114067349624225892",
-          "author": "ron_eisele",
-          "searchJob": "kansas",
-          "text": "25 October 1930. TWA offered one of the first all-aeroplane scheduled service from coast to coast: the Lindbergh Route. The route took 36 hours and initially called for overnights in Kansas City. https://t.co/nOqLFblBfI"
+          "postId": "2114099698633936949",
+          "author": "stanfordgsb",
+          "searchJob": "stanford",
+          "text": "Some governments offer tax breaks for companies pursuing #innovation. This study by Associate Professor Rebecca Lester shows how effective these policies can be. https://t.co/uB8sWGvViG"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2114098219139428603",
-          "author": "godfather_95931",
-          "searchJob": "arkansas-state",
-          "text": "Tesla Q3 2021 Earnings Call — Transcript https://t.co/cpAilVuDcA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114094805446009118",
-          "author": "kenterlude",
-          "searchJob": "kent-state",
-          "text": "depop seller accepted my offer but doesnt answer my questions ab the piece https://t.co/xsdFc1ghUm"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114076862347723044",
-          "author": "kenttuitjer",
-          "searchJob": "kent-state",
-          "text": "@American__2 We wouldn't offer"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114069672152719411",
-          "author": "kcfggroup",
-          "searchJob": "kent-state",
-          "text": "Have you got the next Chamber Connections networking event in your diary? It takes place on Thursday 12th November 2026 at The Burlington Hotel in Folkestone. This lunchtime networking session offers a fantastic opportunity to promote your "
+          "postId": "2114080898039558600",
+          "author": "dogs_are_first",
+          "searchJob": "stanford",
+          "text": "A Bristol dog tilted his head at a talking machine and became one of the most famous trademarks on earth. A boy in Bukhara read one book forty times. And a general from Bristol walked his army 900 miles out of Burma, then marched it back. h"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2114084230233723230",
-          "author": "nichefinmarkets",
-          "searchJob": "rice",
-          "text": "More on mu substack ---&gt; https://t.co/DGVWsceGGH https://t.co/u3Gtg8YbT9"
+          "postId": "2113978816746197093",
+          "author": "fortunemagazine",
+          "searchJob": "stanford",
+          "text": "\"I got really excited about what could come of artificial intelligence.\" At #FortuneMPW, former Yahoo CEO and Dazzle AI founder Marissa Mayer discussed studying AI in the ’90s before joining Google. https://t.co/s1T4y80Tjh https://t.co/ENXn"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2114091946603933914",
+          "author": "wrenalan93a1",
+          "searchJob": "army",
+          "text": "The Kingdom of Naples (1282–1816): https://t.co/vf9oPqVB0y"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2114092721547669718",
-          "author": "sunsentinel",
-          "searchJob": "florida",
-          "text": "NAIA comes from The Restaurant People, known for other eateries such as YOLO and Nubé. And it’s among the poshest, with a 30-foot ceiling, a bright and airy patio, and an indoor-outdoor bar that offers glimpses of the open kitchen within. h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114086709231034648",
-          "author": "southflorida",
-          "searchJob": "florida",
-          "text": "NAIA comes from The Restaurant People, known for other eateries such as YOLO and Nubé. And it’s among the poshest, with a 30-foot ceiling, a bright and airy patio, and an indoor-outdoor bar that offers glimpses of the open kitchen within. h"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2114075426314424688",
-          "author": "__rob1nson",
-          "searchJob": "florida",
-          "text": "I am blessed to announce my third official offer from Florida National University. I would like to personally thank Coach Dixon (@305Elitebball) for the opportunity to compete for the Conquistadors! https://t.co/KL2yw2Mu4F"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114096448719757344",
-          "author": "omgronnie_25",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "After a great conversation with @CoachCromblinHC &amp; getting to experience the gameday atmosphere, I’m blessed to receive an offer to play at Huntingdon College. #AGTG #HawkEm @EPHSRecruiting @coachruss23 @VanSpence10 @C_Hale47 @HawksFoot"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2114095593307975813",
-          "author": "ethan_ewans",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I am extremely blessed and grateful to receive my first Division 1 offer from University of Texas at Arlington! 🧡💙🏀 #UTA #AGTG #Blessed @UTAMavsMBB https://t.co/3KEMEIrpuS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114093076646097079",
-          "author": "ryheemtins30740",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Excited and grateful to have received an offer from @FandMFootball Huge thank you to @Coach_Phelan25 and @CoachMoore_99 for the opportunity and to the entire coaching staff for the hospitality! Had a great time on campus today watching the "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114090926918295747",
-          "author": "darrienwil72211",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After a great conversation with @NathanKero81 Im blessed to receive an offer from @MRCNorseFB @BanksJetsFB @desmond1689 @Coach_RMorgan24 @CoachGold10 https://t.co/TJLCbTaxwM"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2114088048829079682",
-          "author": "hollandjud56",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I am blessed to receive my first offer from Kentucky State University #AGTG @1_McKay_2 @Steve_Wallace_2 @CoachBLangston https://t.co/Q60pYD5suT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114085526735044849",
-          "author": "langston_hakeem",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to receive an offer from Costal Carolina Univeristy!! #gochanticleers @_CoachDowning @Davis33Coach @WAAcademyFB @samspiegs @benjaminwolk @Rivals @RecruitGeorgia @RustyMansell_ @DonCallahanIC @ChadSimmons_ https://t.co/RBSTcDwy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114074134053265622",
-          "author": "djlandor2pointo",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG I just received my 7th D1 offer from @CitadelSports @CitadelFootball thx you @RettRussell26 and @coach_pat84 @JuJuSports1 @TXRecruits @PrepRedzoneTX @iam_alinedouard @CoachWeltonJ @LSOCFootball @RallyPreps @TFloss32 @ProfessorDiggs @M"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114097157292818858",
-          "author": "miamidaysnights",
-          "searchJob": "miami",
-          "text": "@halflawless @WaterwornPebble She's saying average men should offer more than Chad to compensate for their lower attractiveness, which is a totally backwards frame of kind unless you're looking to be a \"generous gentleman\" to some lazy, man"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2114084567195980190",
-          "author": "almaulinipwmcg",
-          "searchJob": "miami",
-          "text": "The AM Brief, Saturday October 24, 2026 Part 1 Hello, It’s 3pm in Miami and here is a recap of events that caught my eye. Part 1 Market Recap: Dow 52,215 (1.24%), S&P 500 7,623 (0.52%), Nasdaq 25,955 (0.21%), 10 Year 4.98% President Trump s"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2114076991318098298",
-          "author": "fayobserver",
-          "searchJob": "nc-state",
-          "text": "Will NC State football coach Dave Doeren be fired during season? Boo Corrigan already offered hint https://t.co/azPYCnG0sx"
+          "postId": "2114077429367259498",
+          "author": "unitedresale_",
+          "searchJob": "army",
+          "text": "Will take sensible offers on Singles and pairs got left for Roma . N1409 x2. W3105 S122 W209 Just drop me a message @ManUtd #GlazersAndIneosOut"
         }
       ]
     },
     "extraction": {
-      "accepted": 4,
-      "rejected": 31,
+      "accepted": 0,
+      "rejected": 14,
       "reasons": {
-        "bare_mention_requires_llm": 24,
-        "multiple_resolved_schools": 6,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 1,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114091542910816606",
-          "author": "soniasikka42",
-          "searchJob": "arkansas-state",
-          "text": "@now_what__ @LibyaLiberty Bill Clinton says so. 🙄 No. They were never offered a state. They were never offered contiguous borders, actual sovereignty - you know, a STATE. You have to look at the details of the actual proposals, not a chart"
+          "postId": "2114100308024377672",
+          "author": "steelersdepot",
+          "searchJob": "pittsburgh",
+          "text": "Zach Frazier Offers High Praise For Max Iheanachor’s Quick Learning Curve #Steelers #NFL #Pittsburgh https://t.co/H9mw2apzhR"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114094343929954306",
+          "author": "pittsburgh_pain",
+          "searchJob": "pittsburgh",
+          "text": "Big mile marker for my eBay store. I am at 300 listings! Come check it out. Wide variety, from sports to Labubu cards to WWE to Marvel to Bo Jackson Battle Arena. Offer are always on. Mid range to $1 cards. Something for everyone. New listi"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2114070988539433091",
+          "author": "bookpos_app",
+          "searchJob": "pittsburgh",
+          "text": "🎯 VALUE PARLAY — DAFABET 📅 24 OCT 2026 | 3 LEGS 🔥 COMBINED ODDS: 36.71 📊 MARKET AVERAGE: 30.99 📈 VALUE BOOST: +18.46% ⚽ Value Parlays — 23 Oct 2026: 1xBet +742% ROI, Betano +107%, Pinnacle +9.8%! See for yourself, todays picks locked i"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114090994488549660",
-          "author": "azrielb",
-          "searchJob": "arkansas-state",
-          "text": "It was a pleasure joining @IainDale on @LBC to discuss Binyamin Netanyahu and the political situation in Israel ahead of the election. I told Iain: \"Netanyahu has fallen to an all-time low as a statesman, but he remains a supreme politician"
+          "postId": "2114069413892850133",
+          "author": "reignsupr",
+          "searchJob": "pittsburgh",
+          "text": "EARLY NFL VALUE. 🏈 The model has identified a significant EV play for tomorrow's NFL action. The Pittsburgh Steelers -3.5 spread offers a substantial 4.02% edge over the market average. 🔒 Pittsburgh Steelers -3.5 Pittsburgh Steelers vs. N"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114079827472867494",
+          "author": "rdominguezibar",
+          "searchJob": "stanford",
+          "text": "Marissa Mayer (@marissamayer) says about 40% of the photos on your phone are chores. The dentist's appointment card. The picture of your kid's cleats so you remember to buy the next size up. Her new company, Dazzle AI (@itsdazzleai), is bui"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2114084259577348483",
-          "author": "peiprofess68059",
-          "searchJob": "arkansas-state",
-          "text": "@joshgitt1987 The only thing Texas offers is cheap real estate and a state of blowhards saying \"Everything is bigger in Texas\", even though everything is BIGGEST IN ALASKA."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114083480690892948",
-          "author": "cognitoq",
-          "searchJob": "arkansas-state",
-          "text": "I agree this is bad. The problem is that international law and institutions like the UN offer no answers to the problem of gang or terrorist attacks against people in a foreign state. That’s why we see Israel (and now El Salvador in Haiti) "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114081920241799385",
-          "author": "nosmooshsnek",
-          "searchJob": "arkansas-state",
-          "text": "@Carina_Amyth @allenanalysis There is no state called Palestine and never was. The Palestinians were offered a state by the UN, the same as Israel. But the Arab coalition rejected it in favor of trying to kill the Jews. After 78 years of me"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114078670859948308",
-          "author": "grajo_solo",
-          "searchJob": "arkansas-state",
-          "text": "@identitykrysis Palestinians have been offered a state seven times and have refused seven times. They don't want a state. They want to kill Jews."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114075564025712704",
-          "author": "seeitwith",
-          "searchJob": "arkansas-state",
-          "text": "@PhilipQuane @Shapesetters @TrishDaly6 @specialpinkrock @zarahsultana Again we come back to the fact that the Palestinians started this in 1948 and are reaping what they sow. They have been offered a state 3 times and each time have refused"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114074309832401354",
-          "author": "jamie371041",
-          "searchJob": "arkansas-state",
-          "text": "A country once generated wealth from what it owned: land, infrastructure, utilities, energy, transport networks and national industries. These assets produced revenue that could fund public services and reduce the burden on taxpayers. Then "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114073678866772337",
-          "author": "manseedsimpson",
-          "searchJob": "arkansas-state",
-          "text": "@BRADDAHBETS @FanDuelSports @ulxrare @FanaticsSports You really texted Support over an 8 dollar loss? You didn’t add bet protect+ And you’re in a state that offers bet protect+ If the state doesn’t offer bet protect+, then they honor First "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114072451797979555",
-          "author": "scepticalaussie",
-          "searchJob": "arkansas-state",
-          "text": "@YaraGaza84 @PiersUncensored @piersmorgan @owenjonesjourno @YishaiFleisher No. You were offered a state and chose war."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114072131336085857",
-          "author": "bmb1_official",
-          "searchJob": "arkansas-state",
-          "text": "BEYOND THE RUINS: HOW ZULUM IS REBUILDING BORNO, ONE INSTITUTION AT A TIME By Goni M. Tar KIU Teaching Hospital: A landmark achievement in healthcare and a new chapter in Borno’s recovery. Rebuilding a state devastated by years of insurgenc"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114067485393576317",
-          "author": "isthisamovie",
-          "searchJob": "arkansas-state",
-          "text": "No. Read it again. I never said property must be taxed to count as owned. You have the causality backwards. Ownership is not a fact of nature. It is a legal status. Your deed exists because a county records it. Your title holds because a co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114065033319637073",
-          "author": "cricketsurfing",
-          "searchJob": "arkansas-state",
-          "text": "@ThiaBallerina In a sense. It is the failure of a state that offers handouts without accountability."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114084042064961993",
-          "author": "uapconvergence",
-          "searchJob": "navy",
-          "text": "WHERE ARE THE NAVY’S USO REPORTS? Seven tranches of government UAP files have now been released under PURSUE, including the latest on October 23. Yet detailed historical reports of unidentified submerged objects (USOs) and possible underwat"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114083913253748801",
-          "author": "uapconvergence",
-          "searchJob": "navy",
-          "text": "WHERE ARE THE NAVY’S USO REPORTS? Seven tranches of government UAP files have now been released under PURSUE, including the latest on October 23. Yet detailed historical reports of unidentified submerged objects (USOs) and possible underwat"
+          "postId": "2114093760388718747",
+          "author": "royals__fb",
+          "searchJob": "phrase:\"has been offered by\" football",
+          "text": "🚨OFFERS ALERT🚨 2029 DL @Roadrunnerjdd has been offered by @PennStateFball and @GamecockFB #B4B #RecruitTheRoyals https://t.co/PEsigfvKvO"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2114082871614812363",
-          "author": "jrgarcia8_2028",
-          "searchJob": "navy",
-          "text": "Extremely blessed and honored to receive my 3rd D1 offer from the United States Naval Academy @NavyFB Thank you @_CoachNew and @NavyCoachYo for believing in me and extending the offer today. Watching my big brother, @ryderg10_2026 , become "
+          "postId": "2114099636889669885",
+          "author": "ughistory256",
+          "searchJob": "army",
+          "text": "Open-Source Intelligence. JPRS Reporting on Obote’s Uganda for the CIA. 4 March 1981. A freshly translated stack of Joint Publications Research Service (JPRS) documents landed on a CIA analyst’s desk in Langley, Virginia, in March 1981. Sta"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114074043330462037",
-          "author": "0xlexlab",
-          "searchJob": "new-mexico",
-          "text": "He turned down $1 billion at 23. Then one early mistake opened a bill that just hit $25 billion. 2006. Yahoo offers Mark Zuckerberg $1 billion in cash for Facebook. He says no. He was living in a one-bedroom apartment with a mattress on the"
+          "postId": "2114087510359830748",
+          "author": "battlesuntol",
+          "searchJob": "army",
+          "text": "Louisa Garrett Anderson CBE was the chief surgeon who ran a military hospital staffed entirely by women. She was the daughter of Elizabeth Garrett Anderson, the first woman to qualify as a doctor in Britain, and she trained at the London Sc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114085161499529530",
-          "author": "bretfunisin",
-          "searchJob": "rice",
-          "text": "@eatinerni I appreciate the offer could be breakfast lunch or dinner however that’s not a great planning the shrimp swimming in whatever that is should be on Rice. You can take the egg and put it on top of the steak and the corn cobette pla"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2114076273001766915",
-          "author": "maattram2031",
-          "searchJob": "rice",
-          "text": "@OGPrasanna Online offer oda 4900/- ku available ah iruku but govt 7200/- ku vanguraanuga for that also yepdi da muttu kodukureenga...ration rice la corruption, Cake tender la yedho corruption ipo cycle la corruption makkal panam yevlo daan"
+          "postId": "2114084622409531422",
+          "author": "fww70",
+          "searchJob": "army",
+          "text": "When Lincoln stood to speak at Gettysburg, his \"four score and seven years ago\" reference pointed back to the signing of the Declaration of Independence. America was 87 years-old as a nation. By contrast, the Lee family had been in Virginia"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114068501027856742",
-          "author": "roamingroninjin",
-          "searchJob": "rice",
-          "text": "looking at the massive weapon she commanded... the holder of the smile protected it well enough. Still....he felt the need to keep the smile...so he offered a rice cracker...cautiously."
+          "postId": "2114084086323016055",
+          "author": "christi67737974",
+          "searchJob": "army",
+          "text": "I need to pay tribute to my uncle John Hedges, NCO Sergeant Major in the British Army, who served in the Queen’s 1st Battalion during the 1960s, 1970s and 1980s, and sadly passed away yesterday. He attained the senior non-commissioned rank "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114067302962655484",
-          "author": "upnorth121",
-          "searchJob": "rice",
-          "text": "Be genuinely helpful enough to offer actual assistance.Her first meal consisted of kebabs—tender grilled meat pieces accompanied by rice, salad, and tzatziki. She sampled adana kebab, prepared from ground lamb, spicy and full of flavor, alo"
+          "postId": "2114077442600050746",
+          "author": "tntjohn1717",
+          "searchJob": "army",
+          "text": "Thy Seed Shall Possess the Gate of His Enemies From Abraham’s Oath and Rebekah’s Blessing to Israel’s Victories and the Triumph of Jesus Christ Introduction Genesis 22:17 is one of those verses men can read for forty years without ever stop"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114095091107475681",
-          "author": "casandraadamsaz",
-          "searchJob": "florida",
-          "text": "With the laws that are being put into place across the United States, i.e., free kill in Florida, the landscape is made a breeze for malfeasant doctors and victims are a nothing to the system. Even when your loved one dies because of medica"
+          "postId": "2114071762371502147",
+          "author": "ondrej_sibl",
+          "searchJob": "army",
+          "text": "Ukraine offered a freeze on the current front line, a 30-day ceasefire, an unconditional ceasefire during talks, a 60-day ceasefire for elections and a meeting with Putin. Russia said no to all of it. Its “realistic solution” is that Ukrain"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114083519865524281",
-          "author": "exposethe46933",
-          "searchJob": "florida",
-          "text": "@AshleyMoodyFL Doesn't Florida offer free College for residents? Isn't that socialism. Btw- universal Healthcare isn't socialism. And putting Americans first over special interests is not socialism https://t.co/0NTUVMx4UR"
+          "postId": "2114070067801702403",
+          "author": "joon_loml",
+          "searchJob": "army",
+          "text": "And moreover he is sooo much celebrated for his achievements and deserves so much more. But shouldnt a handsome and perfect guy be praised? He deserves everything good thing the world has to offer so of course you'll see Army defending him."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114079090227470428",
-          "author": "dailyjobcuts",
-          "searchJob": "florida",
-          "text": "🍦 Old Glory Ice Cream, a veteran-owned shop, is open in Crestview Florida Old Glory offers a wide range of ice cream options including: Soft‑serve cups & cones All‑American & signature sundaes Shakes & malts Flurries Classic & \"Freedom Fue"
+          "postId": "2114069744588571019",
+          "author": "kyeekye1",
+          "searchJob": "army",
+          "text": "Dear Sir, My name is Narkotey Hayford, a 26-year-old Ghanaian citizen with a BSc in Accounting. Sir, it has always been my dream to one day serve in the United States Army. I know this may be an unusual request, but I am reaching out to you"
         }
       ]
     },
@@ -405,18 +268,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 6,
+      "failed": 1,
+      "requests": 7,
+      "errors": [
+        "charlotte: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 4,
-      "rejectedCandidates": 31,
-      "brandNewOffers": 3
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 14,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-24T20:56:30.873Z"
+    "status rebuilt locally from current store on 2026-10-24T21:08:31.421Z"
   ]
 }
