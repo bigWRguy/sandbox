@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T06:58:46.878Z",
+  "generatedAt": "2026-10-24T07:13:30.846Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-24T06:58:46.475Z",
+    "at": "2026-10-24T07:13:30.553Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0267741666666668,
-    "p95Hours": 1.5275913888888888,
-    "worstHours": 1.7762813888888889
+    "medianHours": 1.0255975,
+    "p95Hours": 1.5369072222222222,
+    "worstHours": 1.7731380555555556
   },
   "decisionCoverage": {
-    "total": 21,
-    "decided": 21,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "pending": {
@@ -55,180 +55,137 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-24T06:58:46.475Z",
-      "got": 32,
-      "new": 21,
-      "lag": 0.03
+      "at": "2026-10-24T07:13:30.553Z",
+      "got": 16,
+      "new": 14,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-10-24T06:57:05.603Z",
+    "at": "2026-10-24T07:12:01.682Z",
     "mode": "live",
     "collection": {
-      "returned": 32,
-      "kept": 21,
-      "duplicate": 11,
+      "returned": 16,
+      "kept": 14,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 13,
-      "rejected": 8,
+      "rejected": 1,
       "reasons": {
-        "no_offer_term": 4,
-        "no_fbs_school": 4
+        "no_offer_term": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2113887159250026704",
-          "author": "newreck",
-          "searchJob": "liberty",
-          "text": "As per Chinese records, between 14 September 1956 and 21 March 1960, a total of 16 letters were exchanged between Prime Minister Nehru and Chinese Premier Zhou En Lai. Letters discussed boundary dispute between both nations. May read first "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113874879124845033",
-          "author": "taxtmi",
-          "searchJob": "liberty",
-          "text": "https://t.co/H4Pwf3UzzS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113873851561980294",
-          "author": "pharest3ia",
-          "searchJob": "alabama",
-          "text": "In December 2024, a 39-year-old Kenyan man living in the USA, Stanley Amalemba Ambeyi, connected with an online profile he believed belonged to an adult woman (a \"madam\") on a dating application. The individual on the other side was actuall"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113864282647486819",
-          "author": "scottbaileysabj",
-          "searchJob": "texas",
-          "text": "@tbhorka Now, Texas would have offered him a house with a four-car garage and the vehicles to fill it along with a couple of million in pocket change."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113881323014406584",
-          "author": "truwarriorcasas",
-          "searchJob": "ucla",
-          "text": "Blessed to receive a game-day invitation to UCLA! 🐻💙💛 Thank you Coach @CoachMarshawn and @UCLAFootball for the opportunity! 2027 RB/ATH | Fairfax HS, CA Grateful. Hungry. Still working. 🙏🏽 #GoBruins https://t.co/P8wINXCLGY"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113873070490636573",
-          "author": "washhousefb",
-          "searchJob": "washington",
-          "text": "Congrats on your 2nd offer and tying the state record for Pick 6’s with 4"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2112665048628035669",
-          "author": "imbreckworsham",
-          "searchJob": "washington",
-          "text": "Netanyahu claims has received intel that indicates Israel will be attacked before the election. “We have received intelligence about this from the Mossad and the military, and we are preparing for it.” TRANSLATION: 'We will attack ourselves"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113864096240046435",
-          "author": "liamsheehan1717",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Blessed to have received an offer from @Ellsworth_CC_FB @CoachBonta @CoachDHarperECC @CoachGute2 @CoachPikna @CoachAllen305 @CoachNicholsOL https://t.co/PVxAkCBfT9"
+          "postId": "2113851823488708620",
+          "author": "amirladka",
+          "searchJob": "army",
+          "text": "I will help some random young/new &amp; faceless instagram, YouTube handles with less than 1000 followers to increase their followers up to 10K and achieve 1 million views for FREE. ❤️❤️❤️ Mention your handles in the comments. 🙂‍↕️🙂‍↕️🙂‍"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 12,
+      "accepted": 0,
+      "rejected": 13,
       "reasons": {
         "bare_mention_requires_llm": 11,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113877179494707652",
-          "author": "altieridan",
-          "searchJob": "liberty",
-          "text": "@abdulafandii Islam it is for ignorants and weak people. Have nothing to offer to occident. Just ignorance, control of your liberty and dead. Are rabish"
+          "postId": "2113884835320135932",
+          "author": "peterlongus",
+          "searchJob": "baylor",
+          "text": "These last two weekends of October, we shall be at BAYLOR COLLEGE OF MEDICINE CHILDREN'S FOUNDATION UGANDA @bayloruganda training over 30 staff in Basic and Advanced Cardiac Life Support. It’s critical to have teams on high alert and be abl"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113873672205467795",
-          "author": "alabamahitech",
-          "searchJob": "alabama",
-          "text": "🔥 Keep Your Rooftop Heating Equipment Ready for the Season! Heating system trouble can affect comfort and disrupt your daily operations. HITECH PTAC Services Alabama offers HVAC service solutions to help address rooftop heating unit issues"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113869968840560863",
-          "author": "gfennchurch",
-          "searchJob": "alabama",
-          "text": "Alabama Power 'slips onto' and begins work at Fenn Church property, avoids protesters; Church says Tuberville offered help https://t.co/xUo2U6A7M4"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113884942157431274",
-          "author": "lcmposts",
-          "searchJob": "kentucky",
-          "text": "Oh I see. So France offered him and his entire family honorary citizenship for being just a small town boy from Kentucky? Bypassing all the red tape like the brutal French launage competency exam just because he’s a simple guy from rural Am"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113887475567649224",
-          "author": "g_sofi8",
-          "searchJob": "ohio-state",
-          "text": "@mickdwalker three star with an ohio state offer is wild, kambui must see something the rankings dont"
+          "postId": "2113889363390300412",
+          "author": "optionull",
+          "searchJob": "arkansas-state",
+          "text": "Yeah, Wally.... But the Arabs declined the partition plan, and opted to wage war instead of declaring a state. The Mufti decided that he prefers to kill the Jews instead of creating a state for his own people. And after the war - they got c"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2113886390190547136",
-          "author": "uncannyscience",
-          "searchJob": "texas",
-          "text": "He’s telling people what to think and teaches people to assume people don’t want you instead of encouraging people to keep trying and find out for themselves. Maybe their exposure to your individual difference could be what changes their mi"
+          "postId": "2113890203593068572",
+          "author": "arnaudmercier",
+          "searchJob": "army",
+          "text": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure : https://t.co/cAR2QqddSV \"Pellegrino Casoriapellegrino.casoria@unina.itSimon Pietro Romanoorganization=University of Naples Federico II, department=Depar"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113869489037099454",
-          "author": "goldenheart1223",
-          "searchJob": "texas",
-          "text": "@Patriots_k9_USA by Congress offering statehood to Texas. Voter Approval (July – October 1845): Texas delegates voted to accept the U.S. offer on July 4, 1845, and Texas voters overwhelmingly ratified the new state constitution in October. "
+          "postId": "2113889909014462606",
+          "author": "emarex04",
+          "searchJob": "army",
+          "text": "🎬WAS PROFESSOR X THE MOST EVIL MUTANT FOR BUILDING A SCHOOL THAT TRAINED CHILDREN TO BE HIS SOLDIERS Think about how he finds his students. A 15-year-old girl whose powers just killed her boyfriend. A kid whose skin turns to steel and is h"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2113887336799011151",
+          "author": "beyorek",
+          "searchJob": "army",
+          "text": "A little late for this but better late than never. Source Instagram, handle devnagchopra Every Navratri, the courtyard of Bada Hanuman Mandir in Amritsar fills with a living army of langurs. These are not children playing dress-up. They are"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113884037513170961",
-          "author": "ndtvworld",
-          "searchJob": "washington",
-          "text": "US President Donald Trump has suggested that Washington could launch another military operation against Iran, warning of a possible revival of “Operation Epic Fury”. Speaking at a rally in Florida, Trump said the US “may do another little E"
+          "postId": "2113885513442820512",
+          "author": "david_robi92642",
+          "searchJob": "army",
+          "text": "@elonmusk and did you know this when you offered Starlink to the Ukrainian army?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113882873354707109",
-          "author": "wenewsenglish",
-          "searchJob": "washington",
-          "text": "Former US national security adviser Keith Kellogg has urged Washington to engage credible Afghan political figures who could offer an alternative to Taliban rule in Afghanistan. He argues that the Taliban have struggled to build effective i"
+          "postId": "2113884006240715048",
+          "author": "marianhouk",
+          "searchJob": "army",
+          "text": "Haaretz: The attack on an Israeli military checkpoint just north of Hebron killed two Israeli soldiers and wounded three other Israeli soldiers... \"Two IDF soldiers were killed + three others were wounded in the attack near Hebron. The IDF "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113880183686234361",
-          "author": "chairmanigsda",
-          "searchJob": "washington",
-          "text": "Who Benefits from the Continued War in the Middle East? Some argue that Putin is bargaining with Trump over Iran in exchange for Ukraine, despite the absence of clear evidence supporting such a claim, or even a convincing explanation of how"
+          "postId": "2113878305505972648",
+          "author": "winacarnow",
+          "searchJob": "army",
+          "text": "Strong support for Israel because as a true democratic nation most of its people have been forced to suffer unnecessarily by other countries and all immediate neighbouring countries who support and allow terrorists foster on their lands. Th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113869332027670708",
-          "author": "stealthfalconer",
-          "searchJob": "washington",
-          "text": "A first strike on Israel would offer Iran little strategic advantage while risking a wider war, higher military costs and the collapse of diplomatic efforts with Washington. It could also give Netanyahu grounds to escalate. Tehran’s immedia"
+          "postId": "2113876204004450484",
+          "author": "jbergquist39",
+          "searchJob": "army",
+          "text": "Offer hospice come to find out hospice to some is the army chasing them"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2113876440043139165",
-          "author": "rigscopeenergy1",
-          "searchJob": "louisiana",
-          "text": "🛢️ RIGSCOPE ENERGY INTELLIGENCE Daily Oil & Gas Brief | Saturday, 24 October 2026 Beyond the Headlines. Inside the Energy Industry. 1/7 🇳🇬 NIGERIA | UPSTREAM NUPRC’s 2026 licensing round offers 40 oil and gas blocks. The regulator has al"
+          "postId": "2113872326270083303",
+          "author": "g_slayer42836",
+          "searchJob": "army",
+          "text": "@probablykaffe I mean considering the lack of organization maybe it could offer organizing capacity, and the draft was the first time the US Army was ideologically weakening."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113866854087434711",
+          "author": "ideaofindia75",
+          "searchJob": "army",
+          "text": "Those who are true nationalists and working for Sanatan Dharma are eligible for this offer. Be the army of the nation. Be the flag bearer of Santan Dharma. Be true to ourselves and Karma."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113865520453701643",
+          "author": "shadowtruthland",
+          "searchJob": "army",
+          "text": "In 1941, a Spaniard walked into the British embassy in Madrid and offered to spy on the Nazis. The British turned him down. So he went to the Germans instead, pretended to be a loyal fascist, and got hired as a German spy. His plan was to l"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2113866831274418496",
+          "author": "capricornfmnews",
+          "searchJob": "charlotte",
+          "text": "#EstateFraud | The #MaswanganyiRoyalFamily has welcomed the Polokwane High Court’s decision to dismiss the bail appeal of Tshwane Metro Police Department officer Peter “Gagash” Nonyane and his wife, attorney Charlotte Tibana, over the alleg"
         }
       ]
     },
@@ -242,12 +199,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 12,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 13,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-24T06:58:46.879Z"
+    "status rebuilt locally from current store on 2026-10-24T07:13:30.847Z"
   ]
 }
