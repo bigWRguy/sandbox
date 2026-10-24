@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T02:44:25.210Z",
+  "generatedAt": "2026-10-24T02:57:10.756Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-24T02:44:24.760Z",
+    "at": "2026-10-24T02:57:10.414Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 3,
+    "requests": 4,
+    "fullSweepCycles": 54
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.038906388888889,
-    "p95Hours": 1.7915505555555555,
-    "worstHours": 1.7915505555555555
+    "medianHours": 1.00342,
+    "p95Hours": 2.004202222222222,
+    "worstHours": 2.004202222222222
   },
   "decisionCoverage": {
-    "total": 50,
-    "decided": 50,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -55,372 +55,71 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-24T02:44:24.760Z",
-      "got": 86,
-      "new": 50,
-      "lag": 0.05
+      "at": "2026-10-24T02:57:10.414Z",
+      "got": 4,
+      "new": 2,
+      "lag": 0.2
     }
   },
   "audit": {
-    "at": "2026-10-24T02:42:41.229Z",
+    "at": "2026-10-24T02:56:53.837Z",
     "mode": "live",
     "collection": {
-      "returned": 86,
-      "kept": 50,
-      "duplicate": 36,
+      "returned": 4,
+      "kept": 2,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 30,
-      "rejected": 20,
+      "accepted": 0,
+      "rejected": 2,
       "reasons": {
-        "hard_negative": 2,
-        "no_fbs_school": 9,
-        "no_offer_term": 9
+        "no_fbs_school": 1,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2113823176711135319",
-          "author": "scottybscout",
-          "searchJob": "ohio",
-          "text": "#Illini 2027 WR commit Bennett Konkey @BennettKonkey lands Ohio State #Buckeyes offer"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2113812761415205114",
-          "author": "cantonrepdotcom",
-          "searchJob": "ohio",
-          "text": "McDonald's McRib sandwich is coming back to the fast-food giant's menu soon, but not all restaurants will offer it. Here's what we know. https://t.co/08ByBXN0kl"
+          "postId": "2113824060899746184",
+          "author": "brads_pitstop",
+          "searchJob": "pittsburgh",
+          "text": "@nellastu1 Hard to say. They're ridiculous. I'm instantly sus of people pushing their \"patriotism\" all up in everybody's face. I did my time too and I don't even take the discounts some places offer. I did what I did and I moved on. I'm cer"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2113807407407087935",
-          "author": "yourohionews",
-          "searchJob": "ohio",
-          "text": "The Gambier-area preserve offers 10 miles of trails, year-round programs and seasonal events for Knox County visitors. https://t.co/f8qDy0NT7r"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113819784844632343",
-          "author": "markrussellbell",
-          "searchJob": "temple",
-          "text": "https://t.co/GvwEABqfFX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113819659049017407",
-          "author": "yesuenlwandana",
-          "searchJob": "temple",
-          "text": "https://t.co/QiAel8FXKu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113815461838430621",
-          "author": "sethfromthe716",
-          "searchJob": "temple",
-          "text": "#SoEmbarrassing when your mom offers to make your friends a sandwich https://t.co/OMnQystguG"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113808577492074861",
-          "author": "johncwright2001",
-          "searchJob": "temple",
-          "text": "https://t.co/QGrUSXdE1X"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113811168263344155",
-          "author": "salvazion_",
-          "searchJob": "toledo",
-          "text": "https://t.co/BwZIH5XFrn"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113805904160174139",
-          "author": "topgunqb",
-          "searchJob": "class:2027",
-          "text": "Congrats to #TopGunChicagoExpress7v7 alum #2027 #WR #ATH @CarsonRowe2027 on another offer - this one from @football_ncc! #SeeYouattheTOP☝🏻 👍🏻👊🏻✝️🚂✈️🏈"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113794760720933140",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Rudi Ernst IX-Edge-2027-VA @GoCamelsFB Offer #CFB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113699351214096574",
-          "author": "rudiernstix",
-          "searchJob": "class:2027",
-          "text": "Blessed to recieve my first Offer to play at Campbell University! @GoCamelsFB @Coach_BHarris #GoCamels🐪 @CoachP_eterson #SparkTheFlint🔥 @CoachFee615 @CoachChiappelli https://t.co/lV6vZwXI6W"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113404152592101464",
-          "author": "atrupar",
-          "searchJob": "michigan",
-          "text": "El-Sayed: \"We had a little debate. Or I had a debate and he just pointed at me and said, 'He's Muslim.'\" https://t.co/IRMqiA1jIJ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113809511152570472",
-          "author": "hardestymatt12",
-          "searchJob": "michigan",
-          "text": "Jax Pesch scores again to make it 42-7 and with that TD, he breaks Waterford’s single season touchdown record at 27. Heck of a season for the senior. #wisfb"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113806363256058005",
-          "author": "hardestymatt12",
-          "searchJob": "michigan",
-          "text": "Waterford scores again to start the 2H and is in full control up 35-7. A 33-yd pass from Schneiker to Dargatz moved the ball to the 1, where Pesch walked in for another TD. 8:41 left in Q3. #wisfb"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113815124553179261",
-          "author": "johnas_brewster",
-          "searchJob": "ole-miss",
-          "text": "Blessed to receive a Game Day Invite to the Texas Longhorns Vs Ole Miss Rebels 🤘🏾🧡 I’m blessed for this opportunity to experience what Texas football looks like in person special thanks to @TexasRecruiting @JacksonGleeFB For the personal"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113814177785471300",
-          "author": "jucofootballace",
-          "searchJob": "ole-miss",
-          "text": "Miles Adams @unkmiles40 @ Southwest Mississippi JuCo @SMCC_Athletics picks up @LamarFootball Offer @jucoweekly @MSJUCOREPORT https://t.co/gE7diHQVkU"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113815303498891342",
-          "author": "shahpas",
-          "searchJob": "oregon",
-          "text": "A map depicting the notional coverage of Canada's forthcoming Arctic over-the-horizon backscatter (OTH-B) radar, which will be constructed at sites in the Kawartha Lakes, Ontario, area. The map reflects a series of assumptions about radar c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2113811977214808156",
-          "author": "orstfb1",
-          "searchJob": "oregon",
-          "text": "@TinaKotek And under YOUR leadership PUBLIC schools are shutting down. 14+ to be exact. Wonder why. Maybe because PUBLIC schools are dogshit? And people want their kids to be able to READ and LEARN actual shit in PRIVATE schools that offer "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113806335783395477",
-          "author": "rinkyreport",
-          "searchJob": "oregon",
-          "text": "https://t.co/rMx3EFpgjW"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2113803172598997356",
-          "author": "michaelarothman",
-          "searchJob": "miami",
-          "text": "𝐂𝐇𝐈𝐍𝐀 𝐂𝐀𝐋𝐋𝐒 𝐑𝐀Ú𝐋 𝐂𝐀𝐒𝐓𝐑𝐎 “𝐕𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃” — 𝐅𝐋𝐎𝐑𝐈𝐃𝐀 𝐒𝐀𝐘𝐒 𝐇𝐄 𝐎𝐑𝐃𝐄𝐑𝐄𝐃 𝐅𝐎𝐔𝐑 𝐀𝐌𝐄𝐑𝐈𝐂𝐀𝐍𝐒 𝐒𝐇∗𝐓 𝐃𝐎𝐖𝐍 Beijing just went to bat for a man wanted for the k!lling of four Americans. Asked ab"
+          "reason": "non_fbs_offer_target",
+          "postId": "2113804902992367638",
+          "author": "mhs_knights_fb",
+          "searchJob": "phrase:\"picks up an offer from\"",
+          "text": "OFFER #2! 😤⚔️ Nicholas Soto, Class of 2027 center, picks up an offer from Lawrence University! The work keeps paying off. 🔥🏈 @Coach_Mont70 @Coach_Davis3 @CoachTony_H @Oblock_Academy #MonarchFootball #OBlock #AGTG https://t.co/ruKNpvMFqq"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 29,
-      "reasons": {
-        "multiple_resolved_schools": 5,
-        "unresolved_offer_target": 1,
-        "school_not_resolved_confidently": 4,
-        "bare_mention_requires_llm": 15,
-        "reporter_missing_player_name": 3,
-        "author_not_recruit:different sport": 1
-      },
-      "samples": [
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113808494616813735",
-          "author": "bob_weeks",
-          "searchJob": "kansas-state",
-          "text": "FOURTEEN EMAILS IN 4 MONTHS: RECORDS SHOW MASTERSON'S WORK AT ALLEGED 'NO-SHOW JOB' ONE-SENTENCE SUMMARY Newly released Wichita State University records show that Kansas Senate President and gubernatorial candidate Ty Masterson sent just 14"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2113819344006447198",
-          "author": "karsongeorge50",
-          "searchJob": "jacksonville-state",
-          "text": "Blessed to receive a offer frm jax state from over the summer go 🐓 https://t.co/4cVV3zwsk5"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2113812726854087152",
-          "author": "changewash",
-          "searchJob": "ohio",
-          "text": "\"As you think about Seattle’s next act, let me offer a catchphrase: Don’t be Cleveland. Before anyone from Northeast Ohio takes me to task again, let me quickly clarify: Don’t be the Cleveland of the last half of the 20th century. Today’s C"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113812124367552879",
-          "author": "jucofootballace",
-          "searchJob": "southern-miss",
-          "text": "Michael Moore @MichaelMoore_22 @ Mississippi Gulf Coast JuCo @MGCCCBulldogs picks up @SouthernMissFB Offer @jucoweekly @MSJUCOREPORT https://t.co/1M30hDafie"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113822615030919211",
-          "author": "dgoates",
-          "searchJob": "temple",
-          "text": "@AuntSuziQuilts Utah offers so many temple choices I like to rotate my trips. So blessed 🙌"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113816499164987794",
-          "author": "blackhistorical",
-          "searchJob": "temple",
-          "text": "Nina Simone's high school kept no record that she ever went there. Allen in Asheville took Black girls out of mountain counties that had not built them one, and it took her in from Tryon. When the place shut, no records of the school were m"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113812974016319686",
-          "author": "gpyadav315",
-          "searchJob": "temple",
-          "text": "What Makes the Sabha Mandapa of the Modhera Sun Temple a Remarkable Example of Ancient Indian Architecture? The Sabha Mandapa, also known as the Assembly Hall or Rangamandapa, is one of the most distinctive architectural features of the his"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113802670129512549",
-          "author": "vizini8",
-          "searchJob": "temple",
-          "text": "@KarmeloAnt37119 @RabbiGabriel123 @fidelianave @GodLogic_GL Paul forbade pagan temple worship. He wrote: “Wherefore, my dearly beloved, flee from idolatry.” (1 Cor 10:14, KJV) He also said that pagan sacrifices were offered to devils and th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113800603126071451",
-          "author": "authorgosnell",
-          "searchJob": "temple",
-          "text": "I’m assuming, Tim, you’ve got more going on behind the scenes than you disclose. Given your knowledge of theology, Scripture, mystical texts, and the occult, it’s plain what’s happening here. In short, Fantastic Beasts and Where to Find The"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2113820046233329673",
-          "author": "inarchus",
-          "searchJob": "toledo",
-          "text": "The ICC hasn't ruled. No one has ever offered Israel peace, Israel has offered and in some cases forced peace treaties through victories. The killing of course hasn't stopped, this is total inversion. Really they're only in Syria right now "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2113804609038721398",
-          "author": "rob1776us",
-          "searchJob": "toledo",
-          "text": "People are really ramping this BS up lately eh? You do know that everyone who visits the Wall wears the kippah out of respect and it’s customary, right? (See below) Also, what else could anyone expect from any US President after October 7th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2113817581861695533",
-          "author": "codycroy_",
-          "searchJob": "class:2027",
-          "text": "Buckeyes offer 2027 4⭐ WR Bennett Konkey"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113822016973226401",
-          "author": "cesed15",
-          "searchJob": "michigan",
-          "text": "@KanekoaTheGreat Tallerico (a marxist-socialist-islamist), as well El Sayed in Michigan (an Islamist associated and funded by Muslim Brotherhood --Hamas terrorists), when objectively viewed, are among the most dangerous people on earth -- w"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113821393725087813",
-          "author": "seenolz",
-          "searchJob": "michigan",
-          "text": "And somehow Michigan voters are absolutely stumped - they’re totally getting played by Rogers the Florida Man, who offers nothing of substance, just a blowjob for Donald Trump. Very sad for them! Republicans are destroying their livelihoods"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113821325676446065",
-          "author": "cesed15",
-          "searchJob": "michigan",
-          "text": "Tallerico (a marxist-socialist-islamist), as well El Sayed in Michigan (an Islamist associated and funded by Muslim Brotherhood --Hamas terrorists), when objectively viewed, are among the most dangerous people on earth -- whose ultimate obj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113821236388065574",
-          "author": "cesed15",
-          "searchJob": "michigan",
-          "text": "Tallerico (a marxist-socialist-islamist), as well El Sayed in Michigan (an Islamist associated and funded by Muslim Brotherhood --Hamas terrorists), when objectively viewed, are among the most dangerous people on earth -- whose ultimate obj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113821144142741589",
-          "author": "cesed15",
-          "searchJob": "michigan",
-          "text": "Tallerico (a marxist-socialist-islamist), as well El Sayed in Michigan (an Islamist associated and funded by Muslim Brotherhood --Hamas terrorists), when objectively viewed, are among the most dangerous people on earth -- whose ultimate obj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113820923606278650",
-          "author": "cesed15",
-          "searchJob": "michigan",
-          "text": "Tallerico (a marxist-socialist-islamist), as well El Sayed in Michigan (an Islamist associated and funded by Muslim Brotherhood --Hamas terrorists), when objectively viewed, are among the most dangerous people on earth -- whose ultimate obj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113820772212805694",
-          "author": "cesed15",
-          "searchJob": "michigan",
-          "text": "Tallerico (a marxist-socialist-islamist), as well El Sayed in Michigan (an Islamist associated and funded by Muslim Brotherhood --Hamas terrorists), when objectively viewed, are among the most dangerous people on earth -- whose ultimate obj"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113820355529982113",
-          "author": "hardestymatt12",
-          "searchJob": "michigan",
-          "text": "FINAL: Waterford 42, Portage 7 A perfect night for the Wolverines, capped off by a wild postgame moment where a Wake Forest assistant coach surprised sophomore TE Emmett Dargatz with a scholarship offer in front of the whole team. It was qu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113799562515136844",
-          "author": "ogdexta313",
-          "searchJob": "michigan",
-          "text": "THIS HIGH SCHOOL AND JUCO SEASON is going to be the most sorry season ever in the state of Michigan. All the talent are in prep schools which is great because it's nothing here in Michigan but D2 and NAIAs offers being posted on IG. We loss"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113814670607810950",
-          "author": "dlogosxyz",
-          "searchJob": "ole-miss",
-          "text": "After Mississippi Senate candidate @scott_colom couldn't get incumbent Cindy Hyde-Smith to agree to a debate, he challenged @realDonaldTrump directly, telling him to name the time and place. The offer is still open. Which show should host t"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2113812008118132787",
-          "author": "mccauley318",
-          "searchJob": "ole-miss",
-          "text": "All this tells me that if Texas would offer him right now he’ll leave Ole Miss with no hesitation at all."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2113803922997707040",
-          "author": "geopolicraticus",
-          "searchJob": "oregon",
-          "text": "The View from Oregon – 415 Re: Testing the Presuppositions of Counting Friday 16 October 2026 Dear Friends, There’s a passage from Karl Popper’s Conjectures and Refutations that I like to quote about observation in science. I recently quote"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 3,
+      "failed": 1,
+      "requests": 4,
+      "errors": [
+        "buffalo: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 29,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-24T02:44:25.211Z"
+    "status rebuilt locally from current store on 2026-10-24T02:57:10.757Z"
   ]
 }
