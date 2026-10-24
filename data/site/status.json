@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T20:28:43.639Z",
+  "generatedAt": "2026-10-24T20:56:30.872Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-24T20:28:43.185Z",
+    "at": "2026-10-24T20:56:30.425Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "arkansas-state",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7766663888888888,
-    "p95Hours": 1.7792552777777777,
-    "worstHours": 1.7792552777777777
+    "medianHours": 0.9871372222222222,
+    "p95Hours": 1.993785,
+    "worstHours": 2.2423755555555553
   },
   "decisionCoverage": {
-    "total": 39,
-    "decided": 39,
+    "total": 54,
+    "decided": 54,
     "complete": true
   },
   "pending": {
@@ -47,305 +52,352 @@
   "profileResolution": {
     "cached": 97
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 3567,
+    "completeOffers": 3570,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-24T20:28:43.184Z",
-      "got": 83,
-      "new": 39,
-      "lag": 0.05
+      "at": "2026-10-24T20:56:30.424Z",
+      "got": 87,
+      "new": 54,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-24T20:27:05.466Z",
+    "at": "2026-10-24T20:54:52.785Z",
     "mode": "live",
     "collection": {
-      "returned": 83,
-      "kept": 39,
-      "duplicate": 44,
-      "tooOld": 0,
+      "returned": 87,
+      "kept": 54,
+      "duplicate": 32,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 27,
-      "rejected": 12,
+      "accepted": 35,
+      "rejected": 19,
       "reasons": {
-        "no_fbs_school": 6,
-        "no_offer_term": 5,
-        "hard_negative": 1
+        "no_fbs_school": 12,
+        "no_offer_term": 2,
+        "non_fbs_offer_target": 3,
+        "hard_negative": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2114090835902079124",
-          "author": "buffalo_beth",
-          "searchJob": "buffalo",
-          "text": "@Allentown1711 @BosskoonsKoons @ByMHarrington @AfterLeWhistle Exactly. It sounded like he knew the Sabres couldn’t make it happen partially due to dead cap- is that what you heard? He couldn’t turn down the deal the Caps offered. No brainer"
+          "postId": "2114067349624225892",
+          "author": "ron_eisele",
+          "searchJob": "kansas",
+          "text": "25 October 1930. TWA offered one of the first all-aeroplane scheduled service from coast to coast: the Lindbergh Route. The route took 36 hours and initially called for overnights in Kansas City. https://t.co/nOqLFblBfI"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2114080437119434835",
-          "author": "richrosdal",
-          "searchJob": "memphis",
-          "text": "Buy now on conviction, or wait for the revenue projections to prove out. Buying early carries execution risk. Waiting brings more evidence and, if SpaceX delivers, likely a higher price. Why SpaceX has my attention. https://t.co/8gTLU6vcro"
+          "postId": "2114098219139428603",
+          "author": "godfather_95931",
+          "searchJob": "arkansas-state",
+          "text": "Tesla Q3 2021 Earnings Call — Transcript https://t.co/cpAilVuDcA"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114094805446009118",
+          "author": "kenterlude",
+          "searchJob": "kent-state",
+          "text": "depop seller accepted my offer but doesnt answer my questions ab the piece https://t.co/xsdFc1ghUm"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114076862347723044",
+          "author": "kenttuitjer",
+          "searchJob": "kent-state",
+          "text": "@American__2 We wouldn't offer"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114069672152719411",
+          "author": "kcfggroup",
+          "searchJob": "kent-state",
+          "text": "Have you got the next Chamber Connections networking event in your diary? It takes place on Thursday 12th November 2026 at The Burlington Hotel in Folkestone. This lunchtime networking session offers a fantastic opportunity to promote your "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2114084230233723230",
+          "author": "nichefinmarkets",
+          "searchJob": "rice",
+          "text": "More on mu substack ---&gt; https://t.co/DGVWsceGGH https://t.co/u3Gtg8YbT9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114092721547669718",
+          "author": "sunsentinel",
+          "searchJob": "florida",
+          "text": "NAIA comes from The Restaurant People, known for other eateries such as YOLO and Nubé. And it’s among the poshest, with a 30-foot ceiling, a bright and airy patio, and an indoor-outdoor bar that offers glimpses of the open kitchen within. h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114086709231034648",
+          "author": "southflorida",
+          "searchJob": "florida",
+          "text": "NAIA comes from The Restaurant People, known for other eateries such as YOLO and Nubé. And it’s among the poshest, with a 30-foot ceiling, a bright and airy patio, and an indoor-outdoor bar that offers glimpses of the open kitchen within. h"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2114075426314424688",
+          "author": "__rob1nson",
+          "searchJob": "florida",
+          "text": "I am blessed to announce my third official offer from Florida National University. I would like to personally thank Coach Dixon (@305Elitebball) for the opportunity to compete for the Conquistadors! https://t.co/KL2yw2Mu4F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114096448719757344",
+          "author": "omgronnie_25",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great conversation with @CoachCromblinHC &amp; getting to experience the gameday atmosphere, I’m blessed to receive an offer to play at Huntingdon College. #AGTG #HawkEm @EPHSRecruiting @coachruss23 @VanSpence10 @C_Hale47 @HawksFoot"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2114095593307975813",
+          "author": "ethan_ewans",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I am extremely blessed and grateful to receive my first Division 1 offer from University of Texas at Arlington! 🧡💙🏀 #UTA #AGTG #Blessed @UTAMavsMBB https://t.co/3KEMEIrpuS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114093076646097079",
+          "author": "ryheemtins30740",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Excited and grateful to have received an offer from @FandMFootball Huge thank you to @Coach_Phelan25 and @CoachMoore_99 for the opportunity and to the entire coaching staff for the hospitality! Had a great time on campus today watching the "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114090926918295747",
+          "author": "darrienwil72211",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a great conversation with @NathanKero81 Im blessed to receive an offer from @MRCNorseFB @BanksJetsFB @desmond1689 @Coach_RMorgan24 @CoachGold10 https://t.co/TJLCbTaxwM"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2114088048829079682",
+          "author": "hollandjud56",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "I am blessed to receive my first offer from Kentucky State University #AGTG @1_McKay_2 @Steve_Wallace_2 @CoachBLangston https://t.co/Q60pYD5suT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114085526735044849",
+          "author": "langston_hakeem",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Blessed to receive an offer from Costal Carolina Univeristy!! #gochanticleers @_CoachDowning @Davis33Coach @WAAcademyFB @samspiegs @benjaminwolk @Rivals @RecruitGeorgia @RustyMansell_ @DonCallahanIC @ChadSimmons_ https://t.co/RBSTcDwy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114074134053265622",
+          "author": "djlandor2pointo",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG I just received my 7th D1 offer from @CitadelSports @CitadelFootball thx you @RettRussell26 and @coach_pat84 @JuJuSports1 @TXRecruits @PrepRedzoneTX @iam_alinedouard @CoachWeltonJ @LSOCFootball @RallyPreps @TFloss32 @ProfessorDiggs @M"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114097157292818858",
+          "author": "miamidaysnights",
+          "searchJob": "miami",
+          "text": "@halflawless @WaterwornPebble She's saying average men should offer more than Chad to compensate for their lower attractiveness, which is a totally backwards frame of kind unless you're looking to be a \"generous gentleman\" to some lazy, man"
         },
         {
           "reason": "hard_negative",
-          "postId": "2114082386489356371",
-          "author": "danzo_626",
-          "searchJob": "michigan",
-          "text": "@jbgibson00 @CFBwSam U mean the kid that only had offers from miami of ohio, rutgers and iowa state other michigan isn't legit? 🤣"
+          "postId": "2114084567195980190",
+          "author": "almaulinipwmcg",
+          "searchJob": "miami",
+          "text": "The AM Brief, Saturday October 24, 2026 Part 1 Hello, It’s 3pm in Miami and here is a recap of events that caught my eye. Part 1 Market Recap: Dow 52,215 (1.24%), S&P 500 7,623 (0.52%), Nasdaq 25,955 (0.21%), 10 Year 4.98% President Trump s"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2114068119350300970",
-          "author": "benjaminlyng",
-          "searchJob": "colorado",
-          "text": "@GrulkeLamonte Dealer offered me $500. Carvana offered me $1100. I sold it for $2500 on FB marketplace. 4WD in Colorado always has a buyer."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114082790849527831",
-          "author": "1noseamonkeys",
-          "searchJob": "duke",
-          "text": "@nissly_gregg @CynicalPublius No- that will make them martyrs. Let the cities burn- release evidence, offer help to the citizens- not the the governors. Be patient- only arrest with evidence for all can see- no doubt. No matter what- it may"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114077356742647876",
-          "author": "therealduke4u",
-          "searchJob": "duke",
-          "text": "Well....I just put an offer on a used M-48 tank"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113834685533130972",
-          "author": "apexseeker_",
-          "searchJob": "duke",
-          "text": "🇯🇵 I’m Japanese. Question for Americans 🇺🇸🔫 Of all the weapons you currently own… What’s your MOST powerful weapon besides a gun? 💪 ⚔️ A sword? 🏹 A bow? 🔪 A knife? 🥊 Your fists? Or something completely unexpected? 😂 Name ONE!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114075529817231826",
-          "author": "therealduke4u",
-          "searchJob": "duke",
-          "text": "If I may offer a suggestion.... HIGH SPEED SNOW PLOWS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2114054322442866826",
-          "author": "eliafriatisr",
-          "searchJob": "duke",
-          "text": "The chaos in Paris continues. What do you think will stop the riots in France? https://t.co/5dQg9tFTz0"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114087451660603754",
-          "author": "blazethecurious",
-          "searchJob": "houston",
-          "text": "DID YOU KNOW?? Four-time Emmy winner Jim Parsons failed 15 to 30 pilot auditions early in his career and was initially thought by creator Chuck Lorre to be \"too precise\" during his The Big Bang Theory audition, forcing Lorre to call Parsons"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113996181407965191",
-          "author": "aakashgupta",
-          "searchJob": "houston",
-          "text": "Jim Parsons turned down $50 million so he could stop playing Sheldon. The kid who played young Sheldon was even happier to be done at 15, and he says his mom is the reason why. Iain Armitage got the part off a cell phone video his family sh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113495635303489813",
-          "author": "pubity",
-          "searchJob": "houston",
-          "text": "Young Sheldon star Iain Armitage believes he was the happiest man on set when the show ended and that he didn't want to be Young Sheldon anymore. \"I would hate to be on a show playing 23-year-old Sheldon. That would suck.\" https://t.co/hcrG"
+          "reason": "hard_negative",
+          "postId": "2114076991318098298",
+          "author": "fayobserver",
+          "searchJob": "nc-state",
+          "text": "Will NC State football coach Dave Doeren be fired during season? Boo Corrigan already offered hint https://t.co/azPYCnG0sx"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 27,
+      "accepted": 4,
+      "rejected": 31,
       "reasons": {
-        "bare_mention_requires_llm": 17,
-        "multiple_resolved_schools": 5,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_player_name": 1,
-        "reporter_missing_class_year": 1,
-        "explicit_non_fbs_target": 1
+        "bare_mention_requires_llm": 24,
+        "multiple_resolved_schools": 6,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114083384263856271",
-          "author": "tiinclemson",
-          "searchJob": "clemson",
-          "text": "🔥 SPECIAL SUBSCRIPTION OFFER! 🔥 🚨 Game day is a perfect opportunity to take advantage of this 60% OFF promo and pick up a subscription to Tiger Illustrated, The No. 1 Authority On #Clemson Football &amp; Recruiting. ✅ JOIN: https://t.co/"
+          "postId": "2114091542910816606",
+          "author": "soniasikka42",
+          "searchJob": "arkansas-state",
+          "text": "@now_what__ @LibyaLiberty Bill Clinton says so. 🙄 No. They were never offered a state. They were never offered contiguous borders, actual sovereignty - you know, a STATE. You have to look at the details of the actual proposals, not a chart"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114090994488549660",
+          "author": "azrielb",
+          "searchJob": "arkansas-state",
+          "text": "It was a pleasure joining @IainDale on @LBC to discuss Binyamin Netanyahu and the political situation in Israel ahead of the election. I told Iain: \"Netanyahu has fallen to an all-time low as a statesman, but he remains a supreme politician"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2114079940664791511",
-          "author": "grahamrice17",
-          "searchJob": "buffalo",
-          "text": "@podgoalzin17 With the offers they received in the off season from Buffalo and Florida they got hosed. Not even a first and some players who might be good on the 2nd or bottom six lines. No I don’t think the jets made out like bandits I thi"
+          "postId": "2114084259577348483",
+          "author": "peiprofess68059",
+          "searchJob": "arkansas-state",
+          "text": "@joshgitt1987 The only thing Texas offers is cheap real estate and a state of blowhards saying \"Everything is bigger in Texas\", even though everything is BIGGEST IN ALASKA."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114075894679781872",
-          "author": "tweets_by_caff",
-          "searchJob": "buffalo",
-          "text": "@NikLynam @ScottBilleck Because it has been such a popular topic on Sabres twitter; is there a package Buffalo could have built around McLeod, without using the nhl forward children, that would have beat the jersey offer in your opinion?"
+          "postId": "2114083480690892948",
+          "author": "cognitoq",
+          "searchJob": "arkansas-state",
+          "text": "I agree this is bad. The problem is that international law and institutions like the UN offer no answers to the problem of gang or terrorist attacks against people in a foreign state. That’s why we see Israel (and now El Salvador in Haiti) "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114073470405619848",
-          "author": "billy_ch4os",
-          "searchJob": "buffalo",
-          "text": "@ByGerrySullivan He would have lived like a king in Buffalo with what we offered him"
+          "postId": "2114081920241799385",
+          "author": "nosmooshsnek",
+          "searchJob": "arkansas-state",
+          "text": "@Carina_Amyth @allenanalysis There is no state called Palestine and never was. The Palestinians were offered a state by the UN, the same as Israel. But the Arab coalition rejected it in favor of trying to kill the Jews. After 78 years of me"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2114071740209053844",
-          "author": "richbarcellos",
-          "searchJob": "buffalo",
-          "text": "We know that “without the shedding of blood there is no remission” (Heb. 9:22). We also know that “Christ was offered once to bear the sins of many” (Heb. 9:28) and that “it is not possible that the blood of bulls and goats could take away "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114078670859948308",
+          "author": "grajo_solo",
+          "searchJob": "arkansas-state",
+          "text": "@identitykrysis Palestinians have been offered a state seven times and have refused seven times. They don't want a state. They want to kill Jews."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114075564025712704",
+          "author": "seeitwith",
+          "searchJob": "arkansas-state",
+          "text": "@PhilipQuane @Shapesetters @TrishDaly6 @specialpinkrock @zarahsultana Again we come back to the fact that the Palestinians started this in 1948 and are reaping what they sow. They have been offered a state 3 times and each time have refused"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114074309832401354",
+          "author": "jamie371041",
+          "searchJob": "arkansas-state",
+          "text": "A country once generated wealth from what it owned: land, infrastructure, utilities, energy, transport networks and national industries. These assets produced revenue that could fund public services and reduce the burden on taxpayers. Then "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114073678866772337",
+          "author": "manseedsimpson",
+          "searchJob": "arkansas-state",
+          "text": "@BRADDAHBETS @FanDuelSports @ulxrare @FanaticsSports You really texted Support over an 8 dollar loss? You didn’t add bet protect+ And you’re in a state that offers bet protect+ If the state doesn’t offer bet protect+, then they honor First "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114072451797979555",
+          "author": "scepticalaussie",
+          "searchJob": "arkansas-state",
+          "text": "@YaraGaza84 @PiersUncensored @piersmorgan @owenjonesjourno @YishaiFleisher No. You were offered a state and chose war."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114072131336085857",
+          "author": "bmb1_official",
+          "searchJob": "arkansas-state",
+          "text": "BEYOND THE RUINS: HOW ZULUM IS REBUILDING BORNO, ONE INSTITUTION AT A TIME By Goni M. Tar KIU Teaching Hospital: A landmark achievement in healthcare and a new chapter in Borno’s recovery. Rebuilding a state devastated by years of insurgenc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114067485393576317",
+          "author": "isthisamovie",
+          "searchJob": "arkansas-state",
+          "text": "No. Read it again. I never said property must be taxed to count as owned. You have the causality backwards. Ownership is not a fact of nature. It is a legal status. Your deed exists because a county records it. Your title holds because a co"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114065033319637073",
+          "author": "cricketsurfing",
+          "searchJob": "arkansas-state",
+          "text": "@ThiaBallerina In a sense. It is the failure of a state that offers handouts without accountability."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114084042064961993",
+          "author": "uapconvergence",
+          "searchJob": "navy",
+          "text": "WHERE ARE THE NAVY’S USO REPORTS? Seven tranches of government UAP files have now been released under PURSUE, including the latest on October 23. Yet detailed historical reports of unidentified submerged objects (USOs) and possible underwat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114083913253748801",
+          "author": "uapconvergence",
+          "searchJob": "navy",
+          "text": "WHERE ARE THE NAVY’S USO REPORTS? Seven tranches of government UAP files have now been released under PURSUE, including the latest on October 23. Yet detailed historical reports of unidentified submerged objects (USOs) and possible underwat"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2114069747901804973",
-          "author": "nft_apee",
-          "searchJob": "buffalo",
-          "text": "Let me analyze this parlay 🏆🤑 🔍 1. Tage Thompson — First Goal Scorer (+1000) Strength: 6/10 ✅ Advantages Thompson has the size and shooting ability to score from dangerous areas. His offensive skill makes him a legitimate candidate to op"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2114069367952699685",
-          "author": "malikdavis9_",
-          "searchJob": "buffalo",
-          "text": "After a great game day visit and conversation with @CoachNTrawick , I’m extremely blessed to have EARNED an offer from the University at Buffalo! 🦬💙#GoBulls @EdOBrienCFB @ChadSimmons_ https://t.co/h8TrZIIr1j"
+          "postId": "2114082871614812363",
+          "author": "jrgarcia8_2028",
+          "searchJob": "navy",
+          "text": "Extremely blessed and honored to receive my 3rd D1 offer from the United States Naval Academy @NavyFB Thank you @_CoachNew and @NavyCoachYo for believing in me and extending the offer today. Watching my big brother, @ryderg10_2026 , become "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114062411321745890",
-          "author": "venom_nwobhm",
-          "searchJob": "buffalo",
-          "text": "@GMeeggs @madladpolock @aj_____89 @SabreSaint @Sabrestalkv2 Tuch and his wife wanted out. It's very obvious. Even if the Sabres matched the offer he was leaving. Just quit saying how much you love Buffalo and grew up with the Sabres. Makes "
+          "postId": "2114074043330462037",
+          "author": "0xlexlab",
+          "searchJob": "new-mexico",
+          "text": "He turned down $1 billion at 23. Then one early mistake opened a bill that just hit $25 billion. 2006. Yahoo offers Mark Zuckerberg $1 billion in cash for Facebook. He says no. He was living in a one-bedroom apartment with a mattress on the"
         },
         {
-          "reason": "reporter_missing_class_year",
-          "postId": "2114060005410566251",
-          "author": "paulcanada777",
-          "searchJob": "buffalo",
-          "text": "@BensonForHart Who knows exactly what Sabres final offer was but I got a feeling few months earlier from his body language he was “ going to show Buffalo how much he could get on the open market “ Maybe it was earlier offers from Kevin and "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114085161499529530",
+          "author": "bretfunisin",
+          "searchJob": "rice",
+          "text": "@eatinerni I appreciate the offer could be breakfast lunch or dinner however that’s not a great planning the shrimp swimming in whatever that is should be on Rice. You can take the egg and put it on top of the steak and the corn cobette pla"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2114084350325350484",
-          "author": "tony_lightwork",
-          "searchJob": "james-madison",
-          "text": "**James Madison, *Federalist No. 46* (1788), identified an armed citizenry under state governments as the decisive check against federal overreach or military tyranny.** Even if the federal government formed a regular army “fully equal to t"
+          "postId": "2114076273001766915",
+          "author": "maattram2031",
+          "searchJob": "rice",
+          "text": "@OGPrasanna Online offer oda 4900/- ku available ah iruku but govt 7200/- ku vanguraanuga for that also yepdi da muttu kodukureenga...ration rice la corruption, Cake tender la yedho corruption ipo cycle la corruption makkal panam yevlo daan"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114069828424077613",
-          "author": "patricksmemphis",
-          "searchJob": "memphis",
-          "text": "Memphis BBQ Pizza $15 Delight in our house-smoked pork shoulder paired with gooey mozzarella cheese and drizzled with tangy BBQ sauce, Topped with vibrant red and green onions, this pizza offers a deliciously smoky twist on a classic favori"
+          "postId": "2114068501027856742",
+          "author": "roamingroninjin",
+          "searchJob": "rice",
+          "text": "looking at the massive weapon she commanded... the holder of the smile protected it well enough. Still....he felt the need to keep the smile...so he offered a rice cracker...cautiously."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114090555504562625",
-          "author": "hrbomber",
-          "searchJob": "auburn",
-          "text": "All those top recruits in the stands def gonna throw those offers in the trash im sure. Aint no way any of them decide to pick Auburn after that showing at home. The fact Jordan-Hare used to be tough for opponents to win at, now Auburn thin"
-        },
-        {
-          "reason": "explicit_non_fbs_target",
-          "postId": "2114084101733122466",
-          "author": "major_howelljr3",
-          "searchJob": "auburn",
-          "text": "Blessed to receive a offer from the University of Auburn #agtg @CoachHutzler @CoachKingWill @alexmfagan @hardingharper @AuburnFootball @Auburn247 @ELevy_WDE @Billy_Dee28 @JerisMcIntyre @AndrewWarsaw @Kaelenskipper @SWiltfong_ @TomLoy247 @Ch"
+          "postId": "2114067302962655484",
+          "author": "upnorth121",
+          "searchJob": "rice",
+          "text": "Be genuinely helpful enough to offer actual assistance.Her first meal consisted of kebabs—tender grilled meat pieces accompanied by rice, salad, and tzatziki. She sampled adana kebab, prepared from ground lamb, spicy and full of flavor, alo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114067324424634460",
-          "author": "neckofdwoods",
-          "searchJob": "auburn",
-          "text": "I could have been drunk as fuck at Jordan Hare right now. Did an install job at an Auburn donor house and the owner offered me a ticket to the game but I turned it down cause code of ethics 😩😩😩"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2114091052265066722",
-          "author": "gunterfehlinger",
-          "searchJob": "michigan",
-          "text": "🇺🇸🇺🇦 US MIDTERMS 2026 — 10 GOP NO VOTES ON UKRAINE! @GOP @POTUS On June 4, 2026, 194 Republicans voted AGAINST the Ukraine Support Act. These ten were among them: 1. Scott Perry — Pennsylvania 🇺🇸 2. Ryan Mackenzie — Pennsylvania 🇺🇸 "
+          "postId": "2114095091107475681",
+          "author": "casandraadamsaz",
+          "searchJob": "florida",
+          "text": "With the laws that are being put into place across the United States, i.e., free kill in Florida, the landscape is made a breeze for malfeasant doctors and victims are a nothing to the system. Even when your loved one dies because of medica"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114088703278850173",
-          "author": "kellyjobee",
-          "searchJob": "michigan",
-          "text": "@FFT1776 I will never believe these numbers. He is the most smug, divisive, arrogant candidate that Michigan could possibly offer. I do not believe he could ever get elected by Americans."
+          "postId": "2114083519865524281",
+          "author": "exposethe46933",
+          "searchJob": "florida",
+          "text": "@AshleyMoodyFL Doesn't Florida offer free College for residents? Isn't that socialism. Btw- universal Healthcare isn't socialism. And putting Americans first over special interests is not socialism https://t.co/0NTUVMx4UR"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114088160737275986",
-          "author": "grifkadkc",
-          "searchJob": "michigan",
-          "text": "I can just see Jason Beck going in a recruiting visit to a top high school athlete and getting laughed out of the house because no one is going to want to play in that rinky dink offense. No matter how much money Michigan offers."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2114084823874592955",
-          "author": "sca_oh",
-          "searchJob": "michigan",
-          "text": "Congrats Emma Christerson on your offers from Western Michigan &amp; Air Force WBB! Hard work pays off–can’t wait to see what’s next! 💚💙 #SCAFam #EliteMindset #NikeFam #nikeeybl https://t.co/KBgZJLtKb5"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114081249447018677",
-          "author": "antifahrdepart",
-          "searchJob": "michigan",
-          "text": "Lisa, Obama is campaigning in Ohio AND Michigan today. That's generally what politicians do ten days before an election. 🤣 But I have a question. When Trump or JD Vance shows up to campaign for Republicans, is that also a sign of desperati"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114069396981219651",
-          "author": "firstandtenyt",
-          "searchJob": "michigan",
-          "text": "Jyaire Hill is SEVERELY underrated in the 2027 NFL Draft!! Hill offers an appealing combination of size, athleticism, and physicality, with smooth movement skills and the ability to read routes and contribute against the run. His physical t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114067208041374097",
-          "author": "noxiousjellyfis",
-          "searchJob": "michigan",
-          "text": "@Figuregirl1977 @ali_allon @ThomasY27996556 As a male former person of size, I guarantee you he is jealous of your achievement. He's happy enough to offer sexual services to any man in Flint Michigan, but that's only because they cannot fin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114066481923396008",
-          "author": "unbiasedatlfan",
-          "searchJob": "michigan",
-          "text": "@BriceMarich @247Sports @SamWebb77 @TremendousUM @TomLoy247 @ZBlostein247 @michiganinsider disgusting ass offense but it'll be okay when michigan offers him the bryce underwood special"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2114082364003606677",
-          "author": "taylorblakeward",
-          "searchJob": "oregon",
-          "text": "Anaheim Ducks pick up their first victory against the Philadelphia Flyers in the Cutter Gauthier era, which thanks to Pat Verbeek (Zegras trade) and Daniel Brière (Carlsson offer sheet) is one of the most random modern rivalries in hockey"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114072885786460669",
-          "author": "rescon1",
-          "searchJob": "oregon",
-          "text": "https://t.co/mkuwZ7pRFX Providential. That’s the only way to describe what happened when Kaylub Giamanco, an unheralded 36-year-old carpenter from Bend, Oregon, intervened to take down an active shooter targeting elementary school students."
+          "postId": "2114079090227470428",
+          "author": "dailyjobcuts",
+          "searchJob": "florida",
+          "text": "🍦 Old Glory Ice Cream, a veteran-owned shop, is open in Crestview Florida Old Glory offers a wide range of ice cream options including: Soft‑serve cups & cones All‑American & signature sundaes Shakes & malts Flurries Classic & \"Freedom Fue"
         }
       ]
     },
@@ -359,12 +411,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 27,
-      "brandNewOffers": 0
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 31,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-24T20:28:43.641Z"
+    "status rebuilt locally from current store on 2026-10-24T20:56:30.873Z"
   ]
 }
