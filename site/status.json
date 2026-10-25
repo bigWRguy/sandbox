@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:43:36.134Z",
+  "generatedAt": "2026-10-25T09:58:46.666Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-25T09:43:35.769Z",
+    "at": "2026-10-25T09:58:46.280Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7747708333333333,
-    "p95Hours": 1.2761416666666667,
-    "worstHours": 1.5245102777777777
+    "medianHours": 0.7780605555555555,
+    "p95Hours": 1.275738611111111,
+    "worstHours": 1.5290672222222221
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -55,52 +55,111 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-25T09:43:35.768Z",
-      "got": 5,
-      "new": 2,
-      "lag": 0.73
+      "at": "2026-10-25T09:58:46.280Z",
+      "got": 15,
+      "new": 10,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-10-25T09:42:04.408Z",
+    "at": "2026-10-25T09:57:05.416Z",
     "mode": "live",
     "collection": {
-      "returned": 5,
-      "kept": 2,
-      "duplicate": 3,
+      "returned": 15,
+      "kept": 10,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 6,
+      "rejected": 4,
       "reasons": {
-        "no_fbs_school": 1
+        "hard_negative": 1,
+        "no_offer_term": 1,
+        "no_fbs_school": 2
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2114294943711715382",
+          "author": "roaring20snews",
+          "searchJob": "marshall",
+          "text": "2/ A Quarrel Unusual: Inside the 1926 Philanthropic Schism The October 1926 clipping titled \"A Quarrel Unusual\" captures an intense, public rupture within American Jewish philanthropy. At the center stood Felix M. Warburg, prominent partner"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2114274604021690433",
+          "author": "tomclilog",
+          "searchJob": "class:2026",
+          "text": "https://t.co/v6KbkvyNkX"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2114280696030347443",
-          "author": "dfrost013",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk with @CoachTclark I am blessed to receive my first D1 offer from @DelSt_Football. I am truly blessed to be in the position that I am right now. @DeSeanJackson10 #agtg https://t.co/OAnndjNS2G"
+          "postId": "2114293112239763735",
+          "author": "oregoncoinguru",
+          "searchJob": "oregon",
+          "text": "@WillTheRealDeal The State of Oregon actually has rules on the books that EVERY SINGLE Open Position, and this also applies to any internal promotions as well, THEY ALL HAVE TO BE OFFERED FIRST TO AN APPLICANT THAT IS A PERSON OF COLOR, OR "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114273293263921606",
+          "author": "bbcradiokent",
+          "searchJob": "kent-state",
+          "text": "All-day free parking is being offered at some council car parks in Tunbridge Wells so people can enjoy an upcoming Christmas event. More here: https://t.co/v6msfVxCzp https://t.co/JEYlWXajcK"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 6,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "school_not_resolved_confidently": 4,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114269459636777470",
-          "author": "smileymdxg",
-          "searchJob": "charlotte",
-          "text": "@itscharlotty @PpEL04_ @ApiwitshL I’m even more excited than Charlotte.🤭 Guys, I just want to see my girl SHINE.🌟✨✨ She deserves everything good that life has to offer.♥️ https://t.co/uMZWeFo6i2"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114295129158668495",
+          "author": "kimarsha49",
+          "searchJob": "marshall",
+          "text": "We’re in our way 🌈🚘🔛🔜 Yes, the Democratic Party can rebuild its relationship with the tech sector, and a concerted effort to do so is already underway. Political strategists, tech advocacy groups, and industry leaders outline several co"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2114288989142171803",
+          "author": "joelgack1",
+          "searchJob": "michigan",
+          "text": "There is no doing better. This was Warde’s last FUCK YOU to Michigan. I think Whitt has lost the offense by supporting Beck. I think BU and a slew of offensive players will hit the portal if he is still the HC unless he cans Beck (Bryce is "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2114291901444858111",
+          "author": "histories_arch",
+          "searchJob": "ole-miss",
+          "text": "The Capitulation of Ulm (or The Surrender of Ulm, 20th October 1805) by French artist Charles Thévenin, depicting Napoleon Bonaparte accepting the surrender of Austrian General Karl Mack von Leiberich. Painted between 1806 and 1815, it hang"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114289791449899165",
+          "author": "ahsan999544",
+          "searchJob": "coastal-carolina",
+          "text": "Norway tested its containerised Naval Strike Missile (NSM) Mission Module. A 20ft ISO container holds 4 missiles, allowing rapid deployment from trucks, ships, or the ground. This covert missile in a box offers extreme coastal defense flexi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114288505492816255",
+          "author": "jelwoodv",
+          "searchJob": "coastal-carolina",
+          "text": "Grok: **As of the latest reports (around October 22–23, 2026), the “Fe y Esperanza 2” / “Fe y Esperanza; emigrar no es un delito” caravan (also linked to “Sin Fronteras”) was in Huixtla, Chiapas.**[](<https://t.co/qjpRzVlOQb>) It left Tapac"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114276606671802767",
+          "author": "velitesgear",
+          "searchJob": "coastal-carolina",
+          "text": "RT @velitesgear | Full Text Article: https://t.co/TlSBeXBthf | Author: @militarnyi NSM Missile System Evolves with Container-Based Launcher Norwegian company KONGSBERG has successfully conducted launch tests of its Naval Strike Missile (NSM"
         }
       ]
     },
@@ -115,11 +174,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-25T09:43:36.136Z"
+    "status rebuilt locally from current store on 2026-10-25T09:58:46.667Z"
   ]
 }
