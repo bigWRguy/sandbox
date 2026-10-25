@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T18:55:45.276Z",
+  "generatedAt": "2026-10-25T19:13:49.387Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-25T18:55:45.019Z",
+    "at": "2026-10-25T19:13:48.961Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7265702777777778,
-    "p95Hours": 1.4771022222222223,
-    "worstHours": 1.7243319444444445
+    "medianHours": 0.7770675,
+    "p95Hours": 1.5261783333333334,
+    "worstHours": 1.7782441666666666
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 51,
+    "decided": 51,
     "complete": true
   },
   "pending": {
@@ -47,68 +47,360 @@
   "profileResolution": {
     "cached": 98
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 3620,
+    "completeOffers": 3621,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-25T18:55:45.018Z",
-      "got": 6,
-      "new": 3,
-      "lag": 0.69
+      "at": "2026-10-25T19:13:48.960Z",
+      "got": 74,
+      "new": 51,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-25T18:55:20.398Z",
+    "at": "2026-10-25T19:12:07.799Z",
     "mode": "live",
     "collection": {
-      "returned": 6,
-      "kept": 3,
-      "duplicate": 3,
-      "tooOld": 0,
+      "returned": 74,
+      "kept": 51,
+      "duplicate": 22,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 1,
+      "accepted": 31,
+      "rejected": 20,
       "reasons": {
-        "no_fbs_school": 1
+        "hard_negative": 3,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 15,
+        "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2114434325324386597",
+          "author": "ryanwmcdonald",
+          "searchJob": "utah-state",
+          "text": "Utah State commit from Ridgeline gets offered by Utah. Leads the state in rushing TDs this season with 37. Next closest player has 27 (Fiefia is second in rushing yards)"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2114429646041436517",
+          "author": "adamgorney",
+          "searchJob": "utah-state",
+          "text": "The prolific running back who’s committed to Utah State has landed a new offer from Utah @s_moraOn3"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2114422824429568077",
+          "author": "peterdorsey28",
+          "searchJob": "alabama",
+          "text": "Blessed To Receive My 5th D1 Offer From North Alabama @jovante_moffatt @The_CoachCoop @CoachResby @CMcFarland_44 @CarrDedreck @Coach_Will33 @justinallen_13 https://t.co/qUAbbvD0JR"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2114416023898394692",
-          "author": "la__cardinals",
-          "searchJob": "louisiana",
-          "text": "Congrats to C/O 2027 Guard @a3_hoops on receiving his first official offer from @SWCCRAMSMBB @ETHOOPS75605 @DoingItDodson @cpt_tatum @NxtProHoops @JackRiley323 @MattReynolds___ @EthanPiechota @Louisiana_Hoops https://t.co/5RftyCDZ48"
+          "postId": "2114428132145140197",
+          "author": "cnhinspections",
+          "searchJob": "nebraska",
+          "text": "🧸 Kids spend hours each day at daycare—playing, learning, and growing. Has the air they breathe been tested for radon? 🔎 CNHInspections offers radon testing performed by NRPP-certified and Nebraska-licensed professionals. 📩 Contact us to"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114421859513139551",
+          "author": "tyroist",
+          "searchJob": "stanford",
+          "text": "Christian always trying to colonize everything, including hospitals!!! Luke 9:1–6: Jesus commissioned the Twelve Apostles by granting them power and authority to cast out demons, cure diseases, and proclaim the Kingdom of God. Matthew 15:21"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114434256491733219",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] Xiaomi Pad 8 Creator's Edition Tablet with Pen, Graphite Grey, Standard 12GB RAM + 256GB Storage [ad] https://t.co/rCm1Qg3nE7 - Offer Price: Rs 48,999 + Bank Offer Discounts | MRP: Rs 63,999. #Ama"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114432906085220677",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 11-inch | Redmi Pad 2 Wi-Fi + Cellular Redmi Pad 2 Cellular Tablet with 2.5K Display, Sky Blue, 256 GB, 8GB RAM + 256GB Storage [ad] https://t.co/o6DlVJSFFE - Offer Price: Rs 23,999 + Bank Offer D"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2114432700387819870",
+          "author": "jamesgreenwy",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/KaDKQkF2V7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114431333409886239",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] ZAHD0731IN | IdeaTab Pro Gen 2 Lenovo Idea Tab Pro Gen 2 Tablet, Without Keyboard, 8GB + 256GB 199274982065 [ad] https://t.co/0FBewU6QHl - Offer Price: Rs 41,999 + Bank Offer Discounts | MRP: Rs 7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114430702280475085",
+          "author": "bg_hyderabad",
+          "searchJob": "texas-tech",
+          "text": "India’s first AI x Food Tech Hackathon, ‘Hack the Fork’ brought together 22 teams and 90+ participants from 10 states to develop AI solutions for sustainable Food, Nutrition, Safety and Waste reduction. Prizes worth ₹1.5 lakh were on offer."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114429745408651281",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] WiFi+5G | ZAFM0783IN Lenovo Idea Tab Tablet with Pen, 6+128 with Pen 199276599452 [ad] https://t.co/zPFvHA9A9i - Offer Price: Rs 23,999 + Bank Offer Discounts | MRP: Rs 53,000. #AmazonIndia #Great"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114428237275426820",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 11-inch | OPD2480 OnePlus Pad Lite Android Tablet, Wifi-only [ad] https://t.co/JLAhN5shyy - Offer Price: Rs 23,999 + Bank Offer Discounts | MRP: Rs 29,999. #AmazonIndia #GreatIndianFestivalSale Th"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114426845349446136",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] X1607CA-MB349WS | 90NB15A1-M00SJ0 ASUS Vivobook 16 AI Laptop with Intel Core Ultra 5 Processor, Without ASUS Care [ad] https://t.co/pN481K4tSE - Offer Price: Rs 88,990 + Bank Offer Discounts | MRP"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114425296976060551",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] CM3206DM4A-TR0119 ASUS Chromebook CM32 Detachable Touchscreen Laptop, Cloud Titanium 199291534926 [ad] https://t.co/ntLLWiCvKd - Offer Price: Rs 39,990 + Bank Offer Discounts | MRP: Rs 66,990. #Am"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114423879049630145",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 21SKA0J5IG Lenovo ThinkBook 16 AI Powered Laptop, Arctic Grey 199275345890 [ad] https://t.co/W16VGFNSvQ - Offer Price: Rs 91,990 + Bank Offer Discounts | MRP: Rs 1,45,800. #AmazonIndia #GreatIndia"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114422421323493636",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] 📦 Lenovo LOQ (83JE010SIN) – Intel Core i7-13650HX, 16GB RAM, 1TB SSD, NVIDIA RTX 5050, 15.6-inch FHD IPS Gaming Laptop at Rs 1,48,990 (MRP Rs 1,58,790) [ad] https://t.co/J4cRHiuW2T #AmazonIndia #"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114421029846286470",
+          "author": "techstoriesin",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India Great Indian Festival Deal ] fa2805TX | E71KRPA HP Victus 15 Gaming Laptop with RTX 4050, Blue 885981791372 [ad] https://t.co/beC4vv0TBv - Offer Price: Rs 1,36,990 + Bank Offer Discounts | MRP: Rs 2,57,727. #AmazonIndia #Grea"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2114434028044783684",
+          "author": "ballersinutah",
+          "searchJob": "utah",
+          "text": "This is a phenomenal offer from @Utah_Football - can’t say enough about that program and their commitment to giving our best players an opportunity. NOBODY deserves this more, Noah has earned this opportunity and it’s been a pleasure to wat"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114427277282812009",
+          "author": "pipesandcigars_",
+          "searchJob": "virginia",
+          "text": "Last call! Lane Limited Very Cherry is your fall favorite for smooth cherry flavor with Burley, Virginia, and black Cavendish. Offer ends TONIGHT at 11:59 PM ET. 🍒 🍂 https://t.co/VKV71jmokX https://t.co/SmAhcMLRb5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2114421802642612459",
+          "author": "farmingvirgina",
+          "searchJob": "virginia",
+          "text": "I'm sorry you are retarded and can't form a logical discussion. Democrats run states and cities offer the worst of everything. The most crime The most blight The most expensive gasoline The most homelessness The highest housing costs The mo"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 1,
+      "rejected": 30,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 12,
+        "multiple_resolved_schools": 6,
+        "school_not_resolved_confidently": 8,
+        "reporter_missing_player_name": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114408411563450565",
-          "author": "amesstraight",
-          "searchJob": "uconn",
-          "text": "Apparently, “ICE, go home” is now a mayoral welcome message. 🙄 Norwich, Connecticut, Mayor Swarnjit Singh said local police would not assist ICE enforcement operations, citing Connecticut’s Trust Act. His message echoed Governor Lamont: “I"
+          "postId": "2114431873887674617",
+          "author": "dioceseoftulsa",
+          "searchJob": "tulsa",
+          "text": "❓⛪ CATHOLIC CURIOUS? HAVE YOU EVER WONDERED... 🕯️Why Do Catholics Light Candles?🕯️ A small flame can represent a prayer that continues even after we leave the church. Lighting a votive candle is a beautiful expression of faith. Its light "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2114419222483017891",
-          "author": "jozzy33171",
-          "searchJob": "louisiana",
-          "text": "A shoemaker brought his eight-year-old boy downtown to watch history, and the child lost an eye before three o'clock. They are printed one line apart on the official list of the wounded from the Mechanics' Institute massacre in New Orleans "
+          "postId": "2114432839899128072",
+          "author": "txstgameday",
+          "searchJob": "utsa",
+          "text": "Can’t blame Traylor for taking Baylor if the offer comes. 💰P4 money, 💰 millionaire boosters, and a 💰deeper donor pool. That’s a massive upgrade from begging for funding at nearly every press conference for texas San Antonio. Baylor is a "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114419370302578906",
+          "author": "fightingmeeps",
+          "searchJob": "utsa",
+          "text": "@CoachTraylor I think despite offers for more money, and higher prestige, that Coach Traylor has the chance to make a real generational impact on at UTSA. He could be our Saban, our Mack Brown, our JEFF TRAYLOR"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2114412906192441382",
+          "author": "spikesdykes11",
+          "searchJob": "utsa",
+          "text": "@ShehanJeyarajah Jeff Traylor needs to come to grips with the fact that hes never getting to UT or a&amp;m directly from UTSA. If he ever wants to get there he needs to jump at the first P4 job that offers him."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114431163972595738",
+          "author": "jucofootballace",
+          "searchJob": "western-michigan",
+          "text": "Malik Thomas @_MalikThomas4 @ Navarro JuCo @NCDAWGPOUND picks up @WMU_Football Offer https://t.co/W9H1jy1B7o"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114434237604430057",
+          "author": "oliviaksayer",
+          "searchJob": "alabama",
+          "text": "After making four trips to Bryant-Denny Stadium this season, in-state OL Xavier Endicott finally received an offer from Alabama. \"The offer means everything to me.\" The Crimson Tide are in good standing here. 🔗: https://t.co/DwHtsRWUYz htt"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2114425343326978262",
+          "author": "blakebyler45",
+          "searchJob": "alabama",
+          "text": "Oxford (Ala.) OL Xavier Endicott received a long-awaited offer from Alabama yesterday on his fourth visit to Tuscaloosa. “I’ve had my eyes set on them since my first game. … Everything about it puts them at my No. 1.” https://t.co/z82kV2upf"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2114427349043491162",
+          "author": "thesportsontap",
+          "searchJob": "iowa",
+          "text": "There were 2,500 pigs on the farm. The chores were simple and they never stopped. Feed them. Clean them. Scrape the lots. Do it before school, then do it again after school. Yesterday the kid who did those chores coached his team to the big"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2114418470830116932",
+          "author": "nufbrecruiting",
+          "searchJob": "iowa",
+          "text": "My First Visit to 🏟️🏟️🏟️@NewRyanField. WOW!!! The bar was incredibly high, and somehow, Ryan Field exceeded every expectation! I had fantastic seats in the 100 level with club access, and the experience was first-class from start to fini"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114413479897752023",
+          "author": "lylemuller",
+          "searchJob": "iowa",
+          "text": "What real Iowa farmers offer - and are up against. “It’s greed... that takes away from the natural world.” — Iowa farmer who cares about Iowa’s drinking water and environment, overall. “If we complain,” he says, “we’re called anti-farmer.” "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114431876932739493",
+          "author": "kentuckykot",
+          "searchJob": "kentucky",
+          "text": "BBN says it wants Kentucky women’s basketball to keep growing. Monday offers a simple way to help. Show up. The entire team is scheduled for the live radio show at Drake’s Brannon Crossing from 7-8 p.m. Eastern. What would make you follow t"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2114429248425370013",
+          "author": "islandsmagazine",
+          "searchJob": "kentucky",
+          "text": "For an outdoorsy getaway close to a major city, Jefferson Memorial Park isn't too far from Louisville, Kentucky, and offers hiking, fishing, and more. https://t.co/a7cqjazuhC"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2114419515174035465",
+          "author": "bobby_schneid",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 Atlanta (Ga.) Woodward Academy 4-star EDGE Myles Tate. 👇 https://t.co/amwIIxJ6y9"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2114414715481079992",
+          "author": "timverghese",
+          "searchJob": "nebraska",
+          "text": "Nebraska offers 2028 Atlanta (Ga.) Woodward Academy four-star EDGE Myles Tate"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114421494994665530",
+          "author": "chrislapuma",
+          "searchJob": "stanford",
+          "text": "Stanford lost roughly 66% of its scoring, 57% of its rebounds and 59% of its steals from just 4 players. But Swain &amp; Ijiwoye look ready for bigger roles, Eschmeyer &amp; Tuhy offer rebounding and interior defense, Umeh adds depth, and S"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114421489864953888",
+          "author": "chrislapuma",
+          "searchJob": "stanford",
+          "text": "Perimeter defense is another question for Stanford. Clardy and Ogden combined for 3.1 steals/game last season, and the four major departures accounted for 59% of the team's steals. Ijiwoye offers hope. She averaged 2.6 steals per 40 minutes"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114414746955104524",
+          "author": "rotteninked",
+          "searchJob": "stanford",
+          "text": "Mrs. Stanford offered a glittering laugh, and now she is turning to Louisa. “And Louisa, darling, the boy has always been impossible to pin down. What’s your secret? Did you threaten to burn down half his fleet, or just appeal to his corpor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2114433195848659106",
+          "author": "fortworthreport",
+          "searchJob": "tcu",
+          "text": "TCU to offer lifestyle medicine certification for doctor of occupational therapy students fortworthreport.​org/2026/10/25/tcu-to-offer-lifestyle-medicine-certification-for-doctor-of-occupational-therapy-students/ https://t.co/fJFFhU2hGE"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114431670556512514",
+          "author": "4kwasp",
+          "searchJob": "texas-tech",
+          "text": "Oh I’m unaware of his relationship with Japan. I read the Walter Isaacson biography (fun fact that book was going to come out before he died and was going to be called iSteve: The Book of Jobs but then he died so they gave it a more serious"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114427618414285210",
+          "author": "adeolab88606356",
+          "searchJob": "texas-tech",
+          "text": "I got my job offer through Tech sector from Nigeria without using agent… #fyp #trending #viral #tech #newzealand https://t.co/hFtjfBfrXI"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114426041494352169",
+          "author": "qblurts",
+          "searchJob": "texas-tech",
+          "text": "@SydSteyerhart Tech, money, or writer problem? Goading AI to make long, visually consistent cuts from single, moving camera-views may be prohibitively time-consuming. Otoh, maybe writers just accept what AI prefers to offer. Maybe they don'"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114424767856136698",
+          "author": "001flight",
+          "searchJob": "texas-tech",
+          "text": "@mdubowitz Taking politics out of directing money, Israel offers more than the US, when it comes to where to invest. Israel is known for innovation, especially in medical tech."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114423227388952877",
+          "author": "hypernicon",
+          "searchJob": "texas-tech",
+          "text": "Yes, point 4 is partly wrapped up in the specific profile you mentioned in your original post. But it is also true to literal degree that might not be clear from a European perspective. If you are an American in tech, have an IQ of 140+, an"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2114422943262347482",
+          "author": "william93410891",
+          "searchJob": "texas-tech",
+          "text": "SuperShe Island It was a small, highly exclusive women-only luxury wellness retreat on an 8.4-acre private island in Finland’s Baltic Sea archipelago near Raseborg (about 100 km from Helsinki). Quick Overview American entrepreneur Kristina "
         }
       ]
     },
@@ -116,20 +408,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 5,
-      "failed": 1,
-      "requests": 6,
-      "errors": [
-        "louisiana-monroe: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 30,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-25T18:55:45.277Z"
+    "status rebuilt locally from current store on 2026-10-25T19:13:49.388Z"
   ]
 }
