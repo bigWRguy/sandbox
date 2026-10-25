@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T10:58:20.207Z",
+  "generatedAt": "2026-10-25T11:13:55.555Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-25T10:58:19.902Z",
+    "at": "2026-10-25T11:13:55.179Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5196797222222223,
-    "p95Hours": 1.271048888888889,
-    "worstHours": 1.5224727777777778
+    "medianHours": 0.7794986111111111,
+    "p95Hours": 1.2805866666666668,
+    "worstHours": 1.5308677777777777
   },
   "decisionCoverage": {
-    "total": 42,
-    "decided": 42,
+    "total": 6,
+    "decided": 6,
     "complete": true
   },
   "pending": {
@@ -55,273 +55,79 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-25T10:58:19.902Z",
-      "got": 70,
-      "new": 42,
-      "lag": 0.03
+      "at": "2026-10-25T11:13:55.178Z",
+      "got": 13,
+      "new": 6,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-25T10:56:51.094Z",
+    "at": "2026-10-25T11:12:16.851Z",
     "mode": "live",
     "collection": {
-      "returned": 70,
-      "kept": 42,
-      "duplicate": 28,
+      "returned": 13,
+      "kept": 6,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 33,
-      "rejected": 9,
-      "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 4,
-        "hard_negative": 3
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114294273311227906",
-          "author": "pabitrrabhabjp",
-          "searchJob": "temple",
-          "text": "Delighted to formally inaugurate the Sri Sri Lakshmi Temple at Maladhara Tiniali. On this auspicious occasion, offered prayers at the holy feet of Maa Lakshmi, seeking happiness, peace, well-being and prosperity for all. Such initiatives ro"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2114288515198431690",
-          "author": "zhongjinhua",
-          "searchJob": "temple",
-          "text": "https://t.co/FA69peA7Am"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2114292382405427407",
-          "author": "shubh19",
-          "searchJob": "class:2027",
-          "text": "Two senior engineer offers: Offer A: Cisco / Adobe - ₹48 LPA - Stable product, 2 meetings a day - Great health insurance, 3 days office - Low likelihood of learning cutting-edge AI architecture Offer B: Fast-growing AI Agent Platform - ₹52 "
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2114295812779860149",
-          "author": "astrohackerlabs",
-          "searchJob": "wake-forest",
-          "text": "Singularity Watch, Day 10 — October 25, 2026 SECURITY The Brotli flaw spreads. CVE-2026-111497, the remote code execution flaw in Google's Brotli compression library first exposed through Node.js and nicknamed \"Node2Shell,\" turns out to rea"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2113803038699966712",
-          "author": "dnapway",
-          "searchJob": "wake-forest",
-          "text": "Palo Alto Networks CEO Nikesh Arora on AI without guardrails: \"You're basically handing a nuclear bomb to the hands of anybody who wants it.\" \"This is the dark side of AI. And what I mean by that is, we've had all these debates at the White"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2114300845890117679",
-          "author": "leoschulz",
-          "searchJob": "arkansas-state",
-          "text": "In the years 1945 -- 1965 around 1.5m Jews were violently forced from their homes in Europe, Africa and the Middle East. Scores of millions around the world suffered the same fate, the greatest number being in India and the Ostdeutsch. In 1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2114281090592514523",
-          "author": "alonso_gd",
-          "searchJob": "arkansas-state",
-          "text": "The 2SS is not meant to be a “solution”. It is meant to be an exhaust vent for people who are either morally indifferent or committed to the ethnic cleansing and genocide of Palestinians and need to buy Israel some more time to carry it out"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2114274497394065870",
-          "author": "priyamvadagopal",
-          "searchJob": "arkansas-state",
-          "text": "Why are the governments officially committed to 'two-state' not sending forces to protect the West Bank? They know that any actual two-state solution relies on preventing further settlements &amp; removing illegal ones."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2114287742548856865",
-          "author": "lavaheadza",
-          "searchJob": "arkansas-state",
-          "text": "🇺🇳🕳️ Sjoe! The UN is 81 — and the World's Still Digging ~ 🇿🇦🏥 The Treaty Can't Fix the Clinic Queue ~ 🕳️🎤 Global Solidarity, Now With an Escape Hatch! The United Nations turned 81 this week. The speeches were polished, the flags wer"
-        }
-      ]
+      "accepted": 6,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 33,
+      "rejected": 6,
       "reasons": {
-        "multiple_resolved_schools": 3,
-        "bare_mention_requires_llm": 25,
-        "school_not_resolved_confidently": 5
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 3,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2114306229891727594",
-          "author": "diogenesinny71",
-          "searchJob": "temple",
-          "text": "THE BORDERLESS HOTEL: ENGINEERED DIVERSITY AND THE FALLACY OF THE CORPORATE FILTER PRESENTED BY DIOGENES OF THE REIPUBLICAE AMERICANAE The contemporary internal friction within the American right illuminates a profound structural contradict"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2114305777015889959",
-          "author": "diogenesinny71",
-          "searchJob": "temple",
-          "text": "THE BORDERLESS HOTEL: ENGINEERED DIVERSITY AND THE FALLACY OF THE CORPORATE FILTER PRESENTED BY DIOGENES OF THE REIPUBLICAE AMERICANAE The contemporary internal friction within the American right illuminates a profound structural contradict"
+          "postId": "2114313568510415237",
+          "author": "michaelarothman",
+          "searchJob": "louisiana",
+          "text": "𝐁𝐀𝐓𝐎𝐍 𝐑𝐎𝐔𝐆𝐄 𝐋𝐈𝐁𝐑𝐀𝐑𝐘 𝐅𝐈𝐑𝐄𝐒 𝐏𝐀𝐒𝐓𝐎𝐑 𝐅𝐎𝐑 𝐑𝐄𝐅𝐔𝐒𝐈𝐍𝐆 𝐓𝐎 𝐂𝐀𝐋𝐋 𝐀 𝐁𝐈𝐎𝐋𝐎𝐆𝐈𝐂𝐀𝐋 𝐅𝐄𝐌𝐀𝐋𝐄 '𝐇𝐈𝐌' Luke Ash worked at the East Baton Rouge Parish Library without a single incident from March 202"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114299498671296579",
-          "author": "astrostar09",
-          "searchJob": "temple",
-          "text": "Tula (Libra) Sit in moonlight wearing white and chant “Om Namah Shivaya”. Keep a silver coin nearby while praying. Donate curd and white clothes. Excellent for relationships and mental harmony.​ Vrishchika (Scorpio) Offer arghya with raw mi"
+          "postId": "2114298575618224512",
+          "author": "salihenergy",
+          "searchJob": "louisiana",
+          "text": "Latest in energy: 1. Iran denied reports that it offered to reopen Hormuz in exchange for lifting the US blockade -- Tasnim cited an informed source calling the reported proposal false, making a near-term diplomatic off-ramp look less likel"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114297345785602131",
-          "author": "sunilkthayil",
-          "searchJob": "temple",
-          "text": "@itz__daniyal80 As per your opinion Dhruv Rathee is a complete man. So we can build a temple and offer prayers daily.Isn't it?"
+          "postId": "2114313562608848919",
+          "author": "freedomlegi0n",
+          "searchJob": "wisconsin",
+          "text": "Radical David Crowley is a corrupt liar and a puppet of the Democratic political establishment. The bombshell reporting from the @realDailyWire exposed how David Crowley originally dropped out of the Wisconsin governor’s race and endorsed L"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2114293635986690489",
-          "author": "gujaratfirst",
-          "searchJob": "temple",
-          "text": "Shri Siddhi Group Family Offers Dhwaja at Dwarkadhish Temple on Sharad Purnima | Gujarat First Dwarkadhish Temple dhwajarohan: દ્વારકાધીશના શિખરે શ્રી સિદ્ધિ ગ્રુપ પરિવાર દ્વારા ધ્વજારોહણ ગુજરાત ફર્સ્ટ અને શ્રી સિદ્ધિ ગ્રુપ પરિવારની ધ્વજસેવ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114290754583777583",
-          "author": "yournotalone67",
-          "searchJob": "temple",
-          "text": "🎵❤️🙏🏻 I STILL PRAY — A TABLE FOR EVERY FAITH 🌍✌️ --- 🤣 WARNING: ANOTHER BLOODY SONG ABOUT LOVE, PEACE & HUMANITY! 🤣❤️ BROOOOOOO! 😂 I KNOW, I KNOW… Another song that's far too caring, compassionate and respectful! Not enough swearing,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114287253984055690",
-          "author": "ranjeetkrdass",
-          "searchJob": "temple",
-          "text": "Ahead of the Foundation Day celebrations of Hanuman Temple in Howly tomorrow, I visited the temple today to offer my prayers and seek the blessings of Lord Hanuman, as I leave for New Delhi to attend the BRICS Parliamentary Forum. https://t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114300698640683462",
-          "author": "chitribopinions",
-          "searchJob": "illinois",
-          "text": "John T. Shaw: ‘Child of Illinois’ offers powerful lessons on statecraft and service https://t.co/ckQKwWbrDe"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2114302566360289438",
-          "author": "floridasandy25",
-          "searchJob": "texas",
-          "text": "@elonmusk He needs to lose because he’s not that bright- just strongly opinionated. It’s crazy that in b a state the size v of Texas this is the only person the democrats could even offer up . No doubt there were viable choices out there"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114298362958876868",
-          "author": "tasukero_4649",
-          "searchJob": "texas",
-          "text": "#BOCACHICA Survival Rule: Crowdsourced space-data bounties offer daily food wages—but extreme South Texas sun &amp; security closures remain harsh physical barriers. *(Based on active October 2026 Texas street data)*"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114295095885177162",
-          "author": "gregbagwell",
-          "searchJob": "texas",
-          "text": "4/ He then spent the majority of his next few days interfering in the Texas Senate race, promoting Grok &amp; flying cars, but then (out of the blue) he offered a freebie - a SpaceX share for every kid - deflection as the debate on Starlink"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114292113773125759",
-          "author": "joakimsworld369",
-          "searchJob": "texas",
-          "text": "TWO BANKS COMPLETE LOAN PAYMENT USING TOKENIZED DEPOSITS ON ETHERIUM Texas banks Vantage Bank and Rio Bank completed a loan participation payment using tokenized bank deposits on Ethereum. Processed through Hazel Network and Participate, th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114304709356032342",
-          "author": "fetchpakistan",
-          "searchJob": "washington",
-          "text": "Iranian Ambassador to Pakistan Reza Amiri Moghadam said Tehran remains open to negotiations with the United States under a Pakistan-brokered interim arrangement. He said Iran had offered to reopen the Strait of Hormuz if Washington lifted i"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114302700804591757",
-          "author": "jimfrombaseball",
-          "searchJob": "washington",
-          "text": "\"George Washington was apparently seen throwing silver dollars across the Rappahannock River, which in 1936 was said to measure 272 feet in width and even wider in Washington’s day. The founding father’s reputed feat was likely not possible"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114297003530215522",
-          "author": "victormurashi",
-          "searchJob": "washington",
-          "text": "Seriously, does Burundi’s ruler, NEVA, alias Kirogorogo, ever think before opening his mouth, or does he simply blurt out whatever comes to mind? One moment, he presents himself as a mediator 🙄🙄 between Rwanda and the DRC, which is ridicu"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114295119725654393",
-          "author": "pettunia14",
-          "searchJob": "washington",
-          "text": "\"SANCTIONS ON A SUPREME COURT ​JUSTICE Beattie is a former White House speechwriter fired in 2018 after addressing an event frequented by white nationalists. He’s also the architect of \"free speech diplomacy, opens new tab,\" a policy advoca"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114293110041714793",
-          "author": "h_voice3",
-          "searchJob": "washington",
-          "text": "Iran's Tasnim News Agency quoted an unnamed Iranian official as saying that Tehran had made no new proposal to Washington through Pakistan, dismissing media reports of such an offer as false. The official said reopening the Strait of Hormuz"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114292114783936657",
-          "author": "news9tweets",
-          "searchJob": "washington",
-          "text": "US President #DonaldTrump has warned that Washington could launch fresh strikes against Iran as early as Sunday, October 25, while keeping the possibility of a diplomatic agreement open. #Tehran, however, has denied reports that it offered "
+          "postId": "2114301176531316916",
+          "author": "athensxbt",
+          "searchJob": "wisconsin",
+          "text": "In 1994, NBC aired an interview recorded inside a Wisconsin prison with a man most of America knew only from headlines. Before the year was over, he was dead. The man was Jeffrey Dahmer. Between 1978 and 1991 he killed 17 men and boys. In 1"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2114307648782758246",
-          "author": "myung0th",
-          "searchJob": "wake-forest",
-          "text": "@Roseldht I'm glad it could help you deal with a difficult state of mind ❤️‍🩹 whenever u want I can always offer a space to distract ourselves!! right now I think I'm fine but let's hope I don't wake up tmrw with a runny nose 😭"
+          "postId": "2114312889334894855",
+          "author": "andrewcorls",
+          "searchJob": "charlotte",
+          "text": "49ers-Falcons Total Betting Play The San Francisco 49ers and Atlanta Falcons are set to clash this Sunday, and the discrepancy in the market offers a prime opportunity to squeeze out extra value. We are looking at the total of 50 points and"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2114303998236696835",
-          "author": "kaka_office",
-          "searchJob": "wake-forest",
-          "text": "I slept 😴 at this hotel 🏨 by 5:45am was getting ready for the morning run, Now the stories at the hotel are fonny, staff said, today (Omusheija yeimuka Ikumi nibiri kuza Kwiruka) they were shocked to see a client leaving the hotel bed to "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2114297251845795934",
-          "author": "devatx0027",
-          "searchJob": "wake-forest",
-          "text": "Being a fresher is weird. You apply, keep learning, hear nothing back, and still wake up hoping something changes. Just waiting for the day an email finally says, “We'd like to offer you the position.” #JobHunt #Freshers #TechJobs"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2114296160265396707",
-          "author": "swissinfo_en",
-          "searchJob": "wake-forest",
-          "text": "The Swiss Post was long responsible for bringing the exact time into households in Switzerland, whether by phone or by radio. Sometimes it also offered a morning wake-up call. https://t.co/hrmjaKlXmK"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2114287771581825183",
-          "author": "ylolyfe",
-          "searchJob": "wake-forest",
-          "text": "friday ends and the body reaches for the old room. junk on the counter. a show you will not remember. the thumb doing laps until the night is gone and you call it recovery. that is not recovery. that is the default, reloading. the hard week"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2114310178090709436",
-          "author": "danieljhannan",
-          "searchJob": "arkansas-state",
-          "text": "Yes, the monarchy was deeply implicated in the slave trade. But not the British monarchy. The biggest African slavers were not pirates or bandits. They were kings. In the 1750s, King Tegbesu of Dahomey, in present-day Benin, was reported to"
+          "postId": "2114312887711801731",
+          "author": "letmebet_com",
+          "searchJob": "charlotte",
+          "text": "49ers-Falcons Total Betting Play https://t.co/NwDLsdxG1n The San Francisco 49ers and Atlanta Falcons are set to clash this Sunday, and the discrepancy in the market offers a prime opportunity to squeeze out extra value. We are looking at th"
         }
       ]
     },
@@ -336,11 +142,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 33,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-25T10:58:20.208Z"
+    "status rebuilt locally from current store on 2026-10-25T11:13:55.556Z"
   ]
 }
