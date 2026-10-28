@@ -21,7 +21,7 @@ const posts = fs.readdirSync(rawDir).sort().flatMap((f) =>
   fs.readFileSync(path.join(rawDir, f), 'utf8').split('\n').filter(Boolean).map((l) => JSON.parse(l)));
 console.log(`replaying ${posts.length} archived posts through the current pipeline...`);
 
-const replayMs = Math.max(...posts.map((p) => new Date(p.createdAt).getTime()).filter(Number.isFinite));
+const replayMs = posts.reduce((m, p) => { const t = new Date(p.createdAt).getTime(); return Number.isFinite(t) && t > m ? t : m; }, -Infinity);
 const replayAt = Number.isFinite(replayMs) ? new Date(replayMs).toISOString() : '1970-01-01T00:00:00.000Z';
 
 const candidates = prefilter(posts);

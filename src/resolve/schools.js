@@ -67,7 +67,11 @@ for (const s of SCHOOLS) {
   add(s.name, s.id);
   add(`${s.name} ${s.nickname}`, s.id);
   add(s.handle, s.id);
-  s.aliases.forEach((a) => add(a, s.id));
+  s.aliases.forEach((a) => {
+    add(a, s.id);
+    add(`${a} university`, s.id);
+    add(`university of ${a}`, s.id);
+  });
   add(`university of ${s.name}`, s.id);
   add(`${s.name} university`, s.id);
   add(s.nickname, s.id);
@@ -79,15 +83,30 @@ for (const [form, ids] of Object.entries(AMBIGUOUS)) {
 
 const FULL_NAME_FORMS = new Set();
 for (const s2 of SCHOOLS) {
-  for (const f of [s2.name, `${s2.name} university`, `university of ${s2.name}`, `${s2.name} ${s2.nickname}`, ...s2.aliases]) {
+  for (const f of [s2.name, `${s2.name} university`, `university of ${s2.name}`, `${s2.name} ${s2.nickname}`, ...s2.aliases, ...s2.aliases.flatMap((a) => [`${a} university`, `university of ${a}`])]) {
     const k = norm(f);
     if (k && k !== norm(s2.nickname)) FULL_NAME_FORMS.add(k);
   }
 }
 
+const WRAPPED_LINE = /([A-Za-z&]+)[ \t]*\r?\n[ \t]*([A-Za-z&]+(?:[ \t]+[A-Za-z&]+){0,2})/g;
+
+export function joinWrappedNames(text) {
+  return String(text || '').replace(WRAPPED_LINE, (m, a, rest) => {
+    const words = rest.split(/[ \t]+/);
+    for (let n = words.length; n >= 1; n--) {
+      const ids = forms.get(norm(`${a} ${words.slice(0, n).join(' ')}`));
+      if (!ids) continue;
+      const alone = forms.get(norm(a));
+      if (!alone || ![...ids].every((i) => alone.has(i))) return `${a} ${rest}`;
+    }
+    return m;
+  });
+}
+
 export const HANDLES = new Map(SCHOOLS.map((s) => [s.handle.toLowerCase(), s.id]));
 
-const FORM_LIST = [...forms.keys()].sort((a, b) => b.length - a.length);
+const FORM_LIST = [...forms.keys()].sort((a, b) => b.split(' ').length - a.split(' ').length || b.length - a.length);
 
 const INSTITUTION_WORD = new Set(['university', 'universities', 'college', 'colleges', 'school', 'schools',
   'institute', 'institutes', 'academy', 'academies', 'seminary', 'conservatory', 'polytechnic',
@@ -223,15 +242,12 @@ function foreignByShape(tokens, best, dashStarts = new Set()) {
   }
   if (before && INSTITUTION_WORD.has(before)) return 'campus';
 
-  const after = tokens.slice(best.e);
+  let after = tokens.slice(best.e);
+  const stop = after.findIndex((t) => SENTENCE_WORDS.has(t));
+  if (stop >= 0) after = after.slice(0, stop);
   if (!after.length) return null;
   if (MODIFIER_SUFFIX.has(after[0])) return 'modifier';
   if (MASCOT.has(after[0]) && !ownVocabulary(best.form).has(after[0])) return 'mascot';
-  const spare = after.filter((t) => !GENERIC_TAIL.has(t));
-  if (spare.length && spare.length <= 2 && best.form.split(' ').some((t) => INSTITUTION_WORD.has(t))
-      && !spare.some((t) => ownVocabulary(best.form).has(t))) {
-    return 'campus';
-  }
   let lastKw = -1;
   after.forEach((t, i) => { if (INSTITUTION_WORD.has(t)) lastKw = i; });
   if (lastKw >= 0) return after.slice(0, lastKw + 1).some((t) => !GENERIC_TAIL.has(t)) ? 'suffix' : null;
@@ -241,10 +257,17 @@ function foreignByShape(tokens, best, dashStarts = new Set()) {
   return null;
 }
 
+const SENTENCE_WORDS = new Set(['thank', 'thanks', 'you', 'for', 'and', 'via', 'with', 'to', 'i', 'im', 'is', 'was',
+  'my', 'blessed', 'grateful', 'coach', 'coaches', 'after', 'from', 'by', 'on', 'will', 'can', 'all', 'god',
+  'glory', 'excited', 'honored', 'humbled', 'agtg', 'looking', 'forward', 'huge', 'big', 'so', 'much', 'a',
+  'an', 'this', 'that', 'it', 'we', 'our', 'am', 'are', 'be', 'been', 'have', 'has', 'had', 'what', 'when']);
+
+const NAME_END = /https?:\/\/|[@#!?‼|]|\p{Extended_Pictographic}/u;
+
 function tokenizePhrase(phrase) {
   const tokens = [];
   const dashStarts = new Set();
-  const segs = String(phrase || '').split(/\s*[-–—]\s*/);
+  const segs = String(phrase || '').split(NAME_END)[0].split(/\s*[-–—]\s*/);
   segs.forEach((seg, i) => {
     const t = norm(seg).split(' ').filter(Boolean);
     if (i > 0 && t.length) dashStarts.add(tokens.length);
@@ -377,4 +400,67 @@ export function explicitNonFbsOfferTarget(text) {
   const tokens = norm(phrase.text).split(' ').filter(Boolean);
   if (!tokens.some((t) => INSTITUTION_WORD.has(t))) return false;
   return !containsFbsName(phrase.text);
+}
+
+const WRITTEN_BREAK = new Set(['a', 'an', 'i', 'im', 'ive', 'my', 'me', 'we', 'is', 'was', 'has', 'have', 'had',
+  'after', 'before', 'thanks', 'thank', 'coach', 'coaches', 'blessed', 'grateful', 'honored', 'excited',
+  'extremely', 'official', 'offer', 'offered', 'offers', 'from', 'to', 'at', 'in', 'on', 'with', 'by', 'for',
+  'and', 'or', 'but', 'great', 'visit', 'game', 'day', 'call', 'conversation', 'agtg', 'sec', 'acc', 'big',
+  'ten', 'b1g', 'pac', 'mac', 'mwc', 'aac', 'sbc', 'cusa', 'fbs', 'fcs', 'd1', 'div', 'division', 'ncaa',
+  'power', 'p4', 'p5', 'g5']);
+
+const WRITTEN_FILLER = new Set(['the', 'of', 'university', 'univ', 'college', 'football', 'fb', 'athletics',
+  'athletic', 'program', 'staff', 'recruiting', 'sports', 'edu', 'u', 'and']);
+
+function nearTo(tok, vocab) {
+  if (tok.length < 3) return false;
+  for (const w of vocab) {
+    if (Math.abs(w.length - tok.length) > 1 || w.length < 3) continue;
+    let i = 0;
+    while (i < tok.length && i < w.length && tok[i] === w[i]) i++;
+    const a = tok.slice(i), b = w.slice(i);
+    if (a === b) return true;
+    if (a.slice(1) === b || a === b.slice(1) || a.slice(1) === b.slice(1)) return true;
+    if (a.length > 1 && b.length > 1 && a[0] === b[1] && a[1] === b[0] && a.slice(2) === b.slice(2)) return true;
+  }
+  return false;
+}
+
+function schoolVocabulary(id) {
+  const s = byId.get(id);
+  const out = new Set();
+  if (!s) return out;
+  for (const v of [s.name, s.nickname, ...s.aliases]) norm(v).split(' ').forEach((w) => out.add(w));
+  return out;
+}
+
+export function writtenNameConflict(clause, schoolId) {
+  const own = schoolVocabulary(schoolId);
+  const known = new Set([...own, ...WRITTEN_FILLER]);
+  const src = String(clause || '').replace(/@[A-Za-z0-9_]+/g, ' ').replace(/#[A-Za-z0-9_]+/g, ' ');
+  for (const p of namePhrases(src)) {
+    if (/\b[A-Za-z]&[TtSs]\b/.test(p.text) && !/\bA&M\b/i.test(p.text)) return p.text.trim();
+    const { tokens } = tokenizePhrase(p.text);
+    let span = null;
+    for (let len = Math.min(tokens.length, 7); len >= 1 && !span; len--) {
+      for (let s = 0; s + len <= tokens.length; s++) {
+        const f = tokens.slice(s, s + len).join(' ');
+        if (forms.get(f)?.has(schoolId)) { span = { s, e: s + len }; break; }
+      }
+    }
+    if (!span) continue;
+    const walk = (list) => {
+      let seen = 0;
+      for (const t of list) {
+        if (WRITTEN_BREAK.has(t)) return null;
+        if (known.has(t) || nearTo(t, known)) { if (++seen >= 3) return null; continue; }
+        if (t.length < 3 || /^\d+$/.test(t)) return null;
+        return t;
+      }
+      return null;
+    };
+    const bad = walk(tokens.slice(0, span.s).reverse()) || walk(tokens.slice(span.e));
+    if (bad) return p.text.trim();
+  }
+  return null;
 }

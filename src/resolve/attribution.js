@@ -1,4 +1,4 @@
-import { SCHOOLS, HANDLES, findSchools, foreignInstitution, explicitNonFbsOfferTarget, namePhrases, norm } from './schools.js';
+import { SCHOOLS, HANDLES, findSchools, foreignInstitution, explicitNonFbsOfferTarget, writtenNameConflict, joinWrappedNames, namePhrases, norm } from './schools.js';
 import { decodeEntities } from '../lib/store.js';
 
 const OTHER_SPORT = /\b(?:baseball|softball|basketball|soccer|volleyball|lacrosse|golf|tennis|wrestling|rowing|hockey)\b|\bflag\s+football\b|\b(?:women|womens|girls|ladies)(?:['’]s)?\s+(?:flag\s+)?(?:football|team|program)\b/i;
@@ -31,7 +31,7 @@ export function seedDisplayAffiliations(post, cache, observedAt = new Date().toI
 }
 
 export function resolveOfferTarget(post, cache = { accounts: {} }) {
-  const text = decodeEntities(post.text || '');
+  const text = joinWrappedNames(decodeEntities(post.text || ''));
   const span = offerSpan(text);
   const clause = span.text;
   if (OTHER_SPORT.test(clause)) return { status: 'rejected', reason: 'other_sport_target', evidence: {} };
@@ -58,11 +58,15 @@ export function resolveOfferTarget(post, cache = { accounts: {} }) {
   if (official.length === 1) return { status: 'accepted', schoolId: official[0], reason: 'official_school_tag', evidence: { targetText: clause.slice(0, 180), schoolEvidenceType: 'official_school_tag', affiliationSource: 'fbs_handle' } };
   if (official.length > 1) return { status: 'pending', reason: 'conflicting_official_targets', evidence: { targetText: clause.slice(0, 180) } };
   const hits = findSchools(clause).filter((x) => x.id && x.confidence >= .9);
+  if (hits.length === 1 && span.form !== 'whole') {
+    const conflict = writtenNameConflict(clause, hits[0].id);
+    if (conflict) return { status: 'rejected', reason: 'written_name_not_school', evidence: { targetText: conflict.slice(0, 180) } };
+  }
   if (hits.length === 1) return { status: 'accepted', schoolId: hits[0].id, reason: 'full_school_name', evidence: { targetText: clause.slice(0, 180), schoolEvidenceType: 'full_school_name', affiliationSource: hits[0].method } };
   const linked = [...new Set(handles.map((h) => cache.accounts?.[h]).filter((a) => a && a.fbsSchoolId && a.expiresAt > new Date().toISOString() && /coach|program/.test(a.affiliationType || '')).map((a) => a.fbsSchoolId))];
   if (linked.length === 1) return { status: 'accepted', schoolId: linked[0], reason: 'coach_affiliation', evidence: { targetText: clause.slice(0, 180), schoolEvidenceType: 'coach_affiliation', affiliationSource: 'profile_cache' } };
   if (hits.length > 1) return { status: 'pending', reason: 'ambiguous_target', evidence: { targetText: clause.slice(0, 180) } };
-  if (span.form === 'object' && namePhrases(clause).some((p) => p.start <= 1)) {
+  if (span.form === 'object' && namePhrases(clause.replace(/[@#][A-Za-z0-9_]+/g, ' ')).some((p) => p.start <= 1)) {
     return { status: 'rejected', reason: 'explicit_non_fbs_target', evidence: { targetText: clause.slice(0, 180) } };
   }
   return { status: 'pending', reason: 'unresolved_offer_target', evidence: { targetText: clause.slice(0, 180) } };
