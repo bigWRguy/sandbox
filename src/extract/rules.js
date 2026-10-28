@@ -208,3 +208,23 @@ export function findReportedName(text) {
   }
   return null;
 }
+
+const ROUNDUP_LINE = /^\s*(?:\d(?:\.\d)?\s*(?:[⭐️]|stars?|\*)*\s*)?(20\d{2})\s+((?:[A-Z]{1,5}|Edge)(?:\/(?:[A-Z]{1,5}|Edge))?)\s+([^@\n]+?)\s*(?:@([A-Za-z0-9_]{2,15}))?\s*$/u;
+const ROUNDUP_ANY = /\b20\d{2}\s+(?:[A-Z]{1,5}|Edge)(?:\/(?:[A-Z]{1,5}|Edge))?\s+[A-Z][\p{L}'’.-]+\s+[A-Z][\p{L}'’.-]+/gu;
+
+export function parseRoundup(text) {
+  const src = String(text || '');
+  const anyCount = (src.match(ROUNDUP_ANY) || []).length;
+  if (anyCount < 2) return null;
+  const entries = [];
+  for (const line of src.split(/\r?\n/)) {
+    const m = line.match(ROUNDUP_LINE);
+    if (!m) continue;
+    const pos = m[2].split('/')[0].toUpperCase();
+    const name = m[3].trim();
+    if (!POSITIONS.includes(pos)) continue;
+    if (!/^[A-Z][\p{L}'’.-]+(?:\s+(?:Jr\.?|Sr\.?|II|III|IV|[A-Z][\p{L}'’.-]+)){1,3}$/u.test(name)) continue;
+    entries.push({ classYear: Number(m[1]), position: pos, name, handle: m[4] || null });
+  }
+  return entries.length === anyCount ? entries : [];
+}

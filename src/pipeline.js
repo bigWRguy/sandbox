@@ -4,7 +4,7 @@ import { readJson, writeJson, appendNdjson, readNdjson, sha1, decodeEntities, DA
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
 import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress } from './collect/queries.js';
-import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear } from './extract/rules.js';
+import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear, parseRoundup } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS, explicitNonFbsOfferTarget } from './resolve/schools.js';
 import { decorateOffers } from './resolve/tiers.js';
 import { resolveOfferTarget, seedDisplayAffiliations } from './resolve/attribution.js';
@@ -315,6 +315,19 @@ export function rulesOnlyOffers(p) {
   }
 
   if (p._rules.kind === 'reporter_voice') {
+    const roundup = parseRoundup(p.text);
+    if (roundup) {
+      return roundup.map((e) => ({
+        player_name: e.name,
+        player_handle: e.handle,
+        school_id: school,
+        class_year: e.classYear,
+        position: e.position,
+        high_school: null,
+        state: null,
+        confidence: 0.6,
+      }));
+    }
     const tagged = findTaggedRecruit(p, SCHOOL_HANDLES, KNOWN_ACCOUNTS);
     const prose = findReportedName(p.text);
     const name = tagged?.name || prose || null;
