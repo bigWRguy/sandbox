@@ -98,6 +98,7 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
   <select id="school"><option value="">All schools</option></select>
   <select id="cls"><option value="">All classes</option></select>
   <select id="grp"><option value="">All groups</option><optgroup label="Side of ball"><option value="OFF">Offense</option><option value="DEF">Defense</option></optgroup><optgroup label="Groups"><option value="SKILL">Skill (QB/RB/WR/TE)</option><option value="QB">QB</option><option value="RB">RB</option><option value="WR">WR</option><option value="TE">TE</option><option value="OL">OL</option><option value="IDL">Interior DL</option><option value="EDGE">Edge</option><option value="LB">LB</option><option value="DB">DB (CB + S)</option><option value="CB">CB</option><option value="S">Safety</option><option value="ATH">ATH</option><option value="ST">K / P / LS</option></optgroup></select>
+  <select id="lvl"><option value="">HS + JUCO</option><option value="hs">High school only</option><option value="juco">JUCO only</option></select>
   <select id="pos"><option value="">All positions</option></select>
   <select id="conf"><option value="">All conferences</option></select>
   <label><input type="checkbox" id="corr"> 2+ sources</label>
@@ -151,6 +152,9 @@ GROUPS.SKILL=GROUPS.QB.concat(GROUPS.RB,GROUPS.WR,GROUPS.TE);
 GROUPS.OFF=GROUPS.SKILL.concat(GROUPS.OL);
 GROUPS.DEF=GROUPS.IDL.concat(GROUPS.EDGE,GROUPS.LB,GROUPS.DB);
 
+var JUCO_RE=/juco(?:s)?|jc|junior college|community college/i;
+function isJuco(o){if(o._juco===undefined)o._juco=JUCO_RE.test((o.evidence||[]).map(function(e){return e.text||''}).join(' ')+' '+((o.player&&o.player.bio)||'')+' '+(o.highSchool||''));return o._juco}
+
 function render(){
   const q=$('q').value.toLowerCase().trim(),cls=$('cls').value,pos=$('pos').value;
   const conf=$('conf').value,corr=$('corr').checked,school=$('school').value;
@@ -161,6 +165,8 @@ function render(){
   }
   if(q)rows=rows.filter(o=>[o.playerName,o.playerHandle,o.schoolName,o.highSchool,o.state,o.position,o.conference].join(' ').toLowerCase().includes(q));
   if(cls)rows=rows.filter(o=>String(o.classYear)===cls);
+  const lvl=$('lvl').value;
+  if(lvl)rows=rows.filter(o=>lvl==='juco'?isJuco(o):!isJuco(o));
   const grp=$('grp').value;
   if(grp)rows=rows.filter(o=>GROUPS[grp].indexOf(o.position)>=0);
   if(pos)rows=rows.filter(o=>o.position===pos);
@@ -181,6 +187,7 @@ function render(){
 
     let metaParts=[];
     if(o.position)metaParts.push('<span>'+esc(o.position)+'</span>');
+    if(isJuco(o))metaParts.push('<span>JUCO</span>');
     if(o.classYear)metaParts.push('<span class="sep">&middot;</span><span>\''+String(o.classYear).slice(-2)+'</span>');
     if(ht)metaParts.push('<span class="sep">&middot;</span><span class="r-htwt">'+esc(ht)+'</span>');
     if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
@@ -261,7 +268,7 @@ async function load(){
   }
 }
 
-['q','cls','grp','pos','conf','corr','school'].forEach(function(id){
+['q','cls','lvl','grp','pos','conf','corr','school'].forEach(function(id){
   $(id).addEventListener(id==='corr'?'change':'input',function(){expandId=null;render()});
 });
 
@@ -277,7 +284,7 @@ document.addEventListener('keydown',function(e){
   var tag=e.target.tagName;
   if(tag==='INPUT'||tag==='SELECT'||tag==='TEXTAREA')return;
   if(e.key==='/'){e.preventDefault();$('q').focus();$('q').select()}
-  if(e.key==='Escape'){$('q').value='';$('cls').value='';$('pos').value='';$('grp').value='';$('conf').value='';$('corr').checked=false;$('school').value='';hourFilter='all';document.querySelectorAll('#tbtns .btn').forEach(function(b){b.classList.toggle('on',b.dataset.h==='all')});expandId=null;render()}
+  if(e.key==='Escape'){$('q').value='';$('cls').value='';$('pos').value='';$('grp').value='';$('lvl').value='';$('conf').value='';$('corr').checked=false;$('school').value='';hourFilter='all';document.querySelectorAll('#tbtns .btn').forEach(function(b){b.classList.toggle('on',b.dataset.h==='all')});expandId=null;render()}
   if(e.key==='r'||e.key==='R'){e.preventDefault();load()}
 });
 
