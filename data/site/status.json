@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T06:13:47.265Z",
+  "generatedAt": "2026-10-28T06:45:09.697Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-09-06T22:29:31.710Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-28T06:13:46.889Z",
+    "at": "2026-10-28T06:45:09.264Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,56 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "central-michigan",
+      "hours": 2.1
+    },
+    {
+      "id": "charlotte",
+      "hours": 2.1
+    },
+    {
+      "id": "coastal-carolina",
+      "hours": 2.1
+    },
+    {
+      "id": "georgia-southern",
+      "hours": 2.1
+    },
+    {
+      "id": "kent-state",
+      "hours": 2.1
+    },
+    {
+      "id": "louisiana-tech",
+      "hours": 2.1
+    },
+    {
+      "id": "marshall",
+      "hours": 2.1
+    },
+    {
+      "id": "utah-state",
+      "hours": 2.1
+    },
+    {
+      "id": "utep",
+      "hours": 2.1
+    },
+    {
+      "id": "western-michigan",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0298697222222222,
-    "p95Hours": 1.7800527777777777,
-    "worstHours": 1.7800527777777777
+    "medianHours": 1.3279847222222223,
+    "p95Hours": 2.0514855555555553,
+    "worstHours": 2.0514855555555553
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -55,109 +96,75 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-28T06:13:46.889Z",
-      "got": 14,
-      "new": 10,
-      "lag": 0.35
+      "at": "2026-10-28T06:45:09.263Z",
+      "got": 10,
+      "new": 5,
+      "lag": 0.27
     }
   },
   "audit": {
-    "at": "2026-10-28T06:12:06.721Z",
+    "at": "2026-10-28T06:43:30.191Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 10,
-      "duplicate": 4,
+      "returned": 10,
+      "kept": 5,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 4,
+      "accepted": 4,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 1
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2115304870014300567",
-          "author": "californiada9pr",
-          "searchJob": "california",
-          "text": "@MikeNellis Just get someone to buy Fetterman off. Higher offer than what MAGA is giving him now."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115299914687332439",
-          "author": "borkreport",
-          "searchJob": "california",
-          "text": "In Prison, Wheelchair Basketball Offers a Chance at Reinvention https://t.co/LWti37woO3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115318921238614100",
-          "author": "colhockeynow",
-          "searchJob": "colorado",
-          "text": "Full story: https://t.co/iWeUBINjE2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115318919598657712",
-          "author": "colhockeynow",
-          "searchJob": "colorado",
-          "text": "NHL Insider Offers Update on Artturi Lehkonen’s Contract Talks With Avalanche #COL https://t.co/uBO9TJsBt4"
+          "postId": "2115303066614321280",
+          "author": "305pitbullstar",
+          "searchJob": "miami",
+          "text": "@siennasph0219 @DrPepperVixen You all have to convince yourselves of that but you’re all literal whores AND once your looks fade you’ll have nothing to offer anyone"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 4,
       "reasons": {
-        "bare_mention_requires_llm": 6
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 1,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115292464018071578",
-          "author": "shaktirupen",
-          "searchJob": "temple",
-          "text": "Tucked within the historic Trikuteshwara Temple complex is a building that could easily be overshadowed by its larger neighbour. But step into the Saraswati Temple and the scale of its artistic ambition becomes immediately apparent. Dating "
+          "reason": "multiple_resolved_schools",
+          "postId": "2115328615206535338",
+          "author": "dunnbilly87734",
+          "searchJob": "air-force",
+          "text": "RAPHAEL Gamaliel Warnock[1] (/ˈrɑːfiɛl ˈwɔːrnɒk/ RAH-fee-el WOR-nok; born July 23, 1969) is an American politician and Baptist pastor serving as the junior United States senator from Georgia, . https://t.co/weih4HHras Kamala Harris and Raph"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115300977834377634",
-          "author": "nateman79",
-          "searchJob": "kentucky",
-          "text": "@ESPN680 @Phil__Baker @NickCurran35 You’re fucking stoned. Kentucky will match any offer, and Will Stein wants to be at Kentucky. Don’t be mad you can always rehire Bobby Petrino."
+          "postId": "2115316188452626749",
+          "author": "realkarlolson",
+          "searchJob": "minnesota",
+          "text": "@BevHarrisWrites Minnesota offers same-day registration."
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115303405887602864",
-          "author": "babyypinkeuu",
-          "searchJob": "byu",
-          "text": "@seongbyhyeon aku offer in aja byu terserah yg penting laku.. sumpek banget liat lemari penuh kardus 😭😭"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115329885308957004",
+          "author": "dbtindia",
+          "searchJob": "iowa-state",
+          "text": "Day 2 | ESTIC 2026 | Ocean Science and Maritime Technologies Dr. Srinivasa Kumar Tummala, Secretary, Ministry of Earth Sciences (@moesgoi) welcomed participants and highlighted the vital importance of oceans as sources of natural resources,"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115316945566466317",
-          "author": "lex_491",
-          "searchJob": "california",
-          "text": "@XavierBecerra If California votes for you, we are voting for 8 dollar gas. You have the energy of a snail. You have zero new ideas and nothing to offer low to middle class Californians. I pray Steve Hilton wins next week. Our lives depend "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115315424212762893",
-          "author": "illusionmesh",
-          "searchJob": "california",
-          "text": "@violetsvirtue Words don’t offer much but I do hope that things look up soon. I’m happy that you have a place to rest. I don’t know much about you but I know that you’re tough. If there’s anything I can do to help from California or do onli"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115320917102567805",
-          "author": "lahoopscene",
-          "searchJob": "colorado",
-          "text": "@fp_sd94604 @Kai_8x @zobrink @JPRockMO @CoachDRuff @CUBuffsFootball @IAMDOYLE22 @PrepRedzone @RivalsHS @AllenTrieu @adamgorney @GSV_STL A grown person in a teenager’s offer tweet is crazy."
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115329779973194175",
+          "author": "anindyab2026",
+          "searchJob": "buffalo",
+          "text": "🐤🚨 GOLD & SILVER ARE FLASHING A WARNING. IS YOUR PORTFOLIO LISTENING? You don’t have to own gold or silver to pay attention to them. Their message could matter just as much to your stocks and bonds. 🥇🥈 January’s crash was our first warn"
         }
       ]
     },
@@ -172,11 +179,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-28T06:13:47.266Z"
+    "status rebuilt locally from current store on 2026-10-28T06:45:09.698Z"
   ]
 }
