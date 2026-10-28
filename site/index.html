@@ -152,7 +152,7 @@ GROUPS.SKILL=GROUPS.QB.concat(GROUPS.RB,GROUPS.WR,GROUPS.TE);
 GROUPS.OFF=GROUPS.SKILL.concat(GROUPS.OL);
 GROUPS.DEF=GROUPS.IDL.concat(GROUPS.EDGE,GROUPS.LB,GROUPS.DB);
 
-var JUCO_RE=/juco(?:s)?|jc|junior college|community college/i;
+var JUCO_RE=/\bjucos?\b|junior college|community college/i;
 function isJuco(o){if(o._juco===undefined)o._juco=JUCO_RE.test((o.evidence||[]).map(function(e){return e.text||''}).join(' ')+' '+((o.player&&o.player.bio)||'')+' '+(o.highSchool||''));return o._juco}
 
 function render(){
