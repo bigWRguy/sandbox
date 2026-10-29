@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T16:43:56.970Z",
+  "generatedAt": "2026-10-29T16:59:45.870Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-29T16:43:56.457Z",
+    "at": "2026-10-29T16:59:45.326Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7794155555555555,
-    "p95Hours": 1.5294830555555556,
-    "worstHours": 2.019076666666667
+    "medianHours": 0.7912936111111111,
+    "p95Hours": 1.5436183333333333,
+    "worstHours": 2.28266
   },
   "decisionCoverage": {
-    "total": 68,
-    "decided": 68,
+    "total": 96,
+    "decided": 96,
     "complete": true
   },
   "pending": {
@@ -55,380 +60,379 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-29T16:43:56.456Z",
-      "got": 103,
-      "new": 68,
-      "lag": 0.12
+      "at": "2026-10-29T16:59:45.325Z",
+      "got": 140,
+      "new": 96,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-29T16:42:13.441Z",
+    "at": "2026-10-29T16:58:02.181Z",
     "mode": "live",
     "collection": {
-      "returned": 103,
-      "kept": 68,
-      "duplicate": 35,
-      "tooOld": 0,
+      "returned": 140,
+      "kept": 96,
+      "duplicate": 39,
+      "tooOld": 5,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 33,
-      "rejected": 35,
+      "accepted": 50,
+      "rejected": 46,
       "reasons": {
-        "no_fbs_school": 16,
-        "no_offer_term": 13,
-        "hard_negative": 2,
-        "non_fbs_offer_target": 4
+        "no_offer_term": 19,
+        "no_fbs_school": 24,
+        "non_fbs_offer_target": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2115835546622890385",
-          "author": "ameliaonai",
+          "reason": "no_offer_term",
+          "postId": "2115806932002881771",
+          "author": "nycmayor",
           "searchJob": "texas-tech",
-          "text": "@TopviewAIhq 30 days unlimited Kling 4.0 generation is an insane offer"
+          "text": "Just last month, DoorDash couldn’t seem to find the money to pay their deliveristas — until our administration forced them to give back $131M+ in stolen wages and penalties. This week, they’ve managed to find $17 billion to acquire one of t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2115834422268133387",
-          "author": "rjmans",
+          "postId": "2115782524764840081",
+          "author": "ap",
           "searchJob": "texas-tech",
-          "text": "Learn how Google Chrome's new tools, including AI quizzes, tab groups, split view, and cross-device syncing, can improve your study habits. https://t.co/Cgm3sfToFl"
+          "text": "BREAKING: DoorDash just agreed to buy Instacart for $17 billion. Here's what that means for customers and shoppers. https://t.co/6QYfEDmvqB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115815586785865963",
+          "author": "sidpatankar",
+          "searchJob": "texas-tech",
+          "text": "Yesterday I showed you a marketing innovation from Hyundai. Today it’s something kinda interesting from Renault. Watch and react! SVP [Renault Duster Hybrid, Strong Hybrid, Hybrid Duster, Electrified, Compact SUV, Renault India, Dacia Duste"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115821526482371047",
+          "author": "b2idigital",
+          "searchJob": "texas-tech",
+          "text": "The 15th Annual ROTH Technology Conference takes place at the Hard Rock Hotel (@HardRockHotels) in New York City on Tuesday and Wednesday, November 17-18, 2026, hosted by ROTH Capital Partners (@ROTHCapital) with B2i Digital as Official Mar"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115821062151938181",
+          "author": "anika_tech_ai",
+          "searchJob": "texas-tech",
+          "text": "2. THE CASE FOR LATE-NIGHT SEX For many couples, nighttime offers something mornings often don't: time to slow down. Fewer daily distractions. • More opportunities for relaxed conversation and affection. • A chance to reconnect after a stre"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115820685306323079",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 PlayStation PULSE 1000053547 Wireless $99.99 [ad] https://t.co/wtoZevCO67 – Sleek headset with convenient flat-folding earcups designed to fit your lifestyle – Seamless connectivity across multiple devices with Pl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115819230138683546",
+          "author": "thestembrief",
+          "searchJob": "texas-tech",
+          "text": "IIT Delhi has launched a six-month certificate programme in Agentic AI Systems. The programme will be offered online and aims to equip students with knowledge of artificial intelligence systems that can make decisions independently. Agentic"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115818292162228607",
+          "author": "michlieben",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/D879DMh2qD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115849195303387181",
+          "author": "prop_laboratory",
+          "searchJob": "arizona",
+          "text": "Nobody wants to hear how well the oven works when dinner is still frozen. Rams, Buccaneers, Texans: better than their records? We examine the numbers and next four games to see who’s built for a turnaround. Who makes the leap? #NFL #Footbal"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2115840121803354390",
+          "author": "alexibalog",
+          "searchJob": "arizona",
+          "text": "Honored to receive an offer from Arizona Christian University! Thank you Coach @coachboom_acu and the entire staff for this opportunity. Excited for what's ahead. @EnnsZoneKicking https://t.co/aMGn1lZncb"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115838951856500947",
+          "author": "voidelur",
+          "searchJob": "arizona",
+          "text": "@RENews_X They done Leon so dirty"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115837100176138668",
+          "author": "ellelovechi",
+          "searchJob": "arizona",
+          "text": "We read the case in detail, as you instructed us yesterday. Per the record, you were partnered up with a male child sex trafficker, while you were also sex trafficking a minor for sexual purposes across state lines with him as a co-defendan"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115556868886319362",
+          "author": "koshercockney",
+          "searchJob": "wake-forest",
+          "text": "The absolute simple f*cking accuracy of this What has happened to @TRobinsonNewEra could happen to anyone who speaks up with how the future of the UK looks. Via @Le_Crapaud47 https://t.co/yGNVLoMvvu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115831744465166765",
+          "author": "nnx0r",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/GGFiIGfwo4"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115827253896446148",
+          "author": "dickiebush",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/pzStKpiMt5"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115819934270042216",
+          "author": "reshadrahman",
+          "searchJob": "wake-forest",
+          "text": "🚨 JUST IN: This January, Barcelona wants to sign an experienced CB who can guarantee immediate performances. Bastoni, Gvardiol, Lisandro, Natan are all among the names liked within the club. @RogerTorello #Transfers 📁🔵🔴"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115510644979929220",
+          "author": "chase_senior",
+          "searchJob": "charlotte",
+          "text": "Garrett Wilson is a low maintenance WR, he's a top 10 WR in the NFL and has produced with awful QB play and is a great route runner. Kyle Shanahan would love him AND he's a building block for the future. #49ers"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115831536666759263",
+          "author": "cherieoscuro",
+          "searchJob": "charlotte",
+          "text": "@beeitsmehi I would offer to help but I'm so bad at talking I'm sorry I'm sorry please don't kill me"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115826772822327469",
+          "author": "thenatpulse",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/0fKYfW242n"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115838239940706726",
+          "author": "vandy_247",
+          "searchJob": "hawaii",
+          "text": "Story: https://t.co/PrJTXlcEgd"
         },
         {
           "reason": "hard_negative",
-          "postId": "2115833180380955070",
-          "author": "pf02101963",
-          "searchJob": "texas-tech",
-          "text": "29 OCT 2026 16:46 SWITZERLAND 🇨🇭 | 10:46 CME / CHICAGO 🇺🇸 NQ / NASDAQ — POST-OPEN REGIME RADAR MAIN CONCLUSION: The Nasdaq has entered Thursday's US cash session under heavy selling pressure despite stronger-than-expected American econo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115832459590078801",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Great Indian Festival Deal ] 📦 TAMRON Smartchoice (B091R) – Standard Zoom from a Wide 16mm to 50mm Focal Length at Rs 39,900 (MRP Rs 56,000) [ad] https://t.co/gfKQUsR8Vb – Designed for Canon APS-C mirrorless cameras – Covers"
+          "postId": "2115827525108871246",
+          "author": "neckformhrote",
+          "searchJob": "hawaii",
+          "text": "@cjlowehoops Jake Bauers and Pat Murphy go back to 2001 when Murphy turned down a coaching offer while Bauers was a Hawaii commit. Now he hands him the last out ball. Real team first energy"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2115831775121313964",
-          "author": "gonainly",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/JH2cy3M836"
+          "postId": "2115846190327644653",
+          "author": "deadlinetalkfc",
+          "searchJob": "rice",
+          "text": "⚽ Here's the latest article from Deadline Talk FC! Our GW8 review and GW9 preview is live — and it's a bit of a long one! ☕😂 Grab a cuppa, have a read and let me know your thoughts! 👇 #FantasyFootball #DreamTeam #DeadlineTalk #FPL https:/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115829225080963131",
+          "author": "ricebhoy",
+          "searchJob": "rice",
+          "text": "Upon reflection Duran offers more in terms of work rate anyway, and I sometimes feel like he would like the freedom to roam much more, so it genuinely could be a great option for us going forward. I also think our press is terrible with Nyg"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2115831525581471806",
-          "author": "brianroemmele",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/dWO3P8Ajic"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115825418091815308",
-          "author": "martin_bml",
-          "searchJob": "texas-tech",
-          "text": "Hmm"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115823011399938182",
-          "author": "elonmusk",
-          "searchJob": "texas-tech",
-          "text": "Interesting"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115841078674797010",
-          "author": "kayserhoops",
-          "searchJob": "virginia",
-          "text": "NEWS: 2027 4⭐ Jacoby Briscoe (@11kcolb___) has committed to UCF, he tells @LeagueRDY. The 6-foot-6 guard is a high-level shotmaker who ultimately chose UCF over Vanderbilt and Washington amongst many others. Nice pickup for UCF. https://t.c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115840461017407738",
-          "author": "farmingvirgina",
-          "searchJob": "virginia",
-          "text": "Democrats run states and cities offer the worst of everything. The most crime The most expensive gasoline The most homelessness The highest housing costs The most poverty The worst drug problems The highest taxes The most expensive utilitie"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115830264672739383",
-          "author": "farmingvirgina",
-          "searchJob": "virginia",
-          "text": "If you resist police while they are cuffing you you're going to get bumped up. That's a you decision. When I was 30 I was smashed into the side of a police car and taken to a roadside lineup where they figured out I wasn't their suspect. Be"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115841549598957761",
-          "author": "hotlesson",
-          "searchJob": "air-force",
-          "text": "https://t.co/h1o2qusQAQ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115532931003212059",
-          "author": "lookatmymeat1",
-          "searchJob": "navy",
-          "text": "Everything she said in ME1 was proven correct in ME3. The various alien races abandoned humanity the second the reapers arrived and the only reason Earth didn't fall was because intense guerilla warfare that Captain Anderson led. Ash's raci"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115111849544798474",
-          "author": "lastchalice",
-          "searchJob": "navy",
-          "text": "Ashley Williams. The most romanced space racist in the galaxy. https://t.co/TGEMEwy5rK"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115831496187482263",
-          "author": "greaternevadacu",
-          "searchJob": "nevada",
-          "text": "Your business has enough scares. Your banking shouldn’t be one of them. 🎃 GNCU offers business banking solutions to help keep things running smoothly. No tricks, just tools for your business. https://t.co/8FwR7VCf2G https://t.co/43B28qELeA"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2115837372269310199",
-          "author": "jaeem_3",
-          "searchJob": "arkansas",
-          "text": "After a conversation with @coachbailey_abc I’m blessed to recieve a offer from Arkansas Baptist @abc_football ❤️ #AG2G 🐢🏁 https://t.co/zqPiMQhaVg"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2115831073968140644",
-          "author": "qbhitlist",
-          "searchJob": "arkansas",
-          "text": "🚨🚨OFFER ALERT!! Congrats‼️🚨 @SVBracius_8 has received an offer from the University of Arkansas at Monticello 🎉 #TrustTheProcess"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2115612163331215545",
-          "author": "svbracius_8",
-          "searchJob": "arkansas",
-          "text": "After a great converastion with Coach @Huebner15, I am blessed to have received an offer from Arkansas - Monticello! @Dupage_Football @FBCoach_Rahn @FBCoachSush @coachjbeard1 @CoachFurco7 @JordanWesty1 https://t.co/JOA0LNgika"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2115837122674643359",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia",
-          "text": "Big Pancake Hunter lands an offer from West Georgia #RecruitGeorgia"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115836538751750632",
-          "author": "crockpics",
-          "searchJob": "georgia",
-          "text": "55 years ago today, on October 29, 1971, Duane Allman passed away after a motorcycle accident in Macon, Georgia. He was 24. Duane founded the Allman Brothers Band with his brother Gregg in 1969, and in just over two years they became one of"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115836179069255791",
-          "author": "kiss1041fm",
-          "searchJob": "georgia",
-          "text": "$20,000 reward offered as FBI searches for fugitive in Georgia gang case https://t.co/lQa8kXQaPS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115834168571781244",
-          "author": "hkb73",
-          "searchJob": "georgia",
-          "text": "The former president told supporters the upcoming election offers voters an opportunity to change the country's direction. “You get to say enough is enough. We’re voting for change here in Georgia,” Obama said https://t.co/oG2lcOsKHL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115827721288769751",
-          "author": "wgauradio",
-          "searchJob": "georgia",
-          "text": "$20,000 reward offered as FBI searches for fugitive in Georgia gang case https://t.co/ruutC9AyyZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115827621309317276",
-          "author": "roksanche",
-          "searchJob": "georgia",
-          "text": "I wanted to sign up for a photo workshop in Georgia but that would mean two weeks in one room with someone I don't even know. They don't offer single rooms 😬 I would not want to spend 2 weeks in one room even with someone I know."
+          "postId": "2115800310358900949",
+          "author": "bhaat_eater",
+          "searchJob": "rice",
+          "text": "Actual representation of Mumbai https://t.co/DPVvoyBwIP"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 33,
+      "rejected": 50,
       "reasons": {
-        "school_not_resolved_confidently": 15,
-        "bare_mention_requires_llm": 14,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 1
+        "school_not_resolved_confidently": 21,
+        "bare_mention_requires_llm": 23,
+        "multiple_resolved_schools": 6
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2115835306369044538",
-          "author": "tickeron",
+          "postId": "2115822526781649321",
+          "author": "anttsinc",
           "searchJob": "texas-tech",
-          "text": "$IGV vs $XLK: XLK's +30% Lead Highlights Steady Tech Exposure Over IGV's Recent Rally IGV focuses on software names like Palantir, Microsoft, and Palo Alto Networks, while XLK offers broader technology exposure led by NVIDIA and Apple. Over"
+          "text": "The hypocrisy in Big Tech is officially off the charts. Days after Microsoft offered buyout packages to over 60,000 workers to cut costs for AI, an internal recording leaked of their Cloud + AI Chief, Scott Guthrie, telling employees they w"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115822421634637981",
+          "author": "litcapital",
+          "searchJob": "texas-tech",
+          "text": "Mamdani weighing in on DoorDash M&A as if NYC is their only market is hilariously ignorant A combined $DASH and $CART will combine complementary tech and distribution networks that will offer more options for consumer and more orders for it"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115822111721968010",
+          "author": "shreemallatheru",
+          "searchJob": "texas-tech",
+          "text": "This is brilliant from Renault! I think most buyers won’t know what E-Tech is, how it works, or what benefits it offers. So, bringing customers into the showroom with the hybrid and then explaining its benefits alongside is a smart strategy"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115821023878840414",
+          "author": "mblasterx",
+          "searchJob": "texas-tech",
+          "text": "What people are posting on X versus what is happening in the field is so much different (currently looking for a new job and yeah big tech is hiring and interviewing but that’s about it and it’s usually the same people getting offers from a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115820911802929168",
+          "author": "prithvi_jadwani",
+          "searchJob": "texas-tech",
+          "text": "I’m 25. Went from a $1k/month job to running businesses doing $70k+ a month. I’ve always avoided talking about money online. But if I’m going to build in public, I might as well share the numbers. Been a while, so here’s a reintroduction. I"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115820532415480216",
+          "author": "prithvi_jadwani",
+          "searchJob": "texas-tech",
+          "text": "I’m 25. Went from a $1k/month job to running businesses doing $70k+ a month. I’ve always avoided talking about money online. But if I’m going to build in public, I might as well share the numbers. Been a while, so here’s a reintroduction. I"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115819967014998397",
+          "author": "meetshah6565",
+          "searchJob": "texas-tech",
+          "text": "The luckiest person in tech right now: Got a job offer 💀 Was about to resign from Microsoft"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115834297777328300",
-          "author": "aprajitanefes",
+          "postId": "2115816711316533751",
+          "author": "pulkit1577",
           "searchJob": "texas-tech",
-          "text": "THIS IS NOT A CARTOON, IT IS AN OPERATIONAL MAP You saw tank, pills, coins, brain, balloon. Now go deeper. The Economist covers use 4 layers at once economic, biological, military, spiritual. This one has all 4. LAYER 1: ECONOMIC CODE, WHO "
+          "text": "Got Microsoft's Voluntary Exit Offer (VEO) this week, along with ~60,000 colleagues across the US, UK, Canada and India. Big Tech is reshaping teams around AI. Whatever I decide, the lesson is clear: keep learning, keep building, own your c"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115834265711649006",
-          "author": "charliereports",
-          "searchJob": "texas-tech",
-          "text": "ITI offers tech industry’s roadmap for ‘responsible’ data center development | https://t.co/4nPiO1ETFN https://t.co/yjK4iSduaA @ITI_TechTweets"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115833553472966752",
-          "author": "jesswang2010",
-          "searchJob": "texas-tech",
-          "text": "Trump Won Big — Here Are Exactly How You Can Win Much Bigger and Faster: 1. Tweet more often like Trump and Elon!真相真理不重复，谎言邪教就会大行其道，畅通无阻！ Trump has his own social media platform, and Elon Musk has X (formerly Twitter), which strongly suppor"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115833491560755679",
-          "author": "jesswang2010",
-          "searchJob": "texas-tech",
-          "text": "Trump Won Big — Here Are Exactly How You Can Win Much Bigger and Faster: 1. Tweet more often like Trump and Elon!真相真理不重复，谎言邪教就会大行其道，畅通无阻！ Trump has his own social media platform, and Elon Musk has X (formerly Twitter), which strongly suppor"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115832681368093046",
-          "author": "jesswang2010",
-          "searchJob": "texas-tech",
-          "text": "Trump Won Big — Here Are Exactly How You Can Win Much Bigger and Faster: 1. Tweet more often like Trump and Elon!真相真理不重复，谎言邪教就会大行其道，畅通无阻！ Trump has his own social media platform, and Elon Musk has X (formerly Twitter), which strongly suppor"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115832662757675286",
-          "author": "chinaemb_ua",
-          "searchJob": "texas-tech",
-          "text": "Chinese EV brands are winning European consumers with balanced quality, tech and pricing. Partnerships including Stellantis-Leapmotor and Gotion-Volkswagen demonstrate deepening industrial cooperation. Chinese firms bring advanced battery a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115832324088824180",
-          "author": "janfelcute",
-          "searchJob": "texas-tech",
-          "text": "Need instant rack space? OMNI DC's Batam &amp; Jakarta facilities offer rapid deployment, custom fiber, and Tier-3 power redundancy. Sub-1.8ms to SG! https://t.co/RSyHKTHLsJ #DataCenter #Colocation #Tech"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115830672531312776",
-          "author": "martin_bml",
-          "searchJob": "texas-tech",
-          "text": "The big tech are actually very interested in blockchain-it offers lightning-fast order execution, ultra-low fees, and a host of other advantages, such as zero downtime. A higher valuation is possible."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115830518243578108",
-          "author": "tomleetracker",
-          "searchJob": "texas-tech",
-          "text": "TOM LEE SAYS STOCKS COULD RALLY STRONGLY AFTER THE MIDTERM ELECTIONS @fundstrat believes the current market uncertainty is creating a buying opportunity: - Defensive sectors like healthcare, staples, utilities, and waste services are rallyi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115830124058710359",
-          "author": "tv3_ghana",
-          "searchJob": "texas-tech",
-          "text": "President Vladimir Putin has told African leaders that Russia was their best partner, accusing what he cast as a colonial west of still trying to exploit the continent’s resources and using debt to hold back development. speaking at the thi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115828533876437455",
-          "author": "tharrowofapollo",
-          "searchJob": "texas-tech",
-          "text": "We made our clients $10M+ from cold email last year and have since dropped 99% of the tools most teams still use today. No Apollo. No Instantly. No Clay. Most teams are still buying leads from the same database, warming inboxes for 3 weeks,"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115827929502617823",
-          "author": "tylerpalmer",
-          "searchJob": "texas-tech",
-          "text": "every tech company in 2026: may we offer you... -a social network -an advertising network for your small business -our short form video app now has long form video! -our long form video app now has short form video! -some cloud compute! -we"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2115842273854234924",
-          "author": "tommygurganous",
-          "searchJob": "virginia",
-          "text": "JMU men’s basketball had offered Briscoe, who attends the St. James Performance Academy in Virginia. Doesn’t appear the Dukes were among the final schools anyway."
+          "reason": "multiple_resolved_schools",
+          "postId": "2115848639830790395",
+          "author": "thaijen777",
+          "searchJob": "arizona",
+          "text": "I’ve met a lot of people from WA, OR, IL, and I have yet to meet a refugee that’s a Liberal/Democrat. Not to say they’re aren’t any moving here. But we are in East Mesa and it’s a newer area recently built up. District 15 is solid Red. Kell"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115840285838049356",
-          "author": "joejusticewv",
-          "searchJob": "virginia",
-          "text": "In this episode of the Kanawha Valley Hustlers podcast, I visit the South Charleston Farmers Market for the second annual Taste of Appalachia event, an initiative that brings together West Virginia businesses to showcase their products thro"
+          "postId": "2115846843573916146",
+          "author": "mrfreedomphb",
+          "searchJob": "arizona",
+          "text": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم In the Name of God, Most Gracious, Most Merciful. ♥️🤲🕋♥️🕋🌹🌹🥀🤲🌹🕋♥️ بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ TO MY BELOVED SECOND TEACHER SHAYKH AS-SAYYID MUHAMMAD AL-NINOWY @ShaykhNinowy THE BRIDGE "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2115842545079210216",
+          "author": "mrfreedomphb",
+          "searchJob": "arizona",
+          "text": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْم In the Name of God, Most Gracious, Most Merciful. ♥️🤲🕋♥️🕋🌹🌹🥀🤲🌹🕋♥️ TO MY BELOVED TEACHER SHAYKH AS-SAYYID MUHAMMAD AL-YAQOUBI @shaykhalyaqoubi THE LIVING CHAIR OF IMAM AL-HASAN — THE INSTITUTE OF "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115826381116637680",
-          "author": "newsnowreport",
-          "searchJob": "virginia",
-          "text": "🕵️ Nearly 80 years after Bugsy Siegel’s murder, the belongings he left behind are coming into public view in downtown Las Vegas. 🏛️ The Mob Museum unveils “What Bugsy Left Behind” on November 13, featuring previously unseen personal effec"
+          "postId": "2115839726783770755",
+          "author": "realmarklauer",
+          "searchJob": "wake-forest",
+          "text": "Pray for @TRobinsonNewEra and demand justice. The USA should offer him asylum and threaten embargoes on UK goods and travel unless this absurdly unjust ruling is reversed. Maybe some real-world consequences for two-tier lawfare justice will"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115822258157437022",
-          "author": "udshealth",
-          "searchJob": "virginia",
-          "text": "Virginia fire departments: funding is available to help screen your career firefighters for cancer. The Virginia Department of Fire Programs’ grant offers eligible localities up to $350 per career firefighter. #VirginiaFirefighters #Firefig"
+          "postId": "2115839317108990306",
+          "author": "krisco7791",
+          "searchJob": "wake-forest",
+          "text": "If you live in Michigan, struggle to find affordable housing, struggle to pay rent, and struggle to find affordable healthcare, it is not Trump’s fault that Michigan prioritizes others over its citizens. How many immigrants do you see livin"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115838097720303897",
+          "author": "billmwbennett",
+          "searchJob": "wake-forest",
+          "text": "@yorksaxon @ZelenskyyUa Total lies. Ukraine has offered many times. Putin has zero interest in peace. Wake up!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115837862096802263",
+          "author": "happy_hillman",
+          "searchJob": "wake-forest",
+          "text": "In the noisy, fast-moving cryptocurrency industry, speculative hype cycles come and go with alarming speed, leaving countless short-lived tokens forgotten in their wake. What truly gives a token lasting value beyond market hype, and what ma"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115826654249468355",
+          "author": "sauravfcb",
+          "searchJob": "wake-forest",
+          "text": "This board can f*ck off. ​Summer window: -Agreement with Bastoni -Natan offered -Gvardiol on the shortlist ​Ignored Flick’s defensive needs for 2 seasons, only to wake up after losing to PSG &amp; Madrid. Now it's mid-window and Inter won’t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115849739073941695",
+          "author": "jc_t1metoshine",
+          "searchJob": "buffalo",
+          "text": "Blessed to recieve my 2nd offer from the community Christian college of Florida bulls https://t.co/Y6STzJvpK2"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115837717028454872",
-          "author": "b2idigital",
-          "searchJob": "air-force",
-          "text": "Safe Pro Group Inc. (@SafeProGroupCo) (@Nasdaq : $SPAI) has successfully completed all research milestones under the previously announced Phase I Small Business Innovation Research (SBIR) contract awarded by AFWERX in July. Subject to revie"
+          "postId": "2115845444530053631",
+          "author": "cmdedominicis",
+          "searchJob": "buffalo",
+          "text": "@NewsGuyLuke_ I mean last I heard they were making a push to get in the mix. Until it comes out he’ll go to Buffalo I would say smoke isn’t all the much. They feel confident with an offer not many if anyone can beat but means 0 if he won’t "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115842528012587316",
+          "author": "mcreekfutures",
+          "searchJob": "buffalo",
+          "text": "Thursday Wheat Report - October 29, 2026 The wheat complex is attempting a modest stabilization into late morning trade, pulling back from multi-month lows as commercial scale down buyers step in to defend key support zones. After weeks of "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115845354507915644",
-          "author": "tuffpicks",
-          "searchJob": "memphis",
-          "text": "NBA THURSDAY POTD #2 🚨🏀🔨 JERAMI GRANT o16.5 FANTASY - Revenge game in Portland‼️ - Over in 4/4 games this season averaging 20.7 Fantasy and 24.1 MPG - Last season with Portland with 24+ mins over this line in 45/51 games (88% hit rate) a"
+          "postId": "2115832807180186024",
+          "author": "robpetersonn",
+          "searchJob": "buffalo",
+          "text": "Urgently Selling 4 tickets to Buffalo Bills vs. Baltimore Ravens game for Thu 29 Oct at Highmark Stadium - Orchard Park, NY ( Section 116, Row 10) Can’t make it to the game anymore. ( Asking for $200 each. Open for offers!! Transfer via Tic"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115834266764644546",
-          "author": "jucofootballace",
-          "searchJob": "memphis",
-          "text": "Demetrius Dunlap @MeechieDunlap @ Iowa Western JuCo @ReiverFootball picks up @MemphisFB Offer https://t.co/RljLWOSyco"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115848272627609690",
+          "author": "jkchi28",
+          "searchJob": "charlotte",
+          "text": "@DustBaker Bears offered more than a 4th. Buckner wanted to go back to the 49ers sooo"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115825449452683749",
-          "author": "najobscognizant",
-          "searchJob": "memphis",
-          "text": "We don’t just offer jobs—we offer careers. Cognizant is looking for a Veritas Enterprise Vault L3 Support Engineer in Memphis, TN. Take the next step 📈 Apply today. https://t.co/VdXpdVMT0l #CognizantAroundTheWorld #hiring"
+          "reason": "multiple_resolved_schools",
+          "postId": "2115847947279638602",
+          "author": "fantasy_spew",
+          "searchJob": "charlotte",
+          "text": "The NFL trade deadline is Tuesday, Nov. 10 at 4pm ET. The Colts and Titans already started selling this week, and more moves are coming. Here's every rumor that matters for fantasy: the situation, the fantasy impact, and what to do now 👇 J"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115841274980819418",
-          "author": "verydmonstrous",
-          "searchJob": "navy",
-          "text": "[ Long, autistic rant/text wall inbound ] \"Everything she said in ME1 was proven correct in ME3\" ...Not really? (Nor do I think she was racist). There was truth to her concerns, but when you look more closely it's not so clear cut in her vi"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115845322056618108",
+          "author": "bradley_locker",
+          "searchJob": "charlotte",
+          "text": "@AntGullotta Everyone is available at the right price tbh. If the 49ers make a wild offer, doubt the Jets would turn it down"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115834241183285620",
-          "author": "taraross",
-          "searchJob": "navy",
-          "text": "Hewes was soon elected to the colonial assembly, then the provincial legislature. In 1774, he was elected a member of the Continental Congress, where he served as Secretary of the Naval Affairs Committee. He was instrumental in obtaining a "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115820774263050302",
-          "author": "mattybpod",
-          "searchJob": "navy",
-          "text": "If your design is all black, make a white version before you publish. Black text on a navy or charcoal shirt basically disappears, and a lot of buyers want the darker colors. Same design, two versions, way more colors you can actually offer"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115842313352052913",
+          "author": "darthceltic75",
+          "searchJob": "charlotte",
+          "text": "@DustBaker Bears offered more for bckner, he said he didnt want to go here, only 49ers and colt did him the silid. Stop acting like bears could trade for buckner. And simmons is head and shoulders over buckner as a player, younger, and lock"
         }
       ]
     },
@@ -443,11 +447,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 33,
+      "rejectedCandidates": 50,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-29T16:43:56.972Z"
+    "status rebuilt locally from current store on 2026-10-29T16:59:45.871Z"
   ]
 }
