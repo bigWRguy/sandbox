@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:12:40.095Z",
+  "generatedAt": "2026-10-29T23:29:46.224Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-29T23:12:39.673Z",
+    "at": "2026-10-29T23:29:45.672Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,18 +32,18 @@
   },
   "staleSchools": [
     {
-      "id": "texas",
-      "hours": 2.2
+      "id": "california",
+      "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.1304708333333333,
-    "p95Hours": 1.992898888888889,
-    "worstHours": 2.242048611111111
+    "medianHours": 1.040538888888889,
+    "p95Hours": 2.0426852777777778,
+    "worstHours": 2.277935
   },
   "decisionCoverage": {
-    "total": 11,
-    "decided": 11,
+    "total": 80,
+    "decided": 80,
     "complete": true
   },
   "pending": {
@@ -52,126 +52,387 @@
   "profileResolution": {
     "cached": 101
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 3968,
+    "completeOffers": 3976,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-29T23:12:39.673Z",
-      "got": 23,
-      "new": 11,
-      "lag": 0.53
+      "at": "2026-10-29T23:29:45.671Z",
+      "got": 121,
+      "new": 80,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-29T23:12:19.430Z",
+    "at": "2026-10-29T23:28:08.361Z",
     "mode": "live",
     "collection": {
-      "returned": 23,
-      "kept": 11,
-      "duplicate": 12,
+      "returned": 121,
+      "kept": 80,
+      "duplicate": 41,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 6,
+      "accepted": 37,
+      "rejected": 43,
       "reasons": {
-        "non_fbs_offer_target": 2,
-        "no_fbs_school": 3,
-        "no_offer_term": 1
+        "hard_negative": 15,
+        "no_offer_term": 7,
+        "no_fbs_school": 19,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2115921735564329133",
-          "author": "imthatguy1995",
-          "searchJob": "texas",
-          "text": "🐺💙 FROM CHAVEZ LOBOS TO COLLEGE FOOTBALL! 🏈🔥 Big congratulations to my guys Senior Esekier Hamm #52, Senior Da’Quan James #8, and Junior Angel Marquez #34 on receiving football offers from Texas College in Tyler, Texas! 💜💛 I’m super p"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2115921078761451703",
-          "author": "chsfootball26",
-          "searchJob": "texas",
-          "text": "🐺💙 FROM CHAVEZ LOBOS TO COLLEGE FOOTBALL! 🏈🔥 Big congratulations to my guys Esekier Hamm #52, Da’Quan James #8, and Angel Marquez #34 on receiving football offers from Texas College in Tyler, Texas! 💜💛 I’m super proud of these guys. @"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115914385768022497",
-          "author": "carbonreports",
-          "searchJob": "texas",
-          "text": "Cash Natural Gas Prices Head South Across the Map Natural gas spot prices retreated across most of the country Thursday, with Appalachia and West Texas among the hardest-hit markets, as persistently mild weather forecasts offered little enc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115913736129282399",
-          "author": "nginews",
-          "searchJob": "texas",
-          "text": "Cash Natural Gas Prices Head South Across the Map: Natural gas spot prices retreated across most of the country Thursday, with Appalachia and West Texas among the hardest-hit markets, as persistently mild weather forecasts offered little en"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2115911948894089570",
-          "author": "christiant_6",
-          "searchJob": "texas",
-          "text": "East Texas re offered ‼️💛 @coach_paramore @EMCCathletics @CourtlandHays @FadEmUpCam e https://t.co/IGJhuchAA7"
+          "reason": "hard_negative",
+          "postId": "2115936105816285505",
+          "author": "dunnbilly87734",
+          "searchJob": "boston-college",
+          "text": "William T. Stead, one of the members of the Round Table Group’s inner circle who was expelled because he opposed Cecil Rhodes’ and Alfred Milner’s crusading Boer War against the “heretic” White Dutch Protestants of South Africa—and was late"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2115922875953693019",
-          "author": "dailycollegian",
-          "searchJob": "penn-state",
-          "text": "After almost 40 years, an undergraduate environmental engineering degree has returned to Penn State. https://t.co/8I4TF3PwxB"
+          "postId": "2115946366778388875",
+          "author": "brentswancer",
+          "searchJob": "california",
+          "text": "https://t.co/Vr135NxNBU"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115946097101492502",
+          "author": "wreckeddiver2",
+          "searchJob": "california",
+          "text": "https://t.co/D0IqCvc2vI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115942617674326053",
+          "author": "soldwithpaul",
+          "searchJob": "california",
+          "text": "Shopping FHA in California? One national lender now offers up to 3.5% of the price as a second loan with 0% interest and no monthly payment, forgiven after five years of on-time primary payments if you stay in the home. Before you lean on i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115938645656076589",
+          "author": "sambenner",
+          "searchJob": "california",
+          "text": "Do you have to disclose a haunted house in California? Not the ghost. A death on the property within 3 years of the offer, yes. After that, only if a buyer asks. And then you can't lie. The three-year rule protects silence. It never protect"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115938151495852067",
+          "author": "porfiriy",
+          "searchJob": "california",
+          "text": "@StealthQE4 People who don't like the market dumping should just offer to buy up the stocks at higher prices"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115937126063947781",
+          "author": "boots_sanchez",
+          "searchJob": "california",
+          "text": "@RepRobertGarcia You guys sure talk a lot about doing things but offer no proof any of it will actual happen. You haven’t lowered anything in California for last 8 years while in power, sure keep encouraging refineries to close will help lo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115934714741903822",
+          "author": "theenjineer",
+          "searchJob": "california",
+          "text": "FYI: if you are registering for anything government-related in California - a school, a car, or medical insurance - and you say that you are not a citizen, they STILL will offer to register you for voting, and if you agree, they WILL regist"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115821764223869244",
+          "author": "gavinnewsom",
+          "searchJob": "california",
+          "text": "A warning to Donald Trump: I’m deploying election lawyers to key battleground districts in California to protect every vote. And I just made it a FELONY to illegally seize ballots."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115932020622966855",
+          "author": "leonaranjoiv",
+          "searchJob": "california",
+          "text": "Caruso is angling for something.......... You think he's JUST sucking azz now?? Wait....... HE wants contracts, without limitations to build HIS things HIS way where HE wants to build and WHAT HE wants to build. Palisades?? lol, oh the thin"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115927611998446079",
+          "author": "meidas_laurena",
+          "searchJob": "california",
+          "text": "Recent Department of Justice filings in the case offer signs that Heather Honey, a leading anti-voting activist whom the Department of Homeland Security (DHS) hired last year to a senior post, could have obtained the voter data from an undi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115924658432184664",
+          "author": "titanrecreation",
+          "searchJob": "california",
+          "text": "💪🏽 Ready to get moving, Titans! Explore everything Associated Students, Inc. at California State University, Fullerton has to offer at the Student Recreation Center—from programs and services to ways to get involved. 🏋🏽‍♂️🔥 https://t.c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2115928192741442004",
+          "author": "carter_hillfb",
+          "searchJob": "eastern-michigan",
+          "text": "@CoachOmli @EMUFB Enjoy the JUCO trip Coach! When you're back on the HS side, I'm a 2028 safety/corner in Orlando and I've allowed one completion all year. https://t.co/BZibsHuj8n How do I get on EMU's radar for an offer? Looking for a plac"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115936927430119555",
+          "author": "clauclamera",
+          "searchJob": "utsa",
+          "text": "@CollinsforTX @UTSA @TPUSA @tpusa_utsa @tpusastudents @texyouthsummit We Brazilians feel great shame regarding this fellow countrywoman, and we ask for forgiveness in memory of Charlie Kirk. We offer our apologies and ask for forgiveness."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115931922425884948",
+          "author": "lostsoldieroilg",
+          "searchJob": "wyoming",
+          "text": "Lost Soldier in Action: Work continues on the construction of approx. 5.5 miles of 8\" natural gas pipeline in the Wild Mustang Federal Unit, Bison Basin, Wyoming. Watch more: https://t.co/yysb1PgcbH #USA #Energy #OilAndGas For accredited in"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115940324518605180",
+          "author": "zhulizhong",
+          "searchJob": "class:2026",
+          "text": "https://t.co/nlKJBtIjV4"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115929228134736018",
+          "author": "earnlabcom",
+          "searchJob": "class:2026",
+          "text": "https://t.co/WYeCeIalEc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115914981611106732",
+          "author": "jamesdeanburto2",
+          "searchJob": "class:2026",
+          "text": "BTCUSD — Professional Market Structure Breakdown 4H · Bitstamp · October 29, 2026, 17:07 UTC−4 $79,026 −2.13% candle OHLC shown: Open $80,745 · High $80,760 · Low $78,200 · Close $79,026 1. Executive summary The chart shows a strong rally f"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2115932115850395824",
+          "author": "obwayaj",
+          "searchJob": "class:2027",
+          "text": "Blessed and honored to receive my 7th offer from the University of Jamestown🟠⚫️ @BlaineFootball @RouteRunnersLab @CoachZim_UJ @JimmieFootball https://t.co/yUyVmCDtys"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115946752037793916",
+          "author": "ahsfootball",
+          "searchJob": "class:2028",
+          "text": "Make that Kid an Offer ATH 2028 Kyron Pipes 1,200 Total yards and 10 TDs in 8 games @daonlykp_2028"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115911553698402373",
+          "author": "gpbsports",
+          "searchJob": "class:2028",
+          "text": "It's that time again 👀 Here are this week's Make That Kid an Offer nominees 🏈 Faith Moore | @Zaire1sykes | @Tee_Rob4 | @Qb1jah | @IsaacMcCalep | @bransonstowe10 | @daonlykp_2028 Read more about each player 🔗📄https://t.co/2v4DC7WkY5 http"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115944383795380633",
+          "author": "rylandoliphant",
+          "searchJob": "class:2028",
+          "text": "Weeks 1-9 Film! Archbishop Hoban 6’5 235 lbs Versatile TE C/O 2028 1 D1 Offer ⭐️ Hardest schedule in Ohio https://t.co/C00eD5O8lC https://t.co/NbjkP0T4w1"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2115940614865113312",
+          "author": "np4football_ot",
+          "searchJob": "class:2028",
+          "text": "Pesi “PJ” Silva-DB-2028-NV @NDSUfootball Offer #CFB"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2115932684312822082",
+          "author": "carter_hillfb",
+          "searchJob": "class:2028",
+          "text": "@coachkhalilp All about the Cats! Coach, I'm right up the road in Orlando, a 2028 ATH with 12 TDs this season. https://t.co/5Jdl4wr2AU Would St. Thomas be open to evaluating me for an offer? I'm looking to commit, Coach."
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 5,
+      "accepted": 9,
+      "rejected": 28,
       "reasons": {
-        "bare_mention_requires_llm": 4,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 18,
+        "multiple_resolved_schools": 6,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2115920669569618246",
-          "author": "igr_media",
-          "searchJob": "texas",
-          "text": "#IGR: Democrats lead nationally, but Senate control hangs in the balance Democrats lead Republicans in national polling ahead of the U.S. midterm elections, but key Senate races in Texas and Michigan remain competitive. The latest polls off"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115915847663489112",
-          "author": "lauren_chris",
-          "searchJob": "texas",
-          "text": "They would never allow that in India though bc unlike us Americans, Indians know how to mobilize and fight back. It’s truly pathetic that Indians and Muslims can mobilize & fight in a foreign country yet Americans are too useless and lazy t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115914107245543450",
-          "author": "beenice70",
-          "searchJob": "texas",
-          "text": "@strujillo075 I blame Texas homeowners If someone makes an offer on your house and the are from a west coast liberal shithole Decline the offer Don't sell to them"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2115931684595962197",
-          "author": "profilefblive",
-          "searchJob": "penn-state",
-          "text": "Penn State has had an active week of recruiting - issuing ten new scholarship offers to HS prospects. @PennStateFball 4.2⭐ 2029 DT Jdeion Jackson @Roadrunnerjdd 3.8⭐ 2027 WR Arnold Mugerwa @ArnoldMugerwa 3.6⭐ 2029 DT Kymani Stephney @Kymani"
+          "postId": "2115946086753878229",
+          "author": "odellbretthamjr",
+          "searchJob": "boston-college",
+          "text": "@NateLewis77 Had this same thought seeing Jon Smith sending out offers after barely beating Boston College last year. 2029 is crazy tho lol"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2115936958266356181",
-          "author": "sullyfootball",
-          "searchJob": "texas-am",
-          "text": "Division 1 coaches let Cyrus Allen start at La Tech, then he transferred to TAMU and did nothing, then hit the portal again with little to no interest before signing with Tulane lol and took a last ditch offer to be WR2 at Cincinnati Chiefs"
+          "postId": "2115933137062773072",
+          "author": "itmeolliev",
+          "searchJob": "byu",
+          "text": "Jaden Greathouse spent much of the last year fighting an injury and trying to rediscover the player Notre Dame thought it had. Mike Brown says something has changed lately — and the BYU game offered a pretty convincing glimpse. https://t.co"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2115942963092262931",
+          "author": "forgottenv1918",
+          "searchJob": "california",
+          "text": "Part 9 Radioactive Cesium in California Wine One of the most unusual discoveries appeared years later in bottled California wine. In 2018, researchers Michael Pravikoff and Philippe Hubert examined wines produced before and after the Fukush"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2115940969438949825",
+          "author": "farmgirlcarrie",
+          "searchJob": "california",
+          "text": "They first crossed paths in the summer of 1997 on the set of I Know What You Did Last Summer in a small North Carolina town. Sarah was nineteen, already a rising star. Freddie was twenty-one. At first they barely clicked. Different worlds, "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2115927777274949648",
+          "author": "erniemilleur",
+          "searchJob": "california",
+          "text": "WORLD NEWS REPORT Thursday, October 29, 2026 | U.S. and International News GLOBAL OVERVIEW The world's major developments today center on escalating military tensions, consequential American elections, economic uncertainty, humanitarian eme"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115924295985811941",
+          "author": "blobbyg13",
+          "searchJob": "california",
+          "text": "@eddchii @jlyack @alaburner22 @CameronJGilliam California isn’t that only state that offers medical benefits for illegal citizens 🤦‍♂️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115920627307782229",
+          "author": "generalg81",
+          "searchJob": "delaware",
+          "text": "@SleeperCFB @Delaware_FB @Poolking212121 @GarrettSmithley @TerenceArcher His agents phone is “ringing off the hook” with P4 offers 🫡"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115925468037992859",
+          "author": "dwat_25",
+          "searchJob": "utsa",
+          "text": "UTSA Offered #1way @coachgordon1 https://t.co/S7cHRsSyV3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115917536076415446",
+          "author": "np4football_ot",
+          "searchJob": "washington-state",
+          "text": "Tyran Mosley-WR-JUCO @WSUCougarFB Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115944326819709287",
+          "author": "profilefblive",
+          "searchJob": "class:2027",
+          "text": "Purdue is looking to add to its 2027 class with three new offered prospects in the past 24 hours. @BoilerFootball 3.5⭐ 2027 CB Chase Young @TheeChaseYoung 3.3⭐ 2027 ATH Ja'Zir Dickerson @JazirDickerson2 2.7⭐ 2027 ATH Xavier Teague @xavierte"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115921528155934789",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Conner Rutherford-OL-2027-OH @UMichFootball Offer #CFB"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2115942947896344622",
+          "author": "wpialrecruits",
+          "searchJob": "class:2028",
+          "text": "Recruit of the Week: Nate Cirincione, Bethel Park TE/EDGE, 2028 @NateCirincione Buffalo offered 10/24 and Toledo 10/28, his 5th D-I offer. Last Friday: a contested 29-yard TD catch in a 27-0 win over Peters Township. Which school should he "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115944210192805908",
+          "author": "samspiegs",
+          "searchJob": "class:2029",
+          "text": "Blue chip 2029 ATH BJ LaFell offered by the Irish https://t.co/WEqpIdeZ6W"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115941213547180144",
+          "author": "np4football_ot",
+          "searchJob": "class:2029",
+          "text": "Ryder Flugence-QB-2029-TX @UMichFootball Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115948551649861818",
+          "author": "sonyamarie24",
+          "searchJob": "maryland",
+          "text": "Maryland offers students shot at free tuition by staying for all four quarters of this Saturday's football game https://t.co/oTyZYZZFYd"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115947434568556558",
+          "author": "tristan061211",
+          "searchJob": "michigan",
+          "text": "Michigan offered! #AGTG @ChaseKett_umich @Coach_Dev @cy_woodland @icanbeeme1 https://t.co/ocGrDaHMLr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115944317793542400",
+          "author": "samspiegs",
+          "searchJob": "michigan",
+          "text": "Michigan offers No. 1 QB Ryder Flugence https://t.co/SnZoMjmKRL"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115943232622502281",
+          "author": "trsynwax",
+          "searchJob": "michigan",
+          "text": "@dontsippy Funniest thing is how Michigan offers a single party line vote as well."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2115937827838210068",
+          "author": "recruitgeorgia",
+          "searchJob": "michigan",
+          "text": "Taylor County sophomore defensive lineman earns an offer from Michigan #RecruitGeorgia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115936396116672786",
+          "author": "weseeitclear",
+          "searchJob": "michigan",
+          "text": "so far we have 1.7 million early votes in! we still got a ways to go! let’s get this W for @AbdulElSayed Michigan! tell your friends, tell your family, text your entire phone contact list, offer rides to the polls. Vote vote vote!!!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115933894830928264",
+          "author": "athleteeditshq",
+          "searchJob": "michigan",
+          "text": "@maxball2029 @aidanyoung_UM @curtfunk80 @FballTiger @UMichFootball Congrats on the offer! Need a custom offer graphic? DM me!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2115944940555362377",
+          "author": "chase13167253",
+          "searchJob": "ucla",
+          "text": "@On3 @PeteNakos UCLA has informed Nico they’re declining his offer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115940570279694698",
+          "author": "jhwill",
+          "searchJob": "ucla",
+          "text": "They don’t have to give Lynn whatever he wants and they don’t have to match any offer (like USC’s offer) but UCLA has to be OK with him leaving, if they don’t. That’s all I’m saying about Bob as well. If he goes undefeated and ask for more "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2115940452662710372",
+          "author": "glennmccaffrey",
+          "searchJob": "ucla",
+          "text": "@BruinsCapSpace This fantasy land offer for Boston would be so bad for the Bruins I can’t believe I had to read it. Seriously this dude is insanely overrated, he did nothing to lead Detroit, now look at this act. Can’t wait to never see Lar"
         }
       ]
     },
@@ -179,20 +440,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "baylor: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
-      "brandNewOffers": 0
+      "acceptedEvidence": 9,
+      "rejectedCandidates": 28,
+      "brandNewOffers": 8
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-29T23:12:40.096Z"
+    "status rebuilt locally from current store on 2026-10-29T23:29:46.225Z"
   ]
 }
