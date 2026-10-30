@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T08:43:41.195Z",
+  "generatedAt": "2026-10-30T08:59:22.471Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-30T08:43:40.811Z",
+    "at": "2026-10-30T08:59:22.150Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7787069444444444,
-    "p95Hours": 1.5270380555555556,
-    "worstHours": 1.5270380555555556
+    "medianHours": 0.7852958333333333,
+    "p95Hours": 1.2879947222222223,
+    "worstHours": 1.5390516666666667
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "pending": {
@@ -55,124 +55,95 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-30T08:43:40.810Z",
-      "got": 18,
-      "new": 12,
-      "lag": 0.04
+      "at": "2026-10-30T08:59:22.150Z",
+      "got": 12,
+      "new": 8,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-10-30T08:42:09.908Z",
+    "at": "2026-10-30T08:57:51.458Z",
     "mode": "live",
     "collection": {
-      "returned": 18,
-      "kept": 12,
-      "duplicate": 5,
-      "tooOld": 1,
+      "returned": 12,
+      "kept": 8,
+      "duplicate": 4,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 3,
+      "accepted": 7,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 3
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2116066321033027848",
-          "author": "irish_news",
-          "searchJob": "notre-dame",
-          "text": "Apprentice Boys banned from marching through the nationalist Lower Ormeau area rejected an alternative route offered by residents. Members of Belfast Walker Club had wanted to march through the mainly Catholic district next month. Read more"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116067651621417372",
-          "author": "mbjmemphis",
-          "searchJob": "memphis",
-          "text": "The Asian lifestyle department store offers beauty and skincare products from Japan and Korea, exotic snacks, collectible items, and home decor, as well as entertainment draws such as claw machines and photo booths. https://t.co/caTew9QoVH"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116088032109441188",
-          "author": "yourpremiertra1",
-          "searchJob": "ole-miss",
-          "text": "Have you heard? Exoticca is having a Black Friday Sale NOW, with some trips at 70% Off! Here is an example of the perennially popular destination - Italy! It is selling fast, so contact me to reserve a spot. Book yourself at https://t.co/Lk"
+          "reason": "hard_negative",
+          "postId": "2116077670698197349",
+          "author": "qasid4you",
+          "searchJob": "rice",
+          "text": "@NizamJourno PD Shops commit scam brazingly in our state. Instead of giving food items meant for Public Distribution, people running the shops are quite literally offer money over the counter if you prefer taking the money instead of rice."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 7,
       "reasons": {
-        "bare_mention_requires_llm": 7,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 5,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116075459767042351",
-          "author": "_louise__",
-          "searchJob": "notre-dame",
-          "text": "The level of hate that I get off the irish in this country is absolutely phenomenal. I really do wonder why I do what I do? All I have done is help. Whether it be people Close to me are far away I've been backstabbed in every direction, eve"
+          "postId": "2116087483805090154",
+          "author": "ainshams_univ",
+          "searchJob": "rice",
+          "text": "The Faculty of Agriculture Harvests Rice from Six Feddans and Offers the Produce to University Staff and Members at Discounted Prices https://t.co/SvBjrfe3Vf https://t.co/nJKtUQLBYE"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116067129963299160",
-          "author": "macbet1972",
-          "searchJob": "notre-dame",
-          "text": "🏇🔴 MACBET – FRIDAY RACING, THE TRADITIONAL WAY! 🔴🏇 📅 FRIDAY 30TH OCTOBER 2026 🏆 SIX RACECOURSES. TWO COUNTRIES. ONE PROPER BOOKMAKER! The weekend is almost here, but there's no slowing down at Macbet! 🔥 From the opening race at Newma"
+          "postId": "2116080209510199618",
+          "author": "viarifnote",
+          "searchJob": "rice",
+          "text": "2027: Peter Obi will strengthen naira to ₦500 per dollar if elected — Pat Utomi Political economist Pat Utomi has said Nigeria Democratic Congress (NDC) presidential candidate Peter Obi will strengthen the naira to ₦500 per dollar if electe"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116081390508728460",
-          "author": "finillin_dev",
-          "searchJob": "hawaii",
-          "text": "Kevin Costner’s wife asked for $248,000 a month in child support. In court, she said she didn’t know how she’d afford groceries. They had a prenup. It gave her 30 days to leave his house after she filed for divorce. A judge had to order her"
+          "postId": "2116075890236919991",
+          "author": "midnightwireq",
+          "searchJob": "rice",
+          "text": "Saudi Prince Mohammed bin Salman confirms that Barack Obama is the world’s number one sponsor of terror. He gave Iran $150B in cash, and the IRGC didn’t even build a single street with that money. Instead, Iran used the money to make missil"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116068642378924374",
+          "author": "chibuezemiller",
+          "searchJob": "rice",
+          "text": "Let's put Nigeria's economic reality into perspective. Before Tinubu took office in May 2023, compare what Nigerians paid for basic necessities with what they pay today: • Rice (50kg): ₦41,992 → ₦68,000 • Beans (1kg): ₦616 → ₦3,000 • Garri "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116080504344649739",
-          "author": "perky_43",
-          "searchJob": "navy",
-          "text": "⚖️ FORMER POLICE OFFICER ADMITTED ATTEMPTING TO SEXUALLY CONTACT GIRLS AGED 13 AND 15 A former Durham Police officer offered to send explicit images of himself to people he believed were girls aged just 13 and 15. But Haydyn Brunsdon, 31, w"
+          "postId": "2116090701041565888",
+          "author": "thecrawlhub",
+          "searchJob": "iowa",
+          "text": "🚨 CrawlHub · Newswire · 12h Brief Oct 30 💸 Binance, the world's largest cryptocurrency exchange, reported a security breach and froze $2.54 billion in assets. Blockchain analysis firm TRM attributes the theft to North Korea. This marks on"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116078307980857800",
-          "author": "anubratadastech",
-          "searchJob": "navy",
-          "text": "@Whitemayotrash @PulseDopplerRF Your Agosta's MESMA AIP is so noisy that Indian Navy rejected it when it was offered to them by France. 🤣"
+          "postId": "2116089751824437305",
+          "author": "kingnewswire",
+          "searchJob": "north-carolina",
+          "text": "Sandman, finn &amp; fitzhugh offers federal criminal defense representation in the eastern district of north carolina Attorney William F. ... https://t.co/VzYbN7eIRD https://t.co/gh3iBXHIHY"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116075129662734560",
-          "author": "emilybrownh",
-          "searchJob": "navy",
-          "text": "I Slept With My Boss🫠.. I (26M) was at work dinner with my colleagues and a few of us got drunker than the rest and so we went out for karaoke and more drinks after dinner had ended. When we were done I offered to drop my boss (52F) home. "
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2116062653588082715",
-          "author": "esegbonaluis",
-          "searchJob": "nevada",
-          "text": "🚨❤️Massive! 👏👏👏 Just few days after being kicked out of a soccer game for being \"too good,\" 3-year-old Nevada Pierre has gained over 1 million followers, Received $50,000 in donations, landed sponsorships, received shoutouts from Jay-Z "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116086855317827755",
-          "author": "tplaw_",
-          "searchJob": "illinois",
-          "text": "Chicago Illinois was a meeting point for colleagues and connections from around the world at the 2026 Interlaw Annual Global Meeting. Our Partner, Michael Sideras, represented the Firm, joining colleagues across the Interlaw network to shar"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116080653041021056",
-          "author": "candlesone7",
-          "searchJob": "ole-miss",
-          "text": "Elon Musk’s xAI Offers Buyouts to 400 Mississippi Homes to Quash Data Center Lawsuit https://t.co/GvP9HMw4mD"
+          "reason": "multiple_resolved_schools",
+          "postId": "2116078096667336819",
+          "author": "gakkeido_uk",
+          "searchJob": "pittsburgh",
+          "text": "A look back at 16 October, the opening day of our Gakkeido programme in collaboration with the Pitt Rivers Museum, Oxford. This highlights video captures moments from kiRin’s talk, interpreted by Kyoko, contributions from curator Faye Belse"
         }
       ]
     },
@@ -187,11 +158,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-30T08:43:41.196Z"
+    "status rebuilt locally from current store on 2026-10-30T08:59:22.472Z"
   ]
 }
