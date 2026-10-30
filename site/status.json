@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T05:58:23.690Z",
+  "generatedAt": "2026-10-30T06:13:51.963Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-30T05:58:23.338Z",
+    "at": "2026-10-30T06:13:51.427Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7688361111111112,
-    "p95Hours": 1.5239280555555557,
-    "worstHours": 1.5239280555555557
+    "medianHours": 0.7826619444444445,
+    "p95Hours": 1.5294172222222222,
+    "worstHours": 1.5294172222222222
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 59,
+    "decided": 59,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 101
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4000,
     "incompleteOffers": 0
@@ -55,111 +55,372 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-30T05:58:23.338Z",
-      "got": 14,
-      "new": 10,
-      "lag": 0.09
+      "at": "2026-10-30T06:13:51.426Z",
+      "got": 74,
+      "new": 59,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-10-30T05:56:51.755Z",
+    "at": "2026-10-30T06:12:11.641Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 10,
-      "duplicate": 4,
-      "tooOld": 0,
+      "returned": 74,
+      "kept": 59,
+      "duplicate": 11,
+      "tooOld": 4,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 1,
+      "accepted": 36,
+      "rejected": 23,
       "reasons": {
-        "no_fbs_school": 1
+        "no_offer_term": 10,
+        "no_fbs_school": 11,
+        "hard_negative": 2
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2116037903885517136",
+          "author": "rjmontgomery",
+          "searchJob": "south-florida",
+          "text": "https://t.co/tqG9ynIqj9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115314950730326218",
+          "author": "adi3848",
+          "searchJob": "temple",
+          "text": "@SudhanshuTrived @BJP4India @BJP4UP @BJPCentralMedia @narendramodi @PMOIndia @NitinNabin @JPNadda @AmitShah @myogiadityanath @mppchaudhary https://t.co/KOH3PicbwT"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2116027369353809938",
-          "author": "abc30",
-          "searchJob": "fresno-state",
-          "text": "DoorDash has offered $17B to Instacart to supercharge its grocery-delivery business. https://t.co/i9YJnV9kqW https://t.co/tH4JeBn7w6"
+          "postId": "2116038217967493605",
+          "author": "brgooley2",
+          "searchJob": "minnesota",
+          "text": "@KDoranKSTP @LBrownKSTP Does Mr. Klopp realize that one of the causes of homelessness is lack of available resources? If people can't afford a place to live, &amp; are not offered decent, adequate shelter until housed, they will likely end "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116038189701886297",
+          "author": "countyhwy",
+          "searchJob": "minnesota",
+          "text": "For years, the suggestion that Ilhan Omar had married her brother was treated like some kind of horrifying whacked-out right-wing racist, Islamophobic insanity. This despite repeated journalistic investigations showing evidence this was tru"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115793674118529180",
+          "author": "joeradinovich",
+          "searchJob": "minnesota",
+          "text": "Democrats should understand that the allegation is almost certainly true—whatever conclusion they draw from that point could vary—and her denials calling it a right-wing, Islamophobic or racist conspiracy are almost certainly not."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115791467633426555",
+          "author": "joeradinovich",
+          "searchJob": "minnesota",
+          "text": "Ilhan Omar Investigation Involves New Scrutiny of Long-Disputed Marriage https://t.co/1MFoSwmkpK via @NYTimes"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116033171636855186",
+          "author": "openlabx_",
+          "searchJob": "minnesota",
+          "text": "A 9,600 GPUs AI Supercomputer listed on Ebay for $59.7M : - Listed by Minnesota-based IT reseller Core 4 Solutions, the decommissioned cluster consists of 300 server racks, each packing 32 NVIDIA A100 40GB GPUs. - The full system includes 4"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116048973177749975",
+          "author": "foxwesttexas",
+          "searchJob": "texas",
+          "text": "Animal Care Services and Dogtopia’s “Boo-tacular” event offers $0 adoptions, adopter goodie bags and trunk-or-treating Saturday in Stone Oak. https://t.co/AJKplv7EJg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116028727012286525",
+          "author": "amesstraight",
+          "searchJob": "texas",
+          "text": "I had never heard of Elizabeth Barraza’s case until now. How has this gone unsolved for so long? On January 25, 2019, Elizabeth, 29, was setting up a garage sale outside her home near Tomball, Texas. A person arrived in a dark Nissan pickup"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116030709269942433",
+          "author": "cadesaunders08",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "After a great talk with @BenLoPrimo I’m grateful to receive an offer to continue playing at Pacific University! @Boxer_Football @MontroseFB https://t.co/KkbkYBeCeV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116049848109797422",
+          "author": "umh",
+          "searchJob": "stanford",
+          "text": "after the robots take your job, at least you'll have ur OGs to fall back on? https://t.co/Glfja5gIrW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116049641170952651",
+          "author": "thebitcoinbarb1",
+          "searchJob": "texas-tech",
+          "text": "@depressivehacks @nickisanders Wait offer them shooters for what"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116044884671099309",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] SF1000 | 4060519 Thrustmaster Ferrari Formula Racing Wheel Add-On 663296429896 [ad] https://t.co/yLIX1U1HZH - priced at $429.99. The Thrustmaster Formula Wheel Add-On Ferrari SF1000 Edition (SF1000) is an officially-"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116040618145124685",
+          "author": "nzediuto",
+          "searchJob": "texas-tech",
+          "text": "@sowore @PeterObi @NigBarAssoc Bitter man ,go to your state and contest before federal level. So we can see what you can offer"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116040403912695856",
+          "author": "techhome100",
+          "searchJob": "texas-tech",
+          "text": "What's gone wrong with the Snapdragon 8 Elite Extreme Gen6 ? ➜ TLB Design issues / Translation Lookaside Buffer ➜ Higher Mid-core cache Latency ➜ Mid-core IPC Performance is worse than the 8EG5, despite consuming more power at the same freq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116040293476942144",
+          "author": "heymakio",
+          "searchJob": "texas-tech",
+          "text": "@pcstyle53 I think the thing is the search part. I don't think mdfromx offers that, right?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116038394425864346",
+          "author": "techdropsdeals",
+          "searchJob": "texas-tech",
+          "text": "Woot Deal of the Day [$30.00 (5%) off]: (NEW) Nintendo Switch 2 - Game Bundle 🛍 https://t.co/VoUzUUHP8c Use code SAVETOBER at checkout for an extra 20% off (up to $40) this and other select daily deals! New customers get 30% off (up to $60"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116034972616450196",
+          "author": "kenfoody",
+          "searchJob": "ucf",
+          "text": "And if you think this all the way through, the logical progression is they do more than ask politely that you don't make derogatory racial slurs or risk getting thrown out and banned. Now every time you announce it you explain to the fans e"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116039186733994150",
+          "author": "mariaonchaindev",
+          "searchJob": "arkansas-state",
+          "text": "𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗮 𝗕𝗧𝗧𝗖 𝘃𝗮𝗹𝗶𝗱𝗮𝘁𝗼𝗿 𝗻𝗼 𝗹𝗼𝗻𝗴𝗲𝗿 𝗵𝗮𝘀 𝘁𝗼 𝗯𝗲 𝗮 𝗼𝗻𝗲-𝘄𝗮𝗹𝗹𝗲𝘁 𝗷𝗼𝗯 BitTorrent Chain now offers two ways in, and https://t.co/e9LLgufRUi lays them side by side. 𝗜𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝘁 𝗩𝗮𝗹𝗶𝗱𝗮\ud835"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115993361517891592",
+          "author": "binance",
+          "searchJob": "arkansas-state",
+          "text": "Binance's initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions. We have"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116038115525582920",
+          "author": "vijaywarriorshq",
+          "searchJob": "arkansas-state",
+          "text": "🚨🌍 Recommendations from TVK Virtual Warriors TO TAMIL NADU STATE GOVERNMENT, GUIDANCE TN & STARTUPTN: PLAN BIG FOR DAVOS 2027! 🇮🇳🇨🇭 A Strategic Proposal for thalapathy CM Vijay anna to Accelerate Global Investments, Economic Growth, A"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116034537859805256",
+          "author": "sosovaluecrypto",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/DBvfnBElVS"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116032251536318536",
+          "author": "mexicotimes",
+          "searchJob": "arkansas-state",
+          "text": "#Now #Mexico bids farewell to #CuauhtémocCárdenas. The historic opposition leader and first elected #MexicoCity mayor will lie in state Friday, October 30, at #PalacioDeBellasArtes. A public tribute to a defining figure in Mexican democracy"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 36,
       "reasons": {
-        "reporter_missing_player_name": 2,
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 4,
+        "bare_mention_requires_llm": 24,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 10,
         "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2116037362941882635",
-          "author": "jackbynum_",
-          "searchJob": "san-jose-state",
-          "text": "@theKennyTurner3 @PRO16League @3dHoopsAcademy Congrats Kenny, a Division 1 offer from San Jose State as a 2028 point guard is a big one, and a 3.8 GPA makes it even better. Ranked 63 by GASO too. Keep stacking. @thebrandedapp is a free recr"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116049655356420118",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Ujjain : Former Tripura CM Biplab Kumar Deb offers prayers at Mahakaleshwar Temple. https://t.co/D2ETUaeNve"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2116025810440114633",
-          "author": "willvapreps",
-          "searchJob": "lsu",
-          "text": "St Frances WR Samir Edwards receives LSU offer"
+          "postId": "2116048789798621532",
+          "author": "reikopuls",
+          "searchJob": "temple",
+          "text": "@RyanTrinkle @tradecraftfi @CantonNetwork @fairmint Will the token be offered by exchanges with a traditional order book too, like Temple?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116045675515539495",
-          "author": "marge_larg97875",
-          "searchJob": "oregon",
-          "text": "Childhood Health Associates of Salem (2024): Closed to new OHP patients (including newborns) because their PacificSource contract did not cover costs. Salem Clinic (effective Jan 2026): Dropped most OHP patients for primary care, urgent car"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116026865437524451",
-          "author": "bdoddles",
-          "searchJob": "oregon",
-          "text": "Once Leo signed that offer-sheet any build on that playoff run stopped, and you now have to rely on your prospect pool. When your best veteran is Granlund you're in trouble. Ducks are younger this season than they were during their rebuild "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116025477395533912",
-          "author": "realpeter337",
-          "searchJob": "oregon",
-          "text": "The U.S. Food and Drug Administration has officially approved the first lab-grown seafood for human consumption: cell-cultivated salmon from San Francisco startup Wildtype. This is a big step, as it marks the first time a lab-grown fish pro"
+          "postId": "2116043382112084052",
+          "author": "suranaup",
+          "searchJob": "temple",
+          "text": "🙏 Experience the spiritual charm of Surana! Temple Parikrama offers a peaceful journey of devotion, faith and divine blessings. 🌿 #RuralTourism #TempleParikrama #SpiritualTourism #Surana #UttarPradeshTourism https://t.co/pCiuK0inmc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116028401681359165",
-          "author": "susaejordan",
-          "searchJob": "south-carolina",
-          "text": "@DarlineGrahamSC I'm assuming you haven't a PLAN or Policy or anything substantive to offer South Carolina voters, other than repeating the same old CRAP coming out of Trump's mouth."
+          "postId": "2116042364905222280",
+          "author": "bhaktikibate",
+          "searchJob": "temple",
+          "text": "When Mahmud of Ghazni raided the Somnath Temple in 1026 CE, he was offered immense gold and jewels by the priests if he would spare the sacred temple idol, the Shivalinga. Instead Mahmud destroyed it, as he wanted to assert his religious do"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116041317528830365",
+          "author": "bhaktikibate",
+          "searchJob": "temple",
+          "text": "When Mahmud of Ghazni raided the Somnath Temple in 1026 CE, he was offered immense gold and jewels by the priests if he would spare the sacred temple idol, the Shivalinga. Instead Mahmud destroyed it, as he wanted to assert his religious do"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116040515951141190",
+          "author": "montee51",
+          "searchJob": "temple",
+          "text": "Not just the Epstein Island temple: Hollywood producer Barry Josephson offered to give Epstein a creepy fake church he built for a TV movie filmed on land (owned by fashion designer Tom Ford) next door to Zorro Ranch. Epstein later visited "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116039930153513120",
+          "author": "salwasamra70",
+          "searchJob": "temple",
+          "text": "𝐓𝐇𝐄 𝐒𝐏𝐈𝐑𝐈𝐓 𝐎𝐅 𝐀𝐍𝐓𝐈𝐂𝐇𝐑𝐈𝐒𝐓: 𝐃𝐨𝐦𝐢𝐧𝐢𝐨𝐧 𝐓𝐡𝐞𝐨𝐥𝐨𝐠𝐲, 𝐂𝐡𝐫𝐢𝐬𝐭𝐢𝐚𝐧 𝐙𝐢𝐨𝐧𝐢𝐬𝐦 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐓𝐡𝐢𝐫𝐝 𝐓𝐞𝐦𝐩𝐥𝐞 The Seven Mountain Mandate, the Scofield-Darby doctrine and the re-emergence of the Te"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116038384053600743",
+          "author": "aksu346062",
+          "searchJob": "temple",
+          "text": "@mayukh_panja True, lots of cultural nuances are present, Ganesh ji murtis discovered of pala era always carry radish in one arm. Same you see in Japan like in Matsuchiyama temple in Tokyo they offer radish as offering to kangiten (ganesh j"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116035742921289824",
+          "author": "fpjindia",
+          "searchJob": "temple",
+          "text": "A video of actress and BJP MP Kangana Ranaut went viral with claims that she performed special Karwa Chauth rituals for Prime Minister Narendra Modi on October 29. However, the viral claim is fake. The footage is actually from June 2026, wh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116032349767184842",
+          "author": "amazingthailand",
+          "searchJob": "temple",
+          "text": "✨ When faith and legend inspire the journey. Follow the Mekong through Bueng Kan and Nakhon Phanom, where sacred sites, ancient legends, and striking landscapes make every stop part of the story—a route not to be missed by spiritual travele"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116031816155230224",
+          "author": "dixithru",
+          "searchJob": "temple",
+          "text": "Paramapujya Jagadguru Sri Sri Vidhushekhara Bharati Sannidhana visited Kolhapur Sri Mahalakshmi Temple on 29-10-2026 and offered special Pooje to Sri Mahalakshmi. #Yatre2026 #AdvaitaParampare https://t.co/T8LNcPZqvX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116049994163564681",
+          "author": "fadeyiolayinka",
+          "searchJob": "florida",
+          "text": "Former USMNT striker, Eddie Johnson offered Nevada a place to train at his Orlando-based EJE7 Soccer Academy following a controversial incident at an i9 Sports youth league match in Winter Park, Florida. https://t.co/qchxD285OP"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116042259619791321",
+          "author": "donedealcardco",
+          "searchJob": "florida",
+          "text": "Check out 2026 Bowman Football TJ Abrams Yellow Mojo/275 Florida Gators https://t.co/kq655Sb3SY #eBay via @eBay $10 🛳️ Free shipping! 🤝 Shoot us an offer!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116031386196787527",
+          "author": "anything4uanyt",
+          "searchJob": "florida",
+          "text": "@chubs1889 @SusanAt76489567 @OrganizerMemes @AaronDFordNV True! In fact, it’s a fairly common campaign sleazy dirty trick going back decades from both parties. It’s not illegal unless money or something was offered as in the Florida case: 5"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116037099950592235",
+          "author": "wattysaskatoon",
+          "searchJob": "minnesota",
+          "text": "@GHMD22 @emilymkaplan What’s the benefit to the pundits to push a narrative like this? Nothing wrong with an insider stating that Minnesota has made, what appears to be, the best offer so far. 🤷🏻‍♂️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116035057919885565",
+          "author": "diamonddav93763",
+          "searchJob": "minnesota",
+          "text": "@ModanoBurner @DetroitRedWings @mnwild Detroit literally rejected Minnesota trade offers so many times because it's trash so your window is closed 🤣🤣🤣🤣"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116027940760871379",
+          "author": "oldmanlefty1",
+          "searchJob": "minnesota",
+          "text": "A company that owned a vacant private prison in Minnesota offered to sell it to the state in 2025 for $75 million. One year later, Trump used taxpayer funds to buy the same abandoned prison for $495.6 million. https://t.co/64m5Aa2aDG"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116029715438076135",
+          "author": "ausaec",
+          "searchJob": "texas",
+          "text": "Could not get heart surgery in Canada, so he was offered MAID. A Canadian man who needed heart surgery could not get it in Canada and was offered MAID instead, his mother says. He moved to Texas and had the surgery within a couple of months"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116044736146321621",
-          "author": "green_orchids",
-          "searchJob": "miami",
-          "text": "@Ayan1148001 Miami has more to offer than just hot women 😂"
+          "postId": "2116049930578268237",
+          "author": "udayempire_",
+          "searchJob": "texas-tech",
+          "text": "Learning Crypto & Web3 Day 92: Exploring Tokenized US Stock Futures for this upcoming quarter. The US stock market is heading into an interesting quarter, and there are plenty of reasons to pay attention. From major tech companies announcin"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116027716101353695",
-          "author": "_seanwho",
-          "searchJob": "miami",
-          "text": "@zenxax We’ve heard the Miami can’t compete with other offers thing. It really boils down to how hard Miami plays with their assets."
+          "postId": "2116048572932034567",
+          "author": "wegro_app",
+          "searchJob": "texas-tech",
+          "text": "CarTrade Tech Ltd has released an investor presentation detailing its performance and future strategy. 📈 𝗖𝗼𝗻𝘀𝘂𝗺𝗲𝗿 𝗚𝗿𝗼𝘂𝗽 𝗛𝗶𝗴𝗵𝗹𝗶𝗴𝗵𝘁𝘀: - Revenue has seen a substantial increase of 3.3x over the last five years. - Revenu"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116034218279203175",
-          "author": "dunnbilly87734",
-          "searchJob": "fresno-state",
-          "text": "To prepare for this picture of “King Jesus”, this Ruler over all the kingdoms of the earth, the pupil had to form an Imagination of Babylon and the plain around Babylon as a living picture, and, enthroned over Babylon, Lucifer with his bann"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116046638607372719",
+          "author": "honhai_foxconn",
+          "searchJob": "texas-tech",
+          "text": "🏙️ Hon Hai Tech Day 2026 | MODEL A+ Showcases Versatile Electric Mobility! Beyond its luxury off-road appeal, MODEL A+ offers even more possibilities! 🚙 https://t.co/AyMRZKklc5"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116045285671784826",
+          "author": "the_analyst_24",
+          "searchJob": "texas-tech",
+          "text": "Midea Group (https://t.co/RsRXGMwc4T) has long since evolved beyond its origins as a traditional home appliance manufacturer, transforming into a highly profitable industrial-tech giant through its B2B and AI initiatives. Comment from https"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116044200768852327",
+          "author": "cyberparkkerala",
+          "searchJob": "texas-tech",
+          "text": "The MERGE FUTURE 2027 Business Tech Expo is happening on 9–10 January 2027 at the Calicut Trade Centre! Exclusive Cyberpark Offer: Get 60% OFF on tickets using promo code MERGECYBER. Register now: https://t.co/5fE2UTltE4 #MERGEFUTURE2027 #C"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116044176894669150",
+          "author": "indianhrblog",
+          "searchJob": "texas-tech",
+          "text": "&amp;#039;Involuntary entrepreneur era&amp;#039;: Tech veteran&amp;#039;s warning to IT workers as Microsoft offers buyouts to 60,000 employees https://t.co/Wao3QNfIYc"
         }
       ]
     },
@@ -174,11 +435,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 36,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-30T05:58:23.691Z"
+    "status rebuilt locally from current store on 2026-10-30T06:13:51.964Z"
   ]
 }
