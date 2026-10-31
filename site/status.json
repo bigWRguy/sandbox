@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T06:13:40.694Z",
+  "generatedAt": "2026-10-31T06:28:39.224Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-31T06:13:40.052Z",
+    "at": "2026-10-31T06:28:38.652Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7777544444444444,
-    "p95Hours": 1.5274213888888888,
-    "worstHours": 1.7776966666666667
+    "medianHours": 0.7775691666666666,
+    "p95Hours": 1.529041388888889,
+    "worstHours": 1.529041388888889
   },
   "decisionCoverage": {
-    "total": 34,
-    "decided": 34,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 101
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4047,
     "incompleteOffers": 0
@@ -55,236 +55,182 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-31T06:13:40.051Z",
-      "got": 77,
-      "new": 34,
+      "at": "2026-10-31T06:28:38.651Z",
+      "got": 57,
+      "new": 20,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-10-31T06:12:02.906Z",
+    "at": "2026-10-31T06:26:56.730Z",
     "mode": "live",
     "collection": {
-      "returned": 77,
-      "kept": 34,
-      "duplicate": 39,
-      "tooOld": 4,
+      "returned": 57,
+      "kept": 20,
+      "duplicate": 37,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 30,
+      "accepted": 16,
       "rejected": 4,
       "reasons": {
-        "no_fbs_school": 4
+        "hard_negative": 1,
+        "no_offer_term": 1,
+        "no_fbs_school": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2116400542477885588",
-          "author": "robotechnews",
-          "searchJob": "navy",
-          "text": "#ROBOTECH: THE #MACRSS SAGA WEATHERED NAVY BLUE VF-1S FOKKER WITH FAST PACK ARMOR Limited to only 100sets Original Price: US$240 Special Offer Price: US$150(Free Shipping &amp; Tax) ORDER HERE: https://t.co/zEWGdNiaro #80s #anime https://t."
+          "reason": "hard_negative",
+          "postId": "2116416214578676144",
+          "author": "thehouseofgoose",
+          "searchJob": "georgia",
+          "text": "THE RECORD, DECLARED IN THE ROYAL HOUSE OF GOOSE, October 31, 2026. The Register Current of the Grievances of a Citizen of the United States of America Every petition, inquiry, indictment, condemnation and damnation raised from this account"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116402983533412716",
+          "author": "thehouseofgoose",
+          "searchJob": "georgia",
+          "text": "ROUND X SUCH OTHER FUNCTIONS A CITIZEN'S DAMNATION OF THE UNITED NATIONS, BY ITS OWN CHARTER, AND OF THE WORLD ECONOMIC FORUM Raised by a citizen of the United States under the Constitution and the Declaration of Independence, and laid befo"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2116404424155308450",
-          "author": "ibtimesuk",
-          "searchJob": "michigan",
-          "text": "Abdul El-Sayed has turned Donald Trump’s metal-detector insult into a pointed challenge. 🔥 Speaking at a campaign rally in Michigan, El-Sayed offered to walk through a metal detector every day if Trump would take a lie-detector test — addi"
+          "postId": "2116408222756299244",
+          "author": "naomi_smit42414",
+          "searchJob": "georgia",
+          "text": "THE ABUNDANCE OF EXISTENCE. Whenever life overwhelms me, I cry. I acknowledge my emotions, confront my circumstances, then somewhere between surrender and acceptance, I redirect my awareness towards abundance. The immeasurable richness of e"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2116412596756549869",
-          "author": "b2idigital",
-          "searchJob": "nebraska",
-          "text": "BGIN Blockchain Limited brings its ASIC chip-design expertise and ICERIVER mining technology to the 15th Annual ROTH Technology Conference. With its expansion into custom chip solutions and a 20 MW mining facility in Nebraska, the company o"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116391789720465506",
-          "author": "lisasolon94193",
-          "searchJob": "texas",
-          "text": "@ScottPresler @KenPaxtonTX This is the best Republicans have to offer in Texas??? No wonder Karl Fucking Rive is voting BLUE! https://t.co/cIgYMT92Xu"
+          "postId": "2116398557716733973",
+          "author": "newonpolsia",
+          "searchJob": "georgia",
+          "text": "Most people don’t need another singing tutorial; they need a teacher, a small group, and a reason to start. Top Voice Academy offers in-person vocal lessons for kids, teens and adults in Georgia, plus studio recording and music video servic"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 30,
+      "rejected": 16,
       "reasons": {
-        "multiple_resolved_schools": 22,
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 7
+        "multiple_resolved_schools": 10,
+        "bare_mention_requires_llm": 4,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116404156718285028",
+          "postId": "2116402089052246306",
           "author": "squibbsrani",
           "searchJob": "maryland",
-          "text": "@BreitbartNews A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a "
+          "text": "@RepChipRoy A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “ge"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116404086459514965",
+          "postId": "2116402006588051670",
           "author": "squibbsrani",
           "searchJob": "maryland",
-          "text": "@MikeCrapo A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gen"
+          "text": "@RepGregSteube A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116404008764199012",
+          "postId": "2116401931312918718",
           "author": "squibbsrani",
           "searchJob": "maryland",
-          "text": "@MarkMeadows A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “g"
+          "text": "@RonnyJacksonTX A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116403948752175383",
+          "postId": "2116401760973807749",
           "author": "squibbsrani",
           "searchJob": "maryland",
-          "text": "@RepThomasMassie A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is "
+          "text": "@StephenM A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gene"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116403891894181968",
+          "postId": "2116401692245889038",
           "author": "squibbsrani",
           "searchJob": "maryland",
-          "text": "@SenKevinCramer A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a"
+          "text": "@RepBethVanDuyne A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116403632342282596",
+          "postId": "2116401623480271131",
           "author": "squibbsrani",
           "searchJob": "maryland",
-          "text": "@RyanHigginsUS A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a "
+          "text": "@RepBoebert A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “ge"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116403388653175288",
+          "postId": "2116401556421849137",
           "author": "squibbsrani",
           "searchJob": "maryland",
-          "text": "@SenKevinCramer A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a"
+          "text": "@RepPatFallon A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116393038620573957",
+          "author": "dorthea_patriot",
+          "searchJob": "maryland",
+          "text": "During 18 years, since Judge S. Michael Pincus decided not to follow the Law and denied My Motion For Default Judgment, I have learned a great deal about the world of predatory lending. I’ve had to offer up incredible amounts of money in in"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116403120758825155",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@JamesBlairUSA A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116403024138535108",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@RepAndyBarr A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “g"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402948075040943",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@RCDefense A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gen"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402871982027231",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@SenMcConnell A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402810522911033",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@chiproytx A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gen"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402735361008034",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@LeeMZeldin A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “ge"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402614816673797",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@Caitlyn_Jenner A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402546344706132",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@RepAndyBiggsAZ A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402480053678170",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@SenJohnKennedy A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402408805093601",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@Scavino45 A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gen"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402318841389498",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@mtgreenee A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gen"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402225660805278",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@MarchandSurgery A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116402162238665082",
-          "author": "squibbsrani",
-          "searchJob": "maryland",
-          "text": "@RepBenCline A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “g"
+          "postId": "2116415790065004908",
+          "author": "frederickdelk",
+          "searchJob": "notre-dame",
+          "text": "The Origins of Surnames for Antebellum-Black Americans in the Antebellum Era According to the 1860 US Census, there were 488,070 free Antebellum-Black / Antebellum-Moor Americans in the USA just before the Civil War began in 1861 (roughly 4"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116392226167070997",
-          "author": "hdupdatesmovie1",
-          "searchJob": "coastal-carolina",
-          "text": "#AvaraachanAndSons - Review #AvaraachanAndSons Is A Malayalam Family Comedy-Drama That Revolves Around #Avaraachan, A Carefree Widower Whose Irresponsible Lifestyle And Drinking Habits Create Constant Problems For His Two Grown-Up Sons, #Ja"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116411003139420610",
-          "author": "tneutralpk68070",
-          "searchJob": "colorado-state",
-          "text": "Colorado State University offers funded master's and PhD positions with up to $2,500 monthly stipends and tuition coverage. https://t.co/Ekcyi2pKwR #theneutral #Scholarships2027 #StudyInUSA #PhDScholarship #FullyFunded https://t.co/2R8MASPg"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116395237233090895",
-          "author": "imyadav31",
-          "searchJob": "navy",
-          "text": "Flipkart Watch Deals: Prices + SuperCoins Back ⌚ A watch for your wardrobe, with rewards worth checking. Here’s the complete shortlist.....29 unique products. Men’s picks • Titan men’s watch — ₹4,796 + 4,749 SuperCoins https://t.co/UzzUFtx1"
+          "postId": "2116397678611317009",
+          "author": "editwit",
+          "searchJob": "notre-dame",
+          "text": "‘My son has a first-class honours degree, but he has no job offers’ – The Irish Times https://t.co/9mr4uPs7JZ"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116412401688219943",
-          "author": "xrpbrainst0rm",
-          "searchJob": "nevada",
-          "text": "7/? CIA Theme Fox comms GUTFELD! 10/29 <> 129 ClA focus<> Langley <> Choosin' Texas Gutfeld \"the CIA believes the AI chief at Nvidia the tech company had a close relationship with a beautiful Chinese spy\" Gutfeld \"Mike you are a former CIA "
+          "postId": "2116400762704257030",
+          "author": "buckhighlife",
+          "searchJob": "ohio",
+          "text": "@TheOhioStTrojan @PFF_College @uscfb Yeah he went for the money. I don’t think that money is gonna keep him there. If Ohio state offered him a similar number he would absolutely go. Especially if Lincoln walks."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116394250070000057",
+          "author": "gotouda_kiichi",
+          "searchJob": "ohio",
+          "text": "@achichi_mela To be offered such choices by Mela is indulgence enough in itself. Still, if I may allow myself one small wish: someday, take a camera with you and lose yourself for a while in the endless plains of my beloved Ohio. I suspect "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116407165120614503",
+          "author": "augierakow",
+          "searchJob": "rice",
+          "text": "Chapter 5 (continued) 中高（なかだか）な鼻筋 High-bridged nose 叩き返す（はたきかえす） Strike back, hit back⭐️ ・vs 踏み返す Step back and brace / dig in⭐️ ・ここ一番と Hold one's ground at the crucial moment 追い銭（せん） Additional payment 盛り殺す Poison to death 隠れもない Well-known"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116391624259572174",
+          "author": "lacitysection",
+          "searchJob": "rice",
+          "text": "Q3 00:19 Carson - 35 Mary Star - 21 HUGE TOUCHDOWN RUN by ‘27 QB Chris Fields. Rice offered yesterday. @latsondheimer @Tarek_Fattal https://t.co/zFEdfC4wVh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116396774537531503",
+          "author": "murph________",
+          "searchJob": "ucla",
+          "text": "What’s the bruins offer Zacha and Geekie?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116412840953405500",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@SaltyGoat17 A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “g"
         }
       ]
     },
@@ -299,11 +245,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 30,
+      "rejectedCandidates": 16,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-31T06:13:40.695Z"
+    "status rebuilt locally from current store on 2026-10-31T06:28:39.226Z"
   ]
 }
