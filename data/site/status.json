@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T16:27:17.743Z",
+  "generatedAt": "2026-10-31T16:43:42.592Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-31T16:27:17.416Z",
+    "at": "2026-10-31T16:43:42.094Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,22 +32,22 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.2439677777777778,
-    "p95Hours": 1.753358611111111,
-    "worstHours": 2.004965277777778
+    "medianHours": 1.0206658333333334,
+    "p95Hours": 1.7763411111111111,
+    "worstHours": 2.026927777777778
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 52,
+    "decided": 52,
     "complete": true
   },
   "pending": {
-    "total": 107
+    "total": 106
   },
   "profileResolution": {
     "cached": 101
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4060,
     "incompleteOffers": 0
@@ -55,67 +55,358 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-31T16:27:17.416Z",
-      "got": 7,
-      "new": 4,
-      "lag": 0.07
+      "at": "2026-10-31T16:43:42.093Z",
+      "got": 87,
+      "new": 52,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-10-31T16:26:55.758Z",
+    "at": "2026-10-31T16:42:04.736Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 4,
-      "duplicate": 3,
-      "tooOld": 0,
+      "returned": 87,
+      "kept": 52,
+      "duplicate": 32,
+      "tooOld": 3,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 1,
+      "accepted": 31,
+      "rejected": 21,
       "reasons": {
-        "no_offer_term": 1
+        "hard_negative": 4,
+        "no_offer_term": 9,
+        "no_fbs_school": 8
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2116570641885233216",
+          "author": "dailysouthngr",
+          "searchJob": "georgia",
+          "text": "@FBI offers $5,000 reward for Nigerian woman who skipped prison after romance-scam conviction The U.S. Federal Bureau of Investigation is offering up to $5,000 for information leading to the arrest of Emuobosan Emanuella Hall, a 46-year-old"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2116566687277326566",
-          "author": "team_thor_ai",
-          "searchJob": "delaware",
-          "text": "https://t.co/VAgkteIRu9"
+          "postId": "2116544894449672479",
+          "author": "trulytr3",
+          "searchJob": "georgia",
+          "text": "Blessed and grateful for the opportunity to be back in North Carolina today !!! @CoachMIL1 @EPHSRecruiting @Andy_Villamarzo @Hayesfawcett3 @RecruitGeorgia @AthleticsEP @coachruss23 @UNCFootball @Belichick_B @JamieLee601 @nichols_ty @_Coach_"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116545541492584951",
+          "author": "_akeemcox11_",
+          "searchJob": "georgia",
+          "text": "MID SEASON HIGHLIGHTS Games 1-6 @beyond_grind @CoachFloyd_DHS @ChadSimmons_ @adamgorney @TheUCReport @247recruiting @RivalsHS @GregBiggins @samspiegs @TomLoy247 @RecruitGeorgia @RecruitGeorgia @Dalton_Cats_FB @SWiltfong_ https://t.co/bLgDhV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116548059559850427",
+          "author": "gretchenosv",
+          "searchJob": "georgia",
+          "text": "Presiding at today's beatification in Savannah is Cardinal Frank Leo of Toronto. @OSVNews spoke with Cardinal Leo on the significance of the martyrs’ example and witness. https://t.co/vhn6mXaF8k"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116560884256432397",
+          "author": "washinformer",
+          "searchJob": "washington",
+          "text": "Former ANC commissioner Markita Bryant offers insights on local governance and the importance of civic duty in Washington, D.C. https://t.co/TtIe9euBI0"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116177087908450422",
+          "author": "lahnshen",
+          "searchJob": "washington",
+          "text": "Injective started as a blockchain built for finance, which featured perpetual trading for crypto, stocks, commodities, forex & more. Today, after almost 8 years, Injective is still focused on the same dream of making finance open and access"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116548944205406408",
+          "author": "dropsitenews",
+          "searchJob": "washington",
+          "text": "🇮🇷 New talks with mediators have cut the timeline of Iran's plan to reopen the Strait of Hormuz to two days, down from the five days Qatar had proposed and the seven Iran first offered at the UN General Assembly in September, Foreign Mini"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116545923929043002",
+          "author": "dayhikertrails",
+          "searchJob": "washington",
+          "text": "Side Trail Offers Alternate Route to Top of Mount Washington #whitemountains #newhampshire #hiking #backpacker #camping https://t.co/5itFZPdSH7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116545413629313148",
+          "author": "coco7fg",
+          "searchJob": "washington",
+          "text": "I Have two extra tickets for Tyla concert on Dec 02 at The Anthem, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116544592007024926",
+          "author": "coco7fg",
+          "searchJob": "washington",
+          "text": "I Have two extra tickets for Stella Lefty concert on Nov 19 at The Atlantis, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116560716018634773",
+          "author": "jjleonard95",
+          "searchJob": "notre-dame",
+          "text": "@NDFootball s @NavyFB is more than just a rivalry. This is a little long but worth the read. The Notre Dame–Navy rivalry is one of college football’s oldest and most distinctive, built less on geographic or conference ties than on mutual re"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116545639471333667",
+          "author": "graham_depenros",
+          "searchJob": "notre-dame",
+          "text": "IRELAND HAS NEVER BEEN UNITED UNDER ONE NATION, ONE FLAG.¹ ​Before British rule, the island was a fractured collection of rival chieftains, provincial kingdoms, and competing territories. ​The Act of Union 1801 was a purely aristocratic agr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116541668652630486",
+          "author": "gloriousirish17",
+          "searchJob": "notre-dame",
+          "text": "Yung babaeng supposedly nagustuhan ng engkanto. Tapos while nag i-interview sila biglang nag glitch yung video tapos may itim na figure na dumaan. Dun ko nalaman yung 'wag tanggapin kapag may i o-offer na itim na kanin tapos always magdala "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116386575546532119",
+          "author": "zuxipp",
+          "searchJob": "notre-dame",
+          "text": "anong halloween special/episode ang pinaka tumakot para sa inyo noong bata kayo? sakin talaga itong 1996 episode ng magandang gabi bayan. sobrang traumatizing, isang linggo akong hindi makatulog nang maayos at takot na takot mautusan sa lab"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116565315362464038",
+          "author": "tgg_fresno",
+          "searchJob": "fresno-state",
+          "text": "Segmentation approaches in marketing analytics can significantly enhance your campaign effectiveness. By dividing your target audience into distinct groups based on shared characteristics, you can tailor your content, messaging, and offers "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116564050821935123",
+          "author": "mtorressports",
+          "searchJob": "fresno-state",
+          "text": "Oregon offers 2027 Fresno (Calif.) Central East WR Relando Jefferson IV. Recently de-committed from Fresno State and is in Eugene this weekend. #GoDucks https://t.co/JK3rU2fvbi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116338598429499435",
+          "author": "joekent16jan19",
+          "searchJob": "kent-state",
+          "text": "There is no such thing as a short, 3-4 day military operation—if we strike Iran, they will respond. We have consistently underestimated the most basic reality: the enemy gets a vote. There is no military option that will persuade Iran to ac"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116549405025108105",
+          "author": "ldrumm",
+          "searchJob": "liberty",
+          "text": "@verumidest Sounds like the wife ended up with about the same amount as he offered her in the first place. The only people who really made out were the attorneys."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116568452282421590",
+          "author": "thecableng",
+          "searchJob": "louisiana",
+          "text": "FBI offers $5,000 reward for Nigerian woman who failed to report for prison sentence The Federal Bureau of Investigation (FBI) has offered a $5,000 reward for information leading to the arrest of Emuobosan Emanuella Hall, a Nigerian woman w"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116290078314303842",
+          "author": "dubs4mutts",
+          "searchJob": "louisiana",
+          "text": "🥺 CASIO 🐶 still needs a foster near #Rayne #Louisiana #Crowley 🙏🏽 He had double ACL surgery and needs a soft landing. 🏡❤️‍🩹 #Halloween 📍 Rayne, LA 📱 Kelli: 337-580-9552 💔 PLEASE HELP CASIO 💔 https://t.co/fbI69cVX2z"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2115963391109923018",
+          "author": "dubs4mutts",
+          "searchJob": "louisiana",
+          "text": "🚨 Please Stop Scrolling 🚨 🐶 CASIO ❤️‍🩹 from #Haseyas in #Rayne #Louisiana 🇺🇸 needs a hero. Sharing always helps 🙏🏽 This good boy had DOUBLE ACL surgery & he has NOWHERE to recover! 😔 Furball Crowley covered his $5,000 surgery, but "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 31,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 1
+        "multiple_resolved_schools": 6,
+        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 17,
+        "school_not_resolved_confidently": 7
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116562539438100819",
-          "author": "maria137012368",
-          "searchJob": "coastal-carolina",
-          "text": "In “White Gold” author Giles Milton gives a vivid account of the white slave trade, based on letters and manuscripts that survived from the time, several written by slaves. In one account Milton describes how in July 1625 a fleet of over tw"
+          "reason": "multiple_resolved_schools",
+          "postId": "2116565359729823761",
+          "author": "cmanderson247",
+          "searchJob": "georgia",
+          "text": "Trickett drops in on Georgia athlete and hands out a new WVU offer Story: https://t.co/stVvs8awHd https://t.co/MAE3r10B91"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116554239044415953",
-          "author": "nflout01",
-          "searchJob": "coastal-carolina",
-          "text": "Sea Harvest: Along the coast in China, engineers are testing a system that pulls more than just drinking water from seawater. The facility cleans ocean water for everyday use while also producing hydrogen fuel as a side output. It relies on"
+          "reason": "multiple_resolved_schools",
+          "postId": "2116558248103071864",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "LSU offers the 6'6\" versatile junior receiver out of Buford #RecruitGeorgia"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116556601918444034",
+          "author": "privatemeepo",
+          "searchJob": "georgia",
+          "text": "@LauraRutledge @GatorsFB @GeorgiaFootball @LauraRutledge Kirby gonna offer Jack with all these Dawg picks! 😍"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2116553087724716363",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "East Paulding senior is back at UNC. The linebacker prospect earned an offer from the Tar Heels on October 26th #RecruitGeorgia"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116553973905932484",
-          "author": "joepickens2007",
-          "searchJob": "coastal-carolina",
-          "text": "@intrinsicvalyou @RealNevadaBuck This is more proof you don’t understand football. A chunk of seniors graduate and nil 30% of the players field better offers and new recruits come in based on nil, doesn’t matter if it is coastal Carolina. i"
+          "postId": "2116552784170590676",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "Dalton's junior receiver has been blowing up with P4 offers during October #RecruitGeorgia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116545345576370411",
+          "author": "davidne52192009",
+          "searchJob": "georgia",
+          "text": "I asked Google how many days are left for early voting in GA, knowing that Election Day is just 5 days away. Google responded \"Georgia voters have three weeks before Election Day for early voting, including two Saturdays. Your county can al"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116568382946648452",
+          "author": "itmeolliev",
+          "searchJob": "ohio-state",
+          "text": "Nebraska has its own game to worry about Saturday night. But Ohio State’s matchup with USC could offer the Huskers their first real look at the quarterback they may face in Lincoln three weeks from now. https://t.co/vl3cuHdEPZ https://t.co/"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116562907798339901",
+          "author": "battlecryohio",
+          "searchJob": "ohio-state",
+          "text": "If you asked @DesmondHoward if he is still feeling a certain way about being from Ohio and not being offered by Ohio State and he said no, then he’s lying. Never has anything good to say. Being from Ohio and not being offered by the Buckeye"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116562103045616006",
+          "author": "usnsubmarineguy",
+          "searchJob": "vanderbilt",
+          "text": "@ogwezi10 👏Congrats on selecting Vandy to help build the future you. It offers a world class university, fabulous coaching staff, exciting fun city, and the opportunity to play in the SEC. Excited to watch you excel. 🙏❤️⚾️⚓️⬇️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116568190667104435",
+          "author": "robisamilehigh",
+          "searchJob": "washington",
+          "text": "@NickKendellMHH @makejillar My argument was Darnell Washington after the Steelers blow up will be way cheaper and he blocks like a tackle. I would still probably do it tho if they offered"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116568128662462669",
+          "author": "dlcampbell05",
+          "searchJob": "washington",
+          "text": "Holy crap, how is this not a bigger story? SpaceX, the company NASA and the Pentagon lean on for almost everything in space, is quietly walking away from new government launch work. According to Ars Technica, SpaceX has told NASA it will st"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116566800762884350",
+          "author": "tinanova92",
+          "searchJob": "washington",
+          "text": "WTS JOHN SUMMIT TICKETS I have extra x4 John Summit after party tickets at Echostage selling each for face value/best offer, we can't make it anymore in my group dm/reply if interested, can be sold individually also wts iso john summit tick"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116562521662329036",
+          "author": "drjstrategy",
+          "searchJob": "washington",
+          "text": "America First Is Not a Passing Phase Prime Minister Mark Carney appears to be betting that America First is a temporary departure from the economic order Canada once knew. I respectfully disagree. The tone in Washington may change under a n"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116560872885690807",
+          "author": "libyareview",
+          "searchJob": "washington",
+          "text": "#BREAKING US President Donald Trump’s Senior Adviser for Arab and African Affairs, Massad Boulos: The UN Support Mission in Libya (UNSMIL) complements US-led efforts to help establish a single, unified executive authority capable of fully a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116555767256129819",
+          "author": "cornpopcovfefe",
+          "searchJob": "washington",
+          "text": "@jared_shult College taught critical thinking until everyone could learn it at a library and online. Then they had to create a new product. All it can offer now is the undermining of status quo for shock value. “What? You didn’t know that W"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116555025111732366",
+          "author": "ameerta68514905",
+          "searchJob": "washington",
+          "text": "@themiddleeastle The US would ease sanctions lift the naval blockade &amp; release frozen funds &amp; allow oil sales. The fundamental problem remains unresolved: Iran has little to offer the US beyond ending the blockade of the Hormuz &amp"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116553731454160901",
+          "author": "william13253878",
+          "searchJob": "washington",
+          "text": "@dimitrilascaris The conflict is run out of Germany by NATO, the targets are chosen by Washington/UK/Germany, US satellites are used, Starlink guidance systems. Ukraine is the launch pad &amp; punch bag for Russia retaliation whilst CIA lau"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116551778279772173",
+          "author": "khan23707",
+          "searchJob": "washington",
+          "text": "𝐈𝐧𝐣𝐞𝐜𝐭𝐢𝐯𝐞’𝐬 𝐏𝐚𝐭𝐡 𝐭𝐨 𝐑𝐞𝐠𝐮𝐥𝐚𝐭𝐞𝐝 𝐔𝐒 𝐅𝐢𝐧𝐚𝐧𝐜𝐞 Almost 8 years ago, Injective started with a simple vision bring financial markets onchain. Today, that vision is moving into a much bigger space the US financial ma"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116549011301900652",
+          "author": "trumpnews_baby",
+          "searchJob": "washington",
+          "text": "TOTAL TRANSPARENCY BOMBSHELL: AG Todd Blanche Opens Entire Epstein Files to Every Member of Congress, Trump Fully Vindicated, Nothing Left to Hide By Jonathan Gregory Washington, D.C. - October 31, 2026 Acting Attorney General Todd Blanche "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116558516081111105",
+          "author": "timpanonathan",
+          "searchJob": "notre-dame",
+          "text": "@StevoLaughton @EnergyMix_UK It’s going down because the new owners are asset stripping who have a history of breaking up companies for more cash an Irish company has made a 15 million offer that could save the company but was refused owner"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116551307381145969",
+          "author": "vallyboy7",
+          "searchJob": "notre-dame",
+          "text": "The most disturbing kind of cruelty is the kind that doesn't need anger. When Mikey Palmice takes Rusty Irish to the bridge, he turns the murder into a joke. He offers him a sarcastic deal before throwing him to his death. That's what makes"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116546580127891691",
+          "author": "graham_depenros",
+          "searchJob": "notre-dame",
+          "text": "Dear Mr Lawrenson, I know my Irish history very well Sir. Please observe and choose or not to read the latest post that I have made to demonstrate my claim. I extend a gracious offer to you to debate Irish history for the purposes of mutual"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116545868421550455",
+          "author": "scribedjehuty",
+          "searchJob": "notre-dame",
+          "text": "Samhain in Irish mythology Samhain appears in several important medieval Irish mythological narratives. Some particularly interesting examples include: The Wooing of Étaín (Tochmarc Étaíne) This story concerns Étaín, Midir, and the supernat"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116545746103107650",
+          "author": "bluezoneinsider",
+          "searchJob": "notre-dame",
+          "text": "Trick-or-treating didn’t start with candy companies. It started more than 2,000 years ago, with bonfires, masks, and a night when the dead were believed to walk the Earth. 🎃 Here’s how a Celtic festival became the night your doorbell never"
         }
       ]
     },
@@ -123,20 +414,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 5,
-      "failed": 1,
-      "requests": 6,
-      "errors": [
-        "eastern-michigan: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 31,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-31T16:27:17.744Z"
+    "status rebuilt locally from current store on 2026-10-31T16:43:42.593Z"
   ]
 }
