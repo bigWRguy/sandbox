@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T11:28:53.438Z",
+  "generatedAt": "2026-10-31T11:43:32.990Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-31T11:28:52.952Z",
+    "at": "2026-10-31T11:43:32.597Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7819913888888889,
-    "p95Hours": 1.2790122222222222,
-    "worstHours": 1.5325266666666666
+    "medianHours": 0.5256233333333333,
+    "p95Hours": 1.2755219444444446,
+    "worstHours": 1.5233322222222223
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "pending": {
@@ -55,169 +55,210 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-31T11:28:52.951Z",
-      "got": 30,
-      "new": 18,
-      "lag": 0.03
+      "at": "2026-10-31T11:43:32.597Z",
+      "got": 34,
+      "new": 24,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-10-31T11:27:12.070Z",
+    "at": "2026-10-31T11:41:57.571Z",
     "mode": "live",
     "collection": {
-      "returned": 30,
-      "kept": 18,
-      "duplicate": 12,
+      "returned": 34,
+      "kept": 24,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 7,
+      "accepted": 12,
+      "rejected": 12,
       "reasons": {
-        "hard_negative": 1,
-        "no_fbs_school": 3,
-        "no_offer_term": 3
+        "no_offer_term": 6,
+        "no_fbs_school": 5,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2116494252750393513",
+          "author": "thematchuplab",
+          "searchJob": "memphis",
+          "text": "https://t.co/0Aov3l0MCL"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116490402555416582",
+          "author": "brivael",
+          "searchJob": "toledo",
+          "text": "https://t.co/ZtenJM98qJ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116479379341820336",
+          "author": "v6news",
+          "searchJob": "toledo",
+          "text": "*షాపింగ్ యాప్స్ పేరుతో నకిలీ యాప్స్ తయారు చేసి, ప్రజలను మోసం చేస్తున్న ఘటనలు రోజురోజుకు పెరుగుతున్నాయి. అందుకే పండుగ ఆఫర్లు చూసి వెంటనే కొనే ముందు కాస్త జాగ్రత్తగా ఉండాలి.* https://t.co/mZNdA7pF3N"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116478729191137594",
+          "author": "v6velugu",
+          "searchJob": "toledo",
+          "text": "షాపింగ్ యాప్స్ పేరుతో నకిలీ యాప్స్ తయారు చేసి, ప్రజలను మోసం చేస్తున్న ఘటనలు రోజురోజుకు పెరుగుతున్నాయి. అందుకే పండుగ ఆఫర్లు చూసి వెంటనే కొనే ముందు కాస్త జాగ్రత్తగా ఉండాలి. https://t.co/6FZs7wthcW"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116485354492494189",
+          "author": "t_deeney",
+          "searchJob": "troy",
+          "text": "🚨GREAT OFFER FROM @PlayzeeCasino 🔥 💰BET £20 GET £20 IN FREE BETS!💰 HERE 👉https://t.co/U1VWvMpaqD 18+ Only | T&amp;Cs Apply | BeGambleAware https://t.co/NMI8rSKXzl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116494605923275242",
+          "author": "giavanna_marie0",
+          "searchJob": "washington",
+          "text": "Anyone interested in buying my Tickets, I’ve got 2 JOHN SUMMIT Tickets for Tonight Show @ Capital One Arena, Washington, DC, Got very sick and still not feeling any better😭buy them for best offer DM if interested #CTRLESCAPEARENATOUR"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2116489912287478155",
-          "author": "clark_kent10935",
-          "searchJob": "kent-state",
-          "text": "Good morning from Virginia. 🇺🇸 On this day in 1959, a twenty-year-old former Marine walked into the American Embassy in Moscow and tried to cast off the citizenship his country had given him. Lee Harvey Oswald, born in New Orleans, raised"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116472246537527446",
-          "author": "kcfggroup",
-          "searchJob": "kent-state",
-          "text": "Many organisations are already planning their events for 2027. We can offer an ideal venue for businesses of all sizes. Whether you need a space for a small team meeting, a workshop, or a large conference, our facilities cater to all your b"
+          "postId": "2116483020618170802",
+          "author": "awakenedprimate",
+          "searchJob": "washington",
+          "text": "🌍 OCTOBER 31 - FOLLOW THE CAPITAL 🚨 UPT0BER NEVER ARRIVED 🇪🇺A EUROPEAN CONSTITUTIONAL CRISIS DID 🗣️ And somehow, people are still arguing about Bitcoin's four-year cycle 📊 Look at how October actually ended - 🇵🇱 Poland's president t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2116490750003122379",
-          "author": "themethodmav_",
-          "searchJob": "liberty",
-          "text": "Inside the $6.3 billion Binance Hack https://t.co/e4Nqllv3ci"
+          "postId": "2116486714114162689",
+          "author": "gvzzlpkxhq28373",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/BE7Vt1Ynju"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2116379264065142842",
-          "author": "templetrails",
-          "searchJob": "temple",
-          "text": "🚩Breathtaking architecture!! Every pillar,every carving reflects generations of knowledge, devotion&amp;artistic excellence. TamilNadu’s Ekambareswarar temple, Kanchipuram - One of the Pancha Bhuta temples - a magnificent symbol of Bharat’"
+          "postId": "2116477802635792420",
+          "author": "threejacques",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/jdcZKpR9Gl"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2116482467011985643",
-          "author": "tammytabby",
-          "searchJob": "texas",
-          "text": "Ken Paxton erases James Talarico’s lead in Texas Senate race as early voting surges - For Paxton, a surge in early voting offers an opportunity to narrow the impact of unfavorable headlines before Election Day. For Talarico, it offers a cha"
+          "postId": "2116476219528974717",
+          "author": "farmersjournal",
+          "searchJob": "notre-dame",
+          "text": "Camera at the Mart: Skibbereen sale sees over 1,000 cattle on offer https://t.co/rV8FZpah1u https://t.co/F63Mh6cOHc"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2116488523348169099",
-          "author": "reesethebeagle",
-          "searchJob": "charlotte",
-          "text": "@bobby_franchize @mcclusk You are being disingenuous. Lightning insulted him with an offer far below his market value."
+          "postId": "2116491255257628901",
+          "author": "technewsonweb",
+          "searchJob": "navy",
+          "text": "[ Amazon India New Launch ] 2026 MJGG4HN/A Apple Watch Series 12 Cellular 42mm Smartwatch, M/L, Natural Titanium/Navy Blue, M/L - Band fits 160–210mm wrists 195951233208 [ad] https://t.co/LCxnyu8Zfg - priced at Rs 99,900 + Bank Offer Discou"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2116192393624248600",
-          "author": "clarksonsfarm1",
-          "searchJob": "coastal-carolina",
-          "text": "City, town, or countryside - where do you actually want to live in the next five years, and what’s pushing or pulling you?"
+          "reason": "no_fbs_school",
+          "postId": "2116379695264477308",
+          "author": "dexerto",
+          "searchJob": "new-mexico",
+          "text": "Hackers who carried out a cyberattack on a hospital have apologized and offered the patients up to $2,500 each The group said they have \"morals\" and didn't realize they targeted machines helping people in real time https://t.co/tHHwGsShZY"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 5,
+        "bare_mention_requires_llm": 8,
         "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 2,
         "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116491162181656809",
-          "author": "jeremykent575",
-          "searchJob": "kent-state",
-          "text": "Most of your followers don’t realize how close they came to getting a free bottle of DOM P. If Nasdaq hit that circuit I was about to write a phat A$$ check lol.. 😥… it’s funny I offer things on here and no one ever takes me seriously lol."
+          "postId": "2116493992284029227",
+          "author": "theduranreal",
+          "searchJob": "washington",
+          "text": "Putin Takes the Call. His Terms Remain Unchanged. Europe wants a ceasefire. Moscow insists on a settlement. Washington offers economic incentives. Ninety minutes of diplomacy exposed a fundamental problem: the parties are still negotiating "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116485395986747476",
+          "author": "nbcwashington",
+          "searchJob": "washington",
+          "text": "The woman offered to look after her best friend's baby twins in Pittsburgh, then used that position of trust to kill one and severely injure the other, prosecutors said. https://t.co/hb8I0DZUiM"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116483976160235949",
+          "author": "tinsaemon",
+          "searchJob": "washington",
+          "text": "1/19 | INVESTIGATION — THE UAE’S SECRET CHANNEL TO WASHINGTON A newly published book, Princes and Thieves, by investigative journalist Matthew Cole examines how Mohammed bin Zayed (MBZ) cultivated Jared Kushner to influence US policy in the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116481691535425928",
+          "author": "kivuinfo24",
+          "searchJob": "washington",
+          "text": "🚨 #DRC: Tshisekedi contradicts Trump in #Russia, before #Putin: Washington and Doha peace agreements are still struggling to deliver concrete results. While @realDonaldTrump celebrated ending the war in eastern DRC, Félix Tshisekedi offere"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116474022607433734",
+          "author": "humnews_english",
+          "searchJob": "washington",
+          "text": "US President Donald Trump could consider escalating military action against Iran if Republicans perform poorly in next week’s midterm elections, according to a report by Axios, as diplomatic efforts to restore negotiations between Washingto"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116481238160867769",
-          "author": "vatsalspeaks",
-          "searchJob": "kent-state",
-          "text": "@nch1915 @KentROSystems @jagograhakjago @consaff @nch1915 This is NOT redressal! I never accepted KENT/Aquair's ₹10,200 offer, yet NCH closed grievance #10518643. No settlement was agreed. The ₹6,200 deductions remain unjustified. Please re"
+          "postId": "2116495707469406277",
+          "author": "tamuz85755920",
+          "searchJob": "notre-dame",
+          "text": "@IrishTimes THE IRISH PEOPLE, OUT OF THE MOUTH OF THEIR FÜHRER EAMON DE VALERA, OFFERED ON 2.5.45 THE GERMAN PEOPLE THEIR HEARTIEST 'CONDOLENCES' UPON THE DEATH OF THEIR FÜHRER ADOLF HITLER. FOR THIS PURPOSE DE VALERA &amp; HIS FOREIGN MINI"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116494818985882080",
+          "author": "nunchakoo",
+          "searchJob": "notre-dame",
+          "text": "@catsunemiku001 can i offer you with some bailey's irish cream"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116489470962811211",
+          "author": "ronlegest",
+          "searchJob": "notre-dame",
+          "text": "I was once offered a minority scholarship at a university because they thought I was Asian! I had to explain that I was Irish and Scottish, with a dash of English and Norman. And identifying as Asian or something else I'm not was not a thin"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116477786571296878",
-          "author": "liberty_itg",
-          "searchJob": "liberty",
-          "text": "Book a meeting with Natasa Simikic Kozjak, Director of Operations at Liberty Adriatic, at @IBTMevents World Barcelona. https://t.co/FyjMSFnUK1 The Adriatic brings together coastlines, historic cities, and experiences with plenty of characte"
+          "postId": "2116473923126648866",
+          "author": "jenkteach",
+          "searchJob": "notre-dame",
+          "text": "🎃👻🍂 HAPPY HALLOWEEN, HALLOWE'EN, ALL HALLOWS' EVE OR SAMHAIN 🍂👻🎃FROM ANCIENT GAELIC TRADITIONS TO TURNIP LANTERNS, SUPERNATURAL CREATURES AND ROBERT BURNS THE FASCINATING HISTORY BEHIND HALLOWEEN! Tonight, millions of people will carv"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116479353383236012",
-          "author": "vgmbhat",
-          "searchJob": "temple",
-          "text": "Holy Kashi Baba Vishwanath ji Temple • with Real Idol (Not one instilled by Aholyabhai Kolkar &amp; offered Pooja Now ) • will be Rebuilt , to Match Ancient Achitecture In my Tenure as Servant of Holy Kashi !!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116479188387385826",
-          "author": "akinnagbe_sina",
-          "searchJob": "temple",
-          "text": "God made the night hours for sleep, not prayer. There is absolutely nothing wrong with praying at night. If you choose to pray at midnight, 2 a.m., or 4 a.m., there is nothing wrong with that. However, there is no scriptural basis for teach"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116468426461847940",
-          "author": "rcirlea",
-          "searchJob": "temple",
-          "text": "A QUESTION ON SPIRITS Question: \"If I see or feel the presence of negative spirits around me, how do I send them away? And what if they refuse to leave?\" Answer: Why send them away? Just leave them alone. Let them stay and listen to your Ne"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116465979362603456",
-          "author": "sringerimath",
-          "searchJob": "temple",
-          "text": "नाशिक-त्र्यंबकेश्वर सिंहस्थ महाकुंभमेळा With the bountiful blessings of His Holiness Jagadguru Shankaracharya Sri Sri Bharati Tirtha Mahasannidhanam, Jagadguru Shankaracharya Sri Sri Vidhushekhara Bharati Sannidhanam of Dakshinamnaya Sri Sh"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116492091039604930",
-          "author": "nft_apee",
-          "searchJob": "texas",
-          "text": "Let me analyze this parlay 🏆🤑 🔴 1. NC State -2.5 vs California (-265) - ✅ Advantages: NC State only needs to win by 3 or more points. The alternate spread gives some protection compared with a larger handicap. A close home victory is eno"
+          "postId": "2116488428585988493",
+          "author": "esegbonaluis",
+          "searchJob": "nevada",
+          "text": "🚨 Joey Salads says Nevada’s parents turned the soccer dispvte into a fake story to get sympathy and d0nation from the public. He claims the 3-year-old was playing in a beginner league despite being far better than the other children. So th"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2116477565808345219",
-          "author": "rocogb",
-          "searchJob": "texas",
-          "text": "Hi Debbie Thanks for your very kind offer to foster for Houdini❤️ Usually our Texas rescues like their fosters to be local so fosters use the rescue own vet etc., However one of our rescues regularly passes through Pennsylvania on their reg"
+          "postId": "2116492961328619986",
+          "author": "factcheckero1",
+          "searchJob": "new-mexico",
+          "text": "🚨 JUST IN: Hackers behind the cyberattack on a New Mexico hospital have apologized to patients and offered compensation of up to $2,500 each. The ransomware group BYOD claims it didn't realize the compromised systems were being used to sup"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116490352748105869",
-          "author": "dougzya",
-          "searchJob": "coastal-carolina",
-          "text": "All depends if the move is helped by securing a Netflix or Amazon deal, then the setting is irrelevant sadly not everyone is lucky to be offered it. The coastal options was typically the the first choice in the past with the countryside a c"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116484057785835952",
-          "author": "ou_zhen599",
-          "searchJob": "coastal-carolina",
-          "text": "MiniMax-H3 prompt👇 integrated_multimodal_description 15-second widescreen I2VA live-action coastal training scene. Use <Picture 1> as the only reference: same adult woman A, face, cap, loose cropped T-shirt, tied swimwear, athletic proport"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116477766421873101",
+          "author": "agtpinsights",
+          "searchJob": "new-mexico",
+          "text": "A hacker group just apologized for a ransomware attack on a New Mexico hospital and offered patients up to $2,500 each. Here's what you need to know. The University of New Mexico Health Sciences Center disclosed a cyberattack that caused sy"
         }
       ]
     },
@@ -232,11 +273,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-31T11:28:53.439Z"
+    "status rebuilt locally from current store on 2026-10-31T11:43:32.991Z"
   ]
 }
