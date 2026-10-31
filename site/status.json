@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T04:43:34.154Z",
+  "generatedAt": "2026-10-31T04:58:33.115Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-31T04:43:33.766Z",
+    "at": "2026-10-31T04:58:32.604Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7788786111111111,
-    "p95Hours": 1.2749508333333333,
-    "worstHours": 1.5228705555555555
+    "medianHours": 0.7754766666666667,
+    "p95Hours": 1.2743141666666666,
+    "worstHours": 1.5246622222222221
   },
   "decisionCoverage": {
-    "total": 17,
-    "decided": 17,
+    "total": 49,
+    "decided": 49,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 101
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 4047,
     "incompleteOffers": 0
@@ -55,161 +55,379 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-31T04:43:33.765Z",
-      "got": 30,
-      "new": 17,
-      "lag": 0.06
+      "at": "2026-10-31T04:58:32.604Z",
+      "got": 82,
+      "new": 49,
+      "lag": 0.12
     }
   },
   "audit": {
-    "at": "2026-10-31T04:42:01.961Z",
+    "at": "2026-10-31T04:56:54.657Z",
     "mode": "live",
     "collection": {
-      "returned": 30,
-      "kept": 17,
-      "duplicate": 13,
-      "tooOld": 0,
+      "returned": 82,
+      "kept": 49,
+      "duplicate": 15,
+      "tooOld": 18,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 4,
+      "accepted": 25,
+      "rejected": 24,
       "reasons": {
-        "hard_negative": 1,
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 2
+        "no_fbs_school": 21,
+        "no_offer_term": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2116346146998346049",
+          "author": "zakaree17",
+          "searchJob": "class:2027",
+          "text": "TIFFIN OFFERED!! VIA @Coach_ZBlair @PrepRedzoneOH @Mark__Porter @Bryan_Ault @JaredLuginbill @OhiosElite1 @BTT_Training @PPRecruits @Martind_Gator @SchwartzAthSpot @420North4th @TylerStevens94 @CaryMoyer @cjenks1279 @CCFRecruiting https://t."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116381616490909958",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 South Meck High School (NC) DT/DE/TE @LaminBa70 adds a Sewanee offer. @SewaneeFootball"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116381294104064333",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Phoenix Christian High School (AZ) OL/DL @CassidyKovach adds a Grinnell offer. @Grinnell_FB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116380929614884871",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Tiffin Columbian HS (OH) S/LB/N @blakemiller_9 adds a Carnegie Mellon offer. @TartanFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116380576118874145",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Rio Hondo Prep (CA) LB @TSeto_25 adds an Oberlin offer. @Yeo_Football"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116379436207820857",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 St. Margaret's Episcopal School (CA) OL @MichaelZhao57 adds a Grinnell offer. @Grinnell_FB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116379110637535400",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Mark Morris HS (WA) WR/DB @dankoby7 adds a Grinnell offer. @Grinnell_FB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116378770265559300",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 New Trier HS (IL) DB/LB @willmolloy25 adds a Denison offer. @DUFootball"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116378393822499036",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Crystal Springs Uplands School (CA) LB @JamesNaylorFB27 adds a Grinnell offer. @Grinnell_FB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116377184399233341",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Half Hollow Hills East (NY) WR/CB/ATH @RyanSoto146639 adds an Ithaca offer. @IthacaBomberFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116376792168878502",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Granite Bay (CA) LB @billyheinselman adds a Grinnell offer. @Grinnell_FB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116375925441093862",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Mt. Carmel (IL) OL @Kevi58Connor adds a Wabash offer. @WabashFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116375572729503983",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Cypress Lake High School (FL) LB @MasonJKurtz adds a Kenyon offer. @KenyonFootball"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116374847978934642",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Grace Christian Academy (TN) LB/OL/LS @NoahJAnliker adds a Wabash offer. @WabashFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116374483489697818",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Syosset (NY) WR @Raghav_Ghosh3 adds an Ithaca offer. @IthacaBomberFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116373752779088281",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Half Hollow Hills East (NY) QB @vincentbanculli adds an Ithaca offer. @IthacaBomberFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116373401292202098",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Glenbrook South High School (IL) WR @jgonzo534 adds a DePauw offer. @DePauwTigersFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116373023947469241",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Thorndale High School (TX) WR/DB/LS @willcloud13 adds a Trinity (TX) offer. @TUFootballTX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116372177239072956",
+          "author": "pag_football",
+          "searchJob": "class:2027",
+          "text": "Class of 2027 Marist School (GA) OL/DT @HRemsburg18948 adds an Oberlin offer. @Yeo_Football"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116390812653425024",
+          "author": "sffgeorgia",
+          "searchJob": "georgia",
+          "text": "They exhausted all their stockpiles in the war with Iran and are now replenishing them; these people couldn’t care less about Ukraine. If the opportunity arises—and the Russians offer a generous enough reward—they will sell the Ukrainians o"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116379189951476214",
+          "author": "jayinkyiv",
+          "searchJob": "georgia",
+          "text": "Another Trump scam built in to help Putin. The US collecting billions from Ukraine for Patriot interceptors but no delivery until 2030."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116299987856306255",
+          "author": "zelenskyyua",
+          "searchJob": "georgia",
+          "text": "A strong decision by the U.S. State Department – authorizing Ukraine’s purchase of Patriot interceptors to counter Russian ballistic missiles. Five hundred PAC-3 interceptors is a substantial number, and very soon – this winter – they COULD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116392093002129678",
+          "author": "sunsol54",
+          "searchJob": "washington",
+          "text": "@RickJacksonGA She finished her term and did not run for a second because she was offered a job in Washington. All you people do is fucking lie."
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2116386027971440653",
-          "author": "woodyboy2020",
-          "searchJob": "texas",
-          "text": "The Pro Life Hypocrisy Christians Refuse to Confront There is a moral contradiction within American Christianity that can no longer be ignored. For decades, Catholics and Protestants have been told that abortion is the defining moral issue "
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2116384584275542518",
-          "author": "travinrob17",
-          "searchJob": "texas",
-          "text": "After a great talk with @COACHHULKK I am blessed to receive my 6th offer from Texas Spartans Football @CCCSpartansWBB !!! Truly am blessed ! @Coach_Corder @DavisWright71 @1TySeaton @BartStowe @247Sports @N3XTrecruiting @N_W_Sports https://t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116379440825672098",
-          "author": "captainturf",
-          "searchJob": "texas",
-          "text": "@htxsummer @crc192003 @Texiancurtis Great, Paxton is a con man. You wouldn’t marry him? So silly, who would? I wouldn’t trust him to take care of my dog while I’m on vacation. This is the GOP’s best offer in Texas? Clearly a compromised guy"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116389738269569327",
-          "author": "fresnobee",
-          "searchJob": "fresno-state",
-          "text": "Ex-Clovis East standout almost quit due to an injury. Now, he has his first D-I offer https://t.co/K25fmoObk3"
+          "postId": "2116388218534846926",
+          "author": "sassafrass_84",
+          "searchJob": "washington",
+          "text": "Poland has offered to fund a permanent U.S. military base for roughly 5,000 soldiers. With families that would mean around 15,000 people and require new housing, schools, and a hospital. Candidate sites: Wrocław, Poznań, Bydgoszcz, and Szcz"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 25,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 2
+        "bare_mention_requires_llm": 6,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 2,
+        "multiple_resolved_schools": 16
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116375098244612102",
-          "author": "subodh_sisodia",
-          "searchJob": "rice",
-          "text": "Energy Security Must Not Compromise Food Security Introduction India’s ethanol-blending programme represents an important instrument of energy security and import substitution. However, its expansion exposes a critical policy dilemma: recon"
+          "postId": "2116392541683646951",
+          "author": "yourpremiertra1",
+          "searchJob": "class:2027",
+          "text": "Below is a comparison of the major ocean-going cruise ship categories currently sailing worldwide, organized from the largest ships to the smallest mainstream and luxury vessels. Size is based primarily on gross tonnage and passenger capaci"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116389397855961362",
-          "author": "muzztheinfidel",
-          "searchJob": "arkansas",
-          "text": "Weekend Voting ✔️ Go Vote ♥️ Republican States with early in-person voting offered on both Saturday, October 31, and Sunday, November 1, 2026 . Ends on November 1 (open on both days) • Connecticut • Delaware • District of Columbia • Michiga"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116388073579684138",
-          "author": "calrussell13",
-          "searchJob": "michigan",
-          "text": "Hey, you racist SOB. That sob story about white kids growing up thinking they are special .... well you had clear advantages over white kids in college and medical school. Your rabbi Sandro Galea (now a prominent public-health academic, for"
+          "reason": "reporter_missing_player_name",
+          "postId": "2116390472490905889",
+          "author": "pprecruits",
+          "searchJob": "class:2027",
+          "text": "Top 2027 DL/OL prospect out of Ohio with the offer from Tiffin‼️ #goodenoughmentality💎"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116387230704951645",
-          "author": "calrussell13",
-          "searchJob": "michigan",
-          "text": "Abdul El-Sayed had advantages in life most white kids did not. Sandro Galea (now a prominent public-health academic, formerly at Michigan and then chair of epidemiology at Mailman) had been El-Sayed’s professor and mentor at the University "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116386154199044534",
-          "author": "calrussell13",
-          "searchJob": "michigan",
-          "text": "Abdul El-Sayed had advantages in life most white kids did not. Sandro Galea (now a prominent public-health academic, formerly at Michigan and then chair of epidemiology at Mailman) had been El-Sayed’s professor and mentor at the University "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116383091245625504",
-          "author": "whitchmi",
-          "searchJob": "michigan",
-          "text": "You're irrelevant. An embarrassment and I don't blame Abdul for rejecting your bitter offer; it was no olive branch. He owes you nothing. No apology. Hasan Piker isn't running for anything. Why does Abdul need to disavow everything thrown a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116388292380033339",
-          "author": "stopjamminme",
-          "searchJob": "texas",
-          "text": "@ColMoeDavis Or, Remember when that Joker from Texas offered $1,000,000 dollars to report fraud and he ended up paying a Democrat who caught a Republican cheating ? Texas Lt. Gov. Dan Patrick Offering Up To $1 Million For Evidence Of Voter "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116382862991643074",
-          "author": "2bytecoin",
-          "searchJob": "texas",
-          "text": "Let me analyze this for everyone 🔥✅ 1. NC STATE MONEYLINE (-245) vs. California 🔥 Confidence: 8.5/10 • NC State is the safer side on this ticket based on the price. • Moneyline eliminates the need to win by a particular margin. • The bigg"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116375147791999025",
-          "author": "golf_boyzz",
-          "searchJob": "texas",
-          "text": "@moonlitefire @FerdinandusSch2 Texas Children’s Health Center was doing it. Got taken to court by Paxton who shut it down and now it has to offer to reverse it for free."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116371553822941585",
-          "author": "captainturf",
-          "searchJob": "texas",
-          "text": "@htxsummer @crc192003 @Texiancurtis Great, Ken Paxton is on record as human garbage. That’s what Texas GOP has to offer? They deserve to lose."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116388311182766504",
-          "author": "mdbaynews",
-          "searchJob": "notre-dame",
-          "text": "🚨 REX RYAN WANTS THE MARYLAND FOOTBALL JOB — FORMER RAVENS ASSISTANT REPORTEDLY PURSUING TERPS’ HEAD COACHING VACANCY Former NFL head coach Rex Ryan is reportedly expressing interest in becoming the next head football coach at the Universi"
+          "postId": "2116384662801014989",
+          "author": "martinhammick",
+          "searchJob": "georgia",
+          "text": "On Oct. 31 1541 The Last Judgment by Michelangelo was officially unveiled on the Sistine Chapel’s altar wall. On its completion the papal master of ceremonies deemed it more suitable for “public baths or taverns”. In response, the artist de"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116379510342042085",
-          "author": "derhurrikane",
-          "searchJob": "notre-dame",
-          "text": "A commission into the establishment of a committee to consider the idea of consolidation of diverse and ethnic perspectives on Irish unification. It’s just theatre. If they get rid of the triple lock (by extension neutrality), can’t manage "
+          "postId": "2116383232715608246",
+          "author": "goodnyew",
+          "searchJob": "ucla",
+          "text": "@BlueLinesHQ @IceMetrix I agree, Tampa needs to throw in something else if the Bruins are giving up that offer"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116389202837274696",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@SecRollins A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “ge"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116389128535195954",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@AlinaHabbaDOJ A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116388620483608839",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@kimguilfoyle A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116388495480828230",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@SGTValadez A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “ge"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116388413549253035",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@AAGDhillon A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “ge"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116388297606103294",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@HarmeetKDhillon A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116388224767832487",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@iamjadedraigon A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116388151472341312",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@dbongino A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gene"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116388088029266252",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@dbongino A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gene"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116388065895670163",
+          "author": "warguy_",
+          "searchJob": "washington",
+          "text": "🇮🇷🇺🇸 A former Israeli military intelligence chief says a tactical nuclear strike on Iran would not force Tehran to surrender. Citrinowicz says Iran would continue fighting after a nuclear strike and would accept a return to the memorand"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116387937588039824",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@RepGosar A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “gene"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116387872756666490",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@LauraLoomer A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “g"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116387794688065647",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@ScottPresler A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116387722239844517",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@RepThomasMassie A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116387517230715150",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@RepThomasMassie A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116386975234019484",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@SenTedCruz A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “ge"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116386865322602663",
+          "author": "squibbsrani",
+          "searchJob": "washington",
+          "text": "@aMarcPearson A generational defense opportunity: Hegseth offers full-throated endorsement of Trump’s arch amid legal battle US Defense Secretary Pete Hegseth told a federal judge that President Donald Trump’s proposed triumphal arch is a “"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116376158790877355",
-          "author": "davisdavis25415",
-          "searchJob": "notre-dame",
-          "text": "@Wolfgang_Schnee @rdleg112 Africans did not transport slaves across the Atlantic to offer cheap labour in vast field plantation. It's the Europeans who travelled thousands of miles from Europe to west Africa to forcefully acquire slaves. If"
+          "postId": "2116383639927706108",
+          "author": "caseydhuck",
+          "searchJob": "miami",
+          "text": "@Thechat101 What exactly could Miami offer Dallas? No young players worth anything, not enough picks to trade because they all went to Milwaukee. Won't happen. Dallas is the better team at the moment anyway. Maybe not by the end of the year"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116391221082141099",
+          "author": "earthdesires",
+          "searchJob": "pittsburgh",
+          "text": "Harvesting Grace, A Forty-Day Devotional by C.S. McDonald is a warm, reflective Christian devotional that invites readers to slow down and reconnect with God’s grace, especially during the beauty of autumn. Inspired by the author’s love of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116372550355698009",
+          "author": "thehowdoc",
+          "searchJob": "pittsburgh",
+          "text": "@Oneraregoose187 @The_Creasy I dont think Tampa will offer a max contract for a few reasons, have LA there because its historically been a top choice for athletes and then Pitt for the Malkin and then also Sid factor...both can also extend "
         }
       ]
     },
@@ -224,11 +442,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 25,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-31T04:43:34.155Z"
+    "status rebuilt locally from current store on 2026-10-31T04:58:33.116Z"
   ]
 }
