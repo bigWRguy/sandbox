@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T07:28:20.986Z",
+  "generatedAt": "2026-10-31T07:58:37.227Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-10-31T07:28:20.654Z",
+    "at": "2026-10-31T07:58:36.675Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,18 +32,34 @@
   },
   "staleSchools": [
     {
-      "id": "liberty",
+      "id": "louisiana-monroe",
+      "hours": 2.3
+    },
+    {
+      "id": "louisiana-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "marshall",
+      "hours": 2.3
+    },
+    {
+      "id": "massachusetts",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-state",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2716822222222222,
-    "p95Hours": 1.7725027777777778,
-    "worstHours": 2.2691530555555555
+    "medianHours": 1.5279091666666667,
+    "p95Hours": 2.0263669444444443,
+    "worstHours": 2.2770144444444442
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 49,
+    "decided": 49,
     "complete": true
   },
   "pending": {
@@ -60,96 +76,303 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-10-31T07:28:20.654Z",
-      "got": 18,
-      "new": 8,
-      "lag": 0.4
+      "at": "2026-10-31T07:58:36.675Z",
+      "got": 72,
+      "new": 49,
+      "lag": 0.13
     }
   },
   "audit": {
-    "at": "2026-10-31T07:26:52.399Z",
+    "at": "2026-10-31T07:57:01.535Z",
     "mode": "live",
     "collection": {
-      "returned": 18,
-      "kept": 8,
-      "duplicate": 8,
-      "tooOld": 2,
+      "returned": 72,
+      "kept": 49,
+      "duplicate": 23,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 2,
+      "accepted": 36,
+      "rejected": 13,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "hard_negative": 2,
+        "no_offer_term": 7,
+        "no_fbs_school": 3,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2116414009314296231",
-          "author": "ptlucasmikey33",
-          "searchJob": "ole-miss",
-          "text": "🎸 WHAT A BEAUTIFUL RIDE A New Blues Album by P.T. Lucas One man. One guitar. One microphone. A whole lot of heart. What a Beautiful Ride is a journey back to the roots of American blues, inspired by the raw, soulful sounds of the 1930s Mis"
+          "reason": "hard_negative",
+          "postId": "2116435135050760568",
+          "author": "yangla22",
+          "searchJob": "liberty",
+          "text": "Why We Will Defend Freedom and Democracy A Century of Authoritarianism: Lessons History Cannot Allow Us to Forget 1/7 — A Century of Political Persecution Over the past century, authoritarian regimes have repeatedly promised national greatn"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2116173828338372777",
-          "author": "gentleman_ways",
-          "searchJob": "wake-forest",
-          "text": "The Peace of Wild Things by Wendell Berry When despair for the world grows in me and I wake in the night at the least sound in fear of what my life and my children’s lives might be, I go and lie down where the wood drake rests in his beauty"
+          "postId": "2116426947618374025",
+          "author": "maheshdubey23",
+          "searchJob": "liberty",
+          "text": "Nikah Halala: Woman Sleep With Another Man to Marry Her Husband Again! https://t.co/PRrCCjwUfU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116424721776447718",
+          "author": "lifeliberty3",
+          "searchJob": "liberty",
+          "text": "It’s too bad there’s not a counter revolution taking back our colleges and universities including our J-Schools. There’s a lot of diagnosis of problems and that is very important. I believe Data Republican is exceptional and amazing w her o"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2116420622297489582",
+          "author": "minseokmatthew",
+          "searchJob": "louisiana",
+          "text": "Meanwhile, large companies can raise tens of billions through credit markets. In October 2025, Meta sold $30bn of corporate bonds and separately signed a $27bn financing deal with Blue Owl for its Louisiana data center. https://t.co/qyMTDxW"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116331280493080769",
+          "author": "ourrevolution",
+          "searchJob": "florida",
+          "text": "Ashley Moody could never … https://t.co/sTsTB60JLk"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116424081944019450",
+          "author": "b12football_",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great talk with @Coach_Holloway5 I am blessed to receive an offer from @ndscsfb🙏🏾 #AGTG https://t.co/UoPMFy1oEA"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116386546593227173",
+          "author": "docdcruz",
+          "searchJob": "arkansas-state",
+          "text": "Happy to see efforts to increase access to essential meds. @TOIMumbai pl keep the pressure on https://t.co/17B8O7upKB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2116380757870727192",
+          "author": "drprashantmish6",
+          "searchJob": "arkansas-state",
+          "text": "Purpose of This tweet 1-The quiet crisis in our healthcare system starts with an artificial disparity: insurance packages sanctioned for corporate hospital chains are dramatically higher than those offered to standard 100-bed smaller hospit"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116044412027605398",
+          "author": "drprashantmish6",
+          "searchJob": "arkansas-state",
+          "text": "I recently learned about the staggering gap in surgical pricing across Mumbai: ​100-bed suburban hospital: ₹1.3 lakh ​Corporate hospital (e.g., Hinduja): ₹6.5 lakh for laparoscopic Hysterectomy ( Packages by Insurance company ) ​Ayushman Bh"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116432646595330096",
+          "author": "tradersbuddy07",
+          "searchJob": "army",
+          "text": "When noise gets rewarded, truth gets questioned and independent thinkers go silent, we all lose. Is our industry rewarding research or rhetoric? 🔥 Read, challenge, comment and repost. Let's have this conversation. https://t.co/Cg6VhdtuWt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116232919744193010",
+          "author": "armstrongecon",
+          "searchJob": "army",
+          "text": "Putin understands what is a stake with war. It will not be good for his people or Europe. Peace is simple. The Roman Empire is the example. It was economically beneficial to be within the empire than on the outside looking in. https://t.co/"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116419532591895035",
+          "author": "nzeikay",
+          "searchJob": "army",
+          "text": "DR. YAWUTAMA EMMANUEL AMAZA (DR. YEA) - THE MAKING OF A GENERATIONAL LEADER In every generation, destiny raises certain individuals whose lives become a beacon of hope and a testament to the power of diligence, vision, and unwavering commit"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2116405808930181338",
+          "author": "pakhtundigital",
+          "searchJob": "army",
+          "text": "Pakistan Army Cautiously Optimistic on US-Iran read more: https://t.co/aL8cgkffh8 https://t.co/gqPxib5uJ1"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 36,
       "reasons": {
-        "school_not_resolved_confidently": 5,
-        "bare_mention_requires_llm": 1
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 31,
+        "school_not_resolved_confidently": 2,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116426087601430817",
-          "author": "mewpocalypse",
-          "searchJob": "wake-forest",
-          "text": "@KT22LL You fucking brain damaged? Republicunts caused your congress shut downs. Democrats offered compromise after compromise, and republicans fed you propaganda. Its time for you to wake the fuck up then grow the fuck up."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116423273772654816",
-          "author": "jokotagbaposi",
-          "searchJob": "wake-forest",
-          "text": "Then he said something that really stayed with her. “I thought we were both just having a good time. I didn’t know you expected a whole morning together.” She told him she wasn’t expecting a romantic breakfast, flowers, or a relationship an"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116418203027112321",
-          "author": "waldomd_",
-          "searchJob": "wake-forest",
-          "text": "𝗢𝗻 𝗱𝗮𝘁𝗲𝘀 𝘄𝗶𝘁𝗵 𝗱𝗮𝘆-𝗯𝗹𝗶𝗻𝗱 𝘀𝘁𝗮𝗿𝘀, 𝘄𝗲 𝗻𝗲𝘃𝗲𝗿 𝘀𝗵𝗼𝘄 𝘂𝗽—𝘁𝗵𝗲𝘆 𝗿𝗲𝘁𝘂𝗿𝗻 𝗻𝗶𝗴𝗵𝘁 𝗮𝗳𝘁𝗲𝗿 𝗻𝗶𝗴𝗵𝘁 The Peace of Wild Things When despair for the world grows in me and I wake in the night at the least"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116410789687181798",
-          "author": "transknees",
-          "searchJob": "wake-forest",
-          "text": "security at our bar was tryna wake a passed out drunk guy off one of our patio benches. i gleefully offered to toss water on him and they said “do it.” That felt good as fuck is all i’ll say."
+          "reason": "multiple_resolved_schools",
+          "postId": "2116435449371873684",
+          "author": "robinsonspelmi",
+          "searchJob": "liberty",
+          "text": "Cicero, from the 2nd Philippics. An appropriate time of year to imbibe. Post Inspired by @bradleybirzer Look back at last, I beg you, Marcus Antonius, to the Republic. Think of the men you are descended from, not the men you live with. Deal"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116409003374760138",
-          "author": "aelveris_",
-          "searchJob": "wake-forest",
-          "text": "with gmmtvnext coming up soon, my friend and i decided to visit a church and a temple to pray for our biases and felizz to receive lots of new projects 🙏🏻🕯✨ we each follow a different religion, so i went to the church to pray while my fr"
+          "postId": "2116432997352149432",
+          "author": "kalakutarepulic",
+          "searchJob": "liberty",
+          "text": "I give thanks! My liberty is sealed with thanksgiving! I lay my crowns on the Rock and I offer my harvest! The Lord is good, His mercy endures forever! My thanksgiving preserves my double honor, my overflow, my testimony! I enter November w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116408760969101327",
+          "author": "dwarfmorgante",
+          "searchJob": "liberty",
+          "text": "Show no mercy. But know, this is why you must leave the EU. It will strangle your people’s identity and smother your liberty with its corrosive tendrils. Its agents like Tusk will pose as patriots while selling you out to the strange ideolo"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116407064620671419",
-          "author": "jaybjoyful",
-          "searchJob": "wake-forest",
-          "text": "The Children of Light do not stand apart from Creation and merely observe it. They join it. Their gratitude becomes a song offered to water, land, plants, wind, sun, moon, stars, and every living creature. Creation itself becomes a great ch"
+          "postId": "2116437668498386983",
+          "author": "donedealcardco",
+          "searchJob": "south-florida",
+          "text": "Check out Topps 1992-93 50 Point Club Insert Michael Jordan Chicago Bulls #205 https://t.co/Yhkwj7Tl1B #eBay via @eBay $20 🛳️ Free shipping! 🤝 Shoot us an offer!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116436924756115839",
+          "author": "tg_governor",
+          "searchJob": "temple",
+          "text": "The Hon’ble Governor of Telangana, Shri Shiv Pratap Shukla, accompanied by his spouse, Smt. Janaki Shukla, had the divine darshan of Bhagwan Sri Lakshmi Narasimha Swamy at the sacred Yadagirigutta Temple. They offered prayers, seeking the d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116431988693581907",
+          "author": "syncstudio4",
+          "searchJob": "temple",
+          "text": "ప్రముఖ నిర్మాత, దర్శకుడు రవీందర్ చంద్రశేఖరన్ తిరుమల శ్రీవారి ఆలయాన్ని సందర్శించి, వేంకటేశ్వర స్వామివారిని దర్శించుకుని ప్రత్యేక పూజలు నిర్వహించి స్వామివారి ఆశీస్సులు పొందారు. Producer and director Ravindar Chandrasekaran visited the Tirumal"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116431565391552801",
+          "author": "vsvicky_",
+          "searchJob": "temple",
+          "text": "@ANI I really hope the girl survives Will offer prayers at my most belived temple if it happens 🙏"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2116427097791177141",
+          "author": "bladeit",
+          "searchJob": "temple",
+          "text": "Bihar Has Been Discovered. Now It Must Become a Destination. There are moments when a place receives an opportunity that extends well beyond the achievement itself. Bihar may be experiencing one of those moments. The Bihar Museum has been r"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116421602128568712",
+          "author": "nukedaddy777",
+          "searchJob": "temple",
+          "text": "Let's run an experiment. Let's get on our knees, humble ourselves and say this prayer and we can find out. \"The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid? [2] When t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116405701023015164",
+          "author": "bill_sherley",
+          "searchJob": "temple",
+          "text": "Prayer is an invocation or act that seeks to activate a rapport with a deity, spirit, or object of worship through deliberate communication. By its own definition, prayer is worship. The Bible shows it the same way. The woman of Canaan wors"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116404815643459796",
+          "author": "soldbynick",
+          "searchJob": "temple",
+          "text": "IN ESCROW // TEMPLE CITY 5912 Alessandro Avenue // $2,695,000 10,783 s/f, 19,480 s/f lot Positioned on a prominent corner lot in the heart of Temple City, this versatile commercial property offers an exceptional opportunity for an owner-use"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116413384857985323",
+          "author": "napaiccinsider",
+          "searchJob": "florida",
+          "text": "Florida homeowners, beware of post-storm assistance offers. Always vet individuals: check credentials, ask for references, and prioritize licensed professionals. Don't let scams add to your storm damage. #FloridaStorms #HomeownerTips #ScamA"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116406800530481300",
+          "author": "redbison",
+          "searchJob": "florida",
+          "text": "You'd be crazy NOT to vote for this woman. (And please note all zero of the Florida tough-guys pulling over to offer help; what would we do without men protecting us?)"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116407223387586885",
+          "author": "777specialk",
+          "searchJob": "lsu",
+          "text": "@OleMissRebel90 @TopTierTulane Blake Baker was offered the HC position, strung us along and waited until the last minute to stay at LSU. By that time, all other viable candidates had already taken other jobs."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116417396768477335",
+          "author": "maniaufo",
+          "searchJob": "oregon",
+          "text": "The activity shown in the video is a duck massage (often offered at specialized \"duck spas\" or agri-tourism spots, most notably in parts of Southeast Asia like Vietnam). During this experience, a person lies down while a large flock of frie"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116408722893283513",
+          "author": "danielaiello631",
+          "searchJob": "oregon",
+          "text": "Yes — the closest real science is in vitro gametogenesis, or IVG. Researchers take a skin or blood cell, reprogram it into an induced pluripotent stem cell, then coax that cell toward becoming an egg precursor. In mice, that pipeline has pr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116408652575719845",
+          "author": "danielaiello631",
+          "searchJob": "oregon",
+          "text": "Yes — the closest real science is in vitro gametogenesis, or IVG. Researchers take a skin or blood cell, reprogram it into an induced pluripotent stem cell, then coax that cell toward becoming an egg precursor. In mice, that pipeline has pr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116408573919953106",
+          "author": "danielaiello631",
+          "searchJob": "oregon",
+          "text": "Yes — the closest real science is in vitro gametogenesis, or IVG. Researchers take a skin or blood cell, reprogram it into an induced pluripotent stem cell, then coax that cell toward becoming an egg precursor. In mice, that pipeline has pr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116437734835281933",
+          "author": "that_hapiness",
+          "searchJob": "arkansas-state",
+          "text": "@steezy10_ L you people should help me pls I’ve already gotten admission into a state university where I’ve done all my clearance before paid my rent,before I was offered admission into lead university now there’s literally nothing to get g"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116436826953244858",
+          "author": "docjais",
+          "searchJob": "arkansas-state",
+          "text": "Dacoity. That is the word two Supreme Court judges used on 27 October for steep hospital markups. The bench was hearing a petition seeking stricter price controls on medicines and medical consumables. A lawyer for private hospitals warned t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116434518198620657",
+          "author": "redqueenesther",
+          "searchJob": "arkansas-state",
+          "text": "Olmert made a offer 2008, to the Palestinian Authority. No offers to Hamas, as they are not the representative of the Palestinians, but a terror group whose charter states that their mission is to destroy Israel and kill all Jews everywhere"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116434017742385620",
+          "author": "colomboinsights",
+          "searchJob": "arkansas-state",
+          "text": "Every year, approximately 40,000 students enter Sri Lanka's state universities through the Advanced Level examination, one of the most brutally competitive selection processes in South Asia. They do so having survived a system that accommod"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116432859623837886",
+          "author": "proshare",
+          "searchJob": "arkansas-state",
+          "text": "What to Expect from the Markets this Week – 2 November 2026 Nigeria’s financial markets closed the week ended 30 October 2026 with mixed results across asset classes. The @ngxgrp All-Share Index rose 2.86% to 254,299.49 points, ending a run"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116424031524307168",
+          "author": "ghandhads",
+          "searchJob": "arkansas-state",
+          "text": "@GorSusie @owenjonesjourno The Arabs west of the Jordan were offered a state multiple times. In 1964 the PLO manifesto was to destroy Israel rather than create a state in the West Bank. No negotiation, no recognition, no peace…. remember??"
         }
       ]
     },
@@ -157,20 +380,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "liberty: SearchTimeline HTTP 404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 36,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-10-31T07:28:20.986Z"
+    "status rebuilt locally from current store on 2026-10-31T07:58:37.228Z"
   ]
 }
