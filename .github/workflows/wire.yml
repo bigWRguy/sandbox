@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   freshness:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       should_run: ${{ steps.check.outputs.should_run }}
     steps:
@@ -44,7 +44,7 @@ jobs:
   wire:
     needs: freshness
     if: needs.freshness.outputs.should_run == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4

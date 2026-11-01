@@ -601,7 +601,7 @@ async function main() {
   if (db.review.length) appendNdjson('review.ndjson', db.review);
 
   const playerById = new Map(db.players.map((p) => [p.id, p]));
-  const recent = db.offers.slice(0, 1500).map((offer) => {
+  const recent = db.offers.slice(0, 10000).map((offer) => {
     const player = playerById.get(offer.playerId) || {};
     return {
       ...offer,

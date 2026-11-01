@@ -175,7 +175,7 @@ function render(){
   if(corr)rows=rows.filter(o=>(o.corroborations||1)>=2);
   rows.sort((a,b)=>new Date(b.offeredAt)-new Date(a.offeredAt));
 
-  const html=rows.slice(0,1000).map(o=>{
+  const html=rows.slice(0,5000).map(o=>{
     const ev=o.evidence||[],n=o.corroborations||1,verified=n>1;
     const p=o.player||{};
     const ht=htwt(p);
@@ -207,7 +207,7 @@ function render(){
   }).join('');
 
   $('list').innerHTML=html||'<div class="empty">No offers match these filters.</div>';
-  $('shown').textContent='Showing '+Math.min(rows.length,1000)+' of '+DATA.length+' offers';
+  $('shown').textContent='Showing '+Math.min(rows.length,5000)+' of '+DATA.length+' offers';
 }
 function updateStats(){
   var offers=DATA.length;
