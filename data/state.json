@@ -1,19 +1,5 @@
 {
   "seenPostIds": [
-    "2110993414913437872",
-    "2110990664267661439",
-    "2110988041816875268",
-    "2110986567682814437",
-    "2110985861323976836",
-    "2110890970149740556",
-    "2110984896432803994",
-    "2111010259942744448",
-    "2111010223267664381",
-    "2111010044959465693",
-    "2111008004896071938",
-    "2111007491177783372",
-    "2111006910849614100",
-    "2111004728486248752",
     "2111003359884775908",
     "2111003264363745747",
     "2111003125268050132",
@@ -59999,17 +59985,31 @@
     "2116693467363480017",
     "2116689269653651950",
     "2116632647384584609",
-    "2116597415054594331"
+    "2116597415054594331",
+    "2116679215474934160",
+    "2116678992451498188",
+    "2116364538891141578",
+    "2116672533928051174",
+    "2116672062685430148",
+    "2116529061488914551",
+    "2116671280141263064",
+    "2116668287782392028",
+    "2116668095100047808",
+    "2116662655494635722",
+    "2116662622439481441",
+    "2116711825840689282",
+    "2116706768730411272",
+    "2116624317857542192"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-11-01T02:18:42.770Z",
-      "got": 124,
-      "new": 69,
-      "lag": 0.08
+      "at": "2026-11-01T02:31:49.410Z",
+      "got": 24,
+      "new": 14,
+      "lag": 0.53
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60093,16 +60093,10 @@
       "truncated": false
     },
     "minnesota": {
-      "at": "2026-10-31T22:45:52.078Z",
+      "at": "2026-11-01T02:17:00.025Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 19,
-      "truncated": true,
-      "window": {
-        "lower": "2026-10-31T22:40:52.078Z",
-        "upper": "2026-11-01T02:17:00.025Z",
-        "until_time": "2026-10-31T22:40:52.078Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false
     },
     "mississippi-state": {
       "at": "2026-11-01T02:17:00.025Z",
@@ -60475,12 +60469,12 @@
     "texas-tech": {
       "at": "2026-10-31T22:26:03.056Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 21,
+      "lastPosts": 18,
       "truncated": true,
       "window": {
         "lower": "2026-10-31T22:21:03.056Z",
         "upper": "2026-11-01T01:57:05.263Z",
-        "until_time": "2026-10-31T23:50:42.000Z",
+        "until_time": "2026-10-31T22:21:03.056Z",
         "completed": false
       }
     },
@@ -60503,9 +60497,9 @@
       "truncated": false
     },
     "virginia-tech": {
-      "at": "2026-10-31T22:45:52.078Z",
+      "at": "2026-11-01T02:31:26.538Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 0,
       "truncated": false
     },
     "wake-forest": {
@@ -60563,13 +60557,13 @@
       "truncated": false
     },
     "uconn": {
-      "at": "2026-10-31T22:45:52.078Z",
+      "at": "2026-11-01T02:31:26.538Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 1,
+      "lastPosts": 6,
       "truncated": false
     },
     "phrase:\"has offered\" recruit": {
-      "at": "2026-10-31T22:45:52.078Z",
+      "at": "2026-11-01T02:31:26.538Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -61107,11 +61101,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-11-01T02:18:42.770Z",
+    "at": "2026-11-01T02:31:49.410Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61131,351 +61125,131 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-01T02:17:00.002Z",
+    "at": "2026-11-01T02:31:26.520Z",
     "mode": "live",
     "collection": {
-      "returned": 124,
-      "kept": 69,
-      "duplicate": 52,
-      "tooOld": 3,
+      "returned": 24,
+      "kept": 14,
+      "duplicate": 9,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 48,
-      "rejected": 21,
+      "accepted": 10,
+      "rejected": 4,
       "reasons": {
-        "no_offer_term": 9,
-        "no_fbs_school": 10,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 1
+        "no_offer_term": 2,
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2116700584191672693",
-          "author": "negitts",
+          "postId": "2116364538891141578",
+          "author": "theloomboise",
           "searchJob": "texas-tech",
-          "text": "#IamChappy 引用・出典: 1. https://t.co/acRxWw7Wkx https://t.co/acRxWw7Wkx 2. https://t.co/zkpB49UqMN https://t.co/zkpB49UqMN 3. https://t.co/Hdwu81D8uG https://t.co/Hdwu81D8uG 4. https://t.co/1IRXrGOxdA https://t.co/1IRXrGOxdA 5. https://t.co/w7"
+          "text": "WHICH LOOM EXPERIENCE IS RIGHT FOR YOU? 🎟 General Admission — $45 ✨ Premium — $90 ⭐ VIP — $200 Premium adds priority runway seating, a drink voucher and a commemorative phygital pass. VIP adds 5:30 PM entry, a private-hour buffet and hoste"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2116698243128087000",
-          "author": "tk1ng",
+          "reason": "no_fbs_school",
+          "postId": "2116529061488914551",
+          "author": "0xbobaaa",
           "searchJob": "texas-tech",
-          "text": "\"From a global allocation perspective it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer - if you're trying to deal with this very supply-constrained environment\" -that you"
+          "text": "F*CK YES. GROK BOT NOW SITS ON HOLD AND HAGGLES YOUR BILLS DOWN FOR YOU elon shipped calls last week: your bot phones the company, asks for what you want, and sends you a summary of what they said 6 calls you never have to make yourself aga"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2116694450034614451",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Great Indian Festival Deal ] 📦 SC-INA40D-3P25 Sparsh Dome IP Camera 4MP, 2560×1440, PoE, Dual Light at Rs 3,899 (MRP Rs 9,438) [ad] https://t.co/CZMyJt8XaI – 4MP 2560×1440 resolution – Dual Light & IR – H.265/H.264 compressi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116681814979076459",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India Pre-order ] MJ6Q4HN/A | iPad mini (A20 Pro) Apple iPad mini 256GB Midnight Tablet, 256GB - Midnight [ad] https://t.co/aINmzDUqub - priced at Rs 94,900. The Apple iPad mini (MJ6Q4HN/A) delivers the full iPad experience in an u"
+          "postId": "2116711825840689282",
+          "author": "wtnh",
+          "searchJob": "uconn",
+          "text": "The trolley rides through Old Wethersfield on Saturday offered a way to experience the town, bringing a touch of seasonal excitement for Halloween weekend. https://t.co/zhccNV5f3J https://t.co/yHiQaPa9uy"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2116679288573640909",
-          "author": "bestblogsdev",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/IHBciyeJBc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116679328792756581",
-          "author": "wrightysback",
-          "searchJob": "kent-state",
-          "text": "@flowerlady61 @Cuillins1 You yawn a lot but offer no coherent answers."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116671844191289362",
-          "author": "kentottoson",
-          "searchJob": "kent-state",
-          "text": "@sofiareideborn Det finns bara ett land som eldar på kriget i Ukraina, Ryssland. Om Ryssland lämnar Ukraina är kriget över. Du upprörs över att ett offer får hjälp att försvara sig, under ett pågående övergrepp. Relativiseringrn och whatabo"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116661453356679291",
-          "author": "mozman9",
-          "searchJob": "kent-state",
-          "text": "@Cubskickass100 Carson already declined his option. The Cubs are not going to offer anything to Happ. I think I heard the Cubs were extending a qualifying offer to Suzuki."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2116709037072842968",
-          "author": "unluckybones",
-          "searchJob": "liberty",
-          "text": "Part 2 of this story, I should have the next one soon, I am sorry for such a delay on this SORRY. https://t.co/Qb5nHzJOEN https://t.co/OD3bR05YF9"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116685099202642283",
-          "author": "boneknightmare",
-          "searchJob": "alabama",
-          "text": "Chastity Jones applied for a job at a call center in Mobile, Alabama in 2010. The work was answering telephones. She was offered the job and she accepted it. Then a human resources manager raised her hair. She wore short locs. She was told "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2116319520730284083",
-          "author": "zachjones1994",
-          "searchJob": "minnesota",
-          "text": "FBI, IRS, & HHS ARE CONDUCTING MULTIPLE RAIDS ACROSS THE TWIN CITIES IN MINNESOTA IN RELATION TO MEDICAID FRAUD LOCAL NEWS: “Federal agents actually sort of physically went into that space this morning. Yeah, the door is open. We have seen "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2115987169735070179",
-          "author": "zachjones1994",
-          "searchJob": "minnesota",
-          "text": "PRESIDENT TRUMP SAYS THERE ARE MULTIPLE INVESTIGATIONS INTO MINNESOTA GOVERNOR TIM WALZ & THE FRAUD IN THE STATE BEING CONDUCTED BY SOMALIAN ILLEGAL IMMIGRANTS DONALD TRUMP: “Can you imagine if a Republican stole, as an example, the money t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116676209799238135",
-          "author": "wherestrump",
-          "searchJob": "minnesota",
-          "text": "#MAGA ICE paid private prison firm $495M for Appleton site that had been offered to state for $75M - Bring Me The News https://t.co/7IhdAnvVxq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116693627975979506",
-          "author": "mizzoufans",
-          "searchJob": "missouri",
-          "text": "@Catholic_bro The difference is obvious: I can read your request. You've offered no biblical evidence Mary can hear ours. Being with Christ doesn't automatically grant omniscience. Where did Jesus or the apostles instruct Christians to addr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116673992929210755",
-          "author": "mizzoufans",
-          "searchJob": "missouri",
-          "text": "@JustinIllusionn @potamopotos I don't believe Luther was wrong on this point. God's promises to Israel didn't end with Jesus; they were fulfilled in Him. Jews and Gentiles alike are offered salvation through Christ. Fulfillment isn't abando"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2116536327219109941",
-          "author": "votemarsha",
-          "searchJob": "tennessee",
-          "text": "As your governor, I’ll protect Tennessee from Sharia law and the spread of Islamization."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2116677833124622492",
-          "author": "jaydenconrad21",
-          "searchJob": "phrase:\"my first Division 1 offer\"",
-          "text": "After a Great visit and conversation with @CoachScerb I am blessed to say I have received my first Division 1 offer from the University of New Haven !!!! @CoachJimRyanIII @CoachFitzFB @wpialsportsnews @PA_TodaySports https://t.co/LYomvTY4qq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116695993244627205",
-          "author": "gok3szn",
-          "searchJob": "duke",
-          "text": "I hope everything this month has to offer works in my favour."
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2116693467363480017",
-          "author": "coachfbwaters",
-          "searchJob": "virginia",
-          "text": "@NA_Chargers_FB @Parrott_E23 today visited Furman. @Oscar_meeks12 visited Southern Virginia and was offered @_2bryce just received offer from Lawrence University. @kevinjohnson15_ to Johnson C Smith for visit already offered him. Great day "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2116632647384584609",
-          "author": "jjvibe",
-          "searchJob": "virginia",
-          "text": "A federal judge just ordered the White House to pull three ads: \"$5,000 to Americans,\" \"No Tax on Tips,\" and \"Cost of Socialism.\" Now everybody's looking them up. Nothing sells an ad like a judge telling you not to watch it."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2116597415054594331",
-          "author": "gunthereagleman",
-          "searchJob": "virginia",
-          "text": "🚨 JUST IN: A Biden appointed judge just ordered the Trump White House to pull three ads off its own websites, YouTube and Instagram, days before the midterms. The ads? \"Every Democrat Voted Against No Tax on Tips.\" \"Cost of Socialism.\" \"$5"
+          "postId": "2116624317857542192",
+          "author": "realdonaldtrump",
+          "searchJob": "uconn",
+          "text": "TO THE GREAT PEOPLE OF NEW YORK, I will doing a TeleRally, LIVE, at 4:15pm ET — Answer your phones, and ENJOY! President DONALD J. TRUMP https://t.co/sQbjiPfDxA"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 48,
+      "rejected": 10,
       "reasons": {
-        "bare_mention_requires_llm": 34,
-        "school_not_resolved_confidently": 8,
-        "multiple_resolved_schools": 6
+        "school_not_resolved_confidently": 9,
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116699941489848327",
-          "author": "blackincanx9",
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116679215474934160",
+          "author": "426anon",
           "searchJob": "texas-tech",
-          "text": "North Korea serves as an ideal scapegoat for the tech oligarchy, allowing a distant dictator to absorb the blame for various cryptocurrency and financial losses. By providing Kim Jong-un with some support from China and Russia to ensure his"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116699909940207831",
-          "author": "blackincanx9",
-          "searchJob": "texas-tech",
-          "text": "North Korea serves as an ideal scapegoat for the tech oligarchy, allowing a distant dictator to absorb the blame for various cryptocurrency and financial losses. By providing Kim Jong-un with some support from China and Russia to ensure his"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116699868806726027",
-          "author": "blackincanx9",
-          "searchJob": "texas-tech",
-          "text": "North Korea serves as an ideal scapegoat for the tech oligarchy, allowing a distant dictator to absorb the blame for various cryptocurrency and financial losses. By providing Kim Jong-un with some support from China and Russia to ensure his"
+          "text": "@ExistentialEnso You should find a non tech company and offer to make free, bespoke versions of the #6-10 softwares in their stack"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116697223111360643",
-          "author": "tnmse282",
+          "postId": "2116678992451498188",
+          "author": "crytoniper1",
           "searchJob": "texas-tech",
-          "text": "With BTC feeling the heat to pivot to Web3, Pi is showing the world how self-custody is done With billions in crypto getting hit by cyberattacks, millions of people are still handing over their wallet keys to centralized exchanges. The late"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116696340218417216",
-          "author": "blackincanx9",
-          "searchJob": "texas-tech",
-          "text": "North Korea serves as an ideal scapegoat for the tech oligarchy, allowing a distant dictator to absorb the blame for various cryptocurrency and financial losses. By providing Kim Jong-un with some support from China and Russia to ensure his"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116696167937437825",
-          "author": "blackincanx9",
-          "searchJob": "texas-tech",
-          "text": "North Korea serves as an ideal scapegoat for the tech oligarchy, allowing a distant dictator to absorb the blame for various cryptocurrency and financial losses. By providing Kim Jong-un with some support from China and Russia to ensure his"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116695818329522561",
-          "author": "blackincanx9",
-          "searchJob": "texas-tech",
-          "text": "North Korea serves as an ideal scapegoat for the tech oligarchy, allowing a distant dictator to absorb the blame for various cryptocurrency and financial losses. By providing Kim Jong-un with some support from China and Russia to ensure his"
+          "text": "🎟️ Choose your experience! From General Admission to the exclusive VIP perks, The Digital Loom offers something for every art and tech enthusiast. ✨🌐 #TheDigitalLoom #Boise"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116690876432785491",
-          "author": "elitesavior",
+          "postId": "2116672533928051174",
+          "author": "treyintech",
           "searchJob": "texas-tech",
-          "text": "I went through the whole thread behind this so I could see what it's actually about. GiGi quoted @GrumpyTechBro's \"Mysterious ways\" post and said she's been skeptical of @DataRepublican for a while and has now unfollowed her. But that post "
+          "text": "Getting into tech has taught me a lot—but finding this incredible community has been one of the best parts. I’m so grateful for everyone who takes the time to share knowledge, answer questions, offer advice, and encourage others along the w"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116682333306949751",
-          "author": "vluxeinvests",
+          "postId": "2116672062685430148",
+          "author": "upgradeamerican",
           "searchJob": "texas-tech",
-          "text": "🚗 CarTrade Tech: Consumer Business Targets ₹600 Cr Revenue by FY30; Unveils AI-Powered VAYA Live Platform 👉🏻 Consumer Group Revenue: H1 FY27 revenue ₹157.6 Cr (+10% YoY); two-year CAGR of 22% 👉🏻 Q2 FY27: Revenue ₹79.5 Cr vs ₹76.2 Cr Yo"
+          "text": "One of the comments really hit me: “I'm too lazy to do this.” Me? I just get pissed off too easily. 😂 Between overseas call centers, endless hold times, automated menus, and chatbots that can't solve anything, dealing with customer service"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116682227438198917",
-          "author": "tclaugus2",
+          "postId": "2116671280141263064",
+          "author": "teeteesunflower",
           "searchJob": "texas-tech",
-          "text": "The large layoffs in tech up until this year that were attributed to AI were refuted by the argument that they were really laying off over hires post covid and using AI as an excuse. I went along with this argument as it did look that way. "
+          "text": "The first time I was râped as an adult, I was 24. It was 2017. He was a Medication tech at work. I was invited over to crash on his couch so we could watch an Ice Hockey game. I was homeless, and we were both married. He knew that. I arrive"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116682041177821312",
-          "author": "contentbuffer",
+          "postId": "2116668287782392028",
+          "author": "therollupco",
           "searchJob": "texas-tech",
-          "text": "Mode acquires JibJab for up to $29.5 million amid its consumer data roll-up spreeMode buys software businesses and offers free premium access and other rewards for users who share data for AI training and consumer research.#Tech #DataPrivac"
+          "text": "EXCLUSIVE: @Stevie_Satoshi On How Binance US Plans To Win The US Market The Binance US CEO on applying to offer derivatives and prediction markets, a broker-dealer for tokenized equities, zero maker fees, and how @BinanceUS is separate from"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116680219155390659",
-          "author": "technewsonweb",
+          "postId": "2116668095100047808",
+          "author": "ocean_gross",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India ] MJAA4HN/A Apple Watch Ultra 4 Titanium Cellular Smartwatch, Natural Titanium/Natural, Milanese Loop, Large - fits 165-210mm wrists 195951214474 [ad] https://t.co/zAisyVYNmg - priced at Rs 1,24,900 + Bank Offer Discounts. Th"
+          "text": "Go find the top person in your space online and offer to partner on an offer that would sell to their audience as a join venture not as a \"ill manage your community\" Sell it as a Service as a software model where you provide the service but"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116679344580092401",
-          "author": "bestblogsdev",
+          "postId": "2116662655494635722",
+          "author": "digitalwitch_12",
           "searchJob": "texas-tech",
-          "text": "BestBlogs Daily · 11-01 # imec / Self-hosting / Bumble / FurtherAI / Agent quality [1] ★ Deep Dive · When Running Your Own AI Models Beats Paying for APIs - Steven Latré, imec [Video] imec compares coding tasks across models, harnesses and "
+          "text": "IT’S TODAY! 🎉 Have you made your way to the Finance Fair yet? Digital Witch will be at Landmark, Victoria Island, and we’re coming with exciting offers! If you’re not yet a Digital Witch student, this is your chance to: ✨ Stand a chance to"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116662622439481441",
+          "author": "yaw59041",
+          "searchJob": "texas-tech",
+          "text": "Microsoft is now actively emailing Xbox owners and telling them to get rid of their hardware. If you haven't booted up your console recently, Xbox might hit your inbox asking if you want to trade in that dust-collecting machine for Best Buy"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116688165574775296",
-          "author": "markwarnerva",
-          "searchJob": "james-madison",
-          "text": "Harrisonburg is always a good time, especially on Halloween eve! Thanks to Charlee for showing me some spots around JMU. Great to meet so many Dukes and remind them that Virginia offers same-day voter registration on Tuesday! https://t.co/c"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116683159681085774",
-          "author": "kingkhieu",
-          "searchJob": "kent-state",
-          "text": "🇬🇧INSANE: UK police forces and councils, including Leicestershire Police and Swale Borough Council, issuing “No Trick or Treat” posters for Halloween 2026, citing risks of upsetting religious or cultural beliefs. Leicestershire Police sai"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116709182850162869",
-          "author": "mathewcarson11",
-          "searchJob": "liberty",
-          "text": "@aliceinempire The opposites are collectivism vs individualism, statism vs liberty, coercion vs voluntary cooperation. Fascism and communism offer the formers, classical liberalism offers the latters."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116699094609518664",
-          "author": "charles46129363",
-          "searchJob": "liberty",
-          "text": ">“The Spirit of the Lord God is upon me, because the Lord has anointed me to bring good news to the afflicted; He has sent me to bind up the brokenhearted, to proclaim liberty to captives and freedom to prisoners.”—Isaiah 61:1 This line can"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116677590782259532",
-          "author": "henrygustav4",
-          "searchJob": "liberty",
-          "text": "@FreeMindsNoTeam @GordonGChang You offer no evidence mr liberty and evidence."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116666482239373506",
-          "author": "climbingrank",
-          "searchJob": "liberty",
-          "text": "They are not going to talk about seizing the means of production as that would be an instant red flag. By electing Democratic Socialists, you are opening the door for the means of production to be seized. It is a slippery slope and countrie"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116663942349005172",
-          "author": "jenniferzeng97",
-          "searchJob": "liberty",
-          "text": "👏 🩷 My First Time Voting—and I Got a Surprise Round of Applause! 👏 🩷 As I wrote in my essay below, “I Was Born an American,” I became a U.S. citizen precisely because I wanted to vote—to exercise my rights as a citizen and defend the fr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116704278656045390",
-          "author": "thesportsontap",
-          "searchJob": "louisiana",
-          "text": "Doug Williams threw four touchdown passes in one Super Bowl quarter, becoming the first Black starting quarterback to achieve this. Just a few years before, he was out of the NFL. He managed this while playing on an injured leg. Here’s how "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116684533919612996",
-          "author": "jong6457",
-          "searchJob": "louisiana",
-          "text": "@blakearcuri @StoxPot @Bonck87 Louisiana offered $9.1 million in tax breaks per one job created at Starbase Louisiana. For comparison, Starbase Texas is $3,200 in tax breaks per one job created. Explain to me how that’s a good deal Blake. h"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116679831362609262",
-          "author": "realsocalbadger",
-          "searchJob": "maryland",
-          "text": "@ClayTravis Maryland athletics was nearly bankrupt. They offered to take a much- reduced revenue package compared with what Nebraska got. They still get far more money than they would had they stayed in the ACC. Guess it’s what you do with "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116715289807409392",
-          "author": "darkleaksq",
-          "searchJob": "minnesota",
-          "text": "Kevin O’Leary cuts through all the noise on Minnesota with one simple question: “Why is all this happening in Minneapolis? Why?” As the panel scrambled to defend the blue city in a blue state, O’Leary kept the focus where it mattered — expo"
+          "postId": "2116706768730411272",
+          "author": "ctpatriot17",
+          "searchJob": "uconn",
+          "text": "Please offer to Connecticut! We love you Sir!"
         }
       ]
     },
@@ -61483,22 +61257,24 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 5,
+      "failed": 1,
+      "requests": 6,
+      "errors": [
+        "marshall: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 48,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 69,
-    "decided": 69,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
