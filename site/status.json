@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T07:58:36.169Z",
+  "generatedAt": "2026-11-01T08:13:37.715Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-01T07:58:35.664Z",
+    "at": "2026-11-01T08:13:37.392Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7769894444444444,
-    "p95Hours": 1.2780747222222222,
-    "worstHours": 1.527393611111111
+    "medianHours": 0.776595,
+    "p95Hours": 1.2743544444444443,
+    "worstHours": 1.5285041666666668
   },
   "decisionCoverage": {
-    "total": 24,
-    "decided": 24,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,210 +55,146 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-01T07:58:35.664Z",
-      "got": 37,
-      "new": 24,
-      "lag": 0.2
+      "at": "2026-11-01T08:13:37.391Z",
+      "got": 25,
+      "new": 15,
+      "lag": 0.15
     }
   },
   "audit": {
-    "at": "2026-11-01T07:56:57.658Z",
+    "at": "2026-11-01T08:12:06.486Z",
     "mode": "live",
     "collection": {
-      "returned": 37,
-      "kept": 24,
-      "duplicate": 13,
+      "returned": 25,
+      "kept": 15,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
+      "accepted": 10,
       "rejected": 5,
       "reasons": {
-        "no_fbs_school": 2,
-        "non_fbs_offer_target": 1,
-        "no_offer_term": 2
+        "no_offer_term": 3,
+        "hard_negative": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2116790784687005978",
-          "author": "mikeliberation",
-          "searchJob": "liberty",
-          "text": "One church member offered to donate ₦500,000 to buy 10 standing fans for our church. Early last month, he noticed that people were uncomfortable during church services because everyone kept fanning themselves with handkerchiefs. So, he went"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2116796457160262058",
-          "author": "bradyh2009",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@Coach_Holloway5 Another offer! So thankful and blessed to receive an offer from North Dakota State College of Science! I’m beyond grateful for every opportunity and all the support along the way. All glory to God! 🙏🏈 https://t.co/UvC1hty"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2116798660193247502",
-          "author": "milkbarpl",
-          "searchJob": "california",
-          "text": "In the 19th century Jews started using CE/BCE (or Vulgar Era) so they could use the same calendar as everyone else without calling Jesus “Christ” or “Lord.” Cemetery inscriptions and books like Raphall’s 1856 history used the terms. Jewish "
+          "reason": "no_offer_term",
+          "postId": "2116798933850878269",
+          "author": "brindhagopal1",
+          "searchJob": "phrase:\"blessed to have received\"",
+          "text": "So happy and extremely proud to receive the Provoke Lifetime Achievement Award and feeling absolutely blessed to have received it from The Legendary Padma Subramaniam maam who has been an inspiration for me 🙏🙏🙏from my childhood. Thank yo"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2116782014279917883",
-          "author": "cryptopatrick",
-          "searchJob": "arkansas-state",
-          "text": "I once dreamed about becoming a writer. My parents said \"No!\". Tried my hand at writing fiction, for the first time, last year - in the form of this short story \"The Time Lock\". It sucks. So, I guess my parents were right :D Anyway, back to"
+          "postId": "2116803599883976819",
+          "author": "ddball67",
+          "searchJob": "army",
+          "text": "https://t.co/eBPO0ctYJz"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116788850655961341",
+          "author": "ukhrultimes",
+          "searchJob": "army",
+          "text": "In keeping with its commitment to community development and women empowerment, the #IndianArmy established an #Embroidery and #Tailoring Centre at Village Nakhlawai, #Bishnupur District, Manipur, under #OperationSadbhavna. The centre will o"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2116798699330326595",
-          "author": "mbjmemphis",
-          "searchJob": "memphis",
-          "text": "WaveRock, a Memphis-based startup, charges small businesses $299 for an AI-generated growth plan built from 12 questions. The report pulls local market data and ranks growth opportunities by ease of implementation. https://t.co/y6orJkn4xb"
+          "postId": "2116779992319222214",
+          "author": "osint_strong",
+          "searchJob": "army",
+          "text": "@CyrusShares And to think that all we had to do was to give Russia some security guarantees maybe a demilitarized section of territory too"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2116802671331913907",
+          "author": "alfonsocahero",
+          "searchJob": "delaware",
+          "text": "Still water runs deep. SPHR.D — The Still Water. The sapphire issue of the Cahero Heritage Collection: US $2,244,317,317.13 in appraised sapphire collateral, 136 parcels, each with its own GIA report, held by Cahero Tryon Holding LLC, Delaw"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 10,
       "reasons": {
-        "multiple_resolved_schools": 3,
-        "bare_mention_requires_llm": 11,
-        "school_not_resolved_confidently": 5
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 6
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116793437143904739",
-          "author": "mrdavidjb",
-          "searchJob": "liberty",
-          "text": "@Phillies_Fever @UDBlueHens @ConferenceUSA @SunBelt @LibertyFootball While I think the American bid should be the goal (unless a new northeastern conference were to form), I can see the benefits to Sun Belt over CUSA. More regional games (O"
+          "postId": "2116794323115118950",
+          "author": "revenuenaire",
+          "searchJob": "indiana",
+          "text": "Idaho and Indiana now ban cities from banning short-term rentals. Michigan let one do it anyway in October. Pricing that regulatory risk into a rate or an offer: https://t.co/VcSYrHdQ6y #airbnb #str"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2116795809866084634",
+          "author": "cosmicheret1c",
+          "searchJob": "iowa",
+          "text": "Oh Brittany, I know this is going to be two or three sentences longer than your attention span can stand. Probably about 10 to 15 IQ points above what you're able to comprehend but let's just give it a try. I believe in you. Free agency on "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116783987209179257",
-          "author": "cairnlodge1",
-          "searchJob": "liberty",
-          "text": "#DailyDevotional Sunday, 1st November 2026🕊🔥 Freedom Costs ✞ \"His sweat was as it were great drops of blood.\" #Luke 22:44 📖 #KJV On May 10, 1940, Winston Churchill made his first speech as British Prime Minister to the House of Commons. "
+          "postId": "2116803426592149972",
+          "author": "sohamdas",
+          "searchJob": "army",
+          "text": "@Prashanth_Krish A fly in the ointment: A low-tech army (USSR, India, China - before 1990s) relies on manpower. Juxtapose this demand with the opportunity cost or choices - South India offers far more opportunity to a young man than UP/Biha"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116797856514183313",
-          "author": "2bytecoin",
-          "searchJob": "arizona",
-          "text": "Let me analyze this for everyone ✅🔥 1. Trey McBride — ATD (-110) Confidence: 8/10 * The strongest selection on this ticket. * McBride is a major part of Arizona’s passing attack. * His receiving involvement gives him multiple opportunities"
+          "postId": "2116802349314523586",
+          "author": "george_loo73202",
+          "searchJob": "army",
+          "text": "I have compiled this reading list to build a comprehensive historical and cultural perspective for understanding China. China is a great country with a 5,000-year-long civilisation. Though dynasties rose and fell across its history, the cor"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116782081749434769",
-          "author": "goatifysports",
-          "searchJob": "arizona",
-          "text": "Marte can veto any trade. Arizona can listen to offers. After a down 2026, who really controls the Diamondbacks' next move? #MLB #Diamondbacks #Baseball https://t.co/ktQXWW5EtQ https://t.co/ehmY3FlyBW"
+          "postId": "2116792697961042098",
+          "author": "namasteankit",
+          "searchJob": "army",
+          "text": "@bneeditor What if the German government offers citizenship in return of the 1-2 years of military service to people from Global South countries? Will that fulfill the numbers? Both Russia &amp; Ukraine are trying these ways to increase the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116788373914542433",
+          "author": "cyrusshares",
+          "searchJob": "army",
+          "text": "We have no ball in the game, we're only helping Ukraine survive and keep what it hasn't lost already, only Ukraine and Russia can agree to whatever deal negotiated directly or through intermediaries! Russia has the leverage not Ukraine: - C"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2116787701295038775",
+          "author": "cyrusshares",
+          "searchJob": "army",
+          "text": "We have no ball in the game, only helping Ukraine survive and keep what it hasn't lost already And Russia has the leverage not Ukraine: - Controls a huge portion of former Ukrainian territory - With China's help and energy is minerals ATM m"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2116792582017847409",
-          "author": "dunnbilly87734",
-          "searchJob": "california",
-          "text": "ENGLISH FREEMASONRY INFILTRATED BY JESUITS Some very interesting comments taken from a book written in 1798, titled, \"Proofs of a Conspiracy\" , by Professor John Robison, a Scottish Protestant, will shed some light on the Jesuit subversions"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116786674294538603",
-          "author": "koreanteacher1",
-          "searchJob": "california",
-          "text": "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Pi Network's Former member Files Lawsuit Over 25 Million Unpaid Pi. What Should We Really Be Concerned About? On November 13, 2025, Swaroop Poudel, a former Pi Network head of marketing, filed a lawsuit against So"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2116799027194777734",
+          "postId": "2116800615741292631",
           "author": "2bytecoin",
-          "searchJob": "cincinnati",
-          "text": "Let me analyze this for everyone ✅🔥 1. Jaylen Warren — ATD (+110) Confidence: 6.5/10 * Has the ability to score through rushing and receiving opportunities. * Plus-money odds offer decent upside. * The concern is Pittsburgh’s distribution "
+          "searchJob": "buffalo",
+          "text": "Let me analyze this for everyone ✅🔥 1. Pittsburgh Steelers ML (-196) Confidence: 8/10 * Pittsburgh is priced as a clear favorite at home. * The moneyline avoids the need to win by a particular margin. * Main concern: Cleveland keeping the "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2116790783185469653",
+          "postId": "2116796244253168095",
           "author": "2bytecoin",
-          "searchJob": "cincinnati",
-          "text": "Let me analyze this for everyone 🔥✅ 1️⃣ Javonte Williams — ANYTIME TD (-250) 🔥 Confidence: 8.5/10 * Dallas has a strong reason to use its running game in the red zone. * Williams is the shortest-priced selection on this ticket. * His touc"
+          "searchJob": "buffalo",
+          "text": "Let me analyze this for everyone ✅🔥 1️⃣ ASHTON JEANTY — ANYTIME TD 🏈 Raiders vs. Jets 📈 Odds: -110 ⭐ Confidence: 7.5/10 • Has explosive rushing ability and can create scoring opportunities. • His versatility gives him opportunities as bo"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2116791585400815878",
-          "author": "simba43026539",
-          "searchJob": "miami",
-          "text": "@Flydog92 Miami offered him 10mill….."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116790988694065382",
-          "author": "fah_fl0p",
-          "searchJob": "miami",
-          "text": "@Flydog92 “Miami offered me 10 million”"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116786643843604585",
-          "author": "vilonmonie",
-          "searchJob": "miami",
-          "text": "@KsAndDingers That’s a solid move by Miami. A pitcher who can give you 200+ innings and consistently go deep into games is worth a lot in today’s MLB. Alcantara still has plenty to offer. 👏"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116798151096971338",
-          "author": "claudiabryan01",
-          "searchJob": "notre-dame",
-          "text": "Ireland Offers Up to €84,000 to Restore Abandoned Homes on Its Remote Islands 🇮🇪🏡 On Ireland's remote Atlantic islands, old cottages sit among green hills, fishing harbors, and peaceful villages. And the government is offering up to €84,"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2116794030960914594",
-          "author": "bendavies8p",
-          "searchJob": "notre-dame",
-          "text": "Lolo at least I know what the word WIRK means… Your lot of Irish Gypsies and travellers go round extorting vulnerable people out if their hard earned money…I used to live next door to a vulnerable 86 year old couple and 4 of your lot turned"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116780054168400153",
-          "author": "notredameparis",
-          "searchJob": "notre-dame",
-          "text": "🕊️ Aujourd’hui, nous fêtons la Toussaint : l’Église célèbre tous les saints, connus et inconnus. ✨ Cette solennité nous rappelle que la sainteté est un appel adressé à chacun, et que de nombreux témoins ont déjà tracé le chemin. 🕯️ À @not"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116796209558127011",
-          "author": "j_blades_",
-          "searchJob": "arkansas-state",
-          "text": "@obeba @SalvadorDafti Yes, those four are standouts from this great, eclectic LP. Mostly bleak, they offer an almost nihilistic attitude that lands very well. Life goes on getting harder and harder. Can't you see the party's over. Bumming f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116792562006753786",
-          "author": "nameishemuu",
-          "searchJob": "arkansas-state",
-          "text": "@Swiggy @zomato @letsblinkit @ZeptoNow @bigbasket_com @Flipkartminutes @amazonIN Karnataka is not just a delivery destination. It is a state that contributes significantly to your business. We're not asking for discounts or special offers. "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116792409812033904",
-          "author": "gillycarpediem",
-          "searchJob": "arkansas-state",
-          "text": "@abierkhatib “Freedom “ of what? There is no Palestine.There is Gaza .There is Israel.The Arabs living in the area were offered a state and turned it down 5 times! After they raped and murdered innocent Israelis .The only genocide the Israe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116791152909172753",
-          "author": "ar_justforyou",
-          "searchJob": "arkansas-state",
-          "text": "A CALL FOR MAINTENANCE OF PUBLIC FACILITIES I am compelled to write this after an experience at a Local Government wedding hall yesterday. The hall was rented for a wedding ceremony. Upon inspection, the toilet facilities were completely no"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2116788554693046620",
-          "author": "krismay917664",
-          "searchJob": "arkansas-state",
-          "text": "@afalkhatib There is NO Palestine. There IS the remnant of the PHILSTINE's. This Palestine lie is getting old. They have been offered a STATE AD NAUSEUM. THEY NEVER TAKE IT. I STAND WITH ISRAEL. NOT FAKE PALESTINIANS."
+          "postId": "2116793223515714030",
+          "author": "zoogie22",
+          "searchJob": "buffalo",
+          "text": "Yet thats not what the word says It says in leviticus that it is for your soul. Leviticus 17:11 For the life of the flesh is in the blood, and I have given it for you on the altar to make atonement for your SOULS, for it is the blood that m"
         }
       ]
     },
@@ -273,11 +209,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 10,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-01T07:58:36.170Z"
+    "status rebuilt locally from current store on 2026-11-01T08:13:37.715Z"
   ]
 }
