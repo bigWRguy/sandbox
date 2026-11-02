@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T08:28:53.637Z",
+  "generatedAt": "2026-11-02T08:44:09.005Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-02T08:28:53.166Z",
+    "at": "2026-11-02T08:44:08.477Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7512047222222222,
-    "p95Hours": 1.5356397222222222,
-    "worstHours": 1.53564
+    "medianHours": 0.7848208333333333,
+    "p95Hours": 1.5347777777777778,
+    "worstHours": 1.5347777777777778
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "pending": {
@@ -55,102 +55,208 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-02T08:28:53.165Z",
-      "got": 18,
-      "new": 9,
-      "lag": 0.08
+      "at": "2026-11-02T08:44:08.476Z",
+      "got": 48,
+      "new": 24,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-02T08:27:14.273Z",
+    "at": "2026-11-02T08:42:27.678Z",
     "mode": "live",
     "collection": {
-      "returned": 18,
-      "kept": 9,
-      "duplicate": 9,
+      "returned": 48,
+      "kept": 24,
+      "duplicate": 24,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 3,
+      "accepted": 17,
+      "rejected": 7,
       "reasons": {
-        "no_offer_term": 3
+        "no_offer_term": 4,
+        "no_fbs_school": 2,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2116784363903795256",
-          "author": "apstdrluckyeni",
-          "searchJob": "notre-dame",
-          "text": "Remember I told you guys that my Son came back from school yesterday with 5 of his friends, 2 boys and 3 girls? Well, my FBI work has gained some lead and I’m currently checking the evidence before me. The Fair, slim, tall very beautiful gi"
+          "postId": "2117151057939693724",
+          "author": "dela_oxx",
+          "searchJob": "duke",
+          "text": "Why did Duke Leto accept stewardship of Arrakis in Dune despite suspecting it was a trap laid by the Emperor? Was refusal even an option? https://t.co/EBgo4t2UIn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117173129923719283",
+          "author": "rdukehst",
+          "searchJob": "duke",
+          "text": "@LastWeekTonight 3 wild horses, including a nursing foal &amp; 2 year old sister, were shot during a BLM roundup in Wyoming. A sanctuary offered to take blind horses. Why weren't they given a chance? Please tell people their tax money is do"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117172783843315904",
+          "author": "rdukehst",
+          "searchJob": "duke",
+          "text": "@weeklyshowpod 3 wild horses, including a nursing foal &amp; 2 year old sister, were shot during a BLM roundup in Wyoming. A sanctuary offered to take blind horses. Why weren't they given a chance? Please tell people their tax money is doin"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2116540208019603904",
-          "author": "apstdrluckyeni",
-          "searchJob": "notre-dame",
-          "text": "My Son just came back from School and he came with 5 of his friends. Two boys and 3 girls. He’s 18 anyways. He said one of their friend is sick and hasn’t resumed school so they went visiting and he invited them home. So you bring 5 other b"
+          "postId": "2117168872134492344",
+          "author": "thedavidcoen",
+          "searchJob": "air-force",
+          "text": "https://t.co/edB2n57MwM"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2117011782791225611",
-          "author": "michele_tafoya",
-          "searchJob": "minnesota",
-          "text": "This is it, Minnesota: the final days before the election. From Moorhead to Duluth to Rochester, and today in St. Cloud, I’ve heard the same thing from Republicans, Democrats, and independents. They’re fed up with their tax dollars being st"
+          "postId": "2116564649982189904",
+          "author": "mpdrabib",
+          "searchJob": "arkansas-state",
+          "text": "ALLEGATIONS THAT THE ONE-TRIBE SECESSIONIST REGIME IN HARGEISA INCITED THE BURNING AND LOOTING OF OROMO RESIDENTS’ PROPERTY TO ATTRACT ETHIOPIA’S PRIME MINISTER’S ATTENTION I demand urgent attention to the burning and looting suffered by in"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117175429631012868",
+          "author": "tntjohn1717",
+          "searchJob": "army",
+          "text": "The distinction establishes a necessary warning against two opposing errors. One error treats the offer of peace as proof that Scripture universally forbids warfare. The following verses plainly contradict that conclusion. The other error t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117164666803622276",
+          "author": "officialdev_bml",
+          "searchJob": "army",
+          "text": "Apply now here: https://t.co/vZIGfJfYPH"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 17,
       "reasons": {
-        "school_not_resolved_confidently": 3,
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 17
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2117160630667137409",
-          "author": "ombbackup",
-          "searchJob": "notre-dame",
-          "text": "@ThankYouTaceGod @Quintarius69 @PubliusofTroy Nope-we made an offer and the Irish rejected it. Not sure why is this hard to understand."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2117152622100586802",
-          "author": "apstdrluckyeni",
-          "searchJob": "notre-dame",
-          "text": "My Son and the Tall, fair, slim very beautiful girl are “unofficially” dating. My FBI work uncovered a lead on Saturday evening while they were still in my house waiting TV. Firstly I discovered the others were obeying her like the small mu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2117152488042401829",
-          "author": "michaelsculshaw",
-          "searchJob": "notre-dame",
-          "text": "@avfcbreaking 04, The Guardian reported that BBC Radio 5 Live had dropped Collymore from its roster following revelations about his involvement in dogging. 98, Irish reporting stated Ulrika was visably bruised from the attack 16, talkSPORT "
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117175048255443191",
+          "author": "dela_oxx",
+          "searchJob": "duke",
+          "text": "Refusal wasn’t a realistic option. The Emperor’s order was a command to a vassal House, not a polite invitation. Declining would have been treated as open defiance or treason, stripping the Atreides of Caladan, branding them renegades, and "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117167772794843148",
-          "author": "deputyd33715484",
-          "searchJob": "tulsa",
-          "text": "@HistorylandHQ Photographed by #NinaLeen for LIFE's 1947 feature on the 'Tulsa Twins,' this classroom scene offers a glimpse of postwar teenage culture. The report followed 17-year-old sisters Betty and Barbara Bounds, exploring how America"
+          "postId": "2117166695995384300",
+          "author": "andrewcorls",
+          "searchJob": "appalachian-state",
+          "text": "Merrimack-App State Total Betting Play With an early-morning tip-off in Rock Hill, the total for this Merrimack-Appalachian State clash offers a unique opportunity to capitalize on a defensive-minded matchup. Both teams pride themselves on "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117170838814519589",
-          "author": "jaylinprewitt",
-          "searchJob": "alabama",
-          "text": "He wasn’t offered the Bama job 🤣🤣 but I get it. Christmas around the corner"
+          "postId": "2117166694439268816",
+          "author": "letmebet_com",
+          "searchJob": "appalachian-state",
+          "text": "Merrimack-App State Total Betting Play https://t.co/6JsHBowgsF With an early-morning tip-off in Rock Hill, the total for this Merrimack-Appalachian State clash offers a unique opportunity to capitalize on a defensive-minded matchup."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117167246267285900",
-          "author": "cjeagle7",
-          "searchJob": "minnesota",
-          "text": "Minnesota, for a fresh start, vote Republican up and down the ballot. Every Republican candidate is far superior to anything the DFL has to offer!"
+          "postId": "2117170925497983074",
+          "author": "neorothbardian",
+          "searchJob": "arkansas-state",
+          "text": "That’s a sweeping historical claim. Precolonial Indigenous societies in western North America used shell-bead money without a State monetary monopoly. Rothbard’s What Has Government Done to Our Money? and Ammous’s The Bitcoin Standard expla"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117170590054318139",
+          "author": "guntigaab",
+          "searchJob": "arkansas-state",
+          "text": "A Response to MP Abiib’s @MPDrAbib Remarks on the Events in Borama I am deeply concerned about the remarks made by MP Abiib, in which he attributed responsibility for the events in Borama to the Somaliland authorities. I consider his analys"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117167440115245086",
+          "author": "higgins36628",
+          "searchJob": "arkansas-state",
+          "text": "@CamillaTominey @timesofindia They have disdain for small businesses &amp; company owners. Their nirvana is everything state owned a state run, unless you’re a billionaire corporate who’ll throw them a few quid! At least capitalism offers t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117162381025382499",
+          "author": "eligoldman",
+          "searchJob": "arkansas-state",
+          "text": "@jamil_GZ @Partisan_12 Shut the fuck up, Jamil. They've been offered a state a dozen times, and they've always refused. They don't want a state; they want to eradicate the Jews. You're an imbecile."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117162067375374688",
+          "author": "barryhaim",
+          "searchJob": "arkansas-state",
+          "text": "@EYakoby Palestine got a yes. Israel got a yes, if. A Senate candidate on 60 Minutes, attaching conditions to one country existing and none to the other. In 1947 the UN offered both peoples a state; the Jewish side said yes without the if."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117175426422346098",
+          "author": "tntjohn1717",
+          "searchJob": "army",
+          "text": "the words God spoke or enlarge their application beyond what He commanded. Truth requires precision when the subject is as serious as life and death. The historical setting is Israel under the Mosaic covenant, preparing to occupy the litera"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117174743522570332",
+          "author": "tomemartinsen",
+          "searchJob": "army",
+          "text": "@Belisarius2020 The difference now is that people in the \"XRP army\"—like myself—are starting to ask questions. And all we get are stupid answers. Swell offered no information regarding the DTCC, why volume on the XRPL is so low, or why Ripp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117174491943928048",
+          "author": "nbcdigitalnews",
+          "searchJob": "army",
+          "text": "The Commonwealth has removed Gabon from its formal agenda after the country restored an elected constitutional government following the military coup of August 2023. The Commonwealth Ministerial Action Group, CMAG, made the decision after r"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117173974358782347",
+          "author": "adityakc29",
+          "searchJob": "army",
+          "text": "@calxandr Great ! You are offered job of front line bolstering of Ukraine army, walk the talk, tell when u r joining ?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117167330664775857",
+          "author": "icplegend1966",
+          "searchJob": "army",
+          "text": "🚨♾️🔥 $ICP — AI IS CHANGING CYBERSECURITY. THE INTERNET COMPUTER IS CHANGING HOW WE SECURE DIGITAL INFRASTRUCTURE! AI-powered cyberattacks are creating new challenges for digital security. 🤖 Deepfake impersonation 🔓 Credential theft ☁️ C"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117166500637245878",
+          "author": "warhunter2222",
+          "searchJob": "army",
+          "text": "During aerial reconnaissance in the Dnipropetrovsk sector of the special military operation, Russian UAV operators from the Unmanned Systems Forces of the 51st Guards Combined Arms Army—part of the \"Center\" grouping of forces—identified ene"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117161393950531628",
+          "author": "snailslowsol",
+          "searchJob": "army",
+          "text": "🐌📣 WANTED: Promoters for the Snail Army We're looking for real creators to help spread $SLOWW 🚀 💚 Payment in $SLOWW (airdrop after launch) or SOL 🧾 Small budget, so fair offers only ❌ No fake reach, no botted accounts, no overpriced sp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117174019208200619",
+          "author": "barry100ca",
+          "searchJob": "michigan",
+          "text": "Gary Kalus (Facebook) I'm a Jew. Senate Minority Leader Chuck Schumer is a Jew. And i will freely tell you that Chuck the Schmuck Schumer is a piece of garbage. There is a Jew hater named Abdul El-Sayed that is the Democrat nominee running "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117169419306811512",
+          "author": "intel_nova",
+          "searchJob": "michigan",
+          "text": "🚨🇺🇸 HALEY STEVENS STRUGGLES TO EXPLAIN LAST-MINUTE ENDORSEMENT OF REPUBLICAN MIKE ROGERS IN CNN INTERVIEW Michigan Democratic Rep. Haley Stevens faced repeated questions from CNN’s Anderson Cooper after abruptly endorsing Republican Sena"
         }
       ]
     },
@@ -165,11 +271,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 17,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-02T08:28:53.638Z"
+    "status rebuilt locally from current store on 2026-11-02T08:44:09.006Z"
   ]
 }
