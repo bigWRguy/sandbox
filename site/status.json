@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T23:12:36.414Z",
+  "generatedAt": "2026-11-03T23:28:46.761Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-03T23:12:35.951Z",
+    "at": "2026-11-03T23:28:46.167Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,268 +32,548 @@
   },
   "staleSchools": [
     {
-      "id": "air-force",
-      "hours": 2.7
-    },
-    {
-      "id": "charlotte",
-      "hours": 2.7
-    },
-    {
-      "id": "delaware",
-      "hours": 2.7
-    },
-    {
-      "id": "east-carolina",
-      "hours": 2.7
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.7
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 2.7
-    },
-    {
-      "id": "florida-international",
-      "hours": 2.7
-    },
-    {
-      "id": "georgia-southern",
-      "hours": 2.7
-    },
-    {
-      "id": "notre-dame",
-      "hours": 2.7
-    },
-    {
-      "id": "south-carolina",
-      "hours": 2.7
-    },
-    {
-      "id": "stanford",
-      "hours": 2.7
-    },
-    {
-      "id": "syracuse",
-      "hours": 2.7
-    },
-    {
-      "id": "tcu",
-      "hours": 2.7
-    },
-    {
-      "id": "tennessee",
-      "hours": 2.7
-    },
-    {
       "id": "texas",
-      "hours": 2.7
+      "hours": 3
     },
     {
       "id": "texas-tech",
-      "hours": 2.7
-    },
-    {
-      "id": "ucf",
-      "hours": 2.7
-    },
-    {
-      "id": "uconn",
-      "hours": 2.7
-    },
-    {
-      "id": "utah",
-      "hours": 2.7
-    },
-    {
-      "id": "utep",
-      "hours": 2.7
+      "hours": 3
     },
     {
       "id": "akron",
-      "hours": 2.5
-    },
-    {
-      "id": "alabama",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "appalachian-state",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "coastal-carolina",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "fresno-state",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "liberty",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "louisiana",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "louisiana-monroe",
-      "hours": 2.5
-    },
-    {
-      "id": "texas-am",
-      "hours": 2.5
-    },
-    {
-      "id": "ucla",
-      "hours": 2.5
-    },
-    {
-      "id": "usc",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "utsa",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "vanderbilt",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "virginia",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "virginia-tech",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "wake-forest",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "washington",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "washington-state",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "western-kentucky",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "western-michigan",
-      "hours": 2.5
+      "hours": 2.7
     },
     {
       "id": "wisconsin",
-      "hours": 2.5
+      "hours": 2.7
+    },
+    {
+      "id": "arkansas-state",
+      "hours": 2.3
+    },
+    {
+      "id": "army",
+      "hours": 2.3
+    },
+    {
+      "id": "ball-state",
+      "hours": 2.3
+    },
+    {
+      "id": "boise-state",
+      "hours": 2.3
+    },
+    {
+      "id": "bowling-green",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia-state",
+      "hours": 2.3
+    },
+    {
+      "id": "hawaii",
+      "hours": 2.3
+    },
+    {
+      "id": "iowa",
+      "hours": 2.3
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 2.3
+    },
+    {
+      "id": "louisiana-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "marshall",
+      "hours": 2.3
+    },
+    {
+      "id": "massachusetts",
+      "hours": 2.3
+    },
+    {
+      "id": "memphis",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan-state",
+      "hours": 2.3
+    },
+    {
+      "id": "ole-miss",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
+      "hours": 2.3
+    },
+    {
+      "id": "wyoming",
+      "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.4688775,
-    "p95Hours": 2.732383611111111,
-    "worstHours": 2.732383611111111
+    "medianHours": 1.2429205555555556,
+    "p95Hours": 2.7196225,
+    "worstHours": 3.0019244444444446
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 82,
+    "decided": 82,
     "complete": true
   },
   "pending": {
-    "total": 106
+    "total": 105
   },
   "profileResolution": {
     "cached": 103
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4220,
+    "completeOffers": 4221,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-03T23:12:35.951Z",
-      "got": 13,
-      "new": 6,
-      "lag": 0.28
+      "at": "2026-11-03T23:28:46.166Z",
+      "got": 116,
+      "new": 82,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-11-03T23:12:11.222Z",
+    "at": "2026-11-03T23:27:10.804Z",
     "mode": "live",
     "collection": {
-      "returned": 13,
-      "kept": 6,
-      "duplicate": 7,
-      "tooOld": 0,
+      "returned": 116,
+      "kept": 82,
+      "duplicate": 33,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 2,
+      "accepted": 49,
+      "rejected": 33,
       "reasons": {
-        "no_fbs_school": 2
+        "no_fbs_school": 18,
+        "no_offer_term": 11,
+        "hard_negative": 2,
+        "non_fbs_offer_target": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2117752292006920313",
-          "author": "chadinlex",
-          "searchJob": "kentucky",
-          "text": "I offer a preemptive apology for my tweets tonight, which depend on the election returns. Even if I feel frustrated with many of you, I love you, Kentucky."
+          "postId": "2117751520246861917",
+          "author": "don_pucik",
+          "searchJob": "south-carolina",
+          "text": "Last week I had the privilege of spending a week at The Evangelical Institute (EI) in Greenville, South Carolina, teaching the 3rd-year Practical Ministry Intensive and speaking in chapel… these images are a few scenes from the week. EI is "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2117721784288203125",
-          "author": "calius99",
-          "searchJob": "kentucky",
-          "text": "@Jesus_Tha_Goat @xCMDee The reason why it is poor and has nothing to offer is because of who the state votes for. Might have a better rep had they vote for someone serious."
+          "postId": "2117722014614249573",
+          "author": "chazmolder",
+          "searchJob": "tennessee",
+          "text": "Four hours to go, and we’re still working for every vote. Already voted? Find five people who need a reminder. Text them. Call them. Offer to go with them. One conversation could be what gets somebody to the polls. Let’s bring this home, Te"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117758742762606806",
+          "author": "armanitrump",
+          "searchJob": "texas",
+          "text": "https://t.co/zZQJYUHHdr Why do you @DNC Cockroach 🪳 Faggot$ Always Run Away? Because- U have Nothing to Offer but Illegal Drugs & HIV AIDS & DEATHS. Oh My Goodness 😱 ABC @ArmaniTrump @armanic111 Live Broadcast @X @BBCWorld @LinkedIn from "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117751693198622860",
+          "author": "milvetsafe89",
+          "searchJob": "texas",
+          "text": "@NateMarshallEVG @7jv4sz3_hope Yeah, Colorado has enough of a goddamn shitshow to clean up in its own backyard without you auditioning for a job nobody in Texas ever offered you. Literally, nobody gives a shit what you think, dildo."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117636028118843637",
+          "author": "trinitymcgibbon",
+          "searchJob": "texas",
+          "text": "🆘️ On Euthanasia list at BARC, Houston for Tuesday, 11/3/26. Deadline at 5pm CDT 🆘️ ID #A2104539 🆘️ RESCUE ONLY 🆘️ 📌 PLEDGE INFORMATION 📌 🆘️ Please do not honor pledges until a freedom picture is added to ensure pledges are going to "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117747741711642763",
+          "author": "svarncapital",
+          "searchJob": "texas",
+          "text": "https://t.co/Tz9G6EOM3U"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117746853907243240",
+          "author": "kxakke26358",
+          "searchJob": "texas",
+          "text": "More conversations with Grok: See new posts I am annoyed with the Democrats and Left in general by an attitude I find not only annoying, but potentially dangerous. They seem to believe that they are somehow incapable of evil or blunder. But"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117746177571471511",
+          "author": "landhub",
+          "searchJob": "texas",
+          "text": "366 ACRES IN KERR COUNTY, TEXAS – YOUR HILL COUNTRY RANCH OPPORTUNITY! Featuring rolling hills, lush meadows, limestone outcrops, and abundant oak trees, this property offers breathtaking countryside views. DETAILS HERE 👉 https://t.co/j1sa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117746103470686403",
+          "author": "freewillhayes",
+          "searchJob": "texas",
+          "text": "https://t.co/p2hLGJ5Tok"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117738594496635214",
+          "author": "50kprolawn",
+          "searchJob": "texas",
+          "text": "🎄 Christmas preparations just got easier! 50K Lawn offers Christmas tree delivery and Christmas lights services to help get your home holiday-ready. 🎁 Subscribers get 15% OFF! Get your FREE custom quote today! 📍 Austin, Texas 🌐 https://"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117735120333615613",
+          "author": "readdyai",
+          "searchJob": "texas",
+          "text": "https://t.co/ohLofZZyHT"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117750031679897682",
+          "author": "tyroist",
+          "searchJob": "stanford",
+          "text": "If the “creator’s” goal is to create the maximum amount of good souls, creating humans with photosynthesis and being immune to UV radiation and other space radiation, these humans could fill the over two trillion galaxies. This would be pro"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117739236812328990",
+          "author": "thaafranchise",
+          "searchJob": "syracuse",
+          "text": "@RouleauSidney @CuseFootball @FranBrownCuse @On3 @TheJuiceOnline @TonyGrecoTG Hey buddy, this is Chip Sanders, the manager at @Dinosaur_BBQ in Syracuse, New York. Congrats on decommitting from Mich! We would love to offer you an NIL package"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117756741853016247",
+          "author": "jimpolk",
+          "searchJob": "texas-tech",
+          "text": "Asleep at the Switch: Apple and Google Offered 400+ Chinese Apps for Generating AI Deepfake Porn https://t.co/l0xVttsHq9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117755083383349469",
+          "author": "techalexpr",
+          "searchJob": "texas-tech",
+          "text": "@jimheskel You joke, but I've had prospects quote this at me. Brand before offer sounds sensible and quietly burns six months."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117754060594143630",
+          "author": "optionking666",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/4ArafBcRTw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117749248209113236",
+          "author": "gloriamurp59364",
+          "searchJob": "texas-tech",
+          "text": "Asleep at the Switch: Apple and Google Offered 400+ Chinese Apps for Generating AI Deepfake Porn https://t.co/gcdAYhJ6Ib via @BreitbartNews"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117749120454791549",
+          "author": "bryanwilson556",
+          "searchJob": "texas-tech",
+          "text": "Asleep at the Switch: Apple and Google Offered 400+ Chinese Apps for Generating AI Deepfake Porn https://t.co/D40XSu9rGJ via @BreitbartNews"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117747987895976226",
+          "author": "jthomasradio1",
+          "searchJob": "texas-tech",
+          "text": "This is @Google and @Apple ... when you wonder what happened to society... the answer is here.. https://t.co/0OKTMTtovV"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117746229602119810",
+          "author": "shuttrbg2308",
+          "searchJob": "texas-tech",
+          "text": "Asleep at the Switch: Apple and Google Offered 400+ Chinese Apps for Generating AI Deepfake Porn https://t.co/qvcpPCLXhO via @BreitbartNews"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117745074205241816",
+          "author": "bestreferralx",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/SYtySVAZY8"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117744330844569779",
+          "author": "cybercavetech",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/WH3Jagbc2r"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117717359003578854",
+          "author": "mattpavelle",
+          "searchJob": "utah",
+          "text": "There's a lot of discussion right now about how to govern autonomous AI in medicine. It matters because as @Doctronic and others take on more autonomous clinical work, we all need to understand where responsibility rests. The American Medic"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117740933378621628",
+          "author": "michaelgannotti",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/JqzsTUmBQz"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 4,
+      "accepted": 1,
+      "rejected": 48,
       "reasons": {
-        "bare_mention_requires_llm": 4
+        "multiple_resolved_schools": 5,
+        "bare_mention_requires_llm": 25,
+        "school_not_resolved_confidently": 17,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117735365666918523",
-          "author": "rstatecraft",
-          "searchJob": "kentucky",
-          "text": "UPDATE: Polls close at different times depending on the state, with Kentucky being the earliest at 6pm EST. A toss-up race in Kentucky's sixth district could offer an early indication of whether Democrats are headed for a big night. https:/"
+          "reason": "multiple_resolved_schools",
+          "postId": "2117753701364547808",
+          "author": "uwhartsville",
+          "searchJob": "south-carolina",
+          "text": "Join the Clemson University Extension Agribusiness Team for a FREE ONLINE Financial Literacy Workshop. Learn how to monitor and adjust your budget as needed, be realistic about how much debt you can afford, protect your identity, understand"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117721204731810188",
-          "author": "wildcatlife1",
-          "searchJob": "kentucky",
-          "text": "@JoshWoomfnpig25 Hall didn’t get a Kentucky offer"
+          "postId": "2117749322246656167",
+          "author": "python_s_",
+          "searchJob": "south-carolina",
+          "text": "#NØØT_Security_Alerts 🚨 #ALERT — Frontline Education Begins Breach Notifications; 493,535 South Carolina Residents Reported Affected October 27, 2026 PRODUCT: Frontline Central and School Health Management, serving K–12 schools. INCIDENT: "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117746567419474283",
-          "author": "geonncannon",
-          "searchJob": "oklahoma",
-          "text": "@JW_Lumley @El_Burno @the_jefferymead @MazzeiMike \"Me\" government, Josh? Oof, you really need better education than what Oklahoma has to offer. You ain't so smart, son!!"
+          "postId": "2117744203933343776",
+          "author": "donedealcardco",
+          "searchJob": "south-carolina",
+          "text": "Check out 2026 1st Bowman Chrome Mojo Refractor LaNorris Sellers South Carolina BCP-19 https://t.co/tZKRs1GJ3A #eBay via @eBay $3 🛳️ Free shipping! 🤝 Shoot us an offer!"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117746144969445841",
-          "author": "ocpathink",
-          "searchJob": "oklahoma",
-          "text": "Oklahoma City-area officials promoting a proposed $1.8 billion commuter rail system say the project will spur commercial development and strengthen the regional economy, but Minnesota’s experience offers a cautionary example. https://t.co/m"
+          "postId": "2117718381071683992",
+          "author": "sitsio",
+          "searchJob": "tennessee",
+          "text": "The Tennessee bishop recently accused of being hostile to Catholic tradition has just made a rather important statement in its defence. The background makes this considerably more interesting than it first appears. Bishop Mark Beckman of Kn"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117760206289739911",
+          "author": "da63koijdb9151",
+          "searchJob": "texas",
+          "text": "① It all started on July 25, 2024, when Mr. Morgan, a Texas real estate agent, offered me an offer to buy a mobile home in Mesa, Arizona for $30,000, so I paid 1 million yen in virtual currency as a down payment. After that, I was told that"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117753568560087501",
+          "author": "donwnyc1979",
+          "searchJob": "texas",
+          "text": "@chris3840624 @mirandadevine @KarlRove @EWErickson Rove sang the praises of Talarico for Senate on live radio w/ Brian Kilmeade this morning, saying the young candidate has a lot to offer Texas. (?!) Didn't say he endorsed either candidate,"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117753006863069554",
+          "author": "topsiswear",
+          "searchJob": "texas",
+          "text": "@D1raiden @TexasFootball @CoachNansenUT @Jimmy_UTFB @CoachSark @Andrew_Ivins @CharlesPower @CodyBellaire @MikeRoach247 @Coach_Gonzales @alleneaglesfb Congratulations on the offer Raiden 🤠🏈⭐️🔥🔥!!!!"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2117751607316373737",
+          "author": "followttours",
+          "searchJob": "texas",
+          "text": "Urgent Houston Texas. Is there a law enforcement training program, former military that could offer this pup a chance?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117743201167577515",
+          "author": "grizzlewdg2",
+          "searchJob": "texas",
+          "text": "above average intelligence... but surprisingly high intellectual ability? I knew they wanted Me to be a smart postal worker. I played dumb still smart. they offered a job, or college... Cash now, or college... I took college, and Pell grant"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117742986809475565",
+          "author": "grizzlewdg2",
+          "searchJob": "texas",
+          "text": "Mazzy Star - Fade Into You (Extended Version) 🌌✨ ⏳🎛️ https://t.co/uhyxRaf9Lo via @YouTube above average intelligence... but surprisingly high intellectual ability? I knew they wanted Me to be a smart postal worker. I played dumb still sma"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117739291056951416",
+          "author": "visitaustintx",
+          "searchJob": "texas",
+          "text": "Just an hour west of Austin, Johnson City is a perfect day trip destination. Whether you are interested in the story of LBJ, outdoor adventures, wineries, art or science, this area of the Texas Hill Country has a lot to offer. https://t.co/"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117730443319775536",
+          "author": "dreams2realtor",
+          "searchJob": "syracuse",
+          "text": "Coming soon: 3055 S LAKESHORE DR W #2065, Syracuse. 2023 home with 3 beds, 3 baths &amp; 1,600 sq. ft. Offered at $479,999. Register for early details. https://t.co/py85fFI6fQ https://t.co/eHXvElzxcN"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117755698201161766",
+          "author": "kenyaaccess",
+          "searchJob": "texas-tech",
+          "text": "@Anaya_sharma876 \"When a tech giant offers a massive infrastructure for 'free', you aren't the customer—you're the asset. Economics 101. If you're not paying for the product, your data is the data center. Wake up.\""
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117753234731532514",
+          "author": "boishivers",
+          "searchJob": "texas-tech",
+          "text": "China told its market to buy the dip. Tech stocks sold the bounce. The STAR 50 fell 3.81% to 1,151.28 Tuesday, ~48% below its 30 Jun peak, a day after the PBOC offered brokers swap funding and cheaper buyback loans. A fund manager: \"below e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117752492289151477",
+          "author": "zmei_hhsss",
+          "searchJob": "texas-tech",
+          "text": "Somewhere in sleepy Silicon Valley, there was a Chicano couple: short man with a pencil moustache and 49ers hat; girl in a corset style blouse, tetas jutting: she talked, he listened, solemnly. There was a frizzy haired, chunky Mexicana who"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117751776803758338",
+          "author": "diogenese_says",
+          "searchJob": "texas-tech",
+          "text": "UK Gov could offer tax breaks &amp; and favourable trade deals to support former colonies impacted by slavery Tech transfer in meds, renewable energy, sustainability, climate adaptation &amp; defence &amp; security could be reparative &amp;"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117750488003137606",
+          "author": "briwhoze",
+          "searchJob": "texas-tech",
+          "text": "We're launching the Oasis Creator Program. If you're in your content creation era in tech, this is for you. Make original videos about Oasis and we offer generous rewards for great work. no minimum followers. TikTok, IG, X or YouTube. apply"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117750134423355851",
+          "author": "advocacy4ward",
+          "searchJob": "texas-tech",
+          "text": "@GavinNewsom Donald @POTUS how do I say, diplomatically, Gavin, with all the advances in medicine and tech has to offer the world, why can't they grow you a spine or a pair of Testicles? Mike can you help? @USAmbUN I am 1/2 Redneck 1/2 Hill"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117747468574011672",
+          "author": "achonjones",
+          "searchJob": "texas-tech",
+          "text": "Blessed to receive my first offer from Denmark tech @DTCBaseball #dtcbaseball https://t.co/jl1ECyzuOy"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117747398982189452",
+          "author": "kkj84321",
+          "searchJob": "texas-tech",
+          "text": "Have you ever wondered if visiting a PC Bang solo early on a clear Wednesday morning feels awkward when most people associate Korean gaming cafes with loud group gaming sessions? As high school seniors enter their final countdown for the co"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117746809007116695",
+          "author": "twetienne7",
+          "searchJob": "texas-tech",
+          "text": "Right, well I will give trump the benefit of the doubt! way too many proven lies leveled against him in attempts to try to destroy him! give me slam-dunk proof and not \"no publicly available evidence\" people are sick and tired of the dem bl"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117743831768559739",
+          "author": "futurevisualshq",
+          "searchJob": "texas-tech",
+          "text": "THIS UNITREE ROBOT JUST STOLE YOUR GIRL ON STAGE. While influencers hype up stage clips with humanoids, the tech industry is quietly building the loneliness economy. Why deal with the drama, compromises, and friction of real relationships w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117744317481517245",
+          "author": "taythesodakid",
+          "searchJob": "utah",
+          "text": "@zinzy_js @wstgoat7 As a member of OKC fc, we kindly reject this offer and will pass him on to Utah fc"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117759867012186271",
+          "author": "dogtired16",
+          "searchJob": "notre-dame",
+          "text": "@AontuIE He should be asked to staye exactly how many work visas are issued to immigrants employed in our essential services. And why are Irish candidates not offered these positions. Are there not enough Irish Nurses and Doctors being trai"
         }
       ]
     },
@@ -301,20 +581,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 5,
-      "failed": 1,
-      "requests": 6,
-      "errors": [
-        "south-carolina: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 48,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-03T23:12:36.415Z"
+    "status rebuilt locally from current store on 2026-11-03T23:28:46.763Z"
   ]
 }
