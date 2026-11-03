@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T05:57:55.453Z",
+  "generatedAt": "2026-11-03T06:13:56.454Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-03T05:57:54.964Z",
+    "at": "2026-11-03T06:13:55.848Z",
     "jobsTotal": 162,
-    "sweptThisRun": 9,
-    "requests": 10,
-    "fullSweepCycles": 18
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0120022222222222,
-    "p95Hours": 1.5112675,
-    "worstHours": 1.5112675
+    "medianHours": 0.78133,
+    "p95Hours": 1.5257325,
+    "worstHours": 1.7782122222222223
   },
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 49,
+    "decided": 49,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 103
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4194,
     "incompleteOffers": 0
@@ -55,75 +55,310 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-03T05:57:54.964Z",
-      "got": 9,
-      "new": 5,
-      "lag": 0.15
+      "at": "2026-11-03T06:13:55.848Z",
+      "got": 63,
+      "new": 49,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-11-03T05:57:16.255Z",
+    "at": "2026-11-03T06:12:13.590Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 5,
-      "duplicate": 4,
-      "tooOld": 0,
+      "returned": 63,
+      "kept": 49,
+      "duplicate": 13,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 2,
+      "accepted": 35,
+      "rejected": 14,
       "reasons": {
-        "no_fbs_school": 1,
-        "hard_negative": 1
+        "non_fbs_offer_target": 1,
+        "no_offer_term": 7,
+        "hard_negative": 3,
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2117473820126941291",
-          "author": "alexluck9",
-          "searchJob": "navy",
-          "text": "The Hanwha Philly win to build LSM for USN offers an interesting prospect for comparison with Australia's own effort building the LCH based on the same design via Austal at Henderson. Two shipbuilders executing projects without precedent fo"
+          "reason": "non_fbs_offer_target",
+          "postId": "2117495065811828738",
+          "author": "ldefreeze",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachDNew_ I’m blessed to receive an offer from Southwest Baptist University 💜🕺! @1_fwilson @CoachBenBarkema @TFloss32 https://t.co/PzqKL3S9wi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117496087271625078",
+          "author": "dabeer_builds",
+          "searchJob": "california",
+          "text": "https://t.co/Rqj5oZZ0So"
         },
         {
           "reason": "hard_negative",
-          "postId": "2117492074270339200",
-          "author": "dunnbilly87734",
-          "searchJob": "nevada",
-          "text": "I followed @dougpoppa1 a month ago on https://t.co/wPVCqK2GM9 noticed Doug Poppa on the follow list for Our Nevada Judges and then I looked his information up and noticed Doug Poppa was involved in investigating a scheme to kidnap a member "
+          "postId": "2117493854785962077",
+          "author": "newmediaamerica",
+          "searchJob": "california",
+          "text": "A Detroit man is accused of driving two 16-year-old Detroit girls toward California as part of an alleged plan for them to purchase narcotics and “body carry” the drugs back to Michigan. A probable-cause statement says one of the teenagers "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117484440959983881",
+          "author": "business",
+          "searchJob": "california",
+          "text": "@ZoeTillman, @josh_wingrove and @davidgura discuss the deluge of lawsuits related to the US midterm elections that have been filed before the polls have closed https://t.co/Pb7cUb4StZ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117212154789318925",
+          "author": "junglealex13227",
+          "searchJob": "miami",
+          "text": "Miami Center warned the crew the turn to Freeport looked \"pretty bad.\" Moderate to extreme precipitation, 25 miles out, a storm about 100 miles across. Controllers cleared them to deviate left or right. The pilot didn't. She made a mistake "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117483751684940104",
+          "author": "maymayd45",
+          "searchJob": "stanford",
+          "text": "@McFaul @cafreeland @Stanford No thanks. She froze bank accounts of Canadians who disagreed with her, so they couldn't pay mortgages or feed their children. I wouldn't buy anything she offered. She should be in prison for treason"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117415176148500684",
+          "author": "docjazzmusic",
+          "searchJob": "air-force",
+          "text": "'Israel'’s entire fighter fleet (F-15s, F-16s, F-35s) has been financed primarily through annual U.S. Foreign Military Financing grants. Recent F-35 and F-15IA deals are explicitly funded this way. Paid for by U.S. taxpayers. https://t.co/V"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117488484286181619",
+          "author": "thebell_io",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/fEV91bYWjb"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117486136549400813",
+          "author": "allamay_shi",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/qGCBqxf6H3"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117484556685025540",
+          "author": "persian_roar",
+          "searchJob": "arkansas-state",
+          "text": "R2P: The Responsibility to Protect and Its Relevance to the Iranian People The Responsibility to Protect (R2P) is a global principle adopted by the United Nations in 2005. It states that every government has the primary responsibility to pr"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117484162638807317",
+          "author": "crazybooks3",
+          "searchJob": "arkansas-state",
+          "text": "2 영어 ---------- There is no solution to prevent the destruction of the world as it exists today—simply because the problems at hand are beyond any such remedy. Is this the end of the human world? Has the human spirit been destroyed? Driven "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117474328782713276",
+          "author": "harrisonpkent",
+          "searchJob": "kent-state",
+          "text": "@Seahawks @EQCasino The Giants and Harbaugh / Schoen ought to make an offer to the Seahawks for Leonard Williams. The Giants, quite unlike the Seahawks, are a serious team and a contender, and they could benefit from a reunion with the vete"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117474243785232505",
+          "author": "harrisonpkent",
+          "searchJob": "kent-state",
+          "text": "@PFF The #Giants and Harbaugh / Schoen ought to make an offer to the #Seahawks for Leonard Williams. The Giants, quite unlike the Seahawks, are a serious team and a contender, and they could benefit from a reunion with the veteran DT."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117397908429455757",
+          "author": "gigglingganon",
+          "searchJob": "illinois",
+          "text": "In 1975, former Teamsters union president Jimmy Hoffa vanished from the parking lot of the Machus Red Fox restaurant in what suburban Detroit township? https://t.co/6xctSezUQP"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 35,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 32,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117483604179628124",
-          "author": "musaibhussaini",
-          "searchJob": "miami-oh",
-          "text": "@Therealjay__y Only way sellers goes back is he’s offered 8 mil at Miami / Ohio st / Georgia"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117485182311649295",
+          "author": "txmueller",
+          "searchJob": "minnesota",
+          "text": "@tomemmer Hey Minnesota voters the federal government under the leadership of the Republicans paid $420 million more for the private prison in Appleton then Core Civic offered the state of MN to buy it ($75 mil). If Republicans are talking "
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117494217148944748",
-          "author": "aprajitanefes",
-          "searchJob": "navy",
-          "text": "🇮🇷| 2-3 NOVEMBER 2026. Iran did not spend the weekend waiting. It spent the weekend stacking receipts. Eleven tankers burned in nine days. The 55th MQ-9 destroyed. Two MQM-170s captured intact. A terrorist cell ambushed in Sistan-Baluches"
+          "reason": "reporter_missing_player_name",
+          "postId": "2117477660825878608",
+          "author": "nwross",
+          "searchJob": "minnesota",
+          "text": "@RaiderACE562 I'm a big fan but going to San Francisco with their rushing and passing attack twice as lethal as the Jets and you know what happened defensively with the Jets. I'm looking for at least competitive for the next two games hopef"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117483034534613189",
-          "author": "killedbydeath87",
-          "searchJob": "nevada",
-          "text": "👽 AREA 51: THE SECRET THAT WAS HIDING IN PLAIN SIGHT 📍 Groom Lake, Nevada Out beyond the highways of southern Nevada, a dry lakebed lies behind miles of restricted desert. For decades, people looked toward that empty-looking stretch of co"
+          "postId": "2117476841326059923",
+          "author": "dj4aces",
+          "searchJob": "minnesota",
+          "text": "@ontoaccount2 @HKYTWNSADTIMES At that point, he'll be worth a 3C, cap dump, and three late firsts. Larkin is holding himself hostage. He wants to go to Minnesota? Well, until they offer something that isn't Yurov and a collection of junk dr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117474437788549359",
+          "author": "ucanhatemenow23",
+          "searchJob": "minnesota",
+          "text": "@HammondCoach96 @Coach_Yac They didn't let him go though. They offered him 18 mil a year for multiple years, he wanted 20mil a year. The Niners didn't want to pay that. Si he went to Minnesota for 8 mil for 1 year. That was on him."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117482015872475584",
+          "author": "shiningscience",
+          "searchJob": "california",
+          "text": "The green globes are the fish’s eyes, which it uses to look *through* the top of its head in search of predators. Yes, you are literally looking *through* this fish’s transparent head. Scientists just captured this stunning 4K footage of th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117499476520689687",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117492523895488923",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117492324225724443",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117492197217927351",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117492157334290913",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117491561793479130",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117491336936890729",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117491294993821759",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The plane crashed because the 55 year old experienced white dude pilot (who i wouldn't worry about on sight) made a risky and fatal decision. Yes even experienced pilots can make poor decisions. There is a captain and a first officer. The c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117490121427620027",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The captain piloting the plane was a 55 year old experienced pilot who made a fatal decision, retard. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"mod"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117489824093397242",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "Exactly. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"moderate to extreme precipitation\" 10 mins prior and made a risky decision for only a slight dev"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117489676789415969",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "Too bad the captain was warned repeatedly 10-15 mins prior and still tried it and killed everyone. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"modera"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117489409687736432",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "She did that because she realized the captain had put them in a horrible situation by disregarding repeated warnings from ATC. What do you expect her to do, fight him? Retard There is a captain and a first officer. The captain makes all fin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117487592211915100",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The captain was a C, with double the experience. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"moderate to extreme precipitation\" 10 mins prior and mad"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117487256172642406",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"moderate to extreme precipitation\" 10 mins prior and made a risky decision for only a slight deviation. I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117487216008061004",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "Because her captain hadnt taken the storm seriously and she knew it, but nothing she could do about it. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"m"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117486993835704422",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "Because the captain didn't heed the warnings from ATC. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"moderate to extreme precipitation\" 10 mins prior a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117486722099400773",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"moderate to extreme precipitation\" 10 mins prior and made a risky decision for only a slight deviation. I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117486672443060637",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "The 55 year old experienced captain got them killed, retard. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"moderate to extreme precipitation\" 10 mins p"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117486455974994285",
+          "author": "thelorenu",
+          "searchJob": "miami",
+          "text": "A 55 year old experienced male pilot got them killed, moron. There is a captain and a first officer. The captain makes all final decisions. He was warned by ATC of the \"pretty nasty\" weather and \"moderate to extreme precipitation\" 10 mins p"
         }
       ]
     },
@@ -131,20 +366,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 9,
-      "failed": 1,
-      "requests": 10,
-      "errors": [
-        "georgia: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 35,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-03T05:57:55.454Z"
+    "status rebuilt locally from current store on 2026-11-03T06:13:56.456Z"
   ]
 }
