@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T05:44:54.251Z",
+  "generatedAt": "2026-11-03T05:57:55.453Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-03T05:44:53.735Z",
+    "at": "2026-11-03T05:57:54.964Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 9,
+    "requests": 10,
+    "fullSweepCycles": 18
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7950016666666667,
-    "p95Hours": 1.2942669444444443,
-    "worstHours": 1.5366302777777778
+    "medianHours": 1.0120022222222222,
+    "p95Hours": 1.5112675,
+    "worstHours": 1.5112675
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -55,146 +55,75 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-03T05:44:53.734Z",
-      "got": 26,
-      "new": 15,
-      "lag": 0.14
+      "at": "2026-11-03T05:57:54.964Z",
+      "got": 9,
+      "new": 5,
+      "lag": 0.15
     }
   },
   "audit": {
-    "at": "2026-11-03T05:43:15.825Z",
+    "at": "2026-11-03T05:57:16.255Z",
     "mode": "live",
     "collection": {
-      "returned": 26,
-      "kept": 15,
-      "duplicate": 10,
-      "tooOld": 1,
+      "returned": 9,
+      "kept": 5,
+      "duplicate": 4,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 7,
+      "accepted": 3,
+      "rejected": 2,
       "reasons": {
-        "hard_negative": 1,
-        "no_offer_term": 4,
-        "no_fbs_school": 2
+        "no_fbs_school": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2117473820126941291",
+          "author": "alexluck9",
+          "searchJob": "navy",
+          "text": "The Hanwha Philly win to build LSM for USN offers an interesting prospect for comparison with Australia's own effort building the LCH based on the same design via Austal at Henderson. Two shipbuilders executing projects without precedent fo"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2117487434438947274",
-          "author": "delhiiocl",
-          "searchJob": "class:2026",
-          "text": "IndianOil’s Delhi State Office organised XtraPower Utsav 2026, bringing together the top 80 XtraPower Fleet Customers namely Instant Transport Solution Pvt Ltd, Delhivery, Chetak Logistics, CJ Darcl Logistics, Best Roadways, Automobile Carr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2117487410439241944",
-          "author": "bestreferralx",
-          "searchJob": "class:2026",
-          "text": "https://t.co/bm1tSc4V7C"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2117477873535885597",
-          "author": "0xursanomics",
-          "searchJob": "class:2026",
-          "text": "Six global chains ran indonesia programs. six went home. not the bear market alone. they came as guests, with a regional playbook and a return ticket. indonesia is very good at guests. share only goes to residents. https://t.co/CuplwETtdI"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117477988853768336",
-          "author": "dorthea_patriot",
-          "searchJob": "maryland",
-          "text": "@GovWesMoore @OAGMaryland @MDHealthDept Good evening, 1.Are you aware of the fact that the Executive Director of the Board of Social Work is discriminating against me for being diagnosed with a life threatening genetic cardiac issue that I "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117491153964822918",
-          "author": "blakeholton6",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a great conversation with @Coach_Holloway5 I'm blessed to have received an offer from @ndscsfb Thank you for this amazing opportunity!! #AGTG https://t.co/FguMYhquPK"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2117489546850152704",
-          "author": "avneeshkasture",
-          "searchJob": "houston",
-          "text": "https://t.co/TE2Nk0LWRd"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2117482956801626453",
-          "author": "dobidobiai",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/3rW9b1et3M"
+          "postId": "2117492074270339200",
+          "author": "dunnbilly87734",
+          "searchJob": "nevada",
+          "text": "I followed @dougpoppa1 a month ago on https://t.co/wPVCqK2GM9 noticed Doug Poppa on the follow list for Our Nevada Judges and then I looked his information up and noticed Doug Poppa was involved in investigating a scheme to kidnap a member "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 3,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "school_not_resolved_confidently": 3
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117487517050278355",
-          "author": "flatusfred",
-          "searchJob": "wyoming",
-          "text": "@scs_real I'm a Wyoming ex-pat and I'm certain you will find it offers many opportunities to commune with the mountains."
+          "reason": "multiple_resolved_schools",
+          "postId": "2117483604179628124",
+          "author": "musaibhussaini",
+          "searchJob": "miami-oh",
+          "text": "@Therealjay__y Only way sellers goes back is he’s offered 8 mil at Miami / Ohio st / Georgia"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2117494217148944748",
+          "author": "aprajitanefes",
+          "searchJob": "navy",
+          "text": "🇮🇷| 2-3 NOVEMBER 2026. Iran did not spend the weekend waiting. It spent the weekend stacking receipts. Eleven tankers burned in nine days. The 55th MQ-9 destroyed. Two MQM-170s captured intact. A terrorist cell ambushed in Sistan-Baluches"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117478733376319677",
-          "author": "michaelk634",
-          "searchJob": "michigan",
-          "text": "Granted, I don't know that much about Mike Rogers, but how is this race even competitive – what exactly does the Democrat candidate have to offer? He has no known accomplishments. Completing medical school, but then walking away as a net ne"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117474349762662839",
-          "author": "umichbball",
-          "searchJob": "michigan",
-          "text": "It’s a Pizza Party, powered by dairy! 🥛🍕 @MilkMeansMore Celebrate the win with BOGO FREE pizza online from Hungry Howie’s! For 48 hours after the game, use online promo code “UMBOGO” at checkout to get your BOGO offer at participating Hun"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117470717776130445",
-          "author": "tramblejoe",
-          "searchJob": "michigan",
-          "text": "THEUNIT MIDWEST RECRUITMENT Spotlight Athlete: @BJCleveland2027 @FlintPrepFan @CoachDobbins1 @Mig_Quint @CoachJamesLee @CoachMcCray9 @CoachGus90 @FBCoachEngle @CoachParkerMTU @DanMettlach Score 3 TD 2027 WR BJ Cleveland 6'1 180lbs Grand Bla"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2117490730558267729",
-          "author": "fifthandoak",
-          "searchJob": "coastal-carolina",
-          "text": "Cal St - Monterey Bay centers on hands-on, service-minded learning, so students get internships, community projects, and research experience that prepare them for careers. It’s especially strong in marine science, with the Monterey Bay’s oc"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2117489633986580691",
-          "author": "babsphemii",
-          "searchJob": "coastal-carolina",
-          "text": "Sócrates (2018) 🇧🇷🏳️‍🌈 Brazilian LGBTQ+ drama that explores grief, poverty, survival, and forbidden love through the eyes of a young teenager. A Black gay teenager living on the margins of coastal São Paulo. After his mother's sudden de"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2117473177609924760",
-          "author": "logicalindians",
-          "searchJob": "coastal-carolina",
-          "text": "Severe Cyclonic Storm Murasu began its landfall process near Ongole in Andhra Pradesh’s Prakasam district around 1 am on Tuesday, bringing heavy rainfall and winds reaching 110 kmph, with gusts of up to 120 kmph, the IMD said. 👉 Andhra Pra"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117480620951585043",
-          "author": "alo_erosaei",
-          "searchJob": "hawaii",
-          "text": "@elonmusk @BillGates Pls buy me more ram. 💀 https://t.co/oBQqzHLs72, this is our site, we work as a pack there are so many things I want to create. but, I can't yet because AI subs (which I can barely afford) and mostly computer part costs"
+          "postId": "2117483034534613189",
+          "author": "killedbydeath87",
+          "searchJob": "nevada",
+          "text": "👽 AREA 51: THE SECRET THAT WAS HIDING IN PLAIN SIGHT 📍 Groom Lake, Nevada Out beyond the highways of southern Nevada, a dry lakebed lies behind miles of restricted desert. For decades, people looked toward that empty-looking stretch of co"
         }
       ]
     },
@@ -202,18 +131,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 9,
+      "failed": 1,
+      "requests": 10,
+      "errors": [
+        "georgia: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-03T05:44:54.252Z"
+    "status rebuilt locally from current store on 2026-11-03T05:57:55.454Z"
   ]
 }
