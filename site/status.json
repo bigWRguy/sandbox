@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:00:44.682Z",
+  "generatedAt": "2026-11-03T19:16:39.417Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-03T19:00:44.219Z",
+    "at": "2026-11-03T19:16:38.996Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "navy",
+      "hours": 2.1
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.9759866666666667,
-    "p95Hours": 1.7911575,
-    "worstHours": 2.0375194444444444
+    "medianHours": 0.7996308333333333,
+    "p95Hours": 1.8011211111111112,
+    "worstHours": 2.0563616666666666
   },
   "decisionCoverage": {
-    "total": 78,
-    "decided": 78,
+    "total": 101,
+    "decided": 101,
     "complete": true
   },
   "pending": {
@@ -47,7 +52,7 @@
   "profileResolution": {
     "cached": 103
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 5,
   "quality": {
     "completeOffers": 4211,
     "incompleteOffers": 0
@@ -55,380 +60,382 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-03T19:00:44.219Z",
-      "got": 111,
-      "new": 78,
-      "lag": 0.03
+      "at": "2026-11-03T19:16:38.996Z",
+      "got": 204,
+      "new": 101,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-11-03T18:59:08.844Z",
+    "at": "2026-11-03T19:14:59.380Z",
     "mode": "live",
     "collection": {
-      "returned": 111,
-      "kept": 78,
-      "duplicate": 32,
-      "tooOld": 1,
+      "returned": 204,
+      "kept": 101,
+      "duplicate": 85,
+      "tooOld": 18,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 37,
-      "rejected": 41,
+      "accepted": 34,
+      "rejected": 67,
       "reasons": {
-        "no_fbs_school": 15,
-        "non_fbs_offer_target": 5,
-        "no_offer_term": 10,
-        "hard_negative": 11
+        "no_offer_term": 7,
+        "no_fbs_school": 34,
+        "non_fbs_offer_target": 2,
+        "hard_negative": 22,
+        "unclassified_offer_text": 2
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2117693022796403186",
-          "author": "ryanw_77",
+          "reason": "no_offer_term",
+          "postId": "2117678507115294934",
+          "author": "atay19xx",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG Blessed to Receive an offer from @Nicholls_FB @CoachSethPrice @CoachERoussel @JJones178 @MSJUCOREPORT @JuCoFootballACE @JUCOFFrenzy @warren_rowan @JGonzalesJr10 https://t.co/XIHMZtEHe0"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2117692447405002869",
-          "author": "courtneylaw_5",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @k2mden I am blessed to receive an offer from Weber State University! @weberstatefb #AGTG https://t.co/BzQmb2ZRLw"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2117691648377262117",
-          "author": "bingajerome",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Happy to say I am blessed to receive an offer from West Virginia Wesleyan College thank you to @coachfrancis_ for believing me #AGTG https://t.co/lSvrAvXmba"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117691582447051027",
-          "author": "ethanmiller_1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#GODDID After a great conversation with @CoachNateWade1 i am blessed to receive an offer from @CopiahLincolnCC @D_Mitchell91 @ChoctawCountyFB @Mibra_65 @CoachWilliams_2 https://t.co/YWnqSoj53f"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117691381162684567",
-          "author": "gaigelewis2",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @Coachcalexander I’m blessed to receive a offer from capital university. https://t.co/UsLV5H9Cgq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117690660765503833",
-          "author": "tymeirboyd",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @NathanKero81 I am blessed to receive my 2nd offer !!!🙌🏾🙌🏾🙏🏾🙏🏾#330#warrenohio#Godisgreat#viking football#underated https://t.co/YBOIBKjMLa"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2117690031783727142",
-          "author": "giolivingston",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @josh_flam , I am blessed to receive an offer from Washburn University. https://t.co/zwRwERGTZe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117687293670793237",
-          "author": "willie_cruz_97",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After experiencing a great win at @TCSteers i am blessed to receive my third offer!! Thank you @Coach_JJackson2 https://t.co/whRTGg444f"
+          "text": "Blessed to receive an invite to YAA Dallas showcase! @youareathlete https://t.co/HmLlq20wEX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2117684852753682778",
-          "author": "frankdux10000",
+          "postId": "2117676851006951871",
+          "author": "tyanthonye1",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@FanaticsSports @Blkeddie412_ Only thing better than player protection is your casino rewards. Down god knows how much but so blessed to receive $0 from you guys. Truly the best"
+          "text": "After a great conversation blessed to receive from WKU thank you @JLBarnes4 @stanhill_4 @NWCC_Football #staydownkid #AGTG https://t.co/bPmEYSx6Ax"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2117684795421450281",
-          "author": "1deavion",
+          "postId": "2117675199042646181",
+          "author": "darrickdunn2028",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @Coach_Webster2 I am blessed to receive my 4th offer from East central CC 💛🖤🙏🏼@NorrisGoTobie https://t.co/CPz4JAM2c9"
+          "text": "After a great conversation with @CoachMike2Will and @DLineGURU @PBZebrasFB I am blessed to receive an offer from @MoStateFootball @Rivals @247Sports @On3Recruiting @PrepRedzoneAR @samspiegs @DannyWest247 @gobigrecruiting https://t.co/HfiS0S"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2117684711514632271",
-          "author": "humbertodeharo",
+          "reason": "no_fbs_school",
+          "postId": "2117672410166260183",
+          "author": "jmansk_",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachParedez Paredez, l am extremely blessed to receive my first official offer from San Bernardino Valley College #valleyup @SHSpartanNation @SBVCFB https://t.co/Kj5OKfwgTw"
+          "text": "Blessed to receive an offer from @SCWarriorFB ! Thank you to Coach @PorcheCoach and @CoachLangfordSC for believing in me and giving me this opportunity. Excited for what’s ahead! @Bryan_Ault @EDGYTIM @scottybscout @HinsdaleSouthFB https://t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2117681761278718179",
-          "author": "hestoncranmerls",
+          "postId": "2117669350475702782",
+          "author": "huddy9621",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Not just a Longsnapper, I’m an athlete! Blessed to receive 1st team All-Conference honors as a OL/DL! @DJRSwework @Napalm_Kicking @TheChrisRubio https://t.co/zKAA9OxmX0"
+          "text": "‼️Blessed to receive first team all district honors‼️ @grhegstad @MitchAalbers @NateFish42 @CharlieCertoFB @CoachChaseKing @Coach_Key1 @HBraylon https://t.co/pxWPUbKgPq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117669276471754854",
+          "author": "nickholland23",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive another offer today! Keep working"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2117668451149816218",
+          "author": "aidenwilson1_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Campbellsville university!! @CoachBurns18 @AthertonFootbal @CoachNinoDBE323 @ChadSimmons_ @AllenTrieu @SWiltfong_ @adamgorney https://t.co/tPBQLqB5M3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117666876998189468",
+          "author": "blakelewislb",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an invitation to my first official visit at Wilkes University on December 5th! Excited for the opportunity to meet the coaching staff and experience everything Wilkes has to offer. Thank you Coach Biever and Coach Richard"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117664618114138248",
+          "author": "bbarnett49947",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am blessed to receive my 5th offer from @kwufootball. Thank you coach @GrantGodsey for the opportunity! @CoachMorrisMVP @CoachRamseyMVP @PRecruiting7 https://t.co/p6DNWZITPG"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117663217224737184",
+          "author": "tylergebhardt5",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive First Team All-OCC! @OHSBravesFB @CheneyClay @j_kelley7 @Kstaff07 @CoachSlater25 https://t.co/E8MPmNxRCP"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117662897182589318",
+          "author": "braylenh2",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from CAPITAL FOOTBALL! All the hard work, dedication, and sacrifices are just the beginning. @Coachcalexander #CapitalFootball #OfficialOffer #Blessed #Football #EarnedNotGiven #RaiseTheStandard https://t.co/kECk"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117690186822033895",
+          "author": "nickcaige",
+          "searchJob": "arizona",
+          "text": "I think I remember the issue was these girls would reply to modeling ads, they were offered free airfare to attend the shoot in Arizona and it wasnt until they landed that they were told they would have to do nude and then when they got to "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2117672891487854592",
+          "author": "thefandaily",
+          "searchJob": "arizona",
+          "text": "His mom had other ideas. She got him into a showcase. A clip of him on social media reached Arizona Western College. The school offered him its last available scholarship."
         },
         {
           "reason": "hard_negative",
-          "postId": "2117681612020445416",
-          "author": "takarionavila77",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m blessed to receive my first division 3 offer from Bethany College @SJCC_Football @IamTDuran @jaimesal72 @sheffield_coach @coachjwink @OBM_CoachT1A408 @CoachT1A @CoachDPruitt_ @CoachEilam https://t.co/qKRP3P1lyV"
+          "postId": "2117681834938990607",
+          "author": "bsphere_",
+          "searchJob": "buffalo",
+          "text": "“Honestly, I had offers from Europe. Specifically, from Panathinaikos. I talked to my agent about the options in Europe. I didn't understand how things worked over there. He explained to me that the season lasts ten months, and I said, ‘No "
         },
         {
           "reason": "hard_negative",
-          "postId": "2117680788913209621",
-          "author": "elusivenoah",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @KHOWCU I’m blessed to receive my 12th offer and 1st d2 offer!⚡️ #agtg https://t.co/mLTeDefnp1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117680418959089713",
-          "author": "b_kdrien",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a conversation with @Bigchess52087 I am truly blessed to receive an offer from @GhouseGriffinFB @Andy_Villamarzo @herm_coach @CoachAChappell @TommyWhitted @coachpsb https://t.co/xMxJVrlu1N"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117679970193473622",
-          "author": "kylecihocki",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Capital university. Thank you @Coachcalexander for this opportunity ! @CoachBigPete @LWWestWarriorFB @CoachCogs8 @ChiPlayerWatch https://t.co/w30fQ5FnBf"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117667633428676668",
-          "author": "dewayne1st",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After A great phone call with @DBCoachSD I’m grateful to receive an offer from @GracelandFB AGTG🫟 https://t.co/NC3fSLpQEJ"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2117681252228866189",
-          "author": "aojiaku5",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG BLESSED TO EARN MY FIRST D1 OFFER FROM PRAIRIE VIEW A&amp;M UNIVERSITY ! @FrankWjr13 @coachjack212 https://t.co/PiDjSyaqg9"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117679350615265446",
-          "author": "diesparker36986",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "had a great conversation with @Coach_D_Mac and i am blessed to say that i have received an offer from @MSUBeaversFB ! #agtg @coach_jcurtis https://t.co/UnJgkxlRJp"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117678120677646628",
-          "author": "kennyfutur63665",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "I am excited to announce that I have received an offer from Culver Stockton! I want to sincerely thank the coaching staff for reaching out, showing interest, and giving me the opportunity to further my education while continuing to compete "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2117673872908484701",
-          "author": "zayvianlowery",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "AGTG: Blessed to receive an offer from @IchabodFTBL @Msjuco @TheEJlive @NJCAA @247SportsPortal @TransferPortal @Smccfootball @Smccathletics @Ncsa @Earvin_Moore @TerrenceCody @247Sports @JUCOFFrenzy @JuCoFootballACE @MSJUCOREPORT @BrianDohn2"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2117687393213932003",
-          "author": "josharosen",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/IIrK7hGN8t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2117673547409826203",
-          "author": "jeri_taa",
-          "searchJob": "arkansas-state",
-          "text": "The greatest risks are not always found where conflict begins, but in the systems we assume will keep working. Perhaps the real challenge is learning to recognise our dependencies before someone else learns how to use them. https://t.co/Y2I"
+          "postId": "2117696932847972650",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
         },
         {
           "reason": "hard_negative",
-          "postId": "2117667780778467821",
-          "author": "mofaqatar_en",
-          "searchJob": "arkansas-state",
-          "text": "Advisor to Prime Minister, Official Spokesperson for Ministry of Foreign Affairs @majedalansari : Qatar Continues Its Efforts to Bridge Gap between Washington, Tehran Doha | November 3, 2026 Advisor to the Prime Minister and Official Spokes"
+          "postId": "2117696611505868835",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117696485416722599",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117696352863789401",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117696289894735873",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117696175977509370",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117696067202330824",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117695745876693421",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117695610564554847",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117695518872658231",
+          "author": "randyferrell",
+          "searchJob": "navy",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 3, 2026 Total receipts: 761 • 11/2/26: Judge: ICE broke Oregon warrantless-arrest order • 11/2/26: Judge tosses c"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
+      "accepted": 0,
       "rejected": 34,
       "reasons": {
-        "player_display_name_unusable": 1,
-        "player_missing_class_year": 1,
-        "bare_mention_requires_llm": 21,
-        "multiple_resolved_schools": 11
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 9,
+        "bare_mention_requires_llm": 18,
+        "reporter_missing_player_name": 1,
+        "author_not_recruit:organisation": 1
       },
       "samples": [
         {
-          "reason": "player_display_name_unusable",
-          "postId": "2117687449757614529",
-          "author": "_akeemcox11_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachTMcKnight @CoachDavisWR I am blessed to receive an offer from the University of Florida. @CoachDae1 @NeilRuth_ @CoachJonSumrall @beyond_grind @Dalton_Cats_FB @RecruitGeorgia @TomLoy247 @ChadSimmons_ @SW"
+          "reason": "multiple_resolved_schools",
+          "postId": "2117693629909123277",
+          "author": "themainmanlewiz",
+          "searchJob": "arizona",
+          "text": "Here’s a brief summary of the key Amarillo-area updates you shared: Halloween shooting arrests: Two 18-year-olds were arrested after a reported shooting at Plum Creek Apartments. One faces charges including aggravated assault with a deadly "
         },
         {
-          "reason": "player_missing_class_year",
-          "postId": "2117682997470130324",
-          "author": "jaydenohara55",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to have received an offer from @SouthernMissFB 💥🙏🏽@CoachMDavis12 @CoachSCoughlin @coachfleming17 @JUCOFFrenzy @JuCoFootballACE @TomLoy247 @warren_rowan https://t.co/zBdsQoDRnL"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117692500777345341",
-          "author": "middleeastinst",
-          "searchJob": "arkansas-state",
-          "text": "How different would an Eisenkot government be from Netanyahu’s? Speaking with @voxdotcom, MEI's @natansachs argues the difference would be significant. While both leaders want Hamas gone and Iran contained, and neither is likely to offer Pa"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117679498598453431",
+          "author": "offshoreinsider",
+          "searchJob": "arizona",
+          "text": "🚨 BREAKING SPORTS BETTING NEWS — RAVENS ADD ANOTHER QUARTERBACK! RANGERS SHAKE UP THEIR TOP POWER-PLAY UNIT! TUESDAY, NOVEMBER 3, 2026 — AFTERNOON UPDATE NFL — JACKSONVILLE JAGUARS AT BALTIMORE RAVENS THURSDAY, NOVEMBER 5 — 8:15 PM ET KEDO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117691885665886644",
-          "author": "astateredwolves",
-          "searchJob": "arkansas-state",
-          "text": "We're still riding high on that 1-0 feeling, so we want to save you some money when you come back to see the A-State Men in action Nov. 10 against UT-Martin. Go to https://t.co/A0U571r7KP and type WIN to unlock 20% savings on seats at every"
+          "postId": "2117669269307875368",
+          "author": "madeleinelaird",
+          "searchJob": "arizona",
+          "text": "My experience voting today in Anthem Arizona. The vibe was super positive, the poll worker's were helpful and, for once I couldn't tell their political leanings. The offered both ballpoint pens and flair markers. My husband made a mistake o"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117696001809289603",
+          "author": "billsbackersroc",
+          "searchJob": "buffalo",
+          "text": "Bills’ perfect Budda Baker trade offer to Cardinals to bolster weak secondary #BillsMafia #GoBills ⬇️ https://t.co/G8YufXR5mA"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117690312894333287",
+          "author": "olympforgecirle",
+          "searchJob": "buffalo",
+          "text": "$SPY — Bulls remain in control. 📈 Trading at 756.74, holding above key moving averages with bullish momentum. Watching 757.07–758 for a breakout. A pullback toward 753.52–752.41 could offer another opportunity if support holds. Stay patien"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2117691502147383481",
-          "author": "theboydcompany",
-          "searchJob": "arkansas-state",
-          "text": "Texas ranks as the best state in the nation for business climate, according to Site Selection Magazine. Georgia and North Carolina rank next. With more and more of the site search being carried out in-house by companies, surveys like this o"
+          "postId": "2117685932329459721",
+          "author": "bullsxox",
+          "searchJob": "buffalo",
+          "text": "USF is 6-6 in conference. Wednesday at FAU offers a tidy chance to make the math less symmetrical. 🏐 #USF"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117691053390315546",
-          "author": "galtback7",
-          "searchJob": "arkansas-state",
-          "text": "Palestinians have been offered a 2 state solution for 3/4 of a century. They rejected it. They don't want a state of their own-they want Jews wiped off the face of the earth. We're talking the world's most vile, violent, genocidal savages h"
+          "postId": "2117685268073390347",
+          "author": "mrknowi60725489",
+          "searchJob": "buffalo",
+          "text": "#BuffaloBills &amp; Josh Allen could use #DallasCowboys George Pickens but not sure what they have to offer for a #1 Wide Receiver other then draft picks. The Bills Defense is a low tier Defense with not much to offer. Buffalo &amp; Allen m"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117679494366466106",
+          "author": "russellking1",
+          "searchJob": "buffalo",
+          "text": "🏈CFB Value Play of the Day Messiah Burch O99.5 Rush YDs ✏️ AP Proj. 126.5 Buffalo must dominate time of possession with Messiah Burch and Jason Wright’s run-heavy scheme, staying ahead of the chains and using Clint Walker on play-action. T"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117676877875700139",
+          "author": "jasetaro",
+          "searchJob": "buffalo",
+          "text": "Good afternoon, y'all, it's election day - Vote! ☕️🥯📖🙏✝️ For it is not possible for the blood of bulls and goats to take away sins. That is why, when Christ came into the world, he said to God, “You did not want animal sacrifices or sin "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117689774341267548",
+          "author": "bsherrle",
+          "searchJob": "kent-state",
+          "text": "@rage_by72458 @BanNothing82 @LauraLoomer \"A tie to a sovereign is positive law by definition.\" Here you offer nothing but your opinion. You disagree with Lord Coke. His decision is part of a through-line continuing with Rawle, Kent, Story, "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2117686956582732078",
+          "author": "rinkyreport",
+          "searchJob": "kent-state",
+          "text": "TheFourthPeriod - Larkin | #GoHabsGo also have significant interest in Larkin and are prepared to pitch an appealing offer, as well, but they too are still not on his approved list. According to TFP’s David Pagnotta, Habs GM Kent Hughes las"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2117683367974211876",
+          "author": "bball_movement",
+          "searchJob": "missouri-state",
+          "text": "2028 @JumairW64762 has picked up an offer from Coach @CuonzoMartin of Missouri State University! 🐻 Ju's hard work with @weareunitedprep continues to pay off! https://t.co/eK1ndWJdSH"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2117687497358786691",
-          "author": "iamindiscov",
-          "searchJob": "arkansas-state",
-          "text": "The World's 3 Most Wanted Hackers Don't Work For Money, they Work For Kim Jun Un. The U.S. Justice Department unsealed a file that reads like a Hollywood thriller in 2021. The three men Park Jin Hyok, Jon Chang Hyok, and Kim Il. They aren't"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117686666970230980",
-          "author": "inemstee",
-          "searchJob": "arkansas-state",
-          "text": "@seunokin Minister sir, if you say we Nigerian should not listen to the opposition and that they do not have anything to offer.... Did Nigerians not listed. To the APC who was opposition in 2015 at the time.... What a state of the nation"
+          "postId": "2117682023129301256",
+          "author": "bball_movement",
+          "searchJob": "missouri-state",
+          "text": "Coach @CuonzoMartin and Missouri State University has made an offer to seven-footer Kevin Pittman of @weareunitedprep! Our guy @yng_kev0 continues to turn heads and will have big decisions to make! https://t.co/yb4RLnU8Mt"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2117683635730223190",
-          "author": "greenenergydude",
-          "searchJob": "arkansas-state",
-          "text": "Lower taxes alone don’t make a state a better place to live. Nevada offers desert beauty, entertainment, and outdoor recreation, but California combines beaches, mountains, forests, deserts, diverse communities, culture, and year-round recr"
+          "postId": "2117695633905909799",
+          "author": "soundwves",
+          "searchJob": "navy",
+          "text": "@FLaMeOfNoVa reminder that he's turned down US Army and Navy sponsorship offers for the same reason. or is he suddenly racist towards america too? this is actually an incredibly consistent position he's upheld in a very respectful manner, y"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117683569309155646",
+          "author": "trumpermeg63123",
+          "searchJob": "nevada",
+          "text": "@1Nicdar No. In Nevada, the strip is only a very tiny part of Nevada. Nevada offers so much more than the strip."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117683203360379312",
+          "author": "votingislocal",
+          "searchJob": "nevada",
+          "text": "Nevada voters: you can still register and vote today. Nevada offers same-day voter registration, and the details are below. Save this and share it with someone who needs it. 🗳️ https://t.co/sitKSDWTIx"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117680052708028453",
+          "author": "islandsmagazine",
+          "searchJob": "nevada",
+          "text": "Accessible only on foot, Peeler Lake offers alpine vistas, backcountry camping, and trout fishing in California's Sierra Nevada. https://t.co/ZJbqKCGJRc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117695059181342788",
+          "author": "np4football_ot",
+          "searchJob": "new-mexico",
+          "text": "Trent Dunn-OT-2028-AZ @UNMLoboFB Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117678813207564594",
+          "author": "alsochad",
+          "searchJob": "arkansas",
+          "text": "What a competent budget looks like. $35-40M puts Arkansas 7th in the SEC today. That's the top half Hunter promised us last December. The portal doesn't wait for a 6-9 month plan. Offers start going out in about four weeks. Either the money"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117693620492923296",
+          "author": "phagankean",
+          "searchJob": "georgia",
+          "text": "Content warning: this post concerns the 1913 murder of a 13 year old girl and includes Leo Max Frank's own early statement to the detectives. On Tuesday, November 3, 2026, we post State's Exhibit B from Leo Frank's Georgia Supreme Court app"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117693109257576675",
+          "author": "grayson_fb",
+          "searchJob": "georgia",
+          "text": "Another offer for one of our DAWGS up front! Congratulations @Changarrett70! #TheStandard"
+        },
+        {
+          "reason": "author_not_recruit:organisation",
+          "postId": "2117692627458105447",
+          "author": "coachgio33",
+          "searchJob": "georgia",
+          "text": "🔰 Ram Offer 🔰 2028 OL @Changarrett70 has received an offer from @Pitt_FB! His recruitment continues to grow, make sure to keep him on your charts! #TheStandard @grayson_fb @CoachCarswell @Rivals @ChadSimmons_ @MaxPreps @RustyMansell_ @On3"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2117686646078652749",
+          "author": "euronews",
+          "searchJob": "georgia",
+          "text": "Georgia PM offers no way out of EU deadlock - and blames Brussels https://t.co/xMME3wEqoy"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2117673522809975125",
-          "author": "rafaelpnetto1",
-          "searchJob": "arkansas-state",
-          "text": "@Wopkonjorge He won't destroy the gangs, you can't stop gangs from forming in a country where the average wage is 45 dollars a month, if you don't develop Haiti, gangs will aways be a Lernaean Hydra, you cut one of its heads and another one"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117691277240078740",
-          "author": "trimarium1",
-          "searchJob": "army",
-          "text": "In 1956 and 1968, the communist Warsaw Pact soldiers offered so-called “brotherly help” to the rebellious regimes in both Hungary and Czechoslovakia. Today, the democratic German army is offering the same kind of “brotherly help” to Poland,"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117685554728857717",
-          "author": "adrianthonynava",
-          "searchJob": "army",
-          "text": "October 7, 1950. Somewhere in Korea, a Catholic priest set up his altar on the hood of a jeep and said Mass for the men of the 1st Cavalry Division. Chaplain Emil Kapaun of the 8th Cavalry Regiment would be a prisoner less than a month late"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117681271249776815",
-          "author": "boweschay",
-          "searchJob": "army",
-          "text": "Who is Zelensky? For 7 years, Volodymyr Zelensky has been the wests darling, a khaki clad symbol of defiance, pleading for billions in aid and NATO’s embrace amid Ukraine’s self inflicted war. To many well meaning, but willfully ignorant Am"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117679648717132019",
-          "author": "danielvladila",
-          "searchJob": "army",
-          "text": "This are not decisions this are efects. It is patetic. It has been seen before. Fight to take over power. Society and kingdom in decline. Times of wars. Bad decisions. Lots of surprises. Weak people taking decisions to beeing seemed iration"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117678758639321168",
-          "author": "annadsays",
-          "searchJob": "army",
-          "text": "My dad’s very best friend and my second father passed away. I’m just heartbroken. Something about this grizzled old Army Colonel and Vietnam vet seemed like he’d keep on ticking’ forever no matter how bad his health was. I’m just crushed. P"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117675879363190795",
-          "author": "danielrejackso1",
-          "searchJob": "army",
-          "text": "Yes. Peter Thiel is the central figure—often called the “don”—of the PayPal Mafia.⁠Wikipedia The PayPal Mafia is the informal name for the group of PayPal founders and early employees who, after eBay’s 2002 acquisition of the company, found"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117675577604002125",
-          "author": "dhanindia1964",
-          "searchJob": "army",
-          "text": "@RituRathaur Before the collapse of Soviet Union, CIA and KGB competed with each other in regime change operations. India benefited with help from one or the other. For example JFK offered to arm Indian army before '62 war but Nehru was uto"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117675552031330628",
-          "author": "danielrejackso1",
-          "searchJob": "army",
-          "text": "Yes. Peter Thiel is the central figure—often called the “don”—of the PayPal Mafia.⁠Wikipedia The PayPal Mafia is the informal name for the group of PayPal founders and early employees who, after eBay’s 2002 acquisition of the company, found"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117675458666119375",
-          "author": "danielrejackso1",
-          "searchJob": "army",
-          "text": "Yes. Peter Thiel is the central figure—often called the “don”—of the PayPal Mafia.⁠Wikipedia The PayPal Mafia is the informal name for the group of PayPal founders and early employees who, after eBay’s 2002 acquisition of the company, found"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117675304026313091",
-          "author": "danielrejackso1",
-          "searchJob": "army",
-          "text": "Yes. Peter Thiel is the central figure—often called the “don”—of the PayPal Mafia.⁠Wikipedia The PayPal Mafia is the informal name for the group of PayPal founders and early employees who, after eBay’s 2002 acquisition of the company, found"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2117675255246557338",
-          "author": "danielrejackso1",
-          "searchJob": "army",
-          "text": "Yes. Peter Thiel is the central figure—often called the “don”—of the PayPal Mafia.⁠Wikipedia The PayPal Mafia is the informal name for the group of PayPal founders and early employees who, after eBay’s 2002 acquisition of the company, found"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117676106371240338",
-          "author": "st_cloudfbrecrt",
-          "searchJob": "bowling-green",
-          "text": "🚨 2027 D1 EDGE | JUDE COCKCROFT 🚨 📍 St. Cloud HS (FL) ☁️ 📏 6'3\" | 245 LBS 🔥 2026 SEASON PRODUCTION 🏈 53 Tackles 💥 18 TFL 💨 17 QB Hurries ⚔️ 6 Sacks 2 D1 OFFERS: Bowling Green | New Haven physical, relentless EDGE/5-Tech who disrupts"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117675594981011515",
-          "author": "coachlattier",
-          "searchJob": "bowling-green",
-          "text": "🚨 2027 D1 EDGE | JUDE COCKCROFT 🚨 📍 St. Cloud HS (FL) ☁️ 📏 6'3\" | 245 LBS 🔥 2026 SEASON PRODUCTION 🏈 53 Tackles 💥 18 TFL 💨 17 QB Hurries ⚔️ 6 Sacks 2 D1 OFFERS: Bowling Green | New Haven physical, relentless EDGE/5-Tech who disrupts"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2117663405758648821",
-          "author": "concreteaci",
-          "searchJob": "hawaii",
-          "text": "The November 2026 issue of Concrete International magazine is now available!🌟 Concrete International is the magazine of the concrete community, published monthly by ACI. *Free to ACI Members. This issue of CI Includes: • Free Preview Artic"
+          "postId": "2117681701031673903",
+          "author": "blake_alderman",
+          "searchJob": "georgia",
+          "text": "NEW: 4-star CB Nathan Holston calls Florida \"really my favorite school\" — and a visit to Gainesville this weekend could be next👀 Georgia just offered 24 hours ago. The race is heating up. Intel: https://t.co/zmbJnUO17a https://t.co/QBOxPWD"
         }
       ]
     },
@@ -442,12 +449,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 3,
+      "acceptedEvidence": 0,
       "rejectedCandidates": 34,
-      "brandNewOffers": 3
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-03T19:00:44.683Z"
+    "status rebuilt locally from current store on 2026-11-03T19:16:39.418Z"
   ]
 }
