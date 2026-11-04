@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T17:27:30.556Z",
+  "generatedAt": "2026-11-04T17:44:47.039Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-04T17:27:30.163Z",
+    "at": "2026-11-04T17:44:46.405Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,82 +30,413 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "ohio",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.103811388888889,
-    "p95Hours": 2.000566666666667,
-    "worstHours": 2.000566666666667
+    "medianHours": 1.0762005555555556,
+    "p95Hours": 2.0393530555555555,
+    "worstHours": 2.288478611111111
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 104,
+    "decided": 104,
     "complete": true
   },
   "pending": {
-    "total": 100
+    "total": 101
   },
   "profileResolution": {
     "cached": 104
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 5,
   "quality": {
-    "completeOffers": 4250,
+    "completeOffers": 4255,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-04T17:27:30.162Z",
-      "got": 3,
-      "new": 3,
-      "lag": 0.95
+      "at": "2026-11-04T17:44:46.405Z",
+      "got": 179,
+      "new": 104,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-04T17:27:10.510Z",
+    "at": "2026-11-04T17:43:02.120Z",
     "mode": "live",
     "collection": {
-      "returned": 3,
-      "kept": 3,
-      "duplicate": 0,
-      "tooOld": 0,
+      "returned": 179,
+      "kept": 104,
+      "duplicate": 73,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
-    },
-    "extraction": {
-      "accepted": 0,
-      "rejected": 3,
+      "accepted": 47,
+      "rejected": 57,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 2
+        "no_fbs_school": 33,
+        "no_offer_term": 12,
+        "hard_negative": 5,
+        "non_fbs_offer_target": 7
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2118034392907989229",
+          "author": "usakansas",
+          "searchJob": "kansas",
+          "text": "We are off to a great start at the 2026 #KSPrincipals Conference in Wichita. It has been a great morning of learning with some awesome breakout sessions, and our opening keynote, Jimmy Casas, has offered great insights and challenges to our"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118029243015651534",
+          "author": "johnreedstark",
+          "searchJob": "kansas",
+          "text": "One of the Blue Wave's first casualties will be SEC Chair Paul Atkins. Here's the autopsy, written in advance: who holds each gavel, what they can compel, the 10 questions he'll be asked under oath, and a roadmap for the Blue Wave's impact "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118012525933715539",
+          "author": "structuraltest",
+          "searchJob": "kansas",
+          "text": "@AwakenedOutlaw Kansas City programs offer up to $15,000 in financial aid for qualified \"students\" relocating to the area. Their boarders are still wide open."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118030618290221316",
+          "author": "angelpubstocks",
+          "searchJob": "west-virginia",
+          "text": "https://t.co/tzctEJD6z7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118020859826741676",
+          "author": "wvsportsnow",
+          "searchJob": "west-virginia",
+          "text": "Rich Rodriguez Offers Insight Into Discussions About Retaining Mike Hawkins https://t.co/KOHB8fWhac https://t.co/nTdO8EodJ9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118027845612044432",
+          "author": "offshoreinsider",
+          "searchJob": "ohio",
+          "text": "Top ranked sports services with free picks for Wednesday https://t.co/H39EbhSmWr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118027193033036030",
+          "author": "dpbquinn",
+          "searchJob": "ohio",
+          "text": "My encore for Dr Acton now elect-Governor in Ohio from 2020. Astonishing.NJPAC offered “In The Grip of Terror” on Influenza &amp; Polio (2019) and Covid-19. , by @dquinn711 https://t.co/1oLWg04Ir7"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118026229194293725",
+          "author": "ohiocrawler",
+          "searchJob": "ohio",
+          "text": "Real offer by the way until 1 p.m. or my debit card gets shut off for suspected fraud. I’ll be in the Chitters #69 Rose Bowl jersey https://t.co/4e2C0gh2P4"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117992290312716477",
+          "author": "ohiocrawler",
+          "searchJob": "ohio",
+          "text": "Patriots… we’re eating good today at the famous chicken shack on Olentangy Road. #PromisesMade #PromisesKept https://t.co/dck0dESodG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118025494444581309",
+          "author": "markschuyler12",
+          "searchJob": "ohio",
+          "text": "Average Central Ohio sale, September: ~$8,400 came off the price before any offer. ~$4,000 came off at the negotiating table. The cut takes twice what the buyer does. Paid for the work, not a percentage of the sale. Mark Schuyler Real Estat"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118010129413226972",
+          "author": "theohiolegacy",
+          "searchJob": "ohio",
+          "text": "With every proposal that the owners raise their offer....the more fans have to cover the costs That's how this works, for those begging players to get this ridiculously higher cap floor This isn't football. You need families at the game to "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117722961683877932",
+          "author": "bnightengale",
+          "searchJob": "ohio",
+          "text": "The union’s response to MLB’s proposal https://t.co/g8iGNKIxSC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118004778429296802",
+          "author": "willwarden147",
+          "searchJob": "ohio",
+          "text": "https://t.co/91Lcecs23a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118026733006033295",
+          "author": "kashmoney_77",
+          "searchJob": "class:2027",
+          "text": "After a great conversation with @CoachWelnetz I’m blessed to receive an offer from @FightingBeesFB!!! @CoachNissen5 @BigGreek79 @CelticsFootball @EDGYTIM @CSAPrepStar @OLMafia https://t.co/BIJxJffnby"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118024154943193296",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Luke Dolan-OL-2027-NJ @LafColFootball Offer #CFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118023924759875763",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Jasyn Williams-ATH-2027-PA @SRURockFB Offer #CFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118021677334540377",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Maddox Kelley-WR-2027-IA @SDCoyotesFB Offer #CFB"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117833940710965713",
+          "author": "maddoxrkelley4",
+          "searchJob": "class:2027",
+          "text": "After a great phone call from @CoachVitzthum I am blessed and grateful to say I received my 2nd D1 offer to play football at @SDCoyotesFB. @FootballSolon https://t.co/U42Ij9Hy0u"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118021453236883574",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Caleb Zook-OL-2027-IL @EIU_FB Offer #CFB"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2117792105779347464",
+          "author": "calebzook53",
+          "searchJob": "class:2027",
+          "text": "After a great game day visit at @EIU_FB and a phone call with Coach @McclanathanOL , I am extremely blessed to have been offered a preferred walk on spot at Eastern Illinois! https://t.co/8SU33RRoBs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118019465497448477",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Brayden Rose-ATH-2027-PA @UNH_Football Offer #CFB"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118019185502495217",
+          "author": "tppskol",
+          "searchJob": "class:2027",
+          "text": "This is why it's probably Justin Jefferson's last season in Minnesota. ZERO chance he's playing on a ~$50M cap hit in 2027 and $53M in 2028. The contract was built for the Vikings and Jefferson to come to a new deal after this season. Jeffe"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2117977169561325570",
+          "author": "tppskol",
+          "searchJob": "class:2027",
+          "text": "This sounds like par for the course for the Vikings franchise from @DanGrazianoESPN, “Minnesota has looked around at running backs, but it doesn't sound as if the Vikings are in position to take on much salary. If they make an addition to h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118010388528636090",
+          "author": "agedits32",
+          "searchJob": "class:2027",
+          "text": "The first offer is in for @kezyan_harris 🙌 Thomas University has offered the 2027 Dodge County (GA) OL/DL. Congrats, Kezyan! 6’2, 320 | 3.3 GPA Check him out ⬇️ https://t.co/jWscWuQzhi"
+        }
+      ]
+    },
+    "extraction": {
+      "accepted": 11,
+      "rejected": 43,
+      "reasons": {
+        "bare_mention_requires_llm": 18,
+        "multiple_resolved_schools": 12,
+        "reporter_missing_position": 1,
+        "school_not_resolved_confidently": 9,
+        "reporter_missing_player_name": 1,
+        "unresolved_offer_target": 1,
+        "explicit_non_fbs_target": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118007864564539855",
+          "author": "profilefblive",
+          "searchJob": "kansas",
+          "text": "Kansas has extended three new scholarship offers to class of 2028 defensive front prospects in the past 24 hours. @KU_Football 3.7⭐ 2028 Edge Luke Baysinger @baysinger_luke 3.3⭐ 2028 DT Jaki Jones @jakijones99 3.3⭐ 2028 Edge Josiah Neal @ne"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2118018063287386329",
-          "author": "msrinivascharan",
-          "searchJob": "ucla",
-          "text": "A rude stranger in a parking lot can still be souring your dinner three hours later. Why does that happen, biologically? The popular answer is \"stress hormones linger\". The real answer is more interesting, and more hopeful: most of what lin"
+          "postId": "2118023305102070098",
+          "author": "kitnerduk",
+          "searchJob": "louisville",
+          "text": "Last call before I put them on eBay and leave it to the fates.🔮 Open to offers as prefer to sell to you lovely lot👌 🇺🇸 USA 94 Sweatshirt, S, VGC - £35 🇳🇱 Ajax Anniversary, S, BNWT - £55 🇺🇸 Metro Louisville, M, Excellent - £25 🇲🇽Me"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2118022921872363624",
+          "author": "jucoffrenzy",
+          "searchJob": "west-virginia",
+          "text": "2027 (@BlueDragonsFB) JUCO Edge @KameronGraham11 was offered by WVU @WVUfootball HL https://t.co/lVC2km75O3 https://t.co/6NYB1XlVYi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118011307534205315",
+          "author": "jucofootballace",
+          "searchJob": "west-virginia",
+          "text": "Kameron Graham @KameronGraham11 @ Hutch JuCo @BlueDragonsFB picks up @WVUfootball Offer @CoachDrewDallas @HCC_Collegian https://t.co/IYsHi04zhq"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118028055591465249",
+          "author": "mitchellstudies",
+          "searchJob": "air-force",
+          "text": "A new think tank analysis finds a hypothetical blended-wing body tanker could offer twice as much refueling performance as the KC-46A Pegasus and recommends the Air Force buy scores of them, as the service prepares to evaluate a BWB demonst"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118011886851764389",
+          "author": "aizaz4senate",
+          "searchJob": "air-force",
+          "text": "Statement from Aizaz Shaikh on Last Night’s Election Results: “I am incredibly proud of the campaign we built and the support we earned across Senate District 7. First and foremost, I give my deepest gratitude to the Almighty, because witho"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118034531928170619",
+          "author": "mickdwalker",
+          "searchJob": "ohio",
+          "text": "NEW: Ohio State is hosting some of the best 2029 prospects in the country this weekend. A few could earn offers before leaving campus 👀 Intel: https://t.co/fj16671Frd https://t.co/pcePMttOnh"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118028698481783168",
+          "author": "kushdaddyog101",
+          "searchJob": "ohio",
+          "text": "$JUSH looks like the best valuation/catalyst mix among the Tier 2s. Roughly $100M equity value and $290M EV. Trading at 5.7x ’26E and 4.0x ’27E EBITDA. Cacioppo (CEO) bought ~$1M in the open market through One East in Aug/Sept around $0.50."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118016293173387379",
+          "author": "ninkendough",
+          "searchJob": "ohio",
+          "text": "I’ve got one example for you. Infant mortality. Ohio has an atrocious infant mortality rate yet we do not license midwives in this state. Despite tons of evidence that midwives can offer personalized care that can significantly move the nee"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2118014798638043300",
-          "author": "tequilaoperator",
-          "searchJob": "ucla",
-          "text": "They are offering something the other teams can’t, which is a solid replacement at center in Zacha. They are probably also offering another NHL ready talent and a pick or two which is above what the 10 teams Larkin is requesting to go to ca"
+          "postId": "2118030536299987255",
+          "author": "fearthefinz",
+          "searchJob": "class:2027",
+          "text": "@Lj_era8will be a @MiamiDolphins in 2027! Lamar Jackson holds all the leverage. He has a no-trade clause, a no-tag clause, and an $84M cap hit. Because of that, Baltimore is facing three choices: trade him to a team of his choice on terms f"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2118013500186358267",
-          "author": "ndonovan99",
-          "searchJob": "ucla",
-          "text": "@ConorRyan_93 I would love to see Larkin in the black and gold But the offer would have to be centered around picks (Maple Leafs 1st, Bruins 2028 2nd?) and Zacha, along with a lesser prospect They shouldn’t include Hagens, Minten or Letourn"
+          "postId": "2118029575208772034",
+          "author": "fearthefinz",
+          "searchJob": "class:2027",
+          "text": "@Lj_era8 will be a @MiamiDolphins in 2027! Lamar Jackson holds all the leverage. He has a no-trade clause, a no-tag clause, and an $84M cap hit. Because of that, Baltimore is facing three choices: trade him to a team of his choice on terms "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2118023327285485857",
+          "author": "jucoffrenzy",
+          "searchJob": "class:2027",
+          "text": "2027 (@SDmesafootball) JUCO LB @kealiisione33 was offered by UTEP @UTEPFB HL https://t.co/oZ9cQzo9Ai https://t.co/FkDIh8HpJF"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2118021642471485734",
+          "author": "ayden_allen25",
+          "searchJob": "class:2027",
+          "text": "After an amazing conversation with @coachjack_w I am Beyond Bless to receive an Offer form Georgia military college!!!🐗🐗#AGTG @SCHS_Gamecocks @holder_robbie @RecruitGeorgia https://t.co/jLoiLlUEMq"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2118010467222270424",
+          "author": "jasonsuchomel44",
+          "searchJob": "class:2029",
+          "text": "Texas is officially in the mix for one of the top young linebacker prospects in the state. 2029 Allen LB Raiden Johnson (@D1raiden) talks with @Horns247 about his Texas offer, his conversation with Johnny Nansen and why the #Longhorns are a"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118031368416567705",
+          "author": "mcreekfutures",
+          "searchJob": "iowa",
+          "text": "Wednesday Corn & Ethanol Report Date: Wednesday, November 4, 2026 The grain and energy complexes are navigating a mix of macro energy adjustments and accelerating harvest activity this morning as nationwide corn combining reaches 74% comple"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118017127324192875",
+          "author": "boardyai",
+          "searchJob": "iowa",
+          "text": "@Continuum_Ag @ggecorn got someone who spent years training Iowa growers on farm data platforms and now works the supply side with a farmer-owned co-op. couldn't get a dm through so the intro offer is here. https://t.co/pkwm8Vhd8g"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118035409162891547",
+          "author": "coachschuman",
+          "searchJob": "ole-miss",
+          "text": "📈 NUC SPORTS FASTEST RISING PROSPECT OF THE WEEK 📈 🌎 NATIONAL | 🏈 CLASS OF 2027: Daveon Belhomme, CB/WR/RS, Clearwater Central Catholic (Fla.) 🔴🟡 @DaveonBelhomme Fringe P4 guy in the summer ➡️ Notre Dame, Ole Miss, FSU, Auburn & Texas"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2118033435113537646",
+          "author": "almaulinipwmcg",
+          "searchJob": "ole-miss",
+          "text": "The AM Brief, Wednesday November 3, 2026 Part 4 It’s noon in Miami and here is a recap of events happening in the “Musk Universe” that caught my eye. Part 4 Hello, Artificial intelligence venture SpaceXAI has submitted formal buyout offers "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118031120147292644",
+          "author": "jucofootballace",
+          "searchJob": "ole-miss",
+          "text": "Jourdan Butler @JourdanButler @ Northwest Mississippi JuCo @NWCC_Football picks up @GeorgiaStateFB Offer @jucoweekly @MSJUCOREPORT https://t.co/0D01TdeYjd"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118030463952367672",
+          "author": "dvdbeaver",
+          "searchJob": "ole-miss",
+          "text": "Elia Kazan's \"Baby Doll\" Blu-ray - Carroll Baker, Karl Malden, Eli Wallach, Lonny Chapman, Mildred Dunnock @Warner Archive US: https://t.co/MVlpVIl1K3 CAN: https://t.co/BTHhU11H3x UK: https://t.co/lbhqezirFQ BONUS CAPTURES: https://t.co/SqN"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118030313700126971",
+          "author": "680thefan",
+          "searchJob": "ole-miss",
+          "text": "SEC Network's Peter Burns (@PeterBurnsESPN) joins Cellini & Dimino to offer insight into the CFP selection committee after participating in a mock selection process. He also weighs in on Georgia's matchup with Ole Miss, Alabama's ranking an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118015012929474912",
+          "author": "seanmarnold",
+          "searchJob": "ole-miss",
+          "text": "Now that it might be 56, may I offer some options: 🇺🇸 replaced by 🏳️‍🌈 WNBA named the American pastime Every trailer park gets gender, neutral bathrooms Confederate statues replaced with Mamdani statues Ole Miss becomes Ole They/Them NA"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118011077401186330",
+          "author": "sanfordljohnson",
+          "searchJob": "ole-miss",
+          "text": "Ty Pinkins leaving the state with whatever was offered. #Mississippi https://t.co/xX9PVUY72B"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2118029288880447645",
+          "author": "cryptocurjoker",
+          "searchJob": "usc",
+          "text": "The offer is considerably less than the previous public sector pay deal. This offer is also being made during the worst cost of living crisis in living memory and when austerity measures such as Pension Related Deduction now ASC and USC sti"
         }
       ]
     },
@@ -113,20 +444,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 4,
-      "failed": 1,
-      "requests": 5,
-      "errors": [
-        "kansas: rate limited"
-      ]
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
-      "brandNewOffers": 0
+      "acceptedEvidence": 11,
+      "rejectedCandidates": 43,
+      "brandNewOffers": 5
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-04T17:27:30.557Z"
+    "status rebuilt locally from current store on 2026-11-04T17:44:47.040Z"
   ]
 }
