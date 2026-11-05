@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T09:14:03.865Z",
+  "generatedAt": "2026-11-05T09:33:45.516Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-05T09:14:03.400Z",
+    "at": "2026-11-05T09:33:45.018Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7820941666666666,
-    "p95Hours": 1.2831466666666667,
-    "worstHours": 1.5319408333333333
+    "medianHours": 0.8512708333333333,
+    "p95Hours": 1.3578316666666668,
+    "worstHours": 1.6113830555555555
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -55,57 +55,49 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-05T09:14:03.399Z",
-      "got": 7,
-      "new": 3,
-      "lag": 0.6
+      "at": "2026-11-05T09:33:45.017Z",
+      "got": 5,
+      "new": 2,
+      "lag": 0.75
     }
   },
   "audit": {
-    "at": "2026-11-05T09:12:21.391Z",
+    "at": "2026-11-05T09:32:08.302Z",
     "mode": "live",
     "collection": {
-      "returned": 7,
-      "kept": 3,
-      "duplicate": 4,
+      "returned": 5,
+      "kept": 2,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
+      "accepted": 2,
       "rejected": 0,
       "reasons": {},
       "samples": []
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 2,
       "reasons": {
-        "school_not_resolved_confidently": 1,
         "bare_mention_requires_llm": 2
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118257200984428738",
-          "author": "sneedmcgee777",
-          "searchJob": "notre-dame",
-          "text": "@Toibin1 I doubt any elderly irish woman would be able to offer any interesting political insight judging from this article and from daily public experience."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118264241337626920",
+          "author": "iheartpotus",
+          "searchJob": "kentucky",
+          "text": "11/14 I was recruited for a \"Visual Journalist (remote opportunity).\" My offer allowed remote work. Coworkers swore remote was PMG's operational model, with no on-site option ever offered and no one asked to move to Kentucky. https://t.co/Z"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118255295805759671",
-          "author": "cozzymodo",
-          "searchJob": "buffalo",
-          "text": "@donotconsidery1 @RussoHockey It just depends on what you realistically think you can get from Boston, Montreal, Buffalo etc. I hear about big offers but until there are reports of which specific assets, I have no idea what they are."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118252925382193569",
-          "author": "cozzymodo",
-          "searchJob": "buffalo",
-          "text": "@NAAC_Auctions @sportscryptid What offer do you think Buffalo, Montreal, or Boston would actually agree to that you'd be happy with?"
+          "postId": "2118253655480565990",
+          "author": "dchronicletales",
+          "searchJob": "uconn",
+          "text": "My father put his hand on the same fence post every Sunday after milking, and in all those years I never saw him fix it. The north pasture fence ran straight for half a mile, then swung twelve feet out around an old maple and came back. The"
         }
       ]
     },
@@ -120,11 +112,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 2,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-05T09:14:03.866Z"
+    "status rebuilt locally from current store on 2026-11-05T09:33:45.517Z"
   ]
 }
