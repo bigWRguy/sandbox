@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T07:43:43.490Z",
+  "generatedAt": "2026-11-05T07:58:46.476Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-05T07:43:43.107Z",
+    "at": "2026-11-05T07:58:45.967Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7619694444444445,
-    "p95Hours": 1.523371111111111,
-    "worstHours": 1.523371111111111
+    "medianHours": 0.7745394444444444,
+    "p95Hours": 1.5289197222222222,
+    "worstHours": 1.5289197222222222
   },
   "decisionCoverage": {
-    "total": 1,
-    "decided": 1,
+    "total": 7,
+    "decided": 7,
     "complete": true
   },
   "pending": {
@@ -55,44 +55,91 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-05T07:43:43.106Z",
-      "got": 4,
-      "new": 1,
-      "lag": 0.68
+      "at": "2026-11-05T07:58:45.967Z",
+      "got": 12,
+      "new": 7,
+      "lag": 0.25
     }
   },
   "audit": {
-    "at": "2026-11-05T07:42:08.862Z",
+    "at": "2026-11-05T07:57:04.513Z",
     "mode": "live",
     "collection": {
-      "returned": 4,
-      "kept": 1,
-      "duplicate": 3,
+      "returned": 12,
+      "kept": 7,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 4,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 1
+        "hard_negative": 1,
+        "no_fbs_school": 2
       },
       "samples": [
         {
+          "reason": "hard_negative",
+          "postId": "2118236836430569982",
+          "author": "rawlingsimpact",
+          "searchJob": "alabama",
+          "text": "THE MONTGOMERY BUS BOYCOTT: HOW A FEW PEOPLE CHANGED HISTORY Montgomery, Alabama, United States | 1946–1956 In 1946, a group of African-American women established the Women's Political Council (WPC) in Montgomery, Alabama. Among its founder"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2118237630701723983",
-          "author": "thebuffalonews",
-          "searchJob": "buffalo",
-          "text": "In this week’s episode of Streamed &amp; Screened, film critic Bruce Miller offers his thoughts on some of the most notable films coming during this final stretch of 2026. https://t.co/OmvYiEJ8iQ"
+          "postId": "2118238494841606556",
+          "author": "markdenic1",
+          "searchJob": "oklahoma",
+          "text": "One of the worst decisions I have made with music entertainment: I was offered free tickets to Janis Joplin's concert in Oklahoma City on October 25, 1969. I declined because I believed I would see her on her next tour. I did not. She passe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118236609682268423",
+          "author": "peternyakuni14",
+          "searchJob": "pittsburgh",
+          "text": "@DrOribaDan Non nurses are confusing the world. Why don't you also introduce bachelor of medicine in psychiatry? Those are specialities offered after a basic degree program. Leave issues of nurses to nurses"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 4,
+      "reasons": {
+        "bare_mention_requires_llm": 3,
+        "multiple_resolved_schools": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118238770080198788",
+          "author": "ubersperg",
+          "searchJob": "liberty",
+          "text": "No one is scratching their head. They've run the numbers and realized it's a statistical exercise in futility. Whatever might be theoretically gained by appealing to black voters will almost certainly be lost by the fact that you can't appe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118238396761952734",
+          "author": "rk_hamblin",
+          "searchJob": "liberty",
+          "text": "📜KJV Hebrews 13:1-25 This completes Hebrews 1 Let brotherly love continue. 2 Be not forgetful to entertain strangers: for thereby some have entertained angels unawares. 3 Remember them that are in bonds, as bound with them; and them which "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118237625857573033",
+          "author": "sudhindrak92772",
+          "searchJob": "liberty",
+          "text": "@barandbench @prashantjha996 Has it been an ordinary individual the courts would not have offered such liberty. His sorry ass would have been whacked immediately. Unfortunately that’s the reality."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118247959858979089",
+          "author": "andytvwatchlist",
+          "searchJob": "utsa",
+          "text": "📺 AndyTV - BEST SPORTS TODAY Thursday, November 5 1. 🏈 Jacksonville Jaguars @ Baltimore Ravens - 8:15 PM ET - Prime Video JAX -10 · ML -520 / +390 · O/U 39.5 Baltimore risks falling below .500 as undrafted rookie Joe Fagnano makes his fir"
+        }
+      ]
     },
     "search": {
       "ok": true,
@@ -105,11 +152,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-05T07:43:43.491Z"
+    "status rebuilt locally from current store on 2026-11-05T07:58:46.477Z"
   ]
 }
