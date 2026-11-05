@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T06:13:57.889Z",
+  "generatedAt": "2026-11-05T06:28:40.851Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-05T06:13:57.402Z",
+    "at": "2026-11-05T06:28:40.343Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7825102777777778,
-    "p95Hours": 1.7772133333333333,
-    "worstHours": 1.7772133333333333
+    "medianHours": 0.7743577777777778,
+    "p95Hours": 1.5274213888888888,
+    "worstHours": 1.76819
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 5,
+    "decided": 5,
     "complete": true
   },
   "pending": {
@@ -55,111 +55,73 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-05T06:13:57.402Z",
-      "got": 28,
-      "new": 10,
-      "lag": 0.23
+      "at": "2026-11-05T06:28:40.343Z",
+      "got": 13,
+      "new": 5,
+      "lag": 0.26
     }
   },
   "audit": {
-    "at": "2026-11-05T06:12:19.331Z",
+    "at": "2026-11-05T06:27:02.342Z",
     "mode": "live",
     "collection": {
-      "returned": 28,
-      "kept": 10,
-      "duplicate": 18,
+      "returned": 13,
+      "kept": 5,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 7,
+      "accepted": 4,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 4,
-        "non_fbs_offer_target": 2,
-        "hard_negative": 1
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2118217911030714738",
-          "author": "cnnsbroken",
-          "searchJob": "liberty",
-          "text": "@feelsdesperate Not 'terrifying', performative. the party that created the 'affordability' problem &amp; hates energy, has nothing but agitation to offer, which, like them, doesn't age well."
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2118210019653251132",
-          "author": "dieg0_romero9",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a great conversation with @McElroy26 I am blessed to have received an offer from Bethel University! Thank you @McElroy26 @ColinDuling and @tavian40 for the opportunity to pursue my passion to play at the next level. @BenLoPrimo @Coach"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118203399514779769",
-          "author": "braydenfeld",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "After a great call with @Real_CoachSmith, I am blessed to have received an offer from @PLUFootball. Thank you @Real_CoachSmith and @coachrdaley for the offer and opportunity. @fb_coachrobbins @CoachStaab @NCSACoachGroce https://t.co/z19XAvK"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2118201164659634224",
-          "author": "king_crash777",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Blessed to have received my 8th offer from Knox college after a great call with @Coach_KalamaK https://t.co/qnXYKOaXjF"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2118213398605566278",
-          "author": "govind_sudan34",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Grateful to receive an offer to play basketball at Newcastle University in England! 🏴󠁧󠁢󠁥󠁮󠁧󠁿🏀 Thank you to Coach Will Neighbour and @varbo_cb for taking the time to speak with me and for this opportunity. #ScholarsandBallers #Classof"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118221795304014262",
-          "author": "dayveonq",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "A little late but after a great conversation with @4Coach_CJ im blessed to receive my 5th offer thank you Lord 🙏 https://t.co/rmorAKgQ4u"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118212245629116443",
-          "author": "robbiea71542",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachMeelz I’m beyond blessed to say I’ve received my third offer to @MnWestFB @CouchPSports @PrepRedzoneNM @LaCuevaFootball https://t.co/HqVkeVWX59"
+          "postId": "2118220252890988836",
+          "author": "irisheyes70",
+          "searchJob": "james-madison",
+          "text": "@leahfiles Candace offered you an opportunity to talk this out publicly, and you were too busy. Too busy to find an hour to clarify your position with one of the top podcasters in the world? WILD, lady. That's a wild choice."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 4,
       "reasons": {
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118210607208161522",
-          "author": "fvjr8q5sb2",
-          "searchJob": "liberty",
-          "text": "#FRONTPAGE 'Arewa for Asiwaju 2027' hails Liberty TV/Radio as ‘Trusted Voice of the North’… Ramalan offers media partnership https://t.co/onjYba3fAQ"
+          "postId": "2118216962887016630",
+          "author": "moosimpin",
+          "searchJob": "memphis",
+          "text": "@DeeZe they don't offer anything to the average person, I don't blame them. We accelerate AI at the expense of people, doesn't seem worth it. If you look at memphis, the fumes from the grok data center is actually hurting the community ther"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118206942112063918",
-          "author": "voiceoflibertyn",
-          "searchJob": "liberty",
-          "text": "#FRONTPAGE 'Arewa for Asiwaju 2027' hails Liberty TV/Radio as ‘Trusted Voice of the North’…Ramalan offers media partnership https://t.co/8rtiPIIgnb https://t.co/NVz5cGqhWI"
+          "postId": "2118209262392627325",
+          "author": "mor51849971",
+          "searchJob": "alabama",
+          "text": "@offlistcomment1 @Upintheair380 @RichardHanania Yeah well u can ask Alabama for it. Oh my bad they fuck their sister. I meant ask trump oh wait he fucks kids. Well I don't offer free lessons to people who shit intellectually!!! 🤣🤣🤣🤣"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118203457194615017",
-          "author": "yizhar_degani",
-          "searchJob": "notre-dame",
-          "text": "You come from a nation that is a staunch enemy of the Jewish people. Ireland was not a party to the exterminationist anti-Semitism of the Nazi ideology but the issue of hatred of Jews was not unfamiliar to Ireland and certainly this issue d"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118225125988282808",
+          "author": "toocute005",
+          "searchJob": "oklahoma",
+          "text": "@TWShannon Congratulations Oklahoma this is your Lt governor-elect. He will improve nothing because he has nothing to offer but racism and islamophobia @TWShannon 🤡🖕🏿🤡🖕🏿"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118202306382414291",
+          "author": "trading_alerts_",
+          "searchJob": "south-carolina",
+          "text": "Trump Accounts offer financial head start as South Carolina fertility rate declines - Live 5 News https://t.co/aXgOV2r8rv"
         }
       ]
     },
@@ -174,11 +136,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-05T06:13:57.890Z"
+    "status rebuilt locally from current store on 2026-11-05T06:28:40.852Z"
   ]
 }
