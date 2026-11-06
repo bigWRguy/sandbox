@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:44:20.236Z",
+  "generatedAt": "2026-11-06T23:57:14.316Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-06T23:44:19.611Z",
+    "at": "2026-11-06T23:57:13.948Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 2,
+    "requests": 3,
+    "fullSweepCycles": 81
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7885030555555556,
-    "p95Hours": 1.783598611111111,
-    "worstHours": 1.783598611111111
+    "medianHours": 1.0035255555555556,
+    "p95Hours": 1.9986208333333333,
+    "worstHours": 1.9986208333333333
   },
   "decisionCoverage": {
-    "total": 59,
-    "decided": 59,
+    "total": 0,
+    "decided": 0,
     "complete": true
   },
   "pending": {
@@ -55,400 +55,53 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-06T23:44:19.610Z",
-      "got": 123,
-      "new": 59,
-      "lag": 0.07
+      "at": "2026-11-06T23:57:13.947Z",
+      "got": 2,
+      "new": 0,
+      "lag": 1.85
     }
   },
   "audit": {
-    "at": "2026-11-06T23:42:29.888Z",
+    "at": "2026-11-06T23:57:02.193Z",
     "mode": "live",
     "collection": {
-      "returned": 123,
-      "kept": 59,
-      "duplicate": 64,
+      "returned": 2,
+      "kept": 0,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 32,
-      "rejected": 27,
-      "reasons": {
-        "no_fbs_school": 11,
-        "no_offer_term": 11,
-        "non_fbs_offer_target": 2,
-        "hard_negative": 1,
-        "unclassified_offer_text": 2
-      },
-      "samples": [
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118824148600308058",
-          "author": "ryanjackson_65",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive myfirst offer from @UOlivetfootball .Thank you so much @CoachCrawford12 @Coach_Ayotte @1CoachRell @UnitedFootball_ @TRohrer99 @t @Coach_Reny @CoachIeuter @TheD_Zone @MIexposure https://t.co/IG5VKIYD4M"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118823095318274220",
-          "author": "jallendl72",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive MaxPreps defensive player of the year @BLester1993 @BenWilsonFB @CoachTNFountain @CoachMelo90 @Coach_NatHughes @coach_manary @dowork_sports @dayne_brown @247recruiting @rozay_74 @Coachellis205 @_coach_houston_ https://t.c"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118819236558844013",
-          "author": "vicfromtk",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a invite to YAA Dallas camp. Thanks for the invitation @youareathlete @Coach_JDarby @CoachYancey16 @CoachJ_Henry @StumpGodfrey https://t.co/OafsDK2vix"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2118817894087966741",
-          "author": "itsjust_mikey51",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a talk with @CoachSethPrice Blessed to receive an offer from Nicholls State University @JJones178 @stanhill_4 @JUCOFFrenzy https://t.co/WHd8njSDGF"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2118844843032182941",
-          "author": "gstock_24",
-          "searchJob": "missouri",
-          "text": "After a great call with @CoachKelley52 I’m blessed to receive an offer from Missouri Southern! @Coach_Kratch @CoachFeaz2 @IowaCentralFB https://t.co/H47HSNIr7W"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118849939468132775",
-          "author": "coachastian",
-          "searchJob": "nebraska",
-          "text": "I remember when I was getting recruited by Hastings College out in Nebraska &amp; they were going to offer me the most athletic scholarship that could ever given an athlete but my young minded self turned it down smh. This was back in 2016-"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118757826151723221",
-          "author": "richcontartesi",
-          "searchJob": "nebraska",
-          "text": "Most families don't realize NAIA programs can offer full rides. I've seen 2028 kids turn down D2 partial scholarships for 100% packages at NAIA schools. The level looks different on paper. The opportunity doesn't."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118834780003271067",
-          "author": "all_jonah",
-          "searchJob": "stanford",
-          "text": "What happens why you stack legacy thinking, legacy culture, and legacy systems all on top of each other? https://t.co/M5vYPWRFDF"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118840995177484348",
-          "author": "tempepolice",
-          "searchJob": "notre-dame",
-          "text": "Today, we honored and celebrated the life of Officer Drew Nystrom by planting a tree in his memory. The tree is located at Goodwin Park, where we invite the community to stop by, spend a moment in remembrance and help us continue to honor D"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118806628329746467",
-          "author": "amerikraut",
-          "searchJob": "notre-dame",
-          "text": "america 101: 🇮🇪 https://t.co/452XwMLzR9"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118841097484931350",
-          "author": "scottirish10194",
-          "searchJob": "notre-dame",
-          "text": "Here is some advice. Trades people are in high demand. The G.C was asking if i could work Saturday. Then he walked up to a 20 year old and offered him time off which the kid gladly accepted. If your boss offers you time off while already th"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118840414614478996",
-          "author": "ndlaw",
-          "searchJob": "notre-dame",
-          "text": "Dennis Wieboldt ’26 J.D. (@DennisWieboldt), visiting assistant professor of law at Notre Dame Law School, has published an article in the newest issue of the Journal of Supreme Court History. Entitled \"William Bentley Ball and the 'Century "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118850688021377391",
-          "author": "moosemuffin",
-          "searchJob": "arkansas-state",
-          "text": "@staceyabrams And to you, Ms. Stacey! You did so much and have continued to do so much. You have inspired so many people and opened so many doors and encouraged so many candidates and offered hope. You are one of my heroes. Thank you"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118849399363363040",
-          "author": "levimelarax",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/c5UreF0790"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2118844225722679550",
-          "author": "itilvescu",
-          "searchJob": "arkansas-state",
-          "text": "AMERICAN CALIGULA — WHEN THE EMPIRE LIVES IN THE EYE OF THE HURRICANE America is living in the eye of the hurricane. Inside, electoral calm, patriotic speeches, opinion polls, and promises of prosperity. Outside, the threat of a conflict th"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118689388536238587",
-          "author": "rmconservative",
-          "searchJob": "arkansas-state",
-          "text": "Here's the state of play on the data center issue. Dems crushed beyond belief for many reasons, but in part, for data centers being more unpopular than cancer (it also ties into the whole Marie Antoinette - \"let them eat data\" vibe that tie"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118586709885501653",
-          "author": "augustebardamu",
-          "searchJob": "arkansas-state",
-          "text": "Yasser Arafat reste célébré dans le monde entier comme le chef historique de la cause palestinienne et le prix Nobel de la paix 1994. Il a en réalité soustrait près de 900 millions de dollars de recettes publiques pour les placer sur des co"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2118849704482009195",
-          "author": "kutv2news",
-          "searchJob": "army",
-          "text": "The West Point Del Taco is offering a $1,000 reward for information leading to the identification, arrest, and successful prosecution of those responsible for several restaurant robberies. https://t.co/IvjhK4JZ01"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2118844628342612376",
-          "author": "wtnh",
-          "searchJob": "army",
-          "text": "Desmond’s Army Animal Law Advocates is offering a $6,000 reward for information leading to the arrest and prosecution of the person(s) responsible for shooting and/or abandoning a pit bull, according to police. https://t.co/A3vTu6HojM https"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118837795732979869",
-          "author": "joemegalith",
-          "searchJob": "army",
-          "text": "https://t.co/Xu3xNdCtUO"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118849471110849012",
-          "author": "troyaitken_",
-          "searchJob": "troy",
-          "text": "Owners ask the same thing on every first call. Who sees my files? Nobody does before a signed agreement. We never log in to your systems. For bigger deals, the lab asks for a de-identified sample first. A small slice of your records with na"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118846147121000957",
-          "author": "troy_spreeuw",
-          "searchJob": "troy",
-          "text": "What does Freemasonry offer modern society? Belonging. Real relationships, shared purpose, and the experience of being part of something larger than ourselves. Perhaps that's more valuable today than ever. The Mystic Tye, Episode 58. https:"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118822387319971872",
-          "author": "kelz_bania",
-          "searchJob": "tulsa",
-          "text": "For movie/series lovers, I have one slot for our Paramount+ yearly subscription. There’s 3 of us already, we need one person to make it 4 to split the yearly subscription cost. (Works out cheaper). Please send me a dm Subscription starts 1s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118841202376396964",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Zane Fujihara Faavesi-Edge-2027-HI @SUUFB_ Offer #CFB"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 31,
-      "reasons": {
-        "bare_mention_requires_llm": 19,
-        "school_not_resolved_confidently": 6,
-        "reporter_missing_player_name": 3,
-        "multiple_resolved_schools": 3
-      },
-      "samples": [
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118830763840078117",
-          "author": "betopenly",
-          "searchJob": "smu",
-          "text": "10% better than what’s being offered on Pinny 😎 Link below ⬇️ Place This 🏈 NCAAF Bet: SMU Mustangs To Win Game -198 Risk $380.16 | Wins $192.00 | Pays $572.16 https://t.co/btXdFrl6nr https://t.co/6vMAMszwJf"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118833814839705786",
-          "author": "omarsar0",
-          "searchJob": "stanford",
-          "text": "Great weekend read from Stanford on measuring AI agents as teammates. (bookmark it) If you build multi-agent systems or build with agent teams, this one is worth your time. They try to measure one of agents' most important capabilities: col"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118826782443102620",
-          "author": "pneelamraju",
-          "searchJob": "stanford",
-          "text": "Stanford CS230, Lecture 6 (Part 4) continued: the architecture of an AI deep researcher A deep researcher is a pipeline example. Most leading LLM providers offer one: you ask a query, it searches the internet, reads many pages, and synthesi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118844578119942283",
-          "author": "chiefkenmccoy",
-          "searchJob": "notre-dame",
-          "text": "Today, we joined Officer Drew Nystrom’s family, friends, and colleagues at Goodwin Park to plant an olive tree in his memory. It was a privilege to share this meaningful moment with his wife, Irish, and daughter, Logan, whose wish to honor "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118842027656065508",
-          "author": "eatadoughnut",
-          "searchJob": "notre-dame",
-          "text": "It's so crazy when you think about it. Italians &amp; Irish that were immigrants and American-born were still heavily ostracized by WASP Americans up until the Civil Rights era when they started siding with Black ppl, and then they got this"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118836980331016416",
-          "author": "murdochpub",
-          "searchJob": "notre-dame",
-          "text": "Planning food for an Austin group gathering? Murdoch’s Irish Pub offers catering for your next event. Explore options and send an inquiry. Catering Info 👉 https://t.co/f7QLCZDBg8 #catering #AustinCatering https://t.co/s0I0rw0fuN"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118829425051525448",
-          "author": "gaelicmna",
-          "searchJob": "notre-dame",
-          "text": "@NukeofTruthX @BarrettNatSocP The Irish turned on him when he offered solution, now we are literally fucked"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118828608235925917",
-          "author": "richotoole",
-          "searchJob": "notre-dame",
-          "text": "I’m trying to walk 4-5 miles a day so I ended up at a local Irish Pub in my neighborhood and they offer a Chicken Curry Taco and it was really good. 🙏🏽🇮🇪 https://t.co/KhoUl1x9iM"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118822618841154004",
-          "author": "ciarnferg",
-          "searchJob": "notre-dame",
-          "text": "@AodhMacGab The Wolfe Tones offer traditiobal Irish ballads and tunes. Irish nationalists should listen to them instead"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118840864722301373",
-          "author": "mrddmia",
-          "searchJob": "arkansas-state",
-          "text": "This is unbelievable. Start watching at minute 17. This Arkansas state judge bragged to a law school classroom he turned down a federal district judgeship from the President—because he didn’t get the federal appellate offer he expected. He "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118840802960867354",
-          "author": "russ62960450",
-          "searchJob": "arkansas-state",
-          "text": "Also add in a state-wide data center ban without majority agreement of the local populace, and a stipulation they must pay their full share of taxes and offer lower energy costs to the community. @brianeharrison"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118840475088281811",
-          "author": "workingcdns",
-          "searchJob": "arkansas-state",
-          "text": "Arafat was a major sleazebag. When offered 99% of what he asked for to create a Palestinian state, with major concessions by Israel, he said no. Proving once again these lying grifters aren’t interested in peace or a state, just the annihil"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2118838200693358627",
-          "author": "mulroyj",
-          "searchJob": "arkansas-state",
-          "text": "@SpankySpawn It would be smart of him to head to a country that does not extradite. Prosecution will be a state government call. The pardons implicitly offered by Trump are worthless to him. Don’t bother lawyering up, buy a ticket to Moscow"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118826431878660466",
-          "author": "herzlmargot",
-          "searchJob": "arkansas-state",
-          "text": "This was my situation with one parent. The other parent had credit too poor to qualify for borrowing, and no money to pay. I got minimal grant offers, was told I could borrow part of the money myself, and worked year-round while in school t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118842477889413506",
-          "author": "joahamnidaily",
-          "searchJob": "army",
-          "text": "to thailand army that want to celebrate tae bday in indo, i offer to trade cat 3 day 2 and cat 2 day 3, cover my expense yeah my currncy is suckss 😮‍💨"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2118840041006940656",
-          "author": "ancienthistorry",
-          "searchJob": "army",
-          "text": "In 53 BC, the richest man in Rome led an army of around 40,000 men into the desert to conquer Parthia. Within days, most of them were dead or captured, his son's head was on a spear, and a legend would later claim the Parthians poured molte"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118833956481057104",
-          "author": "isssa0x",
-          "searchJob": "army",
-          "text": "Brig's husband nodded out on pills at the wheel with their newborn in the back seat. Her own mother had CPS rip her babies right out of her arms. And Brig still chose the husband. Now she's 39, burns $1,500 a day on drugs in an abandoned ho"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118829062466458075",
-          "author": "thetect0nic",
-          "searchJob": "army",
-          "text": "🇺🇦 THE ROBOTIC BATTLEFIELD | Russian forces have released footage of what they describe as a Ukrainian assault involving 28 unmanned ground vehicles near Lyman on October 28. According to Russian military accounts, Ukraine's 3rd Army Corp"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118833480272371783",
-          "author": "kelz_bania",
-          "searchJob": "tulsa",
-          "text": "If you are wondering what Paramount+ can offer. Plenty ooooo Mobland Lioness Mayor of Kingstown Yellow Stone Tulsa King NCIS Marshals Landman The Agency FBI Boston Blue And so many more. And it’s like £115.99 per year, divide by 4 that’s £2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118842908518625710",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "AJ Veal Jr-Edge-2027-SC @gojsutigersfb Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118749956483731927",
-          "author": "ajveal5",
-          "searchJob": "class:2027",
-          "text": "#AGTG JSU OFFERED!! https://t.co/81Hw8evQEJ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118850931261419886",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Brydon Feister-Edge/TE-2028-OH @TerpsFootball Offer #CFB"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2118844152792187050",
-          "author": "jaredluginbill",
-          "searchJob": "class:2028",
-          "text": "Kilbourne 2028 WR Shawn Rice run a route in pregame. Big matchup versus a talented North secondary. Rice has an offer from Miami (OH). https://t.co/AenneTYPnj"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2118841382307860501",
-          "author": "waltonrecruits",
-          "searchJob": "class:2028",
-          "text": "NEW OFFER! 2028 WR/DB @Opore_Aiden1 thankful @IndianaFootball offered! #Hoosiers #BallDownBallOut 🏴‍☠️ https://t.co/YS3mzweFQU https://t.co/mJ1S6UILja"
-        }
-      ]
+      "accepted": 0,
+      "rejected": 0,
+      "reasons": {},
+      "samples": []
     },
     "search": {
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 2,
+      "failed": 1,
+      "requests": 3,
+      "errors": [
+        "south-carolina: rate limited"
+      ]
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 31,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 0,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-06T23:44:20.237Z"
+    "status rebuilt locally from current store on 2026-11-06T23:57:14.317Z"
   ]
 }
