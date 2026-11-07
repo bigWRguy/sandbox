@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T02:28:43.991Z",
+  "generatedAt": "2026-11-07T02:43:51.240Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-07T02:28:43.592Z",
+    "at": "2026-11-07T02:43:50.712Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7754158333333333,
-    "p95Hours": 1.7747625,
-    "worstHours": 2.0272372222222224
+    "medianHours": 0.7730008333333334,
+    "p95Hours": 1.7523847222222222,
+    "worstHours": 1.7523847222222222
   },
   "decisionCoverage": {
-    "total": 49,
-    "decided": 49,
+    "total": 70,
+    "decided": 70,
     "complete": true
   },
   "pending": {
@@ -47,366 +47,388 @@
   "profileResolution": {
     "cached": 104
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4373,
+    "completeOffers": 4376,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-07T02:28:43.592Z",
-      "got": 70,
-      "new": 49,
-      "lag": 0.04
+      "at": "2026-11-07T02:43:50.711Z",
+      "got": 105,
+      "new": 70,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-07T02:27:10.618Z",
+    "at": "2026-11-07T02:42:14.721Z",
     "mode": "live",
     "collection": {
-      "returned": 70,
-      "kept": 49,
-      "duplicate": 21,
+      "returned": 105,
+      "kept": 70,
+      "duplicate": 35,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 21,
-      "rejected": 28,
+      "accepted": 36,
+      "rejected": 34,
       "reasons": {
-        "no_fbs_school": 18,
-        "no_offer_term": 8,
-        "hard_negative": 2
+        "no_fbs_school": 14,
+        "no_offer_term": 10,
+        "hard_negative": 6,
+        "unclassified_offer_text": 1,
+        "non_fbs_offer_target": 3
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2118874662872739921",
+          "postId": "2118864344461213939",
           "author": "technewsonweb",
           "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal ] 📦 Bose QuietComfort Ultra Earbuds Wireless Noise Cancelling Earbuds at $229.00 (List Price $299.00) [ad] https://t.co/wi2NGjzsno – Active noise cancellation – Bose Immersive Audio – Up to 6h battery – Wireless charging c"
+          "text": "[ Amazon US Deal ] 📦 Bose QuietComfort Headphones Dewdrop Mint at $199.00 (List Price $359.00) [ad] https://t.co/4Vw1QuCYyj – Active noise cancelling – Up to 24-hour battery – Lossless audio via USB-C – TrueSpatial immersive sound – Hard c"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2118871716202262783",
+          "postId": "2118862866946421213",
           "author": "technewsonweb",
           "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal ] 📦 TP-Link Deco Pro Tri-Band WiFi 7 Mesh System at $396.50 (List Price $469.99) [ad] https://t.co/iiZH95U4cN – Covers up to 7,600 sq.ft – Connects over 200 devices – Four 2.5G ports and USB 3.0 – AI-Driven Seamless Roamin"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118870300083573128",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal ] 📦 CH-91A401A-NA Corsair K65 PRO Mini 65% Optical-Mechanical Gaming Keyboard at $74.99 (List Price $149.99) [ad] https://t.co/fnaDtDL8fT – OPX optical-mechanical switches – 150 million keystroke lifespan – AXON hyper-proc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118869756258185451",
-          "author": "ynetnews",
-          "searchJob": "texas-tech",
-          "text": "No more laundry or dishes? Five home robots promise to do the chores From Tesla to Unitree, robotics companies promise to take over household chores, but their robots still have limitations; Five models offer a gli... https://t.co/ncWPHSruL"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118868858983567747",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal ] 📦 LS32H704EANXZA Samsung ViewFinity S7 32-inch 4K UHD Monitor at $249.99 (List Price $329.99) [ad] https://t.co/uj8wNznHnG – 32-inch 4K UHD 3840×2160 display – HDR10 contrast and color optimization – 178-degree wide view"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118868728888619234",
-          "author": "neo_logos_",
-          "searchJob": "texas-tech",
-          "text": "🧬 Biotechnology — 🕒 24h Recap 🔬 Drug Discovery & Development - Eli Lilly ($LLY) will sell Zepbound and Foundayo directly through Hims & Hers ($HIMS). Monthly self-pay prices start at $299 and $149, respectively. - AstraZeneca ($AZN) offe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118867363693248704",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal ] 📦 Logitech MX Master 3S Graphite Bluetooth Wireless Mouse at $79.99 (List Price $99.99) [ad] https://t.co/yOcuPWT6K7 – Bluetooth only, no receiver – 8000 DPI tracks on glass – Quiet clicks with 90% less noise – MagSpeed "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118865835188187215",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal ] 📦 6052C111 Canon EOS R100 Double Zoom Lens Kit at $649.00 (List Price $829.00) [ad] https://t.co/z86UWmJpYo – EOS R100 mirrorless camera – RF-S 18-45mm F4.5-6.3 lens – RF75-300mm F4-5.6 telephoto lens – Shoulder Bag 200 "
+          "text": "[ Amazon US Deal ] 📦 GA12134-US Google Pixel 11 Pro 256 GB, Fog at $799.00 (List Price $1099.00) [ad] https://t.co/RP31TBbg9b – Gemini Intelligence – 6.3\" Super Actua Display – 30+ hour battery – IP68 protection – 120x Zoom 📉 Price record"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2118865435005223383",
-          "author": "pirwot",
-          "searchJob": "texas-tech",
-          "text": "In 2025, startups in Nigeria, Kenya, Egypt and South Africa took 72% of African tech funding by Partech's count. Uganda raised US$22m. Why the money clusters, where the trackers disagree, and what a founder outside those four can start this"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118865096780959988",
-          "author": "somerandomdev5",
-          "searchJob": "texas-tech",
-          "text": "@ashxhart Fast enough that I don't think about it; Whatever this stack offers. https://t.co/8KS0n7uaiQ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118892706424311925",
-          "author": "central_buffalo",
-          "searchJob": "buffalo",
-          "text": "I might be missing something, but is Dylan Larkin quickly becoming one of the pickiest non-superstars in the NHL? He’s a fabulous player, but it’s beginning to feel like his representation, and may he, just like hearing the offers for him t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118862197418029369",
-          "author": "gatewaypundit",
-          "searchJob": "liberty",
-          "text": "Texas Democrats are not wasting time following far-left Democrat Gina Hinojosa’s stunning win in the gubernatorial race on Tuesday, where she unseated longtime GOP governor Greg Abbott. On Friday, Houston Mayor John Whitmire announced durin"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118871984687779892",
-          "author": "princeliberty19",
-          "searchJob": "liberty",
-          "text": "And that’s why this course is blowing up. People are tired of: Being broke and watching others make money Being online every day with nothing to offer Wasting months trying to figure design alone"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118873845318709419",
-          "author": "rjward1775",
-          "searchJob": "louisiana",
-          "text": "@AFpost If I was Elon, I wouldn't push it. Just make an offer in Louisiana."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118886156976718238",
-          "author": "disabilityresol",
-          "searchJob": "florida",
-          "text": "In this video, Disability Attorney Walter Hnot of the Disability Resolution Law Firm goes over how the first social security number was rejected by its recipients. America’s Most Viewed, Clicked On, Subscribed To Social Security Disability "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118871243029881271",
-          "author": "peter_groyper",
-          "searchJob": "florida",
-          "text": "Susie Wiles👵🏻 https://t.co/w3zWwrBJkV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118872402734067916",
-          "author": "wilmaqt2668",
-          "searchJob": "florida",
-          "text": "The real wealth of a nation is not what it extracts from the ground, but the institutions it builds above it. https://t.co/VUqENbNOIk"
+          "postId": "2118875523678110023",
+          "author": "orfmiddleeast",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/YAzdHMDqrv"
         },
         {
           "reason": "hard_negative",
-          "postId": "2118867840212062232",
-          "author": "coachrandle21",
-          "searchJob": "florida",
-          "text": "@HoustonHero713 @TxPressure Ur reply alone shows ur initial post was wrong.. regardless of what 7 on 7 he played for or a unpopular high school as u put it. He had offers and he committed to Penn St. And the guy who played on the other side"
+          "postId": "2118884767219208468",
+          "author": "pplongisland",
+          "searchJob": "massachusetts",
+          "text": "🚨 VERMONT RESIDENTS: WHAT HAPPENS WHEN YOU REPORT A CHILD SEX OFFENDER? APPARENTLY, YOU BECOME THE INVESTIGATION. On October 14, our team confronted a twice-convicted sex offender in Milton, Vermont, after he engaged in sexually inappropri"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2118892221206520006",
-          "author": "optionking666",
-          "searchJob": "georgia",
-          "text": "https://t.co/4lOwubjdLD"
+          "reason": "no_fbs_school",
+          "postId": "2118877424024797434",
+          "author": "islandsmagazine",
+          "searchJob": "massachusetts",
+          "text": "Rowley, Massachusetts, on Boston's North Shore, offers a seaside wildlife sanctuary, buildings dating to the 1600s, farmstands, and a friendly winery. https://t.co/Uho4qpovzi"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2118886018774610237",
+          "author": "myrddenbuckley",
+          "searchJob": "washington",
+          "text": "Washington is offering a US$20 million reward “and possible relocation” for information about Iran’s nuclear programme. https://t.co/3aTLPnxcBD"
         },
         {
           "reason": "hard_negative",
-          "postId": "2118887662111072325",
-          "author": "samuraishibajp",
-          "searchJob": "georgia",
-          "text": "My high school kendo teacher is 72. In fifty years, no student has ever seen him smile. He once made a boy run stairs for blinking during a bow. This fall, he flew to Georgia to visit a former student. At our yearly reunion dinner, he told "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118884332718944598",
-          "author": "naomi_smit42414",
-          "searchJob": "georgia",
-          "text": "That's precisely how I see it, Felipe. I completely agree.... science, spirituality and philosophy were never meant to exist as isolated fragments of understanding, they are different lenses through which we explore the same extraordinary m"
+          "postId": "2118881715955343515",
+          "author": "wordsdematthew",
+          "searchJob": "washington",
+          "text": "Jeff Bennett: “and now we remember jay rockefeller, the former west virginia governor and longtime u.s. senator who devoted more than half a century to public service. born into one of america's wealthiest and most prominent families, rocke"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2118882273747480976",
-          "author": "m_yudysky",
-          "searchJob": "georgia",
-          "text": "A fatal climb. Conflicting explanations. Part 22 follows Thomas Mantell’s 1948 pursuit through witness statements, oxygen evidence and the balloon hypothesis—separating the crash finding from the unresolved identity of what he chased. https"
+          "postId": "2118878949887688852",
+          "author": "tacchan0726",
+          "searchJob": "washington",
+          "text": "https://t.co/hPaZW1rhxa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118877814963552739",
+          "author": "np4football_ot",
+          "searchJob": "washington",
+          "text": "Romeo Washington-DB/LB-2026-AL Trading Card #3 Featuring: @RomeoWashingt11"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118845689497358338",
+          "author": "majedalansari",
+          "searchJob": "washington",
+          "text": "The claims circulating regarding HE Sheikh @MBA_AlThani_ remarks on the negotiations between the United States and Iran, alleging that the two sides have failed to reach an agreement, are entirely false and constitute a deliberate distortio"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2118890445665169855",
-          "author": "changeillinois",
-          "searchJob": "illinois",
-          "text": "Iran should offer $25 million for information leading to the identity, apprehension and conviction of anyone @CENTCOM involved in any war crime or cover up including killing 168 girls at a school in Iran."
+          "postId": "2118895964123787499",
+          "author": "bendoll1",
+          "searchJob": "wisconsin",
+          "text": "@bstokley14 Didn’t Trump repeatedly offer money to people who voted for him? Didn’t Elon offer money to people in Wisconsin to vote? Get checked for CTE. Your family will thank you"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2118896760655405531",
+          "author": "kingstonw55",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my SECOND JUCO offer! 🙏🏽 Thank you @Coach_Holloway5 and the coaching staff at North Dakota State College of Science for believing in me and giving me this opportunity. The grind doesn't stop! 💯 #AGTG #JUCOPRODUCT https"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2118875003718623691",
-          "author": "boereport",
-          "searchJob": "indiana",
-          "text": "BP says Whiting, Indiana refinery offered to meet union, awaits response https://t.co/oCGFmviAgg"
+          "postId": "2118894109691728013",
+          "author": "cadengraybett",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Thank you to @Coach_K_Goldman and the Iowa Central staff for offering me. Blessed to receive my 3rd collegiate offer! https://t.co/51o0wmLIs5"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2118893594362904687",
+          "author": "tupu_aaitui55",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 3rd D1 Offer from Sacramento State University! Thank you @Coach_TUI for believing in me! Thanks to my family for all the support! @raystowers7 @RealCoachCarter @CoachAdamClark @Coach_TUI @CoachO60 @SacHornetsFB @Lamber"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118893033445867537",
+          "author": "jpres2officia1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "🏆 2026 KFCA CLASS 6A, DISTRICT 3 PLAYER OF THE YEAR! Blessed to receive this honor! Thankful for my coaches, teammates &amp; family. The work continues! 🙏💪 Jeremy Presley | 2027 RB/ATH DuPont Manual | #5 🔴⚪ #ClassOf2027 #KYFootball #RBR"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118892705807745394",
+          "author": "rickywilliams7_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 5th 🅾️ From Rochester Yellowjackets @CoachWare35 @WardlawCoach @KoachG2 @EvansJusten @CoachEMo_ @PrepRedzoneTX @txfblife #AGTG https://t.co/wErrH8p0dA"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118892386105339924",
+          "author": "aonaolapp",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @WVWesleyan , Thank you @coachfrancis_ for the opportunity and believing in me. @alex_zettler @CoachPondIMG @CoachKellar_ https://t.co/Im2Elj1HmI"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2118890663018164396",
+          "author": "tc_draco3",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @Coach_HugginsII I’m blessed to receive my first D1 offer from Morgan State University @CaneCoachHodges @Coach_QSpellman @JUCOFFrenzy @RecruitWarriors @CoachL__ @Louisburg_FB @RealusGeorgeJr @Coach12_ https:/"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2118888353818976419",
+          "author": "lukasarich_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive and all-conference honorable mention! @CoachPossley @STCEathletics @STCEFootball @EDGYTIM @PrepRedzone https://t.co/V0WmytmuXY"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118888117411467478",
+          "author": "_marcjones",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed To Receive An Offer From Benedict! @coachTjones2 @CoachLock4 https://t.co/Ak5qo2XdM6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118887201190887544",
+          "author": "bramerlydia",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I’m blessed to receive an offer to play at Hope College! Thank you Coach Brander for this opportunity and for a great experience on campus today! @HopeCollegeSB @Brander_HopeSB @FinesseNoMI @CollegeBDJocks https://t.co/HruKwvzXlF"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2118884172312011189",
+          "author": "whoxdre",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a conversation with coach @JaredBackus1 im blessed to receive an offer from Virginia Military Institute @Cen10Football https://t.co/HD24rB4d0m"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118895561537454378",
+          "author": "exploredotcom",
+          "searchJob": "california",
+          "text": "With hundreds of miles of shoreline, California is home to plenty of beach towns. And Avila Beach one offers visitors one of the state's best sandy stretches. https://t.co/qmEXQLlUp3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2118895499843375407",
+          "author": "chiefoscetrolla",
+          "searchJob": "california",
+          "text": "@Mankosmash @politicalmath FHA offers people with little money and bad credit to buy houses. They are way more risky than people buying new construction in California."
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 21,
+      "accepted": 3,
+      "rejected": 33,
       "reasons": {
-        "school_not_resolved_confidently": 5,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 13
+        "school_not_resolved_confidently": 10,
+        "bare_mention_requires_llm": 17,
+        "multiple_resolved_schools": 6
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2118875774899868133",
-          "author": "user_isfriendly",
+          "postId": "2118863383462117614",
+          "author": "mwombarra",
           "searchJob": "texas-tech",
-          "text": "By the way, not suggesting that this “new chain” cannot offer a different value of something spectacular… in fact, that would be amazing… but at the moment it’s echo chamber of wannabe narratives and shilling what are essentially irrational"
+          "text": "Well we’ll gladly SpyDex is our project and was made with what we believed was adding value to the XRPL. Within our ability to ensure volume is created and sustained it took a decision to be the first and as of now still the only platform t"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2118873579110453279",
-          "author": "rickylablue",
-          "searchJob": "texas-tech",
-          "text": "And just like that, Virginia Tech trails 20-7. Little resistance offered by the #Hokies secondary, and the offense isn't doing them many favors."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118873144635339223",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US Deal ] 📦 AV3000XE Shark PowerDetect Robot Vacuum and Mop at $899.99 (List Price $1299.99) [ad] https://t.co/0Rgic9vGWv – UV stain detect tech – Hypersonic mopping power – 60-day self empty – AI mapping system – 3-hour battery r"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118872954671071597",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon US ] 📦 Bee Eclipse (all-new), ambient personal AI that grows with you, confidential by design, transforms every conversation into actionable summaries, 3-week battery, midnight [ad] https://t.co/6UqYq4Fu5D – Ambient personal AI th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118871938525548650",
-          "author": "ctenths",
-          "searchJob": "texas-tech",
-          "text": "Hey Parents and Students! Come see what Dekaney P-TECH has to offer TOMORROW! Tour our campus and discover exciting opportunities! 🎓 School of Choice Applications open November 9! 🚀 #DekaneyPTECH #WildcatPride @SpringISD @SpringISD_CTE @D"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2118867371574104179",
-          "author": "ace_da_book",
-          "searchJob": "texas-tech",
-          "text": "I think the system works great for early adopters, because as the platform and revenues scale, they stand to gain the most. - Growth is the name of the game. Protocol adjustments are also possible with new ideas and tech. growth + innovatio"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118892385711386801",
+          "author": "marcusdraney4",
+          "searchJob": "utah",
+          "text": "Jeramyah Burt came out and made a statement in Game 1. The Utah offer holder showed exactly why he's in the conversation for the top player in the 2030 class. Shot-making, confidence and an impressive overall performance. #PrepHoopsUtah htt"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2118883132158222527",
-          "author": "ironbuffalo1",
-          "searchJob": "buffalo",
-          "text": "I'm a day off. I said to Google AI that Canada's System of Treaty looks like modern slavery. You are not mistaken in recognizing this pattern. You recognized that the liberty of a historical proxy to speak on behalf of unborn generations \"f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118868586710102496",
-          "author": "donedealcardco",
-          "searchJob": "buffalo",
-          "text": "Check out 2026 Bowman Chrome Josh Allen SparkleFractor Buffalo Bills https://t.co/5qoJpqcQNC #eBay via @eBay $10 🛳️ Free shipping! 🤝 Shoot us an offer!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118889901408039422",
-          "author": "eamon_usa",
-          "searchJob": "liberty",
-          "text": "Communist politicians are constantly trying to manage your human behavior and “treat anxiety” by overthrowing the state and promising ‘psychological relief’. The problem, besides the fact this is fundamentally delusional and pseudoscientifi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118887188536443230",
-          "author": "sunlovepax",
-          "searchJob": "liberty",
-          "text": "In the end, we have a two party system. I will not vote for D’s because of abortion or trans Crazy. Immigration and other general culture things. They are the village idiots of politics. Same with the Libertarians - they can’t seem to figur"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2118885610890936397",
-          "author": "eamon_usa",
-          "searchJob": "liberty",
-          "text": "Communist politicians are constantly trying to manage your human behavior and “treat anxiety” by overthrowing the state and promising ‘psychological relief’. The problem, besides the fact this is fundamentally delusional and pseudoscientifi"
+          "postId": "2118888370155728987",
+          "author": "slinganswers",
+          "searchJob": "utah",
+          "text": "@travisaacson Hello Travis! We will offer tomorrow's game between BYU and Utah on ABC, though we only offer ABC in select markets. Visit our page here https://t.co/vR3DU9vaFp and enter your zip code to see if we offer locals in your market."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2118890385174872325",
-          "author": "roddmartin",
-          "searchJob": "florida",
-          "text": "After the Midterms, What’s Next? History Tells Us - Losing Congress didn’t stop Reagan, Clinton or Obama. It certainly won’t stop Trump — and the economic boom he’s set in motion could turn 2028 into a very different election, if we don’t s"
+          "postId": "2118878601827471838",
+          "author": "wafflehouserfc",
+          "searchJob": "utah",
+          "text": "After running the data in my Super Hyperthorough Analysis Technique (SHAT) I have my official prediction for @BYUfootball vs @Utah_Football tomorrow. Too close to call. This is anyone’s game for all the wrong reasons. The Utah Utes and BYU "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118889492979360225",
-          "author": "broker_dad_life",
-          "searchJob": "florida",
-          "text": "Florida buyers: before you make an offer, get an insurance estimate for that specific house. The listing price won't tell you the full monthly cost. Neither will a mortgage calculator with a generic insurance number. What's surprised you mo"
+          "postId": "2118886267131662551",
+          "author": "bostinno",
+          "searchJob": "massachusetts",
+          "text": "Aldi is opening a new supermarket in Massachusetts on Thursday. The store will be open daily 9 a.m. to 8 p.m. and will offer delivery and curbside pickup. Aldi's new store in Swansea brings its total number of Massachusetts locations to 26."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118881227730198616",
+          "author": "dunnbilly87734",
+          "searchJob": "massachusetts",
+          "text": "AI Overview Apostle Paul wrote canonical letters to seven distinct corporate groups or geographic regions (Rome, Corinth, Galatia, Ephesus, Philippi, Colossae, and Thessalonica), which are distinct from the prophetic Seven Churches of Asia "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118895326501253127",
+          "author": "lovelynancie",
+          "searchJob": "memphis",
+          "text": "@elonmusk @WCYB_PepTalk Houston’s family desperately needs advice, resources, been-there-and-here’s-what-to-do -next information. ‼️PLEASE SHARE ‼️ Someone has to know how to help this Bristol, TN child!! Houston is living with drug-resista"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118886382513140149",
-          "author": "gorrillarugger",
-          "searchJob": "florida",
-          "text": "@grok @devahaz @MaxNordau Right. You should compare ALL of the services each state offers and funds, not just the ones that favor Florida, in order to be intellectually honest, right?"
+          "postId": "2118886164551889224",
+          "author": "aihbmemphis",
+          "searchJob": "memphis",
+          "text": "We Buy Houses Germantown: put your hardest inspection question beside the offer, not at the bottom of the packing list. Our Memphis buyers can walk through the answer. (901) 763-6616 #AsIsHomeBuyerMemphis https://t.co/IUovAZfINt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118883072213213536",
-          "author": "debrafilia25042",
-          "searchJob": "florida",
-          "text": "@viking_boer @elonmusk DeSantis offered Elon to move to Florida FAFO"
+          "postId": "2118896176892428696",
+          "author": "billkimmykoo",
+          "searchJob": "miami-oh",
+          "text": "@BobbyFruzz Does Miami Ohio offer degrees? Or is it just an encampment for subprime retards like yourself?"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118882365892178239",
-          "author": "realstevefarley",
-          "searchJob": "florida",
-          "text": "Just because she is fired doesn’t mean she is gone. She is going to get to work for Marco Rubio, and the Florida mob will consolidate power in the last remaining Republican stronghold. Thankfully, with clowns like Evan Power and Bill Helmic"
+          "postId": "2118894811889672473",
+          "author": "theinformant_x",
+          "searchJob": "washington",
+          "text": "🇺🇲⚔️🇮🇷 BREAKING: U.S. offers up to $20 million for information on Iran's nuclear program The State Department's Rewards for Justice program is offering up to $20M plus possible relocation for information on Iran's nuclear facilities, eq"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118873473611395431",
-          "author": "torinblumhagen",
-          "searchJob": "florida",
-          "text": "The subway? You mean that thing that got the National Guard mobilized because of the rapes, murders, and arson? The thing that gets Good Samaritans nearly put in prison for life for protecting innocent bystanders? Why is the government payi"
+          "postId": "2118889833640694176",
+          "author": "sharqtv",
+          "searchJob": "washington",
+          "text": "امریکا د ایران د اټومي پروګرام په اړه د معلوماتو لپاره ۲۰ میلیونه ډالر انعام اعلان کړ واشنګټن، امریکا | جمعه، د ۲۰۲۶ کال د نومبر ۶مه | د ۱۴۰۵ کال د لړم ۱۵مه د امریکا د بهرنیو چارو وزارت د «عدالت لپاره انعامونه» پروګرام اعلان کړی چې د ایران "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118872364113141770",
-          "author": "ksquared524",
-          "searchJob": "florida",
-          "text": "@jimmieX07 Sounds unconstitutional..something a communist has no clue about. Maybe she will be baptized by fire when he takes her to court..or he can just move all his businesses to Florida and maybe even offer to relocate all his employees"
+          "postId": "2118886133111406928",
+          "author": "realxvox",
+          "searchJob": "washington",
+          "text": "🇺🇸🇮🇷🚨 U.S. OFFERS UP TO $20 MILLION FOR INTELLIGENCE ON IRAN'S NUCLEAR PROGRAM CENTCOM U.S. Central Command (CENTCOM) has publicized a reward of up to $20 million, with possible relocation assistance, for information on Iran's nuclear "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118869157559361564",
-          "author": "alumin4t0r",
-          "searchJob": "florida",
-          "text": "@Barbeauxbot @ClippingWings @PhillyD @Pearlmania500 I am informed that Hasan offered to go to Florida to help, but the offer was either declined or left on read. There might not be bad blood, but there was zero desire to have Hasan appear n"
+          "postId": "2118884244588245092",
+          "author": "theirantime",
+          "searchJob": "washington",
+          "text": "🇺🇸 US Announces Reward of Up to $20 Million for Information on Iran’s Nuclear Program The United States has announced a reward of up to $20 million for information related to Iran’s nuclear program. Under the US State Department’s Rewards"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118868043249938771",
-          "author": "beavisthegreek",
-          "searchJob": "florida",
-          "text": "@GovRonDeSantis yes. The MTA alone tops anything Florida offers."
+          "postId": "2118881918200750385",
+          "author": "tcf_updates",
+          "searchJob": "washington",
+          "text": "🎯 US OFFERS $20 MILLION REWARD FOR INTELLIGENCE ON IRAN’S NUCLEAR NETWORK 📍 WASHINGTON, UNITED STATES 🟨 OUR ASSESSMENT: The offer itself suggests Washington believes valuable information about Iran’s nuclear infrastructure remains diffic"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118891630740623729",
-          "author": "davido1008",
-          "searchJob": "illinois",
-          "text": "DoorDash is lying to dashers. They claim base pay is based on time and distance. It’s not. It’s based on how many of us already declined the offer. High tip? $2 base, even on 18 miles that took nearly an hour. Low tip? They finally throw a "
+          "postId": "2118875104482316606",
+          "author": "hewadpress",
+          "searchJob": "washington",
+          "text": "🚨Breaking:—U.S. Offers Up to $20 Million for Iran Nuclear Information as Qatar Presses for Deal 📍WASHINGTON, Nov. 6, 2026 (HewadPress) — The United States is offering up to $20 million and possible relocation for information about Iran’s "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118874764504879346",
+          "author": "war_radar2",
+          "searchJob": "washington",
+          "text": "🇺🇸🇮🇷: US Offers $20 Million For Information On Iran’s Nuclear Program Washington is now offering up to $20 million and possible relocation for actionable information on Iran’s nuclear facilities, equipment, scientists and personnel. Thi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118874448858411112",
+          "author": "khaledmahmoued1",
+          "searchJob": "washington",
+          "text": "It is becoming increasingly clear that there are efforts in Tel Aviv and Washington to sabotage the path to a settlement, keep the region hostage to escalation, and pave the way for a resumption of the US-Israeli war on Iran. Qatar’s foreig"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118871459917619486",
+          "author": "adityasvlogs",
+          "searchJob": "washington",
+          "text": "JUST IN | US offers up to $20 million for Iran nuclear intelligence. The United States has announced a reward of up to $20 million, along with possible relocation assistance, for credible information on Iran’s nuclear programme. The State D"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118871047030100296",
+          "author": "perceptiondaily",
+          "searchJob": "washington",
+          "text": "🕵️ INTEL — State offers $20M for Iran nuclear tips as diplomacy runs live. 📌 LOOK CLOSER: State's RFJ bounty targets the same nuclear personnel Washington is negotiating with — an active attempt to recruit defectors mid-talks. Tor and Sig"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2118884424737493301",
+          "author": "heyy56_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 2nd offer from Mstate juco #GoSpartans @KDLCPBULLDAWGS @A_Isaacs44 https://t.co/lueTYXLbQG"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118893760214143089",
+          "author": "chriskarpman",
+          "searchJob": "byu",
+          "text": "Earlier this week, I asked Marcus Arroyo about ASU’s second-quarter BYU play-calling. I wanted the share the full interaction here. Cardae Mack had 10 carries for 70 yards in the first quarter. He touched it once in ASU’s first 12 Q2 plays,"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2118889537241780713",
+          "author": "pablobarreiro",
+          "searchJob": "miami",
+          "text": "Fortec Week — November 2, 2026 📍 Conference week. Three days with the country's leading early-education operators at SHIFT, and a Midwest sale closed Friday to end it. 🤝 15+ meetings and calls with operators, school networks, brokers, len"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2118885173584666676",
+          "author": "rossmichael75",
+          "searchJob": "miami",
+          "text": "@mcucolo57 @MAGAPowerhouse So a mezcan is the best we have to offer? Not all of the country is south of Miami."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2118877623728083017",
+          "author": "20thcentboximm",
+          "searchJob": "miami",
+          "text": "Mauro Mina (pictured, coming in at 45-2-2) hands a young (11-1-0 coming in) Bob Foster his 2nd career loss on November 7, 1963 in Lima, Peru. Foster had lost his first fight in 1962 to heavyweight Doug Jones. Mina had Foster down for an 8-c"
         }
       ]
     },
@@ -420,12 +442,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 21,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 33,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-07T02:28:43.991Z"
+    "status rebuilt locally from current store on 2026-11-07T02:43:51.240Z"
   ]
 }
