@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T07:43:57.355Z",
+  "generatedAt": "2026-11-07T08:13:45.693Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-07T07:43:56.849Z",
+    "at": "2026-11-07T08:13:45.188Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,9 +32,9 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7831352777777778,
-    "p95Hours": 1.2838277777777778,
-    "worstHours": 1.5258147222222223
+    "medianHours": 1.023568888888889,
+    "p95Hours": 1.7805880555555555,
+    "worstHours": 2.022575
   },
   "decisionCoverage": {
     "total": 6,
@@ -55,81 +55,82 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-07T07:43:56.848Z",
-      "got": 13,
+      "at": "2026-11-07T08:13:45.187Z",
+      "got": 17,
       "new": 6,
-      "lag": 0.09
+      "lag": 0.23
     }
   },
   "audit": {
-    "at": "2026-11-07T07:42:14.448Z",
+    "at": "2026-11-07T08:12:11.080Z",
     "mode": "live",
     "collection": {
-      "returned": 13,
+      "returned": 17,
       "kept": 6,
-      "duplicate": 7,
+      "duplicate": 11,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 5,
+      "accepted": 4,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 2
+        "no_offer_term": 1,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2118961269914923311",
-          "author": "highrollerfiles",
-          "searchJob": "alabama",
-          "text": "https://t.co/MpZ1duxBaW"
+          "postId": "2118976754651979935",
+          "author": "tosu_city",
+          "searchJob": "ohio-state",
+          "text": "#サガン鳥栖 ホームゲーム 鳥栖市民限定無料招待❗ 11月25日（水）vs大分トリニータ 19:00~ 席種：B席メイン自由 人数：13組26名 〆切：11月13日(金)23:59まで 当選：11月15日(日)まで（当選者のみ通知いたします） https://t.co/nEZseIVyPY https://t.co/wrIzjbNcxx"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2118971392817517042",
-          "author": "kngmuslim",
-          "searchJob": "michigan",
-          "text": "https://t.co/bthWEjse79"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118958850149957679",
-          "author": "reliablegov",
-          "searchJob": "michigan",
-          "text": "@FoxNews Democrats have offered you capital of arab America in Michigan. The lesson will be learned in a hard way."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2118956688489218447",
-          "author": "scubadiver1953",
-          "searchJob": "colorado",
-          "text": "She has already been offered a new job in Colorado movie theaters as men relaxing specialist"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118612118488707308",
-          "author": "anniefortruth",
-          "searchJob": "colorado",
-          "text": "Bye Bye Boebert! https://t.co/I4QFYGRL8Y"
+          "reason": "unclassified_offer_text",
+          "postId": "2118956439133946011",
+          "author": "calibookiebj",
+          "searchJob": "ohio-state",
+          "text": "@ChuddingEV Both my buckeyes not offering ☹️"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 4,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 3,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2118965687985078631",
-          "author": "xcellentpodcast",
-          "searchJob": "cincinnati",
-          "text": "@wgalella9 @PFF_Giants The Giants offered him close to $20M, but he really wanted to play in Cincinnati, pal. Hope he enjoys it. As you can see, the Giants are doing just fine without him"
+          "postId": "2118973177426567189",
+          "author": "libertyelecng",
+          "searchJob": "liberty",
+          "text": "🚨🔥 WEEKEND DEAL! MACBOOK AIR M5🍎 💻 13-Inch | 16GB RAM / 512GB SSD ✨ Brand New — Non-Active 🛡️ 12 Months Apple Warranty 💰 ₦1,680,000 ONLY! ⏳ Limited Quantity • Limited-Time Offer! Pay into: 6116516846 || OPAY || PRIME LIBERTY SALES AND"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118964636204568831",
+          "author": "zoedev01",
+          "searchJob": "liberty",
+          "text": "Rhapsody Of Realities Daily Devotional Pastor Chris Oyakhilome, Ph.D. Theme: ✨THE PRICE WAS FULLY PAID✨ Date: Saturday 7TH November, 2026. Scriptural Ref: Isaiah 53:6 All we like sheep have gone astray; we have turned every one to his own w"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2118975213102936417",
+          "author": "depressednbfan",
+          "searchJob": "nebraska",
+          "text": "@ChillNRelaxed After some though, I think I know what Matt is doing here. I think he wants the Baylor job secretly but he also wants that big bag of cash that we offered him 72 million if I’m not mistaken he wants that buyout, then runs to "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2118963192634200189",
+          "author": "gaizkaetxaniz",
+          "searchJob": "oregon",
+          "text": "🟢 OREGON 🏔️ ↓↓ • GDP per capita: ~$80,200 • Median home value: $477,600 • State income tax: Up to 9.9% • Life expectancy: 77.7 years • Homicide rate: 4.7 per 100,000 people Washington produces approximately 39% MORE GDP per person. But bu"
         }
       ]
     },
@@ -137,18 +138,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "utep: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-07T07:43:57.356Z"
+    "status rebuilt locally from current store on 2026-11-07T08:13:45.694Z"
   ]
 }
