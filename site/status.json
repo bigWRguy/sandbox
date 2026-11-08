@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:29:00.306Z",
+  "generatedAt": "2026-11-08T11:43:48.075Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-08T11:28:59.733Z",
+    "at": "2026-11-08T11:43:47.570Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -30,15 +30,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "utsa",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.5332202777777778,
-    "p95Hours": 2.0326983333333333,
-    "worstHours": 2.0326983333333333
+    "medianHours": 0.7798225,
+    "p95Hours": 1.7790825,
+    "worstHours": 2.2793005555555554
   },
   "decisionCoverage": {
-    "total": 34,
-    "decided": 34,
+    "total": 25,
+    "decided": 25,
     "complete": true
   },
   "pending": {
@@ -55,281 +64,215 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-08T11:28:59.733Z",
-      "got": 41,
-      "new": 34,
-      "lag": 0.06
+      "at": "2026-11-08T11:43:47.570Z",
+      "got": 35,
+      "new": 25,
+      "lag": 0.25
     }
   },
   "audit": {
-    "at": "2026-11-08T11:27:18.765Z",
+    "at": "2026-11-08T11:42:11.430Z",
     "mode": "live",
     "collection": {
-      "returned": 41,
-      "kept": 34,
-      "duplicate": 7,
+      "returned": 35,
+      "kept": 25,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 17,
-      "rejected": 17,
+      "accepted": 14,
+      "rejected": 11,
       "reasons": {
-        "no_fbs_school": 12,
-        "no_offer_term": 3,
-        "unclassified_offer_text": 1,
-        "hard_negative": 1
+        "no_fbs_school": 9,
+        "no_offer_term": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2119390839168287015",
-          "author": "mrmspencer",
-          "searchJob": "texas",
-          "text": "I mean, if even SpaceX is struggling to get new projects built in Texas, how on earth is Anthropic supposed to secure all the compute it needs? It's almost as though they've got exactly the govt regulation they asked for, except perhaps the"
+          "postId": "2119373025829355645",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India ] 📦 UX3480QA-U1039WS 90NB19K5-M00LX0 ASUS Zenbook 14 Snapdragon X X1 26 100, 16GB RAM, 512GB SSD, 14-inch OLED Windows 11 AI Laptop at Rs 1,36,990 (MRP Rs 2,00,990) [ad] https://t.co/lBjWyxpDx6 – Snapdragon X X1 26 100 proce"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119371444799029601",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India ] 📦 UX3480KA-U2082WS ASUS Zenbook Arctic Blue at Rs 1,56,990 (MRP Rs 2,27,990) [ad] https://t.co/KmD9z07Whm – AMD Ryzen AI 7 345 processor with 2.0GHz base frequency, up to 4.6GHz boost, 6 cores, and 12 threads – AMD XDNA NP"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119370049991671829",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India ] 📦 UX3480AA-SU236WS ASUS Zenbook Intel Core Ultra 9 386H, 16GB RAM, 512GB SSD, 14-inch 3K OLED Touchscreen AI Laptop at Rs 1,93,990 (MRP Rs 2,81,990) [ad] https://t.co/09DdgWoEYM – Intel Core Ultra 9 processor 386H at 2.1 G"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119368701476753464",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon India ] 📦 UX3480KA-U2084WS 90NB1AR4-M00EC0 ASUS Zenbook Beige at Rs 1,56,990 (MRP Rs 2,27,990) [ad] https://t.co/jhCpZHcXJi – AMD Ryzen AI 7 345 Processor 2.0GHz up to 4.6GHz with 6 cores and 12 threads – AMD XDNA NPU up to 50TOPS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119367214306643969",
+          "author": "mr_internet",
+          "searchJob": "texas-tech",
+          "text": "love him or hate him - Not sure ANYONE can manage the divisions in the senate like he can - he even co-sponsored the marijuana bills FFS. Hey @grok has ANYONE offered to run in place of him yet, though some say they are open to change ? - T"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119370555623399931",
-          "author": "basismacro",
-          "searchJob": "texas",
-          "text": "https://t.co/hicESPuBOP"
+          "postId": "2119344090898972938",
+          "author": "yvetteabonnet",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/1fpY7oAxhz"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119367562253472043",
-          "author": "idaxxian",
-          "searchJob": "texas",
-          "text": "The Israeli mall-kiosk walkouts were real, but happened Nov. 7, 2001, nearly two months after 9/11. FBI records confirm immigration arrests in Texas the previous day and reports that word had spread. That offers a plausible explanation, not"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119390824954003611",
+          "postId": "2119367043648729243",
           "author": "technewsonweb",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 MJ6X4HN/A Apple iPad mini Midnight at Rs 1,30,900 + Bank Offer Discounts [ad] https://t.co/s4VWJzK1IH – Nano-texture glass and Wi-Fi – 512GB storage capacity – 8.5-inch OLED display – 12MP front and back camera – Water r"
+          "text": "[ Amazon India ] 📦 MD301 90XB0AF0-BMU020 ASUS ProArt Mouse Wireless ergonomic mouse with 8000 DPI precision sensor and tri-mode connectivity at Rs 7,691 + Bank Offer Discounts (MRP Rs 14,999) [ad] https://t.co/h8mnODih1U – Ergonomic silhou"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119389367256879550",
+          "postId": "2119365711730799001",
           "author": "technewsonweb",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 ML2T4HN/A Apple iPad mini Nano-texture Glass, Wi-Fi, 256GB - Starlight, A20 Pro, 8.5-inch OLED Display, 12MP Front/Back Camera, Water resistant at Rs 1,06,900 + Bank Offer Discounts [ad] https://t.co/Qu3uRethSo – Ultrapo"
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2119388028892577815",
-          "author": "news18guj",
-          "searchJob": "texas-tech",
-          "text": "દિવાળી પર Google Pixel 11 પર ધમાકેદાર ઓફર! #googlepixel #diwalioffer #amazon https://t.co/y8ZPPC5QTi"
+          "text": "[ Amazon India ] 📦 H7607BA-SE306WS ASUS ProArt P16 NVIDIA RTX Spark N1X Processor, 128GB RAM, 1TB SSD, 16-inch UHD+ OLED Creator Laptop at Rs 6,49,990 + Bank Offer Discounts (MRP Rs 8,44,990) [ad] https://t.co/w0LwGibNMP – NVIDIA RTX Spark"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119387833765081226",
+          "postId": "2119364346115723288",
           "author": "technewsonweb",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 H7407BA-SU302WS ASUS ProArt P14 NVIDIA RTX Spark N1X Processor, 24GB RAM, 1TB SSD, 3K OLED Touchscreen Creator Laptop at Rs 3,29,990 + Bank Offer Discounts (MRP Rs 3,95,990) [ad] https://t.co/wNo8dtAjkT – Powered by the "
+          "text": "[ Amazon India ] 📦 16IAX10 83F300D8IN Lenovo Legion Pro 5 Intel Core Ultra 9 290HX Plus, 24GB RAM, 512GB SSD, 16-inch WQXGA OLED 240Hz AI Gaming Laptop at Rs 3,13,490 + Bank Offer Discounts (MRP Rs 4,85,890) [ad] https://t.co/8lmkhhZ3Rd – "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119381916793069861",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 16GB:512GB DS14270 Dell 14S Linen Color at Rs 1,09,990 + Bank Offer Discounts (MRP Rs 1,58,990) [ad] https://t.co/4hxglOagsG – Series 3 Intel Core 5 320 processor with 6 cores and up to 4.6 GHz – Built-in AI with 16 TOPS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119380563358527823",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 MH084HN/A Apple iMac Green, 10-core CPU, 10-core GPU, Retina display, All-in-One Desktop Computer at Rs 1,74,900 + Bank Offer Discounts [ad] https://t.co/IekG94alTh – Powered by the M6 chip – 16GB unified memory and 256G"
+          "postId": "2119391635549180084",
+          "author": "irishexaminer",
+          "searchJob": "notre-dame",
+          "text": "UFC boss says he will meet with Donald Trump over press secretary job offer https://t.co/mdowiqu99R"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119379974478008394",
-          "author": "techdropsdeals",
-          "searchJob": "texas-tech",
-          "text": "Woot [109.99, $40.00 (27%) off]: OLIGHT PL X GL Rechargeable Tactical Flashlight 🛍 https://t.co/uLREVe2Ocn All new deals @ Woot: https://t.co/y3b2mbdYbb ⏰ 04:41:59 #ad https://t.co/dskZRYRV66"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119379967251509419",
-          "author": "nznftguy",
-          "searchJob": "texas-tech",
-          "text": "GM, what a day. smoothest mint i've seen on Robinhood, not on Opensea, no bots, no button smashing, and the floor is still holding $60 🙌 https://t.co/1N8LhlHAgH"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119379212998225967",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 XPS-52 Rapoo Mini UPS for WiFi Router, 4-5 Hrs Backup, 5200mAh Battery For 12V 2A Devices Only at Rs 999 + Bank Offer Discounts (MRP Rs 3,499) [ad] https://t.co/D3VkvWcEiI – High-capacity 5200mAh battery built with two 2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119377817662312452",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 STNN2000400 Seagate Expansion Portable Space Grey at Rs 13,499 + Bank Offer Discounts (MRP Rs 27,999) [ad] https://t.co/JMLSTC2EDl – 2TB external hard drive storage capacity – 2.5-inch form factor – USB-C connectivity – "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119376240218136592",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 15IWC11 83RR00R5IN Lenovo IdeaPad Slim 3 Intel Core 7 350, 16GB RAM, 512GB SSD, 15.3-inch WUXGA IPS AI PC at Rs 1,13,990 + Bank Offer Discounts (MRP Rs 2,06,890) [ad] https://t.co/TPZTax24Do – Powered by Intel Core 7 350"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119376133166907486",
-          "author": "frodomodo1",
-          "searchJob": "texas-tech",
-          "text": "Macro Observatory Week 45 Sunday Omnibus In today's Omnibus - our weekly deep-dive where we unpack one aspect or other of current capital markets behaviour in order to illuminate one feature or other of how our force-balance matrix telemetr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119374611301515419",
-          "author": "technewsonweb",
-          "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 UX3480KA-U2083WS ASUS Zenbook 14 AMD Ryzen AI 7 345, 16GB RAM, 512GB SSD, 14-inch FHD OLED Touch Screen AI Laptop at Rs 1,56,990 (MRP Rs 2,27,990) [ad] https://t.co/8zNVTJLuiG – AMD Ryzen AI 7 345 processor with 2.0GHz b"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119379128776282366",
-          "author": "farmingvirgina",
-          "searchJob": "virginia",
-          "text": "@SethThomasH @lambmaryann @McDonalds Stop with the poisoning nonsense. McDonald's offers healthy choices too. Take personal responsibility for what you eat and what exercise you do after you eat."
+          "postId": "2119383973767921944",
+          "author": "youranoncentral",
+          "searchJob": "notre-dame",
+          "text": "A far-right terrorist killed six people in Kraków, Poland, before two heroic police officers stopped him despite both being gravely wounded. His parents &amp; sister were later found shot dead at his home. Prosecutors are investigating the "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 17,
+      "rejected": 14,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 8
+        "school_not_resolved_confidently": 13,
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119376052980191427",
-          "author": "mediamanoz",
-          "searchJob": "marshall",
-          "text": "UFC @ufc Past, Present And Future UFC Fight Night: Cortes-Acosta vs. Walker (aka UFC Fight Night 293 and UFC Vegas 124) November 7, 2026 Meta Apex Enterprise, Nevada, Las Vegas Valley Card and Results: 265 lbs Johnny Walker def. Waldo Corte"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119367829350998384",
-          "author": "mediamanint",
-          "searchJob": "marshall",
-          "text": "UFC @ufc Past, Present And Future UFC Fight Night: Cortes-Acosta vs. Walker (aka UFC Fight Night 293 and UFC Vegas 124) November 7, 2026 Meta Apex Enterprise, Nevada, Las Vegas Valley Card and Results: 265 lbs Johnny Walker def. Waldo Corte"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119389702319120772",
-          "author": "newonpolsia",
-          "searchJob": "massachusetts",
-          "text": "I built a direct home-selling option for Massachusetts homeowners with inherited, vacant, tenant-occupied, or repair-heavy properties. Request an offer as-is, skip repairs and showings, and choose a closing timeline that works for you."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119363295689810160",
-          "author": "reosza",
-          "searchJob": "massachusetts",
-          "text": "The visit to Massachusetts had provided quite enough excitement for one afternoon. Fortunately, feeding Akane required considerably less travelling. Reign offered her another piece, waiting as she took it from his fingers. (22x)"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119384795402613033",
-          "author": "texasbestbarndo",
-          "searchJob": "texas",
-          "text": "When framing between floors, open web joists offer unmatched versatility for interstitial space. Unlike traditional 2x12s or I joists, you get max flexibility without the hassle of cutting through solid beams for ductwork, plumbing, or elec"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119381792365113784",
-          "author": "james117950",
-          "searchJob": "texas",
-          "text": "@Ghostbanned7 @ICRscience LIARS! ICR lost a major federal lawsuit against the Texas Higher Education Coordinating Board. The board had denied ICRGS accreditation to offer a Master of Science degree in science education because the curriculu"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119379764909621607",
-          "author": "kayter76",
-          "searchJob": "texas",
-          "text": "@CarpenterJ1358 @QandaceS Good thing she wasn't interested in SC and Texas offered her in August and already in her final four..."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119373176371105976",
-          "author": "ccurlewis2807",
-          "searchJob": "texas",
-          "text": "Nothing is impossible with Musk: The following is a summary from Grok with respect to the chip fab. - politicians are playing a dangerous game which could disadvantage the electorate and the country. Yes, he could in principle, but it would"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119385945774395789",
-          "author": "pittsburghsport",
-          "searchJob": "pittsburgh",
-          "text": "Happy Birthday to Former #Steelers WR Jason Johnson \"In Pittsburgh, Dwain Painter sold me on signing there. He said I could be the next Bill Brooks. He just psyched me up and got me excited about signing. They also tripled the offer of othe"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119362292135383362",
-          "author": "syracusedotcom",
-          "searchJob": "syracuse",
-          "text": "Polymarket's new promo code CUSE offers new users a $25 bonus on a $10 deposit, timed to coincide with a high-profile college football Saturday slate. https://t.co/BrwB58ecEC"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119389847328571469",
-          "author": "fragorder",
+          "postId": "2119372726226002262",
+          "author": "thesubhratuhin",
           "searchJob": "texas-tech",
-          "text": "Hey, freels! A few more of your questions, answered. 1. A Steam release is not currently planned. For now, we’re focused on early testing and building our own ecosystem. We’ll revisit this once the closed beta begins. 2. AMD graphics techno"
+          "text": "How to Luckmax by the age of 20 ⚡ (Recently joined a 20LPA Remote Job) Let me share my journey: 1.⁠ ⁠Born in a small town in West Bengal, India 2.⁠ ⁠Went to a Govt School untill my 12th Boards 3.⁠ ⁠Joined a Tier 2 college. I was sure it wou"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119387696434979110",
-          "author": "cryptoo_tor",
+          "postId": "2119371829483634729",
+          "author": "rdominguezibar",
           "searchJob": "texas-tech",
-          "text": "If you are still waiting for some massive CEX collapse to trigger a Perp DEX season, you are missing the point. The shift is already happening right now Smaller exchanges are quietly dying out because they can't afford compliance anymore Bi"
+          "text": "The best founder decision in the Silicon Valley pilot is turning down $10 million Richard Hendricks has a compression algorithm and two offers. Gavin Belson keeps raising his bid to buy the whole company, all the way to $10M. Peter Gregory "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119386396209430795",
-          "author": "technewsonweb",
+          "postId": "2119371637518979467",
+          "author": "damianprosa",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 MJGU4HN/A Apple Watch Series Radiant Gold at Rs 1,09,900 + Bank Offer Discounts [ad] https://t.co/vAhpNQWSSe – GPS and Cellular connectivity – 46mm smartwatch size – Radiant Gold Titanium Case with Radiant Gold Milanese "
+          "text": "@PercolatorTrade A year from now: “thank you for helping us raise 250k but we got an offer from a VC to acquire the tech for 5 million and we no longer need the new token, bye! but thanks again (idiots)”"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119384889115984098",
-          "author": "technewsonweb",
+          "postId": "2119371126295953545",
+          "author": "obusehhapp21015",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 MKD74HN/A Apple Watch Series 12 Dark Bronze at Rs 67,900 + Bank Offer Discounts [ad] https://t.co/R3optdhtNW – Dark Bronze Aluminium Case with Dark Bronze Milanese Loop in S/M size – Measures HRV as often as every 5 minu"
+          "text": "Me from November 2027. Finally got the Remote Jobs offers..Started Paying off My Last born LAW Dreams, Saw My Brother at the Large Tech Firms international, My Big Sis Chasing for Masters, Me started off Second Degree I and Siblings Traveli"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119384560836190655",
-          "author": "notjeffersonx",
+          "postId": "2119369818604216613",
+          "author": "plugindealsfeed",
           "searchJob": "texas-tech",
-          "text": "The record establishes that the cryptocurrency sector has operated, and continues to operate, as a meritless casino whose purported value propositions have been systematically exposed as illusory. Technical analysis, chart patterns, and sch"
+          "text": "AIR Music Tech announces AIR Vocal Distortion for Mac and Windows. The plugin is free for a limited Black Friday period; registration to claim a copy is now open. Offer expires December 6. 🔗 https://t.co/BJo51pANt3 #Freebie https://t.co/Ui"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119383409038639112",
-          "author": "technewsonweb",
+          "postId": "2119368971195703457",
+          "author": "treefoggger",
           "searchJob": "texas-tech",
-          "text": "[ Amazon India ] 📦 MJGC4HN/A Apple Watch Series 12 Sand at Rs 74,900 + Bank Offer Discounts [ad] https://t.co/wzmN1jmOHl – Light Gold Aluminium Case with Sand Sport Band in M/L size – GPS and Cellular connectivity for calls and music witho"
+          "text": "@llamaonthebrink The tech is at a poor local maximum, to offer a fundamental explanation."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119375644685402583",
-          "author": "ytjustgetatesla",
+          "postId": "2119368955257061652",
+          "author": "codingxdynasty",
           "searchJob": "texas-tech",
-          "text": "\"Finished\" is a big call. But an ageing 2 model product lineup, swamped by newer competitors with new tech that are aligned with what people actually think? Sales are already dropping and that will only accelerate without new to offer."
+          "text": "@AnikaCodes AI coding talent is becoming the hottest transfer market in tech. His inbox is probably already full of offers."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119368898084774046",
+          "author": "damianprosa",
+          "searchJob": "texas-tech",
+          "text": "@mih4x A year from now: “thank you for helping us raise 250k but we got an offer from a VC to acquire the tech for 5 million and we no longer need the new token, bye! but thanks again (idiots)”"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119368620568621056",
+          "author": "damianprosa",
+          "searchJob": "texas-tech",
+          "text": "@Schoen_xyz A year from now: “thank you for helping us raise 250k but we got an offer from a VC to acquire the tech for 5 million and we no longer need the new token, bye! but thanks again (idiots)”"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119368441073369401",
+          "author": "damianprosa",
+          "searchJob": "texas-tech",
+          "text": "@PikaPikaLore @0xTheGreatApe @AgentChud @PercolatorTrade @thewealthmaxxer A year from now: “thank you for helping us raise 250k but we got an offer from a VC to acquire the tech for 5 million and we no longer need the new token, bye! but th"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119368039133254007",
+          "author": "sinerd16",
+          "searchJob": "texas-tech",
+          "text": "Applications are open for South Asian University's 2026 Winter Programme on AI and Law until November 25. If you want to build formal credentials at the intersection of technology regulation and legal policy, this 3-month hybrid course is d"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119367359668589018",
+          "author": "iamvarun",
+          "searchJob": "texas-tech",
+          "text": "@HQuarterma43504 Lame logic. CN settled 12/14 Land Borders, IN took 40+Yrs to just talk with Bangla. CN twice offered swap deal that'll eventually happen. IN rejected coz it's ALWAYS been border issues spoiler due internal politics. CN woul"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119389855746609396",
+          "author": "linuxgenius1",
+          "searchJob": "navy",
+          "text": "\"..Over the last few days the Royal Navy has had three of its Vanguard class nuclear armed submarines as sea. This is a very rare event. This note looks at the background to this unusual situation and offers some potential explanations....\""
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119369667596746952",
+          "author": "mckinleyan",
+          "searchJob": "notre-dame",
+          "text": "‘Irish reunification’ does not offer immense opportunity, nor is opportunity the reason Sinn Fein wants it."
         }
       ]
     },
@@ -337,18 +280,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "utsa: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 17,
+      "rejectedCandidates": 14,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-08T11:29:00.307Z"
+    "status rebuilt locally from current store on 2026-11-08T11:43:48.076Z"
   ]
 }
