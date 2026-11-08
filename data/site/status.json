@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T10:43:48.497Z",
+  "generatedAt": "2026-11-08T10:58:39.165Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-08T10:43:47.963Z",
+    "at": "2026-11-08T10:58:38.639Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "temple",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.2794180555555557,
-    "p95Hours": 2.0275530555555554,
-    "worstHours": 2.0275530555555554
+    "medianHours": 1.0266077777777778,
+    "p95Hours": 1.771001388888889,
+    "worstHours": 2.2749608333333335
   },
   "decisionCoverage": {
-    "total": 70,
-    "decided": 70,
+    "total": 25,
+    "decided": 25,
     "complete": true
   },
   "pending": {
@@ -47,7 +52,7 @@
   "profileResolution": {
     "cached": 104
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4432,
     "incompleteOffers": 0
@@ -55,381 +60,216 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-08T10:43:47.962Z",
-      "got": 82,
-      "new": 70,
-      "lag": 0.03
+      "at": "2026-11-08T10:58:38.638Z",
+      "got": 32,
+      "new": 25,
+      "lag": 0.17
     }
   },
   "audit": {
-    "at": "2026-11-08T10:42:13.042Z",
+    "at": "2026-11-08T10:57:00.690Z",
     "mode": "live",
     "collection": {
-      "returned": 82,
-      "kept": 70,
-      "duplicate": 12,
+      "returned": 32,
+      "kept": 25,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 40,
-      "rejected": 30,
+      "accepted": 19,
+      "rejected": 6,
       "reasons": {
-        "no_offer_term": 20,
-        "no_fbs_school": 9,
-        "hard_negative": 1
+        "no_fbs_school": 2,
+        "no_offer_term": 4
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2119379936729555320",
+          "author": "the_hindu",
+          "searchJob": "temple",
+          "text": "Deepavali was celebrated with traditional fervour across Telangana on Sunday (November 8, 2026). Dressed in new clothes, people offered prayers at temples and indoors, decked their homes with lamps and flowers, and burst crackers. https://t"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2119378186542731658",
-          "author": "defmatterseu",
-          "searchJob": "washington",
-          "text": "https://t.co/5mBQltc3aM"
+          "postId": "2119376913999298745",
+          "author": "hapi12334223",
+          "searchJob": "temple",
+          "text": "https://t.co/PNzQCqzf3C"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119369346237563313",
+          "author": "dharmicnews",
+          "searchJob": "temple",
+          "text": "Read the full article here: https://t.co/mnDeCJniBs https://t.co/i8cStuKIco"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119367651474497994",
+          "author": "ned4short",
+          "searchJob": "temple",
+          "text": "https://t.co/IdcDsBcVh9"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119370971702264288",
-          "author": "trendsfocusi",
-          "searchJob": "washington",
-          "text": "🚨 Trump offered UFC CEO Dana White the job of White House press secretary — but White reportedly declined! Trump even suggested bringing UFC fighters along as assistants to defend his administration. White plans to meet Trump in Washington"
+          "postId": "2119357174304620873",
+          "author": "amanzhan01",
+          "searchJob": "troy",
+          "text": "@Updates_SThings They're so desperate for a new job offer"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119144905255587942",
-          "author": "dubrovskiyniko1",
-          "searchJob": "washington",
-          "text": "If This Isn't a Joke by Trump, the Democrats Are in for a rough time."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119138238380085468",
-          "author": "rapidresponse47",
-          "searchJob": "washington",
-          "text": "https://t.co/NFrdYmsvPs"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119362263090147658",
-          "author": "realbricsnews",
-          "searchJob": "washington",
-          "text": "🇺🇸 Trump Offers UFC Boss Dana White the Job of White House Press Secretary! US President Donald Trump has reportedly offered UFC CEO Dana White the vacant White House press secretary position, describing him as a “violent Fighter and Warr"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119354265927884925",
-          "author": "nbcwashington",
-          "searchJob": "washington",
-          "text": "Trump said he offered the job of White House press secretary to Dana White, the CEO and president of the Ultimate Fighting Championship. https://t.co/Xri0rOySmV"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119352070289408028",
-          "author": "ynews_digital",
-          "searchJob": "washington",
-          "text": "Donald Trump has offered UFC chief executive Dana White the vacant White House press secretary position, even suggesting that six fighters join his team. White says he will meet the president in Washington on Monday but has not confirmed wh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118694426079838534",
-          "author": "monarquiaespana",
-          "searchJob": "arkansas-state",
-          "text": "El Rey ha hecho entrega, en el Palacio Real de El Pardo, del Premio Fórum Europa 2026 a la Secretaría General Iberoamericana. https://t.co/hnFmURuclV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118729655779762273",
-          "author": "almudenamf",
-          "searchJob": "arkansas-state",
-          "text": "La Reina Sofía entrega la bandera a la Fuerza de Infantería de Marina, el cuerpo más antiguo del mundo https://t.co/KWmOkFaJoh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118950539962777653",
-          "author": "tatlermagazine",
-          "searchJob": "arkansas-state",
-          "text": "This week, the Princess of Wales reminded fans that she is the queen of country-set dressing at a surprise engagement in West London https://t.co/gCzCpGRfMk https://t.co/2NMzdFtw4i"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118616589343842576",
-          "author": "ejercitotierra",
-          "searchJob": "arkansas-state",
-          "text": "#Taldíacomohoy 2011 el sargento 1º Joaquín Moya Espejo fallece al recibir un disparo durante un ataque de la insurgencia talibán en las proximidades de Ludina #Afganistán. ¡Siempre en nuestra memoria, nunca olvidaremos vuestro sacrificio!. "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118781331530207676",
-          "author": "saadsalman719",
-          "searchJob": "arkansas-state",
-          "text": "The Prince of Asturias and Letizia Ortiz announced their engagement to a surprised public and press at the El Prado Palace #OnThisDay in 2003, as their relationship had been a well-kept secret. https://t.co/SxSFGKG5GM"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118740693267238916",
-          "author": "desdelamoncloa",
-          "searchJob": "arkansas-state",
-          "text": "El gasto de los turistas internacionales supera los 14.400 M€ en septiembre. 🛬 Un 8,1% más que en el mismo mes de 2025. Más info ⬇️ https://t.co/xR1YX1zWLU https://t.co/pgpSJItb0p"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119042163354767739",
-          "author": "implmaterial",
-          "searchJob": "arkansas-state",
-          "text": "🇱🇺 🇧🇪 Grand Duke Henri attended the inauguration of Drottning Astrids Församling of the Church of Sweden in Brussels. The ceremony was part of the celebrations marking the Centenary of the Marriage of Queen Astrid (née Princess of Swede"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118579380226019775",
-          "author": "lanvth1651219",
-          "searchJob": "arkansas-state",
-          "text": "The Royal Highness Infanta Sofia👑💖 the tallest princess. https://t.co/agWpetpDlr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118974869555610060",
-          "author": "defensagob",
-          "searchJob": "arkansas-state",
-          "text": "Convocados los Premios Ejército 2027. Modalidades: 🎨Pintura 🪖 Miniaturas militares 📷Fotografía 🎒Enseñanza escolar 🔬📚Investigación en Historia Militar, Humanidades y Ciencias Sociales 📹Vídeo ✍️ Periodismo Solicitudes para participar h"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119029020507746432",
-          "author": "rletizia2020",
-          "searchJob": "arkansas-state",
-          "text": "🔴👑NOTICIAS➡️Según avanza el diario el @el_pais ,la Reina no realizará su esperado viaje de cooperación a Bolivia por las elecciones generales previstas para el 29 de noviembre. La Casa del Rey espera retomar el viaje en el primer semestre"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118808389107253690",
-          "author": "sanchezcastejon",
-          "searchJob": "arkansas-state",
-          "text": "La fuerza de un país es la fuerza de la gente. La que se manifiesta por lo suyo. La que se moviliza por lo de todos. https://t.co/MDdvbe8PvP"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119052410517684361",
-          "author": "abc_es",
-          "searchJob": "arkansas-state",
-          "text": "Abascal: «Quiero una España en la que no tenga que llamar mafia criminal al Gobierno» https://t.co/SAgQIMAgXH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118769130899648962",
-          "author": "lanvth1651219",
-          "searchJob": "arkansas-state",
-          "text": "La SORPRESA MUSICAL para LETIZIA en HELSINKI Doña Letizia visitó, junto a la primera dama de Finlandia, el colegio bilingüe de Käpylä. A su llegada, varios niños que ondeaban banderas de España y Finlandia, saludaron a la Reina en español. "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118844310279831771",
-          "author": "news_vaticano",
-          "searchJob": "arkansas-state",
-          "text": "🇺🇾 EL PAPA LEÓN XIV HABLA DE SU ENFERMEDAD EN URUGUAY En su primer discurso en América Latina, el Papa recuerda haber experimentado «los límites impuestos por la enfermedad» y pide una asistencia sanitaria «al alcance de cada persona». #L"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118723503851548872",
-          "author": "monarquiaespana",
-          "searchJob": "arkansas-state",
-          "text": "#TalDíaComoHoy 6 de noviembre de 1479 nace en Toledo Juana de Trastamara, Reina de Castilla. https://t.co/qopMIRhMHc"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118740045050036610",
-          "author": "eldebate_com",
-          "searchJob": "arkansas-state",
-          "text": "🇪🇸 La Reina Sofía entrega la bandera a la Fuerza de Infantería de Marina, el cuerpo más antiguo del mundo https://t.co/fx05MiQ73x"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119378427308605759",
-          "author": "rakshasamachar",
-          "searchJob": "army",
-          "text": "🇮🇳🪔 Deepawali with India’s Bravehearts! Rajnath Singh Celebrates Festival with Troops Along the Border in Sikkim Defence Minister Rajnath Singh celebrated Deepawali on November 8, 2026, with soldiers of the Trishakti Corps (33 Corps) dep"
+          "postId": "2119380479409287221",
+          "author": "balladeer660",
+          "searchJob": "kentucky",
+          "text": "There are relationships in life that begin with great promise, pass through a period of mutual misunderstanding, and eventually settle into a comfortable arrangement in which both parties understand precisely what is expected of them. And t"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 40,
+      "rejected": 19,
       "reasons": {
-        "bare_mention_requires_llm": 33,
-        "reporter_missing_position": 1,
-        "school_not_resolved_confidently": 2,
-        "reporter_missing_class_year": 1,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_player_name": 1
+        "school_not_resolved_confidently": 1,
+        "bare_mention_requires_llm": 16,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119373390645526998",
-          "author": "yourpremiertra1",
-          "searchJob": "hawaii",
-          "text": "A Special Thank You and an Exciting Announcement from Your Premier Travels As the owner of Your Premier Travels in Arlington, Texas, I want to take a moment to express my sincere gratitude to all of my loyal returning viewers and clients wh"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119379875924492761",
-          "author": "mezha_net",
-          "searchJob": "washington",
-          "text": "UFC chief Dana White said after Zuffa Boxing 12 in London that he was heading to Washington and would meet with Donald Trump on Monday. He did not say whether he was prepared to accept the proposed role. A day earlier, Trump offered White t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119377369093857299",
-          "author": "britanniadailyy",
-          "searchJob": "washington",
-          "text": "Dana White says he is ‘flying to Washington’ after Trump’s offer of White House press secretary job https://t.co/RYKlMJ00bM"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2119375515052044460",
-          "author": "sylvesterfx123",
-          "searchJob": "washington",
-          "text": "TRUMP WANTS UFC FIGHTERS AS ASSISTANTS 🥊🇺🇸🔥 This is actually happening and it is the wildest story in politics and MMA right now, President Donald Trump on Saturday November 7th 2026 went on Truth Social and announced that he has offere"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119375306079236575",
-          "author": "alexkennedy213",
-          "searchJob": "washington",
-          "text": "A senior Emirati official has expressed cautious optimism about US-Iran negotiations, pointing to progress through Qatari mediation while warning that renewed military confrontation remains possible. Ali Rashid Al Nuaimi, chairman of the De"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119370601618100253",
-          "author": "beatelandefeld",
-          "searchJob": "washington",
-          "text": "UFC President Dana White has announced that he is \"flying to Washington right now\" to meet with President Trump on Monday to discuss a job offer as press secretary. ✨ Last night when we first saw this news we honestly thought it was a joke."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119368302816313610",
-          "author": "dubrovskiyniko1",
-          "searchJob": "washington",
-          "text": "Trump 🇺🇸 incredible choice. Dana White the Head of Greatest World Sport Fight Brotherhood UFC can become WH Press Secretary. It appears Dana White is considering President Trump's offer to be the next Press Secretary. White says he is fly"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119367362545631391",
-          "author": "worldwidennx",
-          "searchJob": "washington",
-          "text": "UFC CEO Dana White says he's heading to Washington, D.C., to meet with President Trump on Monday after the president offered him the White House press secretary job, Trump made the announcement on social media, praising White as \"a violent "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119366095610196328",
-          "author": "anewz_tv",
-          "searchJob": "washington",
-          "text": "The U.S. State Department has announced a reward of up to $20 million for information about Iran’s nuclear facilities, equipment and personnel, with possible relocation offered to those who provide details. The announcement comes amid an on"
-        },
-        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119365538400833888",
-          "author": "worldwidennx",
-          "searchJob": "washington",
-          "text": "DANA WHITE TO MEET TRUMP AMID PRESS SECRETARY SPECULATION There could be a new White House Press Secretary - and he could come from the fighting world. UFC boss Dana White is in Washington - after he said President Trump offered his friend "
+          "postId": "2119377079716184275",
+          "author": "bullishwiener",
+          "searchJob": "south-florida",
+          "text": "🚨 Bullish Wiener Capital: Downgrading $WMT to UNDERWEIGHT, PT $80 (−36%) At 45x trailing earnings, Walmart now trades above its own 1999 dot-com multiple (~39x). We believe the market is ignoring several structural risks. 1) Circular finan"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119362614501441920",
-          "author": "constitustionx",
-          "searchJob": "washington",
-          "text": "🚨 BREAKING: DANA WHITE JUST DROPPED A BOMBSHELL 🚨 UFC boss Dana White has confirmed he’s flying to Washington, D.C. RIGHT NOW to meet President Trump after being offered the White House Press Secretary job. 🔥👀 Straight from the press co"
+          "postId": "2119381477083267461",
+          "author": "vaderdarthvade1",
+          "searchJob": "temple",
+          "text": "@ItsZahrah9 St Paul to Corinthians \"This food was offered in sacrifice to an idol,\" you should abstain from eating it. Actively participating in a pagan religious feast or temple ritual involving idol worship is strictly forbidden, as it cr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119357087549419585",
-          "author": "sylvesterfx123",
-          "searchJob": "washington",
-          "text": "FROM THE OCTAGON TO THE OVAL OFFICE 🥊🇺🇸🔥 BREAKING: President Donald Trump has just offered UFC boss Dana White the job of White House Press Secretary on Truth Social, writing “Dana will be a Press Secretary like none other. Dana, please"
+          "postId": "2119377479756546189",
+          "author": "pti_news",
+          "searchJob": "temple",
+          "text": "VIDEO | Karnataka Chief Minister DK Shivakumar and his wife Usha offer prayers at famous Hasanamba temple in Hassan on Diwali. (Source: CMO Karnataka) (Full video available on PTI Videos - https://t.co/d8jp61yd2p) https://t.co/KMf0I7l6Gz"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119351516998103130",
-          "author": "svwmagazine",
-          "searchJob": "washington",
-          "text": "🇺🇸 US Offers $20 Million Reward for Information on Iran's Nuclear Programme The United States is reportedly offering a $20 million reward for information related to Iran's nuclear programme, as tensions between Washington and Tehran conti"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2119373218368651677",
-          "author": "todayfm",
-          "searchJob": "duke",
-          "text": "Dave thought getting a day off for the launch of GTA 6 would be easy… think again. After his annual leave request got knocked back, Manager Nathan has offered him a chance to change his mind... but there are a few conditions. First up? A sp"
+          "postId": "2119377318972182849",
+          "author": "basnetbhagirath",
+          "searchJob": "temple",
+          "text": "#Jaipur: Colonel Rajyavardhan Singh Rathore visited the Laxmi Narayan Temple in Johari Bazar to offer prayers."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119374232471629842",
-          "author": "sabinereyn60907",
-          "searchJob": "arkansas-state",
-          "text": "@afshinrattansi Russia accepted the US’ offer that was made at the Anchorage Summit. It is not our fault that the US could not withstand the unprecedented pressure from Europe??? “There were indeed no agreements reached in Anchorage,” Putin"
+          "postId": "2119376520288587788",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Karnataka CM DK Shivakumar and his wife Usha offer prayers at famous Hasanamba temple in Hassan on Diwali. https://t.co/AoAG6vKae5"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119371768444194912",
-          "author": "bblack_ai",
-          "searchJob": "arkansas-state",
-          "text": "Tweet 9 The lock your carrier must give you free: 7 lines. A number you rent rather than own. 320 complaints in three years, then 1,611 in one. A regulator writing down that your address and your last bill don’t prove who you are. A 1980s p"
+          "postId": "2119375474833174611",
+          "author": "arareddye",
+          "searchJob": "temple",
+          "text": "*The Significance of Lighting a Lamp (Deeparadhana)* The lamp is a symbol of knowledge—a divine light that dispels the darkness of ignorance. It is a Hindu tradition to light a lamp before the deity in one’s home, typically during the morni"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119373751166857504",
+          "author": "tntjohn1717",
+          "searchJob": "temple",
+          "text": "5. The Moment Contact Becomes Compromise There comes a point, however, when ordinary association crosses into deliberate cooperation with wrongdoing. Second Corinthians 6:14 commands, “Be ye not unequally yoked together with unbelievers: fo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119373384265920770",
+          "author": "anonymoose36",
+          "searchJob": "temple",
+          "text": "@ACEcardtv @DaddyJCam @renegadechief20 @NotAvgLiberal Rules regarding the temple, the Levitical priesthood, animal sacrifices, circumcision, and dietary (kosher) restrictions. These were temporary \"shadows\" pointing forward to the Messiah. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119372513603952775",
+          "author": "mwambuibra",
+          "searchJob": "temple",
+          "text": "@Rachealkyy @NewtonAllan6 What’s a church? Your body is the temple of the Lord,you can still give the same offers to the community"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119372507744456981",
+          "author": "inion_de_1893",
+          "searchJob": "temple",
+          "text": "Finding the Balance Between Jesus and God’s Promise to Israel Can we talk about the deepest layer of prophecy in the Bible? Because right now, looking at the world, a lot of people are wrestling with a massive question: How do we balance wh"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119357319444111458",
-          "author": "frankleehowe",
-          "searchJob": "arkansas-state",
-          "text": "Nah, that's the full Hasbara bingo card and everybody in the marketplace knows the pitch by now. 1922 wasn't self-determination, that was the Britain handing out somebody else's land. The people actually living there didn't get a vote. 1947"
+          "postId": "2119372399028388189",
+          "author": "gregorybenzmc",
+          "searchJob": "temple",
+          "text": "Everybody cares about suffering Palestinian children. HAMAS don't care about then either. They welcome the support it brings them. They are animals. Israel warn them when strikes are going to be made and have must have been filmed and this "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119356718169862191",
-          "author": "leonhabib1",
-          "searchJob": "arkansas-state",
-          "text": "Life is not difficult—nor is work—if one makes an effort. Conversely, if one makes no effort at all, both life and work become complicated. Does the fear of revealing one’s true identity indicate a lack of honesty? Is avoiding transparent a"
+          "postId": "2119372082991747080",
+          "author": "np_nationpress",
+          "searchJob": "temple",
+          "text": "Yogi Adityanath's Diwali in Ayodhya: 'No one can fire bullets at Ram devotees now' CM Yogi Adityanath visited Ayodhya on Diwali, offered prayers at the Ram Temple, distributed sweets and declared no one can fire bullets at Ram devotees. htt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119356641741009351",
-          "author": "leonhabib1",
-          "searchJob": "arkansas-state",
-          "text": "Life is not difficult—nor is work—if one makes an effort. Conversely, if one makes no effort at all, both life and work become complicated. Does the fear of revealing one’s true identity indicate a lack of honesty? Is avoiding transparent a"
+          "postId": "2119370950420627618",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Lucknow, Uttar Pradesh: Samajwadi Party spokesperson Fakhrul Hasan Chand says, \"Akhilesh Yadav had already stated that he would visit the Ram Temple in Ayodhya only after offering prayers at the Kedareshwar Temple being constructed in Etawa"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119356582505103736",
-          "author": "leonhabib1",
-          "searchJob": "arkansas-state",
-          "text": "Life is not difficult—nor is work—if one makes an effort. Conversely, if one makes no effort at all, both life and work become complicated. Does the fear of revealing one’s true identity indicate a lack of honesty? Is avoiding transparent a"
+          "postId": "2119367136653332711",
+          "author": "xpresshyderabad",
+          "searchJob": "temple",
+          "text": "Hidden in a forest, barely a kilometre from Sadalpur village in Bela mandal, the Bhairamdev temple offers a glimpse into nearly a thousand years of history. Believed to date back to the 10th or 11th century, the temple reflects Chalukya-era"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119356505996836868",
-          "author": "leonhabib1",
-          "searchJob": "arkansas-state",
-          "text": "Life is not difficult—nor is work—if one makes an effort. Conversely, if one makes no effort at all, both life and work become complicated. Does the fear of revealing one’s true identity indicate a lack of honesty? Is avoiding transparent a"
+          "postId": "2119364106323181817",
+          "author": "cnnnews18",
+          "searchJob": "temple",
+          "text": "A moment of faith and family! Indian cricketer Abhishek Sharma visited Amritsar’s Golden Temple with his mother, offering prayers at the sacred shrine. The visit offered a glimpse of the cricketer’s spiritual side as he sought blessings alo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119356414695182599",
-          "author": "leonhabib1",
-          "searchJob": "arkansas-state",
-          "text": "Life is not difficult—nor is work—if one makes an effort. Conversely, if one makes no effort at all, both life and work become complicated. Does the fear of revealing one’s true identity indicate a lack of honesty? Is avoiding transparent a"
+          "postId": "2119362555030262243",
+          "author": "servantofyh",
+          "searchJob": "temple",
+          "text": "@savedpaulist @TheSeanEsposito You're unclean until the evening ... which means you can't go to the Temple and offer sacrifices to God."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119356347867341290",
-          "author": "leonhabib1",
-          "searchJob": "arkansas-state",
-          "text": "Life is not difficult—nor is work—if one makes an effort. Conversely, if one makes no effort at all, both life and work become complicated. Does the fear of revealing one’s true identity indicate a lack of honesty? Is avoiding transparent a"
+          "postId": "2119360327381115148",
+          "author": "gadwalvijayainc",
+          "searchJob": "temple",
+          "text": "On the auspicious occasion of Deepavali, I visited the historic Charminar Bhagyalakshmi Temple along with my family and offered prayers to Goddess Lakshmi. Prayed for the happiness, prosperity, good health and well-being of the people of Te"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119356278136766596",
-          "author": "leonhabib1",
-          "searchJob": "arkansas-state",
-          "text": "Life is not difficult—nor is work—if one makes an effort. Conversely, if one makes no effort at all, both life and work become complicated. Does the fear of revealing one’s true identity indicate a lack of honesty? Is avoiding transparent a"
+          "postId": "2119350585090879634",
+          "author": "npbat",
+          "searchJob": "troy",
+          "text": "I don’t think Troy Ackman did anything wrong. They were a broadcasting pair and ESPN devices to make a big deal out of it and only offered a contract to Joe. On Fox Brady got thee big contract. I like hearing the former players rather than "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119361933610713219",
+          "author": "dlama0468",
+          "searchJob": "alabama",
+          "text": "@BroncoSportsFB Someone said Justin Wilcox is eating burgers at the home games like a regular civilian. I wish he was part of the defensive coaching staff ASAP, with the offer to be the Def. coord. next year. That defense is horrendous and "
         }
       ]
     },
@@ -444,11 +284,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 40,
+      "rejectedCandidates": 19,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-08T10:43:48.498Z"
+    "status rebuilt locally from current store on 2026-11-08T10:58:39.166Z"
   ]
 }
