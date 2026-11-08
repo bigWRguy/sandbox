@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:58:44.842Z",
+  "generatedAt": "2026-11-08T10:28:42.303Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-08T09:58:44.315Z",
+    "at": "2026-11-08T10:28:41.781Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7725783333333334,
-    "p95Hours": 1.7767647222222223,
-    "worstHours": 1.776765
+    "medianHours": 1.2718727777777779,
+    "p95Hours": 1.7758325,
+    "worstHours": 2.0264116666666667
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -55,96 +55,273 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-08T09:58:44.314Z",
-      "got": 12,
-      "new": 8,
-      "lag": 0.08
+      "at": "2026-11-08T10:28:41.780Z",
+      "got": 42,
+      "new": 39,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-11-08T09:57:03.353Z",
+    "at": "2026-11-08T10:27:06.460Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 8,
-      "duplicate": 4,
+      "returned": 42,
+      "kept": 39,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 2,
+      "accepted": 30,
+      "rejected": 9,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "no_offer_term": 3,
+        "no_fbs_school": 3,
+        "hard_negative": 3
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2119313654982283309",
+          "author": "jakevenomapp",
+          "searchJob": "rice",
+          "text": "🟢 NFL TOUCHDOWN WATCH | WEEK 9 https://t.co/ZVe994lpxP"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2119365343546065085",
-          "author": "islandsmagazine",
-          "searchJob": "ohio",
-          "text": "Walnut Creek, Ohio, is home to over 70 Amish communities and offers cultural activities, fresh food, farm tours, and rustic and upscale accommodations. https://t.co/CVr1L4sNSg"
+          "postId": "2119351144640078258",
+          "author": "ricedevonaqdtv",
+          "searchJob": "rice",
+          "text": "@MikeGallagher Fu*k him the self absorbed wooden plank of a performer that he is. His touchy irritability is in direct proportion to his utter dearth of talent and those spoken hits, Rocket Man etc? Garbage. An assault on the hearing. U off"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2119358916043674053",
+          "author": "echosphereio",
+          "searchJob": "florida",
+          "text": "Don't you already have a footprint in Florida? I trust our governor has already contacted you with some great offers but they might have to be better than what @GovAbbottPress had offered? Such guarantees from this governor should include a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119354487987110395",
+          "author": "georgia_07os",
+          "searchJob": "georgia",
+          "text": "If someone offered you $30,500 to go 3 months without eating any McDonald's, could you do it? https://t.co/3Ia8Apu3S7"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2119348443202146548",
+          "author": "populismstudies",
+          "searchJob": "georgia",
+          "text": "🎥 ECPS Interview / VIDEO 🇷🇸 Prof. Nebojša Vladisavljević: Serbia’s Student Movement Represents Democratic Renewal, Not Another Wave of Populism ✍️ Interview by Selcuk Gultasli ⁉️ Can a grassroots democratic movement dismantle competitive"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119357314537050351",
+          "author": "neivilde_",
+          "searchJob": "indiana",
+          "text": "shane has to spend the whole summer in indiana because yuna’s parents need help with moving to a new house now that one of them can’t use the stairs anymore and david’s sister offered to host him"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119356973250498862",
-          "author": "cbkwgl",
-          "searchJob": "buffalo",
-          "text": "https://t.co/lM962CMBWF"
+          "postId": "2119370946993602981",
+          "author": "arbuyukuslu",
+          "searchJob": "stanford",
+          "text": "https://t.co/LzI6y8MVjS"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2119375665787023453",
+          "author": "moorelife_nl",
+          "searchJob": "wake-forest",
+          "text": "New acrostic poem: THANKFUL In my journey through life I have discovered that tactical honesty serves as a gentle guide when facing difficult conversations with family or friends allowing me to speak truth without causing harm by selecting "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119351203427754211",
+          "author": "unterzeger",
+          "searchJob": "wake-forest",
+          "text": "My first severe burnout hit me back in 2018. It was not just routine fatigue, but a fundamental disillusionment with the market. It started with conversations with peers, owners of marketing agencies in my home million-plus city. I looked i"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 30,
       "reasons": {
-        "school_not_resolved_confidently": 5,
-        "bare_mention_requires_llm": 1
+        "school_not_resolved_confidently": 10,
+        "bare_mention_requires_llm": 17,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119350031375310991",
-          "author": "billmeltzer",
-          "searchJob": "notre-dame",
-          "text": "Rocky 50th Anniversary Fact of the Day: Carrie Snodgress According to Sly's Official Rocky Scrapbook (1977) and other source material, actress Carrie Snodgress (1945-2004) was the original choice to play Adrian in Rocky. She was formally of"
+          "postId": "2119372619501674661",
+          "author": "ivycherop1921",
+          "searchJob": "coastal-carolina",
+          "text": "FibreOptic Solutions Kenya offers Fibre Drop Cable featuring non-corrosive strength members for long-lasting structural support. Rust degradation is completely avoided in coastal environments. #FTTH #InternetConnectivity"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119360755371835499",
+          "author": "happynews",
+          "searchJob": "coastal-carolina",
+          "text": "Researchers in Japan have taken an encouraging step towards plastics that leave a shorter legacy in the ocean: building enzymes into compostable polyester films to help them break down even on the deep-sea floor. The team embedded cutinase,"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119350265660772595",
+          "author": "kwtweather",
+          "searchJob": "coastal-carolina",
+          "text": "🌺 Remembrance Sunday morning weather update for Cornwall and the Isles of Scilly. 🌺 Good morning, everyone, First, on this Remembrance Sunday, we take a moment to remember all those who gave their lives for our freedom, those who served, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119357407067251052",
-          "author": "record_journal",
-          "searchJob": "uconn",
-          "text": "Connecticut seniors struggle to afford pricey dental care. Free care offers relief https://t.co/xR7QuluVeX"
+          "postId": "2119375479836938243",
+          "author": "arareddye",
+          "searchJob": "rice",
+          "text": "One should never use only a single wick for a lamp. A lamp with a single wick is lit only in the presence of a deceased person; it symbolizes the soul merging into the Supreme Divine (Paramatma). Steel lamps (diyas) should never be used for"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119372142257090578",
+          "author": "kfcnigeria",
+          "searchJob": "rice",
+          "text": "Gather your people and make it a feast with the Family Meal 3! Enjoy 12 pieces of hot & crispy chicken, 2 Xtra Large Spicy Rice, 2 Regular Yam Fries, 2 Pepsi Fizz and 4 flavourful dips. And that’s not all! Every purchase of any Family Meal "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119365540955185177",
+          "author": "nysc360",
+          "searchJob": "rice",
+          "text": "FIRST SUNDAY IN CAMP ☀️😇💃 Happy Sunday, Corps Members! 😁 One beautiful thing about Sundays in camp is that you get to enjoy a little break from the usual military routine. You won't hear the morning bugle until later in the evening, usua"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119364375127511463",
+          "author": "loganpendragonm",
+          "searchJob": "rice",
+          "text": "Kurohyō 1: Item Maniac checklist and the items shops cannot replace Item Maniac tracks what you have acquired, not everything you are carrying right now. A newly obtained item shows New in the item menu. Once it has registered, using or sel"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119364245586432240",
+          "author": "2bytecoin",
+          "searchJob": "rice",
+          "text": "Let me analyze this for everyone ✅🔥 1. PUKA NACUA — ANYTIME TOUCHDOWN (-135) 🐏 Rams vs. Commanders 🎯 Confidence: 8.5/10 * Puka is an appealing touchdown selection because of his ability to create separation and generate yards after the c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119361225540972634",
+          "author": "mattw1lkes",
+          "searchJob": "rice",
+          "text": "Any offers for an actual edible pack of @KelloggsUKI Rice Krispies? Or shall I keep hold of them for now?!?! #ricekrispies https://t.co/XHjDcqatEt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119359853353218540",
+          "author": "mtc_12_dy",
+          "searchJob": "rice",
+          "text": "@EBL2017 Odegaard has suffered since xhaka left. In the 22/23 season the link up on the left with xhaka was really pivotal to our attacking play. Neither Bruno G or Rice offer the same forward runs, I think Merino does to an extent."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119358905461444835",
+          "author": "letscashslips",
+          "searchJob": "rice",
+          "text": "Top-tier / higher-confidence looks These have strong usage or favorable spots for a score: • Chase Brown (CIN RB vs ATL in Madrid): Dual-threat volume (rush + receiving). Bengals offense has been productive; Falcons allow solid yardage. Bro"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119358288093409586",
+          "author": "businessdayng",
+          "searchJob": "rice",
+          "text": "Here are some of our top stories for the morning that you shouldn’t miss 1 Creative Dollar: Lagos visitor arrivals soar with multiple global events https://t.co/dvkJq0GzGP 2.Prices of rice, garri, onion, tomatoes, pepper may influence votin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119356168921579534",
+          "author": "untitled_28",
+          "searchJob": "rice",
+          "text": "Part2 Taipei Stage Greeting report #追蹤者遊戲W水魚交融 #チェイサーゲームW水魚の交わり #中村ゆりか #台湾 Paraphrased translation, so there might be some errors. (Yurika gave a lot of insightful answers about her approach to portraying Fuyu, the scene, as well as her pro"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119355220350075336",
+          "author": "awoyemijoshua61",
+          "searchJob": "rice",
+          "text": "Bruno Guimarães was UNPLAYABLE yesterday, particularly in the second half after Declan Rice was substituted. He started taking responsibility, carrying the midfield, playing those line-breaking passes and dictating the tempo. He imposed him"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119351732278878679",
+          "author": "gonnersblood",
+          "searchJob": "rice",
+          "text": "Arteta may have found another solution to Arsenal's midfield problem: Bruno Guimarães. His second-half performance against Hull City was outstanding. Once Declan Rice came off, Bruno took control of the midfield. He carried the ball, broke "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119346689832305149",
+          "author": "tofudestiny",
+          "searchJob": "rice",
+          "text": "@trucho1099a clay-pot rice offers a unique dining experience"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119342795861135570",
+          "author": "nathacanab",
+          "searchJob": "rice",
+          "text": "You're right. My mother and grandmother read romance novels. I'd try to read them from time to time but could never finish one because they were boring as hell. So instead I grew up with the tales of Conan the Barbarian (which ultimately ac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119361668606210130",
+          "author": "constitustionx",
+          "searchJob": "florida",
+          "text": "🚨💥 JUST IN: FLORIDA GOV-ELECT BYRON DONALDS UNLOADS ON CONGRESS AFTER MIDTERM DISASTER 🔥 “There were REAL missed opportunities — the SAVE America Act should’ve been done a LONG time ago. President Trump’s border security package? Should’"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119359263235817734",
+          "author": "hurth46891",
+          "searchJob": "florida",
+          "text": "@Bamaboi4_life @HardRockBet Hard rock doesn't offer cashout when a certain bet is not available at that moment. For ex florida ml was locked and not open to bet in general so cashout is not available for anyone who bet on florida"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119358223337836716",
+          "author": "brunsonnic1125",
+          "searchJob": "florida",
+          "text": "@AmericaFirsst Elon already got an offer to relocate his business to Florida!!! Wish I were moving to Florida too!!! 🥺🥺🥺"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119355060052209881",
+          "author": "islandsmagazine",
+          "searchJob": "florida",
+          "text": "Macclenny is a great day trip from Jacksonville and offers a peek into Florida pioneer history, access to nature preserves and hiking, and good local eats. https://t.co/o3OAsazGuk"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119369343431581938",
+          "author": "worldwidennx",
+          "searchJob": "north-carolina",
+          "text": "5 AM Top-of-the-Hour News Republican Congresswoman Lauren Boebert's race with Democrat Eileen Laubacher is still undecided in Colorado. NewsNation's Miyoshi Price reports Boebert's camp is getting ready for a recount (OC: ): “In a statement"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119349237645197716",
+          "author": "gloriousgod01",
+          "searchJob": "stanford",
+          "text": "If you have been dreaming of studying abroad but money is the problem, these universities are ready to pay for it. They take care of tuition fee completely and offer living support as well. Use only the official links below. Fake sites are "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119367826439848358",
-          "author": "finora_en",
-          "searchJob": "buffalo",
-          "text": "🛑 $CYBER shorts crowding with -0.42% funding hints at deeper drops amid confirmed bearish structure | https://t.co/XonKmgc4v1 - my bias remains bearish here—the 1h structure is confirmed bearish (lower highs/lower lows) and this aligns wit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119364647438438892",
-          "author": "sdctrader",
-          "searchJob": "buffalo",
-          "text": "$BTC I hope Friday’s low was NOT the daily cycle bottom and that Bitcoin still needs to break the lows around $74.8K before establishing one. Otherwise, things could get ugly... Wednesday’s rally was completely erased on Thursday, and so fa"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119352587090878853",
-          "author": "brigitteohno",
-          "searchJob": "charlotte",
-          "text": "@yuanyi_z If you’d like to see more you can contact your local RBL and offer to host a box at your workplace. They rely on volunteers to help and sadly fewer and fewer people want to offer time so tend to focus larger tables inside shopping"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119352284320608600",
-          "author": "thetouchdownnfl",
-          "searchJob": "charlotte",
-          "text": "🏈 It's time for those Week 9 Ballsy Callsies! 🏈 🟡 @TDWardy: Commanders to crush the Rams? (+5.5) 🔵 @NFLDraftSi: Bucs to beat the Bears? (+6.5) 🔴 @samjustsamyeah: Raiders to shock the 49ers? (+9.5) BOYLE SPORTS OFFER: 🆓 Bet £10 Get £20"
+          "postId": "2119370741959323759",
+          "author": "wyatt_xe",
+          "searchJob": "wake-forest",
+          "text": "2/ Scheduled Departure Dan used to wake up, walk out to a freezing car, sit on a frozen seat, and wait for the windshield to clear. Scheduled Departure fixes all of it. You tell the car what time you leave. It works backward from there. It "
         }
       ]
     },
@@ -159,11 +336,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 30,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-08T09:58:44.843Z"
+    "status rebuilt locally from current store on 2026-11-08T10:28:42.304Z"
   ]
 }
