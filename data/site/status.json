@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T05:43:53.400Z",
+  "generatedAt": "2026-11-08T05:58:36.987Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-08T05:43:52.897Z",
+    "at": "2026-11-08T05:58:36.529Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7779922222222222,
-    "p95Hours": 1.5257611111111111,
-    "worstHours": 1.5257611111111111
+    "medianHours": 0.5244430555555556,
+    "p95Hours": 1.5255355555555556,
+    "worstHours": 1.5255355555555556
   },
   "decisionCoverage": {
-    "total": 16,
-    "decided": 16,
+    "total": 13,
+    "decided": 13,
     "complete": true
   },
   "pending": {
@@ -55,154 +55,134 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-08T05:43:52.896Z",
-      "got": 22,
-      "new": 16,
-      "lag": 0.15
+      "at": "2026-11-08T05:58:36.528Z",
+      "got": 26,
+      "new": 13,
+      "lag": 0.08
     }
   },
   "audit": {
-    "at": "2026-11-08T05:42:12.925Z",
+    "at": "2026-11-08T05:57:05.218Z",
     "mode": "live",
     "collection": {
-      "returned": 22,
-      "kept": 16,
-      "duplicate": 6,
+      "returned": 26,
+      "kept": 13,
+      "duplicate": 13,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 6,
+      "accepted": 11,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 2,
-        "hard_negative": 1
+        "no_offer_term": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2119245234609549724",
-          "author": "michiganwings",
-          "searchJob": "miami-oh",
-          "text": "Carr is dog shit man"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119213480872190219",
-          "author": "nocontextcfb",
-          "searchJob": "alabama",
-          "text": "https://t.co/lsODAfju43"
+          "postId": "2119305954395140337",
+          "author": "kudzunewz",
+          "searchJob": "iowa",
+          "text": "https://t.co/g4t4OOB6Cf"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119295250162184625",
-          "author": "islandsmagazine",
-          "searchJob": "michigan",
-          "text": "Kalamazoo, Michigan, offers a variety of activities to try out downtown, including tasty restaurants, art galleries, shopping, and hands-on crafts. https://t.co/C2yxsqH7fz"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119288542388248937",
-          "author": "sherriestyle",
-          "searchJob": "michigan",
-          "text": "The Democratic Party is using ‘Palestine’ as a disguise. https://t.co/98EZdzLPgZ The Democratic Party is using ‘Palestine’ as a disguise. Their slogans are about “Palestine” — but their real agenda has absolutely nothing to do with Palestin"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119283064698208762",
-          "author": "bigtennetwork",
-          "searchJob": "michigan",
-          "text": "SPARTANS TAKE DOWN IN-STATE RIVAL MICHIGAN TO CLAIM THE PAUL BUNYAN TROPHY ‼️ @MSU_Football https://t.co/A5ONRFwqF2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119296885403836535",
-          "author": "slimetime4066",
-          "searchJob": "minnesota",
-          "text": "@buddy6942 @salirdesi Country's are experimenting with mescalines ability to increase empathy allowing people with paraphilias to not offend. The neuroplasticity of LSD allows clinics in Minnesota to offer life changing therapy."
+          "postId": "2119303614942286281",
+          "author": "ucrrg",
+          "searchJob": "oklahoma",
+          "text": "Test drives, tow-ins, service bays—dealer risk is always moving. Our Oklahoma-domiciled RRG offers garage &amp; auto liability coverage for eligible member auto dealers in select states, including NY, NJ, CA, FL, GA and TX. Keep business in"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "multiple_resolved_schools": 1,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 6,
+        "multiple_resolved_schools": 2,
+        "author_not_recruit:different sport": 1,
+        "reporter_missing_player_name": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119288606535872831",
-          "author": "emiliaafterdark",
-          "searchJob": "miami-oh",
-          "text": "Been dog shit if his only offer was Miami Ohio"
+          "postId": "2119301667074281706",
+          "author": "line_mitch",
+          "searchJob": "ohio",
+          "text": "@CFB_KB PJ Fleck is great I think Ohio State should make him an offer he can’t refuse"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119287945064845689",
-          "author": "brokebobby79",
-          "searchJob": "miami-oh",
-          "text": "@MaizeNCrutin His other offer was Miami OH."
+          "postId": "2119292363486998702",
+          "author": "cardnostalgia",
+          "searchJob": "oklahoma",
+          "text": "@jeff_ruff Stop smokin whatever Oklahoma has to offer out there."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119302612864418160",
-          "author": "baggmannq",
-          "searchJob": "alabama",
-          "text": "@skobuffss I hope he get a Bama offer"
+          "postId": "2119305544658006234",
+          "author": "ebetpittman",
+          "searchJob": "oregon",
+          "text": "@GrowingUpRetro Nope. My dad offered to help the school library when they got computers. About once a month. He came home with a set one day. I had all the school apple IIe games - Oregon Trail - AT HOME All the MECC games copied - back up "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119292508731748366",
+          "author": "bleuii55",
+          "searchJob": "penn-state",
+          "text": "There was NO WAY on God's Green Earth that Penn State would have hired Rhule. It was a complete ruse and only a clueless #@$%@ would of believed it. Dannen is complicit in this and as a minimum he needs to go too. Maybe not at the same time"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119295992612675678",
-          "author": "jhumphry25",
-          "searchJob": "alabama",
-          "text": "He was Arkansas’ head coach, Yurachek didn’t like him sticking with bama through the playoffs, Wommack offered to hire a temporary associate head coach until he arrived, Yuracheck said no, moved on to Silverfield"
+          "postId": "2119306307018670306",
+          "author": "lastingczardd",
+          "searchJob": "california",
+          "text": "♛ RKOS RADIO 006: FOLLOW THE MONEY NEW INVESTIGATIVE FILES NOVEMBER 8, 2026 THE MACHINERY BEHIND THE CURTAIN Corporate political spending, concealed vendors, influencer payments, AI propaganda, and criminal corruption cases. I found several"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119300462172074495",
-          "author": "todd_priem",
-          "searchJob": "michigan",
-          "text": "@michiganmike04 @Hugeshow Looks like MSU defense showed up and shut down everything Michigan had to offer. Your team just sucks. We knew we didn't have much this year."
+          "reason": "multiple_resolved_schools",
+          "postId": "2119296677169525025",
+          "author": "dimensionaltra1",
+          "searchJob": "california",
+          "text": "But I could try. Maybe I just ask @EL_K_8187? Mainly just about the character to give that Canadian flare, but more so where it may cost more, but allow her to operate shitty coffee (fucking thanks alot Burger King, those screwballs), where"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119288800006357491",
-          "author": "cj2615102861670",
-          "searchJob": "michigan",
-          "text": "@EricLDaugh Michigan voters didn't fuck up they cheat big here with dominion tabulators in 63 of 84 counties plus counterfeit ballot drops. The GOP here is lazy does nothing about it so I even offered a few years ago to pick those 63 tabula"
+          "reason": "author_not_recruit:different sport",
+          "postId": "2119304212492231064",
+          "author": "jayden_cecil_",
+          "searchJob": "cincinnati",
+          "text": "I am blessed to announce I have received my 12th Division 1 offer from The University of Cincinnati Thank you to Coach Walsh, Coach Calhoun the entire staff for the opportunity. #GoBearcats❤️🖤 https://t.co/Bu2qC5DTJX"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2119287906896638323",
-          "author": "spartyon21",
-          "searchJob": "michigan",
-          "text": "Oh. Never knew Fitz was offered by Michigan … then had it rescinded. So many levels to this rivalry. Love it."
+          "postId": "2119290224325079206",
+          "author": "jamesesisson1",
+          "searchJob": "colorado",
+          "text": "#SkoBuffs Congratulations Kacey on being offered by the CU Buffs. #SkoBuffs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119290032150221090",
-          "author": "pulse313hq",
-          "searchJob": "minnesota",
-          "text": "@exolityteTB @goinsidethegame @JaimeSean19 @DetroitRedWings Far from the truth. Most of the options he gave were teams that didn’t need him or have the salary for him. The only team reportedly interested and had offered something that they "
+          "postId": "2119287002331836649",
+          "author": "covertheslate",
+          "searchJob": "kansas",
+          "text": "NFL DFS Week 9: DraftKings Ownership & Tournament Pivots POPULARITY WATCH • Jahmyr Gibbs $10,000 • Christian McCaffrey $8,000 • Puka Nacua $8,800 • George Kittle $6,000 • Jonah Coleman $5,300 • Antonio Williams $4,100 TOURNAMENT ALTERNATIVE"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119307376956465169",
+          "author": "j_boncela23",
+          "searchJob": "miami",
+          "text": "@tru_isnt_crazy @ebsteelers28 @TheFieldOf68 Not sure if you’re familiar with Miami but they were all on high street hanging out and Brick for “beat the clock” and the rest of the great bars High Street has to offer lol"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119283168150774043",
-          "author": "thesomalibrief",
-          "searchJob": "minnesota",
-          "text": "Tom Emmer once helped launch a Somalia Caucus in Congress. More than a decade later, he was telling Somalis to “go the hell back to where they came from.” In June 2015, Emmer joined Keith Ellison, then a Democratic congressman from Minnesot"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119301515605164320",
-          "author": "dfw_cougar",
-          "searchJob": "byu",
-          "text": "@jlinehan9 @For3JT You could have taken whatever they offered for the House Settlement. You know BYU is who’s going to be paying your costs. Not the NCAA, not the Big 12. BYU. How much are punters making? Worth hitting your BYU relationship"
+          "postId": "2119287280330289270",
+          "author": "davidrsoffer",
+          "searchJob": "miami",
+          "text": "@ToddFuhrman For 1.5 possessions, ND was down seven starters. Everyone is gonna say Miami w Toney does more and I’m sure they do, but ND had so much more to offer if they could get half of those defenders."
         }
       ]
     },
@@ -217,11 +197,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-08T05:43:53.401Z"
+    "status rebuilt locally from current store on 2026-11-08T05:58:36.988Z"
   ]
 }
