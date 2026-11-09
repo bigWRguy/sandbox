@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T06:43:46.311Z",
+  "generatedAt": "2026-11-09T06:58:43.898Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-09T06:43:45.954Z",
+    "at": "2026-11-09T06:58:43.482Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 24,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7754852777777778,
-    "p95Hours": 1.2773863888888888,
-    "worstHours": 1.5250697222222223
+    "medianHours": 0.5280261111111111,
+    "p95Hours": 1.5267161111111112,
+    "worstHours": 1.5267161111111112
   },
   "decisionCoverage": {
-    "total": 10,
-    "decided": 10,
+    "total": 13,
+    "decided": 13,
     "complete": true
   },
   "pending": {
@@ -55,111 +55,130 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-09T06:43:45.954Z",
-      "got": 20,
-      "new": 10,
-      "lag": 0.27
+      "at": "2026-11-09T06:58:43.482Z",
+      "got": 25,
+      "new": 13,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-11-09T06:42:15.172Z",
+    "at": "2026-11-09T06:57:10.358Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 10,
-      "duplicate": 10,
+      "returned": 25,
+      "kept": 13,
+      "duplicate": 12,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 2,
+      "accepted": 6,
+      "rejected": 7,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 1
+        "no_fbs_school": 5,
+        "no_offer_term": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2119660271903908113",
-          "author": "kjrh2hd",
-          "searchJob": "oklahoma",
-          "text": "Arrest info, neighbors offer clues to woman's killing near Lake Eufaula 🔗 Find link in our bio. https://t.co/Zr7oWMKmS5"
+          "postId": "2119681023415865713",
+          "author": "nagatheocat",
+          "searchJob": "rice",
+          "text": "@Nagaland_Post Even if they do understand it. It’s all armchair intellectualism at best. They might understand the problems, but they’re all not savvy enough to offer solutions. Understanding problems is different from solving problems."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119684435587051881",
+          "author": "yourpremiertra1",
+          "searchJob": "texas",
+          "text": "#yourpremiertravels #travelphotography #wanderlust #exploremore #instatravel #traveladdict #vacationmode #adventuretime #traveldiaries #travelgoals #adventureawaits #exploretheworld #exploreeverything #travelinspiration #roamtheplanet Certi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119628812485058738",
-          "author": "bts_bighit",
-          "searchJob": "army",
-          "text": "[공지] BTS WORLD TOUR ‘ARIRANG’ IN LONDON 출시 안내 (+ENG/JPN/CHN) 🔗 https://t.co/EsYF4UKfOs #BTS #방탄소년단 #BTS_WORLDTOUR_ARIRANG #BTS_WORLDTOUR_ARIRANG_LONDON https://t.co/ic0zQwVoS7"
+          "postId": "2119568075238552049",
+          "author": "brianeharrison",
+          "searchJob": "texas",
+          "text": "Are y’all getting tired of Texas elected Republicans making EXCUSES for their inaction?… and being happy to just roll over for the incoming Democrats instead of fighting them?? I am."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119414646553657372",
+          "author": "brianeharrison",
+          "searchJob": "texas",
+          "text": "Republicans still have TEN WEEKS LEFT to limit the damage that the incoming Democrats can inflict on Texas!! Governor Abbott must call a SPECIAL SESSION NOW to rein in Texas’ unconstitutional executive emergency powers… something I’ve been "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119665595251667235",
+          "author": "moraltreason",
+          "searchJob": "texas",
+          "text": "🚨BREAKING: TRUMP WILLING TO WORK WITH DEMOCRATS ON \"AMNESTY\" FOR ILLEGALS In a 60 Minutes interview, President Trump said his immigration policy may have been “too tough” on immigrants whose only violation was being here illegally. He ackn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119671986003513519",
+          "author": "sparklingwolf",
+          "searchJob": "colorado",
+          "text": "Maybe children especially those who went into the military when they became adults. I lived next to illegals in Colorado. Several times CPS, social workers, outreach, school personnel, cops, & others would come to their doors & beg them to "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119678137315541332",
+          "author": "houstonwindle",
+          "searchJob": "houston",
+          "text": "@DarayuthH Before the next test, message the few people who clicked and didn't buy and ask what stopped them. Their answers tell you whether it was the channel, the offer or the page, which the ads dashboard never will."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 6,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 1
+        "bare_mention_requires_llm": 6
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119661771044921812",
-          "author": "stellaaa",
-          "searchJob": "ohio",
-          "text": "Just ran into an ex at the local bar… Literally only saw him as I was sitting down (I swear). And, when I saw him, I asked if he’s comfortable with me sitting nearby and, if not, I offered to sit on the other side of the bar no big deal. Di"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119672238085644779",
+          "author": "onholdcc",
+          "searchJob": "rice",
+          "text": "@73ps_ Rice straw has more to offer a farmer than ash."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119671507656069581",
-          "author": "astewartidy",
-          "searchJob": "california",
-          "text": "End-of-park Idyllwild living with a peaceful meadow backdrop 🌲 26350 Delano #109: 2 beds, 1 bath, 580 sq. ft., plus a finished enclosed California room. Offered at $120,000. https://t.co/dxpvIJmcYy #IdyllwildRealEstate #TeamStewart https:/"
+          "postId": "2119659868487594415",
+          "author": "chorgan2282",
+          "searchJob": "rice",
+          "text": "@TierReport @crusor66 @RiceMakesRight @risucci_rick I said it already but they wouldn’t want Rice. I know you don’t wanna hear the Red Sox of all people could offer a better offer, but they really do have more assets than the Yankees. Yanke"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119666072291054071",
-          "author": "justin97987147",
-          "searchJob": "california",
-          "text": "@SteveHiltonx I believed in you Steve Hilton! I believed in you for a reason Bcuz You believed in California Willing to make it a golden dream sequel Something California hasn’t seen in a long time California wanted what you offered Voted f"
+          "postId": "2119668362011889684",
+          "author": "tiegye222",
+          "searchJob": "arkansas",
+          "text": "Dig Into Opportunity: Why Working in Bauxite and Gallium Mining Builds the Future In a world racing toward AI, electric vehicles, and advanced defense systems, the minerals beneath our feet have never been more critical. Bauxite—the reddish"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119660735617958049",
-          "author": "barista_ta27411",
-          "searchJob": "california",
-          "text": "@EndWokeness 1.2 million across the entire country. Different time but it wasnt until ten years later when California offered welfare for illegals that everything changed. Pete Wilson sued but was voted out before they had a chance to rever"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119676231096435036",
-          "author": "mlsreacts",
-          "searchJob": "arkansas-state",
-          "text": "@MT_TRAP_CAT Just sayin, USL chose their choice Can't be like \"Chattanooga belongs in the USL\" when the USL gave them a shit offer and went with Red Wolves instead"
+          "postId": "2119673448657981814",
+          "author": "fernlargok",
+          "searchJob": "texas",
+          "text": "@brianeharrison: \"Are y’all getting tired of Texas elected Republicans making EXCUSES for their inaction?… and being happy to just roll over for the incoming Democrats instead of fighting them?? I am.\" It is absolutely tiring. They have cer"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119678296916893992",
-          "author": "idlesaturn7",
-          "searchJob": "army",
-          "text": "Guys...@bts_bighit, I'm usually not the one complaining, because I love you and I do appreciate your work, but allow me to voice my thoughts...just this time, because I was SO excited about this... Look... I can live with the absence of phy"
+          "postId": "2119670068350992394",
+          "author": "thatericalper",
+          "searchJob": "texas",
+          "text": "Bills piling up, extra shifts and dreams that feel miles away. Tori Martin knows the feeling, and her new single \"Quit\" offers a reminder to keep going. The Texas country favourite premiered it on Good Morning Texas. https://t.co/fFLiucS6So"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119670322136023052",
-          "author": "ahmedelbayoumy",
-          "searchJob": "army",
-          "text": "@Anne73447231035 @asqalon @clashreport Liar….To whom they offered that Israeli diplomats or British ones…(Lausanne49 was only temporaryceasefire confer. based on the armed locations including only army commanders)..always false narratives f"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119669618386120733",
-          "author": "aremdaum",
-          "searchJob": "army",
-          "text": "@bts_bighit Don't buy this. We should show our disapproval of what HYBE is doing, and by not buying from them, we'll teach them not to take ARMY lightly. They want to make money off everything and don't even bother to offer anything worthwh"
+          "postId": "2119664165245628526",
+          "author": "simion28718336",
+          "searchJob": "texas",
+          "text": "𝘿𝙖𝙩𝙖 𝘾𝙚𝙣𝙩𝙚𝙧𝙨 𝘼𝙧𝙚𝙣'𝙩 𝘿𝙚𝙖𝙙: 𝙒𝙝𝙖𝙩 𝙩𝙝𝙚 𝙋𝙤𝙨𝙩-𝙈𝙞𝙙𝙩𝙚𝙧𝙢 𝘼𝙄 𝙎𝙘𝙖𝙧𝙚 𝙂𝙚𝙩𝙨 𝙒𝙧𝙤𝙣𝙜 Last week was a rough one. The Dow slipped 0.9%, the S&P 500 lost 2.7% and the Nasdaq dropped 3.4%. Friday offered som"
         }
       ]
     },
@@ -167,18 +186,21 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 24,
+      "failed": 2,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "ole-miss: SearchTimeline HTTP 404 (slice left pending)",
+        "rutgers: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-09T06:43:46.312Z"
+    "status rebuilt locally from current store on 2026-11-09T06:58:43.899Z"
   ]
 }
