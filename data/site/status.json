@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T10:44:24.989Z",
+  "generatedAt": "2026-11-09T10:59:07.999Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-09T10:44:24.421Z",
+    "at": "2026-11-09T10:59:07.472Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,9 +32,9 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7824763888888889,
-    "p95Hours": 1.284865,
-    "worstHours": 1.5336441666666667
+    "medianHours": 0.7810188888888889,
+    "p95Hours": 1.2802655555555555,
+    "worstHours": 1.5301452777777778
   },
   "decisionCoverage": {
     "total": 16,
@@ -55,152 +55,152 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-09T10:44:24.420Z",
-      "got": 22,
+      "at": "2026-11-09T10:59:07.471Z",
+      "got": 24,
       "new": 16,
-      "lag": 0.04
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-09T10:42:46.855Z",
+    "at": "2026-11-09T10:57:33.102Z",
     "mode": "live",
     "collection": {
-      "returned": 22,
+      "returned": 24,
       "kept": 16,
-      "duplicate": 6,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 6,
+      "accepted": 14,
+      "rejected": 2,
       "reasons": {
-        "hard_negative": 3,
-        "no_fbs_school": 3
+        "no_offer_term": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2119741040001274201",
-          "author": "rolldatwave",
-          "searchJob": "ole-miss",
-          "text": "The Green Wave keeps rolling in the 2027 cycle. While the current team battles through a challenging season, Tulane’s recruiting staff under Will Hall has continued stacking talent for the future. The class sits at roughly 26 commitments as"
+          "reason": "no_offer_term",
+          "postId": "2119732304818163947",
+          "author": "asianetnewssn",
+          "searchJob": "rice",
+          "text": "ತಂಗಳನ್ನ ದೇವಲೋಕದ ಅಮೃತಕ್ಕೆ ಸಮಾನ; ಹೇಗೆ ತಿಂದರೆ ದೇಹಕ್ಕೆ ಪ್ರಯೋಜನ? ಯಾರು ತಿನ್ನಬಾರದು? Click the Link: https://t.co/18LBSAq1Ly #FermentedRice #OvernightSoakedRice #TraditionalRiceFood #HealthyRiceBreakfast https://t.co/wBhWopfBz1"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119732537358774627",
-          "author": "adunlea",
-          "searchJob": "notre-dame",
-          "text": "The government has made a 'new and significantly improved' pay offer to unions representing public sector workers, the Tánaiste said, as he dismissed scheduled strike action as being avoidable"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119450979741360420",
-          "author": "thejournal_ie",
-          "searchJob": "notre-dame",
-          "text": "The government has made a 'new and significantly improved' pay offer to unions representing public sector workers, the Tánaiste said, as he dismissed scheduled strike action as being avoidable https://t.co/Fp2EoHwOxU"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119731783608475691",
-          "author": "irishtimes",
-          "searchJob": "notre-dame",
-          "text": "🟥Tánaiste Simon Harris says new offer should provide basis for progress, but union sources suggest it still falls short Read here: https://t.co/4wenE0v8rN https://t.co/AhY1JLx05r"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119725409075868049",
-          "author": "cathcallaghantd",
-          "searchJob": "notre-dame",
-          "text": "It was a tremendous honour to address the Fine Gael Ard Fheis in Cork this weekend, just ahead of the Tánaiste’s speech. I shared a little of my journey into politics, the values my hardworking parents instilled in me, and how my experience"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119741256746049949",
-          "author": "rolldatwave",
-          "searchJob": "uconn",
-          "text": "🚨Tulane Green Wave Commit🚨 🌊Class of 27 LB🌊 Special Henry – @Henry2Special 6’3” / 195 Melissa HS – Melissa, TX Scouting Report: Length, speed, and hybrid LB upside. Listed 6’3”/195 with an 82-83” wingspan and verified 4.44-4.50 speed, H"
+          "postId": "2119732471990222984",
+          "author": "newsweek",
+          "searchJob": "florida",
+          "text": "President Trump said Sunday that he had been kidding when he announced that Ultimate Fighting Championship (UFC) CEO Dana White had been offered the role of White House press secretary. Speaking to reporters in Palm Beach, Florida, the pres"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 10,
+      "rejected": 14,
       "reasons": {
-        "player_missing_class_year": 1,
-        "school_not_resolved_confidently": 9
+        "bare_mention_requires_llm": 12,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
-          "reason": "player_missing_class_year",
-          "postId": "2119729693138014682",
-          "author": "22isaacford",
-          "searchJob": "south-carolina",
-          "text": "After a great conversation with @CoachPeteS4C i am beyond grateful for the offer from South Carolina gladiators ⚔️ https://t.co/pobKveJczy"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119745350005407830",
+          "author": "kaliyuga_end",
+          "searchJob": "rice",
+          "text": "@xWaceem @choeshow Hey Waseem, Take 10kg rice or wheat. Delete this comment. This is golden offer to a Pakistani."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119739514260213891",
-          "author": "wilnernau",
-          "searchJob": "miami",
-          "text": "🇭🇹🇺🇸 AN OPEN LETTER TO PRESIDENT DONALD J. TRUMP MR. PRESIDENT, YOU HAVE BUILT TOWERS. NOW IMAGINE HELPING TO REBUILD AN ENTIRE NATION — HAITI! By Wilner Nau (Nènè) November 9, 2026 Dear Mr. President, I am writing to you today not as o"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119744741382271225",
+          "author": "koftownflower",
+          "searchJob": "rice",
+          "text": "Your Monday meal is sorted! Get fried rice + 2 chicken + Coke for only GH₵99. Offer valid today only on the Chris B App. #PizzamanMondayDeal https://t.co/1Y7sE2HY0g"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119739227978297841",
-          "author": "maxi_innovation",
-          "searchJob": "miami",
-          "text": "Confusion creates friction. If visitors cannot quickly understand what you offer, who it serves and why it matters, you make their decision harder. Clear positioning isn’t just good communication. It’s a practical part of conversion strateg"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119743827648872467",
+          "author": "son_god13",
+          "searchJob": "rice",
+          "text": "Don't miss today's offer! Enjoy fried rice, 2 chicken and Coke for just GH₵99. Exclusively on the Chris B App this Monday. #PizzamanMondayDeal https://t.co/d7FvmsBWIB"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119738432939233673",
-          "author": "wilnernau",
-          "searchJob": "miami",
-          "text": "🇭🇹🇺🇸 AN OPEN LETTER TO PRESIDENT DONALD J. TRUMP MR. PRESIDENT, YOU HAVE BUILT TOWERS. NOW IMAGINE HELPING TO REBUILD AN ENTIRE NATION — HAITI! By Wilner Nau (Nènè) November 9, 2026 Dear Mr. President, I am writing to you today not as o"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119743820292076007",
+          "author": "eck1promo",
+          "searchJob": "rice",
+          "text": "Your Monday meal is sorted for just GH₵99! 😍 Get fried rice, 2 pieces of chicken and Coke. Hurry, this offer is ONLY available today when you order on the Chris B App. #PizzamanMondayDeal https://t.co/6FdFNtEtPV"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119742288314106166",
-          "author": "jjsalmo",
-          "searchJob": "notre-dame",
-          "text": "@mgtruth The more Burrows tweets the more he shows what an utterly vacuous clown he is. The man offers nothing, no vision of any kind. He Bryson Lockhart SunnyJim will be the true heroes of Irish reunification"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119743713245012189",
+          "author": "nanaekua21",
+          "searchJob": "rice",
+          "text": "Monday food deal! 🔥 Enjoy fried rice, 2 pieces of chicken and a bottle of Coke for just GH₵99. Offer valid TODAY ONLY, Monday, when you order through the Chris B App. #PizzamanMondayDeal https://t.co/b4YcPrkGL8"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119731152529572009",
-          "author": "bill72156026",
-          "searchJob": "notre-dame",
-          "text": "@thejournal_ie His party has been in government for 14 years. His party is responsible for much that is wrong in Irish society at the moment. Is this really the best he has to offer? It’s just not good enough. Nobody is falling for this dis"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119743486463213785",
+          "author": "enjoynotdepress",
+          "searchJob": "rice",
+          "text": "Wa Lau grocery drama ! drivers send wrong but management won’t refund insist I keep wrong groceries how can . I won’t eat and Soo many period Kotex overnight pads ! 5kg rice all . I said why not offer to send to flood victims la . How can f"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119730387324989906",
-          "author": "fgenteroyjr",
-          "searchJob": "notre-dame",
-          "text": "222 THE PHILIPPINES HAS A SPECIAL PLACE IN MY HEART ♥ Bishop John Ito of Akita, Japan was on the opinion that the Filipino Calvary offered to God may bring about the conversion of other countries. He said he hoped that Japan would be conver"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119743185731698771",
+          "author": "majorbaah7",
+          "searchJob": "rice",
+          "text": "Your Monday food cravings are sorted! Get a mini bucket of fried rice, 2 pieces of delicious chicken and a bottle of Coke for only GHS 99. Don't miss this special offer! On the Chris B app only 🔥 #PizzamanMondayDeal https://t.co/AhD3XRUuqm"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119724421023678918",
-          "author": "seanmccderry",
-          "searchJob": "notre-dame",
-          "text": "@Choyaa13 Now the Irish government is actually going to start planning for constitutional change, we will see more and more what reunification will look like. If it leads to better wages, healthcare etc what has Unionism got to offer?"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119742851118670248",
+          "author": "0xycoffin",
+          "searchJob": "rice",
+          "text": "European peoples required the land, resources, and demographic outlet of North America and Oceania to reach anything like their present absolute numbers and global share.** Without those continents, their populations would have remained far"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119723512055382382",
-          "author": "derhurrikane",
-          "searchJob": "notre-dame",
-          "text": "sure but are the NI people prepared for the social, energy and agricultural problems recent government policy has created? What is so attractive about the republic this moment in history for them to disrupt their economy? We need to offer m"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119726921139257384",
+          "author": "thebrieflive",
+          "searchJob": "rice",
+          "text": "NAMICA recorded the lowest overall cost for the selected grocery basket in October 2026, at N$1,270.95. Metro followed at N$1,289.92, while Windhoek Cash & Carry recorded N$1,322.78 and Wecke & Voigts N$1,361.79. Agra had the highest basket"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119721909466149298",
-          "author": "carajak",
-          "searchJob": "notre-dame",
-          "text": "@neilojim1972 @thompson_paddy @JR_G51_2XD Oh come on. You knew very well I meant the Irish fighting for the Irish state. That is why you have been trying to argue that the Irish state didn’t sit out the war because it offered the odd bit of"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119721351636476182",
+          "author": "pbb_updates_",
+          "searchJob": "rice",
+          "text": "Nangawit si Anthony kakamix ng rice ng boys bwahahahhaha Nathan: How about Anthony, if you're tired there. Let's switch our position.\" Hahahahahha Nathan!!!! Tas nung susubuan si Ethan at Nathan Anthony: \"Offer your mouth pookiebear.\" Antho"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119731979104964814",
+          "author": "neostatsai",
+          "searchJob": "indiana",
+          "text": "🏀 🇺🇸 NBA — ⭐ MY FINAL CARD 📅 November 9, 2026 ⭐ 1. Washington Wizards @ Detroit Pistons — Pistons ML 💵 1.21 / -468 Confidence: High ⭐ 2. San Antonio Spurs @ Phoenix Suns — Spurs ML 💵 1.29 / -345 Confidence: High ⭐ 3. Cleveland Cavalie"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119735832491831299",
+          "author": "stillnesshq",
+          "searchJob": "pittsburgh",
+          "text": "Taraji P. Henson is crying because Hollywood “underpaid” her $150,000 for a supporting role in a $335 million movie. She was third on the call sheet behind Brad Pitt and Cate Blanchett. She asked for $500k. They offered $100k. She took $150"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119731786645188813",
+          "author": "thexworldglobal",
+          "searchJob": "pittsburgh",
+          "text": "read this breakdown and tell me hollywood isn't a joke. taraji p. henson was literally third on the call sheet for benjamin button. she asked for $500k. the studio offered $100k. she fought and got $150k. then they told her she had to pay f"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119746121866338805",
+          "author": "mediamanint",
+          "searchJob": "buffalo",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Survivor Series: War Games! Australia Survived The Cyber Attack"
         }
       ]
     },
@@ -215,11 +215,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "rejectedCandidates": 14,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-09T10:44:24.990Z"
+    "status rebuilt locally from current store on 2026-11-09T10:59:07.999Z"
   ]
 }
