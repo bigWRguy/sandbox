@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T08:43:54.371Z",
+  "generatedAt": "2026-11-09T08:58:51.786Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-09T08:43:53.792Z",
+    "at": "2026-11-09T08:58:51.257Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0276277777777778,
-    "p95Hours": 2.027550833333333,
-    "worstHours": 2.027550833333333
+    "medianHours": 0.5221622222222222,
+    "p95Hours": 1.7753155555555555,
+    "worstHours": 2.0281694444444445
   },
   "decisionCoverage": {
-    "total": 26,
-    "decided": 26,
+    "total": 7,
+    "decided": 7,
     "complete": true
   },
   "pending": {
@@ -55,223 +55,88 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-09T08:43:53.791Z",
-      "got": 35,
-      "new": 26,
+      "at": "2026-11-09T08:58:51.257Z",
+      "got": 11,
+      "new": 7,
       "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-11-09T08:42:14.936Z",
+    "at": "2026-11-09T08:57:12.207Z",
     "mode": "live",
     "collection": {
-      "returned": 35,
-      "kept": 26,
-      "duplicate": 8,
-      "tooOld": 1,
+      "returned": 11,
+      "kept": 7,
+      "duplicate": 4,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 10,
+      "accepted": 6,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 5,
-        "no_offer_term": 5
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2119689241336685051",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "Test drives. Loaners. Service bays. Customer records. Auto dealers face risk before the next sale even starts. Our Oklahoma-domiciled RRG offers garage liability + dealer cyber liability coverage in key markets. Keep the wheels turning."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119709544288748002",
-          "author": "pirwot",
-          "searchJob": "oregon",
-          "text": "Twelve ways to borrow in Kampala, priced on one annual yardstick: from 6% to 144% a year. The cheapest money most businesses can get is already sitting in their own invoices. https://t.co/V9pj2YrUz2"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119705393727156492",
-          "author": "marvel67y",
-          "searchJob": "california",
-          "text": "For twenty-six years, Amelia Foster had lived a life that looked perfect to everyone except herself. She had studied law because her parents wanted her to become a lawyer. She had attended the university they selected, lived in the city the"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2118746515640320473",
-          "author": "hayleyhalv",
-          "searchJob": "california",
-          "text": "Atlas is now free when you use Stripe for banking. Open a Stripe Treasury account within 7 days of incorporating and we’ll deposit $500 to cover your Atlas fee. Get started: https://t.co/piDOi43LQ3"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119699037020455292",
-          "author": "nschnider21",
-          "searchJob": "california",
-          "text": "@DrlProof @redeemed43328 Man... I am not ai bro... But you're tranny. So instead of proving something I'll just offer you visit golden gate bridge in California"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119689108696228178",
-          "author": "tuanperera",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/hTF6SIGRi9"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119711859683230043",
-          "author": "arun_golaya",
-          "searchJob": "army",
-          "text": "https://t.co/jXNR9AvkNT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119710914865729639",
-          "author": "ziddiarmygaming",
-          "searchJob": "army",
-          "text": "@Paytmcare @Paytm @PaytmBusiness ya offers bar bar aata hai or reject Ho jata hai but Q or ek bat bar bar ya he do company offer karta hai cbil bhi thik hai to reject बार-बार kyon ho raha hai https://t.co/lCK0mkh4Qe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119707964642861136",
-          "author": "ellecrypto22",
-          "searchJob": "army",
-          "text": "when you’re inconsistent and he’s reacting quite disproportionately 2 peas of a pod should I act like the woman of God 24/7 and never play offense hmmmm I’ll consider it, what’s the offer 🤔💭"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119673850271268983",
-          "author": "johnsmithabtc",
-          "searchJob": "army",
-          "text": "AGNIVEER: SIX YEARS OF SERVICE, A STRONGER FINANCIAL FUTURE The Agnipath Scheme is empowering India's youth with financial stability, military excellence and valuable career opportunities. 💰 Year 1: ₹30,000/month 💰 Year 2: ₹33,000/month \ud83d"
+          "reason": "hard_negative",
+          "postId": "2119715282159554861",
+          "author": "rolldatwave",
+          "searchJob": "texas",
+          "text": "🚨Tulane Green Wave Commit🚨 🌊Class of 27 LB🌊 Special Henry – @Henry2Special 6’3” / 195 Melissa HS – Melissa, TX Scouting Report: Length, speed, and hybrid LB upside. Listed 6’3”/195 with an 82-83” wingspan and verified 4.44-4.50 speed, H"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 6,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "author_not_recruit:no recruit fields": 1,
-        "multiple_resolved_schools": 5
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 3
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119681510399758388",
-          "author": "updateuzee",
-          "searchJob": "nevada",
-          "text": "5 US STOCKS. 5 EARNINGS CATALYSTS. 5 DIFFERENT INVESTMENT STORIES. 📊🇺🇸 This week, investors are watching five companies that could offer important insights into where the US market is heading. But remember: a strong company doesn't autom"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119692058545815817",
-          "author": "goodgoodgood",
-          "searchJob": "missouri",
-          "text": "Missouri voters reject effort to ban abortion in the state — The ballot measure's failure offers a rebuke to efforts by Missouri’s Republican leaders, who largely oppose abortion. https://t.co/zgG4eoKRQV"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2119705453361787025",
-          "author": "marvel67y",
-          "searchJob": "california",
-          "text": "Amelia nodded. \"I kept it because it was the last time I remember being excited about my future.\" Her father sat down. For the first time, he looked uncertain. Then Amelia revealed something else. She had already applied to a film productio"
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2119705107755372548",
-          "author": "watcher0437actl",
-          "searchJob": "california",
-          "text": "Policy roundup, Nov 8. ✅ Confirmed across outlets ⚖️ Contested ⚠️ Single source 🗣️ Framing US Dana White offered press secretary ✅ Trump offered UFC CEO Dana White the White House press secretary job, and White plans to meet Trump in DC. ⚖"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119701645676425293",
+          "postId": "2119715626155700631",
           "author": "heybrosai",
-          "searchJob": "california",
-          "text": "Atlas being free is nice, but don't fall into this trap because: Atlas being free is nice, but this could turn out to be a trap for you if you don't know the cost of maintaining one. Here is this- ? Delaware tax: $400/yr for an LLC (was $30"
+          "searchJob": "delaware",
+          "text": "Atlas being free is nice, but this could turn out to be a trap for you if you don't know the cost of maintaining one. Here is this why? ? Delaware tax: $400/yr for an LLC (was $300 till this year), due June 1. Late adds $200 plus 1.5% a mon"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119694011657241079",
-          "author": "jovieonandon",
-          "searchJob": "california",
-          "text": "A thought experiment: if Tesla were to rebalance its global footprint, where could each piece fit? (Speculative analysis only, not company plans.) 🇦🇷 Argentina could suit: • Lithium: possible offtake deals or stakes in the \"lithium triang"
+          "postId": "2119706481826189337",
+          "author": "n_no_f_eu",
+          "searchJob": "nebraska",
+          "text": "#Trump Appoints #Miller White House Chief of Staff Following Loss of #Congress, Signals Shift to Hardline Stance Donald Trump has appointed 41-year-old Stephen Miller as White House Chief of Staff immediately following the Republicans' defe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119711767680962695",
+          "author": "zanoafrica",
+          "searchJob": "texas",
+          "text": "Zano Ecosystem Recap: November 1–8, 2026 Activity this week centered on in-person events (AIBC World in Rome and Exit and Build 6), the release of the September–October Monthly Project Update, continued promotion of real-world spending tool"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119702612320932122",
-          "author": "loong_of",
-          "searchJob": "arkansas-state",
-          "text": "Breaking: Bangladesh Air Force to Acquire 20 J-10CE Fighter Jets from China in a $1.96 Billion Deal Zahed-ur-Rahman, an advisor to the Bangladeshi government, has confirmed to the media that the policy and financial approvals for the Bangla"
+          "postId": "2119692766854996151",
+          "author": "bblythe_gr",
+          "searchJob": "texas",
+          "text": "$SPCX $TSLA $SPCM $SPCH $TSLL $TSLT $NVDA Elon Musk Blasts California’s ‘Extreme Taxes,’ Offers To Axe SpaceX Govt Deals — Analysts See A Political Dip-Buy Musk projected government revenue would fall below 10% of SpaceX’s sales this quarte"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119699926838022217",
-          "author": "praveenvar1625",
-          "searchJob": "arkansas-state",
-          "text": "🌐 The Legacy of Hope : How NTR Garu, The NTR Trust, and Dr. Nori Dattatreyudu built a World class Cancer Care Hospital in Hyderabad . Great institutions are rarely born out of convenience; they are forged in the crucible of personal grief "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119694402511585737",
-          "author": "_crypto_outlook",
-          "searchJob": "arkansas-state",
-          "text": "Crypto industry wins 245 supporters in Congress with $176 million, but loses allies in key committees. Crypto Recap No. 170 Week 46, November 2–8, 2026 Cryptocurrencies closed in the red. The past week in the crypto market was shaped by out"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119692967011049593",
-          "author": "kosherchutzpah",
-          "searchJob": "arkansas-state",
-          "text": "Never forget that Palestinians were offered a state in 1937, 1947, 1967, 2000, 2001, and 2008. They said no every time!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119688448579719275",
-          "author": "rizeonline",
-          "searchJob": "arkansas-state",
-          "text": "Wizard Vicuna 7B Uncensored GGUF is an older but approachable local-chat distribution: small files, CPU-friendly testing and a clear path into classic GGUF workflows. 🧭 Overview This is Eric Hartford’s Wizard Vicuna 7B Uncensored in a wide"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119687455653662833",
-          "author": "lavaheadza",
-          "searchJob": "arkansas-state",
-          "text": "Sjoe! The AI Revolution Has Arrived⚡ Eskom Is Still Looking for the Extension Cord! ~ 🚰 Silicon Valley Wants Data Centres. South Africa Can't Even Deliver the Water for the Cooling System! ~ We've Got the Memorandum, the Partnership and th"
+          "postId": "2119689654169489756",
+          "author": "aggiepsychdoc",
+          "searchJob": "texas",
+          "text": "PLEASE PLEASE DO NOT CERTIFY this election President Trump! I’m a 5th generation Texan & I have studied Texas politics since 1988. This is NOT what happened here. The Dems CHEATED. For the first time I EVER VOTED in Texas, in 1988; I was of"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119711238880133161",
-          "author": "officialpreetim",
-          "searchJob": "army",
-          "text": "Major Changes in Agnipath Scheme: Agniveers May Get an Additional 2-Year Service Extension! Introduced in June 2022, the Agnipath Scheme allows young Indians to serve in the Indian Army, Navy and Air Force as Agniveers for an initial period"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119709951492829682",
-          "author": "velitesgear",
-          "searchJob": "army",
-          "text": "RT @velitesgear | Full Text Article: https://t.co/SOx3zZGAdb | Author: @militarnyi Argentina to Acquire Four Black Hawk Helicopters for $28 Million, Down from Approved $140 Million Argentina has signed a $28 million deal with the United Sta"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119694531734261812",
-          "author": "billnutcher",
-          "searchJob": "army",
-          "text": "A lot of people have asked me why I flipped to West Point. After spending 4 weekends in a row in the drunk tank I got my scholarship taken. Don’t know why army offered me since I hammer warm beers and stick handle my 94 mustang. All good tr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119687670423306332",
-          "author": "faroofarooque",
-          "searchJob": "army",
-          "text": "Agnipath is shaping a stronger generation The Agniveer programme offers India's youth an opportunity for permanent enrolment in the Indian Army, subject to selection criteria, while building discipline, leadership and military excellence. #"
+          "postId": "2119704534012334577",
+          "author": "brraydo",
+          "searchJob": "houston",
+          "text": "Austin for a show then houston for birthdays then another show — my liver and mental health is begging for a break Great job offer received Close friend revealed their having a son UNT and Mavs win Sometimes life reminds you it’s worth it ("
         }
       ]
     },
@@ -286,11 +151,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-09T08:43:54.372Z"
+    "status rebuilt locally from current store on 2026-11-09T08:58:51.787Z"
   ]
 }
