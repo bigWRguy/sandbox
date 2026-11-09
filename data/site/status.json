@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T08:58:51.786Z",
+  "generatedAt": "2026-11-09T09:14:04.363Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-09T08:58:51.257Z",
+    "at": "2026-11-09T09:14:03.811Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.5221622222222222,
-    "p95Hours": 1.7753155555555555,
-    "worstHours": 2.0281694444444445
+    "medianHours": 0.7756558333333333,
+    "p95Hours": 1.5304033333333333,
+    "worstHours": 2.0288091666666666
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 15,
+    "decided": 15,
     "complete": true
   },
   "pending": {
@@ -55,88 +55,147 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-09T08:58:51.257Z",
-      "got": 11,
-      "new": 7,
-      "lag": 0.05
+      "at": "2026-11-09T09:14:03.810Z",
+      "got": 26,
+      "new": 15,
+      "lag": 0.21
     }
   },
   "audit": {
-    "at": "2026-11-09T08:57:12.207Z",
+    "at": "2026-11-09T09:12:23.845Z",
     "mode": "live",
     "collection": {
-      "returned": 11,
-      "kept": 7,
-      "duplicate": 4,
+      "returned": 26,
+      "kept": 15,
+      "duplicate": 11,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 1,
+      "accepted": 13,
+      "rejected": 2,
       "reasons": {
+        "no_fbs_school": 1,
         "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2119714242387468708",
+          "author": "holtzrice88",
+          "searchJob": "rice",
+          "text": "@ItsTorTor11 Agreed. Fans who cry and have nothing to offer on my algo suck ass. https://t.co/nMWXGteJ5O"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2119715282159554861",
-          "author": "rolldatwave",
-          "searchJob": "texas",
-          "text": "🚨Tulane Green Wave Commit🚨 🌊Class of 27 LB🌊 Special Henry – @Henry2Special 6’3” / 195 Melissa HS – Melissa, TX Scouting Report: Length, speed, and hybrid LB upside. Listed 6’3”/195 with an 82-83” wingspan and verified 4.44-4.50 speed, H"
+          "postId": "2119717031247303032",
+          "author": "sunsentinel",
+          "searchJob": "miami",
+          "text": "In the wake of Doc Rivers questioning Giannis Antetokounmpo’s basketball IQ and commitment to the Milwaukee Bucks when Rivers coached him, the Miami Heat forward offered his response. https://t.co/vVFSPz6npC"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 13,
       "reasons": {
-        "multiple_resolved_schools": 3,
-        "bare_mention_requires_llm": 3
+        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 4,
+        "school_not_resolved_confidently": 7,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119715626155700631",
-          "author": "heybrosai",
-          "searchJob": "delaware",
-          "text": "Atlas being free is nice, but this could turn out to be a trap for you if you don't know the cost of maintaining one. Here is this why? ? Delaware tax: $400/yr for an LLC (was $300 till this year), due June 1. Late adds $200 plus 1.5% a mon"
+          "reason": "reporter_missing_player_name",
+          "postId": "2119694264154075268",
+          "author": "thebigguywjcl",
+          "searchJob": "georgia-southern",
+          "text": "Southside Savannah studs lands offer from @GSAthletics_FB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119706481826189337",
-          "author": "n_no_f_eu",
-          "searchJob": "nebraska",
-          "text": "#Trump Appoints #Miller White House Chief of Staff Following Loss of #Congress, Signals Shift to Hardline Stance Donald Trump has appointed 41-year-old Stephen Miller as White House Chief of Staff immediately following the Republicans' defe"
+          "postId": "2119705574250053751",
+          "author": "lesstalk355",
+          "searchJob": "rice",
+          "text": "@willismallz The guy fuck up. What nonsense is that she said she doesn't have much and offered to help him with the egg n rice he requested Bro is foolish and it's not funny"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119711767680962695",
-          "author": "zanoafrica",
-          "searchJob": "texas",
-          "text": "Zano Ecosystem Recap: November 1–8, 2026 Activity this week centered on in-person events (AIBC World in Rome and Exit and Build 6), the release of the September–October Monthly Project Update, continued promotion of real-world spending tool"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119692766854996151",
-          "author": "bblythe_gr",
-          "searchJob": "texas",
-          "text": "$SPCX $TSLA $SPCM $SPCH $TSLL $TSLT $NVDA Elon Musk Blasts California’s ‘Extreme Taxes,’ Offers To Axe SpaceX Govt Deals — Analysts See A Political Dip-Buy Musk projected government revenue would fall below 10% of SpaceX’s sales this quarte"
+          "postId": "2119699443117121599",
+          "author": "bioeconomycorp",
+          "searchJob": "rice",
+          "text": "Better soil. Faster germination. Healthier crop growth. Meet Dr. Muhammad Nurfaiz Abd Kharim from Universiti Malaysia Kelantan (UMK), who is harnessing the power of beneficial tropical soil microorganisms to enhance agricultural productivit"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119689654169489756",
-          "author": "aggiepsychdoc",
-          "searchJob": "texas",
-          "text": "PLEASE PLEASE DO NOT CERTIFY this election President Trump! I’m a 5th generation Texan & I have studied Texas politics since 1988. This is NOT what happened here. The Dems CHEATED. For the first time I EVER VOTED in Texas, in 1988; I was of"
+          "postId": "2119691043159622090",
+          "author": "mason_king2",
+          "searchJob": "rice",
+          "text": "@TierReport @Chorgan2282 @crusor66 @RiceMakesRight @risucci_rick Garcia is a platoon bat. He’s far worse than Ben Rice I would imagine if Bobby Witt was on the market, a lot of teams would be in on it and can offer more than a star DH as a "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119685711888617788",
+          "author": "mason_king2",
+          "searchJob": "rice",
+          "text": "@TierReport @Chorgan2282 @crusor66 @RiceMakesRight @risucci_rick I have to be honest, you just can’t offer a package that will be enough to outbid other teams for Bobby Witt I love Ben Rice, but he’s a DH. He’s not A-Rod. He’s far from it"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119716623149904038",
+          "author": "steveplotnicki",
+          "searchJob": "miami",
+          "text": "@jr_ados @NickyFrank30 As someone who has spent the last 10 winters in Miami Beach and who is about to become a resident, there’s a reason people move there from Blue States which is they the lifestyle offered by a red state even if they vo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119714697792372908",
+          "author": "cuse_orange153",
+          "searchJob": "miami",
+          "text": "@JoeinClark The Bengals would not.... Miami offered 4 before he was even drafted and the Bengals said no"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119706571085173149",
+          "author": "acfer01",
+          "searchJob": "notre-dame",
+          "text": "ACFMorningMeeting - Oil relief- President Trump said on Sunday that further US attacks on Iran were highly unlikely while talks progressed. Brent eased, reducing one source of inflation pressure before the European open. Friday’s strong US "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119705230254420466",
+          "author": "carajak",
+          "searchJob": "notre-dame",
+          "text": "@neilojim1972 @thompson_paddy @JR_G51_2XD The Irish government was offered unification to join the war and still refused to fight fascism. You can dress it up however you like, but the Irish sat that one out."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119704741106057667",
+          "author": "tony_calvin",
+          "searchJob": "notre-dame",
+          "text": "The @AKBets podcast was recorded very early doors this morning, and the working title is Absolute Tin Roofer Don't think we missed any big story from last week and had some fun with bookmakers' on-course percentages and why AI horse racing "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119695766310592717",
+          "author": "kasianutricoach",
+          "searchJob": "notre-dame",
+          "text": "The Irish electorate of those traitors in power just got strengthened by a 10% rise offer to stop their strike and keep them voting against the intetests of the country. How lovely."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119694812873912333",
+          "author": "itzcozy3",
+          "searchJob": "notre-dame",
+          "text": "Get your quality fabrics from us! DM us on WhatsApp at 0706 824 5463 to place your order. We offer top-quality fabrics like linen combo, stripes linen, Italian crepe, cotton checkers, and Irish linen. Visit us at @cozyfabrics or Tejuosho Sh"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119704534012334577",
-          "author": "brraydo",
-          "searchJob": "houston",
-          "text": "Austin for a show then houston for birthdays then another show — my liver and mental health is begging for a break Great job offer received Close friend revealed their having a son UNT and Mavs win Sometimes life reminds you it’s worth it ("
+          "postId": "2119705577328914841",
+          "author": "cenjows",
+          "searchJob": "air-force",
+          "text": "#Publication_Alert \"On 12 September 2026, President Xi Jinping arrived in New Delhi decked out for the BRICS Summit, his first visit to India in seven years. Three days earlier, at Air Force Station Jodhpur, the Indian Air Force (IAF) and J"
         }
       ]
     },
@@ -151,11 +210,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 13,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-09T08:58:51.787Z"
+    "status rebuilt locally from current store on 2026-11-09T09:14:04.365Z"
   ]
 }
