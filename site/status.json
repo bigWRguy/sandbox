@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T21:43:47.350Z",
+  "generatedAt": "2026-11-09T21:59:01.109Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-09T21:43:46.942Z",
+    "at": "2026-11-09T21:59:00.564Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,22 +32,22 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7738216666666666,
-    "p95Hours": 1.5201172222222221,
-    "worstHours": 1.7737172222222222
+    "medianHours": 0.7759583333333333,
+    "p95Hours": 1.52651,
+    "worstHours": 1.52651
   },
   "decisionCoverage": {
-    "total": 102,
-    "decided": 102,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
-    "total": 109
+    "total": 110
   },
   "profileResolution": {
     "cached": 104
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 4467,
     "incompleteOffers": 0
@@ -55,381 +55,316 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-09T21:43:46.942Z",
-      "got": 152,
-      "new": 102,
-      "lag": 0.04
+      "at": "2026-11-09T21:59:00.564Z",
+      "got": 66,
+      "new": 39,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-09T21:42:11.187Z",
+    "at": "2026-11-09T21:57:16.098Z",
     "mode": "live",
     "collection": {
-      "returned": 152,
-      "kept": 102,
-      "duplicate": 49,
+      "returned": 66,
+      "kept": 39,
+      "duplicate": 26,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 41,
-      "rejected": 61,
+      "accepted": 17,
+      "rejected": 22,
       "reasons": {
-        "no_fbs_school": 33,
-        "no_offer_term": 17,
-        "hard_negative": 2,
-        "non_fbs_offer_target": 9
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 12,
+        "no_offer_term": 8,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2119903823292477917",
-          "author": "filteredflowai",
-          "searchJob": "class:2026",
-          "text": "𝗙𝗜𝗟𝗧𝗘𝗥𝗘𝗗 𝗙𝗟𝗢𝗪 — 𝗥𝗢𝗧𝗔𝗧𝗜𝗢𝗡 𝗥𝗘𝗔𝗗𝗢𝗨𝗧 · 𝟮𝟬𝟮𝟲-𝟭𝟭-𝟬𝟵 Breadth green with vol offered — the tape wants higher. · XLE +0.5% with materials · defensives bid (XLP -0.39% · XLU 1.13%) The call: no relative edge today. "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119900696338391099",
-          "author": "wenchangyue",
-          "searchJob": "class:2026",
-          "text": "Half of second resections for T1 bladder cancer still find tumor, and about 1 in 10 turn out to be muscle-invasive. What the pathologist can and cannot read, and who can skip the operation. https://t.co/gwvXPMO0sh"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119899102318059618",
-          "author": "danielbamidele0",
-          "searchJob": "class:2026",
-          "text": "https://t.co/697SPccc5J"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119886385515807088",
-          "author": "vsachar",
-          "searchJob": "class:2026",
-          "text": "Is the best AI model now the cheaper choice? 🧭 In Anthropic's own tests, Claude Fable 5.2 nearly matched Opus 5.5's top FrontierCode score for roughly half the cost per task. For founders and operators deciding what to build, and at what e"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119906796760433068",
-          "author": "beatelandefeld",
-          "searchJob": "washington",
-          "text": "🇺🇸 Europe fears Trump will deal with Putin over Ukraine and Iran bypassing Kiev According to The Telegraph, Washington is considering a major deal with Moscow that could simultaneously advance the resolution of the Ukrainian conflict and "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119906427741278336",
-          "author": "brane_mija64426",
-          "searchJob": "washington",
-          "text": "🇺🇸 Europe fears Trump will deal with Putin over Ukraine and Iran bypassing Kiev According to The Telegraph, Washington is considering a major deal with Moscow that could simultaneously advance the resolution of the Ukrainian conflict and "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119893451231961549",
-          "author": "efficientstats",
-          "searchJob": "washington",
-          "text": "https://t.co/ekUo5qZZJe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119889161037484372",
-          "author": "quintinreports",
-          "searchJob": "washington",
-          "text": "Moncks Corner Police offer free security programs for local businesses and churches https://t.co/tz6sYSrDas #chsnews"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119888581040750962",
-          "author": "jws846893322695",
-          "searchJob": "washington",
-          "text": "GQ, who is not a scholar or scientist, claims that \"science proves that Adam and Eve couldn't exist.”But, as usual, he is working from outdated assumptions, and not the latest science. His claim has been thoroughly debunked by actual secula"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119887566862463356",
-          "author": "_cthr33_",
-          "searchJob": "washington",
-          "text": "#Agtg Im blessed to pick up my 6th offer from @KC_MTXE @CoachTaylor53 @CoachTraCarson https://t.co/xmpGi464lt"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119610245039185989",
-          "author": "jwigderson",
-          "searchJob": "wisconsin",
-          "text": "Be careful what you wish for. We shouldn't wish that an insurrectionist like @derrickvanorden would have any possibility of returning to Congress."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119587387252654434",
-          "author": "3rdwivolunteers",
-          "searchJob": "wisconsin",
-          "text": "Me finding out @derrickvanorden filed to run again. https://t.co/RrtxcYn8Yd"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119897074267521061",
-          "author": "coachxbolden",
-          "searchJob": "wisconsin",
-          "text": "Congratulations, Rhys, on your second offer, from Wisconsin Lutheran College. 65 tackles, 2 forced fumbles and 2 fumble recoveries this season, and college coaches are noticing. Proud of you. @WLC_Football @MaxPreps @PrepRedzone @PrepRedzon"
-        },
-        {
           "reason": "non_fbs_offer_target",
-          "postId": "2119884233489428962",
-          "author": "k7rtis",
-          "searchJob": "wisconsin",
-          "text": "Blessed to recieve an offer from Wisconsin Lutheran college @CoachNateNevad @WLC_Football https://t.co/37PcGfitxF"
+          "postId": "2119895412173853158",
+          "author": "zay2valid",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Grossmont College! @djHeartAttak @GorillasNorth @JUCOFFrenzy https://t.co/M1iHBZBdjb"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119882726794805364",
-          "author": "tanpukunokami",
-          "searchJob": "wisconsin",
-          "text": "April 2012. A rusted Harley washes ashore in North America after drifting 4,000 miles from the Japanese tsunami. Harley Davidson offered to make it brand new for free, and a 29 year old man who had nothing left turned them down. His name wa"
+          "postId": "2119891669197750718",
+          "author": "traysten5",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a good conversation with @coachcannon97 and @coach_stigers i’m blessed to receive an offer from Northeast 🐯🐯 https://t.co/zbfGJ1oQHa"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2119899512017756317",
-          "author": "charlespetril",
-          "searchJob": "phrase:\"thankful to receive an offer\"",
-          "text": "Thankful to receive an offer from Wayne state! @WSUWarriorFB @TerrenceIsaac1 @AllenTrieu @TomLoy247 @JaredLuginbill @NEOhioball @Bryan_Ault @mccaleb_ma62883 @bryandoberdruk @PrepRedzoneOH https://t.co/LVOBWtprYW"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119907657557717443",
-          "author": "riley_oliver_",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @NathanKero81 I am blessed to receive another offer to play football at Norse @coachcwell4 @Ben_1082321 https://t.co/RvYt6q9j51"
+          "reason": "no_offer_term",
+          "postId": "2119891294533337422",
+          "author": "alana_t19",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Honored and blessed to receive 3A Region 8 Honorable Mention! Thankful for everyone who has supported me along the way. @KristenBGregory @NCSA_CoachKK @GrizzlyCoachKat @LindsayFico @COACHDREWGREER @CoachBallMalone @e_newellcoach @CoachKuhlm"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119900115989143667",
-          "author": "samuelacquaye_",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG After a great conversation with @KobeChambers182 I’m blessed to receive an offer from @ETBU_Football @AHMO_FOOTBALL @CoachCarter68 @glomanlam https://t.co/piIrKDjTid"
+          "postId": "2119888806899806337",
+          "author": "lzapataot",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "blessed to receive my first offer by @CoachBWalker15 https://t.co/NYWgnFWJ4w"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119895030064160885",
-          "author": "devorndemas",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @RobHuberty I am extremely blessed to receive my 2nd offer from @SNCfootball !!!!! @Theonly_Dom3 @25inthe_game @coachMA_world @CoachWoot_06 @tlchfootball https://t.co/Y9G9lKrc0I"
+          "postId": "2119888221115158986",
+          "author": "jaydenluangrath",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive and offer from @GhouseGriffinFB @djHeartAttak @p1recruiting @CJPollard1 @muraco_lhs https://t.co/rAsWIzDpbx"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119894464806453678",
-          "author": "gavinblade09",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @FaragAdam I’m extremely blessed to announce I have recovered my first offer from the university of Saint Mary #AGTG @DunnellonFTBL @TheCoachHamm @JB3Bynum https://t.co/SjYvxwwukb"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2119893211040649350",
-          "author": "taffjames007",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a Great conversation with @LawUnlockSmith I am Blessed too receive an Offer from Atlantis University! #AGTG https://t.co/ZVwBxIw0IT"
+          "postId": "2119887022844211422",
+          "author": "landonbyrd27",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @SUhornetsFB #SUfootball #gohornets @HBBauserman https://t.co/FH4OQTdiw8"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119892726951075931",
-          "author": "_lukelawless12",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Walls I’m blessed to receive an offer from @GoMidwayEagles https://t.co/sVIfZzYxDw"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2119889542690046338",
-          "author": "vincenthar91245",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Jeff Reed, I'm blessed and excited to announce that I have officially received my 4TH COLLEGE OFFER FROM LANGSTON UNIVERSITY! https://t.co/RIHhjLDqIb"
+          "postId": "2119895764075737582",
+          "author": "dbarker2442",
+          "searchJob": "phrase:\"1st D1 offer\"",
+          "text": "Yes sir!!!!!! Class of ‘27 WR @AndrewS75861 getting that 1st D1 offer from VMI!! What a moment for you man! 1 great year can change your life! So appreciative to @Coach_MarcusT @Coach_Ray_ & HC @CoachAIngram for recruiting our guys! So prou"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119889029101453594",
-          "author": "masongentz55",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @LUCoachRobby I’m blessed to say I received my first official offer to Lakeland University. Go Muskies! @MIexposure @MiRecruits https://t.co/H9tdaX6F1C"
+          "postId": "2119905428528115716",
+          "author": "saranstm",
+          "searchJob": "north-carolina",
+          "text": "“I kept my festivals indoors.” - I have seen this statement generate quite a bit of criticism. Let me offer my two cents on how I interpret it (ofcourse at the risk of being called a brown sepoy) To me, keeping our festivals indoors does no"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119373820377382923",
+          "author": "riyengr",
+          "searchJob": "north-carolina",
+          "text": "I’m a South Indian born & raised as a fourth-generation Delhi girl. I assimilated to such an extent that I looked like a Delhi girl—my Hindi was very fluent, I dressed like a North Indian & celebrated their festivals. I did the same in the "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119904153660977471",
+          "author": "mikeasti11",
+          "searchJob": "pittsburgh",
+          "text": "Mike McCarthy Offers Explanation for DK Metcalf’s Declining Production https://t.co/Mwb6o0yYbf"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2119902056760701256",
+          "author": "kosi1011",
+          "searchJob": "colorado-state",
+          "text": "On Wednesday, Nov. 11, Colorado Parks and Wildlife is offering free entry to all state parks for veterans, active-duty military members and National Guard members. Get more details at https://t.co/yaG0sRm0PQ #veteransday #veterans #military"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119875166725394784",
+          "author": "fft1776",
+          "searchJob": "navy",
+          "text": "🚨THEY SAID THE QUIET PART OUT LOUD … NOW THEY WANT EVERYONE TO FORGET IT! Union Pacific’s CEO told customers he’d raise their rates for opposing his massive railroad merger. Then Union Pacific went to court to keep the video from the publi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119588232489017775",
+          "author": "betterworld86",
+          "searchJob": "nevada",
+          "text": "It’s two counties, not cities and 88% of the state lives there, this is right wing thinking on display, even when they’re greatly outnumbered and unpopular, it’s 8/10 an of the state who are the other"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119582770620166466",
+          "author": "cox1782",
+          "searchJob": "nevada",
+          "text": "@BetterWorld86 Wrong its a red state with two libtarded cities which happen to be the 2 largest cities in the state."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119886678773116986",
+          "author": "greyson2020",
+          "searchJob": "new-mexico",
+          "text": "@TrulyUli @SSN_Pac12 This format rewards weaker G6 conferences. The PAC shouldn’t accept any team from the AAC at this point. Just offer New Mexico St. and Sacramento St."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119891358978846802",
+          "author": "dwcp2",
+          "searchJob": "class:2027",
+          "text": "Said before and again about @Colts: @JayT23 and Colts 2027 2nd. For 2027 1st, 3rd, Day 3 pick 2028 2nd, 4th Best RB or DL. First team to make that makes that offer gets him."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119886526314058226",
+          "author": "gcfbrecruiting",
+          "searchJob": "class:2027",
+          "text": "2027 RB with his senior highlights! Someone needs to offer this kid! #RecruitGC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119870557373997155",
+          "author": "blaikejackson",
+          "searchJob": "class:2027",
+          "text": "Unfortunately lost in the playoffs. I had an incredible senior season, breaking records within the season!💪🏽 11 Games 235-Carries 1430-Rushing Yards🔥 23-Tds🔥 1647-All Purpose🔥 @GCFBRecruiting @Coach_MikeRob @OHSAASports @PrepRedzoneOH "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119899090616299894",
+          "author": "tracybagwell50",
+          "searchJob": "alabama",
+          "text": "There’s already a clear path for bulldozers @ElonMusk, but you destroyed this man’s land in Alabama—killing habitat, 200-year-old oak trees, and devaluing most of it. It’s for robots and a data center. Make this make sense. Why destroy when"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119909871852073399",
+          "author": "brianskellenger",
+          "searchJob": "michigan",
+          "text": "https://t.co/S7674xrpNn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119890728134308142",
+          "author": "miorthoandspine",
+          "searchJob": "michigan",
+          "text": "We are here to offer treatments to help you decrease pain and increase mobility and get back to what you love as quickly as possible! Contact us today for more information at https://t.co/aHm0l6Smke https://t.co/l53NO3rhqB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119898573265588292",
+          "author": "primeroydiez",
+          "searchJob": "minnesota",
+          "text": "¡Nuestro card de player props para el MNF en Minnesota! 💰 Mételos en @Stake_Mexico con el código PRIMEROYDIEZ: https://t.co/HMVPUs79DD https://t.co/LKD4tP1hwl"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 41,
+      "rejected": 17,
       "reasons": {
-        "bare_mention_requires_llm": 28,
-        "multiple_resolved_schools": 6,
-        "reporter_missing_class_year": 1,
-        "school_not_resolved_confidently": 5,
-        "author_not_recruit:no recruit fields": 1
+        "unresolved_offer_target": 1,
+        "bare_mention_requires_llm": 14,
+        "multiple_resolved_schools": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119905119315570696",
-          "author": "siavashgg",
-          "searchJob": "washington",
-          "text": "I don't buy this for a second. Trump explicitly said he wouldn't allow Iran to enrich uranium. Vance said in June that unlike Obama's deal, theirs would NOT allow enrichment. Now we're supposed to believe Washington suddenly agreed to 3.67%"
+          "reason": "unresolved_offer_target",
+          "postId": "2119912168271568936",
+          "author": "tperides05",
+          "searchJob": "pittsburgh",
+          "text": "After many great conversations with @braydenmeyer25 I'm extremely excited to receive my first offer to play college basketball at PITT Bradford‼️@Spartan_AD https://t.co/nz3YmG1ghR"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119899614845550616",
-          "author": "letsarmukr",
-          "searchJob": "washington",
-          "text": "@EvergladesPro The Budapest Memorandum offered Ukraine security assurances, not a US defense guarantee. Washington should still help Ukraine defend itself, and Americans pressing for that are standing by an ally."
+          "postId": "2119899706826596391",
+          "author": "dylan_gozens",
+          "searchJob": "pittsburgh",
+          "text": "@Barsky420 @Ajinator_27 @SanderGoat85 Nah throw the Pittsburgh trade out the windows entirely. Philly has more to offer in longevity young for young stand point"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119899580229955720",
-          "author": "nwmsound",
-          "searchJob": "washington",
-          "text": "🚨 THE POST-ELECTION RECKONING: PRESIDENT TRUMP CONCEDES DEPORTATION CRACKDOWN MIGHT HAVE BEEN \"TOO TOUGH\" FOR VOTERS! 🚨 In his first major post-election interview following the seismic \"blue wave\" midterm results that handed control of bo"
+          "postId": "2119910572104012229",
+          "author": "chloemae_xo1",
+          "searchJob": "navy",
+          "text": "@7amilola The navy sweater and yes sir energy is soft but we both know the money offer is next, right?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119905027204465114",
+          "author": "ellenbyrdhain",
+          "searchJob": "navy",
+          "text": "@7amilola The navy sweater and yes sir energy is soft but we both know the money offer is next, right?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119898140325167164",
+          "author": "goklipjames",
+          "searchJob": "navy",
+          "text": "@siaxares Iran's navy is almost gone, their nuke program was set back a few years, and their economy is wrecked. I think Trump messed them up. Maybe Trump should offer to lift the blockade in exchange for something."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119890674061619576",
+          "author": "gigabeers",
+          "searchJob": "navy",
+          "text": "Why the hell would Susie block this? 😤 Erik Prince (Navy SEAL, Blackwater founder) offered the planes, camps, and operators to massively scale deportations. She sat on it. Slow-walked it. Protected the wrong priorities. 🚫 Stephen Miller s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119888314786537730",
+          "author": "betteranderson1",
+          "searchJob": "navy",
+          "text": "Erik Prince, former Navy Seal, offers to help massively ramp up deportations on a private level. https://t.co/zQYLNqKqyY"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119906785008234921",
+          "author": "joyguo218",
+          "searchJob": "nevada",
+          "text": "@BetterWorld86 Nevada becoming a deep blue state is truly saddening. What does this state have to offer? Not education not healthcare, not diversified industries, only some tax benefits. Now it is going to be striped away by the woke right "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119906027525255645",
+          "author": "joyguo218",
+          "searchJob": "nevada",
+          "text": "Nevada becoming a deep blue state is truly saddening. What does this state have to offer? Not education not healthcare, not diversified industries, only some tax benefits. Now it is going to be striped away by the woke right and all dems ad"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119899189354062031",
-          "author": "natebauerbwi",
-          "searchJob": "washington",
-          "text": "At Penn State, Matt Campbell is building the future through the present. The win at Washington offered a glimpse of the standards he's establishing - and the work that remains. ➡️ https://t.co/U1k50uvdgU https://t.co/BHRqvFrarG"
+          "postId": "2119902856174039136",
+          "author": "webullglobal",
+          "searchJob": "nevada",
+          "text": "College basketball season is here. Webull offers event contracts on college basketball. Trade Yes/No contracts on select games, with pricing that moves as the action unfolds. Big matchups coming up: Duke vs. Michigan State and Kansas vs. Ke"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119890272217665708",
-          "author": "belgium_times",
-          "searchJob": "washington",
-          "text": "EU offers cash for Black Sea attack response, while Washington pursues diplomacy on safe passage, weighing proposals from Turkey and India. I think Europe should fund response efforts, but real passage security needs a political settlement,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119889948601991346",
-          "author": "ivan_8848",
-          "searchJob": "washington",
-          "text": "The American Conservative: The Ukraine Conflict Could Have Been Prevented — Kiev and the West Missed Several Chances for Peace New details about diplomacy between Russia and the West suggest the war in Ukraine was not inevitable. The public"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2119889619227451837",
-          "author": "quaerobooks",
-          "searchJob": "washington",
-          "text": "Coincidentally, I just framed a 1945 newspaper front page featuring a scare story about independence rendering \"hopeless all prospects of (Puerto Rico) maintaining even the present low standard of living.\" It was basically a threat from the"
+          "postId": "2119899090758557808",
+          "author": "mdbiz",
+          "searchJob": "maryland",
+          "text": "It's National Veterans Small Business Week (November 9-13). Maryland offers a variety of resources, tools, and programs to help veteran-owned businesses launch, grow, expand, and thrive. https://t.co/zFwZ4nggkK https://t.co/rfdZjhzgHx"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119889325101858966",
-          "author": "hollandhart",
-          "searchJob": "washington",
-          "text": "Two days after the election, the incoming chair of the Senate’s investigations subcommittee sent 58 oversight letters to companies, foundations, and individuals who donated to the White House ballroom. None was accused of wrongdoing. That i"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119882756570460235",
-          "author": "yesterdaysmom",
-          "searchJob": "washington",
-          "text": "🎄🇺🇸 CHRISTMAS THROUGH THE YEARS Christmas 1780: Betrayal, Hardship, and a Glimmer of Hope By Christmas 1780, the American Revolution had entered its sixth year. The Continental Army was exhausted, supplies were scarce, and independence w"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119904699432226875",
-          "author": "mkemarionw",
-          "searchJob": "wisconsin",
-          "text": "Maybe I'm just pollyannish, but I *really* don't like recycling politicians after they lose (see my disdain for Tim Michels and Eric Hovde). There's a reason why the private sector weeds out job applications of people who have been fired. I"
+          "postId": "2119905629863383091",
+          "author": "chiefegregore",
+          "searchJob": "michigan",
+          "text": "I have an interesting counterproposal. A good friend of mine is thoroughly representative of the Rust Belt working class faction that broke away from the Dems and made Trump's election possible. He is not a man of statistics. He's not going"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119903162870194657",
-          "author": "treysmith278",
-          "searchJob": "wisconsin",
-          "text": "@216_Wildboy @osubuckeyedad Nobody pushed West out. He was literally next in line for a starting spot. He left because Wisconsin made him a bigger offer"
+          "postId": "2119905254728998964",
+          "author": "blackwaterbilly",
+          "searchJob": "michigan",
+          "text": "@12_beersdeep Michigan could afford 1 and 5, with an 8 million dollar per year offer."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119892148426584168",
-          "author": "jsp4000",
-          "searchJob": "wisconsin",
-          "text": "@PatMcAfeeShow @AdamSchefter Ah well if @packers now that one I’d have to throw out some ball park offers on, 100k pounds of Wisconsin cheese , a 2nd round pick and a player , see if @Ravens would nibble"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119907056924717134",
-          "author": "thedisruptor_1",
-          "searchJob": "miami",
-          "text": "@WadexFlash I keep saying this the day Bucks waved him. He is exactly what Miami is missing. A highly talented chaos agents who can create his own shot and also move the defense around. Milwaukee isn't going anywhere, offer a pick to dump J"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119897951568830958",
-          "author": "miamilawschool",
-          "searchJob": "miami",
-          "text": "Fridays on The Bricks offers a convenient way to explore Miami Law through a guided campus tour and an admissions advising session, all in one visit. Join us this Friday, Nov. 13! Register at https://t.co/yeF5auWDAG https://t.co/6hDXtICFCw"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119891915835355492",
-          "author": "0xskik",
-          "searchJob": "miami",
-          "text": "P Diddy was j*rking off in front of a hundred guests. A girl would walk up. Stay for a minute. Walk away. Then another. He’d go inside. Come back. Start again. A hundred women at his party and he was still sitting there doing it alone on a "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119888805989654904",
-          "author": "camelot30a",
-          "searchJob": "miami",
-          "text": "AND doesn’t have an obsession with regime change in Cuba. Rubio obsessed with it and beholden to Miami cubans to offer it."
+          "postId": "2119897984032751847",
+          "author": "jacksoncollege",
+          "searchJob": "michigan",
+          "text": "Michigan Reconnect now offers FREE tuition for anyone 21+ without a degree! Learn more and secure your spot at https://t.co/9hosSB7rq1! https://t.co/Q6yi8den6K"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119886018899828941",
-          "author": "garyselfcare",
-          "searchJob": "miami",
-          "text": "A Decision Is Not the Same as the Capability to Act Two households receive the same energy-price shock and make the same rational response: they cut consumption. One absorbs it — savings buffer it, an efficient home limits it, remote work r"
+          "postId": "2119890806278598974",
+          "author": "umgobluehail",
+          "searchJob": "michigan",
+          "text": "@ChadFisher Yeah sure but Michigan has to offer him the job first, which they won’t do, because they continue to get in their own way"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119907289276743753",
-          "author": "gscott1233",
-          "searchJob": "arkansas-state",
-          "text": "@L0L0_Lee @karachiiite @grok Leaving Gaza while continuing to occupy east jeruslaem and the West bank. That isn't a withdrawal. And no, Israel has never offered Palestine a state. Not once. A \"state-minus\", in the words of Netanyahu? Sure. "
+          "postId": "2119907138885517612",
+          "author": "nolanrc1u",
+          "searchJob": "minnesota",
+          "text": "I'm desperately looking to sell 3 tickets to see Minnesota Vikings vs. Buffalo Bills at U.S. Bank Stadium - Minneapolis, MN Mon, Nov 09 | 7:15 PM — Price are negotiable — open to offers! Can sell separately DM me if you’re interested https:"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119905063678492951",
-          "author": "fsnj0seph",
-          "searchJob": "arkansas-state",
-          "text": "@TomeisterTom @Menmi124 @Umartheone2 No, the israelis did not offer 'peace' or a state but rather continued occupation (infact moreso formalised but with a satrapy contractor) after oslo. Rabin was open about this and the historical record "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119904413800395078",
-          "author": "walterbentley83",
-          "searchJob": "arkansas-state",
-          "text": "@KosherChutzpah They were offered a state in their own country ??"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119903159808303459",
-          "author": "tomeistertom",
-          "searchJob": "arkansas-state",
-          "text": "@FSNJ0seph @Menmi124 @Umartheone2 The Oct 7 Massacre will come with consequence, and the Gaza war is 100% deserved. Palestinian resistance is futile. They were offered peace, a state, but no; continued to try and blow up jews over sky daddy"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119899116821979641",
-          "author": "traceurheart",
-          "searchJob": "arkansas-state",
-          "text": "@KosherChutzpah The Indigenous ppl of the US were also offered a state...😒"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119897539423932453",
-          "author": "l0l0_lee",
-          "searchJob": "arkansas-state",
-          "text": "\"What withdrawal?\" The one from Gaza, which you just skipped bc you can't defend what Hamas did with it. Every soldier, every civilian, 2005. Result: rockets, tunnels, October 7. West Bank? Israel offered a state with East Jerusalem in 2000"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119896536612044845",
-          "author": "flafscotland",
-          "searchJob": "arkansas-state",
-          "text": "@KosherChutzpah Offered a state by whom?"
+          "postId": "2119893011538780345",
+          "author": "mattymattjd",
+          "searchJob": "minnesota",
+          "text": "@TheeRobBanta What makes zero sense here is Quinn was given the max and told “choose the term” …why isn’t it done? I can totally see him signing too…but why isn’t he signed yet? Is it because he’s waiting for Larkin? I don’t see Detroit mov"
         }
       ]
     },
@@ -444,11 +379,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 41,
+      "rejectedCandidates": 17,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-09T21:43:47.351Z"
+    "status rebuilt locally from current store on 2026-11-09T21:59:01.110Z"
   ]
 }
