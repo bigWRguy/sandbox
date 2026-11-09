@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T05:13:55.733Z",
+  "generatedAt": "2026-11-09T05:28:38.756Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-09T05:13:55.178Z",
+    "at": "2026-11-09T05:28:38.396Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7818819444444445,
-    "p95Hours": 1.5278302777777777,
-    "worstHours": 1.5278302777777777
+    "medianHours": 0.5231472222222222,
+    "p95Hours": 1.2717208333333334,
+    "worstHours": 1.5223619444444445
   },
   "decisionCoverage": {
-    "total": 36,
-    "decided": 36,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -55,279 +55,111 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-09T05:13:55.177Z",
-      "got": 47,
-      "new": 36,
-      "lag": 0.06
+      "at": "2026-11-09T05:28:38.395Z",
+      "got": 30,
+      "new": 10,
+      "lag": 0.3
     }
   },
   "audit": {
-    "at": "2026-11-09T05:12:16.033Z",
+    "at": "2026-11-09T05:27:07.706Z",
     "mode": "live",
     "collection": {
-      "returned": 47,
-      "kept": 36,
-      "duplicate": 11,
+      "returned": 30,
+      "kept": 10,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
-      "rejected": 10,
+      "accepted": 3,
+      "rejected": 7,
       "reasons": {
+        "no_fbs_school": 3,
+        "hard_negative": 1,
         "no_offer_term": 2,
-        "hard_negative": 2,
-        "no_fbs_school": 6
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2119656166003294693",
-          "author": "robinfrancis",
-          "searchJob": "arkansas-state",
-          "text": "https://t.co/0KyEVXw117"
+          "reason": "no_fbs_school",
+          "postId": "2119639078052278544",
+          "author": "stolenstuffhi",
+          "searchJob": "hawaii",
+          "text": "LOST PET: African grey parrot Eddie, lost near Olomana in Kailua since July 2 Reported by Patti Laurel SSH: From the family's flyer: Eddie is an African grey parrot, about 12 inches, mostly grey with red tail feathers, friendly, may say som"
         },
         {
           "reason": "hard_negative",
-          "postId": "2119654480958370214",
-          "author": "sprayberryjay",
-          "searchJob": "san-diego-state",
-          "text": "Kerry Brown @KerryBrown58 - c/o 2027 - OL/IOL/OG/DT - Woods Cross High School @WX_Football @WX__Football (He Has Offers From The Texas Tech Red Raiders, San Diego State Aztecs, &amp; Utah State Aggies) https://t.co/AkLz6bdfCR"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2119657072921088318",
-          "author": "314graphics",
-          "searchJob": "iowa",
-          "text": "BREAKING: 2027 3⭐️ LB Special Henry has flipped his commitment from Iowa State to Tulane he tells me. - Henry held 15+ D1 offers coming out of high school and stands at 6'2\" 195lbs. - Welcome home home Green Wave fans. https://t.co/AikfX7CJ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119653054844948762",
-          "author": "mentorcapital1",
-          "searchJob": "california",
-          "text": "@wholemars @NevrEnoughX I want the $250k offered in California for a Tesla semi truck https://t.co/VteVFJVxpt"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119652790834168097",
-          "author": "countertyrannyx",
-          "searchJob": "california",
-          "text": "We're in insane trouble. Trump is doing that stupid thing again where he negotiates/deals with enemies. Russia, China, Iran... And before it was Feinstein/Schumer on guns... And now again with immigration with Dems. The Dems are evil, they "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119649989718860190",
-          "author": "deanh2014",
-          "searchJob": "california",
-          "text": "Rage Against The Machine Has reportedly turned down an offer to headline the 2027 Coachella Music Festival in Indio, California RATM has not played live since August 14, 2022 #RATM #Coachella https://t.co/akChZ2tZNP"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119648646060990475",
-          "author": "king_tm650",
-          "searchJob": "california",
-          "text": "Regular Season Highlights - #1 seed in Northern California - 0 sacks allowed - 0 pressures allowed - 6’6 330 OG/OT - 4x Deans list (3.73 gpa/AA in hand) - 5 Division One Offers #popmode @coachTcsm @tlbutler5 @api_mane @CoachDovey @talakai91"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119639983984157022",
-          "author": "capostsports",
-          "searchJob": "california",
-          "text": "Justin Herbert weapon offers eye-popping take on Chargers' epic failure https://t.co/bGf2z1heqg https://t.co/73Gr8YAqN9"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119639849309212914",
-          "author": "californiapost",
-          "searchJob": "california",
-          "text": "Justin Herbert weapon offers eye-popping take on Chargers' epic failure https://t.co/hpo276w2ea https://t.co/yMPHD8Epkz"
+          "postId": "2119646796938932426",
+          "author": "fitzhill",
+          "searchJob": "arkansas",
+          "text": "I love the energy birthed in this locker room by teammates of the young man who just received a scholarship offer to play basketball at Jackson State University. Hopefully this will inspire his peers to also consider college even if they do"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119637094075339057",
-          "author": "tangestate",
-          "searchJob": "california",
-          "text": "https://t.co/lEbDQxN3g3"
+          "postId": "2119648001731829837",
+          "author": "coachoffers",
+          "searchJob": "nebraska",
+          "text": "@THEKingBuckeye So my question is what happens if northwestern pulls off the upset in the shoe, loses to Nebraska who is hungry to finally beat us in the recent memory, and the a possible loss against that team up north.... I would think th"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119656749087035863",
+          "author": "kudzunewz",
+          "searchJob": "texas",
+          "text": "https://t.co/cvLUSPPnKK"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2119650905629098195",
+          "author": "rorycrave",
+          "searchJob": "texas",
+          "text": "Microsoft, one of Nscale’s primary customers, opted not to extend a contract at a Texas data center with the startup ahead of its planned public offering, according to a person familiar with the matter https://t.co/aXmtwtHFbE"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119648693917814786",
+          "author": "houstonchron",
+          "searchJob": "texas",
+          "text": "The DOJ says it will offer up to $50 million for information that can lead to the arrests or convictions of alleged gang leaders in any country. https://t.co/Ka8l4AwYIy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119643074775408892",
+          "author": "corneliusjs",
+          "searchJob": "texas",
+          "text": "I asked Grok to analyze election concerns raised in Texas in 2018 since that midterm has been offered up as some kind of defense of the 2026 midterm numbers in Texas. For the reasons Grok explores, I think such reliance on 2018 is problemat"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 26,
+      "rejected": 3,
       "reasons": {
-        "bare_mention_requires_llm": 25,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119653838382641368",
-          "author": "lefty80vt",
-          "searchJob": "arkansas-state",
-          "text": "@KTrayn23 @Andreafreedom76 I worked at a state college after retiring from teaching at a public high school. After 8 years at this college I was told I was not being offered a contract the next year."
+          "postId": "2119654348787454089",
+          "author": "crimewatchzw",
+          "searchJob": "texas",
+          "text": "Has anyone else’s experienced this⁉️ | I am writing to formally complain about Texas Meat Market on Fife Street in Bulawayo over what I believe is an unfair business practice. I am also concerned about the store's refusal to offer a fair an"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119652554594222516",
-          "author": "lynnhowlett",
-          "searchJob": "arkansas-state",
-          "text": "It's heartbreaking. I know the work required to reach a state final or get a D1 offer. You can work so hard & reach a level of achievement but without stewardship over that achievement - you stand on shaky ground to lose it all in a split s"
+          "postId": "2119643035130798084",
+          "author": "fredocervantes",
+          "searchJob": "houston",
+          "text": "Eight games into the season, the #Chargers are still searching for their first victory, and Sunday's 44-22 demolition at the hands of the Houston #Texans offered another painful reminder of just how far this franchise has fallen. @SportingT"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119647782009032933",
-          "author": "sybilla6834",
-          "searchJob": "arkansas-state",
-          "text": "Calling the documented sequence ridiculous doesn’t erase it. Netanyahu negotiated with Ra’am in 2021 and made offers; Religious Zionism blocked a full deal, so the formal inclusion happened under Change. That is the order of events. The seq"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119658221543805106",
-          "author": "chorgan2282",
-          "searchJob": "rice",
-          "text": "@TierReport @crusor66 @RiceMakesRight @risucci_rick Unfortunately Rice has a better bat but as for position, he’s just 1st baseman. Which the royals have a surplus of (Vinnie and Cags) Red Sox can offer a better offer. Royals are ran like d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119657253162938422",
-          "author": "astro_raghv",
-          "searchJob": "rice",
-          "text": "Govardhan Puja clay house remedy 🏠 Dreaming of your own home? 🙏 🪔 You need A small clay house, Ganga jal, roli and rice, prasad 🔱 The ritual 1Sprinkle Ganga jal and apply roli tilak 2Place prasad inside and offer bhog to Govardhan Mahar"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119656840233668832",
-          "author": "ramarajubhaskar",
-          "searchJob": "rice",
-          "text": "@SuiBuilds Food is so local in my state we eat kajjikaya a stuffed sweet, stuffing made with bengal gram, dried grated coconut, jaggery We eat garelu - black gram rice cake fried Pulihora - tamarind rice and so on how to celebrate? Fresh ba"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119655111924330681",
-          "author": "tierreport",
-          "searchJob": "rice",
-          "text": "@Chorgan2282 @crusor66 @RiceMakesRight @risucci_rick Rice is better than any position player the Sox could offer. And, the Yankees have guys like Warren and Weathers (both with multiple years of team control) who are already established MLB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119653443518533847",
-          "author": "vietnambiketour",
-          "searchJob": "rice",
-          "text": "Vietnam Day4. MEKONG DELTA – THE FRENCH LEGACY AND THE AMERICAN WAR The Mekong Delta has witnessed dramatic chapters of Vietnamese history. During the French colonial period (1858–1954), the region became an important agricultural and comme"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119653043927163293",
-          "author": "dugryce",
-          "searchJob": "rice",
-          "text": "On the ninth of January 1966, a farmer went on the radio in Hattiesburg, Mississippi, and made his neighbours an offer. You can come and register to vote at my shop, he told them. And if you cannot afford the two dollar tax, do not worry ab"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119645769699627373",
-          "author": "tierreport",
-          "searchJob": "rice",
-          "text": "@55_jason_55 @CRS195610 @risucci_rick This is a pretty laughable offer. Witt is a HOF SS. He’s the face of that franchise. He’s this generations George Brett in KC. They legit can’t consider anything that doesn’t get them a franchise type p"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119642417884168260",
-          "author": "okariauke",
-          "searchJob": "rice",
-          "text": "@Mimi_yakigar They will offer him rice, and if he refuses, they will activate Wike to come down with some CofOs, even if it's half of Abuja. So if tomorrow or in a few days the Prof. says it's a prank, you should understand. After all, na N"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119639970017169805",
-          "author": "tierreport",
-          "searchJob": "rice",
-          "text": "@buanadha @risucci_rick The Royals would laugh but the Yankees make that trade so fast your head would spin. Which of those five guys is sure fire pieces the next few years? Maybe two, though Jones may be a trade piece. Witt is a game chang"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119639257522290922",
-          "author": "tierreport",
-          "searchJob": "rice",
-          "text": "@55_jason_55 @CRS195610 @risucci_rick Yes they’d laugh. This offer is two shortstops, Jones and two minor league pitchers. For pitching they’d want like Warren and Weathers who are more established. And they would I’m certain demand Rice in"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119656468752507090",
-          "author": "tailgatetulane",
-          "searchJob": "iowa",
-          "text": "🚨 Tulane has flipped 3⭐ LB Special Henry from Iowa State! The 6’4”, 195-pound linebacker out of Melissa, Texas, holds 20+ Division I offers and brings an 83” wingspan, elite versatility, and a 4.46 40-yard dash to the Green Wave. https://t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119647576261615937",
-          "author": "goodgoodgood",
-          "searchJob": "missouri",
-          "text": "Missouri voters reject effort to ban abortion in the state — The ballot measure's failure offers a rebuke to efforts by Missouri’s Republican leaders, who largely oppose abortion. → https://t.co/zgG4eoKRQV https://t.co/MIWENEzwey"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2119658848780943849",
-          "author": "rossquigster",
-          "searchJob": "oregon",
-          "text": "@Average_Homeboy @TheUteCoalition USC offered him the D coordinator position in 2024 which prompted the first “when exactly is Whitt leaving” situation. Oregon, Texas and a Florida all came for Scalley wanting him."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119641015871000632",
-          "author": "red40reds",
-          "searchJob": "oregon",
-          "text": "@MackeyJackJones As if he doesn’t already have a Oregon offer lol. Money talks + OSU doesn’t play him for whatever reason. I wish him the best if he goes."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119649738983371253",
-          "author": "nizibizizbig",
-          "searchJob": "california",
-          "text": "TRUTH DESK™ | 9 November 2026 UTC OOOH ERRR! It isn’t quite James Bond. And it isn’t Jason Bourne. It’s a backpack full of cash in a California locker, a paid consultancy offer on LinkedIn, and a former German spy chief whose old office sud"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119638964013515062",
-          "author": "ravon120",
-          "searchJob": "california",
-          "text": "@jswriter65 @lsferguson he saying will protect cheap labor ! He just a prop offer amnesty ! He said feel sorry cheap labor ! California become non white pop in 90s used to vote gop ! hispanics support tax the rich , free college , heakthcar"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119637398619553975",
-          "author": "actrfg",
-          "searchJob": "california",
-          "text": "The Associated Press has called the result on #Proposition37, with #California voters approving a measure to create a #homebuying assistance program for #middleincomefamilies The measure authorizes the state to issue up to $25 billion in #r"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119654918701371586",
-          "author": "krishnaadireddi",
-          "searchJob": "army",
-          "text": "@PawanKalyan Sir, My friend from Veeravasaram Village, West Godavari District was lured to Russia with a job offer and has been trapped and forced into the Russian Army. We humbly request you to intervene urgently and bring him back to Indi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119652883142779057",
-          "author": "krishnaadireddi",
-          "searchJob": "army",
-          "text": "@naralokesh Sir, My friend from Veeravasaram Village, West Godavari District was lured to Russia with a job offer and has been trapped and forced into the Russian Army. We humbly request you to intervene urgently and bring him back to India"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119647312922517691",
-          "author": "phoenixxx_afc",
-          "searchJob": "army",
-          "text": "@purplejola Seyi no get Army.. forget those following him up and down now, them no loyal, any small offer them don port. Just activate their transfer fee and it’s all over"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119644832574448044",
-          "author": "profnapsalot",
-          "searchJob": "army",
-          "text": "@bokuen Our armed forces are filled to the brim with weebs. They only demand three things when being recruited: crayons (Marines), fingerpaint (Army), and a body-pillow of their waifu (all branches). In return for your anime, we offer to pu"
+          "postId": "2119642383063318883",
+          "author": "grooganfox26",
+          "searchJob": "houston",
+          "text": "With threat of State funding cuts washed away by “Blue Wave” Houston Mayor @whitmire_john severely limits @houstonpolice cooperation w/ ICE. The “What’s Your Point?” Crew offered reaction on @FOX26Houston https://t.co/pez29id1eC"
         }
       ]
     },
@@ -342,11 +174,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 26,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-09T05:13:55.734Z"
+    "status rebuilt locally from current store on 2026-11-09T05:28:38.757Z"
   ]
 }
