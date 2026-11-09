@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T06:28:42.606Z",
+  "generatedAt": "2026-11-09T06:43:46.311Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-09T06:28:42.081Z",
+    "at": "2026-11-09T06:43:45.954Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7730836111111111,
-    "p95Hours": 1.2740405555555556,
-    "worstHours": 1.5242166666666668
+    "medianHours": 0.7754852777777778,
+    "p95Hours": 1.2773863888888888,
+    "worstHours": 1.5250697222222223
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 10,
+    "decided": 10,
     "complete": true
   },
   "pending": {
@@ -55,174 +55,111 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-09T06:28:42.081Z",
-      "got": 27,
-      "new": 19,
-      "lag": 0.05
+      "at": "2026-11-09T06:43:45.954Z",
+      "got": 20,
+      "new": 10,
+      "lag": 0.27
     }
   },
   "audit": {
-    "at": "2026-11-09T06:27:02.981Z",
+    "at": "2026-11-09T06:42:15.172Z",
     "mode": "live",
     "collection": {
-      "returned": 27,
-      "kept": 19,
-      "duplicate": 7,
-      "tooOld": 1,
+      "returned": 20,
+      "kept": 10,
+      "duplicate": 10,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 6,
+      "accepted": 8,
+      "rejected": 2,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 3
+        "no_fbs_school": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2119657923412738323",
-          "author": "ettech",
-          "searchJob": "texas-tech",
-          "text": "The letter, cited in a report by The New York Times, accuses Microsoft of pursuing AI with a “speed-at-all-costs” approach and urges the company to stop linking employees' use of AI tools to performance rewards or reprimands. Read the full "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119657529244332068",
-          "author": "naumowf",
-          "searchJob": "texas-tech",
-          "text": "https://t.co/Om7GxduiYB"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2119660810247266350",
-          "author": "chairmen152151",
-          "searchJob": "nevada",
-          "text": "U.S. SKYSCRAPER DEVELOPMENT & CORPORATE TAX PLANNING STRATEGY We are planning to develop skyscrapers in both New York and Las Vegas. Given New York's relatively high tax burden, we believe it would be more advantageous to establish our Tax "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119664584571154874",
-          "author": "anne73447231035",
-          "searchJob": "minnesota",
-          "text": "Cities Church in Minnesota releases a statement after Don Lemon and an angry mob of left-wing agitators stormed their church. \"Jesus is real. When we gather on Sunday mornings to worship him, we are gladly giving ourselves to what is most c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119666142855995466",
-          "author": "zach_baylor",
-          "searchJob": "baylor",
-          "text": "@ByronYork I respect your journalism. Trump offered his opinion without any charade he was the author of his opinion. Did VP Vance take authorship for his words on the need for change in relations with Israel or did refer to sources and met"
+          "postId": "2119660271903908113",
+          "author": "kjrh2hd",
+          "searchJob": "oklahoma",
+          "text": "Arrest info, neighbors offer clues to woman's killing near Lake Eufaula 🔗 Find link in our bio. https://t.co/Zr7oWMKmS5"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119674523834265738",
-          "author": "newscentraltv",
-          "searchJob": "virginia",
-          "text": "https://t.co/fta7jF5TfM"
+          "postId": "2119628812485058738",
+          "author": "bts_bighit",
+          "searchJob": "army",
+          "text": "[공지] BTS WORLD TOUR ‘ARIRANG’ IN LONDON 출시 안내 (+ENG/JPN/CHN) 🔗 https://t.co/EsYF4UKfOs #BTS #방탄소년단 #BTS_WORLDTOUR_ARIRANG #BTS_WORLDTOUR_ARIRANG_LONDON https://t.co/ic0zQwVoS7"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 8,
       "reasons": {
-        "school_not_resolved_confidently": 10,
-        "reporter_missing_class_year": 1,
-        "bare_mention_requires_llm": 2
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 6,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119660222281371792",
-          "author": "stfual",
-          "searchJob": "texas-tech",
-          "text": "@therealautoblog Tech every time. Western manufacturers and reviewers are legacy focused. I won't buy a new $75K car with the CPU and memory of a 7 year old $200 phone. If instead of sparkly paint or better wheels the configurator offered a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119659169053819262",
-          "author": "domaingalaxy",
-          "searchJob": "texas-tech",
-          "text": "🚀 **PREMIUM AI DOMAIN FOR SALE: https://t.co/ejLxKvo4Ev** 🔥 **Your Next Big AI Brand Deserves a Powerful Name!** The future of technology is being shaped by Artificial Intelligence. Search, discovery, prompt engineering, and intelligent a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119658635865305190",
-          "author": "chiefengineerce",
-          "searchJob": "texas-tech",
-          "text": "Illegal Monday An Open Letter from the People Who Are Not Interested in Citizenship Dear Americans, You keep asking why so many of us undocumented never file for citizenship. You treat it like a mystery or like we do not know better. We kno"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2119658028869865747",
-          "author": "benjamingolan",
-          "searchJob": "texas-tech",
-          "text": "Created a new On3/Rivals profile for Burleson Centennial DB Landyn Bagley (@Landyn_Bagley). Bagley was in Lubbock for #TexasTech's 53-48 win over WVU where picked up his first in-state offer from the Red Raiders @RedRaiderSports https://t.c"
+          "reason": "multiple_resolved_schools",
+          "postId": "2119661771044921812",
+          "author": "stellaaa",
+          "searchJob": "ohio",
+          "text": "Just ran into an ex at the local bar… Literally only saw him as I was sitting down (I swear). And, when I saw him, I asked if he’s comfortable with me sitting nearby and, if not, I offered to sit on the other side of the bar no big deal. Di"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119672231047418239",
-          "author": "islandsmagazine",
-          "searchJob": "nevada",
-          "text": "Culbertson Lake is in the Sierra Nevada Mountains near Lake Tahoe but offers much quieter turquoise waters and fishing because it can only be reached on foot. https://t.co/V9W4oLyOso"
+          "postId": "2119671507656069581",
+          "author": "astewartidy",
+          "searchJob": "california",
+          "text": "End-of-park Idyllwild living with a peaceful meadow backdrop 🌲 26350 Delano #109: 2 beds, 1 bath, 580 sq. ft., plus a finished enclosed California room. Offered at $120,000. https://t.co/dxpvIJmcYy #IdyllwildRealEstate #TeamStewart https:/"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119677780938178640",
-          "author": "iamgaurangdesai",
-          "searchJob": "wake-forest",
-          "text": "why i preordered @temple , even after the doctors called it a scam temple is built for a very specific person and i’m that person, someone who: - takes health seriously but runs a chaotic schedule - already runs a personal health data syste"
+          "postId": "2119666072291054071",
+          "author": "justin97987147",
+          "searchJob": "california",
+          "text": "@SteveHiltonx I believed in you Steve Hilton! I believed in you for a reason Bcuz You believed in California Willing to make it a golden dream sequel Something California hasn’t seen in a long time California wanted what you offered Voted f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119660735617958049",
+          "author": "barista_ta27411",
+          "searchJob": "california",
+          "text": "@EndWokeness 1.2 million across the entire country. Different time but it wasnt until ten years later when California offered welfare for illegals that everything changed. Pete Wilson sued but was voted out before they had a chance to rever"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2119674990438019353",
-          "author": "jiekkema",
-          "searchJob": "wake-forest",
-          "text": "Following the Communist Party will only lead you straight to the crematorium. Do not believe that the Communist Party can offer you anything good—wake up sooner rather than later. — Mr. Musk🤣🤣🤣🤣🤣"
+          "postId": "2119676231096435036",
+          "author": "mlsreacts",
+          "searchJob": "arkansas-state",
+          "text": "@MT_TRAP_CAT Just sayin, USL chose their choice Can't be like \"Chattanooga belongs in the USL\" when the USL gave them a shit offer and went with Red Wolves instead"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119671943947547032",
-          "author": "robinebers",
-          "searchJob": "wake-forest",
-          "text": "when will devin finally allow model selects this is my biggest gripe offer fusion, offer modes but let people select models ffs this feels like someone internally pushes for max babysitting instead of letting users make their own choices de"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119678296916893992",
+          "author": "idlesaturn7",
+          "searchJob": "army",
+          "text": "Guys...@bts_bighit, I'm usually not the one complaining, because I love you and I do appreciate your work, but allow me to voice my thoughts...just this time, because I was SO excited about this... Look... I can live with the absence of phy"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119671213115261389",
-          "author": "authorpulkit",
-          "searchJob": "wake-forest",
-          "text": "When the Air We Breathe Becomes Toxic: It's Pondicherry's Turn Now On the eve of Diwali, I came across some deeply shocking air quality readings from Pondicherry. At one point, the city reportedly featured among the world's most polluted lo"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119670322136023052",
+          "author": "ahmedelbayoumy",
+          "searchJob": "army",
+          "text": "@Anne73447231035 @asqalon @clashreport Liar….To whom they offered that Israeli diplomats or British ones…(Lausanne49 was only temporaryceasefire confer. based on the armed locations including only army commanders)..always false narratives f"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119665659529310352",
-          "author": "optivenlimited",
-          "searchJob": "wake-forest",
-          "text": "𝐁𝐋𝐀𝐂𝐊 𝐍𝐎𝐕𝐄𝐌𝐁𝐄𝐑 𝐈𝐒 𝐇𝐄𝐑𝐄! 🔥 It's Monday, the offer is LIVE, and it won't be around for long! Ocean View Ridge, Vipingo is going for KSh. 1.795M (down from 1.995M). That's 200K OFF plus 2 RETURN TICKETS! ✈️ - Wake up to the"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119660289599885372",
-          "author": "emredavidex",
-          "searchJob": "wake-forest",
-          "text": "CT turned trading into a 9-to-5 where your boss is a candlestick and your salary isn’t guaranteed. people wake up needing to make $5k before lunch, even when the market offers nothing. that’s how you go from trading opportunities to manufac"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119660294087569483",
-          "author": "owanidandiengs",
-          "searchJob": "charlotte",
-          "text": "In case you didn't watch NFL Sunday: >A fan brawl broke out in the parking lot after 49ers-Raiders leaving multiple grown men literally out cold >🏈Bears beat Bucs 27-24 despite Caleb throwing 4 picks -Bucs defense forced 5 turnovers but th"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119658953084690809",
-          "author": "yanperonn",
-          "searchJob": "charlotte",
-          "text": "In case you didn't watch NFL Sunday: >A fan brawl broke out in the parking lot after 49ers-Raiders leaving multiple grown men literally out cold (vid in replies) >🏈Bears beat Bucs 27-24 despite Caleb throwing 4 picks -Bucs defense forced 5"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119669618386120733",
+          "author": "aremdaum",
+          "searchJob": "army",
+          "text": "@bts_bighit Don't buy this. We should show our disapproval of what HYBE is doing, and by not buying from them, we'll teach them not to take ARMY lightly. They want to make money off everything and don't even bother to offer anything worthwh"
         }
       ]
     },
@@ -237,11 +174,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-09T06:28:42.608Z"
+    "status rebuilt locally from current store on 2026-11-09T06:43:46.312Z"
   ]
 }
