@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T05:30:37.473Z",
+  "generatedAt": "2026-11-10T05:43:42.857Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-10T05:30:36.964Z",
+    "at": "2026-11-10T05:43:42.437Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 10,
+    "requests": 11,
+    "fullSweepCycles": 17
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,86 +32,58 @@
   },
   "staleSchools": [
     {
-      "id": "wake-forest",
-      "hours": 2.6
-    },
-    {
-      "id": "central-michigan",
-      "hours": 2.2
-    },
-    {
-      "id": "charlotte",
-      "hours": 2.2
-    },
-    {
-      "id": "coastal-carolina",
-      "hours": 2.2
-    },
-    {
       "id": "florida-atlantic",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "georgia-state",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "hawaii",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "jacksonville-state",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "james-madison",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "kennesaw-state",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "kent-state",
-      "hours": 2.2
-    },
-    {
-      "id": "louisville",
-      "hours": 2.2
-    },
-    {
-      "id": "miami",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "minnesota",
-      "hours": 2.2
-    },
-    {
-      "id": "mississippi-state",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "rice",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "sam-houston",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "western-michigan",
-      "hours": 2.2
+      "hours": 2.4
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.8066277777777778,
-    "p95Hours": 2.2074141666666667,
-    "worstHours": 2.5588538888888888
+    "medianHours": 1.02479,
+    "p95Hours": 2.425576388888889,
+    "worstHours": 2.425576388888889
   },
   "decisionCoverage": {
-    "total": 42,
-    "decided": 42,
+    "total": 30,
+    "decided": 30,
     "complete": true
   },
   "pending": {
@@ -120,7 +92,7 @@
   "profileResolution": {
     "cached": 104
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4491,
     "incompleteOffers": 0
@@ -128,331 +100,251 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-10T05:30:36.964Z",
-      "got": 80,
-      "new": 42,
-      "lag": 0.06
+      "at": "2026-11-10T05:43:42.437Z",
+      "got": 46,
+      "new": 30,
+      "lag": 0.35
     }
   },
   "audit": {
-    "at": "2026-11-10T05:29:05.941Z",
+    "at": "2026-11-10T05:43:04.730Z",
     "mode": "live",
     "collection": {
-      "returned": 80,
-      "kept": 42,
-      "duplicate": 38,
+      "returned": 46,
+      "kept": 30,
+      "duplicate": 16,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 25,
-      "rejected": 17,
+      "accepted": 24,
+      "rejected": 6,
       "reasons": {
-        "non_fbs_offer_target": 1,
-        "no_offer_term": 7,
-        "no_fbs_school": 8,
-        "hard_negative": 1
+        "no_fbs_school": 4,
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2119998773396934675",
-          "author": "kdfrm84w",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG After a great talk with @CoachTSims I am blessed to receive an offer from Pearl River Community College!!💛❤️JACKBOYZ https://t.co/ZjUZ09u3bf"
+          "reason": "no_fbs_school",
+          "postId": "2120012697647382595",
+          "author": "colts12pacers24",
+          "searchJob": "minnesota",
+          "text": "@ZachHicks2 Maybe the Vikings will offer something more for Daniel Jones after what we just watched in Minnesota from Wentz. Hopefully it's something the Colts can't turn down so we can finally get Daniel Jones out of Indy!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120006877601738999",
+          "author": "smhighlights1",
+          "searchJob": "minnesota",
+          "text": "Justin Jefferson Takes A Seat On The Vikings Bench And Just Analyzes And Thinks About This Game. I Just Wonder What His Thoughts Are Right Now After The Night He’s Had To Sit Through. All I’m Gonna Say Is The Trade Deadline Is Tomorrow. And"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119997629685723404",
+          "author": "jamdailey",
+          "searchJob": "minnesota",
+          "text": "Watching Carson Wentz play in Minnesota tonight may be all the team needs to offer something for Daniel Jones… 👀 #ForTheShoe"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119997420557803773",
-          "author": "jaylen_byers",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive defensive player of game vs Lightridge (9-1) 0/5 targets | 1 PBU | 0 Completions 4xDefensive player of game 2xSpecial teams player of game @IndyHSFootball @rjwindows @hollywoodhart22 @danteabsher3 @carljfred @1coachreal h"
+          "postId": "2119966694105895046",
+          "author": "kurtzjd",
+          "searchJob": "minnesota",
+          "text": "@Wikitube911 Dedicated people who believe in the nonpartisan conducting of elections counted those votes. Your vapor thin conspiracy theories are disrespectful of their efforts. Cows, lakes &amp; land don't vote."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119996842335404252",
-          "author": "elirodemeyer_5",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from @BethelRoyalsFB! Thank you to the coaching staff for the opportunity! @ByronMNFootball @CoachHalder @612Qs @ColinDuling https://t.co/JuPXqwYZLq"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119995482646741165",
-          "author": "john_tay14",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a good visit and be able to connect with @coachmattjohn I'm blessed to receive my 2nd offer @CCCLionsFB @DOFRecruiting https://t.co/gzKMkTvkU9"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119994671766417806",
-          "author": "bollenaisaiah",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another offer from NDSU!! @CoachTimNDSU @CoachEAmoako @TomLoy247 @AllenTrieu @Bobby_Schneid @TimVerghese @adamgorney @GregSmithCFB @RingsNthingsCA @dropped30 @CoachBo2dahouse @coachwilhite https://t.co/tKpKc4knaf"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119993485524644043",
-          "author": "5starrmarii",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit with @coachmattjohn I’am blessed to receive an offer from @CCCLionsFB https://t.co/MiwEDrzq6K"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119990431970721802",
-          "author": "thomasinforzato",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Message to ALL our recruits on X/Twitter: Mesabi IS NOT looking for RECRUITS that just want to post “Thank you/blessed - to receive my 1,2,3 or 4th offer.” All of you young men need to realize if you’re looking at a JUCO - you should probab"
+          "postId": "2119994172753199111",
+          "author": "joselitobjj",
+          "searchJob": "minnesota",
+          "text": "At this point, Minnesota should offer the Raiders a 2nd rounder and Jennings for Cousins"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119988280355672565",
-          "author": "xzaviermiller8",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 2nd team All-District Tight End. Thank you coaches and teammates, More work to be done. @CoachBDay @CoachJBrady @WFBulldogFB @ScottVossler https://t.co/fNjlLjZ0Qk"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119990778189713761",
-          "author": "jonathanlau_62",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "Blessed to say I have received my second offer from @Coach_Pogue and @BeloitBucsFB! #AGTG @WIFBRecruiting @PrepRedzoneWI @PrepRedzoneMN @D_McAfee @Chris_C_89 https://t.co/6Q6ujcas65"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2120022398640545976",
-          "author": "widereceivermag",
-          "searchJob": "virginia-tech",
-          "text": "Class of 2028 WR/DB Aaryn Chastine of Stephenson High School has offers from Oregon, Miami, Virginia Tech, North Carolina, Georgia, Wisconsin, Purdue and Toledo. See his WR Mag profile: https://t.co/jbZ2iCbQCk"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120006121197105593",
-          "author": "frank_8up",
-          "searchJob": "wake-forest",
-          "text": "autismaxxed today. enjoy https://t.co/hWjL7wtnMD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120003701440205285",
-          "author": "banditdog78",
-          "searchJob": "wake-forest",
-          "text": "@ronatheengineer L1011, but I’m willing to listen to offers"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119999075248680973",
-          "author": "astira_star",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/hVlFv1KGhw"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119990513705341146",
-          "author": "boisestatetop4",
-          "searchJob": "boise-state",
-          "text": "@FSUBurnerBurner @SamuelBrownRBT We have applied for every possible opportunity (Big 12 2023 and 2016), PAC-12 (2011 and 2023) etc. All of them. Never got an offer because their aren’t enough TV sets in Boise (yes that drove realignment bac"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119592735518904826",
-          "author": "the_mayor11",
-          "searchJob": "maryland",
-          "text": "Best in the state and it’s not even close 🗣️"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119498701802545316",
-          "author": "tevinowencrats",
-          "searchJob": "maryland",
-          "text": "-2,700 rushing yards (2nd wpial single season all time) -32 touchdowns -Broke the school record career rushing -Class of 2028 More work to be done. https://t.co/xVkxFiAGY7 https://t.co/bzZXUYNreX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2119962696229523948",
-          "author": "edwardtwinz",
-          "searchJob": "michigan",
-          "text": "🚨 Hackers hit water systems in at least 12 US states. The prime suspect is Iran. Minnesota: about 30 water systems attacked. Michigan: 9 confirmed incidents. New Jersey: 2 town water systems went blind. Staff had to run them by hand. Georg"
+          "postId": "2119987283613151363",
+          "author": "satharjavid",
+          "searchJob": "coastal-carolina",
+          "text": "#EXCLUSIVE: Karthi’s #Marshal is reportedly facing a major financial crunch &amp; chances of the shoot resuming anytime soon look very slim. With Karthi’s recent films underperforming back-to-back,the project seems to be in a tough spot.Let"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 25,
+      "rejected": 24,
       "reasons": {
-        "bare_mention_requires_llm": 8,
+        "bare_mention_requires_llm": 11,
         "school_not_resolved_confidently": 12,
-        "multiple_resolved_schools": 3,
-        "reporter_missing_player_name": 2
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120020987005518294",
-          "author": "iamdariuskelly",
-          "searchJob": "florida-state",
-          "text": "@FSUFootball offered lane kiffin son with no Head Coach?! 🤨😂😂😂"
+          "postId": "2120022805169541608",
+          "author": "kigsaw18653446",
+          "searchJob": "minnesota",
+          "text": "@JSNandFriends But if Minnesota wants to offer a first or a 1nd for him feel free to take him"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2120025368820412908",
-          "author": "sideidratech",
-          "searchJob": "wake-forest",
-          "text": "♊️ Analysis of the Quoted Post by Eric Sammons Eric Sammons writes: Forgiving your enemies is hard. I'd even say impossible without the grace of God. If you've never been betrayed, or truly and viciously been attacked by someone, you don't "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120019085874413734",
-          "author": "thewhitepageen",
-          "searchJob": "wake-forest",
-          "text": "Cancer, Nov 10: Home and heart feel especially close today, offering a soft place to land. Trust the instincts that tell you who makes you feel safe. Love Affection grows when you speak openly about what you need. Offer reassurance without "
+          "postId": "2120020588035256337",
+          "author": "nolanrc1u",
+          "searchJob": "minnesota",
+          "text": "I'm Desperately Looking to sell 3x tickets to see Minnesota Vikings vs. Atlanta Falcons on 11/29 at U.S. Bank Stadium - Minneapolis, MN Sun, Nov 29 | 12:00 PM — Price are negotiable — open to offers! Can sell separately DM me if you’re inte"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120017714484011358",
-          "author": "ruebush77",
-          "searchJob": "wake-forest",
-          "text": "@PSUNationRec @Hayesfawcett3 @Rivals @WakeFB @ajroberts5_ Buddy wanted his nil offer up’d before even touching campus. Stop acting like this is a legit recruiting win"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120017180729164213",
-          "author": "chandaranasuper",
-          "searchJob": "wake-forest",
-          "text": "Tuesday morning dilemma: Your eyes are open, but your wallet is still hitting snooze! 🥱💸 Wake it up instantly with our fresh Tuesday Morning Daily Offers before the rush hits. #TuesdayMotivation #DailyOffers #ChandaranaFoodplus #MBVIPChan"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120016788121653270",
-          "author": "naveenraju30",
-          "searchJob": "wake-forest",
-          "text": "𝕏 just turned clipping into a real side hustle for creators clips are native now. every clip credits the original and both of you earn from the views here's how i'd run it from bengaluru 👇 1. pick the big indian podcasts posting full epis"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120015790997152139",
-          "author": "pawhyun",
-          "searchJob": "wake-forest",
-          "text": "like does earth even realize it...calling mix every day goes over to mix's house whenever he's free, visits mix's cafe, offered to wake up earlier just to pick up mix for work the man is too far gone i fear 😭😭😭"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120015668758171893",
-          "author": "imerm_jr",
-          "searchJob": "wake-forest",
-          "text": "Make a firm intention to wake up before Fajr: Wake up early and offer a few voluntary rak'ahs (Tahajjud). End your night prayer with Witr. Pray the two Sunnah rak'ahs of Fajr. Get yourself ready for the Fajr prayer. https://t.co/gIn1rqTcT8"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120008731157225856",
-          "author": "djdj52342",
-          "searchJob": "wake-forest",
-          "text": "I agree with Danielle Smith. WE ARE IN A WAR!!! FUCKING WAKE UP!!! She is a part of something that will liberate this country from the hold the WEF satanists+ have on it. You have no idea whose working with her, for the people. Few people a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119998629624864988",
-          "author": "crazybooks3",
-          "searchJob": "wake-forest",
-          "text": "2 영어 -------- < Women, take note of this text! You have a duty to claim your rights, enjoy a fulfilling sex life, and live happily. Why? Because doing so also fulfills your responsibility to give birth to healthy future generations. > (In r"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119997323971579947",
-          "author": "pyrorufus",
-          "searchJob": "wake-forest",
-          "text": "@val1ty My favorite detail of the dlc ending is that the government was willing to go to great lengths to cure V, keep them alive in a hospital for two years, and even offers them a job when they wake up, but they were too cheap to pay V's "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119995509276659897",
-          "author": "iosendero",
-          "searchJob": "wake-forest",
-          "text": "A typical day for a general-population inmate in a U.S. federal prison (Bureau of Prisons / BOP) is highly structured, early-starting, and punctuated by multiple counts. Exact times vary by facility, security level (minimum/camp, low, mediu"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119991541401849970",
-          "author": "uss_nj_bb62",
-          "searchJob": "wake-forest",
-          "text": "Late into the night, past midnight. After speaking with countless people, enduring the inevitable political discussions that always surface at these gatherings, and taking part in the celebration itself, exhaustion had finally set in. All y"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119990680621601104",
-          "author": "nwmsound",
-          "searchJob": "wake-forest",
-          "text": "🚨 THE POST-MIDTERM RECKONING: KEY TAKEAWAYS FROM PRESIDENT TRUMP’S WIDE-RANGING 60 MINUTES INTERVIEW! 🚨 Following the historic \"blue wave\" midterm elections that handed control of both the House and Senate to the Democratic Party, Preside"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119988421707858042",
-          "author": "bluelivesmtr",
-          "searchJob": "wake-forest",
-          "text": "BRITAIN'S EARLY-RELEASE POLICIES ARE UNDER FIRE: A repeat robbery offender who KICKED, ROBBED, and TERRORIZED her boyfriend in his 70s is reportedly BACK ON THE STREETS after serving just ONE-THIRD of her 27-month prison sentence!! And her "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119988399788753316",
-          "author": "thetank011678",
-          "searchJob": "wake-forest",
-          "text": "@Wearecovered @Hayesfawcett3 @Rivals @WakeFB @ajroberts5_ We wouldn’t up his offer. I like that JF doesn’t play around with that crap. No reason a kid should hold a program hostage trying to get more money."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119994345151431092",
-          "author": "squared2the",
-          "searchJob": "buffalo",
-          "text": "“Hello Buffalo, this is Nolan Teasley, I’m prepared to offer you 10 first round picks for Josh Allen.”"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120010712890408963",
-          "author": "loganpendragonm",
-          "searchJob": "alabama",
-          "text": "SCP-195: A “Medicinal Whiskey” SCP-195 was sold to slavecatchers in the American South before the Civil War. The men selling it claimed it could sharpen the drinker's mind. It really did improve their senses, which helps explain why they ch"
+          "postId": "2120016388953911376",
+          "author": "fballforeverhq",
+          "searchJob": "minnesota",
+          "text": "16 hours until the NFL trade deadline: Should the Minnesota Vikings go all-in and make Jerry Jones an offer he can't refuse for Dak Prescott? 📞 Minnesota runs the risk of letting an elite defense go to waste if they don't acquire a compete"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120022793781710995",
-          "author": "dennis_trusty",
-          "searchJob": "kentucky",
-          "text": "@keenelandlefty Look I'm die hard Louisville fan. If I got an nil offer from Kentucky for X million AND NO OTHER SCHOOL offered me anything in the ballpark I would go to Kentucky. But if I was good enough for X million dollar nil some other"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120022989693391180",
-          "author": "11010erieri",
-          "searchJob": "maryland",
-          "text": "Black-owned Ivy Hotel in Baltimore Maryland opened in 2015. The owners are majority owners through the owner's financial service firm, Brown Capital, which was founded in 1983. I viewed Brown Capital's website, specifically its Team and see"
+          "postId": "2120012671382851703",
+          "author": "euro_jamerican",
+          "searchJob": "minnesota",
+          "text": "If the Vikings want their old thing back with Kirk Cousins &amp; make a run in the playoffs. They better offer a 1st or a 2nd &amp; that 3rd that can also be a 2nd if they advance in playoffs. Bc let’s be real, the Raiders have the advantag"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120017407733354797",
-          "author": "mdvahcs",
-          "searchJob": "maryland",
-          "text": "Planning international travel? Let VA Maryland Help You Prepare! VA Maryland is proud to announce our Travel Clinic, located within the Infectious Diseases Department. We offer specialized travel consultations, travel-related preventative m"
+          "postId": "2120009272969056419",
+          "author": "vladimirracswe",
+          "searchJob": "minnesota",
+          "text": "My Minnesota guide: online casinos, poker and sports betting, online or retail, are all illegal, and the 2026 session ended without creating a licence. I cover every 2026 bill, what prediction markets offer and what to watch before 2027. ht"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2120000897413468485",
-          "author": "neiladlersu",
-          "searchJob": "maryland",
-          "text": "I enjoy these sentiments about Tevin, who just picked up a Maryland offer. ❤️🐢"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120008975580307530",
+          "author": "jfraiz52",
+          "searchJob": "minnesota",
+          "text": "I appreciate Kirk for keeping us afloat and actually giving us good QB play… but if Minnesota comes in with a legit offer you gotta take it"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120024261993562229",
-          "author": "icplegend1966",
-          "searchJob": "michigan",
-          "text": "🚨♾️🔥 $ICP — HACKERS ARE TARGETING WATER SYSTEMS AND FOOD SUPPLIES. CRITICAL INFRASTRUCTURE SECURITY MUST CHANGE! THE ELEPHANT IN THE ROOM! 🐘 🇺🇸 UNITED STATES Cyberattacks against water utilities have been reported across at least 12 st"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120004457585057792",
+          "author": "raiderbodega",
+          "searchJob": "minnesota",
+          "text": "@davehelman_ I wanna see Spytek get creative with trade packages to counter any Minnesota offer. He should straight up say \"we'll give you Kirk &amp; our 3rd rd pick for you 1 rd pick, straight up. Take it or leave it\""
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2120001668267864449",
-          "author": "iowacentralfb",
-          "searchJob": "michigan",
-          "text": "🚨 THE CHIPS ARE ON THE TABLE! 🚨 Congratulations to our Iowa Central DE on earning a D1 scholarship offer from the Central Michigan Chippewas! 🔥 QB pressures, backfield visits, and now Power Moves! 💪 #TritonTough #EarnedNotGiven #FireUpC"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120004287837417924",
+          "author": "realshaunking",
+          "searchJob": "minnesota",
+          "text": "With this defense if you Minnesota you gotta offer the raiders WHATEVER they want for kirk cousins tmmrw.... not like kyler any better than wentz j/s"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120003578991608010",
+          "author": "suga_ray_nathan",
+          "searchJob": "minnesota",
+          "text": "@drenchmansports Minnesota should call Andrew berry and offer a 3rd draft pk for the kernel https://t.co/BZlj9FxY9N"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119999660139901235",
+          "author": "diamondznmygril",
+          "searchJob": "minnesota",
+          "text": "@LombardiHimself BREAKING: Vikings offer the Raiders two firsts and Carson Wentz. Raiders counter by asking Minnesota to keep Wentz."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119998165004730579",
+          "author": "raider_jeremy",
+          "searchJob": "minnesota",
+          "text": "@nflrums Please offer us something. We're ready for Mendoza, not Cousins fault. He's good. Minnesota is wasting this defense if they do nothing."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119997610710671860",
+          "author": "peteyknowsball",
+          "searchJob": "minnesota",
+          "text": "Vikings sure could use a QB like JJ McCarthy…. I’d also offer a 2nd, and maybe even a 1st for Kirk Cousins if I’m Minnesota. Defense is way too talented for this level of QB Play….."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119994746634379365",
+          "author": "becka_thompson",
+          "searchJob": "minnesota",
+          "text": "The arrogance of this statement is beyond the pale. The reason the electoral college exists, and why each state could use its own version, is that some land is needed for TENDING. For livestock and farms, water quality and quiet spaces like"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120007272067715416",
+          "author": "darkhaliburton",
+          "searchJob": "miami",
+          "text": "Call Miami and offer them Zu and Pascal for Giannis. Miami knows he isn't going to sign that extension. No one's giving them picks for him."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120021410105995611",
+          "author": "ninerinsider",
+          "searchJob": "charlotte",
+          "text": "Note to all GMs…. 49ers messed up w Aiyuk. He is an amazing talent and a standup guy. He looks incredible in workouts. He will not make it to FA. GMs are calling. Best you get on the phone and offer significant draft capital before you miss"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120017473349079445",
+          "author": "kevin_aik",
+          "searchJob": "charlotte",
+          "text": "@getnickwright I’m sure the 49ers can offer Mac Jones and 2 1sts instead."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120016440342307071",
+          "author": "dbyers99",
+          "searchJob": "charlotte",
+          "text": "@JosinaAnderson Rumors are Raiders and 49ers are talking about Max Crosby trade. Raiders will trade Cousins if offer is great"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120010690564112474",
+          "author": "snowbubbleon",
+          "searchJob": "charlotte",
+          "text": "@DZ_49 @TheJuiceTDGuy That wouldn’t be so bad but then Purdy would need a new backup QB good like Jones if he missed a game or 2. If I’m 49ers I’d ask for 1 draft pick &amp; a WR or pass rusher if Vikings make an offer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120009156883108282",
+          "author": "9phantom6",
+          "searchJob": "charlotte",
+          "text": "#Sources - Some Trade Deadline Eve nuggets & intel: - Multiple teams including the Giants & Vikings have checked in on Patriots DL Christian Barmore. Rival executives believe New England could be willing to deal him for a fourth-round pick."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120007740122648840",
+          "author": "eddyc85",
+          "searchJob": "charlotte",
+          "text": "@redsteel73 If I were the 49ers I'd make an offer the Vikings couldn't refuse. They need WR help and as we see with the Chargers your window can slam shut any year. They've been close, gotta go all in."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119998168188498060",
+          "author": "sportsstooge10",
+          "searchJob": "charlotte",
+          "text": "@DRULZ29 @ProFootballTalk They can get a decent QB but I think they would have to overpay for him, Mac Jones is a decent player but the 49ers might not wanna let him go because he is great insurance for them, unless they get an offer they c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119997166089322528",
+          "author": "medcalfbyespn",
+          "searchJob": "charlotte",
+          "text": "Offer the 49ers a first-rounder, two second-round picks and Rudy Gobert for Mac Jones. Do it, man. Make the call."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120016104169074851",
+          "author": "cybertweetsmvp",
+          "searchJob": "coastal-carolina",
+          "text": "Need that Kalyan film to do well so that this resumes ASAP. Already Marshal's coastal setting USP is taken away a bit by Mandaadi. Needs to happen as this is best in form director, film, crew &amp; cast Karthi's got in his lineup. Rest all "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120012204523327683",
+          "author": "acesindri",
+          "searchJob": "coastal-carolina",
+          "text": "Geotextile tubes are sand-filled fabric containers used to prevent coastal erosion, stabilize shorelines and protect riverbanks. They offer a cost-effective solution for breakwaters, flood control and land reclamation. #GeotextileTubes #ace"
         }
       ]
     },
@@ -460,18 +352,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 10,
+      "failed": 1,
+      "requests": 11,
+      "errors": [
+        "florida-atlantic: rate limited"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 25,
+      "rejectedCandidates": 24,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-10T05:30:37.474Z"
+    "status rebuilt locally from current store on 2026-11-10T05:43:42.858Z"
   ]
 }
