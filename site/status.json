@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T02:19:48.979Z",
+  "generatedAt": "2026-11-10T02:43:48.204Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-10T02:19:48.475Z",
+    "at": "2026-11-10T02:43:47.547Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.8122297222222222,
-    "p95Hours": 1.8786883333333333,
-    "worstHours": 1.8786883333333333
+    "medianHours": 1.2120144444444445,
+    "p95Hours": 2.0265672222222224,
+    "worstHours": 2.2784730555555557
   },
   "decisionCoverage": {
-    "total": 24,
-    "decided": 24,
+    "total": 84,
+    "decided": 84,
     "complete": true
   },
   "pending": {
@@ -47,219 +52,390 @@
   "profileResolution": {
     "cached": 104
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4480,
+    "completeOffers": 4484,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-10T02:19:48.474Z",
-      "got": 41,
-      "new": 24,
-      "lag": 0.06
+      "at": "2026-11-10T02:43:47.547Z",
+      "got": 131,
+      "new": 84,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-10T02:18:13.437Z",
+    "at": "2026-11-10T02:42:10.007Z",
     "mode": "live",
     "collection": {
-      "returned": 41,
-      "kept": 24,
-      "duplicate": 17,
-      "tooOld": 0,
+      "returned": 131,
+      "kept": 84,
+      "duplicate": 46,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 15,
-      "rejected": 9,
+      "accepted": 36,
+      "rejected": 48,
       "reasons": {
-        "no_fbs_school": 4,
-        "no_offer_term": 4,
-        "hard_negative": 1
+        "hard_negative": 6,
+        "no_offer_term": 11,
+        "no_fbs_school": 23,
+        "non_fbs_offer_target": 7,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2119972634410852839",
-          "author": "scsblahblahblah",
-          "searchJob": "colorado",
-          "text": "@grok let's say Barney @danawhite takes up @scsblahblahblah on @scsblahblahblah's offer and @scsblahblahblah lives in Colorado, and the amendment 87 in CO is in effect, how much money of the initial lump sum payment of 750k would go to taxe"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2119965956135145636",
-          "author": "danancolorado",
-          "searchJob": "colorado",
-          "text": "@CalltoActivism What does this job offer have in common with WWE and The Apprentice ?"
+          "reason": "hard_negative",
+          "postId": "2119977299583877496",
+          "author": "braniffintl",
+          "searchJob": "kansas",
+          "text": "BRANIFF HISTORY TODAY - On this day, Wednesday, November 9, 1960, Braniff International Airways inaugurated service between San Antonio, Texas and Mexico City, Mexico. The new nonstop service marked the first time that Braniff had offered f"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119948917945294975",
-          "author": "corealestate411",
-          "searchJob": "colorado",
-          "text": "Houses to Buy without spending a fortune! Small-town Colorado Living without the High Price Tag https://t.co/KCBZjP0thN"
+          "postId": "2119956384708284416",
+          "author": "fox4kc",
+          "searchJob": "kansas",
+          "text": "The Kansas City Chiefs are keeping a close eye on several players after Sunday’s win over the New York Jets, with quarterback Patrick Mahomes, wide receiver Xavier Worthy and offensive lineman Jaylon Moore all dealing with injuries. https:/"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119973321957843295",
-          "author": "dmagazine",
-          "searchJob": "north-texas",
-          "text": "Welcome to Aufguss (pronounced “off-gus”), the steamy, semi-nude European fire ritual raising temperatures in Dallas. Part sauna cycle, part aromatherapy treatment, part performance art, it’s proving hot stuff in every sense at WorldSprings"
+          "postId": "2119956318999949387",
+          "author": "onechancefreedm",
+          "searchJob": "kansas",
+          "text": "Crude Oil Prices Are Falling As Refineries Struggle To Process Supply, Masking a Much Bigger Crisis in Refined Petroleum Products Oil prices are falling, and market expectations for future inflation are declining alongside them. On the surf"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119939595278205403",
+          "author": "mikezaccardi",
+          "searchJob": "kansas",
+          "text": "Oil down... breakeven inflation rates down GS https://t.co/ITUBMLhynL"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119892170224074832",
+          "author": "xcreators",
+          "searchJob": "texas-tech",
+          "text": "Clipping is here 🎬 Grab your favorite moment from any video, add your take, and post it without leaving X. Creators: every clip credits your original video and links back to it, so new viewers can find your work and keep watching. Clippers"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119980866151870470",
+          "author": "technmak",
+          "searchJob": "texas-tech",
+          "text": "Richard Feynman lied to a librarian to borrow a calculus book. He was only about 13 years old. In the early 1930s, trigonometry was the highest mathematics course offered at Far Rockaway High School in New York. But Feynman wanted to learn "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119977965782016168",
+          "author": "neo_logos_",
+          "searchJob": "texas-tech",
+          "text": "🔒 Cybersecurity — 🕒 24h Recap 🚨 Attacks & Breaches - Iris Plaza says a compromised external cloud service may have exposed 7.7 million customers’ personal information. Its shopping platform remains offline during investigation and remedi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119842676191191536",
+          "author": "axelverse_m",
+          "searchJob": "texas-tech",
+          "text": "Not sure how they decided to go with avalanche instead of solana tbh Someone there is not doing good research"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119968069254844546",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 STNS20000400 Seagate FireCuda Forge USB-C | Alkemi Technology with Dynamic Caching at $699.99 [ad] https://t.co/DWv1RGKAtD – Requires a compatible M.2 2280 NVMe SSD without a heatsink, PCIe Gen3 or higher, with at"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119968032361791575",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 STNS8000400 Seagate FireCuda Forge USB4 External HDD with Alkemi Technology and dynamic caching at $807.84 [ad] https://t.co/XeWK8sQQLD – 8TB external hard drive capacity – USB4 connectivity for high-bandwidth dat"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119967895975587952",
+          "author": "ramthamedia",
+          "searchJob": "texas-tech",
+          "text": "I fired my $4,500/mo B2B lead gen agency. Instead, I built 3 autonomous AI agents using n8n + DeepSeek. They booked 18 client calls on autopilot for $16.40/mo server cost. Here is the complete architecture breakdown ↓ https://t.co/a8isHgu4d"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119966687563018552",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Best Seller ] 📦 MDHA4LL/A Apple MacBook Air Starlight at $1099.00 (List Price $1299.00) [ad] https://t.co/btaR8gozRZ – Powered by the M5 chip for fast performance and powerful AI capabilities – 13.6-inch Liquid Retina display s"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119981113498112334",
+          "author": "david19vincent",
+          "searchJob": "ucf",
+          "text": "In the 1980s, my team and I worked with the leading expert on this Spheromak technology, the brilliant, eccentric, renegade Engineering Physicist Paul M. Koloc (RIP, b.1936- d.2012). His experiments proved that such Autoconfining Magnetopla"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119979644661444915",
+          "author": "irishlyra",
+          "searchJob": "notre-dame",
+          "text": "9. Aftercare is just as important as passion. ❤️‍🔥 Intimacy doesn't end when the moment is over. Hold her close, offer her some water, check how she's feeling, and remind her how much she means to you. A little tenderness after an intense "
         },
         {
           "reason": "hard_negative",
-          "postId": "2119966707800322215",
-          "author": "fiufbupdates",
-          "searchJob": "utep",
-          "text": "FIU has offered JUCO WR Michael Moore 🔥🐾 Michael has recorded 34 receptions for 761 yards and 12 TDs through 10 games at Mississippi Gulf Coast. He also holds offers from Georgia State, UTEP, and more 💪"
+          "postId": "2119979111846429080",
+          "author": "dunnbilly87734",
+          "searchJob": "notre-dame",
+          "text": "AI Overview George A. Romero’s work is deeply intertwined with the cultural trauma, violence, and disillusionment of the Vietnam War era. Though Romero often downplayed explicit political intent, his films of the late 1960s and 1970s functi"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2119977406496972855",
-          "author": "shawarmacapital",
-          "searchJob": "class:2028",
-          "text": "$IAM Part 2: the bull case. $8.64 of each $13.38 share is cash. The HER2 pill: 23% confirmed responses in heavily pre-treated patients. Last private round: $17.14. Every number and 13 risks inside. Long at $9.95. Not advice. https://t.co/lD"
+          "reason": "hard_negative",
+          "postId": "2119979046729830911",
+          "author": "dunnbilly87734",
+          "searchJob": "notre-dame",
+          "text": "AI Overview George A. Romero’s work is deeply intertwined with the cultural trauma, violence, and disillusionment of the Vietnam War era. Though Romero often downplayed explicit political intent, his films of the late 1960s and 1970s functi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2119978981554577452",
+          "author": "dunnbilly87734",
+          "searchJob": "notre-dame",
+          "text": "AI Overview George A. Romero’s work is deeply intertwined with the cultural trauma, violence, and disillusionment of the Vietnam War era. Though Romero often downplayed explicit political intent, his films of the late 1960s and 1970s functi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2119978921500553498",
+          "author": "dunnbilly87734",
+          "searchJob": "notre-dame",
+          "text": "AI Overview George A. Romero’s work is deeply intertwined with the cultural trauma, violence, and disillusionment of the Vietnam War era. Though Romero often downplayed explicit political intent, his films of the late 1960s and 1970s functi"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2119963503452893312",
+          "author": "mattmccart5431",
+          "searchJob": "notre-dame",
+          "text": "@ceebee5tjj He was actually about to commit to Notre Dame over the summer but A&amp;M offered him a huge bag at the last second."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2119967363936211292",
-          "author": "cortray7",
-          "searchJob": "class:2028",
-          "text": "Great conversation with @JoshuaEargle tonight. Grateful to receive offer from @TAMUT_football First 2028 QB offered #RiseUp2028 @CantonEagleFB @Coaching4God @byud11 @TristanLundyy @SpenceandCoPod @NETsn_Live @cradsports @BrandonOSports @Red"
+          "postId": "2119962799992664075",
+          "author": "irishmike_2026",
+          "searchJob": "notre-dame",
+          "text": "@JCaporoso Joe, how does Will McDonald know what Mougey was offered for him? Will is making that up. Once a player asks for a trade, their trade value plummets because now the other team thinks they have the upper hand."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119958543382269977",
+          "author": "marionawfal",
+          "searchJob": "air-force",
+          "text": "🚨🇺🇸🇬🇧 Where the Hell Are U.S. Military Aircraft Going? American military aircraft are unexpectedly dispersing from RAF Mildenhall in Britain, with roughly 9 KC-135 refueling tankers and 3 CV-22 Ospreys reportedly moving to bases in Ger"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119974236752433609",
-          "author": "coachdamurph",
-          "searchJob": "south-carolina",
-          "text": "https://t.co/l2YCOxeQmz"
+          "postId": "2119953728690335959",
+          "author": "brentswancer",
+          "searchJob": "air-force",
+          "text": "https://t.co/kG3asRjKL3"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119974599446122799",
-          "author": "oneturnnews",
-          "searchJob": "houston",
-          "text": "https://t.co/k1nNEbhAy0"
+          "postId": "2119970041181437984",
+          "author": "rutkowskidr",
+          "searchJob": "ohio",
+          "text": "https://t.co/oaOZkTyepI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2119966975094862169",
+          "author": "ohio_grace",
+          "searchJob": "ohio",
+          "text": "I’m a paralegal. Sections of contracts are labeled as Articles (Article I, Article II, Article III, etc.) as in the video. (Although, IIIV is not a real Roman numeral, so I suspect this is AI.) A lot of contacts have sections for confidenti"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 15,
+      "accepted": 4,
+      "rejected": 32,
       "reasons": {
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 7,
         "bare_mention_requires_llm": 12,
-        "reporter_missing_class_year": 1,
-        "school_not_resolved_confidently": 1,
-        "multiple_resolved_schools": 1
+        "school_not_resolved_confidently": 11,
+        "reporter_missing_position": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119953954670784757",
-          "author": "worldsrewound",
-          "searchJob": "colorado",
-          "text": "The Abandoned Gold Rush Town of Independence Colorado High in the Colorado Rockies sits the remains of a gold rush town that once attracted hundreds of prospectors searching for fortune. We traveled to Independence, Colorado, to explore thi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119977177781567687",
-          "author": "topshelf75",
-          "searchJob": "duke",
-          "text": "@getOffMyLawn88 @stoolpresidente @Internetinvite I don't believe that actually. Marissa was by far the worst #2 player. She needed to step up and help carry Duke and she offered absolutely nothing."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119975940684120081",
-          "author": "spinaxis",
-          "searchJob": "duke",
-          "text": "@DivotDoctrine Ruff should have offered to take the two other worst players in exchange for losing the Duke."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119974447943663929",
-          "author": "skullytweetz",
-          "searchJob": "duke",
-          "text": "@pichaelmeters @RRuffels @Internetinvite @stoolpresidente He’s the best player there, he was getting the Duke. They offered a different 2 and he bet on Marissa so he had a choice somewhat"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119973390459252859",
-          "author": "pascodfs",
-          "searchJob": "duke",
-          "text": "@Drewpizmo He got offered to switch out Marissa, he said no. She played like dogshit. Wasn’t all Duke"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119967074512458034",
-          "author": "norman20rick",
-          "searchJob": "duke",
-          "text": "@Thedogdude13 @OPRNsports Did they offer that. I missed it. Yea thats on him. Good dude, probably didnt wanna insult marissa but thats his only shot with the duke. Cant have 1 option of 3 for distance in alt shot"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119970463786959056",
-          "author": "jeffcuse",
-          "searchJob": "syracuse",
-          "text": "Tough loss but does offer a lot of hope. Workers on this team. Disciplined. I feel hope for Syracuse hoops I haven't for years. That said, we needed to be shooting 3's once that game got within 5. Not a GMac thing...its become en vogue amon"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119969440682950733",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Tevin Owen-Cratsenberg-RB-2028-PA @TerpsFootball Offer #CFB"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2119965493394309327",
-          "author": "fiufbupdates",
-          "searchJob": "ole-miss",
-          "text": "FIU has offered 3 ⭐️ JUCO DL Kindal Moorehead Jr. 🔥🐾 Kindal has recorded 23 total tackles, 2.5 sacks, and 5.5 TFLs through 10 games at East Mississippi. He is also currently ranked among the top 5 players at his position by @247Sports."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119950761001882102",
-          "author": "discover_sc",
-          "searchJob": "south-carolina",
-          "text": "Surrounded by centuries-old live oaks draped in Spanish moss, Hampton Plantation offers a glimpse into South Carolina’s rich and complex history. https://t.co/ksA3khG5UQ #DiscoverSC https://t.co/O0NttQyAXv"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119953199717355566",
-          "author": "woodville07",
-          "searchJob": "texas-am",
-          "text": "@TuaBeliever @dtackett_ Because we don’t hold grudges against a man who was denied and told no by administration ok EVERYTHING. The then AD and President were USELESS. Jimbo was offered a SUBSTANTIAL increase in pay. He was also offered to "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2119957655091384353",
-          "author": "koltonemaw",
-          "searchJob": "usc",
-          "text": "@JasonHardesty6 @KSTATEADGT recruits play at USC who has no fanbase that shows up. what matters most is the dollar amount they are offered and the product on the field. fans are just an added bonus."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2119974130665873746",
-          "author": "fazzymom",
-          "searchJob": "houston",
-          "text": "@LaloPicheco https://t.co/7pLPnpnJut Highly recommend NewmanU. My oldest graduated from there and had traveling nurse offers like crazy. She accepted an offer for airevac in Houston and was there 7 yrs. Graduating from this school gave her "
+          "reason": "reporter_missing_player_name",
+          "postId": "2119975576094011826",
+          "author": "scnfbofficial",
+          "searchJob": "iowa-state",
+          "text": "BANQUET WEEK SPECIAL MENTION ALL CONFERENCE PAYTON URRY JR TE 6'5 225 P4 OFFER FROM IOWA STATE @robertpomazak @scn4th_Phase https://t.co/xwNiLnTFyx"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2119969212294664279",
-          "author": "juancoli1",
-          "searchJob": "houston",
-          "text": "HOUSTON, WE HAVE A PROBLEM WASHINGTON’S DARKEST SECRET THE TRUTH THAT NEVER SEES THE LIGHT OF DAY THE PATTERN REPEATS ITSELF IN CONGRESS, THE SENATE, AND THE PRESIDENCY It is curious that Christians are a minority in Congress and the Senate"
+          "postId": "2119981718036001216",
+          "author": "realcpiusa",
+          "searchJob": "kansas",
+          "text": "5 Years of Struggle & Spreading Hope The Center for Political Innovation Activities 2021-2026 https://t.co/XROvWXdqCW By Caleb Maupin, Founder & Director The Center for Political Innovation has existed for five years now, and in that time i"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119973819817529679",
+          "author": "bigleagueinves1",
+          "searchJob": "kansas",
+          "text": "MVP Stories - Dick Groat 1960 Part V A trade involving the 1960 MVPs Groat and Maris? It almost happened in ‘59 One week before Dick Groat won the 1960 NL MVP Award, the New York Yankees’ Roger Maris was named the American League’s Most Val"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2119960770142515234",
-          "author": "trumptexan47",
-          "searchJob": "houston",
-          "text": "Hey veterans and active duty in Houston or Dallas, this Wednesday the 11th, Beck's Prime will give you a free burger. Must show military ID And in my opinion Beck's Prime burgers are one if not the best burgers. Must mention the offer. http"
+          "postId": "2119951426055270538",
+          "author": "duanero24296760",
+          "searchJob": "kansas",
+          "text": "@hbtCHIEFS With Puka Nacua out in LA, there is no way Kansas gets a decent WR, best they can get is Downs. LA will offer more than Kansas for the better receivers. IMO, KC should save the draft picks and maybe sign Hill. If Hill is not read"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119983919261229560",
+          "author": "rezzashahab",
+          "searchJob": "texas-tech",
+          "text": "What the f*ck….. X just made it possible to build a $10K/month business by clipping other people’s videos. Here’s exactly how I’d do it: 1. Find creators worth clipping Look for big podcasts, streamers, and creators posting long-form videos"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119983443727552765",
+          "author": "rezzashahab",
+          "searchJob": "texas-tech",
+          "text": "X just launched native clipping. You can now clip other creators’ videos and potentially make money from it. Here’s how I’d turn this into a $10K/month business: 1. Find creators worth clipping Look for podcasts, streamers, and creators pos"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119982853198913555",
+          "author": "tfloss32",
+          "searchJob": "texas-tech",
+          "text": "Texas Tech calls on Boerne Champion to offer '27 LB Roman Flugence (@Roman_Flugence). #WreckEm #GunsUp🌵 https://t.co/nDqJaiT2ib https://t.co/t6dcP37jqr 𝕏 @blane_ellis | @ChampionHSFB"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119982509647888495",
+          "author": "thatcashdo",
+          "searchJob": "texas-tech",
+          "text": "@DopamineFeenFr1 @KoRnEd23 Such a great project. Amazing tech. Amazing dev. Amazing community. So undervalued for what is offered."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119981149640671729",
+          "author": "capitanb_sails",
+          "searchJob": "texas-tech",
+          "text": "@FintechSIN Interesting panel. My take: local-currency stablecoins make sense for regional trade, but displacing the dollar needs regulatory clarity more than tech. First jurisdiction to offer that pulls the capital."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119980765694103887",
+          "author": "ogqueensgirl",
+          "searchJob": "texas-tech",
+          "text": "@JustLikeGizmo Be the autists...he's offered 1M to prove the fraud. Come on where are those tech computer geek wizards!"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119973773642223696",
+          "author": "swandogs",
+          "searchJob": "texas-tech",
+          "text": "The biggest takeaway from today is that those other the strongest opinions don’t actually have knowledge about what Avalanche offers from a technology standpoint that no other chain does. An Avalanche L1 enables companies to operate 100% in"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119973772166078944",
+          "author": "eddie_ho2025",
+          "searchJob": "texas-tech",
+          "text": "The Pentagon offered Neros up to $450 million to build drone motors, electronics and batteries in America. The bottleneck is not the drone, but its Chinese-dependent parts. #AI #FutureLearner #Tech #Learning #Productivity https://t.co/d78eC"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119972477824856502",
+          "author": "ogqueensgirl",
+          "searchJob": "texas-tech",
+          "text": "@NnPnemck It's definitely fraud with a mix of the conservative blue voters. There are so many hyper intelligent people on X, can't a few of them be these tech wizards that want that 1M Trump offered to point out fraud?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2119968055019311476",
+          "author": "simon_akrouche",
+          "searchJob": "texas-tech",
+          "text": "i get 5+ serious growth offers a month like this from startups, unicorns, and enterprises. been doing growth & marketing for years now for different tech companies. my biggest takeaway: meritocracy is the growth marketers greatest advantage"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119982989782233121",
+          "author": "imperatormorsus",
+          "searchJob": "air-force",
+          "text": "Don’t bet on it. I was raised owning guns. I was 14 and passed the Hunting Fishing and Wilderness survival course offered by the NRA. My father was an NRA trainer. I was 15 and I was already being scouted to be in the Air Force for pilot tr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119962406378246428",
+          "author": "beijingdai",
+          "searchJob": "air-force",
+          "text": "LOL, the Vietnamese leader visited Japan and had his wife wear a Japanese kimono. Vietnam is obviously doing this deliberately to send a message to China. Not long ago, China built an air force base in Laos, and the Vietnamese were very unh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119961309005652334",
+          "author": "bobbymorris280",
+          "searchJob": "air-force",
+          "text": "🚨 NOW 🇺🇸🇬🇧 U.S. AIR FORCE: U.S. military aircraft unexpectedly disperse in Britain American military aircraft are rapidly dispersing from RAF Mildenhall, with 9 KC-135 tankers and 3 CV-22 Ospreys moving to Germany, Spain, and Scotland."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119976680462688560",
+          "author": "lightngstorm",
+          "searchJob": "ohio",
+          "text": "🚨 This needs to have more attention for this Uzbecks issue. Uzbekistan government are going into this tiny town meeting other Uzbecks. There is a Human Trafficking issue in Mainesville, Ohio that sounds very similar to the Pakistani Rape g"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119964414338077093",
+          "author": "wigeopolitical",
+          "searchJob": "ohio",
+          "text": "🇺🇸🇨🇦 Stellantis is gone from Brampton. It is never coming back. The plant has been sold to Roshel. The Jeep Compass that was once planned for the site has already moved to Illinois. More than 2,000 workers have been on indefinite layoff"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119960971527500050",
+          "author": "np4football_ot",
+          "searchJob": "utsa",
+          "text": "Kindal Moorehead jr-DT-JUCO @UTSAFTBL Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119981874949054673",
+          "author": "umhas0accchips",
+          "searchJob": "florida",
+          "text": "@RedStateAwake @AniruddhC1108 Florida probably just offered more money. Sad state of CFB"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119977392542515461",
+          "author": "docmurdock",
+          "searchJob": "florida",
+          "text": "Florida should offer to help Musk relocate everything and everyone to Florida from Texas!! @elonmusk @ByronDonalds with Byron Donald’s as Governor, all Musk companies could truly thrive."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2119975085897666621",
+          "author": "adamgorney",
+          "searchJob": "florida",
+          "text": "Florida State offers the Baron Rouge University Lab QB and Lane’s son"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2119970158869729347",
+          "author": "tracylriley",
+          "searchJob": "florida",
+          "text": "@elonmusk Might want to halt construction and move it to Florida. Wish I could offer Arizona, where I live, but unfortunately, we have a Democrat would also try to punish Elon for supporting Trump."
         }
       ]
     },
@@ -273,12 +449,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 15,
-      "brandNewOffers": 0
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 32,
+      "brandNewOffers": 4
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-10T02:19:48.980Z"
+    "status rebuilt locally from current store on 2026-11-10T02:43:48.206Z"
   ]
 }
