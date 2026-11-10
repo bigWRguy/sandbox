@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T10:48:09.995Z",
+  "generatedAt": "2026-11-10T11:22:49.407Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-10T10:48:09.405Z",
+    "at": "2026-11-10T11:22:48.851Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
+    "sweptThisRun": 25,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -32,58 +32,126 @@
   },
   "staleSchools": [
     {
-      "id": "ball-state",
-      "hours": 2.5
-    },
-    {
-      "id": "colorado-state",
-      "hours": 2.5
-    },
-    {
-      "id": "memphis",
-      "hours": 2.5
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.5
-    },
-    {
-      "id": "san-jose-state",
-      "hours": 2.5
-    },
-    {
-      "id": "south-alabama",
-      "hours": 2.5
-    },
-    {
-      "id": "south-florida",
-      "hours": 2.5
-    },
-    {
       "id": "southern-miss",
-      "hours": 2.5
+      "hours": 3.1
     },
     {
       "id": "temple",
-      "hours": 2.5
+      "hours": 3.1
     },
     {
-      "id": "texas-state",
-      "hours": 2.5
+      "id": "delaware",
+      "hours": 2.6
     },
     {
-      "id": "wyoming",
-      "hours": 2.5
+      "id": "east-carolina",
+      "hours": 2.6
+    },
+    {
+      "id": "eastern-michigan",
+      "hours": 2.6
+    },
+    {
+      "id": "miami-oh",
+      "hours": 2.6
+    },
+    {
+      "id": "middle-tennessee",
+      "hours": 2.6
+    },
+    {
+      "id": "toledo",
+      "hours": 2.6
+    },
+    {
+      "id": "troy",
+      "hours": 2.6
+    },
+    {
+      "id": "tulane",
+      "hours": 2.6
+    },
+    {
+      "id": "tulsa",
+      "hours": 2.6
+    },
+    {
+      "id": "iowa-state",
+      "hours": 2.2
+    },
+    {
+      "id": "kansas",
+      "hours": 2.2
+    },
+    {
+      "id": "missouri-state",
+      "hours": 2.2
+    },
+    {
+      "id": "navy",
+      "hours": 2.2
+    },
+    {
+      "id": "nevada",
+      "hours": 2.2
+    },
+    {
+      "id": "new-mexico",
+      "hours": 2.2
+    },
+    {
+      "id": "new-mexico-state",
+      "hours": 2.2
+    },
+    {
+      "id": "north-texas",
+      "hours": 2.2
+    },
+    {
+      "id": "notre-dame",
+      "hours": 2.2
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.2
+    },
+    {
+      "id": "uab",
+      "hours": 2.2
+    },
+    {
+      "id": "ucf",
+      "hours": 2.2
+    },
+    {
+      "id": "uconn",
+      "hours": 2.2
+    },
+    {
+      "id": "utah",
+      "hours": 2.2
+    },
+    {
+      "id": "virginia",
+      "hours": 2.2
+    },
+    {
+      "id": "washington",
+      "hours": 2.2
+    },
+    {
+      "id": "wisconsin",
+      "hours": 2.2
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.3500841666666668,
-    "p95Hours": 2.546586388888889,
-    "worstHours": 2.546586388888889
+    "medianHours": 1.1102430555555556,
+    "p95Hours": 2.5591769444444443,
+    "worstHours": 3.124201111111111
   },
   "decisionCoverage": {
-    "total": 28,
-    "decided": 28,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -92,7 +160,7 @@
   "profileResolution": {
     "cached": 104
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4491,
     "incompleteOffers": 0
@@ -100,238 +168,279 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-10T10:48:09.404Z",
-      "got": 52,
-      "new": 28,
-      "lag": 0.05
+      "at": "2026-11-10T11:22:48.851Z",
+      "got": 60,
+      "new": 39,
+      "lag": 0.11
     }
   },
   "audit": {
-    "at": "2026-11-10T10:46:29.340Z",
+    "at": "2026-11-10T11:21:09.504Z",
     "mode": "live",
     "collection": {
-      "returned": 52,
-      "kept": 28,
-      "duplicate": 24,
-      "tooOld": 0,
+      "returned": 60,
+      "kept": 39,
+      "duplicate": 19,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 18,
+      "accepted": 29,
       "rejected": 10,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 5,
-        "hard_negative": 2
+        "no_offer_term": 4,
+        "no_fbs_school": 6
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2120066525130297400",
-          "author": "megamobilenews",
-          "searchJob": "liberty",
-          "text": "If there is no authority above human power, then human power becomes absolute. If human power becomes absolute, who protects the individual? And if no one protects the individual, what remains of freedom? https://t.co/Ol0qpplEUv"
+          "postId": "2119750762985320647",
+          "author": "kabamur",
+          "searchJob": "temple",
+          "text": "Message from #AKATU ~ And Then The World Danced “Dance has always been an expression from within. A living soul seeks to communicate with others as well as connection to Spirit.” “Everyone has danced to feel lighter and more joyful. Even da"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120092420389888462",
+          "author": "know_jainism",
+          "searchJob": "temple",
+          "text": "Dudhai Jain Temple - Dudhai village, Lalitpur district, Uttar Pradesh (India) This region is home to a striking cluster of Jain temples, once spread across a vast landscape, far beyond the small area they occupy today. offer a deeply moving"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120031406856515687",
-          "author": "usembaustralia",
-          "searchJob": "liberty",
-          "text": "This map says it best. Freedom is the foundation of our strongest partnerships. The United States and Australia stand together as free nations, where people can speak, vote, and worship as they choose. In China, those freedoms are denied. h"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120074358806675818",
-          "author": "arnaudmercier",
-          "searchJob": "massachusetts",
-          "text": "What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work : https://t.co/0MGgKNV2Nw \"06 Nov 2026 What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work DOI"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2120070394656981314",
-          "author": "pti_news",
-          "searchJob": "rice",
-          "text": "VIDEO | Jashpur: Chhattisgarh CM Vishnu Deo Sai (@vishnudsai) performs Govardhan Puja. He says, \"Heartiest congratulations and best wishes to all the people of Chhattisgarh on the occasion of Govardhan Puja. Today, on the occasion of Govard"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120085944749478286",
-          "author": "yourpremiertra1",
-          "searchJob": "ole-miss",
-          "text": "#yourpremiertravels #travelphotography #wanderlust #exploremore #instatravel #traveladdict #vacationmode #adventuretime #traveldiaries #travelgoals #adventureawaits #exploretheworld #exploreeverything #travelinspiration #roamtheplanet Certi"
+          "postId": "2120084110899376416",
+          "author": "etvbharatrj",
+          "searchJob": "temple",
+          "text": "मुख्यमंत्री 11 नवंबर को जैसलमेर दौरे पर करेंगे तनोट माता मंदिर में दर्शन, बीएसएफ की महिला जवानों के साथ मनाएंगे भाई दूज https://t.co/kDAlETjfsA @RajCMO @BhajanlalBjp https://t.co/P3FZBpj00A"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2119840157516091529",
-          "author": "somakazima2",
-          "searchJob": "texas",
-          "text": "Oh it was PISSED 😭😭😭 https://t.co/sfoBIWkGv2"
+          "postId": "2120083076697166074",
+          "author": "jantaserishta",
+          "searchJob": "temple",
+          "text": "राज्यपाल डेका ने गोवर्धन पूजा पर श्री बांके बिहारी मंदिर में की पूजा-अर्चना https://t.co/ZNAempHInE"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120081674231021903",
-          "author": "harrybloke",
-          "searchJob": "texas",
-          "text": "@NatalkaKyiv Hope @elonmusk gets to see this and takes the RuZZian babushkas up on their kind offer since he is going to get a tough run in Texas now. 🤪"
+          "postId": "2120107203663171897",
+          "author": "flrealtorjenn",
+          "searchJob": "florida",
+          "text": "🏡 Why Is 8524 Fairway Bend Drive One of The VINES at Estero Country Club’s Best Values? 🌴 Offered at just $349,000, this spacious villa features 1,745 sq. ft., 2 bedrooms plus a den, 2 bathrooms, a 2-car garage! Jenn Gregory Realty One Gr"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120079020142518629",
-          "author": "grouplpx",
-          "searchJob": "california",
-          "text": "LPX50 Listed Private Equity Index constituent company, @KKR_Co has announced a $475 million investment in Alexandria Real Estate Equities, Inc. Campus Point, a nearly 2 million-square-foot life sciences and advanced technology campus in San"
+          "postId": "2120104342438965531",
+          "author": "66dlm327350",
+          "searchJob": "florida",
+          "text": "\"Screaming “socialism” is no longer an effective strategy, and it’s well past time Republicans recognized that. As the Democratic Socialists of America have continued to consolidate power and progressive Democrat candidates have continued t"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120073609804927304",
-          "author": "geoengineering1",
-          "searchJob": "california",
-          "text": "A new framework called carbon at risk (CaR) offers a quantitative way to assess the risk that carbon removal projects fail to deliver their contracted storage over a specified period. Inspired by financial value-at-risk measures, it estimat"
+          "postId": "2120095218431066352",
+          "author": "jmiah415334",
+          "searchJob": "georgia",
+          "text": "@cravinriver @shawnteoutloud @abreitfreid The only valuable thing that bitch could ever offer anyone is her absence"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2120070454509711832",
-          "author": "verybullishguy",
-          "searchJob": "california",
-          "text": "@MayorToddGloria, serious question. Why are we committing nearly 49 acres of valuable publicly owned land to a development where 2,000 of the 4,254 homes are income restricted, instead of aggressively competing to attract engineers, advance"
+          "reason": "no_offer_term",
+          "postId": "2120086081940980147",
+          "author": "therealistjug",
+          "searchJob": "colorado",
+          "text": "https://t.co/GQKyxofN2v"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120081819672748381",
+          "author": "kimmypooh75",
+          "searchJob": "colorado",
+          "text": "@TruthWinzz Why are you defending a rapist? What the fuck is wrong with you? I'm going to assume you've never been raped but I'm sure someone that you know has, would you offer her up again?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120090142895493316",
+          "author": "dukeoflagostips",
+          "searchJob": "duke",
+          "text": "💚 Ready for more rewards? NGBET has exciting offers waiting for you! Enjoy 100%, 150% and 200% deposit bonuses, cashback, VIP bonuses and 77% slot deposit bonuses every Monday and Friday. Don't miss out! Check out the offers here 👉 https:"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 18,
+      "rejected": 29,
       "reasons": {
-        "bare_mention_requires_llm": 15,
-        "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 22,
+        "school_not_resolved_confidently": 4,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120101666582151207",
-          "author": "liberty_itg",
-          "searchJob": "liberty",
-          "text": "Book a meeting with Timea Zavecz, Project Manager at Liberty Central Europe, at IBTM World Barcelona. https://t.co/nnUA6ADcxy Central Europe offers a fresh perspective on MICE, from Budapest’s iconic Danube views and thermal baths to Hungar"
+          "postId": "2120085257664037219",
+          "author": "extremebagsusa",
+          "searchJob": "memphis",
+          "text": "@TaraBull when the power goes out in memphis and MUSK is runnung his data center on nat gas, maybe he'll offer some of HIS energy/power to the city for a million bucks per Kw...in other words,...memphis can go fuck itself"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120103066322321847",
+          "author": "brahmaneinsof",
+          "searchJob": "south-florida",
+          "text": "Taittiriya Brahmana (III.9.8.2–3): Explicitly states that the cow is food (atho annam vai gauh — “verily the cow is food”). It appears in the context of sacrifice, where binding the cow secures both the sacrifice and food for the sacrificer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120098166070559137",
+          "author": "lensoftruthke",
+          "searchJob": "south-florida",
+          "text": "The blood of animal sacrifices could never remove sin, cleanse the conscience, or provide final atonement. Those sacrifices were divinely appointed under the Old Covenant as shadows pointing forward to the perfect and once-for-all sacrifice"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120076711286960248",
-          "author": "robertcettl",
-          "searchJob": "liberty",
-          "text": "This rhetorical cliche, to still remain viable, presupposes a binary in which free speech, voting choice, and religious practice exist in pure form in the United States and Australia and are simply “denied” in China. It treats the Freedom H"
+          "postId": "2120112599396442186",
+          "author": "mookambikerr",
+          "searchJob": "temple",
+          "text": "@Rohit_Sharma191 Every Friday visit any devi temple offer food flower n agarbatti money overflows towards u. Donate small amount to kidney foundation regularly Marital life and lartner8can being u income. Invest/business on beverages/cosmet"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120071465760669794",
-          "author": "liberty_itg",
-          "searchJob": "liberty",
-          "text": "Book a meeting with Kamran Shafique, Managing Director at Liberty Thailand, at IBTM World Barcelona. https://t.co/0SSHYS6BGx Thailand offers a fresh perspective on MICE, from Bangkok’s modern convention venues and vibrant city life to Phuke"
+          "postId": "2120112233145630729",
+          "author": "indiafocusdaily",
+          "searchJob": "temple",
+          "text": "GUJARAT | Devotees throng Shree Somnath Temple to offer prayers as the state welcomes Gujarati New Year and the beginning of Vikram Samvat 2083. #GujaratiNewYear #VikramSamvat2083 #SomnathTemple #Gujarat #Devotion https://t.co/9p4v3cDs6d"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120065940335292753",
-          "author": "abhishekbhaya",
-          "searchJob": "liberty",
-          "text": "The world has changed, and this map no longer holds much credibility. Freedom cannot be measured or judged solely through a Western lens. For many people around the world, the US is no longer seen as the undisputed beacon of freedom, libert"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2120097941394239876",
-          "author": "cryptowatchdesk",
-          "searchJob": "louisiana",
-          "text": "Schwab adds Solana, Avalanche and Chainlink to retail crypto accounts: five tokens, 75 bp a trade. Offered by a bank subsidiary; not FDIC-insured, no SIPC cover. Not open in New York or Louisiana. https://t.co/2O7lVyNEhO #Solana #Avalanche "
+          "postId": "2120111435267321903",
+          "author": "colorsvia",
+          "searchJob": "temple",
+          "text": "【🌹And Then The World Danced】FOT：AKATU 「そして世界は踊った」英語版・英語字幕 Instagram：https://t.co/h2vomADaN4 …••✼••…🌸…••✼••… #AKATU ~ And Then The World Danced Beloved Ones Of Light! Dance Has Always Been An Expression From Within. A Living Soul Seeks To "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120105423881850885",
-          "author": "dredbrethren60",
-          "searchJob": "rice",
-          "text": "@AmericaNowX1 Why haven't they arrested the rest yet?just offer free banana's and rice and bonus welfare cheques and watch em come out of the woodworks,when they look surprised say we ment welfare checks,your all busted!"
+          "postId": "2120108616208310762",
+          "author": "lorabbitholes",
+          "searchJob": "temple",
+          "text": "The Bible’s understanding of Satan develops across centuries of Jewish and Christian history. The Hebrew word satan (שָׂטָן) originally means adversary or accuser. In Job, Satan appears in God’s heavenly court, not as God’s equal. In Genesi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120092386151841879",
-          "author": "blacksplayhour",
-          "searchJob": "rice",
-          "text": "after that, it became a routine. almost every night, there was something outside my door. rice, chicken, soup, pastries, sometimes even freshly baked bread. i wasn't complaining. it was actually thoughtful. but after a while, i noticed some"
+          "postId": "2120107726609191325",
+          "author": "uni_photos",
+          "searchJob": "temple",
+          "text": "In Photos | Devotees celebrate Annakut Mahotsav at the historic Kalibadi Temple in Lucknow on Tuesday. A traditional Chappan Bhog, comprising 56 varieties of sweet and savoury delicacies, was offered to the goddess as naivedya on the occasi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120084660684263891",
-          "author": "gonnersblood",
-          "searchJob": "rice",
-          "text": "I still believe Arsenal made a mistake by not giving Ethan Nwaneri a proper role in this squad. Even with limited opportunities at Dortmund, starting four of their seven games, he has shown enough to remind everyone of the talent he possess"
+          "postId": "2120102367379308968",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Palani, Tamil Nadu : The Kanda Shashti festival has commenced with great fervour at the Palani Dandayudhapani Swamy Temple in Tamil Nadu, drawing thousands of devotees who have gathered to offer prayers to Lord Murugan. https://t.co/9tJ5iwy"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120083743914250276",
-          "author": "ibukun_dami",
-          "searchJob": "rice",
-          "text": "🏆 PREMIER LEAGUE TEAM OF THE SEASON SO FAR | 2026/27 10 games played. This is my team so far, built around a 4-4-2 diamond. 🧤 Raya 🛡️ De Cuyper | Konsa | Gabriel | Calafiori ⚙️ Rice 🎯 Groß | Mac Allister 🎨 Morgan Rogers ⚡ Haaland | Joã"
+          "postId": "2120102300848926787",
+          "author": "ursmusically",
+          "searchJob": "temple",
+          "text": "A. R. Rahman and Hans Zimmer’s wall-to-wall score in Nitesh Tiwari’s Ramayana (2026) is a seamless combination of the composers’ individual styles. More a brassy, bombastic score than one brimming with bhakti rasa (something the film isn’t "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120081131865510128",
-          "author": "linkzhangzhou",
-          "searchJob": "rice",
-          "text": "Winter calls for something warm! From nourishing herbal soups and ginger-infused duck to signature noodle dishes and street snacks, Zhangzhou offers plenty of flavors to welcome winter. A special Minnan (southern Fujian) tradition is making"
+          "postId": "2120101037214507222",
+          "author": "gormfulwhiteboy",
+          "searchJob": "temple",
+          "text": "Traveling to the first Buddhist temple in China, perched atop a great peak, surrounded by monasteries that offer travelers respite and also by XingXing-like monkeys"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120078145630110134",
-          "author": "authorajay",
-          "searchJob": "rice",
-          "text": "In 2015, India pushed 266 crore litres of ethanol through 111 depots. Today: 1,050 crore litres through 127. 4x the ethanol. Almost the same depots. Karnataka says its lab found 31% ethanol in petrol. Oil companies say 19.3%. Someone's test"
+          "postId": "2120097772821213204",
+          "author": "diprrajasthan",
+          "searchJob": "temple",
+          "text": "Chief Minister Bhajan Lal Sharma Offers Prayers at Mukut Mukharvind Temple on Govardhan Puja Performs ceremonial worship and abhishek at Mukut Mukharvind Temple; also offers prayers at Shrinathji Temple Prays for the prosperity, peace, happ"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120076144686817625",
-          "author": "wiberfox",
-          "searchJob": "rice",
-          "text": "I was therefore forced to sleep by the door of the NA office at the airport, waiting for the release of the manifest list with my name on it. I was not alone. There were hundreds of stranded passengers like me there—men, women, young, old, "
+          "postId": "2120095294746771847",
+          "author": "sunilku76142466",
+          "searchJob": "temple",
+          "text": "A grand religious event was organised at Thakurdwara Temple Nowshera with 156 types of offerings, reverence and devotion offered to the Lord #Nowshera #mandir https://t.co/ZFIj6AY7Zs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120063737235214336",
-          "author": "finsalestrust",
-          "searchJob": "rice",
-          "text": "This is why I don’t like employing people I know. A while ago, I posted on my WhatsApp status that I urgently needed a PA. A family friend reached out and said she wanted the job. I told her no—I couldn’t employ someone I know. I wanted a s"
+          "postId": "2120095184402936171",
+          "author": "sunilku76142466",
+          "searchJob": "temple",
+          "text": "A grand religious event was organised at Thakurdwara Temple Nowshera with 156 types of offerings, reverence and devotion offered to the Lord #Nowshera #mandir https://t.co/2MRbQZ8O9C"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120094801668538450",
+          "author": "masihi_malabari",
+          "searchJob": "temple",
+          "text": "Both non-Christian 2nd Temple Jewish literature (such as the Testament of Levi and 2 Enoch) and the New Testament (also 2nd Temple literature) envision multiple heavens: the first being that of the clouds, the second that of the heavenly bo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120081001892507949",
+          "author": "argusnews_in",
+          "searchJob": "temple",
+          "text": "New Delhi: A grand Annakut Mahotsav and Govardhan Puja are being organised at Swaminarayan Akshardham Temple. Devotees gathered at the temple to offer prayers and seek blessings amid religious rituals and festive celebrations. #GovardhanPuj"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120075912989569256",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Varanasi, Uttar Pradesh: Maa Annapurna Temple offered 510 kg of sweets and delicacies, featuring over 108 varieties, during Annakut Mahotsav. Maa Annapurna Golden idol darshan concludes today. https://t.co/ARp0A2jKI9"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120075807381135474",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Ayodhya, Uttar Pradesh: Annakut Mahotsav is being celebrated with great enthusiasm in the temple, with 56 varieties of dishes being offered to deities at temples and monasteries https://t.co/g2xFru5Wru"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120074195581243667",
+          "author": "airnewsalerts",
+          "searchJob": "temple",
+          "text": "#WATCH || A grand Annakut Mahotsav and Govardhan Puja are organised at Swaminarayan Akshardham Temple in Delhi. Devotees gather at the temple to offer prayers and seek the blessings of the deity amid religious rituals and festive celebratio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120069866002808995",
+          "author": "legacymauryan",
+          "searchJob": "temple",
+          "text": "I have met him personally once in Valsad Rly Godi Area where he came to offer obesissance in Hanuman Temple as and I also was standing just besides him to offer ny prayers to lord Hanuman!"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120099145373684075",
-          "author": "aakashgupta",
-          "searchJob": "texas",
-          "text": "There's a job in America where $4 an hour would be a raise. It's waiting tables. In Texas, Georgia, Tennessee, Virginia and about a dozen other states, a restaurant can legally pay a server $2.13 an hour, and that number hasn't changed sinc"
+          "postId": "2120113083758878728",
+          "author": "aleksan48916254",
+          "searchJob": "florida",
+          "text": "🏀 Florida A&amp;M @ UAB 📊 Model: UAB -14.2 🔢 Projected total: 153.0 🎯 Florida A&amp;M +15.5 @2.00 ⭐⭐⭐⭐ 💰 EV: +6.4% The offered spread exceeds the projected margin by 1.3 points. #NCAAB #ValueBet"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120083244477563024",
-          "author": "goldenwriters_",
-          "searchJob": "texas",
-          "text": "Public leadership demands transparency and accountability. Rather than ignore recurring allegations, Mr Texas should offer a convincing explanation and allow due process to take its course. #WaTexas https://t.co/OMbrUnqljv"
+          "postId": "2120112649929388300",
+          "author": "realdonesteban",
+          "searchJob": "florida",
+          "text": "Florida Offers Blueprint For Other States To Shutter Islamist Terrorist Orgs Like CAIR https://t.co/moPdFtZvdA"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120083898881224996",
-          "author": "councilshiba",
-          "searchJob": "ucla",
-          "text": "The rest of the story, in one place. The Harvard → UCLA years LA Times (2003, citing Rolling Stone): Princeton dropout, master's from Harvard's Kennedy School, researched drug trends in Russia, followed Mark Kleiman to UCLA. UCLA: contract "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120072028828971228",
-          "author": "straits_times",
-          "searchJob": "stanford",
-          "text": "Stanford University offers ‘Namjooning’ course inspired by BTS leader RM https://t.co/0DG8o5mvcx"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120112389073088922",
+          "author": "aleksan48916254",
+          "searchJob": "florida",
+          "text": "🏀 North Florida @ Miami 📊 Model: Miami -31.5 🔢 Projected total: 161.5 🎯 North Florida +33.5 @1.95 ⭐⭐⭐⭐ 💰 EV: +5.4% The offered spread provides a two-point cushion beyond the projection. #NCAAB #BasketballPicks"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120072028686360861",
-          "author": "st_lifetweets",
-          "searchJob": "stanford",
-          "text": "Stanford University offers ‘Namjooning’ course inspired by BTS leader RM https://t.co/NfEiGHnsd2"
+          "postId": "2120085369861370095",
+          "author": "islandsmagazine",
+          "searchJob": "florida",
+          "text": "Macclenny is a great day trip from Jacksonville and offers a peek into Florida pioneer history, access to nature preserves and hiking, and good local eats. https://t.co/tzqAVLcxmQ"
         }
       ]
     },
@@ -339,18 +448,20 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "southern-miss: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 18,
+      "rejectedCandidates": 29,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-10T10:48:09.996Z"
+    "status rebuilt locally from current store on 2026-11-10T11:22:49.408Z"
   ]
 }
