@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T12:50:45.238Z",
+  "generatedAt": "2026-11-10T13:14:02.971Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-10T12:50:44.530Z",
+    "at": "2026-11-10T13:14:02.428Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -30,68 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "arkansas-state",
-      "hours": 2.6
-    },
-    {
-      "id": "army",
-      "hours": 2.6
-    },
-    {
-      "id": "liberty",
-      "hours": 2.1
-    },
-    {
-      "id": "louisiana",
-      "hours": 2.1
-    },
-    {
-      "id": "louisiana-monroe",
-      "hours": 2.1
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 2.1
-    },
-    {
-      "id": "marshall",
-      "hours": 2.1
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.1
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 2.1
-    },
-    {
-      "id": "rice",
-      "hours": 2.1
-    },
-    {
-      "id": "sam-houston",
-      "hours": 2.1
-    },
-    {
-      "id": "stanford",
-      "hours": 2.1
-    },
-    {
-      "id": "western-michigan",
-      "hours": 2.1
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.8919316666666667,
-    "p95Hours": 2.071076111111111,
-    "worstHours": 2.5757516666666667
+    "medianHours": 0.7783169444444444,
+    "p95Hours": 1.8815119444444444,
+    "worstHours": 1.8815119444444444
   },
   "decisionCoverage": {
-    "total": 53,
-    "decided": 53,
+    "total": 82,
+    "decided": 82,
     "complete": true
   },
   "pending": {
@@ -108,265 +55,380 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-10T12:50:44.530Z",
-      "got": 67,
-      "new": 53,
-      "lag": 0.06
+      "at": "2026-11-10T13:14:02.428Z",
+      "got": 100,
+      "new": 82,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-11-10T12:49:04.846Z",
+    "at": "2026-11-10T13:12:27.117Z",
     "mode": "live",
     "collection": {
-      "returned": 67,
-      "kept": 53,
-      "duplicate": 14,
+      "returned": 100,
+      "kept": 82,
+      "duplicate": 18,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 45,
-      "rejected": 8,
+      "accepted": 54,
+      "rejected": 28,
       "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 2
+        "no_offer_term": 15,
+        "no_fbs_school": 10,
+        "hard_negative": 2,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2120089431361147292",
-          "author": "mocharty",
-          "searchJob": "arkansas-state",
-          "text": "@WhigJust Have you tried freeing Palestine?"
+          "postId": "2120139291061854236",
+          "author": "robotdolllab",
+          "searchJob": "army",
+          "text": "The humanoid in the launch video. The \"driverless\" car. The checkout-free shop. The $20,000 home robot. In a lot of them there's a person somewhere else, wearing a headset, driving it. And no company wants to tell you how many. https://t.co"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120101524453945595",
-          "author": "sherrie2527",
-          "searchJob": "arkansas-state",
-          "text": "The right kind of love doesn't leave you constantly searching for the truth. When you reach a point where you feel the need to investigate the truth in a relationship, something important has already been lost, your sense of security. Love "
+          "postId": "2119093845703245976",
+          "author": "ctravi_bjp",
+          "searchJob": "army",
+          "text": "This is unacceptable CM @DKShivakumar avre! What are the priorities of the Congress government in Karnataka? The Directorate of Minorities has invited a tender to provide 60 days of Army training exclusively for minority students for 2026–2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120131552633852293",
+          "author": "leonabboud",
+          "searchJob": "army",
+          "text": "https://t.co/5ybvwy9YQU"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120140933190558135",
+          "author": "nesertes",
+          "searchJob": "liberty",
+          "text": "A Beautiful Future We Might Not Want to Live In. Space colonies, Neuralink and the right to refuse: why engineering alone will not make humanity multiplanetary. https://t.co/usFLW5RLWu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120136846298550490",
+          "author": "saturn_drift",
+          "searchJob": "liberty",
+          "text": "China: where the trains do 350km/h, the shopping malls put ours to shame, and boarding a lift can be brutal. After years of visits, I’ve finally written about the things I love, the things that drive me mad, and what the UK must learn from."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120133270524313837",
-          "author": "am22monk",
-          "searchJob": "kent-state",
-          "text": "@mattvanswol You should have offered your legal services to him Sounds like you would have gotten him off with the old it was 22 yrs ago and no one saw it defense argument.."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120135058942214365",
-          "author": "mattlawson99",
-          "searchJob": "texas",
-          "text": "@wcabbate @thebobbyp67 It’s public information. https://t.co/sN5vMRc5Z0"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120125696399773965",
-          "author": "kissmys_media",
-          "searchJob": "texas",
-          "text": "Here is the full story why the prey ate the predator, and why the turkey never knows it's Thanksgiving: https://t.co/ik4EPLSTK1"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120008542015099357",
-          "author": "_patriot1776q_",
-          "searchJob": "texas",
-          "text": "🚨 ELECTION ISSUES: Texas - 97 counties are over the adult-citizen count. Montgomery County is at 107.6%, 34,319 over. Collin County is at 104.0%, 30,557 over. Fort Bend County is at 104.1%, 23,122 over. Williamson County is at 103.0%, 13,8"
+          "postId": "2120137506490646814",
+          "author": "rodneymarshall1",
+          "searchJob": "marshall",
+          "text": "The Criterion Collection Blu-ray/4K offers the opportunity to compare the movie with the 1954 TV play version. Joseph Sweeney and George Voskovec reprised their original juror roles in the film. https://t.co/BZ0H69A5yi"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120118485359698040",
-          "author": "lynnettevickk",
-          "searchJob": "texas",
-          "text": "@SGTWipper1Each Some pharmacies, like Super 1 foods in Texas, offer antibiotics prescription free from the pharmacist."
+          "postId": "2120108531420455333",
+          "author": "simplyjazz000",
+          "searchJob": "marshall",
+          "text": "@hofnpopper It is all about the prayer I have faith my own will have fulfillment that can touch my soul from another , 😎🌹 he’s out there , one that can offer what I can from the big guys perspective"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120139435291418769",
+          "author": "hnnow",
+          "searchJob": "massachusetts",
+          "text": "National Grid offers Fall River homes free home battery systems https://t.co/W4Hrx7NZsZ"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120106879812808778",
-          "author": "algorycofficial",
-          "searchJob": "texas",
-          "text": "An AI chip can cost under US$1, or deliver hundreds of teraflops. Same goal, very different hardware. 4 checks before you pick the chip for your edge AI device, from @NVIDIA, Texas Instruments and STMicroelectronics announcements. 👇 https:"
+          "postId": "2120139201144615327",
+          "author": "idoffers1",
+          "searchJob": "rice",
+          "text": "🔥 LOOT: Olae 500 LEDs 50 m Multicolor Color Changing Rice Lights Just ₹222! (MRP ₹999 — 78% OFF) 👉 https://t.co/AZLgQRfI5c How to grab it: 1️⃣ 1️⃣ Tap the link to open on Flipkart 2️⃣ 2️⃣ Add to cart and check out 3️⃣ 3️⃣ Order before sto"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120134086362796255",
+          "author": "idoffers1",
+          "searchJob": "rice",
+          "text": "🔥 LOOT: PragAart 20 LEDs 4.04 m Multicolor Flower Rice Lights Just ₹179! (MRP ₹1,199 — 85% OFF) 👉 https://t.co/CGe1a7j64p How to grab it: 1️⃣ Tap the link to open the Flipkart listing 2️⃣ Hit Add to Cart and check out 3️⃣ Order before sto"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120127497891406150",
+          "author": "colinkrice",
+          "searchJob": "rice",
+          "text": "🚀 AMAZON IS SETTING UP FOR A BREAKOUT. HERE'S MY PLAN. $AMZN gained 2.94% Monday, closing at $266.93 on above-average volume. I'm watching this one for a potential swing trade. Here's what matters: 📍 Key breakout level: $275.34 📍 First t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2119950512887943355",
+          "author": "eduardohagn",
+          "searchJob": "rice",
+          "text": "🚨 BREAKING! Alex Baena speaks about Martin Zubimendi to @ellarguero: “He’s the second-best holding midfielder in the WORLD behind Rodri. He’d be a great addition. Hopefully it happens.” 🇪🇸 https://t.co/gQAp8bUuqh"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120141220240388301",
+          "author": "magicthomson12",
+          "searchJob": "florida",
+          "text": "https://t.co/Yh6lMRMkDV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120139999307825613",
+          "author": "flvoicenews",
+          "searchJob": "florida",
+          "text": "Need help applying for disaster assistance after Hurricane Isaias? Florida has eight walk-in resource centers. Residents can meet one-on-one with representatives from the state, FEMA and the U.S. Small Business Administration. https://t.co/"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2120136773070381059",
+          "author": "d1agent0",
+          "searchJob": "florida",
+          "text": "EXTREMELY BLESSED TO RECEIVE A NAIA OFFER FROM FLORIDA MEMORIAL UNIVERSITY!!! Via Mike Jones #AGTG🙏🏾 https://t.co/CNtkPzitTk"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2120136684746526869",
+          "author": "josh44williams",
+          "searchJob": "florida",
+          "text": "After a great conversation with @Apes_Tampa I am blessed to announce, I have received my 2nd offer from Community Christian College of Florida‼️✝️ #AGTG #GoBulls @OfficialCCCFL @ALAJohnstonFB @CoachNBlackburn @CoachC_ALALine @coachbbell14 @"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120134672122532009",
+          "author": "charlie157874",
+          "searchJob": "florida",
+          "text": "https://t.co/Ehb1MNgIja"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120128109035040900",
+          "author": "expostmedia",
+          "searchJob": "florida",
+          "text": "\"Then Trump asked White, in front of the cameras, whether he wanted the job. White thanked him and said he had no interest in going into politics.\" https://t.co/PTveTumBE5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120122341967511999",
+          "author": "elongerberg",
+          "searchJob": "florida",
+          "text": "Buyers drop \"all cash offer\" like it's some huge differentiator 😂 In this market, if you have a financing contingency, you’re not even being considered. Cash isn't the tiebreaker... it's the price of admission."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120122330760221017",
+          "author": "drstaceydvm",
+          "searchJob": "florida",
+          "text": "What Makes Mysteries Relaxing? The Cozy Answer #fiction #dogs #cozymystery A mystery begins with something out of place: a missing heirloom, a suspicious footprint, a neighbor who is being awfully cagey. That may not sound restful at first."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120127697934581811",
+          "author": "georgiabeii27",
+          "searchJob": "georgia",
+          "text": "Really disappointed with how my recent complaint has been handled by @easyJet. Regular user of the service and the way my complaint has been handle is far from satisfactory. While my additional costs have now been reimbursed, no goodwill of"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2120123599587598789",
+          "author": "owengregorian",
+          "searchJob": "georgia",
+          "text": "How Fleeting Moments With Strangers Combat Loneliness | Neuroscience News Summary: A sociological study published in Theory and Society explores the profound psychological value of fleeting, emotionally resonant encounters between strangers"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120117049108115495",
+          "author": "jozannyme",
+          "searchJob": "georgia",
+          "text": "https://t.co/nbV58F4014"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120139473652486280",
+          "author": "sbtribune",
+          "searchJob": "indiana",
+          "text": "Fire Arts offers 15% off during South Bend holiday open house https://t.co/ONhFuzRYRl"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 45,
+      "rejected": 54,
       "reasons": {
-        "multiple_resolved_schools": 10,
-        "bare_mention_requires_llm": 23,
-        "school_not_resolved_confidently": 12
+        "bare_mention_requires_llm": 27,
+        "author_not_recruit:no recruit fields": 1,
+        "multiple_resolved_schools": 23,
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120136067328430239",
+          "author": "followakshay1",
+          "searchJob": "army",
+          "text": "Why is Karnataka's Congress government providing Army recruitment training exclusively to minorities using public money..? If it's about national service, why not offer the same opportunity to ALL💯 https://t.co/zs8oMCyyfZ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120132167410069940",
+          "author": "eulipotyphlaog_",
+          "searchJob": "army",
+          "text": "To even deliever Reform's deportations plans, it needs to 10-20x current enforced deportations and raise a gendarme (at least) half the size of the current British Army. Whatever Steve wnats, is something Restore can only offer in platitude"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120131794565493158",
+          "author": "ruben986912",
+          "searchJob": "army",
+          "text": "@Peter2293912898 @RealAllinCrypto @Ripple Ripple even offers Canton😂😭 they're just a company that offers DLT solutions cause they know the xrpl is outdated. XRP army funded their business big time. Sad to see the xrp cultist hold on to th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120122371554279589",
+          "author": "dasojay",
+          "searchJob": "army",
+          "text": "This is a modern combat tricycle powered by a 300cc engine can offer several advantages to the Nigerian Army, particularly in patrol, reconnaissance, logistics and internal security operations and base defense. For those who are asking and "
+        },
+        {
+          "reason": "author_not_recruit:no recruit fields",
+          "postId": "2120121951452598566",
+          "author": "chewredcandles",
+          "searchJob": "army",
+          "text": "🚨 ATTENTION CRYPTO COMMUNITY! 🚨 🐊 THE CHEW ARMY, LISTEN UP! 🦫 CHEW has just received an offer it simply CANNOT refuse. 👀🔥 We're talking about a potential game-changing opportunity that could take this project to an entirely NEW LEVEL."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120120201249230848",
+          "author": "stsamson80",
+          "searchJob": "army",
+          "text": "In the Nigerian Army, failure is never rewarded. Tinubu, you are a complete failure. Step aside! A failed record has nothing to offer. You have misused presidential priorities while Nigerians continue to bear the consequences. It is time to"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120119738621710419",
+          "author": "mzz_bts",
+          "searchJob": "army",
+          "text": "Hey Bebe 👋🏼 hope your good I’m born in the 80’s and don’t own a DVD, CD or Vinyl player. I don’t even own a TV. I fully stream music & videos etc on my iPhone, IPad & Laptop and occasionally a projector. I buy albums for everything bar th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120117767248728187",
+          "author": "rommiroyalnews",
+          "searchJob": "army",
+          "text": "Former President Olusegun Obasanjo has recounted rejecting a United States political asylum offer despite warnings he would be arrested upon returning to Nigeria under Gen. Sani Abacha’s regime. After retiring from the army at 42, he took u"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120113133222285800",
+          "author": "ians_india",
+          "searchJob": "army",
+          "text": "Patna, Bihar: BJP MP Ravi Shankar Prasad says, \"Who takes Rahul Gandhi seriously? Does his own party take him seriously? But it is very shameful that he is working to instigate the country's army and paramilitary forces. A marvelous job was"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120112066144899403",
+          "author": "anuradhabhasin_",
+          "searchJob": "army",
+          "text": "Protests spread to six districts following Rawalakot killings; action committee appeals to Pakistan's army chief, seeks neutral venue for negotiations, independent inquiry into deaths and detainees Partial Shutdown in PaJK as JAAC Offers Ta"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120102447121047866",
+          "author": "tompfoster",
+          "searchJob": "army",
+          "text": "There is a good argument and I've made it before. Robbed from Peterson I'll admit. An army is a training college during peacetime and, ideally, staying in peace is the goal. The military offers a route for people who want or need the discip"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120139803974946914",
+          "author": "altitudebutler",
+          "searchJob": "pittsburgh",
+          "text": "Parents jump free today! And every Tuesday all November long. Visit us at the park and claim this free offer! #ThingsToDoButlerPA #ButlerPA #Pittsburgh FamilyFun https://t.co/Tn5pUBwChi"
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2120135662787494069",
-          "author": "owengregorian",
-          "searchJob": "arkansas-state",
-          "text": "Democrat revenge plot against Elon Musk: Insiders reveal painful punishment they're planning after Texas humiliation... and move that would make him turn on MAGA | Tom Leonard & Charlie Spiering, Daily Mail When Elon Musk announced dramatic"
+          "postId": "2120136709039952026",
+          "author": "dalton_cats_fb",
+          "searchJob": "pittsburgh",
+          "text": "Congratulations to 2028 WR Akeem Cox (@_AkeemCox11_) on receiving offers from @PennStateFball @Pitt_FB and @GreenWaveFB #GBR #DaltonRecruits https://t.co/cTvLUsKXBE"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120135068572099021",
-          "author": "shukriyabradost",
-          "searchJob": "arkansas-state",
-          "text": "It was an honor to attend the Freedom and Security – Women’s Summit at the German Federal #Parliament (Bundestag) in #Berlin In my remarks, I offered a different perspective on #women's rights and security, challenging the tendency to view "
+          "postId": "2120124089335504908",
+          "author": "20thcentboximm",
+          "searchJob": "pittsburgh",
+          "text": "Time, and the inevitable imperatives of time and timing, spare no man. Joey Archer wins a 10-round unanimous decision at the Pittsburgh Civic Arena to raise his record to 45-1, in Sugar Ray Robinson's 199th and final (174-19-6) fight, on No"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120134094281494645",
-          "author": "shumzy33",
-          "searchJob": "arkansas-state",
-          "text": "@KosherChutzpah Who the fuck are you to offer Palestinians a state. You fucking refugees. 🤣"
+          "postId": "2120110622729716112",
+          "author": "radarph_media",
+          "searchJob": "pittsburgh",
+          "text": "Hollywood superstar Angelina Jolie has arrived in Manila for the 2026 ASEAN Inclusive Growth Summit on November 11. Beyond her speaking engagement, the capital offers experiences worthy of her sophisticated taste. From world-class pearls an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120128962081005674",
+          "author": "charol_7chee",
+          "searchJob": "stanford",
+          "text": "Stanford University offers ‘Namjooning’ course inspired by BTS’ RM (출처 : 네이버 뉴스) https://t.co/KZ74XSjwBs"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120132364583997495",
-          "author": "owengregorian",
-          "searchJob": "arkansas-state",
-          "text": "AI-Powered Precision Brain Stimulation Reduces PTSD in Weeks | Cami Rosso, Psychology Today Key points - The randomized study assigned 73 veterans to 10 real or placebo sessions over two weeks. - AI used 10-minute EEG recordings to personal"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120131452650021048",
-          "author": "_kingsantos",
-          "searchJob": "arkansas-state",
-          "text": "I’m ready to get tf out of CT and go struggle somewhere else tired working non stop to survive in a state with nothing to offer but bills 🫩"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120130221630247183",
-          "author": "hendrystephn",
-          "searchJob": "arkansas-state",
-          "text": "Who offered them a state? Surely not the demons currently occupying their country?"
+          "postId": "2120119635076956383",
+          "author": "robertfrancisuk",
+          "searchJob": "stanford",
+          "text": "@ThePosieParker Same if you say Olukemi Badenoch is Criminal and career scammer. She Criminally broke the Computer Misuse Act 1990 and scams endlessly eg: offered Stanford University place at 16 the usual lie. Lied at conference about John "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120129585505304667",
-          "author": "algenerobi96834",
-          "searchJob": "arkansas-state",
-          "text": "ONE BILLION DOLLARS FOR BLACK AMERICA. ONE PRESIDENTIAL ADMINISTRATION. ONE GOVERNMENT DECISION THAT STOPPED IT. WHAT IF I TOLD YOU THAT IN 1996, AN AFRICAN HEAD OF STATE OFFERED ONE BILLION DOLLARS TO SUPPORT BLACK ECONOMIC DEVELOPMENT IN "
+          "postId": "2120140772112581039",
+          "author": "mattcteam",
+          "searchJob": "liberty",
+          "text": "🍸 TONIGHT: Keys and Cocktails! 🔑 🧡 You know that feeling at the end of a long week of showings, inspections and late-night offers? Tonight is the reset. Come for the drinks. Stay for the therapy. 🤝 A relaxed evening for REALTORS to unwi"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120129055634895012",
-          "author": "dominaiustitia",
-          "searchJob": "arkansas-state",
-          "text": "2000: CAMP DAVID “Israel offered Palestinians a state. Arafat simply said no.” That familiar slogan erases the reality: Camp David ended without agreement after disputes over borders, Jerusalem, refugees, security and settlements. No final "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120134888783257949",
+          "author": "eagameover",
+          "searchJob": "liberty",
+          "text": "Heavenly Father, of infinite goodness, what a joy it is to wake up this morning and offer You a grateful heart. Thank You for the gift of this new day. You are our God, our truest confidant, and our loving protector. [1, 2] Look upon our li"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120128186813931948",
-          "author": "narkyanarchist",
-          "searchJob": "arkansas-state",
-          "text": "@jvgraz There were 300,000 Arabs in the coastal cities when the offer was made. Arabs were 2/3rds of the overall population and quite rightly held that it made no sense to give a State to recent immigrants."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120123005372109183",
-          "author": "martin2tiler",
-          "searchJob": "arkansas-state",
-          "text": "@KosherChutzpah Offered a state in 1937,where and why?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120121707495112777",
-          "author": "whigjust",
-          "searchJob": "arkansas-state",
-          "text": "Actually, we've tried that a few times. They were offered a state of their own in 1948 and decided to try to kill us instead. We gave it a go in the 90s and they tried to kill us instead. We handed all of Gaza over to them unconditionally 2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120117320131711376",
-          "author": "deballsac",
-          "searchJob": "arkansas-state",
-          "text": "@KosherChutzpah @FlafScotland Palestinians were never 'offered a state' on the land which was stolen from them in the first place. They were offered Bantustans, not a viable and contiguous state in control of its own border. They were never"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120134717676679654",
+          "author": "eagameover",
+          "searchJob": "liberty",
+          "text": "GOOD MORNING BEAUTIFUL SOULS !!! Heavenly Father, of infinite goodness, what a joy it is to wake up this morning and offer You a grateful heart. Thank You for the gift of this new day. You are our God, our truest confidant, and our loving p"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120111691954581872",
-          "author": "isrighter",
-          "searchJob": "arkansas-state",
-          "text": "Why has the modern progressive state waged a relentless war against Christianity and the nuclear family for the past sixty years? The answer is not cultural. It is structural. A citizen who kneels before God can never be made to kneel entir"
+          "postId": "2120130451486421280",
+          "author": "j_p1776",
+          "searchJob": "liberty",
+          "text": "What Are We Doing Florida? Western values and Islamist political ideology are fundamentally incompatible. How are we allowing Islamist expansion under the banner of religious freedom while ignoring its ideological conflict with American pri"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120109759751942358",
-          "author": "prometheusx10d",
-          "searchJob": "arkansas-state",
-          "text": "@KosherChutzpah He never mentions that it was an offer of a state on less than 20% of Palestinians' lands with no autonomy or a solution for the refugees. And even such deals were rejected by israelis,which got Rabin assassinated over a \"pe"
+          "postId": "2120119164648198443",
+          "author": "paledriverwaltz",
+          "searchJob": "liberty",
+          "text": "@Harrrussy Same here!! those 3 + Watchmen, The Imitation Game, The Crown, The Offer, Silent Night, Stoker (my favourite), Leap Year, Chasing Liberty... like he's been in a lot of things Yeah, with that long of a gap in between, I really tho"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120140667158474873",
+          "author": "bowdencentral",
+          "searchJob": "louisiana",
+          "text": "UPDATE: Florida State has offered Class of 2028 three-star quarterback Knox Kiffin (son of LSU head coach Lane Kiffin) from University Lab School in Baton Rouge, Louisiana. 👀 #gonoles #fsufootball #fsurecruiting #knoxkiffin #tribe28 https:"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120109261791309895",
-          "author": "eminentspak",
-          "searchJob": "arkansas-state",
-          "text": "@IkoroduBarcaBoy @fuckineos But where in my response did I say they shouldn't clamor for a better living? Don't downgrade the entirety of a state that offers you education cos you lack some amenities in your area, there are more diplomatic "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120106319201866030",
-          "author": "david15808890",
-          "searchJob": "arkansas-state",
-          "text": "@LozzaFox @danwootton @megynkelly The context is a state backed TV company offered large sums of money to gain testimony against him from a women who initiated sex with him … it’s a mistrial"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120104799639081068",
-          "author": "goripiqueras",
-          "searchJob": "arkansas-state",
-          "text": "At the same time, it is worth distinguishing between two scenarios: -When the need to “investigate” stems from the other person’s actual behavior (inconsistencies, lies, evasiveness). -When it stems from one’s own wounds (anxious attachment"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120103067551211678",
-          "author": "tladi_bse",
-          "searchJob": "arkansas-state",
-          "text": "#MadlangaCommission @NPA_Prosecutes must make a better offer to Matlala so he can be a state witness so he can start singing and provide evidence"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120119187406504376",
-          "author": "mikegilbert311",
-          "searchJob": "charlotte",
-          "text": "@Vikings me and the 49ers will give you Mac Jones and a 1 for Justin Jefferson. Final offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120136202884112472",
-          "author": "dutablei",
-          "searchJob": "coastal-carolina",
-          "text": "Epic Coastal Treks That Belong on Your Travel Bucket List Coastal trekking offers an unmatched blend of dramatic scenery, fresh ocean air,…. https://t.co/80L8R6YsDk"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120125198280147012",
-          "author": "islandsmagazine",
-          "searchJob": "coastal-carolina",
-          "text": "In the U.S., beach towns can often come with expensive real estate, but these 10 coastal spots offer waterfront fun without the high price tags. https://t.co/4PjEoflQJP"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120124719840072116",
-          "author": "arezza1",
-          "searchJob": "coastal-carolina",
-          "text": "A Supply Chain Plan that integrates inland waterways, coastal, lakes and canal transit with rail and trucking to offer door to door mobility solutions for SME manufacturers. Tell us about your freight requirements https://t.co/qMD6tHSiC5"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120120163211063795",
-          "author": "uphonestreal",
-          "searchJob": "coastal-carolina",
-          "text": "🌪️ https://t.co/LFuIVCSOYZ THE NEXT GREAT WEATHER TECHNOLOGY COMPANY WON'T JUST PREDICT THE WEATHER. IT WILL HELP THE WORLD PREPARE FOR WHAT COMES NEXT.™ WEATHER ISN'T JUST SOMETHING WE TALK ABOUT. IT'S SOMETHING THE GLOBAL ECONOMY DEPENDS"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120118463343604096",
-          "author": "uphonestreal",
-          "searchJob": "coastal-carolina",
-          "text": "🛰️ https://t.co/ASLGf0O8ko THE NEXT GENERATION OF SPACE TECHNOLOGY WON'T JUST PUT MORE SATELLITES INTO ORBIT. IT WILL TURN SPACE-BASED INTELLIGENCE INTO REAL BUSINESS VALUE.™ SPACE IS NO LONGER JUST A DESTINATION. IT'S BECOMING INFRASTRUCT"
+          "postId": "2120128022984397243",
+          "author": "beast_spl",
+          "searchJob": "rice",
+          "text": "@mulletrider Love Zubimendi but not sure i like the prospect of Skelly x Bruno G if Rice is injured. Right now, Zubimendi is the best backup there in terms of our OOP game. That being said, obviously tempting to sell if a huge offer arrives"
         }
       ]
     },
@@ -374,20 +436,18 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "army: SearchTimeline HTTP 404 (slice left pending)"
-      ]
+      "errors": []
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 45,
+      "rejectedCandidates": 54,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-10T12:50:45.239Z"
+    "status rebuilt locally from current store on 2026-11-10T13:14:02.972Z"
   ]
 }
