@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:14:02.127Z",
+  "generatedAt": "2026-11-11T11:28:41.788Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-11T11:14:01.671Z",
+    "at": "2026-11-11T11:28:41.321Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.017826111111111,
-    "p95Hours": 1.7798188888888888,
-    "worstHours": 1.7798188888888888
+    "medianHours": 0.7737316666666667,
+    "p95Hours": 1.7715786111111111,
+    "worstHours": 1.7715786111111111
   },
   "decisionCoverage": {
-    "total": 1,
-    "decided": 1,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 106
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 4538,
     "incompleteOffers": 0
@@ -55,44 +55,197 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-11T11:14:01.671Z",
-      "got": 26,
-      "new": 1,
-      "lag": 0.06
+      "at": "2026-11-11T11:28:41.320Z",
+      "got": 42,
+      "new": 22,
+      "lag": 0.1
     }
   },
   "audit": {
-    "at": "2026-11-11T11:12:18.924Z",
+    "at": "2026-11-11T11:27:12.427Z",
     "mode": "live",
     "collection": {
-      "returned": 26,
-      "kept": 1,
-      "duplicate": 25,
+      "returned": 42,
+      "kept": 22,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 19,
+      "rejected": 3,
       "reasons": {
-        "hard_negative": 1
+        "no_fbs_school": 3
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2120474197046477062",
-          "author": "thevalueist",
-          "searchJob": "class:2028",
-          "text": "https://t.co/nHJlfhWo4z $AKAM KEY READ-THROUGHS FROM AKAMAI TECHNOLOGIES’ Q3 2026 EARNINGS CALL Akamai’s November 5 call supports a selective investment conclusion: AI infrastructure spending is broadening beyond GPUs, but the associated ec"
+          "reason": "no_fbs_school",
+          "postId": "2120467832597021080",
+          "author": "wcti12",
+          "searchJob": "north-carolina",
+          "text": "Veterans and active-duty military members can find free meals, discounts and admission offers at businesses across Eastern North Carolina and the state, Wednesday, November 11. https://t.co/OWr0pKvWy6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120476395126313328",
+          "author": "rap_interiors",
+          "searchJob": "kent-state",
+          "text": "Delighted to complete phase two of the refectory refurbishment at EKC Canterbury College for East Kent Colleges Group. Featuring bespoke joinery and flexible seating, the refreshed space offers welcoming areas to socialise, collaborate and "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120473842170704368",
+          "author": "kentingle",
+          "searchJob": "kent-state",
+          "text": "The next generation of leaders needs you to believe they can handle hard things. Let them face complexity, make decisions, and learn through the struggle. Offer guidance. Hold them accountable. Celebrate their growth. Sometimes your most po"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 19,
+      "reasons": {
+        "bare_mention_requires_llm": 10,
+        "multiple_resolved_schools": 4,
+        "school_not_resolved_confidently": 4,
+        "author_not_recruit:different sport": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120477016050798679",
+          "author": "fxaurex",
+          "searchJob": "oregon",
+          "text": "THE POT THAT NEVER BOILS DRY The Story of Shrimp Congee with Salted Egg and Mushrooms Somewhere in the world, at this very moment, a person is doing the one thing every rice teacher warns against: they are boiling rice until it falls apart "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120474473430126935",
+          "author": "neostatsai",
+          "searchJob": "oregon",
+          "text": "🏒 🇺🇸 NHL — ⭐ MY FINAL CARD 📅 Wednesday, November 11, 2026 ⭐ 1. Philadelphia Flyers @ Edmonton Oilers — Edmonton Oilers ML 💵 1.48 / -210 Confidence: High ⭐ 2. Nashville Predators @ Anaheim Ducks — Anaheim Ducks ML 💵 1.67 / -150 Confide"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120474726304784619",
+          "author": "neostatsai",
+          "searchJob": "houston",
+          "text": "🏀 🇺🇸 NBA — ⭐ MY FINAL CARD 📅 November 11, 2026 ⭐ 1. Boston Celtics @ Toronto Raptors — Celtics ML 💵 1.36 / -276 Confidence: High ⭐ 2. Golden State Warriors @ Houston Rockets — Rockets ML 💵 1.44 / -226 Confidence: Medium-High ⭐ 3. Clev"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120461050327753138",
+          "author": "mrgoodbear45",
+          "searchJob": "kansas",
+          "text": "📷 FROM THE DESK OF SISTER MARY CATHERINE EDITORIAL: THE LORD WORKS IN MYSTERIOUS WAYS, BUT SOMETIMES HE MAKES HIMSELF PERFECTLY CLEAR. 📷 Convent of Our Lady of Perpetual Exasperation | Bureau of Divine Intervention & Political Repentance "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120475449176256897",
+          "author": "ragerrryt",
+          "searchJob": "miami",
+          "text": "🚨 BE CAREFUL WITH THIS PROJECT! Elixir Games raised $14M from Square Enix and Solana Foundation $ELIX is down 99.9% from its ATH Now it's back. As a memecoin launchpad. After months in Miami, flexing a high-end convertible while investors "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120473299016724537",
+          "author": "josiahjdp",
+          "searchJob": "miami",
+          "text": "I’m Rachel, twenty-seven years old, and I teach literature at Horizon Prep, a private middle school in Seattle. I genuinely enjoy my career. Seventh graders can be unpredictable bundles of teenage emotions, but watching them discover a pass"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120469104859414631",
+          "author": "miamiherald",
+          "searchJob": "miami",
+          "text": "How much rain can Florida take? Recent ‘rain bombs’ offer a troubling preview https://t.co/SXzIOMewSc"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120456511826599942",
+          "author": "aerosoftgmbh",
+          "searchJob": "miami",
+          "text": "Das \"Miami Vibes Pack\" DLC 🌴🎨📻 für Heavy Cargo - The Truck Simulator erscheint am 19. November für PC, PlayStation 5 und XBOX Series X|S! 🌴 Miami-Nächte, Neonlichter & pures 80er-Feeling! 🌃💜 Das \"Miami Vibes Pack\" DLC 🌴🎨📻 erscheint"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120477287015461106",
+          "author": "steelersdepot",
+          "searchJob": "pittsburgh",
+          "text": "Dulac: Steelers ‘Received A Number Of Calls’ About Trade Offers For Their Defensive Talent #Steelers #NFL #Pittsburgh https://t.co/rO2Gcz9t4b"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120467413435310421",
+          "author": "francesafetytra",
+          "searchJob": "pittsburgh",
+          "text": "The Musée d'Orsay in Paris is currently hosting an important exhibition dedicated to Mary Cassatt, the American artist who became part of the Impressionist movement. Despite her significance, France's national museums had never previously d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120456546312224834",
+          "author": "pittsburghpg",
+          "searchJob": "pittsburgh",
+          "text": "Pittsburgh veterans with visual impairments offered a measure of independence with AI smart glasses | Read the story at the link in our bio https://t.co/vMBMEQgYzU"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120467148199903725",
+          "author": "clark_kent10935",
+          "searchJob": "kent-state",
+          "text": "Good morning from Virginia. 🇺🇸 On the morning of November 11, 1864, the engines of destruction began to turn in Atlanta. The city that had once pulsed as the Confederacy’s great inland arsenal now lay under the hard hand of William Tecums"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120462959453393378",
+          "author": "reachmedway",
+          "searchJob": "kent-state",
+          "text": "Reach Medway offers a free drop-in with a prayer team, for inner peace, joy and healing in Jesus' name. We're in Medway, Kent. In good weather we're often outdoors in the street; in winter, mainly indoors. Follow for where we are — you're w"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120474804515962916",
+          "author": "zackeiseman",
+          "searchJob": "ohio",
+          "text": "ICYMI O/N — November 11th, 2026 MACRO: Anthropic’s bankers expect to raise its IPO price above the filed $70–78 range after strong demand, potentially valuing it at $1.5tn or more and lifting proceeds above $100bn (including $26bn cornersto"
+        },
+        {
+          "reason": "author_not_recruit:different sport",
+          "postId": "2120469513410122187",
+          "author": "gxftedelitembb",
+          "searchJob": "minnesota",
+          "text": "Recruiting is starting to pick up up for the Class of 2027 6'3 guard @JeremiahVann18 Recently Received a offer from Florida National with schools like Kuyper College, Bryant &amp; Stratton, Minnesota North-V, Minnesota West &amp; Harper Col"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120468660124885403",
+          "author": "islandsmagazine",
+          "searchJob": "minnesota",
+          "text": "Minnesota has plenty of lake recreation opportunities, but for a more secluded vibe, this underrated gem offers a secluded fishing experience. https://t.co/ifKJAyWarS"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120466223204798750",
+          "author": "jpzanders",
+          "searchJob": "minnesota",
+          "text": "#ChemicalWeapons #Poison #Assassination #Cuba #USA #CIA #ColdWar How the CIA tried to use chemistry to kill Castro—and why it failed https://t.co/NE7xzRmUm2 [...] These plans may seem fantastical, but to historian and sociologist of science"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120457144625487891",
+          "author": "ukschooltrips",
+          "searchJob": "northwestern",
+          "text": "SCHOOL TRIP &amp; GROUP OFFER Schools and groups of 10+ Save 26% on rail journeys across London Northwestern Railway and West Midlands Railway’s Find out more and book direct to ensure groups can travel comfortably together on quieter servi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120453773814640911",
+          "author": "byron_wan",
+          "searchJob": "northwestern",
+          "text": "🇨🇳 Northwestern Polytechnical University — an institution with deep ties to the PLA — bought two Nvidia H200 chips last month for 874,700 yuan ($123,000), according to an Oct 21 procurement record on its website. Northwestern is a member "
+        }
+      ]
     },
     "search": {
       "ok": true,
@@ -105,11 +258,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 19,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-11T11:14:02.128Z"
+    "status rebuilt locally from current store on 2026-11-11T11:28:41.789Z"
   ]
 }
