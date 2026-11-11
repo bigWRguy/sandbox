@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T11:28:41.788Z",
+  "generatedAt": "2026-11-11T11:43:46.463Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-11T11:28:41.321Z",
+    "at": "2026-11-11T11:43:46.046Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7737316666666667,
-    "p95Hours": 1.7715786111111111,
-    "worstHours": 1.7715786111111111
+    "medianHours": 0.7763688888888889,
+    "p95Hours": 1.5134752777777778,
+    "worstHours": 1.7979488888888888
   },
   "decisionCoverage": {
-    "total": 22,
-    "decided": 22,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "pending": {
@@ -55,195 +55,211 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-11T11:28:41.320Z",
-      "got": 42,
-      "new": 22,
-      "lag": 0.1
+      "at": "2026-11-11T11:43:46.046Z",
+      "got": 40,
+      "new": 24,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-11T11:27:12.427Z",
+    "at": "2026-11-11T11:42:15.339Z",
     "mode": "live",
     "collection": {
-      "returned": 42,
-      "kept": 22,
-      "duplicate": 20,
+      "returned": 40,
+      "kept": 24,
+      "duplicate": 16,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 19,
-      "rejected": 3,
+      "accepted": 17,
+      "rejected": 7,
       "reasons": {
-        "no_fbs_school": 3
+        "non_fbs_offer_target": 1,
+        "no_offer_term": 2,
+        "no_fbs_school": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2120467832597021080",
-          "author": "wcti12",
-          "searchJob": "north-carolina",
-          "text": "Veterans and active-duty military members can find free meals, discounts and admission offers at businesses across Eastern North Carolina and the state, Wednesday, November 11. https://t.co/OWr0pKvWy6"
+          "reason": "non_fbs_offer_target",
+          "postId": "2120482189100155036",
+          "author": "5starm0ntez",
+          "searchJob": "tennessee",
+          "text": "#AGTG After a conversation with @KelvisWhite Im Blessed to have a another opportunity to play football again / receive an Official offer from Tennessee Valley Defenders 🔵🟠 https://t.co/GjMB9Ee7KQ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120467892055507325",
+          "author": "paneuropeanjrnl",
+          "searchJob": "tennessee",
+          "text": "https://t.co/z7JeSYBR3t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120471794725327321",
+          "author": "asianewsnetwork",
+          "searchJob": "stanford",
+          "text": "The three-unit seminar course, open to first-year students is inspired by 'Namjooning' – a widely popularised term coined by BTS fans – often defined as taking the time to slow down, enjoy nature and art, read and reflect. #ANN #AsiaNewsNet"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120476395126313328",
-          "author": "rap_interiors",
-          "searchJob": "kent-state",
-          "text": "Delighted to complete phase two of the refectory refurbishment at EKC Canterbury College for East Kent Colleges Group. Featuring bespoke joinery and flexible seating, the refreshed space offers welcoming areas to socialise, collaborate and "
+          "postId": "2120454313705161042",
+          "author": "finsee_main",
+          "searchJob": "utah",
+          "text": "$NNI Q3 2026 earnings: Nelnet's reported profit falls, but its loan business earns more Nelnet, which services student loans and lends to consumers, reported lower profit but earned more from its loans. Net profit fell 29%, because a year a"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120473842170704368",
-          "author": "kentingle",
-          "searchJob": "kent-state",
-          "text": "The next generation of leaders needs you to believe they can handle hard things. Let them face complexity, make decisions, and learn through the struggle. Offer guidance. Hold them accountable. Celebrate their growth. Sometimes your most po"
+          "postId": "2120407838078247351",
+          "author": "sakuchan1118",
+          "searchJob": "wake-forest",
+          "text": "I don’t think it makes sense to connect the fact that Uika gave Sakiko herbal tea in this event story to Sakiko’s preference for black tea. Uika explicitly mentions the effects of the herbal tea—she wants Sakiko to drink it and get a good n"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2120475962638774305",
+          "author": "infool7",
+          "searchJob": "wake-forest",
+          "text": "Good morning, friends. As dawn breaks on this November 11, 2026, the words of Psalm 63:11 offer a gentle yet powerful invitation: \"But the king shall rejoice in God; all who swear by him shall exult...\" These ancient lines remind us that tr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120478305379848542",
+          "author": "66dlm327350",
+          "searchJob": "massachusetts",
+          "text": "So much ignorance, so little time: \"Senate Democrats, in their infinite wisdom, say they have a plan to work with President Trump to tackle affordability. Their first proposal? A bill that could effectively cut off credit card access for po"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 19,
+      "rejected": 17,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 4,
-        "school_not_resolved_confidently": 4,
-        "author_not_recruit:different sport": 1
+        "bare_mention_requires_llm": 4,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 8
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120477016050798679",
-          "author": "fxaurex",
-          "searchJob": "oregon",
-          "text": "THE POT THAT NEVER BOILS DRY The Story of Shrimp Congee with Salted Egg and Mushrooms Somewhere in the world, at this very moment, a person is doing the one thing every rice teacher warns against: they are boiling rice until it falls apart "
+          "postId": "2120474862255014224",
+          "author": "parodyjokerpd",
+          "searchJob": "stanford",
+          "text": "THE BLUEPRINT | Part 23 of 24 THE DEMOCRATS' PROJECT 2029: The Second Envelope Democrats spent 2024 warning voters about Project 2025. Now some of them are building their own. Same rules as every other part of this series: what they say, wh"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120474473430126935",
-          "author": "neostatsai",
-          "searchJob": "oregon",
-          "text": "🏒 🇺🇸 NHL — ⭐ MY FINAL CARD 📅 Wednesday, November 11, 2026 ⭐ 1. Philadelphia Flyers @ Edmonton Oilers — Edmonton Oilers ML 💵 1.48 / -210 Confidence: High ⭐ 2. Nashville Predators @ Anaheim Ducks — Anaheim Ducks ML 💵 1.67 / -150 Confide"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120474726304784619",
-          "author": "neostatsai",
-          "searchJob": "houston",
-          "text": "🏀 🇺🇸 NBA — ⭐ MY FINAL CARD 📅 November 11, 2026 ⭐ 1. Boston Celtics @ Toronto Raptors — Celtics ML 💵 1.36 / -276 Confidence: High ⭐ 2. Golden State Warriors @ Houston Rockets — Rockets ML 💵 1.44 / -226 Confidence: Medium-High ⭐ 3. Clev"
+          "postId": "2120472703836778872",
+          "author": "mediamanoz",
+          "searchJob": "stanford",
+          "text": "Streaming Netflix @netflix Top 10 TV Shows In Australia Today November 11, 2026 via The (Netflix) box/interface! 1. Taken: Natalee Holloway 2. Black Doves 3. WWE RAW 4. Nobody Wants This 5. Will Trent 6. Power 7. The One About Matthew Perry"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120461050327753138",
-          "author": "mrgoodbear45",
-          "searchJob": "kansas",
-          "text": "📷 FROM THE DESK OF SISTER MARY CATHERINE EDITORIAL: THE LORD WORKS IN MYSTERIOUS WAYS, BUT SOMETIMES HE MAKES HIMSELF PERFECTLY CLEAR. 📷 Convent of Our Lady of Perpetual Exasperation | Bureau of Divine Intervention & Political Repentance "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120475449176256897",
-          "author": "ragerrryt",
-          "searchJob": "miami",
-          "text": "🚨 BE CAREFUL WITH THIS PROJECT! Elixir Games raised $14M from Square Enix and Solana Foundation $ELIX is down 99.9% from its ATH Now it's back. As a memecoin launchpad. After months in Miami, flexing a high-end convertible while investors "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120473299016724537",
-          "author": "josiahjdp",
-          "searchJob": "miami",
-          "text": "I’m Rachel, twenty-seven years old, and I teach literature at Horizon Prep, a private middle school in Seattle. I genuinely enjoy my career. Seventh graders can be unpredictable bundles of teenage emotions, but watching them discover a pass"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120469104859414631",
-          "author": "miamiherald",
-          "searchJob": "miami",
-          "text": "How much rain can Florida take? Recent ‘rain bombs’ offer a troubling preview https://t.co/SXzIOMewSc"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120456511826599942",
-          "author": "aerosoftgmbh",
-          "searchJob": "miami",
-          "text": "Das \"Miami Vibes Pack\" DLC 🌴🎨📻 für Heavy Cargo - The Truck Simulator erscheint am 19. November für PC, PlayStation 5 und XBOX Series X|S! 🌴 Miami-Nächte, Neonlichter & pures 80er-Feeling! 🌃💜 Das \"Miami Vibes Pack\" DLC 🌴🎨📻 erscheint"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120477287015461106",
-          "author": "steelersdepot",
-          "searchJob": "pittsburgh",
-          "text": "Dulac: Steelers ‘Received A Number Of Calls’ About Trade Offers For Their Defensive Talent #Steelers #NFL #Pittsburgh https://t.co/rO2Gcz9t4b"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120467413435310421",
-          "author": "francesafetytra",
-          "searchJob": "pittsburgh",
-          "text": "The Musée d'Orsay in Paris is currently hosting an important exhibition dedicated to Mary Cassatt, the American artist who became part of the Impressionist movement. Despite her significance, France's national museums had never previously d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120456546312224834",
-          "author": "pittsburghpg",
-          "searchJob": "pittsburgh",
-          "text": "Pittsburgh veterans with visual impairments offered a measure of independence with AI smart glasses | Read the story at the link in our bio https://t.co/vMBMEQgYzU"
+          "postId": "2120468220876411345",
+          "author": "arashseyf",
+          "searchJob": "utah",
+          "text": "How an Ex-NBA player tried to join the WNBA This is Enes Kanter Freedom. He spent 11 years in the NBA. Then he tried to enter the women’s league. He got rejected. 2011–2022: The NBA @EnesFreedom Drafted 3rd overall by the Utah Jazz in 2011."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120467148199903725",
-          "author": "clark_kent10935",
-          "searchJob": "kent-state",
-          "text": "Good morning from Virginia. 🇺🇸 On the morning of November 11, 1864, the engines of destruction began to turn in Atlanta. The city that had once pulsed as the Confederacy’s great inland arsenal now lay under the hard hand of William Tecums"
+          "postId": "2120471609085411634",
+          "author": "worldwidennx",
+          "searchJob": "virginia",
+          "text": "6 AM Top-of-the-Hour News Los Angeles Police aren't sure why a driver plowed his minivan onto a sidewalk in North Hollywood, killing three people and critically injuring two others. LA police chief Jim McDonnell...: “We'll be pulling all of"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2120462959453393378",
-          "author": "reachmedway",
-          "searchJob": "kent-state",
-          "text": "Reach Medway offers a free drop-in with a prayer team, for inner peace, joy and healing in Jesus' name. We're in Medway, Kent. In good weather we're often outdoors in the street; in winter, mainly indoors. Follow for where we are — you're w"
+          "postId": "2120471067990929811",
+          "author": "techinnovationz",
+          "searchJob": "virginia",
+          "text": "$IONQ security chief Leslie Kershaw in Forbes Leslie Kershaw, Chief Information Security Officer at @IonQ_Inc, is featured in Forbes. In a piece published on November 9, Heather Wishart-Smith brings her in on what leaders need to do before "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120481509630960080",
+          "author": "madebylewis_",
+          "searchJob": "wake-forest",
+          "text": "@KirkDaniels10 @Gossips24_ @Medikalbyk Who is that someone???? That person is in his team. And bro do you think Adobe hasn’t spoken to the people that offered the job to him??? Is been 3 years and you think Adobe will just wake up and say a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120480306817855730",
+          "author": "reservoirdubs",
+          "searchJob": "wake-forest",
+          "text": "@irish_news @carlalockhart Wake me up when someone from the dup offers a solution or says something positive / constructive"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120478339328553308",
+          "author": "bobby_razkovnik",
+          "searchJob": "wake-forest",
+          "text": "Today is a day of national mourning in Bulgaria. 11 people died on the Trakiya motorway yesterday, in the fog that comes every November. More than 50 people were injured and were airlifted or taken by ambulance to hospitals in Sliven, Yambo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120477495002869890",
+          "author": "hinariokisawa69",
+          "searchJob": "wake-forest",
+          "text": "Uika doesn't offer what Saki-chan likes, she offers what Saki-chan needs 🙏🏻 To relax, to sleep well, or to wake up from the eternal dream"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120475736431808792",
+          "author": "miraclennamchis",
+          "searchJob": "wake-forest",
+          "text": "Children of God, I would like to offer you some advice: whenever you wake up, praise God for your good health. This is important for you, because those who are alive have hope—but death offers no hope. https://t.co/dYPTUTUlkX"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120473190749094277",
+          "author": "mrdimasta420",
+          "searchJob": "wake-forest",
+          "text": "Every dog owner is fighting three small wars at home, and most of us have been losing them for so long that we forgot we were at war. Not the dramatic kind. Nobody makes a documentary about these. There is no siren, no rescue crew, no stran"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120473109870399640",
+          "author": "movieghurl",
+          "searchJob": "wake-forest",
+          "text": "The morning after my father died, I was getting ready to leave for his funeral when my husband suddenly asked, \"Who's going to prepare dinner for my mother and the rest of the family?\" I stood by the entrance with my bag packed and my mourn"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120452128066154748",
+          "author": "papertinsel",
+          "searchJob": "wake-forest",
+          "text": "@IrnaEnglish The constant threat of these regimes who can't simply swing to the other side and only offer violence in promise no matter what, is of very little concern . Iran now fears more for its stability at its Eastern borders, and this"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120469977044005042",
+          "author": "echosierragaf",
+          "searchJob": "louisiana",
+          "text": "@nexta_tv Ukraine should accept the US brokered land swap. Donbas for RuSSia and East Texas with Louisiana offered to Ukraine as compensation"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120474804515962916",
-          "author": "zackeiseman",
-          "searchJob": "ohio",
-          "text": "ICYMI O/N — November 11th, 2026 MACRO: Anthropic’s bankers expect to raise its IPO price above the filed $70–78 range after strong demand, potentially valuing it at $1.5tn or more and lifting proceeds above $100bn (including $26bn cornersto"
+          "postId": "2120479435992224006",
+          "author": "getchirpsports",
+          "searchJob": "marshall",
+          "text": "THE EARLY CHIRP 🐦 The early bird gets the worm. Here's everything from last night. 🏆 Player of the night: Myles Bradley (BGSU), 9 TKL, 5 SACKS, 2 PD, 9.4 Chirp Rating 🎯 The Sim went 9-4 on last night's games ☕️ TOP OF THE MORNING 🎓🏀 No"
         },
         {
-          "reason": "author_not_recruit:different sport",
-          "postId": "2120469513410122187",
-          "author": "gxftedelitembb",
-          "searchJob": "minnesota",
-          "text": "Recruiting is starting to pick up up for the Class of 2027 6'3 guard @JeremiahVann18 Recently Received a offer from Florida National with schools like Kuyper College, Bryant &amp; Stratton, Minnesota North-V, Minnesota West &amp; Harper Col"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120468660124885403",
-          "author": "islandsmagazine",
-          "searchJob": "minnesota",
-          "text": "Minnesota has plenty of lake recreation opportunities, but for a more secluded vibe, this underrated gem offers a secluded fishing experience. https://t.co/ifKJAyWarS"
+          "reason": "multiple_resolved_schools",
+          "postId": "2120453046832374015",
+          "author": "dunestarlight",
+          "searchJob": "marshall",
+          "text": "America “WE THE PEOPLE” can see the 2020 and 2026 midterms follow the EXACT same WAVEFORM CONGRUENCE! They are exactly the same pattern with a 15% offset! TOTAL FRAUD! DO NOT CERTIFY THE 2026 ELECTION! IT IS TIME TO TAKE BACK AMERICA-OUR FO"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120466223204798750",
-          "author": "jpzanders",
-          "searchJob": "minnesota",
-          "text": "#ChemicalWeapons #Poison #Assassination #Cuba #USA #CIA #ColdWar How the CIA tried to use chemistry to kill Castro—and why it failed https://t.co/NE7xzRmUm2 [...] These plans may seem fantastical, but to historian and sociologist of science"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120457144625487891",
-          "author": "ukschooltrips",
-          "searchJob": "northwestern",
-          "text": "SCHOOL TRIP &amp; GROUP OFFER Schools and groups of 10+ Save 26% on rail journeys across London Northwestern Railway and West Midlands Railway’s Find out more and book direct to ensure groups can travel comfortably together on quieter servi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120453773814640911",
-          "author": "byron_wan",
-          "searchJob": "northwestern",
-          "text": "🇨🇳 Northwestern Polytechnical University — an institution with deep ties to the PLA — bought two Nvidia H200 chips last month for 874,700 yuan ($123,000), according to an Oct 21 procurement record on its website. Northwestern is a member "
+          "postId": "2120466579703881818",
+          "author": "usa_sk8er",
+          "searchJob": "ole-miss",
+          "text": "WHAT ARE THEY DOING? A Comparison of Media Coverage 1. The Ole Miss Incident November 6: Ring-camera footage captured three women walking past an apartment occupied by three Black students. Two of the women appeared to make monkey noises an"
         }
       ]
     },
@@ -258,11 +274,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 19,
+      "rejectedCandidates": 17,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-11T11:28:41.789Z"
+    "status rebuilt locally from current store on 2026-11-11T11:43:46.464Z"
   ]
 }
