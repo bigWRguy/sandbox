@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T12:58:59.856Z",
+  "generatedAt": "2026-11-12T13:28:47.772Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-12T12:58:58.990Z",
+    "at": "2026-11-12T13:28:47.136Z",
     "jobsTotal": 162,
     "sweptThisRun": 19,
     "requests": 19,
@@ -32,106 +32,86 @@
   },
   "staleSchools": [
     {
-      "id": "nc-state",
-      "hours": 2.5
-    },
-    {
-      "id": "nevada",
-      "hours": 2.5
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.5
-    },
-    {
-      "id": "new-mexico-state",
-      "hours": 2.5
-    },
-    {
-      "id": "north-carolina",
-      "hours": 2.5
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 2.5
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 2.5
-    },
-    {
-      "id": "smu",
-      "hours": 2.5
-    },
-    {
-      "id": "stanford",
-      "hours": 2.5
-    },
-    {
-      "id": "syracuse",
-      "hours": 2.5
-    },
-    {
-      "id": "utah",
-      "hours": 2.5
-    },
-    {
-      "id": "virginia",
-      "hours": 2.5
-    },
-    {
-      "id": "arkansas",
-      "hours": 2.3
-    },
-    {
       "id": "ball-state",
-      "hours": 2.3
-    },
-    {
-      "id": "mississippi-state",
-      "hours": 2.3
-    },
-    {
-      "id": "missouri",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "north-texas",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "notre-dame",
-      "hours": 2.3
-    },
-    {
-      "id": "ohio-state",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "uab",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "virginia-tech",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "wake-forest",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "west-virginia",
+      "hours": 2.8
+    },
+    {
+      "id": "air-force",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia-southern",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia-state",
+      "hours": 2.3
+    },
+    {
+      "id": "hawaii",
+      "hours": 2.3
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 2.3
+    },
+    {
+      "id": "minnesota",
+      "hours": 2.3
+    },
+    {
+      "id": "nebraska",
+      "hours": 2.3
+    },
+    {
+      "id": "uconn",
+      "hours": 2.3
+    },
+    {
+      "id": "unlv",
+      "hours": 2.3
+    },
+    {
+      "id": "utah-state",
+      "hours": 2.3
+    },
+    {
+      "id": "utep",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0174188888888889,
-    "p95Hours": 2.519996388888889,
-    "worstHours": 2.519996388888889
+    "medianHours": 1.2692758333333334,
+    "p95Hours": 2.272329722222222,
+    "worstHours": 2.7722788888888887
   },
   "decisionCoverage": {
-    "total": 38,
-    "decided": 38,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -148,314 +128,195 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-12T12:58:58.882Z",
-      "got": 53,
-      "new": 38,
-      "lag": 0.05
+      "at": "2026-11-12T13:28:47.087Z",
+      "got": 38,
+      "new": 20,
+      "lag": 0.03
     },
     "search:commit": {
-      "at": "2026-11-12T12:58:58.990Z",
-      "got": 59,
-      "new": 18,
-      "lag": 0.92
+      "at": "2026-11-12T13:28:47.136Z",
+      "got": 61,
+      "new": 21,
+      "lag": 0.09
     }
   },
   "audit": {
-    "at": "2026-11-12T12:57:17.998Z",
+    "at": "2026-11-12T13:27:09.949Z",
     "mode": "live",
     "collection": {
-      "returned": 53,
-      "kept": 38,
-      "duplicate": 15,
+      "returned": 38,
+      "kept": 20,
+      "duplicate": 18,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 15,
+      "accepted": 12,
+      "rejected": 8,
       "reasons": {
-        "no_offer_term": 7,
-        "non_fbs_offer_target": 5,
-        "no_fbs_school": 3
+        "no_offer_term": 3,
+        "no_fbs_school": 4,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2120862051601940833",
-          "author": "positiveosceola",
-          "searchJob": "miami",
-          "text": "https://t.co/qQns9rzc6c"
+          "postId": "2120870823678320898",
+          "author": "robcarpenter",
+          "searchJob": "north-carolina",
+          "text": "Verisk CargoNet counted 547 cargo thefts in the third quarter, down 33%, while the average loss jumped 72% to $448,456. A federal case in Connecticut shows how the thieves now work https://t.co/lZKL3BoX5S"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120858656732275046",
-          "author": "milenatehoff",
-          "searchJob": "miami",
-          "text": "https://t.co/wwYQB9gMVr"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120844556430115195",
-          "author": "chefslink",
-          "searchJob": "miami",
-          "text": "🔥 𝗥𝗶𝘃𝗶𝗲𝗿𝗮 𝗳𝗹𝗮𝘃𝗼𝘂𝗿𝘀 𝗶𝗻 𝘁𝗵𝗲 𝗵𝗲𝗮𝗿𝘁 𝗼𝗳 𝗠𝗮𝘆𝗳𝗮𝗶𝗿 🇫🇷 La Petite Maison is looking for a Chef de Partie The London home of a global brand, from Dubai and Miami to Hong Kong and Mykonos. https://t.co/38k0cF9QWU ht"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120853906477441191",
-          "author": "abujafunds",
-          "searchJob": "troy",
-          "text": "https://t.co/AZnnNvSSHB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120839987856024026",
-          "author": "cheny60787",
-          "searchJob": "troy",
-          "text": "🍎 I'M JUST AN APPLE!!! Volume III — The Golden Apple https://t.co/TACIjVenFG"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2120863236178514291",
-          "author": "michfbfrenzy",
-          "searchJob": "michigan",
-          "text": "Rockford 2027 ATH Bryce Miller was offered by Wayne State @bryce_miller8 https://t.co/WKldaIPogN"
+          "postId": "2120864992056545474",
+          "author": "jamesgreenwy",
+          "searchJob": "north-carolina",
+          "text": "https://t.co/DGUyiVOCS7"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120863030699593816",
-          "author": "michfbfrenzy",
-          "searchJob": "michigan",
-          "text": "Chippewa Valley 2027 RB Bryce Locke was offered by Wittenberg @lilblocke https://t.co/vOPxw1yx0J"
+          "postId": "2120849246341492745",
+          "author": "arnaudmercier",
+          "searchJob": "north-carolina",
+          "text": "<p class=\"wp-block-paragraph\">A technique known as “machine unlearning” could teach AI models to forget specific voices—an important step in stopping the rise of audio deepfakes, where someone’s voice is copied to carry out fraud or scams.<"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2120862861685879134",
-          "author": "michfbfrenzy",
-          "searchJob": "michigan",
-          "text": "Chippewa Valley 2027 OL Mason Cornett was offered by Saint Mary @Mason_Cornett14 https://t.co/8FNfPJx5G5"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120862437364600956",
-          "author": "michfbfrenzy",
-          "searchJob": "michigan",
-          "text": "Grand Haven 2027 LB Steele Wharton-Bickley was offered by Wheaton @steelebickley https://t.co/GZlvKss7rz"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2120861615146828113",
-          "author": "big90charley",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Extremely blessed to receive a official offer from Jacksonville Athletic Academy #agtg✝️ #gomocs🐍🏈 https://t.co/MSdJ8GGmN4"
+          "reason": "hard_negative",
+          "postId": "2120856133766148445",
+          "author": "arnaudmercier",
+          "searchJob": "stanford",
+          "text": "<p class=\"wp-block-paragraph\">OpenAI has finally released its <a href=\"https://t.co/VTBCVmmFap\">first open-weight large language models</a> since 2019’s GPT-2. These new “gpt-oss” models are available in two different sizes and score simila"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120856897209172102",
-          "author": "trevormurp10172",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachDunford8 I am blessed to receive my first official offer from @BURamsFootball!! https://t.co/yEaDPv7urO"
+          "postId": "2120866573431066956",
+          "author": "bk24hurst",
+          "searchJob": "virginia",
+          "text": "@OJoelsen If you can offer me and my dog a free vacation I’d love to chat me visit."
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2120856652718940303",
-          "author": "memphiz_1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG blessed to receive an d1 offer from Lamar university @Marshall_Reggie @DemarcusHarri01 @CoachJudie5372 @_CoachSkipper_ @CoachSandy12 @CoachRLC550 @CoachJ_O @CoachC_Osunde @feedthesharks40 @KevinIngra85335 @247Sports https://t.co/E6XtC"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2120856363417174418",
-          "author": "cameronwal89344",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After talking with @CoachHill1, I’m blessed to receive an offer from Community Christian College. @Coachparker22 https://t.co/Ynswjm657K"
+          "reason": "no_fbs_school",
+          "postId": "2120861593114222959",
+          "author": "thiedeinvests",
+          "searchJob": "nevada",
+          "text": "$AG First Majestic Silver has developed in recent years into one of the most prominent pure silver producers and has meaningfully expanded its production base. With the acquisition of Gatos Silver in January 2025, the company secured a 70 p"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120846248416526475",
-          "author": "jacks11541",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 2nd team all-district center! Thank you to my teammates and coaches for pushing me to be my best. @GainesvilleFoo1 @CoachTreCage @CoachKnouff @coachevanspvicu @MDuda57 @BigBrown90 @dsmith3211 @4THQTR___ @PWCsportsVA @Prep"
+          "postId": "2120861669039697932",
+          "author": "bqssc",
+          "searchJob": "new-mexico",
+          "text": "纽约一间公寓的衣柜里，重新发现了乔治娅·欧姬芙 1930 年的风景画《Near Abiquiu, New Mexico I》。这件作品至少三十年未公开亮相，将于 11 月 17 日上拍。佳士得估价约 300 万美元——这是拍前估价，不是成交价。 来源：佳士得 https://t.co/RokBkBUY1P https://t.co/hGetGiwKp7"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2120845815635681781",
-          "author": "cooperbeaty_9",
-          "searchJob": "phrase:\"blessed to have received\"",
-          "text": "Blessed to have received 2026 Kishwaukee River Valley All-Conference Honors. Thankful for my coaches for believing in me and thankful for the opportunity to battle along side my teammates each week. ✅Total Tackles 142 ✅Solo Tackles 104 ✅TFL"
+          "reason": "no_fbs_school",
+          "postId": "2120871012875239661",
+          "author": "byiandaniel",
+          "searchJob": "arkansas",
+          "text": "Amir Mahmoud invited me to the Little Rock Public Radio earlier this month to discuss the Southern SARE producer grants. Listen…. USDA offers grant for problem-solving farmers in Arkansas https://t.co/TAr323X0CE"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 22,
+      "accepted": 0,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 11,
         "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 8
+        "bare_mention_requires_llm": 7,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120860896608063959",
-          "author": "irrational41jay",
-          "searchJob": "kansas",
-          "text": "@CarricoSet40009 @Cats_Coverage @bturner23 Kansas offered him less money… you got it backwards. He chose the standard, not even a check could get him to play for Mark Pope 😭"
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2120859207406629288",
-          "author": "bobby_j_8",
-          "searchJob": "kansas",
-          "text": "@TristanUda What a trash individual. You don’t have to like UK, but they put out the red carpet, offered you millions, and assisted in you getting even more from Kansas. Just shows how horrible this kids mindset is."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120861107141095807",
-          "author": "hail2snerd",
-          "searchJob": "miami",
-          "text": "🚨🚨🚨 Breaking!🚨🚨🚨 8 Million dollar man! 8 million is the number one unnamed SEC GM said will be offered to Ethan Grunkemeyer when he tests the open market this coming offseason. Yesterday it was announced that Mississippi State Quarter"
+          "postId": "2120870104074158492",
+          "author": "lostlettermen",
+          "searchJob": "nc-state",
+          "text": "🧨🧨GG Gekko Official🧨🧨 🔥Josh Leonard #23 (6'7 SF; Wilson; 2027)🔥 📚Offers- NC State, Clemson, California, etc.📚 #schoops #scbasketball https://t.co/DeSlRlC8MW"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120858092841660469",
-          "author": "positiveosceola",
-          "searchJob": "miami",
-          "text": "✈️ KISSIMMEE COULD SOON OFFER FASTER REGIONAL FLIGHTS ACROSS FLORIDA, WITH ELECTRIC AVIATION ON THE HORIZON! 🚀 Imagine flying from Kissimmee to another Florida city instead of spending hours on congested highways! That possibility could be"
+          "postId": "2120869167058292832",
+          "author": "untamed_nomad",
+          "searchJob": "pittsburgh",
+          "text": "Heart of the Beast is a gritty and moving survival thriller, not different in nature than my novel To The North (2020). The film features beautiful Alaskan wilderness settings and well-portrayed animal scenes (I liked the empathy scene with"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120865091252003056",
+          "author": "mshannep",
+          "searchJob": "pittsburgh",
+          "text": "6. DK Metcalf Eight targets per game, one TD all year. His last game was one catch for four yards on six targets. I'd offer a flex RB for a shot at better conversion. Pittsburgh closes with BAL, CAR and TEN."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120849093190721887",
+          "author": "cherokeeowl2",
+          "searchJob": "pittsburgh",
+          "text": "134 years ago today, a Yale football star was secretly handed $500 to play one game, and football was never the same. William \"Pudge\" Heffelfinger was a three-time All-American guard at Yale, widely considered the best player of his day. Fo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120864941876113826",
+          "author": "highcountryobsv",
+          "searchJob": "utah",
+          "text": "The Department of the Interior has formally adopted a policy goal of reducing federal land ownership, reopening one of the most contentious debates in Western land management. In its strategic plan released November 10, the department says "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120864927464239407",
+          "author": "bigfngorilla",
+          "searchJob": "utah",
+          "text": "@wal5225 @Hightop_Dave Different era...and Urban was leading Utah to an undefeated season and ready for a bigger program. All signs pointed to Notre Dame being ready to move on from Willingham. So it had to be done, ASAP to get the offer in"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120858901155553638",
+          "author": "keithtradesmith",
+          "searchJob": "nevada",
+          "text": "The U.S. dollar has lost 51% of its value over the past seven years against a basket of crude oil, corn, copper, natural gas, sugar, and soybeans. That is the backdrop for Royal Gold $RGLD and Franco-Nevada $FNV, both closing in on new all-"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120864272804720992",
+          "author": "1reformalliance",
+          "searchJob": "arkansas",
+          "text": "This article offers a recap of the 2026 Arkansas public school letter grades, with a breakdown of how most districts were ranked from A to F. https://t.co/S9MeIBD2Tu #ARED #Accountability #SchoolLetterGrades #FindYourFit"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120861440047292893",
+          "author": "nealbradley",
+          "searchJob": "arkansas",
+          "text": "REGIONAL SPORTS ROUNDUP Thursday, November 12, 2026 COLLEGE RACERS VS DRAKE IN SEMIS Murray State soccer looks to continue its eight-match unbeaten streak when the fifth-seeded Racers visit top-seeded Drake tonight at 6 in the Missouri Vall"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2120856304889536795",
+          "postId": "2120856311382303153",
           "author": "billionaireweb",
-          "searchJob": "miami",
-          "text": "🎰 50 Free Spins on The Book of the Earth - Miami Club Redeem this offer at CASINOBILLIONAIRE TELEGRAM CHANNEL ☆ No deposit required ☆ WGR: 40x ☆ Maximum Cashout $150 ☆ Valid through: Nov 11 – Dec 2 ☆ New Players Enjoy 50 Free Spins on The "
+          "searchJob": "arkansas",
+          "text": "🎰 50 Free Spins on Wild Hog Luau slot game - Ripper Casino Redeem this offer at CASINOBILLIONAIRE TELEGRAM CHANNEL ☆ No deposit required ☆ WGR: 60x ☆ Max. cashout: $100 ☆ Valid through: Nov 12 – 18 ☆ New players Aloha, mate! 🌺 Ruby’s brin"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2120856292562526329",
-          "author": "billionaireweb",
-          "searchJob": "miami",
-          "text": "🎰 50 Free Spins on Soaring Eagle - Miami Club Redeem this offer at CASINOBILLIONAIRE TELEGRAM CHANNEL ☆ No deposit required ☆ WGR: 40x ☆ Maximum Cashout $150 ☆ Valid through: Nov 12 – Jan 31 ☆ All Players Soaring Eagle – Let Your Winning S"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120847859608141908",
-          "author": "edisoncre",
-          "searchJob": "miami",
-          "text": "For Lease – Last-Mile Distribution Yard in Miami, FL 📍 3200 NW 67th Ave, Miami FL Position your operation at the center of South Florida’s logistics network. This 17-acre IU-2 zoned property offers flexible yard sizes, from 1 acre and up, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120841173937889359",
-          "author": "uphonestreal",
-          "searchJob": "miami",
-          "text": "🏴 https://t.co/FwUci4YFGu THE WORLD DOESN'T NEED ANOTHER CLUB. IT NEEDS A PLACE FOR PEOPLE WHO WERE NEVER MEANT TO FIT IN.™ SOME PEOPLE FOLLOW THE RULES. OTHERS REWRITE THEM. The founders who challenge entire industries. The creators who r"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120836989125603667",
-          "author": "bearded1rishman",
-          "searchJob": "miami",
-          "text": "@tjmcaulay There's been way too much explanation. You just gotta tell the convict fans the rule is what it is, take your L like a man. Miami is the absolute worst cfb has to offer."
+          "postId": "2120866877983305789",
+          "author": "nowayjoejay",
+          "searchJob": "ohio-state",
+          "text": "@Simeon_Fritter I doubt it was a package deal. Gordon only had smaller school offers until recently and had decided to sign with an in-state school. Buckeyes were definitely the biggest offer he got."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120832956222562411",
-          "author": "anthonyfinance",
-          "searchJob": "miami",
-          "text": "Buying a Condo? Know Before You Make an Offer. Not every condominium qualifies for every mortgage program. Finding that out after going under contract can cost buyers valuable time and money. TAG Lending Group is changing the way buyers and"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120827614650827117",
-          "author": "jmvillelabeitia",
-          "searchJob": "miami",
-          "text": "@The_Phinstones For me it has to be Daunte Culpepper, we payed a 2nd round for a lamed QB and let Drew Brees walk away. We are still paying that huge mistake. If Culpepper is never offered to Miami what would have happen?"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120827102706467130",
-          "author": "ml_previews",
-          "searchJob": "miami",
-          "text": "Aleksandr Shevchenko vs Thiago Agustin Tirante — the qualifier who beat the second seed against the higher-ranked Argentine Preview · ATP 250 Stockholm · Quarter-final · Thursday 12 November 2026 Aleksandr Shevchenko came through qualifying"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120845019984851332",
-          "author": "fanoonman",
-          "searchJob": "navy",
-          "text": "@DanaDML @MarkWarner Do you have ANYTHING but shit-talk to offer? Never even an attempt at a persuasive argument, troll. Did they train you in the Navy just to be hostile as hell? If you have weapons, you don't NEED no steenking \"good argum"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120861234367176766",
-          "author": "xavionhoover5_",
-          "searchJob": "southern-miss",
-          "text": "Southern miss offered !!!!! #GoldenEagles https://t.co/DqiaxNsuSO"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120836731595317451",
-          "author": "pitpiper9675",
-          "searchJob": "toledo",
-          "text": "IRAN IS FALLEN! GADI EISENKOT, THE MAN THE ARABS FEAR MORE THAN NETANYAHU? WHY ARE PALESTINIANS AND ARABS NOT CELEBRATING THE POSSIBLE DEPARTURE OF NETANYAHU AS ISRAEL’S PRIME MINISTER? OPINION: I have deliberately refrained from commenting"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120832737435115904",
-          "author": "asenjox",
-          "searchJob": "toledo",
-          "text": "Elon Musk replied to a detailed warning that artificial superintelligence could rapidly erase SpaceX and Tesla’s specialized advantages in rockets, hardware, satellites, and robotics by stating that “the road ahead is long and we are still "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120851588885401737",
-          "author": "finsee_main",
-          "searchJob": "troy",
-          "text": "$SPB Q4 2026 earnings: Spectrum Brands lifts profit, but sales fall across all units Spectrum Brands, the maker of Spectracide bug spray and Remington shavers, expanded its profit margins even as fourth-quarter sales slipped in all three di"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120849277148925972",
-          "author": "jdavidelwood",
-          "searchJob": "troy",
-          "text": "A remodeled restaurant, full bar, commercial kitchen, private party venue &amp; fenced patio in Troy. 4,046 sq. ft. with nearly 300' of Rochester Rd frontage. Offered at $1.2M. 🍸 https://t.co/S9CUcseYdt #CommercialRealEstate https://t.co/m"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120842850413723853",
-          "author": "allday_stocks",
-          "searchJob": "troy",
-          "text": "$HELE Helen of Troy: Empower Brands Presses for $37-Per-Share Cash Takeover, Open to Improved Offer ⠀ • Empower Brands, jointly owned by $SPB Spectrum Brands and Oaktree-managed funds, values the proposed transaction at approximately $1.6B "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120859113399664765",
-          "author": "reallz4l",
-          "searchJob": "tulsa",
-          "text": "CHAPTER 2: A NEW CITY, A NEW CRIMINAL EMPIRE Dwight begins exploring the city, trying to understand how things work in his unfamiliar surroundings. Unlike New York, Tulsa does not have the same traditional Mafia structure. But Dwight quickl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120856639762763791",
-          "author": "brianbturner",
-          "searchJob": "maryland",
-          "text": "How does a government agency repeatedly promise to resolve an issue, give a specific date, miss that date, and still offer no explanation? Maryland taxpayers deserve better. @MDComptroller @BrookeELierman"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120836664142754161",
-          "author": "armageddonprose",
-          "searchJob": "michigan",
-          "text": "Dr. Abdul El-Sayed, the Butcher of Michigan, offers the Final Solution for \"anti-vaxxers\" in 2021: https://t.co/9RLdirJsGI"
+          "postId": "2120864949966651715",
+          "author": "iceiqapp",
+          "searchJob": "ohio-state",
+          "text": "The path from youth hockey to college hockey is narrowing for elite talent, and Tilde Grillfors’ move to Ohio State highlights the growing allure of NCAA programs for top European prospects. Grillfors, an 18-year-old VM forward, leaves Bryn"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 310,
+      "jobs": 307,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -465,71 +326,72 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2120861107141095807",
-          "author": "hail2snerd",
-          "text": "🚨🚨🚨 Breaking!🚨🚨🚨 8 Million dollar man! 8 million is the number one unnamed SEC GM said will be offered to Ethan Grunkemeyer when he tests the open market this coming offseason. Yesterday it was announced that Mississippi State Quarter"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2120851588885401737",
-          "author": "finsee_main",
-          "text": "$SPB Q4 2026 earnings: Spectrum Brands lifts profit, but sales fall across all units Spectrum Brands, the maker of Spectracide bug spray and Remington shavers, expanded its profit margins even as fourth-quarter sales slipped in all three di"
+          "postId": "2120856133766148445",
+          "author": "arnaudmercier",
+          "text": "<p class=\"wp-block-paragraph\">OpenAI has finally released its <a href=\"https://t.co/VTBCVmmFap\">first open-weight large language models</a> since 2019’s GPT-2. These new “gpt-oss” models are available in two different sizes and score simila"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2120244686367629741",
-          "author": "cgtnamerica",
-          "text": "The ninth China International Import Expo (CIIE) closed in Shanghai on Tuesday, pulling in $85.45 billion in one-year intended deals – a record high and a 2.3% bump from the previous run. Xiao Lu, deputy director of the CIIE Bureau, announc"
-        },
-        {
-          "reason": "juco_or_transfer",
-          "postId": "2120138684750090312",
-          "author": "_kilocharlie",
-          "text": "$NOK $ASTS Is Nokia the missing link in Space Defense? To analyze this, we need to go back to the beginning of the partnership between AST SpaceMobile and Nokia. Because to understand the bigger picture, all the pieces must be in place. In "
-        },
-        {
-          "reason": "juco_or_transfer",
-          "postId": "2120132468863033496",
-          "author": "92security",
-          "text": "The Full Map: 3 Alliances, 3 Different Games Everyone is mixing 3 different deals. Here is the complete technical breakdown: 1. ISRAEL-MOROCCO = CAPABILITY (SWORD) Type: Bilateral Partnership, No Treaty Base: Abraham Accords 2020 + Defense "
+          "postId": "2119900088214630503",
+          "author": "milkroadai",
+          "text": "$SPY is up about 2.5% near $754 heading into the close, bouncing back from last week's selloff after trading as low as about $741 near the open and as high as about $755. Here are the top stories you need to know. 1. $NVDA fell about 6% aft"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2120118126763262417",
-          "author": "econographs",
-          "text": "Anthropic emailed bankers a copy of its IPO filing on Monday, then quickly told them the pricing was inaccurate, Reuters reported. The draft showed about 866.7 million Class A shares at $70 to $80 each, which would raise up to $69.3 billion"
+          "postId": "2119892857033298244",
+          "author": "carrioresearch",
+          "text": "Big Tech has $4.49 TRILLION in off-balance-sheet commitments multiyear. Most people look at that and worry about Capex efficiency. I look at the supplier side and see an unprecedented runway. If you are locking in equipment, power, and data"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2119862269915824434",
+          "author": "sports_drc",
+          "text": "Krum junior AJ Criss (@aj_criss10) announced his commitment Sunday to play college football at Texas Tech. Criss finished the regular season Friday with his 6th 100-yard game of the year and enters the playoffs with over 1,000 receiving yar"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2120114585550172455",
-          "author": "finsee_main",
-          "text": "$ELMT Q3 2026 earnings: Elmet's defense backlog nearly triples, but inventory drains cash Elmet is winning major Pentagon tungsten contracts while spending heavily on inventory to fulfill them. The U. S. maker of defense metals and microwav"
+          "postId": "2119849395222892787",
+          "author": "spcxgod",
+          "text": "Ok I'm calling it now. I have said this before and I am doubling down on this. Bookmark this. Apple partners with SpaceX for the Siri AI rollout, and Grok becomes the brain. Sounds crazy. But it’s actually the most obvious match in tech. He"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2119817633029640324",
+          "author": "ttredraiders",
+          "text": "Texas Tech flips 4-star LB, adds two commitments and is heating up on the recruiting trail #redraiders #texastech https://t.co/liCtmqkCdg"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2120110398149906784",
-          "author": "n13",
-          "text": "Devcon lookback: 1 - Ethereum is fully quantum pilled - considers it one of the fundamental pieces of tech they need to be working on right now 2 - Justin Drake's session was the p(doom) session - how bad it is - see below; we already knew "
+          "postId": "2119539748863967357",
+          "author": "pressliberland",
+          "text": "Russian President Vladimir Putin Bestows Order of Friendship on Patriarch Theophilos III of Jerusalem MOSCOW / KREMLIN — Russian President Vladimir Putin presented His Beatitude Theophilos III, Patriarch of the Holy City of Jerusalem and Al"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2120870037175058882",
+          "author": "owengregorian",
+          "text": "AUDI'S $7 BILLION AMERICAN BET: Trump's tariffs are bringing German luxury cars to Georgia | Lauren Fix, Blaze Media German luxury automaker Audi is preparing to build cars in America for the first time, and its investment could reach $7 bi"
         }
       ],
       "stats": {
-        "candidates": 20,
-        "accepted": 0,
+        "candidates": 22,
+        "accepted": 2,
         "rejected": 20,
         "reasons": {
-          "roundup_too_long": 12,
-          "other_sport": 4,
-          "juco_or_transfer": 4
+          "roundup_too_long": 9,
+          "no_commit_event": 3,
+          "no_football_context": 7,
+          "other_sport": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 22,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 12,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-12T12:58:59.858Z"
+    "status rebuilt locally from current store on 2026-11-12T13:28:47.772Z"
   ]
 }
