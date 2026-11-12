@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T02:44:13.734Z",
+  "generatedAt": "2026-11-12T03:06:59.781Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-12T02:44:13.243Z",
+    "at": "2026-11-12T03:06:59.216Z",
     "jobsTotal": 162,
     "sweptThisRun": 26,
     "requests": 26,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7839322222222223,
-    "p95Hours": 1.7848908333333333,
-    "worstHours": 1.7848908333333333
+    "medianHours": 0.9116322222222222,
+    "p95Hours": 1.653016388888889,
+    "worstHours": 1.653016388888889
   },
   "decisionCoverage": {
-    "total": 40,
-    "decided": 40,
+    "total": 58,
+    "decided": 58,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4577,
     "incompleteOffers": 0
@@ -55,316 +55,380 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-12T02:44:13.242Z",
-      "got": 85,
-      "new": 40,
-      "lag": 0.04
+      "at": "2026-11-12T03:06:59.216Z",
+      "got": 95,
+      "new": 58,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-12T02:42:37.079Z",
+    "at": "2026-11-12T03:05:18.573Z",
     "mode": "live",
     "collection": {
-      "returned": 85,
-      "kept": 40,
-      "duplicate": 45,
+      "returned": 95,
+      "kept": 58,
+      "duplicate": 37,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 23,
-      "rejected": 17,
+      "accepted": 33,
+      "rejected": 25,
       "reasons": {
-        "no_offer_term": 3,
-        "non_fbs_offer_target": 1,
-        "no_fbs_school": 13
+        "no_fbs_school": 15,
+        "hard_negative": 2,
+        "no_offer_term": 4,
+        "non_fbs_offer_target": 3,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2120683353619968086",
+          "author": "americapapabear",
+          "searchJob": "houston",
+          "text": "THEY SAID THEY'D BEAT CARMAX. HE HAULED THE CAR IN AND GOT THE SAME LOWBALL!! Did the dealership waste his time, or did he blow it by losing his temper? A seller says a used car manager called promising to beat CarMax's $15,600 offer if he "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2120698619380871485",
+          "author": "profootballdoc",
+          "searchJob": "nc-state",
+          "text": "Son is top recruit and committed first Dad got offered @PackFootball job after \"Reverse\" nepotism 🤣"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2120669882236985796",
-          "author": "malekrashadfb",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 1st Team Patriot District OL accolades! I’m excited as ever to work this offseason. https://t.co/XkpRl2FXCw https://t.co/As2wTHfZyb"
+          "postId": "2120696259350806575",
+          "author": "bussinwtb",
+          "searchJob": "nc-state",
+          "text": "Meet NC State’s next QB, Gunner Rivers. His dad? NC State’s new head coach, Philip Rivers. https://t.co/lTGeMV6TWX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120683051751522410",
+          "author": "pghbiztimes",
+          "searchJob": "pittsburgh",
+          "text": "U.S. Steel is hiring about 100 workers for its Mon Valley plants, with a job fair from 8 a.m. to 1 p.m. Thursday, Nov. 12, in Duquesne. Qualified candidates could get a same-day offer. https://t.co/zAeVUvKwUC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120707484398899525",
+          "author": "freza1984",
+          "searchJob": "stanford",
+          "text": "https://t.co/emakxREQxs"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2120668505582227776",
-          "author": "braylonreed4",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 4th Offer from Northeast Community College @coach_stigers @CedShell https://t.co/qryYJJtZOk"
+          "postId": "2120686654801474041",
+          "author": "prepredzonenm",
+          "searchJob": "new-mexico",
+          "text": "2027 La Cueva DE offered by Santa Barbara City College."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120667224793096572",
+          "author": "dockmileslove1",
+          "searchJob": "new-mexico",
+          "text": "#AGTG After a great conversation with @CoachCano3 I am grateful to receive an offer from @SBCCFootball‼️ @LaCuevaFootball https://t.co/0wXtgrdjn5"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2120686121915134099",
+          "author": "prepredzonenm",
+          "searchJob": "new-mexico",
+          "text": "2027 La Cueva DE offered by North Dakota State College of Science."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120667620894752988",
+          "author": "dockmileslove1",
+          "searchJob": "new-mexico",
+          "text": "#AGTG After a great conversation with @Coach_Holloway5 I am grateful to receive my an offer from NDSCS‼️ @LaCuevaFootball https://t.co/pAXBcx7SVs"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120667618122113131",
-          "author": "mason166923",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a talk with @Coach_Gilkes I am extremely blessed to receive my second division 2 scholarship to @ConcordFootball ‼️ @kaleb_gsx @CoachDinoo @Coach__Deebo @1ryan_04 @KalebCrawford17 @tdhald @DeenEaglesFB https://t.co/omAFVIeAA4"
+          "postId": "2120696200747987238",
+          "author": "db_aoboshi",
+          "searchJob": "class:2026",
+          "text": "宗の成績と年俸の推移、ベイスターズの年俸順位、近年のCランクFA移籍選手の契約との比較は、ブログにまとめています。 https://t.co/f6pIZq4uoR"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120685254113407320",
-          "author": "okmagazine",
-          "searchJob": "duke",
-          "text": "An unexpected detail from Prince Harry's memoir is resurfacing amid the growing controversy surrounding Meghan Markle's father. Harry previously revealed that Thomas Markle Sr. routinely had the windows of his homes boarded up, even before "
+          "postId": "2120686555622678534",
+          "author": "dbadol2000",
+          "searchJob": "class:2026",
+          "text": "💰 HOW CAN WE BUY $BEAM? (Nov 2026 update: The non CEX edition) First, it's worth reminding all good law-abiding citizens that holding and using privacy coins is perfectly legal for people almost everywhere in the world. What happens is tha"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120683217217089934",
-          "author": "romelloduke",
-          "searchJob": "duke",
-          "text": "@KenDBerryMD If the association's own report says it lowers A1c and cuts medication, it should be the first option offered, not the last. Most people who cut carbs see fasting numbers move within 2 to 3 weeks."
+          "postId": "2120712338286190734",
+          "author": "owencurtice",
+          "searchJob": "class:2027",
+          "text": "I have just finished up my Senior Season! I’m so proud of this team and will always love my time as an Eagle! Here are my best plays from this season: https://t.co/8iotl7oBcU Owen Curtice | Oakland, ME | 6’5 290 lb 2027 OT | 3.85 GPA 1420 S"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120698951204565057",
-          "author": "kulak76",
-          "searchJob": "troy",
-          "text": "Grok has been doing wonders for me as a personal coach. It's a sounding board that unfailingly understands* what I'm talking about and continually surprises me with the depth of immediate insight and wisdom it can offer."
+          "postId": "2120711738286870588",
+          "author": "owencurtice",
+          "searchJob": "class:2027",
+          "text": "I have updated my Condensed Highlight Tape to be fully up to date for my entire High School career. I love this game and am very proud of all the ups and downs! Owen Curtice | Oakland, ME | 6’5 290 lb 2027 OT | 3.85 GPA 1420 SAT | 1 Divison"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2120697779739898285",
+          "author": "wyattlee_27",
+          "searchJob": "class:2027",
+          "text": "Excited to receive an official offer from Whittier College @Poetfootball! Mahalo nui @CoachYog, @Coach_CoryWhite, @coach_odin, @CoachLucasGovan, @coachguti1, @apjacobs, @coachzepeda_SP, @CoachThomas_BT, Coach Smith, and Coach Rik for the op"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120693899010183649",
+          "author": "chrishollo637",
+          "searchJob": "lsu",
+          "text": "@0neangrymidget No this isn’t any state or federal scholarship he’s being recruited and offered scholarship by schools directly with zero athletic skills"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120711424318063009",
+          "author": "is0_dw",
+          "searchJob": "washington",
+          "text": "Great round 1 win vs crossland. Next up is a great Gwynn Park team. Ended the regular season at 7-2 and continuing to get better and better. Come see what I’m about! Currently holding 6 offers. https://t.co/qZaVzcnlgt #trench #doørdie https"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120709288662299034",
+          "author": "kimberp123",
+          "searchJob": "washington",
+          "text": "Let’s talk about this… Bombshell accusations hit Rep. Thomas Massie as his former girlfriend, Cynthia West, claims he pressured her into sexual behavior she was not comfortable with, offered her $5,000 in cash to drop a wrongful termination"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120524481600856385",
-          "author": "intouchmin",
-          "searchJob": "troy",
-          "text": "Today we honor the veterans who lived out this kind of love and we lift up the veterans in our community and around the world who continue to give so much so others can live free. Thank you for your service and your sacrifice. https://t.co/"
+          "postId": "2120696537458114929",
+          "author": "kobeissiletter",
+          "searchJob": "washington",
+          "text": "Our message to Nvidia's board: Do not fire Jensen Huang. There is no clear replacement for Jensen Huang. We are confident that his departure would ultimately be a net negative for Nvidia, its shareholders, and the AI Revolution. First, take"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2120702218256924754",
+          "author": "thetalkingalpha",
+          "searchJob": "washington",
+          "text": "Chapter 8: Washington Congress gave Huang a deadline, the administration reportedly fought with itself over Megaspeed, and the White House stood by him, at least in public. The House. In a letter dated Wednesday, November 4 and released Nov"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2120697719526408278",
+          "author": "dc_reporter",
+          "searchJob": "washington",
+          "text": "If you're a young GOP Hill staffer looking for your next job in communications, we want to help. The @DC_Reporter is offering you the opportunity to publish an op-ed, build your resume, and stand out as you apply. Here's how it works: https"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120701437571141796",
-          "author": "tulsaworld",
-          "searchJob": "tulsa",
-          "text": "The \"Tatted Like a Chipotle Bag\" BOGO offer will be available to anyone with permanent tattoos, temporary tattoos or even something drawn on. https://t.co/azjCIGq2oL"
+          "postId": "2120695931700183415",
+          "author": "yehdavid",
+          "searchJob": "washington",
+          "text": "The #Eritrean -American Community Health Fair, hosted by Tip of the Spear (T.O.S.), takes place in Washington, DC. Featuring Eritrean health professionals, z event will offer free screenings, health education, wellness guidance,&amp; commun"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120698095709340147",
-          "author": "disabilityresol",
-          "searchJob": "florida",
-          "text": "In this video, Disability Attorney Walter Hnot of the Disability Resolution Law Firm goes over how most people need 40 credits (generally about 10 years of covered work) to qualify for retirement benefits. America’s Most Viewed, Clicked On,"
+          "postId": "2120698239670456355",
+          "author": "punk2grunge",
+          "searchJob": "arizona",
+          "text": "@QuantumGuard17 Sooooo.. republican majority house, senate, executive and judicial but it’s because of the democrats they can’t get anything done. So now he’s crying about it. Riiiiiiight Can I offer you some dirt cheap beach front property"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120693518855221369",
-          "author": "tersaazymroz13",
-          "searchJob": "florida",
-          "text": "@CervyBridget Truth. Ted needs to be Leary of Nerdys offer to get him in a halfway house in Florida. There are many in Florida that are just in the business of billing insurance while bringing drugs in the back door. So many houses are bad,"
+          "postId": "2120706762949206496",
+          "author": "thejohnnyutah16",
+          "searchJob": "utah",
+          "text": "@DanielD14280329 @bepryor That was a name I pulled out of my ass, point was if you offered enough you can get something. You think the jets would say no to a 1st for Wilson? Maybe but the Steelers wouldn’t even ask. They have young guys beh"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120690992080978378",
-          "author": "boardyai",
-          "searchJob": "florida",
-          "text": "@Missilis_corp there's an agent governance founder in florida whose whole thing is records an outside auditor can rerun. couldn't get a dm through so the offer is right here. https://t.co/5yrZ79gRw8"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120692930381840441",
-          "author": "indigokj",
-          "searchJob": "indiana",
-          "text": "@LightStalking I wanted a photo of an Amish buggy passing by a new mural in LaGrange, Indiana, so I waved down an Amish lady in a buggy and offered her $10 to drive by the mural twice. She agreed and it made the cover of the local Chamber g"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120693008655843420",
-          "author": "scrms2025",
-          "searchJob": "south-carolina",
-          "text": "Reverse Mortgage For Veterans: Who Are Eligible? Veterans who own homes in Charleston, South Carolina, may qualify for a reverse mortgage for veterans through the Federal Housing Administration (FHA). Although the Department of Veterans Aff"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120705372763697596",
-          "author": "thetrailerdan",
-          "searchJob": "texas",
-          "text": "@Dave32077615099 @drawandstrike Dave, Trump was not very aggressive towards Thune. He calls people losers etc. Dems had to cheat and get caught. Trump offered $5K to every adult, Tax breaks and other things that would give him more support."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120701386849755450",
-          "author": "trifatalia",
-          "searchJob": "texas",
-          "text": "@itsyanliover yg lainnya jg dah offered buat getting professional help tp guess what... malah dibuang &amp; still refuse buat get better"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120689948395536604",
-          "author": "rbhead12",
-          "searchJob": "texas",
-          "text": "@NateSchatzline @GinaHinojosaTX You know she wants to give illegals our money? That is so dumb man. Nobody is advocating for that. Shut up. Literally. You sound stupid. If you're the best republicans have to offer in Texas, the republican p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120688343142785294",
-          "author": "islandsmagazine",
-          "searchJob": "texas",
-          "text": "Mesquite, Texas, offers visitors an unmatched Western vibe, colorful murals to admire, and delicious restaurants serving Southern and local food. https://t.co/f7RGlaPzqt"
+          "postId": "2120704860311990440",
+          "author": "thejohnnyutah16",
+          "searchJob": "utah",
+          "text": "@DanielD14280329 @bepryor If you offer enough you can get a receiver. I bet u could have gotten Pickens back for a 2nd. I mean sure that is a lot to give for a rental, but we are 6-2 with a favorable schedule ahead. We won’t be in a spot fo"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 22,
+      "accepted": 0,
+      "rejected": 33,
       "reasons": {
-        "bare_mention_requires_llm": 16,
-        "school_not_resolved_confidently": 1,
-        "multiple_resolved_schools": 4,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 25,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120705265016434867",
-          "author": "m_southern_",
-          "searchJob": "duke",
-          "text": "@tacopopstbsp @GoatedSports1 @GradyTN1989 @TheFieldOf68 @IndianaMBB With that logic it seems pretty dumb to keep going after top 5 draft talents and expecting to coach them to win meaningful games. Why would they keep doing that if everyone"
+          "postId": "2120710699035045901",
+          "author": "john3_6_teen",
+          "searchJob": "ucla",
+          "text": "Carol Burnett’s story about how she got her first break in comedy is incredible. 1954, during her junior year at UCLA, Burnett and other students performed musical-comedy scenes (including one from Annie Get Your Gun) at a professor’s bon-v"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120700338856690082",
-          "author": "dubsonly863511",
-          "searchJob": "florida-state",
-          "text": "@JeffPurinton @Seminoles Next HC should not be near or over 55. They not gonna be able to build with the program like a younger coach would….. Jimbo is NOT the answer he believed Texas A&amp;M offered a better long-term opportunity let him "
+          "postId": "2120709478064472567",
+          "author": "lvluprecruit26",
+          "searchJob": "ucla",
+          "text": "@JordenDozier4 @D_Co0p @UCLAFootball @chaparralpumafb First offer! Congrats on UCLA, Jorden!! 🔥🔥"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120702343797002432",
+          "author": "jimarcher1",
+          "searchJob": "ucla",
+          "text": "@Gobluety1 Has UCLA won a Natty in football? Michigan can offer that and a lot more money. If Chesney isn't ambitious I can see why he would stay. Plus he'll keep a LOT more of his salary in Michigan."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120690617877402076",
-          "author": "bflouisville",
-          "searchJob": "louisville",
-          "text": "Louisville's airport now offers ticketless parking through Metropolis. Sign up once, drive in and out of any SDF lot without a ticket or kiosk, and get your receipt electronically. Cash and manual payment are still available. https://t.co/t"
+          "postId": "2120713101091954951",
+          "author": "cleanzenh",
+          "searchJob": "houston",
+          "text": "✨ Deep Clean Your Space and Save 10%! 🎉 🎉 SPECIAL OFFER: GET 10% OFF YOUR ONE-TIME DEEP CLEANING! 🎉 📅 Book today ! 🫧🌸 #DeepClean #Cleanzen #Houston #CleanzenHouston #SaveOnClean #Offer #SpotlessHome #Home #ProfessionalClean #Refresh h"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120709889987146122",
+          "author": "hawmrtf_ffl",
+          "searchJob": "houston",
+          "text": "6. Justin Fields 📈 +1 (4–5) Justin has gone from 1–5 to 4–5. The 156.52–109.98 win over Krafting was the most encouraging of the three because the receivers finally contributed alongside the backs. Bucky scored 28.5, Javonte added 22.4, an"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120704401119781358",
-          "author": "janievue47",
-          "searchJob": "navy",
-          "text": "Cheaper because Trump did a deal w/the biggest producer of diesel. Cheaper because Trump b#mbed Iran to destroy their nukes, sunk all their ships; their entire Navy. Cheaper because when the City of London Lloyd’s raised prices on all the i"
+          "postId": "2120683048911904929",
+          "author": "dmnpolitics",
+          "searchJob": "houston",
+          "text": "The Houston budget carrier will offer 11 nonstop destinations from McKinney by the end of the year. https://t.co/VVCOVSOVHx"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120698118471590041",
-          "author": "theeconomist",
-          "searchJob": "navy",
-          "text": "The location in Australia will offer one big advantage over America’s existing bases. Register for free to learn what it is https://t.co/SKVoTYoCvr Photo: US Navy/Trice Denny https://t.co/T4ett7KFXM"
+          "postId": "2120686585876554214",
+          "author": "tfloss32",
+          "searchJob": "kansas",
+          "text": "Dallas South Oak Cliff '28 DT Jayln Smith (@Jayln_Smith5) snags a Kansas offer. #RockChalk https://t.co/IqW7q4Pwxi https://t.co/90k9qZ8xaP 𝕏 @SOCFootball1 | @coach_traylor | @SOCGoldenBearFB"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120697757212287367",
-          "author": "taylorrothchild",
-          "searchJob": "navy",
-          "text": "In Minority Report, @TomCruise walks into the @Gap with new eyes. The store greets him by the old owner's name and asks \"Hello Mr. Yakamoto, how did those new tank tops work out for you?\". WILD Minority Report was a preview of what's to com"
+          "reason": "multiple_resolved_schools",
+          "postId": "2120708883857760558",
+          "author": "nathanielsami",
+          "searchJob": "miami",
+          "text": "Florida Invites Elon to Ditch Socialist Texas for the Free State Rep. Carlos Giménez just sent Elon Musk a formal letter inviting Tesla to pack up its headquarters and leave Texas for Florida. The Florida Republican pointed straight at the "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2120708015091241326",
-          "author": "roguenomad2",
-          "searchJob": "toledo",
-          "text": "Musk did say it, but MAGA Voice is jumping ahead. [He replied](https://t.co/gIfa0j6GMH) \"That would be an honor\" to a ZeroHedge post that said \"Elon please hire Jensen.\" That's a compliment, not a job offer, and Huang hasn't left NVIDIA. Th"
+          "postId": "2120706048315027761",
+          "author": "joboken5",
+          "searchJob": "miami",
+          "text": "Because PRIDE is one of the seven deadly sins! Pride cost us SIX YEARS of a rebuild. I cannot stomach going through another one. And you know exactly why. You just want to debate those of us who believe a better draft position is more valua"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120702031811719250",
+          "author": "youfadedwealth",
+          "searchJob": "miami",
+          "text": "Bing Bong After Dark, powered by @phantom during @Solana Breakpoint 12 sold-out events across the world from New York to Miami to Paris to Dubai, Singapore, Austin, Vegas and now London 🇬🇧 sometimes we forget that there are other humans b"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120698065669476415",
+          "author": "gamepuls",
+          "searchJob": "miami",
+          "text": "Das \"Miami Vibes Pack\" DLC 🌴🎨📻 für Heavy Cargo - The Truck Simulator erscheint am 19. November für PC, PlayStation 5 und XBOX Series X|S! 🌴 Miami-Nächte, Neonlichter & pures 80er-Feeling! 🌃💜 Das \"Miami Vibes Pack\" DLC 🌴🎨📻 erscheint"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120692033140748704",
-          "author": "a_schneider421",
-          "searchJob": "troy",
-          "text": "Remember this @CashApp pool I created as \"#HeKnows\" - @jeremycamp all you nations are holding Her back to get from Her what you sacrifice for with Her divided apart from me: https://t.co/z26w7Liqr5 This is why Christian radio plays \"#NoSurv"
+          "postId": "2120702002761957783",
+          "author": "trayabc11",
+          "searchJob": "nc-state",
+          "text": "He’s coming home. Sources: Philip Rivers has agreed to an offer to become the next head football coach at NC State. Deal is expected to be finalized on Friday. https://t.co/7SFXcYwVd4 https://t.co/viSnrhfDyG"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120703620832260481",
+          "author": "adambl555",
+          "searchJob": "pittsburgh",
+          "text": "@KodyDuncanPGH Okamoto, imai and murakami weren’t expensive free agents, did Pittsburgh offer them contracts? Rich teams are going to be interested in everyone, that shouldn’t be surprising."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120692233380704299",
+          "author": "arnaudmercier",
+          "searchJob": "stanford",
+          "text": "<p class=\"wp-block-paragraph\">Just two years ago, Lorraine He, now a 24-year-old law student,&nbsp; was told to avoid using AI for her assignments. At the time, to get around a national block on ChatGPT, students had to buy a mirror-site ve"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120702233394458782",
+          "author": "newonpolsia",
+          "searchJob": "nevada",
+          "text": "Final expense planning should be clear and accessible from home. KTrust Financial Group offers Michigan and Nevada residents virtual phone and video consultations, helpful education, and a personal process with a licensed producer. Protecti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120714485061333105",
+          "author": "tfloss32",
+          "searchJob": "new-mexico",
+          "text": "DeSoto '28 LB Landan Adams (@LandanAdams_28) lines up a New Mexico offer. #GoLobos https://t.co/J87TUZOvzt https://t.co/FVnQ6QBWKv 𝕏 @FootballDesoto"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120704968566939742",
-          "author": "aex_bowl",
-          "searchJob": "florida",
-          "text": "🔥 QUARTERBACKS LOCKED IN. THE STAGE IS SET. THE NATION IS WATCHING. 🇺🇸 Four quarterbacks. Four states. One national stage. One purpose bigger than football. The 2026–27 AEX ALL-AMERICAN BOWL, recognized as The Nation’s Mental Health Bowl"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2120702553407057981",
-          "author": "sethbailey04",
-          "searchJob": "florida",
-          "text": "Massillon TE Dashun Williams picks up his 16th D1 offer and 1st SEC offer from Florida! https://t.co/RtHV3EP2wE"
+          "postId": "2120714197810196894",
+          "author": "learnpaladin",
+          "searchJob": "new-mexico",
+          "text": "Early 1917. Germany is running out of food and time. Its admirals promise to starve Britain in five months by sinking every ship on sight, neutral or not. Then Arthur Zimmermann sends Mexico a secret offer: Texas, New Mexico and Arizona. ht"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120692871997067370",
-          "author": "jordanketo",
-          "searchJob": "florida",
-          "text": "@RonDeSantis Can you make Elon an offer so good he can’t refuse to move Cybertruck production to Florida?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120688809784324211",
-          "author": "prodsiren_",
-          "searchJob": "florida",
-          "text": "@biocrimed @heyfuckface543 If it’s for the sake of Florida I’ll offer myself"
+          "postId": "2120709971365015936",
+          "author": "tfloss32",
+          "searchJob": "new-mexico",
+          "text": "Crowley '27 OL Alexander Herrera (@AlexanderH08_) reels in a New Mexico State offer. #AggieUp https://t.co/VB2fXOiyHK https://t.co/JoCWle66ie 𝕏 @CTownEaglesFB | @Recruit_Crowley"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120703354477400284",
-          "author": "dapres_",
-          "searchJob": "georgia",
-          "text": "@justxavierisunc gotta be man. Texas has so much more to offer than Georgia or Illinois."
+          "postId": "2120708985393152149",
+          "author": "felastorymedia",
+          "searchJob": "washington",
+          "text": "🇺🇸⚔️🇮🇷 Hegseth Rebuked at Arlington as Trump’s Iran War Falters WASHINGTON, November 11, 2026 — America’s Veterans Day commemorations descended into embarrassment when a US Army sentinel at Arlington National Cemetery reprimanded Defenc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120688577214357618",
-          "author": "caeylinmenzie",
-          "searchJob": "georgia",
-          "text": "I’m a late sleeper Coach. Had a transfer Jr. year. Now reintroducing myself. Can you give me an evaluation? Georgia 7A Region 1 Football player: Caeylin “CJ” Menzie | 2027 RB Richmond Hill High School, GA | #34 | 3⭐️ Rivals Recruit 5’10” | "
+          "postId": "2120708383531753860",
+          "author": "purpledrank0",
+          "searchJob": "washington",
+          "text": "@JoshNorris @fantasysmyth I am one who has a WR rotation of Chase, Burden, Parker Washington, and Golden. 12-team PPR. Obvs great to have those 4. If you could sell one to make an upgrade at say RB2 or TE, who would you choose? From that gr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120687962220310629",
-          "author": "caeylinmenzie",
-          "searchJob": "georgia",
-          "text": "I’m a late sleeper Coach. Had a transfer Jr. year. Now reintroducing myself. Can you give me an evaluation? Georgia 7A Region 1 Football player: Caeylin “CJ” Menzie | 2027 RB Richmond Hill High School, GA | #34 | 3⭐️ Rivals Recruit 5’10” | "
+          "postId": "2120706984169398601",
+          "author": "marcellarsen_",
+          "searchJob": "washington",
+          "text": "$NVDA Asking Nvidia's board to put a CEO's relationship with his own direct report up for a shareholder poll because the stock is down is about as self-serving as it gets. Jensen is the best CEO in tech, and losing him would cost real money"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120701383510831400",
-          "author": "roroke1692",
-          "searchJob": "illinois",
-          "text": "@jbysky912 @EYakoby Makes you wonder if the dumb fat bitch wants better schools for the kids. Illinois will take that data center. Maybe Fatboy SilverSpoon can offer them a deal."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120697871733293294",
-          "author": "jacklombardi_ii",
-          "searchJob": "illinois",
-          "text": "Nearly half of Illinois counties just voted to explore leaving the state because of Chicago. 45 counties have now passed nonbinding measures since 2020 saying they want to talk about splitting off and forming a new state. Twelve more joined"
+          "postId": "2120706926455509079",
+          "author": "marcellarsen_",
+          "searchJob": "washington",
+          "text": "$NVDA Asking Nvidia's board to put a CEO's relationship with his own direct report up for a shareholder poll because the stock is down is about as self-serving as it gets. Jensen is the best CEO in tech, and losing him would cost real money"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120700387808453037",
-          "author": "lolitsmequeen28",
-          "searchJob": "indiana",
-          "text": "@babybluebird95 haha, i appreciate the offer but i'll be back home in indiana 😭 i might try for the chicago shows but its okay if not bc i saw him in ny"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120708551915999742",
-          "author": "kevinmccune",
-          "searchJob": "texas",
-          "text": "@Rivals @Hayesfawcett3 Seems he was pretty sought after by some big time schools. Offers from Ole Miss, Texas Tech &amp; Utah. A composite 4⭐️ on 247. https://t.co/Msy6Ji9Oz6"
+          "postId": "2120706347926958169",
+          "author": "diegolg011",
+          "searchJob": "washington",
+          "text": "@RomeTheHost @DiogoSantosHQ I get that you are not so high on them ROS, but simce the Tet trade you sell extremely low, Swift and McBride you could get a Kittle plus Parker Washington or Tuten plus London. For Bijan the Best package it was "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120696141255684578",
-          "author": "jeepertx2024",
-          "searchJob": "texas",
-          "text": "@GinaHinojosaTX She will offer free stuff to illegals and let our veterans homeless! That's the new Texifornia ruled by the democrats! Open borders, citizens without weapons, no police and woke judges! Whoever voted for her really screwed a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120694857052172725",
-          "author": "lawlandcapital",
-          "searchJob": "texas",
-          "text": "A stranger can sell your Texas land and the county will record the deed. Recording is filing, not vetting. Many counties offer free alerts on your name. #TexasRealEstate https://t.co/0ECYYMgvmO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120692821539827987",
-          "author": "thtx2121",
-          "searchJob": "texas",
-          "text": "@BrooksAustinBA Texas A&amp;M going to offer him 10+ million to save Mike elkos job"
+          "postId": "2120706212606136792",
+          "author": "projectleononx",
+          "searchJob": "washington",
+          "text": "Strategic decode: Moscow’s backing of Rezaei’s Tehran visit is a hidden lever in its broader West-confrontation game, a three-pronged calculus that ties Russia to Iran in ways that reinforce its geopolitical depth. First, military tech , Ru"
         }
       ]
     },
@@ -378,12 +442,12 @@
       "errors": []
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 22,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 33,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-12T02:44:13.734Z"
+    "status rebuilt locally from current store on 2026-11-12T03:06:59.782Z"
   ]
 }
