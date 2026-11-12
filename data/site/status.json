@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T08:29:02.785Z",
+  "generatedAt": "2026-11-12T08:44:10.190Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-12T08:29:01.997Z",
+    "at": "2026-11-12T08:44:09.273Z",
     "jobsTotal": 162,
     "sweptThisRun": 19,
     "requests": 19,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0209119444444446,
-    "p95Hours": 2.0257975,
-    "worstHours": 2.0257975
+    "medianHours": 1.021668611111111,
+    "p95Hours": 2.0262730555555555,
+    "worstHours": 2.026273333333333
   },
   "decisionCoverage": {
-    "total": 3,
-    "decided": 3,
+    "total": 4,
+    "decided": 4,
     "complete": true
   },
   "pending": {
@@ -55,72 +55,81 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-12T08:29:01.927Z",
-      "got": 9,
-      "new": 3,
-      "lag": 0.05
+      "at": "2026-11-12T08:44:09.225Z",
+      "got": 11,
+      "new": 4,
+      "lag": 0.4
     },
     "search:commit": {
-      "at": "2026-11-12T08:29:01.996Z",
+      "at": "2026-11-12T08:44:09.272Z",
       "got": 85,
-      "new": 22,
-      "lag": 5.59
+      "new": 34,
+      "lag": 29.96
     }
   },
   "audit": {
-    "at": "2026-11-12T08:27:19.723Z",
+    "at": "2026-11-12T08:42:25.597Z",
     "mode": "live",
     "collection": {
-      "returned": 9,
-      "kept": 3,
-      "duplicate": 6,
+      "returned": 11,
+      "kept": 4,
+      "duplicate": 7,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 3,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 2
+        "no_offer_term": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2120795219717148720",
-          "author": "hiberniansea",
-          "searchJob": "notre-dame",
-          "text": "@pointMF @camannua Solidarity from all Ireland and lack of any violence proved to many that NI has progressed and that is relevant👌 Out flanked on what? FF/FG aren’t chasing the same voters and the proposals they offered don’t contradict S"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120793273191301542",
-          "author": "joedab12",
-          "searchJob": "class:2028",
-          "text": "Jensen leaving is not bearish AI, its bearish NVDA(near term, long term depends on too many variables to make an accurate prediction now). Doubt they can find someone who can wear all the hats he wore. $AVGO $AMD clearly benefit from this d"
+          "reason": "no_offer_term",
+          "postId": "2120791927763472401",
+          "author": "jawestenberg",
+          "searchJob": "class:2030",
+          "text": "At 21, you’re expected to map out the rest of your life using a prefrontal cortex that isn't even fully developed yet. Of course, it feels overwhelming... https://t.co/mnUWO89BRK"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 3,
       "reasons": {
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 1,
         "bare_mention_requires_llm": 1
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120793713601646941",
+          "author": "arizona_lp",
+          "searchJob": "air-force",
+          "text": "A Veterans’ Day Message From The Arizona Libertarian Party Chairman We honor our Veterans (and all enlisted) by respecting their lives and not carelessly sacrificing them for special interest and exploitative gain. The most recent data* out"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120771680557805621",
+          "author": "loganpendragonm",
+          "searchJob": "kent-state",
+          "text": "Fictional Obituary: Martha Kent (Absolute Superman comic spoilers) Martha Kent of Smallville has died in her sleep. She had been living in a nursing home and was preceded in death by her husband, Jonathan. Together, Martha and Jonathan offe"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120773210262155713",
-          "author": "raidertokenmaxi",
-          "searchJob": "hawaii",
-          "text": "Other November 11th Holidays: Air Day - Air Day commemorates the launch of commercial inter-island air service in Hawaii in 1929. The observance highlights aviation’s role in improving transportation and connectivity across the islands. #Ai"
+          "postId": "2120791997002694975",
+          "author": "stcloudlive",
+          "searchJob": "minnesota",
+          "text": "Minnesota has tendered a qualifying offer to Jeffers but is interested in bringing him on any type of deal https://t.co/dnwwUkxhhx"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 348,
+      "jobs": 347,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -129,73 +138,75 @@
     "commits": {
       "samples": [
         {
-          "reason": "roundup_too_long",
-          "postId": "2119904335161110891",
-          "author": "finsee_main",
-          "text": "$AMRO Q3 2026 earnings: Amaero's defense backlog nearly triples, but factory losses widen Amaero, a producer of specialized metal powders and 3D-printed industrial parts, grew orders rapidly while a factory shutdown hurt profitability. Thir"
+          "reason": "no_football_context",
+          "postId": "2119580736982581593",
+          "author": "tnconews1",
+          "text": "🚨 Tennessee Republicans held onto power, but Democrats flipped SIX State House seats and a Congressional district! What went wrong? GOP voter frustration, razor-thin victories, and major leadership shakeups raise serious questions about Te"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2119566218524852677",
+          "author": "lightitupsports",
+          "text": "RECRUIT NEWS: Chris Brown, a 4⭐ 6-foot-9 center in the 2027 class, has listed Tennessee in his final three schools, via @KayserHoops Brown plays for Dream City Christian (AZ) and for Vegas Elite on the EYBL circuit The #18 center in his cla"
         },
         {
           "reason": "no_commit_event",
-          "postId": "2119869396646498359",
-          "author": "bigridge68",
-          "text": "Rich and his committee can fuck all the way off. They just flipped the finger to all the fans and said we dont matter. Really? All so you can line your pockets with money. I love my Vols, but i despise where college football is heading. It'"
+          "postId": "2119553246968902105",
+          "author": "rockytopinsider",
+          "text": "Tennessee football LB Arion Carter has already pledged a good bit over $25k to cancer research this season. His donation total rose by over $6.5k for his monster game vs. Kentucky on Saturday ⬇️⬇️⬇️ https://t.co/XG8iQNj95I"
         },
         {
-          "reason": "no_football_context",
-          "postId": "2119857938458415506",
-          "author": "charistasnell",
-          "text": "This distinction is important: the court has allowed the additional allegations to become part of the lawsuit. It has not determined that Tennessee's execution protocol is unconstitutional, that state personnel committed misconduct, or that"
+          "reason": "reporter_missing_player_name",
+          "postId": "2119536831431667862",
+          "author": "hayesfawcett3",
+          "text": "BREAKING: Four-Star LB Skylar Alston has Committed to South Carolina, he tells me for @Rivals The 6’2 220 LB chose the Gamecocks over Kentucky, Tennessee, and North Carolina “About to shock the world 🤫” https://t.co/85a6lQbpxZ https://t.co"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2119528436104393098",
+          "author": "tnballplayers",
+          "text": "Congrats to Kentucky 2027 OF/RHP Bo Elder (@BoElder3) for his recent @RSCCAthletics commitment! Here’s video from @MidTNProspects https://t.co/GDfPQ1T0AC"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2119510851132559865",
+          "author": "tennesseefandom",
+          "text": "Tennessee Basketball Recruiting Target Commits to SEC Rival #volunteers #vols #tennesseesports #tennesseevols https://t.co/JB8pcCVOyV"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2119508827179798850",
+          "author": "volsonsi",
+          "text": "This Tennessee basketball recruiting target has announced his commitment to an SEC rival. Take a look: https://t.co/6SJIW3Ycbt https://t.co/ou43jaW1Dd"
         },
         {
           "reason": "no_commit_event",
-          "postId": "2119786731230601239",
-          "author": "tennesseecards",
-          "text": "@ArionCarter is everything that’s good in college football. Dude comes back and commits a chunk of NIL money to cancer research. And he’s having a heck of a season. #GoVols"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2120258468263412104",
-          "author": "jasonsuchomel44",
-          "text": "A look at the latest @Horns247 2028 recruiting board, including the #Longhorns' positional needs, top targets, commitment odds and prospects trending up or down as the recruiting cycle continues to develop. https://t.co/g9HbLEm1jf"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2120254043712815359",
-          "author": "aggieswire",
-          "text": "'It takes a commitment': Texas A&amp;M players on how to close out 2026 strong 📸 Jeff Blake, USA TODAY Sports via Reuters Con https://t.co/NgnpfjHxac https://t.co/N6LB1HCkXX"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2120252758444188101",
-          "author": "shanelaflin",
-          "text": "📰: https://t.co/ULABO3KMYI @TexasWBB lands their 2nd 5⭐️ commit in the 2027 class with the commitment of @QandaceS \"It checked every box for me,\" Samuels told ESPN. Her ability to play multiple positions in college will be a major strength"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2120247790400086228",
-          "author": "scnext",
-          "text": "Breaking: Qandace Samuels, the No. 10 ranked player in the SC Next 100 for the Class of 2027, has committed to Texas, she tells ESPN’s @ShaneLaflin. https://t.co/uzIGR4sDNw"
+          "postId": "2119486115493376181",
+          "author": "bill_martin",
+          "text": "This is what the nation’s loudest stadium sounds like. Opponents have now committed 12 false starts in this place this year vs. @Vol_Football. #NeylandEffect https://t.co/ReriykcUgp"
         }
       ],
       "stats": {
-        "candidates": 22,
-        "accepted": 0,
-        "rejected": 22,
+        "candidates": 34,
+        "accepted": 6,
+        "rejected": 28,
         "reasons": {
-          "roundup_too_long": 2,
-          "no_commit_event": 2,
-          "no_football_context": 15,
-          "other_sport": 3
+          "no_football_context": 12,
+          "other_sport": 6,
+          "no_commit_event": 5,
+          "reporter_missing_player_name": 1,
+          "roundup_too_long": 3,
+          "list_post": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 3,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-12T08:29:02.786Z"
+    "status rebuilt locally from current store on 2026-11-12T08:44:10.191Z"
   ]
 }
