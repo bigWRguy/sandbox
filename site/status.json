@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T17:14:13.545Z",
+  "generatedAt": "2026-11-12T17:29:37.199Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-12T17:14:12.583Z",
+    "at": "2026-11-12T17:29:36.484Z",
     "jobsTotal": 162,
     "sweptThisRun": 19,
     "requests": 19,
@@ -32,86 +32,102 @@
   },
   "staleSchools": [
     {
-      "id": "texas",
+      "id": "texas-tech",
       "hours": 2.8
     },
     {
-      "id": "california",
-      "hours": 2.5
-    },
-    {
-      "id": "liberty",
-      "hours": 2.5
-    },
-    {
-      "id": "texas-tech",
-      "hours": 2.5
-    },
-    {
       "id": "washington",
-      "hours": 2.5
-    },
-    {
-      "id": "alabama",
-      "hours": 2.3
-    },
-    {
-      "id": "arizona",
-      "hours": 2.3
-    },
-    {
-      "id": "buffalo",
-      "hours": 2.3
-    },
-    {
-      "id": "central-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "charlotte",
-      "hours": 2.3
-    },
-    {
-      "id": "coastal-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "colorado",
-      "hours": 2.3
-    },
-    {
-      "id": "east-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "iowa",
-      "hours": 2.3
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
       "id": "san-jose-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "western-michigan",
+      "hours": 2.5
+    },
+    {
+      "id": "duke",
+      "hours": 2.3
+    },
+    {
+      "id": "florida-state",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "houston",
+      "hours": 2.3
+    },
+    {
+      "id": "kentucky",
+      "hours": 2.3
+    },
+    {
+      "id": "louisville",
+      "hours": 2.3
+    },
+    {
+      "id": "maryland",
+      "hours": 2.3
+    },
+    {
+      "id": "miami-oh",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan-state",
+      "hours": 2.3
+    },
+    {
+      "id": "middle-tennessee",
+      "hours": 2.3
+    },
+    {
+      "id": "sam-houston",
+      "hours": 2.3
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.3
+    },
+    {
+      "id": "temple",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-state",
+      "hours": 2.3
+    },
+    {
+      "id": "ucf",
+      "hours": 2.3
+    },
+    {
+      "id": "wisconsin",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0256358333333333,
-    "p95Hours": 2.2823983333333335,
-    "worstHours": 2.783132222222222
+    "medianHours": 1.030696388888889,
+    "p95Hours": 2.281352222222222,
+    "worstHours": 2.7699327777777776
   },
   "decisionCoverage": {
-    "total": 109,
-    "decided": 109,
+    "total": 86,
+    "decided": 86,
     "complete": true
   },
   "pending": {
@@ -120,400 +136,401 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 6,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4586,
+    "completeOffers": 4587,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-12T17:14:12.502Z",
-      "got": 143,
-      "new": 109,
-      "lag": 0.03
+      "at": "2026-11-12T17:29:36.459Z",
+      "got": 126,
+      "new": 86,
+      "lag": 0.04
     },
     "search:commit": {
-      "at": "2026-11-12T17:14:12.582Z",
-      "got": 31,
-      "new": 8,
-      "lag": 1.42
+      "at": "2026-11-12T17:29:36.483Z",
+      "got": 30,
+      "new": 11,
+      "lag": 4.97
     }
   },
   "audit": {
-    "at": "2026-11-12T17:12:27.435Z",
+    "at": "2026-11-12T17:27:58.075Z",
     "mode": "live",
     "collection": {
-      "returned": 143,
-      "kept": 109,
-      "duplicate": 32,
-      "tooOld": 2,
+      "returned": 126,
+      "kept": 86,
+      "duplicate": 40,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 60,
-      "rejected": 49,
+      "accepted": 56,
+      "rejected": 30,
       "reasons": {
-        "no_fbs_school": 23,
-        "no_offer_term": 25,
-        "hard_negative": 1
+        "no_offer_term": 6,
+        "no_fbs_school": 19,
+        "hard_negative": 4,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2120900087991693561",
-          "author": "garlandtxgov",
-          "searchJob": "texas",
-          "text": "Join us for Alebrijes: A Dreamworld Explained, a 𝑭𝑹𝑬𝑬 guided tour offered every Thursday in November, except Thanksgiving. Spots are limited, so secure yours at https://t.co/Ii8IvQR40j See the exhibition throughout Downtown Garland (520"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120898170355937679",
-          "author": "daughtreylaw",
-          "searchJob": "texas",
-          "text": "An offer to buy your minerals arrived. Ask: why now? Mineral buyers study drilling permits, pooling activity and title records before they mail a single letter. Call 713-669-1498. Nixon Daughtrey Jr., Attorney, Houston, Texas. General infor"
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2120895423611080822",
-          "author": "cavinrhoadsjr27",
-          "searchJob": "texas",
-          "text": "Giving God all the Glory. I’m proud to announce that I have scored a 1560 on my SAT. Thank You to my Dad for pushing me to study and believing in me. Grandma I pray I’m making you Happy in Heaven. Love and miss you so much. Wish you were he"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120895778637902052",
-          "author": "domeinhornmot",
-          "searchJob": "texas",
-          "text": "Our Monterrey crowd missed the Cervantes. Only 4% picked \"someone else\", and someone else won. We published it anyway. This weekend in Austin, readers forecast the National Book Award. On 18 November we put them next to a prediction market."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120888412659990640",
-          "author": "britri13",
-          "searchJob": "texas",
-          "text": "@Pontifex we love the Traditional Latin Mass, please let it flourish and allow its fruits to nourish souls worldwide. We ask this of you through Christ our Lord. We have only one small parish in our diocese of Fort Worth, Texas that offers "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120899152666116219",
-          "author": "alphavestcap",
-          "searchJob": "ucla",
-          "text": "$nwbo @alphavestcap Is this(https://t.co/jE4fJQnRwG) the reason Braelyn has T cell memory that keeps her getting MRIs reporting, \" no evidence of cancer \" ? So, is there any other cancer immunotherapy platform that can produce equal or bett"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120642951382474778",
-          "author": "flemmingbruce",
-          "searchJob": "ucla",
-          "text": "$NWBO | The Marie Curie Symposium reveals something BIG. https://t.co/GFCUogfkBJ At least FIVE presentations at the November 2026 symposium directly concern dendritic-cell technologies closely related to NWBO’s licensed Pittsburgh/Roswell p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120926105259680220",
-          "author": "washandjer",
-          "searchJob": "washington",
-          "text": "I'm sorry what? That deal meant Israel would've had to withdraw from the Golan Heights. Israel needs to keep that for security reasons (granted I am a defensive realist). But the Arabs rejected Ehud Olmert's very very very generous peace of"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120925087599579314",
-          "author": "0xlexlab",
-          "searchJob": "washington",
-          "text": "Trump needed him. He didn't need Trump. The reason is worth $360 million. Two days after Trump offered him the press secretary job, he walked into the White House briefing room, grabbed the podium and started picking reporters like he was m"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120924589702389867",
-          "author": "au_europecenter",
-          "searchJob": "washington",
-          "text": "\"Washington is pursuing a diplomatic effort on safe passage, weighing proposals from Turkey and India\" https://t.co/9kEwVAg3rz"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120920912522362880",
+          "postId": "2120909788477325513",
           "author": "kennethbboman",
           "searchJob": "washington",
-          "text": "https://t.co/qh0MepJ9s4 Ytterligare en av de dagliga mass skjutningarna i USA! Skamligt att man inte gör det som krävs för att få stopp på detta! RIP"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120920513208103121",
-          "author": "ioprashant",
-          "searchJob": "washington",
-          "text": "LEAKED: I just found a common traits from these uncommon greats from different field and the learning that i had https://t.co/pBDLG56x5F"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120917919328551115",
-          "author": "koskovicsz",
-          "searchJob": "washington",
-          "text": "Europe flew to Abu Dhabi to help shape the peace—and got told to chat in the hotel bar. Trump says a deal is close, but what’s keeping Europe out of the room could also keep peace out of reach. https://t.co/nxf2SLsD3L"
+          "text": "https://t.co/qh0MepJ9s4 Tragiskt men också skamligt och tröttsamt att det amerikanska samhället inte gör det som behövs för att stoppa de dagliga mass skjutningarna! RIP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120916135956631760",
-          "author": "washtimes",
+          "postId": "2120909648463061007",
+          "author": "washcowisco",
           "searchJob": "washington",
-          "text": "Actress Scarlett Johansson says she tells Hollywood studios to scrap movies they offer her if she doesn't understand who is going to see the films. https://t.co/cYfd2qAkk7"
+          "text": "Experience an inside view of dementia on Tuesday, November 17. The Aging and Disability Resource Center (ADRC) of Washington County will host the Dementia Live™ experience for family and professional caregivers to briefly, yet movingly, exp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120906203752481027",
+          "author": "j_vito_b",
+          "searchJob": "washington",
+          "text": "Approximately 10.8 million green card workers. They're here. They stay. And no one knows where they work. No employer listed. No industry. No count. Every H-1B petition names the employer and the job. Green cards name nothing. https://t.co/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120903998488404315",
+          "author": "osteriatristan",
+          "searchJob": "washington",
+          "text": "@dun186560924193 @LibertyMatter77 @KenLinsphr @BRICSinfo Chia is supposed to like America. Trump only had kind words and offers for Xi in Beijing and in Washington DC. Aren't you all supposed to be friendly now? lol"
         },
         {
           "reason": "hard_negative",
-          "postId": "2120915617922658375",
-          "author": "frankrossi",
+          "postId": "2120901934639120804",
+          "author": "javieryearson",
           "searchJob": "washington",
-          "text": "A CRISIS CREATED: THE SECRETARIES' CUP AND THE NWSL'S AUDI FIELD SCRAMBLE By Frank Rossi — @D3FBHuddle When the Washington Spirit beat Portland 4-1 on Sunday afternoon to earn a home NWSL semifinal, the club announced within hours that the "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120926872498569549",
-          "author": "energydealflow",
-          "searchJob": "california",
-          "text": "AI meets Fracking... https://t.co/IbRhSWmAHb"
+          "text": "🔴WAR ON TERRORISM: IRAN 🇮🇷🔴/Reuters/ Iran will not allow enriched nuclear material to leave the country, security chief says Iran will not allow even a single particle of enriched nuclear material to leave the ​country and there will be"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120922287536795999",
-          "author": "neuro4dk",
-          "searchJob": "california",
-          "text": "\"that's a deal, and that's a legally binding offer - no takesies backsies\" this really happened in december 2023 at a chevrolet dealership in california. he didn't get the car. the dealer took the chatbot down the bot did exactly what it wa"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120919554939400450",
-          "author": "joshua_wd",
-          "searchJob": "california",
-          "text": "United says it will block personal AI agents from booking its flights, on its own app and through travel agencies. If you build agents that buy things, here's what the airline is worried about, what a court said in August, and what I'd chan"
+          "postId": "2120898982662517224",
+          "author": "federalbaseball",
+          "searchJob": "washington",
+          "text": "The great @spencernusbaum_ said CJ Abrams is not going to be traded barring a “godfather offer”. Here are my thoughts and what this means for the 2027 Nats https://t.co/kHmw7ZqfBo"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120901405330624942",
-          "author": "hazbro2u",
-          "searchJob": "california",
-          "text": "@Teaseryy YES, but if the launch is in California I would have to decline the offer. I don't go into sanctuary states. It's unsafe!"
+          "postId": "2120895646676709625",
+          "author": "1stpotus1776",
+          "searchJob": "washington",
+          "text": "A nation that has proven its strength should be the first to offer an honorable peace. Reports say President Trump has authorized Vice President Vance to explore face-to-face talks with Iran's security chief, and talks held from such a posi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120893126399475887",
+          "author": "marionawfal",
+          "searchJob": "washington",
+          "text": "🇺🇸🇮🇷 JD Vance is considering FACE-TO-FACE TALKS with Iranian security chief Rezaei to end the war. According to the report: •⁠ ⁠Trump has authorized Vance to explore negotiations •⁠ ⁠Iran wants sanctions relief, frozen assets released, "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120898239549276557",
-          "author": "aofdogood",
-          "searchJob": "california",
-          "text": "Congratulations to West County Health Centers in California, a 2026 recipient of an American Osteopathic Foundation (AOF) Caring for Communities Grant! West County offers comprehensive medical, dental, behavioral health, and other specialty"
+          "postId": "2120894520548012051",
+          "author": "thequestatlanta",
+          "searchJob": "washington",
+          "text": "Make room for Christ this Advent. Sally Kazin joins us on The Morning Quest to talk about her upcoming Advent retreat \"Bride of the Spirit\". Link to listen is in comments. Before the Christmas celebrations begin, step away from the demands "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2120555975094812932",
-          "author": "christopherrufo",
-          "searchJob": "california",
-          "text": "EXCLUSIVE: We spent weeks in Napa Valley investigating Gavin Newsom's wine empire. According to a whistleblower, the operation is built on undocumented migrant labor, in violation of the law. Illegal aliens pick the grapes—and Newsom sells "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120903987520250208",
-          "author": "petethamel",
-          "searchJob": "kansas-state",
-          "text": "NEWS: St. Louis transfer Robbie Avila is finalizing a deal to play for TCU this year, multiple sources confirm to ESPN. The sides are “close” to finishing the deal and he's expected to head to campus this week. Avila has scored 1,990 career"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120890742646153400",
-          "author": "drewcrawford_",
-          "searchJob": "tcu",
-          "text": "https://t.co/47AEoAXeqL"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120927674545959281",
-          "author": "lifemaximised",
+          "postId": "2120921117607002287",
+          "author": "maxweinsteinn",
           "searchJob": "texas-tech",
-          "text": "https://t.co/RQpnP6m1Y1"
+          "text": "https://t.co/5O5U1EjIAy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120919403168772360",
+          "author": "techandtribe",
+          "searchJob": "texas-tech",
+          "text": "Oh, look at that! A man faces potential termination over a personal relationship scandal, and the entire corporate and media complex loses its collective mind. Meanwhile, Elon Musk instantly steps up to offer him a job. Media & HR: \"Think o"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120918901727146285",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 Samsung Galaxy S26 FE Unlocked Phone, Graphite, 256GB, Galaxy AI at $699.99 (List Price $799.99) [ad] https://t.co/6cACPf4dnL #amazondeals #techdeals – 256GB storage capacity – 8 GB memory – 50MP camera – 4900 mAh batt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120600672798478504",
+          "author": "antiquarianmuse",
+          "searchJob": "texas-tech",
+          "text": "AOC: “Should this AI bubble pop, we should not be entertaining a bailout of these corporations while healthcare is being denied to Americans and SNAP is being denied to Americans.”"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120918179698684295",
+          "author": "fabianosolana",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/2p55iwPgul"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120917435947929623",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Deal ] 📦 DXP4800 UGREEN NAS Pro Intel Core i3-1315U, 8GB DDR5 RAM, 128GB SSD, 10GbE and 2.5GbE ports, 4-Bay diskless network attached storage at $679.98 (List Price $799.99) [ad] https://t.co/QDYem9dWCy #amazondeals #techdeals "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120922308881645790",
+          "author": "alabamasoccer",
+          "searchJob": "alabama",
+          "text": "(2/3) “…The opportunity to compete at such a high level, be pushed by an incredible coaching staff and teammates and experience everything Tuscaloosa has to offer made my decision feel right…”"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2120909342123683922",
+          "author": "deriuntae_",
+          "searchJob": "alabama",
+          "text": "Blessed to receive my 15th offer from Alabama state university @CoachRuffin39 @middletontodd11 @BamaStateFB https://t.co/pE2dX0sVtg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120904466752815385",
+          "author": "alreporter",
+          "searchJob": "alabama",
+          "text": "The legislation would let 403(b) plans invest in collective investment trusts but would not require employers to offer the new options. #alpolitics https://t.co/eK7Vp91XRU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120894379661353068",
+          "author": "al4greatschools",
+          "searchJob": "alabama",
+          "text": "In Alabama, public charter schools offer families a tuition-free public education option. They’re not private schools, and understanding that distinction is an important starting point in the conversation about how public school students ar"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120924410257281408",
+          "author": "peoplescompany",
+          "searchJob": "iowa",
+          "text": "LAND FOR SALE! 82.10 Acres M/L in Decatur County, IA Peoples Company is proud to present this highly tillable farmland tract in Decatur County, Iowa, with big-time recreational opportunities. + This versatile tract offers the highly sought-"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120922237230625054",
+          "author": "westianet",
+          "searchJob": "iowa",
+          "text": "We're offering special pricing on our Fiber Internet plans, PLUS two more holiday gifts: 🎁 FREE Installation! 🎁 Your First Month FREE! 📞 Call/Text: 712-775-2946 🌐 https://t.co/LYtMa01inP Promotional pricing for 24 months. Offer end 12/3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120923795666153669",
+          "author": "jamieweinhauer",
+          "searchJob": "arizona",
+          "text": "Part 2/2 | Jamie’s story @maricopacounty @MaricopaVote @azjustinheap @RecordersOffice @Rachel1Mitchell @marcoattorney @MCSOAZ @AZSecretary @katiehobbs @AZAGMayes That’s what I think is downright wrong. A citizen can bring forward a document"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120914338227867700",
+          "author": "0xzxcom",
+          "searchJob": "arizona",
+          "text": "SpaceX has filed a $50 billion, 6 GW supercomputing campus proposal in Arizona through an affiliate, but it is only at the county hearing stage and the source offers no detail on financing or customers. The piece • An affiliate called Tombs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120921765757300980",
+          "author": "investorlensca",
+          "searchJob": "colorado",
+          "text": "$IVQ.TO — Invesque Q3 2026 Results Invesque is a seniors housing owner that has sold most of its portfolio and has agreed to be taken private. Figures in USD. 📊 Q3 2026 Highlights: • Revenue: $2.8M (vs $6.6M, after asset sales) • Net incom"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 60,
+      "accepted": 1,
+      "rejected": 55,
       "reasons": {
-        "bare_mention_requires_llm": 44,
-        "school_not_resolved_confidently": 11,
-        "multiple_resolved_schools": 4,
-        "reporter_missing_player_name": 1
+        "bare_mention_requires_llm": 23,
+        "reporter_missing_player_name": 3,
+        "multiple_resolved_schools": 5,
+        "school_not_resolved_confidently": 24
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120906711850700997",
-          "author": "johnnywhiskytx",
-          "searchJob": "texas",
-          "text": "@OneMeghanElinor The problem with Glenn Beck is, he’s an alarmist that offers weak solutions Any of you look at the Texas election, there’s no way that you can have 107% adults voting It’s impossible. so for him to say that the election was"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120904433970135441",
-          "author": "tracesoftexas",
-          "searchJob": "texas",
-          "text": "I have taken about 900 thousand photos of Texas. There are few that stick with me more than this one, which I post here every Veteran's day. This is a ceramic photograph that I found on a grave marker in a rural black cemetery near Giddings"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120902322192630126",
-          "author": "tannerchidester",
-          "searchJob": "texas",
-          "text": "You have to burn the boats. I had a 3.9 GPA and got accepted to Texas A&amp;M for engineering with a six figure salary waiting, and I dropped out. If you're still running a side offer just in case, kill it and put everything behind the one "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120902157864161518",
-          "author": "cheryljoneldxr",
-          "searchJob": "texas",
-          "text": "@WallStreetApes Bad. What do you hear from abbots office? Not a damn thing. Looks like he will certify no matter the proofs offered, discovered, proved…for whatever reason, he’s not contesting the fraud. Texas is gone."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120896475722817816",
-          "author": "prep2play",
-          "searchJob": "texas",
-          "text": "🚨👀👀💡💡🚨 PrepStar Elite 360 ‘27 OL @CavinRhoadsJr27 | Texas City HS 📏6’1” 295 🎓3.5 GPA | 1560 SAT💥 ⏱4.9 40 | 4.8 Shuttle 🧰7’4” Broad | 73” Wingspan 💪335 Bench | 425 Squat Profile &amp; 🎥: https://t.co/7G4WyiSDTD ✅OFFERS: 12"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120889302431277341",
-          "author": "highwithouse",
-          "searchJob": "texas",
-          "text": "And the ALPHA of the group, whom I call \"Tex\" because he is from Texas, always replies, \"I have been called worse.\" He is allowed to be an ALPHA passport bro around me because I get 600 euro spreads of food and drink while I was just going "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120921217364300183",
-          "author": "alphavestcap",
-          "searchJob": "ucla",
-          "text": "@alphavestcap https://t.co/yHzimzI3d6 https://t.co/kjlr9qF6jN https://t.co/ylEw41djYJ https://t.co/vi5Uu2MjvG $NWBO #DCVax #Immunotherapy #SITC2026 #SITC26 Mel lived the first one. In 1998 a Phase 1 trial took a terminal leukemia and turned"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120899155220726050",
-          "author": "nationalistbear",
-          "searchJob": "ucla",
-          "text": "@LandOfUCLA @StoolWestwood @chesneyera @CFBTalkDaily @SSN_UCLANation I've been saying, every move he's ever made has been upward. Now he's finally at the top. Where would he even go? No one has anything to offer that UCLA isn't already givi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120898075489153466",
-          "author": "bruinsoh",
-          "searchJob": "ucla",
-          "text": "Most Bruins fans trade offers for Top 4 Dmen or Top 6 forwards is the following.. Zacha, Poitras, Lohrei & two two future 1sts No Hagans, Minten, Leterneau or Zellers in their offers And if that's the offers BOS is actually making for Top 4"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120925712659947564",
-          "author": "iasatusc",
-          "searchJob": "usc",
-          "text": "🔬 Interested in understanding the science behind addiction? The USC Institute for Addiction Science’s Minor in Addiction Science offers students an interdisciplinary approach to exploring substance use, addictive behaviors, and the biologi"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120919362890871148",
-          "author": "andrew_wag",
-          "searchJob": "usc",
-          "text": "@SeanUnfiltered If teams like USC, Oregon, FSU, Clemson, etc can work out better tv deals than their league can offer, independence will look pretty attractive in the future as long as scheduling alliances could be made."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120907182875218368",
-          "author": "donedealcardco",
-          "searchJob": "usc",
-          "text": "Check out Topps 2026 Bowman Chrome Jayden Maiava USC Trojans Mega Prospects Mojo MP-10 https://t.co/bnIUcIicSP #eBay via @eBay $6 🛳️ Free shipping! 🤝 Shoot us an offer!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120925921892880699",
-          "author": "energyandcapita",
+          "postId": "2120912669297516547",
+          "author": "srijanpalsingh",
           "searchJob": "washington",
-          "text": "DOE just offered Constellation a $5 billion loan to juice eight existing reactors. No new sites, no new transmission, no decade of permitting. Washington has quietly figured out the fastest megawatt is a recycled one. $CEG"
+          "text": "The controversy surrounding Nvidia CEO Jensen Huang, former Megaspeed executive Alice Huang and alleged Chinese espionage has raised serious national security concerns in Washington. But the concern goes beyond one company or one executive."
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2120925745472250249",
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120902711004557597",
+          "author": "warconzero",
+          "searchJob": "washington",
+          "text": "WARCONZERO® Morning Intelligence Edition Thursday, 12 NOV 2026 1025 EST / 1525Z EDITORIAL COMPOSITE: 1.147 / 5.000 — RED Δ+0.000 | PREVIOUS: 1.147 | Unchanged TOP STORIES • Russian officer killed in St. Petersburg car bombing; investigators"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120899110811361632",
           "author": "aprajitanefes",
           "searchJob": "washington",
-          "text": "🇷🇺|Two Americans Landed in Moscow. Neither Was Elected. Neither Was Confirmed. Both Own a Piece of the Outcome. Steve Witkoff and Jared Kushner arrived at the Kremlin for talks with Vladimir Putin. The readout will say \"diplomacy.\" The fi"
+          "text": "🇷🇺🇦🇫|A Russian Government Aircraft Landed at Kabul Airport. On Board: A Deputy Prime Minister and Seventy Businesspeople. The Cargo Was Not a Demand. It Was an Offer. The aircraft carried Deputy Prime Minister Alexei Overchuk, more than"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120898020648829416",
+          "author": "stgnews",
+          "searchJob": "washington",
+          "text": "Washington City's holiday market offers a unique twist on Black Friday shopping https://t.co/Pwc58BTqBo"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2120897153581416557",
+          "author": "osintmaplive",
+          "searchJob": "washington",
+          "text": "Romania's president Nicușor Dan says he has offered Washington a cost-sharing formula to keep and strengthen the US troop presence, pointing to Poland's offer of $15,000 a year per soldier. There are 1,172 US personnel in Romania now, down "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120925125184770100",
-          "author": "offshoreinsider",
-          "searchJob": "washington",
-          "text": "🔥 FREE SPORTS PICKS — THURSDAY, NOVEMBER 12, 2026 NFL Thursday Night Football, two college football games, college basketball, NBA, NHL and international soccer headline today’s free betting selections from professional sports handicappers"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120924592495612366",
+          "postId": "2120894392210735407",
           "author": "worldwidennx",
           "searchJob": "washington",
-          "text": "12 PM Top-of-the-Hour News Nvidia CEO and co-founder Jensen Wang has resigned, effective immediately.: “It comes after it was revealed he'd had multiple affairs. Nicole Petalides works for Schwab. The people who covered for him, are they co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120920914694934781",
-          "author": "popoolaakinwumi",
-          "searchJob": "washington",
-          "text": "🇮🇷🇺🇸 Iran has sent Washington two firm warnings: 1. Not a single particle of its enriched uranium will be handed over or removed from Iranian territory. 2. If the United States launches another attack, American military bases located fa"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120918181145420104",
-          "author": "mossadil",
-          "searchJob": "washington",
-          "text": "🚨 $20 MILLION BOUNTY: FBI SEEKS IRANIAN IRGC OPERATIVE ACCUSED OF PLOTTING ASSASSINATIONS ON U.S. SOIL Shahram Poursafi, an alleged member of Iran's Islamic Revolutionary Guard Corps (IRGC), is wanted for his suspected role in a murder-for"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120917595927065005",
-          "author": "theoppreportff",
-          "searchJob": "washington",
-          "text": "@checotorres9 1. I would send the offer this week, Javonte is coming off strong performance in Week 9. 2. If you are going to sit Kraft, I would start them in this order for this week: Pitts, Waller, Higbee, Rairdon and Washington. 3. I hav"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120915383070711910",
-          "author": "arlingtonva",
-          "searchJob": "washington",
-          "text": "Arlington offers naloxone, drug testing strips, connections to support, and more. We're here to help. Call, text, WhatsApp: 571-302-0327 Email: aari@arlingtonva.us Fill out our online form: https://t.co/6rRMitZsLB Visit us 24/7: Crisis Inte"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120915455044886777",
-          "author": "dwf57",
-          "searchJob": "byu",
-          "text": "@flugempire With BYUtv, they could probably make more money off of TV as they do with Big XII contract.... However, being in BigXII means easier and better quality of scheduling for all their sports (and BYU offers more sports than most FBS"
+          "text": "10 AM Top-of-the-Hour News Breaking news from Washington DC, where residents of the Logan Circle neighborhood have been told to shelter in place, after a shooting near a fitness club. At least one person was killed, and several wounded. The"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2120927254809133417",
-          "author": "capostsports",
-          "searchJob": "california",
-          "text": "Chargers nix Broncos trade after revised offer ties compensation to injury https://t.co/luHM2zufYu https://t.co/x4UUnaGC3m"
+          "postId": "2120920999482757209",
+          "author": "ace_ux",
+          "searchJob": "texas-tech",
+          "text": "I can only speak on the tech job market but what I notice is companies want you to be a 99% match to the JD yet paying a salary that should ask you to be 60%. They know the market is bad &amp; your options are limited. If it’s taking you aw"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2120926658181935590",
-          "author": "californiapost",
-          "searchJob": "california",
-          "text": "Chargers nix Broncos trade after revised offer ties compensation to injury https://t.co/TVmqExeftX https://t.co/vB9JiE2pDX"
+          "postId": "2120920297109172429",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Early Black Friday Deal ] 📦 N5M340 Segway Ninebot S2 Electric Self-Balancing Scooter, UL Certified, 10.5-inch tubeless tires at $484.49 (List Price $599.99) [ad] https://t.co/bpd9LueFby #amazondeals #techdeals – Top speed of 11"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120919273367642418",
+          "author": "jonnywalker1293",
+          "searchJob": "texas-tech",
+          "text": "What if the two most dangerous builders on Earth joined the same team? Elon Musk, who builds rockets, EVs, AI models, and now his own chip fabs. Jensen Huang, who spent 33 years turning NVIDIA into the engine of the AI age. If those two eve"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120918610483065306",
+          "author": "ogfigo",
+          "searchJob": "texas-tech",
+          "text": "@abdulhakeemson0 @RebateLaunch Sounds exciting Introducing big tech giants to RWA opens doors for creators and offers unique reward opportunities"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120918443017068901",
+          "author": "harmanify",
+          "searchJob": "texas-tech",
+          "text": "@AOC cheered when amazon cancelled 25,000 promised jobs in queens in 2019 and new yorkers literally named her the biggest villain in it , and so then she says “muh no bailout if the ai bubble” pops for a bailout openai publicly denied wanti"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917215759220822",
+          "author": "80level",
+          "searchJob": "texas-tech",
+          "text": "Chinese tech giant Tencent has launched a new app featuring AI girl companions that watch you play games and offer tips. Hopefully nothing more: https://t.co/DvQx1kgnZq https://t.co/jy2QzYCJp9"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917098868175285",
+          "author": "mvsltd",
+          "searchJob": "texas-tech",
+          "text": "Top Tech Tidbits Founder Dean Martineau Offers Technology Training for Sight Loss | By Aaron Di Blasi, Publisher, Top Tech Tidbits | Courtesy of the PWD Media Co-op https://t.co/QPnJUMCUYu Dean is offering affordable remote technology train"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917097400136162",
+          "author": "aarondiblasi",
+          "searchJob": "texas-tech",
+          "text": "Top Tech Tidbits Founder Dean Martineau Offers Technology Training for Sight Loss | By Aaron Di Blasi, Publisher, Top Tech Tidbits | Courtesy of the PWD Media Co-op https://t.co/1dDJwcMVBN Dean is offering affordable remote technology train"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917097228181560",
+          "author": "accessibleworld",
+          "searchJob": "texas-tech",
+          "text": "Top Tech Tidbits Founder Dean Martineau Offers Technology Training for Sight Loss | By Aaron Di Blasi, Publisher, Top Tech Tidbits | Courtesy of the PWD Media Co-op https://t.co/MCYWoZxqXA Dean is offering affordable remote technology train"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917097140080656",
+          "author": "author_jodhan",
+          "searchJob": "texas-tech",
+          "text": "Top Tech Tidbits Founder Dean Martineau Offers Technology Training for Sight Loss | By Aaron Di Blasi, Publisher, Top Tech Tidbits | Courtesy of the PWD Media Co-op https://t.co/thbfvhxHEw Dean is offering affordable remote technology train"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917097131704367",
+          "author": "barrierfreeca",
+          "searchJob": "texas-tech",
+          "text": "Top Tech Tidbits Founder Dean Martineau Offers Technology Training for Sight Loss | By Aaron Di Blasi, Publisher, Top Tech Tidbits | Courtesy of the PWD Media Co-op https://t.co/KHnYTGFZth Dean is offering affordable remote technology train"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917097014325443",
+          "author": "drkirkadams",
+          "searchJob": "texas-tech",
+          "text": "Top Tech Tidbits Founder Dean Martineau Offers Technology Training for Sight Loss | By Aaron Di Blasi, Publisher, Top Tech Tidbits | Courtesy of the PWD Media Co-op https://t.co/3FFSuWBD49 Dean is offering affordable remote technology train"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120917096984871288",
+          "author": "accessinfonews",
+          "searchJob": "texas-tech",
+          "text": "Top Tech Tidbits Founder Dean Martineau Offers Technology Training for Sight Loss | By Aaron Di Blasi, Publisher, Top Tech Tidbits | Courtesy of the PWD Media Co-op https://t.co/B6BobNV5jv Dean is offering affordable remote technology train"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120924696539472191",
-          "author": "cebc4cw",
-          "searchJob": "california",
-          "text": "📢 Resource Update: Creating an Inclusive, Equitable, Anti-Racist Workplace The CEBC has updated our resource, Creating an Inclusive, Equitable, Anti-Racist Workplace, which offers practical strategies organizations and individuals can use "
+          "postId": "2120930898942312647",
+          "author": "uteavs21",
+          "searchJob": "alabama",
+          "text": "@AceJabLsss @bjkronewit @CoachMAGA14 @RobertGC2001 @Brett_McMurphy Like I’ve said: there’s a lot more to the Apple than you think there is. Sure if someone comes forth with this fallacy of a billion $ individual tv deal offer for schools li"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120929997321863678",
+          "author": "tdarecruiting",
+          "searchJob": "alabama",
+          "text": "Wake Forest has extended an offer to 2028 QB Nash Davis (@Nash5Davis) out of Spain Park High School! The 6’5”, 220-pound signal-caller described his visit as “great” after spending time with the coaching staff and learning more about the pr"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2120920331401519139",
+          "author": "kenpounders",
+          "searchJob": "alabama",
+          "text": "@ScoutFball @Jdsmith31Smith @barrettprice_ @CoachMcCannJSG @helmet2helmt251 @DexPreps @AL6AFootball @TDARecruiting @Andy_Villamarzo @HallTechSports1 @SouthernCharmSp @mtorressports @GeauxDuck No offer from Bama?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120914080504361017",
+          "author": "oliviaksayer",
+          "searchJob": "alabama",
+          "text": "On recent Alabama offer, @StevenW2028. ⬇️"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120894890423062956",
+          "author": "taxlienschool",
+          "searchJob": "alabama",
+          "text": "Did you know Alabama tax lien certificates can earn up to 12% interest? Book a call CTA - Get A Deal Up To 90% Off In 30 Days, Book A Free Call Here: https://t.co/CftcySgvKV Alabama offers a tax lien investing opportunity that many beginner"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 267,
+      "jobs": 265,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -523,74 +540,72 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2120921217364300183",
-          "author": "alphavestcap",
-          "text": "@alphavestcap https://t.co/yHzimzI3d6 https://t.co/kjlr9qF6jN https://t.co/ylEw41djYJ https://t.co/vi5Uu2MjvG $NWBO #DCVax #Immunotherapy #SITC2026 #SITC26 Mel lived the first one. In 1998 a Phase 1 trial took a terminal leukemia and turned"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2120925745472250249",
+          "postId": "2120899110811361632",
           "author": "aprajitanefes",
-          "text": "🇷🇺|Two Americans Landed in Moscow. Neither Was Elected. Neither Was Confirmed. Both Own a Piece of the Outcome. Steve Witkoff and Jared Kushner arrived at the Kremlin for talks with Vladimir Putin. The readout will say \"diplomacy.\" The fi"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2120915617922658375",
-          "author": "frankrossi",
-          "text": "A CRISIS CREATED: THE SECRETARIES' CUP AND THE NWSL'S AUDI FIELD SCRAMBLE By Frank Rossi — @D3FBHuddle When the Washington Spirit beat Portland 4-1 on Sunday afternoon to earn a home NWSL semifinal, the club announced within hours that the "
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2120924885111431429",
-          "author": "iamlukethedev",
-          "text": "Fish Agent just launched. I typed one paragraph describing a dental clinic front desk. Two minutes later it had a voice, a script, and was answering a test call. Then I tried to break it. My test caller cut in mid-sentence asking for a slot"
+          "text": "🇷🇺🇦🇫|A Russian Government Aircraft Landed at Kabul Airport. On Board: A Deputy Prime Minister and Seventy Businesspeople. The Cargo Was Not a Demand. It Was an Offer. The aircraft carried Deputy Prime Minister Alexei Overchuk, more than"
         },
         {
           "reason": "juco_or_transfer",
-          "postId": "2120091893656629655",
-          "author": "theohiorob",
-          "text": "I hate to break it to you, but yes, we do have countless collaboration/cooperation agreements codified into law in the defense and foreign policy space. Similarly, our military collaboration with Israel began in earnest, ~60 years ago. You "
+          "postId": "2120929617590784343",
+          "author": "diacaukechuyen",
+          "text": "🧭 BOUGAINVILLE ISLAND | TRAVEL ESSENTIALS 📍 Getting There Fly from Port Moresby to Buka Airport, located on neighbouring Buka Island. Cross the Buka Passage by local boat to reach Bougainville Island. Arrange onward road transport with a "
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2120001391166947378",
-          "author": "akinyemi320",
-          "text": "Most of Nvidia's $165B partner exposure is contingent and years away ​ Aletheia cut Nvidia $NVDA to Hold on Monday over $165B of financial commitments tied to its AI cloud partners. So I pulled up the July 10-Q to see what's actually in tha"
+          "postId": "2120928296535986443",
+          "author": "drstaceydvm",
+          "text": "#fiction #cozymystery #dogs Standalone Myteries Versus Series A mystery reader’s bookshelf can hold two very different kinds of comfort. In the question of **standalone mysteries versus book series**, one book offers the pleasure of a compl"
         },
         {
-          "reason": "roundup_too_long",
-          "postId": "2119950178237157426",
-          "author": "themichaelevery",
-          "text": "2026, day 314 Good morning from Asia - and it looks like it’s Plan B time in the Middle East for the U.S., which is not Plan TACO - far from it if you can project any geopolitical dots. GEOPOLITICS: 🌍🔥 ‘Qatar, Saudi Arabia want peaceful s"
+          "reason": "no_commit_event",
+          "postId": "2119971348063625395",
+          "author": "sprayberryjay",
+          "text": "Jordan Carraway @JordanCarraway6 - c/o 2027 - OL/IOL - Forney High School @ForneyRecruits @CoachFleen @BransonHickman (He Is Committed To Play For The Tulane Green Wave @GreenWaveFB) https://t.co/rOMoHJIQKQ"
         },
         {
-          "reason": "roundup_too_long",
-          "postId": "2119903853520785577",
-          "author": "finsee_main",
-          "text": "$MARA Q3 2026 earnings: MARA pays off its Bitcoin loans, but lease targets slip MARA, a Bitcoin miner expanding into artificial intelligence data centers, saw mining revenue drop while paper gains lifted net profit. Revenue fell 35% to $164"
+          "reason": "no_football_context",
+          "postId": "2119887522662621606",
+          "author": "tulanehype",
+          "text": "@WaveaftergWave I do not care if Hall coaches the rest of the season. It does not matter. If Harris is not fired and very soon, then all is lost regardless. No real coach will work for Harris and the bullshit Tulane Model he is pushing. Any"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2119885783666446810",
+          "author": "rolldatwave",
+          "text": "Tulane Green Wave Sports App! https://t.co/ydCVJQrSgV All the info you could ever want is a click away to current players, Tulane Commits, HS recruits and Pats Deep Dive Recruiting! Up to date roster, depth chart, scores, recruiting and way"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2119812983031501292",
+          "author": "drakeparker2010",
+          "text": "I see a couple of 2028 Tulane commits putting in the work. 👀🌊💯@GreenWaveBSB @jezk1010 @CWoj18 @elite_national2 @jgrosse32 @whoiswaltjones @BHodgey07 @KantrowJos78967 @Chance_Peck_13 https://t.co/WKNFrtInsT"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2120225036737138829",
+          "author": "trainwrecker_62",
+          "text": "🏈 Devin Girtmon | @DevinGirtmon51 The Colony HS | OT | C/O 2027 | #51 ✍️ Committed to Tulsa! #OffensiveLine https://t.co/NtGjZy2d2a"
         }
       ],
       "stats": {
-        "candidates": 12,
-        "accepted": 0,
+        "candidates": 14,
+        "accepted": 2,
         "rejected": 12,
         "reasons": {
-          "roundup_too_long": 7,
-          "other_sport": 1,
-          "no_football_context": 1,
-          "juco_or_transfer": 1,
-          "reporter_missing_player_name": 1,
-          "no_commit_event": 1
+          "roundup_too_long": 3,
+          "juco_or_transfer": 2,
+          "no_commit_event": 4,
+          "no_football_context": 3
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 60,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 55,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-12T17:14:13.546Z"
+    "status rebuilt locally from current store on 2026-11-12T17:29:37.200Z"
   ]
 }
