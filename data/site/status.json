@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T07:29:24.398Z",
+  "generatedAt": "2026-11-12T07:44:35.649Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-12T07:29:23.679Z",
+    "at": "2026-11-12T07:44:34.677Z",
     "jobsTotal": 162,
     "sweptThisRun": 19,
     "requests": 19,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0318011111111112,
-    "p95Hours": 2.0341244444444446,
-    "worstHours": 2.0341244444444446
+    "medianHours": 1.0333452777777778,
+    "p95Hours": 2.0331658333333333,
+    "worstHours": 2.0331658333333333
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -55,158 +55,188 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-12T07:29:23.623Z",
-      "got": 23,
-      "new": 15,
-      "lag": 0.04
+      "at": "2026-11-12T07:44:34.649Z",
+      "got": 33,
+      "new": 19,
+      "lag": 0.12
     },
     "search:commit": {
-      "at": "2026-11-12T07:29:23.677Z",
-      "got": 65,
+      "at": "2026-11-12T07:44:34.676Z",
+      "got": 58,
       "new": 24,
-      "lag": 0.21
+      "lag": 0.46
     }
   },
   "audit": {
-    "at": "2026-11-12T07:27:47.416Z",
+    "at": "2026-11-12T07:42:52.071Z",
     "mode": "live",
     "collection": {
-      "returned": 23,
-      "kept": 15,
-      "duplicate": 7,
-      "tooOld": 1,
+      "returned": 33,
+      "kept": 19,
+      "duplicate": 14,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
+      "accepted": 15,
       "rejected": 4,
       "reasons": {
-        "no_fbs_school": 3,
+        "no_offer_term": 1,
+        "no_fbs_school": 2,
         "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2120776871398736218",
-          "author": "joshoo1j",
-          "searchJob": "duke",
-          "text": "Renewable energy offers more than an environmental benefit. It can encourage innovation and create employment while supporting Tanzania's ambition for a more sustainable economy. #TanzaniaCOP31 #PresidentSamiaAtCOP31."
+          "reason": "no_offer_term",
+          "postId": "2120779988773281842",
+          "author": "kenlairdweei",
+          "searchJob": "ucla",
+          "text": "https://t.co/7NT0ehTWWy"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120764641265455613",
-          "author": "thedukeofmadrid",
-          "searchJob": "duke",
-          "text": "Me patiently waiting for the day PSG arrive in Madrid with their first offer for Arda Güler 😁😁 https://t.co/Pt08i94pjo"
+          "postId": "2120760269332959682",
+          "author": "dp58343",
+          "searchJob": "washington",
+          "text": "@SteveHiltonx @KatTimpf The quickest way we make housing cost less is for the government to deport the people putting offers on them and then moving 4 families into them to make the payments. The reason rent and housing are high is one thin"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120758489199059248",
-          "author": "dukeofstats",
-          "searchJob": "duke",
-          "text": "I lean into grace that restores my energy and clears confusion from my sight. I am not the same person I was yesterday; my mind expands with fresh insights and stronger resolve. Lucrative avenues open up naturally as I master my craft and o"
+          "postId": "2120758716308087142",
+          "author": "foxdad67",
+          "searchJob": "troy",
+          "text": "Established Bull Mountain living meets everyday Tigard convenience. This traditional Craftsman offers 4 beds, 2.5 baths and 3,057 sq. ft. on approximately one-third acre. 🌿 https://t.co/tL5Mj7ZIzj #TigardRealEstate #BullMountain https://t."
         },
         {
           "reason": "hard_negative",
-          "postId": "2120772456365301810",
-          "author": "thehouseofgoose",
-          "searchJob": "temple",
-          "text": "ROUND XVII THE DAMNATION OF A DOCTRINE AND OF ALL WHO ENFORCE IT FROM ITS OWN TEXTS AND THE RECORDS OF NATIONS, MEDINA TO THIS YEAR From 627 to 2026, by its own texts and by the records of the United Nations, of this Republic and of its all"
+          "postId": "2120762099743756602",
+          "author": "nana5so",
+          "searchJob": "tulsa",
+          "text": "“Where is the bread going?” I said, “I was about to ask you.” She went quiet. Then she turned her monitor around. Security footage. 10:40pm. The loading dock. It was her, in her coat, carrying my bags to her own car. “I grew up in Tulsa,” s"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "multiple_resolved_schools": 1
+        "multiple_resolved_schools": 4,
+        "school_not_resolved_confidently": 2,
+        "bare_mention_requires_llm": 9
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120755570022195497",
+          "author": "davideubanks",
+          "searchJob": "ucla",
+          "text": "@shipwreckedcrew They don’t have the money SC (or any other major football program) has. If he’s interested in $ then Ucla won’t be able to match what other schools will offer."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120777800151900306",
+          "author": "kaivo_ai",
+          "searchJob": "usc",
+          "text": "She sent him a Facebook friend request. He had just spent 5 years in prison because of her. At 16, Brian Banks was one of the best high school linebackers in America. USC offered him a full scholarship. Pete Carroll called him personally. T"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120755381400162345",
-          "author": "xinya16",
-          "searchJob": "illinois",
-          "text": "In 2015, Prof. Jiawei Han gave me one of the few PhD offers I received. I still remember how much it meant to me that he believed in me at that stage. I went to Cornell for my PhD, and years later, as a postdoc at Illinois, I had the chance"
+          "postId": "2120777698830065689",
+          "author": "thesharpewit",
+          "searchJob": "usc",
+          "text": "@USCTrojansFTFO I believe it’s an extraordinary claim. Go ahead and send the source of the USC offer or ND rejection."
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120780368001269918",
-          "author": "charliewwg1wga",
-          "searchJob": "texas",
-          "text": "🚨JUST IN: Rep. Carlos Giménez (R-FL) has formally invited Elon Musk to RELOCATE Tesla's headquarters from Texas to FLORIDA! 🇺🇸 Giménez cited concerns over newly elected Democratic Socialists in Texas, arguing Florida offers a more busine"
+          "postId": "2120781652326531479",
+          "author": "cdreoulas",
+          "searchJob": "washington",
+          "text": "I am asking every red-blooded American to sign this petition and pass it on so that people can stop shoving Islam down our throats while slowly eroding the fabric of our society as a whole. Sign and pass this along! Every patriot who loves "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2120779359585787937",
+          "author": "teadiplomacy",
+          "searchJob": "washington",
+          "text": "📜 THIS DAY IN DIPLOMATIC HISTORY November 12, 1921 An American secretary of state rose to open a disarmament conference and proposed to send nearly seventy warships to the breakers at a stroke, close to two million tons of fighting ships. "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120779068903731293",
-          "author": "roastpr",
-          "searchJob": "texas",
-          "text": "Roast News Service – RNS - Thursday 12 November 2026 #BUCE #COBR #FCM #AMRQ #AXL #FORG #ATO #TAR Buccaneer Energy (AIM: BUCE) has secured £510,000 through a placing and subscription at 0.01p per share, a 5.26% premium to the previous closin"
+          "postId": "2120779098536419788",
+          "author": "eleventysigma",
+          "searchJob": "washington",
+          "text": "Nope, you've been wrong from the start. \"Nick LOST his suit on appeal and got shit\" - CNN, The Washington Post, and NBC - All settled out of court for undisclosed amounts. \"$10,000 -$20,000 was the sum.. which didn't even cover lawyer fees\""
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120778864079024261",
-          "author": "wz1966",
-          "searchJob": "texas",
-          "text": "@AmericaFirsst I would take the generouse offer in a heart beat, putting up prefabricated building is quick, just pull the machinery and employees from texas, the employees can probably actually hell the build the buildings, so it two fold "
+          "postId": "2120778806759944258",
+          "author": "ali_pourvasei",
+          "searchJob": "washington",
+          "text": "@DaveKluge Lolll I offered Concepcion and he countered with Parker Washington too"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120777239923229181",
-          "author": "anisakassem",
-          "searchJob": "texas",
-          "text": "@AbdulElSayed I am a Canadian/USA citizen. Absolutely despised my health care in Canada. Took me 15 months to see a specialist and my son had to go to Texas to get heart surgery, Canada offered him MAID. And we paid over 50% in taxes! Don’t"
+          "postId": "2120773917803676089",
+          "author": "cassy090909",
+          "searchJob": "washington",
+          "text": "@sanchezcastejon Prime Minister, pls release Fergie Chambers &amp; offer asylum. He is not a criminal, nor a terrorist. Spain fights for Palestine, as does Fergie. Real terrorists are in Tel Aviv &amp; Washington. They destroyed an innocent"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120775082993910152",
-          "author": "buceplc",
-          "searchJob": "texas",
-          "text": "#BUCE raises £510k at a 5.3% premium, incl. Premier Miton 🔹New ESPs bring Texas to full production for Dec’s reserve valuation &amp; potential sale 🔹European gas ahead of plan; NPV10 up to https://t.co/hvjEYNZC91$645m 🔹WRAP Retail Offer "
+          "postId": "2120766065659498890",
+          "author": "warontherocks",
+          "searchJob": "washington",
+          "text": "Washington weighs its next move on Iran, Russia offers Trump talks while intensifying attacks on Ukraine, China’s elite jockey for position, North Korea steals billions in a crypto heist, and an ISIL attack strains Jordanian-Syrian relation"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120765911330160937",
-          "author": "tierreport",
-          "searchJob": "texas",
-          "text": "@ADIANKAIBA22 @NotTheRealFiver @The_Bleacherss And, I completely get that thought. But, that doesn't mean Texas wouldn't die laughing if the Yankees offered McMahon and Volpe, or just McMahon, for Seager and money."
+          "postId": "2120763872927953280",
+          "author": "mrfresno_expert",
+          "searchJob": "fresno-state",
+          "text": "The highest offer isn’t always the strongest. Price matters, but so do financing, contingencies, timing, and closing terms. Your Fresno real estate resource, George Ozburn 559-304-4349 DRE #01942906 #FresnoRealEstate #RealEstateTips https:/"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120778961831825501",
-          "author": "alexallone1",
-          "searchJob": "temple",
-          "text": "📍 Thiruchendur Murugan temple, Tamilnadu 🇮🇳. Standing majestically beside the Indian Ocean, the magnificent Thiruchendur Murugan Temple is a breathtaking blend of spirituality, history and architectural beauty. With the endless sea on on"
+          "postId": "2120773588865466698",
+          "author": "cover3_mx",
+          "searchJob": "toledo",
+          "text": "Watch Clyde Drexler collect a rebound and start running. The first few strides tell you why “The Glide” fit so perfectly. He covered ground with a smoothness that could disguise how quickly a defense was running out of time. Retreat toward "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2120773003495567830",
+          "author": "lucxsronald",
+          "searchJob": "toledo",
+          "text": "I took a little break over the last few days, but there’s so much news I want to share with you. A lot has happened, so let’s catch up on everything at once with one big post 👇🏼 1. Mark Cavendish was riding a Van Rysel bike 2. Pogacar wil"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120769836519190551",
-          "author": "honduras_b_",
-          "searchJob": "temple",
-          "text": "Silence dalit 1. November 1, 2026 – Vinchhiya village, Ahmedabad district, Gujarat Naresh Patel (36), a self-styled faith healer/bhuvo, allegedly killed his 10-year-old son Karan by repeatedly slamming him against the altar of Jogani Mata i"
+          "postId": "2120782980847427856",
+          "author": "pernateamre",
+          "searchJob": "troy",
+          "text": "💥 Price Improved 💥 🏠5555 Holm Street, Troy 48085 🛏️ 5 bedroom 🛀 4.1 bath 🚗 3 car garage Completed in 2026, this stunning custom-built Troy Colonial offers over 3,700 square feet,and a 3-car garage on an approximately half-acre lot in "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120762188969480271",
-          "author": "instantbolly",
-          "searchJob": "temple",
-          "text": "Abhishek Sharma was spotted at Mumbai’s Siddhivinayak Temple, where he offered prayers Lord Ganesha’s blessings. 🙏 #abhisheksharma #insatantbollywood #gk https://t.co/nNDRlNit6j"
+          "postId": "2120762357031059478",
+          "author": "loganpendragonm",
+          "searchJob": "troy",
+          "text": "I wanted to keep this creature in the series even though we do not have a proper name for it. The underwater encounter in the Absolute Wonder Woman annual is part of Diana's journey, and an unnamed creature is still a creature worth noticin"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120751767164186863",
-          "author": "overslife",
-          "searchJob": "temple",
-          "text": "Gulshan Grover wanted Rishi Kapoor in his film but had one awkward problem: he couldn’t pay him. What followed was a gesture that went way beyond a free cameo. ✨ Their friendship went back to 1987, when they worked together in Hawalaat. Gul"
+          "reason": "multiple_resolved_schools",
+          "postId": "2120754042767126671",
+          "author": "loganpendragonm",
+          "searchJob": "troy",
+          "text": "Petra is another character where I wanted to go further than the name of the creature. She is a siren, she has a dangerous voice, and she has wings. But when Diana first encounters her, she is the one who needs help. Ferdinand has been prot"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 357,
+      "jobs": 354,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -215,74 +245,76 @@
     "commits": {
       "samples": [
         {
-          "reason": "roundup_too_long",
-          "postId": "2120772456365301810",
-          "author": "thehouseofgoose",
-          "text": "ROUND XVII THE DAMNATION OF A DOCTRINE AND OF ALL WHO ENFORCE IT FROM ITS OWN TEXTS AND THE RECORDS OF NATIONS, MEDINA TO THIS YEAR From 627 to 2026, by its own texts and by the records of the United Nations, of this Republic and of its all"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2119565362194956354",
-          "author": "grykngblakstate",
-          "text": "Uh.. thanks but no thanks.. Salute to Madam Colom but Black Southerners got this from here. No more white faces in high places in Mississippi. Mississippi flips Black in 2027 ✊🏾👑✊🏾"
-        },
-        {
           "reason": "other_sport",
-          "postId": "2119551309128896792",
-          "author": "runwithrunestad",
-          "text": "Fellow Patriots, As we all know, Tuesday’s midterm was a blue tsunami. It was the Republican Party’s worst loss in over 50 years—the largest since the post-Watergate midterms of 1974. We saw huge losses in states that usually vote overwhelm"
+          "postId": "2120705649482899775",
+          "author": "memphisnews",
+          "text": "Tennessee baseball signed all 11 of its commits in the class of 2027 on National Signing Day on Nov. 11, finalizing another top-10 recruiting class. https://t.co/4U4DLIbBan"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2119443937312067897",
-          "author": "maccorleone74",
-          "text": "Notre Dame gets a commitment from a top three RB in the nation! #notredame #football #Mississippi https://t.co/ALfMeMKGEu"
+          "postId": "2120696516788531209",
+          "author": "russellvillefb",
+          "text": "Congratulations to Senior TE Gavin Willis on his Commitment to Middle Tennessee State!!! #TPW @geewlly https://t.co/RNzomgPpiA"
         },
         {
-          "reason": "roundup_too_long",
-          "postId": "2119434015086362993",
-          "author": "heyoscarx",
-          "text": "She said the last thing — the one that ties everything together — is that the election answered who controls Congress, but not what comes next. “Here’s how it fits together. Democrats flipped both chambers, with at least seven Senate pickup"
+          "reason": "no_football_context",
+          "postId": "2120591808132497678",
+          "author": "tennesseefandom",
+          "text": "Dylan Haley Explains Decision to Decommit From Tennessee Football #volunteers #vols #tennesseesports #tennesseevols https://t.co/A8M8zzfKkn"
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2120379451712078061",
-          "author": "boilerbound",
-          "text": "4⭐️ 2027 ATH Jai Jones took an Official Visit this past weekend to Purdue. Currently committed to Wisconsin. #7 ATH in the 2027 class according to Rivals. Jones’ stats in 10 games: 35 Rec - 578 yards - 6 TDs 6 Tckls - 2 INTs - 5 PBUs Plays "
+          "reason": "no_football_context",
+          "postId": "2120585310937768211",
+          "author": "volsonsi",
+          "text": "Dylan Haley releases a statement following his decision to decommit from the Tennessee Volunteers. Take a look: https://t.co/OsmNVPtOa6 https://t.co/OScCRHvlgW"
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2120204096322081257",
-          "author": "dubjellison",
-          "text": "#Purdue football recruiting recap: Commits in action, defensive back recruiting and more on https://t.co/B6MxNt0Fyb. https://t.co/ctDdAr6a0g https://t.co/W36mspQIOL"
+          "reason": "other_sport",
+          "postId": "2120572556818465245",
+          "author": "ryantsylvia",
+          "text": "Lady Vols basketball has officially signed its pair of commits in the 2027 class. Maci Pringle and Amaya Manuel both rank inside the top 25 of the recruiting cycle. https://t.co/VuEsfsShCD"
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2120130961392251124",
-          "author": "coachtroytaylor",
-          "text": "☘️ A tradition of developing difference-makers! Luca Puccinelli went from Benedictine College Prep to Purdue University, continuing the proud tradition of outstanding tight ends developed at Benedictine. That doesn't happen by accident. It "
+          "reason": "other_sport",
+          "postId": "2120571953215844720",
+          "author": "rockytopinsider",
+          "text": "Lady Vols basketball has officially signed its pair of class of 2027 commits. Here's what Kim Caldwell said about the duo and what you need to know ⬇️⬇️⬇️ https://t.co/L04P6o5GbB"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2120569869108162881",
+          "author": "calebsisk_",
+          "text": "Amaya Manuel (@amayabuckets) committed yesterday. Now she has signed with the Lady Vols. Take a look: https://t.co/GcPZt9hxl2"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2120569325082022127",
+          "author": "volsonsi",
+          "text": "Amaya Manuel signs with the Lady Vols less than 24 hours after announcing her commitment. Take a look: https://t.co/MRbXX7IVbe https://t.co/bmVTW32XOp"
         }
       ],
       "stats": {
-        "candidates": 25,
-        "accepted": 1,
-        "rejected": 24,
+        "candidates": 24,
+        "accepted": 2,
+        "rejected": 22,
         "reasons": {
-          "roundup_too_long": 6,
-          "no_football_context": 8,
-          "other_sport": 4,
+          "other_sport": 3,
           "reporter_missing_player_name": 1,
-          "no_commit_event": 5
+          "no_football_context": 10,
+          "list_post": 2,
+          "roundup_too_long": 2,
+          "no_commit_event": 3,
+          "reporter_missing_class_year": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-12T07:29:24.399Z"
+    "status rebuilt locally from current store on 2026-11-12T07:44:35.651Z"
   ]
 }
