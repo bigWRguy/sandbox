@@ -11,8 +11,10 @@ import { decodeEntities } from '../src/lib/store.js';
 import { bioPositions } from '../src/resolve/players.js';
 import { buildCoachIndex, coachVotes, settlePosition } from '../src/resolve/coaches.js';
 import { extractCommit, newCommitDb, upsertCommit, processCommits } from '../src/commits.js';
-import { commitJobs, commitJobsDue } from '../src/collect/queries.js';
+import { commitJobs, commitJobsDue, bioJobs } from '../src/collect/queries.js';
 import { indexPlayers } from '../src/resolve/players.js';
+import { loadStaff, observeNonFbs, staffVeto, pruneOffers } from '../src/resolve/staff.js';
+import { parseCoachBio, loadBios, recordBio, bioFresh, wantedBioHandles, bioVeto } from '../src/resolve/coachbio.js';
 
 let pass = 0, fail = 0;
 const t = (name, cond, detail = '') => {
@@ -806,6 +808,74 @@ console.log('commit and decommit extraction');
   const re = rep('BREAKING: Class of 2027 QB Bo Bryan has decommitted from Georgia', { id: 'b4', author: 'hayes1', createdAt: '2026-11-12T12:00:00Z' });
   processCommits([re], { cdb, db, affiliations: { accounts: {} }, known: new Set(), observedAt: '2026-11-12T13:00:00Z', audit: {} });
   t('a later decommit is a separate event for the same player', cdb.events.length === 2 && cdb.events.some((e) => e.kind === 'decommit') && db.players.length === 1, JSON.stringify(cdb.events.map((e) => e.kind)));
+}
+
+console.log('tagged staff of non-FBS programs');
+{
+  const known = new Set();
+  const staff = loadStaff({ handles: {
+    coachhawk225: { x: 37, f: { minnesota: 1 }, at: '2026-11-12T00:00:00Z' },
+    mixedcoach: { x: 4, f: { alabama: 6 }, at: '2026-11-12T00:00:00Z' },
+    coachsupports: { x: 5, f: { minnesota: 3 }, at: '2026-11-12T00:00:00Z' },
+  } });
+  const post = (text, extra = {}) => ({ author: 'kid1', text, mentions: [], ...extra });
+  t('offerer coach known to belong to a non-FBS program vetoes a name-only FBS attribution',
+    !!staffVeto(staff, post('After a great conversation with @CoachHawk225 im proud to recieve my first ever offer from Minnesota ‼️ AGTG'), 'minnesota', known));
+  t('a coach with FBS sightings for that school does not veto', staffVeto(staff, post('After a great conversation with @CoachSupports I am blessed to receive an offer from Minnesota'), 'minnesota', known) === null);
+  t('a mixed-history coach does not veto', staffVeto(staff, post('After a great conversation with @MixedCoach I am blessed to receive an offer from Alabama'), 'alabama', known) === null);
+  t('a coach only in a trailing list of tags is not read as the offerer', staffVeto(staff, post('Blessed to receive an offer from Minnesota @Kid2 @CoachHawk225'), 'minnesota', known) === null);
+  t('an unknown coach tagged next to a known non-FBS coach blocks the veto', staffVeto(staff, post('After a great conversation with @CoachHawk225 and @CoachNewGuy I am blessed to receive an offer from Minnesota'), 'minnesota', known) === null);
+  t('a handle that looks like the school’s own account never vetoes', staffVeto(loadStaff({ handles: { huskerfootball: { x: 17, f: { nebraska: 1 }, at: '2026-11-12T00:00:00Z' } } }), post('Thanks @HuskerFootball for the game day invite, after a great talk I am blessed to receive an offer from Nebraska'), 'nebraska', known) === null);
+  const learn = loadStaff(null);
+  for (let i = 0; i < 3; i++) observeNonFbs(learn, post('After a great conversation with @CoachNewHawk I am blessed to receive an offer from Minnesota State Community and Technical College', { author: 'kid' + i }), known, '2026-11-12T00:00:00Z');
+  t('three explicit non-FBS offers teach the veto', !!staffVeto(learn, post('After a great conversation with @CoachNewHawk I am blessed to receive an offer from Minnesota'), 'minnesota', known));
+  const offers = [
+    { id: 'o1', playerName: 'Weak Kid', schoolName: 'Minnesota', schoolId: 'minnesota', evidence: [{ author: 'kid1', text: 'After a great conversation with @CoachHawk225 im proud to recieve my first ever offer from Minnesota', attribution: { schoolEvidenceType: 'full_school_name' } }] },
+    { id: 'o2', playerName: 'Official Kid', schoolName: 'Minnesota', schoolId: 'minnesota', evidence: [{ author: 'kid3', text: 'After a great conversation with @CoachHawk225 offer from @GopherFootball', attribution: { schoolEvidenceType: 'official_school_tag' } }] },
+  ];
+  const pr = pruneOffers(offers, staff, known);
+  t('cleanup removes only the weakly attributed offer', pr.removed.length === 1 && pr.removed[0].id === 'o1' && pr.kept.length === 1);
+}
+
+console.log('coach bios');
+{
+  t('bio names school and position coach role', JSON.stringify(parseCoachBio('San Diego State Aztec wide receivers and pass game coordinator')) === JSON.stringify({ school: 'san-diego-state', nonFbs: null, group: 'WR' }));
+  const rb = parseCoachBio('Running Backs Coach | Minnesota State Community & Technical College');
+  t('bio at a non-FBS college is flagged non-FBS', rb.school === null && !!rb.nonFbs && rb.group === 'RB', JSON.stringify(rb));
+  t('an alum is not read as staff', parseCoachBio('Head Coach at Central High | Alabama alum').school === null);
+  t('a bio with no program gives nothing', parseCoachBio('Dad. Coach. Trainer.').group === null);
+  const bios = loadBios(null);
+  recordBio(bios, 'Coach_Middleton', { authorName: 'Matthew Middleton', authorBio: 'San Diego State Aztec wide receivers and pass game coordinator' }, '2026-11-12T00:00:00Z');
+  recordBio(bios, 'CoachHawkBio', { authorName: 'Nick Hawkins', authorBio: 'Running Backs Coach | Minnesota State Community & Technical College' }, '2026-11-12T00:00:00Z');
+  recordBio(bios, 'silentcoach', null, '2026-11-12T00:00:00Z');
+  t('a lookup that finds no posts is remembered as a miss', bios.handles.silentcoach.miss === true && bioFresh(bios.handles.silentcoach, Date.parse('2026-11-20T00:00:00Z')) && !bioFresh(bios.handles.silentcoach, Date.parse('2027-01-20T00:00:00Z')));
+  const weaver = { id: 'pw', name: 'Nick Weaver', handle: 'nickweaver_1', position: 'ATH', bio: 'MICDS | C/O 2027 | Football. ATH| 3.4 GPA | 6’3' };
+  const wOffers = [
+    { playerId: 'pw', schoolId: 'san-diego-state', evidence: [{ author: 'nickweaver_1', text: 'After a Conversation with Coach Middleton. I’m excited to announce an Offer from San Diego State University! @jasonthomasfb @ContinuedFight @Coach_Middleton @BrendanThompsn' }] },
+    { playerId: 'pw', schoolId: 'boston-college', evidence: [{ author: 'nickweaver_1', text: 'After a great conversation with @therealkwat . I’m excited to announce I got an offer from Boston College!!' }] },
+  ];
+  const idx = buildCoachIndex(wOffers, [weaver], new Set());
+  t('without a coach bio the ATH stays ATH', coachVotes(idx, weaver, wOffers) === null);
+  const wv = coachVotes(idx, weaver, wOffers, bios);
+  t('a coach bio at the offering school reads as that position', wv && wv.group === 'WR', JSON.stringify(wv));
+  t('an ATH tagging a WR coach settles on WR', settlePosition(weaver, wv).position === 'WR', JSON.stringify(settlePosition(weaver, wv)));
+  t('a coach bio from a different school gives no vote', coachVotes(idx, weaver, [{ ...wOffers[0], schoolId: 'boston-college' }], bios) === null);
+  const hawkPost = { author: 'kid1', text: 'After a great conversation with @CoachHawkBio I am blessed to receive an offer from Minnesota', mentions: [] };
+  t('a non-FBS coach bio vetoes a name-only FBS attribution', !!bioVeto(bios, hawkPost, 'minnesota', new Set()));
+  t('a coach bio at the offering school does not veto', bioVeto(bios, { author: 'kid1', text: 'After a conversation with @Coach_Middleton I am blessed to receive an offer from San Diego State', mentions: [] }, 'san-diego-state', new Set()) === null);
+  const ledgerOffers = [
+    { playerId: 'pw', offeredAt: new Date().toISOString(), evidence: [{ author: 'nickweaver_1', text: 'Offer @Coach_Middleton @Plain_Handle @CoachNobody', attribution: { schoolEvidenceType: 'official_school_tag' } }] },
+  ];
+  const wanted = wantedBioHandles(ledgerOffers, [weaver], loadBios(null), new Set());
+  t('ATH offers ask for the tagged coaches’ bios, only coach-like handles', JSON.stringify(wanted) === JSON.stringify(['coach_middleton', 'coachnobody']), JSON.stringify(wanted));
+  t('a clear-position offer with an official tag asks for nothing', wantedBioHandles([{ ...ledgerOffers[0], playerId: 'pr' }], [{ id: 'pr', name: 'R R', position: 'WR', bio: 'C/O 2027 | WR' }], loadBios(null), new Set()).length === 0);
+  t('already-cached handles are not asked again', wantedBioHandles(ledgerOffers, [weaver], bios, new Set()).join() === 'coachnobody', wantedBioHandles(ledgerOffers, [weaver], bios, new Set()).join());
+  const jobs = bioJobs(['a_coach', 'b_coach']);
+  t('bio lookups are plain from: searches', jobs.length === 2 && jobs[0].query === 'from:a_coach' && jobs[0].kind === 'bio' && jobs[0].handle === 'a_coach');
+  const live = Array.from({ length: 20 }, (_, i) => ({ key: `L${i}`, kind: 'school', priority: 1 }));
+  const bj = Array.from({ length: 20 }, (_, i) => ({ key: `bio:${i}`, kind: 'bio', handle: `h${i}`, query: `from:h${i}` }));
+  const order = prioritizeJobs([...bj, ...live], {}, 0.25, 0.2, 0.1);
+  t('bio lookups are a small lane and never starve the offer searches', order.slice(0, 20).filter((j) => j.kind === 'school').length >= 17 && order.slice(0, 20).some((j) => j.kind === 'bio') && order.length === 40);
 }
 
 console.log('commit search jobs');

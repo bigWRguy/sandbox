@@ -90,6 +90,10 @@ export function commitJobs() {
   });
 }
 
+export function bioJobs(handles) {
+  return handles.map((h) => ({ key: `bio:${h}`, query: `from:${h}`, priority: 1, kind: 'bio', handle: h }));
+}
+
 export function commitJobsDue(state, nowMs = Date.now(), intervalHours = Number(process.env.OFFERWIRE_COMMIT_INTERVAL_HOURS || 12)) {
   if (process.env.OFFERWIRE_COMMITS === '0') return [];
   const marks = state.watermarks || {};

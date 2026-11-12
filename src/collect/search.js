@@ -295,21 +295,23 @@ export function advanceLiveWindow(mark, window, posts, truncated) {
   mark.at = window.upper; mark.truncated = false; delete mark.window; return true;
 }
 
-export function prioritizeJobs(jobs, marks = {}, backfillShare = 0.25, commitShare = 0.2) {
+export function prioritizeJobs(jobs, marks = {}, backfillShare = 0.25, commitShare = 0.2, bioShare = 0.1) {
   const byAge = (a, b) => {
     const am = marks[a.key]?.at ? new Date(marks[a.key].at).getTime() : 0;
     const bm = marks[b.key]?.at ? new Date(marks[b.key].at).getTime() : 0;
     if (am !== bm) return am - bm;
     return (b.priority || 0) - (a.priority || 0);
   };
-  const live = jobs.filter((j) => !j.fixedWindow && j.kind !== 'commit').sort(byAge);
+  const live = jobs.filter((j) => !j.fixedWindow && j.kind !== 'commit' && j.kind !== 'bio').sort(byAge);
   const history = jobs.filter((j) => j.fixedWindow).sort(byAge);
   const commits = jobs.filter((j) => j.kind === 'commit' && !j.fixedWindow).sort(byAge);
-  if (!history.length && !commits.length) return live;
+  const bios = jobs.filter((j) => j.kind === 'bio');
+  if (!history.length && !commits.length && !bios.length) return live;
 
   const lanes = [
     { items: history, share: Math.min(0.8, Math.max(0.1, Number(backfillShare || 0.25))), i: 0, credit: 0 },
     { items: commits, share: Math.min(0.5, Math.max(0.05, Number(commitShare || 0.2))), i: 0, credit: 0 },
+    { items: bios, share: Math.min(0.3, Math.max(0.02, Number(bioShare || 0.1))), i: 0, credit: 0 },
   ];
   const ordered = [];
   let li = 0;
@@ -342,12 +344,14 @@ export async function sweep(jobs, state, {
   const now = Date.now();
   const backfillShare = Math.min(0.8, Math.max(0.1, Number(process.env.OFFERWIRE_BACKFILL_SHARE || 0.25)));
   const commitShare = Math.min(0.5, Math.max(0.05, Number(process.env.OFFERWIRE_COMMIT_SHARE || 0.2)));
-  const ordered = prioritizeJobs(jobs, marks, backfillShare, commitShare);
+  const bioShare = Math.min(0.3, Math.max(0.02, Number(process.env.OFFERWIRE_BIO_SHARE || 0.1)));
+  const ordered = prioritizeJobs(jobs, marks, backfillShare, commitShare, bioShare);
 
   const all = [];
   const errors = [];
   let swept = 0, failed = 0, cursor = 0, requests = 0;
   const sweptByKind = {};
+  const bioSwept = [];
   const requestsByKind = {};
 
   for (const cred of creds) {
@@ -366,9 +370,11 @@ export async function sweep(jobs, state, {
         const sinceMs = since ? new Date(since).getTime() : now - 12 * 3600e3;
         const fixedCursor = job.fixedWindow && marks[job.key]?.cursorUntil;
         const live = !job.fixedWindow ? liveWindowQuery(job, marks[job.key] || {}, now) : null;
-        const query = job.fixedWindow
-          ? `${job.query}${fixedCursor ? ` until_time:${Math.floor(new Date(fixedCursor).getTime() / 1000)}` : ''}`
-          : live.query;
+        const query = job.kind === 'bio'
+          ? job.query
+          : job.fixedWindow
+            ? `${job.query}${fixedCursor ? ` until_time:${Math.floor(new Date(fixedCursor).getTime() / 1000)}` : ''}`
+            : live.query;
         const beforeRequests = session.requests;
         const res = await session.search(query, { scrolls });
         const jobRequests = session.requests - beforeRequests;
@@ -392,6 +398,12 @@ export async function sweep(jobs, state, {
         swept++;
         stuck = 0;
         sweptByKind[job.kind] = (sweptByKind[job.kind] || 0) + 1;
+
+        if (job.kind === 'bio') {
+          bioSwept.push(job.handle);
+          await sleep(900 + Math.random() * 900);
+          continue;
+        }
 
         const m = (marks[job.key] ||= {});
         if (job.fixedWindow) {
@@ -437,7 +449,7 @@ export async function sweep(jobs, state, {
     expired,
     reason: ok ? null : (errors[0] || 'all search jobs failed'),
     posts: all, swept, jobs: jobs.length, failed, errors, requests,
-    sweptByKind, requestsByKind,
+    sweptByKind, requestsByKind, bioSwept,
     coverageCycles: Math.max(1, Math.ceil(jobs.length / Math.max(1, swept))),
   };
 }

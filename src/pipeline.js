@@ -3,7 +3,7 @@ import path from 'node:path';
 import { readJson, writeJson, appendNdjson, readNdjson, sha1, decodeEntities, DATA, CONFIG } from './lib/store.js';
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
-import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress, commitJobsDue } from './collect/queries.js';
+import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress, commitJobsDue, bioJobs } from './collect/queries.js';
 import { commitCandidate, newCommitDb, processCommits, buildCommitView } from './commits.js';
 import { settlePositions } from './resolve/coaches.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear, parseRoundup } from './extract/rules.js';
@@ -12,6 +12,8 @@ import { decorateOffers } from './resolve/tiers.js';
 import { resolveOfferTarget, seedDisplayAffiliations } from './resolve/attribution.js';
 import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, fuzzyKey, parseBio, looksLikeRecruit, cleanPersonName } from './resolve/players.js';
 import { ensurePlayer, schoolOnlyFromPlayerName } from './resolve/ledger.js';
+import { loadStaff, observeNonFbs, observeFbs, staffVeto, pruneStaff, pruneOffers, nonFbsHandleTarget, NON_FBS_REASONS } from './resolve/staff.js';
+import { loadBios, recordBio, wantedBioHandles, bioVeto } from './resolve/coachbio.js';
 import * as watch from './watchlist.js';
 
 const now = () => new Date().toISOString();
@@ -58,7 +60,7 @@ function staleSchools(state, thresholdHours = 2) {
     .sort((a, b) => b.hours - a.hours);
 }
 
-async function collect(state, log, audit) {
+async function collect(state, log, audit, lookup = { bios: null, wantedBios: [] }) {
   const mode = String(process.env.OFFERWIRE_MODE || 'live').toLowerCase();
   const lists = cfg('lists.json');
   const accounts = cfg('accounts.json');
@@ -132,7 +134,9 @@ async function collect(state, log, audit) {
       .filter((job) => !backfillSchools.size || backfillSchools.has(job.schoolId));
     const historical = historicalPlan.filter((job) => !state.watermarks?.[job.key]?.completed);
     const commitDue = mode === 'backfill' ? [] : commitJobsDue(state);
-    const jobs = mode === 'backfill' ? historical : [...allJobs(), ...commitDue, ...historical];
+    const bioDue = mode === 'backfill' ? [] : bioJobs(lookup.wantedBios);
+    const jobs = mode === 'backfill' ? historical : [...allJobs(), ...commitDue, ...bioDue, ...historical];
+    if (bioDue.length) log(`  coach bios: ${bioDue.length} lookups wanted`);
     if (commitDue.length) log(`  commits: ${commitDue.length} school searches due`);
     if (days) log(`  backfill: ${historical.length}/${historicalPlan.length} school-windows remaining`);
     const res = await sweep(jobs, state, { log });
@@ -172,8 +176,18 @@ async function collect(state, log, audit) {
       if (res.expired) log('  !! The session cookies have expired. Refresh X_AUTH_TOKEN / X_CT0.');
       state.searchConfigured = false;
     } else {
-      const offerPosts = res.posts.filter((p) => p.searchKind !== 'commit');
+      const offerPosts = res.posts.filter((p) => p.searchKind !== 'commit' && p.searchKind !== 'bio');
       const commitPosts = res.posts.filter((p) => p.searchKind === 'commit');
+      if (lookup.bios && res.bioSwept?.length) {
+        const bioPosts = res.posts.filter((p) => p.searchKind === 'bio');
+        let found = 0;
+        for (const h of res.bioSwept) {
+          const mine = bioPosts.find((p) => p.author === h && p.authorBio) || bioPosts.find((p) => p.author === h) || null;
+          recordBio(lookup.bios, h, mine, now());
+          if (mine?.authorBio) found++;
+        }
+        log(`  coach bios: ${res.bioSwept.length} looked up, ${found} bios found`);
+      }
       const n = push(offerPosts, 'search');
       log(`  search: ${n} new posts kept (of ${offerPosts.length} returned)`);
       if (res.sweptByKind?.commit) {
@@ -185,10 +199,10 @@ async function collect(state, log, audit) {
       state.searchBlocked = false;
       const liveJobs = allJobs().length;
       const liveSwept = Object.entries(res.sweptByKind || {})
-        .filter(([kind]) => kind !== 'backfill' && kind !== 'commit')
+        .filter(([kind]) => kind !== 'backfill' && kind !== 'commit' && kind !== 'bio')
         .reduce((sum, [, count]) => sum + count, 0);
       const liveRequests = Object.entries(res.requestsByKind || {})
-        .filter(([kind]) => kind !== 'backfill' && kind !== 'commit')
+        .filter(([kind]) => kind !== 'backfill' && kind !== 'commit' && kind !== 'bio')
         .reduce((sum, [, count]) => sum + count, 0);
       const historySwept = res.sweptByKind?.backfill || 0;
       const historyRequests = res.requestsByKind?.backfill || 0;
@@ -259,7 +273,7 @@ async function collect(state, log, audit) {
   return { fresh, commitFresh };
 }
 
-export function prefilter(posts, log = () => {}, audit = null) {
+export function prefilter(posts, log = () => {}, audit = null, sink = null) {
   const kept = [];
   let hardNeg = 0, noSignal = 0;
   for (const p of posts) {
@@ -269,8 +283,8 @@ export function prefilter(posts, log = () => {}, audit = null) {
     if (c.hardNegative) { hardNeg++; if (audit) auditReject(audit, 'prefilter', 'hard_negative', p); continue; }
     if (!c.kind) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'unclassified_offer_text', p); continue; }
     const schools = findSchools(text + ' ' + (p.mentions || []).map((m) => '@' + m).join(' ') + ' ' + (p.hashtags || []).map((h) => '#' + h).join(' '));
-    if (explicitNonFbsOfferTarget(text)) { hardNeg++; if (audit) auditReject(audit, 'prefilter', 'non_fbs_offer_target', p); continue; }
-    if (!schools.length) { noSignal++; if (audit) auditReject(audit, 'prefilter', 'no_fbs_school', p); continue; }
+    if (explicitNonFbsOfferTarget(text)) { hardNeg++; if (sink) sink.nonFbs.push(p); if (audit) auditReject(audit, 'prefilter', 'non_fbs_offer_target', p); continue; }
+    if (!schools.length) { noSignal++; if (sink && nonFbsHandleTarget(text)) sink.nonFbs.push(p); if (audit) auditReject(audit, 'prefilter', 'no_fbs_school', p); continue; }
     kept.push({ ...p, _rules: c, _schools: schools });
   }
   log(`  prefilter: ${posts.length} in -> ${kept.length} candidates (${hardNeg} hard-negative, ${noSignal} no signal)`);
@@ -490,14 +504,20 @@ async function main() {
     ...(accounts.stateScouts?.handles || []),
   ]);
 
+  const bios = loadBios(readJson('coachbios.json', null));
+  const staff = loadStaff(readJson('staff.json', null));
+  const wantedBios = process.env.OFFERWIRE_BIOS === '0' ? [] : wantedBioHandles(readJson('offers.json', []), readJson('players.json', []), bios, KNOWN_ACCOUNTS);
+
   log('collect:');
-  const { fresh, commitFresh } = await collect(state, log, audit);
+  const { fresh, commitFresh } = await collect(state, log, audit, { bios, wantedBios });
   log(`  total new posts: ${fresh.length}`);
   appendNdjson(`raw/${new Date().toISOString().slice(0, 10)}.ndjson`, fresh);
   appendNdjson(`raw/commits-${new Date().toISOString().slice(0, 10)}.ndjson`, commitFresh);
 
   log('extract:');
-  const candidates = prefilter(fresh, log, audit);
+  const sink = { nonFbs: [] };
+  const candidates = prefilter(fresh, log, audit, sink);
+  for (const p of sink.nonFbs) observeNonFbs(staff, p, KNOWN_ACCOUNTS, p.createdAt);
 
   const verdicts = new Map();
   log('  extraction: deterministic rules + target attribution');
@@ -526,10 +546,20 @@ async function main() {
       const reason = rulesOnlyRejectionReason(p);
       auditReject(audit, 'extraction', reason, p);
       decisions.set(p.id, { postId: p.id, at: now(), status: 'rejected', reason });
+      const probe = resolveOfferTarget(p, affiliations);
+      if (NON_FBS_REASONS.has(probe.reason)) observeNonFbs(staff, p, KNOWN_ACCOUNTS, p.createdAt);
     }
     const made = [];
     for (const rec of recs) {
       const target = resolveOfferTarget(p, affiliations);
+      if (NON_FBS_REASONS.has(target.reason)) observeNonFbs(staff, p, KNOWN_ACCOUNTS, p.createdAt);
+      if (target.status === 'accepted' && target.evidence?.schoolEvidenceType !== 'official_school_tag') {
+        const veto = staffVeto(staff, p, target.schoolId, KNOWN_ACCOUNTS) || bioVeto(bios, p, target.schoolId, KNOWN_ACCOUNTS);
+        if (veto) {
+          decisions.set(p.id, { postId: p.id, at: now(), status: 'rejected', reason: 'tagged_staff_of_non_fbs_program', evidence: { ...target.evidence, taggedStaff: veto } });
+          rejected++; auditReject(audit, 'extraction', 'tagged_staff_of_non_fbs_program', p); continue;
+        }
+      }
       if (target.status !== 'accepted') {
         const expiresAt = new Date(Date.now() + 14 * 864e5).toISOString();
         if (target.status === 'pending') pending.candidates[p.id] = { postId: p.id, postPath: `raw/${new Date(p.createdAt).toISOString().slice(0, 10)}.ndjson`, createdAt: p.createdAt, updatedAt: now(), expiresAt, reason: target.reason, evidence: target.evidence };
@@ -542,6 +572,7 @@ async function main() {
       const o = upsert(db, rec, p, c);
       if (o) {
         accepted++; audit.extraction.accepted++; made.push(rec);
+        if (target.reason === 'official_school_tag' || target.reason === 'full_school_name') observeFbs(staff, p, target.schoolId, KNOWN_ACCOUNTS, p.createdAt);
         decisions.set(p.id, { postId: p.id, at: now(), status: 'accepted', reason: target.reason, evidence: target.evidence });
       } else {
         rejected++; auditReject(audit, 'extraction', 'invalid_or_incomplete_offer_record', p);
@@ -551,6 +582,18 @@ async function main() {
   }
 
   db._index = indexPlayers(db.players);
+
+  try {
+    const swept = pruneOffers(db.offers, staff, KNOWN_ACCOUNTS, bios, bioVeto);
+    if (swept.removed.length) {
+      db.offers = swept.kept;
+      db.newOffers = db.newOffers.filter((o) => !swept.removed.includes(o));
+      log(`  offers removed (tagged coach belongs to a non-FBS program): ${swept.removed.map((o) => `${o.playerName} / ${o.schoolName}`).join(', ')}`);
+    }
+    pruneStaff(staff);
+  } catch (e) {
+    log(`  staff check: skipped (${e.message})`);
+  }
 
   const cdb = newCommitDb(readJson('commits.json', []));
   let commitsOk = false;
@@ -568,7 +611,7 @@ async function main() {
   db._index = indexPlayers(db.players);
 
   try {
-    const posChanges = settlePositions(db.offers, db.players, KNOWN_ACCOUNTS);
+    const posChanges = settlePositions(db.offers, db.players, KNOWN_ACCOUNTS, bios);
     if (posChanges.length) log(`  positions: ${posChanges.length} corrected (${posChanges.filter((c) => c.by === 'coach').length} from tagged coaches): ${posChanges.slice(0, 4).map((c) => `${c.name} ${c.from ?? '-'}>${c.to ?? '-'}`).join(', ')}`);
   } catch (e) {
     log(`  positions: skipped (${e.message})`);
@@ -578,6 +621,7 @@ async function main() {
   for (const p of db.players) {
     const st = playerStats.get(p.id);
     if (st) p.offerCounts = { total: st.total, p4: st.p4, g5: st.g5 };
+    else if (p.offerCounts) delete p.offerCounts;
   }
   log(`  tiers: ${playerStats.size} players tracked`);
 
@@ -599,6 +643,8 @@ async function main() {
   writeJson('watchlist.json', wl);
   writeJson('affiliations.json', affiliations);
   writeJson('pending.json', pending);
+  writeJson('staff.json', staff);
+  writeJson('coachbios.json', bios);
   if (db.review.length) appendNdjson('review.ndjson', db.review);
   if (commitsOk) {
     writeJson('commits.json', cdb.events);
@@ -650,6 +696,8 @@ async function main() {
     llm: null,
     decisionCoverage: { total: fresh.length, decided: decisions.size, complete: decisions.size === fresh.length },
     pending: { total: Object.keys(pending.candidates).length },
+    staff: { handles: Object.keys(staff.handles).length },
+    coachBios: { cached: Object.keys(bios.handles).length, wanted: wantedBios.length },
     commits: commitsOk ? { total: cdb.events.length, newThisRun: cdb.newEvents.length, candidates: commitStats.candidates, accepted: commitStats.accepted } : null,
     profileResolution: { cached: Object.keys(affiliations.accounts || {}).length },
     paginationBacklog: Object.values(state.watermarks || {}).filter((m) => m.window).length,

@@ -1,5 +1,6 @@
 import { HANDLES } from './schools.js';
 import { bioPositions } from './players.js';
+import { NOISE_HANDLE } from './staff.js';
 
 export const GROUP = {
   QB: 'QB', RB: 'RB', FB: 'RB', WR: 'WR', TE: 'TE',
@@ -19,7 +20,6 @@ const FINE = {
   DT: 'DT', DE: 'EDGE', EDGE: 'EDGE', CB: 'CB', S: 'S', SAF: 'S',
 };
 
-const NOISE_HANDLE = /(recruit|scout|report|sports|247|rivals|on3|espn|media|network|nation|camp|prep|insider|365|highschool|hs$|academy|official|nfl|cfb|news|profootball|hudl|maxpreps|nike|adidas)/i;
 
 const MIN_PLAYERS = 3;
 const MIN_SHARE = 0.8;
@@ -93,7 +93,7 @@ function fillPosition(group, fine) {
   return FILL_DEFAULT[group];
 }
 
-export function coachVotes(index, player, offers) {
+export function coachVotes(index, player, offers, bios = null) {
   const seen = new Set();
   const votes = new Map();
   const schools = new Map();
@@ -104,9 +104,12 @@ export function coachVotes(index, player, offers) {
         const key = `${h}::${o.schoolId}`;
         if (seen.has(key) || h === player.handle) continue;
         seen.add(key);
-        const role = coachRole(index, h, o.schoolId, player.id);
+        const b = bios?.handles?.[h];
+        const role = b && !b.miss && b.group && b.school === o.schoolId
+          ? { group: b.group, fine: null, weight: 2 }
+          : coachRole(index, h, o.schoolId, player.id);
         if (!role) continue;
-        votes.set(role.group, (votes.get(role.group) || 0) + 1);
+        votes.set(role.group, (votes.get(role.group) || 0) + (role.weight || 1));
         if (!schools.has(role.group)) schools.set(role.group, new Set());
         schools.get(role.group).add(o.schoolId);
         if (role.fine) fines.set(`${role.group}:${role.fine}`, (fines.get(`${role.group}:${role.fine}`) || 0) + 1);
@@ -136,7 +139,7 @@ export function settlePosition(player, votes) {
   return { position: base, by: null };
 }
 
-export function settlePositions(offers, players, known = new Set()) {
+export function settlePositions(offers, players, known = new Set(), bios = null) {
   const index = buildCoachIndex(offers, players, known);
   const offersBy = new Map();
   for (const o of offers) {
@@ -147,7 +150,7 @@ export function settlePositions(offers, players, known = new Set()) {
   for (const p of players) {
     const mine = offersBy.get(p.id);
     if (!mine) continue;
-    const votes = coachVotes(index, p, mine);
+    const votes = coachVotes(index, p, mine, bios);
     const { position, by } = settlePosition(p, votes);
     if (by) p.positionBy = by; else delete p.positionBy;
     if ((position ?? null) !== (p.position ?? null)) {
