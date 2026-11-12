@@ -3,12 +3,15 @@ import path from 'node:path';
 import { readJson, writeJson, appendNdjson, readNdjson, sha1, decodeEntities, DATA, CONFIG } from './lib/store.js';
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
-import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress } from './collect/queries.js';
+import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress, commitJobsDue } from './collect/queries.js';
+import { commitCandidate, newCommitDb, processCommits, buildCommitView } from './commits.js';
+import { settlePositions } from './resolve/coaches.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear, parseRoundup } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS, explicitNonFbsOfferTarget } from './resolve/schools.js';
 import { decorateOffers } from './resolve/tiers.js';
 import { resolveOfferTarget, seedDisplayAffiliations } from './resolve/attribution.js';
 import { indexPlayers, resolve as resolvePlayer, mergeInto, nameKey, fuzzyKey, parseBio, looksLikeRecruit, cleanPersonName } from './resolve/players.js';
+import { ensurePlayer, schoolOnlyFromPlayerName } from './resolve/ledger.js';
 import * as watch from './watchlist.js';
 
 const now = () => new Date().toISOString();
@@ -61,7 +64,26 @@ async function collect(state, log, audit) {
   const accounts = cfg('accounts.json');
   const seen = new Set(state.seenPostIds || []);
   const fresh = [];
+  const seenCommit = new Set(state.seenCommitPostIds || []);
+  const commitFresh = [];
   const health = (state.health ??= {});
+
+  const pushCommit = (posts, srcKey) => {
+    let added = 0;
+    for (const p of posts) {
+      if (!p.id || seenCommit.has(p.id)) continue;
+      const created = new Date(p.createdAt).getTime();
+      if (!Number.isFinite(created)) continue;
+      const age = (Date.now() - created) / 36e5;
+      if (age > RECENCY_HOURS || age < -2) continue;
+      if (!commitCandidate(p)) continue;
+      seenCommit.add(p.id);
+      commitFresh.push(p);
+      added++;
+    }
+    if (srcKey) health[srcKey] = { at: now(), got: posts.length, new: added, lag: posts.length ? +lagHours(posts).toFixed(2) : null };
+    return added;
+  };
 
   const push = (posts, srcKey) => {
     let added = 0;
@@ -88,6 +110,7 @@ async function collect(state, log, audit) {
       fresh.push(p);
       added++;
       stats.kept++;
+      if (srcKey !== 'search:commit') pushCommit([p], null);
     }
     health[srcKey] = { at: now(), got: posts.length, new: added, lag: posts.length ? +lagHours(posts).toFixed(2) : null };
     return added;
@@ -108,7 +131,9 @@ async function collect(state, log, audit) {
     const historicalPlan = (days ? backfillJobs(days, backfillAnchorDate(state)) : [])
       .filter((job) => !backfillSchools.size || backfillSchools.has(job.schoolId));
     const historical = historicalPlan.filter((job) => !state.watermarks?.[job.key]?.completed);
-    const jobs = mode === 'backfill' ? historical : [...allJobs(), ...historical];
+    const commitDue = mode === 'backfill' ? [] : commitJobsDue(state);
+    const jobs = mode === 'backfill' ? historical : [...allJobs(), ...commitDue, ...historical];
+    if (commitDue.length) log(`  commits: ${commitDue.length} school searches due`);
     if (days) log(`  backfill: ${historical.length}/${historicalPlan.length} school-windows remaining`);
     const res = await sweep(jobs, state, { log });
     audit.search = {
@@ -147,17 +172,23 @@ async function collect(state, log, audit) {
       if (res.expired) log('  !! The session cookies have expired. Refresh X_AUTH_TOKEN / X_CT0.');
       state.searchConfigured = false;
     } else {
-      const n = push(res.posts, 'search');
-      log(`  search: ${n} new posts kept (of ${res.posts.length} returned)`);
+      const offerPosts = res.posts.filter((p) => p.searchKind !== 'commit');
+      const commitPosts = res.posts.filter((p) => p.searchKind === 'commit');
+      const n = push(offerPosts, 'search');
+      log(`  search: ${n} new posts kept (of ${offerPosts.length} returned)`);
+      if (res.sweptByKind?.commit) {
+        const cn = pushCommit(commitPosts, 'search:commit');
+        log(`  commits: ${res.sweptByKind.commit} school searches swept, ${commitPosts.length} posts returned, ${cn} new candidates`);
+      }
       state.searchConfigured = true;
       state.blockedRuns = 0;
       state.searchBlocked = false;
       const liveJobs = allJobs().length;
       const liveSwept = Object.entries(res.sweptByKind || {})
-        .filter(([kind]) => kind !== 'backfill')
+        .filter(([kind]) => kind !== 'backfill' && kind !== 'commit')
         .reduce((sum, [, count]) => sum + count, 0);
       const liveRequests = Object.entries(res.requestsByKind || {})
-        .filter(([kind]) => kind !== 'backfill')
+        .filter(([kind]) => kind !== 'backfill' && kind !== 'commit')
         .reduce((sum, [, count]) => sum + count, 0);
       const historySwept = res.sweptByKind?.backfill || 0;
       const historyRequests = res.requestsByKind?.backfill || 0;
@@ -224,7 +255,8 @@ async function collect(state, log, audit) {
   state.frozenProfiles = frozen;
 
   state.seenPostIds = [...seen].slice(-60000);
-  return fresh;
+  state.seenCommitPostIds = [...seenCommit].slice(-40000);
+  return { fresh, commitFresh };
 }
 
 export function prefilter(posts, log = () => {}, audit = null) {
@@ -373,67 +405,13 @@ export function rulesOnlyOffers(p) {
 
 function offerKey(playerId, schoolId) { return `${playerId}::${schoolId}`; }
 
-function schoolOnlyFromPlayerName(rec, post) {
-  const name = String(rec.player_name || '');
-  if (!name || !findSchools(name).some((s) => s.id === rec.school_id)) return false;
-  const text = decodeEntities([post.text, post.extra].filter(Boolean).join(' '));
-  const words = name.split(/\s+/).filter(Boolean).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-  if (words.length < 2) return false;
-  const stripped = text.replace(new RegExp(`\\b${words.join('\\s+')}\\b`, 'gi'), ' ');
-  return !findSchools(stripped).some((s) => s.id === rec.school_id);
-}
-
 export function upsert(db, rec, post, verdictConfidence, observedAt = now()) {
   const school = byId.get(rec.school_id);
   if (!school) return null;
   if (schoolOnlyFromPlayerName(rec, post)) return null;
 
-  const incoming = {
-    name: rec.player_name,
-    bio: post.authorBio && rec.player_handle && post.author === String(rec.player_handle).toLowerCase()
-      ? post.authorBio : null,
-    handle: rec.player_handle ? String(rec.player_handle).toLowerCase().replace(/^@/, '') : null,
-    classYear: rec.class_year ?? null,
-    position: rec.position ?? null,
-    highSchool: rec.high_school ?? null,
-    state: rec.state ?? null,
-  };
-  if (!incoming.name || incoming.classYear == null) return null;
-  if (incoming.name && !nameKey(incoming.name)) return null;
-
-  if (incoming.bio) {
-    const b = parseBio(incoming.bio);
-    for (const f of ['classYear', 'position', 'highSchool', 'state', 'height', 'weight']) {
-      if (incoming[f] == null && b[f] != null) incoming[f] = b[f];
-    }
-    for (const f of ['stars', 'gpa', 'forty']) if (b[f] != null) incoming[f] = b[f];
-  }
-
-  let player = null;
-  if (incoming.handle) player = db.players.find((p) => p.handle === incoming.handle) || null;
-  if (!player && incoming.name) {
-    const r = resolvePlayer(db._index, incoming);
-    if (r.ambiguous) db.review.push({ at: observedAt, type: 'ambiguous_player', name: incoming.name, candidates: r.candidates, post: post.id });
-    player = r.player;
-  }
-  if (!player) {
-    const identity = incoming.name || '@' + incoming.handle;
-    player = {
-      id: 'p_' + sha1(identity + '|' + (incoming.classYear ?? '') + '|' + (incoming.handle ?? '')),
-      ...incoming,
-      aliases: incoming.name ? [incoming.name] : [],
-      firstSeen: observedAt,
-    };
-    db.players.push(player);
-    if (incoming.name) db._new.push(player);
-    const fk = fuzzyKey(player.name);
-    if (fk) {
-      if (!db._index.has(fk)) db._index.set(fk, []);
-      db._index.get(fk).push(player);
-    }
-  } else {
-    mergeInto(player, incoming);
-  }
+  const player = ensurePlayer(db, rec, post, observedAt);
+  if (!player) return null;
 
   const key = offerKey(player.id, school.id);
   let offer = db.offerMap.get(key);
@@ -513,9 +491,10 @@ async function main() {
   ]);
 
   log('collect:');
-  const fresh = await collect(state, log, audit);
+  const { fresh, commitFresh } = await collect(state, log, audit);
   log(`  total new posts: ${fresh.length}`);
   appendNdjson(`raw/${new Date().toISOString().slice(0, 10)}.ndjson`, fresh);
+  appendNdjson(`raw/commits-${new Date().toISOString().slice(0, 10)}.ndjson`, commitFresh);
 
   log('extract:');
   const candidates = prefilter(fresh, log, audit);
@@ -573,6 +552,28 @@ async function main() {
 
   db._index = indexPlayers(db.players);
 
+  const cdb = newCommitDb(readJson('commits.json', []));
+  let commitsOk = false;
+  let commitStats = null;
+  try {
+    audit.commits = { samples: [] };
+    commitStats = processCommits(commitFresh, { cdb, db, affiliations, known: KNOWN_ACCOUNTS, observedAt: now(), audit: audit.commits });
+    audit.commits.samples = audit.commits.samples.slice(0, 8);
+    audit.commits.stats = { candidates: commitStats.candidates, accepted: commitStats.accepted, rejected: commitStats.rejected, reasons: commitStats.reasons };
+    commitsOk = true;
+    log(`  commits: ${commitStats.candidates} candidates, ${commitStats.accepted} accepted, ${commitStats.rejected} rejected, ${cdb.newEvents.length} new events (${cdb.events.length} total)`);
+  } catch (e) {
+    log(`  commits: FAILED (${e.message})`);
+  }
+  db._index = indexPlayers(db.players);
+
+  try {
+    const posChanges = settlePositions(db.offers, db.players, KNOWN_ACCOUNTS);
+    if (posChanges.length) log(`  positions: ${posChanges.length} corrected (${posChanges.filter((c) => c.by === 'coach').length} from tagged coaches): ${posChanges.slice(0, 4).map((c) => `${c.name} ${c.from ?? '-'}>${c.to ?? '-'}`).join(', ')}`);
+  } catch (e) {
+    log(`  positions: skipped (${e.message})`);
+  }
+
   const playerStats = decorateOffers(db.offers);
   for (const p of db.players) {
     const st = playerStats.get(p.id);
@@ -599,6 +600,10 @@ async function main() {
   writeJson('affiliations.json', affiliations);
   writeJson('pending.json', pending);
   if (db.review.length) appendNdjson('review.ndjson', db.review);
+  if (commitsOk) {
+    writeJson('commits.json', cdb.events);
+    writeJson('site/commits.json', buildCommitView(cdb, db));
+  }
 
   const playerById = new Map(db.players.map((p) => [p.id, p]));
   const recent = db.offers.slice(0, 10000).map((offer) => {
@@ -609,6 +614,7 @@ async function main() {
       playerHandle: player.handle || null,
       classYear: player.classYear ?? null,
       position: player.position ?? null,
+      positionBy: player.positionBy ?? null,
       highSchool: player.highSchool ?? null,
       state: player.state ?? null,
     };
@@ -644,6 +650,7 @@ async function main() {
     llm: null,
     decisionCoverage: { total: fresh.length, decided: decisions.size, complete: decisions.size === fresh.length },
     pending: { total: Object.keys(pending.candidates).length },
+    commits: commitsOk ? { total: cdb.events.length, newThisRun: cdb.newEvents.length, candidates: commitStats.candidates, accepted: commitStats.accepted } : null,
     profileResolution: { cached: Object.keys(affiliations.accounts || {}).length },
     paginationBacklog: Object.values(state.watermarks || {}).filter((m) => m.window).length,
     frozenProfiles: state.frozenProfiles || [],

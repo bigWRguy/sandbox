@@ -68,6 +68,40 @@ export function classJobs(now = new Date()) {
   }));
 }
 
+const COMMIT_TERMS = '(committed OR commits OR commitment OR decommit OR decommitted OR decommits OR "de-commit" OR "de-committed" OR flipped OR flips OR pledged OR "reopening his recruitment" OR "reopening my recruitment")';
+const COMMIT_CONTEXT = '(football OR recruiting OR recruit OR 2027 OR 2028 OR 2029 OR 2030 OR 2031)';
+const COMMIT_EXCLUDE = '-filter:retweets -"transfer portal" -portal -"walk-on" -"offer list"';
+const COMMIT_LOOKBACK_MS = 90 * 3600e3;
+
+export function commitJobs() {
+  return SCHOOLS.map((s) => {
+    const names = [`"${s.name}"`];
+    if (!AMBIGUOUS_NICKNAMES.has(s.nickname.toLowerCase())) names.push(`"${s.nickname}"`);
+    const alias = (s.aliases || []).find((a) => a.length > 3 && !AMBIGUOUS_NICKNAMES.has(a.toLowerCase()));
+    if (alias) names.push(`"${alias}"`);
+    return {
+      key: `commit:${s.id}`,
+      query: `(@${s.handle} OR ((${names.join(' OR ')}) ${COMMIT_CONTEXT})) ${COMMIT_TERMS} ${COMMIT_EXCLUDE}`,
+      priority: PRIORITY[s.conference] ?? 1,
+      kind: 'commit',
+      schoolId: s.id,
+      lookbackMs: COMMIT_LOOKBACK_MS,
+    };
+  });
+}
+
+export function commitJobsDue(state, nowMs = Date.now(), intervalHours = Number(process.env.OFFERWIRE_COMMIT_INTERVAL_HOURS || 12)) {
+  if (process.env.OFFERWIRE_COMMITS === '0') return [];
+  const marks = state.watermarks || {};
+  const interval = Math.max(1, intervalHours) * 3600e3;
+  return commitJobs().filter((j) => {
+    const m = marks[j.key];
+    if (!m || !m.at) return true;
+    if (m.window && !m.window.completed) return true;
+    return nowMs - new Date(m.at).getTime() >= interval;
+  });
+}
+
 export function allJobs() {
   return [...schoolJobs(), ...phraseJobs(), ...classJobs()];
 }

@@ -30,6 +30,41 @@ export function seedDisplayAffiliations(post, cache, observedAt = new Date().toI
   }
 }
 
+export function resolveCommitTarget(post, signal, cache = { accounts: {} }) {
+  const raw = joinWrappedNames(decodeEntities(signal.clause || ''));
+  const clause = raw.replace(/\s+/g, ' ').trim();
+  const evidence = { targetText: clause.slice(0, 180) };
+  if (!clause) return { status: 'rejected', reason: 'no_target_clause', evidence };
+  if (OTHER_SPORT.test(clause)) return { status: 'rejected', reason: 'other_sport_target', evidence };
+  const scoped = signal.form === 'whole' ? decodeEntities(post.text || '') : clause;
+  const handles = [...new Set([...scoped.matchAll(/@([A-Za-z0-9_]{2,15})/g)].map((x) => x[1].toLowerCase()))];
+  const official = [...new Set(handles.map((h) => HANDLES.get(h)).filter(Boolean))];
+  if (official.length === 1) return { status: 'accepted', schoolId: official[0], reason: 'official_school_tag', evidence: { ...evidence, schoolEvidenceType: 'official_school_tag', affiliationSource: 'fbs_handle' } };
+  if (official.length > 1) return { status: 'rejected', reason: 'conflicting_official_targets', evidence };
+  if (signal.form === 'whole') return { status: 'rejected', reason: 'commit_school_not_tagged', evidence };
+  if (signal.form === 'object' && (explicitNonFbsOfferTarget('offer from ' + clause) || foreignInstitution(clause))) {
+    return { status: 'rejected', reason: 'explicit_non_fbs_target', evidence };
+  }
+  const hits = findSchools(clause.replace(/[@#][A-Za-z0-9_]+/g, ' ')).filter((x) => x.id && x.confidence >= 0.8);
+  const solid = hits.filter((x) => x.confidence >= 0.9);
+  if (solid.length === 1 && hits.length === 1) {
+    const conflict = signal.form === 'object' ? writtenNameConflict(clause, solid[0].id) : null;
+    if (conflict) return { status: 'rejected', reason: 'written_name_not_school', evidence: { targetText: conflict.slice(0, 180) } };
+    return { status: 'accepted', schoolId: solid[0].id, reason: 'full_school_name', evidence: { ...evidence, schoolEvidenceType: 'full_school_name', affiliationSource: solid[0].method } };
+  }
+  if (hits.length === 1 && post.searchedSchoolId && hits[0].id === post.searchedSchoolId) {
+    return { status: 'accepted', schoolId: hits[0].id, reason: 'search_school_match', evidence: { ...evidence, schoolEvidenceType: 'search_school_match', affiliationSource: hits[0].method } };
+  }
+  const ambiguous = findSchools(clause.replace(/[@#][A-Za-z0-9_]+/g, ' ')).filter((x) => !x.id && x.candidates);
+  if (!hits.length && ambiguous.length === 1 && post.searchedSchoolId && ambiguous[0].candidates.includes(post.searchedSchoolId)) {
+    return { status: 'accepted', schoolId: post.searchedSchoolId, reason: 'search_school_match', evidence: { ...evidence, schoolEvidenceType: 'search_school_match', affiliationSource: 'ambiguous_name' } };
+  }
+  const linked = [...new Set(handles.map((h) => cache.accounts?.[h]).filter((a) => a && a.fbsSchoolId && a.expiresAt > new Date().toISOString() && /coach|program/.test(a.affiliationType || '')).map((a) => a.fbsSchoolId))];
+  if (linked.length === 1) return { status: 'accepted', schoolId: linked[0], reason: 'coach_affiliation', evidence: { ...evidence, schoolEvidenceType: 'coach_affiliation', affiliationSource: 'profile_cache' } };
+  if (hits.length > 1) return { status: 'rejected', reason: 'ambiguous_target', evidence };
+  return { status: 'rejected', reason: 'unresolved_commit_target', evidence };
+}
+
 export function resolveOfferTarget(post, cache = { accounts: {} }) {
   const text = joinWrappedNames(decodeEntities(post.text || ''));
   const span = offerSpan(text);

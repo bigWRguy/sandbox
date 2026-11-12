@@ -281,7 +281,7 @@ const withSince = (query, sinceMs) => `${query} since_time:${Math.floor(sinceMs 
 
 export function liveWindowQuery(job, mark, nowMs, overlapMs = 5 * 60e3) {
   const active = mark.window && !mark.window.completed ? mark.window : null;
-  const lowerMs = active ? new Date(active.lower).getTime() : Math.max(0, (mark.at ? new Date(mark.at).getTime() : nowMs - 2 * 3600e3) - overlapMs);
+  const lowerMs = active ? new Date(active.lower).getTime() : Math.max(0, (mark.at ? new Date(mark.at).getTime() : nowMs - (job.lookbackMs ?? 2 * 3600e3)) - overlapMs);
   const upperMs = active ? new Date(active.upper).getTime() : nowMs;
   const untilMs = active?.until_time ? new Date(active.until_time).getTime() : upperMs;
   return { query: `${withSince(job.query, lowerMs)} until_time:${Math.floor(untilMs / 1000)}`, window: { lower: new Date(lowerMs).toISOString(), upper: new Date(upperMs).toISOString(), until_time: new Date(untilMs).toISOString() } };
@@ -295,27 +295,36 @@ export function advanceLiveWindow(mark, window, posts, truncated) {
   mark.at = window.upper; mark.truncated = false; delete mark.window; return true;
 }
 
-export function prioritizeJobs(jobs, marks = {}, backfillShare = 0.25) {
+export function prioritizeJobs(jobs, marks = {}, backfillShare = 0.25, commitShare = 0.2) {
   const byAge = (a, b) => {
     const am = marks[a.key]?.at ? new Date(marks[a.key].at).getTime() : 0;
     const bm = marks[b.key]?.at ? new Date(marks[b.key].at).getTime() : 0;
     if (am !== bm) return am - bm;
     return (b.priority || 0) - (a.priority || 0);
   };
-  const live = jobs.filter((j) => !j.fixedWindow).sort(byAge);
+  const live = jobs.filter((j) => !j.fixedWindow && j.kind !== 'commit').sort(byAge);
   const history = jobs.filter((j) => j.fixedWindow).sort(byAge);
-  if (!history.length) return live;
+  const commits = jobs.filter((j) => j.kind === 'commit' && !j.fixedWindow).sort(byAge);
+  if (!history.length && !commits.length) return live;
 
-  const share = Math.min(0.8, Math.max(0.1, Number(backfillShare || 0.25)));
+  const lanes = [
+    { items: history, share: Math.min(0.8, Math.max(0.1, Number(backfillShare || 0.25))), i: 0, credit: 0 },
+    { items: commits, share: Math.min(0.5, Math.max(0.05, Number(commitShare || 0.2))), i: 0, credit: 0 },
+  ];
   const ordered = [];
-  let li = 0, hi = 0, credit = 0;
-  while (li < live.length || hi < history.length) {
-    credit += share;
-    if (hi < history.length && (credit >= 1 || li >= live.length)) {
-      ordered.push(history[hi++]);
-      credit -= 1;
-    } else if (li < live.length) ordered.push(live[li++]);
-    else ordered.push(history[hi++]);
+  let li = 0;
+  while (li < live.length || lanes.some((l) => l.i < l.items.length)) {
+    let pushed = false;
+    for (const lane of lanes) {
+      if (lane.i >= lane.items.length) continue;
+      lane.credit += lane.share;
+      if (lane.credit >= 1 || li >= live.length) {
+        ordered.push(lane.items[lane.i++]);
+        lane.credit -= 1;
+        pushed = true;
+      }
+    }
+    if (!pushed && li < live.length) ordered.push(live[li++]);
   }
   return ordered;
 }
@@ -332,7 +341,8 @@ export async function sweep(jobs, state, {
   const marks = (state.watermarks ||= {});
   const now = Date.now();
   const backfillShare = Math.min(0.8, Math.max(0.1, Number(process.env.OFFERWIRE_BACKFILL_SHARE || 0.25)));
-  const ordered = prioritizeJobs(jobs, marks, backfillShare);
+  const commitShare = Math.min(0.5, Math.max(0.05, Number(process.env.OFFERWIRE_COMMIT_SHARE || 0.2)));
+  const ordered = prioritizeJobs(jobs, marks, backfillShare, commitShare);
 
   const all = [];
   const errors = [];

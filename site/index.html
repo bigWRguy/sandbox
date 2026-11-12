@@ -80,6 +80,15 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
 .ft{display:flex;justify-content:space-between;padding:10px 0 0;font-size:11px;color:var(--t3);gap:8px}
 .ft kbd{font-family:var(--f-mono);border:1px solid var(--l);border-radius:3px;padding:0 4px;font-size:10px;background:var(--s1)}
 .empty{padding:58px 18px;text-align:center;color:var(--t3);font-size:14px}
+.tabs{display:flex;gap:4px;margin:2px 0 8px}
+.tabs .tab{background:var(--s1);color:var(--t2);border:1px solid var(--l);padding:6px 14px;border-radius:5px;font-size:13px;cursor:pointer;font-family:inherit}
+.tabs .tab:hover{color:var(--t1);border-color:var(--t3)}
+.tabs .tab.on{background:var(--b);color:#000;border-color:var(--b);font-weight:600}
+.row .r-kind{font-size:10px;font-weight:800;padding:1px 6px;border-radius:3px;letter-spacing:.05em;vertical-align:1px}
+.row .r-kind.commit{background:rgba(63,185,80,.14);color:#3fb950;border:1px solid rgba(63,185,80,.45)}
+.row .r-kind.decommit{background:rgba(248,81,73,.14);color:#f85149;border:1px solid rgba(248,81,73,.45)}
+.row .r-flip{font-size:11px;color:var(--a);font-family:var(--f-mono)}
+.row.old .r-outer{opacity:.55}
 </style>
 </head>
 <body>
@@ -91,6 +100,12 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
 
 <div class="alert" id="alert"></div>
 
+<div class="tabs" id="tabs">
+  <button class="tab on" data-v="offers">Offers</button>
+  <button class="tab" data-v="commits">Commitments</button>
+</div>
+
+<div id="view-offers">
 <div class="stats" id="stats"></div>
 
 <div class="fbar">
@@ -115,6 +130,35 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
 <div class="ft">
   <span id="shown"></span>
   <span>Auto-refresh 5m · <kbd>/</kbd> search <kbd>Esc</kbd> clear <kbd>R</kbd> refresh</span>
+</div>
+</div>
+
+<div id="view-commits" style="display:none">
+<div class="stats" id="cstats"></div>
+
+<div class="fbar">
+  <input id="cq" placeholder="Search player, school, handle, high school..." autocomplete="off">
+  <select id="ckind"><option value="">Commits + decommits</option><option value="commit">Commits</option><option value="decommit">Decommits</option></select>
+  <select id="cschool"><option value="">All schools</option></select>
+  <select id="ccls"><option value="">All classes</option></select>
+  <select id="cgrp"><option value="">All groups</option><optgroup label="Side of ball"><option value="OFF">Offense</option><option value="DEF">Defense</option></optgroup><optgroup label="Groups"><option value="SKILL">Skill (QB/RB/WR/TE)</option><option value="QB">QB</option><option value="RB">RB</option><option value="WR">WR</option><option value="TE">TE</option><option value="OL">OL</option><option value="IDL">Interior DL</option><option value="EDGE">Edge</option><option value="LB">LB</option><option value="DB">DB (CB + S)</option><option value="CB">CB</option><option value="S">Safety</option><option value="ATH">ATH</option><option value="ST">K / P / LS</option></optgroup></select>
+  <select id="cpos"><option value="">All positions</option></select>
+  <select id="cconf"><option value="">All conferences</option></select>
+  <label><input type="checkbox" id="ccurrent"> Current only</label>
+  <div class="btns" id="ctbtns">
+    <button class="btn on" data-h="all">All</button>
+    <button class="btn" data-h="168">7d</button>
+    <button class="btn" data-h="24">24h</button>
+    <button class="btn" data-h="6">6h</button>
+  </div>
+</div>
+
+<div class="list-wrap" id="clist"></div>
+
+<div class="ft">
+  <span id="cshown"></span>
+  <span>Auto-refresh 5m · dimmed rows are no longer current</span>
+</div>
 </div>
 
 </div>
@@ -186,7 +230,7 @@ function render(){
     if(firsts)firsts='<span class="sep">&middot;</span>'+firsts;
 
     let metaParts=[];
-    if(o.position)metaParts.push('<span>'+esc(o.position)+'</span>');
+    if(o.position)metaParts.push('<span'+(o.positionBy==='coach'?' title="Position read from the position coaches tagged in the posts"':'')+'>'+esc(o.position)+(o.positionBy==='coach'?'*':'')+'</span>');
     if(isJuco(o))metaParts.push('<span>JUCO</span>');
     if(o.classYear)metaParts.push('<span class="sep">&middot;</span><span>\''+String(o.classYear).slice(-2)+'</span>');
     if(ht)metaParts.push('<span class="sep">&middot;</span><span class="r-htwt">'+esc(ht)+'</span>');
@@ -232,17 +276,103 @@ function updateStatus(){
   alert.textContent=msg||'';
 }
 
+var CDATA=[],cHourFilter='all',cExpandId=null,VIEW='offers';
+
+function cToggle(id){
+  var was=cExpandId;
+  cExpandId=cExpandId===id?null:id;
+  if(was)document.querySelector('#clist .row.expanded')?.classList.remove('expanded');
+  if(cExpandId)document.querySelector('#clist [data-oid="'+cExpandId+'"]')?.classList.add('expanded');
+}
+
+function fillCommitFilters(){
+  fillSelect('ccls',CDATA.map(function(o){return String(o.classYear)}));
+  fillSelect('cpos',CDATA.map(function(o){return o.position}));
+  fillSelect('cconf',CDATA.map(function(o){return o.conference}));
+  var m=new Map();
+  CDATA.forEach(function(o){m.set(o.schoolId,o.schoolName)});
+  var el=$('cschool'),old=el.value;
+  while(el.options.length>1)el.remove(1);
+  Array.from(m.entries()).sort(function(a,b){return a[1].localeCompare(b[1])}).forEach(function(p){
+    var opt=document.createElement('option');opt.value=p[0];opt.textContent=p[1];el.appendChild(opt);
+  });
+  el.value=old;
+}
+
+function renderCommits(){
+  var q=$('cq').value.toLowerCase().trim(),kind=$('ckind').value,cls=$('ccls').value,pos=$('cpos').value;
+  var conf=$('cconf').value,school=$('cschool').value,grp=$('cgrp').value,cur=$('ccurrent').checked;
+  var rows=CDATA;
+  if(cHourFilter!=='all'){
+    var cutoff=Date.now()-parseInt(cHourFilter)*3600000;
+    rows=rows.filter(function(o){return new Date(o.at).getTime()>=cutoff});
+  }
+  if(q)rows=rows.filter(function(o){return [o.playerName,o.playerHandle,o.schoolName,o.flipFromName,o.highSchool,o.state,o.position,o.conference].join(' ').toLowerCase().includes(q)});
+  if(kind)rows=rows.filter(function(o){return o.kind===kind});
+  if(cls)rows=rows.filter(function(o){return String(o.classYear)===cls});
+  if(grp)rows=rows.filter(function(o){return GROUPS[grp].indexOf(o.position)>=0});
+  if(pos)rows=rows.filter(function(o){return o.position===pos});
+  if(conf)rows=rows.filter(function(o){return o.conference===conf});
+  if(school)rows=rows.filter(function(o){return o.schoolId===school});
+  if(cur)rows=rows.filter(function(o){return o.current});
+  rows=rows.slice().sort(function(a,b){return new Date(b.at)-new Date(a.at)});
+
+  var html=rows.slice(0,5000).map(function(o){
+    var ev=o.evidence||[],n=o.corroborations||1,verified=n>1;
+    var p=o.player||{};
+    var ht=htwt(p);
+    var tint=confColors[o.conference]||null;
+    var oid=esc(o.id);
+    var tier=o.tier||null;
+    var isCommit=o.kind==='commit';
+    var metaParts=[];
+    if(o.position)metaParts.push('<span'+(o.positionBy==='coach'?' title="Position read from the position coaches tagged in the posts"':'')+'>'+esc(o.position)+(o.positionBy==='coach'?'*':'')+'</span>');
+    if(o.classYear)metaParts.push('<span class="sep">&middot;</span><span>\''+String(o.classYear).slice(-2)+'</span>');
+    if(ht)metaParts.push('<span class="sep">&middot;</span><span class="r-htwt">'+esc(ht)+'</span>');
+    if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
+    if(o.state)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.state)+'</span>');
+
+    var evItems=ev.map(function(e){var a=e.attribution||{};var badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span>'+badge+'<span>'+esc(e.voice||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
+    var bioLines='';
+    if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
+    if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
+
+    var flip=o.flipFromName?'<span class="r-flip">flip from '+esc(o.flipFromName)+'</span>':'';
+    var kindBadge='<span class="r-kind '+(isCommit?'commit':'decommit')+'">'+(isCommit?'COMMIT':'DECOMMIT')+'</span>';
+    var verb=isCommit?'':'<span class="r-conf">from</span>';
+    return '<div class="row'+((isCommit&&!o.current)?' old':'')+'" data-oid="'+oid+'" onclick="cToggle(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.at)+'">'+ago(o.at)+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+'</span></div><div class="r-sub">'+kindBadge+verb+'<span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span>'+flip+'<span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
+  }).join('');
+
+  $('clist').innerHTML=html||'<div class="empty">'+(CDATA.length?'No commitments match these filters.':'No commitments tracked yet.')+'</div>';
+  $('cshown').textContent='Showing '+Math.min(rows.length,5000)+' of '+CDATA.length+' events';
+  var commits=CDATA.filter(function(o){return o.kind==='commit'}).length;
+  $('cstats').innerHTML='<span><b>'+commits+'</b> commits</span><span><b>'+(CDATA.length-commits)+'</b> decommits</span><span><b>'+new Set(CDATA.map(function(o){return o.playerId})).size+'</b> players</span>';
+}
+
+function setView(v){
+  VIEW=v;
+  $('view-offers').style.display=v==='offers'?'':'none';
+  $('view-commits').style.display=v==='commits'?'':'none';
+  document.querySelectorAll('#tabs .tab').forEach(function(b){b.classList.toggle('on',b.dataset.v===v)});
+  try{history.replaceState(null,'',v==='commits'?'#commits':location.pathname+location.search)}catch(e){}
+}
+
 async function load(){
   try{
     var t=Date.now();
     var results=await Promise.all([
       fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/wire.json?t='+t,{cache:'no-store'}),
-      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/status.json?t='+t,{cache:'no-store'})
+      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/status.json?t='+t,{cache:'no-store'}),
+      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/commits.json?t='+t,{cache:'no-store'}).catch(function(){return null})
     ]);
-    var wr=results[0],sr=results[1];
+    var wr=results[0],sr=results[1],cr=results[2];
     if(!wr.ok)throw new Error('wire '+wr.status);
     var w=await wr.json();
     STATUS=sr.ok?await sr.json():{};
+    CDATA=[];
+    if(cr&&cr.ok){try{var cj=await cr.json();CDATA=(cj.events||[]).filter(function(e){return e.playerName&&e.classYear})}catch(e){}}
+    if(cExpandId&&!CDATA.find(function(e){return e.id===cExpandId}))cExpandId=null;
+    fillCommitFilters();
     DATA=(w.offers||[]).filter(function(o){return o.playerName&&o.classYear});
     if(expandId){
       var still=DATA.find(function(o){return o.id===expandId});
@@ -260,7 +390,7 @@ async function load(){
       var opt=document.createElement('option');opt.value=pair[0];opt.textContent=pair[1];schEl.appendChild(opt);
     });
     schEl.value=schOld;
-    updateStats();updateStatus();render();
+    updateStats();updateStatus();render();renderCommits();
   }catch(e){
     var a=$('alert');
     a.textContent='Could not load data: '+e.message;
@@ -270,6 +400,24 @@ async function load(){
 
 ['q','cls','lvl','grp','pos','conf','corr','school'].forEach(function(id){
   $(id).addEventListener(id==='corr'?'change':'input',function(){expandId=null;render()});
+});
+
+['cq','ckind','cschool','ccls','cgrp','cpos','cconf','ccurrent'].forEach(function(id){
+  $(id).addEventListener(id==='ccurrent'?'change':'input',function(){cExpandId=null;renderCommits()});
+});
+
+$('ctbtns').addEventListener('click',function(e){
+  var btn=e.target.closest('button');
+  if(!btn)return;
+  cHourFilter=btn.dataset.h;
+  document.querySelectorAll('#ctbtns .btn').forEach(function(b){b.classList.toggle('on',b===btn)});
+  cExpandId=null;renderCommits();
+});
+
+$('tabs').addEventListener('click',function(e){
+  var btn=e.target.closest('button');
+  if(!btn)return;
+  setView(btn.dataset.v);
 });
 
 $('tbtns').addEventListener('click',function(e){
@@ -283,11 +431,13 @@ $('tbtns').addEventListener('click',function(e){
 document.addEventListener('keydown',function(e){
   var tag=e.target.tagName;
   if(tag==='INPUT'||tag==='SELECT'||tag==='TEXTAREA')return;
-  if(e.key==='/'){e.preventDefault();$('q').focus();$('q').select()}
+  if(e.key==='/'){e.preventDefault();var sb=VIEW==='commits'?$('cq'):$('q');sb.focus();sb.select()}
+  if(e.key==='Escape'&&VIEW==='commits'){$('cq').value='';$('ckind').value='';$('cschool').value='';$('ccls').value='';$('cgrp').value='';$('cpos').value='';$('cconf').value='';$('ccurrent').checked=false;cHourFilter='all';document.querySelectorAll('#ctbtns .btn').forEach(function(b){b.classList.toggle('on',b.dataset.h==='all')});cExpandId=null;renderCommits();return}
   if(e.key==='Escape'){$('q').value='';$('cls').value='';$('pos').value='';$('grp').value='';$('lvl').value='';$('conf').value='';$('corr').checked=false;$('school').value='';hourFilter='all';document.querySelectorAll('#tbtns .btn').forEach(function(b){b.classList.toggle('on',b.dataset.h==='all')});expandId=null;render()}
   if(e.key==='r'||e.key==='R'){e.preventDefault();load()}
 });
 
+if(location.hash==='#commits')setView('commits');
 load();
 setInterval(load,5*60*1000);
 </script></body></html>

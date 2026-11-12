@@ -96,6 +96,42 @@ export function indexPlayers(players) {
   return idx;
 }
 
+const BIO_POS = 'QB|RB|FB|WR|TE|OT|LT|RT|OG|LG|RG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|FS|SS|S|SAF|ATH|K|P|LS';
+const BIO_WORDED = /\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|o\s*tackle|defensive (?:tackle|end|lineman|back)|d[- ]?end|edge rusher|pass rusher|linebacker|cornerback|free safety|strong safety|safety|long snapper|kicker|punter)\b/gi;
+const BIO_WORD_MAP = { quarterback: 'QB', 'running back': 'RB', 'wide receiver': 'WR', 'tight end': 'TE',
+  'offensive tackle': 'OT', 'offensive guard': 'OG', 'offensive lineman': 'OL', 'o tackle': 'OT',
+  'defensive tackle': 'DT', 'defensive end': 'DE', 'defensive lineman': 'DL',
+  'd-end': 'DE', 'd end': 'DE', 'edge rusher': 'EDGE', 'pass rusher': 'EDGE', 'defensive back': 'DB', linebacker: 'LB', cornerback: 'CB',
+  'free safety': 'S', 'strong safety': 'S', safety: 'S', 'long snapper': 'LS', kicker: 'K', punter: 'P' };
+
+export function bioPositions(text, { legacy = false } = {}) {
+  const t = String(text || '');
+  const labelled = t.match(new RegExp(`\\bPos(?:ition)?\\s*[:\\-]\\s*(${BIO_POS})\\b`, 'i'));
+  if (labelled) {
+    const p = labelled[1].toUpperCase();
+    return [p === 'FS' || p === 'SS' ? 'S' : p];
+  }
+  const worded = [];
+  for (const m of t.matchAll(BIO_WORDED)) {
+    const key = m[1].toLowerCase().replace(/\s+/g, ' ').replace(/^o ?tackle$/, 'o tackle').replace(/^d[- ]?end$/, 'd-end');
+    if (legacy && /rusher/.test(key)) continue;
+    const pos = BIO_WORD_MAP[key];
+    if (pos) worded.push({ pos, at: m.index });
+  }
+  if (legacy && worded.length) return [worded[0].pos];
+  const hits = [...worded];
+  for (const m of t.matchAll(new RegExp(`\\b(${BIO_POS})\\b`, 'gi'))) {
+    const p = m[1].toUpperCase();
+    if (['C', 'S', 'K', 'P'].includes(p) && !new RegExp(`(?:pos(?:ition)?\\s*[:=-]\\s*${p}\\b|\\b${p}\\s*[/|,]\\s*[A-Z]{1,4}\\b|\\b[A-Z]{1,4}\\s*[/|,]\\s*${p}\\b)`, 'i').test(t)) continue;
+    if (p === 'FB' && !/\/\s*FB\b|\bFB\s*\/|\bfullback\b/i.test(t)) continue;
+    if (!legacy && p === 'LB' && m[1] !== 'LB' && /\d[\d.]*\s*$/.test(t.slice(0, m.index))) continue;
+    hits.push({ pos: p === 'FS' || p === 'SS' ? 'S' : p, at: m.index });
+  }
+  hits.sort((a, b) => a.at - b.at);
+  const ordered = [...new Set(hits.map((h) => h.pos))];
+  return [...ordered.filter((p) => p !== 'ATH'), ...ordered.filter((p) => p === 'ATH')];
+}
+
 export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
   if (!bio) return {};
   const out = {};
@@ -117,27 +153,8 @@ export function parseBio(bio, nowYear = new Date().getUTCFullYear()) {
   else if (shortYear >= nowYear - 1 && shortYear <= nowYear + 7) out.classYear = shortYear;
   else if (full.length) out.classYear = Math.min(...full);
 
-  const POS = 'QB|RB|FB|WR|TE|OT|LT|RT|OG|LG|RG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|FS|SS|S|SAF|ATH|K|P|LS';
-  const labelled = t.match(new RegExp(`\\bPos(?:ition)?\\s*[:\\-]\\s*(${POS})\\b`, 'i'));
-  const worded = t.match(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|o\s*tackle|defensive (?:tackle|end|lineman|back)|d[- ]?end|linebacker|cornerback|free safety|strong safety|safety|long snapper|kicker|punter)\b/i);
-  const wordMap = { quarterback: 'QB', 'running back': 'RB', 'wide receiver': 'WR', 'tight end': 'TE',
-    'offensive tackle': 'OT', 'offensive guard': 'OG', 'offensive lineman': 'OL', 'o tackle': 'OT',
-    'defensive tackle': 'DT', 'defensive end': 'DE', 'defensive lineman': 'DL',
-    'd-end': 'DE', 'd end': 'DE', 'defensive back': 'DB', linebacker: 'LB', cornerback: 'CB',
-    'free safety': 'S', 'strong safety': 'S', safety: 'S', 'long snapper': 'LS', kicker: 'K', punter: 'P' };
-  if (labelled) {
-    const p = labelled[1].toUpperCase();
-    out.position = p === 'FS' || p === 'SS' ? 'S' : p;
-  } else if (worded) {
-    out.position = wordMap[worded[1].toLowerCase()];
-  } else {
-    const positions = [...new Set([...t.matchAll(new RegExp(`\\b(${POS})\\b`, 'gi'))].map((m) => m[1].toUpperCase()))]
-      .filter((p) => !['C', 'S', 'K', 'P'].includes(p) || new RegExp(`(?:pos(?:ition)?\\s*[:=-]\\s*${p}\\b|\\b${p}\\s*[/|,]\\s*[A-Z]{1,4}\\b|\\b[A-Z]{1,4}\\s*[/|,]\\s*${p}\\b)`, 'i').test(t))
-      .sort((a, b) => Number(a === 'ATH') - Number(b === 'ATH'))
-      .filter((p) => p !== 'FB' || /\/\s*FB\b|\bFB\s*\/|\bfullback\b/i.test(t))
-      .map((p) => p === 'FS' || p === 'SS' ? 'S' : p);
-    if (positions.length) out.position = positions[0];
-  }
+  const positions = bioPositions(t);
+  if (positions.length) out.position = positions[0];
 
   const ht = t.match(/\b(\d)\s*['\u2018\u2019]\s*(\d{1,2})\b/);
   if (ht) out.height = `${ht[1]}-${ht[2]}`;

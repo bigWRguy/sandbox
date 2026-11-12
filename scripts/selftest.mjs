@@ -8,6 +8,11 @@ import { prioritizeJobs, SearchSession } from '../src/collect/search.js';
 import { dispatchWire } from '../netlify/functions/trigger-wire.mjs';
 import { resolveOfferTarget } from '../src/resolve/attribution.js';
 import { decodeEntities } from '../src/lib/store.js';
+import { bioPositions } from '../src/resolve/players.js';
+import { buildCoachIndex, coachVotes, settlePosition } from '../src/resolve/coaches.js';
+import { extractCommit, newCommitDb, upsertCommit, processCommits } from '../src/commits.js';
+import { commitJobs, commitJobsDue } from '../src/collect/queries.js';
+import { indexPlayers } from '../src/resolve/players.js';
 
 let pass = 0, fail = 0;
 const t = (name, cond, detail = '') => {
@@ -720,6 +725,111 @@ const skippedRecent = await dispatchWire({
   },
 });
 t('Netlify trigger suppresses a recent GitHub run', skippedRecent.runId === 123 && dispatchCalls === 1);
+
+console.log('position from bio order');
+{
+  const edgeTe = "6’7|230lbs| 83 inch Wingspan| C\\O 2027 The Pennington School | 908-386-0432|Edge Rusher/Tight End| Sf/Pf|";
+  t('first-listed bio position wins over a later spelled-out one', JSON.stringify(bioPositions(edgeTe)) === JSON.stringify(['EDGE', 'TE']), JSON.stringify(bioPositions(edgeTe)));
+  t('parseBio takes the first-listed position', parseBio(edgeTe, 2026).position === 'EDGE');
+  t('a weight in lb is not a linebacker', parseBio("6'4 230 lb | WR | C/O 2028", 2026).position === 'WR', JSON.stringify(parseBio("6'4 230 lb | WR | C/O 2028", 2026)));
+  t('uppercase LB after a class year is still a linebacker', parseBio('C/O 2028 LB 6-1 215', 2026).position === 'LB');
+  t('WR/Safety lists WR first', parseBio('5\'11 160 WR/Safety/Track ATH c/o28', 2026).position === 'WR', JSON.stringify(parseBio('5\'11 160 WR/Safety/Track ATH c/o28', 2026)));
+  t('C/O is not a center in post text', findPosition('C/O ‘27 3 star WR Jayden Elder has committed to FIU') === 'WR');
+  t('post text takes the first-listed position', findPosition('2028 Edge Rusher/Tight End Joshua Benka-Coker') === 'EDGE', String(findPosition('2028 Edge Rusher/Tight End Joshua Benka-Coker')));
+}
+
+console.log('position from tagged coaches');
+{
+  const mk = (i, pos, coach, school) => ({
+    player: { id: `p${i}`, name: `Player ${i}`, handle: `player${i}`, position: pos, bio: `C/O 2028 | ${pos} | 6-2 200` },
+    offer: { playerId: `p${i}`, schoolId: school, evidence: [{ author: `player${i}`, text: `Blessed to receive an offer from @School @${coach} @HeadCoachX` }] },
+  });
+  const rows = [mk(1, 'DE', 'CoachDLine', 'ohio-state'), mk(2, 'DT', 'CoachDLine', 'ohio-state'), mk(3, 'EDGE', 'CoachDLine', 'ohio-state'), mk(4, 'DE', 'CoachDLine', 'ohio-state'),
+    mk(5, 'WR', 'CoachDLine2', 'ohio-state'), mk(6, 'CB', 'CoachDLine2', 'ohio-state'), mk(7, 'QB', 'CoachDLine2', 'ohio-state')];
+  const target = { id: 'pt', name: 'Target Kid', handle: 'targetkid', position: 'TE', bio: '6-5 240 TE/DE C/O 2028' };
+  const ath = { id: 'pa', name: 'Athlete Kid', handle: 'athkid', position: 'ATH', bio: '6-1 190 ATH C/O 2028' };
+  const offers = [...rows.map((r) => r.offer),
+    { playerId: 'pt', schoolId: 'ohio-state', evidence: [{ author: 'targetkid', text: 'Blessed to receive an offer @CoachDLine @HeadCoachX' }] },
+    { playerId: 'pa', schoolId: 'ohio-state', evidence: [{ author: 'athkid', text: 'Blessed to receive an offer @CoachDLine @HeadCoachX' }] }];
+  const players = [...rows.map((r) => r.player), target, ath];
+  const index = buildCoachIndex(offers, players, new Set());
+  const vt = coachVotes(index, target, offers.filter((o) => o.playerId === 'pt'));
+  t('a school-concentrated, position-pure handle is read as a DL coach', vt && vt.group === 'DL', JSON.stringify(vt));
+  t('TE/DE bio with a DL coach tag settles on DE', settlePosition(target, vt).position === 'DE', JSON.stringify(settlePosition(target, vt)));
+  const va = coachVotes(index, ath, offers.filter((o) => o.playerId === 'pa'));
+  t('ATH tagging a DL coach is filled from the coach', ['EDGE', 'DL', 'DT'].includes(settlePosition(ath, va).position), JSON.stringify(settlePosition(ath, va)));
+  const head = coachVotes(index, target, [{ playerId: 'pt', schoolId: 'ohio-state', evidence: [{ author: 'targetkid', text: 'offer @HeadCoachX' }] }]);
+  t('a handle with no position history gives no signal', head === null, JSON.stringify(head));
+  t('mixed-position handle is not a position coach', coachVotes(index, target, [{ playerId: 'pt', schoolId: 'ohio-state', evidence: [{ author: 'targetkid', text: 'offer @CoachDLine2' }] }]) === null);
+  t('a clear single bio position is not overridden by one coach tag',
+    settlePosition({ id: 'x', name: 'X Y', position: 'TE', bio: '6-5 240 TE C/O 2028' }, { group: 'DL', count: 1, total: 1, share: 1, schools: 1, fine: null }).position === 'TE');
+}
+
+console.log('commit and decommit extraction');
+{
+  const ctx = () => ({ db: { players: [] }, cdb: newCommitDb([]), affiliations: { accounts: {} }, known: new Set() });
+  const rep = (text, extra = {}) => ({ id: 'c' + Math.random(), author: 'somereporter', authorName: 'Some Reporter', authorBio: 'Recruiting analyst', text, mentions: [], mentioned: [], createdAt: '2026-11-10T12:00:00Z', ...extra });
+  const one = (text, extra) => extractCommit(rep(text, extra), ctx());
+  const a = one('BREAKING: Elite 2028 QB Josiah Boyd has Committed to UCLA, he tells me for @Rivals The 6’3 180 QB from Moreno Valley, CA chose the Bruins over Oregon and Kentucky');
+  t('reporter commit resolves player, class, position and school', a.status === 'accepted' && a.records[0].kind === 'commit' && a.records[0].school_id === 'ucla' && a.records[0].player_name === 'Josiah Boyd' && a.records[0].class_year === 2028 && a.records[0].position === 'QB', JSON.stringify(a));
+  const d = one('🚨BREAKING🚨 2027 LB Jahmiere Daniels-Portis has decommitted from Colorado. https://t.co/x');
+  t('decommit is its own event type', d.status === 'accepted' && d.records[0].kind === 'decommit' && d.records[0].school_id === 'colorado', JSON.stringify(d));
+  const f = one('NEWS: 2027 DL Kavarris Duncan has flipped his commitment from Tulane to Alabama. Was offered by the Crimson Tide yesterday.');
+  t('a flip is a commit to the new school plus a decommit from the old one',
+    f.status === 'accepted' && f.records.some((r) => r.kind === 'commit' && r.school_id === 'alabama' && r.flip_from === 'tulane') && f.records.some((r) => r.kind === 'decommit' && r.school_id === 'tulane'), JSON.stringify(f));
+  const p = extractCommit({ id: 'pv1', author: 'jayvynw', authorName: 'Jayvyn Williams', authorBio: "C/O 2027 | DT | 6'4 290 | Hickory HS", text: 'Blessed to say I’m committed to App State! @AppState_FB', mentions: ['appstate_fb'], mentioned: [{ handle: 'appstate_fb', name: 'App State Football' }], createdAt: '2026-11-10T12:00:00Z' }, ctx());
+  t('player announcement resolves from the tagged program', p.status === 'accepted' && p.voice === 'player' && p.records[0].school_id === 'appalachian-state' && p.records[0].position === 'DT', JSON.stringify(p));
+  const q = (text, extra) => one(text, extra).status;
+  t('a recruit already committed elsewhere is not a new commit', q('Alabama offers 2027 OL John Smith currently committed to Memphis') !== 'accepted');
+  t('"who’s committed to" is a status, not an event', q('The prolific 2027 RB John Smith who’s committed to Utah State has landed a new offer from Utah') !== 'accepted');
+  t('basketball commitments are not football commits', q('NEWS: 4 star Howard Williams has committed to Arizona State. The 6-7 forward is a top-50 recruit in the 2027 class.') !== 'accepted');
+  t('a future commitment is not an event', q('2027 QB Tyler Simmons will commit to Georgia on Friday') !== 'accepted');
+  t('a non-FBS target is rejected', q('2027 WR Saywer Kuypers has committed to Southeastern, choosing the Lions over FBS offers from Kent State and UMass.') !== 'accepted');
+  t('a summer commitment recapped now is stale', q('Per 247Sports, Missouri offered 2027 3-star DL Jason Lewis. The 6-foot-4 Lewis verbally committed to Syracuse football in mid-June.') !== 'accepted');
+  t('transfer portal and JUCO commitments are out of scope', q('BREAKING: 2027 JUCO WR Marlon Fluker has committed to Troy!') !== 'accepted');
+  t('a list of players in one post is not a commit', q('Roswell Hornets 14 players with college offers:\n- 3 star OT committed to Georgia\n- 3 star Edge Jaxon Holly committed to Florida State\n2027 class football') !== 'accepted');
+  const status = extractCommit({ id: 'pv2', author: 'masonm', authorName: 'Mason McClure', authorBio: "C/O 2027 | WR | 6'1 190 | Thompson HS", text: 'I remain COMMITTED to Maryland! @TerpsFootball', mentions: ['terpsfootball'], mentioned: [{ handle: 'terpsfootball', name: 'Maryland Football' }], createdAt: '2026-11-10T12:00:00Z' }, ctx());
+  t('"I remain committed" is not a new commitment', status.status !== 'accepted', JSON.stringify(status));
+  const prog = extractCommit({ id: 'pv3', author: 'kidwr', authorName: 'Kid Wideout', authorBio: "C/O 2027 | WR | 6'1 190 | Thompson HS", text: 'Thank you Coach for the offer from @Alabama_FB. I’m committed to the grind.', mentions: ['alabama_fb'], mentioned: [], createdAt: '2026-11-10T12:00:00Z' }, ctx());
+  t('"committed to the grind" is not a school commitment', prog.status !== 'accepted', JSON.stringify(prog));
+
+  const db = { players: [], review: [], _index: indexPlayers([]), _new: [], offers: [] };
+  const cdb = newCommitDb([]);
+  const posts = [
+    rep('BREAKING: Class of 2027 QB Bo Bryan has Committed to Georgia, he tells me for @Rivals', { id: 'b1', author: 'hayes1' }),
+    rep('Bo Bryan, son of country star Luke Bryan, has committed to Georgia. The three-star QB in the 2027 class picked the Bulldogs.', { id: 'b2', author: 'reporter2', createdAt: '2026-11-10T14:00:00Z' }),
+    rep('Georgia has landed a commitment from 2027 QB Bo Bryan, the son of country music star Luke Bryan.', { id: 'b3', author: 'reporter3', createdAt: '2026-11-10T15:00:00Z' }),
+  ];
+  const st = processCommits(posts, { cdb, db, affiliations: { accounts: {} }, known: new Set(), observedAt: '2026-11-10T16:00:00Z', audit: {} });
+  t('three posts about one commitment make one corroborated event', cdb.events.length === 1 && cdb.events[0].corroborations === 3 && st.accepted === 3, JSON.stringify({ n: cdb.events.length, c: cdb.events[0]?.corroborations, st }));
+  t('the event is dated to the earliest post', cdb.events[0]?.at === '2026-11-10T12:00:00Z', String(cdb.events[0]?.at));
+  const re = rep('BREAKING: Class of 2027 QB Bo Bryan has decommitted from Georgia', { id: 'b4', author: 'hayes1', createdAt: '2026-11-12T12:00:00Z' });
+  processCommits([re], { cdb, db, affiliations: { accounts: {} }, known: new Set(), observedAt: '2026-11-12T13:00:00Z', audit: {} });
+  t('a later decommit is a separate event for the same player', cdb.events.length === 2 && cdb.events.some((e) => e.kind === 'decommit') && db.players.length === 1, JSON.stringify(cdb.events.map((e) => e.kind)));
+}
+
+console.log('commit search jobs');
+{
+  const jobs = commitJobs();
+  t('one commit search per FBS school', jobs.length === SCHOOLS_LIST.length && jobs.every((j) => j.kind === 'commit' && j.schoolId && j.key === `commit:${j.schoolId}`));
+  t('commit queries carry commit terms and a football context', jobs.every((j) => /committed/.test(j.query) && /football/.test(j.query) && /decommit/.test(j.query)));
+  t('commit queries stay a sane length', Math.max(...jobs.map((j) => j.query.length)) < 600);
+  const due0 = commitJobsDue({ watermarks: {} }, Date.parse('2026-11-10T12:00:00Z'));
+  t('every commit search is due on a cold ledger', due0.length === jobs.length);
+  const marks = { 'commit:alabama': { at: '2026-11-10T08:00:00Z' }, 'commit:georgia': { at: '2026-11-09T08:00:00Z' }, 'commit:lsu': { at: '2026-11-10T08:00:00Z', window: { completed: false } } };
+  const due1 = commitJobsDue({ watermarks: marks }, Date.parse('2026-11-10T12:00:00Z'), 12);
+  t('a recently swept commit search waits for its interval', !due1.some((j) => j.schoolId === 'alabama') && due1.some((j) => j.schoolId === 'georgia'));
+  t('an unfinished commit window is never made to wait', due1.some((j) => j.schoolId === 'lsu'));
+  const live = Array.from({ length: 12 }, (_, i) => ({ key: `L${i}`, kind: 'school', priority: 1 }));
+  const com = Array.from({ length: 12 }, (_, i) => ({ key: `C${i}`, kind: 'commit', priority: 1 }));
+  const m = {};
+  for (const c of com) m[c.key] = { at: '2026-11-09T00:00:00Z' };
+  for (const l of live) m[l.key] = { at: '2026-11-10T11:00:00Z' };
+  const order = prioritizeJobs([...com, ...live], m, 0.25, 0.2);
+  const first12 = order.slice(0, 12);
+  t('older commit searches cannot starve the offer searches', first12.filter((j) => j.kind === 'school').length >= 8 && first12.some((j) => j.kind === 'commit'), first12.map((j) => j.key).join(','));
+  t('every job is still scheduled exactly once', order.length === 24 && new Set(order.map((j) => j.key)).size === 24);
+}
 
 console.log(`\n${pass} passed, ${fail} failed`);
 

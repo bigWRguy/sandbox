@@ -89,25 +89,31 @@ export function findPosition(text) {
   const t = (text || '')
     .replace(/https?:\/\/\S+/g, ' ')
     .replace(/@[A-Za-z0-9_]+/g, ' ')
-    .replace(/#\S+/g, ' ');
-  const worded = t.match(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|o\s*tackle|defensive (?:tackle|end|lineman|back)|d[- ]?end|linebacker|cornerback|free safety|strong safety|safety|long snapper|kicker|punter)\b/i);
-  if (worded) {
-    const w = worded[1].toLowerCase().replace(/\s+/g, ' ');
-    if (/quarterback/.test(w)) return 'QB'; if (/running back/.test(w)) return 'RB';
-    if (/wide receiver/.test(w)) return 'WR'; if (/tight end/.test(w)) return 'TE';
-    if (/offensive tackle|o tackle/.test(w)) return 'OT'; if (/offensive guard/.test(w)) return 'OG';
-    if (/offensive lineman/.test(w)) return 'OL'; if (/defensive tackle/.test(w)) return 'DT';
-    if (/defensive end|d-end|d end/.test(w)) return 'DE'; if (/defensive lineman/.test(w)) return 'DL';
-    if (/defensive back/.test(w)) return 'DB'; if (/linebacker/.test(w)) return 'LB';
-    if (/cornerback/.test(w)) return 'CB'; if (/safety/.test(w)) return 'S';
-    if (/long snapper/.test(w)) return 'LS'; if (/kicker/.test(w)) return 'K'; if (/punter/.test(w)) return 'P';
+    .replace(/#\S+/g, ' ')
+    .replace(/\bC\/O\b/gi, ' ');
+  const hits = [];
+  for (const m of t.matchAll(/\b(quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|o\s*tackle|defensive (?:tackle|end|lineman|back)|d[- ]?end|edge rusher|pass rusher|linebacker|cornerback|free safety|strong safety|safety|long snapper|kicker|punter)\b/gi)) {
+    const w = m[1].toLowerCase().replace(/\s+/g, ' ');
+    const pos = /quarterback/.test(w) ? 'QB' : /running back/.test(w) ? 'RB'
+      : /wide receiver/.test(w) ? 'WR' : /tight end/.test(w) ? 'TE'
+      : /offensive tackle|o ?tackle/.test(w) ? 'OT' : /offensive guard/.test(w) ? 'OG'
+      : /offensive lineman/.test(w) ? 'OL' : /defensive tackle/.test(w) ? 'DT'
+      : /defensive end|d[- ]?end/.test(w) ? 'DE' : /defensive lineman/.test(w) ? 'DL'
+      : /edge rusher|pass rusher/.test(w) ? 'EDGE'
+      : /defensive back/.test(w) ? 'DB' : /linebacker/.test(w) ? 'LB'
+      : /cornerback/.test(w) ? 'CB' : /safety/.test(w) ? 'S'
+      : /long snapper/.test(w) ? 'LS' : /kicker/.test(w) ? 'K' : /punter/.test(w) ? 'P' : null;
+    if (pos) hits.push({ pos, at: m.index });
   }
   for (const p of POSITIONS) {
     if (p === 'FB' && !/\/\s*FB\b|\bFB\s*\/|\bfullback\b/i.test(t)) continue;
     if (['C', 'S', 'K', 'P'].includes(p) && !new RegExp(`(?:pos(?:ition)?\\s*[:=-]\\s*${p}\\b|\\b${p}\\s*[/|,]\\s*[A-Z]{1,4}\\b|\\b[A-Z]{1,4}\\s*[/|,]\\s*${p}\\b)`, 'i').test(t)) continue;
-    if (new RegExp(`(?:^|[^A-Z])${p}(?:[^A-Z]|$)`).test(t)) return p;
+    const m = new RegExp(`(?:^|[^A-Z])${p}(?:[^A-Z]|$)`).exec(t);
+    if (m) hits.push({ pos: p, at: m.index + (m[0].startsWith(p) ? 0 : 1) });
   }
-  return null;
+  if (!hits.length) return null;
+  hits.sort((a, b) => a.at - b.at);
+  return (hits.find((h) => h.pos !== 'ATH') || hits[0]).pos;
 }
 
 const STOP_NAME = new Set(['the','a','an','and','of','from','to','by','has','have','is','was','with','after','my','his','her','their','coach','offer','offers','offered','breaking','news','congrats','congratulations','blessed','received','receive','all','glory','god','division','football','star','class','commit','committed','via','per','update','exclusive']);
@@ -157,7 +163,7 @@ export function classify(text) {
   return { kind, prior, negatives: neg, hardNegative: false };
 }
 
-const NEVER_THE_RECRUIT = /(football|athletics|recruit|sports|coach|hs$|highschool|academy|prep|nation|report|media|network|scout|rivals|247|365|on3|espn|team|official|_fb$|fb_|gridiron|allday|elite|camp)/i;
+export const NEVER_THE_RECRUIT = /(football|athletics|recruit|sports|coach|hs$|highschool|academy|prep|nation|report|media|network|scout|rivals|247|365|on3|espn|team|official|_fb$|fb_|gridiron|allday|elite|camp)/i;
 
 export function findTaggedRecruit(post, schools, known) {
   const cands = (post.mentioned || []).filter((m) => {
@@ -181,17 +187,19 @@ const REPORTER_GRAMMARS = [
   new RegExp(String.raw`\b20\d{2}\s+(?:(?:[a-z-]+|\d{1,3}|[A-Z]{1,5}(?:\/[A-Z]{1,5})*)\s+){0,3}` + NAME),
 ];
 
-export function findReportedName(text) {
-  const t = (text || '')
-    .replace(/https?:\/\/\S+/g, ' ')
-    .replace(/@[A-Za-z0-9_]+/g, ' ')
-    .replace(/#\S+/g, ' ')
-    .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}\u{2B50}]/gu, ' ')
-    .replace(/\b\d\s*(?:star|stars|\*)\b/gi, ' ')
-    .replace(/\bNat'?l\b|\bcomposite\b|\bNo\.?\s*\d+\b|\brank(?:ed|ing)?\b/gi, ' ')
-    .replace(/["“”]\s*[\w-]+\s*["“”]/g, ' ')
-    .replace(/\s+/g, ' ');
-  for (const re of REPORTER_GRAMMARS) {
+const prepNameText = (text) => (text || '')
+  .replace(/https?:\/\/\S+/g, ' ')
+  .replace(/@[A-Za-z0-9_]+/g, ' ')
+  .replace(/#\S+/g, ' ')
+  .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}\u{2B50}]/gu, ' ')
+  .replace(/\b\d\s*(?:star|stars|\*)\b/gi, ' ')
+  .replace(/\b\d\s*-\s*stars?\b/gi, ' ')
+  .replace(/\bNat'?l\b|\bcomposite\b|\bNo\.?\s*\d+\b|\brank(?:ed|ing)?\b/gi, ' ')
+  .replace(/["“”]\s*[\w-]+\s*["“”]/g, ' ')
+  .replace(/\s+/g, ' ');
+
+function firstGrammarName(t, grammars) {
+  for (const re of grammars) {
     const m = t.match(re);
     if (!m) continue;
     let name = m[1].replace(/\s+/g, ' ').trim();
@@ -207,6 +215,58 @@ export function findReportedName(text) {
     if (words.length >= 2) return name;
   }
   return null;
+}
+
+export function findReportedName(text) {
+  return firstGrammarName(prepNameText(text), REPORTER_GRAMMARS);
+}
+
+const COMMIT_VERB = String.raw`(?:de-?committed|de-?commits?|committed|commits|committing|flipped|flips|pledged|pledges|verbally\s+committed|announces?\s+(?:his|her)\s+commitment|announced\s+(?:his|her)\s+commitment)`;
+const POS_WORD = String.raw`(?:QB|RB|FB|WR|TE|OT|OG|OL|IOL|DL|DE|DT|EDGE|LB|ILB|OLB|CB|DB|S|SAF|ATH|quarterback|running back|wide receiver|tight end|offensive (?:tackle|guard|lineman)|defensive (?:end|tackle|lineman|back)|linebacker|cornerback|safety|athlete|edge|kicker|punter|long snapper)`;
+const COMMIT_GRAMMARS = [
+  new RegExp(String.raw`\b20\d{2}\s+(?:(?:[A-Za-z'’-]+|\([^)]*\))\s+){0,5}?` + POS_WORD + String.raw`(?:\/[A-Za-z]{1,5})?\s+` + NAME),
+  new RegExp(NAME + String.raw`\s+(?:(?:has|have|just|officially|verbally|now|also)\s+)*` + COMMIT_VERB + String.raw`\b`),
+  new RegExp(NAME + String.raw`,\s+[^.!?]{0,90}?\b(?:has|have|just|officially)\s+(?:verbally\s+)?(?:de-?committed|committed|flipped)\b`),
+  new RegExp(String.raw`(?:commitment|commit|pledge|verbal)\s+from\s+(?:the\s+)?(?:(?:\d{4}|\d{1,3}|[a-z-]+-star|[A-Z]{1,5}(?:\/[A-Z]{1,5})*|[a-z]+)\s+){0,3}` + NAME),
+];
+
+const BAD_NAME_WORD = /^(?:rankings?|radar|industry|recruiting|football|news|report|network|sports|top|nation|national|official|breaking|update|profile|trending|desk|roundup|class|prospect|recruit|commit|commitment|another|recently|newly|four|three|five|two|star)$/i;
+const NAME_SUFFIX = /^(?:Jr|Sr|II|III|IV|V)\.?$/i;
+
+function tidyName(name) {
+  const out = [];
+  for (const raw of String(name || '').split(' ')) {
+    if (!raw) continue;
+    const base = raw.replace(/\.+$/, '');
+    if (out.length && out[out.length - 1].toLowerCase() === base.toLowerCase()) continue;
+    out.push(base);
+    if (raw.endsWith('.') && base.length > 2 && !NAME_SUFFIX.test(raw)) break;
+    if (raw.endsWith('.') && NAME_SUFFIX.test(raw)) break;
+  }
+  while (out.length > 2 && (POSITIONS.includes(out[0]) || /^(?:edge|athlete)$/i.test(out[0]))) out.shift();
+  while (out.length > 2 && BAD_NAME_WORD.test(out[out.length - 1])) out.pop();
+  return out.join(' ');
+}
+
+export function findCommitName(text) {
+  const t = prepNameText(text);
+  for (const re of COMMIT_GRAMMARS) {
+    const found = firstGrammarName(t, [re]);
+    if (!found) continue;
+    const name = tidyName(found);
+    const words = name.split(' ');
+    if (words.length < 2 || words.length > 4) continue;
+    if (words.some((w) => BAD_NAME_WORD.test(w) || POSITIONS.includes(w))) continue;
+    return name;
+  }
+  return null;
+}
+
+export function taggedAsSubject(text, handle) {
+  const h = String(handle || '').replace(/^@/, '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  if (!h) return false;
+  return new RegExp(POS_WORD + String.raw`(?:\/[A-Za-z]{1,5})?\s+@` + h + String.raw`\b`, 'i').test(text)
+    || new RegExp(String.raw`@` + h + String.raw`\s+(?:\([^)]*\)\s*)?(?:(?:has|have|just|officially|verbally|now|also)\s+)*` + COMMIT_VERB + String.raw`\b`, 'i').test(text);
 }
 
 const ROUNDUP_LINE = /^\s*(?:\d(?:\.\d)?\s*(?:[⭐️]|stars?|\*)*\s*)?(20\d{2})\s+((?:[A-Z]{1,5}|Edge)(?:\/(?:[A-Z]{1,5}|Edge))?)\s+([^@\n]+?)\s*(?:@([A-Za-z0-9_]{2,15}))?\s*$/u;
