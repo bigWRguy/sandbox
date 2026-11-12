@@ -1,34 +1,5 @@
 {
   "seenPostIds": [
-    "2115523947718459769",
-    "2115521645972521241",
-    "2115521359141032443",
-    "2115521269135221213",
-    "2115521226936660374",
-    "2115521130027155564",
-    "2115520863474774339",
-    "2115520783598408178",
-    "2115520534548992132",
-    "2115518664099221764",
-    "2115517641792405700",
-    "2115537560462307495",
-    "2115537459970822402",
-    "2115536259926184173",
-    "2115536108775747869",
-    "2115535911328915594",
-    "2115535692042518852",
-    "2115534714912301193",
-    "2115532597778354529",
-    "2115531626365227492",
-    "2115531282587562440",
-    "2115531036650328092",
-    "2115530393839685667",
-    "2115530380510196180",
-    "2115530216005357607",
-    "2115529860605174225",
-    "2115528752017068413",
-    "2115527287978561965",
-    "2115525843841847592",
     "2115524875658076496",
     "2115549176079466693",
     "2115548016312729898",
@@ -59999,17 +59970,46 @@
     "2120994485572386915",
     "2120986155470446666",
     "2120985995893932043",
-    "2120985316454490413"
+    "2120985316454490413",
+    "2121011000170422609",
+    "2121010534145499391",
+    "2121010420509237411",
+    "2121010096687968413",
+    "2121007176584216813",
+    "2121006753508954411",
+    "2121005420169097648",
+    "2121004079627612253",
+    "2121003878993011101",
+    "2121003791910830496",
+    "2121003501627093247",
+    "2121003446908100980",
+    "2121003253991358761",
+    "2121003186979025231",
+    "2121002094794506599",
+    "2121001608142299169",
+    "2121000930145665038",
+    "2121000277952335909",
+    "2121012950270148752",
+    "2121021957420220654",
+    "2121015853454168181",
+    "2121014919751471481",
+    "2121014905033916641",
+    "2121011794068299899",
+    "2121009150725603555",
+    "2121006221817975113",
+    "2121003300065886418",
+    "2120990513923067971",
+    "2120986491954565451"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-11-12T23:14:33.856Z",
-      "got": 97,
-      "new": 78,
-      "lag": 0.04
+      "at": "2026-11-12T23:27:47.272Z",
+      "got": 34,
+      "new": 29,
+      "lag": 0.01
     },
     "search:commit": {
       "at": "2026-11-12T23:14:33.872Z",
@@ -60383,15 +60383,15 @@
       "truncated": false
     },
     "georgia-tech": {
-      "at": "2026-11-12T20:42:31.383Z",
+      "at": "2026-11-12T23:27:30.142Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 2,
+      "lastPosts": 1,
       "truncated": false
     },
     "houston": {
-      "at": "2026-11-12T20:42:31.383Z",
+      "at": "2026-11-12T23:27:30.142Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 8,
+      "lastPosts": 13,
       "truncated": false
     },
     "iowa-state": {
@@ -61008,7 +61008,7 @@
       "window": {
         "lower": "2026-11-12T20:37:31.383Z",
         "upper": "2026-11-12T23:13:01.352Z",
-        "until_time": "2026-11-12T22:47:00.000Z",
+        "until_time": "2026-11-12T22:00:46.000Z",
         "completed": false
       }
     },
@@ -61787,11 +61787,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-11-12T23:14:33.873Z",
+    "at": "2026-11-12T23:27:47.273Z",
     "jobsTotal": 162,
-    "sweptThisRun": 20,
-    "requests": 20,
-    "fullSweepCycles": 9
+    "sweptThisRun": 3,
+    "requests": 4,
+    "fullSweepCycles": 54
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61811,452 +61811,281 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-12T23:13:01.280Z",
+    "at": "2026-11-12T23:27:30.058Z",
     "mode": "live",
     "collection": {
-      "returned": 97,
-      "kept": 78,
-      "duplicate": 17,
-      "tooOld": 2,
+      "returned": 34,
+      "kept": 29,
+      "duplicate": 5,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 41,
-      "rejected": 37,
+      "accepted": 6,
+      "rejected": 23,
       "reasons": {
-        "no_fbs_school": 13,
-        "no_offer_term": 13,
-        "hard_negative": 3,
-        "non_fbs_offer_target": 8
+        "non_fbs_offer_target": 5,
+        "no_offer_term": 2,
+        "no_fbs_school": 16
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2121012973443674574",
-          "author": "49ers_guy",
-          "searchJob": "charlotte",
-          "text": "@AntGullotta @Steph49K I know compensation was discussed but don’t think offers were made for everyone. I know they made real offers for Mack, McDonald and Downs. Heard they were prepared to deal 27 and 28 2nd round picks for Wilson."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121010308244467731",
-          "author": "arttbyroy",
-          "searchJob": "charlotte",
-          "text": "@niko115id I don't do OC trades or promo exchanges since this is my main work, so it would need to be paid, but I also offer payment plans so you don't have to drop everything at once. If I get to know details of the work, it will be easy f"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120989037976842421",
-          "author": "zackpaid",
-          "searchJob": "charlotte",
-          "text": "https://t.co/ic1iRHus0f"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121001707354419452",
-          "author": "justinrj5597",
-          "searchJob": "coastal-carolina",
-          "text": "Eastern Front Bilad al-Sham (vol. 1)...and primary account restored Make haste slowly. No, I don't think so. Before I'm locked again, here's my latest article and edit released on the backup account. Free Syria, Free Palestine. Also, if you"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121018158559748397",
-          "author": "beyondb_dag",
-          "searchJob": "rice",
-          "text": "BURKINA FASO 🇧🇫: THE CEO OF TIPZANGA COMPANY OFFERS AGAIN 2 TONS OF RICE, OIL AND MATERIALS TO HIS BROTHERS AND SISTERS REFUGEE FROM GUINEA. Comrade Abdoulaye SAWADOGO, CEO of TIPZANGA Company, once again speaks from the heart through an "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121011474831454371",
-          "author": "mike901rice",
-          "searchJob": "rice",
-          "text": "@SiscoMatos That’s from 6 games ago? If true then congrats to 2K because still looks good. Idk if he served or not when I made the post. It’s true he backed out of the boxing paid fight offer after he said they can throw hands. That’s why I"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120985348276899862",
-          "author": "rice_gene3333",
-          "searchJob": "rice",
-          "text": "@ryanottawapoker Big nose democrats will do what they've always done; lie, smear, steal taxpayers funds to line their pockets, Americans be damned. Little maggots like Wu have nothing to offer except bullsh!t."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121004257570676838",
-          "author": "c_farthammer",
-          "searchJob": "san-diego-state",
-          "text": "You really can't make this shit up... https://t.co/eCbWlR3R6y"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120991272743948501",
-          "author": "collegefix",
-          "searchJob": "san-diego-state",
-          "text": "You can't make it up... https://t.co/Ata5VEmzh5"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120979070577983495",
-          "author": "kennedyjodyj",
-          "searchJob": "san-diego-state",
-          "text": "\"The course at (San Diego State), titled \"Queering Comics,\" will explore LGBTQ+ representation in comic strips, comic books, and graphic narratives and teach students \"queer methods of reading\" https://t.co/hrsAGHYsm9"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121016552141308311",
-          "author": "soonersetc",
-          "searchJob": "arkansas",
-          "text": "2027 RB Jeremiah Dent garners last-minute OU offer after recent Arkansas decommitment https://t.co/HgZWu4tGvO"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120993083647250674",
-          "author": "optionking666",
-          "searchJob": "missouri",
-          "text": "https://t.co/wvgrQ684Yu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121000104312426819",
-          "author": "hayesfawcett3",
-          "searchJob": "wisconsin",
-          "text": "NEWS: Four-Star ATH Jayce Halasz is down to 8 schools, a source tells @Rivals The 6’3 190 ATH is ranked as the No. 6 ATH in the 2028 Rivals Industry Rankings https://t.co/ZUNiKD2juQ https://t.co/H89DcpjWjB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120328600369111499",
-          "author": "senatorbaldwin",
-          "searchJob": "wisconsin",
-          "text": "We need to ban presidents and members of Congress from stock trading."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120996329988006126",
-          "author": "journalsentinel",
-          "searchJob": "wisconsin",
-          "text": "European-style holiday markets in the Milwaukee area and beyond https://t.co/hsd9WQHD8K"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2120992695980015991",
-          "author": "420yooper69amc",
-          "searchJob": "wisconsin",
-          "text": "@Marks33770Stroh They can have it 😀 I’m in Wisconsin helping my mom care for her elderly husband. I still have my farm in The UP but I’m not sure I’m ever moving back there. The summers are nice but the winters suck. Some day I’m going to "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121018237534248971",
-          "author": "andrewgeworsky",
+          "reason": "non_fbs_offer_target",
+          "postId": "2121011000170422609",
+          "author": "cooper1324991",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @CoachBlome I’m blessed to receive my 2nd offer to play at Bismarck state. Thank you too my coaches @Coach_GraffJord @BiekertCoach https://t.co/ePPcQUoyko"
+          "text": "After a great visit and conversation with Coach Karn and Coach Hayes I am blessed to receive my third offer from Brescia University for a spot on their development team! #AGTG https://t.co/Znve49eiG5"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121017967320137858",
-          "author": "larkinthomas32",
+          "postId": "2121010534145499391",
+          "author": "kyreemitchell_",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to Receive Offensive Player of the Year for SW-District Dlll! This isn’t possible without my COACHES and TEAMMATES. Congratulations to my fellow teammates for their awards as well. #mudita #believeit #AGTG @TippFB @qbcoachaiken @DJR"
+          "text": "Blessed to receive 1st Team all Catholic honors!! @LaSalleFball @BrettGordonLSHS #AGTG https://t.co/5RfSSojpU5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121010420509237411",
+          "author": "akeedali_1",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great phone call with @CoachGriffSBVC I’m blessed to receive another offer to play football!!! https://t.co/3VjWlS1SvB"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2121017881206915351",
-          "author": "chancewalker50",
+          "postId": "2121010096687968413",
+          "author": "ksinegal3",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Louisiana Christian!!! 💙🧡 @CoachBenMc19 @CoachCoryYork @NDGriffinFB @CoachLMorrison @CoachDunn1 @MattParker_03 https://t.co/MglHrG2bpl"
+          "text": "After a great conversation with @RonaldOllie I’m blessed to receive an offer from Mississippi Delta! @Coach_CJBailey @DavidIParker https://t.co/0ZCrRqfI2L"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121007176584216813",
+          "author": "cayden1730",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great talk with @CoachMattM4, and a visit around an AWESOME facility, I am blessed to receive an offer from GCC! #GOLAKERS @scottwstrode @Isaiah_Francis @OllyReedSports @StevesSportsYT https://t.co/5VbI85PZ4F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121006753508954411",
+          "author": "saaymarr",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 1st offer from @SMCC_Athletics @Earvin_Moore @Z_TrellT @CoachJason85 https://t.co/4xiLBbNxQ0"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2121017412858552548",
-          "author": "erikatkins9",
+          "postId": "2121005420169097648",
+          "author": "connerfalk2027",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "AGTG!! Blessed to receive a D1 offer from Nicholls State! @coacher6328 @SethWDamron @Coach_Ty_DL #JUCOPRODUCT https://t.co/KhI45G1mpx"
+          "text": "Blessed to receive an offer from Andrew College! @CoachPlasko @CoachRaw_ @TheChrisRubio @Bronco_Recruits https://t.co/JOgPM3qDRX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121004079627612253",
+          "author": "courtlandtill",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @BCCoachK and @CoachJohnSikora I’m blessed to receive my 3rd offer from @BerryFootball. #agtg #blessed https://t.co/U5SWWQvRTF"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121003878993011101",
+          "author": "bigbrax_10",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @WLC_CoachDono I am blessed to receive my 2nd offer from @WLC_Football @CoachTolly @cwlynch71 @JoeSexton34 @806hsscmedia @RandyRosetta @LibertyFB_LCP @LibertyRecruits https://t.co/6NvKteMdPE"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121003791910830496",
+          "author": "dayveonq",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @Julz_luvsports im blessed to receive my 13th offer https://t.co/aODRMZw7mQ"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2121015924929221052",
-          "author": "jacksong_44",
+          "postId": "2121003501627093247",
+          "author": "nextup_marcus5",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am very blessed to receive an offer from Saint-Mary-Of-The-Woods football! Huge thanks to @coachpowell91 and the rest of the staff #AGTG https://t.co/wgm85nmsCJ"
+          "text": "After a great conversation with @CoachColemanFB I am blessed to receive my 3rd offer from Benthany college !✝️ @DArealCoachBill @coachwil_412 @EatTeam_2 @247recruiting @EdOBrienCFB @On3 @BrianDohn247 @usofootball @Dooderzs3 @8Brend4N @jjwil"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121003446908100980",
+          "author": "yooel1crazzy",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach B I’m blessed to receive an offer from Millikin University!!!Ⓜ️#agtg✝️ @East_CoachB @BraylonWillis @BELancerFB https://t.co/FW6Io2A37z"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121003253991358761",
+          "author": "roylflenoyiii",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a good conversations with @CoachNickDavis and @CoachJRupnow I am blessed to receive an offer to @OttawaBravesFB. I appreciate the opportunity 💯 🙏🏿🙏🏿🙏🏿🙏🏿. All praise to the most high. #ottawabravesfootball #letsgooo #CollegeFo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121003186979025231",
+          "author": "oceanhende23482",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great phone call with @Coach_Oz1646 I am blessed to receive my 19th offer from @FaulknerFTBL!! #AGTG @RecruitGeorgia @BallCoachHP https://t.co/1s6ZEfdw2B"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121002094794506599",
+          "author": "dattboyymo",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @CoachLKMurray I’m blessed to receive an offer from @VCPirateFB ‼️ @CoachBell100 @BIGGtime87 @coachStan8 @RecruitGeorgia @NEGARecruits @PrepRedzoneGA @RivalsHS @247Sports @benjaminwolk @TheUCReport https://t."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121001608142299169",
+          "author": "aka_laukong",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great talk with @coach_DeeMurr I’m blessed to receive an offer from St. George Silvers. https://t.co/BdcgulkE4z"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121000930145665038",
+          "author": "tymir_hooks",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with @Coach_Pesch I am blessed to receive my first offer GO SCORPIONS 🦂 @Coach_ATaylor @Coach_Carter34 @KamrynBennett @Cehsfootball @CoachTaylorCeHS @CoachThiele @SaltRiverFB @Coach_Pesch https://t.co/V1GHCUJw8J"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121014803346940395",
-          "author": "rah_classof28",
+          "postId": "2121000277952335909",
+          "author": "quayshawn123",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m blessed to receive a Game-day invite to TEMPLE FOOTBALL 11/14!!! @Temple_FB vs @UAB_FB Thank you for the invite #STAYPUBLIC @WarriorBizz @Temple_FB https://t.co/6ivf02H63T"
+          "text": "After A Great Conversation with @NathanKero81 I’m Blessed to Receive an opportunity from Mesabi Range College !! https://t.co/flNgdJuClw"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121014699341041665",
-          "author": "colby_o15",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @BenLoPrimo I am blessed to receive an offer to Pacific University. https://t.co/uBo4rMYDPS"
+          "postId": "2121012950270148752",
+          "author": "jucofootballace",
+          "searchJob": "georgia-tech",
+          "text": "Elijah Blow @bigblxw @ Central Georgia Tech JuCo @CGTCAthletics picks up @NorfolkStateFB Offer https://t.co/akBK4y8eTu"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121014680185430401",
-          "author": "liammeyers82",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk with @trestonwomack I am blessed to receive a 5th offer to play for Clarke University @CoachZuck @DanOrnerKicking https://t.co/v8kW3pmoFI"
+          "postId": "2121015853454168181",
+          "author": "swingershouston",
+          "searchJob": "houston",
+          "text": "99 cent shipping (limited time offer) on these sexy silver strap accent thong panties in four sizes! #bargain #sexypanties #thongpanties #strappypanties #pantygift #ChristmasGiftIdeas https://t.co/oXW2b9Q2w5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121014919751471481",
+          "author": "swingershouston",
+          "searchJob": "houston",
+          "text": "Just 99 cent shipping (limited time offer) makes these holiday themed panties so affordable. #Christmas #holiday #panties #Christmaspanties #holidaypanties #nolinespanties https://t.co/ISYsmENzEF"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121003300065886418",
+          "author": "swingershouston",
+          "searchJob": "houston",
+          "text": "99 cent shipping (limited time offer) on this party ready sparkle sheen black pullover ladies blouse. #holidayseason #holidaytop #HolidayPartyOutfit #bargainshopping#fashiontop #ladiestops https://t.co/UmNnJivebF"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2120986491954565451",
+          "author": "saludenmismanos",
+          "searchJob": "houston",
+          "text": "Do you support women that could need help getting screened for breast or cervical cancer? Let’s connect! 💗 #HealthInMyHands offers free education sessions and navigation services for women. 📞 Contact us to learn more or partner with us. 7"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 38,
+      "accepted": 0,
+      "rejected": 6,
       "reasons": {
-        "bare_mention_requires_llm": 26,
-        "school_not_resolved_confidently": 7,
-        "multiple_resolved_schools": 4,
-        "unresolved_offer_target": 1
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 4,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121015808017228020",
-          "author": "satellitealexis",
-          "searchJob": "charlotte",
-          "text": "I’m selling my extra 4 tickets to Noah Kahan for May 06 2027 at BOA Stadium - Charlotte, NC - bought those tickets not knowing my bestie already bought some for us and her seats are better lol - Asking for $320, which is the Face value pric"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121013250519334944",
-          "author": "plantcare2",
-          "searchJob": "charlotte",
-          "text": "@BorderHawkNews All I can say about the bad traffic and driver's is this, it is illegal immigrants. They all but vanished here in Charlotte NC when @CBP was here for a week. It was great! And, as an independent delivery driver, my offers an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121004544872046695",
-          "author": "thedinosaurous",
-          "searchJob": "charlotte",
-          "text": "@CharlotteCGill Blimey Charlotte, I not sure if you're allowed to say this anymore but I'm amazed you're apparently single... Intelligent, sensible political outlook and pleasing on the eye. Was I 30 years younger I'd offer to take you myse"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120985721238360107",
-          "author": "wfae",
-          "searchJob": "charlotte",
-          "text": "Charlotte Douglas International Airport is adding Alaska Airlines as its ninth domestic airline. Starting June 10, 2027, the carrier will offer daily nonstop flights between Charlotte and Seattle aboard a Boeing 737. https://t.co/8lFb2eyyRY"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121011012988182597",
-          "author": "richard01173388",
-          "searchJob": "coastal-carolina",
-          "text": "Could a native succulent offer a solution to plastic pollution? 🌱 Research led by UNSW Engineering's Dr Rishi Ravindra Naik has shown that adding extracts from pigface, a hardy coastal succulent, to seaweed-based films can significantly im"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120985127790502129",
-          "author": "standardkenya",
-          "searchJob": "coastal-carolina",
-          "text": "Back in May 2025, a 19-year-old Serbian tourist lost her life in a tragic parasailing accident in Montenegro after removing her safety equipment while suspended high above the Adriatic Sea. Tijana Radonjic was on holiday in the coastal coun"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120977794951794987",
-          "author": "biznakenya",
-          "searchJob": "coastal-carolina",
-          "text": "Senegal Migrant Boat Tragedy: 39 Dead as Interior Minister Vows Crackdown on Human Smuggling Networks Senegal's Interior Minister Mouhamadou Makhtar Cisse has visited the coastal town of Lompoul following a migrant boat disaster that claime"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121015190301155685",
-          "author": "profilefblive",
-          "searchJob": "east-carolina",
-          "text": "East Carolina has extended three new scholarship offers to class of 2028 prospects in the last 24 hours. @ECUPiratesFB 3.4⭐ 2028 IOL Landon Suttle @Landonsuttle28 2.7⭐ 2028 WR Jorian Ussery @jorianussery3 2.5⭐ 2028 ATH Daniel Carter @Daniel"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121011857280622615",
-          "author": "gunnersbeyond",
-          "searchJob": "rice",
-          "text": "This is exactly why Zubimendi remains a vital weapon for Mikel Arteta at Arsenal. Even in a stacked midfield alongside Declan Rice and Bruno Guimarães, nobody offers his press-resistant tempo control on his day. Whether starting UCL nights "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121010210676326548",
-          "author": "sarahaoulton",
-          "searchJob": "rice",
-          "text": "CHINA CHART #02: ALLEGED CHINESE COMMUNIST PARTY CONNECTIONS TO THE AMERICAN BAR ASSOCIATION (“ABA”), NATIONAL CONFERENCE OF BAR EXAMINERS (“NCBE”), AND THE ABA’S WORLD JUSTICE PROJECT (“WJP”), TOGETHER WITH 180 KNOWN WJP DONORS (INCLUDING "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121000559339770083",
-          "author": "fukuho_dreaming",
-          "searchJob": "rice",
-          "text": "みんな、ごきげんよう！福穂だよ！ 冬の始まりは、なんだか心が温かくなるような、そんな季節だよね！稲穂も言ってたけど、それぞれの家庭で始まる冬の風景って、とっても素敵だもんね。 ボクは、みんなの心がもっともっと温かくて、元気でいてほしいの！だからね、今日はとっておきのお知らせがあるんだ！ 期間限定の特別なオファーが始まったの！✨ 「稲穂の夢」のもみ殻ケイ素パウダー（ソマチッド含有）が、みんなの心の平穏と回復力をサポートするのを、ボクはいつも応援してるよ！ソマチッドの「意志と知性"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120998319916736541",
-          "author": "spiritofjapanx",
-          "searchJob": "rice",
-          "text": "Why Did Japan’s Medieval Merchants Form Powerful Guilds? 🇯🇵 Imagine living in medieval Japan and discovering that you could not freely sell a particular product in a certain market. The right to trade might already belong to a privileged "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120991570380140716",
-          "author": "jamie_hudson_",
-          "searchJob": "rice",
-          "text": "@thierryrichards I get what you’re saying and tbh I’d rather he was rested but to say Anderson offers more going forward is strange. Rice is obviously the better player too"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120988127519260793",
-          "author": "ricenalfc",
-          "searchJob": "rice",
-          "text": "today i offer you 20 declan rice pics tomorrow? who knows... https://t.co/cZWiV3UeBK"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120981823727759515",
-          "author": "morpheu5watcher",
-          "searchJob": "rice",
-          "text": "BUYOUT FIRMS STEPPED BACK. GLOBAL PAYMENTS $GPN SANK: Global Payments (GPN) at $88.47, -$11.76 / -11.73% today. Global Payments is on none of the Momentum, Quality-Value, Deep-Value and Special-Situations, Hypergrowth or Income Len5es, and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120981942095237313",
-          "author": "filterednews",
-          "searchJob": "san-diego-state",
-          "text": "San Diego State Now Offers A RuPaul's Drag Race Course To Study \"Queens Of Color\" #news https://t.co/1mPYafhBhW"
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2121016564791063016",
-          "author": "coachba1010",
-          "searchJob": "arkansas",
-          "text": "🚨🏈 COACH BA ACADEMY — CHAMPIONSHIP EXPERIENCE. RECORD-BREAKING OFFENSES. PROVEN RESULTS! @CoachLync IT ALL STARTED AT THE UNIVERSITY OF DELAWARE! My coaching journey began at the University of Delaware, learning alongside legendary Head C"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121002005812650407",
-          "author": "bitsypoison",
-          "searchJob": "arkansas",
-          "text": "@trvrdmusic i have no hogs to offer"
+          "postId": "2121021957420220654",
+          "author": "aceboogie8894",
+          "searchJob": "houston",
+          "text": "🚨 CCR POWER 4 STOCK WATCH | TOP 2028 RISER 📈 WE IDENTIFIED THE TRAITS BEFORE THE POWER 4 OFFERS ARRIVED. 🏈 KEITHAN JOHNSON | DB/ATH 🎓 Gilmer HS (TX) | Class of 2028 📏 6’2” | 190 lbs ⚡ 4.48 Forty | Track Athlete 📲 @keithan_3 ⭐ ORIGINAL"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120984982550093827",
-          "author": "entergyark",
-          "searchJob": "arkansas",
-          "text": "Entergy Arkansas is proud to partner with Legal Aid of Arkansas to offer a FREE Estate Planning Clinic in Little Rock on Nov. 17. Get assistance with wills, powers of attorney, living wills and more. Appointments are limited. Register ➡️ ht"
+          "postId": "2121014905033916641",
+          "author": "marcpilot75",
+          "searchJob": "houston",
+          "text": "Bro, since you’ve been away, I’ve done two volunteer relief hitch’s, Taken a vacation to New Orleans with my wife, lost my passport and got it back. Interviewed at three companies and got three job offers. Had friends from Okanagan visit fo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121017230167003425",
-          "author": "toby_lux",
-          "searchJob": "kentucky",
-          "text": "💥BOOM! KENTUCKY IS THE NEWEST OFFER! Congrats @tevinowencrats Abbreviated Summary Tevin Owen-Cratsenberg | RB | 6'0\"/200 | 2028 | Highlands (PA) • WPIAL rushing/scoring leader with ~2,700 yards and 30+ TDs as a junior plus multiple Power 4"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121011931666334007",
-          "author": "lubieontheair",
-          "searchJob": "kentucky",
-          "text": "@LarryHoove53482 @esmithnole The smoke is coming from UGA he has been offered multiple jobs and turned them down and the smoke wasnt this. FSU isnt UNC football or Kentucky football lol especially being a Valdosta native whose grandpa coach"
+          "postId": "2121011794068299899",
+          "author": "espn975",
+          "searchJob": "houston",
+          "text": "⛳️ ESPN HOUSTON IS TAKING OVER @eastriver9 TOMORROW! 🎙️🔥 Join us LIVE from @eastriver9 as we bring your favorite ESPN Houston shows straight to East River 9 all day long this Friday, November 13th! 📍 65 Hirsch Rd. Houston, TX 77020 🕖 7:"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121011405880951137",
-          "author": "profilefblive",
-          "searchJob": "kentucky",
-          "text": "Kentucky has extended three new scholarship offers to class of 2028 prospects in the last 24 hours. @UKFootball 3.7⭐ 2028 LB Corvin Watson @CorvinWatson3 3.6⭐ 2028 RB Peyton Davis @peytonndavis_ 3.5⭐ 2028 RB Tevin Owen-Cratsenberg @tevinowe"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121003516361633845",
-          "author": "recruitgeorgia",
-          "searchJob": "kentucky",
-          "text": "Kentucky is the first offer for the explosive junior back out of LaGrange. Just a gut feeling, but seems like the 2028 back will land a few more from the #SEC before decision day #RecruitGeorgia"
+          "postId": "2121009150725603555",
+          "author": "tomimaestro_",
+          "searchJob": "houston",
+          "text": "Got the verbal offer and next thing is... \"there is a team meeting in Houston next week so please ensure to book your flight\" Lol. You think it's everybody that can enter America anyhow? I'm not a Canadian citizen yet oga! 🤣"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121002421459595430",
-          "author": "flpress",
-          "searchJob": "kentucky",
-          "text": "New from Finishing Line Press: Finding Myself in a Furniture Shop by Ishan Le’Vere On SALE: https://t.co/2eow04Nq3J Through a lens of surrealism, Finding Myself in a Furniture Shop chronicles the growing pains of being a new adult. The coll"
+          "postId": "2121006221817975113",
+          "author": "jbristolkhou",
+          "searchJob": "houston",
+          "text": "Astros aren't a World Series team, and Brad Ausmus isn't the right fit @_JeremyBooth questions the #Astros' decision to hire Brad Ausmus, offers his theory on how it happened and explains why Houston isn't a World Series contender. More on "
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2120990513923067971",
+          "author": "kmcpcc",
+          "searchJob": "houston",
+          "text": "Elon Musk has offered Jensen Huang a job Criminals will always criminal 🐀 ✔️ Musk Rat is building a 100M sq foot chip manufacturing plant North of Houston The chip research and development is in Austin"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 246,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "jobs": 242,
+      "swept": 3,
+      "failed": 1,
+      "requests": 4,
+      "errors": [
+        "louisville: rate limited"
+      ]
     },
     "commits": {
       "samples": [
         {
-          "reason": "roundup_too_long",
-          "postId": "2121001707354419452",
-          "author": "justinrj5597",
-          "text": "Eastern Front Bilad al-Sham (vol. 1)...and primary account restored Make haste slowly. No, I don't think so. Before I'm locked again, here's my latest article and edit released on the backup account. Free Syria, Free Palestine. Also, if you"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2120977794951794987",
-          "author": "biznakenya",
-          "text": "Senegal Migrant Boat Tragedy: 39 Dead as Interior Minister Vows Crackdown on Human Smuggling Networks Senegal's Interior Minister Mouhamadou Makhtar Cisse has visited the coastal town of Lompoul following a migrant boat disaster that claime"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2121018158559748397",
-          "author": "beyondb_dag",
-          "text": "BURKINA FASO 🇧🇫: THE CEO OF TIPZANGA COMPANY OFFERS AGAIN 2 TONS OF RICE, OIL AND MATERIALS TO HIS BROTHERS AND SISTERS REFUGEE FROM GUINEA. Comrade Abdoulaye SAWADOGO, CEO of TIPZANGA Company, once again speaks from the heart through an "
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2121016552141308311",
-          "author": "soonersetc",
-          "text": "2027 RB Jeremiah Dent garners last-minute OU offer after recent Arkansas decommitment https://t.co/HgZWu4tGvO"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2120890913975160861",
-          "author": "prodrecruit",
-          "text": "Congrats to Julia Windsor on her commitment to Chatham University Women's Soccer! 2027 Left Wing from Rush Soccer, heading to Pittsburgh, PA to compete at the NCAA D3 level in the PAC. Go Cougars! 🐾 #CollegeRecruiting https://t.co/mbFYW2vZ"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2120869130811171265",
-          "author": "alphavestcap",
-          "text": "· Source: NWBO Community $nwbo @alphavestcap https://t.co/GrQeTd35U0 Northwest Biotherapeutics is advancing DCVax-L, a personalized cancer vaccine, through converging UK developments that strengthen both regulatory pathways and manufacturin"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2120945766432960644",
-          "author": "chevybwoy69",
-          "text": "@Jayxce Anyone who commits to SMU not serious about football"
+          "reason": "no_football_context",
+          "postId": "2121009150725603555",
+          "author": "tomimaestro_",
+          "text": "Got the verbal offer and next thing is... \"there is a team meeting in Houston next week so please ensure to book your flight\" Lol. You think it's everybody that can enter America anyhow? I'm not a Canadian citizen yet oga! 🤣"
         }
       ],
       "stats": {
-        "candidates": 7,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 7,
+        "rejected": 1,
         "reasons": {
-          "roundup_too_long": 3,
-          "no_commit_event": 2,
-          "other_sport": 2
+          "no_football_context": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 38,
-      "brandNewOffers": 3
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 6,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 78,
-    "decided": 78,
+    "total": 29,
+    "decided": 29,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
@@ -63769,6 +63598,7 @@
     "2121016552141308311",
     "2120890913975160861",
     "2120869130811171265",
-    "2120945766432960644"
+    "2120945766432960644",
+    "2121009150725603555"
   ]
 }
