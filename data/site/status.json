@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T10:44:01.229Z",
+  "generatedAt": "2026-11-12T11:14:00.685Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-12T10:44:00.435Z",
+    "at": "2026-11-12T11:14:00.069Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
+    "sweptThisRun": 18,
     "requests": 19,
     "fullSweepCycles": 9
   },
@@ -32,50 +32,58 @@
   },
   "staleSchools": [
     {
-      "id": "georgia-southern",
-      "hours": 2.3
-    },
-    {
-      "id": "georgia-state",
-      "hours": 2.3
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.3
-    },
-    {
-      "id": "jacksonville-state",
-      "hours": 2.3
-    },
-    {
       "id": "northern-illinois",
-      "hours": 2.3
+      "hours": 2.8
     },
     {
-      "id": "uconn",
-      "hours": 2.3
+      "id": "akron",
+      "hours": 2.5
     },
     {
-      "id": "unlv",
-      "hours": 2.3
+      "id": "appalachian-state",
+      "hours": 2.5
     },
     {
-      "id": "utah-state",
-      "hours": 2.3
+      "id": "colorado-state",
+      "hours": 2.5
     },
     {
-      "id": "utep",
-      "hours": 2.3
+      "id": "james-madison",
+      "hours": 2.5
+    },
+    {
+      "id": "kennesaw-state",
+      "hours": 2.5
+    },
+    {
+      "id": "kent-state",
+      "hours": 2.5
+    },
+    {
+      "id": "ohio",
+      "hours": 2.5
+    },
+    {
+      "id": "old-dominion",
+      "hours": 2.5
+    },
+    {
+      "id": "oregon-state",
+      "hours": 2.5
+    },
+    {
+      "id": "utsa",
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0295402777777778,
-    "p95Hours": 2.2781675,
-    "worstHours": 2.2781675
+    "medianHours": 1.2770497222222221,
+    "p95Hours": 2.526378333333333,
+    "worstHours": 2.7780163888888887
   },
   "decisionCoverage": {
-    "total": 21,
-    "decided": 21,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "pending": {
@@ -84,7 +92,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 4,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 4581,
     "incompleteOffers": 0
@@ -92,268 +100,178 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-12T10:44:00.398Z",
-      "got": 29,
-      "new": 21,
-      "lag": 0.14
+      "at": "2026-11-12T11:14:00.047Z",
+      "got": 12,
+      "new": 8,
+      "lag": 0.64
     },
     "search:commit": {
-      "at": "2026-11-12T10:44:00.434Z",
-      "got": 94,
-      "new": 36,
-      "lag": 3.45
+      "at": "2026-11-12T11:14:00.069Z",
+      "got": 52,
+      "new": 19,
+      "lag": 10.51
     }
   },
   "audit": {
-    "at": "2026-11-12T10:42:27.481Z",
+    "at": "2026-11-12T11:12:27.309Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 21,
-      "duplicate": 8,
+      "returned": 12,
+      "kept": 8,
+      "duplicate": 4,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 5,
+      "accepted": 5,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 3,
-        "hard_negative": 1,
-        "no_fbs_school": 1
+        "no_offer_term": 1,
+        "no_fbs_school": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2120461884252102814",
-          "author": "tonybrainy",
-          "searchJob": "wake-forest",
-          "text": "This Yoruba old people no send you at all🤣🤣 https://t.co/e1E2C953u3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120816589368889796",
-          "author": "coolvieofficial",
-          "searchJob": "wake-forest",
-          "text": "https://t.co/ACdnIbePUU"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2120803467643978123",
-          "author": "jayjan011",
-          "searchJob": "wake-forest",
-          "text": "I Asked My Wife for Sex Every Morning Before Work. By Thursday, She Was Avoiding Me. I thought I had discovered the secret to a perfect marriage. Whenever my wife and I made love before she left for work, I felt happier, more relaxed, and u"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120824848335163883",
-          "author": "aenix_io",
-          "searchJob": "class:2026",
-          "text": "Cozystack v1.7.0 is out. – Tenant Kubernetes on Proxmox VE as a KubeVirt alternative – Automated VM import from VMware vSphere – arm64 builds – Backups and TLS across the major databases Read before upgrade! https://t.co/JtolxQznRA"
+          "postId": "2120827924550934987",
+          "author": "logodes2",
+          "searchJob": "minnesota",
+          "text": "Color, logo or idea: what makes a brand unforgettable? 👀 . . . . WhatsApp:https://t.co/0XRNbRLmYN . أعمالنا: https://t.co/cU681oASKW https://t.co/p6pxROrA4N https://t.co/aBTATITv7e https://t.co/v7miPhPL81 https://t.co/awouM5gwe5 https://t."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2120826018675958020",
-          "author": "wmg2027kansai",
-          "searchJob": "class:2027",
-          "text": "📘 WMG Venue Guide｜Competition Venues & Tourist Spots vol.12 In our #WMGVenueGuide series, we showcase competition venues alongside nearby tourist attractions! For vol. 12, we would like to introduce Shiga Prefecture, where the rowing compe"
+          "postId": "2120810705452404896",
+          "author": "fwmalacyafeez",
+          "searchJob": "nebraska",
+          "text": "I HAD AN AFFAIR WITH MY NEIGHBOR, AND HIS WIFE WAS THE BEST FRIEND I EVER HAD My name is Colleen Frasier. I'm 37 and I live in Omaha, Nebraska. I've been trying to figure out how to tell this for a long time, and there's no version where I "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2120820838459166807",
+          "author": "alanclementscom",
+          "searchJob": "air-force",
+          "text": "A Father in Gaza. A Genocide Inquiry. NVIDIA’s AI Chips. Who Answers? A chief executive admits infidelity, and his private life becomes a public reckoning. His company’s processors appear in military systems, including a munition designed t"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 16,
+      "rejected": 5,
       "reasons": {
-        "school_not_resolved_confidently": 12,
         "bare_mention_requires_llm": 2,
-        "multiple_resolved_schools": 2
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120826860716396879",
-          "author": "steverson9terry",
-          "searchJob": "wake-forest",
-          "text": "Far to offer up your own lives on a silver platter. Enough is enough! It's time to wake up! Media, influencers, paid actor's used to implement these things across social media platforms. They abuse our families and hurt our children. If we "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120825560041672918",
-          "author": "bolabalo_",
-          "searchJob": "wake-forest",
-          "text": "Turn by turn politics even if you have nothing to offer. God really help us to wake up someday. Smh"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120825492941263161",
-          "author": "lxdpolymath",
-          "searchJob": "wake-forest",
-          "text": "Today, my home is welcoming something truly beautiful… ❤️🌸 The preparations, the anticipation of hearing bhajans in the early morning, and the thought of welcoming devotees into our home make this day feel especially meaningful. Today, we "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120824346910376415",
-          "author": "azardweb4",
-          "searchJob": "wake-forest",
-          "text": "Smart contracts can contain instructions for operations that should happen when certain conditions are met. However, they do not independently wake up and initiate transactions. An external trigger is often required. WINkLink Automation hel"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2120821024849645792",
+          "author": "drmike73248055",
+          "searchJob": "uconn",
+          "text": "Connecticut’s CSCU System a Political Disaster with Self Inflicted Harm, @GovNedLamont WFSB’s I-Team revealed that the Connecticut State Colleges and Universities (CSCU) system pays a media consulting firm $20,000 per month to monitor WFSB’"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2120816001470124299",
-          "author": "mrdimasta420",
-          "searchJob": "wake-forest",
-          "text": "A bird this small has no business being awake at this hour. And yet. Look at the time. Look at the dark. Every rule that keeps a tiny songbird alive says the same thing at night: be still, be hidden, be nobody. Stay quiet. Stay out of sight"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120815113993064650",
-          "author": "1astro_shivani",
-          "searchJob": "wake-forest",
-          "text": "Ketu Mahadasha, Guru Antardasha - Life-changing. • Teachers, Priests, Astrologers, Professors, Fathers - Karmic test. Remedies For Today- 12 Nov : 1. Wake up and offer water to Sun - Surya is lord of Leo. 2. Chant : ॐ गुरवे नमः + ॐ कें केतव"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120811701985792276",
-          "author": "fiio_official",
-          "searchJob": "wake-forest",
-          "text": "FiiO TRUSTBLU USB DAC & LDAC Bluetooth Receiver is Now Officially Released! High-Resolution Audio with an Independent USB DAC Featuring a built-in independent USB DAC chip, TRUSTBLU supports audio playback up to 96kHz/24bit, helping deliver"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120808499366031476",
-          "author": "veronicapullen",
-          "searchJob": "wake-forest",
-          "text": "Black Friday... You can see it as being about LACK... - I mean, it literally has ‘lack’ in its name! 😂 ❤️ Or, you could view it as an ABUNDANT opportunity. - that’s the way I choose to see it - and coach my clients to approach it. It’s the"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120804279124369488",
-          "author": "iamvictttoria",
-          "searchJob": "wake-forest",
-          "text": "You keep exchanging your soul for a decaying world. You wake up every day with an existential crisis, doing all you can to make sense of your own world, trying to find meaning in your experiences, your ambitions, your relationships and the "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120796195320697241",
-          "author": "great_gichuhi",
-          "searchJob": "wake-forest",
-          "text": "@Winter_Six Russia has resources,technology to offer to recruit more countries into accepting their payment systems. You think anyone is passing up cheap oil, wheat or nuclear power deals while attaching integration into their payment syste"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120793851422261710",
-          "author": "lifemaximised",
-          "searchJob": "wake-forest",
-          "text": "Black Friday is roughly 3 weeks away, and Fable 5.2 is about to do 80% of your prep for you... Here’s every prompt you need to crush Q4 Google Ads: (Bookmark this) First things first: feed it everything Create a Claude Project for your bran"
+          "postId": "2120819597054201987",
+          "author": "tibetan95380",
+          "searchJob": "hawaii",
+          "text": "@elonmusk ...and FAA is through!! CAN'T WAIT!! 🚀🚀 IGW @interstellargw STARSHIP FLIGHT 15: The Federal Aviation Administration has just issued the LAUNCH and RTLS TFR for Friday’s launch & booster catch attempt, as well as Saturday’s ship "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120827884952588630",
-          "author": "zackeiseman",
-          "searchJob": "class:2026",
-          "text": "ICYMI O/N - November 12th, 2026 NVIDIA -6%: US futures fell as Nvidia’s leadership crisis hit the AI trade: Nasdaq 100 contracts lost 1% and S&P 500 futures fell 0.5%. MSCI Asia Pacific down 0.8%, the Hang Seng down 1.3% and Shanghai down 0"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120813317455577351",
-          "author": "jimmyy_yyyy",
-          "searchJob": "class:2026",
-          "text": "bitcoin-cash:native. $4.6B market cap. ~96% of supply already mined. NO.1 WHAT IS Bitcoin Cash is a proof-of-work network that split from Bitcoin in 2017. It prioritizes low-cost onchain payments through larger blocks. BCH is the asset user"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2120817889603150331",
-          "author": "11w",
-          "searchJob": "ohio-state",
-          "text": "Skull Session: Ryan Day won't make excuses for Ohio State's three losses, and the Buckeyes’ club handball team offers Tavien St. Clair a roster spot while he backs up Luke Fahey. https://t.co/W33IYrdSAW"
+          "postId": "2120827215503818928",
+          "author": "neostatsai",
+          "searchJob": "minnesota",
+          "text": "🏒 🇺🇸 NHL — ⭐ MY FINAL CARD 📅 Thursday, November 12, 2026 ⭐ 1. Carolina Hurricanes vs Seattle Kraken — Carolina Hurricanes ML 💵 1.34 / -290 Confidence: High ⭐ 2. Minnesota Wild @ Toronto Maple Leafs — Minnesota Wild ML 💵 1.59 / -170 Co"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2120821953934012899",
-          "author": "mansatesla",
-          "searchJob": "notre-dame",
-          "text": "MARKET UPDATE — THURSDAY, 12 NOVEMBER 2026 On Wednesday, Wall Street almost erased its post-election losses. The S&P 500 rose 1.3%, and Nvidia gained 2.9%. Then, after the closing bell, the Wall Street Journal reported that Nvidia's board w"
+          "postId": "2120811340965335529",
+          "author": "liesorliars",
+          "searchJob": "nebraska",
+          "text": "Jeffrey Epstein offered former senator Bob Kerrey his private jet within hours of Kerrey thanking him for his company in July 2014. Kerrey is a former Democratic senator and governor of Nebraska and a Medal of Honor recipient. He was then a"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2120809727064150116",
-          "author": "waypoint20",
-          "searchJob": "notre-dame",
-          "text": "@PaulGolding Sinn Féin is a Republican party. It does not represent the views of all Irish people. There are Nationalist parties in Ireland to offer opposition. Ironically, Sinn Féin means \"we ourselves\". Mass migration makes a mockery of t"
+          "reason": "multiple_resolved_schools",
+          "postId": "2120827722402595087",
+          "author": "shoppingincn1",
+          "searchJob": "air-force",
+          "text": "An aviation-themed event marking the 77th anniversary of the Chinese People's Liberation Army Air Force recently wrapped up in Changchun. Featuring exhibitions on pilot training and space exploration, along with model aircraft shows, powere"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 327,
-      "swept": 26,
-      "failed": 0,
+      "jobs": 326,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "northern-illinois: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "commits": {
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2120803467643978123",
-          "author": "jayjan011",
-          "text": "I Asked My Wife for Sex Every Morning Before Work. By Thursday, She Was Avoiding Me. I thought I had discovered the secret to a perfect marriage. Whenever my wife and I made love before she left for work, I felt happier, more relaxed, and u"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2120827884952588630",
-          "author": "zackeiseman",
-          "text": "ICYMI O/N - November 12th, 2026 NVIDIA -6%: US futures fell as Nvidia’s leadership crisis hit the AI trade: Nasdaq 100 contracts lost 1% and S&P 500 futures fell 0.5%. MSCI Asia Pacific down 0.8%, the Hang Seng down 1.3% and Shanghai down 0"
-        },
-        {
-          "reason": "list_post",
-          "postId": "2120622601907097848",
-          "author": "lockedonirish",
-          "text": "New Locked On Irish Recapping Notre Dame's major recruiting surge after the Miami weekend with @fbscout_florida! -Irish land 3 commits in '28 -More on the way? -Changing perception of ND under MF -CFP Debate Subscribe⬇️ 🎧: https://t.co/qTH"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2120562982191251859",
-          "author": "ibismediaco",
-          "text": "Three Miami Hurricanes commits have been named finalists for South Florida’s most prestigious football award! 🙌🔥 https://t.co/kppyabgmeg"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2120547277723074864",
-          "author": "irish__empire",
-          "text": "☘️ The Miami win paid off twice. Notre Dame landed three 2028 commits over the weekend — EDGE Asa Burch, RB Zaiden Jernigan, LB Julian Bruno — and the class is now No. 2 nationally. Next up: Miami commit AJ Randle Jr. visits Saturday. https"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2120520334407270620",
-          "author": "revalf1",
-          "text": "The 2027 and 2028 Notre Dame commits before the entrance of the Miami game https://t.co/CRy7UrklNw"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2120516542437654993",
-          "author": "offshoreinsider",
-          "text": "🚨 DAILY BAD BEATS: NBA BACKDOOR IN 12 SECONDS! 48-YARD MACtion HEARTBREAKER! LATE NHL GOAL STEALS A PUCK-LINE WIN! WEDNESDAY, NOVEMBER 11, 2026 | TUESDAY’S BIGGEST BETTING HEARTBREAKERS 🏀 NBA — MIAMI HEAT 115, UTAH JAZZ 109 — THE 12-SECON"
+          "postId": "2120819597054201987",
+          "author": "tibetan95380",
+          "text": "@elonmusk ...and FAA is through!! CAN'T WAIT!! 🚀🚀 IGW @interstellargw STARSHIP FLIGHT 15: The Federal Aviation Administration has just issued the LAUNCH and RTLS TFR for Friday’s launch & booster catch attempt, as well as Saturday’s ship "
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2120392564352102520",
-          "author": "timoassi",
-          "text": "Happy Wednesday all! If you missed the past 24 hours in crypto and stocks, here's your full recap: 🚨 Major Headlines & Market Moves 🚨 - $BTC is trading around $73,654, down about 1.4% in the past 24 hours. - Bitcoin slipped under $73,000 "
+          "postId": "2120820838459166807",
+          "author": "alanclementscom",
+          "text": "A Father in Gaza. A Genocide Inquiry. NVIDIA’s AI Chips. Who Answers? A chief executive admits infidelity, and his private life becomes a public reckoning. His company’s processors appear in military systems, including a munition designed t"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2120324911101055114",
+          "author": "98canesfootball",
+          "text": "4 away from 1k is still crazy to me, I’m just a Guy who wanted to voice his opinion on Miami Hurricanes football. That’s it. Football showed me discipline,honing in anger, emotional maturity, Accountability, teamwork, commitment, work ethic"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2120322081292214613",
+          "author": "venturesintern",
+          "text": "Web3 news — last ~24h ⚖️ Regulation & enforcement - CFTC warns Kalshi of possible charges over improperly notified self-certified contracts; Kalshi calls it a procedural filing error. CFTC is also probing whether Polymarket broke its 2022 s"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2120292159811383471",
+          "author": "diamondaddicts",
+          "text": "Lizzy Yeager, a big time pitcher and bat in the 2027 class, is joining the Army and their 2027 class. She was committed to Miami Ohio but now will be serving her country 🫡 🇺🇸"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2120270051655729391",
+          "author": "lizzyyeager2027",
+          "text": "After unexpected turns, I am beyond blessed to announce my verbal commitment to the United States Military Academy at West Point. Having grown up watching my parents serve our country, I am proud to pursue a future of service in my own way."
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2120291768038195538",
+          "author": "bchaincane",
+          "text": "@SadesCrown @CanesFootball @ZekAyangbile And us alumni and fans are committed to you!"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2120282561801060691",
+          "author": "sadescrown",
+          "text": "Committed, no turning back… Loyal to the 🧡🙌🏾💚#GABOS @CanesFootball @ZekAyangbile https://t.co/YFxAot309F"
         }
       ],
       "stats": {
-        "candidates": 38,
+        "candidates": 21,
         "accepted": 1,
-        "rejected": 37,
+        "rejected": 20,
         "reasons": {
-          "roundup_too_long": 7,
+          "roundup_too_long": 6,
+          "no_commit_event": 5,
+          "juco_or_transfer": 1,
           "other_sport": 3,
-          "list_post": 3,
-          "no_commit_event": 11,
-          "no_football_context": 11,
+          "no_football_context": 3,
           "reporter_missing_player_name": 1,
           "reporter_missing_class_year": 1
         }
@@ -361,11 +279,11 @@
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 16,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-12T10:44:01.231Z"
+    "status rebuilt locally from current store on 2026-11-12T11:14:00.686Z"
   ]
 }
