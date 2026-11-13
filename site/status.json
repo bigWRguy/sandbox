@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:28:46.223Z",
+  "generatedAt": "2026-11-13T11:58:47.381Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-13T11:28:45.596Z",
+    "at": "2026-11-13T11:58:46.571Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
-    "fullSweepCycles": 8
+    "sweptThisRun": 24,
+    "requests": 24,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,11 +30,52 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "middle-tennessee",
+      "hours": 2.3
+    },
+    {
+      "id": "missouri-state",
+      "hours": 2.3
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.3
+    },
+    {
+      "id": "temple",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-state",
+      "hours": 2.3
+    },
+    {
+      "id": "virginia",
+      "hours": 2.3
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.028748611111111,
-    "p95Hours": 2.0101069444444444,
-    "worstHours": 2.0101069444444444
+    "medianHours": 1.023516111111111,
+    "p95Hours": 2.2611258333333333,
+    "worstHours": 2.261126111111111
   },
   "decisionCoverage": {
     "total": 16,
@@ -55,10 +96,10 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-13T11:28:45.595Z",
-      "got": 23,
+      "at": "2026-11-13T11:58:46.571Z",
+      "got": 25,
       "new": 16,
-      "lag": 0.19
+      "lag": 0.2
     },
     "search:commit": {
       "at": "2026-11-13T11:28:45.596Z",
@@ -68,153 +109,154 @@
     }
   },
   "audit": {
-    "at": "2026-11-13T11:27:11.724Z",
+    "at": "2026-11-13T11:57:12.580Z",
     "mode": "live",
     "collection": {
-      "returned": 23,
+      "returned": 25,
       "kept": 16,
-      "duplicate": 6,
-      "tooOld": 1,
+      "duplicate": 9,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 5,
+      "accepted": 8,
+      "rejected": 8,
       "reasons": {
-        "no_fbs_school": 1,
-        "no_offer_term": 4
+        "no_fbs_school": 2,
+        "no_offer_term": 4,
+        "hard_negative": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2121198240255115743",
+          "postId": "2121206209038651830",
           "author": "tresliggon",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG After a great conversation with Coach @GuidoFalbo I’m blessed and grateful to receive my first D1 offer from @VMI_Football @CoachAIngram @JaredBackus1 @conner14hayes @VMIAthletics #KeepingtheFaithandFocus https://t.co/EvgrSkV6I5"
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG After a great conversation with Coach @GuidoFalbo I’m blessed and grateful to receive my first D1 offer from @VMI_Football @CoachAIngram @JaredBackus1 @conner14hayes @VMIAthletics #KeepingtheFaithandFocus https://t.co/KV6nZSfSK2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121205613799653549",
+          "author": "justsomeonerr",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG I am blessed to receive my first offer from @OfficialCCCFL and @wright_woody @CoachFoster16 @AL_Recruiting @HallTechSports1 @BrookwoodFBall https://t.co/bKvDaPRxmk"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121197221253435626",
-          "author": "flyalloverus",
-          "searchJob": "houston",
-          "text": "https://t.co/7YosUCa7ob"
+          "postId": "2121208201286668728",
+          "author": "hotgeeklucy",
+          "searchJob": "miami",
+          "text": "Microsoft outage hits Day 2 Inside the 24 hours the inbox went dark... and why the world’s smartest AI is still chained to a 1990s mail server👇 https://t.co/9LGg2RhB2v"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121192704583614743",
-          "author": "aisstudio",
-          "searchJob": "charlotte",
-          "text": "“Across every age, we search for meaning and answers to life’s unknowns. You are not alone. Even 300 years ago, people shared the same uncertainty, longing and waiting.” — Anna iSet · The Moon 🌙 AI with Soul · Art with Love · Light for Hum"
+          "postId": "2121207319883133352",
+          "author": "bohemianswarm",
+          "searchJob": "miami",
+          "text": "\"The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little.\" — Franklin D. Roosevelt, Second Inaugural Address, January 20, 1937 https://t.co/i"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121204095746773487",
+          "author": "gonter_a6188",
+          "searchJob": "north-carolina",
+          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121203841139912992",
+          "author": "gonter_a6188",
+          "searchJob": "north-carolina",
+          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121184926355636731",
-          "author": "sabrinamilca",
-          "searchJob": "coastal-carolina",
-          "text": "Arabic Trinity Union (GATU) Offshore Hub and the Trilateral Maritime Free Zone Treaty The Gulf Arabic Trinity Union (GATU) Offshore Hub and the understaning of a Trilateral Maritime Free Zone Treaty between Bahrain, the UAE, and Oman. https"
+          "postId": "2120983448995402160",
+          "author": "kalshi_film",
+          "searchJob": "north-carolina",
+          "text": "Margaret Qualley is once again the favorite to be cast as the next Bond girl https://t.co/bSsjm9NTHS"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121197209932689410",
-          "author": "tickeron",
-          "searchJob": "indiana",
-          "text": "$CTVA https://t.co/AxXjtL5L9L"
+          "postId": "2121205505095782533",
+          "author": "althorne_toren",
+          "searchJob": "pittsburgh",
+          "text": "https://t.co/FE9ZGfFFrR"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 8,
       "reasons": {
+        "bare_mention_requires_llm": 4,
         "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 2
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121193716459147330",
+          "author": "semasocial",
+          "searchJob": "purdue",
+          "text": "The Purdue University Summer Undergraduate Research Fellowship (SURF) 2027 offers undergraduate students an exciting opportunity to gain practical. https://t.co/JhUShvtl7T #Business #Kenya"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121206994048516210",
+          "author": "abandnation",
+          "searchJob": "miami",
+          "text": "Myrah Zeigler was 19 years old, a college student from Fort Pierce, and on the night of May 19, 2025, she did everything people are told to do when they are in danger. She found the police. She told them she was scared. She asked them to wa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121204275703431673",
+          "author": "happyclip_",
+          "searchJob": "miami",
+          "text": "Vickie is 27 and weighs 98 pounds. She shoots a speedball up to 18 times a day and stays awake for 48 to 72 hours. She went to a hospital for an infected finger and someone there jabbed her with a dirty needle, did it, and never came back. "
+        },
+        {
           "reason": "multiple_resolved_schools",
-          "postId": "2121200815033454699",
-          "author": "kansaspregame",
-          "searchJob": "kansas",
-          "text": "Longtime Kansas Pregame sponsor The Fieldhouse in Great Bend is hosting a baseball camp starting next week, see details below: The Fieldhouse is excited to offer a 6-WEEK BASEBALL CAMP with Coach Bill Schopp! Coach Schopp is a former profes"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121198813344043267",
-          "author": "reality_slam",
-          "searchJob": "louisville",
-          "text": "‘You Don’t Need To Do That! Louisville Dad Of Nine Offers To Pay For Boy’s Snacks At Walgreens. Then Gets Shot https://t.co/D4nzsy3wvE https://t.co/OFH75FPqUE"
+          "postId": "2121204204760900038",
+          "author": "getchirpsports",
+          "searchJob": "miami",
+          "text": "THE EARLY CHIRP 🐦 The early bird gets the worm. Here's everything from last night. 🏆 Player of the night: Marcus Stokes (MEM), 15/31, 313 YDS, 3 TD, 2 RUSH TD, 9.4 Chirp Rating 🎯 The Sim went 11-5 on last night's games ☕️ TOP OF THE MORN"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121196572423897475",
-          "author": "fandcwestwales",
-          "searchJob": "coastal-carolina",
-          "text": "🏗️ Award-winning architectural vision at Offers in excess of £150,000 Twyn Uchaf offers the opportunity to create a four-bedroom coastal home designed with Rural Office, winners of the RIBA House of the Year 2017. 📩 Request plot details \ud83d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121196454949671219",
-          "author": "maidousa",
-          "searchJob": "rice",
-          "text": "Do you wanna try making onigiri with crunchy nori seaweed like we offer at our restaurant?🍙 You can make it in your own kitchen! We’re fully stocked on Individual Rice Ball Wraps with plastic film to keep the wrapper separated from onigiri"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121189892889661574",
-          "author": "thaitrainguide",
-          "searchJob": "rice",
-          "text": "🚆 TRAIN REVIEW: Special Express No. 43 (Bangkok to Ban Krut) If you’re heading south from Bangkok for a few days by the sea, Special Express No. 43 is one train worth considering. It’s a daytime diesel railcar to Surat Thani, with stops at"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121183627656458395",
-          "author": "deidraj8",
-          "searchJob": "rice",
-          "text": "Sunshine Through the Rain, currently airing on MGTV, is receiving positive feedback for its grounded portrayal of youth, highlighting the struggles that often remain hidden behind the seemingly carefree image of campus life. Rather than fol"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121181751947215030",
-          "author": "bhaskarenglish_",
-          "searchJob": "rice",
-          "text": "On the first day, devotees observe Nahay-Khay by preparing and consuming a special prasad meal comprising unpolished rice, chana dal, pumpkin curry, amla syrup and pakoras. Cleanliness and purity are given special importance throughout the "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121171744694161551",
-          "author": "amna_alsharaf",
-          "searchJob": "rice",
-          "text": "I’m on a mission! For the past three months, I’ve been working on building something that I believe can positively impact the everyday lives of the common Nigerian. Today, I want to introduce you to ANA BITES & REFRESH. @ANABitesRefresh I s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121193447864271270",
-          "author": "the420pace",
-          "searchJob": "illinois",
-          "text": "Partial federal hemp ban in effect, court offers lifeline to Illinois THC beverage makers https://t.co/SxwuMUfkdU"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121184300758434265",
-          "author": "helen__bilous",
-          "searchJob": "indiana",
-          "text": "Payroll, insurance, and benefits can take time away from running a business. 🏢📋 For Indiana employers considering outside support, the list covers 15 PEO providers and what they offer. See the full provider list: https://t.co/LlkJnFKx73 #"
+          "postId": "2121194568570052915",
+          "author": "tuaturtle",
+          "searchJob": "miami",
+          "text": "@Insidethebulpen @Telronx No trade was offered cause when Miami called Detroit to gauge their interest they made it clear there was Zero chance they would trade him"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121195189494763874",
-          "author": "tejaspujare7",
-          "searchJob": "oregon",
-          "text": "@imkevin149 In England, he looked good but Archer just got his better. In Australia, those 2 ducks haunted him n now NZ, where he had a grt start but again the swing n seam on offer made him vulnerable. Work cut out for both Ro n Ko if they"
+          "postId": "2121184362414674128",
+          "author": "ebioweipaper",
+          "searchJob": "miami",
+          "text": "Pablo Escobar doesn’t talk about cocaine. He talks about potatoes. In this tense negotiation, he calmly breaks down market risks, logistics, and profit margins while using everyday language to discuss a multi-million-dollar smuggling operat"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121181596653072564",
+          "author": "freddiesantiag7",
+          "searchJob": "miami",
+          "text": "Start with 1.5 acres, then shape the vision. 🌴 This Miami land on SW sw 32 st offers room for a dream estate, private retreat, or investment opportunity—offered at $190,000. https://t.co/rvVxGUu9pd #MiamiLand #LandForSale https://t.co/DB5i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121191593663500349",
+          "author": "aakashgupta",
+          "searchJob": "north-carolina",
+          "text": "Margaret Qualley trained her whole childhood to be a professional ballerina. At 16 she finally got offered the job, and she quit. Now the ballet she walked away from is a big reason Kalshi has her at 48% to be the next Bond girl. She left h"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 245,
+      "jobs": 242,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -224,27 +266,33 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2121189892889661574",
-          "author": "thaitrainguide",
-          "text": "🚆 TRAIN REVIEW: Special Express No. 43 (Bangkok to Ban Krut) If you’re heading south from Bangkok for a few days by the sea, Special Express No. 43 is one train worth considering. It’s a daytime diesel railcar to Surat Thani, with stops at"
+          "postId": "2121204095746773487",
+          "author": "gonter_a6188",
+          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121203841139912992",
+          "author": "gonter_a6188",
+          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
         }
       ],
       "stats": {
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "reasons": {
-          "roundup_too_long": 1
+          "roundup_too_long": 2
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 8,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-13T11:28:46.224Z"
+    "status rebuilt locally from current store on 2026-11-13T11:58:47.382Z"
   ]
 }
