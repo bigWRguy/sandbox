@@ -1,29 +1,5 @@
 {
   "seenPostIds": [
-    "2115825058002383149",
-    "2115821017117462656",
-    "2115818690138484994",
-    "2115814101909995678",
-    "2115808799558635835",
-    "2115806704646447294",
-    "2115803970455187917",
-    "2115798180625264711",
-    "2115828674348113977",
-    "2115827687956582509",
-    "2115826179227943176",
-    "2115829609769906535",
-    "2115818024267911266",
-    "2115829439539900648",
-    "2115827052100157532",
-    "2115824631831486863",
-    "2115823812679712932",
-    "2115823776667734344",
-    "2115823713090425070",
-    "2115821009039233030",
-    "2115808388558774698",
-    "2115807261335712224",
-    "2115470348246519966",
-    "2115830247190827445",
     "2115825019221627006",
     "2115815250775949556",
     "2115813120526385563",
@@ -59999,17 +59975,41 @@
     "2121319116111810997",
     "2121318832895926300",
     "2121295835526828117",
-    "2121294215405551900"
+    "2121294215405551900",
+    "2121299121646563473",
+    "2121298319414525956",
+    "2121294931247440197",
+    "2121294566448111804",
+    "2121294193918451774",
+    "2121275228982571308",
+    "2121294087353454871",
+    "2121292410193850661",
+    "2121291580933824948",
+    "2121291492987744615",
+    "2121291491129667796",
+    "2121291484582531441",
+    "2121288290431021121",
+    "2121286619554865424",
+    "2121285978937508172",
+    "2121316532135530873",
+    "2121302517560594815",
+    "2121298664044032243",
+    "2121258945440305235",
+    "2121217221179355551",
+    "2121298085238251675",
+    "2121291545261527221",
+    "2121286224724033873",
+    "2121283709429035271"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-11-13T19:14:31.884Z",
-      "got": 122,
-      "new": 73,
-      "lag": 0.11
+      "at": "2026-11-13T19:27:35.893Z",
+      "got": 36,
+      "new": 24,
+      "lag": 0.5
     },
     "search:commit": {
       "at": "2026-11-13T19:14:31.912Z",
@@ -60185,12 +60185,12 @@
     "texas": {
       "at": "2026-11-13T16:27:36.695Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 20,
+      "lastPosts": 23,
       "truncated": true,
       "window": {
         "lower": "2026-11-13T16:22:36.695Z",
         "upper": "2026-11-13T19:12:53.504Z",
-        "until_time": "2026-11-13T17:49:58.000Z",
+        "until_time": "2026-11-13T16:22:36.695Z",
         "completed": false
       }
     },
@@ -60455,19 +60455,19 @@
       "truncated": false
     },
     "smu": {
-      "at": "2026-11-13T16:27:36.695Z",
+      "at": "2026-11-13T19:27:13.489Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 1,
       "truncated": false
     },
     "stanford": {
-      "at": "2026-11-13T16:27:36.695Z",
+      "at": "2026-11-13T19:27:13.489Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 7,
+      "lastPosts": 12,
       "truncated": false
     },
     "syracuse": {
-      "at": "2026-11-13T16:27:36.695Z",
+      "at": "2026-11-13T19:27:13.489Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -61799,11 +61799,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-11-13T19:14:31.913Z",
+    "at": "2026-11-13T19:27:35.893Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
-    "fullSweepCycles": 9
+    "sweptThisRun": 4,
+    "requests": 4,
+    "fullSweepCycles": 41
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61823,422 +61823,247 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-13T19:12:53.424Z",
+    "at": "2026-11-13T19:27:13.383Z",
     "mode": "live",
     "collection": {
-      "returned": 122,
-      "kept": 73,
-      "duplicate": 49,
+      "returned": 36,
+      "kept": 24,
+      "duplicate": 12,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 55,
-      "rejected": 18,
+      "accepted": 13,
+      "rejected": 11,
       "reasons": {
-        "no_offer_term": 6,
-        "non_fbs_offer_target": 1,
-        "hard_negative": 2,
-        "no_fbs_school": 9
+        "no_fbs_school": 6,
+        "no_offer_term": 4,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2121269313319358904",
-          "author": "theb0neless1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@JoshuaBarzon They're such stellar engineers. Truly we are ALL blessed to receive them in our respective territories https://t.co/wLl8G0sSrZ"
+          "reason": "no_fbs_school",
+          "postId": "2121299121646563473",
+          "author": "thedailymeal",
+          "searchJob": "texas",
+          "text": "Believe it or not, Trader Joe's actually doesn't offer the best pecan pie on the market. Instead, it comes from the Texas-based Whole Foods chain. https://t.co/5u8gtWkTtX"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2121276253038940598",
-          "author": "colemorlan1088",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachJVerduin I am extremely blessed and excited to announce that I have received an offer from Knox College. @FB_KnoxCollege https://t.co/6vgXw6y0Wc"
+          "reason": "no_fbs_school",
+          "postId": "2121294931247440197",
+          "author": "carbonreports",
+          "searchJob": "texas",
+          "text": "As Appalachian Producers Said to Help Set Floor, Clarington Offers Price Upside NGI’s daily spot market index for Texas Eastern M-2, 30 Receipt (Tetco M-2) climbed to $2.005/MMBtu for Friday flow ahead of a nor’easter expected to bring bitt"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2121269533411324164",
-          "author": "joelange",
-          "searchJob": "miami",
-          "text": "The world is fighting back. Who is the REAL ENEMY? Our whole lives, we’ve been told by the MEDIA, that Russia and China are our enemies. But the MEDIA ignores the fact that Putin and Xi are fighting a deep state within their own countries, "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121314723774054811",
-          "author": "thematchuplab",
-          "searchJob": "miami",
-          "text": "https://t.co/1pllEylkre"
+          "reason": "no_fbs_school",
+          "postId": "2121294193918451774",
+          "author": "prep2play",
+          "searchJob": "texas",
+          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 DE @LeviWright2027 | Nederland HS 📏6’4” 260 🎓3.54 GPA ⏱4.9 40 | 4.54 Shuttle 🧰24” Vertical | 9’7” Broad | 72.5” Wingspan 💪375 Bench | 445 Squat Profile &amp; 🎥: https://t.co/2xQ5juTURS ✅OFFERS: 4"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121313990840029531",
-          "author": "jwmediadc",
-          "searchJob": "miami",
-          "text": "https://t.co/CnGoLlLCdn"
+          "postId": "2121275228982571308",
+          "author": "leviwright2027",
+          "searchJob": "texas",
+          "text": "Tonight we take on the Huntsville Hornets BUT We ARE Ready!! Let’s Go Dogs!! #GodBlessGoDOGS @Nederland_FB @CoachWrightNHS @CoachJSimmons11 @coachklintking @jody_walker65 @CoachAdamsDC @Coach_Cannata @Marshall_Reggie @CoachDrewChrist @Coach"
         },
         {
           "reason": "hard_negative",
-          "postId": "2121313657787425150",
-          "author": "hassana65900470",
-          "searchJob": "miami",
-          "text": "The world body that is supposed to watch Iran nuclear programme admitted on Friday that it is now watching in the dark. A confidential report by the International Atomic Energy Agency, circulated to member states on Friday and seen by the A"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121281971829559440",
-          "author": "miamiherald",
-          "searchJob": "miami",
-          "text": "Dolphins’ Brewer out Sunday. Hafley offers update on Bell, his message for McCord https://t.co/BtrLu6hjrH"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121281437664211329",
-          "author": "axioscharlotte",
-          "searchJob": "charlotte",
-          "text": "From a move-in-ready home under $400K to a magazine-worthy stunner in Barclay Downs, this week's hot homes offer plenty to love at every price point. https://t.co/8ApdGsla0R"
+          "postId": "2121291580933824948",
+          "author": "metanoia_ki",
+          "searchJob": "texas",
+          "text": "The beach remains public, and you are putting real work into its preservation and improvement: Preservation Through weekly cleanups with the City of Starbase, you have already taken more than 50 tons of trash from the beach, including debri"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121308273391309288",
-          "author": "streetcp",
-          "searchJob": "coastal-carolina",
-          "text": "Multifamily Construction Outlook for Q1 2027: Slowing Development Activity, Rising Costs, and a More Selective Market https://t.co/p2H0ThHTnB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121286653813616798",
-          "author": "thatremoteguy",
-          "searchJob": "south-carolina",
-          "text": "Ordinary, unmodified consumer phones—even when many are active—are the devices DO-307 was written to accommodate. Aircraft that meet the standard are designed to tolerate them. Achieving the conditions above typically requires hardware modi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121303975005979020",
-          "author": "donedealcardco",
-          "searchJob": "tennessee",
-          "text": "Check out 2025 Topps Chrome Cam Ward RC Rookie Autographs Auto #RA-CWA Tennessee Titans https://t.co/OVToIJzdAo #eBay via @eBay $150 🛳️ Free shipping! 🤝 Shoot us an offer!"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121284425896083669",
-          "author": "watkinshometeam",
-          "searchJob": "tennessee",
-          "text": "✨ Music, mountains, and a community that feels like home — that’s Bristol, Tennessee. 🎸 Known as the Birthplace of Country Music, Bristol offers a rich blend of history, creativity, and hometown pride. From live music downtown to local sho"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121314132565639623",
-          "author": "reluctantmutant",
+          "postId": "2121291492987744615",
+          "author": "campusreform",
           "searchJob": "texas",
-          "text": "@TheRealVarnVlog In Texas there's a thing where working class Mexicans are the most likely to pull over and offer help if you break down on the road"
+          "text": "Link in bio or read the story at https://t.co/OFHmtykR0o #utaustin #texas #austin #reproductivejustice"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121304372558598543",
-          "author": "lunaprime",
+          "postId": "2121291491129667796",
+          "author": "campusreform",
           "searchJob": "texas",
-          "text": "@tigerisfine if I ever get a job offer in Texas I will demand a few pairs of boots and a stetson as a signing bonus."
+          "text": "The University of Texas at Austin’s Rapoport Center for Human Rights and Justice offers grants of up to $2,500 for graduate student work on 'reproductive justice.' https://t.co/QZGfkvv3BE"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121288290431021121",
+          "author": "goodwillnct",
+          "searchJob": "texas",
+          "text": "Did you know Goodwill offers virtual certification programs? Visit https://t.co/16O1l6Rs1V to learn more and start your career in information technology! https://t.co/dT6QOPhOFi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121302517560594815",
+          "author": "stanford",
+          "searchJob": "stanford",
+          "text": "Three brain biotypes found in kids with ADHD, anxiety: A @StanfordMed-led study offers a foundation for future research on underlying biology and treatment approaches for the common, overlapping childhood conditions. https://t.co/rKIhVU4AZe"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121319204397912413",
-          "author": "bennystarnes22",
-          "searchJob": "texas-am",
-          "text": "Blessed to receive a game day visit to @AggieFootball Tomorrow! Thank you to @Coach_Dougherty and @agaudet_tamu for the invite. Gig em 👍🏼 @coachaplace @ScottGillispie7 @sciotofootball @Bryan_Ault @PrepRedzoneOH @OhiosElite1 https://t.co/M"
+          "postId": "2121258945440305235",
+          "author": "kemibadenoch",
+          "searchJob": "stanford",
+          "text": "The real Shadow Home Secretary won that exchange and the applause. The fake one went along to score cheap points but made an arse of himself instead. Reform MPs Jenrick and Braverman (currently spending her time handcuffed to Katie Price) w"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2121293262648688931",
-          "author": "_faam",
-          "searchJob": "ucla",
-          "text": "Interested in launching a FAAM group on your campus? This five-page resource and accompanying video offer useful tips for getting started and share the “origin story” of @JFRGofficial, a group founded by faculty at @UCLA. 📄 Read now: https"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121301691546902856",
-          "author": "thencsportsnet",
-          "searchJob": "north-carolina",
-          "text": "History offers a blunt warning: jumping from high school football straight to a Power 4 head coaching job is a major risk—and past experiments have ended with ugly records. #MuscleMilk #BoldNorthState #NCSN https://t.co/pBjsqeiGGv"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121299988395532616",
-          "author": "sebastianhox",
-          "searchJob": "north-carolina",
-          "text": "Soccer coach licensing is broken. I love coaching education...but NOT when it charges like a graduate school, gates like a country club, and has never once had to prove it makes anybody a better coach. A coaching license just proves you fin"
+          "reason": "no_offer_term",
+          "postId": "2121217221179355551",
+          "author": "skynews",
+          "searchJob": "stanford",
+          "text": "\"Listen to the people clapping and read the room.\" Shadow Home Secretary Chris Philp accuses Reform UK's Zia Yusuf of being \"disingenuous\" over the Conservative Party's approach to illegal migration. https://t.co/IDp0XI1q50 📺 Sky 501, Virg"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 54,
+      "accepted": 0,
+      "rejected": 13,
       "reasons": {
-        "bare_mention_requires_llm": 30,
-        "school_not_resolved_confidently": 12,
-        "multiple_resolved_schools": 9,
-        "reporter_missing_player_name": 1,
-        "unresolved_offer_target": 1,
-        "explicit_non_fbs_target": 1
+        "multiple_resolved_schools": 2,
+        "bare_mention_requires_llm": 8,
+        "reporter_missing_player_name": 2,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121314899146018981",
-          "author": "lvillepalace",
-          "searchJob": "louisville",
-          "text": "Should you need us...look no further than The Louisville Palace on 11/19 for Jim Henson's Labyrinth: In Concert 40th Anniversary, pres by 91.9 WFPK! 🎟️ Snag a $30 ticket https://t.co/vgEh5Z4DAR *Offer Valid online only on select seats now "
+          "reason": "multiple_resolved_schools",
+          "postId": "2121298319414525956",
+          "author": "idolwatcher1",
+          "searchJob": "texas",
+          "text": "The only reason Texas would need luck is for the dumb Democrat voters who moved here from other states finally using their brains for once & realizing that market forces do NOT respond well to sharp, sudden expense-mandating changes forced "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121305485257155070",
-          "author": "billbowall71849",
-          "searchJob": "louisville",
-          "text": "Exactly how it was, my Dad grew up in those years, his parents lost their home due to one missed property tax payment. That was in Louisville, my grandfather was offered a job in Indianapolis at Ford, he moved the family up here to Indy, st"
+          "postId": "2121294566448111804",
+          "author": "moralcutter",
+          "searchJob": "texas",
+          "text": "Bro mere rishte atay rehte hai and my mom doesnt ducking tell me wdym 5 din mei nikkah to texas ki offer ayi hai and ur not telling me i woulr say no too but wdym"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121316613160853880",
-          "author": "joelange",
-          "searchJob": "miami",
-          "text": "TRILATERAL Trump Card. Two possible TRILATERAL scheduled meetings. The three biggest leaders in the world attending. Trump, Xi and Putin. Happening within a “condensed” window, right AFTER the biggest election theft in America history. Just"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121294087353454871",
+          "author": "markdeg9",
+          "searchJob": "texas",
+          "text": "@brianeharrison @GregAbbott_TX 15k of the worst Texas has to offer"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121302074399092827",
-          "author": "portfoliobreak",
-          "searchJob": "miami",
-          "text": "Messi turned down a reported €1.5 billion from Saudi Arabia to take a smaller deal in Miami. Miami's offer reportedly came with a share of Apple's MLS Season Pass revenue, Adidas money and an option to own part of the club. https://t.co/Wuy"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121292410193850661",
+          "author": "johnrhanger",
+          "searchJob": "texas",
+          "text": "Want Free EV Charging? Be a Constellation customer or buy a BMW. Constellation offers its “FreeCharge” plan midnight-4am to customers in Pennsylvania &amp; Texas. Constellation also offers Discounted Nights &amp; Fair Days, with discounted "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121299500870631800",
-          "author": "bmiamirealtor",
-          "searchJob": "miami",
-          "text": "Check out my latest article: Buying a Condo in Miami: What Should You Know Before Making an Offer? https://t.co/ijqrnCq2g4 via @LinkedIn"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121291484582531441",
+          "author": "ysyyan",
+          "searchJob": "texas",
+          "text": "Muslims! Tons have moved to Texas from across the country, especially CA. They can’t tolerate CA’s crazy leftists; TX offers space, opportunity, and freedom to build their community. TX faces a Muslim takeover—mosques are far more religious"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121291530350526743",
-          "author": "georgeyitb",
-          "searchJob": "miami",
-          "text": "Lil Pump was 17 when Warner Bros. signed him for a reported $8 million. He says he once spent about $3 million on private jets during a single European tour. Last November he said he had gone \"all the way down to zero dollars.\" Six weeks be"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121289051114549550",
-          "author": "heyumarr",
-          "searchJob": "miami",
-          "text": "https://t.co/0VralqCb5s Hometown Real Estate Offers MLS 202622463 S/S Now Offer anytime. pizza —made with fresh dough prepared daily for the perfect light,– strong #winnipeg #manitoba #canada #toronto #vancouver montreal calgary losangeles "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121287715828252807",
-          "author": "teodoroeldiez",
-          "searchJob": "miami",
-          "text": "🚨🇦🇷 Boca Juniors will try to sign Rodrigo de Paul in January. ⭐️The Xeneize club will offer $8 million + the transfer of Williams Alarcón. 🦩Inter Miami has asked that the offer be limited to $8 million. https://t.co/AjflmuL3Qq"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121285386936734020",
-          "author": "msudawg04",
-          "searchJob": "miami",
-          "text": "@gpparker22 @lounge_dawg @MattHayesCFB No. Miami or a blueblood would've offered more. I can't say how true but there was word Cignetti offered $10. But hey, shame on us for paying our players and wanting to win I guess"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121282487934464386",
-          "author": "cibercuba",
-          "searchJob": "miami",
-          "text": "Edmundo García ends up on the street in Miami, and Ferrer offers to bring him food See the video below 👇 https://t.co/LhUWTYPy4f"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121286619554865424",
+          "author": "cjgrisham",
+          "searchJob": "texas",
+          "text": "I'm 100% against House Bill 126, by @DonnaHowardTX, and I'm not going to be polite about it. Kill HB 126. Not here. Not anymore. On Nov 13 the author went on X and described her bill in her own words: \"I wanted to offer a full reset.\" Attac"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121318679455699356",
-          "author": "lakertom",
-          "searchJob": "charlotte",
-          "text": "Could Naz Reid Be Lakers’ Starting Power Forward & Backup Center? The Los Angeles Lakers have a golden opportunity to acquire Charlotte Hornets big man Naz Reid. At 6'10\", 265 lbs, Reid is a versatile two-way player who provides volume floo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121317263772921976",
-          "author": "cltbelkcollege",
-          "searchJob": "charlotte",
-          "text": "Join us virtually to explore how the JL Price MBA, offered online and on campus, can enhance your leadership and strategic skills while connecting you with the companies that shape the Charlotte region’s economy. 📅 Nov. 18 🕠 5:30-6:30 p.m"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121316660015669362",
-          "author": "alexeades1",
-          "searchJob": "charlotte",
-          "text": "My Fight, My Hope, My Life: Charlotte’s Journey with Brain Cancer Told in the first person by Charlotte’s mother 18.2.97 - 24.2.16 13th November 2013 Back again, halfway through the week. Today I spoke with the consultant from Radiotherapy,"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121309796766753034",
-          "author": "arfb",
-          "searchJob": "charlotte",
-          "text": "Applications close TODAY for the 2026 Arkansas Farm Bureau Young Farmers & Ranchers Discussion Meet competition. The Discussion Meet simulates a committee meeting where discussion and active participation are expected from each participant."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121305327094182028",
-          "author": "normanwangtech",
-          "searchJob": "charlotte",
-          "text": "Your 90 days Month 1: every service listed with descriptions, top 3 audited in Charlotte and Matthews, review texts within 2 hours of every first service Month 2: weekly posts naming suburbs, first quarterly push to every customer without a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121304403286089878",
-          "author": "josiahjdp",
-          "searchJob": "charlotte",
-          "text": "Richard stood stiffly, hands clasped. \"I was out of line,\" he said. It wasn't warm. It wasn't graceful. But it was clear. I let the silence stretch. \"Yes,\" I said. \"You were.\" He seemed to expect more absolution, perhaps. I offered neither."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121302850185597194",
-          "author": "normanwangtech",
-          "searchJob": "charlotte",
-          "text": "Your 90 days Month 1: every service listed with descriptions, top 3 audited in Charlotte and Matthews, review texts within 2 hours of every first service Month 2: weekly posts naming suburbs, first quarterly push to every customer without a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121297868011008290",
-          "author": "drcrypto7",
-          "searchJob": "charlotte",
-          "text": "I've been buying and holding Berkshire Hathaway ($BRK.B) for some time, and it's been impressive watching this company continue to grow and compound wealth. The more I study its leadership, financial strength, businesses and long-term strat"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121318374005469638",
-          "author": "eyeworldnews444",
-          "searchJob": "coastal-carolina",
-          "text": "🚨🇺🇸 SPACEX VOWS TO KEEP BOCA CHICA BEACH PUBLIC, PROPOSES MILLIONS IN COASTAL RESTORATION AND CONSERVATION INVESTMENTS SpaceX has outlined a major environmental protection and coastal restoration proposal surrounding its Starbase launch "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121317722650759289",
-          "author": "aroundaboutbrit",
-          "searchJob": "coastal-carolina",
-          "text": "Family Adventures and Coastal Escapes at Woodlands Manor Farm Near Bude, Cornwall! Woodlands Manor Farm offers seven dog-friendly self-catering cottages in Woodford, located within the Coombe Valley, two miles from the coastline. https://t."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121294468364300783",
-          "author": "muskonomy",
-          "searchJob": "coastal-carolina",
-          "text": "🚨BREAKING: SpaceX says it is not buying Boca Chica Beach. The beach is public and will stay public. SpaceX is responding to confusion over its talks with Texas Parks and Wildlife to buy ~1,200 acres of land next to its Starbase launch faci"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121291171599093932",
-          "author": "abrightfuture69",
-          "searchJob": "coastal-carolina",
-          "text": "SpaceX just made it official: it is not trying to buy Boca Chica Beach. 🏖️ \"Boca Chica Beach is not for sale, and SpaceX isn't attempting to buy it,\" the company posted Friday. In an update on its website, SpaceX said it has discussed buyi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121289940726149271",
-          "author": "iconprime_",
-          "searchJob": "coastal-carolina",
-          "text": "ICONIC BREEZE DIANI – PRIME LOCATION! Your dream investment is closer to the ocean! 🌊 Located just 1.1KM from the beach, Iconic Breeze Diani offers the perfect opportunity to own land in one of Kenya’s most attractive coastal destinations."
+          "postId": "2121285978937508172",
+          "author": "jonahtalivaa75",
+          "searchJob": "texas",
+          "text": "Jonah Taliva’a Killeen Chaparral High School Killeen, TX Coach: Tyrell Mccrea @coachmac505 Contact info: jonahtalivaa@gmail.com/cell#(254)899-9093 Position: OL/LT Height: 6’4” Weight: 308 lbs Class: 2029 Div: 6A, District 12 Offers: Texas T"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2121288392742982125",
-          "author": "cb_doge",
-          "searchJob": "coastal-carolina",
-          "text": "BREAKING: SpaceX says Boca Chica Beach will remain public, outlining major efforts to protect and restore it. • More than 50 tons of trash have been removed through weekly beach cleanups with the City of Starbase. • It has offered to invest"
+          "postId": "2121316532135530873",
+          "author": "ziayusufuk",
+          "searchJob": "stanford",
+          "text": "Kemi Badenoch lied about getting an offer from Stanford University. Flat out lied. If Nigel Farage had done this it would lead the news cycle for weeks. The establishment want to resuscitate the treacherous Tory party so they can import ano"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121298664044032243",
+          "author": "ziayusufuk",
+          "searchJob": "stanford",
+          "text": "Mrs. Badenoch, resorting to words like \"arse\" as the leader of His Majesty's Most Loyal Opposition shows how rattled and out of your depth you are. Despite enlisting the Daily Mail, the Telegraph, the Times as propaganda arms for your party"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2121298085238251675",
+          "author": "ziayusufuk",
+          "searchJob": "stanford",
+          "text": "Mrs. Badenoch, resorting to words like \"arse\" as the leader of His Majesty's Most Loyal Opposition shows how rattled and out of your depth you are. Despite enlisting the Daily Mail, the Telegraph, the Times as propaganda arms for your party"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121291545261527221",
+          "author": "0xlingjiekong",
+          "searchJob": "stanford",
+          "text": "In 2015, NVIDIA offered me a position while I was at Stanford. Looking at NVIDIA today, part of me wishes I had been there to help build it. 🧵 https://t.co/zTQPlxWdlp"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121286224724033873",
+          "author": "joveg8",
+          "searchJob": "stanford",
+          "text": "……. U.S. AI companies are generating roughly ten times more revenue than their Chinese competitors—reaching over $105 billion in combined annualized revenue from leaders like OpenAI and Anthropic, compared to about $10 billion across top Ch"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121283709429035271",
+          "author": "arnaudmercier",
+          "searchJob": "stanford",
+          "text": "<p class=\"wp-block-paragraph\"><em>This story is from The Algorithm, our weekly newsletter on AI. To get it in your inbox first, </em><a href=\"https://t.co/cd1zw3IHNv\"><em>sign up here</em></a><em>.</em></p> <p class=\"wp-block-paragraph\">Gen"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 257,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "jobs": 254,
+      "swept": 4,
+      "failed": 1,
+      "requests": 5,
+      "errors": [
+        "commit:florida: rate limited"
+      ]
     },
     "commits": {
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2121313657787425150",
-          "author": "hassana65900470",
-          "text": "The world body that is supposed to watch Iran nuclear programme admitted on Friday that it is now watching in the dark. A confidential report by the International Atomic Energy Agency, circulated to member states on Friday and seen by the A"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2121299988395532616",
-          "author": "sebastianhox",
-          "text": "Soccer coach licensing is broken. I love coaching education...but NOT when it charges like a graduate school, gates like a country club, and has never once had to prove it makes anybody a better coach. A coaching license just proves you fin"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121289478488932508",
-          "author": "hockeycommits",
-          "text": "Maxwell Fransen (Owen Sound Attack) has committed to Western Michigan University for 2029-30 @WMUHockey @TheNCHC"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121285516121239911",
-          "author": "verbalcommits",
-          "text": "2027 La Lumiere (IN) G/F Connor Brown has committed to Western Michigan. https://t.co/HeL7uJUxVd"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121246040980345116",
-          "author": "recruitszone",
-          "text": "NEWS: 2027 prospect Connor Brown (@cjbrwn23 ) has committed to Western Michigan, he tells @recruitszone . Has great physical tools, tough finisher through contact, high motor, &amp; is a quality defender. https://t.co/A3mEBPNoxM"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2121288160520921176",
-          "author": "wifbrecruiting",
-          "text": "“Coach Gibson does a great job developing his players, and I had a good connection with them.” 2027 3⭐ DL Brett Singler (Shiocton) committed to Wyoming over North Dakota State, he tells me. https://t.co/hPX6EVCSsE"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121302144913412479",
-          "author": "fsuwire",
-          "text": "Four-star athlete decommits from Florida State Seminoles 📸 Coley Cleary, USA TODAY NETWORK https://t.co/lFdrTTEJiq https://t.co/JY2dIFtlf2"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121298944579809288",
-          "author": "cbbrecruiting",
-          "text": "@247Sports @totally_t_bomb Krivas (C, 66% of min, 18.0 ppg) is a senior and No. 7 on that Woo board, so the center spot is open either way. Wabbington (No. 12) signed with Indiana and Awaka (No. 42) committed to Florida after official visit"
+          "postId": "2121291580933824948",
+          "author": "metanoia_ki",
+          "text": "The beach remains public, and you are putting real work into its preservation and improvement: Preservation Through weekly cleanups with the City of Starbase, you have already taken more than 50 tons of trash from the beach, including debri"
         }
       ],
       "stats": {
-        "candidates": 25,
-        "accepted": 2,
-        "rejected": 23,
+        "candidates": 1,
+        "accepted": 0,
+        "rejected": 1,
         "reasons": {
-          "roundup_too_long": 2,
-          "other_sport": 3,
-          "no_football_context": 10,
-          "reporter_missing_player_name": 2,
-          "no_commit_event": 4,
-          "list_post": 1,
-          "juco_or_transfer": 1
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 54,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 13,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 73,
-    "decided": 73,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
@@ -64152,6 +63977,7 @@
     "2121272179031498823",
     "2121252998261452991",
     "2121249062838009984",
-    "2121243156943372681"
+    "2121243156943372681",
+    "2121291580933824948"
   ]
 }
