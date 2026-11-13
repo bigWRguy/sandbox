@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T07:13:54.676Z",
+  "generatedAt": "2026-11-13T07:29:09.056Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,10 +7,10 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-13T07:13:54.028Z",
+    "at": "2026-11-13T07:29:08.248Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
+    "sweptThisRun": 20,
+    "requests": 20,
     "fullSweepCycles": 9
   },
   "backfillCoverage": {
@@ -30,15 +30,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "temple",
+      "hours": 2.3
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0276536111111112,
-    "p95Hours": 2.030466666666667,
-    "worstHours": 2.030466666666667
+    "medianHours": 1.032748611111111,
+    "p95Hours": 2.0305355555555558,
+    "worstHours": 2.2844611111111113
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 35,
+    "decided": 35,
     "complete": true
   },
   "pending": {
@@ -47,7 +56,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 4612,
     "incompleteOffers": 0
@@ -55,95 +64,300 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-13T07:13:54.010Z",
-      "got": 17,
-      "new": 6,
-      "lag": 0.12
+      "at": "2026-11-13T07:29:08.234Z",
+      "got": 62,
+      "new": 35,
+      "lag": 0.07
     },
     "search:commit": {
-      "at": "2026-11-13T07:13:54.028Z",
-      "got": 43,
-      "new": 18,
-      "lag": 3.49
+      "at": "2026-11-13T07:29:08.248Z",
+      "got": 12,
+      "new": 3,
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-11-13T07:12:18.383Z",
+    "at": "2026-11-13T07:27:26.201Z",
     "mode": "live",
     "collection": {
-      "returned": 17,
-      "kept": 6,
-      "duplicate": 11,
+      "returned": 62,
+      "kept": 35,
+      "duplicate": 27,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 1,
+      "accepted": 20,
+      "rejected": 15,
       "reasons": {
+        "no_offer_term": 14,
         "no_fbs_school": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2121125048702415263",
+          "author": "yhva_yeshuah316",
+          "searchJob": "wake-forest",
+          "text": "The Gathering of the Saints: Chapter 24 https://t.co/tNou0OnbuS"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121123571346870625",
+          "author": "yhva_yeshuah316",
+          "searchJob": "wake-forest",
+          "text": "The Gathering of the Saints: Chapter 19 https://t.co/FwA3J3fIzT"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121123376404267057",
+          "author": "edwardcassas",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/xZfp01ZVC2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121023102452941188",
+          "author": "rupertlowe10",
+          "searchJob": "wake-forest",
+          "text": "Restore Britain just scored 28% in a by-election - an astonishing result in Hyndburn. We are going to take our country back."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121117996886143043",
+          "author": "cristotheranger",
+          "searchJob": "wake-forest",
+          "text": "The story of Harry and Dracaena Potter continues. After being home for nearly a month after their honeymoon, work, study, and other responsibilities must be managed. Follow along as they begin planning for their first Christmas Eve at Grimm"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121116893469626479",
+          "author": "yhva_yeshuah316",
+          "searchJob": "wake-forest",
+          "text": "The Gathering of the Saints: Chapters 3-4 https://t.co/ZKw4MmOzLx"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121116503726801134",
+          "author": "ogmayank",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/k1pQs8zwRH"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2121137708001361965",
-          "author": "keshawn_pr",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "AGTG I want too say thank you too coach @trestonwomack for my second offer ❗️and I had a great conversation on the phone with him https://t.co/xWLg40USOS"
+          "postId": "2121142276961264052",
+          "author": "sunsentinel",
+          "searchJob": "south-florida",
+          "text": "Offers for Wednesday, Nov. 11, include burgers, steak, beverages and more. https://t.co/mpN56xW8IN"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121126737249767553",
+          "author": "asianetnewstl",
+          "searchJob": "temple",
+          "text": "Kurumurthi Temple: అద్భుత ఆలయం.. దేవుడికి చెప్పులు మొక్కుగా చెల్లించే వింత ఆచారం వెనుక అసలు రహస్యం ఇదే! https://t.co/QKNeA2hrtR #KurumurthiSwamyTemple #TelanganaTemples #UniqueRituals #Wanaparthy #SpiritualTelangana #TempleMystery #IndianCu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121125720583778490",
+          "author": "yhva_yeshuah316",
+          "searchJob": "temple",
+          "text": "The Gathering of the Saints: Chapter 27 https://t.co/Ol4t5cSgM7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121122785103593756",
+          "author": "yhva_yeshuah316",
+          "searchJob": "temple",
+          "text": "The Gathering of the Saints: Chapter 16 https://t.co/73pfQzAE2x"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121122525266534472",
+          "author": "yhva_yeshuah316",
+          "searchJob": "temple",
+          "text": "The Gathering of the Saints: Chapter 15 https://t.co/Fv7JARZj5m"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121121735495823775",
+          "author": "yhva_yeshuah316",
+          "searchJob": "temple",
+          "text": "The Gathering of the Saints: Chapter 12 https://t.co/yTCeEexVhy"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121108950380585230",
+          "author": "k_chachamaru",
+          "searchJob": "temple",
+          "text": "内容としては清水ブレイクダンスへのDisのレスバなんだけどね。 現代語で「人間と猿を分けましょう」はかなり人種差別よりのエミネムが土下座するレベルの🤬なDisなんだよね。 これ京言葉や古典でとると 「清水大道芸リーグ設立しよう」か 「清水HIPHOP猿ダンス神楽ジャンル設立しましょうぜ」っていうか意味なるだ。 オモロいでしょ？日本語。 京都と江戸が揉める理由🌱 https://t.co/jt15r5Dw2D"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121089418912317859",
+          "author": "komatsujunya88",
+          "searchJob": "temple",
+          "text": "分断ではなく棲み分けです☺️"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 5,
+      "rejected": 20,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "bare_mention_requires_llm": 1,
-        "multiple_resolved_schools": 2
+        "multiple_resolved_schools": 2,
+        "reporter_missing_class_year": 1,
+        "bare_mention_requires_llm": 8,
+        "school_not_resolved_confidently": 9
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121134258781855979",
-          "author": "sportspuls21998",
-          "searchJob": "oregon",
-          "text": "New Zealand have broken the back of India's chase with the sublime Matt Henry opening over when he took the 3 big wickets of Rohit, Kohli and captain Shreyas Iyer. All for ducks. To make it worse, Kylie Jamieson has had Ruturaj Gaekwad caug"
+          "reason": "multiple_resolved_schools",
+          "postId": "2121141110986678352",
+          "author": "eitchan",
+          "searchJob": "utah",
+          "text": "15,000+ head impacts. More than 25 concussions. What happens when the game is over? These are the experiences former Oregon State football player Rico Petrini recounts in a recent FOX5 Las Vegas television report. His story is a powerful re"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121127671396532636",
-          "author": "cricketbymahesh",
-          "searchJob": "oregon",
-          "text": "What a phenomenal first over from Matt Henry! Three wickets, three ducks. He made brilliant use of the early movement and nip on offer. A special over from Henry! #NZvIND #INDvNZ"
+          "reason": "reporter_missing_class_year",
+          "postId": "2121118475171377380",
+          "author": "samuraishibajp",
+          "searchJob": "utah",
+          "text": "@ty_webster A standing offer from Utah 🏔️ Ty, that's the second state today with an open door. The P.S. is getting longer. 😄🙏"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121111849559028141",
-          "author": "ansarisony08",
-          "searchJob": "penn-state",
-          "text": "Struggling with high medical school bills? Penn State Health just launched a new loan forgiveness offer for future family medicine doctors. Read the full update now. #PennStateHealth #doctorloans https://t.co/AElEbC51JV https://t.co/q0hujLx"
+          "postId": "2121110949109305720",
+          "author": "ourfavonlinedoc",
+          "searchJob": "virginia",
+          "text": "Martin Andrews was a 13years old boy when a man buried him alive in a plywood box in the woods and r*p*d him for a week. Before he climbed down into that hole, the man looked him in the eye and said: \"I've got bad news for you. You've just "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121141993267200059",
+          "author": "vietnamtourfun",
+          "searchJob": "wake-forest",
+          "text": "Across Asia, some stays offer far more than a comfortable bed. Which of these unexpected stays would you love to wake up in? #VietnamTourFun #UniqueStays #TravelInspiration #ExploreAsia #TravelExperiences https://t.co/PIYlEkq2ZG"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121135322524213704",
+          "author": "kolly_s70156",
+          "searchJob": "wake-forest",
+          "text": "You are offered $10 million, but you have to wake up at 5:30 AM every morning for a year. Would you take the deal? 👀"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121131306373230681",
+          "author": "justadaugoijele",
+          "searchJob": "wake-forest",
+          "text": "Saint Gemma Galgani was an Italian mystic and stigmatic from Lucca, Italy. She lived a short but intense life of prayer, suffering, and extraordinary spiritual experiences, dying of tuberculosis at the age of 25. She was canonized in 1940 a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121125895721074727",
+          "author": "guzu_p",
+          "searchJob": "wake-forest",
+          "text": "As you wake up to another day, remind yourself that you may be going through a difficult phase in life, but that doesn't mean you are heading towards a difficult future. Sometimes life takes us through seasons we never prepared for, moments"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121122371935601028",
+          "author": "leebee2nd",
+          "searchJob": "wake-forest",
+          "text": "Time for Reform voters to wake up and jump ship @RestoreBritain has reached tipping point already Reform should have accepted the generous offer made by @RupertLowe10"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121119185077977199",
+          "author": "petrobarladin",
+          "searchJob": "wake-forest",
+          "text": "In light of the latest rendezvous involving Trump’s envoys and their “peace proposals,” let me try to explain to my dear Europeans what’s really going on. Here we go. Putin has realized that as long as the EU continues supporting Ukraine, h"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121114995559931927",
+          "author": "thevelorin",
+          "searchJob": "wake-forest",
+          "text": "Wearable fitness trackers offer helpful metric trends, but data shouldn't override internal body signals. If your watch reports a low recovery score but you wake up feeling clear and energized, trust your physical energy over the algorithm."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121109261182718280",
+          "author": "interstella1001",
+          "searchJob": "wake-forest",
+          "text": "@acpandy @zerohedge @elonmusk ...👀 ...\"In the event of a merger, every 1 Tesla share better get you 12 to 24 SpaceX shares—otherwise you’ll wake up the next morning as a brand ambassador for Terafab, just like our friend \"Jason\" here. 🚀📉"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121141062949314778",
+          "author": "sfbjnews",
+          "searchJob": "south-florida",
+          "text": "Barnes &amp; Noble is closing its South Miami store at Sunset Place on Jan. 13, 2027, after 27 years. Employees will be offered jobs at nearby locations, including Coral Gables, Kendall and Midtown Miami. https://t.co/joFgueOtUg"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121110565733237178",
+          "author": "10gump___",
+          "searchJob": "south-florida",
+          "text": "Wow! thank you @M_White03 for the offer! I truly appreciate the opportunity to be around such a great program. Definitely a place I could see myself calling home! 🏠🤘🏾@brianhartline @USFFootball @btroher14 @KyleFahey_ https://t.co/cW0M9G6"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121134973713576318",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Shirdi, Maharashtra: Actor Ram Charan visits the Sai Baba Temple and offers prayers. https://t.co/TYb4Qyvupq"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121131786537447894",
+          "author": "telugurise",
+          "searchJob": "temple",
+          "text": "Special Nagula Chavithi prayers were held at the Subramanya Swamy Temple atop Indrakeeladri in Vijayawada on November 13. • Temple Sthanacharyas led grand Vedic rituals at the sacred anthill inside the shrine premises. • Temple Executive Of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121124369426796618",
+          "author": "thedailyjagran",
+          "searchJob": "temple",
+          "text": "Former Indian cricketer Suresh Raina visited the Mahakaleshwar Temple in Ujjain and offered prayers to Lord Shiva. The cricketer was seen seeking blessings at the revered Jyotirlinga shrine, drawing attention from devotees and fans. #Suresh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121120560608633228",
+          "author": "itsyashaswii555",
+          "searchJob": "temple",
+          "text": "@kriyayogi9 Go to a temple, take a prann/vachan in front of God. Offer fruits/Jal to Shivling or water a peepal tree and pray to give you strength in leaving them all. You will notice changes in behavior soon. Then do this every Chaturthi D"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121137709192527893",
-          "author": "operatranscend",
-          "searchJob": "illinois",
-          "text": "Daily Insights #220 — The Payer Has to Exist on the Day A check is a promise about a flow. A dividend is a promise about a stock somebody already bought. In your hand they are identical paper, and they fail in completely different ways the "
+          "postId": "2121113247776661691",
+          "author": "k_chachamaru",
+          "searchJob": "temple",
+          "text": "🇯🇵🎭 A Japanese Shrine Maiden, a Courtly Gentleman, and One Hell of a Dance Battle. Y’all, grab some popcorn. 🍿🌵 Something wild happened on Japanese X. A traditional Japanese performing artist and a self-proclaimed MAD Shrine Maiden Sci"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121135987262656778",
-          "author": "worldwidennx",
-          "searchJob": "illinois",
-          "text": "2 AM Top-of-the-Hour News Two 19-year-old twin brothers from Georgia, Carlos and Luis Orta, are being held in an immigration detention center in Louisiana after a traffic stop in Alabama, leaving them unable to compete alongside their colle"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121109867213779235",
+          "author": "shakthispeaks",
+          "searchJob": "temple",
+          "text": "Actresses #Sreeleela and #SriGouriPriya visited the Tirumala Temple in Tirupati to offer prayers. They Participated in the early morning Suprabhata Seva and sought blessings from Lord Venkateswara. #Tirumala #Tirupati https://t.co/6QOj2q90z"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121109250063884780",
+          "author": "savera_hp",
+          "searchJob": "temple",
+          "text": "Watch! Former Indian Cricketer Suresh Raina offers prayers at Mahakaleshwar Temple #SureshRaina #MahakaleshwarTemple #Ujjain #IndianCricket #TempleVisit https://t.co/ixnxbYLjb8"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 247,
+      "jobs": 246,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -152,74 +366,41 @@
     "commits": {
       "samples": [
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2121020001629122981",
-          "author": "teamcounsel",
-          "text": "Nice article about @WillJacksonQB3 &amp; his commitment to @TerpsFootball"
+          "reason": "roundup_too_long",
+          "postId": "2121006047636910518",
+          "author": "redcandlerx",
+          "text": "🚨 $ARDT Ardent Health // ARDENT BUYS BOONE HEALTH FOR $47M IN CASH: a 392 bed hospital system in Missouri changes hands for a quarter of the capital Ardent pledges to put into it Ardent Health $ARDT said Thursday it has signed a definitive"
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2121017364170805430",
-          "author": "neiladlersu",
-          "text": "Defensive back Christopher Griffin (@Chris_griffin20) of the powerhouse Saint Frances Academy in Baltimore verbally committed to Maryland football on Thursday. He confirmed that he's moving from 2028 to the 2029 class. Griffin spoke with Te"
+          "reason": "list_post",
+          "postId": "2120990218157457434",
+          "author": "marcjacksonla",
+          "text": "$ARDT Ardent Health to Acquire Boone Health - Expands Ardent’s footprint into mid-sized Missouri market with a scaled health system that generates ~$480 million of annual revenue1 - Provides $200 million capital commitment over 10 years to "
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2121016085759823907",
-          "author": "truvisionsz",
-          "text": "@247Sports @EleeDL2028 @Jeff_Ermann @TerpsFootball @TomLoy247 @247recruiting @BrianDohn247 If it’s verbal commitment don’t get too excited"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121085013756395698",
-          "author": "bricemarich",
-          "text": "#Michigan might be on the verge of losing one of its top ranked commits. The latest on this development, which would be a huge blow to the Wolverines' 2027 recruiting class (VIP) https://t.co/2pVfNIBW2b https://t.co/sPVUXsaPjT"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2121045462333415500",
-          "author": "wolverineswire",
-          "text": "Brady Quinn questions Kyle Whittingham's commitment to Michigan football 📸 Photo: Isaiah Hole, WolverinesWire https://t.co/g0maEWlCZK https://t.co/eSsfYCKip4"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121038677832880289",
-          "author": "c_robinson247",
-          "text": "Michigan State's win over Michigan made an impression on its future Spartans. \"Huge win for the program and coach Fitz!\" We caught up with 2027 commits to hear what stood out, the message they took away and the excitement surrounding the ri"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2121004020965810445",
-          "author": "wolverineswire",
-          "text": "Brady Quinn questions Kyle Whittingham's commitment to Michigan football 📸 Photo: Isaiah Hole, WolverinesWire https://t.co/SjMtFr2CkS https://t.co/JVmHJBexsm"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2120962798117089348",
-          "author": "mlivesports",
-          "text": "What Braden Chaffin’s commitment means for Michigan football https://t.co/Pj603E8hSo"
+          "reason": "roundup_too_long",
+          "postId": "2121001310480687384",
+          "author": "arnaudmercier",
+          "text": "<p class=\"wp-block-paragraph\">When testing an AI model, it’s hard to tell if it is reasoning or just regurgitating answers from its training data. Xbench, a new benchmark developed by the Chinese venture capital firm HSG, or HongShan Capita"
         }
       ],
       "stats": {
-        "candidates": 18,
-        "accepted": 3,
-        "rejected": 15,
+        "candidates": 3,
+        "accepted": 0,
+        "rejected": 3,
         "reasons": {
-          "reporter_missing_player_name": 3,
-          "no_commit_event": 5,
-          "no_football_context": 3,
-          "roundup_too_long": 3,
-          "other_sport": 1
+          "roundup_too_long": 2,
+          "list_post": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
+      "rejectedCandidates": 20,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-13T07:13:54.677Z"
+    "status rebuilt locally from current store on 2026-11-13T07:29:09.057Z"
   ]
 }
