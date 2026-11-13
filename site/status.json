@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T10:44:10.326Z",
+  "generatedAt": "2026-11-13T10:59:03.123Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-13T10:44:09.558Z",
+    "at": "2026-11-13T10:59:02.165Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
-    "fullSweepCycles": 8
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "army",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0174997222222222,
-    "p95Hours": 2.031905,
-    "worstHours": 2.031905
+    "medianHours": 0.7795002777777778,
+    "p95Hours": 2.033536111111111,
+    "worstHours": 2.279904166666667
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 42,
+    "decided": 42,
     "complete": true
   },
   "pending": {
@@ -47,7 +56,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 4612,
     "incompleteOffers": 0
@@ -55,187 +64,300 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-13T10:44:09.554Z",
-      "got": 29,
-      "new": 19,
-      "lag": 0.08
+      "at": "2026-11-13T10:59:02.158Z",
+      "got": 59,
+      "new": 42,
+      "lag": 0.06
     },
     "search:commit": {
-      "at": "2026-11-13T10:44:09.557Z",
-      "got": 8,
-      "new": 2,
-      "lag": 5.74
+      "at": "2026-11-13T10:59:02.164Z",
+      "got": 40,
+      "new": 5,
+      "lag": 0.22
     }
   },
   "audit": {
-    "at": "2026-11-13T10:42:36.459Z",
+    "at": "2026-11-13T10:57:22.621Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 19,
-      "duplicate": 10,
-      "tooOld": 0,
+      "returned": 59,
+      "kept": 42,
+      "duplicate": 16,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 10,
+      "accepted": 31,
+      "rejected": 11,
       "reasons": {
-        "hard_negative": 3,
-        "no_offer_term": 2,
-        "no_fbs_school": 4,
-        "unclassified_offer_text": 1
+        "no_fbs_school": 7,
+        "hard_negative": 1,
+        "no_offer_term": 3
       },
       "samples": [
         {
-          "reason": "hard_negative",
-          "postId": "2121188825934213553",
-          "author": "teresagrobecker",
-          "searchJob": "arizona",
-          "text": "🚨 AI HAS A NEW CEO. CREDIT STILL WANTS A LEASE. 💰 SpaceX announced more than $74 BILLION in planned AI infrastructure investments across Texas and Arizona. ⚡ Fermi announced a $200 MILLION customer prepayment agreement to advance 600 MW o"
+          "reason": "no_fbs_school",
+          "postId": "2121169600725319995",
+          "author": "fincey47",
+          "searchJob": "maryland",
+          "text": "@nilnoc8 @AutismCapital Voluntary exit offers made. Don't believe everything on X"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121192074959790549",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon France ] 📦 14IAH10 Lenovo Yoga Pro 7 83KF003XFR Intel Core Ultra 9 285H5, 32GB RAM, 1TB SSD, 14.5-inch 3K OLED Copilot+ Laptop at €1699.99 [ad] https://t.co/px3zyoKBOA – 14.5-inch 3K OLED display – Intel Core Ultra 9 285H5 process"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121191527196344816",
+          "author": "buildbytech",
+          "searchJob": "texas-tech",
+          "text": "Microsoft, why not fire the engineers who are fixing the outage as well? After all, you’ve already laid off (Voluntary Exit Offer) 60,000 people just get AI to fix it instead. What do you even need engineers for? https://t.co/kKGS5EwMSb"
         },
         {
           "reason": "hard_negative",
-          "postId": "2121188570840875460",
-          "author": "astrohackerlabs",
-          "searchJob": "arizona",
-          "text": "Singularity Watch, Day 29 — November 13, 2026 Jensen Huang Resigns From Nvidia as Forensic Analysis Finds Blackwell Fingerprints in Chinese AI Models Compute: Jensen Huang Resigns From Nvidia Nvidia's board announced on November 12 that Jen"
+          "postId": "2121190595112894648",
+          "author": "gelowwsy",
+          "searchJob": "texas-tech",
+          "text": "Is the AI bubble actually deflating, or is the market simply becoming more realistic about AI valuations? Anthropic’s upcoming IPO is an interesting case to watch. A few weeks ago, reports suggested that Anthropic could be targeting a valua"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2121179801666879513",
-          "author": "croyman99",
-          "searchJob": "arkansas-state",
-          "text": "@Kjay2077 @Cloudlily5 Palestinians don't want a state, they've been offered a state, many times. They want to destroy a state and commit genocide, herein lies the problem"
+          "reason": "no_fbs_school",
+          "postId": "2121184536369508470",
+          "author": "indiatechtrade",
+          "searchJob": "texas-tech",
+          "text": "Boss: We can offer you a 70% hike. Please reconsider. Employee: So the budget was never the problem. My resignation was. 🙂 Sometimes, companies don't recognize your value until they realize they might lose you."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121184531843801380",
+          "author": "indiatechtrade",
+          "searchJob": "texas-tech",
+          "text": "2021: No salary hike. 2022: No salary hike. 2023: No salary hike. 2024: No salary hike. 2025: No salary hike. 2026: Employee: Please accept my resignations Boss: But you're one of our best employees. Why are you leaving? Employee: I got an "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121168249371164802",
-          "author": "urbanwronski",
-          "searchJob": "arkansas-state",
-          "text": "Allan was warned. She sent a referral to a watchdog that could not take it. She blocked the bill that would have let it. The inquiry came only after she was gone. The media ran the campaign. Labor ditched the witch. https://t.co/TOH5sp0Pwh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121191166288986587",
-          "author": "kentander",
-          "searchJob": "kent-state",
-          "text": "@elgindy_ Islam is not a race. It‘s a stupid macho-superstition from a ancient warlord, driven by a violent, anti democratic sect that has nothing to offer humanity. The more vi see of islam, the more we detest it."
+          "postId": "2121193838886662192",
+          "author": "vaderatheist",
+          "searchJob": "army",
+          "text": "https://t.co/X95XB0ZZP6"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121183955437404178",
-          "author": "idoffers1",
-          "searchJob": "kent-state",
-          "text": "🔥 LOOT: Kent Original Tap Of RO - Blue &amp; White Just ₹125! (MRP ₹999 — 87% OFF) 👉 https://t.co/JcrKBDcT5s How to grab it: 1️⃣ Tap the product link above 2️⃣ Add to cart and check out 3️⃣ Order before stock runs out! ⏰ https://t.co/PMvh"
+          "postId": "2121168280039703036",
+          "author": "trygov",
+          "searchJob": "army",
+          "text": "@kb_french @ThymeToBeBorn 16 years ago I thought, “I’m not gonna get the flu shot this year. I feel l like i always get sick from it.” Have had the flu 1 time in 16 years."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121178146917515420",
-          "author": "kent_cc",
-          "searchJob": "kent-state",
-          "text": "As reported widely in the media, Microsoft is experiencing issues that are affecting emails and other systems. These issues are also affecting our systems. We are currently unable to send or receive emails and other systems that rely on ema"
+          "postId": "2121180593501151373",
+          "author": "theghanaweb",
+          "searchJob": "army",
+          "text": "The Ghana Armed Forces (GAF) says it has spent GH¢100,000 on the medical treatment of Sandra Baafi Boateng, a victim of the November 2025 military recruitment stampede in Kumasi, and provided her family with an additional GHç30,000 in finan"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121190000783945806",
-          "author": "yourohionews",
-          "searchJob": "ohio",
-          "text": "The downtown gallery brings together 24 artists and will offer extended holiday shopping hours Dec. 4. https://t.co/FIhUjOka12"
+          "postId": "2121179986975711618",
+          "author": "thepepearmy",
+          "searchJob": "army",
+          "text": "@TenexCoin lets chat now I have a great offer 💭Dm💫"
         },
         {
-          "reason": "unclassified_offer_text",
-          "postId": "2121181997062332688",
-          "author": "landgrant33",
-          "searchJob": "ohio",
-          "text": "The Buckeyes stay busy on the recruiting trail, offering their latest prospect in the 2028 class on Thursday https://t.co/NZ8dxOKWRM"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121171080287285355",
-          "author": "ryanatopen",
-          "searchJob": "class:2026",
-          "text": "solana:rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof — THE PAID GPU DEMAND BET ⠀ A roughly $845 MILLION cryptocurrency. ⠀ More than 82 MILLION frames rendered. ⠀ A network connecting GPU operators with customers needing computational work. ⠀ "
+          "reason": "no_offer_term",
+          "postId": "2121179597630812310",
+          "author": "yaw_smalls",
+          "searchJob": "army",
+          "text": "𝖥𝗋𝗈𝗆 𝖡𝗎𝖽𝗀𝖾𝗍 𝖯𝗋𝗈𝗆𝗂𝗌𝖾 𝗍𝗈 𝖸𝗈𝗎𝗍𝗁 𝖱𝖾𝗌𝗎𝗅𝗍𝗌: 𝖶𝗁𝗒 𝗍𝗁𝖾 𝖦𝗋𝖾𝖾𝗇 𝖠𝗋𝗆𝗒 𝖭𝖾𝖾𝖽𝗌 𝖮𝗄𝖺𝗂 𝖬𝗂𝗇𝗍𝖺𝗁 Ghana’s 2027 budget puts serious money behind young people. The next question is who will help them reac"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 31,
       "reasons": {
-        "bare_mention_requires_llm": 9
+        "school_not_resolved_confidently": 12,
+        "bare_mention_requires_llm": 15,
+        "multiple_resolved_schools": 4
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121177065323999500",
-          "author": "ml_previews",
-          "searchJob": "cincinnati",
-          "text": "Aryna Sabalenka vs Elina Svitolina — a 6-1 record against the better autumn Preview · WTA Finals · Round robin · Friday 13 November 2026 Aryna Sabalenka and Elina Svitolina have had matching weeks at Indian Wells: each has beaten Karolina M"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121195264061161916",
+          "author": "spacelaserz",
+          "searchJob": "texas-tech",
+          "text": "@krikritech @LeaBourseFR Musk will probably come up with some offer if he legally can. I know SpaceX makes rockets and If Jensen lost security clearance, he likely can't be anywhere close to that (due to classification as military tech). He"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121188323112989165",
-          "author": "hdjoss45",
-          "searchJob": "arkansas-state",
-          "text": "@Dan_Smackroyd @YosephHaddad You do know that the Palestinians were offered a state more than just a few times and turned it down every single time. They do not want 2 states. They want no Israel. That’s something Israel can not accept obvi"
+          "postId": "2121195085375185202",
+          "author": "arnaudmercier",
+          "searchJob": "texas-tech",
+          "text": "<p class=\"wp-block-paragraph\"><em>This story is from The Algorithm, our weekly newsletter on AI. To get it in your inbox first,&nbsp;</em><a href=\"https://t.co/cd1zw3IHNv\"><em>sign up here</em></a><em>.</em></p> <p class=\"wp-block-paragraph"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121194519492186530",
+          "author": "_didzw",
+          "searchJob": "texas-tech",
+          "text": "So many platforms now offer full TradingView charts directly within their products that paying for TradingView itself is becoming increasingly difficult to justify. When I first started trading full-time, TradingView was absolutely non-nego"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121193885800243649",
+          "author": "marufhassan76",
+          "searchJob": "texas-tech",
+          "text": "@pijushdutta7 Repurposing old phones offers sustainable tech solutions"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121192383765164369",
+          "author": "triggeredt14441",
+          "searchJob": "texas-tech",
+          "text": "@MCNnews Does this bike offer anything that makes it better than other bikes in its class? Obviously not tech or suspension."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121192271273955509",
+          "author": "zzzwww_02",
+          "searchJob": "texas-tech",
+          "text": "What’s happening around @JensenHuang offers a glimpse into the deep political infighting in the U.S. today. It exposes the growing hostility toward Asian and Chinese within parts of American politics and tech—and shows how media outlets, sh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121191915702133045",
+          "author": "zhaocaistock",
+          "searchJob": "texas-tech",
+          "text": "Why do I absolutely despise Anthropic? Honestly, Claude’s performance on long-context reasoning and coding is often hard to fault. But that only makes the company behind it more repulsive. Anthropic has an arrogance at its core: the constan"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121191692044808521",
+          "author": "arnaudmercier",
+          "searchJob": "texas-tech",
+          "text": "<p class=\"wp-block-paragraph\">When the <a href=\"https://t.co/HFF93AXTSi\">Chinese firm DeepSeek</a> dropped a <a href=\"https://t.co/2W1vrIgJ2M\">large language model called R1</a> last week, it sent <a href=\"https://t.co/GSNX7MyWSv\">shock wav"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121186965315895532",
-          "author": "finsee_main",
-          "searchJob": "arkansas-state",
-          "text": "$EC Q3 2026 earnings: Ecopetrol's refineries earn record profits, but its cash flow shrinks Ecopetrol, Colombia's state-controlled oil producer and refiner, earned far more from fuel while its own fields produced less. Net profit nearly dou"
+          "postId": "2121191167559700756",
+          "author": "mansatesla",
+          "searchJob": "texas-tech",
+          "text": "MARKET UPDATE — FRIDAY, 13 NOVEMBER 2026 Jensen Huang is gone. Nvidia's co-founder resigned on Thursday after 33 years in charge. The shares fell as much as 14% before closing down 4.3%. Yet the S&P 500 is still on course for a gain of near"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121181809618661591",
-          "author": "mrdimasta420",
-          "searchJob": "arkansas-state",
-          "text": "Before a single duck had eaten anything, the whole yard already knew something was about to happen. I keep coming back to that, because nothing in the first seconds of this video looks like an event. There is a wide black tub sitting on a l"
+          "postId": "2121190106073563285",
+          "author": "arnaudmercier",
+          "searchJob": "texas-tech",
+          "text": "<p class=\"wp-block-paragraph\"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href=\"https://t.co/cd1zw3IHNv\"><em>sign up here</em></a><em>.</em></p> <p "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121190085433458846",
+          "author": "jigschat",
+          "searchJob": "texas-tech",
+          "text": "Save this before you scroll, This one post has more than 100+ AI image short prompts inside it & you will never find it again. Categories listed: Portraits & Selfies: 28 Cinematic & Scenes: 28 Product Ads & Campaigns: 28 Illustration & Digi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121189420066017459",
+          "author": "rrahulll07",
+          "searchJob": "texas-tech",
+          "text": "I'm selling https://t.co/xHOay7UHA0 due to personal financial emergency. A memorable domain with strong potential for AI and tech ventures. Serious buyers, DM your best offer. https://t.co/lLLxHUUcsV"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121189248221299138",
+          "author": "domainfq",
+          "searchJob": "texas-tech",
+          "text": ". 🚀 Domain Name For Sale: https://t.co/rRqSTqI8Al A catchy, memorable and highly brandable 4-letter .SI domain, pronounced like “Tide,” with strong commercial potential across ocean technology, marine industries, travel, lifestyle, water s"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121186272723235103",
+          "author": "domainfq",
+          "searchJob": "texas-tech",
+          "text": "🚀 Domain Name For Sale: https://t.co/YJwSLJEDq7 An exceptionally short, memorable and emotionally recognizable 3-letter .APP domain with outstanding brand potential across motherhood, family services, healthcare, food delivery, childcare, "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121185938625999195",
+          "author": "nykrant",
+          "searchJob": "texas-tech",
+          "text": "🚨 THE TECH STOCK SELLOFF MAY NOT BE OVER! Hey @grok, analyze these 25 beaten-down tech stocks and tell me which one offers the best buying opportunity right now — or whether investors should stay bearish. 🔥 MY #1 PICK: AMD — $585.30 (+5.8"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121174438196777171",
-          "author": "wanderingninja7",
-          "searchJob": "arkansas-state",
-          "text": "@SamSiff Modern therapy is the church of feminism. It offers women a liturgy of victimhood that cleanses the conscience, absolves them by rebranding sins as modern diagnoses to ensure a state of perpetual innocence."
+          "postId": "2121193513308008641",
+          "author": "everywhereinone",
+          "searchJob": "army",
+          "text": "@AnnieCshandbag @wesstreeting It's all coming together now. Ex army barracks filled with vermin. Mostly Muslim. Won't sign up to fight Russia if we offer them bacon butties."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121165409726427454",
-          "author": "jessicam6946",
-          "searchJob": "arkansas-state",
-          "text": "@DingDon76708855 I don't think they want peace. They have been offered peace &amp; a state many times over the years &amp; always reject it. They don't want Israel or Jews to exist"
+          "postId": "2121192061512888784",
+          "author": "edgenewsind",
+          "searchJob": "army",
+          "text": "An argument broke out between a female TTE and an Army soldier travelling without a ticket in a General Coach. The soldier offered to pay the fare, but the TTE insisted on the fare along with a fine. Should rules be applied equally to every"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121163441092063297",
-          "author": "mortensoerensen",
-          "searchJob": "arkansas-state",
-          "text": "@mountain_riding @NizMhani @LewisHamilton Sure, buddy, lets pretend Israel controls Egypts border. And pretend that Hamas didn’t take away people’s freedom to vote. And while we’re at it let’s pretend the Palestinians on several occasions h"
+          "postId": "2121184778867102057",
+          "author": "kb_french",
+          "searchJob": "army",
+          "text": "For a long time, the flu shot was mandatory in the army. One year, they offered a new nasal spray vaccine, which I definitely opted for. That year I got the flu just in time to give it to everyone in my wife’s family, on thanksgiving. The n"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121158243145978249",
-          "author": "kashem_towhid",
-          "searchJob": "arkansas-state",
-          "text": "@JonPatt944 @MattS270 Who the hell are you to offer a state to people who own the damn land you fucking tool"
+          "postId": "2121182828981367209",
+          "author": "littlechipfries",
+          "searchJob": "army",
+          "text": "A US Army officer at a NATO base in England offered secrets to \"Russians\"... who turned out to be MI5 working with the FBI 🕵️ Arrested before he handed anything over. Oops 😂 #SpySting #NATO\" 🫂💋 https://t.co/Mjx5cbK961"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121178639215567235",
+          "author": "god_fidence01",
+          "searchJob": "army",
+          "text": "The letter told King Hezekiah that trusting God would get him nowhere. Assyria had already crushed other nations. Why should Jerusalem be any different? Hezekiah read it, went to the temple and spread it out before the Lord. - 2 Kings 19:14"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121177368186253734",
+          "author": "menaunleashed",
+          "searchJob": "army",
+          "text": "Mohammed bin Salman spent seven years trying to get out of Yemen, and this week his army is back to firing hundreds of shells a day there. On 26 March 2015, as a 29-year-old defence minister, he launched Decisive Storm and the expectation i"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121174389349618003",
+          "author": "mykhailorohoza",
+          "searchJob": "army",
+          "text": "In 1947, U.S. Army historian S. L. A. Marshall studied the behavior of American infantrymen during World War II. His findings were shocking: according to his research, fewer than 25% of soldiers actually fired their weapons at the enemy dur"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121183388237214091",
-          "author": "anon7127",
-          "searchJob": "ohio",
-          "text": "The Child Molester (1964) This 20-minute educational short from the Highway Safety Foundation (the same Ohio group behind the infamous real-accident driver-ed films) dramatizes a playground stranger-danger scenario with two young girls offe"
+          "postId": "2121171813082222786",
+          "author": "daradipe",
+          "searchJob": "army",
+          "text": "@ini_cash You serve in the US Army, right? If Nigeria were doing well and offered you the same opportunities, would you still choose to serve in another country’s military? Jesus is forever king!!!"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121171117670838677",
+          "author": "icplegend1966",
+          "searchJob": "army",
+          "text": "🚨♾️🔥 $ICP — MICROSOFT’S GLOBAL OUTAGE IS NOW DISRUPTING UK POLICE, NHS SERVICES, SCHOOLS AND GOVERNMENT OPERATIONS! 🇬🇧 13 NOVEMBER 2026 — THE ELEPHANT IN THE ROOM! 🐘 🚨 THE CONSEQUENCES OF DEPENDENCE ON CENTRALISED DIGITAL INFRASTRUCTU"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 245,
+      "jobs": 247,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -245,59 +367,66 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2121188825934213553",
-          "author": "teresagrobecker",
-          "text": "🚨 AI HAS A NEW CEO. CREDIT STILL WANTS A LEASE. 💰 SpaceX announced more than $74 BILLION in planned AI infrastructure investments across Texas and Arizona. ⚡ Fermi announced a $200 MILLION customer prepayment agreement to advance 600 MW o"
+          "postId": "2121190595112894648",
+          "author": "gelowwsy",
+          "text": "Is the AI bubble actually deflating, or is the market simply becoming more realistic about AI valuations? Anthropic’s upcoming IPO is an interesting case to watch. A few weeks ago, reports suggested that Anthropic could be targeting a valua"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2121188570840875460",
-          "author": "astrohackerlabs",
-          "text": "Singularity Watch, Day 29 — November 13, 2026 Jensen Huang Resigns From Nvidia as Forensic Analysis Finds Blackwell Fingerprints in Chinese AI Models Compute: Jensen Huang Resigns From Nvidia Nvidia's board announced on November 12 that Jen"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2121181809618661591",
-          "author": "mrdimasta420",
-          "text": "Before a single duck had eaten anything, the whole yard already knew something was about to happen. I keep coming back to that, because nothing in the first seconds of this video looks like an event. There is a wide black tub sitting on a l"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121179801666879513",
-          "author": "croyman99",
-          "text": "@Kjay2077 @Cloudlily5 Palestinians don't want a state, they've been offered a state, many times. They want to destroy a state and commit genocide, herein lies the problem"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121046451547521436",
-          "author": "toptierhouston",
-          "text": "Houston has officially announced the signings of its Class of 2027 commits: Triston Hawthorne, Derek Daniels, Oneal Delancy and Darrell Davis. This elite talent haul gives the Cougars the No. 6 recruiting class in the nation, according to 2"
+          "postId": "2121179597630812310",
+          "author": "yaw_smalls",
+          "text": "𝖥𝗋𝗈𝗆 𝖡𝗎𝖽𝗀𝖾𝗍 𝖯𝗋𝗈𝗆𝗂𝗌𝖾 𝗍𝗈 𝖸𝗈𝗎𝗍𝗁 𝖱𝖾𝗌𝗎𝗅𝗍𝗌: 𝖶𝗁𝗒 𝗍𝗁𝖾 𝖦𝗋𝖾𝖾𝗇 𝖠𝗋𝗆𝗒 𝖭𝖾𝖾𝖽𝗌 𝖮𝗄𝖺𝗂 𝖬𝗂𝗇𝗍𝖺𝗁 Ghana’s 2027 budget puts serious money behind young people. The next question is who will help them reac"
         },
         {
           "reason": "other_sport",
-          "postId": "2121105778039763086",
-          "author": "propertynews_i",
-          "text": "The Kansas City Chiefs (@Chiefs) have appointed Clark | AECOM, a joint venture of Clark Construction Group (@ClarkBuilds) and AECOM (@AECOM), to the construction team for the NFL club's new 70,000-person fixed-roof stadium in Wyandotte Coun"
+          "postId": "2121111320745640277",
+          "author": "photog_johnb",
+          "text": "📷 The U.S. National Soccer Hall of Fame announced today the six members of its 2027 class. The prestigious group includes soccer icon David Beckham. Per the Hall of Fame's new release, Beckham helped the Los Angeles Galaxy win two MLS Cup "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121192882136629443",
+          "author": "htb_josh",
+          "text": "Thursday, the Tar Heels picked up a commitment from a 2027 3✮ linebacker who has ties to the program. We break down the stats and film on the fifth linebacker commit in the small class. READ HERE: https://t.co/HlSadGSPd0"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121090304594133139",
+          "author": "ajtarheel247",
+          "text": "Many of #UNC's football commits are in action this weekend, and here is their schedule... https://t.co/LpyhSQKr14"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121086251310956669",
+          "author": "heeltoughblog",
+          "text": "Earlier today, the Tar Heels picked up a commitment from a 2027 3✮ linebacker that has ties to the program. We break down the stats and film on the fifth linebacker commit in the small class. READ HERE: https://t.co/NHwLO5LquQ"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121086132603490326",
+          "author": "htbanthony",
+          "text": "Earlier today, the Tar Heels picked up a commitment from a 2027 3✮ linebacker that has ties to the program. We break down the stats and film on the fifth linebacker commit in the small class. READ HERE: https://t.co/giy0DNCjW4"
         }
       ],
       "stats": {
-        "candidates": 6,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 6,
+        "rejected": 7,
         "reasons": {
-          "roundup_too_long": 3,
-          "no_football_context": 2,
-          "other_sport": 1
+          "roundup_too_long": 2,
+          "other_sport": 1,
+          "reporter_missing_player_name": 3,
+          "no_commit_event": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 31,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-13T10:44:10.327Z"
+    "status rebuilt locally from current store on 2026-11-13T10:59:03.124Z"
   ]
 }
