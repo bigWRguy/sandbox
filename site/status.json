@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T15:57:35.277Z",
+  "generatedAt": "2026-11-13T16:14:32.197Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-13T15:57:34.428Z",
+    "at": "2026-11-13T16:14:31.408Z",
     "jobsTotal": 162,
-    "sweptThisRun": 3,
-    "requests": 4,
-    "fullSweepCycles": 54
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,209 +32,595 @@
   },
   "staleSchools": [
     {
-      "id": "western-kentucky",
+      "id": "eastern-michigan",
       "hours": 2.5
     },
     {
-      "id": "charlotte",
-      "hours": 2.3
-    },
-    {
-      "id": "coastal-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "east-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "houston",
-      "hours": 2.3
-    },
-    {
-      "id": "iowa-state",
-      "hours": 2.3
-    },
-    {
-      "id": "kansas",
-      "hours": 2.3
-    },
-    {
-      "id": "louisville",
-      "hours": 2.3
-    },
-    {
-      "id": "lsu",
-      "hours": 2.3
-    },
-    {
       "id": "memphis",
-      "hours": 2.3
-    },
-    {
-      "id": "miami",
-      "hours": 2.3
-    },
-    {
-      "id": "purdue",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "rice",
+      "hours": 2.5
+    },
+    {
+      "id": "florida-atlantic",
       "hours": 2.3
     },
     {
-      "id": "rutgers",
+      "id": "florida-international",
+      "hours": 2.3
+    },
+    {
+      "id": "fresno-state",
+      "hours": 2.3
+    },
+    {
+      "id": "miami-oh",
+      "hours": 2.3
+    },
+    {
+      "id": "nc-state",
+      "hours": 2.3
+    },
+    {
+      "id": "north-carolina",
+      "hours": 2.3
+    },
+    {
+      "id": "oklahoma-state",
+      "hours": 2.3
+    },
+    {
+      "id": "pittsburgh",
+      "hours": 2.3
+    },
+    {
+      "id": "sam-houston",
+      "hours": 2.3
+    },
+    {
+      "id": "san-diego-state",
+      "hours": 2.3
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.3
+    },
+    {
+      "id": "smu",
+      "hours": 2.3
+    },
+    {
+      "id": "south-carolina",
+      "hours": 2.3
+    },
+    {
+      "id": "stanford",
+      "hours": 2.3
+    },
+    {
+      "id": "syracuse",
+      "hours": 2.3
+    },
+    {
+      "id": "tennessee",
+      "hours": 2.3
+    },
+    {
+      "id": "texas",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-am",
+      "hours": 2.3
+    },
+    {
+      "id": "ucf",
+      "hours": 2.3
+    },
+    {
+      "id": "ucla",
+      "hours": 2.3
+    },
+    {
+      "id": "usc",
+      "hours": 2.3
+    },
+    {
+      "id": "utah",
+      "hours": 2.3
+    },
+    {
+      "id": "western-michigan",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2529505555555556,
-    "p95Hours": 2.256066111111111,
-    "worstHours": 2.503795833333333
+    "medianHours": 1.535428611111111,
+    "p95Hours": 2.2886277777777777,
+    "worstHours": 2.5385441666666666
   },
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 75,
+    "decided": 75,
     "complete": true
   },
   "pending": {
-    "total": 117
+    "total": 118
   },
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 4616,
+    "completeOffers": 4618,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-13T15:57:34.428Z",
-      "got": 12,
-      "new": 8,
-      "lag": 1.32
+      "at": "2026-11-13T16:14:31.399Z",
+      "got": 108,
+      "new": 75,
+      "lag": 0.05
     },
     "search:commit": {
-      "at": "2026-11-13T15:44:14.711Z",
-      "got": 13,
+      "at": "2026-11-13T16:14:31.407Z",
+      "got": 14,
       "new": 3,
-      "lag": 0.24
+      "lag": 0.31
     }
   },
   "audit": {
-    "at": "2026-11-13T15:57:16.608Z",
+    "at": "2026-11-13T16:12:54.321Z",
     "mode": "live",
     "collection": {
-      "returned": 12,
-      "kept": 8,
-      "duplicate": 4,
+      "returned": 108,
+      "kept": 75,
+      "duplicate": 33,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 5,
+      "accepted": 36,
+      "rejected": 39,
       "reasons": {
-        "no_offer_term": 3,
-        "non_fbs_offer_target": 2
+        "no_fbs_school": 21,
+        "non_fbs_offer_target": 5,
+        "no_offer_term": 7,
+        "hard_negative": 6
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2121240457229328519",
-          "author": "keiththorpe_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m very blessed to receive a invitation from @vtosportselite I’m very thankful 🙏🏾!!! https://t.co/xHqYcU3P3B"
+          "reason": "no_fbs_school",
+          "postId": "2121256876381741529",
+          "author": "adityakaul2026",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Extremely grateful to receive an offer from @DartmouthFTBL Thank you @CoachBracken @Coach_McCorkle @coachirishodea @CoachDaft for this opportunity. #GoBigGreen #TheWoods 🌲 @coachstewgocats @thedawsonzim @_Mike_McCabe @OneOnOneKicking https"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121274709711151448",
+          "author": "briggsharris5",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachpowell91. I am blessed to say I have received an offer from @SMWCFB. @coachjohnmyers @CoachChadEaton @VisionQb @KYFUTURESTARS @mason__perkins @Corbin_M33 https://t.co/882L51geLA"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121274132205535245",
+          "author": "tyshonej09",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @NewBobDaviesFB I am excited to announce I have received my 10th offer to play at the collegiate level!! #Blessed #AGTG @SpankOA @Terrance_Kamara @CoachKori44 @Rivals @AllenTrieu @MNFBSpotlight @PrepRedzoneMN"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2121237559594623315",
-          "author": "lukaswitt01",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with Coach Gee. I'm blessed to receive my 3rd offer from Concord University! 🐾 https://t.co/mN3j2CBgen"
+          "postId": "2121273174599893450",
+          "author": "brittain12__",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachMattGrahn I am blessed to receive an offer from the University of Dallas! https://t.co/Hi5tbLjbFA"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2121237295596732454",
-          "author": "yobo_axel",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Campbellsville University after a great talk with @CoachBurns18! @BBoueteEAA @CSmithScout https://t.co/5887XkpEOf"
+          "postId": "2121272972153671961",
+          "author": "aiden_guzman08",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachfern5 I’m blessed to receive an offer from Saint Mary!! #SM @Spire_Football @FerrisFB_ @CoachKelso03 @CoachCoryBrown https://t.co/ud4ICv5ynD"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121270654414835957",
+          "author": "jariahhill",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation With @NathanKero81 Im blessed to receive my first offer from @MRCNorseFB #AGTG https://t.co/GVtlsdnz2O"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121259591694774584",
+          "author": "kaydenpowell30",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachJVerduin, I am grateful to announce I have received my 3rd offer to continue my academic and athletic career from Knox College. @jrbennet @CoachPickSixx @CoachMailo @sedbonner_one3 @drsofferdahl @CoachD"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121258277686153512",
+          "author": "sticks_ty1",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @coachWesM i’m blessed to say i have an official offer from Dodge City CC Conquistadors. @CoachCarrafa @coachrobandrews @coachmorrison58 @CoachM_Gray @CoachSeale_ @RecruitGeorgia @NEGARecruits @wghsfball http"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121250098017689774",
+          "author": "gaelalarcon_08",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @TARIKEMBRACK, I am blessed to receive my 1st offer from @Threshers_FB @ArturoCafe7 @LL7NV @CouchPSports @nmpreps @jose_maxarie07 https://t.co/Q79Esb149G"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121249882958663822",
+          "author": "slaterdixon28",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coach_Poppe, I’m blessed to receive an offer from @CULionsFB! @Coach_Kukesh @Coach_Butler_ @Coach_Wayne55 @Coach_SSStan @CoachHallenbeck @Wick_Football_ https://t.co/o9PE8X39yG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121249402589241818",
+          "author": "oliversims57428",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coach_Poppe I’m blessed to receive an offer from @CULionsFB thank you @Coach_Skjold @Coach_Butler_ @SSmith_II @Coach_Wayne55 @Wick_Football_ @CoachHallenbeck @Coach_SSStan https://t.co/bCrUdzuqER"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121248631260876839",
+          "author": "walkermccl89343",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coach_Poppe, I’m blessed to receive an offer from Columbia University! @Coach_Wayne55 @Coach_SSStan @CoachHallenbeck https://t.co/aTuxpM7GHW"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121267827680457056",
+          "author": "pheajada",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "Blessed to announce that I have received an offer from Minnesota North College – Vermilion! Iron hawks❤️🏀 All glory to God for continuing to open doors and make things possible. I’m truly grateful for this opportunity and thankful to the c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121266897110847833",
+          "author": "tyhefner56",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Thankful for the opportunity to play with this team one last time ‼️‼️‼️ |Class of 27 |📏6’0 |⚖️270 |📚3.2 GPA | |1 offer 💎| Total tkls:50 (35 solos/15 assists) TFLS: 10 FF:3 Sacks:3 (7 QB hurries) interception:1 B.A.M ‼️‼️‼️ (Be A Man) @T"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121274388331024885",
+          "author": "agedits32",
+          "searchJob": "houston",
+          "text": "Houston Christian offers 🏈🔥 @jovaun_davis_ JUCO EDGE | 6’3” • 235 lbs 📍 Garden City CC Congrats to Jovaun Davis on the offer! Coaches looking for edge help, check out his profile and film ⬇️ https://t.co/5soDW9GzRh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121265995461374442",
+          "author": "antsiciliano3_",
+          "searchJob": "houston",
+          "text": "Trinity Valley JUCO QB Jax Latour is the number 1 ranked JUCO QB in the country who can make every throw on the field. Leader, winner, and one of the most talented QB’s from Central FL. @JacksonLaTourQB @Coach_Po @_CoachRuss_ @CoachLeoHunt "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121239669048311962",
+          "author": "houstonsocial",
+          "searchJob": "houston",
+          "text": "November Specials at Utopia Plastic Surgery &amp; MedSpa. These offers are available only through the end of November. Spots are limited as we head into the holiday season. https://t.co/1uUzcEzA1z"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121273018555023432",
+          "author": "margaritaville",
+          "searchJob": "kansas",
+          "text": "Sleigh bells ring, are you listening? In Kansas City, paradise is glistening! 🎄🌴 Margaritaville Hotel Kansas City is putting an island spin on the most wonderful time of year with a holiday pop-up full of festive flavors, seasonal cocktai"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121271874562728095",
+          "author": "kansas_housing",
+          "searchJob": "kansas",
+          "text": "Via @GB_Tribune: \"Cornerstone Commons would offer apartments ranging from studios to two-bedroom units, with preliminary monthly rents estimated between $450 and $1,250. Final rents would depend on financing and other factors.\" Read more: h"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121266969265520703",
+          "author": "auth_algeria",
+          "searchJob": "kansas",
+          "text": "🇩🇿 🇺🇸 There is something deeply moving about receiving warmth, admiration, and appreciation where none was expected. That is what the people of Lawrence, Kansas, spontaneously offered Algeria. Today, Algeria welcomes them in return. A s"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121234805451108486",
-          "author": "coltonharrismus",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive these nominations! God is GOOD ALL THE TIME! https://t.co/riouVpsNA7"
+          "postId": "2120197044937572834",
+          "author": "ialgeria3",
+          "searchJob": "kansas",
+          "text": "🔴 يواصل الوفد الأمريكي 🇺🇲 زيارته لمدينة الجزائر العاصمة 🇩🇿 https://t.co/zWrMCmdMvZ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121270067451011326",
+          "author": "heraldsports",
+          "searchJob": "miami",
+          "text": "Dolphins’ Brewer out Sunday. Hafley offers update on Bell, his message for McCord https://t.co/kydWWuoh7h"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121248137666834932",
-          "author": "maspecialneeds",
-          "searchJob": "massachusetts",
-          "text": "Adaptive Therapeutic Recreation in Burlington, MA https://t.co/VLHzbIyHrc @burlingtonlibma @WMHSTanners @Woburnrec @WoburnSEPAC @Woburnmass https://t.co/47z61sqw9H"
+          "postId": "2121266701887025254",
+          "author": "lineonyx",
+          "searchJob": "miami",
+          "text": "ATTENTION LADIES & GENTS! Start your FAMILY'S NEW TREND... Getting ready for your HOLIDAY SHOPPING with ONYX SKIN CARE LINE and all our ORGANIC and VEGAN AFFORDABLE LUXURY SKINCARE PRODUCTS! **SHOP: https://t.co/MwWP0ztQyB We look forward t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121265117819986398",
+          "author": "lineonyx",
+          "searchJob": "miami",
+          "text": "Start your FAMILY'S NEW TREND... Getting ready for your HOLIDAY SHOPPING with ONYX SKIN CARE LINE and all our ORGANIC and VEGAN AFFORDABLE LUXURY SKINCARE PRODUCTS! **SHOP: https://t.co/3vKb3n8jWy We look forward to serving you and you are "
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 2,
+      "accepted": 2,
+      "rejected": 34,
       "reasons": {
-        "multiple_resolved_schools": 1,
-        "bare_mention_requires_llm": 1
+        "school_not_resolved_confidently": 14,
+        "bare_mention_requires_llm": 15,
+        "multiple_resolved_schools": 4,
+        "unresolved_offer_target": 1
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121251272598679992",
-          "author": "maketexasblue22",
-          "searchJob": "massachusetts",
-          "text": "Debt collectors file over 80,000 lawsuits in Utah this year as households hit the breaking point in a Trump Republican economy. https://t.co/X8ZlZAtO6d Utah's surge in collection lawsuits comes as many households struggle with growing debt "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121242220036501883",
+          "author": "laitegleaton52",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After visiting in the spring and meeting the amazing staff I am extremely blessed and grateful to announce my first offer to Stevenson university, go mustangs. @coachjyairt @NPCoachZim #agtg https://t.co/dbJKGzIGcs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121248809111925040",
-          "author": "owengregorian",
-          "searchJob": "washington-state",
-          "text": "Oracle-powered programs deliver record 1 GW in peak demand cuts for US utilities | Aamir Khollam, Interesting Engineering Electricity demand can surge during extreme temperatures, putting additional pressure on power grids. US utilities are"
+          "postId": "2121266751182950556",
+          "author": "the_monarch",
+          "searchJob": "houston",
+          "text": "@SwedenG No, she lives in Houston, but, I sincerely appreciate your kind offer to help I out around here at Casa de Chaos. PS: No longer a blonde... Which kinda ruins our #ThinBlondeLine merch sales. Think -- REEEEEEEEEED!!!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121259445124538501",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for SLIPKNOT concert on August 6 at Daikin Park, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121258067979300960",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for Fantasia concert on March 12 at Toyota Center, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121257686306025679",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for KAMIJO concert on Feb 7 at White Oak Music Hall, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121257355333488744",
+          "author": "juancoli1",
+          "searchJob": "houston",
+          "text": "HOUSTON, WE HAVE A PROBLEM WASHINGTON’S DARKEST SECRET THE TRUTH THAT NEVER SEES THE LIGHT OF DAY THE PATTERN REPEATS ITSELF IN CONGRESS, THE SENATE, AND THE PRESIDENCY It is curious that Christians are a minority in Congress and the Senate"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121257329245204791",
+          "author": "usstoneoutlet",
+          "searchJob": "houston",
+          "text": "Upgrade your kitchen with our stunning Houston Blue cabinets! 💙 This collection offers a modern shaker style perfect for any home remodel. Explore the full range now! https://t.co/Rzmqz3aMv5 #HoustonBlue #KitchenCabinets #ShakerCabinets #K"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121254462039933361",
+          "author": "ohhtyg",
+          "searchJob": "houston",
+          "text": "Hey I Have two spare tickets to Chris Brown &amp; Usher concert for Nov 24 at Reliant Stadium, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🤍 wts wtb iso wtt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121252561105637439",
+          "author": "ohhtyg",
+          "searchJob": "houston",
+          "text": "Hey I Have two spare tickets to Rawayana concert for Nov 19 at 713 Music Hall, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🤍 wts wtb iso wtt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121264532127437174",
+          "author": "pmaxx14",
+          "searchJob": "louisville",
+          "text": "The actress who toasted Jefferson Davis on a Union stage. In a Louisville theater, two Confederate officers offered Pauline Cushman money to raise her glass to the South mid-play. She asked the Union provost marshal first. He told her to ta"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121248617230967254",
+          "author": "smithson_kit",
+          "searchJob": "louisville",
+          "text": "@ainsleyearhardt :Maria's Post copied from Facebook. Maria Teresa Rodriguez is the concerned parent who asked questions of the Islam religion display in the Catholic girls' high school in Louisville, KY Assumption High School. \"I had my mee"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121245631368872364",
+          "author": "mlombardinfl",
+          "searchJob": "louisville",
+          "text": "Charlie Strong estimates he interviewed for 20 head coaching jobs before he got one. Lou Holtz coached his answers at South Carolina. Athletic director Mike McGee told him what the people conducting the interviews wanted to hear. The feedba"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121269760771928125",
+          "author": "almaulinipwmcg",
+          "searchJob": "miami",
+          "text": "The AM Brief, Friday November 13, 2026 Part 5 Happy Friday the 13th, It’s 10am in Miami and here is a recap of events in the Space sector that caught my eye. Part 5 NASA has opened up to $10 billion in lunar cargo delivery contracts to eigh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121265909016744398",
+          "author": "miamibeachnews",
+          "searchJob": "miami",
+          "text": "The City of Miami Beach has partnered with Feeding South Florida to offer a free food distribution event for residents once a month. Upcoming Distribution: Thursday, November 19 9 AM – 11 AM Parking Lot P60 4000 Chase Avenue Residents are e"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121265240440459566",
+          "author": "ad1968f",
+          "searchJob": "miami",
+          "text": "🇺🇸 🇮🇱 | Gofman’s Washington–Miami Mission: Where Diplomacy and Military Deterrence Converge Mossad Director Roman Gofman’s visit to the United States deserves attention not simply for the senior officials he is meeting, but for the sequ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121264643490365918",
+          "author": "offshoreinsider",
+          "searchJob": "miami",
+          "text": "NFL BETTING MARKET ALERT - FRIDAY, NOVEMBER 13, 2026 TWO MASSIVE NFL TOTALS ADJUSTMENTS! RAMS-CARDINALS DROPS AS MANY AS EIGHT POINTS, WHILE MIAMI PREPARES TO START AN UNTESTED QUARTERBACK! NFL - LOS ANGELES RAMS AT ARIZONA CARDINALS Sunday"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121264523869049147",
+          "author": "cmwalker",
+          "searchJob": "miami",
+          "text": "“Nobody can guarantee results.” But you want me to guarantee your payment for the next six months. Hyundai guaranteed the engine in every car it sold for 10 years. The average business owner won't guarantee their own work for 10 days. Hyund"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121263117124477190",
+          "author": "almaulinipwmcg",
+          "searchJob": "miami",
+          "text": "The AM Brief, Friday November 13, 2026 Part 2 Happy Friday the 13th, It’s 10am in Miami and here is a recap of labor related events that caught my eye. Part 2 Recent labor market data updates revealed notable upward revisions to late summer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121253046248165555",
+          "author": "ohhtyg",
+          "searchJob": "miami",
+          "text": "Hey I Have two spare VIP tickets to XLOV concert for Dec 03 at The Fillmore, Miami Beach, FL. Letting them go for face value but open to offers. DM me if interested! 🤍 wts wtb iso wtt"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121246225710416021",
+          "author": "sensiblesteve1",
+          "searchJob": "miami",
+          "text": "@ESPNCleveland @thelandondemand @HammerNation19 Rizz… Is the Miami thing a booze and coke thing or could it be these guys eat their faces off with all the delicious food Miami has to offer and can’t make it down the court because of that? S"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121271874957033934",
+          "author": "pcolachamber",
+          "searchJob": "charlotte",
+          "text": "✂️✨ We loved celebrating Amscot with a ribbon cutting! ✨✂️ Amscot offers a variety of convenient financial services designed to help customers manage everyday financial needs. Services include cash advances, installment loans, check cashing"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121262822252237310",
+          "author": "rinaldi_sauce",
+          "searchJob": "charlotte",
+          "text": "@DJAceNBA @ShaxNBA If charlotte offers Moussa Diabate for him, are you taking that trade though?"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121260478362267998",
+          "author": "georgeontap",
+          "searchJob": "charlotte",
+          "text": "Sam Hartman is a practice squad quarterback for the Commanders, and he's now the next star of ABC's \"The Bachelor.\" He landed the lead on TV before he got one in the NFL. He's 27 and from Charlotte, and in college he was one of the most pro"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121257079499350283",
+          "author": "arfb",
+          "searchJob": "charlotte",
+          "text": "Applications close TODAY for the 2026 Young Farmers & Ranchers Discussion Meet competition. The Discussion Meet simulates a committee meeting where discussion and active participation are expected from each participant. By participating, yo"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 248,
-      "swept": 3,
-      "failed": 1,
-      "requests": 4,
-      "errors": [
-        "western-kentucky: rate limited"
-      ]
+      "jobs": 253,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
-      "samples": [],
+      "samples": [
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121271874957033934",
+          "author": "pcolachamber",
+          "text": "✂️✨ We loved celebrating Amscot with a ribbon cutting! ✨✂️ Amscot offers a variety of convenient financial services designed to help customers manage everyday financial needs. Services include cash advances, installment loans, check cashing"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121266989347885483",
+          "author": "amandap79729587",
+          "text": "A scientific demolition of climate-change denial How a collection of genuine geological facts is manipulated to produce a profoundly misleading conclusion. The passage is an unusually sophisticated example of climate-change misinformation. "
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121247077892051002",
+          "author": "amandap79729587",
+          "text": "@LilianaHebe A scientific demolition of climate-change denial How a collection of genuine geological facts is manipulated to produce a profoundly misleading conclusion. The passage is an unusually sophisticated example of climate-change mis"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121246978055037001",
+          "author": "amandap79729587",
+          "text": "A scientific demolition of climate-change denial How a collection of genuine geological facts is manipulated to produce a profoundly misleading conclusion. The passage is an unusually sophisticated example of climate-change misinformation. "
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121246297592050165",
+          "author": "amandap79729587",
+          "text": "A scientific demolition of climate-change denial How a collection of genuine geological facts is manipulated to produce a profoundly misleading conclusion. The passage is an unusually sophisticated example of climate-change misinformation. "
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121246138883866891",
+          "author": "amandap79729587",
+          "text": "A scientific demolition of climate-change denial How a collection of genuine geological facts is manipulated to produce a profoundly misleading conclusion. The passage is an unusually sophisticated example of climate-change misinformation. "
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121246076271305213",
+          "author": "amandap79729587",
+          "text": "@PeterDClack A scientific demolition of climate-change denial How a collection of genuine geological facts is manipulated to produce a profoundly misleading conclusion. The passage is an unusually sophisticated example of climate-change mis"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121237346024575005",
+          "author": "yoonagain3102",
+          "text": "Peace talks to end the war in Ukraine could take a major turn as Ukrainian President Volodymyr Zelenskyy demands European nations directly join the negotiating team. Here is the detailed, easy-to-understand breakdown of Zelenskyy's strategi"
+        }
+      ],
       "stats": {
-        "candidates": 0,
+        "candidates": 11,
         "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "rejected": 11,
+        "reasons": {
+          "juco_or_transfer": 7,
+          "roundup_too_long": 2,
+          "other_sport": 2
+        }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 34,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-13T15:57:35.278Z"
+    "status rebuilt locally from current store on 2026-11-13T16:14:32.198Z"
   ]
 }
