@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T11:58:47.381Z",
+  "generatedAt": "2026-11-13T12:14:03.004Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-13T11:58:46.571Z",
+    "at": "2026-11-13T12:14:02.452Z",
     "jobsTotal": 162,
-    "sweptThisRun": 24,
-    "requests": 24,
-    "fullSweepCycles": 7
+    "sweptThisRun": 21,
+    "requests": 21,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,56 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "middle-tennessee",
-      "hours": 2.3
-    },
-    {
-      "id": "missouri-state",
-      "hours": 2.3
-    },
-    {
-      "id": "south-alabama",
-      "hours": 2.3
-    },
-    {
-      "id": "south-florida",
-      "hours": 2.3
-    },
-    {
-      "id": "temple",
-      "hours": 2.3
-    },
-    {
-      "id": "texas-state",
-      "hours": 2.3
-    },
-    {
-      "id": "virginia",
-      "hours": 2.3
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "wake-forest",
-      "hours": 2.3
-    },
-    {
-      "id": "west-virginia",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.023516111111111,
-    "p95Hours": 2.2611258333333333,
-    "worstHours": 2.261126111111111
+    "medianHours": 1.024755,
+    "p95Hours": 2.0294672222222223,
+    "worstHours": 2.0294672222222223
   },
   "decisionCoverage": {
-    "total": 16,
-    "decided": 16,
+    "total": 29,
+    "decided": 29,
     "complete": true
   },
   "pending": {
@@ -96,167 +55,258 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-13T11:58:46.571Z",
-      "got": 25,
-      "new": 16,
-      "lag": 0.2
+      "at": "2026-11-13T12:14:02.451Z",
+      "got": 54,
+      "new": 29,
+      "lag": 0.04
     },
     "search:commit": {
-      "at": "2026-11-13T11:28:45.596Z",
-      "got": 14,
-      "new": 0,
-      "lag": 3.5
+      "at": "2026-11-13T12:14:02.452Z",
+      "got": 29,
+      "new": 1,
+      "lag": 4.26
     }
   },
   "audit": {
-    "at": "2026-11-13T11:57:12.580Z",
+    "at": "2026-11-13T12:12:31.924Z",
     "mode": "live",
     "collection": {
-      "returned": 25,
-      "kept": 16,
-      "duplicate": 9,
+      "returned": 54,
+      "kept": 29,
+      "duplicate": 25,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 8,
-      "rejected": 8,
+      "accepted": 16,
+      "rejected": 13,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 4,
-        "hard_negative": 2
+        "no_fbs_school": 4,
+        "no_offer_term": 8,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2121206209038651830",
-          "author": "tresliggon",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After a great conversation with Coach @GuidoFalbo I’m blessed and grateful to receive my first D1 offer from @VMI_Football @CoachAIngram @JaredBackus1 @conner14hayes @VMIAthletics #KeepingtheFaithandFocus https://t.co/KV6nZSfSK2"
+          "postId": "2121204569132699684",
+          "author": "x_mindfulness_x",
+          "searchJob": "virginia",
+          "text": "Recurring nightmares after trauma can signal the brain is still carrying it. New research: survivors offered sleep-focused therapy right after trauma started treatment at twice the usual rate. Nightmares respond to care. Trauma-informed cou"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121199335719190789",
+          "author": "valewrites99",
+          "searchJob": "virginia",
+          "text": "Forbidden/ Cheating/ 18+/ Dark Romance https://t.co/bDQ0iJB5m9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121198421230915718",
+          "author": "hquphorialmedia",
+          "searchJob": "virginia",
+          "text": "https://t.co/zBqqnXBCuU"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120895931843596593",
+          "author": "xerox_349",
+          "searchJob": "wake-forest",
+          "text": "November 12th, 2026. Thursday of the 24th week after Pentecost. Daily Readings: Epistle. 1 Thessalonians 5:1-8 Gospel. Luke 13:1-9 Epistle: 1 Thessalonians 5:1–8 (KJV 1900) 5:1 But of the times and the seasons, brethren, ye have no need tha"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120515786897006648",
+          "author": "xerox_349",
+          "searchJob": "wake-forest",
+          "text": "November 11th, 2026. Wednesday of the 24th week after Pentecost. Daily Readings: Epistle. 1 Thessalonians 4:1-12 Gospel. Luke 12:48-59 Epistle: 1 Thessalonians 4:1–12 (KJV 1900) 4:1 Furthermore then we beseech you, brethren, and exhort you "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121180979460980953",
+          "author": "infoyogatravel",
+          "searchJob": "wake-forest",
+          "text": "You can be disciplined, successful, and physically active while quietly losing your ability to recover. Here’s how chronic stress affects your body, why high performance masks exhaustion, and how Yoga and Pranayama rebuild your resilience t"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121205613799653549",
-          "author": "justsomeonerr",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG I am blessed to receive my first offer from @OfficialCCCFL and @wright_woody @CoachFoster16 @AL_Recruiting @HallTechSports1 @BrookwoodFBall https://t.co/bKvDaPRxmk"
+          "postId": "2121211488904032359",
+          "author": "stnweather",
+          "searchJob": "middle-tennessee",
+          "text": "🥶 THE CHILLY AIR HAS ARRIVED, AND IT'S HERE TO STAY FOR A FEW DAYS! Our much cooler air mass will definitely make its presence known across Southern Middle Tennessee on this Friday, with temperatures starting off in the lower 30s. By this "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121208201286668728",
-          "author": "hotgeeklucy",
-          "searchJob": "miami",
-          "text": "Microsoft outage hits Day 2 Inside the 24 hours the inbox went dark... and why the world’s smartest AI is still chained to a 1990s mail server👇 https://t.co/9LGg2RhB2v"
+          "postId": "2121194426475463150",
+          "author": "paytmcheckin",
+          "searchJob": "temple",
+          "text": "🌅 Ghats ki raunak, apno ka saath… Plan your last-minute #Chhath trip. https://t.co/dtTCBikb5A"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121207319883133352",
-          "author": "bohemianswarm",
-          "searchJob": "miami",
-          "text": "\"The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little.\" — Franklin D. Roosevelt, Second Inaugural Address, January 20, 1937 https://t.co/i"
+          "postId": "2121188815003947223",
+          "author": "thatbrian",
+          "searchJob": "temple",
+          "text": "https://t.co/hJc7GptNhA"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121186951391052273",
+          "author": "awazthevoiceurd",
+          "searchJob": "temple",
+          "text": "पूर्व क्रिकेटर सुरेश रैना ने उज्जैन के महाकालेश्वर मंदिर में पूजा-अर्चना की और भस्म आरती में शामिल होकर भगवान महाकाल का आशीर्वाद लिया। https://t.co/HlzEID2r6n #SureshRaina #MahakaleshwarTemple #Ujjain #BhasmaAarti #Mahakal #JaiMahakal #Awaz"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121211474467074183",
+          "author": "verilay_",
+          "searchJob": "texas",
+          "text": "The companies that verify your identity are now the ones losing it. Identity verification vendors sit between you and hundreds of apps. They see your passport, your selfie, and your address. Over the last two years, that position has made t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121207062491504898",
+          "author": "bijoyghosh70",
+          "searchJob": "texas",
+          "text": "BIM, University of Texas at Arlington to offer joint Master of Science in AI for Business programme.The programme will be hosted at IIT Madras Research Park. https://t.co/9W9FXjj2Xf @Rohangdas @BIMTrichy @iitm_respark @terajasimhan https://"
         },
         {
           "reason": "hard_negative",
-          "postId": "2121204095746773487",
-          "author": "gonter_a6188",
-          "searchJob": "north-carolina",
-          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121203841139912992",
-          "author": "gonter_a6188",
-          "searchJob": "north-carolina",
-          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120983448995402160",
-          "author": "kalshi_film",
-          "searchJob": "north-carolina",
-          "text": "Margaret Qualley is once again the favorite to be cast as the next Bond girl https://t.co/bSsjm9NTHS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121205505095782533",
-          "author": "althorne_toren",
-          "searchJob": "pittsburgh",
-          "text": "https://t.co/FE9ZGfFFrR"
+          "postId": "2121197533880000915",
+          "author": "scalingreport",
+          "searchJob": "texas",
+          "text": "Nvidia lost its chief executive days before earnings while the industry committed capital it has not earned yet. NVIDIA · RESIGNATION EFFECTIVE IMMEDIATELY Nvidia said November 12 that Jensen Huang resigned as president, chief executive and"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 8,
+      "rejected": 16,
       "reasons": {
-        "bare_mention_requires_llm": 4,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 9,
+        "school_not_resolved_confidently": 4,
+        "multiple_resolved_schools": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121193716459147330",
-          "author": "semasocial",
-          "searchJob": "purdue",
-          "text": "The Purdue University Summer Undergraduate Research Fellowship (SURF) 2027 offers undergraduate students an exciting opportunity to gain practical. https://t.co/JhUShvtl7T #Business #Kenya"
+          "postId": "2121200500217725294",
+          "author": "super1990",
+          "searchJob": "virginia",
+          "text": "🔌 Who's Actually Making This Argument This isn't an anonymous account posting screenshots. The person behind it is Susan Luschas — PhD in electrical engineering from MIT, who worked on some of the first WiFi, Bluetooth, and cell phone chip"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121206994048516210",
-          "author": "abandnation",
-          "searchJob": "miami",
-          "text": "Myrah Zeigler was 19 years old, a college student from Fort Pierce, and on the night of May 19, 2025, she did everything people are told to do when they are in danger. She found the police. She told them she was scared. She asked them to wa"
+          "postId": "2121186413203120501",
+          "author": "hell_line0",
+          "searchJob": "virginia",
+          "text": "Legal news out of Virginia: a 15-year-old was sexually assaulted in class, and the school offered trauma therapy..but only if the family dropped its lawsuit and kept quiet. The school reportedly said: \"We are asking for some things in retur"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121204275703431673",
-          "author": "happyclip_",
-          "searchJob": "miami",
-          "text": "Vickie is 27 and weighs 98 pounds. She shoots a speedball up to 18 times a day and stays awake for 48 to 72 hours. She went to a hospital for an infected finger and someone there jabbed her with a dirty needle, did it, and never came back. "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121213935525462317",
+          "author": "xerox_349",
+          "searchJob": "wake-forest",
+          "text": "November 13th, 2026. St John Chrysostom, Archbishop of Constantinople. Daily Readings: Vespers. Composite 2 - Proverbs 10, 3, 8, Composite 4 - Proverbs 10; Wisdom of Solomon 6, 7, 8, 9, Composite 5 - Wisdom of Solomon 4, 6, 7, 2 Matins Gosp"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121178563441570069",
+          "author": "45acpete",
+          "searchJob": "wake-forest",
+          "text": "@donkyincrisis Wake up, have a Gatorade followed by a bottle of water. Check my indeed offers, email the potential employer I have been in contact with for the last 4 weeks again, get no response or a vague response, drink myself to sleep. "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121204204760900038",
-          "author": "getchirpsports",
-          "searchJob": "miami",
-          "text": "THE EARLY CHIRP 🐦 The early bird gets the worm. Here's everything from last night. 🏆 Player of the night: Marcus Stokes (MEM), 15/31, 313 YDS, 3 TD, 2 RUSH TD, 9.4 Chirp Rating 🎯 The Sim went 11-5 on last night's games ☕️ TOP OF THE MORN"
+          "postId": "2121210994345058464",
+          "author": "edisoncre",
+          "searchJob": "south-florida",
+          "text": "Position your operation on nearly 5 acres of fully paved, fenced, and lit industrial land in one of Broward County’s most connected logistics corridors. This maintenance facility offers the flexibility and functionality needed for fleet ope"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121194568570052915",
-          "author": "tuaturtle",
-          "searchJob": "miami",
-          "text": "@Insidethebulpen @Telronx No trade was offered cause when Miami called Detroit to gauge their interest they made it clear there was Zero chance they would trade him"
+          "postId": "2121207379672928421",
+          "author": "gdxtrader",
+          "searchJob": "south-florida",
+          "text": "$PBR $PBR is holding horizontal support here, and over the last few sessions bulls have stepped in to defend the level. That defense keeps the immediate structure from breaking down and gives buyers a defined area to work from. The RSI is o"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121184362414674128",
-          "author": "ebioweipaper",
-          "searchJob": "miami",
-          "text": "Pablo Escobar doesn’t talk about cocaine. He talks about potatoes. In this tense negotiation, he calmly breaks down market risks, logistics, and profit margins while using everyday language to discuss a multi-million-dollar smuggling operat"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121181596653072564",
-          "author": "freddiesantiag7",
-          "searchJob": "miami",
-          "text": "Start with 1.5 acres, then shape the vision. 🌴 This Miami land on SW sw 32 st offers room for a dream estate, private retreat, or investment opportunity—offered at $190,000. https://t.co/rvVxGUu9pd #MiamiLand #LandForSale https://t.co/DB5i"
+          "postId": "2121205183812145466",
+          "author": "trader_f_r",
+          "searchJob": "south-florida",
+          "text": "Gold continues to print bearish price action, held back by a strong US dollar. But continued central bank buying and seasonal tailwind offers hope. Still, reversal stick must be observed first for bulls. More insights 👉 https://t.co/vB9zN4"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121191593663500349",
-          "author": "aakashgupta",
-          "searchJob": "north-carolina",
-          "text": "Margaret Qualley trained her whole childhood to be a professional ballerina. At 16 she finally got offered the job, and she quit. Now the ballet she walked away from is a big reason Kalshi has her at 48% to be the next Bond girl. She left h"
+          "postId": "2121214341756375452",
+          "author": "bharatvaarta",
+          "searchJob": "temple",
+          "text": "Do we visit temples out of faith, tradition, or simply because everyone else is going? Are we following a genuine inner calling, continuing a family tradition, or just ticking places off a list to post about on social media? In this convers"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121211959890608591",
+          "author": "waedrinner",
+          "searchJob": "temple",
+          "text": "The biological layer under power: Human history is typically explained in terms of power, ideology, economics, or occult networks. These analyses are often insightful, but they almost always miss a fundamental layer: the biological. Not as "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121199494117122360",
+          "author": "prodromous69",
+          "searchJob": "temple",
+          "text": "Chronological Bible — Day 51 of 548 (Exodus / Wilderness / Law) Today's reading: Leviticus 11–12 https://t.co/92NezCl08I Meaning: Leviticus 11 sets Israel apart by what they may eat and touch: clean and unclean creatures mark a people calle"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121187742998794329",
+          "author": "jayanta_malla",
+          "searchJob": "temple",
+          "text": "Visited the revered Shri Shri Maa Kalyani Devalaya alongside Hon’ble CM Dr. @himantabiswa dangoriya and offered prayers, seeking the blessings of the Divine Mother for the peace, prosperity and well-being of all. The visit was followed by t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121181286190485770",
+          "author": "facedna_app",
+          "searchJob": "temple",
+          "text": "On the Nile in present-day Sudan, Kerma was the centre of a powerful Nubian kingdom. Its monumental mudbrick temple, fine black-topped pottery and burial traditions offer glimpses of a thriving city more than 3,500 years ago. https://t.co/0"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121180083084030310",
+          "author": "rajevkram",
+          "searchJob": "temple",
+          "text": "A pic of newly appointed Sheohar SP Mohibullah Ansari offering prayers at a Hindu temple in Bihar has gone viral. After taking charge on Nov 7, the IPS officer visited the famous Dekuli Dham Mandir, where he offered puja to Bholenath and wh"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121179423328387148",
+          "author": "sringerimath",
+          "searchJob": "temple",
+          "text": "Revisiting Blessed Glimpses from Sri Kshetra Kollur | Karnataka-Maharashtra Dharma Vijaya Yatra 2026 The Karnataka-Maharashtra Dharma Vijaya Yatra of Jagadguru Shankaracharya Sri Sri Vidhushekhara Bharati Mahaswamiji commenced on 27th Octob"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121214392746569970",
+          "author": "scvboc",
+          "searchJob": "south-carolina",
+          "text": "This Veterans Small Business Week, we celebrate retired Air Force Maj. Christina Harris and MetamorphE! Marking 2 years in business, her practice offers psychotherapy and equine-assisted psychotherapy. https://t.co/h0AH4wzf4C https://t.co/b"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121205070830182596",
+          "author": "marspeacemaker",
+          "searchJob": "texas",
+          "text": "❤️ “The Democrats Love Me” In ages uncounted I have walked among the living, yet never once have I cast a ballot in any lifetime. I simply write when the seasons of choosing arrive, and I align myself only with that current wherein my spiri"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 242,
+      "jobs": 245,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -266,15 +316,15 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2121204095746773487",
-          "author": "gonter_a6188",
-          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
+          "postId": "2121197533880000915",
+          "author": "scalingreport",
+          "text": "Nvidia lost its chief executive days before earnings while the industry committed capital it has not earned yet. NVIDIA · RESIGNATION EFFECTIVE IMMEDIATELY Nvidia said November 12 that Jensen Huang resigned as president, chief executive and"
         },
         {
-          "reason": "roundup_too_long",
-          "postId": "2121203841139912992",
-          "author": "gonter_a6188",
-          "text": "killed by illegal immigrants march aperil 2026 April 2026 Israel Itzep Ixcoy (April 1, 2026) On April 1, 2026, Guatemalan national Israel Itzep Ixcoy was arrested for allegedly kidnapping and sexually assaulting a 15-year-old girl in Ogden,"
+          "reason": "other_sport",
+          "postId": "2121066033473843512",
+          "author": "csmithscout",
+          "text": "New #Stanford Commitment: @gabrielcabell1 - Great combo of athleticism, size &amp; speed (Has the college look) - Physical pass catcher; Does well vs. contact - Strong hands, good vert; Red zone threat (High FBI) #Lions #MidTN28 #CSS #TNHSF"
         }
       ],
       "stats": {
@@ -282,17 +332,18 @@
         "accepted": 0,
         "rejected": 2,
         "reasons": {
-          "roundup_too_long": 2
+          "roundup_too_long": 1,
+          "other_sport": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 8,
+      "rejectedCandidates": 16,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-13T11:58:47.382Z"
+    "status rebuilt locally from current store on 2026-11-13T12:14:03.004Z"
   ]
 }
