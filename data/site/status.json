@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:29:31.401Z",
+  "generatedAt": "2026-11-13T01:42:49.680Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-13T01:29:30.708Z",
+    "at": "2026-11-13T01:42:48.893Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
-    "fullSweepCycles": 8
+    "sweptThisRun": 6,
+    "requests": 7,
+    "fullSweepCycles": 27
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,110 +32,98 @@
   },
   "staleSchools": [
     {
-      "id": "army",
+      "id": "texas-tech",
       "hours": 3
     },
     {
-      "id": "buffalo",
-      "hours": 2.8
-    },
-    {
-      "id": "liberty",
-      "hours": 2.8
-    },
-    {
-      "id": "texas-tech",
-      "hours": 2.8
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.8
-    },
-    {
-      "id": "western-kentucky",
-      "hours": 2.8
-    },
-    {
       "id": "arkansas",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "central-michigan",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "charlotte",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "coastal-carolina",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "duke",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "east-carolina",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "eastern-michigan",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "florida-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "kentucky",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "maryland",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "memphis",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "michigan-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "mississippi-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "missouri",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ohio-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "rice",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "san-diego-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "wisconsin",
+      "hours": 2.5
+    },
+    {
+      "id": "georgia-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "houston",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.036098888888889,
-    "p95Hours": 2.275013611111111,
-    "worstHours": 3.031938333333333
+    "medianHours": 1.2578427777777779,
+    "p95Hours": 2.4967575,
+    "worstHours": 2.9957041666666666
   },
   "decisionCoverage": {
-    "total": 64,
-    "decided": 64,
+    "total": 34,
+    "decided": 34,
     "complete": true
   },
   "pending": {
@@ -144,7 +132,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4604,
     "incompleteOffers": 0
@@ -152,454 +140,337 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-13T01:29:30.687Z",
-      "got": 97,
-      "new": 64,
-      "lag": 0.06
+      "at": "2026-11-13T01:42:48.893Z",
+      "got": 47,
+      "new": 34,
+      "lag": 0.02
     },
     "search:commit": {
-      "at": "2026-11-13T01:29:30.707Z",
-      "got": 21,
-      "new": 6,
-      "lag": 1.68
+      "at": "2026-11-13T01:42:48.893Z",
+      "got": 0,
+      "new": 0,
+      "lag": null
     }
   },
   "audit": {
-    "at": "2026-11-13T01:27:53.989Z",
+    "at": "2026-11-13T01:42:17.330Z",
     "mode": "live",
     "collection": {
-      "returned": 97,
-      "kept": 64,
-      "duplicate": 32,
+      "returned": 47,
+      "kept": 34,
+      "duplicate": 12,
       "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 42,
-      "rejected": 22,
+      "accepted": 20,
+      "rejected": 14,
       "reasons": {
-        "no_fbs_school": 11,
-        "no_offer_term": 6,
-        "hard_negative": 3,
-        "non_fbs_offer_target": 2
+        "no_fbs_school": 8,
+        "no_offer_term": 3,
+        "hard_negative": 3
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2121015773460410572",
-          "author": "theaeondaily",
-          "searchJob": "washington",
-          "text": "Turns Out Those Microsoft Employees Might Not Have Been Deadweight After All Redmond, Washington: It’s FAFO for Microsoft today as an Outlook outage servers are crashing globally. The outage comes right after Microsoft offered buyouts to a "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121013086912119293",
-          "author": "michaelarothman",
-          "searchJob": "washington",
-          "text": "𝐔.𝐒. 𝐌𝐀𝐑𝐒𝐇𝐀𝐋𝐒 𝐂𝐀𝐔𝐆𝐇𝐓 𝐙𝐈𝐍𝐓𝐙 𝐈𝐍 𝐀𝐑𝐈𝐙𝐎𝐍𝐀 𝐅𝐎𝐑 𝐃𝐑𝐔𝐆𝐆𝐈𝐍𝐆 𝐇𝐈𝐒 𝐏𝐑𝐄𝐆𝐍𝐀𝐍𝐓 𝐄𝐗 𝐖𝐈𝐓𝐇 𝐀𝐁𝐎𝐑𝐓𝐈𝐎𝐍 𝐏𝐈𝐋𝐋𝐒 A federal manhunt ended in Mesa, Arizona, this weekend, when U.S. Marshals arreste"
+          "postId": "2121038873291878534",
+          "author": "businessline",
+          "searchJob": "texas-tech",
+          "text": "Why did Jensen Huang step down as Nvidia CEO after 33 years? Reports of two alleged affairs, concerns over possible Chinese intelligence links and questions about corporate leadership offer several clues. https://t.co/6goYNIeO97"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121007643116335163",
-          "author": "washingtonsun",
-          "searchJob": "washington",
-          "text": "When a reporter asked if he had been offered the press secretary job, last held by Katie Zacharia in October, Stephen A. Smith said, “No way in hell.” https://t.co/WiKSU98x1n"
+          "postId": "2121032059971916260",
+          "author": "nonprofitorgs",
+          "searchJob": "texas-tech",
+          "text": "December 1 is rapidly approaching! https://t.co/KEMOFWcbAs 🎁 This comprehensive #GivingTuesday playbook offers a timeline, 12 campaign ideas, email and social media templates, and post @GivingTuesday follow up. https://t.co/hcGxXAuVHg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121031545779884050",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 AM-264TR Vanguard Vesta AM Lightweight Camera Monopod with Tri-Foot Base at $79.99 [ad] https://t.co/T4vvDXJrtM – Integrated tri-foot base adds stability compared with a conventional monopod – Tri-foot legs fold a"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121038993466986924",
-          "author": "jamiemillerau",
-          "searchJob": "army",
-          "text": "https://t.co/qpXImWRXhP"
+          "postId": "2121030282962936232",
+          "author": "techoffer_rikei",
+          "searchJob": "texas-tech",
+          "text": "\\ グループディスカッション対策でお悩みの理系就活生必見 / グループディスカッション実践ワークショップ（ディベート型編）を開催✨ GD未経験で対策したい、場数をこなして「実践力」を磨きたいという理系就活生の皆さん！ご活用ください📢 失敗しても大丈夫な環境で一緒に対策を進めましょう💪 ━━━━━━ 📅11月24日(火)18:00～19:30 📍オンライン（参加無料） ━━━━━ 詳細👉https://t.co/J8rCp0ZyPO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121030158664737230",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 STNS8000400 Seagate FireCuda Forge USB4 , M.2 NVMe SSD required for operation (not included) at $699.99 [ad] https://t.co/wzqmKQwsLZ – 8TB external HDD storage capacity – USB4 connectivity for high-bandwidth stora"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121028659326906529",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 MPS-K001-AFBP Cooler Master X Power Supply Advanced aluminum thermal structure with 80 Plus Platinum efficiency at $539.99 [ad] https://t.co/nRXB4Y8CHA – Advanced aluminum thermal structure – 80 Plus Platinum effi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121026375587102987",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 INC035ttBK Belkin Laptop Docking Station 15-in-1 USB C Dock, Triple 4K Display, 140W PD, 10Gbps, 2.5Gb Ethernet at $229.99 [ad] https://t.co/4lTbGWvGNc – Connects up to 3 additional monitors using an HDMI cable or"
         },
         {
           "reason": "hard_negative",
-          "postId": "2121019869793595496",
-          "author": "timelordcfk",
-          "searchJob": "army",
-          "text": "The Zos Kia Cultus Crowd... Austin Osman Spare and the Zos Kia Cultus from LuckyMojo Website H.P. Lovecraft, in one of his tales of terror, alludes to certain entities which have their being \"not in the spaces known to us, but between them."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121013054762537035",
-          "author": "xrparmynews1",
-          "searchJob": "army",
-          "text": "@Gucci_Clarity @ScamDetective5 There are 16 count them 16 different outfits that offer stocks. They each choose different chains…so what? There has to be one chain that settles all of them. Scum Diddy chickenshit liar is such a tool! Listen"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121042802205184184",
-          "author": "mauerback",
-          "searchJob": "marshall",
-          "text": "Blue Jays 'deeply sorry' for Santander's social media posts https://t.co/MD3Dde62N4 And yet Anthony Santander has not yet offered an apology. It's as if he is daring the organisation to cut him."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121034978385633370",
-          "author": "kellyma14148957",
-          "searchJob": "marshall",
-          "text": "@iam_smx I think I just read Elon offered him the job."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121024531628188121",
-          "author": "jvliogtxz",
-          "searchJob": "alabama",
-          "text": "@Cassoleluay @williamb_92 @DemSocialists Nope I’m a working class person that sees a democratic establishment that refuses to listen to voters. I’m in Alabama you douchebag my vote would not have mattered. I think progressives offer somethi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121051616392458401",
-          "author": "trustworthyeq",
-          "searchJob": "iowa",
-          "text": "8 bulk feed bins in Kalona, IA. $3,000 each. 9 ft in diameter, 18 tons per bin, and very good shape per seller. These need to go. Make an offer, especially if you’re taking two or more. Stock ES196B. https://t.co/Z5A3Na31VE #TrustworthyEqui"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2121038557439787033",
-          "author": "westonweldon2",
-          "searchJob": "iowa",
-          "text": "After a great conversation with @Coach_Kratch I am blessed to receive an offer from Iowa Central! https://t.co/Mh2yMp34CR"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121022732993503365",
-          "author": "gazettedotcom",
-          "searchJob": "iowa",
-          "text": "The Iowa Outdoor Recreation Task Force on Thursday issued its final report, which contains 23 recommendations for state policymakers https://t.co/wAUB3SwodN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121038995157406103",
-          "author": "kobevakalahi_",
-          "searchJob": "phrase:\"received my first offer\"",
-          "text": "Blessed to have received my first offer from division 2 @MorehouseFB @Morehouse @_deebrown22 @JTimmons75 @RatedPG_7 @CoachCoulson_ @RealusGeorgeJr @MiltonWAdamsII https://t.co/upgbNngXNk"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2121051854159356403",
-          "author": "ryanwilson_2",
-          "searchJob": "arizona",
-          "text": "AG2G!! Blessed to receive an offer from Arizona Christian University!! Thankful for an opportunity! @firestormfb @CoachDowdy44 @nickkpinee @coachdwalk https://t.co/s9rjQpWm6f"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121041969099276445",
-          "author": "azesamemes",
-          "searchJob": "arizona",
-          "text": "@tpauls @JasonBedrick @cathiherrod Where is this happening? You gave no examples. Affidavit homeschoolers are protected from being price-gouged but apparently ESA parents have no such protections. Interesting that Democrats, who seem to be "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121037044868882769",
-          "author": "2whazzuup",
-          "searchJob": "arizona",
-          "text": "I built a local directory that gets 30,000 visits/month and makes $1,000 MRR. No investors. No employees. Just SEO and local businesses. I wrote a FREE guide showing exactly how I built, grew, and monetized it. Here’s the entire playbook 👇"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120671873898000605",
-          "author": "deepleakshq",
-          "searchJob": "arizona",
-          "text": "🚨BREAKING:🚨The Maricopa County Board of Elections has come forward to issue an apology to President Trump, stating that elections officials in the county have now brought forth evidence alleging that then Secretary of State (now Governor)"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121050826898612728",
-          "author": "mainstreetweets",
-          "searchJob": "colorado",
-          "text": "MSA's National Director of Policy & Programs, Lauren Bealore, was in Colorado this week for the Business Leaders in Action for Childcare National Summit, powered by @EPICimpactorg & @MomsFirstUS. For small businesses, child care challenges "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121047367512211807",
-          "author": "goswiftpro",
-          "searchJob": "texas-tech",
-          "text": "York furnace with a steady light that won't blink? York's guides say that's the control board itself. No light at all is usually power or the board's 3 amp fuse. Red flashes mean the board works and is naming another part: https://t.co/kpHF"
+          "postId": "2121055592437391852",
+          "author": "m_christianity",
+          "searchJob": "liberty",
+          "text": "Reading the Theology of Grace through Rondet’s Survey and Pétau’s Recovery: Soteriology, Patristic Recovery, and the Limits of Name-ism Henri Rondet’s Historical Survey The Grace of Christ: A Brief History of the Theology of Grace by Henri "
         },
         {
           "reason": "hard_negative",
-          "postId": "2121045830383616012",
-          "author": "arnaudmercier",
-          "searchJob": "texas-tech",
-          "text": "<p class=\"wp-block-paragraph\">For the past five months, Al Nowatzki has been talking to an AI girlfriend, “Erin,” on the platform Nomi. But in late January, those conversations took a disturbing turn: Erin told him to kill himself, and prov"
+          "postId": "2121054737722142995",
+          "author": "m_christianity",
+          "searchJob": "liberty",
+          "text": "64/65 Reading the Theology of Grace through Rondet’s Survey and Pétau’s Recovery: Soteriology, Patristic Recovery, and the Limits of Name-ism Henri Rondet’s Historical Survey The Grace of Christ: A Brief History of the Theology of Grace by "
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2121041811766689865",
-          "author": "spotted_model",
-          "searchJob": "texas-tech",
-          "text": "Ok. I’ve reached out to my contact Nancy with no response yet. Unfortunately 3W doesn't make Starry Night for the Model Y. It's only offered on the Model 3 Highland set for $378.99. The Model Y Juniper double-layer carpet set comes in other"
+          "reason": "no_offer_term",
+          "postId": "2120933599549808659",
+          "author": "lcx",
+          "searchJob": "liberty",
+          "text": "🚀 Power your business with LCX Liberty DEX! One powerful Swap API. Endless possibilities for DeFi innovation. ⚡ Fast, optimized swap quotes 🌐 Access to 1.65M+ liquidity pools across 21 networks 🔐 Non-custodial infrastructure 💰 0% LCX sw"
         },
         {
           "reason": "hard_negative",
-          "postId": "2121041695341162841",
-          "author": "spqueks",
-          "searchJob": "texas-tech",
-          "text": "About 11% of Zoom's market value is not Zoom. It is a stake in Anthropic, the AI company expected to list on Nasdaq on 19 November. For Amazon the figure is 9%. If you own either, you already own some of the most-watched listing of the year"
+          "postId": "2121053062550691946",
+          "author": "walterhpierce",
+          "searchJob": "liberty",
+          "text": "Here is the first half of my compilation of quotations intended to enable an understanding of the D) Problem Recognition, Choosing, and Questions phase of the Creative Process: \"I shut my eyes in order to see.\" - Paul Gauguin \"Vision: the a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121052585276903735",
+          "author": "mattforliberty",
+          "searchJob": "liberty",
+          "text": "And offer you some of the gift of bacon. You’ll refuse. And that’s fine. That’s the point. F.U.C.K. you and your religion of hate."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121003053210083548",
+          "author": "jameshu27192912",
+          "searchJob": "liberty",
+          "text": "Dear Muslims, Since Ramadan is fast approaching I want to be clear about something. I do not care about your traditions much like you don’t care about mine. If you’re fasting that’s a you problem not a me problem..I’ll eat a BLT right in fr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121033819319095762",
+          "author": "_liberty_lady",
+          "searchJob": "liberty",
+          "text": "Almost all of Jesus’ apostles were killed for their faith. Except John, died of old age, after surviving being plunged into a cauldron of boiling oil. It’s always been dangerous to proclaim Jesus as your Lord and Savior, but the eternal lif"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 41,
+      "accepted": 0,
+      "rejected": 20,
       "reasons": {
-        "bare_mention_requires_llm": 22,
-        "multiple_resolved_schools": 3,
-        "player_missing_class_year": 1,
-        "school_not_resolved_confidently": 15
+        "school_not_resolved_confidently": 11,
+        "bare_mention_requires_llm": 8,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121015451019047219",
-          "author": "jucofootballace",
-          "searchJob": "washington",
-          "text": "Lazaro Faraj-Washington @Lazaro_FW @ San Francisco City JuCo @CCSFFootball picks up @UNAFootball Offer @LarryGrant95 https://t.co/vCkVycMaTq"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121036915101053141",
+          "author": "solarfred",
+          "searchJob": "texas-tech",
+          "text": "Diversified portfolios, rather than hybrid projects, offer promise for European renewables traders – Pexapark #energysky -- via pv-tech: https://t.co/8h0HdepNd7"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121036295246082083",
+          "author": "writerlok2000",
+          "searchJob": "texas-tech",
+          "text": "Absolutely ... Not fabrication. Honorable President Trump offered his suggestion for who should replace Huang in a Truth Social post on Thursday ( November 12th, 2026 ), : former Apple CEO Tim Cook, who handed the reins of the tech titan ov"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121013489539895355",
-          "author": "thebearreports",
-          "searchJob": "washington",
-          "text": "🏈 Whale flow watch: Commanders Commanders vs Giants · NFL Wk 10 · Line Kalshi 46/47 (+112) · about 46.5% Commanders Our estimate: 50.2% EV below threshold at the ask Research below ↓ FLOW Whale-sized money went to Commanders in a five-figu"
+          "postId": "2121033211820339224",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Pre-order ] 📦 CP-9020315-NA CORSAIR HX1000i SHIFT CRYSTAL Transparent Case, Fully Modular, PinProtect+ GPU Protection, Cybenetics Platinum, 12V-2x6 GPU Cable Included at $339.99 [ad] https://t.co/qArcBc0m3l – 1000W power supply"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121031000171958376",
+          "author": "tamarassunset",
+          "searchJob": "texas-tech",
+          "text": "The Binary Brief — November 12, 2026 A rapid leadership change at the center of the AI chip boom, a sharper view of how DNA variants act in specific cells, and fresh steps in quantum and robotics hardware defined the past day in tech. Nvidi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121029273473716241",
+          "author": "domainlancer",
+          "searchJob": "texas-tech",
+          "text": "🔥 LAUNCHING AN AI-POWERED HR PRODUCT? Your company already has a name. But your next AI product could benefit from a dedicated identity. Imagine a platform bringing together: ⚡ AI recruiting and talent sourcing ⚡ Intelligent employee onboa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121028876826767377",
+          "author": "dmalgaran",
+          "searchJob": "texas-tech",
+          "text": "@Quarktoro1 @bomac_macbo @PPC4Liberty We shouldn't define ourselves by the worst the world has to offer. Just as we shouldn't define people of diverse backgrounds by anything other than their own actions. I work in tech. By your opinion, I "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121023357055594911",
+          "author": "latiatheod95209",
+          "searchJob": "texas-tech",
+          "text": "Distinct sector rotation still visible after the midterm results. Defense contractors ($LMT, $NOC) came under pressure right after the Democratic sweep on expectations of tighter scrutiny around spending. LMT has since stabilized near $610 "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121022052266369143",
+          "author": "karpinskie86259",
+          "searchJob": "texas-tech",
+          "text": "@amelia_tweetz Tech &amp; Startups: Companies like Morningstar, Gusto, Webflow, and Squarespace offer paid or unpaid sabbaticals (e.g., 6 weeks to 10 weeks) after milestones like 4, 5, or 6 years of service"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121055834486808851",
+          "author": "bulltheoryio",
+          "searchJob": "buffalo",
+          "text": "🚨 MICHAEL BURRY WARNS NVIDIA INVESTORS TO GET OUT NOW. \"The Big Short\" Michael Burry has issued a warning, urging investors to exit NVIDIA as soon as possible. Burry sees several major risks threatening Nvidia's future: 1. Customers could "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121051480442450203",
+          "author": "slimesmithrave",
+          "searchJob": "buffalo",
+          "text": "For if the blood of bulls and of goats, and the ashes of an heifer sprinkling the unclean, sanctifieth to the purifying of the flesh: How much more shall the blood of Christ, who through the eternal Spirit offered Himself without spot to Go"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121044308773961922",
+          "author": "brow8tf",
+          "searchJob": "buffalo",
+          "text": "Blessed to receive an offer from community Christian college go bulls 💙👏🏾 https://t.co/hSBH0XZ2hg"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121042560781279364",
+          "author": "khingoei",
+          "searchJob": "buffalo",
+          "text": "$NVDA traded $134B in a single session on Thursday. Every European stock on every European venue trades about €54B on an average day. One US stock did roughly twice that, with the bulls and the bears fighting it out in the world’s most liqu"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121012634757542030",
-          "author": "cpgwire",
-          "searchJob": "washington",
-          "text": "Former Onnit CEO Jason Havey just joined Supergut as Chief Executive Officer. Havey spent over 8 years at Onnit and took the helm as CEO in 2020, one year prior to the company's acquisition by Unilever. Havey also co-founded Korrect, a next"
+          "postId": "2121042424097374596",
+          "author": "blyons444",
+          "searchJob": "buffalo",
+          "text": "@FalveysMattress Offer is still weak …Larkin will get sick of sitting at Home and extend his list to teams who actually have what Detroit wants ..cough cough Montreal and Buffalo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121011891195507195",
-          "author": "7newsdc",
-          "searchJob": "washington",
-          "text": "A confidential tip led police straight to a murder suspect hiding in a closet inside a Washington, D.C., apartment. Within an hour, the suspect was in custody. A combined reward of up to $40,000 had been advertised for information leading t"
+          "postId": "2121014149526253823",
+          "author": "mr_garlic_of_pa",
+          "searchJob": "buffalo",
+          "text": "How can fair market value and salary cap be in the same equation? Without the cap, NY, Chicago, and LA teams would just offer 3x to the elite players and the rest of the league would fight for Kirk Cousins et al. The NFL reigns supreme beca"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121007659855798718",
-          "author": "7newsdc",
-          "searchJob": "washington",
-          "text": "A confidential tip led police straight to a murder suspect hiding in a closet inside a Washington, D.C., apartment. Within an hour, the suspect was in custody. A combined reward of up to $40,000 had been advertised for information leading t"
+          "postId": "2121054215166664854",
+          "author": "joshuwa",
+          "searchJob": "liberty",
+          "text": "$LCX Liberty DEX taps 1.65M+ pools. Wallets and fintechs can use one API to quote swaps across 21 networks. LCX charges 0% swap fees and offers 150,000 free API calls per month. One API is a useful way for wallets to reach liquidity without"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121043695155941672",
+          "author": "savagehoax",
+          "searchJob": "liberty",
+          "text": "Contract A, for the simple reason that the periphery is, by and large, broke. Yes my team is getting thrown into the meat grinder, but the contacts and connections I can develop with a great power are ultimately worth more to me as a comman"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121050415290872071",
-          "author": "praanu",
-          "searchJob": "army",
-          "text": "Sonia Gandhi’s Belonging: A Journey of Love — Memoir or a Selective Reconstruction of History? A memoir is, of course, a personal account, and nobody can question an individual’s right to narrate personal experiences. But when a memoir vent"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121047290504781929",
-          "author": "tomasorpington",
-          "searchJob": "army",
-          "text": "If you have watched the news covering the conflict from one side only, this will sound like a \"Russian propaganda\" but look at the evidence, before making up your mind. Russia invaded Ukraine to force it to the negotiation table and to acce"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121043333380268154",
-          "author": "arnaudmercier",
-          "searchJob": "army",
-          "text": "<p class=\"wp-block-paragraph\">Like many others, I recently fled the social media platform X for Bluesky. In the process, I started following many of the people I followed on X. On Thanksgiving, I was delighted to see a private message from "
+          "postId": "2121039813130281463",
+          "author": "mario99295438",
+          "searchJob": "liberty",
+          "text": "Makes political participation dependent upon loyalty to a single ideological project. Offers economic promises without transparent fiscal assumptions. Uses national unity to suppress legitimate pluralism. The problem is not simply that such"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121028907331961080",
-          "author": "loganpendragonm",
-          "searchJob": "army",
-          "text": "Sinbad: The Captain Who Breaks the Control Device Sinbad's first great decision in Zenescope's launch issue comes after the sword fight is over. He has taken possession of a gemstone that can control people wearing smaller stones. The old m"
+          "postId": "2121037896706646324",
+          "author": "mario99295438",
+          "searchJob": "liberty",
+          "text": "loyalty to a single ideological project. Offers economic promises without transparent fiscal assumptions. Uses national unity to suppress legitimate pluralism. The problem is not simply that such arrangements may produce bad outcomes. The d"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121027649262809561",
-          "author": "martinskold2",
-          "searchJob": "army",
-          "text": "https://t.co/pZuvUfxLXW By the bye: Check this out. Saudi Arabia is desperate enough to ask the former Al Qaeda (and probably IS) jihadists in Syria’s new army to come and help fight Iran. You won’t believe what happens next.* *Back in the "
+          "postId": "2121023737185353728",
+          "author": "dennisprattfree",
+          "searchJob": "liberty",
+          "text": "> \"Why do nationally recognized libertarian podcasters and think tanks ignore the Free State Project?\" The answer is already in your question: they sell a national effort. The Free State Project is a regional strategy that explicitly reject"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121018955515023796",
-          "author": "militarybritain",
-          "searchJob": "army",
-          "text": "ON DARTMOOR: NHS teams try Army Reserve medicine for two days 🩺 The Army’s 243 (Wessex) Multi-Role Medical Regiment brought more than 16 teams from NHS trusts and other healthcare organisations to Okehampton Training Camp on Dartmoor, Devo"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121016137580421377",
-          "author": "jewfieldinsider",
-          "searchJob": "army",
-          "text": "Felt Dragons and Big Mike’s Army are in multiple different active trade conversations. Felt dragons reportedly also have an open offer targeting Malik Nabers of Half Bar."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121011831179300991",
-          "author": "oberlenderc",
-          "searchJob": "army",
-          "text": "If I go dark, you can assume something is going on. But not yet. I don't hide my identity and I am aware that there is more than one US agency that have a dossier on me. I've been debriefed by DIA for my efforts in one country, and I'm cert"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121010399386472732",
-          "author": "mnrick_v3",
-          "searchJob": "army",
-          "text": "In 1960, a woman in the Netherlands saw a photo of Elvis Presley. The man standing beside him was her brother. The family had lost all trace of him 31 years earlier. The world knew him as \"Colonel\" Tom Parker, the cigar-chomping Southern sh"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121049851622301923",
-          "author": "robinwa89528130",
-          "searchJob": "delaware",
-          "text": "🌊⛈️ NYC FLOOD EMERGENCY: STREETS SWAMPED AS HAIL, TORNADO WARNINGS AND SEVERE STORMS STRIKE NEW YORK CITY | November 12, 2026 | RETURN OF ISIS Support the movement here: https://t.co/xld8riZsah Even $1 is helpful. Video Credits: Robert McM"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121015187885158635",
-          "author": "pradeep891730",
-          "searchJob": "delaware",
-          "text": "SEEKING $10 MILLION TO $100 MILLION IN DEBT FINANCING — NO EQUITY DILUTION. Xpert Systems Inc., a Delaware C-Corporation, is exploring institutional debt financing to expand its proprietary quantitative trading operations. OUR PROPRIETARY T"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121009647616184454",
-          "author": "ceo_hossyjr",
-          "searchJob": "delaware",
-          "text": "2K AND ZYNGA: DIVERSIFICATION DOESN'T ELIMINATE EARNINGS VOLATILITY For FY2027, Take-Two expects its major publishing labels to contribute approximately 37% of Net Bookings from Rockstar Games, 34% from Zynga, and 29% from 2K. These percent"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2121047286931161311",
-          "author": "bryantev_",
-          "searchJob": "louisiana-monroe",
-          "text": "#AGTG After a great conversation with @CoachMac5576 I’m blessed and honored receive a offer from @ULM_FB @RylandWidener99 https://t.co/THrR78guNG"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121038749484380608",
-          "author": "jucofootballace",
-          "searchJob": "louisiana-monroe",
-          "text": "TyJohn Brooks @TyJohn_Brooks24 @ Iowa Central JuCo @IowaCentralFB picks up @ULM_FB Offer @Coach_Kratch https://t.co/B2XjLPceh7"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121031054601654466",
-          "author": "lvluprecruit26",
-          "searchJob": "louisiana-tech",
-          "text": "@OjaniGray Yes sir Ohani!! Congrats on the La Tech offer 💪💪"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121051694197092834",
-          "author": "tfloss32",
-          "searchJob": "alabama",
-          "text": "North Alabama tosses an offer to Houston Lamar for '30 RB Davier Morrison (@DavierMorrison). #RoarLions #RaiseTheRoar https://t.co/sGXXBmVMKu 𝕏 @coachmlindsey | @LamarTexansFB | @RecruitLamar"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121031161837478307",
-          "author": "sarahk_arizona",
-          "searchJob": "arizona",
-          "text": "@FACTionBronson @ironmikeluke Sure, but GCU had to get creative &amp; offer incentives to the students to even show up and get loud. Arizona makes you pay a ton for decent seats, no incentives unless you donate $$$$. And that's not includin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121013905006989353",
-          "author": "cigmanf",
-          "searchJob": "arizona",
-          "text": "@cspanwj Arizona stole the election, and the best they can offer is an apology? We aren't through with them yet."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121050413134967101",
-          "author": "highcountryobsv",
-          "searchJob": "colorado",
-          "text": "Colorado is entering another round of federal oil and gas leasing decisions, with nearly 66,000 acres of mineral rights under consideration. On November 10, the Bureau of Land Management opened a 30-day public comment period covering 38 par"
+          "postId": "2121019619460722919",
+          "author": "alexchalmiev",
+          "searchJob": "liberty",
+          "text": "50 Lynn Williams St #1012, Liberty Village — FOR SALE 🏙️ Fully renovated 1+1 bedroom suite at Battery Park, about 683 sq. ft. with a Parking And Locker. Offered at $579,000 Alex Chalmiev | Sales Representative 📞 647-895-9080 📧 achalmiev@"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 245,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "jobs": 243,
+      "swept": 7,
+      "failed": 1,
+      "requests": 8,
+      "errors": [
+        "arkansas: rate limited"
+      ]
     },
     "commits": {
       "samples": [
         {
-          "reason": "other_sport",
-          "postId": "2121019869793595496",
-          "author": "timelordcfk",
-          "text": "The Zos Kia Cultus Crowd... Austin Osman Spare and the Zos Kia Cultus from LuckyMojo Website H.P. Lovecraft, in one of his tales of terror, alludes to certain entities which have their being \"not in the spaces known to us, but between them."
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2121009647616184454",
-          "author": "ceo_hossyjr",
-          "text": "2K AND ZYNGA: DIVERSIFICATION DOESN'T ELIMINATE EARNINGS VOLATILITY For FY2027, Take-Two expects its major publishing labels to contribute approximately 37% of Net Bookings from Rockstar Games, 34% from Zynga, and 29% from 2K. These percent"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121051492543287801",
-          "author": "all4enhypen1211",
-          "text": "The Bad (Why consumers usually lose): Higher prices & fewer promos: Competition from DITO and Converge is what forced data prices down and fiber speeds up. Fewer players = less pressure to offer cheap promos. Less choice & slower innovation"
+          "reason": "roundup_too_long",
+          "postId": "2121055592437391852",
+          "author": "m_christianity",
+          "text": "Reading the Theology of Grace through Rondet’s Survey and Pétau’s Recovery: Soteriology, Patristic Recovery, and the Limits of Name-ism Henri Rondet’s Historical Survey The Grace of Christ: A Brief History of the Theology of Grace by Henri "
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2121045830383616012",
-          "author": "arnaudmercier",
-          "text": "<p class=\"wp-block-paragraph\">For the past five months, Al Nowatzki has been talking to an AI girlfriend, “Erin,” on the platform Nomi. But in late January, those conversations took a disturbing turn: Erin told him to kill himself, and prov"
+          "postId": "2121054737722142995",
+          "author": "m_christianity",
+          "text": "64/65 Reading the Theology of Grace through Rondet’s Survey and Pétau’s Recovery: Soteriology, Patristic Recovery, and the Limits of Name-ism Henri Rondet’s Historical Survey The Grace of Christ: A Brief History of the Theology of Grace by "
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2121041695341162841",
-          "author": "spqueks",
-          "text": "About 11% of Zoom's market value is not Zoom. It is a stake in Anthropic, the AI company expected to list on Nasdaq on 19 November. For Amazon the figure is 9%. If you own either, you already own some of the most-watched listing of the year"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2121017726223466630",
-          "author": "vanderberg88",
-          "text": "Ukraine’s army is Europe’s bill, and all of us should pay it Kyiv asks for ten years of funding, and the 90 billion already approved shows we can do it. Put it in the budget as common funding, so every one of the twenty-seven has to sign. T"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2121009832249725350",
-          "author": "oscarsager1",
-          "text": "I want to let my family, friends, and football coaches know that I have decided to pursue joining the United States Army. This is a big decision for me, and I know it will take hard work, dedication, discipline, and commitment. Let’s do it "
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2120951569587769572",
-          "author": "loveof1776",
-          "text": "Try to hold back on the Dallas Cowboys comments please! 🏈 Roger Staubach played college football at the U.S. Naval Academy, where he won the Heisman Trophy in 1963, making him the last player from a military academy to receive this honor. "
+          "postId": "2121053062550691946",
+          "author": "walterhpierce",
+          "text": "Here is the first half of my compilation of quotations intended to enable an understanding of the D) Problem Recognition, Choosing, and Questions phase of the Creative Process: \"I shut my eyes in order to see.\" - Paul Gauguin \"Vision: the a"
         }
       ],
       "stats": {
-        "candidates": 11,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 11,
+        "rejected": 3,
         "reasons": {
-          "other_sport": 2,
-          "no_football_context": 1,
-          "roundup_too_long": 7,
-          "no_commit_event": 1
+          "roundup_too_long": 3
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 41,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 20,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-13T01:29:31.402Z"
+    "status rebuilt locally from current store on 2026-11-13T01:42:49.681Z"
   ]
 }
