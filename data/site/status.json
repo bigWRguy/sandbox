@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:14:04.182Z",
+  "generatedAt": "2026-11-13T22:28:50.986Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-13T22:14:03.539Z",
+    "at": "2026-11-13T22:28:50.377Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
-    "fullSweepCycles": 9
+    "sweptThisRun": 23,
+    "requests": 23,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,82 +32,50 @@
   },
   "staleSchools": [
     {
-      "id": "baylor",
-      "hours": 2.5
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-international",
-      "hours": 2.5
-    },
-    {
-      "id": "fresno-state",
-      "hours": 2.5
-    },
-    {
-      "id": "memphis",
-      "hours": 2.5
-    },
-    {
-      "id": "rice",
-      "hours": 2.5
-    },
-    {
-      "id": "ucf",
-      "hours": 2.5
-    },
-    {
-      "id": "utah",
-      "hours": 2.5
-    },
-    {
-      "id": "virginia",
-      "hours": 2.5
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 2.5
-    },
-    {
-      "id": "wake-forest",
-      "hours": 2.5
-    },
-    {
-      "id": "washington",
-      "hours": 2.5
-    },
-    {
-      "id": "miami-oh",
+      "id": "middle-tennessee",
       "hours": 2.3
     },
     {
-      "id": "sam-houston",
+      "id": "missouri-state",
       "hours": 2.3
     },
     {
-      "id": "san-diego-state",
+      "id": "notre-dame",
       "hours": 2.3
     },
     {
-      "id": "san-jose-state",
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.3
+    },
+    {
+      "id": "temple",
+      "hours": 2.3
+    },
+    {
+      "id": "uconn",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
+      "hours": 2.3
+    },
+    {
+      "id": "western-michigan",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0291716666666666,
-    "p95Hours": 2.519041666666667,
-    "worstHours": 2.519041666666667
+    "medianHours": 1.0134230555555555,
+    "p95Hours": 2.274228611111111,
+    "worstHours": 2.274228611111111
   },
   "decisionCoverage": {
-    "total": 67,
-    "decided": 67,
+    "total": 40,
+    "decided": 40,
     "complete": true
   },
   "pending": {
@@ -116,7 +84,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 4641,
     "incompleteOffers": 0
@@ -124,394 +92,324 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-13T22:14:03.534Z",
-      "got": 100,
-      "new": 67,
+      "at": "2026-11-13T22:28:50.377Z",
+      "got": 64,
+      "new": 40,
       "lag": 0.09
     },
     "search:commit": {
-      "at": "2026-11-13T22:14:03.539Z",
-      "got": 17,
-      "new": 6,
-      "lag": 0.51
+      "at": "2026-11-13T22:28:50.377Z",
+      "got": 3,
+      "new": 0,
+      "lag": 0.75
     }
   },
   "audit": {
-    "at": "2026-11-13T22:12:24.445Z",
+    "at": "2026-11-13T22:27:14.968Z",
     "mode": "live",
     "collection": {
-      "returned": 100,
-      "kept": 67,
-      "duplicate": 33,
+      "returned": 64,
+      "kept": 40,
+      "duplicate": 24,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 39,
-      "rejected": 28,
+      "accepted": 26,
+      "rejected": 14,
       "reasons": {
-        "no_fbs_school": 8,
-        "no_offer_term": 13,
-        "non_fbs_offer_target": 2,
-        "hard_negative": 5
+        "no_fbs_school": 6,
+        "hard_negative": 4,
+        "no_offer_term": 3,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2121318595221422268",
-          "author": "michaelmusquiz1",
+          "postId": "2121306668361228625",
+          "author": "koda166785831",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After an amazing visit I’m blessed to receive an offer from @SoutheasternFB!! @CoachFletchSE https://t.co/G3eCSySuJw"
+          "text": "After talking to coach Holley and the rest of the coaching staff I’m blessed to receive my second offer from Carroll university. @piofootball @BrandonHuffman #AG2G https://t.co/ChVbQUYDNg"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121331252871512410",
+          "author": "bondlink",
+          "searchJob": "washington",
+          "text": "King County, Washington will offer $197,220,000 of Unlimited Tax General Obligation Bonds, 2026 on 11/17. Find a POS and more details on their IR website - https://t.co/roazpedaxM #muniland #bonds #publicfinance #bondsale https://t.co/H3A7Z"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121329661099606130",
+          "author": "finianword",
+          "searchJob": "washington",
+          "text": "European leaders don’t want peace, so why should they be at talks? November 13, 2026 Until European leaders show a genuine motivation for peace by respecting Russia’s rights, Russia must assert its terms by militarily defeating its enemies."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121335827292705181",
+          "author": "prephoops",
+          "searchJob": "utah",
+          "text": "The 2030 class in Utah is deep, and our scout was in the gym all weekend at Utah’s Best Freshman Showcase to prove it. Fifteen freshmen stood out, including one who already holds an offer from the University of Utah. Read the full evaluatio"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121367541972938910",
+          "author": "the_odds_club",
+          "searchJob": "virginia",
+          "text": "🏀 NBA PLAYER PROP | THE ODDS CLUB 🟢 🔥 JAMES HARDEN — 3+ MADE THREE-POINTERS 🏀 Cleveland Cavaliers @ Miami Heat 🕐 01:00 🇵🇹 💰 Odds: 1.85 | Stake: 1.25u ━━━━━━━━━━━━━━━━━━ 🎯 THE BET We're doubling down on our read of Miami's perimeter"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121318497783591015",
-          "author": "eliasconchos62",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 1st Team All Region. @DVThunderFB @Coach_Mac70 https://t.co/lQ94wE6Jxt"
+          "postId": "2121123930866119083",
+          "author": "bouldrpuncher",
+          "searchJob": "wake-forest",
+          "text": "[ the words upon the screen burn against tired eyes , beset by deep circles carving crescents into his cheeks . an apology is owed . a 𝘣𝘪𝘨 one . a few days spent in self-inflicted isolation to avoid a medical once-over had left the capta"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121316818908491878",
-          "author": "dylanbettcher4",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great conversation with @Coach_Rolle41 I am blessed to receive my third opportunity to play college football! @Thorson34 @Coach_Kleinjan https://t.co/M8ZUjcfD8N"
+          "postId": "2121118080814501903",
+          "author": "governmnthookr",
+          "searchJob": "wake-forest",
+          "text": "💬 : drop me a pin . i can be there in an hour"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121315149516837100",
-          "author": "wdaughetee17",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 2nd team offense all district honors! https://t.co/QmcfSGOOv0"
+          "postId": "2121361129406341416",
+          "author": "croguy_",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/4ZmpDDd1WA"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2121314907002159527",
-          "author": "landon_klotz1",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 1st Team All-District https://t.co/9wdxe4eAq1"
+          "reason": "no_fbs_school",
+          "postId": "2121358410645979407",
+          "author": "progressiveact",
+          "searchJob": "wake-forest",
+          "text": "🚨 IS THE MTA WAITING FOR SOMEONE TO GET KILLED BEFORE THEY TAKE ACTION?! 🚨 HOW MANY MORE WARNINGS DOES THE MTA NEED?! 🤬🚇 We have kids allegedly gaining unauthorized access to subway trains, MOVING THEM ON ACTIVE MAINLINE TRACKS where pa"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2121313993390506231",
-          "author": "mylespolite",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a game day invite to Chattanooga vs. Mercer! 🏈 Big thanks to @TheKatiee_P, @AndrewBementUTC and CB Coach @CoachKenLucky for the opportunity! Really appreciate the Mocs showing love! 🙏🏽 #AGTG #GoMocs #2027CB https://t.c"
+          "reason": "no_fbs_school",
+          "postId": "2121343878678884604",
+          "author": "demondeacons",
+          "searchJob": "wake-forest",
+          "text": "The Deacs converted more than 10 3’s on Tuesday at the @LJVMColiseum! You can purchase a $3 lunch meal TODAY at participating @HarrisTeeter locations! Download the digital coupon: https://t.co/M9q9AUjeIj Offer is valid at participating Tria"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2121313598790357246",
-          "author": "mylespolite",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a game day invite to @UNH_Football vs. Rhode Island! 🏈 Appreciate @delaineymcgov and CB Coach @coachrankin_ for the invitation and opportunity! 🙏🏽 #AGTG #GoWildcats #2027CB https://t.co/w658UVP80C"
+          "reason": "no_fbs_school",
+          "postId": "2121366281303843239",
+          "author": "eldskald06",
+          "searchJob": "rice",
+          "text": "@WallStreetApes It's what NYers want. Also, Mamdani will change his mind if offered a large enough bribe."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121344117649150089",
+          "author": "thewatchmanhq",
+          "searchJob": "arkansas",
+          "text": "\"Gamble responsibly\" sounds like a friend tapping you on the shoulder. The line comes from the business that profits when you lose, and it puts the whole risk on you. Scripture offers something steadier. https://t.co/Owu5M9Jazc"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121366004777337338",
+          "author": "recruitsplash",
+          "searchJob": "iowa",
+          "text": "\"Iowa State was the first P4 school that didn’t hesitate to offer.\" 2027 4⭐ Melina Snoozy (IA) committed to Iowa State after taking official visits to Oklahoma State, Nebraska &amp; TCU, her mom tells me. https://t.co/PtbO08mZJl"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2121309016529703028",
-          "author": "jaylen_hall8",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I'm blessed to receive an offer from Itawamba Community College!!📌 @RogerBurtonwphs @WP_Athletics @LetsGoICC @Coach_Lovertich https://t.co/HJ3w8eSDYH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121299394167476520",
-          "author": "rsmd2015",
-          "searchJob": "miami",
-          "text": "Manny Diaz is interviewing for the @FSUFootball Head coaching job at Noon EST of Saturday."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121347460001894484",
-          "author": "wlos_13",
-          "searchJob": "north-carolina",
-          "text": "In the fall, black bears in North Carolina search for a den to call home for the winter season. As temperatures drop and chilly weather approaches, state wildlife officials are reminding residents to begin bear-proofing their homes and busi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121363246460674450",
-          "author": "alfiejparker",
-          "searchJob": "pittsburgh",
-          "text": "https://t.co/OAgPcM5GhD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121342662288765304",
-          "author": "sscfpr",
-          "searchJob": "charlotte",
-          "text": "It’s looking that way, actually. Yes, she can shift a jna wagon. So can the PWM Ruston! She offers no advantages over any already extant locomotive."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121339570155372637",
-          "author": "sscfpr",
-          "searchJob": "charlotte",
-          "text": "Ironically, she has no actual duties, so I may just retire her without replacement because of a lack of work."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121338178229633462",
-          "author": "sscfpr",
-          "searchJob": "charlotte",
-          "text": "Departmental class 08 08648 is temporarily back in service, until I get another 08, when I’ll not need her. She’s coupled to a flat conflat wagon as I don’t feel she’ll ever be clean, thus I don’t wish to handle her to uncouple anything. Pi"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121330572052300101",
-          "author": "copperfoxlottie",
-          "searchJob": "charlotte",
-          "text": "@VannaMitchRP wasn't always enough to make somebody's worries disappear, particularly when those worries came from years of living a life that rarely offered much privacy. She couldn't promise that everything would be straightforward, nor c"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121328694543216889",
-          "author": "ceopet",
-          "searchJob": "charlotte",
-          "text": "@WhatHuhWhat_ @Uncle_Cowfucker The dentist offered me my tooth the one extraction ive had"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121321806145687888",
-          "author": "alextouzi",
-          "searchJob": "coastal-carolina",
-          "text": "The facts: SpaceX wants to buy about 1,200 acres managed by Texas Parks and Wildlife around its Starbase launch facility — mostly mudflats and fragile coastal dunes, with no trails, campsites, or facilities. More than half would be permanen"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2121330879951786086",
-          "author": "theendzoneintel",
-          "searchJob": "stanford",
-          "text": "On Monday, we highlighted Colton Stanford and what he’s already doing on the field. Today, we’re taking a closer look at where he could fit at the college level. EndZoneIntel uses verified athletic metrics, projected development, and colleg"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121357685920584014",
-          "author": "bluesybama",
-          "searchJob": "alabama",
-          "text": "https://t.co/Spfp78AgO0"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121337932246044921",
-          "author": "geauxcrimson",
-          "searchJob": "alabama",
-          "text": "@RTRWLT @Anonymous723638 “Alabama offered him $ X million” is the new version of kids that had no offer putting an Alabama hat on the table for signing day 😂"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121364641242853569",
-          "author": "richardjwood",
-          "searchJob": "washington",
-          "text": "https://t.co/VXw6wb9V4n"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121362480664596499",
-          "author": "gianl1974",
-          "searchJob": "washington",
-          "text": "1/2 July 1987, Moscow, USSR. Forty-one-year-old Donald Trump arrives in Moscow with his wife, the Czech model Ivana Zelnichkova, at the invitation of the Soviet ambassador to the United States (!!!), Yuri Dubinin. The invitation had been ap"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121355511698194942",
-          "author": "dcexaminer",
-          "searchJob": "washington",
-          "text": "Sen. Maggie Hassan (D-NH) is investigating the Department of Homeland Security’s $495 million purchase of an immigration detention facility in Minnesota after reports that the seller previously offered it to the state for $75 million. https"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121347697407910019",
-          "author": "liamsadams",
-          "searchJob": "washington",
-          "text": "Sen.-elect Adam Hamilton, pastor of the nation's largest UMC congregation, told @UMNS he plans to attend the two Bible studies and morning prayer services offered to senators each week. It's mostly Republicans who attend the Bible studies, "
+          "postId": "2121367981594693883",
+          "author": "gtank17idothis",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "After a great conversation with @CoachSmith0520 I have received my first offer from Bethel University all glory to God!!! @GentryC20 @OnTopAthletics @thompsmd23 https://t.co/dgabZnpUa7"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 39,
+      "rejected": 26,
       "reasons": {
-        "bare_mention_requires_llm": 17,
-        "school_not_resolved_confidently": 15,
-        "multiple_resolved_schools": 5,
         "reporter_missing_player_name": 1,
-        "player_display_name_unusable": 1
+        "bare_mention_requires_llm": 17,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 6,
+        "player_missing_football_context": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121362987713712461",
-          "author": "claudetravers9",
-          "searchJob": "miami",
-          "text": "Hi, my name is Claude Travers. I’m a realtor with Cervera Real Estate in Miami, Florida. We offer great CONDOS, homes, and commercial properties to investors and general buyers. If you are interested in purchasing a property in Miami or Sou"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121354217684095392",
-          "author": "efeshew",
-          "searchJob": "miami",
-          "text": "If they beat miami is he offered the job on the spot?"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121348632930894190",
-          "author": "blizzardperf",
-          "searchJob": "miami",
-          "text": "🏀 TODAY’S PLAY OF THE DAY Cleveland Cavaliers +2.5 vs. Miami Heat Cleveland enters Friday night’s Eastern Conference showdown at 6-6 overall, coming off an impressive 115-107 road victory over the New York Knicks. The Cavaliers face a Miam"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121342752042741857",
-          "author": "redcandlerx",
-          "searchJob": "miami",
-          "text": "CFTC SAYS EXCHANGES ARE LINING UP // SELIG OFFERS ONE FEDERAL LICENSE INSTEAD OF 50 STATE REGIMES AFTER THE CLARITY ACT STALLED CFTC Chairman Michael Selig told CNBC that major crypto exchanges and new entrants are lining up to opt into the"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121341667919769919",
-          "author": "rhe_gos",
-          "searchJob": "miami",
-          "text": "@relmyers My Miami heat trade offer for Dejounte: https://t.co/s2tnpJ4RK4"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121338389895221358",
-          "author": "antoniosells305",
-          "searchJob": "miami",
-          "text": "Redfin's metro table shows it in Miami: about 10,234 condo sellers against 2,739 buyers in September, the third widest gap of the 50 largest metros. But here it moves building by building. Buildings with big assessments ahead sit. Buildings"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121336184706404801",
-          "author": "ataritrading",
-          "searchJob": "miami",
-          "text": "Tradeify now offers a limited-edition Inter Miami account with static drawdown. ⚽📷 #Nasdaq #FuturesTrading #QQQ #SPY #SPX #Emini #TSLA #AAPL #NVDA #AMD #MSFT https://t.co/l8GyRpKI9O"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121330383958446085",
-          "author": "shock6666666666",
-          "searchJob": "miami",
-          "text": "@Resistance_SM What we know is that he's been offered a deal he can't refuse billions of dollars in the back of his pocket to go away if he doesn't he'll be taken out so he had to take a deal and don't worry Americans he's got a big place i"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121330295484129642",
-          "author": "ilar0x",
-          "searchJob": "miami",
-          "text": "Iggy Azalea says Universal Music owes her royalties \"in the 8-figure range,\" and that its lawyers offered her $18,000 to settle. In 2014 she was the first artist since the Beatles to hold No. 1 and No. 2 on the Billboard Hot 100 at the same"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121327041731588421",
-          "author": "prolongwealth",
-          "searchJob": "miami",
-          "text": "TRADEIFY FUTURES — MIAMI PLAN | 30% OFF ⚽ Miami Plan 2.0 is here. Small changes, big impact for traders. What's new: 🏷️ Lower price: now starting at $79 💸 Higher payout: 80% of profits go to you 🎯 Lower profit targets: $1,000 on 10K, $2,"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121326851318509824",
-          "author": "prolongwealth",
-          "searchJob": "miami",
-          "text": "TRADEIFY FUTURES — MIAMI PLAN | 30% OFF ⚽ Miami Plan 2.0 is here. Small changes, big impact for traders. What's new: 🏷️ Lower price: now starting at $79 💸 Higher payout: 80% of profits go to you 🎯 Lower profit targets: $1,000 on 10K, $2,"
+          "reason": "reporter_missing_player_name",
+          "postId": "2121330455249080818",
+          "author": "tina_lindner5",
+          "searchJob": "washington",
+          "text": "“President Donald Trump has repeatedly questioned why Washington should defend Taiwan, creating uncertainty about the future of American commitments. His position contrasts with the more explicit assurances offered by former President Joe B"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121362850245431462",
-          "author": "thencsportsnet",
-          "searchJob": "north-carolina",
-          "text": "App State’s offensive line losses have weakened the run game, increased pressure on Malachi Singleton, and fueled turnovers. A vulnerable final stretch offers a chance—but can the banged-up offense capitalize? #MuscleMilk #BoldNorthState #N"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121353337169969281",
-          "author": "gamblergazette",
-          "searchJob": "north-carolina",
-          "text": "🏀 CBB MODEL — GEORGIA @ NORTH CAROLINA Two undefeated teams. Two efficient offenses. But one defensive mismatch could decide this game. North Carolina enters with a top-41 adjusted defense, while Georgia faces its first true road test of t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121330892933349704",
-          "author": "hdfogel",
-          "searchJob": "pittsburgh",
-          "text": "Ed O'Neill's NFL career ended on the day of the Moon landing in 1969. Hours later, strangers were getting him drunk for free, and by 3 AM, police had caught the future Modern Family star driving half-dressed. In the video below, O'Neill rec"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121330799681188336",
-          "author": "cmart710",
-          "searchJob": "pittsburgh",
-          "text": "@jonmachota @1053thefan idk, maybe offer a fkn deal? why you trade for the man, knowing he was sitting out at Pittsburgh waiting for a contract.. with a sore back? see if that fixes the foot..."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121328919047516538",
-          "author": "rayduryea",
-          "searchJob": "pittsburgh",
-          "text": "@funwithnumberz @BaseballWRLD_ @Yankees Pittsburgh offered him a QO. Won’t be an option"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121344912515895741",
+          "postId": "2121344000892469421",
           "author": "2bytecoin",
-          "searchJob": "charlotte",
-          "text": "Let me analyze this for everyone 🔥✅ 1. James Cook – Anytime Touchdown (-165) 🏈 Bills vs Jets ⭐ Confidence: 9/10 * One of Buffalo’s primary touchdown threats. * Can score through rushing opportunities and receiving involvement. * Strong po"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121341872916537634",
-          "author": "aroundthenfl",
-          "searchJob": "charlotte",
-          "text": "Week 10 fantasy sleepers: Ravens QB Jacoby Brissett, 49ers WR Jordan Watkins offer upside, @RazaUmerani writes https://t.co/zB9Gd6tyhQ"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121333182867951639",
-          "author": "aroundaboutbrit",
-          "searchJob": "coastal-carolina",
-          "text": "Coastal Comforts &amp; Family Facilities at Home Farm Cottages, Weybourne, Norfolk! Home Farm Cottages offers 16 beautiful brick-and-flint cottages on the edge of Weybourne, perfectly placed for exploring the stunning North Norfolk coast! h"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121328999196721360",
-          "author": "realdonchin",
-          "searchJob": "coastal-carolina",
-          "text": "MOTIVATED SELLER! NOW REDUCED TO $649,900! 36 Samoa Court, Samoa, CA Home For Sale. Experience coastal living in this spacious 1923 Craftsman on the Samoa Peninsula! Offering 3,515 sq. ft. with 6 bedrooms and 3 baths, this distinctive home "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121328541031878858",
-          "author": "jamesbangell",
-          "searchJob": "coastal-carolina",
-          "text": "“The #Ansarallah-led #Yemeni Armed Forces (#YAF) fully encircled #Aden Province on 13 November, marking a major advance in their campaign against #Saudi-backed militants south of the Bab al-#MandabStrait. According to local reports, YAF tro"
+          "searchJob": "baylor",
+          "text": "Let me analyze this for everyone 🔥✅ GAME: YALE vs. NORTHEASTERN ⭐ Confidence: 8/10 🔍 MATCHUP BREAKDOWN 1. Yale Moneyline (-115) * Yale enters as the betting favorite. * Both teams have started the season 1-2. * Yale has struggled defensiv"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121335439025963113",
-          "author": "keith_lusco",
-          "searchJob": "smu",
-          "text": "@Anonymous723638 @dayoungbulll @grok Did Alabama football offer Kevin Jennings 3 million dollars to transfer from SMU to Alabama ?"
+          "postId": "2121368441999225021",
+          "author": "offshoreinsider",
+          "searchJob": "ucf",
+          "text": "FADE THE PUBLIC — COLLEGE BASKETBALL FRIDAY, NOVEMBER 13, 2026 MEN'S DIVISION I — POINT SPREADS ONLY Friday's extensive college basketball board features unusually heavy public support for several enormous underdogs, substantial disagreemen"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121327362990289087",
-          "author": "5starrjakob__",
-          "searchJob": "smu",
-          "text": "@KAdams136 @RobMessinger @AngeloStateFB @TheCoachHedge_ @mullins_coach @CoachGainesRec @MaxPreps @PrepRedzoneTX @247recruiting @scorability @RivalsHS Congrats on the offer, bro! I got to work alongside you at the SMU camp this summer, let’s"
+          "postId": "2121360099923066919",
+          "author": "extradeadjcb",
+          "searchJob": "utah",
+          "text": "Tonight's dinner is full, but we still have room at our salon tomorrow night - very nice hors d'oeuvres and discussion of a better future for Utah Guests: * Harvey Scott, chairman of Utah Chamber of Commerce * Kai Schwemmer, national politi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121367539502743577",
+          "author": "nnnsportscards",
+          "searchJob": "virginia",
+          "text": "@cardboardbst Cavaliers 10-card lot. Donovan Mitchell and Evan Mobley lead it, with a James Harden insert numbered to 149. $13.99 on eBay, search nnnsportscards to find the shop. Best Offer is on. https://t.co/wMa0LK8fRU"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121365924225662994",
+          "author": "the_odds_club",
+          "searchJob": "virginia",
+          "text": "🏀 NBA TRIPLE SHOT | THE ODDS CLUB 🔥 🇺🇸 Cleveland Cavaliers @ Miami Heat 🕐 01:00 🇵🇹 Tonight we're taking an aggressive approach to the Cavaliers' offensive backcourt, with three different entries built around Donovan Mitchell and Jame"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2121363658118959389",
+          "author": "lancejackson30",
+          "searchJob": "virginia",
+          "text": "After a great conversation with coach Daelun I am extremely blessed to receive my 1st Division one offer from Virginia Tech #AGTG @DaelunDarien7 @gilman_football @tdhald @EdOBrienCFB https://t.co/we5Pmxetp3"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121324019102454110",
-          "author": "perunaselixir",
-          "searchJob": "smu",
-          "text": "@PivikAl @4ever_lsu @Jayxce Bad example: SMU was one of Dickerson’s lowest offers. But the overall point is well-taken."
+          "postId": "2121363083969044525",
+          "author": "_justjames94",
+          "searchJob": "virginia",
+          "text": "@LeDiddygoat @JustDippinn @ghat15 @KenHeLive How am I dodging the hawks question they were overachievers and got exposed in the playoffs. The Cavs never had intent on getting better they didn’t even make a pitch to other free agents to pair"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121352155109920914",
+          "author": "workforcewv",
+          "searchJob": "virginia",
+          "text": "WorkForce West Virginia offers information about the Work Opportunity Tax Credit, a federal tax credit that may be available to employers who hire individuals from certain eligible groups. Learn more: https://t.co/bSilMmzOxX"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121350921565188213",
+          "author": "pipesandcigars_",
+          "searchJob": "virginia",
+          "text": "Mac Baren Classic Series Virginia Flake is made from premium flue-cured tobaccos sourced from around the world. This smooth, mellow Virginia offers delicate natural sweetness and classic flake character, making it an easy all-day smoke. 🔥 "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121340516977590515",
+          "author": "opengovva",
+          "searchJob": "virginia",
+          "text": "I need your help! I've got an FAQ page on my website (https://t.co/aA52E8sUE8) that goes over the basics of Virginia FOIA and offers a few practical tips. What question(s) or topic(s) would you like to see addressed in an expanded version o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121337019225842137",
+          "author": "isaacokorofan",
+          "searchJob": "virginia",
+          "text": "@rhas202 Cavs aren’t getting AD for JA and Harden and we have no picks to offer lol"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121363927779115096",
+          "author": "lou_twin",
+          "searchJob": "wake-forest",
+          "text": "'Open Secret’: Documentary on convicted rapist Russell Brand coming to Netflix The documentary is from the producers of 2022's \"Jimmy Savile: A British Horror Story\" and will feature \"insiders' voices and archival footage\" and \"offer insigh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121361847404384352",
+          "author": "governmnthookr",
+          "searchJob": "wake-forest",
+          "text": "[ 📲 : boss man ] 💬 : eta 6:52 【 leon jams a toe onto the kickstart of his bike ; the engine growls to life beneath him . the familiar purr of machinery offers little comfort in the wake of redfield's messages . even for an arrangement as "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121343854443946355",
+          "author": "joemaristela",
+          "searchJob": "wake-forest",
+          "text": "This video is designed to capitalize on the frustration caused by a significant Microsoft 365 outage, ultimately pushing a narrative of institutional vulnerability and a need for better business continuity planning. By focusing on the globa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121341663599632463",
+          "author": "libertylockpod",
+          "searchJob": "wake-forest",
+          "text": "@JesseKellyDC That's a failed leader, both empirically and in principle. I really wouldn't worry about his opinions moving forward. New leadership needs to arise. Waiting on Trump to wake up will only offer the democrats greater advantage."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121341268932575501",
+          "author": "rootsud0",
+          "searchJob": "wake-forest",
+          "text": "my timeline is literally flooded with cheap uncensored api offers from china and north korea. if you don't want to wake up as an accomplice to a massive cyber heist one day, stay the fuck away from these shady underground sites guys."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121347508685127718",
+          "author": "kellyg581976179",
+          "searchJob": "fresno-state",
+          "text": "🆘Extremely Urgent in Central CA Due to be ki££ed on Weds. 11/18 at 6:30 am at , Stanislaus Animal Services Agency, in Modesto, CA‼️ Wall-E is the Perfect Pup!! This is very handsome, 4 year old , neutered, GSD named Wall-E. His owner is fa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121347379932889135",
+          "author": "aihbmemphis",
+          "searchJob": "memphis",
+          "text": "We Buy Houses Bartlett: separate the items you own from the work you might choose. Sorting a kitchen need not become a remodel. Ask our Memphis team about its cash offer. (901) 763-6616 #AsIsHomeBuyerMemphis https://t.co/TpvfOdhYHs"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121330811492295064",
+          "author": "ckstevenson",
+          "searchJob": "memphis",
+          "text": "@Jeff_Ermann Might be his agent trying to get Memphis to offer him more. Or he’s not adept at answering questions and will be horrible at MD."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121367754418876433",
+          "author": "summer_food",
+          "searchJob": "rice",
+          "text": "Mongolian Chicken Ready in 30 Minutes: A Quick Delight! Ingredients: Boneless, skinless chicken thighs or breasts: These are the stars of the dish. Thighs offer juiciness, while breasts provide a leaner option. Cornstarch: This helps create"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121354918938226710",
+          "author": "scicoalition",
+          "searchJob": "rice",
+          "text": "Decades of fundamental research from @UCDavis led to the creation of resilient rice varieties that offer relief for the world’s poorest farmers. Explore 250 Years of Innovation powered by federally funded research at U.S. colleges and unive"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121342190484168840",
+          "author": "favour91178",
+          "searchJob": "rice",
+          "text": "@HeartMattaz Holding an intellectual conversation with a Nigeria girl is a worst of time. Rather offer her a plate of rice...You can only talk to Nigeria if money is involved"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121340910969803049",
+          "author": "thelastlegacy7",
+          "searchJob": "rice",
+          "text": "Thanks for asking this, genuinely. Because most people hating on Chhath in Bengal have no idea how deep the link goes. 1. Chhath is Surya puja, straight from the Vedic tradition. The sun of the Rig Veda and the Gayatri, still worshipped eve"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 247,
+      "jobs": 243,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -521,71 +419,41 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2121321806145687888",
-          "author": "alextouzi",
-          "text": "The facts: SpaceX wants to buy about 1,200 acres managed by Texas Parks and Wildlife around its Starbase launch facility — mostly mudflats and fragile coastal dunes, with no trails, campsites, or facilities. More than half would be permanen"
+          "postId": "2121329661099606130",
+          "author": "finianword",
+          "text": "European leaders don’t want peace, so why should they be at talks? November 13, 2026 Until European leaders show a genuine motivation for peace by respecting Russia’s rights, Russia must assert its terms by militarily defeating its enemies."
         },
         {
-          "reason": "roundup_too_long",
-          "postId": "2121362480664596499",
-          "author": "gianl1974",
-          "text": "1/2 July 1987, Moscow, USSR. Forty-one-year-old Donald Trump arrives in Moscow with his wife, the Czech model Ivana Zelnichkova, at the invitation of the Soviet ambassador to the United States (!!!), Yuri Dubinin. The invitation had been ap"
+          "reason": "other_sport",
+          "postId": "2121367541972938910",
+          "author": "the_odds_club",
+          "text": "🏀 NBA PLAYER PROP | THE ODDS CLUB 🟢 🔥 JAMES HARDEN — 3+ MADE THREE-POINTERS 🏀 Cleveland Cavaliers @ Miami Heat 🕐 01:00 🇵🇹 💰 Odds: 1.85 | Stake: 1.25u ━━━━━━━━━━━━━━━━━━ 🎯 THE BET We're doubling down on our read of Miami's perimeter"
         },
         {
-          "reason": "roundup_too_long",
-          "postId": "2121345294403072125",
-          "author": "washxingpark",
-          "text": "We've earned the 2026 Candid Platinum Seal of Transparency 🌟 We're proud to announce that Friends of Washington Crossing Park has once again earned the Platinum Seal of Transparency from @CandidDotOrg, the highest level of recognition offe"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2121358340135469409",
-          "author": "c2cnewsroom",
-          "text": "Per @chapelfowler Clemson football connections on the Georgia Tech roster: Former Tigers HS signee Tae Harris (who flipped to GT before signing day) has started every game at safety and has a team-high 58 tackles. Former Clemson DE A.J. Hof"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2121354067356045510",
-          "author": "chapelfowler",
-          "text": "Clemson football connections on the Georgia Tech roster: Former Tigers HS signee Tae Harris (who flipped to GT before signing day) has started every game at safety and has a team-high 58 tackles. Former Clemson DE A.J. Hoffler plays for GT,"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2121349839455650189",
-          "author": "kingdee_305",
-          "text": "my favorite recruit this cycle.. Last year it was Stancil, we flipped from Clemson, this year we gold onto Glover..big time LB prospect"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2121254616390422825",
-          "author": "pforever0000",
-          "text": "11/13 Post-Midterm Update 1. President Trump on Thursday directed Vice President Vance to shift his focus from the Iran war to what the president calls corruption and crime in Democratic-controlled cities and states. Vance has blamed the wa"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2121261645108580474",
-          "author": "king_of_brunch",
-          "text": "@BachelorABC This man committed unforgivable things against @DukeFOOTBALL"
+          "reason": "no_football_context",
+          "postId": "2121366004777337338",
+          "author": "recruitsplash",
+          "text": "\"Iowa State was the first P4 school that didn’t hesitate to offer.\" 2027 4⭐ Melina Snoozy (IA) committed to Iowa State after taking official visits to Oklahoma State, Nebraska &amp; TCU, her mom tells me. https://t.co/PtbO08mZJl"
         }
       ],
       "stats": {
-        "candidates": 9,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 9,
+        "rejected": 3,
         "reasons": {
-          "roundup_too_long": 4,
-          "no_commit_event": 4,
-          "reporter_missing_class_year": 1
+          "roundup_too_long": 1,
+          "other_sport": 1,
+          "no_football_context": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 39,
+      "rejectedCandidates": 26,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-13T22:14:04.183Z"
+    "status rebuilt locally from current store on 2026-11-13T22:28:50.987Z"
   ]
 }
