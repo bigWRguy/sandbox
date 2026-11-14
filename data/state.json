@@ -1,19 +1,5 @@
 {
   "seenPostIds": [
-    "2115911556781506685",
-    "2115911551823593607",
-    "2115911551823573165",
-    "2115911042387550534",
-    "2115907771124314605",
-    "2115907341631754605",
-    "2115906927280451914",
-    "2115906712779858064",
-    "2115905884471927247",
-    "2115905362956050651",
-    "2115904684598968477",
-    "2115904530898461038",
-    "2115903391205626234",
-    "2115911667636695258",
     "2115900226896629925",
     "2115885155386605898",
     "2115909801846911083",
@@ -59999,23 +59985,37 @@
     "2121462977949843694",
     "2121447703334789177",
     "2121460643366572244",
-    "2121442913120895481"
+    "2121442913120895481",
+    "2121465287082189271",
+    "2121261166122967081",
+    "2121454243894669452",
+    "2121443337722814631",
+    "2121441924246536205",
+    "2121464229454897658",
+    "2121449727573033322",
+    "2121435994792825324",
+    "2121463939905290590",
+    "2121457092255232089",
+    "2121453437372006805",
+    "2121452369468608973",
+    "2121448063310970986",
+    "2121435943798526395"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-11-14T04:44:14.741Z",
-      "got": 18,
-      "new": 6,
-      "lag": 0.08
+      "at": "2026-11-14T04:57:38.276Z",
+      "got": 20,
+      "new": 14,
+      "lag": 0.15
     },
     "search:commit": {
-      "at": "2026-11-14T04:44:14.744Z",
-      "got": 12,
-      "new": 3,
-      "lag": 1.24
+      "at": "2026-11-14T04:57:38.279Z",
+      "got": 1,
+      "new": 1,
+      "lag": 6.78
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60491,15 +60491,15 @@
       "truncated": false
     },
     "virginia": {
-      "at": "2026-11-14T02:27:25.717Z",
+      "at": "2026-11-14T04:57:12.169Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 10,
+      "lastPosts": 8,
       "truncated": false
     },
     "virginia-tech": {
-      "at": "2026-11-14T02:27:25.717Z",
+      "at": "2026-11-14T04:57:12.169Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 2,
+      "lastPosts": 1,
       "truncated": false
     },
     "wake-forest": {
@@ -60629,15 +60629,15 @@
       "truncated": false
     },
     "charlotte": {
-      "at": "2026-11-14T02:27:25.717Z",
+      "at": "2026-11-14T04:57:12.169Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 1,
+      "lastPosts": 3,
       "truncated": false
     },
     "coastal-carolina": {
-      "at": "2026-11-14T02:27:25.717Z",
+      "at": "2026-11-14T04:57:12.169Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 4,
+      "lastPosts": 6,
       "truncated": false
     },
     "colorado-state": {
@@ -60653,7 +60653,7 @@
       "truncated": false
     },
     "east-carolina": {
-      "at": "2026-11-14T02:27:25.717Z",
+      "at": "2026-11-14T04:57:12.169Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 2,
       "truncated": false
@@ -61642,8 +61642,8 @@
       "truncated": false
     },
     "commit:north-texas": {
-      "lastPosts": 0,
-      "at": "2026-11-13T16:42:26.552Z",
+      "lastPosts": 1,
+      "at": "2026-11-14T04:57:12.169Z",
       "truncated": false
     },
     "commit:northern-illinois": {
@@ -61781,11 +61781,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-11-14T04:44:14.744Z",
+    "at": "2026-11-14T04:57:38.280Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
-    "fullSweepCycles": 9
+    "sweptThisRun": 5,
+    "requests": 6,
+    "fullSweepCycles": 33
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61805,121 +61805,174 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-14T04:42:37.384Z",
+    "at": "2026-11-14T04:57:12.103Z",
     "mode": "live",
     "collection": {
-      "returned": 18,
-      "kept": 6,
-      "duplicate": 12,
+      "returned": 20,
+      "kept": 14,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 1,
+      "accepted": 10,
+      "rejected": 4,
       "reasons": {
+        "no_fbs_school": 3,
         "no_offer_term": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2121465287082189271",
+          "author": "virginia1gina",
+          "searchJob": "virginia",
+          "text": "Regular consumption of 'Viola tricolor' (wild pansy) tea offers general health benefits and helps prevent premature aging. Thank you very much, Lise, @LiseEll39743275 💚"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2121456393974943895",
-          "author": "isaiahdavis2028",
-          "searchJob": "auburn",
-          "text": "Blessed to receive an invite to the mississippi vs auburn game !!! #Bridgeboy @DbCoachJulian @plugman_brand @CoachKent_3_ @CoachDUBB_ @RecruitGeorgia https://t.co/XReGEJQ0BK"
+          "postId": "2121261166122967081",
+          "author": "liseell39743275",
+          "searchJob": "virginia",
+          "text": "Good morning 🇷🇺🪆 dear friends 🪆🇷🇺 The wild pansy ( Viola tricolor) is the most culturally iconic Viola species in European Russia. celebrated in Slavic folklore under the poetic folk name Ivan-da-Marya (Ivan and Maria). the flower sym"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121443337722814631",
+          "author": "west_va_patriot",
+          "searchJob": "virginia",
+          "text": "They deserve to fail for replacing their experienced American staff with Indian replacement. My current full time IT job of over one year is scheduled to end next Friday, 11/20/2026, when I complete the training of my Indian replacement (wh"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121435994792825324",
+          "author": "arttbyroy",
+          "searchJob": "charlotte",
+          "text": "@oldgreen1997 To answer your question: yes, I offer flexible payment plans so you can pay in installments before I begin building! Pricing depends on whether you want a head/partial or a fullsuit, feel free to message me if you’d like a cus"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 4,
+      "accepted": 0,
+      "rejected": 10,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 3
+        "bare_mention_requires_llm": 4,
+        "school_not_resolved_confidently": 6
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121454243894669452",
+          "author": "mdbaynews",
+          "searchJob": "virginia",
+          "text": "🚨 VIRGINIA PARENTS FACE CRIMINAL CHARGES AFTER PARTY FOR 13-YEAR-OLD DRAWS UP TO 300 PEOPLE — BUT THEY SAY HIGH SCHOOLERS CRASHED IT A McLean couple could face up to a year in jail after a backyard gathering intended for 10–20 middle schoo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121441924246536205",
+          "author": "tyson_fosterch",
+          "searchJob": "virginia",
+          "text": "Class of 2027 | SEASON COMPLETE. Grateful for another season of high school football and everyone who has been part of the journey. ——————————————— Blessed and excited to see where I fall in all region/ all state selections , I unofficially"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121464229454897658",
+          "author": "c_corday",
+          "searchJob": "charlotte",
+          "text": "Warner generally did most of the ball-work at mid on, Bancroft would have wanted to ingratiate himself to his opening partner so offered to help. UK has said they discussed doing something to the ball but no specifics about what or how. War"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121449727573033322",
+          "author": "lynntan14475430",
+          "searchJob": "charlotte",
+          "text": "@Thdelli1887 I was in Charlotte the other day and stopped at Food Lion.A woman in front of me in line was having issues with her card and she got her checkbook out and was having issues and the total was $11.01 so I offered to pay for it sh"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121457162484596800",
-          "author": "hydrauliclord",
-          "searchJob": "miami",
-          "text": "nw le lac (2025). offers similar pleasures to watching raw footage, opposing the reduction of everything to sign-language (professional intenionality is often too overbearing) + it's tech-sensuality reminded me of something between miami vi"
+          "postId": "2121463939905290590",
+          "author": "mrcpune",
+          "searchJob": "coastal-carolina",
+          "text": "#UDAJournal #Latestpaper 🔊 Can Indigenous Knowledge Help Quiet Our Oceans? 🌊 Rising underwater noise from shipping, drilling, and sonar is disrupting marine ecosystems that rely on sound to survive. In the latest issue of the Internationa"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121447703334789177",
-          "author": "jcribbs1997",
-          "searchJob": "pittsburgh",
-          "text": "@RichieWalsh Do you think Mason Heintschel might be lured away from Pitt with a lucrative NIL offer?"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121457092255232089",
+          "author": "beach_scenes",
+          "searchJob": "coastal-carolina",
+          "text": "From quiet coves to family favourites, the Mackay Northern Beaches offer some of Queensland’s best coastal escapes. Explore the top spots in my full guide #MackayBeaches #QueenslandCoast #BeachScenes #HiddenGems #TravelAustralia https://t.c"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121460643366572244",
-          "author": "bioaifrontier",
-          "searchJob": "stanford",
-          "text": "🧬 Researchers at Stanford and the Arc Institute introduced Germinal Multi, an AI method that jointly optimizes one antibody paratope against multiple antigen variants. In two experimental campaigns, the authors report successful binders an"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121453437372006805",
+          "author": "glennquagmeier",
+          "searchJob": "coastal-carolina",
+          "text": "Friday the 13th fulfilled its reputation today! A nonstop day of breaking bad news: —A tanker slams into a New Orleans riverboat cruise ship, sparking a dramatic rescue. — A nationwide FAA ground stop throws air travel into chaos. — SpaceX’"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121442913120895481",
-          "author": "cisco_utahute",
-          "searchJob": "utah",
-          "text": "I would like to offer up all of the libs in Denver as a sacrifice to get @Utah_Football to Tucson ASAP @FAANews"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121452369468608973",
+          "author": "oskardanube",
+          "searchJob": "coastal-carolina",
+          "text": "In his memoir, Thunder Below!, Commander Eugene Fluckey recounts that when he called for volunteers to go ashore at Karafuto (Sakhalin Island) to blow up a coastal Japanese supply train, the Japanese POW being held aboard the submarine step"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121448063310970986",
+          "author": "foxnews",
+          "searchJob": "coastal-carolina",
+          "text": "Friday the 13th lived up to its reputation. A nonstop day of breaking news: —A tanker slams into a New Orleans riverboat, sparking a dramatic rescue. — A nationwide FAA ground stop throws air travel into chaos. — SpaceX’s Starship booster e"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121435943798526395",
+          "author": "echinanews",
+          "searchJob": "coastal-carolina",
+          "text": "#NewsLounge China's use of geothermal energy offers a practical way to promote harmony between humanity and nature, a Turkish expert said Thursday. Şule Perinçek @suleperincek, chairman of the Executive Board at USMER, made the remarks at t"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 252,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "jobs": 247,
+      "swept": 6,
+      "failed": 1,
+      "requests": 7,
+      "errors": [
+        "western-kentucky: rate limited"
+      ]
     },
     "commits": {
       "samples": [
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2121356712938815749",
-          "author": "aabonnbc",
-          "text": "Excelling on the football field and in the Navy would not be possible without the support and commitment of others. Thank you to Mr. Leon for your commitment to @amirsears1_ and all your students. #NavyAAB 🇺🇸 @AmericasNavy https://t.co/Fl"
-        },
-        {
           "reason": "no_football_context",
-          "postId": "2121421664802222224",
-          "author": "faith79472",
-          "text": "OH MY ABSOLUTE GOD, look at the final scoreboard from this blue wave: Democrats are heading into 2027 with at least 28 governorships (including flips in Texas, Georgia, Ohio, Iowa, Nevada, and Alaska!), 55 Senate seats (and leading in Alask"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121396945902256586",
-          "author": "recruitsplash",
-          "text": "\"The opportunity to play at this level, compete in the SEC and represent the Razorbacks is something I’m very excited about.\" 2027 Olivia Stokes (GA) committed to Arkansas over interest from Oklahoma State, Tulsa &amp; Nevada, she tells me."
+          "postId": "2121365169389592847",
+          "author": "hagenbuchtx",
+          "text": "Today, Team Hagenbuch visited the future UTA West campus site! @UTArlington leadership shared exciting construction updates and a major commitment from the Walsh family, whose generous gift will create a central courtyard for the community "
         }
       ],
       "stats": {
-        "candidates": 3,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 1,
         "reasons": {
-          "reporter_missing_player_name": 1,
-          "no_football_context": 2
+          "no_football_context": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 1
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 10,
+      "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 14,
+    "decided": 14,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
@@ -64048,6 +64101,7 @@
     "2121279555855847881",
     "2121356712938815749",
     "2121421664802222224",
-    "2121396945902256586"
+    "2121396945902256586",
+    "2121365169389592847"
   ]
 }
