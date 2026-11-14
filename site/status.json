@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T11:29:05.571Z",
+  "generatedAt": "2026-11-14T11:43:51.837Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-14T11:29:04.833Z",
+    "at": "2026-11-14T11:43:51.232Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
-    "fullSweepCycles": 8
+    "sweptThisRun": 24,
+    "requests": 24,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,96 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "washington",
-      "hours": 2.5
-    },
-    {
-      "id": "baylor",
-      "hours": 2.3
-    },
-    {
-      "id": "boston-college",
-      "hours": 2.3
-    },
-    {
-      "id": "byu",
-      "hours": 2.3
-    },
-    {
-      "id": "charlotte",
-      "hours": 2.3
-    },
-    {
-      "id": "coastal-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.3
-    },
-    {
-      "id": "miami",
-      "hours": 2.3
-    },
-    {
-      "id": "nc-state",
-      "hours": 2.3
-    },
-    {
-      "id": "north-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 2.3
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 2.3
-    },
-    {
-      "id": "smu",
-      "hours": 2.3
-    },
-    {
-      "id": "stanford",
-      "hours": 2.3
-    },
-    {
-      "id": "syracuse",
-      "hours": 2.3
-    },
-    {
-      "id": "ucf",
-      "hours": 2.3
-    },
-    {
-      "id": "utah",
-      "hours": 2.3
-    },
-    {
-      "id": "virginia",
-      "hours": 2.3
-    },
-    {
-      "id": "virginia-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0309688888888888,
-    "p95Hours": 2.2689355555555557,
-    "worstHours": 2.5272775
+    "medianHours": 1.0361886111111112,
+    "p95Hours": 2.0229025,
+    "worstHours": 2.0229025
   },
   "decisionCoverage": {
-    "total": 31,
-    "decided": 31,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
@@ -128,7 +47,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 4658,
     "incompleteOffers": 0
@@ -136,10 +55,10 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-14T11:29:04.829Z",
-      "got": 45,
-      "new": 31,
-      "lag": 0.05
+      "at": "2026-11-14T11:43:51.231Z",
+      "got": 34,
+      "new": 22,
+      "lag": 0.09
     },
     "search:commit": {
       "at": "2026-11-14T11:29:04.833Z",
@@ -149,303 +68,218 @@
     }
   },
   "audit": {
-    "at": "2026-11-14T11:27:30.139Z",
+    "at": "2026-11-14T11:42:20.329Z",
     "mode": "live",
     "collection": {
-      "returned": 45,
-      "kept": 31,
-      "duplicate": 14,
-      "tooOld": 0,
+      "returned": 34,
+      "kept": 22,
+      "duplicate": 11,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 20,
-      "rejected": 11,
+      "accepted": 12,
+      "rejected": 10,
       "reasons": {
-        "no_offer_term": 4,
         "no_fbs_school": 6,
-        "hard_negative": 1
+        "no_offer_term": 4
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2121282989292224754",
-          "author": "f_gantry",
-          "searchJob": "washington",
-          "text": "I do love me some revisionist history. Sam Adams had to borrow clothes and money to attend the Continental Congress. George Taylor came to America as an indentured servant. Robert Morris went bankrupt and served time in debtors prison. Fran"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2120954793715957999",
-          "author": "jimstewartson",
-          "searchJob": "washington",
-          "text": "I love my country but the founders were rich white guys trying to protect their real estate holdings."
+          "reason": "no_fbs_school",
+          "postId": "2121554737896247333",
+          "author": "springbrieze",
+          "searchJob": "virginia",
+          "text": "@bunniyum Don’t know how many people this pertains to but there is a clinic in Virginia that offers removal services at around $200-$300 that’s essentially what he’s getting.. Planned Parenthood is also really good in Maryland https://t.co/"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121560929594736674",
-          "author": "eri_id_",
-          "searchJob": "washington",
-          "text": "\"Assab Is Not for Sale\": US Senators Back Eritrea's Red Line as G7 Urges Restraint Eritrea's message is clear: Assab is Eritrean territory, not a bargaining chip. After the G7 met in Paris, the world's major democracies voiced deep concern "
+          "postId": "2121551300357750989",
+          "author": "maritemise_ad",
+          "searchJob": "massachusetts",
+          "text": "The Presidential Implementation Committee on Technology Transfer (PICTT) and the National Agency for Science and Engineering Infrastructure @NASENIHQ led @KSHalilu have created more opportunities for 10 Nigerian innovators through a strateg"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121550086690017496",
-          "author": "arcticforever",
-          "searchJob": "washington",
-          "text": "I Have two extra tickets for 2hollis concert on Feb 18 at The Anthem, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121546686975578162",
-          "author": "ivory1957",
-          "searchJob": "washington",
-          "text": "LETTERS FROM STOCKHOLM Nigeria Has the Talent. Why Do We Keep Recycling Failure? By Kio Amachree Nigeria is approaching a quarter of a billion people, yet we are continually asked to believe that our future depends on the same small circle "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121531596968775816",
-          "author": "marshallis_him",
-          "searchJob": "marshall",
-          "text": "Omo Airtel don finally remove that special offer 😪🤦🏻‍♂️"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121558762448105608",
-          "author": "cultfooty",
-          "searchJob": "class:2030",
-          "text": "🚨 Arsenal and Brighton interested in AC Milan's Alphadjo Cisse - The 20-year-old has five goals in nine Serie A games since joining from Hellas Verona in the summer - He also scored a hat-trick against RB Salzburg in the Europa League - Mi"
+          "postId": "2121546465600311719",
+          "author": "gbollybakare",
+          "searchJob": "massachusetts",
+          "text": "Through a strategic alliance with the Massachusetts Institute of Technology (MIT) in Boston, Massachusetts, United States, the Presidential Implementation Committee on Technology Transfer @pi_ctt and the National Agency for Science and Engi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121563997401215061",
-          "author": "yashraajsharrma",
-          "searchJob": "florida",
-          "text": "Why did Nixon fall? Why did Tiger Woods lose everything he had built? Why does one man win a lottery &amp; another lose $65 billion? The answer sits in a chart most astrologers never open: the Rudramsha, D11. My most detailed article so far"
+          "postId": "2121568502339526827",
+          "author": "math_files",
+          "searchJob": "california",
+          "text": "https://t.co/FZHl6Q7QK8"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121556859895042105",
-          "author": "danwoodsweather",
-          "searchJob": "florida",
-          "text": "https://t.co/Nt1dspCRTk"
+          "postId": "2121435296436826569",
+          "author": "reichlinmelnick",
+          "searchJob": "california",
+          "text": "Study after study over the last decade has proven empirically that so-called sanctuary policies either have no impact on crime rates (neither increasing nor decreasing crime) or have a somewhat positive effect (reducing crime). Link in next"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121424182634283248",
+          "author": "icegov",
+          "searchJob": "california",
+          "text": "Why do sanctuary policies force law enforcement to release dangerous criminal illegal aliens into American communities instead of turning them over to ICE? Good question! https://t.co/PXPuDIn5ei"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121544973216539014",
-          "author": "sunsentinel",
-          "searchJob": "florida",
-          "text": "Nova Southeastern University’s Military to Medicine program offers a clear path for veterans to transition years of military service into healthcare careers. https://t.co/j0ny1rOrpD"
+          "postId": "2121559437139685625",
+          "author": "fwmalacyafeez",
+          "searchJob": "california",
+          "text": "MY HUSBAND QUIT HIS JOB WITHOUT TELLING ME, AND FOR FOUR MONTHS HE KEPT LEAVING THE HOUSE EVERY MORNING My name is Allison Reyes. I'm 38 and I live in Sacramento, California. My husband, Mark, and I have been married twelve years, and we ha"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121542304020500521",
-          "author": "attractionsnear",
-          "searchJob": "florida",
-          "text": "Save on Your 2026 Walt Disney World Resort Holiday: Walt Disney World Resort in Orlando, Florida, offers an enchanting escape for families, couples, and solo travellers alike. Spanning over 25,000… dlvr.​it/TWKg1S #WaltDisneyWorld #DisneyVa"
+          "postId": "2121547399156134149",
+          "author": "leonaranjoiv",
+          "searchJob": "california",
+          "text": "First problem you have in life: \"I want\".................. You can find a Starter home for your $400K, that might not be brand new. They're called: Fixer uppers. Try it. \"I want\"..............\"I want first-time buyers to stop losing bidding"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121542973850894411",
+          "author": "louveplaise",
+          "searchJob": "california",
+          "text": "\"Give us wealth, and the home shall exist. But that is a very imperfect and inglorious solution of the problem, and therefore no solution. “Give us wealth.” You ask too much. Few have wealth, but all must have a home. Men are not born rich;"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121563023416627582",
+          "author": "tim_denning",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/uuiUTQQhaU"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 20,
+      "rejected": 12,
       "reasons": {
-        "multiple_resolved_schools": 4,
-        "school_not_resolved_confidently": 1,
-        "bare_mention_requires_llm": 15
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 7,
+        "bare_mention_requires_llm": 1,
+        "reporter_missing_player_name": 1,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121561754614309360",
-          "author": "2bytecoin",
-          "searchJob": "auburn",
-          "text": "Let me analyze this for everyone 🔥✅ 1. Mississippi State ML (+116) vs Auburn Confidence: 7/10 * Mississippi State is getting plus-money value at home. * Taking the moneyline means you need a straight-up victory. * The biggest concern is Au"
+          "postId": "2121567577759494161",
+          "author": "thevegasalpha",
+          "searchJob": "miami",
+          "text": "The VegasAlpha Matrix Top 10 CFB Bets 7-3 Last week, 51-29 on the season! 1. Michigan (+10.5) at #16 Oregon — 2:30 PM CST (FS1) ​The Blueprint: Catching the hook past the key number of 10 (+10.5) in a game with an ultra-low total of 38.5 gi"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121542824269148269",
-          "author": "tones24649888",
-          "searchJob": "usc",
-          "text": "@IrishTimes Typical of guy who can command thousands for a speech is trying to put a wedge between private and public sector You do realise the Govt is the only employer who gets approx 50% of whatever they offer back in tax, prsi, usc, pen"
+          "postId": "2121543060777554173",
+          "author": "sportsfora",
+          "searchJob": "miami",
+          "text": "@effxzzzyy Las Vegas is so cooked, Whenever top global stars come to Vegas, casino and mega hotels is all we have to offer them. Mecca is so cooked, Whenever top global stars come to Mecca, Hajj and Ummurah is all we have to offer them. Zan"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121565323925000452",
-          "author": "cakested",
-          "searchJob": "washington",
-          "text": "The American Revolution plunged the former colonies/new country into an economic depression that lasted a decade. The main trade and economic engine of the colonies had been England so the English market disappeared and trade restrictions w"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121564763415257335",
-          "author": "factcheckero1",
-          "searchJob": "washington",
-          "text": "🚨 JUST IN: ZELENSKYY SAYS US RAISED NATO MEMBERSHIP IN EXCHANGE FOR UKRAINE WITHDRAWING FROM DONBAS Ukrainian President Volodymyr Zelenskyy says Washington has, for the first time, raised the possibility of Ukraine joining NATO if it withd"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121564339555455059",
-          "author": "maeaewq",
-          "searchJob": "washington",
-          "text": "@BRICSinfo Same week Moscow puts ”NATO back to 1997” on paper. Washington offers Kyiv a NATO deal. The Kremlin’s wish list just lost its first page."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121563436349837679",
-          "author": "alternative_war",
-          "searchJob": "washington",
-          "text": "🇺🇸🇺🇦 DONBAS FOR NATO? ZELENSKYY SAYS U.S. RAISED THE QUESTION For the first time, American negotiators asked whether Ukraine would withdraw from Donbas if it joined NATO, President Volodymyr Zelenskyy told journalists. Kyiv is discussin"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121557066422837498",
-          "author": "haider44__",
-          "searchJob": "washington",
-          "text": "Zelensky alleges Washington offered Ukraine a path to NATO membership in return for surrendering control of the Donbas region to Russia."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121553858308497780",
-          "author": "letsarmukr",
-          "searchJob": "washington",
-          "text": "Zelensky says the US has proposed NATO membership for Ukraine in exchange for withdrawing from Donbas, the first offer of its kind. He says he could take a concrete offer, backed by other NATO members, to a referendum. Ukraine would still n"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121548374834909282",
-          "author": "fab87f",
-          "searchJob": "washington",
-          "text": "StratcomCentre: For the first time, the United States has raised the possibility of Ukraine joining NATO in exchange for withdrawing its forces from Donbas, President Zelensky revealed. “The Americans asked: ‘What if Ukraine is in NATO, wil"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121546748317364654",
-          "author": "stratcomcentre",
-          "searchJob": "washington",
-          "text": "For the first time, the United States has raised the possibility of Ukraine joining NATO in exchange for withdrawing its forces from Donbas, President Zelensky revealed. “The Americans asked: ‘What if Ukraine is in NATO, will Ukraine leave "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121542206137778371",
-          "author": "thisenglandx",
-          "searchJob": "washington",
-          "text": "Moscow 1980 — The Olympics the World Boycotted, but Who Could Forget Misha? A Letter from Olympic History There are moments in history when politics casts such a long shadow over the affairs of ordinary people that even the Olympic Games, s"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121539262847889432",
-          "author": "2bytecoin",
-          "searchJob": "washington",
-          "text": "Let me analyze this for everyone 🔥✅ 1. Parker Washington (Jaguars) — ANYTIME TD (+130) ⭐ Confidence: 7/10 * Attractive price at +130. * Has potential to capitalize on Jacksonville’s passing opportunities. * Needs a red-zone target or a big"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121538854377144787",
-          "author": "arabnews",
-          "searchJob": "washington",
-          "text": "🔴 BREAKING: Washington offered us the option of ceding territory in exchange for Ukraine's NATO membership - Zelenskyy https://t.co/A3wxS2Fskb https://t.co/oA8PPcETMc"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121541515256201241",
+          "author": "hugonavarroper2",
+          "searchJob": "miami",
+          "text": "Q3 results update is out. Playboy ($PLBY ) and doValue ($DOV.MI) beat expectations, and both theses are getting derisked. Playboy: adjusted EBITDA of $7.9M against a street at $5M. China licensing is up almost 40% after UTG signed $15M of n"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121536116914262184",
-          "author": "liesorliars",
-          "searchJob": "washington",
-          "text": "Republican strategist Juleanna Glover offered Jeffrey Epstein help on the sovereign fund angle of Elon Musk taking Tesla private in August 2018, days after Musk floated the idea. Glover runs the Washington consultancy Ridgely Walsh. She was"
+          "postId": "2121568342028775456",
+          "author": "apollonvisual",
+          "searchJob": "north-carolina",
+          "text": "Families Protest Google AI in Schools Families protested in seven cities on Wednesday against Google's AI push in schools. Chicago Public Schools pulled out of a districtwide Gemini pilot in August after parent pressure. The Illinois Famili"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121536116209696901",
-          "author": "almajallaen",
-          "searchJob": "washington",
-          "text": "The midterms complicate Trump's search for an Iran deal https://t.co/FfGGIfCTPx ♦️ Democrats' sweeping victory in the November 2026 US midterm elections has changed the political landscape for President Donald Trump, giving them control of "
+          "postId": "2121543378957480182",
+          "author": "hilltopper1964",
+          "searchJob": "pittsburgh",
+          "text": "@Moore_CFB I would be surprised if Heintchel stays at Pitt, whether Narduzzi is the coach or not. Unfortunately Pitt doesn't offer the facilities or NIL money to keep their good players."
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121561742803104088",
-          "author": "bookpos_app",
-          "searchJob": "louisville",
-          "text": "🎯 VALUE PARLAY — DAFABET 📅 14 NOV 2026 | 6 LEGS 🔥 COMBINED ODDS: 265.08 📊 MARKET AVERAGE: 211.43 📈 VALUE BOOST: +25.37% ⚽ Think you know football? Test your own betting decisions for FREE. 50 virtual credits. Real games. Real odds. Rea"
+          "reason": "reporter_missing_player_name",
+          "postId": "2121538405616025701",
+          "author": "dianadurham8626",
+          "searchJob": "stanford",
+          "text": "@KemiBadenoch lobbied for *more* immigration, lied about offer from Stanford, helped Tories import 11 million people against the wishes of the British people. You don't have the interests of this country at heart: Olukemi Olufunto Adegoke @"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121560317679243340",
-          "author": "bookpos_app",
-          "searchJob": "louisville",
-          "text": "🎯 VALUE PARLAY — BET365 📅 14 NOV 2026 | 6 LEGS 🔥 COMBINED ODDS: 272.69 📊 MARKET AVERAGE: 175.24 📈 VALUE BOOST: +55.62% ⚽ Think you know football? Test your own betting decisions for FREE. 50 virtual credits. Real games. Real odds. Real"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121559726546894949",
+          "author": "sciencekonek",
+          "searchJob": "coastal-carolina",
+          "text": "#SciFeature 𝗧𝗛𝗘 𝗣𝗛𝗜𝗟𝗜𝗣𝗣𝗜𝗡𝗘𝗦 𝗔𝗧 𝗡𝗜𝗚𝗛𝗧 🌃 Ever wondered what the Philippines looks like from space after dark? From the bright sprawl of Metro Manila to the flickering dots of far-flung islands, each cluster of light tell"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121548105355268502",
-          "author": "flicksanca",
-          "searchJob": "marshall",
-          "text": "Film Noir: After the War — The Uncertain Return The Blue Dahlia (1946) George Marshall Somewhere in the Night (1946) Joseph L. Mankiewicz Cornered (1945) Edward Dmytryk The end of World War II created a powerful expectation of renewal. Vict"
+          "reason": "reporter_missing_class_year",
+          "postId": "2121560501952065696",
+          "author": "viktorattorney",
+          "searchJob": "california",
+          "text": "Absence of evidence is not evidence of absence, @ReichlinMelnick. The studies say something narrower than your claim that \"study after study\" has \"proven empirically\" that sanctuary policies have no effect on crime or reduce it. A result th"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121555885315301845",
-          "author": "bioreconstruct",
-          "searchJob": "florida",
-          "text": "Chalet style event kitchens have been added in Universal Studios Florida to offer holiday season food and beverage. https://t.co/JaAZvYbcHR"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121555943255048468",
+          "author": "yanis_hamadgaza",
+          "searchJob": "wake-forest",
+          "text": "Our lives among the tents… an endless ache, a suffering that begins anew with every sunrise. 💔 This is what our daily lives in Gaza have become: a reality beyond words, a reality in which we have been stripped of even the most basic necess"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121555786543370482",
-          "author": "islandsmagazine",
-          "searchJob": "florida",
-          "text": "Macclenny is a great day trip from Jacksonville and offers a peek into Florida pioneer history, access to nature preserves and hiking, and good local eats. https://t.co/KUkdL5qlaT"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121554824571576626",
+          "author": "beinguduako",
+          "searchJob": "wake-forest",
+          "text": "You that you have more to offer, why does your life look like that? You’re the one who needs to wake from the coma misogyny has you under. All this English because you’re an unsexy loaf of stale bread is crazy 😂😂😂😂😂"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121547589598233041",
+          "author": "ladyanalysisoap",
+          "searchJob": "wake-forest",
+          "text": "@beingUduakO Her body is all she got now nothing more that's all both of you can offer that's why you are loving a naked lady. Wake from that crazy world if you think that is something anyone can be proud of"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121550797422882951",
+          "author": "weebqx",
+          "searchJob": "wake-forest",
+          "text": "@TimSweeneyEpic doesn’t understand why a paying customer gets to leave a review as in-depth as the customer wants on a game that customer paid for. All opinions from Sweeney are rendered invalid until he can offer the default experience tha"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 245,
+      "jobs": 242,
       "swept": 26,
       "failed": 0,
       "requests": 26,
       "errors": []
     },
     "commits": {
-      "samples": [
-        {
-          "reason": "juco_or_transfer",
-          "postId": "2121546686975578162",
-          "author": "ivory1957",
-          "text": "LETTERS FROM STOCKHOLM Nigeria Has the Talent. Why Do We Keep Recycling Failure? By Kio Amachree Nigeria is approaching a quarter of a billion people, yet we are continually asked to believe that our future depends on the same small circle "
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2121413556902264839",
-          "author": "nflhuddleup",
-          "text": "Chuck Noll Built Winners Before He Built Champions Chuck Noll didn’t arrive in Pittsburgh to win headlines. He arrived to build something that would last. When he took over the Steelers in 1969, the franchise was one of the league’s worst. "
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121456541567996067",
-          "author": "adenbutcher",
-          "text": "Ridiculous performance tonight from major 2028 #SMU target Tristin Gaines who is schedule to announce his commitment tomorrow."
-        }
-      ],
+      "samples": [],
       "stats": {
-        "candidates": 3,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 3,
-        "reasons": {
-          "juco_or_transfer": 1,
-          "roundup_too_long": 1,
-          "no_football_context": 1
-        }
+        "rejected": 0,
+        "reasons": {}
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 20,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-14T11:29:05.572Z"
+    "status rebuilt locally from current store on 2026-11-14T11:43:51.838Z"
   ]
 }
