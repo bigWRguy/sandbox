@@ -1,13 +1,5 @@
 {
   "seenPostIds": [
-    "2115933528244527339",
-    "2115929030922817983",
-    "2115921673547387167",
-    "2115916661232738616",
-    "2115922875828011196",
-    "2115918997241888996",
-    "2115912110081482789",
-    "2115941178747281470",
     "2115930158125437024",
     "2115927242044043682",
     "2115926742682804331",
@@ -59999,23 +59991,31 @@
     "2121510270329864251",
     "2121504266472812780",
     "2121499754823602397",
-    "2121512061478023220"
+    "2121512061478023220",
+    "2121529076892701126",
+    "2121511403299410090",
+    "2121508430942966010",
+    "2121525386185982256",
+    "2121520644043018268",
+    "2121518254111817882",
+    "2121516650486784021",
+    "2121513471917658476"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-11-14T09:14:41.287Z",
-      "got": 26,
-      "new": 14,
-      "lag": 0.1
+      "at": "2026-11-14T09:27:40.913Z",
+      "got": 10,
+      "new": 8,
+      "lag": 0.43
     },
     "search:commit": {
-      "at": "2026-11-14T09:14:41.305Z",
-      "got": 27,
-      "new": 6,
-      "lag": 3.84
+      "at": "2026-11-14T09:27:40.913Z",
+      "got": 0,
+      "new": 0,
+      "lag": null
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60347,9 +60347,9 @@
       "truncated": false
     },
     "california": {
-      "at": "2026-11-14T07:27:21.802Z",
+      "at": "2026-11-14T09:27:11.092Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 7,
+      "lastPosts": 4,
       "truncated": false
     },
     "cincinnati": {
@@ -60503,31 +60503,31 @@
       "truncated": false
     },
     "wake-forest": {
-      "at": "2026-11-14T07:27:21.802Z",
+      "at": "2026-11-14T09:27:11.092Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
-      "lastPosts": 4,
+      "lastPosts": 6,
       "truncated": false
     },
     "west-virginia": {
-      "at": "2026-11-14T07:27:21.802Z",
+      "at": "2026-11-14T09:27:11.092Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "phrase:\"has been offered by\" football": {
-      "at": "2026-11-14T07:27:21.802Z",
+      "at": "2026-11-14T09:27:11.092Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "phrase:\"picks up an offer from\"": {
-      "at": "2026-11-14T07:27:21.802Z",
+      "at": "2026-11-14T09:27:11.092Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
     },
     "phrase:\"picked up an offer from\"": {
-      "at": "2026-11-14T07:27:21.802Z",
+      "at": "2026-11-14T09:27:11.092Z",
       "migratedAt": "2026-08-31T05:59:03.886Z",
       "lastPosts": 0,
       "truncated": false
@@ -61232,15 +61232,9 @@
       "at": "2026-11-14T09:12:57.403Z"
     },
     "commit:texas": {
-      "lastPosts": 19,
-      "truncated": true,
-      "at": "2026-11-13T21:12:19.164Z",
-      "window": {
-        "lower": "2026-11-13T21:07:19.164Z",
-        "upper": "2026-11-14T09:12:57.403Z",
-        "until_time": "2026-11-13T21:51:10.000Z",
-        "completed": false
-      }
+      "lastPosts": 0,
+      "truncated": false,
+      "at": "2026-11-14T09:12:57.403Z"
     },
     "commit:texas-am": {
       "lastPosts": 0,
@@ -61787,11 +61781,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-11-14T09:14:41.305Z",
+    "at": "2026-11-14T09:27:40.914Z",
     "jobsTotal": 162,
-    "sweptThisRun": 20,
-    "requests": 20,
-    "fullSweepCycles": 9
+    "sweptThisRun": 6,
+    "requests": 7,
+    "fullSweepCycles": 27
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61811,204 +61805,123 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-14T09:12:57.292Z",
+    "at": "2026-11-14T09:27:10.986Z",
     "mode": "live",
     "collection": {
-      "returned": 26,
-      "kept": 14,
-      "duplicate": 12,
+      "returned": 10,
+      "kept": 8,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 3,
+      "accepted": 6,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 3
+        "no_fbs_school": 1,
+        "no_offer_term": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2121515994451517615",
-          "author": "miamiherald",
-          "searchJob": "miami",
-          "text": "Dolphins’ Brewer out Sunday. Hafley offers update on Bell, his message for McCord https://t.co/aPFTyxRfIR"
+          "postId": "2121511403299410090",
+          "author": "thewatchman1955",
+          "searchJob": "california",
+          "text": "104_Hakeem Jeffries and his butt buddies in California have declared they support the return of Illegal Immigrants and those already deported, Gov. Nuisance has even offered hundreds of thousands of dollars, free welfare, SNAP and homes to "
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2121530763640250604",
-          "author": "messioso",
-          "searchJob": "pittsburgh",
-          "text": "@fatremont @AbowCS2 @paszaBiceps @MonsterEnergy @papitoenergy I'd at least offer to meet him halfway"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121523159941714374",
-          "author": "infinityfotorob",
-          "searchJob": "utah",
-          "text": "I am talking about the violent protests in general. The ongoing fighting with ANTIFA in multiple cities in the USA. The Summer of Love cities burned and people were killed. Charlie Kirk was murdered, No Kings in SLC a guy was shot and kille"
+          "reason": "no_offer_term",
+          "postId": "2121525386185982256",
+          "author": "infoyogatravel",
+          "searchJob": "wake-forest",
+          "text": "Better sleep begins long before bedtime. Discover how morning daylight, movement, caffeine, nervous system regulation, and restorative Yoga can help you build a daily rhythm that supports deeper, more restorative nights. https://t.co/roZ4oZ"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 11,
+      "rejected": 6,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 2,
+        "school_not_resolved_confidently": 4
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121501276840329225",
-          "author": "uttxswimmer",
-          "searchJob": "byu",
-          "text": "@brianmctaggart That makes two Cougar teams in the Big 12 losing games inexplicably to clearly inferior opposition this year. BYU fans offer you our sympathy."
+          "postId": "2121529076892701126",
+          "author": "ballanutsa",
+          "searchJob": "california",
+          "text": "the big fugazzification of AI agents the more ai agent demos i see, the more i think the gold rush analogy is almost too perfect. california, 1849. everyone runs west because they think they’re about to strike gold. but only 0,01% of people"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121508430942966010",
+          "author": "rainmaker1973",
+          "searchJob": "california",
+          "text": "In 1975, Gary Dahl sold 1.5 million Pet Rocks, turning a joke into a million-dollar fad. The 1975 Pet Rock craze remains one of the most famous examples of clever packaging and humor outselling a literal product. What began as a casual joke"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121528646196224355",
-          "author": "osamagbeosemwe1",
-          "searchJob": "miami",
-          "text": "@EizzyPipes @Richie_sneh @hypetribeng Miami is known for its beaches and bitches but that's not the only thing they have to offer. You're taking this as an attack on Lagos but criticism is how brands grow. It would be way better for Lagos i"
+          "postId": "2121520644043018268",
+          "author": "jimmyvirkk",
+          "searchJob": "wake-forest",
+          "text": "I watched an old interview with the late Indian journalist, writer and intellectual Sardar Khushwant Singh. It illuminated both my heart and mind. He said he had never known poverty. He had no idea what poverty even felt like. Journalism ha"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121527305394606569",
-          "author": "limercoin",
-          "searchJob": "miami",
-          "text": "🌴🌆 Vice City Called. We Built a Miner for It. Hello Limers! Our upcoming special offer is unlike our usual miners. It’s a powerful machine, inspired by one of the most anticipated game releases of the decade.🎮 Yes, we’ve been waiting for"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121525607909691836",
-          "author": "nugsfan88",
-          "searchJob": "nc-state",
-          "text": "@PackFootball @PackAthletics If I’m a young baller and I’m offered NC State full ride I’m going. I would run through a wall for Coach Rivers"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121514570053198176",
-          "author": "vleather3612",
-          "searchJob": "pittsburgh",
-          "text": "The Cruelest Aroma 👉 Manager Clotilde’s Notice — This image is from the collection THE DIET • Desperate Measures, now available on our Patreon. https://t.co/u66EtFLUlO 07 • The Cruelest Aroma Jeseníky Mountains, Czechoslovakia • 1977 A che"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121524789294833746",
-          "author": "tmacgaillimh",
-          "searchJob": "stanford",
-          "text": "Her back story is riddled with holes and contradictions. This is one of them. I think Badenoch has a touch of the Pinocchio about her. Badenoch has claimed in several interviews to have been offered a partial scholarship to Stanford Univers"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121509268369162302",
-          "author": "arnaudmercier",
-          "searchJob": "stanford",
-          "text": "<p class=\"wp-block-paragraph\">Since their inception, it’s been clear that large language models like ChatGPT absorb racist views from the millions of pages of the internet they are trained on. Developers have responded by trying to make the"
+          "postId": "2121518254111817882",
+          "author": "trendfusionng",
+          "searchJob": "wake-forest",
+          "text": "Look in the mirror. See what Nigeria has done to you. 1. There is a silent tragedy unfolding in Nigeria under the Tinubu government. 2. Millions of people may be paying for the country's economic hardship with something they can never recov"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121510270329864251",
-          "author": "captainkieran2",
-          "searchJob": "coastal-carolina",
-          "text": "AQUATHERM OCEAN INTEGRITY The North Atlantic Cold Blob ***A Warning We Cannot Ignore*** Across the North Atlantic, south of Greenland, something deeply concerning is happening. A vast region of ocean is warming more slowly than the surround"
+          "postId": "2121516650486784021",
+          "author": "wh1tegravy227",
+          "searchJob": "wake-forest",
+          "text": "I'm so glad to see you openly acknowledge their superiority. They've alwaysss been better than us Goyim and the sooner we all realize it, the better the world will be for them. Remember, they are CHOSEN; no one else is and we should be glad"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121504266472812780",
-          "author": "jeffers63904838",
-          "searchJob": "massachusetts",
-          "text": "https://t.co/dtFCUQ08IY Indy | PA America’s powerful and wealthy are NOT ppl worth dying for … They are the sorriest sacks of shit the World has to offer … I don’t blame the kid from Massachusetts for having a desire to assassinate Trump gi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121499754823602397",
-          "author": "josephcebu76777",
-          "searchJob": "massachusetts",
-          "text": "@Tesla @grok @elonmusk Why I love my tesla. ok, I'm 75, have had a heart attack. With FSD I can go places without worrying that I'm going to have another one and accidentally kill some young family traveling innocently in their own vehicle,"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121512061478023220",
-          "author": "glenn_highway",
-          "searchJob": "florida",
-          "text": "The realignments are real and they did not produce these results on their own. JKT cleared 50 percent first choice against three Republicans whose combined share was essentially equal to his. That is the top-four system doing the work of a "
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121513471917658476",
+          "author": "hamskyhbb",
+          "searchJob": "wake-forest",
+          "text": "his name was Tom. he lived in 205, right next door. he'd come home at 1am, seen a lump in his bed, and decided the safest move was to sleep on the couch and wait. i said \"you slept on your couch because there was a stranger in your bed?\" he"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 246,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "jobs": 243,
+      "swept": 7,
+      "failed": 1,
+      "requests": 8,
+      "errors": [
+        "phrase:\"receives an offer from\": rate limited"
+      ]
     },
     "commits": {
-      "samples": [
-        {
-          "reason": "no_commit_event",
-          "postId": "2121474252033650842",
-          "author": "carterkarels",
-          "text": "Which Texas A&amp;M football recruiting commits/targets will still make it to A&amp;M vs. Tennessee following the nationwide ground stop? @AggieYellOn3 has the latest, including a big update on five-star linebacker pledge Kaden Henderson 👀"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121471136995180894",
-          "author": "aggiestoday",
-          "text": "While one five-star visitor will no longer visit Texas A&amp;M, a key commitment is still expected in College Station tomorrow despite the nationwide flight stoppage. The latest on numerous prospects planning to visit campus on Saturday + m"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121454592953344380",
-          "author": "bomberstx18u",
-          "text": "Congrats to the first 2 of our 💯 committed 2027 class, Haley Salas and Reagan Mullaley, on signing their letters of intent! Work + Dedication = REWARDS @HaleySalas2712 with Cisco College @rrmsb09 with Texas A&amp;M San Antonio https://t.co"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121444723311419640",
-          "author": "guy_tribe23597",
-          "text": "Texas Flipped With Voter Turnout in Illegal Alien Counties https://t.co/zoqphQGivp This makes Marco Rubio as the GOP nominee in 2028 paramount."
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2121407045731504499",
-          "author": "productionsw7",
-          "text": "🤠🏀 SHE'S CHOOSING TEXAS! 🎶🔥 Ella Langley might be onto something…because Ava Dotson is headed to the Lone Star State! ⭐ Congratulations to Ava Dotson of Grafton High School, Class of 2027, on her basketball commitment to UT Arlington!🧡"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2121405979967275427",
-          "author": "ainsworthkeith",
-          "text": "Texas Scorecard: Democrat State Rep. John Bucy filed House Bill 387 to eliminate the death penalty in Texas. It would require life without parole for capital felonies committed by adults 18 and older, and life imprisonment for those under 1"
-        }
-      ],
+      "samples": [],
       "stats": {
-        "candidates": 6,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 6,
-        "reasons": {
-          "no_commit_event": 1,
-          "no_football_context": 3,
-          "other_sport": 1,
-          "roundup_too_long": 1
-        }
+        "rejected": 0,
+        "reasons": {}
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 11,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
