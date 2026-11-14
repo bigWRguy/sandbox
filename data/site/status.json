@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T20:58:58.835Z",
+  "generatedAt": "2026-11-14T21:14:13.577Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-14T20:58:58.138Z",
+    "at": "2026-11-14T21:14:12.899Z",
     "jobsTotal": 162,
-    "sweptThisRun": 24,
-    "requests": 24,
-    "fullSweepCycles": 7
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,86 +32,90 @@
   },
   "staleSchools": [
     {
-      "id": "california",
-      "hours": 2.5
-    },
-    {
-      "id": "wyoming",
-      "hours": 2.5
-    },
-    {
-      "id": "central-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "indiana",
-      "hours": 2.3
-    },
-    {
-      "id": "kansas",
-      "hours": 2.3
-    },
-    {
-      "id": "kentucky",
-      "hours": 2.3
-    },
-    {
       "id": "louisiana-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "louisville",
-      "hours": 2.3
-    },
-    {
-      "id": "lsu",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "marshall",
+      "hours": 2.5
+    },
+    {
+      "id": "alabama",
       "hours": 2.3
     },
     {
-      "id": "maryland",
+      "id": "charlotte",
       "hours": 2.3
     },
     {
-      "id": "miami",
+      "id": "coastal-carolina",
       "hours": 2.3
     },
     {
-      "id": "michigan",
+      "id": "massachusetts",
       "hours": 2.3
     },
     {
-      "id": "nc-state",
+      "id": "michigan-state",
       "hours": 2.3
     },
     {
-      "id": "north-carolina",
+      "id": "minnesota",
       "hours": 2.3
     },
     {
-      "id": "oklahoma-state",
+      "id": "mississippi-state",
       "hours": 2.3
     },
     {
-      "id": "pittsburgh",
+      "id": "missouri",
       "hours": 2.3
     },
     {
-      "id": "smu",
+      "id": "stanford",
+      "hours": 2.3
+    },
+    {
+      "id": "syracuse",
+      "hours": 2.3
+    },
+    {
+      "id": "ucf",
+      "hours": 2.3
+    },
+    {
+      "id": "utah",
+      "hours": 2.3
+    },
+    {
+      "id": "virginia",
+      "hours": 2.3
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.3
+    },
+    {
+      "id": "washington-state",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0242355555555556,
-    "p95Hours": 2.2714197222222223,
-    "worstHours": 2.5253983333333334
+    "medianHours": 1.0233466666666666,
+    "p95Hours": 2.281296111111111,
+    "worstHours": 2.5255147222222223
   },
   "decisionCoverage": {
-    "total": 52,
-    "decided": 52,
+    "total": 56,
+    "decided": 56,
     "complete": true
   },
   "pending": {
@@ -122,397 +126,399 @@
   },
   "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 4679,
+    "completeOffers": 4680,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-14T20:58:58.138Z",
-      "got": 79,
-      "new": 52,
-      "lag": 0.12
+      "at": "2026-11-14T21:14:12.887Z",
+      "got": 91,
+      "new": 56,
+      "lag": 0.07
     },
     "search:commit": {
-      "at": "2026-11-14T20:44:18.598Z",
-      "got": 19,
-      "new": 7,
-      "lag": 0.14
+      "at": "2026-11-14T21:14:12.899Z",
+      "got": 43,
+      "new": 17,
+      "lag": 0.33
     }
   },
   "audit": {
-    "at": "2026-11-14T20:57:25.504Z",
+    "at": "2026-11-14T21:12:37.133Z",
     "mode": "live",
     "collection": {
-      "returned": 79,
-      "kept": 52,
-      "duplicate": 27,
+      "returned": 91,
+      "kept": 56,
+      "duplicate": 35,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
+      "accepted": 30,
       "rejected": 26,
       "reasons": {
-        "no_fbs_school": 15,
-        "no_offer_term": 9,
-        "hard_negative": 2
+        "no_offer_term": 18,
+        "no_fbs_school": 6,
+        "non_fbs_offer_target": 1,
+        "hard_negative": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2121695327883583881",
-          "author": "pokebuzzybuzz",
-          "searchJob": "buffalo",
-          "text": "In case you're wondering how to design and run an op to determine who has how much gold at home, here's a part of that op: 1) Start a company that offers the cheapest, but not suspiciously cheap, ship-to-home Sigma Verifier machine rentals."
+          "reason": "no_offer_term",
+          "postId": "2121697723158270194",
+          "author": "newwrldoptimist",
+          "searchJob": "wyoming",
+          "text": "https://t.co/WJOCkFEnB3"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121617695795749247",
-          "author": "rapsheet",
-          "searchJob": "buffalo",
-          "text": "The #Vikings made their initial Kirk Cousins trade call to the #Raiders before MNF… plus all the other items and tidbits gathered around the trade deadline. Notebook from me and @AdamSchefter: https://t.co/ilhM19Nzjl https://t.co/ilhM19Nzjl"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121676582746296816",
-          "author": "nickent789",
-          "searchJob": "kent-state",
-          "text": "Hi Greg, that isn’t an objection, they are only complaining which means they are still interested. Do you offer 2 hour cleanings? We call them mini “courtesy cleans.” We only offer them if they book for the first thing in the morning as the"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121705983550587314",
-          "author": "reimakayla",
-          "searchJob": "ohio",
-          "text": "I paid a guy $8,400 this year to brick up and seal 6 working fireplaces in houses I just bought Every buyer on HGTV begs for a wood-burning fireplace In Ohio rentals, sealing it shut lowers my insurance bill by $600 a year, saves me an $8,0"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121703976047345955",
-          "author": "ouzanesville",
-          "searchJob": "ohio",
-          "text": "VESi offers online continuing education courses to fit your educational needs. Take courses when and where you want after settling back in this fall! Learn More: https://t.co/B7y4o6LieP https://t.co/1xVaAJQugL"
+          "postId": "2121712208606573030",
+          "author": "jellobrain",
+          "searchJob": "class:2026",
+          "text": "https://t.co/byruCtVFx2"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121703588980240453",
-          "author": "daytondailynews",
-          "searchJob": "ohio",
-          "text": "From leisurely lakeside hikes to endurance-testing treks and sunset strolls to all-day adventures, Girls Who Hike Ohio traverses Ohio trails and beyond. https://t.co/jc8O56CPmx"
+          "postId": "2121694088927838361",
+          "author": "basilclaw",
+          "searchJob": "class:2026",
+          "text": "https://t.co/ziaJBkMK1z"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121700473237619016",
-          "author": "coachoffers",
-          "searchJob": "ohio",
-          "text": "Ohio State might of won, but we still look sloppy against a mediocre Northwestern team....."
+          "postId": "2121694031918895360",
+          "author": "updownupupright",
+          "searchJob": "class:2026",
+          "text": "https://t.co/CKXwvU3DGK"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121683877341122620",
+          "author": "themahlan",
+          "searchJob": "class:2026",
+          "text": "@WhosManIsThis24 No one wants browns players dude. 2026 firsts were worth nothing. A rebuilding team doesn't need a te. He's also currently TE9 in dynasty and unless its tep who cares. Offer someone better than a flex start"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121685309213868297",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Jack Nelson-DL-2027-CA @NAU_Football Offer #CFB"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121698381819220014",
-          "author": "mropp_10",
-          "searchJob": "ohio",
-          "text": "Blessed to receive first team ALL-SOUTHWEST OHIO and first team All-OHC🖤🏴‍☠️ https://t.co/3nfiptkTLN"
+          "postId": "2121683030071017804",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Brendan Cardoso-WR-2027-RI @RhodyFootball Commit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121444950734753926",
+          "author": "brendan_c0",
+          "searchJob": "class:2027",
+          "text": "Thank you God❤️✝️. @LSARamsFootball @LSAathletics @koppen67 @Coach_RMattison @CoachWillFlem @CoachFlanaganRI @coachflem @CoachRMcCormack @CoachYanny @Coach_Feit @CoachP401 https://t.co/s4kCCJ39i4"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121649977110011951",
+          "author": "elicochran0",
+          "searchJob": "class:2027",
+          "text": "Blessed!! Coastal Carolina #ggm @L_Armstrong3 @_CoachDowning https://t.co/oHGw7m9cCa"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121680647806726188",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Myles McDonald-QB-2027-FL @FAMU_FB Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121610432981127663",
+          "author": "813_mcdonald",
+          "searchJob": "class:2027",
+          "text": "I will be at @FAMU_FB today against Mississippi Valley State!🐍 @RTS_9 @CoachQGray @MarshallMcDuf14 @TheQBHouse https://t.co/UxDu56r6SY"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121686461418229994",
+          "author": "np4football_ot",
+          "searchJob": "class:2028",
+          "text": "Leighton Hendrickson-WR-2028-ND @VCSU_Football Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121665731305652384",
+          "author": "leighton_hend67",
+          "searchJob": "class:2028",
+          "text": "Thank you @VCSU_Football for the great gameday visit last weekend. I had a great time learning more about the culture and the program. It was great seeing the program I grew up watching! @VCSU_CoachMac @CoachYorek @CoachBeierle @TheCoachBou"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121711027792339130",
+          "author": "wfiuwtiunews",
+          "searchJob": "indiana",
+          "text": "MyRacehorse recently launched its Indiana Racing Club, allowing people to purchase a small ownership share in an Indiana-bred thoroughbred. @theclaygerbaum Read more: https://t.co/TbMYnDZ2bk https://t.co/OEBnVn8QRo"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121699134117982530",
+          "author": "np4football_ot",
+          "searchJob": "indiana",
+          "text": "Barrett Price-WR-2029-AL @IndianaFootball Game Day Visit #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121626497131655663",
+          "author": "barrettprice_",
+          "searchJob": "indiana",
+          "text": "Excited to be in Bloomington today!! @CCignettiIU @CoachShanahan_ @CoachTSunseri @CoachEddie2 @MattWilsonDPP @Kendel_Bennett @vakakes @SpainParkFB @TomLoy247 @Andrew_Ivins @ChadSimmons_ @SWiltfong_ @samspiegs @CharlesPower @BrandonHuffman @"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121685929090019444",
+          "author": "ibcwbb",
+          "searchJob": "indiana",
+          "text": "🚨2028 Forward, Brooklyn Crim (@brooklyncrim25 ) has been offered by Manchester University ‼️ Congrats 🔥 https://t.co/4nd2aCsFiI"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121686857994092593",
-          "author": "stanekgary",
-          "searchJob": "ohio",
-          "text": "@Buckeyefanohio7 @bigdog19692 The coaches know what he has to offer. That’s why he isn’t playing."
+          "postId": "2121684952353763710",
+          "author": "kentucky_colnel",
+          "searchJob": "kentucky",
+          "text": "@DanvilleJennie The man is a legendary pussy hound. I’ve seen him walk into the late, great Adelitas in Tijuana and watched every single working girl in the place walk up and offer to pay HIM for the sexuals. https://t.co/6evWMcKqHs"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2121681258598035850",
-          "author": "first_ohio",
-          "searchJob": "ohio",
-          "text": "@toyo1126Q17 If you want to disenfranchise people because there is fraud, show the fraud. You offered people $1M to expose voting fraud and came up with NOTHING. Keep screeching you fucking Fascist because that’s all you’ve got."
+          "reason": "no_offer_term",
+          "postId": "2121091746092466435",
+          "author": "kimkbaltimore",
+          "searchJob": "maryland",
+          "text": "The @MDGOP needs an overhaul 🗳️"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121087902218166742",
+          "author": "garycollins",
+          "searchJob": "maryland",
+          "text": "'SERIOUSLY CONSIDERING': Prominent conservative commentator and WCBM talk host @kimKBaltimore told me she's very likely to run for the Maryland Republican Party chair after Election Day losses. Could Klacik bring national attention to the M"
         },
         {
           "reason": "hard_negative",
-          "postId": "2121677303574937885",
-          "author": "bravocycles",
-          "searchJob": "ohio",
-          "text": "Breaking: The Wall Street Journal has reported extensively on Nvidia’s aggressive financing and massive supplier commitments. - Huge supplier orders/commitments: Nvidia’s purchase commitments to suppliers jumped to $279 billion in its lates"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121678544321323428",
-          "author": "emilaldaddah",
-          "searchJob": "illinois",
-          "text": "When a top weight in the S&P 500 sits 31.93% below its peak and the index sits just 3.29% off its record, broad corporate earnings are doing the heavy lifting. Nvidia entered the week roughly 22% off its October 6 peak before dropping 12.8%"
+          "postId": "2121705130315653413",
+          "author": "np4football_ot",
+          "searchJob": "michigan",
+          "text": "GLIAC recruiting we reported this week: Michigan Tech: '27 OL Henry Luth (MI) commit Wayne State: '27 OL Riley Fletcher (OH) commit, '27 LB Benjamin Demmer (MI) offer #D2Football #CFBRecruiting #CFB"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121675293257580728",
-          "author": "edwardanthony63",
-          "searchJob": "illinois",
-          "text": "@joe_severino what a scumbag! How many damn people do you owe? Contractor liens, tax liens, failure to pay employee judgments, contractor material provide providers putting notes at their cash register registered not to sell to you or your "
+          "postId": "2121531892742697284",
+          "author": "larryjones",
+          "searchJob": "michigan",
+          "text": "If a Muslim family sitting next to you at a restaurant asked you not to eat bacon in front of them. What would you do?"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121675322471113037",
-          "author": "warnickjim2",
-          "searchJob": "illinois",
-          "text": "@SignalChasing @hrh_elliot Stellantis has offered to pay back the grant associated with this plant, They are very willing to pay back 200 million to get out of Canada. There is a plant in Illinois being tooled to build this Jeep as we speak"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121702361416491279",
-          "author": "arnaudmercier",
-          "searchJob": "california",
-          "text": "<p class=\"wp-block-paragraph\">Google released the first phase of its next-generation AI model, Gemini, today. Gemini reflects years of efforts from inside Google, overseen and driven by its CEO, Sundar Pichai. </p> <p class=\"wp-block-paragr"
+          "postId": "2121685238816407649",
+          "author": "bflouisville",
+          "searchJob": "louisville",
+          "text": "Bourbon &amp; Burgers on St. Matthews Avenue is closing after its last service on Nov. 15. All team members have been offered jobs at OLÉ Hospitality Group's sister restaurants. https://t.co/6HTrysQjnd"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121701790647513428",
-          "author": "davidvexed",
-          "searchJob": "california",
-          "text": "@VidyacharanGV @MKBHD Earlier, I mentioned that if Tesla offers Cybercab in California our patients (mostly elderly) that have to visit our dialysis center can get complimentary rides to and from our dialysis center. https://t.co/3p2W72di6s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121697335290081369",
-          "author": "california_derp",
-          "searchJob": "california",
-          "text": "@latimes As a guy who lived in downtown LA in the 90's, and has been going there since...NO People need to feel safe where they are shopping, eating, hanging out. Downtown offers none of that. As long as LA is a \"sanctuary\" city, downtown w"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121684927301435546",
-          "author": "farukbhyn",
-          "searchJob": "california",
-          "text": "FOR SALE Luxury Home For Sale in Riverside, California 18570 HALTER LN, RIVERSIDE, CA 92504 ( Horse Property for Sale in Riverside, California ) Offered at: $1,050,000 Two Houses-Main House and a Two Story Barn House Main House Features: Be"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121684438832832632",
-          "author": "antopatrex1",
-          "searchJob": "california",
-          "text": "https://t.co/P6C3hJJTyF"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121682394671689867",
-          "author": "farukbhyn",
-          "searchJob": "california",
-          "text": "OPEN HOUSE TODAY SATURDAY 11/14/2026-12:00 PM to 3:00 P.M. 18570 HALTER LN, RIVERSIDE, CA 92504 ( Horse Property for Sale in Riverside, California ) Offered at: $1,050,000 Two Houses Together on a 2.48 Acres Lot Main House Features: Beds: 4"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121679818110689446",
-          "author": "farukbhyn",
-          "searchJob": "california",
-          "text": "OPEN HOUSE TODAY SATURDAY 11/14/2026 12:00 P.M. to 3:00 P.M. 18570 HALTER LN, RIVERSIDE, CA 92504 ( Horse Property for Sale in Riverside, California ) Offered at: $1,050,000 Completely Remodeled-Move In Ready Paid Off Solar 2.48 Acres Lot T"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121679695729295687",
-          "author": "tollbrothers",
-          "searchJob": "california",
-          "text": "Hidden Vista is now open in Palm Desert, California: https://t.co/hJ6FWeI3kR Home designs offer up to 2,700 square feet of living space with premium options such as golf cart garages and extended outdoor living spaces. Pricing starts at $1 "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121678064308584737",
-          "author": "farukbhyn",
-          "searchJob": "california",
-          "text": "OPEN HOUSE TODAT SATURDAY 11/14/2026 12:00 p.m. to 318570 HALTER LN, RIVERSIDE, CA 92504 ( Horse Property for Sale in Riverside, California ) Offered at: $1,050,000 Beds: 4 Baths: 3 Sq Ft: 2207 Sq Ft Lot: 121968 Sq Ft Lot: 121968 Built In: "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121703349041213673",
-          "author": "sportflipping",
-          "searchJob": "houston",
-          "text": "Taking a look at some notable players and matchups to keep close attention to in tomorrow's Week 10 action https://t.co/ijUAfbtVf6"
+          "postId": "2121708934528426322",
+          "author": "qgpj13",
+          "searchJob": "miami",
+          "text": "Thank you Toney don’t move off money I can imagine the offers he got this offseason"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 26,
+      "accepted": 1,
+      "rejected": 29,
       "reasons": {
-        "bare_mention_requires_llm": 20,
-        "multiple_resolved_schools": 5,
-        "school_not_resolved_confidently": 1
+        "multiple_resolved_schools": 4,
+        "school_not_resolved_confidently": 12,
+        "bare_mention_requires_llm": 12,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121707738812063974",
-          "author": "partyhousegh",
-          "searchJob": "buffalo",
-          "text": "@man_midlands The Buffalo Trace Antique Collection is in a league of its own. From its remarkable depth of flavour to its exceptional craftsmanship, every bottle offers something distinctive."
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2121687024084123651",
-          "author": "bigdealsportsx",
-          "searchJob": "buffalo",
-          "text": "🚨 The Vikings had Kirk on speed dial BEFORE kickoff.. . The meltdown just made them hit REDIAL 😅 . Minnesota first called Vegas about Kirk Cousins midday Monday, hours before MNF vs Buffalo, and offered a 5th. The Raiders weren't looking "
+          "postId": "2121697993078329822",
+          "author": "usathroughtime",
+          "searchJob": "wyoming",
+          "text": "📣 𝗖𝗔𝗟𝗟𝗜𝗡𝗚 𝗔𝗟𝗟 𝗥𝗔𝗜𝗟𝗙𝗔𝗡𝗦 & 𝗧𝗥𝗔𝗜𝗡 𝗛𝗜𝗦𝗧𝗢𝗥𝗜𝗔𝗡𝗦! 𝗬𝗢𝗨𝗥 𝗡𝗘𝗫𝗧 𝗙𝗔𝗩𝗢𝗥𝗜𝗧𝗘 𝗥𝗘𝗔𝗗 𝗜𝗦 𝗣𝗨𝗟𝗟𝗜𝗡𝗚 𝗜𝗡𝗧𝗢 𝗧𝗛𝗘 𝗡𝗘𝗫𝗧 𝗦𝗧𝗔𝗧𝗜𝗢𝗡! 🚂📚 Step back into the caboose with \"BURLINGTON NORTHERN "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121687512959598743",
-          "author": "paulkendall2",
-          "searchJob": "kent-state",
-          "text": "Follow in the footsteps of Britain’s eminent author with this popular title ‘Charles Dickens: Places & Objects of Interest’ by Paul Kendall available from Pen & Sword Books (Discount 50% £12.50 offer ends 30 November 2026) https://t.co/pY2M"
+          "postId": "2121679606344278371",
+          "author": "theninerswire",
+          "searchJob": "class:2026",
+          "text": "The 49ers didn't want to give away backup QB Mac Jones unless they liked the offer. 📸 Kirby Lee, IMAGN IMAGES via Reuters Connect https://t.co/Q3dMiD6n7b https://t.co/SMqrBKeTAs"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121682706040078455",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Eli Cochran-DB-2027-FL @CoastalFootball Offer #CFB"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121706607159755202",
-          "author": "robertemme25495",
-          "searchJob": "liberty",
-          "text": "Alan; Thank You for your thoughtful note. I listened to the entire podcast as I wanted to give your reply, proper respect. I’m glad I did. So let me answer in kind to your scholarship & podcast. It is obvious to me, that you have a grounded"
+          "postId": "2121679025144037754",
+          "author": "np4football_ot",
+          "searchJob": "class:2027",
+          "text": "Colten McCauley-WR-2027-SC @CharlotteFTBL Offer #CFB"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121704223666798785",
-          "author": "shxfty_sebas",
-          "searchJob": "liberty",
-          "text": "Thank you to @CoachNateHope and @CoachSCarroll21 for my first official offer to Liberty University I am grateful for the opportunity https://t.co/a4YvfHpMGa"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121703747202297944",
+          "author": "codycroy_",
+          "searchJob": "class:2028",
+          "text": "Buckeyes offer 2028 3⭐ WR Timmothy Thompson"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121700715479371914",
-          "author": "colonyridgetx",
-          "searchJob": "liberty",
-          "text": "🏦✨ 𝐅𝐢𝐫𝐬𝐭 𝐋𝐢𝐛𝐞𝐫𝐭𝐲 𝐁𝐚𝐧𝐤 is located right inside our community. In addition to their indoor ATM, they now offer a Drive-Thru ATM right next to their offices... A practical option for quick financial services. Every business in"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121694743587688603",
-          "author": "yomeltoo",
-          "searchJob": "liberty",
-          "text": "10:28-29 is clearer. If he hadn’t mentioned halal: no harm, no foul. But he did, so: But if someone says to you, “This has been offered in sacrifice,” then do not eat it, for the sake of the one who informed you, and for the sake of conscie"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121694333652894086",
-          "author": "svjoonx",
-          "searchJob": "liberty",
-          "text": "Facists were elected on 11/3. Read the room. Openly calling for the execution of wealthy people is fascistic. Openly advocating for social media comments to be criminally prosecuted at the federal level is authoritarian. Calling parents who"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121688214305919258",
-          "author": "mik58917mike",
-          "searchJob": "liberty",
-          "text": "Over the next couple years they will be mostly focused on ending gun ownership. Once that happens raiding private homes like they do jewelry stores won’t be prosecuted. That’s get people wanting a police state. They need to get us to exchan"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121680985792372970",
-          "author": "nunesmigs",
-          "searchJob": "liberty",
-          "text": "@nacholastrabaez You know for once I agree with a socialist - rights don't come from governments, they come from people and are inherent not bestowed by law, policy or decree. Governments offer tyranny, they don't bequeath liberty."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121677770027905137",
-          "author": "sermaxtzu",
-          "searchJob": "liberty",
-          "text": "And, I detail Jefferson's \"Empire of Liberty\" based on the USDstablecoin economy of $300 billion market cap. The Jeffersonian Platform is the general view, the book offers about 40% of the whole strategy. The 8 MAGA Approaches will quantify"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121677326698062233",
-          "author": "rockchartrand",
-          "searchJob": "liberty",
-          "text": "You keep talking about a free people while advocating restrictions on their freedom. A free market is simply free people exercising their rights to produce, work, hire, and trade voluntarily. An American worker should be free to compete for"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121690817320419585",
-          "author": "keatylistings",
-          "searchJob": "louisiana",
-          "text": "This is an outstanding Lafayette home with tons of great features to offer. #RealEstate #HomesForSale #realestate #louisiana #buying #selling https://t.co/syhLEXDyYw"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121706335217529174",
-          "author": "jaredluginbill",
-          "searchJob": "ohio",
-          "text": "Ohio State offers Springfield 2029 WR Timmothy Thompson."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121699612775923918",
-          "author": "hannahborahae7",
-          "searchJob": "ohio",
-          "text": "I’m selling 3x Noah Kahan tickets for Sat Jun 05 at Ohio Stadium - Columbus, OH. (Sec 18AA, Row 8, Sear 4-5-6). Asking for $280 each!! Open to offers!! Transfer via Ticketmaster!! - Was able to get tickets for floor 🥰, send a dm for more d"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121684609440038972",
-          "author": "usatodaysports",
-          "searchJob": "ohio",
-          "text": "Ohio State’s nightmare season has reached The Shoe, where empty seats offered a jarring sign of just how far the Buckeyes have fallen. https://t.co/hbjNn7H1E8"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121678370002104582",
-          "author": "edwardanthony63",
-          "searchJob": "illinois",
-          "text": "@shanequaz92958 @jimlanham @patrioticmouse @mmurray892 Once a valid tax deed issues, the statutory right of redemption is over, and the former homeowner must leave after the court orders possession and the sheriff enforces it. There is no f"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121703570299113738",
+          "author": "codycroy_",
+          "searchJob": "class:2028",
+          "text": "Buckeyes offer 2028 3⭐️ LB Jace Coleman"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121704915965817274",
-          "author": "jonahtalivaa75",
-          "searchJob": "baylor",
-          "text": "Jonah Taliva’a Killeen Chaparral High School Killeen, TX Coach: Tyrell Mccrea @coachmac505 Contact info: jonahtalivaa@gmail.com/cell#(254)899-9093 Position: OL/LT Height: 6’4” Weight: 308 lbs Class: 2029 Div: 6A, District 12 Offers: Texas T"
+          "postId": "2121710008593154084",
+          "author": "coldsummer77",
+          "searchJob": "indiana",
+          "text": "@Jesus_Tha_Goat On my Dynasty mode he's the head coach at Maryland..KD is the head coach at Indiana and Indiana coach is now the head coach at Alabama but they went offer me the head coaching job😭😂 and I got Kent State undefeated right no"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121696344041775530",
-          "author": "shpawdcast",
-          "searchJob": "baylor",
-          "text": "Waiting for UH to offer a 4 for $42 ticket package for the Baylor game in honor of every point Austin Armstrong’s and the Cougar defense allowed yesterday to what was previously the Big 12’s worst scoring offense."
+          "postId": "2121708390606905365",
+          "author": "wtravelindex_en",
+          "searchJob": "indiana",
+          "text": "via @islandsmagazine Indiana's Charming City Near Indy Offers Affordable Living, An Artsy, Walkable Downtown, And Friendly Vibes https://t.co/7cH8brI65q"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121701548669731230",
+          "author": "dylansinn",
+          "searchJob": "indiana",
+          "text": "This game is in large part in Mike Shanahan's hands. He has to have figured out a way to adjust the offense to maximize Wilson's strengths. It is no exaggeration he could get head-coaching offers based on today alone if the Hoosiers move th"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121675471972888922",
-          "author": "enter2kingdom",
-          "searchJob": "baylor",
-          "text": "@XisBack305 I just need him to do good enough to get offered the Baylor job cuz man his scheme and plays aren’t bad but play calling I’m not a fan ."
+          "postId": "2121676741521609186",
+          "author": "btbpod07",
+          "searchJob": "lsu",
+          "text": "@CraverJukes @ihatebbls Yep he’s from right up the road from me slight dox … but yeah I knew about him since his junior year and how lsu never even offered him at all was wild to me … Reminds me off Matt forte recruitment . Both were from n"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121698259152302493",
+          "author": "politicsonx",
+          "searchJob": "maryland",
+          "text": "🚨🚨“We Got to Win General Elections” — Kim Klacik @kimKBaltimore Calls Out the Defeatist MDGOP While Chair Nicole Beus Harris Watches the Losses Pile Up: Nicole Beus Harris has run the Maryland GOP since late 2022. She’s a longtime party c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121704692074102949",
+          "author": "50uhfdetroit",
+          "searchJob": "michigan",
+          "text": "Heather you should find ths interesting e asked Gok if Charlie, You, Detroit Red & Kid Rock tossed your hats into next Governors race who'd win & this👁️👇 is what Grok Said: Most Qualified Charlie LeDuff remains the clear leader on qualifi"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2121698730160374270",
+          "author": "j_rodlee",
+          "searchJob": "michigan",
+          "text": "@wrestlingnomad Didn’t he get an offer from Michigan?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121684566805217370",
+          "author": "uofm_leftovers",
+          "searchJob": "michigan",
+          "text": "@FreddyLA7 @UMichFootball send the offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121682307816075449",
+          "author": "kas425220447557",
+          "searchJob": "michigan",
+          "text": "Offer to buy them breakfast at Tony’s in Birchrun Michigan…"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121707546515783682",
+          "author": "relsaid",
+          "searchJob": "miami",
+          "text": "@VT4L_Joe Should someone offer for the Miami game?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121702768851198323",
+          "author": "amfd4554",
+          "searchJob": "miami",
+          "text": "I would bet cash money Miami offers @NateShep20 a contract before they leave the field. Tampering ass mofos"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121699408987185334",
+          "author": "agent00update",
+          "searchJob": "miami",
+          "text": "Agent offered airport staff to become a flight attendant himself after his flight got delayed due to the U.S. flight groundings, leaving Markus and Jason STILL stuck in Miami 😭 https://t.co/IvQYvnQR8N"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121686365142438175",
+          "author": "thegraygato",
+          "searchJob": "miami",
+          "text": "@GabyUrrutia247 Miami needs to make history and publicly ask for trade offers"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121685189533311461",
+          "author": "elitebrandsco",
+          "searchJob": "miami",
+          "text": "FOR THE LOVE OF ART & CARS #ArtBasel | #MiamiBeach | 2026 #EliteBrandsCo 👀 invites a select circle of collectors, connoisseurs, and those who decline to choose between art and automotive engineering to a private event shaped by color, form"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121684706953744741",
+          "author": "crowntitanium",
+          "searchJob": "miami",
+          "text": "הכירו את מר ג'לאל אבו מווייס, טיקטוקר פלסטיני-ירדני שהיגר לאמריקה לפני כמה שנים, וכאן הוא מתראיין לפודקאסט בערבית. כל פעילותו של כפוי הטובה הזה בטיקטוק סובבת סביב מיליוני הדולרים שהרוויח מעסקאות נדל\"ן במיאמי. וכאן הוא מדבר על השנאה שלו לאמר"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121684054005125181",
+          "author": "hardcappedhoops",
+          "searchJob": "miami",
+          "text": "@nbanerdd More than Miami has to offer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121679800091963403",
+          "author": "heyumarr",
+          "searchJob": "miami",
+          "text": "https://t.co/0VralqCb5s Hometown Real Estate Offers MLS 202619852 BUNGALOW: 701sf 2 bedroom, 2 baths, detached garage, detached carport, , owner may consider optional financing #winnipeg #manitoba #canada #toronto #vancouver montreal calgar"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121704839994659258",
-          "author": "bykylekelly",
-          "searchJob": "boston-college",
-          "text": "Overland Park (Kan.) Blue Valley Northwest four-star WR Baron Marshall is visiting Notre Dame today ☘️ The Irish offered @Rivals No. 18 WR and No. 123 overall player in the class earlier this season ‼️ https://t.co/KDP2HDsedg https://t.co/J"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121706644677517585",
-          "author": "baphometx",
-          "searchJob": "california",
-          "text": "American Graffiti at 50: a classic hangout comedy with a surprising melancholy - George Lucas’s 60s-set tale of California teens offers some freewheeling fun but also a lingering sadness https://t.co/m5ZGgk55CU https://t.co/AF1GJrPaRD"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121693547266965851",
-          "author": "lesliekat81229",
-          "searchJob": "california",
-          "text": "It's not a fake story. I watched the confirmation hearing of MarkWayne Mullin. He's not an emotional guy but was pressed to answer a question he was reluctant to because of the emotions it evoked in him. He told it, apologized & wept & apol"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121672004399194353",
-          "author": "whosnextdoorpod",
-          "searchJob": "california",
-          "text": "@WestsideLAGuy Los Angeles schools - even the top private ones - are behind schools in other major cities outside of California. Classes like Linear Algebra or Organic Chemistry are offered regularly there, but not here."
+          "postId": "2121705229137985713",
+          "author": "thesportsontap",
+          "searchJob": "north-carolina",
+          "text": "Jeff Heath was a 19 year old sophomore at Marshall on November 14, 1970. By the end of that night he was the head of his family. His parents, Emmett and Elaine Heath, were among the fans and supporters who traveled with the football team to"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 235,
+      "jobs": 238,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -521,35 +527,74 @@
     "commits": {
       "samples": [
         {
-          "reason": "roundup_too_long",
-          "postId": "2121677303574937885",
-          "author": "bravocycles",
-          "text": "Breaking: The Wall Street Journal has reported extensively on Nvidia’s aggressive financing and massive supplier commitments. - Huge supplier orders/commitments: Nvidia’s purchase commitments to suppliers jumped to $279 billion in its lates"
+          "reason": "no_football_context",
+          "postId": "2121652889034563594",
+          "author": "mjbaseball11",
+          "text": "@Oklahoma_AD What an idiot, everyone that had to take a flight {not just College Football} were impacted by the cancelations. When were you thinking the game should be played? I applaud your commitment to Oklahoma, but it was a stupid, stat"
         },
         {
-          "reason": "other_sport",
-          "postId": "2121702361416491279",
-          "author": "arnaudmercier",
-          "text": "<p class=\"wp-block-paragraph\">Google released the first phase of its next-generation AI model, Gemini, today. Gemini reflects years of efforts from inside Google, overseen and driven by its CEO, Sundar Pichai. </p> <p class=\"wp-block-paragr"
+          "reason": "no_commit_event",
+          "postId": "2121643779480322458",
+          "author": "realwickedbrew",
+          "text": "@OleMissFB coach @CoachGolding is not wasting the day of delay before the rescheduled game at Oklahoma. He obtained a vital commitment in the upcoming recruiting class this morning. Captain Chesley “Sully” Sullenberger is a 5-star pilot out"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121705199207346468",
+          "author": "soonerarcher",
+          "text": "@the904dotcom @finebaum @universityofga @GeorgiaFootball @SECNetwork @SEC @ESPNPR @Harp41 @OleMissFB The only NCAA team that couldn't make their commitment and you blame OU? We are a blue blood, you dipshit."
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121687850194489620",
+          "author": "swamptiger2000",
+          "text": "@Hayesfawcett3 @Rivals @TannerSeaton71 @CoachGarrisonOL @CoachGolding @OleMissFB @RebelsFBRec @_kbolden @antavi0n @LatedrickM Congratulations! You have a commitment from a player in your home state. That’s something to boast about?"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121679972284997927",
+          "author": "nathanpurvis",
+          "text": "| COMMITTED | Tanner Seaton (@TannerSeaton71), the class of 2028 @247Sports 4⭐️ offensive lineman from Madison Central High School (Madison, MS), has committed to the Ole Miss Rebels. 🦈 https://t.co/NPst1c3Bxb"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121679310733926656",
+          "author": "tdfogle",
+          "text": "@Hayesfawcett3 @Rivals @TannerSeaton71 @CoachGarrisonOL @CoachGolding @OleMissFB @RebelsFBRec @_kbolden @antavi0n @LatedrickM Does he know the school he committed to is a bunch of twats"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121670031809429722",
+          "author": "tharealto",
+          "text": "@trevordalton01 @Hayesfawcett3 @Rivals @TannerSeaton71 @CoachGarrisonOL @CoachGolding @OleMissFB @RebelsFBRec @_kbolden @antavi0n @LatedrickM Probably why he committed, found out we stand on business and won’t make him ride a bus for 10 hou"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121665326395863389",
+          "author": "kam_wicker",
+          "text": "4-star IOL Tanner Seaton commits to Ole Miss, kicking off what’s expected to be a big recruiting weekend for the Rebels. More on the Top247 prospect's decision here from @BSonnone ➡️ https://t.co/02bCpVn1AD https://t.co/B7WdKN6Qon"
         }
       ],
       "stats": {
-        "candidates": 2,
-        "accepted": 0,
-        "rejected": 2,
+        "candidates": 17,
+        "accepted": 3,
+        "rejected": 14,
         "reasons": {
-          "roundup_too_long": 1,
-          "other_sport": 1
+          "no_football_context": 3,
+          "no_commit_event": 8,
+          "reporter_missing_player_name": 1,
+          "list_post": 1,
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 26,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 29,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-14T20:58:58.836Z"
+    "status rebuilt locally from current store on 2026-11-14T21:14:13.578Z"
   ]
 }
