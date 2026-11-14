@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T04:57:38.802Z",
+  "generatedAt": "2026-11-14T05:14:14.255Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-14T04:57:38.280Z",
+    "at": "2026-11-14T05:14:13.268Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,74 +32,86 @@
   },
   "staleSchools": [
     {
-      "id": "western-kentucky",
+      "id": "california",
       "hours": 2.5
     },
     {
-      "id": "california",
-      "hours": 2.3
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "florida",
-      "hours": 2.3
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 2.3
-    },
-    {
-      "id": "florida-international",
-      "hours": 2.3
-    },
-    {
-      "id": "fresno-state",
-      "hours": 2.3
-    },
-    {
-      "id": "memphis",
-      "hours": 2.3
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.3
-    },
-    {
-      "id": "rice",
-      "hours": 2.3
-    },
-    {
-      "id": "sam-houston",
-      "hours": 2.3
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.3
-    },
-    {
       "id": "san-jose-state",
+      "hours": 2.5
+    },
+    {
+      "id": "air-force",
       "hours": 2.3
     },
     {
-      "id": "wake-forest",
+      "id": "akron",
       "hours": 2.3
     },
     {
-      "id": "west-virginia",
+      "id": "ball-state",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia-southern",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia-state",
+      "hours": 2.3
+    },
+    {
+      "id": "illinois",
+      "hours": 2.3
+    },
+    {
+      "id": "kentucky",
+      "hours": 2.3
+    },
+    {
+      "id": "middle-tennessee",
+      "hours": 2.3
+    },
+    {
+      "id": "missouri-state",
+      "hours": 2.3
+    },
+    {
+      "id": "notre-dame",
+      "hours": 2.3
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.3
+    },
+    {
+      "id": "temple",
+      "hours": 2.3
+    },
+    {
+      "id": "uconn",
+      "hours": 2.3
+    },
+    {
+      "id": "western-michigan",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.25559,
-    "p95Hours": 2.2548816666666665,
-    "worstHours": 2.5036347222222224
+    "medianHours": 1.283353888888889,
+    "p95Hours": 2.2862355555555554,
+    "worstHours": 2.531396388888889
   },
   "decisionCoverage": {
-    "total": 14,
-    "decided": 14,
+    "total": 39,
+    "decided": 39,
     "complete": true
   },
   "pending": {
@@ -108,7 +120,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4656,
     "incompleteOffers": 0
@@ -116,183 +128,392 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-14T04:57:38.276Z",
-      "got": 20,
-      "new": 14,
-      "lag": 0.15
+      "at": "2026-11-14T05:14:13.258Z",
+      "got": 58,
+      "new": 39,
+      "lag": 0.05
     },
     "search:commit": {
-      "at": "2026-11-14T04:57:38.279Z",
-      "got": 1,
-      "new": 1,
-      "lag": 6.78
+      "at": "2026-11-14T05:14:13.267Z",
+      "got": 20,
+      "new": 5,
+      "lag": 3.23
     }
   },
   "audit": {
-    "at": "2026-11-14T04:57:12.103Z",
+    "at": "2026-11-14T05:12:30.840Z",
     "mode": "live",
     "collection": {
-      "returned": 20,
-      "kept": 14,
-      "duplicate": 6,
-      "tooOld": 0,
+      "returned": 58,
+      "kept": 39,
+      "duplicate": 18,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 10,
-      "rejected": 4,
+      "accepted": 24,
+      "rejected": 15,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 1
+        "no_offer_term": 6,
+        "no_fbs_school": 8,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_offer_term",
+          "postId": "2121467397567648111",
+          "author": "shadowbreaksi",
+          "searchJob": "florida",
+          "text": "https://t.co/VU5r243rY7"
+        },
+        {
           "reason": "no_fbs_school",
-          "postId": "2121465287082189271",
-          "author": "virginia1gina",
-          "searchJob": "virginia",
-          "text": "Regular consumption of 'Viola tricolor' (wild pansy) tea offers general health benefits and helps prevent premature aging. Thank you very much, Lise, @LiseEll39743275 💚"
+          "postId": "2121463132245926308",
+          "author": "agedits32",
+          "searchJob": "florida",
+          "text": "JUCO DT @Sackchasintana 🏈 6’0” • 275 lbs | Coffeyville CC 🎓 December 2026 grad • 3 years of eligibility West Florida offers Santana Williams 📬 Congrats on the opportunity! Coaches, check out his profile and film ⬇️ https://t.co/VYo7VmNF9"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121261166122967081",
-          "author": "liseell39743275",
-          "searchJob": "virginia",
-          "text": "Good morning 🇷🇺🪆 dear friends 🪆🇷🇺 The wild pansy ( Viola tricolor) is the most culturally iconic Viola species in European Russia. celebrated in Slavic folklore under the poetic folk name Ivan-da-Marya (Ivan and Maria). the flower sym"
+          "postId": "2121454605452394742",
+          "author": "mkttalent2026",
+          "searchJob": "florida",
+          "text": "A practical guide to choosing a public relations firm in New York, with selection criteria, a KPI framework, 2026 data, and verified campaign examples. https://t.co/6wboVyS7ib"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121443337722814631",
-          "author": "west_va_patriot",
-          "searchJob": "virginia",
-          "text": "They deserve to fail for replacing their experienced American staff with Indian replacement. My current full time IT job of over one year is scheduled to end next Friday, 11/20/2026, when I complete the training of my Indian replacement (wh"
+          "postId": "2121438003012726841",
+          "author": "theledger",
+          "searchJob": "florida",
+          "text": "Take a look at what the new Whole Foods in Bradenton, Florida, offers shoppers. https://t.co/zqnimDVcLx"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121435994792825324",
-          "author": "arttbyroy",
-          "searchJob": "charlotte",
-          "text": "@oldgreen1997 To answer your question: yes, I offer flexible payment plans so you can pay in installments before I begin building! Pricing depends on whether you want a head/partial or a fullsuit, feel free to message me if you’d like a cus"
+          "postId": "2121469428726645142",
+          "author": "d78930305",
+          "searchJob": "california",
+          "text": "@Mo8ius1 @TheChaosWeeber Anecdotally this checks out. Canadian malls also seem to have better food options. The ones I've been to in California at least still mostly offer generic fast food slop, like Panda, Chipotle, etc."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121450192851349850",
+          "author": "gmcurmudgeon",
+          "searchJob": "california",
+          "text": "Dear Trump @realDonaldTrump @RealJamesWoods @SenWarren @SenSanders . How about you one up the dems. Since no one is concerned about inflation. Raise the offer to illegals to 8k a month, 3k month on snap and free lodging in California for li"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121448817849774293",
+          "author": "jespow",
+          "searchJob": "california",
+          "text": "@qdotme Yes. In California, one person can offer the other person 100% of their assets and the other person can refuse to accept it, challenge whether it's really 100% of the assets, create endless discovery issues, allege abuse and force l"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121443687213244838",
+          "author": "perniniteresa",
+          "searchJob": "california",
+          "text": "SENIOR COUNSEL ATTORNEY Labor & Employment Practice Group Locations: Los Angeles & Irvine, CA HYBRID Our client, a global law firm, is seeking an accomplished Senior Counsel to join its growing Labor & Employment practice in California. Thi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121442830950584691",
+          "author": "davidvexed",
+          "searchJob": "california",
+          "text": "@SawyerMerritt If Tesla offers Cybercab in California our patients (mostly elderly) that have to visit our dialysis center can get complimentary rides to and from our dialysis center. https://t.co/mvliO3hw3L"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121438371033813387",
+          "author": "davidvexed",
+          "searchJob": "california",
+          "text": "@RivianTrackr If Tesla offers Cybercab in California our patients (mostly elderly) that have to visit our dialysis center can get complimentary rides to and from our dialysis center. https://t.co/QX8Vhlu3Fq"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121166320368509024",
+          "author": "sabcnews",
+          "searchJob": "wake-forest",
+          "text": "BREAKING NEWS | The ANC's extended National Executive Committee (NEC) meeting has resolved that the Democratic Alliance (DA) should be the last resort to form coalition governments with at local municipalities. Majority of members blame DA "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121449049991635334",
+          "author": "stevenbogd",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/g8FuLbOvlV"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121442976077345160",
+          "author": "debra_simm39990",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/7C0jfa6OQc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121448796735570200",
+          "author": "nnubasketball",
+          "searchJob": "fresno-state",
+          "text": "Congratulations to our 🏀 player of the game against Fresno Pacific Jayden Smoot 👏🏽 Player of the Game is sponsored by Revive Wellness &amp; Recovery. Revive is a completely mobile company that offer services for recovery, immunity, illne"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121449347501994384",
+          "author": "onlypantherr",
+          "searchJob": "rice",
+          "text": "https://t.co/sCrt2R2jEw"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 10,
+      "accepted": 1,
+      "rejected": 23,
       "reasons": {
-        "bare_mention_requires_llm": 4,
-        "school_not_resolved_confidently": 6
+        "multiple_resolved_schools": 6,
+        "school_not_resolved_confidently": 10,
+        "bare_mention_requires_llm": 7
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121464367883362345",
+          "author": "eaglerun23",
+          "searchJob": "florida",
+          "text": "Under Republican leadership, Texas led the nation in job creation.... for so long now that it hardly makes news. 1 in net payroll jobs added. 1 in corporate headquarters relocations. 1 (for the 14th year) in corporate facilities expansions."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121470980983824504",
+          "author": "arnaudmercier",
+          "searchJob": "california",
+          "text": "<p class=\"wp-block-paragraph\"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href=\"https://t.co/cd1zw3IHNv\"><em>sign up here</em></a><em>.</em></p> <p "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121469989748396187",
+          "author": "rauhmelfoxceo",
+          "searchJob": "california",
+          "text": "The omissions in this advocated breakdown of exorbitant and arbitrary fees for legal representation for retail customers by an outside attorney or firm are multi-layered: First, the analysis ignores that the Administrative Appeals Office (A"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121464840485290363",
+          "author": "mediamanoz",
+          "searchJob": "california",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Survivor Series: War Games! Australia Survived The Cyber Attack"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121462310925726172",
+          "author": "mediamangroup",
+          "searchJob": "california",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Survivor Series: War Games! Australia Survived The Cyber Attack"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121458704964841853",
+          "author": "arnaudmercier",
+          "searchJob": "california",
+          "text": "<p class=\"wp-block-paragraph\">AI is helping organizations in nearly every industry increase productivity, engage customers, realize operational efficiencies, and gain a competitive edge. Advances in supercomputing in the cloud and the abili"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121454243894669452",
-          "author": "mdbaynews",
-          "searchJob": "virginia",
-          "text": "🚨 VIRGINIA PARENTS FACE CRIMINAL CHARGES AFTER PARTY FOR 13-YEAR-OLD DRAWS UP TO 300 PEOPLE — BUT THEY SAY HIGH SCHOOLERS CRASHED IT A McLean couple could face up to a year in jail after a backyard gathering intended for 10–20 middle schoo"
+          "postId": "2121458671741747598",
+          "author": "unpreachedverse",
+          "searchJob": "california",
+          "text": "@GavinNewsom What did You do to help the people stranded at airports California? Did you offer them anything? Food? Transportation? A place to sleep, perhaps Your house? Nope, do nothing, lie, cheat, steal and blame. You're a disgrace."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121456977553301886",
+          "author": "petronellawyatt",
+          "searchJob": "california",
+          "text": "Happy Birthday Veronica Lake Lake was one of the most glamorous leading ladies of the 1940s, famous for her blonde peek-a-boo hairstyle that was copied by millions of women around the world. Specialising in femme fatale roles, she is best r"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121441924246536205",
-          "author": "tyson_fosterch",
-          "searchJob": "virginia",
-          "text": "Class of 2027 | SEASON COMPLETE. Grateful for another season of high school football and everyone who has been part of the journey. ——————————————— Blessed and excited to see where I fall in all region/ all state selections , I unofficially"
+          "postId": "2121447452704485729",
+          "author": "farukbhyn",
+          "searchJob": "california",
+          "text": "OPEN HOUSE-SATURDAY 11/14/2026 12:00 P.M. to 3:00 P.M. 18570 HALTER LN, RIVERSIDE, CA 92504 Horse Property for Sale in Riverside, California Offered at: $1,050,000 Beds: 4 Baths: 3 Sq Ft: 2207 Sq Ft Lot: 121968 Sq Ft Lot: 121968 Built In: 1"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121464229454897658",
-          "author": "c_corday",
-          "searchJob": "charlotte",
-          "text": "Warner generally did most of the ball-work at mid on, Bancroft would have wanted to ingratiate himself to his opening partner so offered to help. UK has said they discussed doing something to the ball but no specifics about what or how. War"
+          "postId": "2121439136423051403",
+          "author": "_slavinator_",
+          "searchJob": "california",
+          "text": "@Sipowicz1042 @TheBrancaShow @grok To add to Grok's answer: the US offered something like $4 million to Mexico for all the Southwest, $2 million for California alone, and they refused. After the Mexican-American War the US offered $2 millio"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121468171358032079",
+          "author": "_iammedy",
+          "searchJob": "wake-forest",
+          "text": "I offered to make her something similar at home, but she kept saying nothing else sounded good and she’d rather not eat at all. Eventually, I gave in. It took me about 45 minutes to get there, another 25 minutes waiting for the food, and ne"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121449727573033322",
-          "author": "lynntan14475430",
-          "searchJob": "charlotte",
-          "text": "@Thdelli1887 I was in Charlotte the other day and stopped at Food Lion.A woman in front of me in line was having issues with her card and she got her checkbook out and was having issues and the total was $11.01 so I offered to pay for it sh"
+          "postId": "2121466743944019984",
+          "author": "navisnobelite",
+          "searchJob": "wake-forest",
+          "text": "The seventh year of Hogwarts at least so far, was a sort of twisted irony for Neville. While it was true that the Carrows were Death-eaters, their stalking of the halls of the school provided the best entertainment Neville ever experienced."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121463939905290590",
-          "author": "mrcpune",
-          "searchJob": "coastal-carolina",
-          "text": "#UDAJournal #Latestpaper 🔊 Can Indigenous Knowledge Help Quiet Our Oceans? 🌊 Rising underwater noise from shipping, drilling, and sonar is disrupting marine ecosystems that rely on sound to survive. In the latest issue of the Internationa"
+          "postId": "2121466730824495300",
+          "author": "o_jaynie",
+          "searchJob": "wake-forest",
+          "text": "@EricLDaugh: Thank you for letting everyone know about this interview with Secretary Scott Bessent. It is hard not to feel some trepidation after what happened in the Midterm Election. But thank you for posting this. It is very reassuring. "
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121457092255232089",
-          "author": "beach_scenes",
-          "searchJob": "coastal-carolina",
-          "text": "From quiet coves to family favourites, the Mackay Northern Beaches offer some of Queensland’s best coastal escapes. Explore the top spots in my full guide #MackayBeaches #QueenslandCoast #BeachScenes #HiddenGems #TravelAustralia https://t.c"
+          "postId": "2121463114957033679",
+          "author": "marksmy49825624",
+          "searchJob": "wake-forest",
+          "text": "Really ! How about less of the “splitting the vote” shite June and just admitting that @Nigel_Farage and @reformparty_uk are simply not good enough to win outright ! We are entitled to vote for whoever we want and you seem to forget that @R"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121453437372006805",
-          "author": "glennquagmeier",
-          "searchJob": "coastal-carolina",
-          "text": "Friday the 13th fulfilled its reputation today! A nonstop day of breaking bad news: —A tanker slams into a New Orleans riverboat cruise ship, sparking a dramatic rescue. — A nationwide FAA ground stop throws air travel into chaos. — SpaceX’"
+          "postId": "2121460314126663904",
+          "author": "khoisanboitjie",
+          "searchJob": "wake-forest",
+          "text": "South Africans need a wake-up call. At the very least, the DA offers a temporary bandage for the deep wounds left by years of ANC patronage and corruption. It may not be the cure, but the damage demands serious attention."
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121452369468608973",
-          "author": "oskardanube",
-          "searchJob": "coastal-carolina",
-          "text": "In his memoir, Thunder Below!, Commander Eugene Fluckey recounts that when he called for volunteers to go ashore at Karafuto (Sakhalin Island) to blow up a coastal Japanese supply train, the Japanese POW being held aboard the submarine step"
+          "postId": "2121454312346050793",
+          "author": "cobracommanduhr",
+          "searchJob": "wake-forest",
+          "text": "I guess my stars were aligned to have not gone through the process 😏 I get 7 figure $ offers daily before I wake up daily boys and girls, my league is different C O N T R A / / S research 🇺🇸 https://t.co/6N5M4aAeOX"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121448063310970986",
-          "author": "foxnews",
-          "searchJob": "coastal-carolina",
-          "text": "Friday the 13th lived up to its reputation. A nonstop day of breaking news: —A tanker slams into a New Orleans riverboat, sparking a dramatic rescue. — A nationwide FAA ground stop throws air travel into chaos. — SpaceX’s Starship booster e"
+          "postId": "2121449859295133746",
+          "author": "danpincus",
+          "searchJob": "wake-forest",
+          "text": "Hanin. Mother of two: In Gaza, our daily life has become a battle. 💔 Everything is expensive—food, cooking gas, even firewood. If we manage to find a canister of cooking gas, the price is exorbitant; if we can’t find one, we have to cook o"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121435943798526395",
-          "author": "echinanews",
-          "searchJob": "coastal-carolina",
-          "text": "#NewsLounge China's use of geothermal energy offers a practical way to promote harmony between humanity and nature, a Turkish expert said Thursday. Şule Perinçek @suleperincek, chairman of the Executive Board at USMER, made the remarks at t"
+          "postId": "2121445894876774512",
+          "author": "elsieased",
+          "searchJob": "wake-forest",
+          "text": "@misslivejournal Yes, you can. I couldn't bear the constant night breastfeeding. Start by spreading the gap between feeds. Don't just offer to baby immediately when they stir. Sleep in clothes and make them wake all the way up to come over "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121439260595151319",
+          "author": "luzzychuus",
+          "searchJob": "wake-forest",
+          "text": "@Blugo_Genical Cilantro *technically* is from a higher-class background and Wake was offered up to be his bride so that: 1. The paradoxes can be guards for the royal family 2. so that she can live a comfortable life since there is nothing l"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121436211050885194",
+          "author": "vo1dmoment",
+          "searchJob": "wake-forest",
+          "text": "You're offered 4 life-changing beds, but they each cut a decade off your life. Bed 1: Every time you fall asleep, you enter a complete lucid dream where you have full control of reality. You could live as a billionaire, date your dream crus"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121463136188551510",
+          "author": "jigschat",
+          "searchJob": "rice",
+          "text": "Save this before you scroll, This one post has more than 100+ AI Video short prompts inside it & you will never find it again. 1. Portraits & Selfie Videos 01 /headshotvideo: Professional headshot, slow push-in, subject looks at lens, subtl"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121458231021310314",
+          "author": "deadork01",
+          "searchJob": "rice",
+          "text": "What if drift genuinely marries AJ to void the other marriage or Meggi offers and dramaaaaaa or legs offers just to help his friend bc he’s not a rebel and then Aj has to fight for the title lol or then Scott returns confused and thinks the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121450999995138128",
+          "author": "sol_supremus",
+          "searchJob": "rice",
+          "text": "☀️ Chhath Puja is an ancient four-day Vedic festival dedicated to Surya Dev (the Sun God) and Chhathi Maiya. In 2026, the main Kartika Chhath Puja is celebrated from November 13 to November 16 across Bihar, Jharkhand, eastern Uttar Pradesh,"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 247,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "western-kentucky: rate limited"
-      ]
+      "jobs": 249,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
       "samples": [
         {
+          "reason": "roundup_too_long",
+          "postId": "2121443687213244838",
+          "author": "perniniteresa",
+          "text": "SENIOR COUNSEL ATTORNEY Labor & Employment Practice Group Locations: Los Angeles & Irvine, CA HYBRID Our client, a global law firm, is seeking an accomplished Senior Counsel to join its growing Labor & Employment practice in California. Thi"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2121463136188551510",
+          "author": "jigschat",
+          "text": "Save this before you scroll, This one post has more than 100+ AI Video short prompts inside it & you will never find it again. 1. Portraits & Selfie Videos 01 /headshotvideo: Professional headshot, slow push-in, subject looks at lens, subtl"
+        },
+        {
           "reason": "no_football_context",
-          "postId": "2121365169389592847",
-          "author": "hagenbuchtx",
-          "text": "Today, Team Hagenbuch visited the future UTA West campus site! @UTArlington leadership shared exciting construction updates and a major commitment from the Walsh family, whose generous gift will create a central courtyard for the community "
+          "postId": "2121377820442050932",
+          "author": "recruitsplash",
+          "text": "\"Ohio State is an elite college program, and Coach McGuff is a really good coach.\" 2027 Tatiana Mason (OH) committed to Ohio State over Michigan State, Illinois &amp; Xavier, her dad tells me. https://t.co/PtbO08mZJl"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121294551910437132",
+          "author": "leysangilfanova",
+          "text": "There’s a lot unfolding around Nvidia right now. But beyond the immediate headlines, what interests me most is what Jensen Huang’s departure could mean for the broader AI economy, given the extraordinary scale and reach of Nvidia’s influenc"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121363913443033551",
+          "author": "ethan_graphic",
+          "text": "🚨 COMMITTED 🚨 Congratulations, @DavidMedinaa_75! The Beavers land a new talent as he takes the next step in his football journey. 🦬🏈 📩 DM me for custom commitment graphics! https://t.co/DINgpQgLR1"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121407836143906950",
+          "author": "paladin60",
+          "text": "An AH-64 Apache helicopter, assigned to the 1-211th Aviation Regiment, makes its way to Rice-Eccles Stadium during the University of Utah versus Brigham Young University football game in Salt Lake City, Utah, Nov. 7, 2026. The Utah National"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2121385621415657850",
+          "author": "wifbrecruiting",
+          "text": "\"I don’t like to be around a lot of people, and the college is definitely smaller. I just felt comfortable and wanted.\" 2027 OL Connor Carr (Rice Lake) committed to Upper Iowa over Minot State, he tells me. https://t.co/hPX6EVDqic",
+          "targetText": "Upper Iowa"
         }
       ],
       "stats": {
-        "candidates": 1,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 7,
         "reasons": {
-          "no_football_context": 1
+          "roundup_too_long": 2,
+          "other_sport": 1,
+          "no_football_context": 1,
+          "no_commit_event": 2,
+          "explicit_non_fbs_target": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 10,
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 23,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-14T04:57:38.803Z"
+    "status rebuilt locally from current store on 2026-11-14T05:14:14.257Z"
   ]
 }
