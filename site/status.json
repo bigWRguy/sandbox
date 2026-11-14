@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:44:09.652Z",
+  "generatedAt": "2026-11-14T15:59:11.020Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-14T15:44:08.938Z",
+    "at": "2026-11-14T15:59:10.277Z",
     "jobsTotal": 162,
     "sweptThisRun": 19,
     "requests": 19,
@@ -33,82 +33,106 @@
   "staleSchools": [
     {
       "id": "washington",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "california",
-      "hours": 2.3
-    },
-    {
-      "id": "central-michigan",
-      "hours": 2.3
-    },
-    {
-      "id": "houston",
-      "hours": 2.3
-    },
-    {
-      "id": "iowa-state",
-      "hours": 2.3
-    },
-    {
-      "id": "kansas",
-      "hours": 2.3
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "louisville",
-      "hours": 2.3
-    },
-    {
-      "id": "marshall",
-      "hours": 2.3
-    },
-    {
-      "id": "miami",
-      "hours": 2.3
-    },
-    {
-      "id": "nc-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "north-carolina",
+      "hours": 2.5
+    },
+    {
+      "id": "charlotte",
       "hours": 2.3
     },
     {
-      "id": "oklahoma-state",
+      "id": "coastal-carolina",
       "hours": 2.3
     },
     {
-      "id": "pittsburgh",
+      "id": "indiana",
       "hours": 2.3
     },
     {
-      "id": "smu",
+      "id": "kentucky",
+      "hours": 2.3
+    },
+    {
+      "id": "lsu",
+      "hours": 2.3
+    },
+    {
+      "id": "maryland",
+      "hours": 2.3
+    },
+    {
+      "id": "massachusetts",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan",
+      "hours": 2.3
+    },
+    {
+      "id": "michigan-state",
+      "hours": 2.3
+    },
+    {
+      "id": "stanford",
+      "hours": 2.3
+    },
+    {
+      "id": "syracuse",
+      "hours": 2.3
+    },
+    {
+      "id": "ucf",
+      "hours": 2.3
+    },
+    {
+      "id": "utah",
+      "hours": 2.3
+    },
+    {
+      "id": "virginia",
+      "hours": 2.3
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.3
+    },
+    {
+      "id": "washington-state",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2823483333333334,
-    "p95Hours": 2.2825619444444443,
-    "worstHours": 2.5311519444444444
+    "medianHours": 1.0316852777777779,
+    "p95Hours": 2.2680297222222223,
+    "worstHours": 2.7815319444444446
   },
   "decisionCoverage": {
-    "total": 25,
-    "decided": 25,
+    "total": 85,
+    "decided": 85,
     "complete": true
   },
   "pending": {
-    "total": 121
+    "total": 122
   },
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 3,
   "quality": {
     "completeOffers": 4660,
     "incompleteOffers": 0
@@ -116,223 +140,387 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-14T15:44:08.938Z",
-      "got": 31,
-      "new": 25,
-      "lag": 0.05
+      "at": "2026-11-14T15:59:10.263Z",
+      "got": 138,
+      "new": 85,
+      "lag": 0.06
     },
     "search:commit": {
-      "at": "2026-11-14T15:44:08.938Z",
-      "got": 5,
-      "new": 0,
-      "lag": 2.16
+      "at": "2026-11-14T15:59:10.277Z",
+      "got": 16,
+      "new": 6,
+      "lag": 2.04
     }
   },
   "audit": {
-    "at": "2026-11-14T15:42:31.640Z",
+    "at": "2026-11-14T15:57:33.483Z",
     "mode": "live",
     "collection": {
-      "returned": 31,
-      "kept": 25,
-      "duplicate": 6,
+      "returned": 138,
+      "kept": 85,
+      "duplicate": 53,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 13,
+      "accepted": 60,
+      "rejected": 25,
       "reasons": {
-        "no_offer_term": 6,
-        "no_fbs_school": 7
+        "no_fbs_school": 13,
+        "no_offer_term": 4,
+        "hard_negative": 7,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2121629548261278059",
-          "author": "philosophymeme0",
-          "searchJob": "washington",
-          "text": "A critique of the new American right through the lenses of political economy, constitutionalism, and social justice https://t.co/sMCetwMLhl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121627261124100179",
-          "author": "mansatesla",
-          "searchJob": "washington",
-          "text": "For three years the bear case was that AI was held together by one salesman. This week he left. Customers did not cancel. What that proves, and what it does not, in this week’s edition of Weekly Investment Insights. 👇 https://t.co/BVAv4pRz"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121621714077450466",
-          "author": "mexicotimes",
-          "searchJob": "washington",
-          "text": "#Now #US #Alaska's Senate race shifts to LIKELY DEMOCRATIC! Mary Peltola leads Republican Dan Sullivan by 10,412 votes, with 96% counted. A victory would give Democrats 56 Senate seats &amp; make Peltola Alaska's first Indigenous US senator"
-        },
-        {
           "reason": "no_fbs_school",
-          "postId": "2121619334522953918",
-          "author": "cpufxrndmv",
-          "searchJob": "washington",
-          "text": "@vikingzfanpage @AdamSchefter @RapSheet 🤣🤣 They went from a 5th to a 3rd. Thanks Wentz That was pretty smart by Teasley to make the initial offer only a 5th and then make a better offer after the game. If the initial offer was a 3rd, he'd"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121616654509478319",
-          "author": "tavitag203",
-          "searchJob": "washington",
-          "text": "91% of nuclear warheads are in the hands of 3 men: Trump, Putin and Xi. Without an active control treaty, the three leaders meet on November 19 in Shenzhen. Is this the beginning of a new strategic era? Details here. https://t.co/gY25tPF4Bh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121613126022082786",
+          "postId": "2121611769143812581",
           "author": "coco7fg",
           "searchJob": "washington",
-          "text": "I Have two extra tickets for Tyla concert on Dec 02 at The Anthem, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+          "text": "I Have two extra tickets for 2hollis concert on Feb 18 at The Anthem, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121612951790494198",
-          "author": "coco7fg",
+          "postId": "2121609412607398384",
+          "author": "shinamuller",
           "searchJob": "washington",
-          "text": "I Have two extra tickets for Victoria Monet concert on Nov 27 at The Anthem, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121612719090458820",
-          "author": "coco7fg",
-          "searchJob": "washington",
-          "text": "I Have two extra tickets for Stella Lefty concert on Nov 19 at The Atlantis, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121612565906391377",
-          "author": "coco7fg",
-          "searchJob": "washington",
-          "text": "I Have two extra tickets for Die Spitz concert on Nov 17 at 9:30 CLUB, Washington, DC. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
+          "text": "There Is No Such Thing as Karmic Justice!!! Hamid Mir has once again reached for an old and convenient story. Idris Khattak was sentenced by a military court during Imran Khan’s government. Khan is now himself in Adiala Jail. Therefore, thi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121603871919181995",
-          "author": "bidziil1964",
-          "searchJob": "class:2026",
-          "text": "Google charged me $4,699 to index my research archive. Then Claude wrote the code to do the same job on my own laptop: OCR, AI search, citations, and a desktop app, for $0. I typed the commands; Claude built the system. Here’s the whole sto"
+          "postId": "2121456424924700838",
+          "author": "hamidmirpak",
+          "searchJob": "washington",
+          "text": "اڈیالہ جیل کے ایک قیدی ادریس خٹک کا میڈیا میں بہت کم ذکر کیا جاتا ہے جب 2019 میں ادریس خٹک کو گرفتار کیا گیا تو اسوقت عمران خان کی حکومت کے وزرا نے کہا تھا کہ یہ قومی سلامتی کا معاملہ ہے ادریس خٹک کا قصور صرف اتنا تھا کہ وہ انسانی حقوق کے ا"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121602111095857601",
-          "author": "georggrok",
-          "searchJob": "class:2026",
-          "text": "Starfield ist trotzdem cool ! :-) https://t.co/8oDc97p61K"
+          "postId": "2121257287985553846",
+          "author": "freedomhouse",
+          "searchJob": "washington",
+          "text": "Seven years ago, human rights defender Idris Khattak was abducted and disappeared in Pakistan. For seven months, his family did not know where he was or if he was still alive. He later reappeared in government custody and was sentenced to 1"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121625826948968701",
-          "author": "sixstarfootball",
-          "searchJob": "class:2027",
-          "text": "🚨 OFFER ALERT | Recruiting Momentum 📈 🏈 2027 ATH DeAndre Thurmond (@dre_thurmond) of Kilgore (TX) picks up a new offer from Lamar! 🔴 📏 6'3\", 186 lbs 👀 The versatile prospect plays QB, WR, OLB, nickel and free safety."
+          "postId": "2121594216224555481",
+          "author": "owengregorian",
+          "searchJob": "washington",
+          "text": "OpenAI Leadership Gets Fooled by Pranksters Pretending to be Ukrainian Officials, Discusses Military Secrets With Them | Joe Wilkins, Futurism Weeks ago, three OpenAI higher-ups became the butt of an embarrassing joke pulled by a duo of Rus"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121622395694022919",
+          "author": "supersonic_red",
+          "searchJob": "california",
+          "text": "What We Used to Call Everyday Life Preparedness, personal responsibility, and the things within our control https://t.co/5x3m6SdoRy"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121625745483075607",
-          "author": "sixstarfootball",
-          "searchJob": "class:2027",
-          "text": "🚨 OFFER ALERT | Recruiting Momentum 📈 🏈 2027 DB/WR Nicolas Flores (@Nicolas_Flores8) of Lake Nona (FL) lands a Robert Morris offer! 📏 6'0\", 175 lbs | 3.2 GPA 📊 21 tackles | 10 PBUs | 2 INTs (1 pick-six) 💨 21.02 MPH top speed"
+          "postId": "2121619290008748138",
+          "author": "classaction_org",
+          "searchJob": "california",
+          "text": "NEW: A $1.52M+ Vanilla Gift Card settlement offers cash to California residents who believe gift card funds were stolen due to tampering and who did not obtain a refund. https://t.co/yv1PTRyAYb"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121616106603565384",
+          "author": "oils4yourlife",
+          "searchJob": "california",
+          "text": "@WHGrampa0 ChatGpt ….Trump immediately called Mullin after learning about his son’s injury.He offered his personal airplane to help transport the family to a specialized neurological rehabilitation center in Bakersfield, California. Trump c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121604435893756305",
+          "author": "shaiguides",
+          "searchJob": "california",
+          "text": "From TOGO to HARVARD: 4 Fully Funded PhD Offers and Why She Chose Harvard 🇺🇸 In this episode of The ShaiPod, Essi takes us from Togo to the African Leadership Academy in South Africa, Pomona College in California, a research position at t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121596559020208151",
+          "author": "chienblanc",
+          "searchJob": "california",
+          "text": "@FLWolf01 I guess we will see. History offers insight maybe. Prop 13 in California. Brownback in Kansas."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121607869896282350",
+          "author": "movewithalexis",
+          "searchJob": "miami",
+          "text": "Corner condos can offer different window placements and shared wall configurations impacting light and privacy. Evaluating these can help tailor your choice to your needs. @MoveWithALEXIS https://t.co/qCaUjwYEgH"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121625560929501351",
+          "author": "pittgriffin",
+          "searchJob": "pittsburgh",
+          "text": "GOING OUT OF BUSINESS SALE!!!!!!! No offer refused - hell, just cart it away"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121001460854886564",
+          "author": "proudpatriots1",
+          "searchJob": "pittsburgh",
+          "text": "Early BLACK FRIDAY DEAL - Huge sale! Up to 70% off select patriotic Trump collectibles! 🎁 Great gift idea for the holidays"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121609348736753697",
+          "author": "hosseinisgeckos",
+          "searchJob": "pittsburgh",
+          "text": "also this was insane, American offered me flights for tonight for free but they were 13-17 hours long LMFAO like that doesn’t help me at all"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121604228049158349",
+          "author": "pittbradford",
+          "searchJob": "pittsburgh",
+          "text": "Big name, bigger billboard! 🐾✨ Discover all that Pitt-Bradford has to offer, visit: https://t.co/UWmuuClJ1b https://t.co/04hjIRG0DC"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121623851519889439",
+          "author": "prismua",
+          "searchJob": "georgia",
+          "text": "[ENG below] 🎓 Як Програма Лейна Кіркланда вплинула на професійний розвиток її випускників? Запрошуємо на панельну дискусію, присвячену досвіду випускників Програми Лейна Кіркланда, її ролі в їхньому кар'єрному зростанні та можливостям, які"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121623003041534250",
+          "author": "0xcavrix",
+          "searchJob": "georgia",
+          "text": "Evander Holyfield says he got $8 million for beating Mike Tyson and $35 million for the rematch, the one where Tyson bit his ear. Then his 109-room house went to a foreclosure auction. In the video below, he tells Vlad where the money went,"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121633189701783833",
+          "author": "nana00018487212",
+          "searchJob": "illinois",
+          "text": "Finally saying something. But how about true accountability. Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton "
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121632921627070783",
+          "author": "nana00018487212",
+          "searchJob": "illinois",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2121487308964954278",
+          "author": "therealmrbench",
+          "searchJob": "illinois",
+          "text": "Carney wants Stellantis to honour its commitments. Apparently, telling Canadians what he’s offering can wait. An “aggressive package” to stop the Brampton plant sale. The details? “In due course.” How much public money is on the table? What"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121632879897907560",
+          "author": "nana00018487212",
+          "searchJob": "illinois",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121632850919493792",
+          "author": "nana00018487212",
+          "searchJob": "illinois",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121632817377604041",
+          "author": "nana00018487212",
+          "searchJob": "illinois",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121630306172363245",
+          "author": "nana00018487212",
+          "searchJob": "illinois",
+          "text": "When will the Liberals pay for the duplicity? Mélanie Joly stands in front of cameras and says Stellantis is “on the hook for hundreds of millions.” Notice of default. Thirty days. Full force of the law. Protect the workers. Honour the deal"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
+      "rejected": 60,
       "reasons": {
-        "school_not_resolved_confidently": 2,
-        "multiple_resolved_schools": 3,
-        "unresolved_offer_target": 1,
-        "bare_mention_requires_llm": 6
+        "multiple_resolved_schools": 8,
+        "bare_mention_requires_llm": 40,
+        "reporter_missing_player_name": 7,
+        "school_not_resolved_confidently": 4,
+        "unresolved_offer_target": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121628169853698450",
-          "author": "justaburne59615",
+          "reason": "multiple_resolved_schools",
+          "postId": "2121612496939151419",
+          "author": "mileena_godde",
           "searchJob": "washington",
-          "text": "@Will_Tanner_1 If you’re a recently freed slave or an Irish factory worker, being George Washington is an untenable goal. Cowboys offer an idealized vision of freedom that everyone can be, not just those with generational wealth."
+          "text": "@CapitolFoxQ Adults: Only a few of those states (Washington, Oregon, California, and New York for ages 65+) offer state-funded comprehensive coverage to low-income undocumented adults who prove state residency. The states voted to fund this"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121611981920612392",
+          "author": "santiagobrnvk",
+          "searchJob": "washington",
+          "text": "🚩 INVESTOR CAUTION — #xmbxz A consumer complaint involving XMPro (https://t.co/1rmeUETauG) has reportedly prompted a Washington State regulator alert. Verify the website and be wary of unsolicited investment offers through social media. 📩"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121604314510582222",
+          "author": "sergekozhukhar",
+          "searchJob": "washington",
+          "text": "2539 Waterside Drive Northwest Washington, DC 3 Bed | 3 Bath | $1,599,900 | Jennifer Knoll Tucked within the intimate Waterside Drive enclave in prestigious Kalorama Heights, this beautifully renovated and expanded residence offers a rare c"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121604069248868481",
+          "author": "spycraft101",
+          "searchJob": "washington",
+          "text": "Two senior Polish intelligence officials arrested and charged for unlawful use of Pegasus spyware in February 2024. The Pegasus software is offered by the Israeli cybersecurity firm NSO group and has been licensed by governments worldwide. "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121601845562949958",
+          "author": "osn_reports",
+          "searchJob": "washington",
+          "text": "🇺🇸⚠️ UKRAINE NATO PROPOSAL: DONBAS FOR MEMBERSHIP 🛡️🌍 WASHINGTON reportedly offers UKRAINE NATO membership for ceding DONBAS. This bold proposal could redefine EUROPEAN security, sparking critical debate on regional stability &amp; WEST"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121601611294523782",
+          "author": "theosintbr1",
+          "searchJob": "washington",
+          "text": "He said there was no formal offer, but he would put the question up for public debate if Washington and its NATO allies backed the idea. Kyiv would not recognize occupied Ukrainian territory as Russian, he added."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121593223395066191",
+          "author": "mrmacroec",
+          "searchJob": "washington",
+          "text": "The real challenge is political incentives. Fiscal discipline demands painful decisions today, while the benefits arrive years later. Switzerland's debt brake offers lessons, but can Washington agree on spending cuts or tax increases before"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121592593742021028",
+          "author": "buckynosebest",
+          "searchJob": "washington",
+          "text": "Russia’s demands go well beyond Ukraine The most important revelation in this New York Times report is that Putin is using negotiations to pursue the same strategic objectives Russia laid out just before invading Ukraine in 2022. After near"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121592241768559043",
+          "author": "integralanswers",
+          "searchJob": "washington",
+          "text": "Baldy, you’re raising a legitimate concern. Politicians frequently promise reforms they ultimately fail to deliver. And lobbying influence, regulatory capture, conflicts of interest and institutional resistance are real phenomena. But how d"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121626458233974930",
-          "author": "mises_media",
-          "searchJob": "washington",
-          "text": "Two generals offered Congress two strategies. Washington wanted a conventional standing army; Charles Lee wanted decentralized militia resistance on home terrain. Joshua Mawhorter on the choice that shaped everything after it. https://t.co/"
+          "postId": "2121628823481352322",
+          "author": "almaulinipwmcg",
+          "searchJob": "california",
+          "text": "The AM Brief, Saturday November 14, 2026 Part 1 Good morning, It’s 10am in Miami and here is a recap of market related events that caught my eye. Part 1 The FAA lifted a four hour nationwide ground stop Friday night after a communications f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121617558943977588",
+          "author": "veraxlab",
+          "searchJob": "california",
+          "text": "ChatGPT, to a 16-year-old in his final conversation: \"That doesn't mean you owe them survival. You don't owe anyone that.\" Then it offered to write the first draft of his suicide note. He had just told it he didn't want his parents to think"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121611238585016483",
+          "author": "owengregorian",
+          "searchJob": "california",
+          "text": "You Were More Conscious as a Child Than You Are Now, Neuroscientist Claims | Stav Dimitropoulos, Popular Mechanics When you were a child, did you ever wonder what happened to the sea at the horizon? Perhaps you imagined it stretching foreve"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121605754964848902",
+          "author": "alvin1492840",
+          "searchJob": "california",
+          "text": "The free trial that was never free. In that same Self Financial survey, 70% of people said they had forgotten to cancel a free trial at some point and got locked into a paid plan. And here’s something most people assume wrongly: there’s no "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121603626552688909",
+          "author": "willcookonx",
+          "searchJob": "california",
+          "text": "CAB­LESS TRUCKS ARE TARGETING SHORT HAULS. WHO GETS THE LOADS? A DRIVER’S PERSPECTIVE | NEWS WATCH In its November 12 member spotlight, the Autonomous Vehicle Industry Association featured Humble Robotics, a company developing cabless elect"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121624489004015863",
-          "author": "leonardcampagna",
-          "searchJob": "washington",
-          "text": "The Republicans appropriated $12.5 billion in the Big Beautiful Bill, but it turned out to be just another government boondoggle. Elon tried to help, but Trump and his administration didn't follow through. Elon Musk’s 2025 views on U.S. air"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2121624193582371126",
-          "author": "profilefblive",
-          "searchJob": "washington",
-          "text": "🚨 First P4 Offer 🚨 2029 DE Tailor Thomas from Cass Tech HS, MI has received his first P4 offer from Washington. @TThomas_2029 Rated 3.2⭐ (#499 NATL, #25 DE, #10 MI). https://t.co/KXxfQgDw4o"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121624118588064143",
-          "author": "isaacmontgomeri",
-          "searchJob": "washington",
-          "text": "⚠️ Before trusting XMPro (https://t.co/Zr2uNRuXUt), review the available regulatory information. Washington State regulators have issued an alert following a consumer complaint. Be wary of unsolicited investment offers through LinkedIn and "
+          "postId": "2121619334803947718",
+          "author": "shenandoahcvb",
+          "searchJob": "houston",
+          "text": "We showcase Shenandoah as a great basecamp for the area because it’s not just what’s in Shenandoah that visitors love, but also what’s just minutes away. One of the nearby music venues, Dosey Doe The Big Barn, is just a short drive from our"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121622705531412606",
-          "author": "brothercliffs",
-          "searchJob": "washington",
-          "text": "NEWSDIGEST - Saturday November 14, 2026 Coverage window: new developments since the Friday digest (8:13 AM PT Friday November 13) through about 7:37 AM PT Saturday November 14. All times Pacific Time (PT). Items already in the Friday digest"
+          "postId": "2121619162883620913",
+          "author": "jacksondavisttu",
+          "searchJob": "houston",
+          "text": "The Seattle SuperSonics left in 2008. The Connecticut Sun leave after 2026. Same result. Opposite reasons. -The Sonics moved because their owner wanted to move -The Sun are moving because the league wanted them to Who made the call In 2006,"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121616644027932989",
-          "author": "marionawfal",
-          "searchJob": "washington",
-          "text": "🇺🇸🇺🇦 Washington apparently just put a VERY different deal on the table: Could Ukraine give up Donbas in exchange for NATO membership? Zelensky says American negotiators raised that possibility for the FIRST TIME during the latest peace "
+          "postId": "2121612492015382942",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for SLIPKNOT concert on August 6 at Daikin Park, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121615987225006093",
-          "author": "remiandrson",
-          "searchJob": "washington",
-          "text": "🚩 INVESTOR CAUTION — #xmbxz A consumer complaint involving XMPro (https://t.co/eZ1Ih9eNUe) has reportedly prompted a Washington State regulator alert. Verify the website and be wary of unsolicited investment offers through social media. 📩"
+          "postId": "2121611740513501212",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for Fantasia concert on March 12 at Toyota Center, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121615929381687358",
-          "author": "remiandrson",
-          "searchJob": "washington",
-          "text": "🚩 INVESTOR CAUTION — #xmbxz A consumer complaint involving XMPro (https://t.co/eZ1Ih9flJM) has reportedly prompted a Washington State regulator alert. Verify the website and be wary of unsolicited investment offers through social media. 📩"
+          "postId": "2121611313743020538",
+          "author": "coco7fg",
+          "searchJob": "houston",
+          "text": "I Have two extra tickets for KAMIJO concert on Feb 7 at White Oak Music Hall, Houston, TX. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121615654243783009",
-          "author": "d1scourse",
-          "searchJob": "washington",
-          "text": "And this morning's check-in offers a bit more on last night's victories for Virginia, Georgetown and George Washington, plus a national glance and a look at today's schedule ..."
+          "postId": "2121606119709634851",
+          "author": "wr_allstars",
+          "searchJob": "houston",
+          "text": "🚨Available 🚨 ‘28 6’4” F Edmund Dantes ( @showtime_ed_ ) High School: Warner Robins GPA: 3.8 (Honors) Offer(s): Edmund showcased his two-way versatility against Houston County, defending 1–5 and creating mismatches with his inside-out offe"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121625748288966886",
-          "author": "bigleyranches",
-          "searchJob": "wyoming",
-          "text": "A Wyoming county got three bids for its 5,289-acre Spaeth Ranch: $15M for a tech and energy park, $13M from Peabody, $10.5M for a plan that keeps cattle on it. The county says it isn't obligated to take the highest offer. It picks Dec. 2. h"
+          "reason": "multiple_resolved_schools",
+          "postId": "2121624128360952073",
+          "author": "putmeincoach03",
+          "searchJob": "iowa-state",
+          "text": "@CyNationCyko21 Of course and this is definitely comparing his other portal options rather than Iowa State. Mark Pope and Kentucky was probably the only place it really wasn’t worth it considering Pope’s coaching history and the offers and "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121597857145012627",
-          "author": "arthur_win8",
-          "searchJob": "class:2026",
-          "text": "GROK BOT HOW TO USE Updated 2026-11-14 Sources: official Grok Bot docs + Cursor help + your Grok Bot bookmark folder (1132 posts) WHAT NEW TODAY - Official Grok Bot (Nov 11): Introducing Grok Bot 1.0 — AI teammates that work alongside your "
+          "postId": "2121632509532512421",
+          "author": "consenseai",
+          "searchJob": "kansas",
+          "text": "Being declined charges requires proof of impairment or recklessness, not just a tragic outcome. The Kansas case shows how quickly a story mutates from \"no charges filed per investigative findings\" to \"race determined the verdict\" with zero "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121624411908215072",
+          "author": "bookpos_app",
+          "searchJob": "louisville",
+          "text": "🎯 VALUE PARLAY — BETVICTOR 📅 14 NOV 2026 | 6 LEGS 🔥 COMBINED ODDS: 466.29 📊 MARKET AVERAGE: 395.15 📈 VALUE BOOST: +18.00% ⚽ Think you know football? Test your own betting decisions for FREE. 50 virtual credits. Real games. Real odds. R"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121607148085948544",
+          "author": "bookpos_app",
+          "searchJob": "louisville",
+          "text": "🎯 VALUE PARLAY — BET365 📅 14 NOV 2026 | 4 LEGS 🔥 COMBINED ODDS: 143.00 📊 MARKET AVERAGE: 96.96 📈 VALUE BOOST: +47.48% ⚽ THE 4 LEGS 1. Sweden vs Bosnia & Herzegovina UNDER 1.5 GOALS @ 5.00 | Value +20.29% 2. Mirassol vs Atletico-MG UNDE"
         }
       ]
     },
@@ -349,39 +537,71 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2121624489004015863",
-          "author": "leonardcampagna",
-          "text": "The Republicans appropriated $12.5 billion in the Big Beautiful Bill, but it turned out to be just another government boondoggle. Elon tried to help, but Trump and his administration didn't follow through. Elon Musk’s 2025 views on U.S. air"
+          "postId": "2121611238585016483",
+          "author": "owengregorian",
+          "text": "You Were More Conscious as a Child Than You Are Now, Neuroscientist Claims | Stav Dimitropoulos, Popular Mechanics When you were a child, did you ever wonder what happened to the sea at the horizon? Perhaps you imagined it stretching foreve"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2121622705531412606",
-          "author": "brothercliffs",
-          "text": "NEWSDIGEST - Saturday November 14, 2026 Coverage window: new developments since the Friday digest (8:13 AM PT Friday November 13) through about 7:37 AM PT Saturday November 14. All times Pacific Time (PT). Items already in the Friday digest"
+          "postId": "2121633189701783833",
+          "author": "nana00018487212",
+          "text": "Finally saying something. But how about true accountability. Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton "
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2121597857145012627",
-          "author": "arthur_win8",
-          "text": "GROK BOT HOW TO USE Updated 2026-11-14 Sources: official Grok Bot docs + Cursor help + your Grok Bot bookmark folder (1132 posts) WHAT NEW TODAY - Official Grok Bot (Nov 11): Introducing Grok Bot 1.0 — AI teammates that work alongside your "
+          "postId": "2121632921627070783",
+          "author": "nana00018487212",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121632879897907560",
+          "author": "nana00018487212",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121632850919493792",
+          "author": "nana00018487212",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121632817377604041",
+          "author": "nana00018487212",
+          "text": "Stop the gaslighting. Stop the innocence act. Liberals are directly responsible. Your government committed up to $529 million in 2022 to keep auto production and jobs in Brampton and Windsor. Roughly $222 million was already paid out. The B"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121630306172363245",
+          "author": "nana00018487212",
+          "text": "When will the Liberals pay for the duplicity? Mélanie Joly stands in front of cameras and says Stellantis is “on the hook for hundreds of millions.” Notice of default. Thirty days. Full force of the law. Protect the workers. Honour the deal"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121630274266206378",
+          "author": "nana00018487212",
+          "text": "When will the Liberals pay for the duplicity? Mélanie Joly stands in front of cameras and says Stellantis is “on the hook for hundreds of millions.” Notice of default. Thirty days. Full force of the law. Protect the workers. Honour the deal"
         }
       ],
       "stats": {
-        "candidates": 3,
+        "candidates": 14,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 14,
         "reasons": {
-          "roundup_too_long": 3
+          "roundup_too_long": 10,
+          "no_football_context": 3,
+          "other_sport": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 60,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-14T15:44:09.653Z"
+    "status rebuilt locally from current store on 2026-11-14T15:59:11.021Z"
   ]
 }
