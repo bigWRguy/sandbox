@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T08:43:59.872Z",
+  "generatedAt": "2026-11-14T08:59:00.170Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-14T08:43:59.031Z",
+    "at": "2026-11-14T08:58:59.608Z",
     "jobsTotal": 162,
-    "sweptThisRun": 23,
-    "requests": 23,
-    "fullSweepCycles": 8
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7809416666666666,
-    "p95Hours": 2.028912777777778,
-    "worstHours": 2.028912777777778
+    "medianHours": 1.0310244444444445,
+    "p95Hours": 2.0333527777777776,
+    "worstHours": 2.0333527777777776
   },
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 6,
+    "decided": 6,
     "complete": true
   },
   "pending": {
@@ -55,138 +55,94 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-14T08:43:59.031Z",
-      "got": 29,
-      "new": 12,
-      "lag": 0.25
+      "at": "2026-11-14T08:58:59.601Z",
+      "got": 14,
+      "new": 6,
+      "lag": 0.04
     },
     "search:commit": {
-      "at": "2026-11-14T08:43:59.031Z",
-      "got": 1,
-      "new": 0,
-      "lag": 9.72
+      "at": "2026-11-14T08:58:59.608Z",
+      "got": 26,
+      "new": 6,
+      "lag": 3.49
     }
   },
   "audit": {
-    "at": "2026-11-14T08:42:21.553Z",
+    "at": "2026-11-14T08:57:27.297Z",
     "mode": "live",
     "collection": {
-      "returned": 29,
-      "kept": 12,
-      "duplicate": 17,
+      "returned": 14,
+      "kept": 6,
+      "duplicate": 8,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 5,
+      "accepted": 5,
+      "rejected": 1,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 2
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2121501790973698343",
-          "author": "matthewmccrac18",
-          "searchJob": "buffalo",
-          "text": "The question is if his people are politcally savvy enough to see this politcal oppurtunity that is right in front of his face. All he has to do is suggest, \"we can offer Buffalo, NY as an alternative site\" and that reverses the tables on Ca"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121516485948670026",
-          "author": "anthonywidodo_",
-          "searchJob": "class:2026",
-          "text": "@elonmusk’s Terafab could win through faster learning, not just more wafers. With new chiplet-memory standards, could it iterate complete AI systems before every memory process is in-house? The real test: how fast can ideas reach reliable p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121513590645477811",
-          "author": "ejayboski",
-          "searchJob": "class:2026",
-          "text": "Selling PDF guides on X is honestly the #1 BEST business in 2026 by far. here's how you can make your first $16,000 before 2027. - AI writes the first draft, you add the edge - build 3 ebooks, 40 pages each, in under 2 hours (traditional bu"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121490815553798455",
-          "author": "radeyacareers",
-          "searchJob": "class:2026",
-          "text": "Claims stayed low this week. Market remains selective. Confirm employers directly—never pay to unlock an offer. Full weekly brief: https://t.co/ziU3LsLC0Y"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121511537764388910",
-          "author": "mexicotimes",
-          "searchJob": "texas",
-          "text": "#Now #US ground stop is over, but #Mexico's aviation crisis continues. #MexicoCity's airport reports 73 affected flights &amp; 10,293 passengers. #Cancún, #Guadalajara &amp; #Monterrey face disruptions as airlines, cargo operators &amp; tra"
+          "postId": "2121511675320750159",
+          "author": "rafaelfraga_f",
+          "searchJob": "washington",
+          "text": "It was an honour and opportunity to represent @Cardano_CF once again in Washington DC alongside a good old friend @hnpresidencia, His Excellency President Nasry Asfura from Honduras 🇭🇳 . Attending @CealIntl for the third consecutive year "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 5,
       "reasons": {
         "bare_mention_requires_llm": 4,
-        "multiple_resolved_schools": 2,
-        "reporter_missing_player_name": 1
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121511128346042756",
-          "author": "make_metal",
-          "searchJob": "duke",
-          "text": "@LionelMedia Why? He criticized the ruling class. They offered money to women to testify. How you actually looked at the supposed evidence? It's like Cornell 7, Duke Lacrosse, MIT etc."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121500141358055452",
-          "author": "arnaudmercier",
-          "searchJob": "duke",
-          "text": "<p class=\"wp-block-paragraph\">Two weeks into the coding class he was teaching at Duke University in North Carolina this spring, Noah Gift told his students to throw out the course materials he’d given them. Instead of working with Python, o"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2121520729745187118",
-          "author": "rbaker923456",
-          "searchJob": "texas",
-          "text": "It's possible and would potentially address some of the concerns of the board: \"If a CEO company resigns as the result of an admitted affair, could the board of the company stipulate a rehiring requiring the person in question to attend fam"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121519190246916295",
-          "author": "trumpcasino_pro",
-          "searchJob": "texas",
-          "text": "The Senate keeps its own members and staff off prediction markets while a congressman wants everyone else banned from them too. That's a rule for thee and not for me, and we should call it that. THE LAW - @RoKhanna wants Congress to ban spo"
+          "postId": "2121527766990413863",
+          "author": "army1325air",
+          "searchJob": "washington",
+          "text": "Congratulations. You spent a decade in Washington and somehow walked away believing your résumé is a substitute for evidence. You accused me of two logical fallacies but couldn’t identify a single one. Instead, you launched into your profes"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121496556901949833",
-          "author": "bobbyrayjr",
-          "searchJob": "texas",
-          "text": "@HoustonHero713 Bcuz the parents are so concerned about “getting offers” and thinking their kids need the coaches, when it’s actually the coaches that need the players. If only Dads go into every season demanding a meeting with coaches acro"
+          "postId": "2121526869048573989",
+          "author": "gregorpepe",
+          "searchJob": "washington",
+          "text": "Nothing new under the sun. Just another round of the same American game. First, destroy and bomb. Then rebuild at enormous public expense. Tighten monetary policy, choke the economy into recession, and eventually unleash rate cuts and anoth"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121495801364918693",
-          "author": "srmfergie",
-          "searchJob": "texas",
-          "text": "@cd_hooks It wasn't just Republican fracturing that put Texas in Democratic hands. Talarico is a generational political talent, and the rest of the slate was excellent. Had Dems not offered candidates who could credibly offer positive chang"
+          "postId": "2121523834750726353",
+          "author": "montecristo_on",
+          "searchJob": "washington",
+          "text": "🇺🇸🇨🇳🇷🇺 Trump, Xi and Putin plan to discuss Iran in Shenzhen next week. Ukraine is supposed to stay off the agenda. Can those two wars really be kept separate? Moscow has leverage in both. A bargain over Russian support for Iran could "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121495432727777632",
-          "author": "heyimmarkus",
-          "searchJob": "texas",
-          "text": "@itshotoutsidern @mkmkarabo @johnfkjuniorq You’re trivializing the issue. We understand the distinction between arrest and detention. A five-year-old was taken into federal custody and transported to Texas despite reports that adults offere"
+          "postId": "2121504861602939105",
+          "author": "curiousscope",
+          "searchJob": "washington",
+          "text": "@mufaddal_vohra Brar’s inclusion makes sense given his form and the pace-friendly New Zealand conditions. But releasing Kuldeep leaves India with just Jadeja and Washington as frontline spin options. A calculated gamble especially if the pi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121510360444269048",
+          "author": "2bytecoin",
+          "searchJob": "kansas",
+          "text": "Let me analyze this for everyone 🔥✅ 1. Kenneth Walker III — 2+ Touchdowns (+300) 🔴 Kansas City vs Atlanta ⭐ Confidence: 5.5/10 * Needs at least two touchdowns. * His rushing ability gives him opportunities around the goal line. * Multiple"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 243,
+      "jobs": 247,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -195,28 +151,60 @@
     "commits": {
       "samples": [
         {
-          "reason": "other_sport",
-          "postId": "2121500141358055452",
-          "author": "arnaudmercier",
-          "text": "<p class=\"wp-block-paragraph\">Two weeks into the coding class he was teaching at Duke University in North Carolina this spring, Noah Gift told his students to throw out the course materials he’d given them. Instead of working with Python, o"
+          "reason": "no_football_context",
+          "postId": "2121381638915416254",
+          "author": "ouinsider",
+          "text": "Can #OU keep Witten’s momentum going—and keep Chambliss from taking over? 👀 Plus: Compton-Nero’s BIG commitment, elite recruiting visitors and our OU–Ole Miss picks. The Pregame Podcast is here. #Sooners https://t.co/RpFqUa8sUl"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121381468844732753",
+          "author": "bdrumm_oui",
+          "text": "Can #OU keep Witten’s momentum going—and keep Chambliss from taking over? 👀 Plus: Compton-Nero’s BIG commitment, elite recruiting visitors and our OU–Ole Miss picks. The Pregame Podcast is here. #Sooners https://t.co/joY374pgRM"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121363938092761322",
+          "author": "soonertillidie",
+          "text": "@KamieonNero @OU_Football @CoachVenables @coach_bhall @JimNagyOU @molly_jacoby @CoachEmmett @MiguelChavis65 @CoachToddBates @CoachXBrew @LakeDawson_ @JasonWitten @Coach_Deak @CoachNDreiling @OU_CoachB @CoachKPearson @OU_CoachHill @CoachLMor"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121475662439383217",
+          "author": "richardbou94386",
+          "text": "@MSGOP shot itself in the foot by talking about mid-decade redistricting. This really fired up the Democrats. I attended one of the legislative town halls and it was brutal. It was overflowing with angry voters. MS is changing - its 2 faste"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121372931049894301",
+          "author": "oregonfootball",
+          "text": "Committed to service, leadership and community engagement. Congratulations to Jovon McRae on being selected as one of Oregon's two winners for the Jackie Robinson Community &amp; Impact Award! #GoDucks 📝 https://t.co/4kSw44P6tY https://t.c"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121343380013908165",
+          "author": "edisonpellumbi",
+          "text": "Aiden Gayle has committed to Penn State, per his Instagram. The 2028 defender is from the Philadelphia Union youth system and YSC Academy, similar to Nehan Hasan and Peter Doran."
         }
       ],
       "stats": {
-        "candidates": 1,
+        "candidates": 6,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 6,
         "reasons": {
-          "other_sport": 1
+          "no_football_context": 4,
+          "no_commit_event": 1,
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 5,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-14T08:43:59.873Z"
+    "status rebuilt locally from current store on 2026-11-14T08:59:00.171Z"
   ]
 }
