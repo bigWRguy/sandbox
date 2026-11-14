@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T20:29:24.243Z",
+  "generatedAt": "2026-11-14T20:44:19.503Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,10 +7,10 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-14T20:29:23.402Z",
+    "at": "2026-11-14T20:44:18.598Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
+    "sweptThisRun": 20,
+    "requests": 20,
     "fullSweepCycles": 9
   },
   "backfillCoverage": {
@@ -32,94 +32,110 @@
   },
   "staleSchools": [
     {
-      "id": "florida",
-      "hours": 2.5
-    },
-    {
-      "id": "texas-state",
-      "hours": 2.5
-    },
-    {
-      "id": "toledo",
-      "hours": 2.5
-    },
-    {
-      "id": "troy",
-      "hours": 2.5
-    },
-    {
-      "id": "tulane",
-      "hours": 2.5
-    },
-    {
-      "id": "tulsa",
-      "hours": 2.5
-    },
-    {
-      "id": "uab",
-      "hours": 2.5
-    },
-    {
-      "id": "unlv",
-      "hours": 2.5
-    },
-    {
       "id": "buffalo",
-      "hours": 2.3
-    },
-    {
-      "id": "duke",
-      "hours": 2.3
-    },
-    {
-      "id": "florida-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "georgia-tech",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "kent-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "liberty",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "louisiana",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "northern-illinois",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ohio",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "old-dominion",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "oregon-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "washington",
+      "hours": 2.5
+    },
+    {
+      "id": "arizona-state",
+      "hours": 2.3
+    },
+    {
+      "id": "baylor",
+      "hours": 2.3
+    },
+    {
+      "id": "boston-college",
+      "hours": 2.3
+    },
+    {
+      "id": "byu",
+      "hours": 2.3
+    },
+    {
+      "id": "california",
+      "hours": 2.3
+    },
+    {
+      "id": "georgia",
+      "hours": 2.3
+    },
+    {
+      "id": "houston",
+      "hours": 2.3
+    },
+    {
+      "id": "illinois",
+      "hours": 2.3
+    },
+    {
+      "id": "iowa-state",
+      "hours": 2.3
+    },
+    {
+      "id": "louisiana-monroe",
+      "hours": 2.3
+    },
+    {
+      "id": "utah-state",
+      "hours": 2.3
+    },
+    {
+      "id": "utep",
+      "hours": 2.3
+    },
+    {
+      "id": "utsa",
+      "hours": 2.3
+    },
+    {
+      "id": "wyoming",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2844111111111112,
-    "p95Hours": 2.536608888888889,
-    "worstHours": 2.536608888888889
+    "medianHours": 1.5330944444444445,
+    "p95Hours": 2.5265155555555556,
+    "worstHours": 2.5265155555555556
   },
   "decisionCoverage": {
-    "total": 30,
-    "decided": 30,
+    "total": 50,
+    "decided": 50,
     "complete": true
   },
   "pending": {
@@ -128,274 +144,395 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4676,
+    "completeOffers": 4679,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-14T20:29:23.395Z",
-      "got": 63,
-      "new": 30,
-      "lag": 0.07
+      "at": "2026-11-14T20:44:18.588Z",
+      "got": 94,
+      "new": 50,
+      "lag": 0.03
     },
     "search:commit": {
-      "at": "2026-11-14T20:29:23.401Z",
-      "got": 21,
+      "at": "2026-11-14T20:44:18.598Z",
+      "got": 19,
       "new": 7,
-      "lag": 0.84
+      "lag": 0.14
     }
   },
   "audit": {
-    "at": "2026-11-14T20:27:45.545Z",
+    "at": "2026-11-14T20:42:40.123Z",
     "mode": "live",
     "collection": {
-      "returned": 63,
-      "kept": 30,
-      "duplicate": 33,
-      "tooOld": 0,
+      "returned": 94,
+      "kept": 50,
+      "duplicate": 42,
+      "tooOld": 2,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 17,
-      "rejected": 13,
+      "accepted": 27,
+      "rejected": 23,
       "reasons": {
-        "no_fbs_school": 8,
-        "no_offer_term": 3,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 1
+        "hard_negative": 2,
+        "no_fbs_school": 12,
+        "no_offer_term": 6,
+        "non_fbs_offer_target": 3
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2121660676493996375",
-          "author": "zain_hewett08",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my third offer from @FBWarriorsECC and Coach @glindheim3232 @john_sprad @Coach_Casper @HKA_Tanalski @CarterVikingsFB @CoachHolley5 @LHSvikingsFB @RecruitGeorgia @GP_Recruiting @FBRecruitAide @KohlsSnapping https://t.co/eN"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121659468429611141",
-          "author": "woodsmarkius",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 1st Team All-Prep! Season highlights coming soon. @CoachPoeWins https://t.co/yYZFabTgtS"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121659226481217812",
-          "author": "kempermcafee",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Absolutely blessed to receive this accolade! Can’t explain how much this means to me, how hard I worked, along with the amount I prayed to be in the position I’m in. #AGTG https://t.co/sNz8xG5lVh"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121657746403582247",
-          "author": "drewmac04",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from the KCAC Kessinger Division Champion, Ottawa Braves! Been going to @JJDSports camps here for years so it's exciting to get the chance to come back! Thank you @CoachSCDub @Coach_CEdwards and @CoachNickDavis f"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121662838699638984",
-          "author": "nnph_org",
-          "searchJob": "nevada",
-          "text": "Fast, free flu sots available today until noon! Come down to the Washoe County Administration Complex, 1001 E. 9th St. in Reno. More: https://t.co/bvHVNTXXnM https://t.co/XE8AZV2fqX"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121674525100433778",
-          "author": "theuscattius",
-          "searchJob": "new-mexico",
-          "text": "Completely Unnecessary Trivia: In 1950, the American radio programme Truth or Consequences offered to broadcast from any town willing to rename itself after the show. The residents of Hot Springs, New Mexico, promptly voted to become Truth "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121700458519544008",
-          "author": "farahandfarah",
-          "searchJob": "florida",
-          "text": "💥 SIX-FIGURE CLIENT WIN! 💥 After Hurricane Milton ripped siding and stone from our client’s home, the fight became getting the insurance company to fairly account for the damage. Florida Hurricane Damage Lawyer, Andreas Study, alongside p"
-        },
-        {
           "reason": "hard_negative",
-          "postId": "2121699684339388728",
-          "author": "okieball_1",
+          "postId": "2121666383406841908",
+          "author": "andreafreedom76",
           "searchJob": "florida",
-          "text": "David Douglas is putting on a show!! One of the nation's top guards the 4 🌟 2028 bucket getter has hit 6 3's in his first game of the afternoon. Douglas holds D1 offers from West Virginia, Maryland, Mississippi State and Central Florida. @"
+          "text": "He was referring to the class of migrants that fled communist countries like Cuba. I live in Florida where there is a large minority of Cubans that are more American, understand the freedom our country offers, and are committed to perseveri"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121695935847886925",
-          "author": "lxpllxp",
+          "postId": "2121664484074820034",
+          "author": "fasc1nate",
           "searchJob": "florida",
-          "text": "Steve Harvey was sleeping in his car with $35 when Showtime at the Apollo called to put him on TV. He couldn’t afford the trip to New York. Then a second voicemail offered him a $150 gig in Florida. He made $300 that weekend, flew to New Yo"
+          "text": "On August 1, 2009, Dalia Dippolito of Boynton Beach, Florida, got into the passenger seat of a red sedan for a clandestine meeting and told the driver she wanted him to kill her husband. She offered him $7,000, and he responded that he'd al"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121704299205951540",
+          "author": "aiinspoworld",
+          "searchJob": "toledo",
+          "text": "Today's AI frontier news: 12 top stories, Huang resigns as Nvidia CEO, SpaceX's $74B AI campuses, Claude joins meetings https://t.co/2UOeGQOQv3"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121685056250839080",
+          "author": "np4football_ot",
+          "searchJob": "toledo",
+          "text": "De’von Dallas-DB-2027-OH @ToledoFB OV #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121637273620140501",
+          "author": "devondalla2s",
+          "searchJob": "toledo",
+          "text": "GO ROCKETS 🚀🚀 @coach_mjacobs @CoachBrown24 @LoganM_CFB @KadePelton @Rockets_Recruit #AGTG https://t.co/XhIfRGu3Gl"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121695283155538260",
+          "author": "quintinreports",
+          "searchJob": "washington",
+          "text": "‘Warming Up for Winter:’ McClellanville community event offers free winter clothes and flu shots November 21 https://t.co/2L9BATUQtA #chsnews"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121286972039987228",
+          "author": "newsforce",
+          "searchJob": "washington",
+          "text": "COMMAND AND CONTROL: HAS TRUMP LOST THE WAR AGAINST IRAN? Can Trump's naval blockade force Tehran into a deal? Has the U.S. failed to achieve its military objectives? And could China's growing influence reshape the Middle East? @Mr_Andrew_F"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121688880252330445",
+          "author": "andreeatalpeanu",
+          "searchJob": "washington",
+          "text": "Open letter to @realDonaldTrump @SecRubio @netanyahu @araghchi @Iran_UN @MofaQatar_EN @mofauae @antonioguterres @IEA The Strait of Hormuz is burning again. Iranian state TV reports that three oil tankers struck mines and caught fire today. "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121645931493732652",
+          "author": "ericldaugh",
+          "searchJob": "washington",
+          "text": "🚨 BREAKING: Cuban dictator Miguel Diaz-Canel reportedly declares his regime is now PREPARING for a U.S. military strike Could TRUMP, RUBIO and HEGSETH go full VENEZUELA on Cuba? Less than 24 hour win? 🇺🇸🇨🇺 It comes after President Trum"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121683100614676497",
+          "author": "0xmrledger",
+          "searchJob": "washington",
+          "text": "A judge gave a 35-year-old teacher a second chance: six months in jail, then treatment, and stay away from the boy. A month after she got out, police found them together in her car. Inside were $6,200 in cash, baby clothes and her passport."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121679390375547047",
+          "author": "williejuancom",
+          "searchJob": "washington",
+          "text": "Grok Intel Update 9-16-25 Re: Was Charlie Kirk an asset and stooge of israheili intel? QUESTION: i read that charlie kirk's group turning point has been financed in large part by active zionist operators for the last ten years and that he w"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2121685512134267210",
-          "author": "daniel_holt0",
-          "searchJob": "florida",
-          "text": "After a great conversation with @wright_woody i’ve recieved my 6th offer from Community Christian College (florida) @ChrisTaber5 @sports_drc @coachjoneskhs @KrumFootball @CCCLionsFB https://t.co/Lpxxqx2ks5"
+          "postId": "2121701924995256609",
+          "author": "owen111808",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Bobby I’m blessed to receive my first offer from Gulf Coast Christian College. #AGTG🙏🏼 https://t.co/2PbvDwMdk8"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121683473757090067",
-          "author": "newpostnetwork",
-          "searchJob": "florida",
-          "text": "Thanks For The Help ‘ We Needed The Cheaper Car’ And ‘We Can’t Afford This Funny Ride’ Local Supporter chimes in ‘ We Have Some Deals That Went Bad But We Want To Say Thank U For The Other Great Offer’ #BetterHelpFromTheseDealers https://t."
+          "postId": "2121695046173089822",
+          "author": "adamelbaraka",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @_cj52 I’m blessed to receive a full scholarship offer to Arkansas Baptist @EnnsZoneKicking @_RecruitDirect_ https://t.co/6rr0TrxlLd"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121701507917566224",
+          "author": "gregoryweeksjr",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "Blessed to receive an OFFICIAL OFFER from Community Christian College! 🐂🔵 Thank you @wright_woody for the opportunity. All glory to God! 🙏🏾 #FloridaBulls #RecruitMe #ClassOf2028 #OL #Blessed https://t.co/WRMQikxLms"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121675634183184704",
-          "author": "a1lexen_",
-          "searchJob": "florida",
-          "text": "She hired a hitman to kill her husband of six months, then cried on a sergeant's shoulder when police told her he was dead. He was alive. When she saw him, she said: \"I didn't do anything to you.\" In the video below, watch her face. She bre"
+          "postId": "2121705264990523662",
+          "author": "jacobcorley56",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG So very blessed to receive my fourth offer from @SUPiratesFB ! Thank you @CoachAPhan for this offer and the great game day visit!! @ColschenDavid @coach_kemble @recruitingTWHS @twhfootball @ChuckLeierer @extrastout72 @thecoachJCorley "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121685100811469013",
-          "author": "dannysuarez52dl",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After an amazing conversation with @Coach_Phelan25 and @CoachWalsh_44 I am extremely grateful to receive an offer from @FandMFootball https://t.co/UkHWctUrC2"
+          "postId": "2121700966030303252",
+          "author": "jonjonsmithcb2",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Appreciate the offer from @OfficialCCCFL Agtg https://t.co/bImt8V8XDn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121696440569167954",
+          "author": "jack15_lister",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "AGTG!!! Blessed to receive my first collegiate offer from @MCScotsFootball Go Scots! Go Devils! @QBCoachFox @GreeneDevilsFB @coachcraw4d @CoachTevaHarris @CSmithScout @Spradlen2536 @miezzi89 @CoachBGillespie @5StarPreps @GSportsZone https:/"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121675463940846016",
+          "author": "sfl_martin",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed and grateful to receive an official scholarship offer from McPherson College to continue my academic and athletic career! Thank you to Coach Fiscus and the entire coaching staff for giving me this opportunity. #AGTG #Classof27 #Recr"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121704564189495315",
+          "author": "deedukes_",
+          "searchJob": "duke",
+          "text": "@ArtFehler @InsideRingShow Yea we do think Devin a pussy 😂🤣😂nothing buddy said made sense he just spent a narrative &amp; you clearly fell for it . Because why say he went “quite” at 144 (although we all seen them on twitter) then say I "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121697015134630033",
+          "author": "granddukesmooth",
+          "searchJob": "duke",
+          "text": "Playa you doing a great service not just NYers but Americans. These landlords/owners do they best to squeeze every dime out of people and offer them trash."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2120906806847479994",
+          "author": "therealscourge",
+          "searchJob": "duke",
+          "text": "Prayers to the families who lived in this complex 🤦🏽‍♂️🕊️ #flatbush #Brooklyn https://t.co/gwWOzBGsWe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121670260025602359",
+          "author": "dukeofmomoney",
+          "searchJob": "duke",
+          "text": "We were just lucky I had the savings and my work offered me the option if I trained my replacements first It cost me nearly 100k in the remodel and probably the same in opportunity lost But it gave him dignity, he spent his last years with "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121687304935002165",
+          "author": "coreynoles",
+          "searchJob": "florida-state",
+          "text": "@llm_wizard I can't lift heavy things, so if the world goes upside down I figure I need something of value to offer."
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 17,
+      "accepted": 3,
+      "rejected": 24,
       "reasons": {
+        "bare_mention_requires_llm": 17,
+        "multiple_resolved_schools": 2,
         "school_not_resolved_confidently": 3,
-        "multiple_resolved_schools": 4,
-        "bare_mention_requires_llm": 10
+        "reporter_missing_player_name": 1,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121670972516286575",
+          "author": "linkario47",
+          "searchJob": "florida",
+          "text": "@worldwidemyke @UnderdogCFB I support and 100% understand his decision to go be a HC, but he should’ve stuck around at least 1 more year here as OC. He probably would’ve gotten a much better HC offer, up to and including Florida Stste"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121664959805296911",
+          "author": "reddyke69",
+          "searchJob": "florida",
+          "text": "@GLBinvestor @grok Why doesn’t America offer something they own. Not many Republican states left, but maybe Florida 🤔"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121664863353069945",
+          "author": "luckystrikerpt",
+          "searchJob": "florida",
+          "text": "INVESTIGATORS SAY SHE OFFERED TO PAY A MAN TO SEXUALLY ABUSE AND KILL HER. JURY SELECTION IN SONIA EXELBY’S MURDER CASE BEGINS MONDAY. But messages she sent before her death described being held against her will. Before I walk you through t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121701217646825508",
+          "author": "matchdcentral",
+          "searchJob": "toledo",
+          "text": "‼️‼️Heartbreaking update on Jesus Owono • Per MARCA, Owono asked FC Andorra to help contact Jesus de Miguel's family to offer condolences, by letter, phone, or travel to Toledo • Tenerife have asked for more time, family needs space to grie"
+        },
+        {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121657363585233054",
-          "author": "belasri_karim",
-          "searchJob": "texas-tech",
-          "text": "⚡ Meet https://t.co/o1Ap9SyUex — A distinctive name. Endless branding potential. Perfect for tech, innovation, startups &amp; next-generation businesses. A unique digital asset looking for its next owner. Open to serious offers. #DomainInve"
+          "postId": "2121679621691203849",
+          "author": "jfbigras48",
+          "searchJob": "toledo",
+          "text": "We are a sick society, if we don’t wake-up briefly “GOD” will strike us down very shortly….I🇨🇦 we should pray to GOD and ask for help! The help from GOD should be to offer all countries leader’s to work towards for the following: 1- Total"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121669137554641115",
+          "author": "ljiljanagruden2",
+          "searchJob": "toledo",
+          "text": "PIONEERS OF THE UNIVERSE Humanity's Greatest Challenge Is Learning to Live Among the Stars Every human who studies the universe contributes to the unfolding history of humanity. Every discovery expands our understanding, every scientific ac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121700917909319866",
+          "author": "overboardpeople",
+          "searchJob": "troy",
+          "text": "The U.S. Treasury holds roughly 261.5 million fine troy ounces of gold (about 8,133 tonnes). On the government’s books this is valued at the statutory price of $42.2222 per ounce (often rounded to $42.22), for a total book value of about $1"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121700038703513768",
-          "author": "67gto4evr",
-          "searchJob": "navy",
-          "text": "@ishanxtwt I interviewed for an airline job after two combat tours as an Air Force pilot. I had every qualification required. I didn’t get an offer, and later met a former Navy blimp pilot who was hired. The chief pilot and the pilots who d"
+          "postId": "2121692985305780630",
+          "author": "magawilderness",
+          "searchJob": "tulsa",
+          "text": "🚨 SPECIAL REPORT | Markwayne Mullin: The Homeland Security Secretary Who Spoke to the Nation the Night America's Flights Stopped · Saturday, November 14, 2026 On Friday, November 13th, at 3:54 p.m. Eastern Time, the Federal Aviation Admini"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121694712990216585",
-          "author": "laurgrowth",
-          "searchJob": "navy",
-          "text": "HOLY F*CK… GTA 6 drops in 5 days and AI channels are already FLOODING youtube one GTA 6 channel made less than a week ago is already sitting on 8.25M views so i had claude make a full GTA style trailer to see how hard it actually is 56 seco"
+          "postId": "2121704520778743829",
+          "author": "galuh_majapahit",
+          "searchJob": "washington",
+          "text": "The November 19 Shenzhen summit & The schedule for the expanded Ukraine–Russia–U.S.–Europe talks & How EU sanctions and frozen Russian assets The European Union holds roughly €210 billion in immobilized Russian central bank assets—about €18"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121692212027371839",
-          "author": "np4football_ot",
-          "searchJob": "navy",
-          "text": "Derek Goulbourne-ATH-2027 @NavyFB Offer #CFB"
+          "postId": "2121700422838571373",
+          "author": "ceno_uk",
+          "searchJob": "washington",
+          "text": "President Zelenskyy's disclosure that US envoys floated a Ukrainian withdrawal from the Donbas in exchange for NATO membership appears less a formal White House offer than a diplomatic probe of Kyiv’s territorial red lines. By publicising t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121689724331176049",
-          "author": "angelaira",
-          "searchJob": "navy",
-          "text": "@nikolasdiallo No Navy Seal said this. You can just offer advice without trying to make it look like some expert said it."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121700804541518089",
-          "author": "ranig",
-          "searchJob": "nevada",
-          "text": "Tesla will offer both options. They just started inviting people to buy CyberCab. They said on multiple earnings call they intent to have multiple form factors for the autonomous world. In some places people would prefer buying but in most "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121691499671036296",
-          "author": "babsdoprod",
-          "searchJob": "nevada",
-          "text": "We want @HouseGOP @HouseDemocrats @realDonaldTrump @POTUS @SenAdamSchiff @jonvoight to listen and understand that Production Tax Credits cannot create jobs or new industry in undeveloped states. Call any Film Office, none of them can help b"
+          "postId": "2121694598053474400",
+          "author": "wapolicycenter",
+          "searchJob": "washington",
+          "text": "Washington state’s Paid Family and Medical Leave payroll tax is a reverse Robin Hood. The state takes money from people in need and often gives it to workers who are not in need. Imagine you are a single parent who needs all of your wages t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121669371324203338",
-          "author": "w4nevada",
-          "searchJob": "nevada",
-          "text": "Amazon and Nevada consumer advocate offer rival large-load queue rules https://t.co/TdsE2Yj7B2"
+          "postId": "2121693228214743477",
+          "author": "rtehrani",
+          "searchJob": "washington",
+          "text": "FAA Expands SMART AI Traffic Planning to Atlanta in Nationwide Rollout Atlanta is becoming an early test of how artificial intelligence can support one of aviation's most operationally demanding environments. The Federal Aviation Administra"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121692824257126704",
+          "author": "realjakeclaver9",
+          "searchJob": "washington",
+          "text": "🚨 JUST IN: PRESIDENT TRUMP FIRES BACK AT JUDGE ANA REYES OVER D.C. “TRASH ISLAND” GOLF COURSE! President Trump says Judge Ana Reyes is standing in the way of his plans to remove hazards, clear away trash, and transform the troubled golf co"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121684661479084349",
-          "author": "hootkn0ws",
-          "searchJob": "florida",
-          "text": "John Holmes claimed he'd slept with 14,000 women. They called him the Elvis of p*rn. Then police found his palm print in a house where four people had been beaten to death with steel pipes. Hours after the murders, he showed up at his wife'"
+          "postId": "2121691488509923532",
+          "author": "coydogmarkus",
+          "searchJob": "washington",
+          "text": "CLOWNTOWN GAZETTE Ride the Propaganda Spin’A-Top! Name the Real Concern and Win a Free Balloon! Ladies and gentlemen, step right up! The diplomatic midway is open, and today's featured attractions are guaranteed to make your head spin! Firs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121683257351958553",
-          "author": "gwag23fire",
-          "searchJob": "florida",
-          "text": "@Donsmith524 @poufisufi He’s in Jersey because the Jets wouldn’t trade him to Florida; their offer wasn’t acceptable for the Jets."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2121679016239550907",
-          "author": "cozzymodo",
-          "searchJob": "florida",
-          "text": "@GrindLinePod Florida got Brady for likely 8-9 years while entering his prime. The Wild would get Larkin for 4.5 years as he's exiting his prime. Nine other playoff teams are on the list and they can't or don't want to beat Minnesota's offe"
+          "postId": "2121690883263205426",
+          "author": "newsforce",
+          "searchJob": "washington",
+          "text": "A SMALLER HORMUZ BARGAIN | Command & Control @POTUS could go back to Doha with a narrower deal: ordinary commercial traffic through the Strait 1st, then selective relief for Iranian trade only as the ships keep moving. @Mr_Andrew_Fox says t"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121677952891146426",
-          "author": "osmithcollector",
-          "searchJob": "florida",
-          "text": "“Non-Baseball November” Day 14 features the football game programs from the two times I saw the Gators play Kentucky in Lexington, 2003 and 2005. This also offers fond memories of when playing them in football was almost a guaranteed W. #No"
+          "postId": "2121689973019582732",
+          "author": "perceptiondaily",
+          "searchJob": "washington",
+          "text": "🏛️ JERUSALEM — Netanyahu drops the word \"war\" and dials Eisenkot directly. 📌 LOOK CLOSER: A caretaker PM with launch codes issued a public war call framed as a unity offer. The Eisenkot address is the tell: Netanyahu needs political cover"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121699691121504524",
+          "postId": "2121688389409734737",
+          "author": "john_kadla",
+          "searchJob": "washington",
+          "text": "@Pierre__Sage Hey Palace fans! IYO, whatsapp did Pierre SAGE didnt succeed in your clubs? Bécasse, TBH. In France, he offered good football abdos listening to him speaking football Washington refreshing. Rallye surprised to ses hum in thon "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121683938041344472",
+          "author": "michaelarothman",
+          "searchJob": "washington",
+          "text": "𝐓𝐑𝐔𝐌𝐏: 𝐂𝐔𝐁𝐀 𝐈𝐒 𝐀 𝐅𝐀𝐈𝐋𝐈𝐍𝐆 𝐍𝐀𝐓𝐈𝐎𝐍 𝐓𝐇𝐀𝐓 𝐖𝐈𝐋𝐋 𝐅𝐀𝐋𝐋 \"𝐅𝐀𝐈𝐑𝐋𝐘 𝐒𝐎𝐎𝐍\" Havana’s communist regime is bracing for a fight it may not get to pick. Cuban leader Miguel Diaz-Canel has told his own people to p"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121680417275167226",
+          "author": "worldinsightch",
+          "searchJob": "washington",
+          "text": "⚡ STRATEGIC BRIEF: US PROPOSES UKRAINE CEDE DONBAS IN EXCHANGE FOR NATO MEMBERSHIP 👇⤵️ Follow, Reply & ❤️ ! **NATO membership terms offered by US negotiators in Abu Dhabi require Ukraine to forfeit the Donbas.** **During high-level peace t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121680246160179280",
+          "author": "therawwire",
+          "searchJob": "washington",
+          "text": "🚨 The US just floated NATO membership for Ukraine, at a price: Donbas. Per Reuters, Zelensky says US negotiators asked after the Abu Dhabi talks: \"What if Ukraine joins NATO? Would Ukraine withdraw from Donbas?\" He says it's the first time"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121680090530811932",
+          "author": "hilariassnews",
+          "searchJob": "washington",
+          "text": "Washington, D.C. — An artificial intelligence system has confidently assured federal investigators that Friday's nationwide ground stop was caused by \"just some old copper wires,\" according to people familiar with the conversation, who said"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2121683749762904518",
+          "author": "jayvionmaldon22",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "AGTG!! Beyond blessed to announce that I’ve received my 16th d1 offer from Purdue University!! #BOILERUP🚂🚂 @Nrenna @CoachTVJ @CoachJackson26 #BLESSED https://t.co/oWBKI7Pn20"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121703322243756040",
+          "author": "sleeperath1etes",
+          "searchJob": "duke",
+          "text": "I really like this kid Nate Sheppard (@NateShep20) from #Duke. He's going to be a 1st Round Pick. I wouldn't be surprised if another school offered him big money to leave https://t.co/rL5ZrzHCna"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121693399367753972",
           "author": "profilefblive",
-          "searchJob": "ucla",
-          "text": "UCLA extended three new scholarship offers during its game last night. @UCLAFootball 3.8⭐ 2029 CB Marcus Thompson III @mthreezy__ 3.4⭐ 2029 WR Harlem Bullock @harlembullock_ 3.4⭐ 2030 ATH Isaiah Rankins @isaiahrankins04 View all of UCLA's r"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121684922066767984",
-          "author": "wowwow1944",
-          "searchJob": "ucla",
-          "text": "@SKOLTERGEISTT @ThegoatWC45 @the_habitant They have better offers from the Canadians and probably the Bruins. Teams that have and are willing to trade assets we actually want."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121666401790570502",
-          "author": "esfl",
-          "searchJob": "ucla",
-          "text": "@BruceFeldmanCFB @IraGorawara Chesney should leave as soon as he gets offered a job he likes. UCLA may pay him but the program is nowhere close to invested enough to compete long term. That's why Chip Kelly tapped out to go back to being an"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121700988813766800",
-          "author": "the_prince_kaz",
-          "searchJob": "usc",
-          "text": "\"Can't sleep?\" Neil offered instead, dropping onto the cushions with a small sigh of his own, drained from tutoring and willing to indulge his ever precious teammate. When Kevin simply shook his head, Neil reached for the remote and pulled "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121694112311030268",
-          "author": "texasrunnerdfw",
-          "searchJob": "north-texas",
-          "text": "I’ll share a scenario I’ve seen a few times in the North Texas housing market: Buyer in a starter home puts a home sale contingency offer on a stretch but dream upgrade home because it’s been sitting and the seller cut the price a lot Goes "
+          "searchJob": "duke",
+          "text": "Duke has extended five new scholarship offers to HS prospects in the last 24 hours. @DukeFOOTBALL 4.5⭐ 2028 IOL George Selvie III @GS3washere 3.9⭐ 2029 Edge Jaheim Pierre-Paul @Jaheim_90pc 3.9⭐ 2029 SAF Andre Scott @AndreScott34 3.1⭐ 2028 R"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 248,
+      "jobs": 242,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -404,67 +541,74 @@
     "commits": {
       "samples": [
         {
-          "reason": "no_commit_event",
-          "postId": "2121689373330563321",
-          "author": "hottakesaplenty",
-          "text": "@TerpsFootball it’s fucking crazy to me how tragically fucking committed you cocksuckers are to being worthless and undisciplined"
+          "reason": "roundup_too_long",
+          "postId": "2121680090530811932",
+          "author": "hilariassnews",
+          "text": "Washington, D.C. — An artificial intelligence system has confidently assured federal investigators that Friday's nationwide ground stop was caused by \"just some old copper wires,\" according to people familiar with the conversation, who said"
+        },
+        {
+          "reason": "list_post",
+          "postId": "2121671735854408017",
+          "author": "seanw_247sports",
+          "text": "What is #Mizzou getting with the commitment Top247 2028 OL Liam Davis? - A True Tiger - Position versatility - Size and strength - @gabrieldbrooks with an in-depth scouting report on the 4⭐️ talent https://t.co/kUduyRS3wI"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121670187246403695",
+          "author": "morpheu5watcher",
+          "text": "ARDENT $ARDT UP 52%. 2025 CHARGES TRIPLED ITS PROFIT: The Momentum Len5 is watching Ardent Health (ARDT) at $17.80, +$0.12 / +0.68% on Friday. Ardent, a Tennessee company that runs 30 hospitals in six states, is #4 on the Momentum Len5 and "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121703770136400135",
+          "author": "derekjohnson05",
+          "text": "Archie Wilson pooch punting the ball at the end of a game that’s over is the most encouraging thing I’ve seen all day, other than Nebraska’s commitment to running the football. Celebration justified #Huskers #NEBvsRU"
         },
         {
           "reason": "no_commit_event",
-          "postId": "2121600286728888394",
-          "author": "loganabrown",
-          "text": "Oregon is set to host its biggest recruiting weekend of the season vs. Michigan, with a 2027 flip target among the most notable visitors. 2027 5-star WR Xavier Sabb among the Oregon commits expected. https://t.co/PUnejuOyRz"
+          "postId": "2121673879903142284",
+          "author": "chrisraff7",
+          "text": "I want to believe that Rhule is now fully committed to Power Football. Just cant get there yet... #FoolMeOnce #FoolMeTwice #Huskers #Huskers"
         },
         {
           "reason": "no_football_context",
-          "postId": "2121636881683058876",
-          "author": "thefivegym",
-          "text": "SPOTLIGHT — RECRUIT TO WATCH (CLASS OF 2027): Ashlyn Jensen Committed and signed with Minnesota, per Minnesota gymnastics. Level 10. Official USAG, WDP L10 Nationals, All-Stars: 2025: BB 9.225 (T-22nd) 2024 (All-Star East): BB 8.825 (24th) "
+          "postId": "2121667382234272180",
+          "author": "avariehoward31",
+          "text": "First opening drive touchdown for Nebraska since the North Dakota game. Huskers committed to the run on that first drive: 12 rushing attempts, avg 6.2 yds per carry."
         },
         {
-          "reason": "other_sport",
-          "postId": "2121588715520762142",
-          "author": "fieldlevelbsb",
-          "text": "Drew McShane @Drewmcshane18 (MN, HS 2027) commits to University of Minnesota @gopherbaseball View the commitment on @FieldLevel: https://t.co/4LxVDgzIpm #committed #baseball https://t.co/8VpyfYZF0x"
+          "reason": "no_commit_event",
+          "postId": "2121632012528443428",
+          "author": "alpotratz",
+          "text": "At this point, Nebraska football is less of a hobby and more of a long-term emotional commitment with no apparent ROI"
         },
         {
           "reason": "no_football_context",
-          "postId": "2121649500485763491",
-          "author": "prep_radar",
-          "text": "Decision made. Chris Brown Jr (2027 C) commits to Mississippi State. https://t.co/uIkRrA1Uif"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2121687135275069844",
-          "author": "nashvillepreps",
-          "text": "CPA wideout Gabe Cabell commits to Stanford football over Vanderbilt, Mississippi State https://t.co/ojPlt6jTMQ"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2121683346715558041",
-          "author": "tennessean",
-          "text": "CPA wideout Gabe Cabell commits to Stanford football over Vanderbilt, Mississippi State https://t.co/028WERkI8W"
+          "postId": "2121699883581149469",
+          "author": "mrbuddygarrity",
+          "text": "Recruit Committed To Former Buckeyes Coach with National Title Says Arkansas Can Flip Him https://t.co/NQT5I0B1UI via @BestOfARSports"
         }
       ],
       "stats": {
-        "candidates": 7,
+        "candidates": 8,
         "accepted": 0,
-        "rejected": 7,
+        "rejected": 8,
         "reasons": {
+          "roundup_too_long": 2,
+          "list_post": 1,
+          "reporter_missing_player_name": 1,
           "no_commit_event": 2,
-          "no_football_context": 2,
-          "other_sport": 1,
-          "reporter_missing_class_year": 2
+          "no_football_context": 2
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 17,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 24,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-14T20:29:24.245Z"
+    "status rebuilt locally from current store on 2026-11-14T20:44:19.505Z"
   ]
 }
