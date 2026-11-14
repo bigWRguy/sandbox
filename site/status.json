@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:58:29.715Z",
+  "generatedAt": "2026-11-14T07:28:57.059Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-14T06:58:29.122Z",
+    "at": "2026-11-14T07:28:56.465Z",
     "jobsTotal": 162,
-    "sweptThisRun": 22,
-    "requests": 22,
-    "fullSweepCycles": 8
+    "sweptThisRun": 20,
+    "requests": 20,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0225655555555555,
-    "p95Hours": 1.7663247222222223,
-    "worstHours": 2.0215405555555557
+    "medianHours": 1.2790861111111111,
+    "p95Hours": 2.0309830555555557,
+    "worstHours": 2.0309830555555557
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 20,
+    "decided": 20,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4658,
     "incompleteOffers": 0
@@ -55,159 +55,195 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-14T06:58:29.122Z",
-      "got": 27,
-      "new": 15,
-      "lag": 0.05
+      "at": "2026-11-14T07:28:56.454Z",
+      "got": 23,
+      "new": 20,
+      "lag": 0.15
     },
     "search:commit": {
-      "at": "2026-11-14T06:58:29.122Z",
-      "got": 0,
-      "new": 0,
-      "lag": null
+      "at": "2026-11-14T07:28:56.464Z",
+      "got": 40,
+      "new": 16,
+      "lag": 1.36
     }
   },
   "audit": {
-    "at": "2026-11-14T06:57:00.035Z",
+    "at": "2026-11-14T07:27:21.725Z",
     "mode": "live",
     "collection": {
-      "returned": 27,
-      "kept": 15,
-      "duplicate": 12,
+      "returned": 23,
+      "kept": 20,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 6,
+      "accepted": 11,
+      "rejected": 9,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 2,
-        "non_fbs_offer_target": 1
+        "no_fbs_school": 5,
+        "no_offer_term": 3,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2121468171681145134",
-          "author": "lacey_xenon",
-          "searchJob": "north-carolina",
-          "text": "My Company Outsourced My Department, Then Offered Me the Same Job for 25% More Last September, my company announced it was outsourcing its entire warehouse department. Around 18 employees, including me, were told our positions would eventua"
+          "postId": "2121503133431984317",
+          "author": "urasportsshow",
+          "searchJob": "florida",
+          "text": "RISING STAR ALERT! Class of 2029 @JBenyard119202 | Jesuit HS (FL) Article: https://t.co/aSzqsdOLhJ Profile page:https://t.co/7mJ1axxP8Q Jamie is not a new kid on the block in Florida, despite transferring to Jesuit HS this year. Combining v"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121469241945989175",
-          "author": "jienan321",
-          "searchJob": "stanford",
-          "text": "https://t.co/WLArZFc6Uq"
+          "postId": "2121501465944768958",
+          "author": "techau",
+          "searchJob": "florida",
+          "text": "https://t.co/PmUGwoKO0a"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121468195684966578",
-          "author": "crowdfundinside",
-          "searchJob": "stanford",
-          "text": "$50,000 each, six awards: Avalanche Foundation is funding blockchain-economics research at Stanford, Oxford, Imperial, and peers. https://t.co/h40POgUnWb"
+          "postId": "2121327742822293628",
+          "author": "imperooterxbt",
+          "searchJob": "florida",
+          "text": "Adin Ross reacts to Orangie saying the Miami house bull market “is just getting started” https://t.co/PlayLwKDT0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121494830547153206",
+          "author": "arnaudmercier",
+          "searchJob": "california",
+          "text": "<p class=\"wp-block-paragraph\"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href=\"https://t.co/cd1zw3IHNv\"><em>sign up here</em></a><em>.</em></p> <p "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121466595574960183",
-          "author": "gero5471",
-          "searchJob": "utah",
-          "text": "@AnthonyKim_Golf @YouTube @malbongolf @SkokaPouches Bro if the PGA or DP doesn't extend you an offer it's just robbery your story alone is great for golf let alone your ability to play tour level golf"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2121468516801060994",
-          "author": "rs_recruits",
-          "searchJob": "virginia",
-          "text": "Ambassador Christian School (Huntersville, NC) EDGE Daniel Echevarria received an offer from Virginia Military Institute"
+          "postId": "2121481567625461781",
+          "author": "amrilsavarices",
+          "searchJob": "california",
+          "text": "@najibfazail Jensen takde non-compete clause sebab Nvidia based in California. Might have been his failsafe all along. The industry loves him so dia cakap je dia interested, all the companies akan offer position. Dia pun boleh cuba cooperat"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121360652367217137",
-          "author": "echevarria2026",
-          "searchJob": "virginia",
-          "text": "Both Blessed and grateful to receive first D1 offer from VMI. @Coach_Yaya1 @acs_football24 @tj https://t.co/EIRgWb0q2Z"
+          "postId": "2121473851028910122",
+          "author": "davidvexed",
+          "searchJob": "california",
+          "text": "@ZacksJerryRig If Tesla offers Cybercab in California our patients (mostly elderly) that have to visit our dialysis center can get complimentary rides to and from our dialysis center. https://t.co/reER2zfily"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121472896921166270",
+          "author": "davidvexed",
+          "searchJob": "california",
+          "text": "@marc_benton Earlier, I mentioned that if Tesla offers Cybercab in California our patients (mostly elderly) that have to visit our dialysis center can get complimentary rides to and from our dialysis center. https://t.co/9kElLCKtyI"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121498854143217768",
+          "author": "genai_is_real",
+          "searchJob": "rice",
+          "text": "Vagueness is the breeding ground of disorder. https://t.co/iyZyneLj3O"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121484226566480018",
+          "author": "traineramamiya",
+          "searchJob": "rice",
+          "text": "@HatsumaMiku [The unfrosted side?] Ahhm. *Ren bit down on the other side that Miku offered. She tried to wiggle the stick to mess with Miku a bit.*"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 11,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 6,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 3
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121482104844230949",
-          "author": "gamblergazette",
-          "searchJob": "baylor",
-          "text": "🏈 BAYLOR vs. #10 BYU — CFB PREVIEW BYU is the better team. But does it deserve to lay more than a touchdown against an offense averaging 82.4 snaps per game? 📊 FAIR MARKET • Fair Spread: BYU -4.5 | Market: BYU -7.5 • Fair Total: 50.0 | Ma"
+          "postId": "2121493469764231535",
+          "author": "hueyhuejr",
+          "searchJob": "florida",
+          "text": "Its more of cultural shift from west to east. Cali been having alot of people leaving and Florida has alot to offer especially for wealthy people. All that coincides with GTA6 launch. I can see a continued increase into Florida for movers a"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121497258877218958",
-          "author": "bossman19445775",
-          "searchJob": "miami",
-          "text": "Three Heads, One Master Plan: Is Sean Payton Saving Denver's Hydra for December? Everyone is talking about the Denver Broncos struggling to find their offensive identity. But what if they're not? What if Sean Payton has known exactly what h"
+          "postId": "2121499067230642303",
+          "author": "dan4ca31",
+          "searchJob": "california",
+          "text": "No. Both Lukumi (ritual religious sacrifice) and Masterpiece (wedding cake refusal) were decided on religious animus grounds, a relatively small part of the pyramid. They’re also entirely irrelevant to the specific issue of psychedelic reli"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121488572180054190",
-          "author": "maximusmaxmax5",
-          "searchJob": "miami",
-          "text": "@somegrlsam Reminds me when university of Miami offered me an academic scholarship of $500 lol."
+          "postId": "2121485073195163738",
+          "author": "amy_bresnen",
+          "searchJob": "california",
+          "text": "LAWYERS: DELETE THE BACK OFFICE OFFER EMAILS NOW. and california didn’t ban diddly. @GavinNewsom #txlege"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121488968524951687",
+          "author": "affirmandalign",
+          "searchJob": "wake-forest",
+          "text": "affirmations rampage of the day i wake up on a saturday and i let good things land without immediately turning them into a debt i have to repay before noon. my sister drops off the jollof she made too much of and i take the container with b"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121480074121588819",
+          "author": "nobleobamafan08",
+          "searchJob": "wake-forest",
+          "text": "Will Xbox just hire me. Fire Asha Sharma. I will lead your company in a better direction. Does this baffoon not understand the DualShock was the first dual analog controller. Xbox just copied the homework. And all other companies have follo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121474019883106574",
+          "author": "dodgerdogqz",
+          "searchJob": "wake-forest",
+          "text": "This is full throttle stupid. The NHL had 19 teams losing money and facing insolvency. It was a cap or bankrupt the league. The NFL pre-1994 was flush with cash and a revenue sharing through national TV. There isnt a pro cap fan that can ex"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121496137098269001",
-          "author": "toecrushrzzz",
-          "searchJob": "pittsburgh",
-          "text": "Gorgeous Cinematography, Wilderness,Survival, Brat Pitt and Man’s best friend….ODIN!! The bond between Brad and the dog is the heart of the film, story doesn’t offer any surprises but it’s a beautiful journey one should take since it has it"
+          "postId": "2121503335593148606",
+          "author": "gunnaermfyalls",
+          "searchJob": "memphis",
+          "text": "@LifeLongReb @DDHitsNukes @RossDellenger BOOMER SOONER someone definitely could have arranged a flight from Memphis, I hear it’s one of the best towns the south has to offer!! BOOMER SOONER"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121488424062324854",
+          "author": "crzydoglad9594",
+          "searchJob": "memphis",
+          "text": "I never cared to do a cruise. Everyone told us now that you are retired you need to do a cruise. Nope that wasn't happening. I have to see land. We always talked about possibly doing one of the Mississippi Paddlewheeler trips. I grew up alo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121487697948860661",
-          "author": "joebroncopgh",
-          "searchJob": "pittsburgh",
-          "text": "@RobyA3 I’m sorry you had to watch a shitty Pitt game…I wish our program could offer more haha"
+          "postId": "2121476413236601150",
+          "author": "barrypopik",
+          "searchJob": "memphis",
+          "text": "@NetsPressIG Get Memphis' Taylor Hendricks. He had 10 points and 12 rebounds in 19 minutes tonight. Turns 23 next week. He'll be an unrestricted free agent, so Memphis must get something for him. Offer seconds, Ellis, Chaney. @Os91413Jon @L"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121471889923330529",
-          "author": "fqpitt",
-          "searchJob": "pittsburgh",
-          "text": "Pitt offers Baby Gronk 🔥👀"
+          "postId": "2121497867789783550",
+          "author": "emonmukherjee21",
+          "searchJob": "rice",
+          "text": "🌞🙏 The Sacred Prasad of Kharna – Kheer and Roti, Symbols of Faith and Devotion 🙏🌞 🌺 Jai Chhathi Maiya! Jai Surya Dev! Radhe Radhe! 🌺 The second day of the grand Chhath festival is known as Kharna. This sacred day symbolises devotion, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121486942453788744",
-          "author": "robertfrancisuk",
-          "searchJob": "stanford",
-          "text": "@zatzi Robert Maxwell was full of PROMIS spyware was not discovered for years. Coding is like that. Olukemi Olufunto Badenoch has not Criminal hacked..this time. \"Yes I grew up in Nigeria home of 51% of email scams globally, I was offered p"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121486655223681206",
-          "author": "arnaudmercier",
-          "searchJob": "stanford",
-          "text": "<p class=\"wp-block-paragraph\"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href=\"https://t.co/cd1zw3IHNv\"><em>sign up here</em></a><em>.</em></p> <p "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121474651914420555",
-          "author": "libbeychuy",
-          "searchJob": "utah",
-          "text": "Roy, Utah updated Rambler + separate basement entrance. Offered with Seller Financing. https://t.co/R08zOh9xJx #UtahRealEstate #UtahHomes"
+          "postId": "2121480419325387022",
+          "author": "peace_makarr",
+          "searchJob": "rice",
+          "text": "@TheNationNews They have to up the offer because rice and beans can no longer do it. This is what happens when you continue to reject their offers until they do the right thing"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 244,
+      "jobs": 246,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -217,33 +253,72 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2121482104844230949",
-          "author": "gamblergazette",
-          "text": "🏈 BAYLOR vs. #10 BYU — CFB PREVIEW BYU is the better team. But does it deserve to lay more than a touchdown against an offense averaging 82.4 snaps per game? 📊 FAIR MARKET • Fair Spread: BYU -4.5 | Market: BYU -7.5 • Fair Total: 50.0 | Ma"
+          "postId": "2121494830547153206",
+          "author": "arnaudmercier",
+          "text": "<p class=\"wp-block-paragraph\"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href=\"https://t.co/cd1zw3IHNv\"><em>sign up here</em></a><em>.</em></p> <p "
         },
         {
-          "reason": "roundup_too_long",
-          "postId": "2121497258877218958",
-          "author": "bossman19445775",
-          "text": "Three Heads, One Master Plan: Is Sean Payton Saving Denver's Hydra for December? Everyone is talking about the Denver Broncos struggling to find their offensive identity. But what if they're not? What if Sean Payton has known exactly what h"
+          "reason": "no_football_context",
+          "postId": "2121448559669080515",
+          "author": "nomalreadytaken",
+          "text": "Here's my deal on this 85/15 'fix' in the machines. That's a mathmatical formula that doesn't deviate. 15% of 2,646,546 votes is a fixed number just like 15% of 847,653 votes is a fixed number. The point being is that there isn't going to b"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2121406669603426765",
+          "author": "productionsw7",
+          "text": "☀️ SUNSHINE, HOOPS & BIG DREAMS! 🏀🌴 Florida is calling, and Cali is answering! Congratulations to Cali Tagliapietra of Grafton High School, Class of 2027, on her basketball commitment to Rollins College! 💙💛 From the Black Hawks to the T"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121404007667339593",
+          "author": "corey_bender",
+          "text": "Who could become the next Florida commit? 👀 @GatorsOnline is monitoring three prospects the most... DETAILS: https://t.co/iVCROu31B2 (On3+) https://t.co/FpO1zBiTBF"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121400645886386372",
+          "author": "marcinko_nick",
+          "text": "All 15 of Florida's Class of 2027 commits have signed. An early look at the class: https://t.co/FmNkj3iPGt"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121393226372558986",
+          "author": "cartercritiques",
+          "text": "Butler 26, #Pitt 21. 7:05, H1. Notable that Butler's committed 4 turnovers but the Panthers haven't turned any of them into points. Meanwhile, Pitt football and Florida State have just taken the field and the coin toss is moments away."
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121337875354759251",
+          "author": "ksronx",
+          "text": "The No. 1 offensive tackle in America will be in Lexington to watch Kentucky vs. Florida. He's not the only talented trench player in town. A pair of in-state stars, a couple of priority commits, and an official visitor highlight Saturday's"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121485068342354395",
+          "author": "recruitgeorgia",
+          "text": "@coachmacarney @Edelman11 @KentStFootball that's commitment"
         }
       ],
       "stats": {
-        "candidates": 2,
+        "candidates": 17,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 17,
         "reasons": {
-          "roundup_too_long": 2
+          "roundup_too_long": 1,
+          "no_football_context": 4,
+          "other_sport": 2,
+          "no_commit_event": 10
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 11,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-14T06:58:29.716Z"
+    "status rebuilt locally from current store on 2026-11-14T07:28:57.060Z"
   ]
 }
