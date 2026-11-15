@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T21:29:32.310Z",
+  "generatedAt": "2026-11-15T21:54:32.766Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-15T21:29:31.659Z",
+    "at": "2026-11-15T21:54:31.820Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
-    "fullSweepCycles": 9
+    "sweptThisRun": 23,
+    "requests": 23,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,15 +30,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "houston",
+      "hours": 2.2
+    },
+    {
+      "id": "texas",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0325627777777777,
-    "p95Hours": 1.7837472222222222,
-    "worstHours": 2.0305666666666666
+    "medianHours": 0.9492422222222222,
+    "p95Hours": 1.9515458333333333,
+    "worstHours": 2.2005405555555555
   },
   "decisionCoverage": {
-    "total": 36,
-    "decided": 36,
+    "total": 64,
+    "decided": 64,
     "complete": true
   },
   "pending": {
@@ -49,309 +58,400 @@
   },
   "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4754,
+    "completeOffers": 4756,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-15T21:29:31.635Z",
-      "got": 68,
-      "new": 36,
-      "lag": 0.08
+      "at": "2026-11-15T21:54:31.815Z",
+      "got": 90,
+      "new": 64,
+      "lag": 0.04
     },
     "search:commit": {
-      "at": "2026-11-15T21:29:31.659Z",
-      "got": 29,
-      "new": 7,
-      "lag": 1.26
+      "at": "2026-11-15T21:54:31.819Z",
+      "got": 15,
+      "new": 3,
+      "lag": 2.41
     }
   },
   "audit": {
-    "at": "2026-11-15T21:27:51.717Z",
+    "at": "2026-11-15T21:52:54.848Z",
     "mode": "live",
     "collection": {
-      "returned": 68,
-      "kept": 36,
-      "duplicate": 32,
+      "returned": 90,
+      "kept": 64,
+      "duplicate": 26,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 22,
-      "rejected": 14,
+      "accepted": 35,
+      "rejected": 29,
       "reasons": {
-        "no_offer_term": 5,
-        "hard_negative": 7,
-        "no_fbs_school": 2
+        "non_fbs_offer_target": 4,
+        "no_fbs_school": 8,
+        "no_offer_term": 7,
+        "hard_negative": 10
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2122077458677878812",
-          "author": "ownathome",
-          "searchJob": "california",
-          "text": "https://t.co/VSZMyePJBH"
+          "reason": "non_fbs_offer_target",
+          "postId": "2122081082535457262",
+          "author": "ameirgreen",
+          "searchJob": "tennessee",
+          "text": "After a great game day visit I am BLESSED too receive a offer from Tennessee State University 🤍💙@CoachDieudonne @reggiebarlow @coachTWoff @GACFBRecruits @Velocity_FB @Velocity_LS @CoachGreenway @najehwilk @NEGARecruits @CoachMikeLinley ht"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2122077039624855883",
-          "author": "ownathome",
-          "searchJob": "california",
-          "text": "Who are the best Realtors for buyers and sellers in Zephyr Cove, Nevada? What to check on VHR permits, TRPA rules and taxes, and why Zephyr Cove native Matthew Schorr is a top choice. #LakeTahoe https://t.co/5Wrb9zH8sj"
+          "reason": "non_fbs_offer_target",
+          "postId": "2122074661437808773",
+          "author": "agedits32",
+          "searchJob": "tennessee",
+          "text": "JUCO RB @Donte_Perry1 picks up an offer from Clarke University! 🏈 6’0” • 200 lbs | Tennessee Valley 📚 3.0 GPA Congratulations to Donte Perry on another opportunity to keep playing at the next level!"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2122073559254110282",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+          "reason": "non_fbs_offer_target",
+          "postId": "2121302581473620218",
+          "author": "donte_perry1",
+          "searchJob": "tennessee",
+          "text": "Blessed to receive and offer from Clarke University ‼️‼️🙏🙏AGTG @CoachZuck @BrandonMueller_ @CoachHartley_CU https://t.co/7Ff8ec2doC"
         },
         {
-          "reason": "hard_negative",
-          "postId": "2122073448830685653",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122073390068441237",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122073052984803818",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122072973763100732",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122072905819234498",
-          "author": "randyferrell",
-          "searchJob": "california",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+          "reason": "non_fbs_offer_target",
+          "postId": "2122067572325814303",
+          "author": "ililbuddy",
+          "searchJob": "tennessee",
+          "text": "Blessed to receive a offer from University of Tennessee at Martin!!💙🧡@CoachFrase @donald9_donald @CoachDocGooden @DDevine1020 @CoachBuddy34 @JPRockMO @AllenTrieu @EDGYTIM @PrepRedzoneIL https://t.co/rDVbatqLFM"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122072713657471365",
-          "author": "wantedbytheun",
-          "searchJob": "california",
-          "text": "@AlexLARams @RailroadRaccoon Coward. You can’t defend your position. You can only allude to a lost past and hand-wave cooperative railroads into existence. You recognize that PSR is bad but you offer no solution, only vague notions that RR "
+          "postId": "2122052754956833224",
+          "author": "901jcovington",
+          "searchJob": "tennessee",
+          "text": "🔴 BURSTING THE DEMOCRATS’ BUBBLE! With nearly every political wind blowing against the GOP, Tennessee stayed RED. A testament to Republican strength and durability. My latest column in The Daily Memphian: Lessons from the Recent Election. "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122070738165551544",
-          "author": "jecastillof",
-          "searchJob": "california",
-          "text": "https://t.co/4TJpfo0IcV"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122068930726387721",
-          "author": "outsidethebbox",
-          "searchJob": "california",
-          "text": "https://t.co/zqnBBw7t44"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121778173310304688",
-          "author": "luv2laugh12",
-          "searchJob": "fresno-state",
-          "text": "Can anyone save Blanca? She’s only 1 yr old! Blanca is in danger at Stanislaus Animal Services Agency in Modesto, CA. They plan to ki££ her on Wednesday 11/18 at 6:30 a.m.😳 Can anyone save her? ID: #A599333 She is 57 lbs., already spayed. "
+          "postId": "2122033771503308959",
+          "author": "ericldaugh",
+          "searchJob": "texas",
+          "text": "🚨 IT'S OFFICIAL: Elon Musk has been hereby invited to RELOCATE Tesla HQ to Florida, or to surge investment in FL after Democrats win Texas \"If he wants to get away from that, come to Florida!\" Gov. Ron DeSantis has even suggested a GIGAFAC"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122069292829290937",
-          "author": "ricegreg64580",
-          "searchJob": "rice",
-          "text": "@SenWarren Yes, Sen. Warren. Please start by making AI CEOs comply with long standing Fed. Commerce law - requiring stated warranties of products/services. AI is a fraud as it offers ZERO measure of its failures, or liability for HIGH % of "
+          "postId": "2122080088254489087",
+          "author": "thetexasgroyper",
+          "searchJob": "texas",
+          "text": "DALLAS RESIDENTS READ THIS: Under Gov. Abbott, CAIR (Council on American Islamic Relations) was designated as a terrorist organization. Gina Hinojosa has expressed interest in overturning this designation. CAIR is known for helping and aidi"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122072987193245946",
+          "author": "marytilestexas",
+          "searchJob": "texas",
+          "text": "@ryancohen I can offer tile"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122072113834332332",
+          "author": "okoro_dior",
+          "searchJob": "texas",
+          "text": "Immigration Officer: “Why do you want to travel to the United States?” Applicant: “My elder brother has invited me to attend his wedding. He wants the whole family to be there.” Immigration Officer: “Your brother lives in America?” Applican"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122070538260447345",
+          "author": "prep2play",
+          "searchJob": "texas",
+          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 DB @EdwardESmith01 | Pearland HS 📏5’10” 170 🎓3.4 GPA ⏱4.41 40 | 4.16 Shuttle 🧰32” Vertical | 10’4” Broad | 73” Wingspan 💪225 Bench | 405 Squat Profile &amp; 🎥: https://t.co/tNhhPkbjnS ✅OFFERS: 2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122066486751617158",
+          "author": "edwardesmith01",
+          "searchJob": "texas",
+          "text": "Great Season for the Oilers. My season contributions. One goal, One mindset! @Hudl https://t.co/8XXaEFVSji #hudl @Prep2Play @SchwartzAthSpot @scorability @OilerRecruiting @JasonHinkelman @CoachGotte @PrepRedzone @1CoachKelley_ @PennFBrecrui"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122064489952821654",
+          "author": "fityeth",
+          "searchJob": "texas",
+          "text": "@UAPWatchers South Texas sky had a visitor at 6:30 and nobody even offered it a taco."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122063874916503611",
+          "author": "cacristi",
+          "searchJob": "texas",
+          "text": "What Brazil's radar network integration taught me about Friday's nationwide #FAA #Groundstop Excellence in Management and system engineering, teamwork, and why modernization can't wait. @FAANews @USDOT #AirTrafficControl #AviationSafety #SI"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121923667278123388",
+          "author": "killer8be",
+          "searchJob": "texas",
+          "text": "Taylor Sheridan created Yellowstone. when he asked the price of the most famous ranch in Texas, they told him $395 million. the final price was later reported at about $330 million. his answer: \"well, I'm about 355 short, man.\" in the clip "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122053293564145927",
+          "author": "warosintfella",
+          "searchJob": "texas",
+          "text": "Space and Military Space Update 6: SpaceX has achieved a significant engineering milestone by catching its Starship upper stage at the launch tower in Starbase, Texas. The black and silver spacecraft emerged from the cloud deck near the end"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122069110121230748",
-          "author": "hotlesson",
-          "searchJob": "oregon",
-          "text": "Why Are Cats So Irresistibly Cute? They ignore our commands, steal our beds, knock expensive things off tables, and sometimes stare at us as though we are the least intelligent creatures in the house. Yet millions of people adore them. From"
+          "postId": "2122085051953238018",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122084935846486469",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122084831735742713",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122084747987783933",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122084565581807872",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122084319493575142",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122084086554800422",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122084023568908409",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122083954182242662",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 21,
+      "accepted": 2,
+      "rejected": 33,
       "reasons": {
-        "bare_mention_requires_llm": 10,
-        "written_name_not_school": 1,
-        "reporter_missing_player_name": 4,
-        "reporter_missing_class_year": 2,
-        "unresolved_offer_target": 2,
-        "multiple_resolved_schools": 2
+        "bare_mention_requires_llm": 14,
+        "unresolved_offer_target": 1,
+        "multiple_resolved_schools": 3,
+        "school_not_resolved_confidently": 14,
+        "player_missing_class_year": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122072085472383287",
-          "author": "nexusflowone",
-          "searchJob": "california",
-          "text": "Turn scattered business details into a more organized online experience. The 2026 Year-End Special is $1,999 and includes a professional website of up to 10 pages with local SEO setup. Visit the Nexus Flow One website to see the offer and g"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122065980713021777",
-          "author": "arnaudmercier",
-          "searchJob": "california",
-          "text": "<p class=\"wp-block-paragraph\">As climate change makes weather more unpredictable and extreme, we need more reliable forecasts to help us prepare and prevent disasters. Today, meteorologists use massive computer simulations to make their for"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122055883479814144",
-          "author": "pinstripepress5",
-          "searchJob": "duke",
-          "text": "@Sports_Kings_ Duke has not formally offered him. This man is not a source. The 247 article was a mistake. The guy who accidentally posted it literally explained it all. Come on man with these fake reports acting like you know smth."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122074411591201106",
-          "author": "kellyg581976179",
-          "searchJob": "fresno-state",
-          "text": "🚨Extremely Urgent in Modesto, CA-Adopter or Foster Needed Now Due to be Ki££ed on Weds 11/18 at 6:30am at , Stanislaus Animal Services Agency, in Modesto, CA‼️ This is precious, 1 year old , spayed Brianna . She weighs 57lbs. Her prior own"
-        },
-        {
-          "reason": "written_name_not_school",
-          "postId": "2122064051736019377",
-          "author": "bramerlydia",
-          "searchJob": "memphis",
-          "text": "I am grateful to receive an offer from U of M Dearborn! I had a great day exploring campus and learning about the school and softball program. @FinesseNoMI @CollegeBDJocks https://t.co/ZYBdDMmaPx"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122052994644824357",
-          "author": "turnerblckchain",
-          "searchJob": "memphis",
-          "text": "@smcroasters well, Eddie, you chickened out on my Memphis offer, so I’m heading to you see you soon"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122072005495386525",
-          "author": "jhaymie69",
-          "searchJob": "rice",
-          "text": "🚨 HALF-TIME: ENGLAND 1–0 SPAIN! 🏴 What a first half from the Three Lions! England have shown impressive intensity, organisation and attacking intent, refusing to allow Spain to dictate the entire tempo of the game. Jude Bellingham and Dec"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122071974784491709",
-          "author": "jhaymie69",
-          "searchJob": "rice",
-          "text": "🚨 HALF-TIME: ENGLAND 1–0 SPAIN! 🏴 What a first half from the Three Lions! England have shown impressive intensity, organisation and attacking intent, refusing to allow Spain to dictate the entire tempo of the game. Jude Bellingham and Dec"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2122071939195736439",
-          "author": "jhaymie69",
-          "searchJob": "rice",
-          "text": "🚨 HALF-TIME: ENGLAND 1–0 SPAIN! 🏴 What a first half from the Three Lions! England have shown impressive intensity, organisation and attacking intent, refusing to allow Spain to dictate the entire tempo of the game. Jude Bellingham and Dec"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122071804659597440",
-          "author": "jhaymie69",
-          "searchJob": "rice",
-          "text": "🚨 HALF-TIME: ENGLAND 1–0 SPAIN! 🏴 What a first half from the Three Lions! England have shown impressive intensity, organisation and attacking intent, refusing to allow Spain to dictate the entire tempo of the game. Jude Bellingham and Dec"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2122071224440283289",
-          "author": "jonathanslh7",
-          "searchJob": "rice",
-          "text": "🎙️🇸🇪 ZLATAN IBRAHIMOVIĆ'S HALF-TIME VERDICT ON SPAIN VS ENGLAND! \"Let me tell you something: England came to Madrid with a plan, and in this first half they have shown that they are not afraid of Spain. Harry Kane has been leading the at"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122067924185649488",
-          "author": "dangerousgroun2",
-          "searchJob": "rice",
-          "text": "Declan Rice should consider himself lucky because he was born with energy and doesn't get tired because he has nothing else to offer apart from running around and acting busy on the pitch, he can fool the masses but not me....I know he's no"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122064741157732613",
-          "author": "seekingthelig17",
-          "searchJob": "rice",
-          "text": "Rice I have an offer for you https://t.co/JqvS8rcsZW"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122054064468828474",
-          "author": "_matchdayxi",
-          "searchJob": "rice",
-          "text": "Prediction: Spain 2-1 England Spain control games through their midfield trio. Zubimendi and Ruiz provide the base, Merino links play, and Yamal offers the main creative outlet on the right. Oyarzabal’s movement and finishing give them a co"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122078439339626709",
-          "author": "ace_amina",
-          "searchJob": "san-diego-state",
-          "text": "Blessed to be offered by @AztecFB @TheHC_CoachLew @SeanDillonSDSU @CJPollard1 @raisingchamps_ #AG2G #GoAztecs #Platform https://t.co/Wp8pimgwEg"
+          "postId": "2122058622079582421",
+          "author": "main_babiessc",
+          "searchJob": "south-carolina",
+          "text": "NAS and NOWS can occur when babies experience opioid withdrawal after birth. Specialized care can offer families support during this process. 🔗 Learn how MAiN can help through the link in our bio. #MAiNBabies #PregnancyHealth #OpioidRecove"
         },
         {
           "reason": "unresolved_offer_target",
-          "postId": "2122077178028249267",
+          "postId": "2122084728274604131",
           "author": "profilefblive",
-          "searchJob": "san-diego-state",
-          "text": "🚨 First FBS Offer 🚨 2028 OT Enoch Adegoke from Arizona College Prep HS, AZ has received his first FBS offer from San Diego State. @EnochA72 Rated 2.6⭐ (#2588 NATL, #185 OT, #31 AZ). https://t.co/NGH1CChEK6"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2122067111732465836",
-          "author": "profilefblive",
-          "searchJob": "san-diego-state",
-          "text": "🚨 First D1 Offer 🚨 2028 OT Bertram Latta from Dallas HS, OR has received his first D1 offer from San Diego State. @bertramlatta https://t.co/xP8oOytIrt"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122072500272074864",
-          "author": "oregonducks_si",
-          "searchJob": "oregon",
-          "text": "Oregon's Dylan Raiola Offers Valuable Insight Into Conversations With Dan Lanning https://t.co/NBI3luhmDF"
+          "searchJob": "texas",
+          "text": "🚨 First P4 Offer 🚨 2028 SAF Gavin George from Red Oak HS, TX has received his first P4 offer from Texas A&amp;M. @gavingeorge2028 Rated 3.2⭐ (#1298 NATL, #110 SAF, #190 TX). https://t.co/8K3dulCY7L"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122067222306959696",
-          "author": "clevelands34876",
-          "searchJob": "oregon",
-          "text": "@AzBuckGuy Sadly It doesn’t matter whatever we offer the kid Oregon or Texas are going to come behind with double"
+          "postId": "2122080201416868041",
+          "author": "thedumshow",
+          "searchJob": "texas",
+          "text": "Texas turned blue and Florida Republicans invited Tesla east. That is state competition. Companies do not owe government permanent loyalty. If a governor wants the jobs, offer lower costs, reliable energy, and room to build. https://t.co/8w"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122060524779090376",
-          "author": "raemaryc74238",
-          "searchJob": "oregon",
-          "text": "Some of the saddest chapters of my life unfolded here in the lower 48. And sometimes it takes a lifetime to look back on certain experiences, come to terms with them, find peace, and finally lay them to rest where they belong. When I began "
+          "postId": "2122078299149185161",
+          "author": "bigbehargiacomo",
+          "searchJob": "texas",
+          "text": "Take a few moments to read this one, you could be glad you did! The 'Israel controls America' myth has a long history - and an antisemitic foundation Only with the Jewish state does the far smaller and weaker partner become the “master” and"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122072154934235554",
-          "author": "profilefblive",
-          "searchJob": "penn-state",
-          "text": "Penn State extended four new scholarship offers to HS prospects during its game yesterday. @PennStateFball 3.4⭐ 2028 WR PJ Williams @primetime_pj1x 3.4⭐ 2030 RB Ned Reid IV @kingnedreidiv 3.3⭐ 2028 SAF Ranier Caswell Jr. @Ranier_Caswell 3.2"
+          "postId": "2122076471912984823",
+          "author": "scrizzle32",
+          "searchJob": "texas",
+          "text": "@OoltewahBammer Quite literally a 0% chance Texas offers him anything"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122070492618297785",
+          "author": "antochi90",
+          "searchJob": "texas",
+          "text": "Is there any Crypto Casino that actually offers Texas Hold’em and Omaha Poker with decent tournaments and guaranteed prizepools?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122068836463640862",
+          "author": "holymolysakura",
+          "searchJob": "texas",
+          "text": "United States, Texas. Austin, Zilker Botanical Garden. A little less scrolling. A little more green. Stone paths, quiet ponds, and a garden worth slowing down for. This 28-acre garden sits within Zilker Metropolitan Park. Its themed spaces "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122057142848864743",
+          "author": "empty_america",
+          "searchJob": "texas",
+          "text": "Large Texas parcels offer the realest \"ownership\" that is available in the USA. They can be as large as eastern counties, and you can stock them with any game you want, including Rhinoceros. It's the final purchase for hyper rich, there is "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122056449136476183",
+          "author": "truth_seeker_04",
+          "searchJob": "texas",
+          "text": "@BobbyMilone29 Seager isn’t coming to the Yankees. Texas will get better offers elsewhere. Cashman doesn’t do trades unless he thinks he’s fleecing the other team."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122054209717645576",
+          "author": "tfloss32",
+          "searchJob": "texas",
+          "text": "Texas A&amp;M comes through with an offer for '28 S Gavin George (@gavingeorge2028) from Red Oak. #GigEm👍 https://t.co/PG4SFElemz https://t.co/GfkJp6fyio 𝕏 @_CoachROB__ | @rohawksfootball | @roisdathletics"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122081056819929256",
+          "author": "kenmacpherson",
+          "searchJob": "houston",
+          "text": "@browns playoff baby Following their 27–24 win over the Houston Texans today, the Cleveland Browns sit at 6–4, holding the No. 7 seed (the final AFC Wild Card spot) entering their Week 11 bye. With seven games remaining, reaching 10–7 (a 4–"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122082528488014178",
+          "author": "manhour_buck",
+          "searchJob": "kansas",
+          "text": "Chiefs 35, Falcons 13. Kansas City made this one look comfortable. Did Atlanta offer enough resistance to make this a real test? #Chiefs #ChiefsKingdom #Falcons #RiseUp #KCvsATL via Facebook https://t.co/4GAro6gfHV https://t.co/Bci15ahSlu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122063430551285817",
+          "author": "chiefspiswin_",
+          "searchJob": "kansas",
+          "text": "an undersized center who only offers rim protection wow who would’ve thought almost like every Kansas fan tried to tell you guys"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122082240398000372",
+          "author": "prolongwealth",
+          "searchJob": "miami",
+          "text": "TRADEIFY FUTURES — Black Friday Promo Black Friday deals without the Black Friday wait. 🤑 👉 45% OFF $25K accounts (Excluding Miami Plan) 👉 30% OFF all accounts 💎 2X Gem Rewards 📅 Offer ends NOV 30th 🔗 Link: https://t.co/ee07ILGy5p 🏷️"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122079144053964991",
+          "author": "avi305407",
+          "searchJob": "miami",
+          "text": "@TheDonMincey @ToombsFootball1 @CoachBMart @247recruiting @RecruitGeorgia @CoachGreenway @bsa28_ Miami need to offer this Kid asap https://t.co/rgBJxl8Zb6"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122071704306393400",
+          "author": "pastpassport",
+          "searchJob": "miami",
+          "text": "It was. The problem was we had had two canceled flights, so we had had to stay at a bad hotel on Long Island. The next morning, our flight was canceled, the one that they had rescheduled, and then they offered us a flight that routed throug"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122071307475107842",
+          "author": "newsnew97351204",
+          "searchJob": "miami",
+          "text": "Part 3 In January, hundreds of women had their names mistakenly published by the DOJ in the Epstein files, violating their right to privacy. One of those women was Roza Gilles from Uzbekistan, who for years was referred to in court files as"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122069013752918093",
+          "author": "chirodoc33",
+          "searchJob": "miami",
+          "text": "Hey @Uber do you offer rides from Indianapolis to Miami? Zane Gonzalez will be calling you soon. No room on the plane for losers"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122065027083665771",
+          "author": "sleepermlbtwins",
+          "searchJob": "miami",
+          "text": "Should the #MNTwins look to target Otto Lopez or Xavier Edwards from the Marlins? Miami is reportedly “fielding offers for both” per @flasportsbuzz Lopez is 28-years-old and batted .305 with a .786 OPS accumulating a 6.1 bWAR last season Ed"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122064103921594822",
+          "author": "bsonnone",
+          "searchJob": "miami",
+          "text": "RB Don Mincey (@TheDonMincey) could have 40+ rushing TDs in a week from now. He could also have his first P4 offer. The ascending senior has set an official visit to Miami as his recruitment keeps building momentum. More here ⬇️ https://t.c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122060980645499122",
+          "author": "mikeclovell",
+          "searchJob": "miami",
+          "text": "@TheInfowiz Miami for lifestyle, NYC and SF for career, I don’t know what LA offers anymore"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122057078357499967",
+          "author": "adampnathan",
+          "searchJob": "miami",
+          "text": "American ConciergeKey To get in: American won't say. Members who lost it were offered a way back: 750,000 Loyalty Points in a year, almost 4x Executive Platinum, or a $10,000 payment. Most estimates put it at $40K to $50K+ a year on America"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122055455358824824",
+          "author": "finfan3493",
+          "searchJob": "miami",
+          "text": "This Jaylen Wright experiment needs to end. If he does have anything worthwhile to offer in the NFL, it's not going to show up in Miami."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122069900621672720",
+          "author": "mikethehump_",
+          "searchJob": "nc-state",
+          "text": "This might be the way forward. Schools like NC State can’t offer what the top 1% schools have in facilities and NIL. But bringing back a campus legend might attract wealthy donors who watched Rivers at NC State as a college kid, blindly bel"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 169,
+      "jobs": 165,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -361,72 +461,71 @@
       "samples": [
         {
           "reason": "other_sport",
-          "postId": "2122073559254110282",
+          "postId": "2122085051953238018",
           "author": "randyferrell",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "other_sport",
-          "postId": "2122073448830685653",
+          "postId": "2122084935846486469",
           "author": "randyferrell",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "other_sport",
-          "postId": "2122073390068441237",
+          "postId": "2122084831735742713",
           "author": "randyferrell",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "other_sport",
-          "postId": "2122073052984803818",
+          "postId": "2122084747987783933",
           "author": "randyferrell",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "other_sport",
-          "postId": "2122072973763100732",
+          "postId": "2122084565581807872",
           "author": "randyferrell",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "other_sport",
-          "postId": "2122072905819234498",
+          "postId": "2122084319493575142",
           "author": "randyferrell",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "other_sport",
-          "postId": "2122069110121230748",
-          "author": "hotlesson",
-          "text": "Why Are Cats So Irresistibly Cute? They ignore our commands, steal our beds, knock expensive things off tables, and sometimes stare at us as though we are the least intelligent creatures in the house. Yet millions of people adore them. From"
+          "postId": "2122084086554800422",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_football_context",
-          "postId": "2122041120188256579",
-          "author": "pokesfandom",
-          "text": "New predictions for Oklahoma State; Cowboys positioned for flips, lead for top 2027, 2028 targets #okstate #oklahomastate #gopokes https://t.co/qME1iGJf0g"
+          "reason": "other_sport",
+          "postId": "2122084023568908409",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         }
       ],
       "stats": {
-        "candidates": 14,
+        "candidates": 13,
         "accepted": 0,
-        "rejected": 14,
+        "rejected": 13,
         "reasons": {
-          "other_sport": 7,
-          "no_football_context": 2,
-          "no_commit_event": 4,
-          "roundup_too_long": 1
+          "other_sport": 9,
+          "roundup_too_long": 2,
+          "no_commit_event": 2
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 21,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 33,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-15T21:29:32.311Z"
+    "status rebuilt locally from current store on 2026-11-15T21:54:32.767Z"
   ]
 }
