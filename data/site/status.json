@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T08:14:07.962Z",
+  "generatedAt": "2026-11-15T08:28:47.384Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-15T08:14:07.128Z",
+    "at": "2026-11-15T08:28:46.698Z",
     "jobsTotal": 162,
     "sweptThisRun": 19,
     "requests": 19,
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7807452777777778,
-    "p95Hours": 1.7769508333333333,
-    "worstHours": 1.7769508333333333
+    "medianHours": 0.7730702777777778,
+    "p95Hours": 1.7718427777777779,
+    "worstHours": 1.7718427777777779
   },
   "decisionCoverage": {
-    "total": 6,
-    "decided": 6,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -47,7 +47,7 @@
   "profileResolution": {
     "cached": 109
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 4728,
     "incompleteOffers": 0
@@ -55,94 +55,116 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-15T08:14:07.096Z",
-      "got": 14,
-      "new": 6,
-      "lag": 0.4
+      "at": "2026-11-15T08:28:46.685Z",
+      "got": 26,
+      "new": 9,
+      "lag": 0.15
     },
     "search:commit": {
-      "at": "2026-11-15T08:14:07.128Z",
-      "got": 46,
-      "new": 33,
-      "lag": 1.89
+      "at": "2026-11-15T08:28:46.698Z",
+      "got": 37,
+      "new": 16,
+      "lag": 0.78
     }
   },
   "audit": {
-    "at": "2026-11-15T08:12:28.573Z",
+    "at": "2026-11-15T08:27:10.411Z",
     "mode": "live",
     "collection": {
-      "returned": 14,
-      "kept": 6,
-      "duplicate": 8,
+      "returned": 26,
+      "kept": 9,
+      "duplicate": 17,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 3,
-      "rejected": 3,
+      "accepted": 7,
+      "rejected": 2,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "no_offer_term": 1,
+        "no_fbs_school": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2121873395776471327",
-          "author": "rippn429",
-          "searchJob": "troy",
-          "text": "Voters put us in this situation because Dem leadership has done nothing for them, and they looked to Republikkkans who (falsely) promised to do for them what the do nothing Dems wouldn't. Now they realized they were lied to and are now look"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2121849719856968123",
-          "author": "kassoftroy",
-          "searchJob": "troy",
-          "text": "@Tryst___ @SpikyJuststone @TomakaTom2 @liamRockstat @CookersRFun @bj2079 @Damnyouparis I don't see why such an offer, at good odds too, would be refused."
-        },
-        {
           "reason": "no_offer_term",
-          "postId": "2121473316951396766",
-          "author": "hell_line0",
-          "searchJob": "miami",
-          "text": "Anyone checked the Project 2025/26 playbook lately? “Page 632, to separate the Air Traffic Organization from the FAA. And page 633 is privatizing the communications system.” they have the fkn playbook."
+          "postId": "2121877141167947867",
+          "author": "conflictchron",
+          "searchJob": "north-carolina",
+          "text": "In July 1863, a chance meeting at a Pennsylvania crossroads town became the largest battle in American history — and the moment the Confederacy’s best army stopped being invincible. Conflict Chronicles | Military History https://t.co/Slraqm"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121879979382252020",
+          "author": "realturniplord",
+          "searchJob": "pittsburgh",
+          "text": "Well that's annoying. The one thing I wanted from @Peeko_UK - which led me to do a full shop with them - apparently ran out and got cancelled I know the special offers sell out fast, but if you don't have stock, don't allow me to buy it. Th"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 3,
+      "rejected": 7,
       "reasons": {
-        "school_not_resolved_confidently": 3
+        "multiple_resolved_schools": 3,
+        "bare_mention_requires_llm": 4
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121870090429997114",
-          "author": "scottwrightok",
-          "searchJob": "oklahoma",
-          "text": "An OSU legacy, Stillwater WR Cyrus Johnson picks up a hometown offer. https://t.co/g21fJMBcwn"
+          "reason": "multiple_resolved_schools",
+          "postId": "2121876728461328889",
+          "author": "conflictchron",
+          "searchJob": "north-carolina",
+          "text": "At seven in the morning on November 15, 1864, William Tecumseh Sherman paused on a hill just outside Atlanta and looked back at his city. Behind him lay \"Atlanta, smouldering and in ruins, the black smoke rising high in air, and hanging lik"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121861268554613105",
-          "author": "wyattbrinkman",
-          "searchJob": "miami",
-          "text": "@coker_UDub @coachvelasco11 this is the market inefficiency, in 2026 what would miami offer be for mike? would we match? this is nfl free agency 2.0"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121863725372047640",
+          "author": "ogstarwars",
+          "searchJob": "liberty",
+          "text": "@LPNational So does Libertarianism mean standing on principals of individual liberty and personal sovereignty from government until one of the big parties offer you cash to run ads against their opponents? Sellouts."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121857355704926292",
-          "author": "aviansays",
-          "searchJob": "miami",
-          "text": "So much to keep track of. Schumer, Jeffries did not seem to have urgent messages for the people about the admins actions. I seem to remember that it was independent media. I live in Miami. They offered no support to Angie Nixon. elect fight"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121859986200633492",
+          "author": "bible__sword",
+          "searchJob": "liberty",
+          "text": "@WFCPreacher 1 Cor 10:28 But if someone says to you, “This has been offered in sacrifice,” then do not eat it, for the sake of the one who informed you, and for the sake of conscience—I do not mean your conscience, but his. For why should m"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121870718077989350",
+          "author": "maybeme8338o01",
+          "searchJob": "oregon",
+          "text": "I don't think the microdose session would work for me. ✌️😂 I need much much more therapy than a normal person. how much does it cost to get a session of psychedelic mushrooms in Oregon A legal, supervised psilocybin session in Oregon typic"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121880896840090073",
+          "author": "blockheadai",
+          "searchJob": "tennessee",
+          "text": "🏈 Breece Hall (RB, NYJ) — Week 10 Breece Hall faces a Buffalo defense that allowed 23.9 fantasy points per game to opposing running backs last year, yielding a generous index of 1.089. Buffalo struggled to contain ground attacks, and with "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121866586202001785",
+          "author": "heathersarate",
+          "searchJob": "texas",
+          "text": "@JoeTalkShow Im a moderate republican and all texas offered ne was maga lunatics i voted straight blue in protest. Maybe 2028 they will give us good candidates who are not are not corrupt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121860808359444737",
+          "author": "blindbonesmusic",
+          "searchJob": "texas",
+          "text": "LoneStar. Once her eyes were as bright as Dallas, her smile as wide as Texas. Spoken word over my own music about what the offers took. 🌵👑 https://t.co/hFA4GyynOw #Poem #インディーズ"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 177,
+      "jobs": 175,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -151,75 +173,74 @@
     "commits": {
       "samples": [
         {
-          "reason": "no_football_context",
-          "postId": "2121850889770250727",
-          "author": "wokeathiest30",
-          "text": "@AesPolitics1 Guarantee Florida flips blue in 2028 as well"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121832973628522720",
-          "author": "arandomprogress",
-          "text": "@BluCatDemocrat @micah_erfan And if Schumer wins, kiss our 2028 chances goodbye. Mark my words. Also ironic that he funded Scott but not Angie who NEARLY flipped Florida you aren't really for that conversation."
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2121803000268120272",
-          "author": "bleedbnetwork",
-          "text": "@JeffSimmonsBBN @CoachJonSumrall @GatorsFB After the game and the crowd was not getting flipped off and it was with our fans"
-        },
-        {
           "reason": "roundup_too_long",
-          "postId": "2121799861737529540",
-          "author": "csruss",
-          "text": "Florida 21, Kentucky 14. That one hurts. Cold night at Kroger Field, No. 11 Kentucky at home against a 5-4 team, playoff hopes on the line. We led 7-2 at halftime and 14-10 in the third. Then we didn't score again. The Jayden Woods strip-sa"
+          "postId": "2121701683784724846",
+          "author": "kenzielfc",
+          "text": "🚨 Marco Rossi speaks on Dominik Szoboszlai’s outstanding performance following Hungary’s 2-0 victory over Georgia: 🎙️ Interviewer: “Marco, Dominik was exceptional tonight. An assist, eight chances created and another Man of the Match awar"
         },
         {
           "reason": "no_commit_event",
-          "postId": "2121798375486214424",
-          "author": "ttjharden8",
-          "text": "Florida is back in the winner's column with a 21-14 win over Kentucky 🐊 Following the win, several commits and targets gave their thoughts on the win. \"Aaron Philo is him.\" \"Electric road win.\" \"Fires me up to be back there.\" ➡️: https://t"
+          "postId": "2121731216756129828",
+          "author": "rankrly",
+          "text": "@IndianaFootball that late tie flipped this whole game"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121796204354847016",
+          "author": "cyclonesfandom",
+          "text": "Brazilian Freestyler Laura Comini Romero Hands Verbal Commitment to Iowa State for Fall 2027 #iowastate #cyclones #iowastatecyclones https://t.co/1b1323Ln2g"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121794333930389895",
+          "author": "livewiresports1",
+          "text": "5-STAR LEGACY RECRUIT Nation Williams COMMITS to UCLA Over Iowa, Duke, UNC &amp; Notre Dame 🔥 https://t.co/rNirRiqP2u https://t.co/w8bkby2ckL"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121792715541082159",
+          "author": "swimswamnews",
+          "text": "Brazilian Freestyler Laura Comini Romero Hands Verbal Commitment to Iowa State for Fall 2027 https://t.co/tT9zJu6vEd"
         },
         {
           "reason": "no_commit_event",
-          "postId": "2121785121388843215",
-          "author": "tejasgator",
-          "text": "@GatorsFB He’s disrespecting his team. Commits dumb penalties and laughs about it. Unacceptable!"
-        },
-        {
-          "reason": "juco_or_transfer",
-          "postId": "2121769639063720210",
-          "author": "geomilian",
-          "text": "🚨BREAKING🚨: College of San Mateo (Ca.) JUCO OT Dorian Williams commits to #Miami over Florida State and Vanderbilt! The 6-foot-8 290-pound offensive lineman becomes commitment No. 23 for the Hurricanes. https://t.co/tdf0AFr92V https://t.c"
+          "postId": "2121839766396129461",
+          "author": "keninthemaking",
+          "text": "@SherrodHarris @mikerodak I see, if Mizzou beats Kentucky, it flips. Still a lot of football to be played."
         },
         {
           "reason": "no_commit_event",
-          "postId": "2121765881327800335",
-          "author": "insidethegators",
-          "text": "Florida has flipped the entire offensive line in the span of a half of football. I don't know if I have ever seen that before unless there were mass substitutions due to the score."
+          "postId": "2121760244523266479",
+          "author": "camthemanfrye",
+          "text": "@tonyagolini We just aren’t as committed to football as programs like Kentucky"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121871246636056871",
+          "author": "potatokmish",
+          "text": "What a CRAZY day of football coin flips 😅 Duke +13.5💰 UNC +3.5 💰 LSU -4 🗑️ Arizona +2.5 💰"
         }
       ],
       "stats": {
-        "candidates": 33,
-        "accepted": 6,
-        "rejected": 27,
+        "candidates": 16,
+        "accepted": 0,
+        "rejected": 16,
         "reasons": {
-          "no_football_context": 8,
-          "no_commit_event": 12,
-          "roundup_too_long": 4,
-          "juco_or_transfer": 1,
-          "reporter_missing_player_name": 1,
-          "list_post": 1
+          "roundup_too_long": 1,
+          "no_commit_event": 8,
+          "no_football_context": 4,
+          "reporter_missing_player_name": 2,
+          "reporter_missing_class_year": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 3,
+      "rejectedCandidates": 7,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-15T08:14:07.963Z"
+    "status rebuilt locally from current store on 2026-11-15T08:28:47.386Z"
   ]
 }
