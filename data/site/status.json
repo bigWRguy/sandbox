@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T18:59:09.876Z",
+  "generatedAt": "2026-11-15T19:14:15.633Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-15T18:59:09.140Z",
+    "at": "2026-11-15T19:14:15.003Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
-    "fullSweepCycles": 9
+    "sweptThisRun": 21,
+    "requests": 21,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,404 +30,355 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "army",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.2751563888888888,
-    "p95Hours": 2.025063888888889,
-    "worstHours": 2.025063888888889
+    "medianHours": 1.023476111111111,
+    "p95Hours": 2.023755,
+    "worstHours": 2.2766630555555554
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 44,
+    "decided": 44,
     "complete": true
   },
   "pending": {
-    "total": 125
+    "total": 126
   },
   "profileResolution": {
     "cached": 109
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
-    "completeOffers": 4746,
+    "completeOffers": 4748,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-15T18:59:09.135Z",
-      "got": 81,
-      "new": 55,
-      "lag": 0.12
+      "at": "2026-11-15T19:14:15.001Z",
+      "got": 64,
+      "new": 44,
+      "lag": 0.1
     },
     "search:commit": {
-      "at": "2026-11-15T18:59:09.139Z",
-      "got": 11,
-      "new": 4,
-      "lag": 1.24
+      "at": "2026-11-15T19:14:15.002Z",
+      "got": 3,
+      "new": 1,
+      "lag": 2.46
     }
   },
   "audit": {
-    "at": "2026-11-15T18:57:33.842Z",
+    "at": "2026-11-15T19:12:47.099Z",
     "mode": "live",
     "collection": {
-      "returned": 81,
-      "kept": 55,
-      "duplicate": 26,
+      "returned": 64,
+      "kept": 44,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 33,
-      "rejected": 22,
+      "accepted": 30,
+      "rejected": 14,
       "reasons": {
-        "no_offer_term": 7,
-        "no_fbs_school": 10,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 7,
         "hard_negative": 4,
-        "unclassified_offer_text": 1
+        "no_offer_term": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2122018545488077227",
-          "author": "frenziedflame20",
-          "searchJob": "air-force",
-          "text": "@butthead_21 @JessicaVT78 @BullTheoryio Keep lying you sack of shit. \"James, a Canadian citizen living in the United States with a green card, is the husband of Kristin Logan, a U.S. Air Force veteran who has stage four ovarian cancer.\" The"
+          "reason": "non_fbs_offer_target",
+          "postId": "2122040826725339256",
+          "author": "6carrizales",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG Blessed To Receive My First Offer From Louisiana Christian University!!! Thank You @Coach_JFreemanand @COACHMO54 For the opportunity!! @DaytonBroncosFB @JerryPrieto8 @bj_whitehead https://t.co/vRuXH8lcg9"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122006454085583287",
-          "author": "globalijournal",
-          "searchJob": "air-force",
-          "text": "🇨🇦 Cancer patient flees Canada after being offered assisted suicide. https://t.co/J1Tvn8gbEi"
+          "postId": "2122022669713559807",
+          "author": "kadenayres",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After great conversation with @CoachColemanFB I am blessed to say I received my first offer! #AGTG https://t.co/65Ar2yyOTp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122021635884462573",
+          "author": "im_jg3",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Big thank you to @mjcmustangs and @CoachLeeem for having me out yesterday for the game against Keystone! It was a great game & awesome opportunity to experience the program, connect with the coaching staff, and learn more about what Monroe "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121991535696699856",
+          "author": "babsphemii",
+          "searchJob": "army",
+          "text": "7 LGBTQ+ Movies About Gay Muslims and Queer Love 🏳️‍🌈🌙 These films offer different perspectives on queer experiences within Muslim communities. Some explore painful realities of secrecy and discrimination, while others tell stories of lo"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122037226762883221",
+          "author": "hamisiwick",
+          "searchJob": "army",
+          "text": "@Funmitee7pcw People value what you have to offer, not your presence."
         },
         {
           "reason": "hard_negative",
-          "postId": "2122039697962590552",
-          "author": "l0l0_lee",
-          "searchJob": "arkansas-state",
-          "text": "38 years ago today Arafat \"declared\" a State of Palestine. From Algiers 💀 And the declaration cites UN Resolution 181 for its legitimacy. The 1947 partition plan. The one that already offered them a state"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122033298771747252",
-          "author": "sensetivitycore",
-          "searchJob": "arkansas-state",
-          "text": "Top Gun: Maverick isn't about jets. It's about what you do when the world decides you're obsolete. Climb the ladder, or go deeper into the one thing you do best? https://t.co/7GqLy1Vz7T"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122005525948936604",
-          "author": "ani",
-          "searchJob": "arkansas-state",
-          "text": "#WATCH | Yamuna Nagar, Haryana: Chief Minister Nayab Singh Saini participates in the Chhath festival celebrations and offers prayers. https://t.co/QVTtX2seeH"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122035270715642192",
-          "author": "paulparrazzilvr",
-          "searchJob": "charlotte",
-          "text": "@MsLutzmann I once got the pod next to Jason Kenney and offered the steward $5K to dump a wine bottle in his lap. No takers. But the crew dubbed me the “new favourite” and the service was exceptional. Lol."
-        },
-        {
-          "reason": "unclassified_offer_text",
-          "postId": "2122003456328364470",
-          "author": "dopexyz",
-          "searchJob": "charlotte",
-          "text": "Cowboys or 49ers? 🏈 We're offering 2.88x on Cowboys to win, compared to 2.50x on Stake. Same $1,000 bet. Up to $380 more in payout. Who are you backing today? https://t.co/hsMgH2glB3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122027763913634050",
-          "author": "max_pomeroy42",
-          "searchJob": "utsa",
-          "text": "After an amazing conversation with Coach Coleman @ROADS2GREATNESS, I am blessed to announce I have received my 1st Division 1 🅾️ffer to play at The University of Texas at San Antonio!! @toddrodgers13 @TXCoachGregory @Coach_Nanny @argylegri"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122038743863542194",
-          "author": "thedistrictnfl",
-          "searchJob": "class:2026",
-          "text": "I think this is mostly true, but like most things, there’s more to it. A couple things skew this. Year after year the top teams have a franchise QB, probably a top 10-ish or better. There can be outliers (like the 2026 Vikings) but that’s n"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121628938099097834",
-          "author": "prhh1974",
-          "searchJob": "class:2026",
-          "text": "For the folks who think the only way to go, is to hire an OC type as HC, it would appear the league agrees with you. https://t.co/ldkdlkxY7k"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121609041206014075",
-          "author": "jjones9",
-          "searchJob": "class:2026",
-          "text": "Almost all the division leaders have an offensive play-calling head coach. At the bottom? Defensive or CEO type head coaches. Will we see a wave of offensive head coaches in this next cycle? https://t.co/fBVoZg61vs"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122036530432897471",
-          "author": "benjaminlong16",
-          "searchJob": "class:2026",
-          "text": "https://t.co/g0yFOpSlbX"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122029028622434391",
-          "author": "jezwn4",
-          "searchJob": "class:2026",
-          "text": "https://t.co/O9MhS0Wwij"
+          "postId": "2122018988917948464",
+          "author": "vob_52",
+          "searchJob": "army",
+          "text": "MESSIAH OF TERROR: HOW REHMAN GUL ALIAS MUREED WILL DRAG BLA INTO FINAL DESTRUCTION ‼️ Rehman Gul was born into a Zagarzai Mengal family with a well-established background in government service and local political influence. ‼️ Inducted int"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122023232773530025",
-          "author": "porozumienmidas",
-          "searchJob": "class:2026",
-          "text": "Plus Bank pod decyzją UOKiK. Uwierzytelnienie PIN-em to za mało, by odmówić zwrotu Solorz Business Daily · 15.11.2026 Prezes UOKiK 3 listopada 2026 r. wydał wobec Plus Banku, kontrolowanego przez Zygmunta Solorza, decyzję zobowiązującą nr R"
+          "postId": "2122017913825870053",
+          "author": "frontierpulse_2",
+          "searchJob": "army",
+          "text": "MESSIAH OF TERROR: HOW REHMAN GUL ALIAS MUREED WILL DRAG BLA INTO FINAL DESTRUCTION ‼️ Rehman Gul was born into a Zagarzai Mengal family with a well-established background in government service and local political influence. ‼️ Inducted int"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2122031572975010273",
-          "author": "jmcclellan1334",
-          "searchJob": "class:2027",
-          "text": "Blessed to receive offer to play at the next level from @tmusaints Thanks for the call @CoachNorwell ! @CoachHall34 @CoachBZink @GCFBRecruiting @CoachHoffmanGC @grwblazers https://t.co/JSAzNAUXq6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122026848368603255",
-          "author": "hermsenor2",
-          "searchJob": "class:2027",
-          "text": "Meanwhile, @cambrinkman_1 is a TWO-TIME IHSFCA All-State QB at @SHGFootball1, Class of 2027, without an offer from any of those eight programs. What more does he need to show to earn that opportunity?"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122018549203914778",
-          "author": "lidaosen",
-          "searchJob": "class:2027",
-          "text": "The federal antitrust lawsuit allowed to proceed against Samsung, SK Hynix, and Micron confuses manufacturing physics with corporate conspiracy. Judge Noël Wise denial of the motion to dismiss cites chipmakers cutting conventional DDR5 to p"
+          "reason": "no_offer_term",
+          "postId": "2122043381279052077",
+          "author": "coacheshotseat",
+          "searchJob": "colorado-state",
+          "text": "https://t.co/OBCK3Hyhh0"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122037591373697467",
-          "author": "kaichiu1947",
-          "searchJob": "michigan",
-          "text": "Grok, Write a lecture for graduate students in A. Law B. Political Science C. Psychiatry and D. Social Anthropology. on the following thoughts. Use as a lens for your lecture 1. Self Organizing Systems 2, Plausible Deniability 3, Murphy's L"
+          "postId": "2122042587968393476",
+          "author": "billbeckner",
+          "searchJob": "marshall",
+          "text": "Belle Vernon football standout Cam Jenko commits to Marshall. The 6-foot-1, 230-pound senior plays tight end, running back and rush end for the WPIAL semifinal-bound Leopards (11-1). Also had interest from schools in Coastal Athletic Associ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122040191795740896",
+          "author": "marshallmotorgp",
+          "searchJob": "marshall",
+          "text": "Browse our latest used car offers today and find the right car for less. Start your search today &gt; https://t.co/PdHu3OM8Za *T&amp;Cs apply. Finance subject to status."
         },
         {
           "reason": "hard_negative",
-          "postId": "2122036734955585563",
-          "author": "kaichiu1947",
-          "searchJob": "michigan",
-          "text": "The Back Story is that Antisocail Personalities and Antisocial Behaviors have been magnified by political narratives that embrace ANTIFA and normalize Violence as a political tool. Social Media empowers antisocial personalities and Antisoci"
+          "postId": "2122037731920384052",
+          "author": "eliotclough",
+          "searchJob": "iowa",
+          "text": "Iowa offers 2028 composite 4⭐️ DB out of Carmel, Ind, Drake Coellner. The No. 2 prospect out of Indiana, Coellner holds offers from programs like Indiana, Kentucky, Ohio State, Oklahoma, Oregon, Wisconsin + others. Profile: https://t.co/EZi"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122023727495885027",
-          "author": "rail15603",
-          "searchJob": "michigan",
-          "text": "@StanHuntress @Politicsbytrav @26bold @BaseCentrist That's why I hope he's the future of their party? He offers no policies other than fearmongering about culture issues and immigration."
+          "postId": "2122021813039374529",
+          "author": "coachkimble_",
+          "searchJob": "iowa",
+          "text": "🗣 We appreciate the Iowa Central Staff for the offer!"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122039965412438142",
-          "author": "untetheredmango",
-          "searchJob": "minnesota",
-          "text": "It is my honor to reintroduce perhaps the most important man in my cabinet, the leader of the United States Military during naptime, and the most masculine man on earth, Peter \"BigBalls\" Hegseth!!!! Born in Minneapolis, Minnesota, Pete Hegs"
+          "postId": "2122020030217097246",
+          "author": "neworder_tv",
+          "searchJob": "missouri",
+          "text": "Prof Michael Hudson: The US🇺🇸 is neither an industrial power nor creditor power anymore, it relies on CHOKE POINTS to remain rich ‘Trump’s aim is to monopolise the oil trade and to use choke points. The United States has lost its ability "
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2122013046071767114",
-          "author": "ammonralomas",
-          "searchJob": "minnesota",
-          "text": "After a great tour of facilities with @Coachgreen02 and conversation with @CoachWiese , I am almost TOO excited to have received my first D2 and Scholarship offer to play at Minnesota Duluth! Loved the facilities and can’t wait to be back u"
+          "reason": "no_offer_term",
+          "postId": "2121853435717054711",
+          "author": "neworder_tv",
+          "searchJob": "missouri",
+          "text": "🚨 NEW EPISODE OF NEW ORDER 🌐 US Wars on Russia & Iran Are Pushing the World Into a GREAT DEPRESSION (Prof. Michael Hudson) Why does he believe the EU has become a failed state? Why does he expect global south countries to stop paying back"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 33,
+      "accepted": 2,
+      "rejected": 28,
       "reasons": {
-        "bare_mention_requires_llm": 25,
-        "multiple_resolved_schools": 3,
-        "school_not_resolved_confidently": 4,
-        "unresolved_offer_target": 1
+        "written_name_not_school": 1,
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 19,
+        "reporter_missing_player_name": 2,
+        "unresolved_offer_target": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122034973058150622",
-          "author": "chippy20chips",
-          "searchJob": "air-force",
-          "text": "Kristin Logan a U.S. Air Force veteran with stage 4 ovarian cancer and her husband, Donovan James , a Canadian citizen, say they moved to Canada seeking the benefits of publicly funded health care. After her diagnosis in September 2023, the"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122033710828601588",
-          "author": "fablosjanny",
-          "searchJob": "air-force",
-          "text": "A cancer patient fled Canada after being offered assisted suicide A US Air Force veteran Kristin Logan, who was diagnosed with stage-four ovarian cancer and her husband Donovan James left Canada after stating they were provided information "
+          "reason": "written_name_not_school",
+          "postId": "2122037870768914689",
+          "author": "brooksroznovsky",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "Blessed to receive an offer from the University of Mary Hardin-Baylor! Huge thank you to @CoachBryHicks and the entire coaching staff for believing in me and giving me this opportunity. Go Cru! 🟣🟡 #GoCru #AGTG https://t.co/RCQOjDO9SQ"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122032042024264048",
-          "author": "persiaherzig",
-          "searchJob": "air-force",
-          "text": "His question to AI, great answer: The most significant allegations concern massive self-enrichment, conflicts of interest, and \"pay-to-play\" structures during Trump's second term (since January 2025). Many are based on financial disclosures"
+          "postId": "2122042148090441771",
+          "author": "patriotpolecat",
+          "searchJob": "army",
+          "text": "General Lee was offered command of the entire Union army, and stated openly that he felt more closely tied to his home state of Virginia, thus declining that power. Imagine for a moment if he had kept his loyalties to Virginia, but accepted"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122018539293012255",
-          "author": "intel_nova",
-          "searchJob": "air-force",
-          "text": "🚨 🇨🇦 CANCER PATIENT SAYS SHE WAS OFFERED ASSISTED DEATH BEFORE RECEIVING TREATMENT IN CANADA Kristin Logan, a US Air Force veteran diagnosed with stage-four ovarian cancer, says Canada’s healthcare system presented information about medi"
+          "postId": "2122041966355415374",
+          "author": "babsphemii",
+          "searchJob": "army",
+          "text": "Salvation Army (2013) – Morocco 🇲🇦 🏳️‍🌈 A deeply moving and intimate queer drama about growing up gay in a conservative Moroccan Muslim society, where desire, family expectations, social class and personal freedom often collide. The fil"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122016941422576005",
-          "author": "currentreport1",
-          "searchJob": "air-force",
-          "text": "JUST IN: An American air force veteran with stage-four ovarian cancer says she was offered assisted death in Canada rather than the treatment she desperately needed. Kristin Logan and her husband moved to Canada hoping to access its publicl"
+          "postId": "2122041694803882197",
+          "author": "1395gual",
+          "searchJob": "army",
+          "text": "@ManouchehrFarr Has Israel offered ground troops to help liberate Iran? Has the Shah built a volunteer exile army from Iran’s millions abroad to free Iran or just \"sweet words\"from both Israel and Iranian monarchists?BTW:Has Israel ever fou"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122014263946690664",
-          "author": "marionawfal",
-          "searchJob": "air-force",
-          "text": "🇨🇦🇺🇸 WTF?!?!? A woman battling STAGE 4 CANCER says she fled Canada after being OFFERED information about ASSISTED SUICIDE before even getting an oncology appointment. Kristin Logan, a U.S. Air Force veteran, moved to Canada with her hus"
+          "postId": "2122034373662814696",
+          "author": "joshuapich9909",
+          "searchJob": "army",
+          "text": "Nehemiah 4 New International Version Opposition to the Rebuilding 4 [a]When Sanballat heard that we were rebuilding the wall, he became angry and was greatly incensed. He ridiculed the Jews, 2 and in the presence of his associates and the a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122008011858378952",
-          "author": "globalijournal",
-          "searchJob": "air-force",
-          "text": "🇨🇦 Cancer patient flees Canada after being offered assisted suicide. A U.S. Air Force veteran was handed a pamphlet about assisted death before her first cancer appointment in Canada. Kristin Logan, a dual U.S.-Canadian citizen and Stage "
+          "postId": "2122033549545234902",
+          "author": "toep_444__444",
+          "searchJob": "army",
+          "text": "@jananaqa2 @perzhiana @Muhammah381095 Yeah tradition basically because army offers a seat of power i mean Pakistan is controlled my army. so if someone is a major general he wants his son to go there as well and come in a seat of power."
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2122030873411248280",
+          "author": "ww3finalboss",
+          "searchJob": "army",
+          "text": "🇺🇦 DRONE PILOTS ARE DESTROYING MILLIONS IN RUSSIAN MILITARY EQUIPMENT. THEIR COMMANDER SAYS THEY DESERVE FAR MORE. Ukrainian drone brigade commander Veres has offered a revealing look at the economics of modern warfare. One of his pilots "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122039795941826613",
-          "author": "sean_in_socal",
-          "searchJob": "arkansas-state",
-          "text": "@JustMoogie @ZVRGR15 @KosherChutzpah How about trying to disprove the fact that the palestinians have been offered a state at least 3 times in the past few decades And they keep declining, because they don't want a state, they want to keep "
+          "postId": "2122028396045603002",
+          "author": "cynthiaali95222",
+          "searchJob": "army",
+          "text": "At Wendy's recently I heard a guy ask for his senior discount. The girl at the register apologized and charged him less. When I asked the man what the discount was, he told me that seniors over age 55 ...get 10% off everything on the menu, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122038286298513520",
-          "author": "stuartlosaltos",
-          "searchJob": "arkansas-state",
-          "text": "Found a meme of the old \"you have two cows\" rip on various ideologies. Decided to update it a little for Canada in the 2020s. Capitalism: you have two cows. You sell one and buy a bull. Communism: you have two cows. The government takes bot"
+          "postId": "2122028105963327890",
+          "author": "wynneflh",
+          "searchJob": "army",
+          "text": "In the winter of 1944, Gena Turgel was pushed naked into a freezing concrete room at Auschwitz-Birkenau with hundreds of other women. The heavy iron doors slammed shut behind them. Everyone knew what was supposed to happen next.💔 Gena had "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122025984991846817",
+          "author": "aprilba84522710",
+          "searchJob": "army",
+          "text": "@Michaeljos92972 I can understand that. My daughter gets upset with me bc I disposed of all her father's clothes. No one else would do it. I gave them to the salvation army. She says I didn't give her anything of his. She was 4 hrs away and"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122022945329463537",
-          "author": "hushxchange",
-          "searchJob": "arkansas-state",
-          "text": "Sister, Islam does not require you to perform Ghusl immediately after marital intimacy. Whenever Ghusl becomes obligatory due to intercourse, you are allowed to sleep, eat, prepare meals, look after your children, and carry out your daily r"
+          "postId": "2122023617949208967",
+          "author": "akarlin",
+          "searchJob": "army",
+          "text": "\"Jail is Programmed\" Chronicles Update Russian nationalists who joined the people's militias in the LDNR back in 2022, and have since returned to civilian life, are now getting retroactively classified as deserters and getting put on wanted"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122022660708192475",
+          "author": "modernceasar",
+          "searchJob": "army",
+          "text": "In 280 BC, a blind old man was carried through the Forum on a litter. Rome was losing a war. King Pyrrhus of Epirus, a kinsman of Alexander the Great, had come to Italy at the request of the Greek city of Tarentum, and at Heraclea he had cr"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122022095777345978",
-          "author": "demolarewaju",
-          "searchJob": "arkansas-state",
-          "text": "November 9, 2017 was the first time that I ever met Egbon Kola @officialKolaO Ologbondiyan when he was running to be National Publicity Secretary of our then great party, PDP. In what is forever a burned-into-memory moment in humility for m"
+          "postId": "2122022521922822524",
+          "author": "akisobenjamin",
+          "searchJob": "army",
+          "text": "After church ⛪️ today, I spent my full day at One Love ❤️ 🏝️ 🏖️ Busabala trying to connect with nature. As I sat quietly by the lake, my mind travelled back to the occasions I went through when I was in Luzira Prison. So many memories cam"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122014072010887645",
-          "author": "ageofautism",
-          "searchJob": "arkansas-state",
-          "text": "On days when life gets a bit overwhelming, people may look for ways to keep their thoughts and feelings in check. Last week, when I learned that the insurance company decided not to honor our expedited appeal, I knew I needed to walk away –"
+          "postId": "2122020111338951122",
+          "author": "backlogalpha",
+          "searchJob": "army",
+          "text": "🚨 GTA 6 COULD HAVE AMERICA CLOCKING OUT. 🎮 An estimated 12.5 MILLION U.S. gamers plan to take time off or adjust their work/school schedules for the November 19 launch. That doesn’t mean 12.5 million employees are skipping a full workday."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122010843177263136",
-          "author": "aneka15amyth",
-          "searchJob": "arkansas-state",
-          "text": "Just like working for a company or for a forman as a logger, you cede responsibilities to authorities (unless you run your own business) However, loggers dont cede agency. But the fact of the matter is any contract must be upheld and soldie"
+          "postId": "2122019823148229119",
+          "author": "johncgold3",
+          "searchJob": "army",
+          "text": "Mr. President, you promised no new Middle East wars. Yet America went to war with Iran. You broke that promise, and our troops and taxpayers bear the consequences. In the Army, leaders own their mistakes, report them, offer solutions, and a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122009429163798823",
-          "author": "aashkhalid",
-          "searchJob": "arkansas-state",
-          "text": "They took him in secret. They treated him without his family. They treated him without his personal doctors. They returned him to solitary confinement. Reuters reported it. The regime offers no explanation. Call it what it is: a complete di"
+          "postId": "2122015788601053615",
+          "author": "eyeworldnews92",
+          "searchJob": "army",
+          "text": "🚨 BREAKING: Death Toll Rises to Five After Fire at Canadian Army Base Wainwright 🇨🇦🔥🎖️💔 A fifth Canadian soldier has died from injuries suffered in a fire during training at Canadian Forces Base Wainwright in Alberta. The Canadian Arm"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122008013791986161",
-          "author": "ani",
-          "searchJob": "arkansas-state",
-          "text": "#WATCH | Yamuna Nagar, Haryana: Chief Minister Nayab Singh Saini says, \"Today is the great festival of Chhath Maiya. On the occasion of this grand festival, I have had the opportunity to participate in a state-level event in Yamuna Nagar to"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122026871101518090",
-          "author": "ktvu",
-          "searchJob": "charlotte",
-          "text": "Steph Sanchez, co-host on The Gold Standard 49ers Podcast Network offers her thoughts on the 49ers vs. Cowboys rivalry. https://t.co/J6eWboMiaj https://t.co/BVyHKls3FW"
+          "postId": "2122015679033266360",
+          "author": "eyeworldnews92",
+          "searchJob": "army",
+          "text": "🚨 BREAKING: Death Toll Rises to Five After Fire at Canadian Army Base Wainwright 🇨🇦🔥🎖️💔 A fifth Canadian soldier has died from injuries suffered in a fire during training at Canadian Forces Base Wainwright in Alberta. The Canadian Arm"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122025838426378565",
-          "author": "timj383006",
-          "searchJob": "charlotte",
-          "text": "@ChrisMoylesShow With everything thats going off lately, would you care to explain why(according to Charlotte church) you offered to take her virginity at 15 yrs old. Her words not mine. Please share so he sees it and can explain If true, y"
+          "postId": "2122017044933877878",
+          "author": "catladycards711",
+          "searchJob": "boise-state",
+          "text": "Make an offer! Check out SIRE GAINES 2026 Bowman U Chrome PURPLE MOJO #'d 30/75 - BOISE STATE https://t.co/DEyktJdmAO #eBay via @eBay"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122020480584724691",
-          "author": "barbarariosc",
-          "searchJob": "charlotte",
-          "text": "I’ve got 2 tickets to the Cowboys vs 49ers game for sale. Section 203 Just trying to get rid of them. Message me with an offer if interested."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122010378318291424",
-          "author": "defimayor2",
-          "searchJob": "charlotte",
-          "text": "https://t.co/Z8rqulGHE6 is bringing a better deal to the table 👀🔥 Same $1,000 bet on the Cowboys, but Dope offers 2.88x compared to Stake’s 2.50x. That’s $2,880 in potential payout instead of $2,500. More value on the same pick! Always go"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122015985368437236",
-          "author": "ergunisteni",
-          "searchJob": "coastal-carolina",
-          "text": "When someone has zero legal arguments left, they resort to clichés like \"Türkiye cannot be in the same sentence with international law.\" Let’s put actual international law on the table and see who is violating it: 1️⃣ 1923 Treaty of Lausann"
+          "reason": "multiple_resolved_schools",
+          "postId": "2122044058214555717",
+          "author": "guideonleblanc",
+          "searchJob": "delaware",
+          "text": "@sarahadams Strange - you don’t criticize your own government! US health care system also offers assisted suicide !! Legal in 14 U.S. jurisdictions: California, Colorado, Delaware, Hawaii, Illinois, Maine, Montana, New Jersey, New Mexico, N"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122037376654655665",
+          "postId": "2122022614507868238",
+          "author": "a_q1985",
+          "searchJob": "delaware",
+          "text": "Ashley, may I offer a thought, gently? Your love for Jesus (peace be upon him) is something we share. Muslims honor him as the Messiah, born of the Virgin Mary (peace be upon her). On the six hundred years: Jesus (peace be upon him) came mo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122043639950127499",
           "author": "tfloss32",
-          "searchJob": "utsa",
-          "text": "Argyle '28 RB Max Pomeroy (@Max_pomeroy42) pockets a UTSA offer. #BirdsUp🤙 https://t.co/qBjWk51VCY 𝕏 @toddrodgers13 | @argylegridiron"
+          "searchJob": "louisiana-tech",
+          "text": "Louisiana Tech is the newest offer for '28 WR Kayden Walker (@justlilbaby0) out of Tyler High. #EverLoyalBe🐶 https://t.co/XM8VpSgWaa https://t.co/SmJK1UTGcg 𝕏 @rashaun_woods | @TylerLionsFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122040941192314920",
+          "author": "tfloss32",
+          "searchJob": "louisiana-tech",
+          "text": "'28 OL Caleb Pickrell (@caleb_pickrell) from Van files away a Louisiana Tech offer. #EverLoyalBe🐶 https://t.co/faOGkmytnY 𝕏 @MoffattJared"
         },
         {
           "reason": "unresolved_offer_target",
-          "postId": "2122039429422584193",
+          "postId": "2122031879830310913",
           "author": "profilefblive",
-          "searchJob": "class:2028",
-          "text": "🚨 First P4 Offer 🚨 2028 ATH Carlos Gordon Jr. from Archbishop Hoban HS, OH has received his first P4 offer from Penn State. @carlosgordonjr Rated 3.2⭐ (#1345 NATL, #93 ATH, #63 OH). https://t.co/vjBMyXCkXY"
+          "searchJob": "iowa",
+          "text": "🚨 First D1 Offer 🚨 2029 DE Lincoln Middlebrook from Bradley-Bourbonnais HS, IL has received his first D1 offer from Iowa. @lincmiddlebrook Rated 3.5⭐ (#284 NATL, #18 DE, #5 IL). https://t.co/Fd8ClUry1C"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122037054032716275",
-          "author": "outsidethebbox",
-          "searchJob": "michigan",
-          "text": "USEFUL IDIOTS: THE ALLIANCE THAT EXPIRES \"Useful idiots\" — the phrase is popularly attributed to Lenin, though no one has ever found it in anything Lenin wrote or said. The pattern it names is documented, and it runs in one direction: Islam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122030531491811582",
-          "author": "mifsudcynthia",
-          "searchJob": "michigan",
-          "text": "@julie_belshe’s parents’ story and the Michigan families’ stories are all important, and @GretchenRHammo1 Gretchen weaves them together magnificently in American UnPeople. Each brings a powerful perspective to the devastating reality of abu"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122022106309308766",
+          "author": "blairasanderson",
+          "searchJob": "iowa",
+          "text": "Hawkeyes offer four-star safety Drake Coellner https://t.co/kMeKz0yhhv"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 173,
+      "jobs": 167,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -437,73 +388,46 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2122023232773530025",
-          "author": "porozumienmidas",
-          "text": "Plus Bank pod decyzją UOKiK. Uwierzytelnienie PIN-em to za mało, by odmówić zwrotu Solorz Business Daily · 15.11.2026 Prezes UOKiK 3 listopada 2026 r. wydał wobec Plus Banku, kontrolowanego przez Zygmunta Solorza, decyzję zobowiązującą nr R"
+          "postId": "2122018988917948464",
+          "author": "vob_52",
+          "text": "MESSIAH OF TERROR: HOW REHMAN GUL ALIAS MUREED WILL DRAG BLA INTO FINAL DESTRUCTION ‼️ Rehman Gul was born into a Zagarzai Mengal family with a well-established background in government service and local political influence. ‼️ Inducted int"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2122037591373697467",
-          "author": "kaichiu1947",
-          "text": "Grok, Write a lecture for graduate students in A. Law B. Political Science C. Psychiatry and D. Social Anthropology. on the following thoughts. Use as a lens for your lecture 1. Self Organizing Systems 2, Plausible Deniability 3, Murphy's L"
+          "postId": "2122017913825870053",
+          "author": "frontierpulse_2",
+          "text": "MESSIAH OF TERROR: HOW REHMAN GUL ALIAS MUREED WILL DRAG BLA INTO FINAL DESTRUCTION ‼️ Rehman Gul was born into a Zagarzai Mengal family with a well-established background in government service and local political influence. ‼️ Inducted int"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2122036734955585563",
-          "author": "kaichiu1947",
-          "text": "The Back Story is that Antisocail Personalities and Antisocial Behaviors have been magnified by political narratives that embrace ANTIFA and normalize Violence as a political tool. Social Media empowers antisocial personalities and Antisoci"
+          "postId": "2122008334505271727",
+          "author": "wheelerripwa",
+          "text": "Judges now run Washington State Democrats just won Yakima Valley's 14th District House seats for the first time in 34 years. On a map a federal judge drew. Judge Robert Lasnik ruled in 2023 that the Legislature's 2022 lines violated the Vot"
         },
         {
-          "reason": "no_football_context",
-          "postId": "2122037999819268211",
-          "author": "snoopysmomma",
-          "text": "Don Lemon Criminal Case Takes SHOCKING Turn as Minnesota Fraud Prosecutor... Trump appointed Fed prosecutor quits and flips sides, now defending DON LEMON...I guess he got the offer he couldn't refuse! https://t.co/sllbdvJof4"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2122008063523573869",
-          "author": "juliew38138",
-          "text": "Exactly. The entire situation has been flipped on its head. Adjust or die. When the hurry-up offense became the new thing in college football, many people were saying that Nick Saban’s domination and dynasty were dead. Saban adjusted his ga"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2121919906094407881",
-          "author": "lostlettermen",
-          "text": "✍️TOP OF THE MORNING WITH GG GEKKO✍️ ....TWO COMMITS....TWO DIFFERENT ROUTES... ...2027 6'6 wing Ford Stratton, River Bluff [SC], commits to Newberry [SC]... ...2027 4⭐ 6'9 C Yohane Kabongo, DME Academy [FL], commits to Alabama [AL] over Te"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2122022959045071092",
-          "author": "eyeworldnews444",
-          "text": "⚡ JUST IN 🇺🇸 | Sarah Huckabee Sanders Admits GOP Took a Beating, and Dodges the 2028 Question Arkansas Gov. Sarah Huckabee Sanders has conceded that the midterm elections were rough for her party, saying there is \"no question\" Election Ni"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2121965296110178723",
-          "author": "sothrn_discmfrt",
-          "text": "@AuburnFootball @AuburnTigers @WarEaglePlus @AuburnMade Wasn’t Womack a 5 star commit to Auburn who flipped to State?"
+          "reason": "reporter_missing_class_year",
+          "postId": "2122042587968393476",
+          "author": "billbeckner",
+          "text": "Belle Vernon football standout Cam Jenko commits to Marshall. The 6-foot-1, 230-pound senior plays tight end, running back and rush end for the WPIAL semifinal-bound Leopards (11-1). Also had interest from schools in Coastal Athletic Associ"
         }
       ],
       "stats": {
-        "candidates": 8,
+        "candidates": 4,
         "accepted": 0,
-        "rejected": 8,
+        "rejected": 4,
         "reasons": {
           "roundup_too_long": 3,
-          "no_football_context": 2,
-          "no_commit_event": 1,
-          "other_sport": 1,
-          "reporter_missing_player_name": 1
+          "reporter_missing_class_year": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 33,
-      "brandNewOffers": 0
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 28,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-15T18:59:09.877Z"
+    "status rebuilt locally from current store on 2026-11-15T19:14:15.634Z"
   ]
 }
