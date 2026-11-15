@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T06:44:04.710Z",
+  "generatedAt": "2026-11-15T06:59:06.744Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-15T06:44:04.009Z",
+    "at": "2026-11-15T06:59:05.901Z",
     "jobsTotal": 162,
-    "sweptThisRun": 22,
-    "requests": 22,
-    "fullSweepCycles": 8
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7815119444444445,
-    "p95Hours": 1.7771302777777778,
-    "worstHours": 2.02891
+    "medianHours": 0.7782913888888889,
+    "p95Hours": 1.7800691666666666,
+    "worstHours": 2.0276952777777777
   },
   "decisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 9,
+    "decided": 9,
     "complete": true
   },
   "pending": {
@@ -55,189 +55,117 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-15T06:44:04.008Z",
-      "got": 42,
-      "new": 19,
-      "lag": 0.05
+      "at": "2026-11-15T06:59:05.895Z",
+      "got": 25,
+      "new": 9,
+      "lag": 0.22
     },
     "search:commit": {
-      "at": "2026-11-15T06:44:04.008Z",
-      "got": 1,
-      "new": 0,
-      "lag": 11.02
+      "at": "2026-11-15T06:59:05.900Z",
+      "got": 18,
+      "new": 8,
+      "lag": 2.76
     }
   },
   "audit": {
-    "at": "2026-11-15T06:42:28.662Z",
+    "at": "2026-11-15T06:57:26.125Z",
     "mode": "live",
     "collection": {
-      "returned": 42,
-      "kept": 19,
-      "duplicate": 23,
+      "returned": 25,
+      "kept": 9,
+      "duplicate": 16,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 5,
+      "accepted": 6,
+      "rejected": 3,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 1,
-        "hard_negative": 1
+        "no_offer_term": 2,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2121855946792075293",
-          "author": "jchungjjc",
-          "searchJob": "texas",
-          "text": "https://t.co/HmN5l1CaTK"
+          "postId": "2121849006313619909",
+          "author": "null_station7",
+          "searchJob": "class:2026",
+          "text": "https://t.co/wz9AuIIUjX"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2121845643958526212",
-          "author": "fmill57",
-          "searchJob": "texas",
-          "text": "@DoubleWideCap @mitchellvii Texas used to be the steers and queers state, has been overtaken by montana"
+          "postId": "2121853750692159772",
+          "author": "im_codsworth",
+          "searchJob": "class:2027",
+          "text": "https://t.co/rLQuuwqxc6"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121835637234143371",
-          "author": "ndtvworld",
-          "searchJob": "texas",
-          "text": "\"Offered Me Green Card\": Lebanese Woman Accuses ICE Agent Of Sexual Assault https://t.co/Hoja82iO9o https://t.co/OYGcTW7CLf"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2121852014556561510",
-          "author": "interviewgames",
-          "searchJob": "wake-forest",
-          "text": "This evening I received a text so long I thought a company had accidentally sent me its employee handbook, annual report, and the director’s cut of its unresolved feelings. It was from a company I mention often. The message, in essence: sto"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121849317887811623",
-          "author": "pure_ps",
-          "searchJob": "wake-forest",
-          "text": "Grab a cup of coffee and read this painstakingly long article I’ve put forth to why I think PlayStation can be a Global phenomenon NEXT Generation with PSP2 &amp; PS6 COMBO! https://t.co/eGuxiDnNu9"
+          "postId": "2121845401460580448",
+          "author": "spiritofjapanx",
+          "searchJob": "wisconsin",
+          "text": "How Did a Japanese Soy Sauce Company Conquer the World’s Kitchens Without Changing Their Recipes? Imagine trying to sell Japanese soy sauce to American families in the 1950s, when most had little experience with Japanese cuisine. You could "
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 14,
+      "rejected": 6,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "school_not_resolved_confidently": 6,
-        "reporter_missing_position": 1,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 4,
+        "multiple_resolved_schools": 1,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121855921517429216",
-          "author": "bojigreg2",
-          "searchJob": "iowa",
-          "text": "@melton4iowa They just are tailgating. It isn't new. Iowa use to offer incentives to get people into the stadium on time. I haven't gone to a game in a long time, but even 15-20 years ago, the stadium didn't fill up until the end of the 1st"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121830045454893193",
-          "author": "blairasanderson",
-          "searchJob": "iowa",
-          "text": "Hawkeyes offer Class of 2029 DE Lincoln Middlebrook https://t.co/ej8WWuaAUD"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121829598644273317",
-          "author": "eliotclough",
-          "searchJob": "iowa",
-          "text": "Iowa offers 2029 defensive lineman out of Bradley-Bourbonnais HS (Ill.), Lincoln Middlebrook. The Hawkeyes are Middlebrooks first scholarship offer. Profile: https://t.co/IXxDi0DOqu"
+          "postId": "2121857260666212392",
+          "author": "johnkim26391993",
+          "searchJob": "class:2027",
+          "text": "I completely agree with your point. Enjoying the California sunshine and a more relaxed lifestyle in Los Angeles is understandable at this stage of his career, but Son Heung-min still has plenty left to show. At 34–35 he is no longer the ex"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121838181792506047",
-          "author": "recruit775",
-          "searchJob": "oregon",
-          "text": "Congrats to my 2029 TE @JeremiahMilan29 OREGON OFFER! Lots of work ahead but the precedence is set! It starts with an evaluation. Get yours today by clicking the link in my bio. $179 https://t.co/6M7md6oxGU"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121837835737256083",
-          "author": "thompsonsctg",
-          "searchJob": "oregon",
-          "text": "Congrats to my 2029 TE @JeremiahMilan29 OREGON OFFER! Lots of work ahead but the precedence is set! It starts with an evaluation. Get yours today by clicking the link in my bio. $179 https://t.co/9wca48j0y9"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121834180300419465",
-          "author": "synicalgaming1",
-          "searchJob": "oregon",
-          "text": "Page 3 He whips RetroChad across the ring. RUNNING CLOTHESLINE! RetroChad gets back up! ANOTHER CLOTHESLINE! VGMHero runs toward the ropes and comes back with a flying forearm! The crowd erupts! RANGER JAMES: \"HE'S FIRED UP!\" VGMHero climbs"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121846463793967123",
-          "author": "turtlesportsnet",
-          "searchJob": "penn-state",
-          "text": "@IceColdNattyBoh @Aazaar23 Bad feeling about Kelly. I want to see what AAR has to offer, I think we will be sorry if we just let him walk. I want to see what he does in these next two games. Has has a chance for the first ranked B1G win eve"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2121846597969641909",
-          "author": "taniablublubub",
-          "searchJob": "texas",
-          "text": "Shop link in profile Thinking of getting packman vape carts thc shrooms DMT powder lsd mdma magic mushrooms coke psilocybin at affordable prices? We offer the best collections London uk Sydney Melbourne Manchester Texas Australia Brownsvill"
-        },
-        {
-          "reason": "reporter_missing_position",
-          "postId": "2121831278521577475",
-          "author": "jason_howell",
-          "searchJob": "texas",
-          "text": "Texas A&amp;M has offered Red Oak (TX) 2028 S Gavin George #GigEm"
+          "postId": "2121833872044282194",
+          "author": "gamblergazette",
+          "searchJob": "arizona",
+          "text": "🏈 RAMS vs. CARDINALS — NFL WEEK 10 PREVIEW Can Carson Beck survive the Rams’ defensive front? Arizona is missing multiple offensive linemen, and Los Angeles brings a top-five defense to Glendale. 📊 FAIR MARKET * Fair Spread: Rams -11.0 | "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2121841835488485583",
-          "author": "satellitealexis",
-          "searchJob": "pittsburgh",
-          "text": "This is last minute but is anyone interested in buying 4 tickets to Cincinnati Bengals vs. Pittsburgh Steelers game for Sun 15 Nov at 8:20PM -📍: Paycor Stadium - Cincinnati, OH - Section 119, Row 6, Seat 2-5 - Asking for $215 each. Open fo"
+          "postId": "2121853308243517548",
+          "author": "koptalk",
+          "searchJob": "cincinnati",
+          "text": "LIVERPOOL FC MORNING BRIEFING: ARAUJO INJURY WORRY AHEAD OF MANCHESTER UNITED VISIT Ronald Araujo finished Uruguay's win over Argentina on Friday night walking with difficulty, according to the Uruguayan newspaper El Observador, a week befo"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2121846049559961932",
-          "author": "stanfordgarycat",
-          "searchJob": "stanford",
-          "text": "@TwistNH7 @HokiesFB @TwistNH7 don’t let this limited time offer expire"
+          "postId": "2121830184059916524",
+          "author": "jayteeautos",
+          "searchJob": "colorado",
+          "text": "@tibanky4l I no go block you I go unfollow you cos I dn see say you're someone who doesn't have anything to offer online and real life just a Pack of Colorado walking aimlessly. Ekpa"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121845654918160477",
+          "author": "amazingthailand",
+          "searchJob": "coastal-carolina",
+          "text": "✨ Make your next getaway truly extraordinary! Looking for a special place to stay on your next trip? Let world-class recognition inspire your choice! The MICHELIN Guide 2026 has recognized six exceptional hotels in Thailand with Three MICHE"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121855923123523620",
-          "author": "collectivebxia",
-          "searchJob": "wake-forest",
-          "text": "Okey I agree let me pose and ask u a honest question when u say how many people has so far offered financial support for sifuna si your telling us in other way our omwami is another cartel and crook in waiting coz presidential campaign is n"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121853876433203710",
-          "author": "lakaas123",
-          "searchJob": "wake-forest",
-          "text": "🚨Cristiano Ronaldo on Portugal suffering the biggest defeat in their history after a 4-1 loss to Denmark: 🗣️ “After training, I went home and watched the game with my family. We sat down and I watched Portugal from the first minute until "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121827721865031871",
-          "author": "blairvic02",
-          "searchJob": "wake-forest",
-          "text": "My husband has been sleeping in the guest room for three weeks now. He says it's because of his back the mattress in our bedroom is too soft, apparently. I believed him at first. I even offered to buy a new mattress, a firmer one, whatever "
+          "postId": "2121832571818459146",
+          "author": "onekindesign",
+          "searchJob": "coastal-carolina",
+          "text": "San Juan Island home offers idyllic coastal escape on a windswept shore https://t.co/1OU8YybOhL https://t.co/DFcAkHRqMz"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 185,
+      "jobs": 187,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -246,28 +174,72 @@
     "commits": {
       "samples": [
         {
-          "reason": "roundup_too_long",
-          "postId": "2121852014556561510",
-          "author": "interviewgames",
-          "text": "This evening I received a text so long I thought a company had accidentally sent me its employee handbook, annual report, and the director’s cut of its unresolved feelings. It was from a company I mention often. The message, in essence: sto"
+          "reason": "no_commit_event",
+          "postId": "2121756446538785211",
+          "author": "patrick51812569",
+          "text": "Will the college football rankings call it right on Monday? Alabama beat a nothing team 21-6. Indiana beat #18 USC 27-13. Perhaps their positions should be flipped once again. Will the committee comment that Vanderbilt was a tougher challen"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121748758673146285",
+          "author": "tgrizz626",
+          "text": "@RyanDyrudLAFB Sorry Ryan that is Coaching. How the fuck does Alabama have 2 corners both from So Cal? How tf is Donte Wright committed to Miami? Please stop it. Until we can actually recruit secondary we wont be anything close to good"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121677422571495778",
+          "author": "chapman_quin",
+          "text": "@YankeeCandle_MD @AlabamaFTBL @BuildSubmarines 🤣 he should have stayed committed to SMU"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121773483592179941",
+          "author": "canesmuse",
+          "text": "BREAKING: 2027 3-Star JUCO OT Dorian Williams has committed to Miami. The 6’9 290 tackle chose Miami over Arkansas and Florida State. Williams played at the College of San Mateo. https://t.co/Vr7u5GlQHl"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121742571034570761",
+          "author": "spammyclark",
+          "text": "@ArkRazorbacks @RazorbackFB Booooooooo @LawsonRandy. I’m sure this crowd of 30k and the same worthless commitment to get our resources in the top half of the league will make you feel like we’re headed in the right direction"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121818790786732399",
+          "author": "joelibertyjr",
+          "text": "@AuburnMemes @AuburnFootball @AuburnTigers @WarEaglePlus @AuburnMade Womack was a 5* DB kid who flipped from AU to stay home, in Ms. good luck young man 🤝"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2121774009310200251",
+          "author": "saltybarner56",
+          "text": "@AuburnFootball @AuburnTigers @WarEaglePlus @AuburnMade Bralan really flipped to Miss State just to get mossed on 🤣"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121721948275433530",
+          "author": "wakeemupfitness",
+          "text": "@AuburnFootball @KeshaunX21 Isn’t it amazing when Auburn commits to the run it sets up the pass. O line gives Byron enough time he makes good passes. Amazing haha"
         }
       ],
       "stats": {
-        "candidates": 1,
+        "candidates": 8,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 8,
         "reasons": {
-          "roundup_too_long": 1
+          "no_commit_event": 6,
+          "juco_or_transfer": 1,
+          "reporter_missing_player_name": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 14,
+      "rejectedCandidates": 6,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-15T06:44:04.711Z"
+    "status rebuilt locally from current store on 2026-11-15T06:59:06.746Z"
   ]
 }
