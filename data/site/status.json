@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T02:57:49.136Z",
+  "generatedAt": "2026-11-15T03:14:25.062Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-15T02:57:48.308Z",
+    "at": "2026-11-15T03:14:24.161Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,261 +32,496 @@
   },
   "staleSchools": [
     {
-      "id": "air-force",
-      "hours": 2.5
-    },
-    {
-      "id": "east-carolina",
-      "hours": 2.5
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-international",
-      "hours": 2.5
-    },
-    {
-      "id": "fresno-state",
-      "hours": 2.5
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.5
-    },
-    {
-      "id": "memphis",
-      "hours": 2.5
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.5
-    },
-    {
-      "id": "uconn",
-      "hours": 2.5
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.5
-    },
-    {
       "id": "akron",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "appalachian-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "arkansas-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "army",
-      "hours": 2.3
-    },
-    {
-      "id": "auburn",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ball-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "boise-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "florida",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "georgia-southern",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "georgia-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "rice",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "sam-houston",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "san-diego-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "ucla",
-      "hours": 2.3
-    },
-    {
-      "id": "usc",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "western-kentucky",
+      "hours": 2.5
+    },
+    {
+      "id": "bowling-green",
+      "hours": 2.3
+    },
+    {
+      "id": "colorado-state",
+      "hours": 2.3
+    },
+    {
+      "id": "delaware",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.253651388888889,
-    "p95Hours": 2.507756111111111,
-    "worstHours": 2.507756111111111
+    "medianHours": 1.2861583333333333,
+    "p95Hours": 2.529241388888889,
+    "worstHours": 2.529241388888889
   },
   "decisionCoverage": {
-    "total": 7,
-    "decided": 7,
+    "total": 54,
+    "decided": 54,
     "complete": true
   },
   "pending": {
-    "total": 123
+    "total": 121
   },
   "profileResolution": {
     "cached": 107
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4713,
+    "completeOffers": 4718,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-15T02:57:48.307Z",
-      "got": 11,
-      "new": 7,
-      "lag": 0.17
+      "at": "2026-11-15T03:14:24.151Z",
+      "got": 69,
+      "new": 54,
+      "lag": 0.09
     },
     "search:commit": {
-      "at": "2026-11-15T02:57:48.307Z",
-      "got": 0,
-      "new": 0,
-      "lag": null
+      "at": "2026-11-15T03:14:24.160Z",
+      "got": 10,
+      "new": 2,
+      "lag": 0.81
     }
   },
   "audit": {
-    "at": "2026-11-15T02:57:19.001Z",
+    "at": "2026-11-15T03:12:40.758Z",
     "mode": "live",
     "collection": {
-      "returned": 11,
-      "kept": 7,
-      "duplicate": 4,
+      "returned": 69,
+      "kept": 54,
+      "duplicate": 15,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 5,
-      "rejected": 2,
+      "accepted": 23,
+      "rejected": 31,
       "reasons": {
-        "no_offer_term": 1,
-        "no_fbs_school": 1
+        "hard_negative": 3,
+        "no_fbs_school": 14,
+        "no_offer_term": 8,
+        "non_fbs_offer_target": 6
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2121797221188616547",
-          "author": "kenfoody",
-          "searchJob": "notre-dame",
-          "text": "I'M SOOO SICK OF THESE 3Q OFFENSIVE POSSESSIONS! • at Utah: 0 pts 3 poss • at Arizona State: 0 pts 2 poss • at UCF: 7 pts 3 poss • vs. Notre Dame: 0 pts 2 poss • vs. Iowa State: 7 pts poss 56 Offensive Plays 2.34 yds PP • vs Baylor so far.."
+          "reason": "hard_negative",
+          "postId": "2121799060449313183",
+          "author": "thehouseofgoose",
+          "searchJob": "uconn",
+          "text": "THE RECORD, DECLARED IN THE ROYAL HOUSE OF GOOSE, November 14, 2026. The Register Current of the Grievances of a Citizen of the United States of America Every petition, inquiry, indictment, condemnation and damnation raised from this accoun"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121788944719249791",
+          "author": "thehouseofgoose",
+          "searchJob": "uconn",
+          "text": "ROUND XVIII · CHINA · Material Internal Improvements A CITIZEN'S MITIGATION BRIEF ON THE PEOPLE'S REPUBLIC OF CHINA: THE LINES THAT DO NOT MOVE, THE LEVERS ON THE TABLE, AND A DOOR, WHILE IT STANDS OPEN Raised by a citizen of the United Sta"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2121789217831530504",
-          "author": "tattedirishguy",
-          "searchJob": "notre-dame",
-          "text": "There are 13 bowl games that pay schools significantly more than the 1st round of the CFP. Some actually pay more than the 1st and 2nd rounds combined. Offer some of that to the players and I bet they’ll elect to play in those bowl games."
+          "postId": "2121737836453871698",
+          "author": "foxnews",
+          "searchJob": "air-force",
+          "text": "They moved to Canada chasing the promise of free health care. Instead, an American veteran says she was offered assisted death rather than the treatment she needed. Kristin and Donovan Logan say their experience with Canada’s universal heal"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121782592865264118",
+          "author": "helenaristov",
+          "searchJob": "air-force",
+          "text": "https://t.co/NecGUyOhm2"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121488350028685538",
+          "author": "jimjjackson2",
+          "searchJob": "air-force",
+          "text": "#SlavaUkraïni 🇺🇦🇺🇦🇺🇦"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121222487614882113",
+          "author": "maya10995",
+          "searchJob": "air-force",
+          "text": "https://t.co/Ah6whU5egs"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2121789514905522681",
+          "author": "commitboundsb",
+          "searchJob": "auburn",
+          "text": "Softball Recap · Sat., Nov. 14 🥎 Two time Olympic gold medalist and longtime ESPN analyst Michele Smith is the new commissioner of the Professional Softball League. • PSL: Smith, a National Softball Hall of Famer who played 16 pro seasons "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121792965890679237",
+          "author": "grainreader",
+          "searchJob": "florida",
+          "text": "@vivekmjacob ...translation: #Marsch refused to offer #IvanBarton a seaside condo in Florida #IYKWIM (that Ivan be @concacaf loco)"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121787695966146564",
+          "author": "galtrand13",
+          "searchJob": "florida",
+          "text": "The files are of no use to the Democrat communist cult if they show that Donald Trump is innocent. They only remain valuable to the cult if they remain hidden and the propagandists from those dependency plantations can continue to imply tha"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121785262510379245",
+          "author": "disabilityresol",
+          "searchJob": "florida",
+          "text": "In this video, Disability Attorney Walter Hnot of the Disability Resolution Law Firm goes over how Social Security is designed to replace about 40 percent of an average earner’s pre-retirement earnings. America’s Most Viewed, Clicked On, Su"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121785257431052417",
+          "author": "disabilityresol",
+          "searchJob": "florida",
+          "text": "In this video, Disability Attorney Walter Hnot of the Disability Resolution Law Firm goes how social security is designed to replace about 40% of an average earner's pre-retiremente earnings. America’s Most Viewed, Clicked On, Subscribed To"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121782238018675188",
+          "author": "caajobsite",
+          "searchJob": "florida",
+          "text": "🚨 Anesthesiologist Assistant- Competitive Pay + Flexible Schedule | St. Joseph's Hospital 💼 View job: https://t.co/xD0uuglfUa 📍 Tampa, Florida-Tampa Bay BayCare Medical Group (BMG) is excited to offer opportunities for Certified Anesthes"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121770181571539253",
+          "author": "ryan_eminhizer",
+          "searchJob": "florida",
+          "text": "JACQUEZ TULLIS SENTENCED TO 84 MONTHS FOR $2.3 MILLION SHAM CLINIC FRAUD Jacquez Dion Tullis, 42, of Wellington, Florida, was sentenced to 84 months in federal prison for using sham cosmetic surgery clinics and the stolen identities of more"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121242288546349396",
+          "author": "sarahaoulton",
+          "searchJob": "ucla",
+          "text": "CHINA CHART #03: ALLEGED NATIONWIDE CAPTURE OF STATE AND TERRITORIAL BAR ADMISSIONS BY THE NATIONAL CONFERENCE OF BAR EXAMINERS AND ITS ALLEGED CHINESE COMMUNIST PARTY-LINKED CONTROL China Chart #03 lists the states, commonwealths, and inha"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121756421163475412",
+          "author": "nocontextcfb",
+          "searchJob": "usc",
+          "text": "https://t.co/kgd9qeKh1O"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121802576081441065",
+          "author": "kemyronp61",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an Offer from Huntingdon College ❤️🤍! @CoachGreenHC @HawksFootball #GABOS #AGTG https://t.co/dNwVKQdfbr"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121801002072379876",
+          "author": "janono_19",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Huntington College! Loved the atmosphere, players, and coaches! #hawkem @CoachGreenHC @CoachReeves_UAB @JasperVikes_FB @HawksFootball https://t.co/IBs8gJ9Zor"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121800904907071779",
+          "author": "sofiacaro_30",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great conversation with Coach Cole, I am blessed to receive an offer from The University of Incarnate Word #agtg ✝️🙏🏽 https://t.co/HTkDQxAhxC"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121800219226718409",
+          "author": "astropraveen",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive the divine darshan of Shri Khatu Shyam Ji at the holy Khatu Dham, Sikar, Rajasthan May Baba Shyam's divine blessings always shower happiness, peace, prosperity &amp; strength upon everyone. #JaiShreeShyam #KhatuShyam #Shy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121795686488232077",
+          "author": "eliberton2027",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @sbubearcats_fb today. Thank you @Coach_Brummer for inviting us to visit. Love the atmosphere. Great team win! #RollCats @oakridgefb @str8texn @CoachBlackshire @on3recruits @vypehouston @247recruiting #TXHSF"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2121795033703879044",
+          "author": "natejackson08",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I’m extremely blessed to receive my first offer from New Mexico Military!! @Coach_Hendrix1 @dfowler1516 @Lakewoodhsfb https://t.co/ClwajqTU1K"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121793445064737062",
+          "author": "reecerunyan42",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Had a great visit today with @usf_mbkb and blessed to receive an offer! Thank you @CoachNateConley for the opportunity! https://t.co/GpTpkSC62B"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121793342627553431",
+          "author": "cash_koertner",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great gameday visit and conversation with @CoachSutton02, I’m blessed to receive an offer from @sbubearcats_fb! @SanditeRecruit @SS_SanditeFB @CoachGreenOL @coachklinck https://t.co/GufE6PK4sq"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2121792229542867144",
+          "author": "maddoxjennings3",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 2nd offer from @LCU_MBSK ! @CoachArmstrong_ @CoachLMarshall @CoachSmith_A61 @CoachJBrazil @AllNOneSports1 https://t.co/sZXJSTeFNh"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 5,
+      "accepted": 5,
+      "rejected": 18,
       "reasons": {
-        "reporter_missing_player_name": 1,
-        "school_not_resolved_confidently": 4
+        "multiple_resolved_schools": 1,
+        "bare_mention_requires_llm": 11,
+        "player_missing_class_year": 1,
+        "school_not_resolved_confidently": 3,
+        "explicit_non_fbs_target": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
+          "reason": "multiple_resolved_schools",
+          "postId": "2121794258977869962",
+          "author": "flacachica1105",
+          "searchJob": "uconn",
+          "text": "@CouchCoachNKY The only job Danny Hurley is leaving UConn for is Duke...if it ever opens up. Deep down, he's still the 18 yr old who never got offered a scholarship like his brother and he's still stung by it. So pipe down delusional fans o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121800763567665202",
+          "author": "colt0nfrancis",
+          "searchJob": "air-force",
+          "text": "Thank you @CoachTCalhoun for the official offer to play at Air Force! @MarcBacote @MountainWest @WAfootball1834 @mikegregs57 @Ricoknowstiktok @NE6FB_Recruits @ScoutingNE @JonasLGray https://t.co/xyeAGR00Io"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121800016675189020",
+          "author": "watchdog_mp",
+          "searchJob": "air-force",
+          "text": "Canada promised free healthcare. An dual US-CAN citizen, American Air Force veteran with stage 4 ovarian cancer got offered MAID before she ever saw an oncologist. She fled back to the U.S. for treatment. She’s now in remission. “Free” heal"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121796844221251709",
+          "author": "retiredtopcop",
+          "searchJob": "air-force",
+          "text": "That \"FREE\" Canadian healthcare ?? 🙄 😲 Kristin Logan and Donovan James say they moved to Canada with their sights set on the financial and medical benefits of publicly funded healthcare — but say they encountered a \"dystopian\" system that"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121778655613628639",
+          "author": "ungerfield",
+          "searchJob": "air-force",
+          "text": "Hey I offered to play chess with Putin to save your country I even got Biden on the horn said get Air Force One ready let's go"
+        },
+        {
+          "reason": "player_missing_class_year",
+          "postId": "2121790092125839622",
+          "author": "kaihamilton0",
+          "searchJob": "eastern-michigan",
+          "text": "I am blessed to receive an offer from Eastern Michigan!!!! Thank you Jesus!!! #popmode #agtg #longlivemybrother @coachTcsm @CoachJPollak @CoachDovey https://t.co/Dc2ucpiIla"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121783191472099579",
+          "author": "np4football_ot",
+          "searchJob": "massachusetts",
+          "text": "More MAC recruiting we reported this week: Sacramento State: JUCO OL King Malepeai offer UMass: '28 DL Ernesto Ballesteros (CT) game day visit #SacState #UMass #MACtion #CFBRecruiting #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121797657110913510",
+          "author": "hawkeyebeliever",
+          "searchJob": "memphis",
+          "text": "@realwickedbrew If you think after 7+ hours of no flights taking place anywhere in the country that there wasn’t an abundance of crews available all over the country that had the ability to fly into Memphis or Tupelo Then you are too stupid"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121785265966723352",
+          "author": "aihbmemphis",
+          "searchJob": "memphis",
+          "text": "Sell My House Fast Germantown: show the assessment date with the repair estimate. A changed condition may need a new discussion before you compare cash offer terms. Memphis team: (901) 763-6616 #AsIsHomeBuyerMemphis https://t.co/3s6tfqGIzD"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2121787566165012526",
+          "author": "jazzynaturist",
+          "searchJob": "florida",
+          "text": "offers perspective and philo seems to have gained bunch. 93 yards rushing (7.8 avg). he’s chomping away. orchestrated two — two point conversions! we got this. GO GATORS 21-14 9:08 left 🐊"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2121784130149195869",
+          "author": "kadarrionn",
+          "searchJob": "florida",
+          "text": "After a great conversation with @wright_woody i am blessed to receive my first offer from community christian college (florida) #AGTG ✝️ https://t.co/a3c24BSqDH"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121783898615017550",
+          "author": "frandango69",
+          "searchJob": "florida",
+          "text": "PROTECTING OUR YOUTH Saving our children. A teen made an immature decision, had consensual sex. No rape, no force, but yet FLORIDA offers NO WAY OUT—With this pool law you put in, you expect him to let a child drown or he goes to prison? I "
+        },
+        {
           "reason": "reporter_missing_player_name",
-          "postId": "2121789357304557953",
-          "author": "jordanxlewis24",
-          "searchJob": "notre-dame",
-          "text": "VERY Blessed to recieve an offer from @NDFootball!! @Marcus_Freeman1 @CoachJoeRudolph @wesyerty24 @TomLoy247 @OLCoachLanc @coachfarmer71 @coachmorrisDHS @dormanstrength @ChadSimmons_ @MikeDenbrock @Andy_Villamarzo @AllenTrieu @benjaminwolk "
+          "postId": "2121781538690109504",
+          "author": "michaelarothman",
+          "searchJob": "florida",
+          "text": "𝐄𝐔𝐑𝐎𝐏𝐄’𝐒 𝐒𝐔𝐌𝐌𝐄𝐑 𝐇𝐄𝐀𝐓 𝐊!𝐋𝐋𝐒 𝐌𝐎𝐑𝐄 𝐏𝐄𝐎𝐏𝐋𝐄 𝐓𝐇𝐀𝐍 𝐀𝐌𝐄𝐑𝐈𝐂𝐀’𝐒 𝐆𝐔𝐍𝐒 𝐃𝐎 𝐀𝐋𝐋 𝐘𝐄𝐀𝐑 — 𝐀𝐍𝐃 𝐓𝐇𝐄𝐘’𝐑𝐄 𝐅𝐈𝐆𝐇𝐓𝐈𝐍𝐆 𝐀𝐈𝐑 𝐂𝐎𝐍𝐃𝐈𝐓𝐈𝐎𝐍𝐈𝐍𝐆 Konstantin Kisin has had enough of Britai"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121767488245637493",
+          "author": "factsmatter5891",
+          "searchJob": "florida",
+          "text": "@Bobsapp10807794 @GLBinvestor @grok Because we can defend our own land. That’s why we wouldn’t offer Florida to Putin to end the war in Ukraine. We don’t need to, and we don’t want to. Yet people hate us for having that type of power🤷🏻‍♂️"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121783392719032640",
-          "author": "goon1679",
-          "searchJob": "notre-dame",
-          "text": "@ClareH57130 @politicseu7 Even if they only \"employ their own\", they're offering a service, paying staff, and paying tax, more than a lot of useless native cunts here. What business grants are being offered to immigrants that native Irish d"
+          "postId": "2121796887317733486",
+          "author": "donne1012",
+          "searchJob": "ucla",
+          "text": "Let me get this straight. You’re going to come on here and spew this type of garbage. You just have an agenda and can’t offer an objective opinion on the subject. You’re an SEC football fan that thinks that everyone needs to bow to the leag"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121779923601731690",
+          "author": "sarahaoulton",
+          "searchJob": "ucla",
+          "text": "CHINA CHART #04: ALLEGED SPONSORS OF THE NATIONAL COUNCIL ON MEASUREMENT IN EDUCATION (2000–2025) ALLEGEDLY FUNDING THE ALLEGED TRANSNATIONAL CRIMINAL ORGANIZATION THAT IS ALLEGEDLY CONTROLLING AMERICAN EDUCATIONAL TESTING AND LICENSING Chi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2121801431145443394",
+          "author": "ryleyfitz",
+          "searchJob": "usc",
+          "text": "Comparing the two is ridiculous. 😂 I get it, the IU fan made a great kick. But we’re talking about an uncontested halftime contest, not a Big Ten football game. Let’s see how that kick looks in full pads, with a helmet on and 300-pound ath"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2121772339012444457",
-          "author": "ciaran_flynn",
-          "searchJob": "notre-dame",
-          "text": "IRISH MIDLANDS FREE Excursion out to an Island for lunch and the December offline space and Bushcraft/Shelter Demo, Saturday the 5th. We can try to arrange lifts to the launch site from the nearby train station, if you let us know ASAP. Som"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121772055272018139",
-          "author": "eireagcaint",
-          "searchJob": "notre-dame",
-          "text": "IRISH MIDLANDS FREE Excursion out to an Island for lunch and the December offline space and Bushcraft/Shelter Demo, Saturday the 5th. We can try to arrange lifts to the launch site from the nearby train station, if you let us know ASAP. Som"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2121767650787229921",
-          "author": "kitmurray",
-          "searchJob": "notre-dame",
-          "text": "If the Irish mother and her family want to avail of Tiglin services, they would be welcomed. They are a charity providing residential services to vulnerable people, eg addicts, and an outreach service providing food and basics to rough slee"
+          "postId": "2121785697904333110",
+          "author": "endznleprechaun",
+          "searchJob": "usc",
+          "text": "USC should offer Riley a lifetime contract"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 213,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "uconn: rate limited"
-      ]
+      "jobs": 217,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
-      "samples": [],
+      "samples": [
+        {
+          "reason": "other_sport",
+          "postId": "2121799060449313183",
+          "author": "thehouseofgoose",
+          "text": "THE RECORD, DECLARED IN THE ROYAL HOUSE OF GOOSE, November 14, 2026. The Register Current of the Grievances of a Citizen of the United States of America Every petition, inquiry, indictment, condemnation and damnation raised from this accoun"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2121788944719249791",
+          "author": "thehouseofgoose",
+          "text": "ROUND XVIII · CHINA · Material Internal Improvements A CITIZEN'S MITIGATION BRIEF ON THE PEOPLE'S REPUBLIC OF CHINA: THE LINES THAT DO NOT MOVE, THE LEVERS ON THE TABLE, AND A DOOR, WHILE IT STANDS OPEN Raised by a citizen of the United Sta"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2121714834123506151",
+          "author": "aabonnbc",
+          "text": "Playmaker from Delaware ⭐️⭐️⭐️⭐️ @iamjamartaylor1 has committed to the 2027 Navy All-American Bowl #NavyAAB 🇺🇸 @AmericasNavy https://t.co/3rXKtxQPM1"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2121697973297963180",
+          "author": "uleijk",
+          "text": "KNIGHT CROSSING: 406 HOMES, FIVE REQUESTED EXCEPTIONS, PUBLIC SEWER MONEY, AND A LAWSUIT INVOLVING THE PROPERTY OWNER Milford’s Planning Commission is scheduled to hold a public hearing Tuesday, November 17, on Ordinance 2026-18, a proposal"
+        }
+      ],
       "stats": {
-        "candidates": 0,
+        "candidates": 4,
         "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "rejected": 4,
+        "reasons": {
+          "other_sport": 1,
+          "juco_or_transfer": 1,
+          "no_football_context": 1,
+          "roundup_too_long": 1
+        }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 5,
-      "brandNewOffers": 0
+      "acceptedEvidence": 5,
+      "rejectedCandidates": 18,
+      "brandNewOffers": 5
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-15T02:57:49.137Z"
+    "status rebuilt locally from current store on 2026-11-15T03:14:25.064Z"
   ]
 }
