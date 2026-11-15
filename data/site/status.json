@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T22:29:01.289Z",
+  "generatedAt": "2026-11-15T22:44:31.294Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-15T22:29:00.463Z",
+    "at": "2026-11-15T22:44:30.623Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
-    "fullSweepCycles": 8
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,42 +32,50 @@
   },
   "staleSchools": [
     {
-      "id": "louisiana-monroe",
+      "id": "kentucky",
       "hours": 2.3
     },
     {
-      "id": "texas-state",
+      "id": "maryland",
       "hours": 2.3
     },
     {
-      "id": "toledo",
+      "id": "texas-tech",
       "hours": 2.3
     },
     {
-      "id": "troy",
+      "id": "tulsa",
       "hours": 2.3
     },
     {
-      "id": "tulane",
+      "id": "uab",
       "hours": 2.3
     },
     {
-      "id": "washington",
+      "id": "virginia",
       "hours": 2.3
     },
     {
-      "id": "western-michigan",
+      "id": "virginia-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0193027777777777,
-    "p95Hours": 2.0239455555555557,
-    "worstHours": 2.2738280555555557
+    "medianHours": 1.2776377777777779,
+    "p95Hours": 2.2822805555555554,
+    "worstHours": 2.2822805555555554
   },
   "decisionCoverage": {
-    "total": 67,
-    "decided": 67,
+    "total": 54,
+    "decided": 54,
     "complete": true
   },
   "pending": {
@@ -76,403 +84,388 @@
   "profileResolution": {
     "cached": 109
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 4,
   "quality": {
-    "completeOffers": 4758,
+    "completeOffers": 4762,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-15T22:29:00.448Z",
-      "got": 101,
-      "new": 67,
-      "lag": 0.04
+      "at": "2026-11-15T22:44:30.578Z",
+      "got": 114,
+      "new": 54,
+      "lag": 0.1
     },
     "search:commit": {
-      "at": "2026-11-15T22:29:00.462Z",
-      "got": 38,
-      "new": 7,
-      "lag": 0.82
+      "at": "2026-11-15T22:44:30.622Z",
+      "got": 34,
+      "new": 9,
+      "lag": 0.05
     }
   },
   "audit": {
-    "at": "2026-11-15T22:27:18.364Z",
+    "at": "2026-11-15T22:42:42.033Z",
     "mode": "live",
     "collection": {
-      "returned": 101,
-      "kept": 67,
-      "duplicate": 32,
-      "tooOld": 2,
+      "returned": 114,
+      "kept": 54,
+      "duplicate": 59,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 29,
-      "rejected": 38,
+      "accepted": 32,
+      "rejected": 22,
       "reasons": {
-        "no_offer_term": 8,
-        "no_fbs_school": 13,
-        "non_fbs_offer_target": 7,
-        "hard_negative": 10
+        "non_fbs_offer_target": 5,
+        "no_fbs_school": 10,
+        "no_offer_term": 5,
+        "hard_negative": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2122093110587281731",
-          "author": "robinfrancis",
-          "searchJob": "temple",
-          "text": "https://t.co/BiepHvkFnR"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122073661893124159",
-          "author": "temple_eight",
-          "searchJob": "temple",
-          "text": "@pequityresearch They should have no choice but to offer reigned in guidance on Tuesday now that they're under scrutiny."
+          "reason": "non_fbs_offer_target",
+          "postId": "2122082846311354836",
+          "author": "michaelmims_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 2nd offer and first D1 offer from Lamar University! #AGTG @HightowerFB @coachanthony46 @Marshall_Reggie @CoachStoker_ @CoachDrones @MrCoachPalmer @CoachTuck03 https://t.co/uBf1Zxungl"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122091325696712893",
-          "author": "darell22x",
-          "searchJob": "alabama",
-          "text": "Blessed to receive another offer from Alabama State University!! @CoachLockdown23 @erob50 @2ndSeven777 @DbCoachJulian @JUCOFFrenzy https://t.co/1NAcxNhErb"
+          "postId": "2122080990663503962",
+          "author": "mace_cayden",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "I am really blessed to receive an offer from Southeastern College huge thank you Coach Barnett for the official offer to play for their program."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122080644503064791",
+          "author": "connorwalter76",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After a great talk with @CoachNiccum66 I am blessed to receive an offer from butler community college. #WarDaddy https://t.co/Px4C347wIP"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122088778604953934",
-          "author": "markisspeterson",
-          "searchJob": "alabama",
-          "text": "After a Great Conversation with @CoachPatt_212 I'm blessed to receive another D1 Offer From Alabama State!! @MiltonWAdamsII @RealusGeorgeJr @JTimmons75 https://t.co/SKG3CanP3K"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122079872541683836",
-          "author": "jack_stout_ii",
-          "searchJob": "alabama",
-          "text": "@selacorp @kirawontmiss My niece is just about to start her residency. The location and opening were already offered to her about a year ago. The location is crap hole Alabama and the pay is very low, but in the long run it will be worth it"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122066818441621586",
-          "author": "alabama__w",
-          "searchJob": "alabama",
-          "text": "@Vybrance Oh hell that was an order nor an offer! 🤣"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122064399611392379",
-          "author": "davidjtalarico1",
-          "searchJob": "illinois",
-          "text": "@RapSheet I was offered 2 free tickets to this game today. No thank you. Bear down."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122002728368951599",
-          "author": "realhickory",
-          "searchJob": "indiana",
-          "text": "The state of Indiana has a residency rule that you must be a resident for one year prior to running for public office. That you physically must have lived here! For some reason that rule was NOT enforced against Democrat Beau Bayh when he r"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122080065689157999",
-          "author": "prepbaseballin",
-          "searchJob": "indiana",
-          "text": "𝗧𝗛𝗘 𝗧𝗢𝗣 𝗨𝗡𝗖𝗢𝗠𝗠𝗜𝗧𝗧𝗘𝗗 𝗕𝗔𝗧𝗦 𝗜𝗡 𝗧𝗛𝗘 𝟮𝟬𝟮𝟴 𝗖𝗟𝗔𝗦𝗦 MIF Donovan Craig (@Dono_craig10) offers one of the best hit tools on the board. Strong contact skills in our looks w/ sneaky pop. 6.8 runner, plays hard at all t"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121038719297716264",
-          "author": "prepbaseballin",
-          "searchJob": "indiana",
-          "text": "𝗧𝗛𝗘 𝗧𝗢𝗣 🔟 𝗨𝗡𝗖𝗢𝗠𝗠𝗜𝗧𝗧𝗘𝗗 𝗕𝗔𝗧𝗦 &amp; 𝗔𝗥𝗠𝗦 𝗜𝗡 𝗧𝗛𝗘 𝟮𝟬𝟮𝟴 𝗖𝗟𝗔𝗦𝗦 Our staff highlighted the premier @PB_Uncommitted talent on both sides of the ball in Tuesday’s rankings update. Find a full report on each pros"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122072994184896952",
-          "author": "gamblergazette",
-          "searchJob": "indiana",
-          "text": "🏀 SYRACUSE @ ST. JOHN’S — CBB PREVIEW Rick Pitino’s Red Storm are getting 93% of moneyline tickets, but our model isn’t convinced this matchup warrants a double-digit blowout. St. John’s is the better team. The question is whether Syracuse"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122079434400272597",
-          "author": "aiinspoworld",
-          "searchJob": "usc",
-          "text": "Today's AI frontier news: 18 top stories, ChatGPT Wallet, Anthropic's compute dilemma, LangChain's $300M round https://t.co/zom4KxJRrY"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122092037281374544",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122091938736144398",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122091881894965252",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122091822298304914",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122091279412842654",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122091170885210147",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122091040161304662",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122090933445640322",
-          "author": "randyferrell",
-          "searchJob": "washington",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+          "postId": "2122077939928096841",
+          "author": "isaac_worjloh",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "After an amazing talk with @CarlosGust3 I am blessed to receive a offer from Ottawa university https://t.co/DnoEGdmJhc"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122093906863210841",
-          "author": "agee_linzel",
+          "postId": "2122077280428273959",
+          "author": "caltompkins_",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from Florida Memorial University! All glory to God. Thank you to the coaching staff for believing in me and giving me this opportunity. The journey continues. #FMU #feed https://t.co/SePskH5rv9"
+          "text": "After a great conversation with @Coach_Poppe I am blessed to receive an offer from Columbia University! @Coach_Skjold @Coach_Butler_ @Wick_Football_ @Coach_Wayne55 @CoachHallenbeck @Coach_SSStan https://t.co/dbfZTMqn7z"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122090909710135521",
-          "author": "julianyoung_",
+          "postId": "2122075977471963218",
+          "author": "mendoza_miguel2",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my second official offer https://t.co/kjpOyOeBD5"
+          "text": "After a great conversation with @CoachLyt_Coe I am blessed to receive an offer from @KohawksFootball! @robertpomazak @SCNFBOFFICIAL @thatboyJuJu21 @CoachRMiller0 @underdogrush https://t.co/FBuoAE0eYE"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122072519805227175",
+          "author": "davejohnson3_",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Extremely blessed to receive a camp invite to @AAECamp @aaerecruits @247recruiting @PrepRedzone @PrepRedzoneNext @RecruitMatador https://t.co/kU3AbKbWqd"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122089452042399814",
-          "author": "koltonpete2",
+          "postId": "2122072303106396579",
+          "author": "white_reed52557",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an official offer and roster spot from Capital University. Thank you to coach @Coachcalexander for the opportunity to be great. @newark_football @coach_taylor5 @BillFranks25 https://t.co/JlcMXS8FuC"
+          "text": "Blessed to receive another offer! @Coach_Holloway5 https://t.co/c2rGI7CtFD"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122069862608449763",
+          "author": "cruehuisman11",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive All-District! @MichFBFrenzy @MIexposure @PrepRedzoneMI @alex_pallone @CoachKNoDuke @AllenTrieu @scoutRyanPRZ @JMHenige https://t.co/Tzr9FkeEHM"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122069561180553361",
+          "author": "gunnerjacobss",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "blessed to receive a offer from st. norbert college @SNCfootball https://t.co/Yk93bgTtcY"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122069034615337274",
+          "author": "maxgibson2028",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Full Jr Season Highlights‼️‼️(6 games played) (Blocking starts at 2:38) Blessed to receive 1st team all league in only 6 games‼️ - 400 yards‼️ - 25 catches‼️ - 4 Tds ‼️ - 15.2 yards per catch ‼️ @PapermakerFB @CoachRich74 @B12PFootball @Bra"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122066395546472511",
+          "author": "kiemeledylan",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive a write up from @sixstarfootball after giving this season my all. @CoachRobReeves @PrepRedzoneMN @StribVarsity @RyanBurnsMN @MNHSFBProspects @OJW_Scouting @MNFBSpotlight @SpecialTeamsFB @Phase3Kicking @ChaseWilkens @Coach"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122093339985977728",
+          "author": "slashgear",
+          "searchJob": "troy",
+          "text": "Toro, Craftsman, Yard Force, Senix, and Troy-Bilt offer gas lawn mowers with Briggs &amp; Stratton engines, though not every model uses one. https://t.co/V9Ap1EgVSJ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122081562732941658",
+          "author": "troybuildsapps",
+          "searchJob": "troy",
+          "text": "@realcolegordon @joshdgavin They shouldn't, validating the offer is the hard part"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122075692737184011",
+          "author": "samspiegs",
+          "searchJob": "tulane",
+          "text": "TCU hosted Tulane OT commit Jackson Shaw over the weekend and he returns home with an offer"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122081628277133685",
+          "author": "josiahroyal_",
+          "searchJob": "phrase:\"honored to receive an offer\"",
+          "text": "After an amazing game visit and conversation with @CoachFletch72 I am blessed and honored to receive an offer from @OuachitaFB! #dragonpride https://t.co/DR9sX3OnAr"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122089430999581065",
-          "author": "lewis_garen",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great talk with @CarlosGust3, I’m blessed to receive an offer from Ottawa University! #A4G @priority11fb https://t.co/dekWgH6KES"
+          "postId": "2122084797808005561",
+          "author": "annistona24",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Blessed and grateful to receive an offer from Meridian Community College! Thank you for the opportunity! https://t.co/lqDoqYxLej"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122088218606575633",
+          "author": "milesrechtzigel",
+          "searchJob": "phrase:\"thankful to receive an offer\"",
+          "text": "Thankful to receive an offer to play basketball at St. Scholastica! I Had a great visit and really enjoyed learning about the program. Thank you @Coach_Ben_Davis and @SamsRecruitRoom for the opportunity! @mnfuryboys @RyanJamesMN https://t.c"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122096948442550646",
+          "author": "richardjwood",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/a0BLucPJn0"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122096008762978578",
+          "author": "emmanuelinvest",
+          "searchJob": "texas-tech",
+          "text": "That's a very good point. Data gravity is a real obstacle, and I wouldn't expect enterprises to move established databases from AWS simply because CoreWeave now offers PostgreSQL. I think the more immediate opportunity is new AI workloads b"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122091054812082483",
+          "author": "pmaxiums",
+          "searchJob": "texas-tech",
+          "text": "@foster_type If you remember Louis Farrakhan, same type of person. Let him exist outside of politics, he has nothing to offer to governance or a better future. He may even be worse than Farrakhan who promoted a better life away from ghetto "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122089619801911507",
+          "author": "techsalesjack",
+          "searchJob": "texas-tech",
+          "text": "5 of my clients signed offers this week. 3 more have offers on the table, and 25 moved forward in interviews. Joe spent years in the mortgage industry, never sure his job would be there tomorrow. He went from his first interview to an $85K "
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 27,
+      "accepted": 4,
+      "rejected": 28,
       "reasons": {
-        "school_not_resolved_confidently": 1,
-        "unresolved_offer_target": 1,
-        "bare_mention_requires_llm": 15,
-        "multiple_resolved_schools": 7,
-        "reporter_missing_class_year": 2,
-        "player_missing_class_year": 1
+        "school_not_resolved_confidently": 9,
+        "bare_mention_requires_llm": 14,
+        "multiple_resolved_schools": 3,
+        "player_display_name_unusable": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2122086138433446370",
-          "author": "ayeduhdee",
-          "searchJob": "south-florida",
-          "text": "@LifOfLakers @PurpGoldLakers Bulls might kill Pelinka for that offer"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2122092277858247119",
-          "author": "profilefblive",
-          "searchJob": "temple",
-          "text": "🚨 First D1 Offer 🚨 2028 RB Carlton Thomas from Vineland HS, NJ has received his first D1 offer from Temple. @carltonthe0nefb https://t.co/1TWw1UCJBA"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122083240433643927",
-          "author": "okadikeonyeisi",
-          "searchJob": "temple",
-          "text": "You're worthy of the best life has to offer, but please don't sabotage yourself. Stay positive, and don't fall for the dirty tricks your mind is playing on you. That fear you feel is just self-protection mechanism that is not always working"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122077381112537475",
-          "author": "effluxis",
-          "searchJob": "temple",
-          "text": "@jsensarma @unrave20 Most of these rituals are excessive considering our population and \"temple tourism\", just offer some flowers and leaves and be done with it."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122072064945438985",
-          "author": "tandon4congress",
-          "searchJob": "temple",
-          "text": "@RoKhanna The Shiv Durga Temple in your constituency was broken into again this morning, and it feels like Hindu temples are being targeted again and again while we rarely hear of this happening to other places of worship; how can your offi"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122071323211923653",
-          "author": "theologydoc",
-          "searchJob": "temple",
-          "text": "Wow so awkward. Ongoing propitiatory sacrifice: ROMAN CATHOLICISM: Council of Trent (Session 22) defines the Mass as a true propitiatory sacrifice in which Christ is immolated in an unbloody manner, offered for the living and the dead, and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122062013597913495",
-          "author": "brandon_923",
-          "searchJob": "temple",
-          "text": "is either distant or unjust. But Psalm 73 offers a different way. It invites us to do what Asaph did: enter the sanctuary. That sanctuary might not be a physical temple—it may be your bedroom floor, your car on a lunch break, or a quiet mom"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122066061067796813",
-          "author": "jforealz17",
-          "searchJob": "alabama",
-          "text": "I am with you on this list… and people can say all of these guys wouldn’t coach and Kentucky blah blah blah, but Kentucky is still a blue blood! And is still regarded as one of the top jobs in basketball just like Alabama is in football. We"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122085935626260981",
-          "author": "exscapevelozity",
-          "searchJob": "arkansas",
-          "text": "@thetrueshelby I'm pretty sure she would abandon Arkansas the second she gets any \"national\" offer. I think she kind of despises Arkansas."
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2122079695735013468",
-          "author": "agedits32",
-          "searchJob": "arkansas",
-          "text": "JUCO CB @mirzzy_55 adds an offer from Arkansas Pine Bluff! 🏈 5’11” • 195 lbs | Highland CC 📚 3.2 GPA • NCAA qualifier Three years of eligibility remaining. Another D1 opportunity for Jahmir Diabira. Check him out ⬇️ https://t.co/yEe4e9ZGC"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2122065500935008369",
-          "author": "arkrecuriting94",
-          "searchJob": "arkansas",
-          "text": "I’m predicting NLR RB Christian Reeves to Arkansas🐗 Just picked up an offer last night https://t.co/4VJ6dW0d9h"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122061383902601639",
-          "author": "ryan07777631",
-          "searchJob": "arkansas",
-          "text": "21 TDs on 123 Touches: Why Arkansas Offered RB Christain Reeves https://t.co/OJynU4gi43 via @YouTube #WPS"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122069934075261093",
-          "author": "richdavisc21",
-          "searchJob": "illinois",
-          "text": "New place. New possibilities. Moving to Southern Illinois? Megan Whitecotton offers relocation support to help make your move smoother. Reach out at 618-997-6495 or megan@buysihomes.com. #SouthernIllinois #Relocation #Century21 https://t.co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122066914448966073",
-          "author": "loganpendragonm",
-          "searchJob": "illinois",
-          "text": "SCP-284 SCP-284 consists of a brother and sister who share one functioning brain between two separate bodies. They’re fraternal twins from Illinois, and from the outside they appear normal. The sister has the left side of the brain, while t"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122065007949353323",
-          "author": "cptnloco262",
-          "searchJob": "illinois",
-          "text": "@GuntherEagleman I will gladly accept @MarshaBlackburn 's offer for her seat and become a Tennessean. Illinois is lost anyways."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122093665854083500",
-          "author": "barrymoore70635",
-          "searchJob": "indiana",
-          "text": "What does the Indiana Secretary Of State actually do? What are the responsibilities and duties? The Indiana Secretary of State is a statewide elected constitutional officer (one of five) who serves as the state’s chief elections officer, ch"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122071778537423161",
-          "author": "ontaphoops",
-          "searchJob": "indiana",
-          "text": "LeBron James missed 83 days of fourth grade. He was nine years old in Akron, Ohio, moving from apartment to apartment with his mother Gloria, who had him when she was 16. In late 1993 they had to move again. Frank Walker coached him in yout"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122092117124075673",
-          "author": "arnaudmercier",
-          "searchJob": "washington",
-          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122091867856642419",
-          "author": "arnaudmercier",
-          "searchJob": "washington",
-          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122091614612996279",
-          "author": "arnaudmercier",
-          "searchJob": "washington",
-          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122091452507267390",
-          "author": "theoptpremium",
-          "searchJob": "washington",
-          "text": "@Investingcom It’s unusual for a Treasury Secretary to offer views on who should run a particular company. Whatever one thinks of the advice, investors now have to weigh something that isn’t in any earnings model, which is what Washington m"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122089917291393485",
-          "author": "uwhuskieswire",
-          "searchJob": "washington",
-          "text": "Washington Football Offers Rising 2028 California DB Following Visit 📸 Huskies Wire https://t.co/31CRt0T43s https://t.co/3sQM7b65qG"
-        },
-        {
-          "reason": "player_missing_class_year",
-          "postId": "2122086986504605837",
-          "author": "25_zeric",
+          "postId": "2122072902585450578",
+          "author": "corbin_logan4",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m blessed to receive another offer from LSU 🐯💛💜🤍 @clarencemcdoug1 @BrettSShufelt @CoachWrightPerk @LSUfootball @JUCOFFrenzy @JuCoFootballACE @MSJUCOREPORT @JUCOTopTalent @CoachJakeOlsen @WilsonDwike #GOTIGERS https://t.co/t4sNjiDKbL"
+          "text": "Blessed to receive my 1st offer from Georgetown! Go Tigers 🐅 #AGTG https://t.co/Ap6mG9yxCj"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122072459302347234",
+          "author": "darell22x",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Truly blessed to receive another offer D1 offer from UT Rio Grande Valley Vaqueros football !! @CoachAdayMac11 @UTRGVFootball @DbCoachJulian @2ndSeven777 @JUCOFFrenzy https://t.co/SBIGqPlr2T"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122089537820402005",
-          "author": "syracusecny",
-          "searchJob": "syracuse",
-          "text": "Brand New The North Face #Winter #Boots. New in Box. Original Price $170. Men's Size 10. Selling for $120.00 or Best Offer. Message if interested. I'll deliver these free if you're within a 15 mile radius of Syracuse. Questions? Also can sh"
+          "postId": "2122094794298298368",
+          "author": "profilefblive",
+          "searchJob": "texas-state",
+          "text": "Texas State extended four new scholarship offers to HS prospects during its game yesterday. @TXSTATEFOOTBALL 3.3⭐ 2028 WR Jacob Chevez @Jacob__Chevez 2.7⭐ 2030 RB De’curvian Ellerbe @dellerbe2030 2.7⭐ 2030 RB La’Zarus McCurry @laamccurry22 "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122094648168448092",
+          "author": "bsvonly",
+          "searchJob": "toledo",
+          "text": "@elonmusk A few weeks to refly a ship that just came back from space. Nobody else on Earth is even close. Meanwhile this is the man that @TheDemocrats are making public enemy number one when all they have to offer is Somali fraud instead of"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122086188039463393",
+          "author": "vuk_strbac",
+          "searchJob": "toledo",
+          "text": "Blessed to recieve an offical offer letter from @ToledoFB!! @BrianFolkerts @coach_mjacobs @TomLoy247 @AllenTrieu @BrianDohn247 @247Sports @On3 @Rivals @PrepRedzoneIL @PrepRedzoneIL @Andrew_Ivins @HawksMaine https://t.co/JFio7jGj1f"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122069607213375882",
+          "author": "realcoffeejim",
+          "searchJob": "toledo",
+          "text": "Lmao “bloodsucking lawyer” is a bold accusation coming from a guy whose entire online personality is screaming into the void and blocking people who ask for receipts. You’ve spent the whole thread demanding “legal victories” while offering "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122092608893649031",
+          "author": "jucofootballace",
+          "searchJob": "lsu",
+          "text": "La’Zeric Johnson @25_zeric @ Mississippi Gulf Coast @MGCCCBulldogs picks up @LSUfootball Offer @jucoweekly @MSJUCOREPORT https://t.co/gWQ3uftXaa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122092402194440271",
+          "author": "allentrieu",
+          "searchJob": "lsu",
+          "text": "LSU offers JUCO safety La'Zeric Johnson who had 91 tackles this season. He visited the Tigers last week and has two more trips before a decision. https://t.co/8ZJC2US3wu https://t.co/oLdhXMOCpr"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122087056587296893",
+          "author": "_ish_3",
+          "searchJob": "lsu",
+          "text": "People in charge of the New Orleans Bowl need to call Ole Miss and LSU and offer whatever it takes to get them to play each other in the bowl this year. Neither team has anything else to play for. Would be fun"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122084046192758803",
+          "author": "180_noscope",
+          "searchJob": "lsu",
+          "text": "@ConerlyCharlie @iamm4_2x @EverythingRebs What did Reggie Bush get his Heisman pulled for again? What was that admission Magin Johnson made about “big bags” being offered in the late 70s again? You’re a fucking delusional retard if you thin"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122095825157292197",
+          "author": "drjoshaxe",
+          "searchJob": "maryland",
+          "text": "In 2012, Dr. Alessio Fasano's team at the University of Maryland found something that should have changed how we treat Hashimoto's. They measured zonulin...the protein that unlocks your gut lining...in people with Hashimoto's. Zonulin was f"
+        },
+        {
+          "reason": "player_display_name_unusable",
+          "postId": "2122094413996347602",
+          "author": "jikoihighsmith",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Grateful to receive an offer from @NavyFB #GoNavy #RollGoats @Jake_Pew @Mavs__football @CoachPJCooney https://t.co/QyzWJGmkyP"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122096955136561540",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon UK Early Black Friday Deal ] 📦 A1695 Anker Power Bank 25,000mAh Travel Essential with 165W Total Output at £65.55 (RRP £89.98) [ad] https://t.co/dTqL1Swp6X #amazondeals #techdeals #blackfridaydeal – 25,000mAh capacity – 165W total"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122095516028989804",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon UK Deal ] 📦 Google Pixel 11 Unlocked Android Smartphone at £649.00 (RRP £879.00) [ad] https://t.co/4pjHNWaJLl #amazondeals #techdeals #blackfridaydeal – Powered by the Google Tensor G6 chip – Built-in Gemini Intelligence – 256GB s"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122094803793989819",
+          "author": "sophiasmission",
+          "searchJob": "texas-tech",
+          "text": "Job of the day: AT&amp;T is hiring a full-time inbound tech support representative at its Cerritos, California call center. It's on-site, and the center runs 24/7, so you'll need a flexible schedule. The posting says accommodations are offe"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122094253660668237",
+          "author": "arnaudmercier",
+          "searchJob": "texas-tech",
+          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122093993937039543",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon UK Deal ] 📦 MMA014hqBK Belkin SureFind Spot Tracker Black at £12.99 (RRP £19.99) [ad] https://t.co/QcUZ2dJgfV #amazondeals #techdeals #blackfridaydeal – Works with both Apple Find My and Google's Find Hub – Uses Bluetooth 5.3 for "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122092491470246308",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon UK Early Black Friday Deal ] 📦 WH1000XM4CB.CE7 Sony WH-1000XM4C Wireless Noise Cancelling Headphones, Over-ear, bluetooth, Hi-Res Audio, HD QN1 Processor, 34H Battery at £179.00 (RRP £219.99) [ad] https://t.co/KhNwetNHkL #amazonde"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122092108811018529",
+          "author": "mc_simmy",
+          "searchJob": "texas-tech",
+          "text": "@CoombesLes 🎯 @KemiBadenoch is the voice of normality, unafraid to call out the dangerous lunacy of the Left and offer considered/coherent/costed/commonsense Policies to deal with today's reality. She's also the only tech savvy Leader who "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122091920268861938",
+          "author": "farmgirlcarrie",
+          "searchJob": "texas-tech",
+          "text": "The most photographed woman in America bought a secret refuge—then her daughter did something that shocked millionaires lining up to own it. In 1979, Jacqueline Kennedy Onassis made an unusual purchase. She bought 375 acres on Martha's Vine"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122090978186248501",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon UK Early Black Friday Deal ] 📦 roborock Saros Robot Vacuum Cleaner with Mop, 36,000 Pa Suction, 3.46 in Double-Layer Threshold at £799.00 (RRP £1309.00) [ad] https://t.co/E3oQ0sSxHg #amazondeals #techdeals #blackfridaydeal – Adapt"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122089604509782462",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon UK Deal ] 📦 27GX704A-B.AEK LG UltraGear 27-inch QHD Gaming Monitor, 240Hz, 0.03ms GtG, WOLED with MLA+ 1300 nits at £319.00 (RRP £549.99) [ad] https://t.co/57Jw24Yeyj #amazondeals #techdeals #blackfridaydeal – 27-inch WOLED displa"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122088712641331319",
+          "author": "ausindimedia",
+          "searchJob": "texas-tech",
+          "text": "“As APEC delegates gather to discuss regional growth, Shenzhen – the Chinese tech hub hosting this year’s meetings – offers a compelling model for everyday sustainability and a blueprint for deeper cross-border cooperation.” https://t.co/MC"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122088270095876358",
+          "author": "madlop",
+          "searchJob": "texas-tech",
+          "text": "THE PAYPAH 053 | PRE-WEEK | November 15, 2026 Week ahead: November 16–20, 2026 Information cutoff: 3:10 p.m. Central (CST) The AI trade has two tests this week. Nvidia shows what it can earn selling chips. Anthropic finds out what public in"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 168,
+      "jobs": 170,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -481,74 +474,75 @@
     "commits": {
       "samples": [
         {
+          "reason": "no_commit_event",
+          "postId": "2122075692737184011",
+          "author": "samspiegs",
+          "text": "TCU hosted Tulane OT commit Jackson Shaw over the weekend and he returns home with an offer"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2122094253660668237",
+          "author": "arnaudmercier",
+          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122087468421833069",
+          "author": "kapuchinski",
+          "text": "Your 'historical evidence' only mentioned MLK. That hit his mandible straight off and it still exited. Don't get me wrong, I know the murder was because Charlie flipped on Israel --he let them know then less than 2 days later he was killed."
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2121979823769714774",
+          "author": "wordsdematthew",
+          "text": "Lara Trump: Well, color me shocked. The Democrats get a little power, and they're going to waste it all trying to investigate and impeach. What's the definition of insanity again? Right, doing the same thing over and over again and expectin"
+        },
+        {
           "reason": "roundup_too_long",
-          "postId": "2122072994184896952",
-          "author": "gamblergazette",
-          "text": "🏀 SYRACUSE @ ST. JOHN’S — CBB PREVIEW Rick Pitino’s Red Storm are getting 93% of moneyline tickets, but our model isn’t convinced this matchup warrants a double-digit blowout. St. John’s is the better team. The question is whether Syracuse"
-        },
-        {
-          "reason": "juco_or_transfer",
-          "postId": "2122092117124075673",
-          "author": "arnaudmercier",
-          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
+          "postId": "2121974458294378798",
+          "author": "rdejay",
+          "text": "🚨 FIRST BALLOT 2028 | DSA ELECTION WATCH DEMOCRATIC SOCIALISTS EXPAND THEIR POLITICAL FOOTPRINT IN THE 2026 MIDTERMS 📅 November 15, 2026 The Democratic Socialists of America (DSA) and its local chapters endorsed candidates across the coun"
         },
         {
           "reason": "other_sport",
-          "postId": "2122092037281374544",
-          "author": "randyferrell",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+          "postId": "2121971229762458109",
+          "author": "essamalgobaisi",
+          "text": "As the B20 USA 2026 Summit concluded in Washington, D.C., following three days of discussions and engagements from November 9–11, I am pleased to reflect on a valuable experience that brought together business leaders, policymakers, investo"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2121969312143483113",
+          "author": "dmodoscutter",
+          "text": "Texas Governor-elect Gina Hinojosa has pledged to revoke the state's designation of the Council on American-Islamic Relations (CAIR) as a terrorist organization, a measure imposed by outgoing Republican Governor Greg Abbott in November 2025"
         },
         {
           "reason": "other_sport",
-          "postId": "2122091938736144398",
-          "author": "randyferrell",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2122091881894965252",
-          "author": "randyferrell",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "juco_or_transfer",
-          "postId": "2122091867856642419",
-          "author": "arnaudmercier",
-          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2122091822298304914",
-          "author": "randyferrell",
-          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
-        },
-        {
-          "reason": "juco_or_transfer",
-          "postId": "2122091614612996279",
-          "author": "arnaudmercier",
-          "text": "<p class=\"wp-block-paragraph\"><em>China Report is MIT Technology Review’s newsletter about technology developments in China.&nbsp;<a href=\"https://t.co/iBX0wfbkAj\">Sign up</a>&nbsp;to receive it in your inbox every Tuesday.</em></p> <p clas"
+          "postId": "2121944164484968710",
+          "author": "owengregorian",
+          "text": "Hegseth Orders Pentagon Pay Overhaul — And One Infuriating Rule Ends Now | Jack, WLT Report Pete Hegseth just put the Pentagon payroll bureaucracy on notice: when the government makes a mistake, the warfighter should not lose a normal paych"
         }
       ],
       "stats": {
-        "candidates": 19,
+        "candidates": 12,
         "accepted": 0,
-        "rejected": 19,
+        "rejected": 12,
         "reasons": {
-          "roundup_too_long": 5,
-          "juco_or_transfer": 3,
-          "other_sport": 8,
+          "no_commit_event": 2,
+          "juco_or_transfer": 1,
           "no_football_context": 2,
-          "no_commit_event": 1
+          "other_sport": 3,
+          "roundup_too_long": 3,
+          "reporter_missing_player_name": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 27,
-      "brandNewOffers": 2
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 28,
+      "brandNewOffers": 4
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-15T22:29:01.290Z"
+    "status rebuilt locally from current store on 2026-11-15T22:44:31.295Z"
   ]
 }
