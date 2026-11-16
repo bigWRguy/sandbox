@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:27:51.461Z",
+  "generatedAt": "2026-11-16T16:41:21.441Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-16T16:27:50.947Z",
+    "at": "2026-11-16T16:41:20.648Z",
     "jobsTotal": 162,
-    "sweptThisRun": 7,
-    "requests": 8,
-    "fullSweepCycles": 24
+    "sweptThisRun": 20,
+    "requests": 21,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,19 +30,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "nevada",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.2292952777777777,
-    "p95Hours": 2.0019852777777776,
-    "worstHours": 2.0019852777777776
+    "medianHours": 1.4542897222222222,
+    "p95Hours": 1.9648755555555555,
+    "worstHours": 2.226979722222222
   },
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 52,
+    "decided": 52,
     "complete": true
   },
   "pending": {
-    "total": 131
+    "total": 130
   },
   "profileResolution": {
     "cached": 109
@@ -55,68 +60,386 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-16T16:27:50.946Z",
-      "got": 4,
-      "new": 0,
-      "lag": 1.3
+      "at": "2026-11-16T16:41:20.638Z",
+      "got": 80,
+      "new": 52,
+      "lag": 0.04
     },
     "search:commit": {
-      "at": "2026-11-16T16:27:50.946Z",
-      "got": 0,
-      "new": 0,
-      "lag": null
+      "at": "2026-11-16T16:41:20.648Z",
+      "got": 13,
+      "new": 3,
+      "lag": 1.05
     }
   },
   "audit": {
-    "at": "2026-11-16T16:27:20.073Z",
+    "at": "2026-11-16T16:39:50.554Z",
     "mode": "live",
     "collection": {
-      "returned": 4,
-      "kept": 0,
-      "duplicate": 4,
-      "tooOld": 0,
+      "returned": 80,
+      "kept": 52,
+      "duplicate": 27,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 40,
+      "rejected": 12,
+      "reasons": {
+        "no_offer_term": 4,
+        "no_fbs_school": 3,
+        "hard_negative": 5
+      },
+      "samples": [
+        {
+          "reason": "no_offer_term",
+          "postId": "2122020239118307747",
+          "author": "midewontmiss",
+          "searchJob": "wake-forest",
+          "text": "I’m genuinely starting to feel like we’re participating in some enormous psychological experiment to find out how much people can endure before collectively losing their minds. There’s always another controversy, another crisis, another dis"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122345714084610484",
+          "author": "stemcellpaul1",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/0oA7VkrFCs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122344898472870107",
+          "author": "ccisgrateful",
+          "searchJob": "wake-forest",
+          "text": "Exactly!!! I have friends who tell me that retirement is not in their future. They simply will never be able to stop working if they want to stay in NJ, the state they lived in their entire lives. Sherrill offers no solutions to the very re"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122366719779865034",
+          "author": "joereynoldsah2",
+          "searchJob": "notre-dame",
+          "text": "🫵 On this date in 2025.... Tommy Carr flipped his commitment from Miami (Ohio) to the University of Michigan! Michigan offered Carr late in his senior season at Saline High School in Saline, Michigan. In two seasons as Saline’s starter, he"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122345968477553058",
+          "author": "nurseworkforce",
+          "searchJob": "uconn",
+          "text": "🩺 Thinking about becoming a Nurse Educator? Your employer may offer financial support! 🎓 💜 CCNW provides resources to help you explore educational opportunities and advance your nursing career. 🔗 https://t.co/Ek9elu05cg #CCNW #CTNurses "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122337340920041640",
+          "author": "tweetahboutit1x",
+          "searchJob": "uconn",
+          "text": "@5IVEALIVE_ Not all states all offer bet protection, like for me here in Connecticut. It’s not something we can just pay for. I’m still in shock. This is just crazy ."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122353147540881782",
+          "author": "prodefdehradun",
+          "searchJob": "air-force",
+          "text": "Military Awareness Symposium 2026 (MAS 2026) Dehradun, November 16,2026: Doon International School Riverside Campus (DIS RC) in collaboration with Bhartiya Himalayan International Strategic Manch (BHISM) in a pioneering initiative to promot"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122351295868567705",
+          "author": "bigskysuperfan",
+          "searchJob": "air-force",
+          "text": "Abbott Lockwood, the fastest HS senior in Colorado, shows off his speed on a rushing & receiving TD! Look at those legs move! 100 first half yards in a Monarch HS playoff game He has offers from Army, Navy, Air Force & Idaho. Interest by th"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122363703408410769",
+          "author": "thevannzee",
+          "searchJob": "akron",
+          "text": "Eastern Michigan adds a 2027 receiver commitment from Donovan Evans out of Chicago. He held offers from Akron and Miami."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122353837193228749",
+          "author": "donovanevans_",
+          "searchJob": "akron",
+          "text": "First, I want to thank God, my family, teammates, and coaches who have supported me throughout this journey. Thank you to everyone who has believed in me, pushed me, and helped me become the player and person I am today. None of this would "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122274712726171965",
+          "author": "aonanuga1956",
+          "searchJob": "arkansas-state",
+          "text": "Rabiu Kwankwaso has asked his supporters in Kano to improvise weapons of violence, ahead of the 2027 election. He spoke at a rally in Bichi, Kano on Sunday, drawing condemnation. In a statement captured during the event, Kwankwaso was heard"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122356242534613494",
+          "author": "oliviaksayer",
+          "searchJob": "auburn",
+          "text": "Auburn S commit James Branch will take an offical visit to Alabama this weekend for its matchup with Chattanooga, he tells @Bama247. The Crimson Tide offered him Nov. 8 as a LB, the position he played this season. Full guest list: https://t"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "rejected": 40,
+      "reasons": {
+        "school_not_resolved_confidently": 14,
+        "bare_mention_requires_llm": 19,
+        "multiple_resolved_schools": 7
+      },
+      "samples": [
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122368181574754610",
+          "author": "annegreene5101",
+          "searchJob": "wake-forest",
+          "text": "These Southern Democrats who won in deep-red states talk and behave like normal, rational, educated, well-adjusted adults. That alone sets them apart from the far-left crowd. It’s not about agreeing with every policy or idea they put forwar"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122367001926549706",
+          "author": "pj0731bts",
+          "searchJob": "wake-forest",
+          "text": "I hope UNISA continues to fight against this stigma of them being treated like a joke and it's a wake up call to people that it's an educational institution there to offer endless opportunities just like any other."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122355325793677496",
+          "author": "spotjohnny11668",
+          "searchJob": "wake-forest",
+          "text": "SPOT 🎯N WITH JOHNNY ✝️🇺🇸 🔥 I'VE GOT JESUS ON MY MIND, ALL THE TIME! 🔥 WHEN JESUS CHRIST GETS HOLD OF YOUR HEART, HE OUGHT TO HAVE MORE THAN A RESERVED SEAT IN YOUR SUNDAY MORNING THOUGHTS! HE OUGHT TO BE THE CENTER OF YOUR EVERYDAY LIF"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122352552075223395",
+          "author": "bluetapp",
+          "searchJob": "wake-forest",
+          "text": "@Midewontmiss offers two possible options for navigating the new normal of today -->> 1) Do your research. Follow the rabbit trails. Wake up to the real evil that has been controlling our world forever. Walk in the frustration of this knowl"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122351865769926848",
+          "author": "richmcr",
+          "searchJob": "wake-forest",
+          "text": "@LakotaMan1 That’s all Trump can offer. I wish people would wake up"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122349243180392865",
+          "author": "fxaurex",
+          "searchJob": "wake-forest",
+          "text": "I got fired at 9:47 p.m. on a Tuesday. By 11:30 the same night, a stranger offered me a job over a plate of chicken wraps. By Friday, three restaurants were fighting over a recipe I'd invented out of pure panic. Here's the full story. Don't"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122346808470892601",
+          "author": "jtsarafa",
+          "searchJob": "wake-forest",
+          "text": "One of our TikTok Shop Clients (Pistakio) wasted 6 months and $20K with another TikTok Shop agency and got zero sales. We took them to 1,000+ orders in 3 days by changing 3 things: 1. \"TikTok-ified\" their listing Pistakio's listing had a to"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122345016609718580",
+          "author": "sunnyroyal26763",
+          "searchJob": "wake-forest",
+          "text": "The Left comes at us with anger and rage. We try to be peacemakers and offer our willingness to mediate and work things out. They have zero interest in compromise or agreement. Until we stop projecting our thoughts onto them and wake up to "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122342994737303573",
+          "author": "ennjason",
+          "searchJob": "wake-forest",
+          "text": "@AndyMcDonaldMP This is of course bs. Palestinians start a war, Israel responds. Now the world expects the Israelis to take over the humanitarian aid the Palestinian’s own governing bodies can’t offer because they are busy stock piling weap"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122342018949296524",
+          "author": "vivek_sunder",
+          "searchJob": "wake-forest",
+          "text": "No @IndiGo6E this flight is not delayed by a few hours as your website says. It is not taking off at all since it had an audible and visible engine failure just before takeoff and screeched to a halt a few meters before the runway ended. Mo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122360856432291922",
+          "author": "bruce_straughan",
+          "searchJob": "notre-dame",
+          "text": "2028 3-Star TE Jake Mau left Notre Dame on Saturday impressed with everything Notre Dame had to offer. As he told me shortly after the game: “The visit was incredible, everything about it showed why their program is Elite. The energy in the"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122350395779629211",
+          "author": "carolinen38e",
+          "searchJob": "notre-dame",
+          "text": "@JBStyles23 A Irish euro lottery winner offered me a donation for children with autism, dyslexia, that she herself used it for 😇"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122346986401665104",
+          "author": "aontuuladh",
+          "searchJob": "notre-dame",
+          "text": "Jon Burrows said on the BBC Stephen Nolan, that he would debate anyone, anytime on the issue of Irish Unity. 10 days ago we called his office &amp; asked him to publicly debate Irish Unity His office said he would not do this, this side of "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122346043992113569",
+          "author": "hgreen81",
+          "searchJob": "notre-dame",
+          "text": "@SRAikenUUP @dfatirl @arleneseesit Did you offer to talk about the merits of Irish unification too?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122344713407619537",
+          "author": "gylesnamopaleen",
+          "searchJob": "notre-dame",
+          "text": "@IrishTimes very generous of Martin &amp; co to offer such an invitation..when the DUP &amp; UUP are abusing a peace process tool - petition of concern - to block proper planning for Irish language schools in NI. where to start? sectarian p"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122340660795633963",
+          "author": "albertz_55",
+          "searchJob": "notre-dame",
+          "text": "🚨 Respect Is a Two-Way Street 🚨 I’ve heard the lectures about respect for the Irish language. I’ve listened to the demands for more funding, more recognition, more statutory rights. And every time I hear them now, the same question sits i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122337810787271109",
+          "author": "johngall__",
+          "searchJob": "notre-dame",
+          "text": "BOMBSHELL 💣 FROM PEADAR TÓIBÍN Will @JonBurrowsMLA accept this offer? He has said on the record that he is willing to debate Michelle O’Neill on Irish Unity vs UK Why not the same for the emerging leader creating history in our time across"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122335919428784576",
+          "author": "jaydee602",
+          "searchJob": "uconn",
+          "text": "@HuesmannKyle There was an issue with their travel schedule &amp; their return flight. It still wasnt resolved when Geno came to the press conference. He apologized for the delay. Jeff Walf offered to go first to give UCONN time to work out"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122354554742206747",
+          "author": "apex_intel24",
+          "searchJob": "air-force",
+          "text": "🚨🇪🇬✈️ EGYPT PURSUES FOUR MAJOR FIGHTER JET DEALS WITH FRANCE, AMERICA, CHINA AND EUROPE! 🇫🇷🇺🇸🇨🇳🇪🇺 Cairo is preparing a major transformation of its air force as global powers compete for Egypt’s next generation of fighter jets! Eg"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122354061949440454",
+          "author": "aircraftjunky",
+          "searchJob": "air-force",
+          "text": "THE CONTRAS’ SHADOW AIR FORCE A Honduran airstrip. A secret supply network. An undeclared war. **due to copyright issues with Solider of Fortune I had to remove the photo** In 1985, this photograph captured something extraordinary at El Agu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122353536331845718",
+          "author": "cmwalker",
+          "searchJob": "air-force",
+          "text": "If half your customers spend $50 and half spend $5,000, tell me what the $2,525 average says about either of them. The U.S. Air Force measured 4,063 pilots looking for the average one and found zero. The average business owner runs the whol"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122353076572971010",
+          "author": "tv3_ghana",
+          "searchJob": "air-force",
+          "text": "The Ghana Air Force has taken delivery of a new Falcon 6X executive jet manufactured by France’s Dassault Aviation. The aircraft, approved by Parliament on December 4, 2025, will replace the 16-year-old Falcon 900EX, which has experienced m"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122346511732290027",
+          "author": "tacticalreport",
+          "searchJob": "air-force",
+          "text": "Following Egypt's ongoing efforts to modernize its air force and diversify its supplier base amidst competing geopolitical pressures, Cairo is maintaining four parallel fighter procurement tracks involving France, the U.S., China, and the E"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122346408153845810",
+          "author": "jerryxhandle",
+          "searchJob": "air-force",
+          "text": "🇬🇭✈️ GHANA WELCOMES A NEW EXECUTIVE JET! THE GHANA AIR FORCE TAKES DELIVERY OF A BRAND-NEW DASSAULT FALCON 6X! Ghana has taken delivery of a new executive aircraft, the Falcon 6X, manufactured by French aviation company Dassault Aviation."
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 167,
-      "swept": 8,
+      "jobs": 170,
+      "swept": 25,
       "failed": 1,
-      "requests": 9,
+      "requests": 26,
       "errors": [
-        "virginia-tech: rate limited"
+        "nevada: SearchTimeline HTTP 404 (slice left pending)"
       ]
     },
     "commits": {
-      "samples": [],
+      "samples": [
+        {
+          "reason": "other_sport",
+          "postId": "2122349243180392865",
+          "author": "fxaurex",
+          "text": "I got fired at 9:47 p.m. on a Tuesday. By 11:30 the same night, a stranger offered me a job over a plate of chicken wraps. By Friday, three restaurants were fighting over a recipe I'd invented out of pure panic. Here's the full story. Don't"
+        },
+        {
+          "reason": "class_year_not_current",
+          "postId": "2122366719779865034",
+          "author": "joereynoldsah2",
+          "text": "🫵 On this date in 2025.... Tommy Carr flipped his commitment from Miami (Ohio) to the University of Michigan! Michigan offered Carr late in his senior season at Saline High School in Saline, Michigan. In two seasons as Saline’s starter, he"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122353147540881782",
+          "author": "prodefdehradun",
+          "text": "Military Awareness Symposium 2026 (MAS 2026) Dehradun, November 16,2026: Doon International School Riverside Campus (DIS RC) in collaboration with Bhartiya Himalayan International Strategic Manch (BHISM) in a pioneering initiative to promot"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122363703408410769",
+          "author": "thevannzee",
+          "text": "Eastern Michigan adds a 2027 receiver commitment from Donovan Evans out of Chicago. He held offers from Akron and Miami."
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122356242534613494",
+          "author": "oliviaksayer",
+          "text": "Auburn S commit James Branch will take an offical visit to Alabama this weekend for its matchup with Chattanooga, he tells @Bama247. The Crimson Tide offered him Nov. 8 as a LB, the position he played this season. Full guest list: https://t"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122348964137582940",
+          "author": "legalfockery",
+          "text": "Do you think we have a fair court system? Ever been in it? It’s all in the NAME. Your Rights Have a Diplomatic Exception: Legal Fockery Is Everywhere! Whatever your opinion is of the Tate brother’s being incarcerated, I hope that every Amer"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2122334430526361613",
+          "author": "jucofootballace",
+          "text": "Russell Davis @RussellDavis34_ @ Northeast Mississippi JuCo @nemcc_football commits to @LibertyFootball @jucoweekly @MSJUCOREPORT https://t.co/yTx5ajncp0"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122265619273744881",
+          "author": "adamgenesiseden",
+          "text": "🚨🇭🇰 HONG KONG ACTIVATES AI FACIAL RECOGNITION ACROSS EXPANDING SURVEILLANCE NETWORK! POLICE LAUNCH BIOMETRIC IDENTIFICATION TECHNOLOGY AS CITY TARGETS 60,000 CAMERAS BY 2028 NOVEMBER 16, 2026 | NTLD — NAVIGATING THE LAST DAYS Hong Kong h"
+        }
+      ],
       "stats": {
-        "candidates": 0,
-        "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "candidates": 9,
+        "accepted": 1,
+        "rejected": 8,
+        "reasons": {
+          "other_sport": 1,
+          "class_year_not_current": 1,
+          "roundup_too_long": 3,
+          "no_football_context": 1,
+          "no_commit_event": 1,
+          "juco_or_transfer": 1
+        }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
+      "rejectedCandidates": 40,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-16T16:27:51.461Z"
+    "status rebuilt locally from current store on 2026-11-16T16:41:21.442Z"
   ]
 }
