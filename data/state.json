@@ -1,9 +1,5 @@
 {
   "seenPostIds": [
-    "2116580782856720712",
-    "2116576738780274996",
-    "2116575996296208561",
-    "2116575931888255208",
     "2116569201637032347",
     "2116568817363026290",
     "2116568499430842844",
@@ -59999,23 +59995,27 @@
     "2122266694915703218",
     "2122276657415221267",
     "2122262957564264568",
-    "2122276262773195137"
+    "2122276262773195137",
+    "2122257158226292745",
+    "2122282032487366901",
+    "2122280315595206776",
+    "2122274321766969506"
   ],
   "cursors": {
     "profile": 0
   },
   "health": {
     "search": {
-      "at": "2026-11-16T11:14:33.556Z",
-      "got": 30,
-      "new": 19,
-      "lag": 0.06
+      "at": "2026-11-16T11:27:46.516Z",
+      "got": 6,
+      "new": 4,
+      "lag": 0.56
     },
     "search:commit": {
-      "at": "2026-11-16T11:14:33.560Z",
-      "got": 7,
-      "new": 2,
-      "lag": 1.91
+      "at": "2026-11-16T11:27:46.516Z",
+      "got": 0,
+      "new": 0,
+      "lag": null
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -60419,33 +60419,33 @@
       "truncated": false
     },
     "miami": {
-      "at": "2026-11-16T09:13:26.197Z",
+      "at": "2026-11-16T11:27:13.014Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 5,
+      "lastPosts": 0,
       "truncated": false
     },
     "nc-state": {
-      "at": "2026-11-16T09:13:26.197Z",
+      "at": "2026-11-16T11:27:13.014Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "north-carolina": {
-      "at": "2026-11-16T09:13:26.197Z",
+      "at": "2026-11-16T11:27:13.014Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 0,
+      "lastPosts": 1,
       "truncated": false
     },
     "oklahoma-state": {
-      "at": "2026-11-16T09:13:26.197Z",
+      "at": "2026-11-16T11:27:13.014Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
     },
     "pittsburgh": {
-      "at": "2026-11-16T09:13:26.197Z",
+      "at": "2026-11-16T11:27:13.014Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
-      "lastPosts": 3,
+      "lastPosts": 1,
       "truncated": false
     },
     "smu": {
@@ -60617,7 +60617,7 @@
       "truncated": false
     },
     "buffalo": {
-      "at": "2026-11-16T09:13:26.197Z",
+      "at": "2026-11-16T11:27:13.014Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 4,
       "truncated": false
@@ -60683,7 +60683,7 @@
       "truncated": false
     },
     "georgia-southern": {
-      "at": "2026-11-16T09:13:26.197Z",
+      "at": "2026-11-16T11:27:13.014Z",
       "migratedAt": "2026-08-31T05:59:03.885Z",
       "lastPosts": 0,
       "truncated": false
@@ -61322,8 +61322,8 @@
       "truncated": false
     },
     "commit:georgia-tech": {
-      "lastPosts": 2,
-      "at": "2026-11-15T23:14:53.450Z",
+      "lastPosts": 0,
+      "at": "2026-11-16T11:27:13.014Z",
       "truncated": false
     },
     "commit:houston": {
@@ -61781,11 +61781,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-11-16T11:14:33.560Z",
+    "at": "2026-11-16T11:27:46.516Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
-    "fullSweepCycles": 8
+    "sweptThisRun": 7,
+    "requests": 8,
+    "fullSweepCycles": 24
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61805,167 +61805,60 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-16T11:12:51.559Z",
+    "at": "2026-11-16T11:27:12.924Z",
     "mode": "live",
     "collection": {
-      "returned": 30,
-      "kept": 19,
-      "duplicate": 11,
+      "returned": 6,
+      "kept": 4,
+      "duplicate": 2,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 13,
+      "accepted": 1,
+      "rejected": 3,
       "reasons": {
-        "no_fbs_school": 4,
-        "no_offer_term": 8,
-        "hard_negative": 1
+        "no_fbs_school": 1,
+        "hard_negative": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2122273353364910214",
-          "author": "imseanpittman",
-          "searchJob": "houston",
-          "text": "@Bulbasam214 IP, Breachborrel, spell is 1 card 2 draws. I’d almost always play into droll before I ever try to play into fuwa. Silverrokket combo never felt great. So a lot recharger just offers fleability to either beat “battle phase” or d"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122286238363275588",
-          "author": "alphalenscrypto",
-          "searchJob": "class:2026",
-          "text": "📊 THE CRYPTO EDGE | DAILY MARKET BRIEF 📅 November 16, 2026 🚨 FEAR INDEX AT 10 & $61K LIQUIDITY TARGET: IS THE FINAL SHAKEOUT BEFORE THE $59K–$61K ALL-IN BUY ZONE NEXT? 🚨 Bitcoin closed its weekly candle around $65K as the Crypto Fear & "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121923762119455022",
-          "author": "alphalenscrypto",
-          "searchJob": "class:2026",
-          "text": "📊 THE CRYPTO EDGE | DAILY MARKET BRIEF 📅 November 15, 2026 🚨 100% ACCURATE \"SUPPLY IN LOSS\" SIGNAL FLASHES & NEGATIVE FUNDING SHIFT: IS THE $63K 200-WMA BOTTOM IN? 🚨 Bitcoin has triggered its 100% historically accurate \"Supply in Loss\" "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2121563876655268123",
-          "author": "alphalenscrypto",
-          "searchJob": "class:2026",
-          "text": "📊 THE CRYPTO EDGE | DAILY MARKET BRIEF 📅 November 14, 2026 🚨 500-DAY HALVING CLOCK 2 WEEKS OUT & FEAR INDEX AT 13: IS THE $15B SHORT SQUEEZE NEXT? 🚨 Bitcoin is retesting its 200-weekly moving average as the Crypto Fear & Greed Index plu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122285066315592139",
-          "author": "optionking666",
-          "searchJob": "class:2026",
-          "text": "https://t.co/2xj6ZNrsHq"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122274870356582536",
-          "author": "tickeron",
-          "searchJob": "class:2026",
-          "text": "$SNDK https://t.co/cZIO9hXQKu"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122260884806336989",
-          "author": "rdelcampog",
-          "searchJob": "class:2026",
-          "text": "Here's a summary of the datathon @tinybird sponsored this weekend in Barcelona, showing students what a schema-free database like @rawtreedb can do. It was fun! https://t.co/WMN5eJuIAx"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122282653244182912",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Logan Wilson-Edge-2027-IL @DaytonFootball Game Day Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122107846787580274",
-          "author": "logan_wilson_27",
-          "searchJob": "class:2027",
-          "text": "Thank you to the entire @DaytonFootball coaching staff for a great game day visit! It was great seeing the campus and watching the Flyers beat Davidson 34-3 to finish undefeated at home. Thank you Coach @RyanVanSchelven for the invite, Coac"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122276788072013993",
-          "author": "lumminxedu",
-          "searchJob": "class:2027",
-          "text": "🇳🇿 VICTORIA UNIVERSITY OF WELLINGTON INTERNATIONAL SCHOLARSHIPS 2027 Looking to study in New Zealand? Te Herenga Waka, Victoria University of Wellington, offers international scholarships for eligible students commencing undergraduate and"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122272185985241398",
-          "author": "arizonaa100",
-          "searchJob": "arizona",
-          "text": "@onsoft2 Money solves an immediate shortage... tea offers dignity, warmth, and an unhurried ear. Choosing hospitality over charity suggests she sees past his pride...and likely understands far more about his situation than he realizes."
+          "postId": "2122257158226292745",
+          "author": "aliyanadesouza",
+          "searchJob": "north-carolina",
+          "text": "Reliable Loan Consulting Services for Your FHA 203k Project Looking for trusted loan consulting services in North Carolina? The Mike Young Team offers expert FHA 203(k) consulting to support buyers, homeowners, and lenders. Visit: https://t"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122266694915703218",
-          "author": "trading_jazz",
-          "searchJob": "arizona",
-          "text": "🤣 Fantasizing about committing a genocidal war crime against 66 million civilians shows how desperate this propaganda is. First, the Three Gorges Dam is a solid concrete gravity dam over 115 meters thick at its base, guarded by dense air-d"
+          "postId": "2122282032487366901",
+          "author": "mediamanoz",
+          "searchJob": "buffalo",
+          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2122276262773195137",
-          "author": "oilxcoin",
-          "searchJob": "kansas",
-          "text": "Finding oil is one thing. Producing it is another. What actually determines the success of an oil field? Our oil &amp; gas experts share insights into the technical and operational realities behind oil production. https://t.co/DaQxmSpoym"
+          "reason": "hard_negative",
+          "postId": "2122280315595206776",
+          "author": "mediamangroup",
+          "searchJob": "buffalo",
+          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 1,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122268942727266752",
-          "author": "stbellaboo",
-          "searchJob": "houston",
-          "text": "Nelly recalled receiving an unexpected phone call from Taylor back in 2011. Apparently, Taylor and her friends had been practising a dance routine to his 2002 hit Hot in Herre, and she wanted him to make a surprise appearance during her Hou"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122259970804900198",
-          "author": "shayonaentcare",
-          "searchJob": "houston",
-          "text": "Looking for a trusted Sinus Doctor in Houston TX? Shayona ENT Clinic offers personalized care for snoring, sleep apnea, and sleep-related breathing concerns. Get expert ENT guidance and take steps toward better sleep. 🌐 Visit us at https:/"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122253350058017110",
-          "author": "mayowa_olusoji",
-          "searchJob": "houston",
-          "text": "On 18 January 2027, something quietly historic happens: a dollar that lives on a blockchain becomes a federally regulated part of the US financial system. No new coin. No launch event. A law simply takes effect: the GENIUS Act, with its imp"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122277775197254003",
-          "author": "visdonmedia",
-          "searchJob": "marshall",
-          "text": "From New York’s financial districts to London’s glittering heights, \"Squeeze Plays\" exposes the cost of ambition. Jeffrey Marshall @jeffrey63712424 offers a tense, exciting ride. Experience the drama now: https://t.co/zo9nEqP4Gd"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122276657415221267",
-          "author": "constitutionlvc",
-          "searchJob": "colorado",
-          "text": "🔻 A FORMER CIA DIRECTOR JUST SENT US HIS DEATHBED CONFESSION. HE WORKED INSIDE THE INTELLIGENCE COMMUNITY FOR 34 YEARS. HE DISCOVERED THE LARGEST CONSPIRACY IN AMERICAN HISTORY. HE TRIED TO EXPOSE IT. HE WAS POISONED. HE IS DYING. HE IS NO"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122262957564264568",
-          "author": "dolphin_disp_",
-          "searchJob": "colorado",
-          "text": "@Adrianx8i8 We're located at Colorado but offer delivery 🚚"
+          "postId": "2122274321766969506",
+          "author": "ramniwasagrawal",
+          "searchJob": "buffalo",
+          "text": "Idioms Proverbs/Sayings लोकोक्तियाँ/कहावतें/मुहावरे @ They add color, wisdom and punch to everyday communication. @ Idioms/मुहावरे @ Idioms are short phrases with a figurative (hidden) meaning rather than a literal one: • आँखों का तारा: Ver"
         }
       ]
     },
@@ -61973,54 +61866,48 @@
       "ok": true,
       "reason": null,
       "jobs": 167,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "swept": 8,
+      "failed": 1,
+      "requests": 9,
+      "errors": [
+        "jacksonville-state: rate limited"
+      ]
     },
     "commits": {
       "samples": [
         {
-          "reason": "roundup_too_long",
-          "postId": "2122266694915703218",
-          "author": "trading_jazz",
-          "text": "🤣 Fantasizing about committing a genocidal war crime against 66 million civilians shows how desperate this propaganda is. First, the Three Gorges Dam is a solid concrete gravity dam over 115 meters thick at its base, guarded by dense air-d"
+          "reason": "other_sport",
+          "postId": "2122282032487366901",
+          "author": "mediamanoz",
+          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2122258423320330315",
-          "author": "sunsentinel",
-          "text": "The Hurricanes flipped three-star wide receiver Brody Diel from Rice, adding the prospect to a deep wide receiver class. https://t.co/LCP0wfVbcR"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122164088641831024",
-          "author": "voxdocvoxdei",
-          "text": "@Warchant @FSUFootball I'm a Gator but that's pretty badass. I appreciate FSU's commitment to honoring the Seminole traditions. Respect!"
+          "reason": "other_sport",
+          "postId": "2122280315595206776",
+          "author": "mediamangroup",
+          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
         }
       ],
       "stats": {
-        "candidates": 3,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 3,
+        "rejected": 2,
         "reasons": {
-          "roundup_too_long": 1,
-          "no_commit_event": 1,
-          "reporter_missing_player_name": 1
+          "other_sport": 2
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 1,
       "brandNewOffers": 0
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 19,
-    "decided": 19,
+    "total": 4,
+    "decided": 4,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
@@ -65387,6 +65274,8 @@
     "2122210013200445745",
     "2122266694915703218",
     "2122258423320330315",
-    "2122164088641831024"
+    "2122164088641831024",
+    "2122282032487366901",
+    "2122280315595206776"
   ]
 }
