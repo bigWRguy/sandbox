@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:43:54.071Z",
+  "generatedAt": "2026-11-16T06:59:43.795Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-16T06:43:53.373Z",
+    "at": "2026-11-16T06:59:43.055Z",
     "jobsTotal": 162,
-    "sweptThisRun": 24,
-    "requests": 24,
-    "fullSweepCycles": 7
+    "sweptThisRun": 21,
+    "requests": 21,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,13 +32,13 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.014365,
-    "p95Hours": 1.7788741666666668,
-    "worstHours": 1.7788741666666668
+    "medianHours": 1.0349544444444445,
+    "p95Hours": 1.781318611111111,
+    "worstHours": 2.042686388888889
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 37,
+    "decided": 37,
     "complete": true
   },
   "pending": {
@@ -55,181 +55,313 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-16T06:43:53.372Z",
-      "got": 27,
-      "new": 18,
-      "lag": 0.18
+      "at": "2026-11-16T06:59:43.048Z",
+      "got": 63,
+      "new": 37,
+      "lag": 0.05
     },
     "search:commit": {
-      "at": "2026-11-16T06:43:53.373Z",
-      "got": 0,
-      "new": 0,
-      "lag": null
+      "at": "2026-11-16T06:59:43.055Z",
+      "got": 19,
+      "new": 5,
+      "lag": 4.47
     }
   },
   "audit": {
-    "at": "2026-11-16T06:42:19.414Z",
+    "at": "2026-11-16T06:58:07.397Z",
     "mode": "live",
     "collection": {
-      "returned": 27,
-      "kept": 18,
-      "duplicate": 9,
-      "tooOld": 0,
+      "returned": 63,
+      "kept": 37,
+      "duplicate": 25,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 7,
-      "rejected": 11,
+      "accepted": 24,
+      "rejected": 13,
       "reasons": {
-        "hard_negative": 1,
-        "no_offer_term": 3,
-        "no_fbs_school": 7
+        "no_fbs_school": 6,
+        "no_offer_term": 6,
+        "hard_negative": 1
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2122222288225411464",
+          "author": "maxvan00",
+          "searchJob": "florida",
+          "text": "Totally false. 1000s did not die in Florida from COVID, they died with the virus, rarely from it. Most all were going to die anyway AND almost no children died from COVID19. And yes, the cure killed more. Delete your account, ypu have nothi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121890801185882338",
+          "author": "matt_fleming321",
+          "searchJob": "florida",
+          "text": "He literally killed thousands of Floridians with his COVID bs. Forcing kids into schools while fighting against local masking mandates...in any other country that's called murder."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121622225237225775",
+          "author": "rondesantis2024",
+          "searchJob": "florida",
+          "text": "One of the best moments DeSantis was calling out Covid BS: \"You do not have to wear those masks. We've gotta stop with this Covid theater. So if you wanna wear it, fine, but this is ridiculous.\" https://t.co/Umse6GfPiI"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122220619492429905",
+          "author": "the_witten",
+          "searchJob": "florida",
+          "text": "https://t.co/ZbZtWqkeuS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122204093464592832",
+          "author": "brittanyfeip",
+          "searchJob": "florida",
+          "text": "This is urgent ‼️ I’m desperately trying to sell my 3 tickets to Olivia Rodrigo for 11/16 show at Kia Center - Orlando, Florida. Sec 114, Row 9, Seat 3,4,5 Can’t make it to the game anymore . Asking for $200 each. We are open for offers!! D"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122100889280467079",
+          "author": "gigglingganon",
+          "searchJob": "tennessee",
+          "text": "10 things you probably didn’t know about Mario Paint (1992, SNES) ​1. The Iconic Box Art Artist While Shigeru Miyamoto and his core team directed the game's playful tone, the whimsical, vibrant packaging illustration was created by veteran "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122204205628977544",
+          "author": "prep2play",
+          "searchJob": "texas",
+          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 DE @LeviWright2027 | Nederland HS 📏6’4” 260 🎓3.54 GPA ⏱4.9 40 | 4.54 Shuttle 🧰24” Vertical | 9’7” Broad | 72.5” Wingspan 💪375 Bench | 445 Squat Profile &amp; 🎥: https://t.co/2xQ5juTURS ✅OFFERS: 5"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122204047759343648",
+          "author": "prep2play",
+          "searchJob": "texas",
+          "text": "🚨👀👀🚨 PrepStar Elite 360 ‘27 DE @LeviWright2027 | Nederland HS 📏6’4” 260 🎓3.54 GPA ⏱4.9 40 | 4.54 Shuttle 🧰24” Vertical | 9’7” Broad | 72.5” Wingspan 💪375 Bench | 445 Squat Profile &amp; 🎥: https://t.co/2xQ5juTn2k ✅OFFERS: 5"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122117591552733414",
+          "author": "leviwright2027",
+          "searchJob": "texas",
+          "text": "Thank you Coach Davis and @CoachSultz for coming out to Huntsville and watching @Nederland_FB play our Playoff game. I am excited to come out to Tyler again and really learn more about @TJCFOOTBALL Program https://t.co/9b4ajcOsLw"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122203909926408206",
+          "author": "prep2play",
+          "searchJob": "texas",
+          "text": "🚨Congrats on OFFER🚨 PrepStar Elite 360 ‘27 DE @LeviWright2027 | Nederland HS 📏6’4” 260 🎓3.54 GPA ⏱4.9 40 | 4.54 Shuttle 🧰24” Vertical | 9’7” Broad | 72.5” Wingspan 💪375 Bench | 445 Squat Profile &amp; 🎥: https://t.co/2xQ5juTURS"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122216381878042859",
+          "author": "marshalpjohnson",
+          "searchJob": "marshall",
+          "text": "@therealmrbench It’s actually true. She moved here to get socialized medicine. She even admits she didn’t get offered MAID."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122071172674408782",
+          "author": "luxboii",
+          "searchJob": "rice",
+          "text": "🚨🎙️ ZLATAN IBRAHIMOVIĆ FIRES SHOTS AT SPAIN AFTER A TOUGH FIRST HALF AGAINST ENGLAND! 🎙️ “Let me tell you something. Spain have Unai Simón, Laporte, Cubarsí, Cucurella, Zubimendi, Fabián Ruiz, Mikel Merino, Álex Baena, Oyarzabal and Lami"
+        },
+        {
           "reason": "hard_negative",
-          "postId": "2122209530226651194",
-          "author": "rakoto10",
-          "searchJob": "byu",
-          "text": "@tightlikeadish The 'official' offer is a formality. Technically, official offers couldn't go out until today. So commits from throughout the country, not just BYU, are tweet out their 'official offers.'"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122216418620137616",
-          "author": "authurgorman",
-          "searchJob": "california",
-          "text": "𝐖𝐡𝐚𝐭 𝐃𝐨𝐞𝐬 𝐚 𝐆𝐫𝐨𝐮𝐩 𝐓𝐡𝐚𝐭 𝐌𝐨𝐜𝐤𝐬 𝐉𝐞𝐬𝐮𝐬 𝐇𝐚𝐯𝐞 𝐭𝐨 𝐃𝐨 𝐖𝐢𝐭𝐡 Our 𝐒𝐜𝐡𝐨𝐨𝐥𝐬 in Shasta County? From November 6–8, the California Teachers Association (CTA) held its LGBTQ+ Issues Conference in San Francisco."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122211426848673966",
-          "author": "accidentsnearme",
-          "searchJob": "california",
-          "text": "Santa Ana, CA – Man Fatally Hit by DUI Suspect on Bristol Street and Edinger AvenueAccording to the Santa Ana Police Department, police officers saw a vehicle speeding on Bristol Street, allegedly running several red lights, before it hit a"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122210678970990909",
-          "author": "scotted86900465",
-          "searchJob": "california",
-          "text": "\"New\" Event Center in Old Sacramento offers Amazing Exhibits....Thru Jan 3rd \"Death by Natural Causes\" Truly interesting, interactive, &amp; FUN! The Paperworks 1115 Front Street Sacramento, California 95814 Visit Today! https://t.co/thut6B"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122199487149928456",
-          "author": "oxodog51n14w",
-          "searchJob": "california",
-          "text": "For American artist JB Blunk, the idea of building his own home took shape during the years he spent in Japan in the early 1950s. Studying ceramics under masters Kitaoji Rosanjin and Kaneshige Toyo, he encountered a way of life in which mak"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122209759994511378",
-          "author": "bison4life06",
-          "searchJob": "duke",
-          "text": "Unpopular Opinion: I wonder why @Howard_WBB aren’t offered visits from Top20 P4 WBB teams like other schools in the MEAC? This season had Tennessee at Coppin and Duke at Norfolk St. This has been going on for the past few seasons at Coppin."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122198078119707062",
-          "author": "olawalemiatanda",
-          "searchJob": "duke",
-          "text": "@Real1_balogun Likeable YES; goal scoring, shooting, avoiding off side is a NO. It's all down to the absence of better options for country and tactics at Club level. He offers nothing spectacular."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122206886187401225",
-          "author": "fidelcacheflow",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/QNO8E5Rtyg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122214835064828264",
-          "author": "radeyacareers",
-          "searchJob": "class:2026",
-          "text": "Job market Nov 7–13: low-hire, low-fire continues. Lead with a documented result employers already paid for. Never pay to \"unlock\" an offer. https://t.co/sFVSP73UB9 #RadeyaGlobal #JobSearch #CareerTip"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122213834785947989",
-          "author": "agentboone82",
-          "searchJob": "class:2026",
-          "text": "XRPL Weekly · Issue 5 OpulenceX, OpulX Media LLC, Spotlight on Mel Pint, CEO. Plus The start off the Digital Loom, Boise’s first phygital fashion night. Also, additional article regarding, \"What if...\" https://t.co/QVu2JNHOPD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122197634886566211",
-          "author": "suvieyekotaraj",
-          "searchJob": "class:2026",
-          "text": "“The People of India Are Immortal—Until They Reach a Hospital!” When a Patient Dies, Is the Doctor Always to Blame? The NEET-PG 2026 counselling results have raised an uncomfortable question for the Indian healthcare system: Are some of our"
+          "postId": "2122193441970905422",
+          "author": "radarph_media",
+          "searchJob": "rice",
+          "text": "The PNP San Joaquin Municipal Police Station defended its monitoring of agricultural areas ahead of El Niño after drawing criticism over its officers’ apparent inspection of rice fields, but its explanation offered few details about what th"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 7,
+      "rejected": 24,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 3
+        "bare_mention_requires_llm": 20,
+        "multiple_resolved_schools": 4
       },
       "samples": [
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122208702555934995",
-          "author": "radarph_media",
-          "searchJob": "california",
-          "text": "Teresita Sanchez made history as the Philippines’ first Miss Universe delegate in 1952. But while many beauty queens went on to become celebrities and public officials, she vanished from the spotlight. Whatever happened to her? A BEAUTY QUE"
-        },
-        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122203132016967934",
-          "author": "dee_bee63",
-          "searchJob": "california",
-          "text": "@WeakGameForever @FACTGBL California, birth certificates do not have a \"no sex\" or blank option, but they do offer a non-binary (\"X\") gender marker option alongside male (\"M\") and female (\"F\")."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122191706385002918",
-          "author": "naraglina",
-          "searchJob": "duke",
-          "text": "the work of art (2019) by mimi matthews ⭐ 4.5/5 genre: historical romance, regency romance, romantic suspense themes: autonomy, courage, recovery, trust, protection, healing tropes: marriage of convenience, wounded war hero, protective hero"
+          "postId": "2122214016147767359",
+          "author": "coraxtrollopdb",
+          "searchJob": "auburn",
+          "text": "Allyra wriggled within Nicolas’s grip, causing him to become obviously excited. Neither mentioned the issue that sat between them. ‘I will take my chances and decline your kind offer.’ Nicolas sighed, ‘I am saddened to hear that. I am more "
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122203060881809469",
-          "author": "tkdheadmaster",
-          "searchJob": "boise-state",
-          "text": "Great team. I wish the Big 12 would have made them an offer, as they would have made us stronger. I grew up in the old PAC 8 and was a huge USC and UCLA fan. Was sad to see the PC-12 fall apart, and hope Boise State can help them become str"
+          "postId": "2122218812229431308",
+          "author": "real_jfkjr01",
+          "searchJob": "florida",
+          "text": "🚨 BREAKING: DONALD TRUMP REPORTEDLY URGES ELON MUSK TO ACCEPT RON DESANTIS’ INVITATION AND RELOCATE TESLA’S GIGAFACTORY OPERATIONS TO FLORIDA AMID THE POLITICAL STORM IN TEXAS! President Donald Trump is reportedly encouraging Elon Musk to "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122209336969879819",
-          "author": "loveaibrain",
-          "searchJob": "coastal-carolina",
-          "text": "深圳欢迎世界：APEC不仅是一场会议 🌏 Beyond the conference rooms, there is a city worth discovering. Shenzhen offers visitors a unique combination of: 🏙️ Futuristic architecture 🍜 Incredible food culture 🚀 World-class technology 🌳 Beautiful coastal pa"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122213307637719399",
+          "author": "t22j22",
+          "searchJob": "florida",
+          "text": "@jimmieX07 Between this newby governor and Islam takeover, the future is grim. Plus border problems. Florida offers temporary safety, until Dems and Islams move in. Best to build his own island. Self rule."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122209037836255363",
-          "author": "loveaibrain",
-          "searchJob": "coastal-carolina",
-          "text": "深圳的城市建设：现代化与自然共存 🌳 A modern city doesn't have to sacrifice nature. Shenzhen combines a spectacular skyline with parks, green spaces, coastal landscapes and mangrove conservation areas. The city is surrounded by mountains, bays and more tha"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122201711737815160",
+          "author": "ec0anarch0",
+          "searchJob": "florida",
+          "text": "@DanielLDavis1 @McFaul There was also Cuba 1962 where the US brought the world to the brink of a nuclear war when the USSR sited nuclear missiles 90 miles from Florida. Rarely does history offer up such perfect comparisons."
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122204407907364869",
-          "author": "alkhammas2",
-          "searchJob": "coastal-carolina",
-          "text": "🇨🇳🇷🇺🇺🇸 The Three Wisemen🇷🇺🇺🇸🇨🇳. A Special report in respect of upcoming US, Russia, China Trilateral Meeting Aimed ongoing development ⤵️⤵️ 🚩 President Trump’s China visit , with Sec Rubio & expected talks involving Russian & C"
+          "reason": "multiple_resolved_schools",
+          "postId": "2122197242425852007",
+          "author": "recruitgeorgia",
+          "searchJob": "georgia",
+          "text": "Purdue offers the 2028 linebacker out of Blessed Trinity #RecruitGeorgia"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122214941398614390",
+          "author": "arnaudmercier",
+          "searchJob": "purdue",
+          "text": "<p class=\"wp-block-paragraph\">Chameleons have long been a symbol of adaptation because of their ability to adjust their iridophores—a special layer of cells under the skin—to blend in with their surroundings.</p> <p class=\"wp-block-paragrap"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122199925991633180",
+          "author": "gigglingganon",
+          "searchJob": "tennessee",
+          "text": "The sheer number of lies from these officers during this DUI checkpoint is unbelievable to witness. These guys confront them on all the lies in real time. ​In Murfreesboro, Tennessee, a joint DUI sobriety checkpoint conducted by the Murfree"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122222182952837439",
+          "author": "touchy741",
+          "searchJob": "texas",
+          "text": "@jimmieX07 What did she offer Texas for her to be elected?... Is this for real or they cheated their way in this great state?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122209271550992470",
+          "author": "texasmadde",
+          "searchJob": "texas",
+          "text": "1830 - Inquiries Concerning the Intellectual Powers, & the Investigation of Truth: Dr. John Abercrombie, M.A., M.D., F.R.C.S.E., F.R.C.P.E., etc, & on, - Fts., the Permanence of the Thinking Principle, Spectral Consciousness, the Secret Arc"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122207129981288912",
+          "author": "kcpa93",
+          "searchJob": "texas",
+          "text": "@Callen_ma_toAM Whining like when Sark was lobby for a garbage 3 loss Texas team to make the CFP? That kind of whining. Or whining when Texas tech offered to pay Texas’ and Tech’s week 1 opponents so we could settle the discussion on the fi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122198152254288113",
+          "author": "grooganfox26",
+          "searchJob": "texas",
+          "text": "On a recent edition of “Battleground Texas” we offered a snippet of Senator Elect @jamestalarico’s appearance on “Saturday Night Live”. The Austin State Rep hitting the Big Time on the strength of his once unlikely win in the Lone Star Stat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122204837693562928",
+          "author": "thechicagopope",
+          "searchJob": "houston",
+          "text": "Hey @grok if the #WhiteSox offered the Houston Astros a trade package of Colson Montgomery, Davis Martin, Billy Carlson, Edgar Quero, Tanner McDougal, and George Wolkow in exchange for Yordan Alvarez and Jeremy Pena, would the Astros be inc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122204887782187025",
+          "author": "aidyn_ragsdale",
+          "searchJob": "fresno-state",
+          "text": "@kwhitehead Aidyn Ragsdale | c/o 2027 | San Joaquin Memorial (Fresno, CA) NCAA ID# 2611224557 Position (s): • ILB • OLB • DE • Interior Measurements: Height: 6-1 Weight: 215-220 lbs Wingspan: 75” 🌟 3 Offers 🌟 2nd Team All-Conference 25’ \ud83c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122204940332372184",
+          "author": "hecheateddotorg",
+          "searchJob": "massachusetts",
+          "text": "@BurgerHald @Chelsea87883298 @JenniferSey Massachusetts offers boys' field hockey at the club level and they can play there. Not every sport is offered at every single school for everyone. These boys can find a different sport to play (ther"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122208050379440611",
+          "author": "360degreesrw",
+          "searchJob": "memphis",
+          "text": "Give Monday a delicious appointment. Buy one pizza and get one free at 360, and catch up with someone you’ve been meaning to see. Good company deserves a place at your table.​ The offer applies on the Hawaiian, Margherita and Memphis Chicke"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122201884370886920",
+          "author": "fcpnba",
+          "searchJob": "memphis",
+          "text": "Tuomas Iisalo says Cedric Coward’s rare versatility gives him the best on/off impact for the Grizzlies. Tuomas Iisalo: “Well, it’s been very apparent when you look at the on-offs in our team, I think he’s leading the whole team, and not jus"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122222185960100160",
+          "author": "frankindie",
+          "searchJob": "rice",
+          "text": "🇨🇳 五国：家里有人不吃某种食物，聚餐时大家会重新安排的细节 TOP10 🇯🇵 5か国：家族に食べないものがあるとき、食事会で見直すこと TOP10 🇰🇷 5개국: 가족 중 못 먹거나 안 먹는 음식이 있을 때 모임에서 다시 챙기는 것 TOP10 🇻🇳 5 quốc gia: 10 chi tiết cả nhà sắp xếp lại khi có người không ăn một món hay nguyên liệu nào đó 🇺🇸 "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122221499373461990",
+          "author": "aworld_india",
+          "searchJob": "rice",
+          "text": "🌸 RANGOLI: ART THAT WELCOMES, TRADITION THAT CARES! Across India, festive Rangolis are lovingly made by hand using coloured powders, flowers, rice flour and grains. Some grain-based designs can even offer food to visiting birds. 🐦 A beaut"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122215495084433411",
+          "author": "raphael_taiiwan",
+          "searchJob": "rice",
+          "text": "@UmahOdeh @onigbajumojnr @ChuksEricE Like I said before, she has nothing to say. Ask her now she’ll be telling you how much bag of rice was 8 years ago. Tell Us what Obi has to offer and how he’s going to do it. I can contest to become a pr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122214953654559154",
+          "author": "chandus1011",
+          "searchJob": "rice",
+          "text": "Whoever has seen #ranabaali,this question is to you. If anyone is offered a rice bag to convert to Christianity in the situation that is given in the movie,would they hesitate? What would someone call them when they convert in such a situat"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122207685349441971",
+          "author": "saurabhsaffron",
+          "searchJob": "rice",
+          "text": "@surya_ardeshir @BJP4MP Thousand pots of wine and rice meat to be offered to goddess Ganga. Someone needs to extend it to draw correlation of meat rice becoming apex cuisine of eastern regions. https://t.co/cLVeXPhtjZ"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122197583426965539",
+          "author": "lofi_chill82733",
+          "searchJob": "rice",
+          "text": "NEWCASTLE ⚫️ vs ARSENAL 🔴 MD11 ⚫️ Newcastle Attack Under Eddie Howe, Newcastle primarily used their right side / Arsenal's left side as the attacking starting point. As part of their approach against Arsenal, they delivered long balls to t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122196262904602828",
+          "author": "luxboii",
+          "searchJob": "rice",
+          "text": "🎙️🇪🇸 LUIS DE LA FUENTE ADDRESSES PEDRI'S CONTROVERSIAL BENCHING, ELLIOT ANDERSON'S DISPLAY AND ENGLAND'S IMPRESSIVE PERFORMANCE! Q: Why do you continue leaving Pedri on the bench despite his quality and importance to Barcelona? Luis de l"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122195234213826622",
+          "author": "awoyemijoshua61",
+          "searchJob": "rice",
+          "text": "I hope England fans have finally seen what a fully fit Ben White brings to the team. The same people who were booing him should take another look. Can Trent Alexander-Arnold really offer what White brings defensively? Remember his days at B"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 164,
+      "jobs": 172,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -238,28 +370,66 @@
     "commits": {
       "samples": [
         {
+          "reason": "roundup_too_long",
+          "postId": "2122197583426965539",
+          "author": "lofi_chill82733",
+          "text": "NEWCASTLE ⚫️ vs ARSENAL 🔴 MD11 ⚫️ Newcastle Attack Under Eddie Howe, Newcastle primarily used their right side / Arsenal's left side as the attacking starting point. As part of their approach against Arsenal, they delivered long balls to t"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122193441970905422",
+          "author": "radarph_media",
+          "text": "The PNP San Joaquin Municipal Police Station defended its monitoring of agricultural areas ahead of El Niño after drawing criticism over its officers’ apparent inspection of rice fields, but its explanation offered few details about what th"
+        },
+        {
           "reason": "no_football_context",
-          "postId": "2122209530226651194",
-          "author": "rakoto10",
-          "text": "@tightlikeadish The 'official' offer is a formality. Technically, official offers couldn't go out until today. So commits from throughout the country, not just BYU, are tweet out their 'official offers.'"
+          "postId": "2122133176512352654",
+          "author": "rivals",
+          "text": "🚨BREAKING🚨 Safety Devin Lavalais has flipped his commitment from Tulane to LSU, @samspiegs reports🐯 https://t.co/JHJI0esBIL https://t.co/ZbtWcAnUsR"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122123677915316682",
+          "author": "jon_blau",
+          "text": "LSU flips a Tulane safety commit. That’s 17 commits overall in the 2027 class."
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122121620915441964",
+          "author": "samspiegs",
+          "text": "LSU has flipped Marksville (La.) DB Devin Lavalais, he tells @Rivals “I’m staying home. Purple and Gold,” he said https://t.co/YlXtAPy88w https://t.co/vyuYrVFKGe"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122122472690536790",
+          "author": "bengaltigeron3",
+          "text": "NEW: LSU has officially flipped three-star safety Devin Lavalais from in-state Tulane. Lavalais rounds out the 2027 class at safety for the Tigers that also includes in-state prospect Jayden Anding. More on what he means to the DB room's fu"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122155564474192248",
+          "author": "garykral",
+          "text": "@doublejay_omaha I think you’d be hard pressed to find a better job in D2. Whole town committed to football. Great facilities. Close to KC STL Tulsa OKC and Arkansas for recruiting. Great spot to show you’re a winner and build your career. "
         }
       ],
       "stats": {
-        "candidates": 1,
+        "candidates": 7,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 7,
         "reasons": {
-          "no_football_context": 1
+          "roundup_too_long": 2,
+          "no_football_context": 1,
+          "no_commit_event": 4
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 7,
+      "rejectedCandidates": 24,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-16T06:43:54.072Z"
+    "status rebuilt locally from current store on 2026-11-16T06:59:43.796Z"
   ]
 }
