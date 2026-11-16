@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T11:27:47.139Z",
+  "generatedAt": "2026-11-16T11:44:00.564Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-16T11:27:46.516Z",
+    "at": "2026-11-16T11:43:59.671Z",
     "jobsTotal": 162,
-    "sweptThisRun": 7,
-    "requests": 8,
-    "fullSweepCycles": 24
+    "sweptThisRun": 22,
+    "requests": 22,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,34 +32,46 @@
   },
   "staleSchools": [
     {
-      "id": "jacksonville-state",
-      "hours": 2.2
+      "id": "missouri-state",
+      "hours": 2.3
     },
     {
-      "id": "massachusetts",
-      "hours": 2.2
+      "id": "sam-houston",
+      "hours": 2.3
     },
     {
-      "id": "memphis",
-      "hours": 2.2
+      "id": "san-diego-state",
+      "hours": 2.3
     },
     {
-      "id": "miami-oh",
-      "hours": 2.2
+      "id": "san-jose-state",
+      "hours": 2.3
     },
     {
-      "id": "rice",
-      "hours": 2.2
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "washington",
+      "hours": 2.3
+    },
+    {
+      "id": "washington-state",
+      "hours": 2.3
+    },
+    {
+      "id": "western-kentucky",
+      "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.9996763888888889,
-    "p95Hours": 2.0088525,
-    "worstHours": 2.2391505555555558
+    "medianHours": 1.022,
+    "p95Hours": 2.2792483333333333,
+    "worstHours": 2.2792483333333333
   },
   "decisionCoverage": {
-    "total": 4,
-    "decided": 4,
+    "total": 35,
+    "decided": 35,
     "complete": true
   },
   "pending": {
@@ -68,7 +80,7 @@
   "profileResolution": {
     "cached": 109
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4792,
     "incompleteOffers": 0
@@ -76,100 +88,311 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-16T11:27:46.516Z",
-      "got": 6,
-      "new": 4,
-      "lag": 0.56
+      "at": "2026-11-16T11:43:59.663Z",
+      "got": 49,
+      "new": 35,
+      "lag": 0.13
     },
     "search:commit": {
-      "at": "2026-11-16T11:27:46.516Z",
-      "got": 0,
-      "new": 0,
-      "lag": null
+      "at": "2026-11-16T11:43:59.671Z",
+      "got": 9,
+      "new": 1,
+      "lag": 0.21
     }
   },
   "audit": {
-    "at": "2026-11-16T11:27:12.924Z",
+    "at": "2026-11-16T11:42:20.661Z",
     "mode": "live",
     "collection": {
-      "returned": 6,
-      "kept": 4,
-      "duplicate": 2,
-      "tooOld": 0,
+      "returned": 49,
+      "kept": 35,
+      "duplicate": 13,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 3,
+      "accepted": 25,
+      "rejected": 10,
       "reasons": {
-        "no_fbs_school": 1,
+        "no_fbs_school": 2,
+        "no_offer_term": 6,
         "hard_negative": 2
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2122257158226292745",
-          "author": "aliyanadesouza",
-          "searchJob": "north-carolina",
-          "text": "Reliable Loan Consulting Services for Your FHA 203k Project Looking for trusted loan consulting services in North Carolina? The Mike Young Team offers expert FHA 203(k) consulting to support buyers, homeowners, and lenders. Visit: https://t"
+          "postId": "2122287672714469386",
+          "author": "gabsonojo1",
+          "searchJob": "rice",
+          "text": "What do you do for a living? What do you sell? What services do you offer? Quote this post with your work, products, or tools. Your next customer might just be on this timeline."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122285770115354968",
+          "author": "uphorialtech",
+          "searchJob": "rice",
+          "text": "https://t.co/DTHGvYu1eI"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122281330037641229",
+          "author": "uphorialtech",
+          "searchJob": "rice",
+          "text": "https://t.co/kT4uxuhlDD"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122282032487366901",
-          "author": "mediamanoz",
-          "searchJob": "buffalo",
-          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
+          "postId": "2122292663109964129",
+          "author": "n_parrott478",
+          "searchJob": "washington",
+          "text": "(#73) Philip Loadholt III (OL) X: @PhilipLoadholt HT: 6'3 - WT: 260 lbs. C/O: '28 Offer(s): \"2\" D1 Offers / \"1\" D2 Offer Hudl(Jr. Season: WK 1-3): https://t.co/YbRsH1RJkj Booker T Washington High School (Tulsa, OK) ('25) 5A-3 Offensive POY "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122280659712426244",
+          "author": "lennybendavid",
+          "searchJob": "washington",
+          "text": "https://t.co/KCFIN6Owam"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122280315595206776",
-          "author": "mediamangroup",
-          "searchJob": "buffalo",
-          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
+          "postId": "2122279167001600255",
+          "author": "justicesalehi",
+          "searchJob": "washington",
+          "text": "Fred Saberi deserves recognition for his incisive analysis. He connects American strategy, the interests of regional powers, and the danger that existing regime networks could survive a political transition. There is one point, however, tha"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122275171557908746",
+          "author": "tickeron",
+          "searchJob": "washington",
+          "text": "$HOOD https://t.co/ecLxmzN7fZ"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122291721157689716",
+          "author": "jamiizhall",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my 5th offer from @NewHopeGlads @CoachHughesS4C @CoachIssac @CoachT_Pope @CoachJlawr @iam_lamarcus @Zay_Herod @coachbledsoe662 https://t.co/UQ5s5aNkq3"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122289001876910415",
+          "author": "johndemetry",
+          "searchJob": "kent-state",
+          "text": "Open Memo to DC Studios: Jeremy Latcham, David Ellison (@davidellison), Ynon Kreiz, Dana Goldberg and Josh Greenstein @DCOfficial @Skydance @WarnerBros @ParamountPics #ShelveManOfTomorrow #RestoreTheSnyderVerse https://t.co/M4htAirLVU"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122072225507361206",
+          "author": "agdanrayfield",
+          "searchJob": "liberty",
+          "text": "Commonsense gun laws keep communities safe. That’s why we’re defending the right of states to restrict assault weapons like AR-15s. https://t.co/7FkBW1SaO9"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 1,
+      "rejected": 25,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "bare_mention_requires_llm": 19,
+        "multiple_resolved_schools": 4,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122274321766969506",
-          "author": "ramniwasagrawal",
-          "searchJob": "buffalo",
-          "text": "Idioms Proverbs/Sayings लोकोक्तियाँ/कहावतें/मुहावरे @ They add color, wisdom and punch to everyday communication. @ Idioms/मुहावरे @ Idioms are short phrases with a figurative (hidden) meaning rather than a literal one: • आँखों का तारा: Ver"
+          "postId": "2122292460680257838",
+          "author": "jowi2024",
+          "searchJob": "rice",
+          "text": "Against international law, yes. Out of nowhere, no. Moscow put its demands in writing in December 2021: two draft treaties, no further NATO enlargement. NATO's own Secretary General told the European Parliament on 7 September 2023 that Puti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122291295460921790",
+          "author": "nffc_jezza",
+          "searchJob": "rice",
+          "text": "Is it controversial to say that Elliot Anderson is BETTER than Declan Rice when playing in an England shirt? Feel like he offers a lot more #nffc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122287024363475095",
+          "author": "vishalrayx",
+          "searchJob": "rice",
+          "text": "@R0hitinveins Just a handful of rice is offered to the sun and Chhathi Maiya. Idk why people acting as if Biharis are polluting water bodies?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122286809614880769",
+          "author": "mapaskele",
+          "searchJob": "rice",
+          "text": "Hainanese chicken rice is a quintessential everyday dish. 🐔 Interestingly, the version served at the Takashimaya flagship store actually offers a choice of three different types of rice. https://t.co/CPUKNzuiDc"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122277146953392219",
+          "author": "againstgalala",
+          "searchJob": "rice",
+          "text": "NIGERIANS HAVE BEEN CONDITIONED TO CELEBRATE THE VERY THINGS THAT SHOULD OFFEND THEM. One of the greatest tragedies of our political experience is how years of poverty, mismanagement and political manipulation have lowered our expectations "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122275736149184971",
+          "author": "femifemolar",
+          "searchJob": "rice",
+          "text": "@Sunmonutunde1 Arsenal was the icing on the cake for Rice, who was already shining at West Ham. You’d know that if you had any football knowledge at all. A Chelsea fan saying Declan Rice doesn’t offer much on the ball and then you on mentio"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122264195278217593",
+          "author": "lagosfoodbank",
+          "searchJob": "rice",
+          "text": "We extend our sincere gratitude to the donors who graciously supported us in October 2026. Your generous contributions are significantly influencing our mission to offer sustenance to the vulnerable, and we truly value your support and bene"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122260593529024649",
+          "author": "krinweb3",
+          "searchJob": "rice",
+          "text": "Meet @trungfinity, The guy behind @AxieInfinity. He co-founded @SkyMavisHQ, raised $152M from a16z, Paradigm and Accel in Oct 2021 at a $3B valuation, and watched $AXS fall from $164.9 to $0.68. That's 99.6% gone. Here's how it got there. I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122258447139852728",
+          "author": "realmalik009",
+          "searchJob": "rice",
+          "text": "@Sunmonutunde1 I think this is just an issue of aesthetic bias. Rice doesn't offer much on the ball because he doesn't spin or receive on the half turn?? 🤣 Check statistics, pass %, chances created, final third passes, long passes..... Thi"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122286910982778928",
+          "author": "vira_faith",
+          "searchJob": "washington",
+          "text": "A 13-year-old American girl came home covered in bruises after being raped, and when her mother finally arrived from India, her first words were \"You disgust me. I have found a husband for you.\" Her name is Vilas. She was born in Los Angele"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122284543696674834",
+          "author": "fantunez",
+          "searchJob": "washington",
+          "text": "https://t.co/qGFQblYPaK The Atlantic reports on one of the Pentagon's biggest failures in the war with Iran, when the U.S. command knew about and had a ready-made Ukrainian solution against \"Shahed\" drones – cheap interceptors and an acoust"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122283273036435484",
+          "author": "meanwhileinua",
+          "searchJob": "washington",
+          "text": "Ukraine's land enters the peace talks, and suddenly everyone discovers the value of privacy. Zelenskyy says U.S. negotiators asked if Ukraine would withdraw from Donbas in exchange for NATO membership. No concrete offer exists, and Washingt"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122282244966350944",
+          "author": "arnaudmercier",
+          "searchJob": "washington",
+          "text": "<iframe loading=\"lazy\" id=\"noa-web-audio-player\" style=\"border: none\" src=\"https://t.co/OHnzWJH25V\" width=\"100%\" height=\"110px\"></iframe> <p class=\"wp-block-paragraph\">In March 2016 Demis Hassabis, CEO<strong> </strong>and cofounder of Deep"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122280027777536498",
+          "author": "rbg4lif",
+          "searchJob": "washington",
+          "text": "How Western Europe’s NATO-first approach is getting in the way of a Ukraine deal From Abu Dhabi to Dublin, Western Europe is still searching for a common position Published 16 Nov, 2026 (FULL) https://t.co/CIpBvIXSJ6 By Fyodor Lukyanov, the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122262489882566723",
+          "author": "ilya_boudinov",
+          "searchJob": "washington",
+          "text": "🇺🇸 🇦🇪 JUST IN: US F-35 TRANSMITS SQUAWK 7700 OVER UAE Per @ShaykhSulaiman the F-35 showed 'SQUAWK 7700 • EMERGENCY' on trackers. An American stealth jet went into full emergency while over the Gulf. Watch whether Washington offers an ex"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122261828894081482",
+          "author": "anilawhitney",
+          "searchJob": "washington",
+          "text": "On Jeopardy the other night, the final question asked: “How many steps does the guard take during his walk across the Tomb of the Unknown?” All three contestants missed it. Tomb of the Unknown Soldier 1. How many steps does the guard take d"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122291091164525055",
+          "author": "menslegithealth",
+          "searchJob": "stanford",
+          "text": "In July 1989, four researchers at Stanford published a method in the Journal of Urology: six needle cores, each 1.5 centimeters long, taken from the prostate through the rectum under ultrasound, spread out in a set pattern. It was a map dra"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122288728928301277",
+          "author": "arnaudmercier",
+          "searchJob": "stanford",
+          "text": "<p class=\"wp-block-paragraph\">Describing a decision-making system as an “algorithm” is often a way to deflect accountability for human decisions. For many, the term implies a set of rules based objectively on empirical evidence or data. It "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122268525456753046",
+          "author": "andrewdkaufman",
+          "searchJob": "stanford",
+          "text": "#MondayBlogs 🔵 I Was Scammed. My Father's Response Freed Me. What he gave me was better than advice—and better than money | @andrewdkaufman https://t.co/AHO5TjnARx For much of my life, I thought what I needed most from my father was his ap"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122283576511041734",
+          "author": "farmerstrend",
+          "searchJob": "kent-state",
+          "text": "Thinking of starting a profitable mango orchard? Start with the right grafted varieties! Discover popular mango varieties, including Apple, Tommy Atkins, Kent, Ngowe, Vandyk, Sabin and Alphonso. Learn about soil requirements, planting spaci"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122290127900987573",
+          "author": "crarchie1796",
+          "searchJob": "liberty",
+          "text": "There is a floor of civil rights protection that every state must abide by, and the right to keep and bear arms is included. Any state can offer more Liberty than the Constitution of the Union, but never less."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122289373282533875",
+          "author": "eagameover",
+          "searchJob": "liberty",
+          "text": "Good morning, beautiful souls. ☀️✨ Good morning, Lord Jesus, who goes before us. Beloved Lord Jesus of infinite goodness, what an overwhelming joy it is to wake up this morning and offer You my whole heart. Thank You for the sacred gift of "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122277208094093456",
+          "author": "shaanjalyl",
+          "searchJob": "liberty",
+          "text": "This bigot used to preach human rights, freedom, and justice to the Judeo-Christian West (or secular Europe and America). Yet, while Muslims won some of America's most important electoral contests last week, and Arabs of Palestine have won "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122274737271210090",
+          "author": "libertybooks_",
+          "searchJob": "liberty",
+          "text": "What does it truly mean to feel alive? In a world full of uncertainty, Aliveness by Oliver Burkeman offers a fresh perspective on embracing the present, letting go of control and finding meaning in the everyday. A thoughtful read for anyone"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 167,
-      "swept": 8,
-      "failed": 1,
-      "requests": 9,
-      "errors": [
-        "jacksonville-state: rate limited"
-      ]
+      "jobs": 166,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
       "samples": [
         {
-          "reason": "other_sport",
-          "postId": "2122282032487366901",
-          "author": "mediamanoz",
-          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
+          "reason": "roundup_too_long",
+          "postId": "2122279167001600255",
+          "author": "justicesalehi",
+          "text": "Fred Saberi deserves recognition for his incisive analysis. He connects American strategy, the interests of regional powers, and the danger that existing regime networks could survive a political transition. There is one point, however, tha"
         },
         {
-          "reason": "other_sport",
-          "postId": "2122280315595206776",
-          "author": "mediamangroup",
-          "text": "Bulls And Bears Under The Media Man Watercooler November 2026 Nov 16 TKO Special: Fight Week. Early Bird/The Overnighter: Night Watchman! Road To WWE Survivor Series: War Games! Nov 28 UFC Enjoys Overall Modest Lift With Paramount Merge Int"
+          "reason": "roundup_too_long",
+          "postId": "2122291395406750165",
+          "author": "getchirpsports",
+          "text": "THE EARLY CHIRP 🐦 The early bird gets the worm. Here's everything from last night. 🏆 Player of the night: Christian McCaffrey (SF), 4 REC, 161 YDS, 2 TD, 1 RUSH TD, 9.3 Chirp Rating 🎯 The Sim went 71-26 on last night's games ☕️ TOP OF TH"
         }
       ],
       "stats": {
@@ -177,17 +400,17 @@
         "accepted": 0,
         "rejected": 2,
         "reasons": {
-          "other_sport": 2
+          "roundup_too_long": 2
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
+      "rejectedCandidates": 25,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-16T11:27:47.140Z"
+    "status rebuilt locally from current store on 2026-11-16T11:44:00.565Z"
   ]
 }
