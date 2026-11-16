@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:58:53.493Z",
+  "generatedAt": "2026-11-16T00:14:09.733Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-15T23:58:52.921Z",
+    "at": "2026-11-16T00:14:09.073Z",
     "jobsTotal": 162,
-    "sweptThisRun": 24,
-    "requests": 24,
-    "fullSweepCycles": 7
+    "sweptThisRun": 20,
+    "requests": 20,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,134 +32,66 @@
   },
   "staleSchools": [
     {
-      "id": "california",
-      "hours": 2.5
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.5
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.5
-    },
-    {
-      "id": "memphis",
-      "hours": 2.5
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.5
-    },
-    {
-      "id": "oregon",
-      "hours": 2.5
-    },
-    {
-      "id": "rice",
-      "hours": 2.5
-    },
-    {
-      "id": "sam-houston",
-      "hours": 2.5
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.5
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.5
-    },
-    {
-      "id": "auburn",
-      "hours": 2.1
-    },
-    {
       "id": "buffalo",
-      "hours": 2.1
-    },
-    {
-      "id": "florida-state",
-      "hours": 2.1
-    },
-    {
-      "id": "georgia-tech",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "houston",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "iowa-state",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "jacksonville-state",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "james-madison",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "kansas",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "louisville",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "miami",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "middle-tennessee",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "missouri-state",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "nc-state",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "san-jose-state",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "south-alabama",
-      "hours": 2.1
-    },
-    {
-      "id": "south-carolina",
-      "hours": 2.1
-    },
-    {
-      "id": "tennessee",
-      "hours": 2.1
-    },
-    {
-      "id": "texas",
-      "hours": 2.1
-    },
-    {
-      "id": "texas-am",
-      "hours": 2.1
+      "hours": 2.4
     },
     {
       "id": "western-kentucky",
-      "hours": 2.1
+      "hours": 2.4
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2698302777777777,
-    "p95Hours": 2.5171375,
-    "worstHours": 2.5171375
+    "medianHours": 1.2734383333333332,
+    "p95Hours": 2.354105,
+    "worstHours": 2.354105
   },
   "decisionCoverage": {
     "total": 42,
@@ -167,12 +99,12 @@
     "complete": true
   },
   "pending": {
-    "total": 132
+    "total": 131
   },
   "profileResolution": {
     "cached": 109
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4765,
     "incompleteOffers": 0
@@ -180,330 +112,351 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-15T23:58:52.921Z",
-      "got": 83,
+      "at": "2026-11-16T00:14:09.061Z",
+      "got": 67,
       "new": 42,
-      "lag": 0.03
+      "lag": 0.11
     },
     "search:commit": {
-      "at": "2026-11-15T23:43:55.275Z",
-      "got": 3,
-      "new": 0,
-      "lag": 7.32
+      "at": "2026-11-16T00:14:09.073Z",
+      "got": 29,
+      "new": 10,
+      "lag": 0.62
     }
   },
   "audit": {
-    "at": "2026-11-15T23:57:17.115Z",
+    "at": "2026-11-16T00:12:28.783Z",
     "mode": "live",
     "collection": {
-      "returned": 83,
+      "returned": 67,
       "kept": 42,
-      "duplicate": 40,
-      "tooOld": 1,
+      "duplicate": 25,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 26,
-      "rejected": 16,
+      "accepted": 22,
+      "rejected": 20,
       "reasons": {
-        "no_offer_term": 3,
-        "no_fbs_school": 8,
-        "hard_negative": 5
+        "no_offer_term": 5,
+        "no_fbs_school": 1,
+        "non_fbs_offer_target": 1,
+        "hard_negative": 13
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2122088439679971392",
-          "author": "johnreedstark",
-          "searchJob": "delaware",
-          "text": "The spy novel is the sideshow. I read four years of Nvidia's SEC filings and wrote it all down: the numbers, the footnotes, the law, the CFO, the auditor, the SEC, DOJ and PCAOB. The fullest account I know of the question nobody is asking. "
+          "postId": "2122119280359538727",
+          "author": "sprintplanner",
+          "searchJob": "massachusetts",
+          "text": "America has a culture. It has roots, history, and a holiday story most of us only half know — The Making of Thanksgiving is a story worth remembering. 🦃 This is Part One. https://t.co/q5RKKVd6MB"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122111291204718726",
-          "author": "william98150626",
-          "searchJob": "marshall",
-          "text": "@SteveMacDonal17 @RealRickRule No argument from me but would still run over trillion budget deficit and no long term solutions offered by either party."
+          "postId": "2122089337567232203",
+          "author": "ged_rice51522",
+          "searchJob": "rice",
+          "text": "@DanMulhall @Tsahkna Then you had better go and offer physical support, not just pointless talk."
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2122110075057668459",
-          "author": "londonec1m",
-          "searchJob": "marshall",
-          "text": "@j_bos6171992 I offer my bosom."
+          "reason": "no_offer_term",
+          "postId": "2122073576501346587",
+          "author": "jonathanslh7",
+          "searchJob": "rice",
+          "text": "🚨🔥 ROY KEANE REACTS TO THE CHAOTIC HALF-TIME CONFRONTATION BETWEEN SPAIN AND ENGLAND! The temperature went through the roof at the Metropolitano Stadium as players from both sides became involved in a heated exchange on their way to the d"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122103772428272046",
+          "author": "cantguard_mike2",
+          "searchJob": "class:2029",
+          "text": "Here’s more from our Big comeback In the regional semifinals this past Friday! Regional finals this Friday the 20th. Can’t wait!!! @_ENGTraining_ @MADEfootball @TrambleJoe @EHTigersfb @270Gridiron @247Sports @BHoward_11 @CoachBell13 https:/"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122115355489288340",
+          "author": "fernwood2027",
+          "searchJob": "tennessee",
+          "text": "Congrats to @kgodboldte2 @theeanthonyd3 @DavidJE_Thomas @Chi3l_ @MarkiBooneJr @warren4ski @DorianMobley9 @Nehmirr @JusticeCrowell_ @FpJayyyy3 @Zhyir_Witcher27 on getting an offer from Tennessee Valley CC‼️ Thank you @CoachJPFletcher for che"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122111794529591529",
+          "author": "signaloftheeye",
+          "searchJob": "texas",
+          "text": "https://t.co/RRAe8VtYDS"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122092173613289516",
+          "author": "unpluggedtesla",
+          "searchJob": "texas",
+          "text": "82% of respondents want a three-row CyberSUV. The line to build it is about to be dismantled. Our proposal keeps it alive at no added cost to Tesla. Tesla keeps the IP, signs its first FSD license, and earns on every vehicle. 👇 https://t.c"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122116196820738416",
+          "postId": "2122118904382185775",
           "author": "randyferrell",
-          "searchJob": "oregon",
+          "searchJob": "houston",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122116695582015976",
-          "author": "gymratchallenge",
-          "searchJob": "penn-state",
-          "text": "On Day 4 of 50 ALL-GymRat drops, we light up the incomparable JORDYN PALMER of @PhillyRISE . 2027 will represent the 30th anniversary of the GymRat CHALLENGE. From @StephenCurry30 to @Cooper_Flagg on the men's side and from @breannastewart "
+          "postId": "2122118742737871117",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122115748071891109",
-          "author": "iamjamartaylor1",
-          "searchJob": "rutgers",
-          "text": "Official offer from Rutgers University! 🪓 Thank you to @GregSchiano and the entire @RFootball staff for believing in me and showing love to my family throughout this process. Proud to be a Scarlet Knight commit. #IamJamarTaylor #CHOP🪓 #FT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122093935862358041",
-          "author": "luv2laugh12",
-          "searchJob": "california",
-          "text": "This is Zuko! He’s 3 yrs old, 42 lbs., listed as a Labrador retriever mix. I wonder if he has some herding dog in him? ⚠️Stanislaus Animal Services Agency in Modesto, CA is planning to ki££ him on Wednesday 11/18 at 6:30 a.m.⚠️ Can anyone s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122107210604130748",
-          "author": "phonex2717",
-          "searchJob": "california",
-          "text": "In fairness. Some people prefer the status quo, to the chagrin of others. Even if Steve Hilton won, he would not be able to effect much change due to a supermajority legislature and oppositional offices like AG. Even if people hated the cur"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122107576321986877",
-          "author": "ofnimo",
-          "searchJob": "duke",
-          "text": "@MasterBolaji institutions to ensure that perpetrators are held accountable, military force alone will continue to offer only temporary solutions."
+          "postId": "2122118672927916388",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122101156583260467",
-          "author": "armandoszn1",
-          "searchJob": "duke",
-          "text": "@j_may51 How can he commit to Duke if they “didn’t make an offer”? You sound stupid 😂😂"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122098841176465813",
-          "author": "thedukeofmadrid",
-          "searchJob": "duke",
-          "text": "I’m not even lying, Gavi is a way better midfielder than Fermin Lopez. Gavi at least offers nothing in the midfield, and Fermin Lopez offers way nothing too. Like, I can’t pinpoint one thing Fermin does for this Spain NT."
+          "postId": "2122118587162742832",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122090201484816526",
-          "author": "collindunl79294",
-          "searchJob": "duke",
-          "text": "@Colttoonnnn Literally seen a Duke fan trying to cover his ass by saying Duke didn’t even offer him, just in case he did commit to UNC😂"
+          "postId": "2122118518787232235",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2122086047831965781",
-          "author": "thedukeofmadrid",
-          "searchJob": "duke",
-          "text": "There’s a reason Chelsea offered only £40m for Fermin Lopez because they know Danmm well he’s a system player and is a risk to sign him beyond that."
+          "reason": "hard_negative",
+          "postId": "2122118304089137654",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2122082916360765817",
-          "author": "ozone_duke",
-          "searchJob": "duke",
-          "text": "Getting started should be simple. Bridge your USDC, get some $INJ for gas, and explore what Injective has to offer."
+          "reason": "hard_negative",
+          "postId": "2122118238993531390",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_fbs_school",
-          "postId": "2122081466222006280",
-          "author": "dukeoflondoniii",
-          "searchJob": "duke",
-          "text": "@maria_drutska Trump is a cunt. It’s as simple as that. He is also completely transactional and can be easily swayed with faux accolades. Ukraine should give him a military medal before Putin offers him the star of Lenin. It is literally th"
+          "reason": "hard_negative",
+          "postId": "2122118135725584743",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2121782047815471483",
-          "author": "luv2laugh12",
-          "searchJob": "fresno-state",
-          "text": "This is Forest! He’s only 2 yrs old, 41 lbs., already neutered, listed as a German shepherd dog mix. ⚠️Stanislaus Animal Services Agency in Modesto, CA is planning to ki££ him on Wednesday 11/18 at 6:30 a.m.⚠️ Can anyone save him?🙏 He’s on"
+          "reason": "hard_negative",
+          "postId": "2122118016938791262",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122117905147932753",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122117633524855142",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122117092203700553",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122116953250607264",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 23,
+      "accepted": 0,
+      "rejected": 22,
       "reasons": {
-        "bare_mention_requires_llm": 19,
-        "reporter_missing_class_year": 1,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 1,
-        "author_not_recruit:no recruit fields": 1
+        "bare_mention_requires_llm": 16,
+        "unresolved_offer_target": 1,
+        "multiple_resolved_schools": 4,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122109459199889705",
-          "author": "calebcamping",
-          "searchJob": "arizona-state",
-          "text": "Official Offer‼️ @ASUFootball https://t.co/RnXkA7AQ1r"
+          "postId": "2122094313534300410",
+          "author": "khobby_dess",
+          "searchJob": "rice",
+          "text": "A thread 🧵 First-half analysis: England started with confidence England came into this game knowing that Spain's possession-based football would test their defensive organisation. However, Thomas Tuchel's side did not simply sit back and a"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122102718701723956",
-          "author": "not_mother24",
-          "searchJob": "baylor",
-          "text": "@TrashcanBaptist Geoff, you're the best! I wish i could offer you some ice cream and another cougar tail. BTW, we would have won by more if Baylor wasn't holding on every single play and the refs weren't completely against us."
+          "postId": "2122091019357626592",
+          "author": "panaynewsdotnet",
+          "searchJob": "rice",
+          "text": "\"The Department of Agriculture (DA) in Western Visayas is right to urge local governments to replicate Iloilo City’s ordinance requiring restaurants, fast-food chains, canteens, and carinderias to offer half-cup rice servings.\" https://t.co"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122095877955395732",
-          "author": "chrisv208",
-          "searchJob": "boise-state",
-          "text": "Boise State offers Wesley Armstrong, a 6'6\" tight end out of Rainier Beach HS(WA)"
-        },
-        {
-          "reason": "reporter_missing_class_year",
-          "postId": "2122086490167767136",
-          "author": "nickfarman55",
-          "searchJob": "boise-state",
-          "text": "Offered by @BroncoSportsFB 🤷‍♂️ @Coach_SD @Coach_B_Jones_ ✅ @Wes_Armstrong24 #NWSTANDUP 🌲 https://t.co/rZBLOhxktQ"
+          "postId": "2122090947366596994",
+          "author": "tacticalfouling",
+          "searchJob": "rice",
+          "text": "@footbolmatter10 Today specifically because he can’t handle Rice/Bellingham/Anderson physically (carrying gets neutralized by such specimen), doesn’t offer threat running in behind the defense, and therefore could potentially be bullied by "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122080375258358007",
-          "author": "deester_",
-          "searchJob": "boise-state",
-          "text": "@beauhightowerdn Boise state has been offered to jump to a power conference multiple times but refused because they preferred wailing on the MW"
+          "postId": "2122089153139548648",
+          "author": "oginisolomon",
+          "searchJob": "rice",
+          "text": "Declan Rice is a far more complete midfielder than Pedri, and I'll die on that hill. What exactly does Pedri offer that makes people rate him so highly beyond his close control and simple passing? Rice can defend, dictate play, create chanc"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122094025901564199",
+          "postId": "2122088491387695431",
+          "author": "masonk_01",
+          "searchJob": "rice",
+          "text": "@JayV1994 @mikechels_ Offers more in possession definitely they’re just so different but rice is better overall"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122087072580407724",
+          "author": "jayv1994",
+          "searchJob": "rice",
+          "text": "@masonk_01 @mikechels_ Anderson is a brilliant midfielder, so is Rice. I think in possession Anderson offers more which in my opinion makes him better"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122082839411966455",
+          "author": "xenosneaky",
+          "searchJob": "rice",
+          "text": "@vamp1ra_xx I offer delicious blood coated Rice! 🍚 Ignore that it looks like plain Rice still. ☆🍚☆"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122079379815576057",
+          "author": "jonathanslh7",
+          "searchJob": "rice",
+          "text": "🎙️🇪🇸 LUIS DE LA FUENTE ON PEDRI'S REPEATED BENCHING, ELLIOT ANDERSON'S PERFORMANCE AND ENGLAND'S DOMINANCE! Q: Why do you keep leaving Pedri on the bench despite his quality and importance to Barcelona? Luis de la Fuente: \"Pedri is an ex"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122093960734883972",
+          "author": "isaaccatt2010",
+          "searchJob": "san-diego-state",
+          "text": "@profilefblive Thank you for the mention. I’m a DT though and only step in as an OT occasionally. SDSU offer is as DT."
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2122089761590628744",
+          "author": "profilefblive",
+          "searchJob": "san-diego-state",
+          "text": "🚨 First D1 Offer 🚨 2028 OT Isaac Cattanach from Compass Prep HS, AZ has received his first D1 offer from San Diego State. @isaaccatt2010 https://t.co/b7jkqF52vu"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122093182544724271",
           "author": "jucofootballace",
-          "searchJob": "eastern-michigan",
-          "text": "Keshawn King @KINGKeshawn17 @ Dodge City JuCo @GoConqsFB picks up @EMUFB Offer @CoachLusby @GoConqs https://t.co/3hjbnz4hjN"
+          "searchJob": "washington-state",
+          "text": "Sentori Martino @SentoriMartino @ Sierra JuCo @SierraCollegeFB picks up @WSUCougarFB Offer @Coach_Noonan https://t.co/IxG4dlU9If"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122105285862928491",
-          "author": "csljohnkirby",
-          "searchJob": "marshall",
-          "text": "Word of the Day: Externality ⠀ Pronunciation: ek-ster-NAL-ih-tee Part of speech: noun ⠀ Meaning: A consequence of an activity affecting people not directly involved, particularly when the resulting costs or benefits are not reflected in its"
+          "postId": "2122110980545192446",
+          "author": "jaredluginbill",
+          "searchJob": "class:2029",
+          "text": "One of the most electric players Ohio has to offer. 2029 WR “Mike Mike” Thompson-Ayers of the Columbus East Tigers."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122116155053895958",
-          "author": "realsdstrasser",
-          "searchJob": "oregon",
-          "text": "@joeyzaza256 @Walgreens See if your insurance company offers online pharmacy or a locally owned pharmacy is in network for emergency filling of prescriptions. My insurance company has the only locally owned pharmacy in Grant County Oregon a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122112647248195740",
-          "author": "r_parenti_",
-          "searchJob": "penn-state",
-          "text": "@iamjamartaylor1 @PennStateFball They waited this long to offer you?"
+          "postId": "2122117197690503415",
+          "author": "onekindesign",
+          "searchJob": "south-carolina",
+          "text": "South Carolina lake house offers tranquil escape on the shores of Lake Keowee https://t.co/yYzFKh82hU https://t.co/R3r7yAbnCa"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122115352041599219",
-          "author": "americasbebe",
-          "searchJob": "california",
-          "text": "I said I would say, “I told you so!” Exactly how does this help your “affordability”? The Texas Legislature won't convene until January, but Democrats are already laying out their priorities after winning control of the Texas House and swee"
+          "postId": "2122117064156475592",
+          "author": "bruce_straughan",
+          "searchJob": "tennessee",
+          "text": "Breaking: 2028 4-Star CB Jai’lil Goley Drops His Final 5 Schools With Notre Dame Making The Cut Alongside Ohio State, Oregon, Vanderbilt, and Tennessee Goley is a 6-1 185lbs CB out of Gainesville High School (GA). He holds 37 D1 offers and "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122115359004119470",
+          "author": "brimscr7",
+          "searchJob": "texas",
+          "text": "My take is that Elon Musk should keep his options open, but he shouldn’t rush into moving Tesla’s operations because of a political disagreement. Florida may offer a business-friendly environment, but relocating a major factory is a massive"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122107784833757370",
+          "author": "iamwhoiam99",
+          "searchJob": "texas",
+          "text": "@sarg1961 @spencerpratt The problem is he did not expect Texas to become socialist communist state this unexpected event will cost Texas more than what they expected and if I was Elon, time to move again to Florida and be closer to the real"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122114445728256110",
-          "author": "leonaranjoiv",
-          "searchJob": "california",
-          "text": "I keep asking myself: WHO is Eric Early? WHY does that name ring a bell in my memory. Oh, NOW I get it..............YOU\"RE the guy who runs for office, ANY OFFICE, OFTEN. What do they call that?? Perennial candidate?? Always running?? No RE"
+          "postId": "2122097043669950958",
+          "author": "jason_howell",
+          "searchJob": "texas",
+          "text": "Texas A&amp;M Offer Recap - Nov 9-15 -new in-state 27 targets -3 offers to weekend visitors -getting in early on emerging defenders (Premium) #GigEm https://t.co/Ti8iTwxRxK https://t.co/OpXkPDptVN"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122111054302064773",
-          "author": "blueskysyl55",
-          "searchJob": "california",
-          "text": "I am rooting for you. I’m 74, seen many CA elections. From the days to win such a large state you had to be actor. I was a natural conservative who turned 18 the year we got the vote. I had to register at polling place and my mom went balli"
+          "postId": "2122093907622449175",
+          "author": "grooganfox26",
+          "searchJob": "texas",
+          "text": "On a recent edition of “Battleground Texas” We heard from @JohnCornyn who explained why he offered his successor Democrat @jamestalarico a cordial reception in the Nation’s Capital. @FOX26Houston https://t.co/mvvOJuGfmX"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122110584300986696",
-          "author": "dickenslabs",
-          "searchJob": "california",
-          "text": "In 46 days, California starts a 4-year pause on making or selling toys with AI companion chatbots for kids under 16. It runs from January 1, 2027 through January 1, 2031. I'm a dad of a 5-year-old. I'm building an app that guides parents th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122109137441935369",
-          "author": "kellyg581976179",
-          "searchJob": "california",
-          "text": "⚠️Extremely Urgent in Central California Due to be Ki€€ed , Weds. 11/18 at 6:30 am, at Stanislaus Animal Services Agency, in Modesto, CA‼️ This is precious, 3 year old , shelter says a Lab mix , named Zuko. He weighs 42 lbs. The volunteers "
+          "reason": "reporter_missing_player_name",
+          "postId": "2122093703539954050",
+          "author": "adamrauman",
+          "searchJob": "texas",
+          "text": "@GarnetAndGoldFS Jimbo ran our program into the ground before leaving with a 5-6 record. He failed miserably at Texas a&amp;m with all the money in the world. Not a single team in 3 years has offered him a head coaching position because he'"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122107320381706454",
-          "author": "trumpgirllove",
-          "searchJob": "california",
-          "text": "Billie Jean King: She Didn't Just Win Matches. She Changed History. 🎾 In the 1970s, one woman stepped onto a tennis court and challenged an entire sporting world. Her name was Billie Jean King, and she would become one of the most influent"
-        },
-        {
-          "reason": "author_not_recruit:no recruit fields",
-          "postId": "2122104216655401221",
-          "author": "irving1966",
-          "searchJob": "california",
-          "text": "And dr dre was you best man at the wedding in California will tell more to prove you lived at California you went to California high school Look at the year books they are in line they might have taken your photo out but look see if you rec"
+          "postId": "2122086291831734593",
+          "author": "adamrauman",
+          "searchJob": "texas",
+          "text": "@R0STARPLUMBER @FSU_Dude He took the money and ran our program into the ground. Then he took the money and didn't do shit when he was over at Texas a&amp;m and not a single team in the last 3 years. Has wanted to offer him a contract becaus"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122104063437254804",
-          "author": "arnaudmercier",
-          "searchJob": "california",
-          "text": "<iframe loading=\"lazy\" id=\"noa-web-audio-player\" style=\"border: none\" src=\"https://t.co/XzjbusZQ1Y\" width=\"100%\" height=\"110px\"></iframe> <p class=\"wp-block-paragraph\">Like many students, Liri has had several part-time jobs. A 23-year-old i"
+          "postId": "2122108280419835929",
+          "author": "xwhynoted",
+          "searchJob": "houston",
+          "text": "Tim McGraw was 11 when he learned that baseball star Tug McGraw was his biological father. Tug refused to acknowledge him for years, then offered college support on the condition that Tim stop contacting him and his family. Tim grew up in L"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122114486022623319",
-          "author": "drewxnorton",
-          "searchJob": "duke",
-          "text": "@UNCballTalk Because you guys have a wide open rotation for him to dominate minutes, a co-star wing in Demarcus Henry that Lukic would fix extremely well next too, and probably a larger NIL offer Lukic going to Duke isn't the best decision "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122096029445062796",
-          "author": "fischermichael0",
-          "searchJob": "duke",
-          "text": "@Demont336 @WilliamMcCall_ Yeah, maybe you do, but most Duke fans were completely dismissive of him a few days ago and said he wasn't even offered."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122095348109746306",
-          "author": "bigjimmy2340",
-          "searchJob": "duke",
-          "text": "@MattAblesBurner Would you rather have Rosser or him Duke definitely just came in with a bigger offer not the end of the world"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122093633775997395",
-          "author": "jb121186",
-          "searchJob": "duke",
-          "text": "@Michael45988011 @MattAblesBurner Duke would've never offered Henry had they not been interested. Truth is he had no interest in Duke."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122101725486325826",
-          "author": "aidyn_ragsdale",
-          "searchJob": "fresno-state",
-          "text": "@coach_hadac @5StarFBRecruits Aidyn Ragsdale | Class of 2027 | Linebacker | Fresno, CA Measurements: Height: 6’1’’ Weight: 215 lbs Wingspan: 75” Bench: 315 lbs Squat: 455 lbs 5-10-5: 4.53s 🌟 3 OFFERS 🌟 Versatile: ILB, OLB, DE, Interior DL"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122092384070824241",
-          "author": "kellyg581976179",
-          "searchJob": "fresno-state",
-          "text": "🚨Extremely Urgent in Central California Due to be ki££ed on Weds. 11/18, at Stanislaus Animal Services Agency, in Modesto, CA‼️ This is very handsome, 2 year old , neutered , GSD mix named Forest. He’s a smaller shepherd weighing 41 pounds"
+          "reason": "multiple_resolved_schools",
+          "postId": "2122106874187088359",
+          "author": "krystal_xbt",
+          "searchJob": "houston",
+          "text": "#NBA Picks | Rockets vs Wizards Projected score: Rockets 118–109 Wizards Lean: Rockets to win Player projections: Kevin Durant — 28 points, 6 rebounds Alperen Şengün — 22 points, 11 rebounds, 6 assists Anthony Davis — 27 points, 12 rebounds"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 164,
+      "jobs": 169,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -513,53 +466,74 @@
       "samples": [
         {
           "reason": "other_sport",
-          "postId": "2122116196820738416",
+          "postId": "2122118904382185775",
           "author": "randyferrell",
           "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
           "reason": "other_sport",
-          "postId": "2122116695582015976",
-          "author": "gymratchallenge",
-          "text": "On Day 4 of 50 ALL-GymRat drops, we light up the incomparable JORDYN PALMER of @PhillyRISE . 2027 will represent the 30th anniversary of the GymRat CHALLENGE. From @StephenCurry30 to @Cooper_Flagg on the men's side and from @breannastewart "
+          "postId": "2122118742737871117",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2122115748071891109",
-          "author": "iamjamartaylor1",
-          "text": "Official offer from Rutgers University! 🪓 Thank you to @GregSchiano and the entire @RFootball staff for believing in me and showing love to my family throughout this process. Proud to be a Scarlet Knight commit. #IamJamarTaylor #CHOP🪓 #FT"
+          "reason": "other_sport",
+          "postId": "2122118672927916388",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_football_context",
-          "postId": "2122101156583260467",
-          "author": "armandoszn1",
-          "text": "@j_may51 How can he commit to Duke if they “didn’t make an offer”? You sound stupid 😂😂"
+          "reason": "other_sport",
+          "postId": "2122118587162742832",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         },
         {
-          "reason": "no_football_context",
-          "postId": "2122090201484816526",
-          "author": "collindunl79294",
-          "text": "@Colttoonnnn Literally seen a Duke fan trying to cover his ass by saying Duke didn’t even offer him, just in case he did commit to UNC😂"
+          "reason": "other_sport",
+          "postId": "2122118518787232235",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122118304089137654",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122118238993531390",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122118135725584743",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* The running record of Trump 2.0 that America cannot afford to forget. Update date: November 15, 2026 Total receipts: 817 • 11/14/26: Judge temporarily bars East Potomac park, course closure • 11/14/26: Zel"
         }
       ],
       "stats": {
-        "candidates": 5,
-        "accepted": 0,
-        "rejected": 5,
+        "candidates": 23,
+        "accepted": 2,
+        "rejected": 21,
         "reasons": {
-          "other_sport": 2,
-          "no_commit_event": 1,
-          "no_football_context": 2
+          "other_sport": 13,
+          "roundup_too_long": 1,
+          "juco_or_transfer": 1,
+          "no_football_context": 3,
+          "no_commit_event": 2,
+          "reporter_missing_player_name": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 23,
-      "brandNewOffers": 3
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 22,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-15T23:58:53.493Z"
+    "status rebuilt locally from current store on 2026-11-16T00:14:09.734Z"
   ]
 }
