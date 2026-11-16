@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T04:44:05.154Z",
+  "generatedAt": "2026-11-16T04:58:49.208Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,10 +7,10 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-16T04:44:04.478Z",
+    "at": "2026-11-16T04:58:48.601Z",
     "jobsTotal": 162,
     "sweptThisRun": 25,
-    "requests": 25,
+    "requests": 26,
     "fullSweepCycles": 7
   },
   "backfillCoverage": {
@@ -32,26 +32,26 @@
   },
   "staleSchools": [
     {
-      "id": "fresno-state",
-      "hours": 2.3
-    },
-    {
       "id": "georgia-southern",
+      "hours": 2.5
+    },
+    {
+      "id": "florida",
       "hours": 2.3
     },
     {
-      "id": "georgia-state",
+      "id": "texas",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2734913888888888,
-    "p95Hours": 2.0201775,
-    "worstHours": 2.277623888888889
+    "medianHours": 0.76819,
+    "p95Hours": 2.0269894444444443,
+    "worstHours": 2.5231944444444445
   },
   "decisionCoverage": {
-    "total": 34,
-    "decided": 34,
+    "total": 43,
+    "decided": 43,
     "complete": true
   },
   "pending": {
@@ -60,18 +60,18 @@
   "profileResolution": {
     "cached": 109
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 2,
   "quality": {
-    "completeOffers": 4789,
+    "completeOffers": 4790,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-16T04:44:04.478Z",
-      "got": 66,
-      "new": 34,
-      "lag": 0.2
+      "at": "2026-11-16T04:58:48.600Z",
+      "got": 86,
+      "new": 43,
+      "lag": 0.05
     },
     "search:commit": {
       "at": "2026-11-16T04:29:51.380Z",
@@ -81,278 +81,315 @@
     }
   },
   "audit": {
-    "at": "2026-11-16T04:42:29.069Z",
+    "at": "2026-11-16T04:57:10.044Z",
     "mode": "live",
     "collection": {
-      "returned": 66,
-      "kept": 34,
-      "duplicate": 31,
-      "tooOld": 1,
+      "returned": 86,
+      "kept": 43,
+      "duplicate": 43,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 16,
-      "rejected": 18,
+      "accepted": 29,
+      "rejected": 14,
       "reasons": {
-        "no_offer_term": 8,
-        "no_fbs_school": 8,
-        "non_fbs_offer_target": 2
+        "no_fbs_school": 10,
+        "no_offer_term": 2,
+        "hard_negative": 2
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2122185982778933674",
-          "author": "upscwriting",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/WIU8JmULfI"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122154555324477618",
-          "author": "sabrinamilca",
-          "searchJob": "coastal-carolina",
-          "text": "@Oman_GC @ONA_eng @oman_en @FMofOman @MohamedBinZayed @BahrainCPnews https://t.co/YwA2D9kB4R"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122173437678702719",
-          "author": "anthonywidodo_",
-          "searchJob": "class:2026",
-          "text": "You bought Nvidia on blockchain. But do you actually own Nvidia? We compared Robinhood, Binance, Ondo, xStocks, Dinari and DTCC. The real tokenization race isn't just about speed. It's about ownership, liquidity and trust. Full analysis ↓ h"
+          "reason": "no_fbs_school",
+          "postId": "2122191887721550232",
+          "author": "sharda_uni",
+          "searchJob": "florida",
+          "text": "AI is reshaping how we learn, think and innovate. Are we ready for what's next? 🤖 Sharda School of Computing Science & Engineering (SSCSE), Sharda University, hosted an insightful expert session on \"The Future of Learning with AI” featurin"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122167060377858252",
-          "author": "bk7gems",
-          "searchJob": "class:2026",
-          "text": "Immersion cooling is technically viable for high densities and can remove nearly all heat with no server fans, supporting PUE figures near 1.02 to 1.08 in some deployments. Single-phase systems that keep the dielectric fluid liquid are more"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122144025348313279",
-          "author": "technewsonweb",
-          "searchJob": "class:2026",
-          "text": "[ Amazon India Deal ] 📦 RZ01-04620100-R3A1 Razer Basilisk V3 Pro Smartchoice Ergonomic Wireless Gaming Mouse at Rs 9,999 + Bank Offer Discounts (MRP Rs 27,999) [ad] https://t.co/fFgKFzNpzw – Iconic ergonomic form supports cutting edge ergo"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122168291959726439",
-          "author": "prepredzonenm",
-          "searchJob": "class:2027",
-          "text": "2027 La Cueva QB offered by Santa Barbara City College."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122166894753128845",
-          "author": "montymelen",
-          "searchJob": "class:2027",
-          "text": "#AGTG blessed to have received my 10th offer thank you Coach Cano can’t wait to check out Cali 🔥 @PrepRedzoneNM @CouchPSports @ThePitPressNM @nmprepcosports @scout60735 @nmpreps @LorenzoMelen_ https://t.co/1eTd1mQYfa"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122144532829511931",
-          "author": "drich2027",
-          "searchJob": "class:2027",
-          "text": "Coaches need to offer this kid -2027 QB"
+          "postId": "2122181627530846445",
+          "author": "brittanyfeip",
+          "searchJob": "florida",
+          "text": "This is urgent ‼️ I’m desperately trying to sell my 3 tickets to Olivia Rodrigo for 11/16 show at Kia Center - Orlando, Florida. Sec 114, Row 9, Seat 3,4,5 Can’t make it to the game anymore . Asking for $200 each. We are open for offers!! D"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122093240333816028",
-          "author": "suncoastpreps",
-          "searchJob": "class:2027",
-          "text": "Looking back, this might have been one of the most impactful transfers in the Tampa Bay area this season. QB Chance Houston has totaled 1,888 yards and 21 TDs for Tampa Catholic this season. The Crusaders have gone from 1-9 in 2025 to 8-3 i"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122176364145254529",
-          "author": "seanchopoff",
-          "searchJob": "oregon",
-          "text": "Thank you @CoachDanLanning and staff for an amazing official visit. The whole Duck family made me feel welcome and loved! #GoDucks 🦆 Back To Work!! @coachTcsm @MikeGarrity38 @tlbutler5 @T_Dean55 @MarshallDucks @BrodyNepstad https://t.co/q9"
+          "postId": "2122189962263269711",
+          "author": "tonyclimate",
+          "searchJob": "georgia",
+          "text": "This 1930 Georgia O'Keefe painting was found in someone's closet and is expected to sell for around $3 million. https://t.co/dj3oN7sBnb https://t.co/sN04Hkm0oE"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122175438671798435",
-          "author": "timlatimer365",
-          "searchJob": "oregon",
-          "text": "⚠️⚠️⚠️I think many Muslims buy up American companies to put them out of business. I remember one years ago in Oregon, they took over and it went out of business . No more good donuts from them anymore. That was a bummer . - Dunkin' Donuts m"
+          "postId": "2122189675398049922",
+          "author": "homecrux",
+          "searchJob": "georgia",
+          "text": "Built from two shipping containers and perched 60 feet above the forest floor, River Forest Lookout offers off-grid living, a rooftop terrace, and private river frontage in Georgia. It is listed for $1.2 million. https://t.co/ZtdZGNIuaK htt"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122161937169670449",
-          "author": "thepdxkid",
-          "searchJob": "oregon",
-          "text": "I definitely agree with this. 💯 If City of Portland, State of Oregon, and Multnomah County make a strong offer, I don’t think the team will leave. I just currently think that the City is screwing around. I believe there was a different dea"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122184140371980416",
-          "author": "allamay_shi",
-          "searchJob": "california",
-          "text": "https://t.co/pxgypNcG5W"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122065276409659598",
-          "author": "brimscr7",
-          "searchJob": "california",
-          "text": "🚨 BREAKING: ELON MUSK BREAKS HIS SILENCE AFTER FLORIDA GOVERNOR RON DESANTIS INVITED HIM TO BRING HIS TESLA GIGAFACTORY TO FLORIDA AMID HIS ONGOING CLASH WITH TEXAS GOVERNOR GINA HINOJOSA! 🗣️ Elon Musk says Florida is beautiful and that h"
+          "postId": "2122185539675656367",
+          "author": "livinginnorthga",
+          "searchJob": "georgia",
+          "text": "@_MG42 Very true...a lot of good things can come from having an offer on the table."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122182940243148951",
-          "author": "romelloduke",
-          "searchJob": "duke",
-          "text": "@CoachDaleUK Totally! Limited equipment can make progression trickier, but smart exercise variations, reps, and consistent progression still offer ways to build muscle."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122180051567268315",
-          "author": "theaimuze",
-          "searchJob": "duke",
-          "text": "https://t.co/P3jeZZbEOH"
+          "postId": "2122172726479925264",
+          "author": "morpheu5watcher",
+          "searchJob": "tennessee",
+          "text": "SURGERY PARTNERS $SGRY TOOK $25 OVER A $28 PROPOSAL: The Momentum Len5 is watching Surgery Partners (SGRY) at $26.95, +$0.37 / +1.39% on Friday. Surgery Partners, the Brentwood, Tennessee operator of surgery centers and surgical hospitals i"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122175936913141938",
-          "author": "worldwidennx",
-          "searchJob": "duke",
-          "text": "Britain's Prince Harry saluted wounded Ukrainian veterans and called them society's role models - during an unannounced visit to Ukraine. The Duke of Sussex met with patients and staff in Lviv - which is hosting trials for the Invictus game"
+          "postId": "2122191701318004916",
+          "author": "sonsofliberty66",
+          "searchJob": "texas",
+          "text": "We can message this all day 24/7 and it will have no effect. In Mexico people will not vote for freedom or capitalism; they vote the way the media tells them and for little handouts. You can't persuade those types of people anything. In Tex"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122170734248079722",
-          "author": "jgonzalesjr10",
-          "searchJob": "delaware",
-          "text": "I caught up Trinity Valley CC tight end Samuel Mitchell to discuss his offer from Delaware State and recruitment. #JUCOFootball #NewJacEra @ryancammas @coachleohunt @jucoweekly https://t.co/NMLOpNmJfJ https://t.co/blKcLh0v2l"
+          "reason": "no_fbs_school",
+          "postId": "2122176088860475631",
+          "author": "fkliford705",
+          "searchJob": "texas",
+          "text": "\"Your Husband Is Old\": Lebanese Woman Says ICE Agent Offered Green Card For Sex https://t.co/pCyL2T2LFG via @ndtv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122174085794869271",
+          "author": "austininno",
+          "searchJob": "texas",
+          "text": "Trying to sell a home here? Good luck. Realtors offer this advice. https://t.co/oADKfDhm6Q"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122173386428223532",
+          "author": "braniffintl",
+          "searchJob": "texas",
+          "text": "BRANIFF HISTORY TODAY - On this day, Wednesday, November 15, 1978, Braniff International inaugurated new nonstop service between Denver and Houston and between Chicago and San Antonio. The new service further enhanced Braniff's direct throu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122172967022952559",
+          "author": "mcavoyabd86856",
+          "searchJob": "texas",
+          "text": "Fetterman TURNS On Democrats’ Revenge Push — Offers To Work With Trump! https://t.co/v3JygXCEFv via @YouTube. A Sign of goodwill - Country over Party - that should answer the threat of a governor in Texas warning of Governor's exec order to"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122172851088146485",
+          "author": "thedailymeal",
+          "searchJob": "texas",
+          "text": "Believe it or not, Trader Joe's actually doesn't offer the best pecan pie on the market. Instead, it comes from the Texas-based Whole Foods chain. https://t.co/AjKbuKspWB"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122172850765250652",
+          "author": "braniffintl",
+          "searchJob": "texas",
+          "text": "BRANIFF HISTORY TODAY - On this day, Wednesday, November 15, 1978, Braniff International inaugurated new nonstop service between Denver and Houston and between Chicago and San Antonio. The new service further enhanced Braniff's direct throu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122168443965165984",
+          "author": "modernacre",
+          "searchJob": "houston",
+          "text": "https://t.co/MzoGTTduLj"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 15,
+      "accepted": 2,
+      "rejected": 27,
       "reasons": {
-        "school_not_resolved_confidently": 3,
-        "reporter_missing_player_name": 1,
-        "bare_mention_requires_llm": 5,
-        "multiple_resolved_schools": 6
+        "bare_mention_requires_llm": 18,
+        "multiple_resolved_schools": 7,
+        "player_display_name_unusable": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122167044703711378",
-          "author": "steelspaceframe",
-          "searchJob": "coastal-carolina",
-          "text": "On 11 November 2026, PIDG reported financial close and the start-of-works milestone for Project Shiprite at Takoradi Port, Ghana. The ship-repair investment offers a useful starting point for a general coastal-building discussion."
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122177427309031656",
+          "author": "michaelarothman",
+          "searchJob": "florida",
+          "text": "𝐌𝐂𝟐’𝐒 𝐏𝐑𝐄𝐒𝐈𝐃𝐄𝐍𝐓 𝐒𝐄𝐍𝐓 𝐑𝐎𝐙𝐀 𝐆𝐈𝐋𝐋𝐄𝐒, 𝟏𝟖, 𝐓𝐎 𝐄𝐏𝐒𝐓𝐄𝐈𝐍’𝐒 𝐇𝐎𝐔𝐒𝐄 — 𝐇𝐄 𝐒𝐓𝐈𝐋𝐋 𝐑𝐔𝐍𝐒 𝐀 𝐌𝐎𝐃𝐄𝐋𝐈𝐍𝐆 𝐀𝐆𝐄𝐍𝐂𝐘 Roza Gilles was 18, an immigrant from Uzbekistan buried in $20,000 of debt to h"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122153669605130503",
-          "author": "hazelcurry2000",
-          "searchJob": "coastal-carolina",
-          "text": "Discover Yingkou, a beautiful coastal city in Northeast China! Just 2.5 hours from Beijing by high-speed rail, Yingkou offers golden beaches, famous hot springs, mountain escapes, and stunning sunsets over the sea. Perfect for families, wel"
+          "reason": "multiple_resolved_schools",
+          "postId": "2122173129636122985",
+          "author": "brimscr7",
+          "searchJob": "florida",
+          "text": "Elon should think strategically, not emotionally. Texas is not the only place capable of hosting Tesla’s ambitions. If Florida offers better opportunities, a stronger partnership and a more supportive business environment, he should be read"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122151210379796507",
-          "author": "maria137012368",
-          "searchJob": "coastal-carolina",
-          "text": "…. Continued THE WHITE SLAVES OF ISLAMIC AFRICA - The manuscript of a Cornish boy from Penryn named Thomas Pellow who was captured at sea in 1715 at the age of 11, which Milton quotes in his book, offers valuable insight into the persecutio"
+          "reason": "multiple_resolved_schools",
+          "postId": "2122172993962971638",
+          "author": "jimmiex07",
+          "searchJob": "florida",
+          "text": "That is the kind of decision every business leader has to consider. Tesla’s future should be determined by long-term opportunities, economic stability and the environment available for growth, not political loyalties. Texas and Florida both"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122162571474067581",
-          "author": "jucoffrenzy",
-          "searchJob": "class:2027",
-          "text": "2027 (@mtsacfootball) JUCO OL @HarryMaileoi02 was offered by Cal @CalFootball HL https://t.co/KYHW6E6F5J https://t.co/K0fVJentm7"
+          "reason": "multiple_resolved_schools",
+          "postId": "2122172379661021363",
+          "author": "brimscr7",
+          "searchJob": "florida",
+          "text": "IF I WERE ELON MUSK, I WOULDN’T ALLOW POLITICS TO DICTATE THE FUTURE OF MY BUSINESS! I wouldn’t rush into relocating Tesla’s Gigafactory, but I would make Florida a serious alternative. Governor Ron DeSantis has an opportunity to attract on"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122181545800990801",
-          "author": "mtorressports",
-          "searchJob": "oregon",
-          "text": "Oregon hosts recently offered College of San Mateo (Calif.) TE Sean Chopoff for an official visit #GoDucks"
+          "postId": "2122172172755996847",
+          "author": "rheytah",
+          "searchJob": "florida",
+          "text": "Andrew Lapin, Jewish Telegraphic Agency Steven Van Zandt is worried about the Jews. “There is that pre-Holocaust vibe,” the Rock and Roll Hall of Famer told the Jewish Telegraphic Agency recently about what he sees on social media, where he"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122166022073393305",
+          "author": "tdmfutbol",
+          "searchJob": "florida",
+          "text": "Texas and Florida should be competing to attract investment, not driving businesses into political battles. A Tesla Gigafactory could bring thousands of jobs, strengthen local businesses and create significant economic opportunities. Ultima"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122165841596711210",
+          "author": "tdmfutbol",
+          "searchJob": "florida",
+          "text": "If this report is accurate, Trump’s message highlights how important Tesla’s investments are to America’s manufacturing future. Florida and Texas should be competing to offer the best environment for businesses, not turning investment decis"
+        },
+        {
+          "reason": "player_display_name_unusable",
+          "postId": "2122187903644148143",
+          "author": "westinj44",
+          "searchJob": "georgia",
+          "text": "Blessed to receive my first offer Go dawgs @LaTechSharp https://t.co/fG5wsvxMHy"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122173881918111763",
-          "author": "tomtrip10",
-          "searchJob": "oregon",
-          "text": "@NotTinaKotex @CJJ_ENN The founding fathers were smart. The states can do this if they want. Let Oregon be the test case go for it. Offer free healthcare for all people regardless of status. She should lead it."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122166779426537864",
-          "author": "ultracolonial",
-          "searchJob": "oregon",
-          "text": "@PaxNipponica @TheKevinBoyd Historically illiterate. The interior was settled b/c the USG offered land grants to the surplus of New England Revolutionary War veterans without farmland. Later New England merchants would go as far as Oregon, "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122162865251717628",
-          "author": "michael91698149",
-          "searchJob": "penn-state",
-          "text": "@ETONN33 @iamjamartaylor1 @AlecCr12 @GregSchiano @RFootball Ha he was also offered by Penn State and Georgia today. Last I checked they don’t have a lame duck coach at the helm."
+          "postId": "2122163587376640186",
+          "author": "tfloss32",
+          "searchJob": "purdue",
+          "text": "Purdue issues an offer to '29 LB C'Ivion Hines (@CivionHines) out of Klein High. #BoilerUp🚂 https://t.co/niDExq9gRp https://t.co/N4T5UUZ73c 𝕏 @KleinFootball25 | @TheMothersh1p"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122176783705317447",
-          "author": "husker_faith",
-          "searchJob": "baylor",
-          "text": "@Luuuey @AbbieSomething Houghtelling was hired to do 1 on 1 training. She sent videos to NE staff and campaigned for her. Her club was pushing her to TX and Baylor. After her camp at TX, they did not express interest. NE wanted her at a cam"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122184577393586469",
-          "author": "data_globe",
-          "searchJob": "boston-college",
-          "text": "🎓 Top 20 K-Pop Idols With Surprisingly High Academic Achievements ① 🇰🇷 Tablo (Epik High) — Master's Degrees from Stanford University ② 🇰🇷 Park Kyung (Block B) — Mensa Member, Reported IQ of 156 ③ 🇰🇷 Changmin (TVXQ) — Multiple Univers"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122183092093718977",
-          "author": "sonia_dill5367",
-          "searchJob": "california",
-          "text": "I want to encourage Elon to take that offer. Florida will be the best place for all his business. Only leave Neuralink in Texas or California and near military bases to help veterans to recuperate body functionality. The pentagon will suppo"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122182901710172314",
-          "author": "vizmas23",
-          "searchJob": "california",
-          "text": "Elon Musk relocating Tesla’s headquarters out of Texas feels less like a strategic business pivot and more like an impulsive rerun of his 2021 California exit, proving that no state can offer enough tax breaks or deregulation to satisfy a C"
+          "postId": "2122162861673980043",
+          "author": "tfloss32",
+          "searchJob": "purdue",
+          "text": "'28 LB Tyce Payne (@TTPayne7) from Vernon notches a Purdue offer. #BoilerUp🚂 https://t.co/CRUbB3FYib https://t.co/YebMYJSgxN 𝕏 @CoachBPayne"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122165884395659689",
-          "author": "geelezhb",
-          "searchJob": "california",
-          "text": "California requires dogs get a rabies vaccination every 3 years without exception. Not even a titers will exempt your pet. I just went through this and found a vet who only offers the older traditional shot. I wished I could have avoided th"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122164385091137836",
-          "author": "dr_bunter_hiden",
-          "searchJob": "california",
-          "text": "@Sassafrass_84 If someone really offered that, nothing is off the table so long as the house and neighborhood are equivalent to or better than my current one... Even states i loathe politically like California, or weather wise like Florida,"
+          "postId": "2122161093527339027",
+          "author": "tfloss32",
+          "searchJob": "purdue",
+          "text": "Willis '28 LB Nazeree Guy (@NazereeGuy31808) gains a Purdue offer. #BoilerUp🚂 https://t.co/qnBo39rliV https://t.co/5ftDIelj6x 𝕏 @CoachTMiller18 | @WillisWildkats1"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122159159080579226",
-          "author": "kevbachler",
-          "searchJob": "california",
-          "text": "Basically, all costs are down except oil and food, but unfortunately, those are critical. Drugs have actually had their biggest drop since the early 1970s. The war has had a negative effect. Gas prices have been coming down for a few weeks."
+          "postId": "2122159010988085448",
+          "author": "30anerds",
+          "searchJob": "south-carolina",
+          "text": "Shopping holiday deals online? Pay with credit, not debit. 💳 Per South Carolina Consumer Affairs, debit is a direct line to your checking account. Credit cards offer extra protections. Skip gift cards and wires too. Which card do you shop "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122190051434279407",
+          "author": "manishamishra24",
+          "searchJob": "texas",
+          "text": "Elon Musk lost a $56 billion pay package to a man who owned 9 Tesla shares. A judge voided the deal, then ordered Tesla to pay that man's lawyers $345 million, after they asked for $5.6 billion. Then Delaware's Supreme Court gave it all bac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122000895164756166",
+          "author": "shruti_0810",
+          "searchJob": "texas",
+          "text": "I gave a complicated frame half a second. Very generous of me. Make a clearer take with Generate Image in the CapCut Web Video Editor. From Nov 13–19, buy or upgrade to CapCut Web Ultra for 7 days of unlimited image generation at either 1K "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122181986609480023",
+          "author": "therightledger",
+          "searchJob": "texas",
+          "text": "Absolutely not, thats still an amnesty, you still lose Texas and those who receive citizenship will still support Democrats. But, it's kind of pointless to discuss. Because in his first term, Trump offered legalization for DACA recipients i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122179005298462864",
+          "author": "popathenaxx",
+          "searchJob": "texas",
+          "text": "@floofy_pup ur 22, what have u been doing with ur life since u graduated? and i know its not further schooling bc the tweet says OFFERED not forced"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122169039753519202",
+          "author": "jjspoe",
+          "searchJob": "texas",
+          "text": "@KevinHemphill7 @mitchellvii What precautions did thr SAVE Act offer that Texas didn't already have in place?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122173211513434394",
+          "author": "nathanboyd12913",
+          "searchJob": "ucla",
+          "text": "They wouldn't let Elon Musk be steward over my finances due to the political. I wonder if they, 'll let Madonna since we have similar Ethics and she along with the Acts at Glastonbury are going to love the forced by catheterization drug scr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122190237283590525",
+          "author": "jamesbeaver01",
+          "searchJob": "houston",
+          "text": "@517to214 You were ahead of your time once and threw out the AD to Houston for a lottery pick and Jabari Smith back in the day after AD first year...3 game road skid against quality teams but come Feb do you offer Kyrie if they give you bac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122176516444258733",
+          "author": "neezyandretti",
+          "searchJob": "houston",
+          "text": "@lafemme_niketa @Quinthox After how the Comets came to be? They were sold to the highest bidder. Money talks, bullshit walks. Basketball in CT was trash anyway. They rarely showed up. The team was probably going to end up in Boston anyway, "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122168633044631739",
+          "author": "padresdg",
+          "searchJob": "houston",
+          "text": "👀 Why The Padres Should Gamble On Trevor Rogers Before The Lockout: #Padres Trevor Rogers is the #2 pitcher on the market behind only Tarik Skubal — and he's the most volatile one. The Profile: - *Age in 2027:* 29, LHP, ex-Orioles / ex-Mar"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122164067804864634",
+          "author": "dramaticastory",
+          "searchJob": "memphis",
+          "text": "An Objective Story Catalyst accelerates the shared conflict. Threat concerns signs of danger and the characters’ assessment of their vulnerability. Its presence can make a stalled negotiation suddenly worth pursuing. Catherine’s captivity o"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122188700046205404",
+          "author": "devirudrani",
+          "searchJob": "rice",
+          "text": "Sri Devi Maayi Amma – The mysterious Avadhuta of Kanyakumari and Salem There lived an extraordinary woman on the shores of Kanyakumari. Nobody knew where she had come from, who her parents were, what her real name was, or how old she actual"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122177305556730266",
+          "author": "albngt1120",
+          "searchJob": "rice",
+          "text": "You should definitely visit Niigata Prefecture, Japan, the birthplace of Ami Nakai and Ayumu Hirano, and see what this beautiful region has to offer! 🇯🇵 Come and enjoy our world-class ski resorts, relaxing hot springs, delicious sake and "
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 163,
-      "swept": 26,
-      "failed": 0,
+      "jobs": 162,
+      "swept": 25,
+      "failed": 1,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "georgia-southern: SearchTimeline response missing — no timeline call; page said: Home Explore Notifications Follow Chat Calls Grok Money History Creator Studio Premium Profile More Post big WRguy @BWrguy56881 (slice left pending)"
+      ]
     },
     "commits": {
       "samples": [],
@@ -364,12 +401,12 @@
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 15,
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 27,
       "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-16T04:44:05.155Z"
+    "status rebuilt locally from current store on 2026-11-16T04:58:49.208Z"
   ]
 }
