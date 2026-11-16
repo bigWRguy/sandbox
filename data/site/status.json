@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T02:27:54.458Z",
+  "generatedAt": "2026-11-16T02:44:40.556Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-16T02:27:53.793Z",
+    "at": "2026-11-16T02:44:39.896Z",
     "jobsTotal": 162,
-    "sweptThisRun": 5,
-    "requests": 6,
-    "fullSweepCycles": 33
+    "sweptThisRun": 24,
+    "requests": 24,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,86 +32,110 @@
   },
   "staleSchools": [
     {
-      "id": "louisiana-tech",
-      "hours": 2.5
-    },
-    {
-      "id": "marshall",
-      "hours": 2.5
-    },
-    {
-      "id": "auburn",
-      "hours": 2.3
-    },
-    {
-      "id": "florida-state",
-      "hours": 2.3
-    },
-    {
-      "id": "georgia-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "hawaii",
-      "hours": 2.3
-    },
-    {
       "id": "houston",
-      "hours": 2.3
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.3
-    },
-    {
-      "id": "memphis",
-      "hours": 2.3
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.3
-    },
-    {
-      "id": "rice",
-      "hours": 2.3
-    },
-    {
-      "id": "sam-houston",
-      "hours": 2.3
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.3
-    },
-    {
-      "id": "south-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "tennessee",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "texas",
+      "hours": 2.5
+    },
+    {
+      "id": "arizona",
       "hours": 2.3
     },
     {
-      "id": "texas-am",
+      "id": "buffalo",
       "hours": 2.3
     },
     {
-      "id": "washington-state",
+      "id": "clemson",
+      "hours": 2.3
+    },
+    {
+      "id": "colorado",
+      "hours": 2.3
+    },
+    {
+      "id": "florida",
+      "hours": 2.3
+    },
+    {
+      "id": "iowa-state",
+      "hours": 2.3
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 2.3
+    },
+    {
+      "id": "james-madison",
+      "hours": 2.3
+    },
+    {
+      "id": "kansas",
+      "hours": 2.3
+    },
+    {
+      "id": "louisville",
+      "hours": 2.3
+    },
+    {
+      "id": "miami",
+      "hours": 2.3
+    },
+    {
+      "id": "middle-tennessee",
+      "hours": 2.3
+    },
+    {
+      "id": "missouri-state",
+      "hours": 2.3
+    },
+    {
+      "id": "nc-state",
+      "hours": 2.3
+    },
+    {
+      "id": "north-carolina",
+      "hours": 2.3
+    },
+    {
+      "id": "oklahoma-state",
+      "hours": 2.3
+    },
+    {
+      "id": "pittsburgh",
+      "hours": 2.3
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.3
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "ucla",
+      "hours": 2.3
+    },
+    {
+      "id": "western-kentucky",
+      "hours": 2.3
+    },
+    {
+      "id": "wisconsin",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.50654,
-    "p95Hours": 2.2571102777777776,
-    "worstHours": 2.510354722222222
+    "medianHours": 1.5379644444444445,
+    "p95Hours": 2.289843888888889,
+    "worstHours": 2.5365819444444444
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 76,
+    "decided": 76,
     "complete": true
   },
   "pending": {
@@ -120,7 +144,7 @@
   "profileResolution": {
     "cached": 109
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 4,
   "quality": {
     "completeOffers": 4776,
     "incompleteOffers": 0
@@ -128,10 +152,10 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-16T02:27:53.793Z",
-      "got": 3,
-      "new": 2,
-      "lag": 1.74
+      "at": "2026-11-16T02:44:39.896Z",
+      "got": 141,
+      "new": 76,
+      "lag": 0.03
     },
     "search:commit": {
       "at": "2026-11-16T02:27:53.793Z",
@@ -141,73 +165,410 @@
     }
   },
   "audit": {
-    "at": "2026-11-16T02:27:25.619Z",
+    "at": "2026-11-16T02:42:52.436Z",
     "mode": "live",
     "collection": {
-      "returned": 3,
-      "kept": 2,
-      "duplicate": 1,
+      "returned": 141,
+      "kept": 76,
+      "duplicate": 65,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 35,
+      "rejected": 41,
+      "reasons": {
+        "no_fbs_school": 19,
+        "no_offer_term": 15,
+        "hard_negative": 4,
+        "non_fbs_offer_target": 3
+      },
+      "samples": [
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122141995338510393",
+          "author": "blakemarsh46572",
+          "searchJob": "marshall",
+          "text": "@FitYogiNina do u offer customs? if so what is the best email to contact u?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122135060132331953",
+          "author": "blakemarsh46572",
+          "searchJob": "marshall",
+          "text": "@AlexisLoad @ManyVids hi do u offer customs? if so what is the best email to contact u?"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122125470473007292",
+          "author": "danwolken",
+          "searchJob": "auburn",
+          "text": "I’m sorry, Brent’s a good guy and I know his intentions are good but this is just BS. There is no world where an 8-hour bus ride with 150 people, cobbled together at the last minute, would be fun - Buccee’s stop or not. It’s Nov 15, team bu"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122104695061684460",
+          "author": "joshmcallaway",
+          "searchJob": "auburn",
+          "text": "Brent Venables was clearly baffled postgame why Ole Miss didn't just bus their way to Norman, and I found his comments here hilarious: \"There's more than just a group of guys having to ride on the bus for eight hours. I mean, you can build "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122136780757676293",
+          "author": "auburnfbc",
+          "searchJob": "auburn",
+          "text": "Fear can convince us that what we have is not enough. Lucas Dorion reflects on the courage to offer what God has placed in our hands, encourage the gifts in one another, and trust God with what comes next. https://t.co/qzPnuMUU0e"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122140245172847023",
+          "author": "donedealcardco",
+          "searchJob": "tennessee",
+          "text": "Check out Topps 2025 Chrome Cam Ward RC 🔥IMAGE VARIATION REFRACTOR-SP🔥 Tennessee Titans https://t.co/CIQ4ApUHir #eBay via @eBay $65 🛳️ Free shipping! 🤝 Shoot us an offer! #TitanUp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122139366063505542",
+          "author": "donedealcardco",
+          "searchJob": "tennessee",
+          "text": "Check out 2025 Topps Chrome Cam Ward RC Rookie Autographs Auto #RA-CWA Tennessee Titans https://t.co/OVToIJyFKQ #eBay via @eBay $150 🛳️ Free shipping! 🤝 Shoot us an offer! #TitanUp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122083871395348489",
+          "author": "randy4ou",
+          "searchJob": "tennessee",
+          "text": "@mblackwell @OUoutsider55 Disagree Matt! He is doing a great job managing someone else’s offense and getting these kids to play hard. Give him the damn job!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121611602537697497",
+          "author": "kevintatumjr_",
+          "searchJob": "texas",
+          "text": "After a lot of prayer and reflection, I’ve decided to shut down my recruitment and not pursue college football. Instead, I’m pursuing my calling to ministry full speed. Grateful for every opportunity and everyone who’s been part of this jou"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122129303970230323",
+          "author": "grandsoncr7",
+          "searchJob": "texas",
+          "text": "Their combined influence could also help bring national attention to the decisions being proposed for Texas and encourage a serious public debate about the state’s economic future. Trump and Musk should focus on presenting clear alternative"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122147202805928035",
+          "author": "globeceleb",
+          "searchJob": "texas",
+          "text": "YOU DON’T WANT TO LIVE ON AN EXPRESS ROAD. You have worked hard, built your wealth, and established your place in the world. But what is the value of a magnificent home if the environment around it cannot offer you peace? Luxury is not simp"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122145277691740537",
+          "author": "oneturnnews",
+          "searchJob": "texas",
+          "text": "https://t.co/ECnjEqpJJX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122141895136596430",
+          "author": "aaron_bogue",
+          "searchJob": "texas",
+          "text": "Yes, and the last event he did in an amphitheater like that in Texas drew 3000 people. Why did his staff repeatedly tell UVU to prepare for 600? Additionally, they did offer him a different outside location that they insisted would be safer"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122140242673385707",
+          "author": "aaron19910101",
+          "searchJob": "texas",
+          "text": "You know that I actually have a tenant who is a police officer in Texas. And I used to have a friend who is a son of a police offer there. They told me that these police officers are only provided 4 hours sleep sometimes. Well, if someone o"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122140231168323723",
+          "author": "battlefamily77",
+          "searchJob": "texas",
+          "text": "Halal meat and public schools-State-level developments: Illinois – Faith by Plate Act (Public Act 103-0514) — Signed March 2025; Illinois is the first state to require public schools, hospitals, and correctional facilities to offer halal an"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122132853635064236",
+          "author": "denice4ussenate",
+          "searchJob": "texas",
+          "text": "SEE: https://t.co/ir9V9AbCIB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122131150118551890",
+          "author": "cnxsoft",
+          "searchJob": "texas",
+          "text": "Nabu Casa launches Home Assistant Connect AUX-2 ESP32-S3-based smart home controller. https://t.co/3LiHBzzk1B The device combines audio streaming, RS-232 serial control, Bluetooth LE proxy, and USB expansion for Z-Wave connectivity. It is d"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122127462247403625",
+          "author": "msaidramadhan",
+          "searchJob": "texas",
+          "text": "you can switch AI apps in seconds... but the cloud providers and chip suppliers behind them can overlap from Nvidia and TSMC to the machines inside a fab, here's how the supply chain fits together https://t.co/AnkJvqMcO3"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122143922374021535",
+          "author": "brentswancer",
+          "searchJob": "houston",
+          "text": "https://t.co/cEh6imSaQt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122154316051988517",
+          "author": "stolenstuffhi",
+          "searchJob": "hawaii",
+          "text": "LOST PET: Tuxedo cat missing on Kamehameha Hwy, Pearl City Reported by Louise Ingebrethsen 💰 REWARD: $100 offered for safe return / information \"Missing....Tuxedo cat named KAIPO.....last seen st 785 Kam hwy in Pearl City Kaipo is missing."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121963105009746387",
+          "author": "dieterweber2028",
+          "searchJob": "miami-oh",
+          "text": "Junior Season Highlights: 226/295 (76.61% comp.) 3,471 passing yards 32 touchdowns 298 rushing yards 7 touchdowns Hudl: https://t.co/9d5HaesSTZ https://t.co/axsTOlroZh"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122142100187918589",
+          "author": "arareddye",
+          "searchJob": "rice",
+          "text": "🔔 *Significance* 🔔 *🪔 Kartika Monday: A Path to Liberation (Moksha) 🪔* *The month of Kartika holds immense spiritual significance; every day within this month is special, and a Monday in Kartika is considered especially auspicious. Acco"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122124396764738028",
+          "author": "thewarmchills",
+          "searchJob": "rice",
+          "text": "&gt; \"Will be offered\" &gt; \"I can't believe I'm being forced into this\" ???"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121750264927694876",
+          "author": "floofy_pup",
+          "searchJob": "rice",
+          "text": "soooo as someone with crippling anxiety and autism who gets anxious doing 3 hours a week volunteering to the point i dread for days and struggle sleeping and need a few days to recover.. how the fuck am i gonna be able to cope with this? im"
+        }
+      ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 2,
+      "rejected": 35,
       "reasons": {
-        "bare_mention_requires_llm": 1,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 26,
+        "reporter_missing_player_name": 1,
+        "multiple_resolved_schools": 7,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122123335962329099",
-          "author": "aidyn_ragsdale",
-          "searchJob": "fresno-state",
-          "text": "Aidyn Ragsdale | c/o 2027 | San Joaquin Memorial (Fresno, CA) NCAA ID# 2611224557 Position (s): • ILB • OLB • DE • Interior Measurements: Height: 6-1 Weight: 215-220 lbs Wingspan: 75” 🌟 3 Offers 🌟 2nd Team All-Conference 25’ 🌟 SJM Coache"
+          "postId": "2122148933761749078",
+          "author": "9377_potter",
+          "searchJob": "auburn",
+          "text": "@grayprier @coach_connors1 @CoachCliffOdom @Coach_Leb @trlong02 @CoachJamesVH @RecruitTheHills @CoachLundberg @FentressKicking Need an Auburn offer"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122141714802688072",
+          "author": "heel919",
+          "searchJob": "auburn",
+          "text": "@XisBack305 D$ said Auburn offered 1.2, we choose not to match"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122140925757706728",
+          "author": "shanks205_",
+          "searchJob": "auburn",
+          "text": "I mean, the Auburn guys seemed to disagree wholeheartedly. For a guy who looks like he knows exactly what “services” are offered at a Love’s maybe just focus on the snacks next time."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122139285843259633",
+          "author": "merelyjwright",
+          "searchJob": "tennessee",
+          "text": "\"Only a game manager\" is crazy talk. He's moved the ball well, had multiple TDs called back or dropped. He's played really well for a RS Freshman. Denigrating him is ridiculous. He's played his guts out for us & did it waiting his turn unti"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2122131157852852658",
+          "author": "recruitgeorgia",
+          "searchJob": "tennessee",
+          "text": "GAC senior offensive lineman lands a D1 offer by way of Tennessee State. #RecruitGeorgia"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122128373350813971",
-          "author": "recruitgeorgia",
-          "searchJob": "georgia-southern",
-          "text": "Big #SunBelt offer from Georgia Southern for the 6'6\" Peachtree Ridge senior offensive tackle. #RecruitGeorgia"
+          "postId": "2122127629054775800",
+          "author": "bwisefitness",
+          "searchJob": "tennessee",
+          "text": "Yep. What he’s done is even more impressive given the state this offense was in. Additionally, it also feels like a worthwhile risk because of OU doesn’t offer him, a team like Texas A&amp;M or Tennessee will and if he becomes successful, B"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122157847349723533",
+          "author": "romzyunited",
+          "searchJob": "texas",
+          "text": "🗣️ MY TAKE: Texas shouldn’t underestimate how much leverage Elon Musk and Tesla now have. Gina Hinojosa may believe Texas can take a tougher stance toward Musk without serious consequences, but business decisions are ultimately driven by w"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122156197721563457",
+          "author": "moshymiss",
+          "searchJob": "texas",
+          "text": "@Jukseygirl @ColonelTowner @MichaelSavaged @KimWexlerMAJD @truth_ac @VBierschwale @lkhcookie Mosque Linked To Muslim Brotherhood Has Received Millions In Federal Grants Chuck Ross Reporter 11:27 PM 12/28/2015 8026 A Kansas City mosque owned"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122155913108742204",
+          "author": "ashleyhayek",
+          "searchJob": "texas",
+          "text": "A Texas high school football player with college offers on the table just ended his recruitment to go into ministry full time. His words: 'All glory to God.' ✝️ Everyone tells young men to chase the spotlight. This one followed the calling."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122154229372526936",
+          "author": "jimmiex07",
+          "searchJob": "texas",
+          "text": "🚨 BREAKING: DONALD TRUMP REPORTEDLY URGES ELON MUSK TO ACCEPT RON DESANTIS’ INVITATION AND RELOCATE TESLA’S GIGAFACTORY OPERATIONS TO FLORIDA AMID THE POLITICAL STORM IN TEXAS! President Donald Trump is reportedly encouraging Elon Musk to "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122152027145036158",
+          "author": "carrickgal71587",
+          "searchJob": "texas",
+          "text": "@jimmieX07 Elon should take them up on this offer. Texas will not be good for business with these new leftist taking over. So sad to see Texas turn blue. Good luck to all Texans. You’re about to turn into California 💔😢"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122144675289346337",
+          "author": "alexaha98955578",
+          "searchJob": "texas",
+          "text": "@PollTracker2024 The people Texas elected certainly complained about the economy, but offered zero solutions. Voters were duped."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122142630905622940",
+          "author": "dallasnews",
+          "searchJob": "texas",
+          "text": "Joey McGuire offers update on Texas Tech QB Tommy Castellanos after big fourth-quarter collision https://t.co/tjNEw9OgJQ"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122131064592474397",
+          "author": "ourshallowstate",
+          "searchJob": "texas",
+          "text": "As you know, I was highly confident in the weeks going into the election. A couple times, I was chastised here for being too much so, for fear it might blunt the urgency of Dems to flood the polls, so I toned it down. A little. :) What did "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122130321105637575",
+          "author": "lynda17533",
+          "searchJob": "texas",
+          "text": "@JoelEsom A governor’s responsibility is to create opportunities for citizens, not chase away investors. If Florida can offer Elon Musk a better environment to build, Texas must understand that investment, jobs and innovation can move elsew"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122128194354704675",
+          "author": "thomastucker313",
+          "searchJob": "texas",
+          "text": "11 Games (Season+Playoffs Film) for ‘27 (DB/SAF) @ThomasTuckerJr4 at Ridge Point HS (Missouri City, TX) which is a Top 5 6A in Texas. (6’2 | 185lbs | 4.5 40 | 6’7 WS) All Verified. Multiple D1 Offers 17 Tackles, 7 PBUs, 2 Interceptions, 1 F"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122137780943782088",
+          "author": "donaldschubot",
+          "searchJob": "houston",
+          "text": "@united Hey United, you offered me to cancel my flight which I did but you still sent my bags to BNA. After 2.5 hours today on phone with premier desk not getting through to baggage help and a multi hour message thread I can’t get my bags b"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122137089571693054",
+          "author": "kurtpimentel",
+          "searchJob": "houston",
+          "text": "@AmericanAir comedy keeps happening. I’ve sat in 1D for 40 minutes now and offered one drink. Lawd! Could have drove to Houston by now and had dinner. No dinner tonight. https://t.co/7Jc5khSvtz"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122135699767890073",
+          "author": "driftsignaltx",
+          "searchJob": "houston",
+          "text": "Title: Fear and Loathing in the Land of the Algorithm Jordane Raoul Kael, Son of Scipio, First of the Drift Walkers We were somewhere outside Austin when the power grid began to flicker. A truck stop full of vape smoke, unlicensed AI compan"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122147652183933277",
+          "author": "aihbmemphis",
+          "searchJob": "memphis",
+          "text": "Cash Home Buyers Germantown: a cleared room does not tell you what preparation the cash offer requires. Ask our Memphis buyers to identify any remaining responsibilities. (901) 763-6616 #AsIsHomeBuyerMemphis https://t.co/tKYhK8SWtG"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122144202737811834",
+          "author": "brianallen00046",
+          "searchJob": "memphis",
+          "text": "@RebelSportsTalk Everyone in the country had the same problem. Everyone else figured it out. Incompetent or lying? Maybe both. Could have bused. OU offered to move the game to 8p. Surely Memphis Int. had flights out Sat. morning. Nothing yo"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122138458189877487",
+          "author": "witblitzbru",
+          "searchJob": "memphis",
+          "text": "@TurnerBlckchain @wereallbarabbas @smcroasters You offered Memphis for someone else you bitchmade faggot. Come to Johnson City and we'll get that work."
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122151604048842885",
+          "author": "air_it_out_13",
+          "searchJob": "miami-oh",
+          "text": "Mr Football numbers D. One hell of a season. All that extra work… Field..Especially 🎥 Earned. Keep trusing the process. College coaches… Turn the tape on… Alresdy holding 2 DI offers. @UConnFootball @MiamiOHFootball Who’s next? Two sport a"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122133871806624255",
+          "author": "warazori_1",
+          "searchJob": "rice",
+          "text": "@tatsu1974 Hahaha when does Starbucks offer rice &amp; gyoza combo set? 🤤"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 165,
-      "swept": 6,
-      "failed": 1,
-      "requests": 7,
-      "errors": [
-        "louisiana-tech: rate limited"
-      ]
+      "jobs": 164,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
-      "samples": [],
+      "samples": [
+        {
+          "reason": "no_football_context",
+          "postId": "2122144252364767707",
+          "author": "rezabushkay",
+          "text": "@JoelEsom Head down to Florida and flip it blue.please take the offer"
+        }
+      ],
       "stats": {
-        "candidates": 0,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "rejected": 1,
+        "reasons": {
+          "no_football_context": 1
+        }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 2,
+      "rejectedCandidates": 35,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-16T02:27:54.459Z"
+    "status rebuilt locally from current store on 2026-11-16T02:44:40.557Z"
   ]
 }
