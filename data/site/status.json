@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T01:27:47.475Z",
+  "generatedAt": "2026-11-17T01:44:09.025Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T01:27:46.842Z",
+    "at": "2026-11-17T01:44:08.026Z",
     "jobsTotal": 162,
-    "sweptThisRun": 4,
-    "requests": 5,
-    "fullSweepCycles": 41
+    "sweptThisRun": 22,
+    "requests": 22,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,74 +32,82 @@
   },
   "staleSchools": [
     {
-      "id": "kansas-state",
-      "hours": 2.5
-    },
-    {
-      "id": "massachusetts",
-      "hours": 2.5
-    },
-    {
-      "id": "memphis",
-      "hours": 2.5
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.5
-    },
-    {
-      "id": "ole-miss",
-      "hours": 2.5
-    },
-    {
-      "id": "auburn",
-      "hours": 2.2
-    },
-    {
       "id": "louisiana",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "middle-tennessee",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "missouri-state",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "rice",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "sam-houston",
-      "hours": 2.2
-    },
-    {
-      "id": "tcu",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
       "id": "texas-tech",
-      "hours": 2.2
+      "hours": 2.5
     },
     {
-      "id": "utah",
-      "hours": 2.2
+      "id": "notre-dame",
+      "hours": 2.3
     },
     {
-      "id": "virginia",
-      "hours": 2.2
+      "id": "oregon",
+      "hours": 2.3
+    },
+    {
+      "id": "penn-state",
+      "hours": 2.3
+    },
+    {
+      "id": "rutgers",
+      "hours": 2.3
+    },
+    {
+      "id": "san-diego-state",
+      "hours": 2.3
+    },
+    {
+      "id": "san-jose-state",
+      "hours": 2.3
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "uconn",
+      "hours": 2.3
+    },
+    {
+      "id": "virginia-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "wake-forest",
+      "hours": 2.3
+    },
+    {
+      "id": "west-virginia",
+      "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2491202777777777,
-    "p95Hours": 2.2383180555555557,
-    "worstHours": 2.5052008333333333
+    "medianHours": 1.2703044444444445,
+    "p95Hours": 2.2724027777777778,
+    "worstHours": 2.5109708333333334
   },
   "decisionCoverage": {
-    "total": 2,
-    "decided": 2,
+    "total": 74,
+    "decided": 74,
     "complete": true
   },
   "pending": {
@@ -108,93 +116,443 @@
   "profileResolution": {
     "cached": 110
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 4830,
+    "completeOffers": 4833,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T01:27:46.841Z",
-      "got": 10,
-      "new": 2,
-      "lag": 0.24
+      "at": "2026-11-17T01:44:08.008Z",
+      "got": 102,
+      "new": 74,
+      "lag": 0.05
     },
     "search:commit": {
-      "at": "2026-11-17T01:27:46.841Z",
-      "got": 0,
-      "new": 0,
-      "lag": null
+      "at": "2026-11-17T01:44:08.026Z",
+      "got": 41,
+      "new": 19,
+      "lag": 0.06
     }
   },
   "audit": {
-    "at": "2026-11-17T01:27:22.801Z",
+    "at": "2026-11-17T01:42:29.274Z",
     "mode": "live",
     "collection": {
-      "returned": 10,
-      "kept": 2,
-      "duplicate": 8,
+      "returned": 102,
+      "kept": 74,
+      "duplicate": 28,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 2,
+      "accepted": 22,
+      "rejected": 52,
       "reasons": {
-        "no_fbs_school": 2
+        "no_offer_term": 4,
+        "no_fbs_school": 26,
+        "non_fbs_offer_target": 17,
+        "hard_negative": 5
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2122498303283679590",
-          "author": "ucrrg",
-          "searchJob": "oklahoma",
-          "text": "Dealer data, test drives, service bays—risk moves fast. Our Oklahoma-domiciled Risk Retention Group offers garage liability and cyber liability coverage for auto dealers in key markets, helping protect your lot, your customers, and your mom"
+          "reason": "no_offer_term",
+          "postId": "2122502107404140824",
+          "author": "pretiuminsights",
+          "searchJob": "ole-miss",
+          "text": "A revealing tour of South Georgia. https://t.co/HZFZ3gKsC4"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122471039993295223",
-          "author": "tarpleykd",
-          "searchJob": "oklahoma",
-          "text": "Make me an offer I can’t refuse. All maintenance done at the same dealership I got it from 6 years ago. They have all the maintenance records. 110,037 miles. Just replaced the serp belt at 110,035 miles! Just did a Toyota engine coolant flu"
+          "postId": "2122497771739480404",
+          "author": "cameronbaylor21",
+          "searchJob": "phrase:\"honored to receive an offer\"",
+          "text": "After a great conversation with @Lukas_C8, I am extremely honored to receive an offer from VTSU! Thank you @Coach_Higs and @Lukas_C8 for everything you have done in the process! Excited to keep the process going! https://t.co/hq684Gmm9G"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122502152786735247",
+          "author": "martinez_r82342",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Blessed and grateful to receive an offer from Southwest Raiders Thankful for the opportunity and excited to see what my future holds.The recruiting process is still open.🙏 @SWRaidersFB @CoachQuis60 @CoachKProvi @coach_jaredshaw https://t.c"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122494412630765832",
+          "author": "l0ganrhee",
+          "searchJob": "phrase:\"grateful to receive an offer\"",
+          "text": "Grateful to receive an offer from Centenary College of Louisiana! Thank you for the opportunity! @Coach_EMiller7 https://t.co/G4VooDX1Nn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122501311384154535",
+          "author": "itsmeandrea1017",
+          "searchJob": "massachusetts",
+          "text": "@RekietaLaw @DoctorTurtleboy @SueOC_NBCBoston Sue is trying to kiss ass to all the politicians in Massachusetts. Wonder how much Morrissey has offered her under the table to act like such a lunatic. She has a reason to be worried. Maybe it’"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122503046693257714",
+          "author": "scoutfball",
+          "searchJob": "miami-oh",
+          "text": "🚨 2028 PROSPECT TO KNOW! 🚨 @AshurstHugh64 Bayside Academy standout Hugh Ashurst is a strong interior offensive line prospect who primarily lines up at CENTER! •6’4” | 260 LBS | Class of 2028 Ashurst already holds an offer from North Alaba"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122499779129381260",
+          "author": "tdarecruiting",
+          "searchJob": "miami-oh",
+          "text": "Name: Hugh Ashurst (@AshurstHugh64) School: Bayside Academy HT/WT: 6’4” 260 pounds Class: 2028 Ashurst holds an offer from North Alabama. He’s visited Auburn &amp; Miami (Ohio). He’ll be visiting Alabama this weekend. https://t.co/WCsSuLa1i"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122504129054728300",
+          "author": "_ray_patrick",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachJCraft and @CoachFalc, I’m blessed to announce an offer from Pacific University https://t.co/ZPCFA1c78r"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122503992789946591",
+          "author": "chasemckay_16",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachZuck I am blessed to receive my first offer from @ClarkePrideFB to play at the next level! #agtg @EnnsZoneKicking @OsceolaFHS_FB @_RecruitDirect_ https://t.co/uHrXjftGoS"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122502095580663913",
+          "author": "kendricholmes12",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a Great Conversation with @coach_dewayne I AM BLESSED to receive My first Offer from Central Methodist University!!! https://t.co/xIBOXB4JZe"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122501146074075479",
+          "author": "selbygriegojr",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Butler I am blessed and honored to say that i’ve officially received An offer from crown college. #GoPolars #AG2G💜🖤 @CoachLButler https://t.co/vKrbhwDc2E"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122500269431017523",
+          "author": "connorwalter76",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coach_Holloway5 , I’m blessed to receive an offer from North Dakota State College of Science. https://t.co/Y9Xs2afLEA"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122499333333664095",
+          "author": "arturo__ayers",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great Conversation with @CoachTui_ I’m blessed to receive my 3rd offer from Tabor College!! @PCCLancerFB @RobertTuckerPCC https://t.co/Ixf5OH4LYb"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122499077216592318",
+          "author": "aaden_tuff",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @Coach_G_Magana I am blessed to receive my 6th offer from Willamette university! @__MikeGee @mikemosley101 @priority11fb https://t.co/GwVLQuvLEs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122496402932539678",
+          "author": "scotty_durandfb",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @keeganhandal4 I’m blessed to announce I have received an offer to Waldorf! @dekalb_football @CoachSchneeman @NolanOwenLS @EDGYTIM https://t.co/ldw4Kzx6E9"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122494560010211614",
+          "author": "ethanmiller_1",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "#GODIDD After a GREAT conversation with @CoachTSims I am blessed to receive an offer from @PearlRiverFB #JACKBOYZ😈 @D_Mitchell91 @ChoctawCountyFB @CoachWilliams_2 @HaydenHulett https://t.co/BRhAsWKH5M"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122493862732317131",
+          "author": "carterbrunette2",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @donmaslinski, I am blessed to receive an offer to continue my academic and athletic career at @SNCfootball! @AshwaubenonFB https://t.co/jyNNigxtoK"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122493117009936450",
+          "author": "ryanhess1221",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachMaxWarden, I am grateful and blessed to have received an offer from @Colby_Football ! @garnet_football @CoachAJThompson @KDJmedia1 @PRZcory @PrepRedzoneNY https://t.co/KCmwmpZrOe"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122492459724767304",
+          "author": "olivercaspi5",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachMikeWeick I’m blessed to receive an offer from Princeton University! Super enthusiastic and pumped!!! #JUICE🟧⬛️ @Coach_Wayne55 @Wick_Football_ @Coach_SSStan @Coachanderson42 @CoachHallenbeck https://t."
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122491880269049945",
+          "author": "jemarcasimmons",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @BigSmitty71 i am Blessed to receive an offer from @MilesFBStaff AGTG✝️ my second d2 offer @CoachSamAdams @martaewyckoff @Coach_Yarb @cjenks1279 @AL_Recruiting @TDARecruiting @recruitALA @247recruiting @PrepR"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122489436328034673",
+          "author": "emerson_bern06",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachStaback I am blessed to announce I have received an offer from @GracelandFB! #AGTG https://t.co/FsF9us8QBV"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122488604190474503",
+          "author": "asamunsey_44",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachHossOL I am very blessed to receive my second offer!! @murrayhighFB @MLDard22 @Coach_Hugo33 @Dickerson_Coach https://t.co/iIWavjc0HI"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122486492190715964",
+          "author": "kendrickparkman",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @drebailey2_ I blessed to receive my 1st offer to Saint Mary University 💫💫AGTG!! @Rich_Chambliss @coachmurph62 @jakobsgreer @decarlosstraps @coachBuckhalter https://t.co/85veB47XJX"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122485627740361165",
+          "author": "askojac09",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @DavidDkelton, I’m blessed to receive an offer from @lcbaseball21! #AG2G @blake_davis02 @PrestonPoag @RecruitGeorgia @OfficialGHSA @NeerBaseball https://t.co/tnrAqRwohW"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "accepted": 3,
+      "rejected": 19,
+      "reasons": {
+        "bare_mention_requires_llm": 6,
+        "multiple_resolved_schools": 2,
+        "school_not_resolved_confidently": 9,
+        "unresolved_offer_target": 1,
+        "explicit_non_fbs_target": 1
+      },
+      "samples": [
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122465649649713260",
+          "author": "holden_rye_",
+          "searchJob": "ole-miss",
+          "text": "I’m not saying who just yet, because some people watch what I’m doing and may try to use that information to sabotage my progress. But today, one of Mississippi’s highest-ranking appointed technology officials personally responded to me aft"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122504717402054900",
+          "author": "kelly_steffee",
+          "searchJob": "massachusetts",
+          "text": "Commonwealth v. Aidan Kearney The Commonwealth has filed Motion in Limine #1, asking Judge Belezos to prohibit the defense from referencing alleged “bad character” or prior “misconduct” involving any alleged victim or witness. So what exact"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122502527618863299",
+          "author": "scoutingne",
+          "searchJob": "massachusetts",
+          "text": "🏈 A BIG STEP FOR CONOR BARRINGTON! FIRST D1 OFFER. Our latest SNE Spotlight Report connects that first offer with his 2026 film evaluation and developing recruiting profile. Congratulations to Conor Barrington @ConorBarrington , whose firs"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122498274808750204",
+          "author": "yimbyma",
+          "searchJob": "massachusetts",
+          "text": "@BostonMassUSA I’ll take the bait. Free transit is a feel good solution that doesn’t solve transit problems for most people. Too much money would be redirected to free fares from what could be used for overall system and frequency improveme"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122478097153114238",
+          "author": "wildwilly600",
+          "searchJob": "memphis",
+          "text": "@Scott_Shearer15 @BFW A late start time was offered. They could have bussed to Memphis. A true, competent program would have made it happen. They were the only idiots that didn’t. Bush league"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2122477314743103713",
+          "author": "profilefblive",
+          "searchJob": "memphis",
+          "text": "🚨 First D1 Offer 🚨 2029 DT Isaiah Farrar from Green Run HS, VA has received his first D1 offer from Memphis. @only1FATZZ https://t.co/NIt17yeMPi"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122475661688283443",
+          "author": "mikem_72",
+          "searchJob": "memphis",
+          "text": "@TheJonahDylan Memphis can't afford to wait and see what happens with realignment. They need to re-approach the Big 12 and offer that $250M package deal to take us, or beg the ACC to take us. We gotta get out of this quicksand conference AS"
+        },
+        {
+          "reason": "explicit_non_fbs_target",
+          "postId": "2122492626217652255",
+          "author": "noahchristie313",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachDenstorff I am blessed to receive an offer from Washington and Lee University! @DelbartonFB @_Coach_Chi @Generals_Fball https://t.co/AgXdE9cV0c"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122489959483580762",
+          "author": "_brennan1k",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG. Blessed to have received a offer from @coachbailey_abc to continue my football journey with the @abc_football program.. Arkansas Baptist College (HBCU). Go Buffaloes 🦬💜🖤.. https://t.co/722oPTlyMl"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122504007067337127",
+          "author": "benjamincaligo",
+          "searchJob": "tcu",
+          "text": "🚨 COLLEGE FOOTBALL PLAYOFF CHAOS: THE NEXT TWO WEEKS WILL BREAK SOME HEARTS! The regular season is entering its most dangerous stretch. Two weeks remain, conference championships are coming, and some very good teams are about to discover t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122504729880400059",
+          "author": "westsidelaguy",
+          "searchJob": "texas-tech",
+          "text": "This is something that lot of my friends have talked about: the overall decline of L.A. in the last few years, especially with respect to culture & nightlife. There is no singular answer nor explanation. It's a myriad of factors and going t"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122500897770987598",
+          "author": "buggingdeals",
+          "searchJob": "texas-tech",
+          "text": "#ad 🚨 Sam's Club Pre-Black Friday is LIVE! 🛒🔥 Member-exclusive deals are here! 💥 Membership just $50 (limited-time offer) 🔥 Ninja Fireside360 Fire Pit: $100 OFF 📺 Tech savings 💰 Instant Savings through Nov. 30 🎁 Exclusive perks & me"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122500425412976695",
+          "author": "woonglak1",
+          "searchJob": "texas-tech",
+          "text": "Anthropic to List on Nasdaq Nov. 19… AI Stock Pullback Lowers Its Price Tag — \"A Buying Opportunity\" Indicated price range of $70–78, valuing it at about $1.4 trillion, below the $2 trillion once floated First-half revenue up 14-fold… If yo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122500224589676613",
+          "author": "derekdo59209506",
+          "searchJob": "texas-tech",
+          "text": "@CubanCroc2 @WarMonitor3 Nk ramped up domestic production vs selling existing stores ,and they just hacked few billion from binance. The greatest asset russia can objectively offer nk is missile tech beyond there own and advances in nuclear"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122500219443060809",
+          "author": "buggingdeals",
+          "searchJob": "texas-tech",
+          "text": "#ad 👀 Samsung is making tech upgrades tempting right now! 💻 Galaxy Book6 Pro: 20% OFF + up to $500 instant savings ⌚ Galaxy Watch 9: Up to $250 off with trade-in 🎧 Galaxy Buds4 Pro: 15% OFF with membership ⌚ Galaxy Watch Ultra2: Up to $2"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122499996058550680",
+          "author": "big__teej",
+          "searchJob": "texas-tech",
+          "text": "Yeah I've been saying for a while that virtualization will allow the console to effectively operate in two different modes. And while the majority of your time will be spent under the Xbox Console GUI (Xbox OS) PC games will live in a separ"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122497210579349521",
+          "author": "buggingdeals",
+          "searchJob": "texas-tech",
+          "text": "#ad 👟 Kids Foot Locker has several offers worth checking out! 🔥 Up to 40% off Nike, Jordan, NB & more: https://t.co/mQrUH2cklA 💸 Spend $50/$150/$250+ and get $10/$20/$50 FLX Cash back: https://t.co/NqxbYCxguN 🛍️ $15 off $100+ with After"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122494366635757659",
+          "author": "adamj45054",
+          "searchJob": "texas-tech",
+          "text": "@elonmusk @elonmusk DO WE HAVE AN EXPLANATION AS TO WHY @SecDuffy DECLINED YOUR OFFER OF FREE STARLINKS SUCH AS UNTESTED TECH OR WHATEVER. IF NOT A GOOD REASON, WE NEED AN EXPLANATION."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122476844394176782",
+          "author": "amy31129057",
+          "searchJob": "virginia",
+          "text": "L3Harris and Adam Spanberger (husband of Virginia Governor Abigail Spanberger) wouldn’t have been exposed if Duffy had taken Elon up on the offer. 😏"
+        }
+      ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 163,
-      "swept": 5,
-      "failed": 1,
-      "requests": 6,
-      "errors": [
-        "ole-miss: rate limited"
-      ]
+      "jobs": 166,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
-      "samples": [],
+      "samples": [
+        {
+          "reason": "other_sport",
+          "postId": "2122493827814470088",
+          "author": "romka2x",
+          "text": "TITLE AI News: California Sues OpenAI, AI Cyberattacks and Healthcare Agents https://t.co/4oEHZdlocz DESCRIPTION California’s AI safety lawsuit, autonomous cyberattacks, healthcare agents and ten more AI developments, uses and regulatory ac"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122456182577348887",
+          "author": "tommygurganous",
+          "text": "UCF football flipped Class of 2027 edge rusher Dre’Keim Abercrombie from JMU, per his Instagram. Abercrombie was the fourth-highest ranked commit of JMU football’s 2027 class per 247Sports. https://t.co/27pgEexPMd"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122456168672948264",
+          "author": "ucfsports",
+          "text": "Edge rusher from Ohio has committed to UCF following his weekend visit. https://t.co/dLFD2Efiti"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122412527506403658",
+          "author": "blairangulo",
+          "text": "American Fork receiver Cash Taiese revealed his commitment to in-state Utah, giving the Utes their first pledge in the 2028 class. \"I love how creative the offense is.\" https://t.co/GTVSJf9RCW https://t.co/ZEPkb0fdrQ"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122391291480682781",
+          "author": "therecruitrumor",
+          "text": "🚨 COMMITTED 🚨 American Fork (Utah) 2028 WR Cash Taiese is staying home with Utah (via @GregBiggins). \"I got that special feeling and had to act on it.\" 🔴 #GoUtes #RecruitRumor @repmax_io @PrepPulseNwt Remember, it's a rumor until it's no"
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122390436715385031",
+          "author": "glassofbennett",
+          "text": "The Utah Utes get its first commitment for the 2028 recruiting class with WR Cash Taiese out of American Fork. Give @CashTaiese a follow and welcome him to the Utah football family."
+        },
+        {
+          "reason": "no_commit_event",
+          "postId": "2122385865523781842",
+          "author": "cashtaiese",
+          "text": "Verbally COMMITTING TO Utah! All glory to GOD! Special thanks to my parents, siblings and grandparents for their support. Thanks to my trainers and coaches for helping me get to where I’m at. Can’t wait! #goutes#utahfootball @Utah_Football "
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2122387257101627624",
+          "author": "utezone",
+          "text": "BREAKING NEWS: 2028 in-state WR @CashTaiese commits to Utah. He tells @GregBiggins about his decision. #GoUtes #TeamFun https://t.co/2ooJRs8X7U"
+        }
+      ],
       "stats": {
-        "candidates": 0,
-        "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "candidates": 20,
+        "accepted": 4,
+        "rejected": 16,
+        "reasons": {
+          "other_sport": 1,
+          "no_commit_event": 7,
+          "no_football_context": 5,
+          "reporter_missing_player_name": 2,
+          "explicit_non_fbs_target": 1
+        }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 3,
+      "rejectedCandidates": 19,
+      "brandNewOffers": 3
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T01:27:47.476Z"
+    "status rebuilt locally from current store on 2026-11-17T01:44:09.026Z"
   ]
 }
