@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T17:44:54.753Z",
+  "generatedAt": "2026-11-17T17:59:19.699Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T17:44:54.059Z",
+    "at": "2026-11-17T17:59:18.728Z",
     "jobsTotal": 162,
-    "sweptThisRun": 19,
-    "requests": 19,
-    "fullSweepCycles": 9
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,91 +32,87 @@
   },
   "staleSchools": [
     {
-      "id": "coastal-carolina",
+      "id": "ohio",
       "hours": 2.5
     },
     {
-      "id": "colorado-state",
-      "hours": 2.5
-    },
-    {
-      "id": "delaware",
-      "hours": 2.5
-    },
-    {
-      "id": "east-carolina",
-      "hours": 2.5
-    },
-    {
-      "id": "eastern-michigan",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 2.5
-    },
-    {
-      "id": "florida-international",
-      "hours": 2.5
-    },
-    {
-      "id": "miami",
-      "hours": 2.5
-    },
-    {
-      "id": "minnesota",
-      "hours": 2.5
-    },
-    {
-      "id": "navy",
-      "hours": 2.5
-    },
-    {
-      "id": "nc-state",
-      "hours": 2.5
-    },
-    {
-      "id": "nevada",
-      "hours": 2.5
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.5
-    },
-    {
-      "id": "new-mexico-state",
-      "hours": 2.5
-    },
-    {
-      "id": "north-texas",
-      "hours": 2.5
-    },
-    {
-      "id": "northern-illinois",
+      "id": "florida",
       "hours": 2.3
     },
     {
-      "id": "ohio",
+      "id": "north-carolina",
+      "hours": 2.3
+    },
+    {
+      "id": "oklahoma-state",
+      "hours": 2.3
+    },
+    {
+      "id": "old-dominion",
+      "hours": 2.3
+    },
+    {
+      "id": "oregon-state",
+      "hours": 2.3
+    },
+    {
+      "id": "pittsburgh",
+      "hours": 2.3
+    },
+    {
+      "id": "smu",
+      "hours": 2.3
+    },
+    {
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "south-florida",
+      "hours": 2.3
+    },
+    {
+      "id": "southern-miss",
+      "hours": 2.3
+    },
+    {
+      "id": "syracuse",
+      "hours": 2.3
+    },
+    {
+      "id": "temple",
+      "hours": 2.3
+    },
+    {
+      "id": "ucf",
+      "hours": 2.3
+    },
+    {
+      "id": "washington-state",
+      "hours": 2.3
+    },
+    {
+      "id": "western-kentucky",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.281463888888889,
-    "p95Hours": 2.525809166666667,
-    "worstHours": 2.525809166666667
+    "medianHours": 1.0285111111111112,
+    "p95Hours": 2.2750469444444446,
+    "worstHours": 2.5245530555555558
   },
   "decisionCoverage": {
-    "total": 78,
-    "decided": 78,
+    "total": 85,
+    "decided": 85,
     "complete": true
   },
   "pending": {
-    "total": 131
+    "total": 132
   },
   "profileResolution": {
     "cached": 110
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 4868,
     "incompleteOffers": 0
@@ -124,10 +120,10 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T17:44:54.053Z",
-      "got": 132,
-      "new": 78,
-      "lag": 0.07
+      "at": "2026-11-17T17:59:18.727Z",
+      "got": 126,
+      "new": 85,
+      "lag": 0.03
     },
     "search:commit": {
       "at": "2026-11-17T17:44:54.059Z",
@@ -137,380 +133,382 @@
     }
   },
   "audit": {
-    "at": "2026-11-17T17:43:14.716Z",
+    "at": "2026-11-17T17:57:35.074Z",
     "mode": "live",
     "collection": {
-      "returned": 132,
-      "kept": 78,
-      "duplicate": 53,
-      "tooOld": 1,
+      "returned": 126,
+      "kept": 85,
+      "duplicate": 41,
+      "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 34,
-      "rejected": 44,
+      "accepted": 51,
+      "rejected": 34,
       "reasons": {
-        "no_offer_term": 18,
-        "non_fbs_offer_target": 4,
-        "no_fbs_school": 21,
-        "hard_negative": 1
+        "no_fbs_school": 17,
+        "no_offer_term": 9,
+        "hard_negative": 1,
+        "non_fbs_offer_target": 7
       },
       "samples": [
         {
+          "reason": "no_fbs_school",
+          "postId": "2122745768096493656",
+          "author": "mft_get_funded",
+          "searchJob": "miami",
+          "text": "NVIDIA Founder Jensen Huang Offers to Return as CEO Amid Probe and Staff Support"
+        },
+        {
           "reason": "no_offer_term",
-          "postId": "2122709338414624808",
-          "author": "kobehinton50",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an invitation to the YAA Orlando Camp! Excited for the opportunity to compete and showcase my abilities against the top prospects in the area. #AGTG @youareathlete @ShockDoctor https://t.co/9oSVyqRJdb"
+          "postId": "2122726005219737649",
+          "author": "jensenhuang",
+          "searchJob": "miami",
+          "text": "Over the past week, I’ve been overwhelmed by the love and support of friends, industry colleagues, and people I've never met. Thank you to everyone who has shown kindness to my family and me. It means the world to me. I came to the United S"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122722143343411592",
+          "author": "kfundvc",
+          "searchJob": "miami",
+          "text": "@zynap_ai XRF builds situational-awareness software for defence and emergency response, wildfires included. Two roles: Systems Engineer, cloud and field deployments (Madrid, on-site): https://t.co/XbJRlMbtbq Sales Engineer (Miami): https://"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122711421167272171",
+          "author": "miamiherald",
+          "searchJob": "miami",
+          "text": "Foreign troops offer Haiti temporary fix, but security reforms needed, report finds https://t.co/OfdY7vPG3D"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122743981771784655",
+          "author": "mftxac",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/UpCzITYcvy"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122736670646661135",
+          "author": "baofagex",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/48ytAT38Do"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122726423589007596",
+          "author": "miryarbaluch_",
+          "searchJob": "coastal-carolina",
+          "text": "17 November, 2026 His Excellency Ferdinand R. Marcos Jr. President of the Republic of the Philippines Malacañang Palace, J.P. Laurel St, San Miguel, Manila 1005 @DFAPHL, @bongbongmarcos, @opgovph, @DFAPHL, @SecLazaro @hyrbyair_marri Subject"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122721518635389122",
+          "author": "dimitri_salahi",
+          "searchJob": "coastal-carolina",
+          "text": "https://t.co/RTyvCIjZ6O"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122750128734060730",
+          "author": "fmill57",
+          "searchJob": "navy",
+          "text": "@AndrewM28819366 @ImBreckWorsham Hegseth said china can destroy our whole navy in minutes, wouldnt be surprised if iran could land a missile here"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122736625516191905",
+          "author": "gmblerr",
+          "searchJob": "nevada",
+          "text": "@DegenTracker_ Really funny how the state with the most gambling by far is going after them in Nevada. All of these states listed offer heavy gambling. They don’t care about people, they want more money in their pockets from their monopolie"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122743068550160735",
+          "author": "nmmagazine",
+          "searchJob": "new-mexico",
+          "text": "The Santa Fe shop offers souvenirs worth wrangling. https://t.co/i8dgxwk0iC https://t.co/ZqD7KBLzWU"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122739098150437314",
+          "author": "colliers_nm",
+          "searchJob": "new-mexico",
+          "text": "For Sale — Fully leased and priced below replacement cost, 8700 Education Place NW offers immediate income and compelling upside in Albuquerque’s West Mesa submarket. Learn more about the opportunity here: https://t.co/jVZJVipLPQ Contact: J"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122728999868567837",
+          "author": "taxpayers",
+          "searchJob": "new-mexico",
+          "text": "The Admin plans to offer 500,000+ acres of public land across the US for oil &amp; gas development at discounted rates, costing taxpayers millions. In New Mexico, 5,140 acres could be leased @ 12.5% royalty rate — up to HALF of what is char"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122748670575792282",
+          "author": "jaypaul",
+          "searchJob": "ohio",
+          "text": "https://t.co/Q5JZ8NTh50"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122745951395738046",
+          "author": "richfeet",
+          "searchJob": "ohio",
+          "text": "Your feet carry you every day—give them the care they deserve. Dayton, Ohio podiatrist Dr. Tanisha Richmond offers routine checkups and treatment for a range of foot concerns. Learn more at https://t.co/zQX6UaSzVb. #Podiatry #FootHealth htt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122745308585111744",
+          "author": "finaltelegraph",
+          "searchJob": "ohio",
+          "text": "Greta Thunberg is a Parasitic Fraud: The Corporate-Backed Demagogue Who Sold Out Science for Marxist Sabotage Greta Thunberg is a parasitic fraud, a manufactured messiah of the climate cult, a sour-faced Swedish puppet assembled in a labora"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122743347932520742",
+          "author": "jbissman",
+          "searchJob": "ohio",
+          "text": "Set in Dayton, OH 45424, this property places you in the heart of a vibrant community where real estate in Dayton, OH offers a blend of suburban convenience and local character. The neighborhood provides easy access to some of the region's "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122743345218793675",
+          "author": "jbissman",
+          "searchJob": "ohio",
+          "text": "Welcome to 5233 Buckner Drive, Dayton, Ohio 45424 — a thoughtfully laid out property. This property offers the kind of layout, setting, and flexibility that make it stand out. Property Highlights: https://t.co/J4cOo4N0rH"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122738416026624379",
+          "author": "daytondailynews",
+          "searchJob": "ohio",
+          "text": "From leisurely lakeside hikes to endurance-testing treks and sunset strolls to all-day adventures, Girls Who Hike Ohio traverses Ohio trails and beyond. https://t.co/BMZPKaJsTO"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122722695695441980",
+          "author": "ohiofrrw",
+          "searchJob": "ohio",
+          "text": "Register now for the 2026 First Responder Women's Wellness Day! This event is designed specifically for women serving in first responder professions. It offers a unique opportunity to focus on personal wellness, resilience, and self-care. R"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122722284008042717",
+          "author": "jfdi1002",
+          "searchJob": "ohio",
+          "text": "Milk, eggs—and somehow a $400 Costco cart. Then the checkout line. Why can’t we just roll out? Walmart pushed RFID 20 years ago. Chinese street vendors need only a QR code to get paid. Why does great technology take so long to catch on? htt"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122708557036707931",
-          "author": "johncaelan_traf",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive a Division 1 offer from Stonehill College! @_Coach_Chi @BrianJBowers5 @CoachBogan75 @CoachDuell @StonehillFB https://t.co/RcPcGmPITk"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122707525003080169",
-          "author": "fwillis769",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Super excited and blessed to receive an offer from blue mountain Christian university!!! @cookj18 @drewwheeler44 https://t.co/brdXUQzJPj"
+          "postId": "2122748430657147297",
+          "author": "tristanbentonn",
+          "searchJob": "florida",
+          "text": "Blessed to receive first offer from Community Christian College of Florida #AGTG @wright_woody https://t.co/wDOjKz9LzL"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122706130975486117",
-          "author": "mark_kleiner09",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After a great visit over the weekend I’m blessed to receive my first official offer from Maryville College! Thank you so much @MCScotsFootball @CoachLongHill @ConnorPylkas_FB and everyone else involved. Looking forward to the future! https:"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122704922890342446",
-          "author": "noflyzone5_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "WOW!! EXTREMELY BLESSED TO RECEIVE MY FIRST VERBAL COLLEGIATE OFFER FROM CHRISTOPHER NEWPORT UNIVERSITY #football #basketball https://t.co/mskBHRunPp"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122704394403655829",
-          "author": "jamesdion13186",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offer from University of Olivet!! Thank you to @CoachGarland5 and the entire Olivet coaching staff for believing in me and giving me this opportunity. I’m truly grateful! @Coach_Jay_Shake https://t.co/egY8giDT8U"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122702325697683895",
-          "author": "jaydog1_11",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 4th and 5th 🅾️ @RecruitGeorgia https://t.co/4slB46ToJg"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122700412176441438",
-          "author": "dee_jalen",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "#AGTG After a great conversation with @Coach_EMiller7 I’m blessed to receive my very first 🅾️ffer from @Gents_Football @coachjsam https://t.co/uYeXNLFrGx"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122699263897669933",
-          "author": "bindubhosle",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Really blessed to receive the letter of Vice President of Mumbai Ncp SP https://t.co/9P9KXnpPdH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122699086755172774",
-          "author": "iiamkazzure",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive Offensive Player of the year #agtg https://t.co/5WM6Dc12M1"
+          "postId": "2122748008676950035",
+          "author": "tristanbentonn",
+          "searchJob": "florida",
+          "text": "Blessed to receive my first offer from Community Christian College of Florida #AGTG https://t.co/c1LUZVrLze"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122744307585077734",
-          "author": "charlotteb20446",
-          "searchJob": "charlotte",
-          "text": "funny how the offer never comes with a price tag on it, it's all glory and kingdoms up front—the invoice shows up later, in private, when nobody's watching and you're the only one who knows what you traded... that's the part nobody tweets a"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122730698406789406",
-          "author": "joshua_the_car",
-          "searchJob": "charlotte",
-          "text": "Like Satan in your ear: 6 And the devil said unto him, All this power will I give thee, and the glory of them: for that is delivered unto me; and to whomsoever I will I give it. 7 If thou therefore wilt worship me, all shall be thine."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122728841529438428",
-          "author": "whiterabbit7728",
-          "searchJob": "charlotte",
-          "text": "@Joshua_the_car Josh, if you want motion, join the movement"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122727946062561700",
-          "author": "king_bazil056",
-          "searchJob": "charlotte",
-          "text": "@BayChris1106 @NinerTribe004 Grant is grant. @TylerCLaRocca is like a parasite that lives in Grants asshole feeding on whatever engagement he can get. He knows that saying to offer 2 firsts for literally anybody will draw engagement. 2 firs"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122742037392793907",
-          "author": "tyson_fosterch",
-          "searchJob": "class:2027",
-          "text": "🚨 FINAL SENIOR SEASON FILM DROPPING TODAY AT 4:30 PM! 🚨 EDGE/ TE| Class of 2027 6’3” | 230 lbs Senior Season (all region junior): • 82 Tackles • 23 TFL • 3.5 Sacks • 2 Blocked Kicks • 1 Forced Fumble 5 great collegiate opportunities as of"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122739834695688435",
-          "author": "jrrecruiting",
-          "searchJob": "class:2027",
-          "text": "🚨 2027 DE PROSPECT 🚨 Roland Mose @moseRo2027 | #33 | Cathedral HS (CA) 6'5 / 233 | 80\" wingspan | 4.8 40 Offer: Southern Utah Being evaluated by coaches from the MEAC. Senior: 3.5 sacks, 7 TFL, 23 QB hurries https://t.co/H8cQBdZXoE https:"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122738936141529368",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Landon Dean-TE-2027-FL @EMUFB Official Visit #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122483663589843063",
-          "author": "landondean2027",
-          "searchJob": "class:2027",
-          "text": "This weekend was 🔥 Official visit at @EMUFB and we won our first play off game @Mooney_FB @Coach80Cj @Coach_Creighton I can’t thank you enough for the love and encouragement. That is a special place. I absolutely loved every minute. I’m so"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122736404866498982",
-          "author": "caeylinmenzie",
-          "searchJob": "class:2027",
-          "text": "Coach, My name is Caeylin Menzie, and I am a 2027 uncommitted three-star running back from Richmond Hill High School in Georgia. I am reaching out to introduce myself and express my interest in earning an opportunity with your football prog"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122735735811743911",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Princeton Jones-DB-2027-MI @svsu_football Offer #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122709328192790974",
-          "author": "princetonsjones",
-          "searchJob": "class:2027",
-          "text": "After a great phone call with @CoachWhitton I’m BLESSED to have earned the opportunity to play football at SVSU!! @FBCoachEngle @jacobpardonnet @svsu_football @CoachGus90 @CoachShort_ @SalineFootball @RisingStars6 https://t.co/xqQzFJjtDt"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122729181188374664",
-          "author": "caeylinmenzie",
-          "searchJob": "class:2027",
-          "text": "Coach, My name is Caeylin Menzie, and I am a 2027 uncommitted three-star running back from Richmond Hill High School in Georgia. I am reaching out to introduce myself and express my interest in earning an opportunity with your football prog"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122728088098472278",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Neo Stoelken-LB-2027 @SamfordFootball Offer #CFB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122726451917251005",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Connor Powderly-WR-2027-OH @ButlerUFootball Commit #CFB"
+          "postId": "2122745796181323945",
+          "author": "florida_housing",
+          "searchJob": "florida",
+          "text": "🧵 PSH provides more than a place to live. It offers stability, access to crucial support services, and the opportunity for individuals to build a stronger foundation for the future. 🧵"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 34,
+      "rejected": 51,
       "reasons": {
-        "bare_mention_requires_llm": 30,
+        "school_not_resolved_confidently": 18,
+        "bare_mention_requires_llm": 20,
+        "multiple_resolved_schools": 9,
+        "unresolved_offer_target": 1,
         "reporter_missing_player_name": 1,
-        "multiple_resolved_schools": 2,
-        "author_not_recruit:no recruit fields": 1
+        "reporter_missing_class_year": 2
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122741840667619440",
-          "author": "cwteam_realtor",
-          "searchJob": "charlotte",
-          "text": "🏡 Buying or selling in East Texas? Start with clear information and a thoughtful plan. Explore our Buyer and Seller Resources for practical guidance on searches, preparation, offers, inspections and closing: https://t.co/QKloPbcaED #Charlo"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122739248046420457",
-          "author": "thepianoguysfl",
-          "searchJob": "charlotte",
-          "text": "Just in! Yamaha Cherry Console Piano, used from the 90s in great shape, offered by The Piano Guys Super-Store in Port Charlotte. On sale under $2500 for Grand Opening, less than half the cost of comparable new! Clear, pleasing tone and a gr"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122743677617328556",
+          "author": "zeya_app",
+          "searchJob": "miami",
+          "text": "Win a $100 PlayStation or Xbox gift card and get GTA 6 on us. 3 winners drawn Nov 21. To enter: 1. Download the free Zèya app: https://t.co/JZfBxFgXCD 2. Find the secret item \"Vice City Box\" in Miami and send an offer"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122727364484636821",
-          "author": "folkstonfinest",
-          "searchJob": "charlotte",
-          "text": "@WILSONBATCAVE32 @jt_gamiing Now you don’t know, they have to spend a certain amount of side cap no matter what so they gonna offer bad contracts to anybody you think Sacramento is trying to win the championship. No, you think Charlotte tri"
+          "postId": "2122740351324553667",
+          "author": "movewithalexis",
+          "searchJob": "miami",
+          "text": "Natural light and exposure can greatly influence how a property feels. Watching new listings from Coral Gables to Bal Harbour helps you understand what recently available homes offer. See the latest South Florida properties for sale. @MoveW"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122739759877337491",
+          "author": "zeya_app",
+          "searchJob": "miami",
+          "text": "how to enter: 1) get the free zèya app https://t.co/JZfBxFgXCD 2) find the Vice City Box in Miami and send an offer with something you want to declutter. one entry per person. draw nov 21"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122739272990048326",
+          "author": "zeya_app",
+          "searchJob": "miami",
+          "text": "giving away 3 × $100 PlayStation Store gift cards for vice city week 🌴 to enter: download the zèya app, find the secret item \"Vice City Box\" in Miami and send an offer. winners drawn nov 21. steps + rules below 👇 #GTA6 #ViceCity"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122736800812638711",
+          "author": "xisback305",
+          "searchJob": "miami",
+          "text": "Miami should offer juco OT Antrale Newson. Think he’s another player who can either start or get major playing time for Miami next season."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122735373327671675",
+          "author": "heyumarr",
+          "searchJob": "miami",
+          "text": "https://t.co/0VralqCb5s Hometown Real Estate offers MLS 202624147 Turnkey Pizza Don’t miss this opportunity to take over an established food business in a sought-after Winnipeg location. #winnipeg #manitoba #canada #toronto #vancouver montr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122721429619614048",
+          "author": "miamivibesmag",
+          "searchJob": "miami",
+          "text": "UNIQLO is now open at Aventura Mall! The grand opening brought Taiko drummers, giveaways, special offers and community art events. Shopping with a feel-good twist! #MiamiVibesMagazine #UNIQLO #AventuraMall https://t.co/PzLiTDE0Nr"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122719018205294743",
+          "author": "sergekozhukhar",
+          "searchJob": "miami",
+          "text": "1040 Biscayne Boulevard Miami, FL 2 Bed | 3 Bath | $1,555,888 | Melissa Rubin and Madeleine Romanello Perched high above the city, this dramatic 1,794-square-foot two-story sky home at Ten Museum Park features soaring 22-foot ceilings and a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122710715953709125",
+          "author": "mindinpanic",
+          "searchJob": "miami",
+          "text": "Two job offers. Two kids. $160K/year in Miami or €90K/year in Amsterdam. Hey @grok, which family has MORE money left after 5 years? Include taxes, rent, healthcare, childcare, retirement and one kid needing surgery. Show the numbers."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122710415461265590",
-          "author": "ghostpepper5k",
-          "searchJob": "charlotte",
-          "text": "Here's the ground truth on @MickeyDangerez - He isn't asking for jack shit from anyone. I know him personally. I live in the Charlotte region. I saw the condition of his tires and I was the one who raised the money for him so his family can"
+          "postId": "2122720228400640506",
+          "author": "majinsparty",
+          "searchJob": "nc-state",
+          "text": "@Jackiessss @cbjfan1987 @DegenerateTBone How can you compare one university who made a choice to another university?? lol ofc NC state would hire Phillip. They’re not well ran, and they got desperate. We all know rivers doesn’t deserve it. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122749974056484903",
+          "author": "codmstats_guy",
+          "searchJob": "coastal-carolina",
+          "text": "Coastal and Tunisia offer the deepest tactical playbooks in map pool, making them the clearest backgrounds to see micro and macro differences between the East and West Lets look at statistical differences on Coastal 1. Median Time to First "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122749775741145421",
+          "author": "np4football_ot",
+          "searchJob": "coastal-carolina",
+          "text": "Dash Holley-LB-2029-SC @CoastalFootball Offer #CFB"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122733818536730630",
+          "postId": "2122749138425290863",
+          "author": "marieleredclaw",
+          "searchJob": "coastal-carolina",
+          "text": "Dispatch from Redclaw, Beautiful & Beloved Queen Of Greenland 🇬🇱 I am delighted to announce the arrival of the newest addition to the Royal Greenland Navy! The United States has just delivered our first Mark VI patrol boat, with four more"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122734408826294728",
+          "author": "kevinifleming",
+          "searchJob": "coastal-carolina",
+          "text": "Why does Pochomil stand out on the road to Playa Mariana, Nicaragua? #Pochomil #PlayaMariana #Nicaragua #PacificBeaches #CoastalDiscovery Step out with me and discover why this coastal route deserves attention. You already know life offers "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122720084296671577",
+          "author": "m7alhamed",
+          "searchJob": "coastal-carolina",
+          "text": "🚨🇸🇦 🇾🇪 Beyond the Coast: Yemen’s Strategic Reset The threat to Yemen’s coastal positions came from inland. The redeployment towards Aden addresses that strategic imbalance. On Nov 15, government-aligned forces withdrew from positions a"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122719028095410219",
+          "author": "sergekozhukhar",
+          "searchJob": "coastal-carolina",
+          "text": "335 Town Lane Amagansett, NY 5 Bed | 8 Bath | $18,995,000 | Lori Schiaffino Introducing Stony Hill Farm, a timeless farmhouse estate set on 5.06 acres in Amagansett, overlooking an additional 3.22 acres of protected agricultural reserve. Ro"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122717499787468804",
+          "author": "jpretellesq",
+          "searchJob": "coastal-carolina",
+          "text": "A moron saying shitty does not make the retort any less moronic. The Atlantic trade took about 12.5 million people over 350 years with roughly 1.8 million deaths on the crossing mostly from disease. That is not a downplaying of anything. It"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122717375061508254",
+          "author": "jpretellesq",
+          "searchJob": "coastal-carolina",
+          "text": "A moron saying shitty does not make the retort any less moronic. The Atlantic trade took about 12.5 million people over 350 years with roughly 1.8 million deaths on the crossing mostly from disease. That is not a downplaying of anything. It"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122716141118238964",
+          "author": "diacaukechuyen",
+          "searchJob": "coastal-carolina",
+          "text": "🧭 HAMNØY | TRAVEL ESSENTIALS 📍 Getting There Hamnøy lies along the E10 road near Reine in western Lofoten. Fly to Leknes Airport and continue by rental car or bus, or take the Bodø–Moskenes ferry (approximately 3.5 hours) before travellin"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2122717648693735862",
+          "author": "profilefblive",
+          "searchJob": "east-carolina",
+          "text": "🚨 First D1 Offer 🚨 2028 SAF Major Clements from Weddington HS, NC has received his first D1 offer from East Carolina. @majorclements25 https://t.co/KZChBnyA7I"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122731554468188273",
           "author": "caeylinmenzie",
-          "searchJob": "class:2027",
+          "searchJob": "eastern-michigan",
           "text": "Coach, My name is Caeylin Menzie, and I am a 2027 uncommitted three-star running back from Richmond Hill High School in Georgia. I am reaching out to introduce myself and express my interest in earning an opportunity with your football prog"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122732508009623907",
-          "author": "caeylinmenzie",
-          "searchJob": "class:2027",
-          "text": "Coach, My name is Caeylin Menzie, and I am a 2027 uncommitted three-star running back from Richmond Hill High School in Georgia. I am reaching out to introduce myself and express my interest in earning an opportunity with your football prog"
+          "postId": "2122721910152954360",
+          "author": "okeemike",
+          "searchJob": "navy",
+          "text": "Some Veterans know they had a disappointing service history, and that doesn’t reflect their willingness to fight for America. Many were not allocated to Black Hawk Down, Generation Kill, Saving Private Ryan, Navy Seal combat situations. Rid"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122726263110431044",
-          "author": "np4football_ot",
-          "searchJob": "class:2027",
-          "text": "Michael “Mikey”Vernon II-WR-2027-FL @NevadaFootball Offer #CFB"
+          "postId": "2122716060168438171",
+          "author": "nuclearid68",
+          "searchJob": "navy",
+          "text": "🇹🇼 🇯🇵 Taiwan’s Navy reportedly ended Mogami technology talks with Japan. Upmedia’s Chu Ming, in a report carried in full by Yam News and citing unnamed sources, says Taiwan rejected Japan’s limited technology transfer offer and ended di"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122731773675147703",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Andre Watson Jr.-ATH-2028-PA @ECUPiratesFB Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122746373082599649",
-          "author": "baltimoresun",
-          "searchJob": "maryland",
-          "text": "Camden Yards will offer parents more ways to entertain their children next season, with a new play area and a designated space to meet the Orioles’ mascots, as part of a series of offseason renovations. The Orioles and Maryland Stadium Auth"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122737987897458919",
-          "author": "vikasreddy",
-          "searchJob": "michigan",
-          "text": "@Dik_Nipples @TWH_Chris Watching highlights from when he was at Utah to at Michigan and you can see there isn't any fire in his eyes anymore. I think he was done coaching, but mad that Utah was pushing him out and was mad about it and got a"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122730217118613540",
-          "author": "midwesttechguy",
-          "searchJob": "michigan",
-          "text": "Did a little thought experiment here for a 50 unit apartment complex I or near Lansing Michigan. At low rental prices it would take 185 years to recoup the cost..take a look. I’ve been looking at what it would take to privately develop a 50"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122719909121507538",
-          "author": "drunktlr",
-          "searchJob": "michigan",
-          "text": "@Michellek4040 Kyle is a great guy and a fantastic coach. At the end of the day, he was already retired in his mind. Michigan offered him a ton of money, and he took it. He never intended on actually trying. Easiest bag he ever made."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122717409928692045",
-          "author": "seoa2beyond",
-          "searchJob": "michigan",
-          "text": "Not sure where to start with social SEO? 📝 We offer 5 quick fixes in our latest blog post: https://t.co/iy6heQ9ULx #SocialMediaManagementAnnArbor #SocialMediaTips #MichiganSEO https://t.co/nV2yuj3wOw"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122746701094269027",
-          "author": "yzerman3cups",
-          "searchJob": "minnesota",
-          "text": "@benholdenpxp @MarcHarrie16 He isnt even with the team. Wait for best offer that isnt minnesota"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122745145531490554",
-          "author": "daver886365",
-          "searchJob": "minnesota",
-          "text": "@RyanHanaWWP Seravalli is talking out of his ass. His \"opinion\" is not necessarily a \"fact\". I'm sure that if Minnesota offered Boldy or Hughes they would trade him there."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122743223491969178",
-          "author": "oliverathompson",
-          "searchJob": "minnesota",
-          "text": "@HockeyRobThough No, because it's the perceived value of that offer. Minnesota thinks it's fair, Detritus doesn't. In more than 30 years of following this sport I have never seen a trade so relentlessly persued via the media. Minnesota are "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122742448896045094",
-          "author": "williamswx369",
-          "searchJob": "minnesota",
-          "text": "McDavid Chases History as the NHL Delivers an 11-Game Night Connor McDavid is putting together a season that belongs in the history books. The Oilers superstar has points in all 22 games this season, piling up 53 (12 goals, 41 assists) and "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122741308108447793",
-          "author": "umlawcenter",
-          "searchJob": "minnesota",
-          "text": "Did you know?! Minnesota offers tax benefits to help families cover those K-12 education expenses, unless the instruction is religious. Two Minnesota fathers say that distinction is unconstitutional. UMLC along with Alliance Defending Freed"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122740894537318588",
-          "author": "stephensbrown28",
-          "searchJob": "minnesota",
-          "text": "@RyanHanaWWP Are the Red Wings at all suspicious that Minnesota and Bill Guerin have tampered or otherwise undermined the organization by leaking their offers?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122740339802829127",
-          "author": "jackfoster44",
-          "searchJob": "minnesota",
-          "text": "The Red Wings made it clear that they do not want a futures-based deal. Then Minnesota offers a young forward and picks (entirely futures) and the Wings decline. Now all of sudden the organization won't make a deal in order to spite Larkin?"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122739037098123717",
-          "author": "vbuntedavid",
-          "searchJob": "minnesota",
-          "text": "@PrimeKaprizov We can hate Chris Ilitch and still side with Red Wings management on this particular issue. The fact that you Minnesota Wild fans are so gung ho about these exact trade terms tells us that you know damn well it is not in anyw"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122737605137825844",
-          "author": "dylan69870871",
-          "searchJob": "minnesota",
-          "text": "@TylerNoble19691 @y20thousand @PrimeKaprizov Sounds like Minnesota should make a better offer then🤷🏼‍♂️"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122737426292424939",
-          "author": "laffolter56",
-          "searchJob": "minnesota",
-          "text": "I’m a #mnwild fan who isn’t in favor of acquiring Larkin. The Wild need a true 1C and Larkin isn’t that (not saying he’s a bad player). I also don’t think the Wild currently have the assets to get a 1C either. However, if Minnesota did offe"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122729802331218161",
-          "author": "bmtnsports",
-          "searchJob": "minnesota",
-          "text": "So, the Red Wings won't trade Dylan Larkin to Minnesota for a reported offer of Danila Yurov, three first-round picks and a veteran (Ryan Hartman) because they're holding a grudge? https://t.co/qIvY1k82dT https://t.co/aAXeZBOPAu"
+          "postId": "2122713876118823250",
+          "author": "cheny60787",
+          "searchJob": "navy",
+          "text": "🐱👑🎣 **PAWSALOT: THE GREAT FISHING EXPEDITION!** **EP.04 — THE RIVAL FISHERMEN!** ⚔️🐟 🚢 The Royal Pawsalot encounters a fishing boat from a free port! The rival captain bursts out laughing: **“THE KING NEEDS HIS OWN FISHING NAVY?!”** 🤣"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 169,
+      "jobs": 162,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -519,76 +517,34 @@
     "commits": {
       "samples": [
         {
-          "reason": "commit_school_not_tagged",
-          "postId": "2122501543660298574",
-          "author": "connorpowd15",
-          "text": "100% COMMITTED!! Let’s work @ButlerUFootball! Go Dawgs 🔵⚪️ #AGTG @coachklynch @FBCoachMitch @CoachCos16 @CoachSchott_BU @McNRocketFtball @CollopyPete @McNickCoachO https://t.co/Pvjc7kSuna",
-          "targetText": "100% COMMITTED!!"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122723304108896625",
-          "author": "np4football_ot",
-          "text": "Greg Hargrow-RB-2027-MS De-Commits From @GopherFootball #CFB"
-        },
-        {
-          "reason": "commit_school_not_tagged",
-          "postId": "2122677312730673487",
-          "author": "gregory_hargrow",
-          "text": "After a conversation with Minnesota Staff. I am officially Decommitted. Thank you to the staff in believing in me from the beginning. Recruitment is now open.🔥 https://t.co/luxUQSVGve",
-          "targetText": "I am officially Decommitted."
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122736964730290238",
-          "author": "qb_dna",
-          "text": "One of the top 2027 QB's has decommitted from Minnesota, reopening his recruitment! @FurianInferrera holds offers from Nebraska, USF, Pittsburgh, BC, Oregon State amongst others.."
+          "reason": "roundup_too_long",
+          "postId": "2122726423589007596",
+          "author": "miryarbaluch_",
+          "text": "17 November, 2026 His Excellency Ferdinand R. Marcos Jr. President of the Republic of the Philippines Malacañang Palace, J.P. Laurel St, San Miguel, Manila 1005 @DFAPHL, @bongbongmarcos, @opgovph, @DFAPHL, @SecLazaro @hyrbyair_marri Subject"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2122744275729342523",
-          "author": "thinkinghumanit",
-          "text": "Of all the times and dates a baby could choose to arrive, J'Aime Brown seemed determined to make one number impossible to forget: 7-Eleven. 😂👶 The Missouri baby was born on July 11, 2019 — 7/11 — at exactly 7:11 p.m. Then nurses put her o"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2122723265512616045",
-          "author": "pawusa4c6v",
-          "text": "Knowing what I know now, yes. If you’d asked me in January 2026, I probably would have said no. At the end of the day, we cannot absorb this level of infrastructure, energy, and technology investment into the United States without fully con"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2122693032105427296",
-          "author": "davidmwilson14",
-          "text": "Region 4-6A coaches have announced awards and superlatives for the 2026 season. Among the primary award winners are Marshall commitment Will Butler (@willbutler77) and two-time Offensive Player of the Year Gyan Ezeta (@gtank17Idothis): http"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2122738986435129519",
-          "author": "324sports_",
-          "text": "CE King WR Aubrey Johnson is back on the market. The 2027 receiver dropped his Memphis commitment after a 31-catch, 447-yard season, and he already has an official visit set for next weekend. #TXHSFB #vyperecruiting https://t.co/48Rdv5UWUJ"
+          "postId": "2122737026755694900",
+          "author": "japan_nobunaga",
+          "text": "The passengers of an American airliner, Delta Flight 15, tried to pay the small Canadian town that fed and sheltered them after 9/11. The town refused every dollar. So on the flight home they passed pledge sheets through the cabin, and by t"
         }
       ],
       "stats": {
-        "candidates": 13,
-        "accepted": 1,
-        "rejected": 12,
+        "candidates": 2,
+        "accepted": 0,
+        "rejected": 2,
         "reasons": {
-          "commit_school_not_tagged": 2,
-          "reporter_missing_player_name": 4,
-          "roundup_too_long": 2,
-          "no_football_context": 1,
-          "no_commit_event": 3
+          "roundup_too_long": 2
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 34,
+      "rejectedCandidates": 51,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T17:44:54.754Z"
+    "status rebuilt locally from current store on 2026-11-17T17:59:19.700Z"
   ]
 }
