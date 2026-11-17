@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T20:15:33.665Z",
+  "generatedAt": "2026-11-17T20:28:57.276Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T20:15:32.982Z",
+    "at": "2026-11-17T20:28:56.551Z",
     "jobsTotal": 162,
-    "sweptThisRun": 22,
-    "requests": 24,
-    "fullSweepCycles": 8
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,54 +32,30 @@
   },
   "staleSchools": [
     {
-      "id": "eastern-michigan",
-      "hours": 2.3
-    },
-    {
       "id": "florida",
-      "hours": 2.3
-    },
-    {
-      "id": "florida-atlantic",
-      "hours": 2.3
-    },
-    {
-      "id": "navy",
-      "hours": 2.3
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.3
-    },
-    {
-      "id": "new-mexico-state",
-      "hours": 2.3
-    },
-    {
-      "id": "north-texas",
-      "hours": 2.3
-    },
-    {
-      "id": "northern-illinois",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "ohio",
+      "hours": 2.5
+    },
+    {
+      "id": "washington-state",
       "hours": 2.3
     },
     {
-      "id": "oregon",
+      "id": "western-kentucky",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2906636111111112,
-    "p95Hours": 2.299577222222222,
-    "worstHours": 2.299577222222222
+    "medianHours": 0.7636041666666666,
+    "p95Hours": 2.0038686111111113,
+    "worstHours": 2.5228025
   },
   "decisionCoverage": {
-    "total": 55,
-    "decided": 55,
+    "total": 60,
+    "decided": 60,
     "complete": true
   },
   "pending": {
@@ -88,7 +64,7 @@
   "profileResolution": {
     "cached": 110
   },
-  "paginationBacklog": 3,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 4872,
     "incompleteOffers": 0
@@ -96,9 +72,9 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T20:15:32.982Z",
-      "got": 123,
-      "new": 55,
+      "at": "2026-11-17T20:28:56.550Z",
+      "got": 107,
+      "new": 60,
       "lag": 0.05
     },
     "search:commit": {
@@ -109,398 +85,412 @@
     }
   },
   "audit": {
-    "at": "2026-11-17T20:13:32.094Z",
+    "at": "2026-11-17T20:27:24.066Z",
     "mode": "live",
     "collection": {
-      "returned": 123,
-      "kept": 55,
-      "duplicate": 68,
+      "returned": 107,
+      "kept": 60,
+      "duplicate": 47,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 36,
-      "rejected": 19,
+      "accepted": 38,
+      "rejected": 22,
       "reasons": {
-        "no_fbs_school": 5,
+        "non_fbs_offer_target": 1,
+        "no_fbs_school": 11,
+        "hard_negative": 2,
         "no_offer_term": 7,
-        "non_fbs_offer_target": 4,
-        "hard_negative": 3
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2122778973319139796",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Kylan Bright-DB-2028-NC @MoStateFootball Offer #CFB"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122759174127788222",
-          "author": "cultfooty",
-          "searchJob": "class:2028",
-          "text": "🚨 Liverpool join Barcelona in the race for Athletico Paranaense defender Arthur Dias - Liverpool have sent scouts to watch the 19-year-old centre-back - Barcelona rate him highly as they look for defensive cover after injuries to Eric Garc"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122748424298840459",
-          "author": "leeannherringom",
-          "searchJob": "class:2028",
-          "text": "It was a big weekend for 4-Star 2028 DL @CashtonMathis1 . He recaps his visit to Lexington and his latest offer from the Cats! #FeedTheStuds"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122782441996009843",
-          "author": "treyscalez",
-          "searchJob": "florida",
-          "text": "https://t.co/T9S79oP6aC"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122780938866143431",
-          "author": "monjodav",
-          "searchJob": "florida",
-          "text": "https://t.co/Swb5tpNGQk"
-        },
-        {
           "reason": "non_fbs_offer_target",
-          "postId": "2122773580085658049",
-          "author": "csosolo",
+          "postId": "2122772192010060191",
+          "author": "cooper1324991",
           "searchJob": "florida",
-          "text": "AGTG! After a great conversation with @305Elitebball I’m grateful to Recieve an offer from Florida National University!! @mosesk225 @Uorangemen2 https://t.co/VLCSxMWZOS"
+          "text": "After a great conversation with @305Elitebball I am blessed to receive an offer from Florida National University! #agtg https://t.co/DMQLC8nrer"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122773377530118296",
-          "author": "dreamerclip",
+          "postId": "2122770581166686432",
+          "author": "sfddentalassoc",
           "searchJob": "florida",
-          "text": "Tiger Woods cheated on his wife and lost up to $35 million a year in sponsorship deals. Accenture, AT&T and Gatorade dropped him one by one. On February 19, 2010, Woods delivered a prepared statement at TPC Sawgrass in Florida. About 40 peo"
+          "text": "Even with the best intentions and careful treatment, patient disputes can happen. When a disagreement involves the care provided, FDA's Peer Review program offers eligible members a way to work toward a resolution with the help of fellow de"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122767955977023675",
+          "author": "flhousesmiami",
+          "searchJob": "florida",
+          "text": "🌴 Boca Raton | Spacious 5-Bedroom Home for Sale 3 Bathrooms | TEXT 6439 Listed total size: 7,941 sq. ft. Discover space, style, and privacy with tile and wood flooring, designer moldings, and a convenient first-floor bedroom and full bathr"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122765653186851282",
+          "author": "carebellami",
+          "searchJob": "florida",
+          "text": "@b_gimpl1234 I knew a family in Geneva, Florida that were offered $400 a month to have one installed on their land. They thought it was a good idea at the time about 10 years ago when they were told it was a harmless cell tower"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122764263915700703",
+          "author": "floridaissues",
+          "searchJob": "florida",
+          "text": "Ancient ice shelf discovery by UNCW researchers offers clues about rising sea levels - https://t.co/28Prcj43cv #GoogleAlerts"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122759946651496787",
+          "author": "jokerswild234",
+          "searchJob": "florida",
+          "text": "@amitkaria_ This is exactly the reason why Campbell was never offered a job in management. The man wants his ego massages constantly, he's no team player holding Pompey to ransoms over image rights wen they were in administration. The man i"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122759172764889211",
+          "author": "scroll_in",
+          "searchJob": "florida",
+          "text": "By bringing together musicians and poets from India and Pakistan, using multiple Southasian languages, and fusing diverse musical traditions, Ghost Peppers offers what they describe as “musical bridge-building\". https://t.co/xFM1jku4Nk Sira"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122752150128197679",
+          "author": "floridasbdc_uwf",
+          "searchJob": "florida",
+          "text": "💼 Did you know the SBA offers low-interest disaster loans for businesses, non-profits, homeowners, and renters? Join our FREE webinar series to learn more! 🗓️ Weekly in Nov &amp; Dec 2026 🕐 1 PM EST Register now! 👉 https://t.co/ZWGZ0psc"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122772507807596651",
-          "author": "dylanolive_uf",
-          "searchJob": "florida",
-          "text": "Newest #Gators commit Terrance Grant Jr does not have 3⭐️ tape. 🐊6’0, 200 pounds 🐊Reported 4.57 40 yard dash time and 545 pound squat‼️ 🐊Late offers from Florida and Alabama this month. 33 Os in total. 🐊Elusive and big play ability on f"
+          "postId": "2122779044575924686",
+          "author": "fordhamhoopsfan",
+          "searchJob": "new-mexico",
+          "text": "6’3” combo guard LJ Diamond has committed to Fordham! He’s the #119 prospect in the 2027 class per @247Sports and the #32 CG. He also had offers from WVU, New Mexico, UCSB, and others. Huge start to the recruiting class! 📸: IG/ljdiamond_ h"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122779304748838949",
-          "author": "agedits32",
-          "searchJob": "oklahoma",
-          "text": "JUCO S @ShowersTaz2024 picks up an offer from Alabama State 🏈 5’11” • 190 lbs | Northeastern Oklahoma A&amp;M December graduate Coaches, check out Taz Showers’s profile and film: https://t.co/Vq33Zn3amx"
+          "reason": "hard_negative",
+          "postId": "2122784105200779361",
+          "author": "rcagator",
+          "searchJob": "ohio",
+          "text": "@Joselito233223 @Hayesfawcett3 This has nothing to do with Ohio State or Bama or whether they're good at evaluating talent. This is strictly about On3/Rivals dropping or raising a ranking based on where a kid commits, not where they're offe"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122766863792742649",
-          "author": "journalrecord",
-          "searchJob": "oklahoma",
-          "text": "Oklahoma City and Oklahoma County courts will offer a Dec. 11 event to help people clear eligible warrants without fear of arrest. https://t.co/hs4lirf2Vg https://t.co/zzELTHkvKj"
+          "postId": "2122781518598676839",
+          "author": "antidiraken",
+          "searchJob": "ohio",
+          "text": "Gina DeJesus was 14 and Amanda Berry was 16 when a man chained them inside his house and r*p*d them for 10 years, sometimes up to 5 times a day. Amanda kept count in her diary with little X's: 3X, 4X, 5X. He ab*sed them in front of each oth"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122764678216495123",
-          "author": "pick6cam",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "After a great conversation with @BallCoachNeal , I’m blessed and grateful to receive an offer from Quincy University https://t.co/F0VtSyJ34r"
+          "reason": "no_fbs_school",
+          "postId": "2122759309801169177",
+          "author": "bluecardhz",
+          "searchJob": "ohio",
+          "text": "🚒 THE LATEST BUCKSLIP IS HERE! 📬 This week’s edition is packed with new training opportunities, fire service leadership, and the latest from Blue Card and B Shifter! 🔥 NEW Silverback Leadership CE! Earn 3 credit hours with our new Person"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122762736916688929",
-          "author": "cameron_levine1",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "#AGTG After an incredible call with @CoachDre55 grateful to receive an offer from Chowan University! @Saddleback_FB @coachfischer7 @CoachLukeSC @CoachMarquezA @JonathanBunnel @TrentonLuera14 @JuCoFootballACE @JUCOFFrenzy https://t.co/QWhhKY"
+          "reason": "no_fbs_school",
+          "postId": "2122787637069242480",
+          "author": "starplatinum_",
+          "searchJob": "georgia",
+          "text": "Be Tom Pearl - grows up decades before social media exists - becomes one of the most disturbing internet personalities - gets convicted of possessing child sexual abuse material - appears on the public sex offender registry - years later be"
         },
         {
-          "reason": "no_offer_term",
-          "postId": "2122735912735953259",
-          "author": "fightluckbet",
-          "searchJob": "miami",
-          "text": "🚨Ilia Topuria's ex-wife, Giorgina Uzcategui, advice for people looking to get married and how she got through the abuse. 😬 🗣“Brain scan to diagnose personality disorders, or establish a history of drug use.” 🗣“Support system and therapy"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122773974081749345",
-          "author": "habitatsdigital",
-          "searchJob": "miami",
-          "text": "https://t.co/l9d0lpk7qA"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122756063275765895",
-          "author": "thecromerreader",
-          "searchJob": "miami",
-          "text": "There are many policy manifestations that provide irrefutable proof of Plato's assessment, particularly in America over the past half-century, but one grim bit of anecdotal evidence presently at hand is the accelerating collapse of even the"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122778477845708931",
-          "author": "island_29",
-          "searchJob": "nc-state",
-          "text": "Remember Tobin Anderson’s two seasons at Iona? Interesting to see where some of his players have landed. Several have moved to higher-profile programs, while others have taken on bigger roles. Justin Menard | Colorado State (Pac-12): Played"
+          "reason": "no_fbs_school",
+          "postId": "2122756450841776266",
+          "author": "prepbaseballga",
+          "searchJob": "georgia",
+          "text": "2028 OF Austin Dowdy has been on an upward trajectory since the start of the year & put together a loud showing to close the Fall Campus Tour series. Lean 5-foot-11, 157-pound frame with present barrel feel & bat-to-ball alike. Max EV: 97.5"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122777976441905228",
-          "author": "ilirmehmetaj",
-          "searchJob": "coastal-carolina",
-          "text": "What if one reactor's surplus heat delivered 330–380 million m³ of fresh water and €0.7–1.0 bn in water and minerals a year — heat bought at €6–16 per MWh, while the plant keeps 75–80 % of its power? #Nuclear #Water #CriticalMinerals #AI (P"
+          "postId": "2122736717224398895",
+          "author": "prepbaseballga",
+          "searchJob": "georgia",
+          "text": "𝐅𝐚𝐥𝐥 𝐂𝐚𝐦𝐩𝐮𝐬 𝐓𝐨𝐮𝐫: 𝐆𝐞𝐨𝐫𝐠𝐢𝐚 𝐇𝐢𝐠𝐡𝐥𝐚𝐧𝐝𝐬 🏇 𝓠𝓾𝓲𝓬𝓴 𝓗𝓲𝓽𝓼 ⚡ On our final stop of the Campus Tour series, we take a look at strong performances across the board including multiple 2029 names that look to earn a"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122762816452952423",
-          "author": "mattvincenzipga",
-          "searchJob": "coastal-carolina",
-          "text": "Preview and Picks for the RSM Classic https://t.co/oD6Z1OZ8rs"
+          "postId": "2122767284162691225",
+          "author": "kfountou",
+          "searchJob": "purdue",
+          "text": "https://t.co/xWnwdOThJF"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122777437863837716",
-          "author": "briangoodner",
-          "searchJob": "nevada",
-          "text": "Q3 results highlight exceptional cash generation, a debt-free balance sheet, and opportunities for growth, although Keno Hill remains a challenge. https://t.co/4VCoNzAJKJ"
+          "postId": "2122612572558139642",
+          "author": "culturecrave",
+          "searchJob": "pittsburgh",
+          "text": "Brad Pitt wants to play the villain in the new James Bond movie \"Sign me up ... get Denis Villeneuve on the phone\" 📱 (via @Complex) https://t.co/8m4EolSWU7"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122380848695578910",
+          "author": "steelcitybucs30",
+          "searchJob": "pittsburgh",
+          "text": "What if Brandon Lowe just accepts the QO"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122759435609354591",
+          "author": "jonmorosi",
+          "searchJob": "pittsburgh",
+          "text": "Brandon Lowe is formally declining the QO, as expected. @MLBNetwork"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122781987534426574",
+          "author": "bubbleanalytics",
+          "searchJob": "south-florida",
+          "text": "https://t.co/Kgl9TkD6SR"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2122752965668708357",
+          "author": "rodmanai",
+          "searchJob": "temple",
+          "text": "@moomoo If you're using Claude, you know Anthropic. They just filed for IPO. While waiting for the ticker, moomoo is offering a reward of up to $1k in Anthropic / $ANT stock to new users. Click below to claim."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122760653064814707",
+          "author": "astarmind1",
+          "searchJob": "temple",
+          "text": "Our Fellowship earns a better name than the 'Fellowship of the Full Pint' https://t.co/TJez0648KV"
         }
       ]
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 35,
+      "accepted": 0,
+      "rejected": 38,
       "reasons": {
-        "bare_mention_requires_llm": 18,
-        "reporter_missing_player_name": 1,
+        "bare_mention_requires_llm": 23,
+        "school_not_resolved_confidently": 9,
         "multiple_resolved_schools": 4,
-        "school_not_resolved_confidently": 12
+        "reporter_missing_position": 1,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122749267655954645",
-          "author": "utetrain",
-          "searchJob": "michigan",
-          "text": "@JolliestUte If you considered yourself great college coach, wanted to continue, but your school just gently pushed you out- how do you possibly resist the Michigan offer? I don’t think spite has anything to do with it. He earned the right "
+          "postId": "2122753266148917302",
+          "author": "clioenchants",
+          "searchJob": "florida",
+          "text": "I want a few cash meets before I move to Florida in January. CO subs come forward and make your offer to get to hand that cash to a real life Goddess"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122752416823300143",
+          "author": "volusiagop",
+          "searchJob": "florida",
+          "text": "Volusia's tallies have several layers of protection. Even a hacked transmission couldn't change the official count, because the official count never comes from the transmission. What happens on election night • The results are printed befor"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122751242372087870",
+          "author": "doctorsoverseas",
+          "searchJob": "florida",
+          "text": "Florida Gov. Ron DeSantis (R) offered a historic reality check, and perspective to Practicing anti-Semitic Islamists gain a foothold in the halls of Congress by pointing to some of the realities that the Founding Fathers were facing 240 yea"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122751733260542007",
+          "author": "brownstown76",
+          "searchJob": "ohio",
+          "text": "@lisalee812 @TheHeirof2 Have you looked into any of these? Ohio offers a weatherization program. You still have to pay but it's $175 here I do believe.... Reach out and see what they say. Praying for you 🫂"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122788297076249054",
+          "author": "bmbempower",
+          "searchJob": "georgia",
+          "text": "✊🏾🗳️ BLACK VOTER POWER! THE NUMBERS ARE SPEAKING LOUD AND CLEAR! 🔥💪🏾 BMB EMPOWER NETWORK | ELECTION 2026 Let’s give Black voters their flowers! 💐✊🏾 According to NBC News, political experts and activists say a surge in Black voter tur"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122775274496340199",
+          "author": "phagankean",
+          "searchJob": "georgia",
+          "text": "Steve Oney, Wikipedia, and the Evidence Against Leo Frank Argument: Steve Oney's Selective Presentation of the Evidence is Biased on Behalf of Leo Frank and His Defense One of my strongest criticisms of Wikipedia's article on Leo Frank is i"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122774527604060455",
+          "author": "kickoffhour",
+          "searchJob": "georgia",
+          "text": "🏆 Ukraine v Georgia · Nations League Ukraine and Georgia arrive after low-scoring recent results, with Ukraine holding a marginal recent-form edge. The model points to a tight contest, while the confirmed starting XIs offer no clear reason"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122770496555225350",
+          "author": "go_beyondprofit",
+          "searchJob": "georgia",
+          "text": "A new survey of Georgia employees found emergency financial assistance — a one-time cash benefit for personal crises — is the most valued workplace benefit offered. Employers providing it nearly doubled since 2023 (28%→48%), yet fewer than "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122759693936267400",
+          "author": "gnrpublichealth",
+          "searchJob": "georgia",
+          "text": "Cigarette smoking and exposure to secondhand smoke can cause serious illness or death. It's not always easy to quit smoking. The good news is that the Georgia Tobacco Quit Line offers free support and resources to help. Learn more at https:"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122774277455770085",
+          "author": "steelers_db",
+          "searchJob": "penn-state",
+          "text": "Not 100% sure how I'm still tagged in this lengthy thread but seeing as I am: just wanna offer some insight that Drew was given a third round grade from the advisory board and that's why he returned to school. The NFL never saw him as that "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122760757540467032",
+          "author": "np4football_ot",
+          "searchJob": "penn-state",
+          "text": "Maddox Purins-TE-2029 @PennStateFball Offer #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122787674201161783",
+          "author": "aniwilll",
+          "searchJob": "pittsburgh",
+          "text": "Hollywood star Brad Pitt has expressed interest in playing the villain in Robert Pattinson’s upcoming James Bond movie. Pitt praised Pattinson’s selection as the new 007, describing him as a talented actor with excellent career choices. He "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122783920437731653",
+          "author": "steelcitybucs30",
+          "searchJob": "pittsburgh",
+          "text": "What if the Pirates offered Lowe a good deal and he accepted"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122782839204913648",
+          "author": "gspmom2023",
+          "searchJob": "pittsburgh",
+          "text": "@CoffindafferFBI @jtmayes1968 You forgot this part… Before officially bestowing it upon the Cowboys, NFL Films actually offered the moniker to Art Rooney Sr., Who immediately turned it down. His reasoning was deeply tied to the city's ident"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122782131441041827",
+          "author": "altitudebutler",
+          "searchJob": "pittsburgh",
+          "text": "Parents jump free today! And every Tuesday all November long. Visit us at the park and claim this free offer! #ThingsToDoButlerPA #ButlerPA #Pittsburgh FamilyFun https://t.co/3h32Y05VYQ"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122772328786411957",
+          "author": "dkpghsports",
+          "searchJob": "pittsburgh",
+          "text": "Brandon Lowe has informed the Pirates that he intends to decline the one-year, $23.15 million qualifying offer. The Pirates can still re-sign Lowe and are ensured draft compensation if he signs with another team. José Negron reporting from "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122769853211607327",
+          "author": "937thefan",
+          "searchJob": "pittsburgh",
+          "text": "Lowe rejects qualifying offer from Pirates, he'll become a free agent. https://t.co/kQQnXQ3Sil https://t.co/ZdtZXCmgKC"
+        },
+        {
+          "reason": "reporter_missing_position",
+          "postId": "2122768705008341396",
+          "author": "firesideyankees",
+          "searchJob": "pittsburgh",
+          "text": "Brandon Lowe has declined his $23.15M qualifying offer from the Pirates, per @jonmorosi. 2026 with Pittsburgh: • 35 HR, 96 RBI • .824 OPS in 150 games A lefty power bat at second makes a lot of sense for the Yankees. Just know whoever signs"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122765895525150909",
+          "author": "cine_088",
+          "searchJob": "pittsburgh",
+          "text": "JUST IN: Brad Pitt publicly offers to play the villain in Robert Pattinson’s first James Bond film. https://t.co/XkyCcZn3Fh"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122765241738056044",
+          "author": "pghbaseballnow",
+          "searchJob": "pittsburgh",
+          "text": "Brandon Lowe Declining Pirates’ Qualifying Offer, Will Remain Free Agent https://t.co/hAzICYsJpd"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122764876376678891",
+          "author": "behindthebucs",
+          "searchJob": "pittsburgh",
+          "text": "Pirates fans shouldn't be hitting the panic button just yet after Brandon Lowe declined the qualifying offer. This report indicates there's still reason to believe Pittsburgh can bring him back ⬇️ https://t.co/qR8uLKZKk1"
         },
         {
           "reason": "reporter_missing_player_name",
-          "postId": "2122781928386338865",
-          "author": "fsuwire",
-          "searchJob": "class:2028",
-          "text": "Florida State offers 2028 QB in Ohio 📸 Alicia Devine/Tallahassee Democrat via Imagn Content Services, LLC https://t.co/xUauhHTwYh https://t.co/VGNgSav8mM"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122769607303852320",
-          "author": "chadsimmons_",
-          "searchJob": "class:2028",
-          "text": "2028 4-star DB in Georgia adds Oregon offer. @mtorressports"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122760912969036095",
-          "author": "np4football_ot",
-          "searchJob": "class:2028",
-          "text": "Dallas Gray-LB-2028-KS @BoilerFootball Offer #CFB"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122783636563104114",
-          "author": "concern1976",
-          "searchJob": "florida",
-          "text": "Here&#8217;s Why You Should Get a Landline—Yep, Even in 2025 https://t.co/4Np0rvmiNA Going old school with a landline can be a smart call in certain situations For better or worse, we’ve become increasingly reliant on technology, both in ou"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122783618279854588",
-          "author": "marknajuch",
-          "searchJob": "florida",
-          "text": "@Johnnypatriot64 I bet that a lot of those officers will take Florida up on their offer. I'm born in New York moved to Ohio for school got married moved to Florida loved it but aging family has brought us back to Ohio. Florida is amazing an"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122783105219985685",
-          "author": "forthrightstrat",
-          "searchJob": "florida",
-          "text": "Florida Rep. Offers Safe Haven To Elon Musk As Democrats Prepare Revenge Tour https://t.co/9ietG67XYN https://t.co/S8dI4CZxSa"
+          "postId": "2122764831404982563",
+          "author": "aidenstepansky",
+          "searchJob": "pittsburgh",
+          "text": "As expected, Brandon Lowe will decline the $23.15 million qualifying offer from the Pirates, sources confirm to https://t.co/qUsXOE48vC. If Lowe were to sign elsewhere for $50 million or more, Pittsburgh would now receive a Draft pick betwe"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2122782344121561224",
-          "author": "miamisprings",
-          "searchJob": "florida",
-          "text": "MORE OPPORTUNITIES ISAAC Academy combines tuition-free education with gifted learning, extracurricular clubs, and before and after school services. Discover what their student-centered programs offer families in Miami Springs. Visit https:/"
+          "postId": "2122763067482063352",
+          "author": "domismoney",
+          "searchJob": "pittsburgh",
+          "text": "Brandon Lowe has declined the qualifying offer from the Pirates, per @jonmorosi Why he likely declined and what this means for the Pirates' efforts to re-sign him this offseason https://t.co/cuz5CwXwEj"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122781661376946473",
-          "author": "jmichaelglovsky",
-          "searchJob": "florida",
-          "text": "The other side of winter. For some, Winter Season means heading south. For others, it's another leg of the New York–South Florida–Colorado triangle. As the season begins, Aspen and Telluride offer two very different expressions of mountain "
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122779256916942933",
-          "author": "seansaavedra74",
-          "searchJob": "florida",
-          "text": "Blessed to receive my 3rd division offer to the University of Florida A&amp;M!! @ccash29 @RccPen @CoachPaychek @RCCTigerFB https://t.co/uwptsH7Aip"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122778747095175569",
-          "author": "cryptochamberc",
-          "searchJob": "florida",
-          "text": "🏥🌴 SOUTH FLORIDA HEALTH EXPO 2026 🌴🏥 🎉 TOMORROW — WEDNESDAY, NOVEMBER 18, 2026! 🎟️ SAVE 50% ON ADVANCE ADMISSION — REGISTER ONLINE TODAY! ❤️ MEDICAL SERVICES EXPO 🧬 LONGEVITY EXPO 🌿 HEALTH & WELLNESS EXPERIENCE THREE SPECIALIZED EXP"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122778674231660849",
-          "author": "betopenly",
-          "searchJob": "florida",
-          "text": "17% better than what’s being offered on BETUS 🧐 Why would you use anyone else, college hoops fans?! Download our app or click the link below to get started today! Place This 🏀 NCAAB Bet: FLA Gators To Win Game -1432 Risk $3,580.00 | Wins "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122778525643964561",
-          "author": "miamidadeccc",
-          "searchJob": "florida",
-          "text": "🏥🌴 SOUTH FLORIDA HEALTH EXPO 2026 🌴🏥 🎉 TOMORROW — WEDNESDAY, NOVEMBER 18, 2026! 🎟️ SAVE 50% ON ADVANCE ADMISSION — REGISTER ONLINE TODAY! ❤️ MEDICAL SERVICES EXPO 🧬 LONGEVITY EXPO 🌿 HEALTH & WELLNESS EXPERIENCE THREE SPECIALIZED EXP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122778445914513529",
-          "author": "browardchamber",
-          "searchJob": "florida",
-          "text": "🏥🌴 SOUTH FLORIDA HEALTH EXPO 2026 🌴🏥 🎉 TOMORROW — WEDNESDAY, NOVEMBER 18, 2026! 🎟️ SAVE 50% ON ADVANCE ADMISSION — REGISTER ONLINE TODAY! ❤️ MEDICAL SERVICES EXPO 🧬 LONGEVITY EXPO 🌿 HEALTH & WELLNESS EXPERIENCE THREE SPECIALIZED EXP"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122778274892009619",
-          "author": "southfloridacc",
-          "searchJob": "florida",
-          "text": "🏥🌴 SOUTH FLORIDA HEALTH EXPO 2026 🌴🏥 🎉 TOMORROW — WEDNESDAY, NOVEMBER 18, 2026! 🎟️ SAVE 50% ON ADVANCE ADMISSION — REGISTER ONLINE TODAY! ❤️ MEDICAL SERVICES EXPO 🧬 LONGEVITY EXPO 🌿 HEALTH & WELLNESS EXPERIENCE THREE SPECIALIZED EXP"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122773010512007265",
-          "author": "answerislibrty",
-          "searchJob": "florida",
-          "text": "@arthrspooner @JakeBrownLive It’s all comes down to the money, ultimately. But some guys don’t want to play in NY. They think California or Florida or somewhere else offers a better quality of life for their families. Mike Hampton comes to "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122772557388550480",
-          "author": "gator_in_pr",
-          "searchJob": "florida",
-          "text": "@onix89679 Yeah ok.... if Florida was able to offer the $$$ miami offered you don't think he is coming to play for his old coach. 😂😂😂."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122761444949414192",
-          "author": "jucofootballace",
-          "searchJob": "ole-miss",
-          "text": "Cayden Arnold @CaydenArnold1 @ Mississippi Gulf Coast @MGCCCBulldogs picks up @FIUFootball Offer @jucoweekly @MSJUCOREPORT https://t.co/1PQy2e1Bit"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122779605581111546",
-          "author": "titan27279",
-          "searchJob": "oregon",
-          "text": "@MrBeavv What we have is what you wish osu had, you guys left behind and doormat of Oregon. If a conference comes knocking BSU offers way more than OSU. Keep living in your delusional world of where osu matters anymore"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122777110591004766",
-          "author": "montezumamonty",
-          "searchJob": "oregon",
-          "text": "@ZachCav @SportingTrib Like this is a surprise? As soon as that offer sheet was signed the Ducks would have to score 4-5 every night to have a chance at winning. Wish more on here would watch Gulls games. Warren wasn't ready, Hinds needs to"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122776059167023212",
-          "author": "invaderbader1",
-          "searchJob": "miami",
-          "text": "Giorgina Uzcategui's ex-husband, Ilia Topuria, offers advice to people looking for a wife: -Not from Miami -Not a gold digger -Prenup -Doesn't bring a lawyer to date night -Doesn't negotiate like she's Dana White -Doesn't relocate my kids t"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122775529799418166",
-          "author": "btgraham5",
-          "searchJob": "miami",
-          "text": "The US just hit a record: 70.5% more sellers than buyers. Baltimore? Just 24.4%, per Redfin's October data. DC is 48.5%. Miami is 195.8%. BRRRR buyers here: ask for credits and repairs, but don't expect Sun Belt discounts. Offer off sold co"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122766556903932154",
-          "author": "nolantherollin",
-          "searchJob": "miami",
-          "text": "@LaserCats123 @FightOnRusty says the same program who walked from pop tarts bowl and yall walked away from our offer..looks like could you have used another p4 opponent. yall lost fully healthy byu while puffing your self beating miami..wit"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122756442897928209",
-          "author": "irenefajardomia",
-          "searchJob": "miami",
-          "text": "Miami condo investors: \"rent ÷ price\" isn't your return. Add taxes at ~2% of purchase price (they reset when you buy), HO-6 insurance, ~6% vacancy, 8–12% management — then divide by the cash you actually put in. That's your real number. Run"
+          "postId": "2122762656037962164",
+          "author": "moviethread_",
+          "searchJob": "pittsburgh",
+          "text": "Brad Pitt approves of Robert Pattinson as the new James Bond! He called Robert a “great choice” for 007 and even offered to play the villain in the next Bond film. Imagine Brad Pitt vs Robert Pattinson on screen. That would be EPIC! https:/"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 164,
-      "swept": 24,
-      "failed": 2,
+      "jobs": 162,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "eastern-michigan: SearchTimeline response missing — no timeline call; page said: (blank page, title \"X\") (slice left pending)",
-        "florida-atlantic: SearchTimeline response missing — no timeline call; page said: To view keyboard shortcuts, press question mark View keyboard shortcuts Home Explore Notifications Follow Chat Calls Grok Money History Creator Studio Premium P (slice left pending)"
-      ]
+      "errors": []
     },
     "commits": {
       "samples": [
         {
-          "reason": "juco_or_transfer",
-          "postId": "2122783636563104114",
-          "author": "concern1976",
-          "text": "Here&#8217;s Why You Should Get a Landline—Yep, Even in 2025 https://t.co/4Np0rvmiNA Going old school with a landline can be a smart call in certain situations For better or worse, we’ve become increasingly reliant on technology, both in ou"
+          "reason": "other_sport",
+          "postId": "2122779044575924686",
+          "author": "fordhamhoopsfan",
+          "text": "6’3” combo guard LJ Diamond has committed to Fordham! He’s the #119 prospect in the 2027 class per @247Sports and the #32 CG. He also had offers from WVU, New Mexico, UCSB, and others. Huge start to the recruiting class! 📸: IG/ljdiamond_ h"
         },
         {
           "reason": "no_football_context",
-          "postId": "2122772507807596651",
-          "author": "dylanolive_uf",
-          "text": "Newest #Gators commit Terrance Grant Jr does not have 3⭐️ tape. 🐊6’0, 200 pounds 🐊Reported 4.57 40 yard dash time and 545 pound squat‼️ 🐊Late offers from Florida and Alabama this month. 33 Os in total. 🐊Elusive and big play ability on f"
+          "postId": "2122784105200779361",
+          "author": "rcagator",
+          "text": "@Joselito233223 @Hayesfawcett3 This has nothing to do with Ohio State or Bama or whether they're good at evaluating talent. This is strictly about On3/Rivals dropping or raising a ranking based on where a kid commits, not where they're offe"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2122756063275765895",
-          "author": "thecromerreader",
-          "text": "There are many policy manifestations that provide irrefutable proof of Plato's assessment, particularly in America over the past half-century, but one grim bit of anecdotal evidence presently at hand is the accelerating collapse of even the"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2122778477845708931",
-          "author": "island_29",
-          "text": "Remember Tobin Anderson’s two seasons at Iona? Interesting to see where some of his players have landed. Several have moved to higher-profile programs, while others have taken on bigger roles. Justin Menard | Colorado State (Pac-12): Played"
+          "postId": "2122788297076249054",
+          "author": "bmbempower",
+          "text": "✊🏾🗳️ BLACK VOTER POWER! THE NUMBERS ARE SPEAKING LOUD AND CLEAR! 🔥💪🏾 BMB EMPOWER NETWORK | ELECTION 2026 Let’s give Black voters their flowers! 💐✊🏾 According to NBC News, political experts and activists say a surge in Black voter tur"
         }
       ],
       "stats": {
-        "candidates": 4,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 4,
+        "rejected": 3,
         "reasons": {
-          "juco_or_transfer": 1,
+          "other_sport": 1,
           "no_football_context": 1,
-          "roundup_too_long": 2
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 35,
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 38,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T20:15:33.666Z"
+    "status rebuilt locally from current store on 2026-11-17T20:28:57.277Z"
   ]
 }
