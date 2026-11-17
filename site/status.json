@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T17:59:19.699Z",
+  "generatedAt": "2026-11-17T18:14:17.137Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T17:59:18.728Z",
+    "at": "2026-11-17T18:14:16.401Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 21,
+    "requests": 21,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,78 +32,62 @@
   },
   "staleSchools": [
     {
-      "id": "ohio",
+      "id": "temple",
       "hours": 2.5
     },
     {
-      "id": "florida",
+      "id": "buffalo",
       "hours": 2.3
     },
     {
-      "id": "north-carolina",
+      "id": "fresno-state",
       "hours": 2.3
     },
     {
-      "id": "oklahoma-state",
+      "id": "georgia-southern",
       "hours": 2.3
     },
     {
-      "id": "old-dominion",
+      "id": "georgia-state",
       "hours": 2.3
     },
     {
-      "id": "oregon-state",
+      "id": "kansas-state",
       "hours": 2.3
     },
     {
-      "id": "pittsburgh",
+      "id": "stanford",
       "hours": 2.3
     },
     {
-      "id": "smu",
+      "id": "tcu",
       "hours": 2.3
     },
     {
-      "id": "south-alabama",
+      "id": "texas-state",
       "hours": 2.3
     },
     {
-      "id": "south-florida",
+      "id": "toledo",
       "hours": 2.3
     },
     {
-      "id": "southern-miss",
+      "id": "troy",
       "hours": 2.3
     },
     {
-      "id": "syracuse",
-      "hours": 2.3
-    },
-    {
-      "id": "temple",
-      "hours": 2.3
-    },
-    {
-      "id": "ucf",
-      "hours": 2.3
-    },
-    {
-      "id": "washington-state",
-      "hours": 2.3
-    },
-    {
-      "id": "western-kentucky",
+      "id": "tulane",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0285111111111112,
-    "p95Hours": 2.2750469444444446,
-    "worstHours": 2.5245530555555558
+    "medianHours": 0.7714275,
+    "p95Hours": 2.2681311111111113,
+    "worstHours": 2.524335277777778
   },
   "decisionCoverage": {
-    "total": 85,
-    "decided": 85,
+    "total": 53,
+    "decided": 53,
     "complete": true
   },
   "pending": {
@@ -112,7 +96,7 @@
   "profileResolution": {
     "cached": 110
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4868,
     "incompleteOffers": 0
@@ -120,395 +104,345 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T17:59:18.727Z",
-      "got": 126,
-      "new": 85,
-      "lag": 0.03
+      "at": "2026-11-17T18:14:16.374Z",
+      "got": 90,
+      "new": 53,
+      "lag": 0.06
     },
     "search:commit": {
-      "at": "2026-11-17T17:44:54.059Z",
-      "got": 15,
-      "new": 8,
-      "lag": 0.58
+      "at": "2026-11-17T18:14:16.401Z",
+      "got": 12,
+      "new": 7,
+      "lag": 0.22
     }
   },
   "audit": {
-    "at": "2026-11-17T17:57:35.074Z",
+    "at": "2026-11-17T18:12:40.988Z",
     "mode": "live",
     "collection": {
-      "returned": 126,
-      "kept": 85,
-      "duplicate": 41,
+      "returned": 90,
+      "kept": 53,
+      "duplicate": 37,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 51,
-      "rejected": 34,
+      "accepted": 36,
+      "rejected": 17,
       "reasons": {
-        "no_fbs_school": 17,
-        "no_offer_term": 9,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 7
+        "hard_negative": 4,
+        "no_fbs_school": 6,
+        "non_fbs_offer_target": 1,
+        "no_offer_term": 6
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2122745768096493656",
-          "author": "mft_get_funded",
-          "searchJob": "miami",
-          "text": "NVIDIA Founder Jensen Huang Offers to Return as CEO Amid Probe and Staff Support"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122726005219737649",
-          "author": "jensenhuang",
-          "searchJob": "miami",
-          "text": "Over the past week, I’ve been overwhelmed by the love and support of friends, industry colleagues, and people I've never met. Thank you to everyone who has shown kindness to my family and me. It means the world to me. I came to the United S"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122722143343411592",
-          "author": "kfundvc",
-          "searchJob": "miami",
-          "text": "@zynap_ai XRF builds situational-awareness software for defence and emergency response, wildfires included. Two roles: Systems Engineer, cloud and field deployments (Madrid, on-site): https://t.co/XbJRlMbtbq Sales Engineer (Miami): https://"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122711421167272171",
-          "author": "miamiherald",
-          "searchJob": "miami",
-          "text": "Foreign troops offer Haiti temporary fix, but security reforms needed, report finds https://t.co/OfdY7vPG3D"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122743981771784655",
-          "author": "mftxac",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/UpCzITYcvy"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122736670646661135",
-          "author": "baofagex",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/48ytAT38Do"
+          "reason": "hard_negative",
+          "postId": "2122724465532383592",
+          "author": "swflchildrens",
+          "searchJob": "florida",
+          "text": "The gathering offered an opportunity to celebrate the generosity behind the facility, give donors and guests a closer look at the space, and connect with the people who share a commitment to supporting children’s mental and behavioral healt"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122726423589007596",
-          "author": "miryarbaluch_",
-          "searchJob": "coastal-carolina",
-          "text": "17 November, 2026 His Excellency Ferdinand R. Marcos Jr. President of the Republic of the Philippines Malacañang Palace, J.P. Laurel St, San Miguel, Manila 1005 @DFAPHL, @bongbongmarcos, @opgovph, @DFAPHL, @SecLazaro @hyrbyair_marri Subject"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122721518635389122",
-          "author": "dimitri_salahi",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/RTyvCIjZ6O"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122750128734060730",
-          "author": "fmill57",
-          "searchJob": "navy",
-          "text": "@AndrewM28819366 @ImBreckWorsham Hegseth said china can destroy our whole navy in minutes, wouldnt be surprised if iran could land a missile here"
+          "postId": "2122718916031984062",
+          "author": "educationfl",
+          "searchJob": "florida",
+          "text": "Building resiliency goes beyond the classroom and takes commitment from parents too! Resiliency Florida offers resources for parents and families to help strengthen their children’s resiliency at home. Visit https://t.co/1PRgbROsNv to explo"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122736625516191905",
-          "author": "gmblerr",
-          "searchJob": "nevada",
-          "text": "@DegenTracker_ Really funny how the state with the most gambling by far is going after them in Nevada. All of these states listed offer heavy gambling. They don’t care about people, they want more money in their pockets from their monopolie"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122743068550160735",
-          "author": "nmmagazine",
-          "searchJob": "new-mexico",
-          "text": "The Santa Fe shop offers souvenirs worth wrangling. https://t.co/i8dgxwk0iC https://t.co/ZqD7KBLzWU"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122739098150437314",
-          "author": "colliers_nm",
-          "searchJob": "new-mexico",
-          "text": "For Sale — Fully leased and priced below replacement cost, 8700 Education Place NW offers immediate income and compelling upside in Albuquerque’s West Mesa submarket. Learn more about the opportunity here: https://t.co/jVZJVipLPQ Contact: J"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122728999868567837",
-          "author": "taxpayers",
-          "searchJob": "new-mexico",
-          "text": "The Admin plans to offer 500,000+ acres of public land across the US for oil &amp; gas development at discounted rates, costing taxpayers millions. In New Mexico, 5,140 acres could be leased @ 12.5% royalty rate — up to HALF of what is char"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122748670575792282",
-          "author": "jaypaul",
-          "searchJob": "ohio",
-          "text": "https://t.co/Q5JZ8NTh50"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122745951395738046",
-          "author": "richfeet",
-          "searchJob": "ohio",
-          "text": "Your feet carry you every day—give them the care they deserve. Dayton, Ohio podiatrist Dr. Tanisha Richmond offers routine checkups and treatment for a range of foot concerns. Learn more at https://t.co/zQX6UaSzVb. #Podiatry #FootHealth htt"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122745308585111744",
-          "author": "finaltelegraph",
-          "searchJob": "ohio",
-          "text": "Greta Thunberg is a Parasitic Fraud: The Corporate-Backed Demagogue Who Sold Out Science for Marxist Sabotage Greta Thunberg is a parasitic fraud, a manufactured messiah of the climate cult, a sour-faced Swedish puppet assembled in a labora"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122743347932520742",
-          "author": "jbissman",
-          "searchJob": "ohio",
-          "text": "Set in Dayton, OH 45424, this property places you in the heart of a vibrant community where real estate in Dayton, OH offers a blend of suburban convenience and local character. The neighborhood provides easy access to some of the region's "
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122743345218793675",
-          "author": "jbissman",
-          "searchJob": "ohio",
-          "text": "Welcome to 5233 Buckner Drive, Dayton, Ohio 45424 — a thoughtfully laid out property. This property offers the kind of layout, setting, and flexibility that make it stand out. Property Highlights: https://t.co/J4cOo4N0rH"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122738416026624379",
-          "author": "daytondailynews",
-          "searchJob": "ohio",
-          "text": "From leisurely lakeside hikes to endurance-testing treks and sunset strolls to all-day adventures, Girls Who Hike Ohio traverses Ohio trails and beyond. https://t.co/BMZPKaJsTO"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122722695695441980",
-          "author": "ohiofrrw",
-          "searchJob": "ohio",
-          "text": "Register now for the 2026 First Responder Women's Wellness Day! This event is designed specifically for women serving in first responder professions. It offers a unique opportunity to focus on personal wellness, resilience, and self-care. R"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122722284008042717",
-          "author": "jfdi1002",
-          "searchJob": "ohio",
-          "text": "Milk, eggs—and somehow a $400 Costco cart. Then the checkout line. Why can’t we just roll out? Walmart pushed RFID 20 years ago. Chinese street vendors need only a QR code to get paid. Why does great technology take so long to catch on? htt"
+          "postId": "2122754285762953654",
+          "author": "puregoodnews",
+          "searchJob": "north-carolina",
+          "text": "North Carolina residents can now take Google's AI and digital skills training at no cost, through the state's library system. It's the 10th state to offer it. In Massachusetts, nearly 40,000 residents signed up within six months of launch. "
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122748430657147297",
-          "author": "tristanbentonn",
-          "searchJob": "florida",
-          "text": "Blessed to receive first offer from Community Christian College of Florida #AGTG @wright_woody https://t.co/wDOjKz9LzL"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122748008676950035",
-          "author": "tristanbentonn",
-          "searchJob": "florida",
-          "text": "Blessed to receive my first offer from Community Christian College of Florida #AGTG https://t.co/c1LUZVrLze"
+          "postId": "2122730252405543247",
+          "author": "wpialrecruits",
+          "searchJob": "pittsburgh",
+          "text": "First offer for West Allegheny 2028 G Izzy Bobitski (@IzzyBobitski2), who picks up an offer from Pitt-Bradford right before her junior season. 🏀 @WAgirlshoops #WPIAL"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122745796181323945",
-          "author": "florida_housing",
-          "searchJob": "florida",
-          "text": "🧵 PSH provides more than a place to live. It offers stability, access to crucial support services, and the opportunity for individuals to build a stronger foundation for the future. 🧵"
+          "postId": "2122520594633941277",
+          "author": "wpialgirlshoop",
+          "searchJob": "pittsburgh",
+          "text": "Congrats on your first offer @IzzyBobitski2 Junior, 2028, out of 5A @WAgirlshoops A high IQ, all around player who does it all. From rebounding at a high rate to hitting 3’s. Excellent vision finding teammates often to defending multiple po"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122751926122983647",
+          "author": "wordsdematthew",
+          "searchJob": "ucf",
+          "text": "16/21 Hung Cao: Senator Sheehy, I began my questioning concerning the frigate program and so I appreciate you circling back to the importance of that type of vessel also. Wicker: And I believe, Senator Rosen, you are next. Rosen: Well, than"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122752494270918874",
+          "author": "funmentalist",
+          "searchJob": "south-florida",
+          "text": "https://t.co/oE5g8wYT0r"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122692506571964895",
+          "author": "stocksavvyshay",
+          "searchJob": "south-florida",
+          "text": "$ANT is reportedly guiding its IPO pricing toward top of its range or higher despite the AI selloff with New Street Research calling it a “generational IPO” with a $105 PT. The firm expects AI to spread twice as fast as cloud into a market "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122752725049831607",
+          "author": "hthejambo",
+          "searchJob": "temple",
+          "text": "@GorgieOpinion Heard good things about them I would also offer Pollock an extension as well"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122752433151725928",
+          "author": "abiyahbenjudah",
+          "searchJob": "temple",
+          "text": "It actually is recorded. James instructs Paul to purify himself with 4 men under the Nazarite vow found in Numbers 6. Acts 21:23-24,26 Do therefore this that we say to thee: We have four men which have a vow on them; Them take, and purify t"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122749129743114387",
+          "author": "abiyahbenjudah",
+          "searchJob": "temple",
+          "text": "I didn’t say for sin. Not every offering is for sin. They did the Nazarite vow offering found in Numbers 6. James instructs Paul to purify himself along with 4 men under a vow until a “offering” she be offered for them. Acts 21:23-24,26 Do "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121969547343278463",
+          "author": "meathead_prof",
+          "searchJob": "temple",
+          "text": "I despise the politics that exists in Christendom. I’m no one special, but my company does coach a lot of people across Christendom. I get texts and emails quite often questioning why I’m friends with so and so. Guys, I run a health company"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122752390030106855",
+          "author": "bloodytoothg",
+          "searchJob": "georgia",
+          "text": "I booked a call girl from a call girl agency, and my own younger sister showed up at my hotel room. I had absolutely no idea who I was dealing with until she removed her wig. I'm still struggling to explain how that night changed my entire "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122749937339260939",
+          "author": "honestrepcanada",
+          "searchJob": "georgia",
+          "text": "https://t.co/JEz6bEBuO0"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122739860003750384",
+          "author": "phagankean",
+          "searchJob": "georgia",
+          "text": "Culture Wars: Is Wikipedia’s Leo Frank Article Occupied Territory Guarded by Fanatical Hasbara Sentinels? In my view, the Leo Frank article on Wikipedia is under occupation by Frankites. What's a Frankite? By “Frankites,” I mean those multi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122634465587650839",
+          "author": "numabiena",
+          "searchJob": "georgia",
+          "text": "@PhaganKean I congratulate you on your achievement. Perhaps you need to ... 'tackle' the Wikipaedia article on Frank. (I looked up Wiki to get some more background.) I wish you success with your book, and thank you for all your research."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122488899431723165",
+          "author": "awfulannouncing",
+          "searchJob": "penn-state",
+          "text": "New Beatline Sports podcast network appears to be entirely AI-generated https://t.co/a7upp9z2q4"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 51,
+      "rejected": 36,
       "reasons": {
-        "school_not_resolved_confidently": 18,
-        "bare_mention_requires_llm": 20,
-        "multiple_resolved_schools": 9,
-        "unresolved_offer_target": 1,
-        "reporter_missing_player_name": 1,
-        "reporter_missing_class_year": 2
+        "bare_mention_requires_llm": 28,
+        "multiple_resolved_schools": 2,
+        "reporter_missing_class_year": 1,
+        "school_not_resolved_confidently": 4,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122743677617328556",
-          "author": "zeya_app",
-          "searchJob": "miami",
-          "text": "Win a $100 PlayStation or Xbox gift card and get GTA 6 on us. 3 winners drawn Nov 21. To enter: 1. Download the free Zèya app: https://t.co/JZfBxFgXCD 2. Find the secret item \"Vice City Box\" in Miami and send an offer"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122721940721078314",
+          "author": "williemayes18_",
+          "searchJob": "florida",
+          "text": "CCC FLORIDA Offered! https://t.co/k1sjGQHJHs"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122740351324553667",
-          "author": "movewithalexis",
-          "searchJob": "miami",
-          "text": "Natural light and exposure can greatly influence how a property feels. Watching new listings from Coral Gables to Bal Harbour helps you understand what recently available homes offer. See the latest South Florida properties for sale. @MoveW"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122739759877337491",
-          "author": "zeya_app",
-          "searchJob": "miami",
-          "text": "how to enter: 1) get the free zèya app https://t.co/JZfBxFgXCD 2) find the Vice City Box in Miami and send an offer with something you want to declutter. one entry per person. draw nov 21"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122739272990048326",
-          "author": "zeya_app",
-          "searchJob": "miami",
-          "text": "giving away 3 × $100 PlayStation Store gift cards for vice city week 🌴 to enter: download the zèya app, find the secret item \"Vice City Box\" in Miami and send an offer. winners drawn nov 21. steps + rules below 👇 #GTA6 #ViceCity"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122736800812638711",
-          "author": "xisback305",
-          "searchJob": "miami",
-          "text": "Miami should offer juco OT Antrale Newson. Think he’s another player who can either start or get major playing time for Miami next season."
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122735373327671675",
-          "author": "heyumarr",
-          "searchJob": "miami",
-          "text": "https://t.co/0VralqCb5s Hometown Real Estate offers MLS 202624147 Turnkey Pizza Don’t miss this opportunity to take over an established food business in a sought-after Winnipeg location. #winnipeg #manitoba #canada #toronto #vancouver montr"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122721429619614048",
-          "author": "miamivibesmag",
-          "searchJob": "miami",
-          "text": "UNIQLO is now open at Aventura Mall! The grand opening brought Taiko drummers, giveaways, special offers and community art events. Shopping with a feel-good twist! #MiamiVibesMagazine #UNIQLO #AventuraMall https://t.co/PzLiTDE0Nr"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122719018205294743",
-          "author": "sergekozhukhar",
-          "searchJob": "miami",
-          "text": "1040 Biscayne Boulevard Miami, FL 2 Bed | 3 Bath | $1,555,888 | Melissa Rubin and Madeleine Romanello Perched high above the city, this dramatic 1,794-square-foot two-story sky home at Ten Museum Park features soaring 22-foot ceilings and a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122710715953709125",
-          "author": "mindinpanic",
-          "searchJob": "miami",
-          "text": "Two job offers. Two kids. $160K/year in Miami or €90K/year in Amsterdam. Hey @grok, which family has MORE money left after 5 years? Include taxes, rent, healthcare, childcare, retirement and one kid needing surgery. Show the numbers."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122720228400640506",
-          "author": "majinsparty",
-          "searchJob": "nc-state",
-          "text": "@Jackiessss @cbjfan1987 @DegenerateTBone How can you compare one university who made a choice to another university?? lol ofc NC state would hire Phillip. They’re not well ran, and they got desperate. We all know rivers doesn’t deserve it. "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122749974056484903",
-          "author": "codmstats_guy",
-          "searchJob": "coastal-carolina",
-          "text": "Coastal and Tunisia offer the deepest tactical playbooks in map pool, making them the clearest backgrounds to see micro and macro differences between the East and West Lets look at statistical differences on Coastal 1. Median Time to First "
+          "postId": "2122753773902897471",
+          "author": "recruitzonehq",
+          "searchJob": "north-carolina",
+          "text": "🚨 OFFER WIRE 🚨 Joy Pettigrew (@Joy_pettigrew3) 2030 | Bolingbrook (IL) | 5’10 G ➜ North Carolina (@UNCWBB)"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122749775741145421",
-          "author": "np4football_ot",
-          "searchJob": "coastal-carolina",
-          "text": "Dash Holley-LB-2029-SC @CoastalFootball Offer #CFB"
+          "postId": "2122749728483954820",
+          "author": "umbershoot",
+          "searchJob": "north-carolina",
+          "text": "Representative Jeffries, North Carolina offers an extraordinary lesson in the dangers of partisan gerrymandering. Republicans attempted to engineer an electoral advantage through district boundaries, and the voters overturned their expectat"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122749138425290863",
-          "author": "marieleredclaw",
-          "searchJob": "coastal-carolina",
-          "text": "Dispatch from Redclaw, Beautiful & Beloved Queen Of Greenland 🇬🇱 I am delighted to announce the arrival of the newest addition to the Royal Greenland Navy! The United States has just delivered our first Mark VI patrol boat, with four more"
+          "postId": "2122748484877160514",
+          "author": "kent_walker",
+          "searchJob": "north-carolina",
+          "text": "North Carolina is now our tenth state partner to offer our digital and AI training at no cost to residents. Let’s make it easy for everyone to learn how to use the latest tools in the ways that work best for them. I’m looking forward to see"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122734408826294728",
-          "author": "kevinifleming",
-          "searchJob": "coastal-carolina",
-          "text": "Why does Pochomil stand out on the road to Playa Mariana, Nicaragua? #Pochomil #PlayaMariana #Nicaragua #PacificBeaches #CoastalDiscovery Step out with me and discover why this coastal route deserves attention. You already know life offers "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122720084296671577",
-          "author": "m7alhamed",
-          "searchJob": "coastal-carolina",
-          "text": "🚨🇸🇦 🇾🇪 Beyond the Coast: Yemen’s Strategic Reset The threat to Yemen’s coastal positions came from inland. The redeployment towards Aden addresses that strategic imbalance. On Nov 15, government-aligned forces withdrew from positions a"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122719028095410219",
-          "author": "sergekozhukhar",
-          "searchJob": "coastal-carolina",
-          "text": "335 Town Lane Amagansett, NY 5 Bed | 8 Bath | $18,995,000 | Lori Schiaffino Introducing Stony Hill Farm, a timeless farmhouse estate set on 5.06 acres in Amagansett, overlooking an additional 3.22 acres of protected agricultural reserve. Ro"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122717499787468804",
-          "author": "jpretellesq",
-          "searchJob": "coastal-carolina",
-          "text": "A moron saying shitty does not make the retort any less moronic. The Atlantic trade took about 12.5 million people over 350 years with roughly 1.8 million deaths on the crossing mostly from disease. That is not a downplaying of anything. It"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122717375061508254",
-          "author": "jpretellesq",
-          "searchJob": "coastal-carolina",
-          "text": "A moron saying shitty does not make the retort any less moronic. The Atlantic trade took about 12.5 million people over 350 years with roughly 1.8 million deaths on the crossing mostly from disease. That is not a downplaying of anything. It"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122716141118238964",
-          "author": "diacaukechuyen",
-          "searchJob": "coastal-carolina",
-          "text": "🧭 HAMNØY | TRAVEL ESSENTIALS 📍 Getting There Hamnøy lies along the E10 road near Reine in western Lofoten. Fly to Leknes Airport and continue by rental car or bus, or take the Bodø–Moskenes ferry (approximately 3.5 hours) before travellin"
-        },
-        {
-          "reason": "unresolved_offer_target",
-          "postId": "2122717648693735862",
-          "author": "profilefblive",
-          "searchJob": "east-carolina",
-          "text": "🚨 First D1 Offer 🚨 2028 SAF Major Clements from Weddington HS, NC has received his first D1 offer from East Carolina. @majorclements25 https://t.co/KZChBnyA7I"
+          "reason": "multiple_resolved_schools",
+          "postId": "2122741212079935667",
+          "author": "wokeneckism",
+          "searchJob": "north-carolina",
+          "text": "I see @Marriott is down today. Guess who uses H1-B for their tech….. Marriott H1-B Roles • Roles are concentrated in specialty occupations: Senior Software Engineer, Data Scientist, IT/application development managers, systems/security engi"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122731554468188273",
-          "author": "caeylinmenzie",
-          "searchJob": "eastern-michigan",
-          "text": "Coach, My name is Caeylin Menzie, and I am a 2027 uncommitted three-star running back from Richmond Hill High School in Georgia. I am reaching out to introduce myself and express my interest in earning an opportunity with your football prog"
+          "postId": "2122740298400911798",
+          "author": "georgeontap",
+          "searchJob": "north-carolina",
+          "text": "Michael Jordan made about $94 million in salary across his entire NBA career. Six titles, five MVPs, 15 seasons. In 2023 alone, Nike paid him an estimated $330 million. It goes back to 1984. Jordan was a rookie out of North Carolina, and he"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122721910152954360",
-          "author": "okeemike",
-          "searchJob": "navy",
-          "text": "Some Veterans know they had a disappointing service history, and that doesn’t reflect their willingness to fight for America. Many were not allocated to Black Hawk Down, Generation Kill, Saving Private Ryan, Navy Seal combat situations. Rid"
+          "postId": "2122751728286146797",
+          "author": "thesteelerswire",
+          "searchJob": "pittsburgh",
+          "text": "Pittsburgh Steelers offensive coordinator Brian Angelichio offered support for DK Metcalf despite his early Week 10 struggles against the Bengals. 📸 Katie Stratman, IMAGN IMAGES via Reuters Connect https://t.co/rUM23SbbrC https://t.co/qSco"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2122746637617451325",
+          "author": "screenrant",
+          "searchJob": "pittsburgh",
+          "text": "Noah Wyle has offered an exciting production update for The Pitt season 3, confirming that they have \"nine episodes cut and locked\" while also being in the process of \"shooting episode 12\" at the time of speaking. 🎥 Source: Collider | Lear"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122716060168438171",
-          "author": "nuclearid68",
-          "searchJob": "navy",
-          "text": "🇹🇼 🇯🇵 Taiwan’s Navy reportedly ended Mogami technology talks with Japan. Upmedia’s Chu Ming, in a report carried in full by Yam News and citing unnamed sources, says Taiwan rejected Japan’s limited technology transfer offer and ended di"
+          "postId": "2122738376780705832",
+          "author": "polymarket",
+          "searchJob": "pittsburgh",
+          "text": "JUST IN: Brad Pitt publicly offers to play the villain in Robert Pattinson’s first James Bond film. https://t.co/NtV1toNhEy"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122746928857326079",
+          "author": "tntjohn1717",
+          "searchJob": "south-florida",
+          "text": "of resurrection in Psalm 16, yet Peter explained that David was buried and his sepulchre remained with them; therefore David, “being a prophet,” spoke of the resurrection of Christ. David called his descendant “my Lord” in Psalm 110, creati"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122739457615183873",
+          "author": "beliefandbias",
+          "searchJob": "south-florida",
+          "text": "Here is my nifty view. I am totally bullish but a pullback is always healthy and will give me more confidence to ride the trend. I have analyzed daily, weekly and monthly charts. Bulls are back in control. Monthly and weekly charts are look"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122731530598461680",
+          "author": "anny_xo_art",
+          "searchJob": "south-florida",
+          "text": "🚀 NEW DROP on @teamartcollect💚 XTZ TO THE MOON 🌕🐂 #TezosTuesday We summoned the bulls. We prayed for green candles. Now we wait for the PUMP! 🕯️📈 A little crypto madness, mix media with love! 😂 🙏 Who’s ready to make an offer? Link \ud83d"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122721675427094689",
+          "author": "kcapitalx",
+          "searchJob": "south-florida",
+          "text": "ANT is about to print a ~1.4T IPO Appetite for AI is still absolutely feral. Pricing is leaning toward the top of the $70–78 range… or higher, even after the recent AI selloff. At $78 that implies roughly $1.4T fully diluted. Final pricing "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122713876118823250",
-          "author": "cheny60787",
-          "searchJob": "navy",
-          "text": "🐱👑🎣 **PAWSALOT: THE GREAT FISHING EXPEDITION!** **EP.04 — THE RIVAL FISHERMEN!** ⚔️🐟 🚢 The Royal Pawsalot encounters a fishing boat from a free port! The rival captain bursts out laughing: **“THE KING NEEDS HIS OWN FISHING NAVY?!”** 🤣"
+          "postId": "2122753193641967952",
+          "author": "drilldoctor",
+          "searchJob": "temple",
+          "text": "@Here_s_Hoping There is incredible power in the prayers we offer in the temple. That's always my backup plan. 😊"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122747164170355025",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122746815380598924",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122745746088673365",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122744986924200153",
+          "author": "steveminumbers",
+          "searchJob": "temple",
+          "text": "@HeavymetalTex Temple was a shadow of the better to come. Jesus is better. The apostles no longer offered sacrifices after Jesus. The law that passed was ceremonial and civil, not moral. The coming kingdom will not be one based on sacrifice"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122743182584934403",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122740922836238494",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122737369023656273",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122737249263727018",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122736519437795489",
+          "author": "protonlaser777",
+          "searchJob": "temple",
+          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122736009951756692",
+          "author": "ians_india",
+          "searchJob": "temple",
+          "text": "Hooghly, West Bengal: State Assembly LoP Ritabrata Banerjee says, \"...Now, in front of Mother, I do not cry in front of Mother. I worship Mother in the morning, chant the sun mantra, offer prostrations, and perform sun prostration by chanti"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 162,
+      "jobs": 167,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -517,34 +451,72 @@
     "commits": {
       "samples": [
         {
-          "reason": "roundup_too_long",
-          "postId": "2122726423589007596",
-          "author": "miryarbaluch_",
-          "text": "17 November, 2026 His Excellency Ferdinand R. Marcos Jr. President of the Republic of the Philippines Malacañang Palace, J.P. Laurel St, San Miguel, Manila 1005 @DFAPHL, @bongbongmarcos, @opgovph, @DFAPHL, @SecLazaro @hyrbyair_marri Subject"
+          "reason": "no_football_context",
+          "postId": "2122718916031984062",
+          "author": "educationfl",
+          "text": "Building resiliency goes beyond the classroom and takes commitment from parents too! Resiliency Florida offers resources for parents and families to help strengthen their children’s resiliency at home. Visit https://t.co/1PRgbROsNv to explo"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2122737026755694900",
-          "author": "japan_nobunaga",
-          "text": "The passengers of an American airliner, Delta Flight 15, tried to pay the small Canadian town that fed and sheltered them after 9/11. The town refused every dollar. So on the flight home they passed pledge sheets through the cabin, and by t"
+          "postId": "2122751926122983647",
+          "author": "wordsdematthew",
+          "text": "16/21 Hung Cao: Senator Sheehy, I began my questioning concerning the frigate program and so I appreciate you circling back to the importance of that type of vessel also. Wicker: And I believe, Senator Rosen, you are next. Rosen: Well, than"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122739860003750384",
+          "author": "phagankean",
+          "text": "Culture Wars: Is Wikipedia’s Leo Frank Article Occupied Territory Guarded by Fanatical Hasbara Sentinels? In my view, the Leo Frank article on Wikipedia is under occupation by Frankites. What's a Frankite? By “Frankites,” I mean those multi"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122751935040409819",
+          "author": "wordsdematthew",
+          "text": "18/21 Hung Cao: Senator, thank you for that question. Again, the original place that we, the original abandoned National Guard facility was not adequate for safety and security of our people. So that's why we turned down that area. I think "
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122751915884749235",
+          "author": "wordsdematthew",
+          "text": "14/21 Kelly: Secretary Cao, thank you for your appearance and your service here today. We've heard a lot from Democratic senators this morning about ending the Iran war, by which I think they mean surrendering to Iran, just simply unilatera"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122751905134981285",
+          "author": "wordsdematthew",
+          "text": "12/21 Hung Cao: Senator, I do not know the daily cost, ma'am. You don't have any idea? You've been running this thing since April and you don't have any idea what that costs? Well, Senator, I know the rough costs, how much it's costing us s"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122751875481321910",
+          "author": "wordsdematthew",
+          "text": "6/21 Blumenthal: Thanks, Mr. Chairman. From up north. I'm not going to get into this contention. Mr. Cao, Secretary Cao, the world is less safe as a result of the Iran war. We've seen costs soar, lives lost, casualties, our relationships wi"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122734710472274113",
+          "author": "asicjk",
+          "text": "🇷🇺🇺🇦 Game of Brothers💥NO BRIDGES TO PEACE \"We planned it as a symbolic gesture before the meeting of Trump, Putin and Xi, to show that Putin is weak\" Ukrainian Officer While Europe commits to providing financial support to sustain the "
         }
       ],
       "stats": {
-        "candidates": 2,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 2,
+        "rejected": 10,
         "reasons": {
-          "roundup_too_long": 2
+          "no_football_context": 1,
+          "roundup_too_long": 6,
+          "other_sport": 3
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 51,
+      "rejectedCandidates": 36,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T17:59:19.700Z"
+    "status rebuilt locally from current store on 2026-11-17T18:14:17.138Z"
   ]
 }
