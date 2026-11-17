@@ -45,7 +45,7 @@ export function resolveCommitTarget(post, signal, cache = { accounts: {} }) {
   if (signal.form === 'object' && (explicitNonFbsOfferTarget('offer from ' + clause) || foreignInstitution(clause))) {
     return { status: 'rejected', reason: 'explicit_non_fbs_target', evidence };
   }
-  const hits = findSchools(clause.replace(/[@#][A-Za-z0-9_]+/g, ' ')).filter((x) => x.id && x.confidence >= 0.8);
+  const hits = findSchools(clause.replace(/@[A-Za-z0-9_]+/g, ' ').replace(/#([A-Za-z0-9_]+)/g, ' $1 ')).filter((x) => x.id && x.confidence >= 0.8);
   const solid = hits.filter((x) => x.confidence >= 0.9);
   if (solid.length === 1 && hits.length === 1) {
     const conflict = signal.form === 'object' ? writtenNameConflict(clause, solid[0].id) : null;
@@ -55,7 +55,7 @@ export function resolveCommitTarget(post, signal, cache = { accounts: {} }) {
   if (hits.length === 1 && post.searchedSchoolId && hits[0].id === post.searchedSchoolId) {
     return { status: 'accepted', schoolId: hits[0].id, reason: 'search_school_match', evidence: { ...evidence, schoolEvidenceType: 'search_school_match', affiliationSource: hits[0].method } };
   }
-  const ambiguous = findSchools(clause.replace(/[@#][A-Za-z0-9_]+/g, ' ')).filter((x) => !x.id && x.candidates);
+  const ambiguous = findSchools(clause.replace(/@[A-Za-z0-9_]+/g, ' ').replace(/#([A-Za-z0-9_]+)/g, ' $1 ')).filter((x) => !x.id && x.candidates);
   if (!hits.length && ambiguous.length === 1 && post.searchedSchoolId && ambiguous[0].candidates.includes(post.searchedSchoolId)) {
     return { status: 'accepted', schoolId: post.searchedSchoolId, reason: 'search_school_match', evidence: { ...evidence, schoolEvidenceType: 'search_school_match', affiliationSource: 'ambiguous_name' } };
   }

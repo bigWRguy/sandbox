@@ -15,7 +15,7 @@ const NAME_BEFORE = /\b[A-Z][\p{L}'’.-]+\s+[A-Z][\p{L}'’.-]+(?:\s+(?:Jr\.?|S
 
 const OTHER_SPORT = /\b(?:baseball|softball|basketball|soccer|volleyball|lacrosse|golf|tennis|wrestling|hockey|catcher|pitcher|shortstop|outfielder|rhp|lhp|forward|hoops|nba|pf|sf|sg|pg|point\s+guard|shooting\s+guard|combo\s+guard|swingman)\b/i;
 
-const CUT = /,|;|\s[-–—]\s|\s\|\s|\bover\b|\bafter\b|\bfollowing\b|\bdespite\b|\binstead\s+of\b|\bchoosing\b|\bpicking\b|\bvia\b|\bper\b|\baccording\b|\bahead\s+of\b|\btells?\b|\btoday\b|\btonight\b|\byesterday\b|\bthis\s+(?:week|weekend|morning|afternoon|evening)\b|\bon\s+(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b|\bwith\b|\bwhile\b|\bbut\b|\bas\b|\bwho\b|\band\b|\bthe\s+\d|https?:\/\//i;
+const CUT = /,|;|\bfrom\b|\bflip(?:s|ped|ping)?\b|\bswitch(?:es|ed|ing)?\b|\bde-?commit\w*|\s[-–—]\s|\s\|\s|\bover\b|\bafter\b|\bfollowing\b|\bdespite\b|\binstead\s+of\b|\bchoosing\b|\bpicking\b|\bvia\b|\bper\b|\baccording\b|\bahead\s+of\b|\btells?\b|\btoday\b|\btonight\b|\byesterday\b|\bthis\s+(?:week|weekend|morning|afternoon|evening)\b|\bon\s+(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b|\bwith\b|\bwhile\b|\bbut\b|\bas\b|\bwho\b|\band\b|\bthe\s+\d|https?:\/\//i;
 
 const cutClause = (raw) => {
   let s = String(raw || '').trim();
@@ -27,6 +27,9 @@ const cutClause = (raw) => {
 const sentences = (src) => src.split(/(?<=[.!?])\s+(?=[A-Z@#\d✅\u{1F300}-\u{1FAFF}])|\n+/u).map((s) => s.trim()).filter(Boolean);
 
 const FLIP_FROM_TO = /\b(?:flip(?:s|ped|ping)?|switch(?:es|ed|ing)?)\s+(?:(?:his|her|my)\s+)?(?:commitment\s+)?from\s+(.{1,70}?)\s+to\s+(.+)$/i;
+const OLD_COMMIT = String.raw`(?:(?:his|her|my|a)\s+)?(?:(?:previous|prior|former|original|earlier|initial)\s+)?(?:commitment|pledge|verbal(?:\s+commitment)?)`;
+const FROM_TAIL = new RegExp(String.raw`\b(?:(?:after|following)\s+)?(?:flip(?:s|ped|ping)?|switch(?:es|ed|ing)?|de-?commit(?:s|ted|ting)?|backing\s+off|walking\s+away)\s+(?:${OLD_COMMIT}\s+)?(?:away\s+)?(?:from|with)\s+(?:${OLD_COMMIT}\s+(?:to|with)\s+)?(.+)$|\b(?:(?:after|following)\s+)?(?:(?:being|was|had\s+been)\s+)?(?:previously|formerly|originally)\s+(?:being\s+)?(?:committed|pledged)\s+to\s+(.+)$`, 'i');
+const OLD_COMMIT_ONLY = new RegExp(String.raw`^${OLD_COMMIT}$`, 'i');
 const FLIP_TO = /\b(?:flip(?:s|ped|ping)?|switch(?:es|ed|ing)?)\s+(?:(?:his|her|my)\s+)?(?:commitment\s+)?to\s+(.+)$/i;
 const DECOMMIT_FROM = /\bde-?commit(?:s|ted|ting|ment)?\s+from\s+(.+)$/i;
 const WITHDRAW = /\b(?:withdr[ae]w|withdrawing|pulls?|pulled|backs?\s+off|backed\s+off|walks?\s+away\s+from|steps?\s+away\s+from)\s+(?:(?:his|her|my)\s+)?commitment\s+(?:to|from)\s+(.+)$/i;
@@ -45,7 +48,6 @@ export function commitSignals(text, voice) {
   for (const [index, sentence] of sentences(src).entries()) {
     if (!COMMIT_HINT.test(sentence)) continue;
     if (FUTURE.test(sentence)) continue;
-    if (STALE.test(sentence)) continue;
 
     const guard = (m, { needsPerfectOrName = false } = {}) => {
       const before = sentence.slice(Math.max(0, m.index - 48), m.index);
@@ -58,13 +60,27 @@ export function commitSignals(text, voice) {
     };
     const add = (s) => out.push({ ...s, sentence, index });
 
+    const tail = sentence.match(FROM_TAIL);
+    if (tail && tail.index > 0) {
+      const core = sentence.slice(0, tail.index);
+      const cm = core.match(COMMIT_TO);
+      if (cm && !STALE.test(core) && guard(cm, { needsPerfectOrName: /^committed$/i.test(cm[0].split(/\s+/)[0]) })) {
+        add({ type: 'commit', form: 'object', clause: cutClause(cm[1]), from: cutClause(tail[1] || tail[2]), flip: true });
+        continue;
+      }
+    }
+
+    if (STALE.test(sentence)) continue;
+
     let m = sentence.match(FLIP_FROM_TO);
+    if (m && OLD_COMMIT_ONLY.test(m[1].trim())) m = null;
     if (m && guard(m)) { add({ type: 'commit', form: 'object', clause: cutClause(m[2]), from: cutClause(m[1]), flip: true }); continue; }
 
     const dm = sentence.match(DECOMMIT_FROM) || sentence.match(WITHDRAW);
     const fm = sentence.match(FLIP_TO);
     if (fm && guard(fm)) {
-      add({ type: 'commit', form: 'object', clause: cutClause(fm[1]), from: dm ? cutClause(dm[1]) : null, flip: true });
+      const inner = fm[1].match(/\bfrom\s+(?:(?:his|her|my)\s+(?:previous|prior|former|original)?\s*(?:commitment|pledge)\s+(?:to|with)\s+)?(.+)$/i);
+      add({ type: 'commit', form: 'object', clause: cutClause(fm[1]), from: dm ? cutClause(dm[1]) : inner ? cutClause(inner[1]) : null, flip: true });
       continue;
     }
     if (dm && guard(dm)) {
