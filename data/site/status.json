@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T19:28:10.422Z",
+  "generatedAt": "2026-11-17T19:44:41.918Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T19:28:09.690Z",
+    "at": "2026-11-17T19:44:41.133Z",
     "jobsTotal": 162,
-    "sweptThisRun": 6,
-    "requests": 7,
-    "fullSweepCycles": 27
+    "sweptThisRun": 21,
+    "requests": 21,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,38 +32,46 @@
   },
   "staleSchools": [
     {
-      "id": "air-force",
+      "id": "arkansas-state",
       "hours": 2.3
     },
     {
-      "id": "akron",
+      "id": "houston",
       "hours": 2.3
     },
     {
-      "id": "appalachian-state",
+      "id": "miami-oh",
       "hours": 2.3
     },
     {
-      "id": "louisiana",
+      "id": "middle-tennessee",
       "hours": 2.3
     },
     {
-      "id": "massachusetts",
+      "id": "missouri-state",
       "hours": 2.3
     },
     {
-      "id": "memphis",
+      "id": "rice",
+      "hours": 2.3
+    },
+    {
+      "id": "sam-houston",
+      "hours": 2.3
+    },
+    {
+      "id": "san-diego-state",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2581505555555557,
-    "p95Hours": 2.0028955555555554,
-    "worstHours": 2.2531455555555557
+    "medianHours": 1.2662691666666666,
+    "p95Hours": 2.278311111111111,
+    "worstHours": 2.278311111111111
   },
   "decisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 65,
+    "decided": 65,
     "complete": true
   },
   "pending": {
@@ -72,199 +80,477 @@
   "profileResolution": {
     "cached": 110
   },
-  "paginationBacklog": 2,
+  "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 4870,
+    "completeOffers": 4871,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T19:28:09.689Z",
-      "got": 45,
-      "new": 15,
-      "lag": 0.33
+      "at": "2026-11-17T19:44:41.116Z",
+      "got": 113,
+      "new": 65,
+      "lag": 0.03
     },
     "search:commit": {
-      "at": "2026-11-17T19:28:09.689Z",
-      "got": 1,
-      "new": 0,
-      "lag": 6.56
+      "at": "2026-11-17T19:44:41.132Z",
+      "got": 42,
+      "new": 23,
+      "lag": 0.3
     }
   },
   "audit": {
-    "at": "2026-11-17T19:27:39.100Z",
+    "at": "2026-11-17T19:43:08.226Z",
     "mode": "live",
     "collection": {
-      "returned": 45,
-      "kept": 15,
-      "duplicate": 30,
-      "tooOld": 0,
+      "returned": 113,
+      "kept": 65,
+      "duplicate": 44,
+      "tooOld": 4,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 14,
+      "accepted": 40,
+      "rejected": 25,
       "reasons": {
-        "no_fbs_school": 3,
-        "no_offer_term": 7,
-        "hard_negative": 1,
-        "non_fbs_offer_target": 3
+        "no_fbs_school": 9,
+        "no_offer_term": 10,
+        "non_fbs_offer_target": 2,
+        "hard_negative": 4
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2122758764654981165",
-          "author": "ilanervin",
+          "postId": "2122750928310911168",
+          "author": "jordannd2027",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After an amazing conversation with @JaredBackus1 I am blessed to receive another offer from the VMI! @Bobcatsfballva @CoachHatfield1 @CoachAliSay @Jay_FiveSix @CoachBBachman @novafootballpod @PrepRedzoneVA @carljfred @GoLions1934 @PWCsports"
+          "text": "Blessed to receive my Official offer from @EIU_FB. Thanks to the entire staff 🐆💙 @CoachWick_ @CoachEvanDreyer https://t.co/BwFTnyfuA8"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122758626955698595",
-          "author": "nazeer_nash",
+          "postId": "2122750223126544530",
+          "author": "alexshrader2400",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive all state honors⭐️⭐️⭐️ @coachwolter27 @CoachDtjackson @McNamara_247 @CoachLoganMcc @CoachMartin36 @MJ_NFLDraft @PrepRedzoneWI @dave_polzin https://t.co/e81vK3eKbp"
+          "text": "Blessed to receive All Conference honors! Couldn’t do it without my teammates!!"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122738197029601521",
+          "author": "themountaineast",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "MEC Announces 2026 Football Top Honors, All-Conference Teams https://t.co/mrRuVjPzPd"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122758000167522495",
-          "author": "koda166785831",
+          "postId": "2122749372932960478",
+          "author": "kalearmstrong1",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After talking with coach Cook I am blessed to receive my third official offer to Bethel college. @Threshers_FB @Taggart_Brown @jwlawson1 @TheTerryCook @BrandonHuffman https://t.co/odJypTDgzV"
+          "text": "Extremely blessed to receive an offer from @ValleyStateFB @suttonlegendary @Coach_TMacon @CoachEJK @Coach_Lovertich @CoachHentzICC @_CoachLeonard @KMO41AMN @Coach_JoJones @toby_lux @warren_rowan @BaylorDampeer @Bigsha55 @PamBrady0210 https:"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122744937821216881",
+          "author": "ryleepetee_78",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from @HolmesccFB https://t.co/l0bdtnoVAQ"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122744383334220259",
+          "author": "isaac_snead",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from the University of Olivet!❤️🤍@UOlivetfootball @CoachIeuter @CoachDWill_ https://t.co/smkF5l0jsm"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122757188955627914",
-          "author": "buckstonjohnson",
+          "postId": "2122743712690401337",
+          "author": "crulyons79",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an All Eastern District honorable mention!!! https://t.co/s9ACn2QQbY"
+          "text": "Blessed to receive my 2nd varsity letter, TVC Academic Honor Roll, and a recipient of the @MeigsFb Attitude and Effort award. None of this is possible without God, my family, teammates, and coaches. Thank you all so much! W.I.C!!! https://t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122756059618000896",
-          "author": "oralgenius71",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "@Ella8qi I would be blessed to receive anything from you. You are definitely my favorite"
+          "postId": "2122772238634275105",
+          "author": "scotomaville",
+          "searchJob": "massachusetts",
+          "text": "https://t.co/OlPah855Sn"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122743074262503883",
+          "author": "massoig",
+          "searchJob": "massachusetts",
+          "text": "Did you know? Now you know! 💡 Implementing fraud awareness training into your workplace can have many benefits. The MA OIG offers free virtual fraud awareness training! Visit the link to register! https://t.co/NBaATVhQzs #FraudWeek #FAW202"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122664338465116629",
+          "author": "cb_doge",
+          "searchJob": "memphis",
+          "text": "BREAKING: Memphis residents can now apply for up to $25,000 in home repairs, funded by tax revenue from SpaceXSI’s Colossus I data center. The city government’s Memphis HOPE program includes: • $2 million for home repairs, part of a broader"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122769596885180760",
+          "author": "shapeshiftergfx",
+          "searchJob": "class:2026",
+          "text": "Even the presents are made of bricks. Kids spot it first. Then they pull their parents over to the edge of the “hole”. That’s the moment your offer gets seen. 👉 50% off every 3D floor design until 31 Dec 2026: https://t.co/Sm3VmCSopZ 📱 Tr"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122769244836552860",
+          "author": "jawestenberg",
+          "searchJob": "class:2026",
+          "text": "Everyone says \"compute is the new oil.\" That’s only half right. https://t.co/ZAvnkZ3PGu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122756480571265152",
+          "author": "excessdepth",
+          "searchJob": "clemson",
+          "text": "@brad_humphries By the looks of ELKO lately, we could probably offer him his own steakhouse and get that deal done"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122774436185075920",
+          "author": "houstonchron",
+          "searchJob": "houston",
+          "text": "The report offers the most in-depth look at life expectancy in Harris County in about a decade. https://t.co/GNdlDgMIZ2"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122755900679373117",
-          "author": "spottedtf",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first juco offer from the mustangs! I would like to thank @CoachJoeMedina1 @JamesMc07165348 and @_GeneralCeasa #Highschoolfootball #Hudl #Recruiting https://t.co/1diwFITbgu"
+          "postId": "2122768780409630810",
+          "author": "randyferrell",
+          "searchJob": "houston",
+          "text": "THE TRUMP RECEIPTS *updated daily* (SOUND ON) The running record of Trump 2.0 that America cannot afford to forget. Update date: November 17, 2026 Total receipts: 823 • 11/16/26: Ecuadorian fishermen sue U.S. over alleged drone attack • 11/"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122755722803122575",
-          "author": "jackwhitmore74",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m extremely blessed to receive my first offer from Culver Stockton college,thank you for the opportunity! @kjchampion1 @CSAPrepStar @prepstar360 https://t.co/Mg8EoJOlpy"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122754431712440688",
-          "author": "parks_kade",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Minnesota State!! @CoachHawk225 @CoachMaryland @CoachLegette @CoachTMar @TerrenceIsaac1 https://t.co/CumcCMZCzl"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122754138845151387",
-          "author": "noflyzone5_",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "BLESSED TO RECEIVE MY 2ND VERBAL COLLEGIATE OFFER FROM ALFRED STATE COLLEGE. #blessed #football https://t.co/SBoVHdgn1h"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122754025107923354",
-          "author": "mojo2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive District Honorable Mention and Academic All-State for volleyball! 🏐 Excited to move onto another chapter. 📖 #volleyball #comeback https://t.co/TONG4ve9pa"
+          "postId": "2122776497761243148",
+          "author": "prestonscag21",
+          "searchJob": "kansas",
+          "text": "I’m very blessed and thankful to receive an offer from Southwestern Kansas to play at the next level @joeyinmars @NewcastleFTBL @bobradshaw15 @CoachJKetch @PrepRedzoneOK https://t.co/CXsWM82AYB"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122752236023357733",
-          "author": "caden_ingle",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 4th Official Offer from @UnionBulldogFB Thank you @_CoachDay_ for this opportunity!! @CoachCLBWCU @coach_pruett39 @dalton24crook @SeanScottFB @CoachKi33UC @CoachBryantUC https://t.co/RG1UrvChgU"
+          "postId": "2122769400524644829",
+          "author": "hash_sparrow",
+          "searchJob": "kansas",
+          "text": "Are we so serious Quinton 🤣🤣🤣🤣 I OFFER TO BUILD A GYM YOU IGNORE ME AND POST THIS. What are we doing here man? You don’t work with anyone. I have coaches etc ready to go and you will not answer or respond. I have the cash ready and you "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122747088022769878",
+          "author": "fox4kc",
+          "searchJob": "kansas",
+          "text": "Tucked away on the first floor of Children's Mercy is a space that offers something beyond medical treatment: the Lisa Barth Chapel. https://t.co/Oh3kRv8Zfv https://t.co/AXZfMMloan"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122764401971511681",
+          "author": "beckyjohnson222",
+          "searchJob": "arkansas-state",
+          "text": "25 years ago, I co-wrote this article with Lee Kaplan. Reviewing it today, I see what has changed, & what feels sadly familiar about the conflict between Israel and Hamas in Gaza today. -- BJ \"Most Asked Questions about the Israeli-Palestin"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122756541346378224",
+          "author": "mariaangelagrow",
+          "searchJob": "arkansas-state",
+          "text": "Twenty-Fifth Sunday after Pentecost (taken from the Sixth Sunday after Epiphany) ON THE DEATH OF THE JUST by St Alphonsus Liguori. . “The kingdom of heaven is like unto leaven, which a woman took and hid in three measures of meal until the "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122751612926009674",
-          "author": "therealdjgreen",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to Receive All Conference 1st Team After a great year of Football!! Hudl Link in Bio!! @coachgreen1981 @Tdub52 @PoundForPound20 @Moe_the_1 @PrepRedzoneIL @247recruiting https://t.co/x3Czk8OVKH"
+          "postId": "2122753944174952831",
+          "author": "usdol",
+          "searchJob": "arkansas-state",
+          "text": "https://t.co/hmp8ncTB6u"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122742054514036816",
-          "author": "np4football_ot",
-          "searchJob": "cincinnati",
-          "text": "Juan Bates II-DL-2026-OH @JuanBatesII OHSFCA North-South All-Star Selection ⭐ @GoBearcatsFB Commit 🔒 Former @BrownU_Football target who kept it in-state 🏠 Big-time DL from the Buckeye State. #CFB #CFBRecruiting #Bearcats"
+          "postId": "2122739824729661820",
+          "author": "smo_vz",
+          "searchJob": "arkansas-state",
+          "text": "RUN .. ESCAPE ....RETREAT A Banderite wakes up &amp; under pressure from Russian units, continue to abandon their positions, realizing that death is inevitable. 🔥 https://t.co/7uYHN0aa1o"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122757766271979654",
-          "author": "emilymarketing",
-          "searchJob": "air-force",
-          "text": "https://t.co/balkQjsifZ"
+          "postId": "2122737360760627498",
+          "author": "smo_vz",
+          "searchJob": "arkansas-state",
+          "text": "** BREAKING NEWS !! UKRAINE MILITARY IN FULL RETREAT AS COMMAND BREAKS DOWN IN DRUZHKOVKA** Druzhkovka. The agglomeration. Positions that were still listed as “held” just YESTERDAY are failing today ! The symptoms started arriving almost si"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122772741724266803",
+          "author": "ch3514v",
+          "searchJob": "army",
+          "text": "Moscow Wants China at a Table Where Ukraine and Half of Europe Get Carved Up, the Way China Itself Was Carved Up at Yalta in 1945 https://t.co/IoEDAevf9A"
         }
       ]
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 1,
+      "accepted": 1,
+      "rejected": 39,
       "reasons": {
-        "bare_mention_requires_llm": 1
+        "reporter_missing_player_name": 4,
+        "bare_mention_requires_llm": 26,
+        "school_not_resolved_confidently": 2,
+        "multiple_resolved_schools": 7
       },
       "samples": [
         {
+          "reason": "reporter_missing_player_name",
+          "postId": "2122776688601804908",
+          "author": "dylanchaley",
+          "searchJob": "appalachian-state",
+          "text": "Blessed to be offered by App State!! @Cfuller29Coach @CoachDC__ @AppState_FB @BluffRecruits @CBluffFootball @CoachDPena https://t.co/IM4ggaTHWB"
+        },
+        {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122757084387193114",
-          "author": "kaasehkur",
-          "searchJob": "cincinnati",
-          "text": "🚨 POCHETTINO TELLS GUARDIOLA TO \"TAKE\" THE USA JOB 🇺🇸 - Outgoing USMNT boss Mauricio Pochettino says he would tell Pep Guardiola to take the job if it were offered - Speaking to reporters on Monday in Cincinnati, his answer was a flat \"T"
+          "postId": "2122770913196429698",
+          "author": "pipermcq",
+          "searchJob": "louisiana",
+          "text": "I keep looking back at William Sherman’s letter to a fellow professor at the Louisiana Seminary (later LSU), where he’d been a professor at the outbreak of the war. He was offered a position as head of Confederate forces. He turned them dow"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122763017653793212",
+          "author": "dfrobichaux",
+          "searchJob": "louisiana",
+          "text": "A New Orleans mayor once gave a house to an emperor who was a whole ocean away, and the house still stands on the corner. 👑 It sits at Chartres and St. Louis streets in the French Quarter, three storeys of old stucco with iron balconies an"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122758476124344515",
+          "author": "louisianaltgov",
+          "searchJob": "louisiana",
+          "text": "Team members from our Office of Cultural Development are in Cambodia this week for the Francophonie Summit, an annual gathering of French-speaking communities from across the world. Thanks to the team for doing such a great job representing"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122741032693719158",
+          "author": "antisocial20211",
+          "searchJob": "massachusetts",
+          "text": "The Danvers School Committee’s November 9, 2026, vote approved only the academic program of the existing Revere-based Islamic Education School (TIES) for a private K-12 expansion at Sylvan Street properties it already acquired; under Massac"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122764645543079939",
+          "author": "casunshinegal",
+          "searchJob": "memphis",
+          "text": "@DBallinger901 Did you see this offer by @elonmusk for Memphis residents? Get a new roof or HVAC system and make your home more energy efficient! Or get solar!"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122762571723739630",
+          "author": "bluffcitygrind",
+          "searchJob": "memphis",
+          "text": "@crimsonvad3r On top of that we offered them 200 million in corporate sponsorship and 5 years you don’t have to pay us with an opt out option at the end. Like somebody with pull in the big12 must have an irrational hate boner for Memphis. B"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122754268830535857",
+          "author": "susanhe03181308",
+          "searchJob": "memphis",
+          "text": "@briefekonomi A friend owns 6 Subway restaurants in Memphis, TN. One, in a bad area, had a parking lot covered in trash. He saw 3 homeless men huddled in the empty lot next to his store. He offered each $20 and a foot-long sub to clean the "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122763099241648623",
+          "author": "drarindam_iipm",
+          "searchJob": "class:2026",
+          "text": "5 REASONS WHY #RAMAYANA PART 1 #FAILED TO EXCITE INDIAN AND GLOBAL AUDIENCES Lessons for Part 2 — and for the makers of future Mahabharata adaptations Now that the box office free fall has started, one can safely say Ramayana Part 1 will ne"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2122761903986311452",
+          "author": "fsuwire",
+          "searchJob": "class:2026",
+          "text": "Florida State offers 2028 WR in Georgia 📸 Melina Myers, IMAGN IMAGES via Reuters Connect https://t.co/QbjR2B9GKv https://t.co/MDYiB4RME0"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122775933598019601",
+          "author": "mikegrib8",
+          "searchJob": "clemson",
+          "text": "Looking over the results of GRBNU work.. I'm shocked Marcquise Reed hasn't gotten more of an NBA shot or at least some kind of nba look. Watching his highlights and looking at the stats, plus what I remember from Clemson.. At least Euroleag"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122770778399863168",
+          "author": "gregoryindex5",
+          "searchJob": "colorado",
+          "text": "🔥 HOT STOVE POWER FIVE INDEX — BOARD 11 (THROUGH MONDAY) The Boston Red Sox are PERFECT. A 1.0 — first in all five categories. Nobody has ever run the table before. New to the Index? Every team is ranked in five categories and the ranks ar"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2122762645262778762",
+          "author": "rick241877352",
+          "searchJob": "colorado",
+          "text": "Also connect with me on LinkedIn ❌ No Agents Torrence is not under any Agency .. simple & Easy: https://t.co/n0ibCiclOL Old school Kid that still plays for the love of the game ❤️ 🔥🏈 The Playmaker Profile that’s rapidly gaining attention "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122766983963795700",
+          "author": "reelzchannel",
+          "searchJob": "houston",
+          "text": "🚔 Who needs a patrol car when a stranger offers a ride? In Houston, two officers jump into an unsuspecting Uber driver's car to chase a fleeing suspect through the neighborhood! Then in Florida, a Good Samaritan in a pickup truck spots a t"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122765751249678717",
+          "author": "boringlocalseo",
+          "searchJob": "houston",
+          "text": "Steal Tristan's service-page overlap check. Start with the services you offer and the areas you serve. Multiply them to sketch the page plan. Then check the actual results. If “tax planning Houston” and “tax consulting Houston” show more th"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122761969895923748",
+          "author": "danielchismx",
+          "searchJob": "houston",
+          "text": "Two job offers. One kid. $210k/year in Houston or €160K/year in Paris. Hey @grok, which family ends up with MORE savings after 5 years? Include taxes, rent, healthcare, childcare and retirement. Show the numbers."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122759702446477604",
+          "author": "smartstartuphq_",
+          "searchJob": "iowa-state",
+          "text": "By 1984 the design worked: two cyclones in sequence, the Dual Cyclone. Dyson offered it to the major manufacturers. Every one of them declined. His explanation: replacement bags and filters were an annuity, and a bagless machine threatened "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122777553408516437",
+          "author": "fgfcfch",
+          "searchJob": "kansas",
+          "text": "Gonna post this here so I can just copy/paste it every time someone says there’s no evidence of wrongdoing in the midterms. Here’s the problem: One algorithm correctly predicts almost every single election (15% shift from right to left) Eve"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122776788170428809",
+          "author": "fgfcfch",
+          "searchJob": "kansas",
+          "text": "Here’s the problem(s): One algorithm correctly predicts almost every single election (15% shift from right to left) Every single county in 20 states shifted left. Every single one. There isn’t one podunk trailer park county in Texas or Kans"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122768213830406654",
+          "author": "ourshallowstate",
+          "searchJob": "kansas",
+          "text": "I knew Texas was a LOCK. I did. I figured Ohio was likely, and Kansas was in play. (They hated Marshall.) Truth is - I was HUGELY confident going into the election, though I couldn't post it - it would serve no purpose, and the urgency was "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122760574337511832",
+          "author": "fleoblack",
+          "searchJob": "kansas",
+          "text": "@1LivingInCA Kansas offers FREE land, and still nobody moves there."
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2122776065789837411",
+          "author": "907honest",
+          "searchJob": "arkansas-state",
+          "text": "How One Citizen Out-Designed a State Election System, For Free 🗳️🗺️ Running an election across Alaska, one-fifth of the U.S. landmass, is a massive logistical challenge, yet the biggest hurdle for voters isn't the physical distance; it's "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122774412944621728",
+          "author": "01splcheck",
+          "searchJob": "arkansas-state",
+          "text": "@CUNY_Prof Bill Clinton offered them a State. They didn't want it."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122768246717776115",
+          "author": "heru_lord",
+          "searchJob": "arkansas-state",
+          "text": "I’ve broken multiple school records at quarterback this season, and I’m grateful for every accomplishment. But there’s one thing I want more than any record: a STATE CHAMPIONSHIP. Over 3,000 plus passing yards. 40+ touchdowns. 26 college of"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 164,
-      "swept": 7,
-      "failed": 1,
-      "requests": 8,
-      "errors": [
-        "akron: rate limited"
-      ]
+      "jobs": 168,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
       "samples": [
         {
-          "reason": "no_commit_event",
-          "postId": "2122742054514036816",
-          "author": "np4football_ot",
-          "text": "Juan Bates II-DL-2026-OH @JuanBatesII OHSFCA North-South All-Star Selection ⭐ @GoBearcatsFB Commit 🔒 Former @BrownU_Football target who kept it in-state 🏠 Big-time DL from the Buckeye State. #CFB #CFBRecruiting #Bearcats"
+          "reason": "other_sport",
+          "postId": "2122768780409630810",
+          "author": "randyferrell",
+          "text": "THE TRUMP RECEIPTS *updated daily* (SOUND ON) The running record of Trump 2.0 that America cannot afford to forget. Update date: November 17, 2026 Total receipts: 823 • 11/16/26: Ecuadorian fishermen sue U.S. over alleged drone attack • 11/"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122764401971511681",
+          "author": "beckyjohnson222",
+          "text": "25 years ago, I co-wrote this article with Lee Kaplan. Reviewing it today, I see what has changed, & what feels sadly familiar about the conflict between Israel and Hamas in Gaza today. -- BJ \"Most Asked Questions about the Israeli-Palestin"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122756541346378224",
+          "author": "mariaangelagrow",
+          "text": "Twenty-Fifth Sunday after Pentecost (taken from the Sixth Sunday after Epiphany) ON THE DEATH OF THE JUST by St Alphonsus Liguori. . “The kingdom of heaven is like unto leaven, which a woman took and hid in three measures of meal until the "
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2122753132820148269",
+          "author": "ww3finalboss",
+          "text": "🇷🇺🇺🇦 RUSSIA'S MILITARY HAS A DESERTION PROBLEM THAT RECRUITING MORE SOLDIERS CANNOT SOLVE. A captured Russian soldier has described something particularly disturbing about the conditions inside his own army: the punishment for trying to"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122773390755008732",
+          "author": "jacobwaters_",
+          "text": "From Oct. 2025... All Ryquan Butler had at the time was an offer from North Alabama, but his head coach @coachbhall76 compared him to Hall of Famer DeMarcus Ware. Butler's recruitment soon took off, and now, he has committed to Auburn. http"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122745562709516320",
+          "author": "usdailypress",
+          "text": "States had until Monday 6 p.m. ET to bid for the new NASA-led U.S. Space Academy. Pennsylvania (@GovernorShapiro) committed $285 million for a campus by Pittsburgh's airport; Alabama, Colorado and Florida also bid. @NASA's plan: 300 student"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122703331353387102",
+          "author": "benmckee14",
+          "text": "Class of 2028 right-handed pitcher Landon Echelberry has committed to Tennessee. He’s ranked by Prep Baseball Report as the No. 33 overall player in the country and No. 5 RHP. Echelberry also visited Mississippi State, Georgia, FSU, Alabama"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122644694211391858",
+          "author": "lostlettermen",
+          "text": "✍️TOP OF THE MORNING WITH GG GEKKO✍️ ....TWO COMMITS....TWO DIFFERENT ROUTES... ...2027 6'6 wing Ford Stratton, River Bluff [SC], commits to Newberry [SC]... ...2027 4⭐ 6'9 C Yohane Kabongo, DME Academy [FL], commits to Alabama [AL] over Te"
         }
       ],
       "stats": {
-        "candidates": 1,
-        "accepted": 0,
-        "rejected": 1,
+        "candidates": 27,
+        "accepted": 4,
+        "rejected": 23,
         "reasons": {
-          "no_commit_event": 1
+          "other_sport": 8,
+          "roundup_too_long": 4,
+          "no_football_context": 8,
+          "reporter_missing_player_name": 2,
+          "reporter_name_not_in_text": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 0
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 39,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T19:28:10.423Z"
+    "status rebuilt locally from current store on 2026-11-17T19:44:41.919Z"
   ]
 }
