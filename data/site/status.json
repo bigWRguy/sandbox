@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:14:59.709Z",
+  "generatedAt": "2026-11-17T15:28:10.540Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T15:14:58.983Z",
+    "at": "2026-11-17T15:28:09.838Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
-    "requests": 25,
-    "fullSweepCycles": 7
+    "sweptThisRun": 3,
+    "requests": 4,
+    "fullSweepCycles": 54
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,58 +32,46 @@
   },
   "staleSchools": [
     {
-      "id": "minnesota",
-      "hours": 2.3
-    },
-    {
-      "id": "northern-illinois",
-      "hours": 2.3
-    },
-    {
-      "id": "ohio",
-      "hours": 2.3
-    },
-    {
       "id": "old-dominion",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "oregon-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "south-alabama",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "south-florida",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "southern-miss",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "temple",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "washington-state",
-      "hours": 2.3
+      "hours": 2.5
     },
     {
       "id": "western-kentucky",
-      "hours": 2.3
+      "hours": 2.5
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0308111111111111,
-    "p95Hours": 2.2846005555555555,
-    "worstHours": 2.2846005555555555
+    "medianHours": 1.2504863888888889,
+    "p95Hours": 2.5042758333333333,
+    "worstHours": 2.5042758333333333
   },
   "decisionCoverage": {
-    "total": 68,
-    "decided": 68,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "pending": {
@@ -92,7 +80,7 @@
   "profileResolution": {
     "cached": 110
   },
-  "paginationBacklog": 1,
+  "paginationBacklog": 0,
   "quality": {
     "completeOffers": 4863,
     "incompleteOffers": 0
@@ -100,10 +88,10 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T15:14:58.983Z",
-      "got": 109,
-      "new": 68,
-      "lag": 0.06
+      "at": "2026-11-17T15:28:09.837Z",
+      "got": 14,
+      "new": 8,
+      "lag": 0.42
     },
     "search:commit": {
       "at": "2026-11-17T15:14:58.983Z",
@@ -113,416 +101,119 @@
     }
   },
   "audit": {
-    "at": "2026-11-17T15:13:21.758Z",
+    "at": "2026-11-17T15:27:51.215Z",
     "mode": "live",
     "collection": {
-      "returned": 109,
-      "kept": 68,
-      "duplicate": 41,
+      "returned": 14,
+      "kept": 8,
+      "duplicate": 6,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 44,
-      "rejected": 24,
+      "accepted": 4,
+      "rejected": 4,
       "reasons": {
-        "no_offer_term": 11,
-        "no_fbs_school": 11,
-        "hard_negative": 2
+        "no_offer_term": 3,
+        "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2122692148688486482",
-          "author": "nxnewsnet",
-          "searchJob": "coastal-carolina",
-          "text": "https://t.co/47FlQiKu4p"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122691511141958038",
-          "author": "oceancityre",
-          "searchJob": "coastal-carolina",
-          "text": "Buying a home? Here's a simple 6-step roadmap! 1️⃣ Set your budget and get pre-approved 2️⃣ Find a trusted real estate agent 3️⃣ Start house hunting 4️⃣ Make an offer and negotiate 5️⃣ Complete inspections and appraisal 6️⃣ Finalize financi"
+          "postId": "2122508361765924966",
+          "author": "eqcwright",
+          "searchJob": "ohio",
+          "text": "Pennsylvanians… Raising the minimum wage means increasing the cost of government contracts, which means tax increases. There is no current revenue stream for mass transit, which means tax increases. And democrats are willing to risk using t"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122383496559894619",
-          "author": "shruti_0810",
-          "searchJob": "delaware",
-          "text": "Building an MCP server is just the beginning. Getting it published and discovered is where things get interesting. From quality checks to submission assets, Manufact is helping simplify that journey."
+          "postId": "2122429229799469305",
+          "author": "governorshapiro",
+          "searchJob": "ohio",
+          "text": "Raising the minimum wage. Fully funding mass transit. Building more housing. These policies and so many more have been inexplicably blocked by Pennsylvania Senate Republicans for years — despite being commonsense things that Pennsylvanians "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122702551254467002",
+          "author": "anmyandme",
+          "searchJob": "ohio",
+          "text": "Tomorrow's Deadlines, Yesterday's Beginnings — November 17 Edition If something catches your interest, we hope you'll look it up. For readers outside the United States, we hope this offers a glimpse of the opportunities and activities acros"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122374451396497577",
-          "author": "manufact",
-          "searchJob": "delaware",
-          "text": "how do you get your mcp on chatgpt and into the hands of users? @pederzh is actually the expert on this so i'll let him tell you ps it has something to do with manufact day one of launch week: mcp publishing 🚀 https://t.co/WQjZdhpz1g"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122701707998105875",
-          "author": "jwmediadc",
-          "searchJob": "east-carolina",
-          "text": "https://t.co/0wz6O5AsiB"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122699038675898758",
-          "author": "jhmitgunship",
-          "searchJob": "navy",
-          "text": "https://t.co/Yxp1BjKDQW"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122694055243207101",
-          "author": "cheny60787",
-          "searchJob": "navy",
-          "text": "🐱👑 THE BANDIT KING Special Volume I — PAWSALOT: THE GREAT FISHING EXPEDITION! https://t.co/BIXWhERhoJ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122700046344810945",
-          "author": "tntrvrepairs",
-          "searchJob": "nevada",
-          "text": "Before you roll out, make sure your RV is ready for the journey. TNT RV offers convenient mobile repair, installation, and maintenance throughout Southern Nevada. 702-682-2936 https://t.co/sRqecjlMID #TNTRV #LakeMead #BoulderCity #HooverDam"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122704506299490598",
-          "author": "johnsartoritv",
-          "searchJob": "auburn",
-          "text": "Big time offer for Oak Ridge’s Miere Porter, who adds an offer from Tennessee. Porter also holds offers from Kentucky, Auburn, and Penn State."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122707958098497680",
-          "author": "tanveerdhool",
-          "searchJob": "maryland",
-          "text": "https://t.co/IYrToCE5eb"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122707571903533412",
-          "author": "realjasoneffect",
-          "searchJob": "maryland",
-          "text": "In 12 states, $100k a year now counts as lower-middle class. Yesterday's bank outage showed how fast one door can close. Here's how to build a second one, with a prompt you can paste into any AI to find what you could sell. https://t.co/PIN"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122701349246877724",
-          "author": "coco7fg",
-          "searchJob": "maryland",
-          "text": "I Have two extra tickets for WONHO concert on Jan 25 at The Fillmore, Silver Spring, Maryland. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2122681132752015675",
-          "author": "devilsinmd",
-          "searchJob": "maryland",
-          "text": "@HockeyRobThough How so? Player committed to the team long term. Player wants out midway through. Player gives team a very limited list of trade partners. Team does not get offers they like. Isn’t the player kinda holding the team hostage a"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122676233842352304",
-          "author": "md_insurance",
-          "searchJob": "maryland",
-          "text": "Watch out for \"free roof\" offers. The MIA is reminding consumers to proceed with caution when approached by roofing contractors with unsolicited offers to inspect your roof for damage in order to generate an insurance claim: https://t.co/IG"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122706735844794400",
-          "author": "cwssuperfan",
-          "searchJob": "michigan",
-          "text": "@michrules32 Dude was getting close to retirement. And got offered $40m to go live in Michigan for a few years. Seems like he’s just doing it for the retirement package."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122694821957788040",
-          "author": "mikemacman21",
-          "searchJob": "michigan",
-          "text": "@HockeyRobThough Doesn’t matter what Larkin wants .. he’s under contract n he won’t be traded til redwings get a good offer for him n NO wild offers are NOT LUCRATIVE PERIOD"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122691116638359629",
-          "author": "mikemacman21",
-          "searchJob": "michigan",
-          "text": "@prohockeyrumors Cuz the offer sucks .. late rd picks are generally useless 25 or later (even for flip trades)..just look at stats of nhlers who make league at those spots let along impact players .. plus yurov is a mid 6 player at best not"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122372708600078654",
-          "author": "studentsforlife",
-          "searchJob": "michigan",
-          "text": "Mothers know best ;) This is your reminder that your mom chose LIFE! https://t.co/j7xzlxXHJ6"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122499679665435037",
-          "author": "nhltraderumors",
-          "searchJob": "minnesota",
-          "text": "Wild reportedly offered FIVE assets for Dylan Larkin, and Detroit still hasn’t accepted! #LGRW #mnwild #NHLTR https://t.co/ePdOcmJEi1"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122697516365783431",
-          "author": "samiontap",
-          "searchJob": "minnesota",
-          "text": "Adam Thielen's only college scholarship offer was for $500. Nobody drafted him. He had an internship lined up in case his NFL tryout didn't work out. He grew up in Detroit Lakes, Minnesota, a Minnesota Vikings fan who copied Cris Carter's s"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122706289646247961",
-          "author": "sanitycheck99",
-          "searchJob": "nebraska",
-          "text": "@keithm_home @MrEwanMorrison And that random person in Nebraska has just been offered a voluntary buyout."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122703503365939483",
-          "author": "coco7fg",
-          "searchJob": "miami",
-          "text": "I Have two extra tickets for Chris Brown &amp; Usher concert on Dec 5 at Hard Rock Stadium, Miami, FL. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122682332977197388",
-          "author": "jamestr1111",
-          "searchJob": "miami",
-          "text": "Check from the new Miami geofence this morning very close on time but @robotaxi looking more expensive this morning quite a long ride downtown @RobotaxiRadar https://t.co/OaMTUDJZza"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122698954651382133",
-          "author": "epochpremium",
-          "searchJob": "miami",
-          "text": "https://t.co/XWibWAtBKh"
+          "postId": "2122699712209809670",
+          "author": "jonwoodsff",
+          "searchJob": "ohio",
+          "text": "Nick Turner averaged 16.3 yards per catch at Mount Union. Then his first pro opportunity disappeared when the team folded. I spoke with @nickturner102 about his journey, his game, and what he could bring to the UFL. ON THE BOARD, Vol. 1. ht"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 44,
+      "rejected": 4,
       "reasons": {
-        "school_not_resolved_confidently": 8,
-        "bare_mention_requires_llm": 27,
-        "multiple_resolved_schools": 7,
-        "reporter_missing_player_name": 2
+        "bare_mention_requires_llm": 3,
+        "multiple_resolved_schools": 1
       },
       "samples": [
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122702565859098656",
-          "author": "ciazumanotravel",
-          "searchJob": "coastal-carolina",
-          "text": "Ireland was made for a road trip! Imagine winding coastal roads, dramatic cliffs, ancient castles, charming villages, and cozy pubs filled with traditional Irish music. Ireland's spectacular Wild Atlantic Way offers all this and more, makin"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122695626907439115",
-          "author": "emmy_jay231",
-          "searchJob": "coastal-carolina",
-          "text": "Karl Stefanovic certainly isn't rushing back to the television studio just yet! The Australian television presenter and Today show host was spotted enjoying a relaxing shirtless walk along the beautiful shores of Noosa Beach in Queensland, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122689762914148378",
-          "author": "discoverkerry_",
-          "searchJob": "coastal-carolina",
-          "text": "Hello Valentia Island! A place of dramatic coastal views, winding roads and stories shaped by the sea. From the colourful harbour at Knightstown to the spectacular scenery at Bray Head, every turn offers another reason to explore. Unbelieva"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122707016510734452",
+          "author": "lighthousetrst",
+          "searchJob": "ohio",
+          "text": "Ohio Rev. Code 5816.10(H): no Ohio court may dismiss or decline a legacy trust case because another court has or may acquire jurisdiction or offer venue. Our read: Ohio claims no exclusive forum; it closes the exit from its own. https://t.c"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122706754324639836",
-          "author": "_mrdecentralize",
-          "searchJob": "delaware",
-          "text": "In September 2022, https://t.co/wKgGzUGR5Y raised $150 million at a unicorn valuation. Its users had exchanged more than 2 billion messages with its bots in five months. By October 2024 it had 20 million monthly active users. Lightspeed, a1"
+          "postId": "2122706510463570187",
+          "author": "firstohiohome",
+          "searchJob": "ohio",
+          "text": "Buying a home raises many questions. The right mortgage team can make a difference! First Ohio Home Finance offers the expertise to guide you through every step, from inquiries to closing day. Let's simplify your homeownership journey! #Tes"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122703802252071409",
-          "author": "radha_ai",
-          "searchJob": "delaware",
-          "text": "Elon Musk lost a $56 billion pay package to a man who owned 9 Tesla shares. A judge voided the deal, then ordered Tesla to pay that man's lawyers $345 million, after they asked for $5.6 billion. Then Delaware's Supreme Court gave it all bac"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122704654500815259",
-          "author": "drandrewporter1",
-          "searchJob": "navy",
-          "text": "Liberty Council's Naughty and Nice List Please Vote by Not Purchasing off of the Naughty List ! (Very or Generally) Nice Bass Pro Shops Barnes & Noble Bath & Body Works Bealls Department Store Bed Bath & Beyond Big Lots! Bronner’s CHRISTmas"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122703572701716636",
-          "author": "repstephenlynch",
-          "searchJob": "navy",
-          "text": "Town Meeting was well attended in Norwood last night! Thank you to Town Moderator Gerri Slater for allowing me to offer an update on recent developments in Washington. I was also able to acknowledge Aleksander Dunston as a midshipman at the"
+          "postId": "2122706281840418985",
+          "author": "biggbabyray",
+          "searchJob": "ohio",
+          "text": "Pennsylvania cannot continue to offer a lower minimum wage than Ohio and fucking West Virginia. We're raising it."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122677907906527626",
-          "author": "defpostmedia",
-          "searchJob": "navy",
-          "text": "🇫🇷 French defence procurement agency, DGA announced the upcoming signing of a framework agreement with MBDA for the order of Exocet MM40 B3C missiles for the French Navy, at Euronaval 2026. @DGA @MBDAFrance @MarineNationale Qualified in 2"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122676640429887891",
-          "author": "mining_great",
-          "searchJob": "nevada",
-          "text": "Great Western Mining offers exposure to: • Critical minerals (tungsten) • Industrial metals (copper) • Precious metals (gold &amp; silver) All within a single Nevada-based exploration portfolio. #GWMO #Mining #Nevada https://t.co/0wmhd87lJC"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122704604714446895",
-          "author": "isaac_alves_10",
-          "searchJob": "auburn",
-          "text": "#ATGT Had a great time at @PennStateFball this weekend, thanks to @StevenG511, the staff and the players for an unforgettable weekend in happy valley‼️ 29'| 6'4\" 270 | DT | 3 FBS Offers (Auburn, WVU, UMass) HC @Coach_Ander5on @CoachXQuig @S"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122704030468091970",
-          "author": "ami10iv",
-          "searchJob": "maryland",
-          "text": "29-year-old Sky kept shooting up into the same wound on her thigh until you could see her femur. The bone was fracturing on its own. Doctors begged to amputate, she kept signing herself out and leaving. When they finally cut off her leg, th"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122691175299825982",
-          "author": "marylandauto",
-          "searchJob": "maryland",
-          "text": "Maryland Auto offers commercial policies for small businesses, with coverage limits up to $1 million for eligible users. Contact an Authorized Maryland Auto Provider today to get a commercial auto quote: https://t.co/gHxA0QaQH0 #CommericalA"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122696763920236906",
-          "author": "grichardson747",
-          "searchJob": "michigan",
-          "text": "@Phil5514 @Michellek4040 @A_M_D_16 He would have left in a heartbeat had the offer been made. Michigan was offering over 2 million more a year than he is making now and all the resources in the world that ASU can’t match."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122692506945024375",
-          "author": "glimaging",
-          "searchJob": "michigan",
-          "text": "We offer preventive maintenance agreements for X-ray, DR, C-arm and clinic systems in Michigan. Before you sign one, it helps to know what the agreement covers and how visit frequency is set. https://t.co/IvCiOCQLVF #XRay #Michigan https://"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122683565389586612",
-          "author": "britani_morgan",
-          "searchJob": "michigan",
-          "text": "Check out 2025 Wild Card Dino-Might Bryce Underwood 1/1 Lot Jumbo Mammoth + T-Rex Encased https://t.co/1pavLdjjSW #eBay via @eBay Where are my Michigan or Bryce Underwood fans? Both cards in this lot are 1/1! Or make an offer!"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122680126110343511",
-          "author": "glowingsporebat",
-          "searchJob": "michigan",
-          "text": "My emphasis has ALWAYS been on what is legally possible in Michigan, combined with prayer & support, & is widely regarded by many as consistent w/ living peaceably, loving thy neighbor, & seeking justice through available means (Romans 12:1"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122709127327576437",
-          "author": "nftapee",
-          "searchJob": "minnesota",
-          "text": "Let me analyze this parlay 🤑🏆 1. Jalen Brunson – Over 2.5 Threes (+112) 🗽 Knicks @ Raptors ✅ Brunson has the ability to create his own perimeter shots. ✅ Regularly gets opportunities from beyond the arc. ✅ Plus-money odds offer attractiv"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122707906491466215",
-          "author": "crashthenet_",
-          "searchJob": "minnesota",
-          "text": "Reports are coming out that the Minnesota Wild have offered a very lucrative trade for the former Red Wings captain….and the wings said “nah” from ownership down. The drama continues and the front office in Detroit is choosing to not give L"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122706073081495643",
-          "author": "brianfisherlorw",
-          "searchJob": "minnesota",
-          "text": "As much as the petty side of me thinks “hell yeah”, I just don’t believe this. You need to do what’s best for the franchise, if Minnesota makes an offer Detroit likes there is 0% chance Detroit doesn’t take it. #LGRW"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122705752276046066",
-          "author": "esmitty3890",
-          "searchJob": "minnesota",
-          "text": "@packrfan4 @Pack2theFuture I’m not saying to not stay at Minnesota, but not sure they would offer the top top dollar I’m talking about"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122703785239650354",
-          "author": "senrasays",
-          "searchJob": "minnesota",
-          "text": "@JimBiringer @pearlosnhlpow @RNJ_Media @RinkyReport @FullPressNHL @FP_Coverage If Minnesota wants him so bad, they should make a solid offer. And if Yurov is so great, why do the Wild want to get rid of him so badly."
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2122702549908062338",
-          "author": "thesportsontap",
-          "searchJob": "minnesota",
-          "text": "Justin Jefferson holds the record for the most receiving yards anybody has had in their first six NFL seasons, and his scholarship to LSU came down to whether he passed one English class. Chris Hummer of 247Sports went back through the recr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122701191566004513",
-          "author": "bermanatornft",
-          "searchJob": "minnesota",
-          "text": "“Minnesota offered to pay for dinner and drinks and Detroit still won’t go out with them. This is an outrage!”"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122698912234406008",
-          "author": "props4thewin",
-          "searchJob": "minnesota",
-          "text": "🏀 PROPS 4 THE WIN | TUESDAY, NOVEMBER 17 🔥 5 NBA PLAYER PROPS 1️⃣ JADEN McDANIELS | 9+ REBOUNDS + ASSISTS (-145) MIN vs. POR ✅ Last 5: 5/5 (100%) ✅ Last 10: 9/10 (90%) ✅ Season: 13/14 (93%) McDaniels has been consistently productive acros"
+          "postId": "2122694144585793778",
+          "author": "apostlenatalie",
+          "searchJob": "ohio",
+          "text": "I live in a county that has really bad soil. All the neighbors talk about it, Licking County has horrible soil and is contaminated. So my soul goal was to get the hell out of this house and the mortgage company blocked me in. Remember I tal"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 163,
-      "swept": 26,
-      "failed": 0,
-      "requests": 26,
-      "errors": []
+      "jobs": 166,
+      "swept": 3,
+      "failed": 1,
+      "requests": 4,
+      "errors": [
+        "old-dominion: rate limited"
+      ]
     },
     "commits": {
-      "samples": [
-        {
-          "reason": "no_football_context",
-          "postId": "2122707906491466215",
-          "author": "crashthenet_",
-          "text": "Reports are coming out that the Minnesota Wild have offered a very lucrative trade for the former Red Wings captain….and the wings said “nah” from ownership down. The drama continues and the front office in Detroit is choosing to not give L"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2122699905848222121",
-          "author": "gamblergazette",
-          "text": "🏈 MIAMI (OH) vs. KENT STATE — CFB PREVIEW Miami is favored by 9.5, but its quarterback situation could make this a much uglier game than the spread suggests. 👀 📊 FAIR MARKET 🏈 Fair Spread: Miami -9.0 | Market: -9.5 🔢 Fair Total: 43.0 |"
-        }
-      ],
+      "samples": [],
       "stats": {
-        "candidates": 2,
+        "candidates": 0,
         "accepted": 0,
-        "rejected": 2,
-        "reasons": {
-          "no_football_context": 1,
-          "roundup_too_long": 1
-        }
+        "rejected": 0,
+        "reasons": {}
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 44,
+      "rejectedCandidates": 4,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T15:14:59.710Z"
+    "status rebuilt locally from current store on 2026-11-17T15:28:10.542Z"
   ]
 }
