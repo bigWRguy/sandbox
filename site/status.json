@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T22:43:55.115Z",
+  "generatedAt": "2026-11-17T23:10:20.113Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,10 +7,10 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T22:43:54.528Z",
+    "at": "2026-11-17T23:10:19.379Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
+    "sweptThisRun": 22,
+    "requests": 22,
     "fullSweepCycles": 8
   },
   "backfillCoverage": {
@@ -30,15 +30,56 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "hawaii",
+      "hours": 2.2
+    },
+    {
+      "id": "jacksonville-state",
+      "hours": 2.2
+    },
+    {
+      "id": "james-madison",
+      "hours": 2.2
+    },
+    {
+      "id": "kennesaw-state",
+      "hours": 2.2
+    },
+    {
+      "id": "texas",
+      "hours": 2.2
+    },
+    {
+      "id": "texas-state",
+      "hours": 2.2
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.2
+    },
+    {
+      "id": "toledo",
+      "hours": 2.2
+    },
+    {
+      "id": "troy",
+      "hours": 2.2
+    },
+    {
+      "id": "tulane",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0205408333333332,
-    "p95Hours": 2.0123777777777776,
-    "worstHours": 2.0123777777777776
+    "medianHours": 1.2161125,
+    "p95Hours": 2.212595,
+    "worstHours": 2.212595
   },
   "decisionCoverage": {
-    "total": 44,
-    "decided": 44,
+    "total": 98,
+    "decided": 98,
     "complete": true
   },
   "pending": {
@@ -47,7 +88,7 @@
   "profileResolution": {
     "cached": 110
   },
-  "paginationBacklog": 4,
+  "paginationBacklog": 2,
   "quality": {
     "completeOffers": 4881,
     "incompleteOffers": 0
@@ -55,288 +96,395 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T22:43:54.506Z",
-      "got": 66,
-      "new": 44,
-      "lag": 0.04
+      "at": "2026-11-17T23:10:19.379Z",
+      "got": 160,
+      "new": 98,
+      "lag": 0.03
     },
     "search:commit": {
-      "at": "2026-11-17T22:43:54.528Z",
-      "got": 58,
-      "new": 19,
-      "lag": 0.46
+      "at": "2026-11-17T23:10:19.379Z",
+      "got": 0,
+      "new": 0,
+      "lag": null
     }
   },
   "audit": {
-    "at": "2026-11-17T22:42:25.642Z",
+    "at": "2026-11-17T23:08:49.152Z",
     "mode": "live",
     "collection": {
-      "returned": 66,
-      "kept": 44,
-      "duplicate": 22,
-      "tooOld": 0,
+      "returned": 160,
+      "kept": 98,
+      "duplicate": 61,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 11,
-      "rejected": 33,
+      "accepted": 71,
+      "rejected": 27,
       "reasons": {
+        "hard_negative": 2,
+        "non_fbs_offer_target": 2,
         "no_fbs_school": 11,
-        "no_offer_term": 3,
-        "hard_negative": 3,
-        "non_fbs_offer_target": 16
+        "no_offer_term": 12
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2122820171735720414",
-          "author": "millievtaylor",
-          "searchJob": "south-florida",
-          "text": "Things to do during flood in South Florida: 1) Have an SUV or truck. 2) If you don't have an SUV or truck, at the very least drive a crossover, and God Forbid, you have to go through a puddle, drive forward only. Going in reverse may end ba"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122678352259711309",
-          "author": "soyalejandrod",
-          "searchJob": "south-florida",
-          "text": "Once again, I’ll always appreciate Giddey’s self awareness. He’s been a professional since arriving here. I wish his stans allowed real healthy conversations about him instead of “you see, Giddey needs x-y-&amp;-z in a 71 degree gym to get "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122529916923044013",
-          "author": "joelxlorenzi",
-          "searchJob": "south-florida",
-          "text": "Does Giddey feel like teams are pressing him higher than ever? “I mean, yeah, but I’m a point guard. That shouldn’t bother me. It’s bad when we turn the ball over this much and I’m a massive culprit.” He and Tiago talked postgame: “Turnover"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2122796565681070289",
-          "author": "cristotheranger",
-          "searchJob": "temple",
-          "text": "Mr. and Mrs. Potter visit the Burrow and Malfoy Manor on Christmas Day. https://t.co/wsB7arsCL1"
+          "reason": "hard_negative",
+          "postId": "2122795164225978757",
+          "author": "keilorpizarro",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Brown and Coach Sayre, I’m blessed to announce that I’ve received an official offer to play football at Briar Cliff University! ⚡️ Thank you to the coaching staff for believing in me and giving me this "
         },
         {
           "reason": "hard_negative",
-          "postId": "2122794195719274595",
-          "author": "mariaangelagrow",
-          "searchJob": "temple",
-          "text": "Twenty-Fifth Sunday after Pentecost (taken from the Sixth Sunday after Epiphany) THE MUSTARD SEED — THE LEAVEN by Rev. Raphael Frassinetti, 1900 . Gospel. Matt . xiil 31-35 . At that time: Jesus spoke to the multitudes this parable: The kin"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122801263226343590",
-          "author": "owenshea21",
-          "searchJob": "phrase:\"thankful to receive an offer\"",
-          "text": "After a great talk with coach @joeyinmars I’m thankful to receive an offer from southwestern college. https://t.co/d2TSDCuaq7"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122822483988431086",
-          "author": "liamcher27",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach @CoachEspinoza08 . I am extremely blessed to recieve my 7th offer from @cmueaglesFB !! @CoachDonteIMGA @OLCoach_Parker @CoachDennisIMG @CoachPondIMG @Coach_Slip_IMG #imgfootball #recruiting #offered htt"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122822026691780696",
-          "author": "nylunwilliams",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#agtg After a great conversation with @coachbailey_abc I’m beyond blessed to receive an offer from Arkansas Baptist college⚪️🟣⚪️🟣 @clpollard21 @__CoachSulli @shayhodge3 @coach_booju @ChrisPayneSr @Coach_E55 https://t.co/mJ7ivvV27y"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122819016255549527",
-          "author": "kdfrm84w",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG After a great conversation with @coachgordon1 I am blessed to receive an offer from Co-Lin!!!💙🤍 https://t.co/7SNqsU9KSc"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122816739188572250",
-          "author": "tommylowe35",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @FerrillThomas I am blessed to receive another offer from Holmes Cc!! @CoachHarville @coachskilo @DBcoachwms @CoachBClarkCHHS @ClayTucker56 @CoachTaylor51 https://t.co/jTHewH1ZDj"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122815882304823355",
-          "author": "lukaswitt01",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with coach @305Elitebball I'm blessed to receive my 4th offer from Florida National University (Miami, FL)! https://t.co/mr3VMS7DkJ"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122815774490550675",
-          "author": "jaheem_lewis1",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coach_OGara blessed to say I have received an offer from Alma College Go Scots! #AGTG https://t.co/nGYXDBatPq"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122815732291355069",
-          "author": "reginald4896582",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great Conversation with @Coach_OGara I am blessed to have received an offer from Alma College Go Scots! @MichFBFrenzy @TheD_Zone @BendleAthletics @MIexposure https://t.co/YsIuxRRBcD"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122813035291230713",
-          "author": "amariscarter1",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachJBoone11 I am blessed to receive my 3 official offer from Brevard college @Coach_KAlvarez @chrishatch00 https://t.co/d7Wfe3brBt"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122811383490453912",
-          "author": "leeboaguilar",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachCano3 I am grateful to receive my 3rd offer from Santa Barbara Community College @SBCCFootball @Coach_Mike805 #AGTG @LaCuevaFootball @CouchPSports @PrepRedzoneNM @nmpreps https://t.co/Xj08iqyuoT"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122809162996302203",
-          "author": "maurijones12",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "Blessed to receive an offer from St. Norbert College after a great conversation with @c_rylatt ! Thankful for the opportunity! @SNCfootball @ThornwoodAthle1 https://t.co/ozi3XRqLWm"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122805944258293967",
-          "author": "kburnett2_",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @FerrillThomas I am blessed to receive my 4th offer from Holmes Cc!! @CoachHarville @coachskilo @DBcoachwms @CoachBClarkCHHS @ClayTucker56 @CoachTaylor51 https://t.co/eIKU6h4QMx"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122805853351014677",
-          "author": "djagocoly",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @Coach__Karry I am blessed to receive an offer from @AdrianCollegeFB . @Coach__Karry @RisingStars_NIL @AdrianCollegeFB @TheD_Zone @DickersonKoach https://t.co/G8Rh41VA3A"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122804710474494183",
-          "author": "alpha_ad5",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG After a great conversation with @Sweatt11 I’m blessed to receive an offer from @SRSUFootball @Harlan_McKinney @coachnighttrain @_KingOfSpeed @iam_alinedouard @BDammone @PRYDE_210 @CoachRod4623 @Coach_Inco @JButler_210 https://t.co/EjS"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122801641846087868",
-          "author": "sayresundy",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with coach @Kaden_Beavers I am blessed to announce my 3rd offer from @MACBulldogsFB. https://t.co/yilODKceNC"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122820969786204537",
-          "author": "boonechristian_",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "#AGTG 🙏🏽 All glory to God! Blessed to receive an official offer from Arizona Christian University! Huge thank you to Coach Dowdy for believing in me and giving me this opportunity. The work continues! #Climb #Rock #ClassOf2027 @CoachNickO"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2122793087458271290",
-          "author": "muncheyg",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "In 15 months I’ve changed my life by losing 130lbs, pursuing Jesus, found the love of my life, and today I got my first job offer for a engineering position at a aerospace company. It’s never over all Glory to God 🙏 https://t.co/qs7XIE8uzg"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2122821550554468663",
-          "author": "jamilyoung777",
+          "postId": "2122797684075483338",
+          "author": "alexisthat75",
           "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG After a great call with @DavianLiddell Im Blessed to receive an offer from Faulkner University! @AL_Recruiting https://t.co/2C4hQUcCwG"
+          "text": "After having a great conversation with @CoachMiller62 I’m blessed to received D2 offer thanks for giving me this opportunity#AGTG https://t.co/ScoduDeYcI"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2122820780996317559",
-          "author": "assir7best",
-          "searchJob": "phrase:\"AGTG\" offer",
-          "text": "#AGTG Blessed to receive an offer from Winston-Salem State ‼️ @CoachKato97 @Coachvetmiller @CoachChester99 @BigDuce64 @CoachQuez_1 @CGTCAthletics @T_Woodbury11 @coachrandall55 @WSSURamFootball @JucoHiddenGems @JuCoFootballACE @JUCOTopTalent"
+          "postId": "2122824502828507542",
+          "author": "orion_stanford2",
+          "searchJob": "stanford",
+          "text": "after a phone call with @Showtime_CoachP i am Blessed to receive a Scholarship Offer from Madonna university!!!!thank you so much for the opportunity #CrusadernationⓂ️🟡⚔️ @Showtime_CoachP @Coach_Wiemer @Coach_Crocker53 @Coach_Straz @CoachG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122804533839483301",
+          "author": "tsebuffalo",
+          "searchJob": "buffalo",
+          "text": "@716Matt We are having jerseys signed! Once we have our counts assessed after the singing we will offer what we have available."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122824159982203206",
+          "author": "619cvld",
+          "searchJob": "class:2029",
+          "text": "https://t.co/Gamaogtrh9"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122775869546758452",
+          "author": "lonnphillips",
+          "searchJob": "alabama",
+          "text": "Sam Leavitt asked by Jacques Doucet about leaving before the singing of the Alma Mater...his answer is....yeah....just watch. What the hell.... https://t.co/oh95j8d0hZ https://t.co/lDiE5Lxsnu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122825261599326714",
+          "author": "daverineh",
+          "searchJob": "arkansas",
+          "text": "Musk offered free Starlinks, the FAA said no thanks, then the whole country got grounded over a router in Arkansas. Maybe free backup wasn't such a bad idea. Should the FAA take him up on it now?"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122791853502185953",
+          "author": "ericldaugh",
+          "searchJob": "arkansas",
+          "text": "🚨 JUST IN: Sec. Sean Duffy RESPONDS to Elon Musk saying he offered the Trump admin FREE Starlink for the FAA, but was turned down \"We thought that the best method is to have a network [that's] based on the ground.\" \"What he's doing with St"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122821378030104793",
+          "author": "coppagenaeem",
+          "searchJob": "arkansas",
+          "text": "Arkansas Baptist offered‼️ https://t.co/5rSuBdCgBp"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122805481148494109",
+          "author": "kaydebodine1",
+          "searchJob": "arkansas",
+          "text": "After a great conversation with @PriceShone I’m blessed to be offered to Arkansas Baptist @Mcoop_Coach @_CoachJustinR https://t.co/fTeixnJX1i"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122805180995457340",
+          "author": "crypto_wenmoon",
+          "searchJob": "arkansas",
+          "text": "RECENT CYBERSECURITY &amp; INFRASTRUCTURE INCIDENTS https://t.co/QnnWz1DeUt"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122826961454002476",
+          "author": "zylan_austin",
+          "searchJob": "texas",
+          "text": "After a great conversation with @COACHHULKK I am blessed to receive my first offer to further my academic and athletic career at the next level with theCommunity Christian College Texas Spartans @BHEagleFootball @MattValmore90 @TXRecruits @"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122820907978633678",
+          "author": "rettooooo",
+          "searchJob": "texas",
+          "text": "https://t.co/6hHqtqf7Fy"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122819078565810390",
+          "author": "unfiltereddtx",
+          "searchJob": "texas",
+          "text": "HUGE proposal for protecting American Jobs ⬇️ The Labor Department proposed tougher rules for green card job sponsorship. Employers would have to advertise to Americans for at least 90 days, and companies that lay off U.S. workers would hav"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122818470966354099",
+          "author": "zivjelee",
+          "searchJob": "texas",
+          "text": "@ZachIntel @DrBuckinghamTX One example https://t.co/5vmtKxkGvu https://t.co/skWHRFkUvE"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122816312263237690",
+          "author": "wordsdematthew",
+          "searchJob": "texas",
+          "text": "4/15 Woody Doe: Thank you, Chairman. Chairman Hawley, Ranking Member Durbin, and distinguished members of the subcommittee, thank you for giving me the opportunity to share my story today. My name is Woody. I'm a proud United States Marine "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122734397568733604",
+          "author": "theatlantic",
+          "searchJob": "texas",
+          "text": "Asked at The Atlantic Summit what he thought explained Democratic wins in Texas, Senator John Cornyn tells Evan Smith, “Well, President Trump said he was on the ballot.”https://t.co/sLPW05eG74 https://t.co/veifpXyZkl"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122819378777338125",
+          "author": "aidannonx",
+          "searchJob": "texas-tech",
+          "text": "I had Claude reshape the US states, balancing multiple factors, namely population and political, then had it focus on equal-population states and minimal reform (trying to keep as many states the same) The result is basically a GOP bloodbat"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122826953254228260",
+          "author": "techdropsdeals",
+          "searchJob": "texas-tech",
+          "text": "Woot [$159.99.]: DEWALT 15G 2-in-1 Floor Nailer 🛍 https://t.co/w6g4jtDkGb All new deals @ Woot: https://t.co/y3b2mbdYbb ⏰ 16:58:39 #ad https://t.co/3MKnAGdkPX"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122826827571863989",
+          "author": "michaelgannotti",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/p8CFprvPiN"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122820096171430122",
+          "author": "zaardaar",
+          "searchJob": "texas-tech",
+          "text": "Somewhere in the middle, the people waiting for Grok 4.8 kept asking when the next model would land, while Anthropic, the Justice Department and OpenAI each dropped a different kind of news in the same window. https://t.co/TEJvfUfXmt"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122818017331753460",
+          "author": "kingfish737",
+          "searchJob": "texas-tech",
+          "text": "Nvidia just posted a $115.8B quarter, its first earnings without Jensen Huang. Hours earlier, Huang said he'd be \"honored\" to return as CEO. The board's answer: it doesn't intend to reinstate him. 📉📈 https://t.co/KMym4UYvM9 #Nvidia #Jense"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122826033963446588",
+          "author": "vivaserafina",
+          "searchJob": "virginia",
+          "text": "This carousel of misinformation is bananas. Public schools are poised to receive the lion's share of donations because they serve the most students and could offer an auto-deduction through payroll, allowing all employees to donate directly"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122823802476544363",
+          "author": "hakujinllc",
+          "searchJob": "virginia",
+          "text": "My homey is declining offers to mop up interwebz in Virginia. Good lad."
         }
       ]
     },
     "extraction": {
-      "accepted": 2,
-      "rejected": 9,
+      "accepted": 0,
+      "rejected": 71,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 1,
-        "reporter_missing_player_name": 1
+        "multiple_resolved_schools": 5,
+        "bare_mention_requires_llm": 37,
+        "school_not_resolved_confidently": 26,
+        "player_missing_football_context": 1,
+        "reporter_missing_class_year": 1,
+        "player_display_name_unusable": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122821437585273214",
-          "author": "samueltking",
-          "searchJob": "ohio",
-          "text": "@KLTHOMPSON Ohio State offered him last January."
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122819572868972852",
-          "author": "mcgill_medicine",
-          "searchJob": "ohio",
-          "text": "🧠 GLIOBLASTOMA STABLE FOR 16 MONTHS AFTER IVERMECTIN AND MEBENDAZOLE? SEVEN FACTS BEFORE CALLING IT A CURE THE STORY: A viral post describes a 60-year-old Ohio woman with IDH-wildtype glioblastoma whose cancer was reportedly stable after 1"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2122819566715965507",
-          "author": "klthompson",
-          "searchJob": "ohio",
-          "text": "@samueltking Ohio State is probably putting together an offer now."
-        },
-        {
           "reason": "multiple_resolved_schools",
-          "postId": "2122812692142678470",
-          "author": "nexusflowone",
-          "searchJob": "ohio",
-          "text": "The right website starts with clear information about the business behind it. The offer includes first-year hosting, a domain, and business email. Contact us today. #SanDiego #Wisconsin #Illinois #Ohio #California https://t.co/j3ZVccvFB3"
+          "postId": "2122828340474401274",
+          "author": "pdxbeav",
+          "searchJob": "stanford",
+          "text": "@Datapleaz @CycloneLarry69 Not to take away from Stanford as they have NC’s in a lot of sports but the Big-12 doesn’t even have the sports Stanford offers. Stanford baseball is the most redeeming sport they could offer to the Big12 but even"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122827123954262227",
+          "author": "cryptoreviewing",
+          "searchJob": "stanford",
+          "text": "In 1999, this man was offered Google for $750,000. He said no. Today Google is worth over $3 TRILLION. His name is George Bell. He ran Excite, one of the biggest websites on earth at the time. Two Stanford students, Larry Page and Sergey Br"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2122814743845237001",
-          "author": "boomersfandom",
-          "searchJob": "south-florida",
-          "text": "As a “Stan”, I will say this. People (mostly Australians) wouldn’t feel the need to defend him so much if there wasn’t sooo much negativity towards him. I think a lot of Bulls fans in particular are straight up nasty! He’s clearly having a "
+          "postId": "2122824483736367441",
+          "author": "thatcryptolad_",
+          "searchJob": "buffalo",
+          "text": "🌙 BTC EVENING WRAP ₿ BTC: $64,774.50 📈 Trend: MIXED 📊 RSI: 54.71 (NEUTRAL) 🎯 OVERNIGHT LEVELS 🟢 Bulls need: $65,305.28 🔴 Bears need: $63,693.44 📋 CURRENT BIAS 🟡 WAIT 👀 Watch above $65,305.28 for LONG 👀 Watch below $63,693.44 for S"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122812346062066059",
-          "author": "protonlaser777",
-          "searchJob": "temple",
-          "text": "The land was never a sovereign Palestinian Arab state. For centuries it was Ottoman territory (an empire that collapsed in World War I). The 1922 League of Nations Mandate for Palestine explicitly recognized the historical connection of the"
+          "postId": "2122819030860046641",
+          "author": "stephenshaw91",
+          "searchJob": "buffalo",
+          "text": "@gronkjr1487 @LomezLocks @Ade780 Yeah this is not true. There have absolutely been reports that Buffalo offered a pretty much identical offer to what he signed in Boston and Ullmark said no to Buffalo."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122804727218155952",
-          "author": "hiro_hiro42421",
-          "searchJob": "temple",
-          "text": "今日の英単語、英熟語🔤 ​① 単語: Tapestry（名詞: タペストリー、綴れ織り、（比喩）織りなす模様・歴史の綾） 💡 Kyoto offers a rich tapestry of ancient temples, vibrant festivals, and traditional crafts. （京都は、古社寺、活気ある祭り、伝統工芸が織りなす豊かな文化の綾を提供してくれます。） 本来の「綴れ織り」だけでなく、長い歴史や多様な伝統・文化が複雑かつ美しく絡み合"
+          "postId": "2122814864024343023",
+          "author": "y20thousand",
+          "searchJob": "buffalo",
+          "text": "@ThunderHRL @FlockyouMean How do you know better offers aren’t coming in? Word is that Boston and Buffalo both have offers on the table that Detroit likes and they’re more than happy to wait until Larkin decides he actually wants out"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122793298352091373",
-          "author": "_thesanatani",
-          "searchJob": "temple",
-          "text": "Prana Pratishtha: What Actually Happens When a Murti Is Consecrated 😱 Prana Pratishtha is the ritual through which a newly installed Murti is formally consecrated for worship. The words Prana and Pratishtha carry the sense of establishing "
+          "postId": "2122794583218397413",
+          "author": "ngaydeptroi91",
+          "searchJob": "buffalo",
+          "text": "@btclnscaiert I expected a simple follow request, but the buffalo and megaphone make this boost offer surprisingly bold and memorable"
         },
         {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122814569538023588",
-          "author": "lukesmitty5",
-          "searchJob": "phrase:\"my first D1 offer\"",
-          "text": "Extremely blessed to earn my first D1 offer from the university of UT Martin!!! @CoachLeno_UTM @Coach_JSimpson @UTM_FOOTBALL @Day1toD1 @ericgodfree https://t.co/Ge08iZ6UrG"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122817832694256112",
+          "author": "aidyn_ragsdale",
+          "searchJob": "fresno-state",
+          "text": "@CoachMAustin @EsaiasGuthrie @CoachMAustin @SacHornetsFB @CoachKThompson Aidyn Ragsdale | c/o 2027 | San Joaquin Memorial (Fresno, CA) NCAA ID# 2611224557 Position (s): • ILB • OLB • DE • Interior Measurements: Height: 6-1 Weight: 215-220 l"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122801341437505989",
+          "author": "aidyn_ragsdale",
+          "searchJob": "fresno-state",
+          "text": "@_SidneyPorter_ Aidyn Ragsdale | c/o 2027 | San Joaquin Memorial (Fresno, CA) NCAA ID# 2611224557 Position (s): • ILB • OLB • DE • Interior Measurements: Height: 6-1 Weight: 215-220 lbs Wingspan: 75” 🌟 3 Offers @_SidneyPorter_ https://t.co"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122795759863287912",
+          "author": "aidyn_ragsdale",
+          "searchJob": "fresno-state",
+          "text": "@_SidneyPorter_ @_SidneyPorter_ Aidyn Ragsdale | c/o 2027 | San Joaquin Memorial (Fresno, CA) NCAA ID# 2611224557 Position (s): • ILB • OLB • DE • Interior Measurements: Height: 6-1 Weight: 215-220 lbs Wingspan: 75” 🌟 3 Offers https://t.co"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122826812896248270",
+          "author": "bama_hoo",
+          "searchJob": "alabama",
+          "text": "@david_aber57143 @StillMikeBarber @Coach_TElliott He’s not worried. ￼ Virginia Tech’s most recently published acceptance rate is 64% for the 2026–27 admissions cycle (37,204 offers out of 58,108 ). The UVA overall acceptance rate is 12.5% f"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122805748509860095",
+          "author": "melmcdanielfan",
+          "searchJob": "alabama",
+          "text": "Guys. This is the new college football. You think he is going to participate in the traditions of LSU or even care about them? You think the Bama game ment something special to him? He is only there because you outbid his other offers. Its "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122802463669428582",
+          "author": "r_gretzinger",
+          "searchJob": "alabama",
+          "text": "@Lions The story starts in Fayetteville, Georgia, where a kid nicknamed \"BB\" grew up to become a top recruit and took his talents to Alabama. The only hometown recommendation he's ever offered Lions fans is Wings &amp; Hibachi, which honest"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122823856876343411",
+          "author": "scarletsanctum",
+          "searchJob": "arkansas",
+          "text": "If you live in #arkansas I have launched a delivery service, the goal of this service is to offer as many work opportunities as I can for gig workers, we have General good Shoppers, package delivery, hot food delivery, construction and odd "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122813695785156651",
+          "author": "mcreekfutures",
+          "searchJob": "arkansas",
+          "text": "GRAINS AND LIVESTOCK MARKET DAILY CLOSE Tuesday, November 17, 2026 TODAY'S SESSION Wall Street slid broadly on Tuesday as tech sector jitters and pre earnings caution around Nvidia weighed on major indices. The S&P 500 fell 76.06 points to "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122812513129488841",
+          "author": "uagrantham",
+          "searchJob": "arkansas",
+          "text": "Exciting news! UA Grantham is partnering with SRC to offer online degree programs in business, cybersecurity, healthcare & more for all employees! Enroll now and receive a laptop at no additional cost, waived resource fees, and dedicated su"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122803725756661853",
+          "author": "buckynosebest",
+          "searchJob": "arkansas",
+          "text": "To make sense of this week’s cascading outages—Microsoft, a nationwide FAA ground stop canceling 17,000+ flights, Chase, United, Apple/Gmail, and NSA Net—you have to separate operational containment from political leadership. Credit where i"
+        },
+        {
+          "reason": "player_missing_football_context",
+          "postId": "2122821378810527824",
+          "author": "caydensnead15",
+          "searchJob": "tennessee",
+          "text": "Blessed to receive my first offer from Tennessee valley🛐 @CoachJPFletcher https://t.co/S5u1eT6alq"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122819570197254525",
+          "author": "profilefblive",
+          "searchJob": "tennessee",
+          "text": "Tennessee has extended twelve new scholarship offers to HS prospects in the last 24 hours. @Vol_Football 4.5⭐ 2029 Edge Casime Harris @Casimeharrisjr 4.4⭐ 2029 SAF Coron Russell Jr. @coronrusselljr 4.2⭐ 2028 Edge Mikel Morgan @Mikel__Morgan"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122813782971814394",
+          "author": "samuraishibajp",
+          "searchJob": "tennessee",
+          "text": "Every Sunday in Tokyo, the most American thing in Japan happens at the entrance to a park. And most Americans walk right past it. It's in Yoyogi Park, by Harajuku. You'll hear it before you see it. Old American rock and roll, from a boombox"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122812087349162024",
+          "author": "wreckcheckatl",
+          "searchJob": "tennessee",
+          "text": "🚨 TENNESSEE TOTAL LOSS WIN! 🚙 2018 Chevy Tahoe LT | 152,734 miles 💰 Allstate's offer: $16,390 🔥 Wreck Check Atlanta got: $22,000 + taxes &amp; fees! That's $5,610 MORE! 🤯 Don't accept a lowball offer without a second opinion! #WreckChe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122806222776852656",
+          "author": "countrylife717",
+          "searchJob": "tennessee",
+          "text": "#Tennessee #Lodge. Encompassing 177.55A± #acres, this exceptional property offers the kind of setting that serious outdoorsmen dream about: a place where hunting, fishing, wildlife management, and family recreation all come together. https:"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122803667690811582",
+          "author": "jefferyengland",
+          "searchJob": "tennessee",
+          "text": "Tennessee republicans have filed a bill offering eggs, bread, and milk tax free next year. Apparently, that is all the Tennessee GOP has to offer Tennessee families."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122796924323475665",
+          "author": "compasscabin",
+          "searchJob": "tennessee",
+          "text": "Mid-November mornings in the Smokies have a clarity to them that the busier seasons rarely offer 📷 Cold, still air, long views through the bare trees, and a quietness that settles into you in the best possible way. #CompassVacationProperti"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122828965718991219",
+          "author": "keeperofreal16",
+          "searchJob": "texas",
+          "text": "@grok @mindinpanic Roughly 70% of Texas 3 and 4 year old children are eligible for free pre-K. In addition to the state eligibility requirements (that cover far more than just household income), there are also many districts that offer univ"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 167,
+      "jobs": 168,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -345,73 +493,42 @@
     "commits": {
       "samples": [
         {
-          "reason": "no_football_context",
-          "postId": "2122816176820801782",
-          "author": "esportsvisuals",
-          "text": "ELITE NEWS! 2027 Peyton Hightower (@isprint_peyton) announces that she has committed to University of South Carolina (@GamecockTrack). South Carolina gets an ELITE track &amp; field athlete in 2027. https://t.co/AbDXsfTXgQ"
+          "reason": "other_sport",
+          "postId": "2122816212614967417",
+          "author": "royalryancrown",
+          "text": "7 DAY SUMMARY Tech is the story of the week. Nvidia’s Jensen Huang resigned after an affair with an alleged Chinese spy surfaced — the stock’s lost about seven hundred thirty-five billion in market value, the SEC is probing, and Huang publi"
         },
         {
-          "reason": "no_commit_event",
-          "postId": "2122775472853471600",
-          "author": "gamecockcentral",
-          "text": "South Carolina football commitment earns four-star status READ HERE ➡️ https://t.co/C6iHHhGLbF https://t.co/ackDpwAcJB"
+          "reason": "juco_or_transfer",
+          "postId": "2122800131644796942",
+          "author": "mrdimasta420",
+          "text": "Every cat owner knows the exact moment their arm gives out before the cat's interest does. That gap is the whole story. The cat is nowhere near finished. The human is already negotiating with their own shoulder. And somewhere inside that mi"
         },
         {
           "reason": "roundup_too_long",
-          "postId": "2122768424300339390",
-          "author": "justhomesgroup",
-          "text": "To the men in my DMs, liking every picture, watching every story, and treating my real estate page like https://t.co/mgQcSbfo78… 👀😂 Gentlemen, we need an East Tennessee come-to-Jesus meeting. I KNOW you’ve got a $90,000 truck, a bass boat"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2122753162436399255",
-          "author": "anambra_saca",
-          "text": "ANSACA Unveils 2026 World AIDS Day Activities, Rallies WHO, AHF, AHNi, Other Partners for Stronger HIV Response in Anambra The Anambra State AIDS Control Agency (ANSACA) has unveiled its programme of activities for the 2026 World AIDS Day c"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2122726504421290442",
-          "author": "govolsxtra",
-          "text": "Pitcher Landon Echelberry commits to Tennessee baseball in 2028 class https://t.co/t2mB3En8ho"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2122725257962213739",
-          "author": "knoxnews",
-          "text": "Pitcher Landon Echelberry commits to Tennessee baseball in 2028 class https://t.co/oYK9tqF7Gt"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2122721478604910940",
-          "author": "tennessean",
-          "text": "Pitcher Landon Echelberry commits to Tennessee baseball in 2028 class https://t.co/NygyoWeYRR"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2122721474645578204",
-          "author": "memphisnews",
-          "text": "Right-handed pitcher Landon Echelberry committed to Tennessee baseball on Nov. 17, becoming the Vols’ eighth commit in the class of 2028. https://t.co/sZpIR8QsUt"
+          "postId": "2122796945060348080",
+          "author": "wrathfulakn",
+          "text": "My experience was even though I offered to feed the baby at night and I would always get the bottle and clean them everyday(clean and sanitize every night) she would tell me no, that she was ok feeding our son at night. Later on it was held"
         }
       ],
       "stats": {
-        "candidates": 19,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 19,
+        "rejected": 3,
         "reasons": {
-          "no_football_context": 3,
-          "no_commit_event": 3,
-          "roundup_too_long": 6,
-          "other_sport": 7
+          "other_sport": 1,
+          "juco_or_transfer": 1,
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 2,
-      "rejectedCandidates": 9,
-      "brandNewOffers": 2
+      "acceptedEvidence": 0,
+      "rejectedCandidates": 71,
+      "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T22:43:55.115Z"
+    "status rebuilt locally from current store on 2026-11-17T23:10:20.114Z"
   ]
 }
