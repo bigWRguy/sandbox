@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T06:14:37.887Z",
+  "generatedAt": "2026-11-17T06:29:27.671Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-17T06:14:37.257Z",
+    "at": "2026-11-17T06:29:26.957Z",
     "jobsTotal": 162,
     "sweptThisRun": 21,
     "requests": 21,
@@ -30,15 +30,24 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "south-alabama",
+      "hours": 2.3
+    },
+    {
+      "id": "texas",
+      "hours": 2.3
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 1.0363016666666667,
-    "p95Hours": 2.0271891666666666,
-    "worstHours": 2.0271891666666666
+    "medianHours": 1.0227222222222223,
+    "p95Hours": 2.0244347222222223,
+    "worstHours": 2.274351388888889
   },
   "decisionCoverage": {
-    "total": 18,
-    "decided": 18,
+    "total": 43,
+    "decided": 43,
     "complete": true
   },
   "pending": {
@@ -55,182 +64,350 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-17T06:14:37.243Z",
-      "got": 26,
-      "new": 18,
-      "lag": 0.1
+      "at": "2026-11-17T06:29:26.952Z",
+      "got": 73,
+      "new": 43,
+      "lag": 0.04
     },
     "search:commit": {
-      "at": "2026-11-17T06:14:37.256Z",
-      "got": 29,
-      "new": 11,
-      "lag": 0.43
+      "at": "2026-11-17T06:29:26.956Z",
+      "got": 17,
+      "new": 8,
+      "lag": 0.6
     }
   },
   "audit": {
-    "at": "2026-11-17T06:13:07.384Z",
+    "at": "2026-11-17T06:27:55.479Z",
     "mode": "live",
     "collection": {
-      "returned": 26,
-      "kept": 18,
-      "duplicate": 8,
+      "returned": 73,
+      "kept": 43,
+      "duplicate": 30,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 12,
-      "rejected": 6,
+      "accepted": 18,
+      "rejected": 25,
       "reasons": {
-        "no_fbs_school": 3,
-        "hard_negative": 1,
-        "no_offer_term": 2
+        "no_offer_term": 8,
+        "no_fbs_school": 12,
+        "hard_negative": 4,
+        "non_fbs_offer_target": 1
       },
       "samples": [
         {
-          "reason": "no_fbs_school",
-          "postId": "2122570174226444338",
-          "author": "cosyoak",
-          "searchJob": "georgia",
-          "text": "i was walking back to my grandmas ward with a fresh hot chocolate when i saw a man sitting on a bench in the corridor, i offered to go get him a drink, walked back to the drinks machine &amp; handed him back a cappuccino 🌱 i hope it makes "
+          "reason": "no_offer_term",
+          "postId": "2122572245759672780",
+          "author": "raajeevanand",
+          "searchJob": "class:2027",
+          "text": "Bitcoin is near $64K and Fear &amp; Greed reads 10. But some crypto categories are still growing. I checked 10 of them against recent data: stablecoins, RWA, AI, prediction markets, perp DEXs and more. Full breakdown in the article 👇 https"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122569129068786125",
-          "author": "naomi_smit42414",
-          "searchJob": "georgia",
-          "text": "Oh Dale, that genuinely touches my heart... you know, I've always believed that the greatest gift we can offer another mind isn't necessarily knowledge, but inspiration to discover knowledge within themselves and if my thoughts and creativi"
+          "postId": "2122571154917314591",
+          "author": "gonnersblood",
+          "searchJob": "class:2027",
+          "text": "🚨 Arsenal may have to wait until summer 2027 for Antonio Nusa. Fabrizio Romano says RB Leipzig value the Norwegian winger at €70–75m and have no intention of selling cheaply. 🗣️ Fabrizio Romano: \"My understanding is that RB Leipzig start "
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2122558166672048623",
-          "author": "st0nervosa",
-          "searchJob": "georgia",
-          "text": "@tauntif you are such an amazing person despite the horrors hawke and very much deserve what life has to offer you outside of this"
+          "postId": "2122563185068666949",
+          "author": "hanandery",
+          "searchJob": "class:2027",
+          "text": "Herbert best seasons were with MW & KA. Since then, the 300+ passing yards games slowly but surely faded away. Herbert new weekly norm is 130 passing yards per game. WR room in 2027: Smith or Becker or Jefferson* Ladd**, Harris, KA***, KLS,"
         },
         {
           "reason": "hard_negative",
-          "postId": "2122570680319254669",
-          "author": "arsenal_newshub",
-          "searchJob": "rice",
-          "text": "🚨💰 DECLAN RICE REJECTED A HUGE BAYERN MUNICH OFFER TO STAY AT ARSENAL! Declan Rice reportedly received a lucrative offer from Bayern Munich before committing his future to Arsenal. The proposed deal would have seen the England midfielder "
+          "postId": "2122545679520121130",
+          "author": "t4ys3n",
+          "searchJob": "class:2027",
+          "text": "Regular season tape‼️ Physical in the trenches but i can get open and get some YAC too💪 6’4 220 TE c/o 2027 20.2 MPH in game‼️ 7 TD 21 Rec 321 Yds 1 juco offer‼️ @Coach_Wilk @DibbleTj @LDBellFootball @MikeBloesch @CoachWillBryant @CoachCoc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122577237228622259",
+          "author": "kestersonvicki",
+          "searchJob": "arkansas",
+          "text": "The L3Harris piece is the FAA Telecommunications Infrastructure, or FTI. Harris Corporation won that contract in two thousand two, and it’s been running ever since — connecting over four thousand FAA facilities with about twenty-eight thous"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122568700125683859",
+          "author": "byumbbrecruit",
+          "searchJob": "arkansas",
+          "text": "BYU had offered Daughtry, but he will commit to Arkansas. #BYUHOOPS"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122553467814162546",
-          "author": "mexicotimes",
-          "searchJob": "rice",
-          "text": "#Now #Mexico eats flowers, brains, pigs' feet, crispy intestines, &amp; cactus-fruit “cheese.” It drinks fermented pineapple &amp; serves rabbit steamed in maguey skin. Discover 20 #ExtraordinaryMexicanSpecialties, their names, origins &amp"
+          "postId": "2122519617684054196",
+          "author": "dushawnlondon1",
+          "searchJob": "arkansas",
+          "text": "BREAKING: Cayden Daughtry, the No. 3 overall prospect in the class of 2027, has committed to Arkansas, @247Sports is told. Story: https://t.co/78CyW764eg https://t.co/NdqVvT7aXL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122553768164122901",
+          "author": "futurewiredaily",
+          "searchJob": "arkansas",
+          "text": "1/10 A ROUTER, NOT A HACKER: WHAT GROUNDED AMERICA ON FRIDAY At about 3:30 PM ET Friday, Nov 13, the FAA stopped every departure in the country. It lifted the stop at 8:15 PM ET. What the FAA says happened, in its official Q&A published Sun"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122547650058985881",
+          "author": "wess_moore",
+          "searchJob": "arkansas",
+          "text": "Last night on Moore Sports driven by the Crain Automotive Team I caught up with @NLRFB RB @_iamChristain to discuss his recent offer from Arkansas. Plus, Pottsville is the Moore Sports Team of the Week. https://t.co/a62nrne6XU"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2122489108845232638",
-          "author": "thuytrang108",
-          "searchJob": "rice",
-          "text": "Privacy is not something to fix after information has already been exposed. It should be built into the system from day one. In today's digital environment, data is constantly collected, processed, and shared. Waiting until a breach happens"
+          "postId": "2122490764701905207",
+          "author": "andy_rtr91",
+          "searchJob": "arkansas",
+          "text": "Welp, Kane good as gone at this point."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122547829449048070",
+          "author": "yalltitanup",
+          "searchJob": "tennessee",
+          "text": "https://t.co/C9Xv7mqnER"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2122561138290196598",
+          "author": "simeonjj12",
+          "searchJob": "texas",
+          "text": "Blessed to receive a offer from Texas Spartans thanks to @COACHHULKK https://t.co/ChzSmFcSwb"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122559921040269467",
+          "author": "mustangman_tx",
+          "searchJob": "texas",
+          "text": "Lord, please teach children that are relationship with you, the one true God and the King of the universe is the greatest blessing this life can offer! 🙏 We chase so many things in this world that don't add up to anything in the end. Zero!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122558826532458910",
+          "author": "mustangman_tx",
+          "searchJob": "texas",
+          "text": "I'm sure some of you feel the same, but I want to say that I feel very fortunate to have the support and friendships that this platform brings. I love how we have each other's backs and how we encourage each other and pray for each other. W"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122550933444075784",
+          "author": "grooganfox26",
+          "searchJob": "texas",
+          "text": "Democrats looking to erode gun rights/increase safety in Texas with multiple bills filed including “Red Flag” Law. Nearly all are doomed in GOP controlled State Senate. The “What’s Your Point?” Crew offered insight on @FOX26Houston https://"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122562875340255532",
+          "author": "kenlairdweei",
+          "searchJob": "ucla",
+          "text": "https://t.co/XOHUzgqv2y"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2122568200172851684",
+          "author": "byumbbrecruit",
+          "searchJob": "byu",
+          "text": "BYU had offered Diggs, but he will commit to Arizona. #BYUHOOPS"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122503503968956465",
+          "author": "ebosshoops",
+          "searchJob": "byu",
+          "text": "Adan Diggs, @Adan8D, the No. 6 ranked player in the class of 2027 just committed to Arizona live on CBS Sports HQ. Third year in a row Tommy Lloyd has pulled a five-star. \"Tommy Lloyd sees me as being one of those next guys,\" Story: https:/"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122562793849164183",
+          "author": "donalddavhie",
+          "searchJob": "california",
+          "text": "South Africa must seize the opportunities of the AI revolution | @CyrilRamaphosa Monday, 16 November 2026 \"Dear Fellow South African, This week, I am leading a delegation of South Africans from government, business, universities and researc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122562666875203861",
+          "author": "porfiriy",
+          "searchJob": "california",
+          "text": "In general, I have been very pleased working with the financial services sector in America. They have consistently kept their promises and offered useful services to me. They haven't meddled, asked unnecessary questions, etc. either."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122561018236928511",
+          "author": "tamago_daily",
+          "searchJob": "california",
+          "text": "🚨 NVIDIA EARNINGS: CAN $NVDA RECOVER AFTER LOSING 30% OF ITS VALUE? @nvidia is heading into one of its most important earnings reports in years, especially after @JensenHuang stepped down as CEO following 33 years of leading the company. T"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2121621503557116401",
+          "author": "tamago_daily",
+          "searchJob": "california",
+          "text": "🚨 JENSEN HUANG RESIGNS AS NVIDIA CEO. WHAT IS NEXT FOR $NVDA? @nvidia faces one of its biggest leadership challenges in years, and with Jensen Huang stepping down after more than three decades, the market has much more to digest than anoth"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2122553736358985950",
+          "author": "kd1rb",
+          "searchJob": "california",
+          "text": "Coaches Offer Him ! Balled out in New Jersey at Safety and now doing it in California."
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2122064186557845648",
+          "author": "djgilligan_1",
+          "searchJob": "california",
+          "text": "Appreciate this group and love the sophomores that I got to play with in their last game ! Here’s clips from the Foothill Game ! #WhyMPC @MPCLoboFootball @CodyOleski @CoachGallegos83 https://t.co/ijqslJZG4B"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 12,
+      "rejected": 18,
       "reasons": {
-        "multiple_resolved_schools": 2,
-        "bare_mention_requires_llm": 2,
-        "school_not_resolved_confidently": 7,
-        "reporter_missing_player_name": 1
+        "multiple_resolved_schools": 4,
+        "bare_mention_requires_llm": 12,
+        "school_not_resolved_confidently": 2
       },
       "samples": [
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122560188469133630",
-          "author": "velocity_fb",
-          "searchJob": "georgia",
-          "text": "Maybe it is me, but c/o 2029 OL @Dkirby2029 from @PickensFootball looks like he would fit in with our NFL offseason workouts and not look out of place 1 bit! Maybe that’s why he already holds big offers from #Tennessee, #Georgia and more! P"
+          "postId": "2122564984756375957",
+          "author": "np4football_ot",
+          "searchJob": "class:2028",
+          "text": "Wisconsin added a Maryland DB to the offer board. Lawrence Diggs-DB-2028-MD @BadgerFootball Offer Who's next in Madison? #OnWisconsin #B1G #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122547318717325565",
+          "author": "yojayyy_",
+          "searchJob": "arkansas",
+          "text": "he was getting offered SEC jobs last season and didnt take it and you think hes gonna go to Arkansas State? 😂"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122574653155877250",
+          "author": "govindarajanv10",
+          "searchJob": "texas",
+          "text": "Dr. RR must reverse the question. Why not the Global players come to India, compete with Indian businesses, offer their products & services at our price levels & demonstrate their capabilities? For example can Elon Musk compete with Jio at "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122570457635242260",
+          "author": "blindbonesmusic",
+          "searchJob": "texas",
+          "text": "LoneStar, a Texas crown and an agent with offers in his pocket. Spoken word poetry over my own music, what fame costs. 👑🌵 https://t.co/hFA4GyynOw #Poetry #オルタナ"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2122547907522154697",
-          "author": "bonesdynamite",
-          "searchJob": "georgia",
-          "text": "@Hayesfawcett3 Part of that is the machine. Recruiting sites see OSU, Bama, Georgia offer a player and then they rise. Some did a YouTube video highlighting how mylan Graham went from unranked to a 5star right as OSU got him."
+          "postId": "2122569649384779836",
+          "author": "mediamanoz",
+          "searchJob": "texas",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Survivor Series: War Games! Australia Survived The Cyber Attack"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122565746253533667",
+          "author": "mediamangroup",
+          "searchJob": "texas",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Survivor Series: War Games! Australia Survived The Cyber Attack"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122555477582020866",
-          "author": "ai__seek",
-          "searchJob": "purdue",
-          "text": "Perseverance confirms hydrated-silica-rich rocks at Idubi Perseverance has confirmed that a cluster of light-coloured rocks at Idubi is rich in hydrated silica and does not consist of igneous rock, distinguishing the find from the kinds of "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122564732599075305",
-          "author": "chandaranasuper",
-          "searchJob": "wake-forest",
-          "text": "Tuesday morning dilemma: Your eyes are open, but your wallet is still hitting snooze! 🥱💸 Wake it up instantly with our fresh Tuesday Morning Daily Offers before the rush hits. #TuesdayMotivation #DailyOffers #ChandaranaFoodplus #MBVIPChan"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122559845614453137",
-          "author": "snowedinspider",
-          "searchJob": "wake-forest",
-          "text": "@GabeKlassen @F466OT Since at least Wake Up Dead Man's premiere he's consistently expressed that he's trying to take a break and spend time with loved ones, but it's been getting pushed back because he keeps getting offers from directors he"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122558176986075468",
-          "author": "7yearsssssss",
-          "searchJob": "wake-forest",
-          "text": "In 2008, Elon Musk was nearly out of road. SpaceX's rocket had failed three times in a row. Tesla was down to $9 million in the bank and could barely make payroll. He'd lost his house in the divorce, borrowed money for the legal fees, and w"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122557845736489182",
-          "author": "itigweoluchi",
-          "searchJob": "wake-forest",
-          "text": "Posting every day doesn't automatically mean your brand is growing. Let's talk about the difference between being active and being strategic. You can post every single day, show up consistently, create beautiful graphics and still struggle "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122541823222538595",
-          "author": "ladycarmilla1",
-          "searchJob": "wake-forest",
-          "text": "🥀 The Garden of My Devotion 🖤 They say, “Wake up and smell the roses,” How sweet to think I ever sleep. For every bloom within my garden, Has whispered secrets I shall keep. I never force a bud to open, Nor ask a thorn to bend for me. I o"
-        },
-        {
-          "reason": "reporter_missing_player_name",
-          "postId": "2122566116782539046",
-          "author": "darby_dimes",
-          "searchJob": "phrase:\"receives an offer from\"",
-          "text": "Petal Ms. RB Acely Brown receives an offer from The Ohio State University"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122572534709186778",
-          "author": "galactic_dust83",
-          "searchJob": "notre-dame",
-          "text": "I host a dual party for my two boys (Irish twins 🩷) invites are always “siblings welcome, please let me know if there are any food restrictions” - once the kids were 3rd grade + I started to surprise the parents when they got there & offer"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2122572428903686309",
-          "author": "thelinedrive",
-          "searchJob": "notre-dame",
-          "text": "@coupedumonde07 He’s been living off that Wigan trophy for 15 years. Even trophy hounds like Irish Guy recognize him as a fraud. Combine the fact he just has no tactical identity to offer to build this team and it’s the complete wrong direc"
+          "postId": "2122554821647679530",
+          "author": "joy",
+          "searchJob": "texas",
+          "text": "@AndrewCurran_ I think one of the employee letters floating around mentioned that Elon supposedly offered to hire ex-NVIDIA people for Terafab. (I guess they'd have to move to Texas though...)"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2122549341953081749",
-          "author": "thuytrang108",
-          "searchJob": "rice",
-          "text": "Today, John opted for a meal consisting of shrimp salad, stir-fried meat, fresh greens, hot soup, and steamed white rice. Each dish offered its own distinct flavor simple, yet perfectly satisfying. Having a few delicious dishes before him, "
+          "postId": "2122551702179987878",
+          "author": "mathewamerson",
+          "searchJob": "texas",
+          "text": "@CDCIntel Brother im already trying at this point im gonna offer up Texas BBQ and Texas at this point 😆"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122562769400864813",
+          "author": "meatballz15",
+          "searchJob": "ucla",
+          "text": "@NHLRumourReport Bruins are prepared to offer Clifton and Aspirot for Cowan and a first."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122551277792154044",
+          "author": "krisjohnsonlive",
+          "searchJob": "ucla",
+          "text": "UCLA offer holder Owen Eteuati-Edwards (2028 Arcadia HS) is in attendance."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2122547830644466174",
+          "author": "markrom",
+          "searchJob": "ucla",
+          "text": "@HockeyPipeline Don't think that Toronto pick goes to Boston but if Carter Meyer is available the Bruins could make Philly an offer. Meyer grew up 6 miles from the Boston Garden."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122557848161062964",
+          "author": "goodhabits12",
+          "searchJob": "byu",
+          "text": "@CornerCanyonUte @prefertorope Nothing like that whiny bitch on your last Game Day, “but the BYU got got offered 3mil.” https://t.co/jueXN0Nfy0"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2122573265201709105",
+          "author": "zevrinh",
+          "searchJob": "california",
+          "text": "AI is moving into public markets, hospital software, and everyday computers. The question is no longer just how capable it is—but who can control it. Seven developments to watch | Nov. 17 1. Anthropic heads toward its IPO Anthropic plans to"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122559471692263450",
+          "author": "robmiebelli",
+          "searchJob": "california",
+          "text": "@MLFootball He got accepted to Harvard! Ended going to Cal Berkeley on a last min football scholarship offer. I think he more than has a mastery of the English language; a primary language he has spoken his entire life. I think this could b"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122547288769716258",
+          "author": "picksgorillas",
+          "searchJob": "duke",
+          "text": "If everything you offered wasn't enough...offer your absence...salt isn't on the menu...but when its missing its felt....... Free Play College Hoops Tommorow Duke -7 #cbb 🦍🦍🦍🦍🦍🦍🦍🦍"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122574585644417079",
+          "author": "thetatvaindia",
+          "searchJob": "air-force",
+          "text": "🚨Cancer Patient Flees Canada! US Air Force veteran with stage-four ovarian cancer, Kristin Logan, left Canada after claiming she was offered information about medically assisted death (MAID) before even meeting an oncologist. She returned "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122570945382760957",
+          "author": "johnmysreview",
+          "searchJob": "air-force",
+          "text": "Recently,during a bilateral meeting between Malaysia and France, the Ministry of Defence issued a(LOI) to Airbus for the procurement of CSAR helicopters for the Royal Malaysian Air Force Phase 1 Previously,at the DSA exhibition 2026 Airbus "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2122554248999194964",
+          "author": "edwardanthony63",
+          "searchJob": "air-force",
+          "text": "The White House attributed the switch to extreme weather in the Anchorage area (including freezing rain and poor conditions). Fairbanks offered better weather for the refueling stop. The plane landed in Fairbanks, refueled, and continued to"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 168,
+      "jobs": 169,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -239,75 +416,71 @@
     "commits": {
       "samples": [
         {
-          "reason": "no_football_context",
-          "postId": "2122570680319254669",
-          "author": "arsenal_newshub",
-          "text": "🚨💰 DECLAN RICE REJECTED A HUGE BAYERN MUNICH OFFER TO STAY AT ARSENAL! Declan Rice reportedly received a lucrative offer from Bayern Munich before committing his future to Arsenal. The proposed deal would have seen the England midfielder "
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2122483361595687219",
-          "author": "isacfinaid",
-          "text": "Join us Tuesday, March 2, 2027 at the 14th annual Illinois Education and Career Success Network (Success Network) conference, \"Beyond Attainment: Aligning Education to Economic Opportunity,\" at Northern Illinois University's Naperville Conf"
+          "reason": "other_sport",
+          "postId": "2122568700125683859",
+          "author": "byumbbrecruit",
+          "text": "BYU had offered Daughtry, but he will commit to Arkansas. #BYUHOOPS"
         },
         {
           "reason": "no_football_context",
-          "postId": "2122567659262996581",
-          "author": "propstreak",
-          "text": "The Chargers finally got their first win, beating the Ravens 23-20 on Monday Night Football, and it flipped the race for the #1 pick. Three teams are now 1-8, and the Titans hold the top spot on the strength-of-schedule tiebreaker after los"
+          "postId": "2122519617684054196",
+          "author": "dushawnlondon1",
+          "text": "BREAKING: Cayden Daughtry, the No. 3 overall prospect in the class of 2027, has committed to Arkansas, @247Sports is told. Story: https://t.co/78CyW764eg https://t.co/NdqVvT7aXL"
+        },
+        {
+          "reason": "other_sport",
+          "postId": "2122568200172851684",
+          "author": "byumbbrecruit",
+          "text": "BYU had offered Diggs, but he will commit to Arizona. #BYUHOOPS"
         },
         {
           "reason": "no_football_context",
-          "postId": "2122535122884792537",
-          "author": "londonusedbf",
-          "text": "Democrats just flipped Texas, Ohio, Iowa, South Carolina, and even Mississippi in the midterms. Trump is heading to Asia to meet Xi and Putin while his party is in free fall at home. The power balance in Washington just shifted hard. Americ"
+          "postId": "2122503503968956465",
+          "author": "ebosshoops",
+          "text": "Adan Diggs, @Adan8D, the No. 6 ranked player in the class of 2027 just committed to Arizona live on CBS Sports HQ. Third year in a row Tommy Lloyd has pulled a five-star. \"Tommy Lloyd sees me as being one of those next guys,\" Story: https:/"
         },
         {
           "reason": "no_football_context",
-          "postId": "2122512582821155290",
-          "author": "psunationrec",
-          "text": "@evan_rodgerspsu His film and testing numbers are off the chart. His ranking is because of the school he’s committed to. The kids a top 150 player if he’s committed to the SEC or Ohio State"
-        },
-        {
-          "reason": "no_commit_event",
-          "postId": "2122477860271046656",
-          "author": "bill_kurelic",
-          "text": "Ohio State 2027 QB commitment"
+          "postId": "2122554248999194964",
+          "author": "edwardanthony63",
+          "text": "The White House attributed the switch to extreme weather in the Anchorage area (including freezing rain and poor conditions). Fairbanks offered better weather for the refueling stop. The plane landed in Fairbanks, refueled, and continued to"
         },
         {
           "reason": "no_football_context",
-          "postId": "2122463627487719577",
-          "author": "buckeyefbl",
-          "text": "@TheHoody27 Momentum flipped three times in the Northwestern game. All times Ohio State responded."
+          "postId": "2122568743586857311",
+          "author": "danny_mancini97",
+          "text": "Declan Rice. 2031. 🐐 The best midfielder in the world has committed his best years to The Arsenal❤️ It’s not done… go get us that Champions League 🏆 https://t.co/CQvZHKdlc9"
         },
         {
-          "reason": "list_post",
-          "postId": "2122463622110773262",
-          "author": "alabamavocfb",
-          "text": "Will Alabama DROP in the CFP?! | Chattanooga Week &amp; RB Recruiting / Alabama Crimson Tide LIVE 116 w/ @JacksonVOCFB &amp; @OnlyTalkSports - Chattanooga week - Nigel Newkirk flips to Ohio State - Where will bama be ranked?! https://t.co/x"
+          "reason": "no_football_context",
+          "postId": "2122527233332109616",
+          "author": "daznfootball",
+          "text": "🚨 DECLAN RICE COMMITS HIS FUTURE TO ARSENAL. ❤️🤍 The Gunners have reached an agreement with the England midfielder over a new five-year contract running until June 2031. (Source, @TheAthleticFC) https://t.co/GLITvt34w2"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2122444655954714686",
+          "author": "lytieulai",
+          "text": "@youngvik5 Can anyone doubt it? Rice smiling in that Arsenal shirt makes this 2031 commitment feel absolutely massive"
         }
       ],
       "stats": {
-        "candidates": 12,
-        "accepted": 1,
-        "rejected": 11,
+        "candidates": 13,
+        "accepted": 0,
+        "rejected": 13,
         "reasons": {
-          "no_football_context": 6,
-          "roundup_too_long": 1,
-          "no_commit_event": 1,
-          "list_post": 1,
-          "juco_or_transfer": 1,
-          "player_missing_class_year": 1
+          "other_sport": 2,
+          "no_football_context": 11
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 12,
+      "rejectedCandidates": 18,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-17T06:14:37.888Z"
+    "status rebuilt locally from current store on 2026-11-17T06:29:27.672Z"
   ]
 }
