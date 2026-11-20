@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T09:14:16.691Z",
+  "generatedAt": "2026-11-20T09:29:21.020Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,7 +7,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-20T09:14:15.838Z",
+    "at": "2026-11-20T09:29:20.350Z",
     "jobsTotal": 162,
     "sweptThisRun": 21,
     "requests": 21,
@@ -30,15 +30,20 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [],
+  "staleSchools": [
+    {
+      "id": "wake-forest",
+      "hours": 2.2
+    }
+  ],
   "liveStaleness": {
-    "medianHours": 0.7773269444444444,
-    "p95Hours": 1.9856872222222222,
-    "worstHours": 1.9856872222222222
+    "medianHours": 0.7812213888888889,
+    "p95Hours": 1.7520063888888888,
+    "worstHours": 2.2368894444444445
   },
   "decisionCoverage": {
-    "total": 22,
-    "decided": 22,
+    "total": 16,
+    "decided": 16,
     "complete": true
   },
   "pending": {
@@ -47,7 +52,7 @@
   "profileResolution": {
     "cached": 111
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4983,
     "incompleteOffers": 0
@@ -55,31 +60,31 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-20T09:14:15.801Z",
-      "got": 37,
-      "new": 22,
-      "lag": 0.08
+      "at": "2026-11-20T09:29:20.331Z",
+      "got": 24,
+      "new": 16,
+      "lag": 0.51
     },
     "search:commit": {
-      "at": "2026-11-20T09:14:15.837Z",
-      "got": 8,
-      "new": 3,
-      "lag": 0.18
+      "at": "2026-11-20T09:29:20.350Z",
+      "got": 9,
+      "new": 2,
+      "lag": 1.81
     }
   },
   "audit": {
-    "at": "2026-11-20T09:12:41.436Z",
+    "at": "2026-11-20T09:27:48.853Z",
     "mode": "live",
     "collection": {
-      "returned": 37,
-      "kept": 22,
-      "duplicate": 12,
-      "tooOld": 3,
+      "returned": 24,
+      "kept": 16,
+      "duplicate": 7,
+      "tooOld": 1,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 18,
+      "accepted": 12,
       "rejected": 4,
       "reasons": {
         "no_offer_term": 4
@@ -87,168 +92,125 @@
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2123416252920299751",
-          "author": "afrinxai",
-          "searchJob": "coastal-carolina",
-          "text": "Prompt Ultra realistic cinematic high-fashion aquatic editorial portrait of a breathtakingly beautiful young woman with long, wet, voluminous chestnut-brown hair dramatically swept upward and flowing through the air, captivating hazel eyes,"
+          "postId": "2123700053734736082",
+          "author": "biguniverseplus",
+          "searchJob": "wake-forest",
+          "text": "me: \"this shit is insane, this shit is insane, this shit is literally the game that you dream will exist in the future\" ~ +"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123226753644511389",
-          "author": "afrinxai",
-          "searchJob": "coastal-carolina",
-          "text": "Prompt: Ultra realistic cinematic black-and-white luxury fashion portrait of a beautiful young woman with voluminous glossy black curls cascading over one shoulder, wearing a dramatic wide-brimmed black hat partially shadowing her eyes, bol"
+          "postId": "2123693551938920896",
+          "author": "jogg_ai",
+          "searchJob": "wake-forest",
+          "text": "Create original animated GIFs from a simple text prompt. Explore five ideas, ready-to-use prompts, and practical tips for smoother loops, consistent characters, and more engaging social content. https://t.co/ZtZE2PuPcC"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123435570143646051",
-          "author": "sariarhohavren",
-          "searchJob": "toledo",
-          "text": "Yes, and that's why Europe is building an alternative."
+          "postId": "2123263653457862742",
+          "author": "nadiaa_aisyah",
+          "searchJob": "wake-forest",
+          "text": "https://t.co/qLFBTP41pT"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123198154975703220",
-          "author": "sarobertson_",
-          "searchJob": "toledo",
-          "text": "Mark Carney: \"We have seen cases, including in Ukraine, where a dependence on Starlink or Starshield has gone from being an advantage to a huge vulnerability like that. You can't unsee that once you've seen it.\" https://t.co/dKXnrboK1q"
+          "postId": "2123492600762241130",
+          "author": "jessisajew",
+          "searchJob": "wake-forest",
+          "text": "My amazing friend debated Myron Gaines at UCLA and absolutely chewed him up and spat him out 💥 https://t.co/WUA2k5UCBB"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 18,
+      "rejected": 12,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 8,
-        "multiple_resolved_schools": 2
+        "school_not_resolved_confidently": 11,
+        "bare_mention_requires_llm": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123695974992261220",
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123702575899779072",
+          "author": "biguniverseplus",
+          "searchJob": "wake-forest",
+          "text": "build a table with my girl~ we race for part of it, joking together the whole time then a montage of our daily lovely life at home we wake up* i chose to wait around til she finished breakfast to offer her a ride to work WAYNE WONDER \"NO LE"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123700094935384318",
+          "author": "tpartoon",
+          "searchJob": "wake-forest",
+          "text": "Voting for Rupert Lowe's Restore just opens the door for Labour or in this case the Tories. The Tories, Restore and the Lib Dems campaign was to stop ReformUK not much else offered. WAKE UP people Restore is a wasted vote. ☹️☹️☹️ https://t."
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123698691961676125",
+          "author": "toluwxnimi",
+          "searchJob": "wake-forest",
+          "text": "@h0esluvliz everyday i wake up wishing someone would just offer to take a walk all over my back fr 😭"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123687438383976627",
+          "author": "mmenyene_c",
+          "searchJob": "wake-forest",
+          "text": "Have you ever imagined a scenario where you wake up one morning, need to make an urgent payment, and decide to withdraw some crypto from your exchange. Then you see a notification: Withdrawals temporarily suspended. Your money is there, but"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123686590744531111",
+          "author": "cbeddings42649",
+          "searchJob": "wake-forest",
+          "text": "📲 ORDER VIA WHATSAPP: +234 816 204 4013 +234 805 936 9214 ⏳ Don't miss out! Shop before the offer expires! CORNERSTONE BEDDINGS; Sleep Better. Wake Stronger. Live Healthier! ❤️ #CornerstoneBeddings #EmberMonthSales #MattressDealsNigeria #S"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123685174949142697",
+          "author": "kasmosd1",
+          "searchJob": "wake-forest",
+          "text": "Just You and Me Within a room of purest white, Where ivory curtains frame the night, The moonlight falls upon their bed, And silver dreams surround their heads. Her flowing hair upon his chest, Her loving arms become his rest. His fingers g"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123682268593938738",
+          "author": "nebulamoonie",
+          "searchJob": "wake-forest",
+          "text": "Wonwoo's character, Observer of the City, occupies a very different position. He enters people's shallow dreams and offers them peaceful sleep, eventually confronting Jeonghan's character and trying to bring him back to reality. The audiobo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123682133617131957",
+          "author": "fine_printco",
+          "searchJob": "wake-forest",
+          "text": "@codedbruhh @JuiceGaffer You guys low self-esteem is so tremendous that you believe you have to get a good car and crib to get a broke woman, same woman who doesn't have anything to offer you? When will you guys wake the f*k up???"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123679639293841748",
+          "author": "mahsa_zamany",
+          "searchJob": "wake-forest",
+          "text": "All this pain and injustice can end — if we wake up and truly, from the bottom of our hearts, ask God for the Promised Savior. Come on, let's all turn to God together and offer urgent supplication from the depths of our hearts. https://t.co"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123679320988336480",
+          "author": "petersavodnik",
+          "searchJob": "wake-forest",
+          "text": "She did a superb job. She held her ground -- even as he lobbed slurs at her, even after the crowd (the mob?) turned against her. I see no one online posting anything about this woman being \"microaggressed\" or just aggressed. So be it. That'"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123676573224010071",
           "author": "arnaudmercier",
-          "searchJob": "charlotte",
-          "text": "<p class=\"wp-block-paragraph\"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, <a href=\"https://t.co/cd1zw3IHNv\">sign up here</a>.</em></p> <p class=\"wp-block-pa"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123702968964751443",
-          "author": "sp_commercial",
-          "searchJob": "coastal-carolina",
-          "text": "✨NEW PRICE✨ ISLE OF ANGLESEY - ESTABLISHED BISTRO AND APARTMENT This property is located on the Isle of Anglesey in the village of Benllech which offers stunning views of the Great Orme and Snowdonia. It is hugely popular with tourists visi"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123698401309290940",
-          "author": "gitobukiogora",
-          "searchJob": "coastal-carolina",
-          "text": "For coastal communities,changes are now beginning to reshape how residents view the ocean and the opportunities it offers as Blue Economy Successes by President Ruto’s government become more evident.#WorldFisheriesDayKenya Havi,Ken wa Maria"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123695085774606560",
-          "author": "hpc_consultancy",
-          "searchJob": "coastal-carolina",
-          "text": "Securing a 64,946 m² strategic development site in Málaga offers institutional investors scarce coastal scale at €1,427/m² amid strong appreciation and corporate inflows. #RealEstateInvestment #Malaga #Andalusia #DevelopmentLand #Institutio"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123680242115977614",
-          "author": "afrinxai",
-          "searchJob": "coastal-carolina",
-          "text": "prompt Ultra realistic cinematic sunset fashion portrait of a beautiful young woman with long, flowing dark chocolate-brown hair styled in soft natural waves, gently swept by the evening breeze, deep brown almond-shaped eyes, delicately arc"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123677725495902258",
-          "author": "aroundgreece",
-          "searchJob": "coastal-carolina",
-          "text": "A Little Slice of Paradise on the Kassandra Coast Halkidiki has no shortage of beautiful beaches, but Glarokavos in Kassandra has something a little different about it. With pale sand, clear turquoise water and a distinctive lagoon setting,"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123704933404848377",
-          "author": "bedenke",
-          "searchJob": "toledo",
-          "text": "@Miriambendavid 2004 Israel offered peace go out of Gaza. Jihadists, 80% of Gaza's population, didn't want it Tensthousands of rockets fired at Israel. 1,200 Israelis executed on October 7, 2023 Over 200 Israelis abducted and killed. https:"
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123697627808039041",
-          "author": "sariarhohavren",
-          "searchJob": "toledo",
-          "text": "I see a lot of post replies telling that Europe has no capabilities, no engineers, and no alternatives to SpaceX Starshield that are being built. All this is inaccurate. In addition to more bureaucratic projects, IRIS² and Eutelsat OneWeb, "
-        },
-        {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123690638004895832",
-          "author": "bedenke",
-          "searchJob": "toledo",
-          "text": "@Islamic_2_0_2_2 2004 Israel offered peace go out of Gaza. Jihadists, 80% of Gaza's population, didn't want it Tensthousands of rockets fired at Israel. 1,200 Israelis executed on October 7, 2023 Over 200 Israelis abducted and killed. https"
+          "searchJob": "wake-forest",
+          "text": "<p class=\"wp-block-paragraph\">When the <a href=\"https://t.co/HFF93AXTSi\">Chinese firm DeepSeek</a> dropped a <a href=\"https://t.co/2W1vrIgJ2M\">large language model called R1</a> last week, it sent <a href=\"https://t.co/GSNX7MyWSv\">shock wav"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123680244133777465",
-          "author": "bncdotph",
-          "searchJob": "toledo",
-          "text": "PAX SILICA: WHO GETS TO DECIDE? Joining the Pax Silica Initiative does not necessarily require Senate approval, but agreements involving specific lands offered to foreign investors could raise more complex legal questions. On #ABOGADO, Bali"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123679129044443138",
-          "author": "von_herren",
-          "searchJob": "toledo",
-          "text": "NATO unveils launch brokerage initiative. The North Atlantic Treaty Organization is contracting commercial rockets and spaceports to grow its satellite launch network and help neutralize risks to the space systems on which it relies, Bloomb"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123695962740670596",
-          "author": "nickyb416",
-          "searchJob": "troy",
-          "text": "The key thing with gold trading is that not every instrument tracking gold works the same way. The difference matters more than many people realise. There are three common ways to get gold exposure: ➺ Gold CFDs: These are contracts based on"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2123672835713544637",
-          "author": "susan_dupres",
-          "searchJob": "washington-state",
-          "text": "Washington State WASTEWATER SURVEILLANCE Chlamydia and Syphilis Bacteria Found in Washington Sewage, but State Has No Plans for Routine Testing Nov. 19, 2026 Washington state health officials have shown that sewage can be tested for the bac"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2123705303397249071",
-          "author": "bigbehargiacomo",
-          "searchJob": "michigan",
-          "text": "Urgent concern: France's Riots Are a Warning About the Islamist–Far-Left Alliance Taking Shape in America - Adam Mill France’s experience with Islamist entryism and far-left alliances raises concerns about similar movements gaining institut"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123697985083109858",
-          "author": "kehliae",
-          "searchJob": "michigan",
-          "text": "My wife and I [MF] spent the weekend with another couple [MF] and had an accidental night time mix-up. Last year, my wife, Lily, and I were invited by another couple to stay in their family cabin in rural Michigan. The couple, Alice and Rob"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123698365833572611",
-          "author": "th3boywonders",
-          "searchJob": "minnesota",
-          "text": "*SOME NIGERIAN NEWSPAPER HEADLINES, 20/11/2026* First Lady raises N25.6b, seeks additional N70b to complete National Library IG to healthcare providers: treat gunshot victims without police report Fed Govt to harmonise 2026, 2027 budgets Na"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123695350284181703",
-          "author": "terrabis",
-          "searchJob": "missouri",
-          "text": "Your Missouri medical card, sorted: $55 through Leafwell with code TERRABIS40. Offer runs through Nov 23. https://t.co/qZ9lbXj1To https://t.co/WBuVz0vjrZ"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123680256045224053",
-          "author": "terrabis",
-          "searchJob": "missouri",
-          "text": "Code TERRABIS40 = $55 Missouri medical card through Leafwell. Offer ends Nov 23. https://t.co/qZ9lbXj1To https://t.co/mMAY3D131I"
+          "postId": "2123689567920230512",
+          "author": "9news",
+          "searchJob": "colorado-state",
+          "text": "\"Fresh Air Friday\" offers free entry to all of Colorado's 43 state parks the day after Thanksgiving. https://t.co/vWzCBGpCFX"
         }
       ]
     },
@@ -264,48 +226,35 @@
     "commits": {
       "samples": [
         {
+          "reason": "no_commit_event",
+          "postId": "2123579763432579374",
+          "author": "navysprintfb",
+          "text": "⚓️🏈 Congratulations to the 2027 Sprint Football Firsties on their service selections! Your hard work, dedication, and commitment have led to this incredible milestone. Wishing you all the best as you embark on the next chapter of your serv"
+        },
+        {
           "reason": "roundup_too_long",
-          "postId": "2123697985083109858",
-          "author": "kehliae",
-          "text": "My wife and I [MF] spent the weekend with another couple [MF] and had an accidental night time mix-up. Last year, my wife, Lily, and I were invited by another couple to stay in their family cabin in rural Michigan. The couple, Alice and Rob"
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2123703714427163103",
-          "author": "mediamanint",
-          "text": "Pro Wrestling WWE @WWE SmackDown November 20, 2026 Ford Center Evansville, Indiana Road To Survivor Series: War Games! and Road To John Cena Classic! Long Road To Royal Rumble Media Man: Pumped! Let's F'N Go! Media Man Watercooler Confirmed"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2123532299882926506",
-          "author": "birchprospects",
-          "text": "Congratulations To 2027 Athlete #KyanDavis On His Commitment To Massachusetts’ “Bridgewater State University”! Kyan, I Wish You The Best!! https://t.co/NkVrYtKfjF"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2123604428955537424",
-          "author": "politicsandball",
-          "text": "@mtnycz @Larshields @yashar @scott_colom 76% of the Memphis population is black. So, let’s assume all things equal. 5/100 people are victims of theft committed by a black person in Memphis (usually robbing another black person). At least 1 "
+          "postId": "2123532311375315332",
+          "author": "finsee_main",
+          "text": "$GAP Q3 2026 earnings: Gap Inc.'s profit rose, but it now plans flat sales Gap Inc., the owner of Old Navy, Gap and Banana Republic, earned more while its sales hardly moved. Sales rose 2%, while profit per share excluding one-offs grew far"
         }
       ],
       "stats": {
-        "candidates": 4,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 4,
+        "rejected": 2,
         "reasons": {
-          "roundup_too_long": 1,
-          "other_sport": 1,
-          "no_football_context": 2
+          "no_commit_event": 1,
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 18,
+      "rejectedCandidates": 12,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-20T09:14:16.692Z"
+    "status rebuilt locally from current store on 2026-11-20T09:29:21.020Z"
   ]
 }
