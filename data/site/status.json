@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T01:42:35.559Z",
+  "generatedAt": "2026-11-20T01:59:10.438Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-20T01:42:34.949Z",
+    "at": "2026-11-20T01:59:09.592Z",
     "jobsTotal": 162,
-    "sweptThisRun": 3,
-    "requests": 4,
-    "fullSweepCycles": 54
+    "sweptThisRun": 21,
+    "requests": 21,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,71 +32,59 @@
   },
   "staleSchools": [
     {
-      "id": "georgia-tech",
-      "hours": 2.4
+      "id": "georgia-southern",
+      "hours": 2.3
     },
     {
-      "id": "houston",
-      "hours": 2.4
+      "id": "georgia-state",
+      "hours": 2.3
     },
     {
-      "id": "iowa-state",
-      "hours": 2.4
+      "id": "hawaii",
+      "hours": 2.3
     },
     {
-      "id": "new-mexico-state",
-      "hours": 2.4
+      "id": "jacksonville-state",
+      "hours": 2.3
     },
     {
-      "id": "north-texas",
-      "hours": 2.4
+      "id": "james-madison",
+      "hours": 2.3
     },
     {
-      "id": "northern-illinois",
-      "hours": 2.4
+      "id": "notre-dame",
+      "hours": 2.3
     },
     {
-      "id": "ohio",
-      "hours": 2.4
+      "id": "san-jose-state",
+      "hours": 2.3
     },
     {
-      "id": "old-dominion",
-      "hours": 2.4
+      "id": "south-alabama",
+      "hours": 2.3
     },
     {
-      "id": "oregon-state",
-      "hours": 2.4
-    },
-    {
-      "id": "rice",
-      "hours": 2.4
-    },
-    {
-      "id": "sam-houston",
-      "hours": 2.4
-    },
-    {
-      "id": "san-diego-state",
-      "hours": 2.4
+      "id": "uconn",
+      "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.0015433333333332,
-    "p95Hours": 2.438781111111111,
-    "worstHours": 2.438781111111111
+    "medianHours": 1.0229380555555556,
+    "p95Hours": 2.2566366666666666,
+    "worstHours": 2.2566369444444443
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 58,
+    "decided": 58,
     "complete": true
   },
   "pending": {
-    "total": 135
+    "total": 136
   },
   "profileResolution": {
     "cached": 111
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 3,
   "quality": {
     "completeOffers": 4976,
     "incompleteOffers": 0
@@ -104,139 +92,420 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-20T01:42:34.949Z",
-      "got": 11,
-      "new": 9,
-      "lag": 0.34
+      "at": "2026-11-20T01:59:09.536Z",
+      "got": 90,
+      "new": 58,
+      "lag": 0.03
     },
     "search:commit": {
-      "at": "2026-11-20T01:29:08.344Z",
-      "got": 62,
+      "at": "2026-11-20T01:59:09.592Z",
+      "got": 51,
       "new": 20,
-      "lag": 0.8
+      "lag": 0.51
     }
   },
   "audit": {
-    "at": "2026-11-20T01:42:20.410Z",
+    "at": "2026-11-20T01:57:41.549Z",
     "mode": "live",
     "collection": {
-      "returned": 11,
-      "kept": 9,
-      "duplicate": 2,
+      "returned": 90,
+      "kept": 58,
+      "duplicate": 32,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 3,
+      "accepted": 17,
+      "rejected": 41,
       "reasons": {
-        "no_fbs_school": 2,
-        "no_offer_term": 1
+        "no_fbs_school": 20,
+        "no_offer_term": 8,
+        "non_fbs_offer_target": 12,
+        "hard_negative": 1
       },
       "samples": [
         {
           "reason": "no_fbs_school",
-          "postId": "2123581723112018202",
-          "author": "montroseal",
-          "searchJob": "colorado",
-          "text": "@Robertoortega88 @goavs1985 Just help you out. Your guy who I loved as a player in Colorado dinked around too long on contract offers and he was sent packing"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123569730225402286",
-          "author": "logan_haddon28",
-          "searchJob": "colorado",
-          "text": "After a great conversation with @Coach_OKuntz, I’m blessed to receive an offer to play for Colorado School of Mines @MinesFootball @CoachBobStitt @RecruitBixbyFB @BixbySpartanFB @brian_douglas1 https://t.co/t363g4ZfSZ"
+          "postId": "2123580288123248642",
+          "author": "billkoch25",
+          "searchJob": "houston",
+          "text": "Houston Christian level in the 38th minute. Poor corner played by Bryant offers a chance to counterattack. Marcos Moore stopped on a fine save by Ramon Camejo, but Luca Pintus buried the rebound into the empty net. It's 1-1."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123578803348021741",
+          "postId": "2123579848450777169",
+          "author": "stevepbets",
+          "searchJob": "houston",
+          "text": "https://t.co/atN8pd3Agi"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2123574546762707004",
+          "author": "agedits32",
+          "searchJob": "phrase:\"picks up an offer from\"",
+          "text": "JUCO OL Christopher Riley picks up an offer from Chicago State 📈 @Christo_Riley 6’4” • 300 | Dodge City CC OT / IOL Coaches, find his profile and film on Player Map ⬇️ https://t.co/09ZBfOW0R6"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123590843109884068",
+          "author": "mark__porter",
+          "searchJob": "ohio",
+          "text": "Keep up with the latest offer in Ohio. @GraysonHalky @jaxmags_11 @SethBowen55 @CharlesPetril @Antonio30Ball @LandonHoover79 @JeffriesDerric8 @JacksonSmith_7 @KobeLewis004 @ArtezW2027 https://t.co/fHw3ggks0f"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123571118711943265",
+          "author": "mark__porter",
+          "searchJob": "ohio",
+          "text": "Keep up with the latest offers in Ohio. @JohnathanQ_7 @iiRexTall_21 @Ryansiler01 @stefinne16 @kashjordan7 @cordell_ball2 @DakotaJ20555 https://t.co/iepJS3jmg0"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123570449141612804",
+          "author": "baumhogge_",
+          "searchJob": "old-dominion",
+          "text": "#AGTG ‼️Blessed to receive District Defensive Player of the Year‼️ @Coach__Seiler @CoachHSims @RickyRahne @ODUFootball @StevieFBALL @Coach_Baum https://t.co/X8MoFpnSBi"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123586931397107752",
+          "author": "christinedarg",
+          "searchJob": "rice",
+          "text": "https://t.co/ie6tFu4fzv"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123577300960915648",
+          "author": "jerkass10",
+          "searchJob": "rice",
+          "text": "Rice at Temple isn't the greatest college football matchup ever..... But it will better than anything the NFL has to offer"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123571859346354430",
+          "author": "frostidisnow",
+          "searchJob": "rice",
+          "text": "@MindisCharting @pprxteam @LeviatanGG It's the best sea team has to offer against a defending world champion who were a bunch of cracked kids"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123593190515347886",
+          "author": "davewolfingerqb",
+          "searchJob": "class:2026",
+          "text": "And other well deserved offer at Grossmont! Some of the best defenders in the country. Iron sharpens iron. I am grateful for the opportunity to help our defense get better this year. GHouse for life!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123592404339130684",
+          "author": "davewolfingerqb",
+          "searchJob": "class:2026",
+          "text": "And another D1 offer at Grossmont! They keep coming for the best defense in our division!"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123591498033979498",
+          "author": "davewolfingerqb",
+          "searchJob": "class:2026",
+          "text": "@TitusToilolo @GhouseGriffinFB @djHeartAttak @CoachBurhop @Bigchess52087 @JamilSiegmund1 @RaymondToilolo Thanks for making me better this year! Congrats on the offer! We had the best secondary in the league this year."
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123590192531755219",
+          "author": "changmyung1981",
+          "searchJob": "class:2026",
+          "text": "🧬🔥 What if fat cells have a molecular brake that prevents them from burning stored lipids—and removing that brake could protect against obesity, insulin resistance, and fatty liver disease? A new study in Cell Communication and Signaling "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123567386649370890",
+          "author": "bobina_council",
+          "searchJob": "class:2026",
+          "text": "📋 Bobina Council Observation Report #203 📅 Friday, November 20, 2026 - 12:01 AM UTC 👥 Council Activity Vibe dominated the last 24 hours with a mix of passive fact drops and direct back-and-forths. He fed me a bunch of lore on https://t.c"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123562647882707069",
+          "author": "np4football_ot",
+          "searchJob": "class:2026",
+          "text": "Joseph 'Joe' Hampton II-LB-2026-AL @thee_joehamp_9 Trading Card #5 🃏 @BamaStateFB Commit 🔒 Edge/LB with a motor that doesn't quit 💪 #HiddenGem #BamaState #SWAC #HBCUFootball #CFB"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123558310532325860",
           "author": "hotbets365",
-          "searchJob": "duke",
-          "text": "https://t.co/LVP95mCH8L"
+          "searchJob": "class:2026",
+          "text": "https://t.co/CDSyg9vtm5"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2123570486454239645",
+          "author": "easton_parnell",
+          "searchJob": "alabama",
+          "text": "Blessed to receive an offer from West Alabama! @KalebJ72 @CoachYeah @coachbjohns1 @CoachBennum @CoachCole01 @CoachFarmer_08 @CoachFarris_ @ThePortFootball @jswill2003 @uwa_football https://t.co/p2nBj6fOuN"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123595406290333947",
+          "author": "jkillajeremy",
+          "searchJob": "arkansas",
+          "text": "@TradeRumors_NBA Love how yall never know the actual offer"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2123566326384038134",
+          "author": "frank_brown23",
+          "searchJob": "arkansas",
+          "text": "Blessed to receive an offer from Arkansas Baptist @abc_football @CoachMyers24 @ubring @CoachKennedyECC @CoachEricDixon https://t.co/Ct35zju3yF"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2123596595245764824",
+          "author": "ellissjohnsonn",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "BLESSED TO RECEIVE AN OFFER FROM POST UNIVERSITY 💜🧡 @CoachMikeDay @post_fb @Red_Raven_FB https://t.co/ESC38qZeXu"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123596575863603645",
+          "author": "brayhill10",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from the Flying Dutchmen. Thank you @CoachThompsonCT for the opportunity! https://t.co/kv0OHE2PfG"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123596454300373133",
+          "author": "sbflexo",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "@CoachWillert @CoachJimmy51 @CoachBryant14 @Coach_KelzHayes @BlueChip_NC @ElonFootball @coachjfranklin @CoachHughes22 Blessed to receive an offer!! to play at the next level @Methodist_FB @CoachHughes22 @CoachWillert @coachajhall @Coach_Bea"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123596412906799440",
+          "author": "karsonbauert",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive another offer from @CapitalU_FB after a conversation with @CoachKea2!! https://t.co/LYzTS38sLc"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2123596009368343014",
+          "author": "eligarcia_5",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive my first offer from Angelo State University! @NCAATrackField @KaleSteed @CoachWhiteDB1 @AngeloState @AngeloTFXC @angeloathletics https://t.co/U1HSEDxETi"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 17,
       "reasons": {
-        "bare_mention_requires_llm": 5,
-        "multiple_resolved_schools": 1
+        "bare_mention_requires_llm": 11,
+        "multiple_resolved_schools": 4,
+        "school_not_resolved_confidently": 1,
+        "unresolved_offer_target": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123576996114702478",
-          "author": "mlbpipeline",
-          "searchJob": "colorado",
-          "text": "The #WhiteSox are acquiring a pair of prospects from the #Rockies in exchange for Davis Martin and Luis Castillo, per @JeffPassan. Here's what Colorado has to offer in terms of prospects: https://t.co/V7nOTJIzhL https://t.co/vXJ6WqArvU"
+          "postId": "2123585395577479615",
+          "author": "renee980l",
+          "searchJob": "houston",
+          "text": "WTS Three (3) StrayKids VIP Tickets For Jun 05 2027 @Reliant Stadium—Houston,TX Comes with all benefits. Comment or DM if interested Can offer further proof of tickets if needed #StrayKidsWorldTour #StrayKidsTickets https://t.co/7UUoTZEyWr"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123583148931837996",
+          "author": "cliffsaunders01",
+          "searchJob": "houston",
+          "text": "🤖 AI can help you search for a home... but it can't write your offer. 🏡 Price, closing costs, repairs, timing: that's strategy. Build your team first. 💪 💬 Reply \"TEAM\" or grab my free buyer's guide 👉 https://t.co/Rd1mx7VPyu #RealEstate"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123582056160538660",
+          "author": "texasmadde",
+          "searchJob": "houston",
+          "text": "1865, 1871, 1874, 1878 - The Expanse of Heaven: A Series of Essays on the Wonders of the Firmament - In 4 VOLUMES - 1,532 PAGES - Saturn & Its System, & The Sun: Ruler, Fire, Light, & Life of the Planetary System, The Moon: Her Motions, Asp"
         },
         {
           "reason": "multiple_resolved_schools",
-          "postId": "2123587632705773874",
-          "author": "tb424",
-          "searchJob": "duke",
-          "text": "Don’t let @ADavidHaleJoint and @aadelsonESPN lead you to believe Manny wouldn’t have been at FSU if offered the job. It’s well known he really wanted the job. Dickert and Wake are better off, Manny and Duke are better off and FSU will be mu"
+          "postId": "2123575840944329063",
+          "author": "knowuniversee",
+          "searchJob": "houston",
+          "text": "WTS stray kids lowerbowl tickets in houston 06/05 want face value or best offer accept paypal (buyer pays the fees) ,apple cash, cashapp &amp; willing to ft comment or dm me if interested!! tags: skz world tour reliant stadium iso texas wtt"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123568121474900301",
-          "author": "rhodeschord",
-          "searchJob": "duke",
-          "text": "I am only passingly aware of left lit and because of that I Feel like I'm constantly seeing press that's like \"In her new book Deadly Equilibria, Vera Quinto-Degroot offers a reappraisal of suicidal depression and self harm as revolutionary"
+          "postId": "2123574648403083615",
+          "author": "houstonwolvessc",
+          "searchJob": "houston",
+          "text": "MLS CUP PLAYOFFS – EXCLUSIVE WOLVES OFFER! Houston Dynamo vs. San Jose Earthquakes Saturday, November 28 1:30 PM Shell Energy Stadium FREE ticket for eligible Wolves players Discounted tickets for family &amp; friends 📩 Check your email fo"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123589644159778890",
+          "author": "agedits32",
+          "searchJob": "phrase:\"picks up an offer from\"",
+          "text": "JUCO WR Lee Niles picks up an offer from UT Martin 📈 @Lee_Niles0 5’10” • 160 lbs | Georgia Military College Profile and film ⬇️ https://t.co/18AqiOgCG5"
+        },
+        {
+          "reason": "unresolved_offer_target",
+          "postId": "2123594467110519216",
+          "author": "dakotaj20555",
+          "searchJob": "ohio",
+          "text": "After a great conversation with coach @CoachJohnHauser I’m blessed to receive my 3rd offer to the the University of Ohio @CoachConard @AllenTrieu @TomLoy247 @dirk_conner @PerrysburgFB https://t.co/avpaQuUJcu"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123560309936013822",
-          "author": "kwasmanian",
-          "searchJob": "duke",
-          "text": "@Colttoonnnn @robert81706978 The school offered him a scholarship moron. You can’t show much higher interest than that. Or does Duke make a habit of offering scholarships to players they aren’t interested in? LOL please say yes. Just can’t "
+          "postId": "2123591314625446382",
+          "author": "tortugas_1",
+          "searchJob": "ohio",
+          "text": "@DougTweetsALot @CalsNot @Isley23 @clevelanddotcom @mgoul What are you talking about. Ohio State did offer to them, but they rejected Ohio State. Do you live under a rock. How is family bad news. Give details."
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123557997486260237",
-          "author": "kwasmanian",
-          "searchJob": "duke",
-          "text": "@Colttoonnnn @robert81706978 He’s offered a free ride at Duke University and wanted to visit but didn’t. My man. You aren’t making sense now. Hang it up insider."
+          "postId": "2123582714314096717",
+          "author": "jleewalls1",
+          "searchJob": "ohio",
+          "text": "any ohio farmers on here that need a location to evacuate their livestock to? clock is ticking! if we did a space and invited farmers to come offer the soace they have that would be incredible. is anyone coordinating this or are people wait"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123556967075532810",
-          "author": "polo81920",
-          "searchJob": "duke",
-          "text": "@DukeEmpire5 @JenryQuadlebaum Duke offered Black and Henry..."
+          "postId": "2123573537248063885",
+          "author": "wjdiehl",
+          "searchJob": "rice",
+          "text": "#TNFonPrime If there’s another team that wants Shane Steichen if they offer a 10 pound bag of rice or a charitable donation to an organization for Thanksgiving meals next week they can have him now. #Colts #Texans #NFL #nflfootball"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123565341821530281",
+          "author": "ibcdigital13",
+          "searchJob": "rice",
+          "text": "#13News | DBP offer P100-M zero interest loans to rice farmers in Cagayan https://t.co/To11m5hePL"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123595091311046918",
+          "author": "dunnbilly87734",
+          "searchJob": "class:2026",
+          "text": "A magnitude 7.9 earthquake struck the coast of Northern California at 05:12 am Pacific Standard Time on Wednesday, APRIL 18, 1906. With a maximum Mercalli intensity of XI (Extreme), it created high-intensity shaking from Eureka on the North"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123592052651053399",
+          "author": "davewolfingerqb",
+          "searchJob": "class:2026",
+          "text": "Another offer at Grossmont! Best defense in the Southern California. LFG"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123591701533179938",
+          "author": "dunnbilly87734",
+          "searchJob": "class:2026",
+          "text": "A magnitude 7.9 earthquake struck the coast of Northern California at 05:12 am Pacific Standard Time on Wednesday, APRIL 18, 1906. With a maximum Mercalli intensity of XI (Extreme), it created high-intensity shaking from Eureka on the North"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123590587752612115",
+          "author": "dunnbilly87734",
+          "searchJob": "class:2026",
+          "text": "A magnitude 7.9 earthquake struck the coast of Northern California at 05:12 am Pacific Standard Time on Wednesday, APRIL 18, 1906. With a maximum Mercalli intensity of XI (Extreme), it created high-intensity shaking from Eureka on the North"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123575133889523871",
+          "author": "np4football_ot",
+          "searchJob": "alabama",
+          "text": "Christian Harris-DL-2027-AL @ChristianH_50 @UTM_FOOTBALL offer ✅ after a game day visit Card #001 in our Trading Card series 🃏 8 offers and counting 📈 Bama DL with plenty of interest 🔥 #HiddenGem #CFBRecruiting #CFB"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123586400360792242",
+          "author": "jakesbbn",
+          "searchJob": "arkansas",
+          "text": "@JoshWoomfnpig25 @KentuckyNet Yes Arkansas such a lucrative offer https://t.co/WnMEckA52N"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 162,
-      "swept": 3,
-      "failed": 1,
-      "requests": 4,
-      "errors": [
-        "georgia-tech: rate limited"
-      ]
+      "jobs": 167,
+      "swept": 26,
+      "failed": 0,
+      "requests": 26,
+      "errors": []
     },
     "commits": {
-      "samples": [],
+      "samples": [
+        {
+          "reason": "no_commit_event",
+          "postId": "2123562647882707069",
+          "author": "np4football_ot",
+          "text": "Joseph 'Joe' Hampton II-LB-2026-AL @thee_joehamp_9 Trading Card #5 🃏 @BamaStateFB Commit 🔒 Edge/LB with a motor that doesn't quit 💪 #HiddenGem #BamaState #SWAC #HBCUFootball #CFB"
+        },
+        {
+          "reason": "list_post",
+          "postId": "2123546150628213091",
+          "author": "fonsietrader",
+          "text": "$ZONE HAS A 10-YEAR CEREBRAS LEASE. IT ALSO HAS A GOING-CONCERN WARNING. What the new 10-Q shows: - Minnesota AI campus pre-leased to Cerebras for 10 years, Zone owns 79% of the JV - Target: 40 MW of critical IT load by Q2 2027 - $72.9M cas"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123530182111777092",
+          "author": "jcoopsolutions",
+          "text": "$ZONE REVENUE JUMPED 52% YoY. CAN THE AI PIVOT DELIVER? → Revenue rose to $1,375,573 from $904,699, up $470,874. Higher sales at Zone’s Irish cleaning-products subsidiary drove most of the gain. → Zone sold its cleaning business in October."
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123466532705771583",
+          "author": "fnfantasyleeg",
+          "text": "EDGE16: Anthony Smith | Minnesota ⭐⭐⭐ Day 2 talent Board #87 of 456 · Round 3 · Consensus #78 · Data model #409 (EDGE44) · PFF 75.0 (115 of 496) 6'6\" · 285 lbs · Age 23.1 at draft 🏫 Shippensburg High School (Shippensburg, PA), class of 202"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2123442712343163084",
+          "author": "ryanburnsmn",
+          "text": "With a new @247Sports ranking update dropping yesterday, @247Hudson details the changes for some #Gophers commits, including why @david1mack and @kevo_d1 are now four-stars. https://t.co/62D3IktnJY"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123441428739105053",
+          "author": "prisonreform15",
+          "text": "God will punish them in the Lake of FIRE 🔥 🔥 FOR ETERNITY. 🔥 🔥 HELL IS TOO GOOD. FOR IMMEDIATE RELEASE November 19, 2026 Edina / Dakota County, Minnesota Contact: Thomas Evenstad Campaign | @PrisonReform15 EVENSTAD FOR U.S. SENATE BLAST"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123437388911276052",
+          "author": "prisonreform15",
+          "text": "FOR IMMEDIATE RELEASE November 19, 2026 Edina / Dakota County, Minnesota Contact: Thomas Evenstad Campaign | @PrisonReform15 EVENSTAD FOR U.S. SENATE BLASTS DAKOTA COUNTY PROSECUTOR AND COURT OVER HANDLING OF HIS EMAILS — AND CONDEMNS HENNE"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123437208300400766",
+          "author": "prisonreform15",
+          "text": "FOR IMMEDIATE RELEASE November 19, 2026 Edina / Dakota County, Minnesota Contact: Thomas Evenstad Campaign | @PrisonReform15 EVENSTAD FOR U.S. SENATE BLASTS DAKOTA COUNTY PROSECUTOR AND COURT OVER HANDLING OF HIS EMAILS — AND CONDEMNS HENNE"
+        }
+      ],
       "stats": {
-        "candidates": 0,
-        "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "candidates": 21,
+        "accepted": 1,
+        "rejected": 20,
+        "reasons": {
+          "no_commit_event": 1,
+          "list_post": 2,
+          "roundup_too_long": 10,
+          "no_football_context": 5,
+          "other_sport": 2
+        }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 17,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-20T01:42:35.560Z"
+    "status rebuilt locally from current store on 2026-11-20T01:59:10.439Z"
   ]
 }
