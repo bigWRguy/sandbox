@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T23:44:21.802Z",
+  "generatedAt": "2026-11-20T23:59:12.129Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-20T23:44:20.886Z",
+    "at": "2026-11-20T23:59:11.405Z",
     "jobsTotal": 162,
-    "sweptThisRun": 22,
-    "requests": 22,
-    "fullSweepCycles": 8
+    "sweptThisRun": 19,
+    "requests": 19,
+    "fullSweepCycles": 9
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -30,64 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "kentucky",
-      "hours": 2.3
-    },
-    {
-      "id": "lsu",
-      "hours": 2.3
-    },
-    {
-      "id": "maryland",
-      "hours": 2.3
-    },
-    {
-      "id": "memphis",
-      "hours": 2.3
-    },
-    {
-      "id": "miami-oh",
-      "hours": 2.3
-    },
-    {
-      "id": "texas-am",
-      "hours": 2.3
-    },
-    {
-      "id": "tulane",
-      "hours": 2.3
-    },
-    {
-      "id": "tulsa",
-      "hours": 2.3
-    },
-    {
-      "id": "uab",
-      "hours": 2.3
-    },
-    {
-      "id": "ucla",
-      "hours": 2.3
-    },
-    {
-      "id": "usc",
-      "hours": 2.3
-    },
-    {
-      "id": "western-kentucky",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.02555,
-    "p95Hours": 2.2710158333333332,
-    "worstHours": 2.2710158333333332
+    "medianHours": 1.2728630555555556,
+    "p95Hours": 2.0198619444444446,
+    "worstHours": 2.0198619444444446
   },
   "decisionCoverage": {
-    "total": 54,
-    "decided": 54,
+    "total": 44,
+    "decided": 44,
     "complete": true
   },
   "pending": {
@@ -98,307 +49,349 @@
   },
   "paginationBacklog": 3,
   "quality": {
-    "completeOffers": 5012,
+    "completeOffers": 5014,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-20T23:44:20.878Z",
-      "got": 91,
-      "new": 54,
-      "lag": 0.05
+      "at": "2026-11-20T23:59:11.395Z",
+      "got": 103,
+      "new": 44,
+      "lag": 0.03
     },
     "search:commit": {
-      "at": "2026-11-20T23:44:20.885Z",
-      "got": 7,
-      "new": 1,
-      "lag": 5.86
+      "at": "2026-11-20T23:59:11.404Z",
+      "got": 11,
+      "new": 7,
+      "lag": 3.43
     }
   },
   "audit": {
-    "at": "2026-11-20T23:42:47.145Z",
+    "at": "2026-11-20T23:57:38.189Z",
     "mode": "live",
     "collection": {
-      "returned": 91,
-      "kept": 54,
-      "duplicate": 37,
+      "returned": 103,
+      "kept": 44,
+      "duplicate": 59,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 14,
-      "rejected": 40,
+      "accepted": 19,
+      "rejected": 25,
       "reasons": {
-        "no_offer_term": 5,
-        "unclassified_offer_text": 1,
-        "no_fbs_school": 20,
-        "non_fbs_offer_target": 14
+        "no_fbs_school": 15,
+        "non_fbs_offer_target": 4,
+        "hard_negative": 3,
+        "no_offer_term": 3
       },
       "samples": [
         {
-          "reason": "no_offer_term",
-          "postId": "2123889250903175407",
-          "author": "dariandoyle7",
+          "reason": "no_fbs_school",
+          "postId": "2123883533118967811",
+          "author": "jordankwami",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive 1st team all district! #agtg @MikeRoach247 @adamgorney @ChadSimmons_ @Youngbullz22 https://t.co/JjAPqddN90"
+          "text": "Blessed to receive my first offer from lead Prep Academy🙏🙏 @LEADPrepAcad @coach_treyv @troycoltsfball @Troy__Athletics https://t.co/zclHdwIiTq"
         },
         {
-          "reason": "unclassified_offer_text",
-          "postId": "2123889152303481015",
-          "author": "brodyvilla_63",
+          "reason": "non_fbs_offer_target",
+          "postId": "2123883134844555386",
+          "author": "jbrad2009",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive an offere from @OttawaBravesFB thank you @CoachSCDub for the opportunity! @ColumbusFtball @CoachTMcCormick @youareathlete @PrepRedzoneFL https://t.co/4QNE6rBccc"
+          "text": "More than blessed to receive an offer from Hendrix College. Thank you @RussHeidiSLC for the opportunity. https://t.co/SbYqXARALH"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2123882052751970333",
+          "author": "isaiahhilldt",
+          "searchJob": "phrase:\"blessed to receive\"",
+          "text": "Blessed to receive an offer from Henderson State‼️ @Coach_J_Morgan @BallCoachNelson @CoachGuillot @CoachCollins_1 @CatchitPat @NCDAWGPOUND @JuCoFootballACE https://t.co/RR9SVujEie"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123888977648455901",
-          "author": "sam_hall55",
+          "postId": "2123881402068263043",
+          "author": "carltonnance2",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my first offer from Culver Stockton! @Coach_Frink @coachreedJHS @Coach_Miller34 https://t.co/wJNGh9S3bu"
+          "text": "I am blessed to receive a offer from @ConcordFootball thank you @HawkMgmt @CUCoachEdwards #YESHUA https://t.co/xU6V4G4DKF"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123888543496024435",
-          "author": "tredarunner27",
+          "postId": "2123880798197792804",
+          "author": "deonjohnson0",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 2nd offer from Bryant and Stratton college @HuntleyAntonio @BobcatXCTF_WI #Recruiting #trackandfeild https://t.co/yDF0JZbn2a"
+          "text": "Blessed to receive an official offer from @EMCCathletics!! Thanks to Coach @CoachLucasEMCC and the entire staff 💪 https://t.co/0BqoPZLKl3"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123888423316619551",
-          "author": "taylorh0202",
+          "reason": "hard_negative",
+          "postId": "2123879033398272424",
+          "author": "vince_wilk22",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive another offer from Southwestern College! @CoachGPalm @PatrickSmith45 @coachjeffers79 @coachwillstraka https://t.co/y2Ep01eZSg"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123888247478845683",
-          "author": "morales_2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am extremely blessed to receive my 6th offer from McPherson College❗️ AGTG🙏 @BSublet @drobalwayzopen @FBA_Sports @twftraining @jlovvorn7 @CoachLeppke @TXPSMedia @LoneStarPrepsTX @TXPrivateFBGuy @tapps247 @MACBulldogsFB https://t.co/UMHVv"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123887557763277235",
-          "author": "rubenlumeus09",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my 12th offer from Andrew college https://t.co/xiZGKlYlrI"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123887382131089673",
-          "author": "mjgreene17",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "After great conversations with @CoachJFisc I’m blessed to receive another offer from McPherson university @LinearMykel @CoachAyeDee https://t.co/zJkqfwkhVA"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123887344650449020",
-          "author": "ostrowski3442",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive another offer from @RockfordUFB!! Thank you so much @CoachHenningRU and the rest of the staff for the opportunity to compete at the next level! https://t.co/naCJn4B60T"
+          "text": "After a great visit and conversation with @CoachNErling51 I am blessed to receive my 3rd division 3 offer to play at the next level at @CUWFB . Go Falcons!! @LWC_KnightFB @EDGYTIM @scottybscout @PrepRedzoneIL @ScoutSync @DeepDishFB @jfederi"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123886980895555607",
-          "author": "marco_behrens56",
+          "postId": "2123876869577625808",
+          "author": "rwilson2027",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to Receive a Divison 2 Full ride Scholarship to play at Lake Erie College Thank you @CoachHearn1 and the Lake Erie staff for putting their trust into me @JuCoFootballACE @JUCOTopTalent https://t.co/i8YuzBgUKm"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123886581765276122",
-          "author": "c_johnsonn22",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "Blessed to receive my second offer from waldorf university!! 💜💪🏽 Thank you @CoachGrayG for the opportunity. The work doesn’t stop here. @LehighSenior_FB @Sean_Downing93 https://t.co/4tWCRoE3cP"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123885769039241612",
-          "author": "d1cjayy5",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I am blessed to receive an offer from Allen university 💙 @CoachQuez_1 @CoachKato97 https://t.co/eRsbMGqGt1"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123885631785107825",
-          "author": "wyattmiller2027",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’ve been blessed to receive my first offer from Emory &amp; Henry University! @Coach_Coburn @coachrjmoreno @AllNOneSports1 @CAAEarlWhite https://t.co/pGwU2Q69ET"
+          "text": "Blessed to receive 2nd Team All Conference🙏🙏 https://t.co/UdSXG6Dzv8"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123885478722343375",
-          "author": "damarkusgr65",
+          "postId": "2123876526496104930",
+          "author": "jayshawncraig",
           "searchJob": "phrase:\"blessed to receive\"",
-          "text": "blessed to receive my first camp invite @youareathlete @PrepRedzoneSC @Rivals_Recruits https://t.co/KpMvtu6pdk"
+          "text": "Blessed to receive an office visit from Alma, thank you coach @CoachP_Alma for the invitation can’t wait to be on campus! https://t.co/KAFrUHTAs3"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123896250298966427",
+          "author": "tateevarts",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with @CoachZacEllison I am grateful to receive an official offer from @DoaneFootball ! @TheChrisRubio @jbertoni61 @CruzARubio @SMC_CorsairFB #bethebest #toetheline https://t.co/Kiz6ZetnmE"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123889366854779021",
+          "author": "don_hull3",
+          "searchJob": "phrase:\"after a great conversation\" offer",
+          "text": "After a great conversation with Coach Korzunowski, I am blessed and honored to receive another scholarship Offer to Kenyon College. @CoachKorz @KenyonFootball @FootballKingpin @SalesianFB https://t.co/okfW2F1Hoq"
+        },
+        {
+          "reason": "non_fbs_offer_target",
+          "postId": "2123903563357360523",
+          "author": "kenyada_b",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "blessed and grateful to announce that I have received an OFFICIAL 2027 football scholarship offer from McPherson College! 🏈🙏 Thank you to Coach Fiscus and the entire McPherson coaching staff for believing in me and giving me this opportun"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123903136209547315",
+          "author": "gabesant6",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "After a great call and conversation with @Coachpatwins I am blessed and honored to receive a offer to moorpark college!! Thank you to my lord and savior Jesus Christ!! AGTG!!🙏 @ryanreed50 @chstoads https://t.co/rvFNeirWbL"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123895274900779124",
+          "author": "rylanreed55",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "blessed to announce my 24th offer to Mcpherson college! @LetoFalconsFB @CSAPrepStar @SidelinePreps #AGTG https://t.co/z1GoQ2vt3p"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123883717102039474",
-          "author": "taymorehouse7",
-          "searchJob": "phrase:\"blessed to receive\"",
-          "text": "I’m very blessed to receive a game day visit from @CoachKyleSamson @CoachAndersonMT @KodyTorgerson @CoachMAllenFB #rolldiggs https://t.co/L42uNc200o"
+          "postId": "2123911204183974366",
+          "author": "theproducemoms",
+          "searchJob": "kentucky",
+          "text": "I would have paid $25 for the School Food Showdown! Chefs from Taher Inc delivered restaurant-quality meals within @USDA nutrition standards and school budgets. A BIG opportunity for kids, farmers, and communities! @The_MAHA_Center #SchoolM"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2123925852438011908",
+          "author": "mdbaynews",
+          "searchJob": "maryland",
+          "text": "🚨 MONTGOMERY COUNTY SCHOOLS BECOMES FIRST IN NATION TO OFFER BUTTERFLY SYMBOL ON STUDENT IDS FOR DISABILITIES Montgomery County Public Schools announced November 19 that students with visible or hidden disabilities will be able to voluntar"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123895486415282317",
-          "author": "troypodoll",
-          "searchJob": "troy",
-          "text": "@VikeFans Its not even possible they turned down a trade offer only to cut him days later, is it? I cant believe they had an offer and said no."
+          "postId": "2123924953816854720",
+          "author": "toby_lux",
+          "searchJob": "maryland",
+          "text": "📢BOOM! Congrats @meerwallace on your earned offer! Yessir! We just were talking about this you man right! 2027 out of Bullis School in Maryland. Team Captain, STUDENT Athlete, High Character, Track honed explosiveness. Position: CB/FS (WR/"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123923976863027528",
-          "author": "terian11m",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation @coachjenk1 I am blessed to receive an official offer from @MACBulldogsFB #agtg https://t.co/SF7nTPndcf"
+          "postId": "2123896523528261981",
+          "author": "meerwallace",
+          "searchJob": "maryland",
+          "text": "Thankful for the offer opportunity to continue playing ball @FairmontStateFB Appreciate you coach @kwhitehead enjoy your bday!! @salisjackson31 @skylersprings https://t.co/OQMs6SmHrP"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123922995504894207",
-          "author": "kaleblowe_",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "#AGTG!! After a great conversation with @CoachRudyG I’m blessed to receive my 4th d1 offer from the university of Tennessee at Martin @Coach_Griggs @CoachCardwe11 @_CoachBrazell @5StarFBRecruits @247recruiting @RCWarriorsFB https://t.co/BMs"
+          "postId": "2123916433713246656",
+          "author": "ahlbruins",
+          "searchJob": "ucla",
+          "text": "🚨 TOMORROW! 🚨 See real-life superheroes from the Boston Fleet as they drop the puck on Marvel Weekend, as part of Saturday's special Women in Sports festivities! ⭐️ Olympic Gold Medalist, Haley Winn ⭐️ Abby Newhook ⭐️ Ella Huber ⭐️ Taylor"
         },
         {
           "reason": "non_fbs_offer_target",
-          "postId": "2123918284580114848",
-          "author": "caseygarner_09",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachNoel716 I’ve received an offer from Hilbert college ! @CSmithScout @drew_toennies https://t.co/yGYs6ZFz4N"
+          "postId": "2123928006297325952",
+          "author": "jordanybarra21",
+          "searchJob": "phrase:\"received my first offer\"",
+          "text": "After a good conversation with @CoachMoorshead I’m blessed to have received my first offer from Ottawa University @CoachMurphyQB @OUAZFootball @Coach_Berna @Coachfb40Cole https://t.co/SvqvFT0T1o"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123917478283579503",
-          "author": "shamarunderwood",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachPolis I’m blessed to receive my first offer to thiel https://t.co/t22EeZ48r9"
+          "postId": "2123914519734784451",
+          "author": "arceyememphis",
+          "searchJob": "memphis",
+          "text": "Security Services for Commercial Property Management Companies Property management companies have a ton of properties to monitor and upkeep, and the cost of visiting each site can add up quickly. Modern commercial security solutions offer ."
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123917148083175444",
-          "author": "daltonashley77",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Burns, I am blessed to receive an offer from Rockhurst University! #agtg https://t.co/OjWIDE88eg"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123915068060631229",
-          "author": "jervikmaso33805",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachRandle61 I am very grateful to receive an official offer from @DSUFootball!! @DakSt8Football @The_Coach_Fish @PrepRedzoneDAK @NWahlScouting https://t.co/dYfoZTgvrQ"
+          "reason": "hard_negative",
+          "postId": "2123910491055538270",
+          "author": "sebasmedinayhs",
+          "searchJob": "class:2028",
+          "text": "The season ends. The work doesn’t. 🏈 2028 | SS/WR/Special Teams | 6’1 / 170 | GPA : 4.0 / Rank :# 4 | YHS #15 | D3 Offer #prep1athlete https://t.co/Jim30I6pQA"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123914281116950915",
-          "author": "mariomartin2027",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachNateJack I am blessed to receive my offer from @BlinnCollege @MNHS_Football @Coach_KBrewer @CoachStevenson @CoachLaneTX @danwalo1 @CoachJ7 https://t.co/erJDhxMWR8"
+          "postId": "2123925270721634614",
+          "author": "ur_a_smartass_c",
+          "searchJob": "florida",
+          "text": "My GTA 6 Review so far I’ve had a chance to play more of Grand Theft Auto 6, and I’m still impressed and happy with the game. Do I believe the hype was worth it? No. It’s a great game, but I believe much of the hype comes from the fact that"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123911405564793224",
-          "author": "terrellmoorejr",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach @Ballhawk__8, me &amp; my family are happy to announce that I received a scholarship offer to @UNCFootball !!!! #goheels @BruceJ_55 @TomLoy247 @Andrew_Ivins @adamgorney @Andy_Villamarzo @SWiltfong_ @Gre"
+          "postId": "2123914336628617400",
+          "author": "gulf_ultrasound",
+          "searchJob": "florida",
+          "text": "THAT'S A WRAP! DAY TWO OF OUR BLENDED POCUS SCAN WORKSHOP! What a fantastic two days of hands-on ultrasound education at Gulfcoast Ultrasound Institute in St. Petersburg, Florida! A big THANK YOU to all the participants who joined us for ou"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123914290075742364",
+          "author": "disabilityresol",
+          "searchJob": "florida",
+          "text": "In this video, Disability Attorney Walter Hnot of the Disability Resolution Law Firm goes over different legal options that the Democrats control related to changing, overturning, or taxing the Trump $5,000 dividend check. America’s Most Vi"
         }
       ]
     },
     "extraction": {
-      "accepted": 3,
-      "rejected": 11,
+      "accepted": 2,
+      "rejected": 17,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 2,
-        "player_display_name_unusable": 1
+        "multiple_resolved_schools": 6,
+        "bare_mention_requires_llm": 10,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123914294555201716",
-          "author": "profilefblive",
-          "searchJob": "florida-international",
-          "text": "Florida International has extended five new scholarship offers to HS prospects today. @FIUFootball 4.3⭐ 2029 ATH Jaxson Patterson @jaxsonpatt_2 3.5⭐ 2028 WR Robbie Dunn @Robbie3handz 3.4⭐ 2029 RB Terrell Smith @TerrellSmith_29 3.2⭐ 2028 SAF"
+          "reason": "multiple_resolved_schools",
+          "postId": "2123925620543586739",
+          "author": "801bracketology",
+          "searchJob": "kentucky",
+          "text": "Bubble Stock Market🫧 BUY - High Point: A mid-major that looks capable of more than the Big South auto-bid. If it keeps stacking wins, it can play its way into the at-large conversation, and the payoff would be huge. - Notre Dame: The Irish"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123910765807583743",
-          "author": "np4football_ot",
-          "searchJob": "florida-international",
-          "text": "More @ConferenceUSA offers this week: @FIUFootball JUCO OT Cayden Arnold @CaydenArnold1 JUCO OT Michael A Smith II @MichaelSmith25W #FIU #CUSAFB #CFBRecruiting #CFB"
+          "postId": "2123927708854026414",
+          "author": "xwing_dan",
+          "searchJob": "lsu",
+          "text": "@BoardGeniuses ACC’s offer: Go fuck yourselves, LSU"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123920317307613205",
+          "author": "lfifilm_network",
+          "searchJob": "texas-am",
+          "text": "Texas Submits Proposal to Establish the U.S. Space Academy in Houston Connecting human spaceflight expertise with university research and practical training for America AUSTIN, Texas — The Texas Space Commission (TSC) announced that the Sta"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123919316680917086",
-          "author": "agedits32",
-          "searchJob": "fresno-state",
-          "text": "JUCO safety Kamani Jackson adds a Fresno State offer 🐶 @KamaniDooks 6’0” • 185 lbs | College of San Mateo Coaches, profile and film ⬇️ https://t.co/bdMocF0cVz"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123902852661678081",
-          "author": "jucofootballace",
-          "searchJob": "fresno-state",
-          "text": "Kamani Jackson @KamaniDooks @ San Mateo JuCo @CSM_Football picks up @FresnoStateFB Offer @coachTcsm https://t.co/FAhp1J380v"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123885783702736920",
-          "author": "aidyn_ragsdale",
-          "searchJob": "fresno-state",
-          "text": "Aidyn Ragsdale | c/o 2027 | San Joaquin Memorial (Fresno, CA) NCAA ID# 2611224557 Height: 6’1’’ Weight: 215 lbs Wingspan: 75” 🌟 4 OFFERS 🌟 Versitle: ILB, OLB, DE, Interior, Safety Full Highlight Tape: https://t.co/hYTHBCSY0B Email: Aidynr"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123921597870518646",
-          "author": "jd_0421",
-          "searchJob": "troy",
-          "text": "@BryanBroaddus He’d have to be the top football decision maker. Without the ability to be overridden by Stephen, Jerry or the GM they’d hire (I would assume if this position was offered to Troy, that Will would want to go). Could be the sam"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123914286611190049",
-          "author": "idausa",
-          "searchJob": "troy",
-          "text": "Know someone experienced with fearful #dogs? Benny, Angel, Sam, &amp; Troy survived the dog meat trade &amp; have waited 7 years for homes. Your share could connect them with someone ready to offer patience and love. Read more: https://t.co"
+          "postId": "2123925900882587730",
+          "author": "uclastories",
+          "searchJob": "ucla",
+          "text": "@MaizeVictors @e_wolverines29 @Tj_Ronin @StoolWestwood Bitch ass WEIRDO say stupid dumb shit like you can overpay the market by billions 🤣🤣🤣 bitch ass CLOWN if you don’t STFU like I said UCLA can offer him just as much or more than EVERY"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2123890060651360509",
-          "author": "abethea30",
-          "searchJob": "troy",
-          "text": "Came home from school to some Troy 📬!!! Thank you @TroyTrojansSB for the invite. I look forward to learning about Troy and what it has to offer. Go Trojans! ⚔️ @e_newellcoach @ElizabethH_99_ @MackPuck01 @NateTompkins https://t.co/MiJuu2MoP"
-        },
-        {
-          "reason": "player_display_name_unusable",
-          "postId": "2123914161264501059",
-          "author": "twowaylj",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After A Great Conversation With @Ballhawk__8 , Im Blessed To Receive An Offer From THEE University Of North Carolina! @Belichick_B @CTC4CHANGE @RoeFootball_ @GregCTC585 @Itsreallyquan @TomLoy247 @Andrew_Ivins @adamgorney @Andy_Villamarzo @S"
+          "postId": "2123905817879441748",
+          "author": "nopowtay",
+          "searchJob": "ucla",
+          "text": "You think your offer is equivalent to Misa? 1: I think the Misa offer is perfect for Sharks/Detroit Sharks probably add a 2nd and Graff or Kesserling Simon allows them to bring up Verhoeff Simon/Verhoeff Nurse-Pohlkamp Dick-Trouba Trade or "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123915320767213593",
-          "author": "framexin",
-          "searchJob": "kansas",
-          "text": "The Tampa Bay Buccaneers made Bo Jackson the first pick of the 1986 NFL draft and offered him $7.6 million. He said no, signed a $1.07 million baseball deal instead, and mailed the owner a Polaroid of himself giving him the finger. In the v"
+          "postId": "2123914285277708603",
+          "author": "ailanageven",
+          "searchJob": "memphis",
+          "text": "I came to Memphis to explore a possibility. Hayes had every detail covered, Roman showed me LDM, and then he offered me the job. I have some thinking to do. More On Patreon/IG: https://t.co/NakaXyufYB #aiart #career #newbeginnings https://t"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123915382125957520",
-          "author": "auundercover",
-          "searchJob": "auburn",
-          "text": "6-foot-7 Jakai Bickham hoping for Tigers offer https://t.co/C94OI5KqE6 via @AUUndercover"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123907392807243973",
+          "author": "blkmamasmatter",
+          "searchJob": "memphis",
+          "text": "THX, Birth Control Day! Birth control is health care, and choice is the point: access to every method, without pressure or coercion. BMMA’s policy agenda calls for coverage of all FDA-approved methods. Feminist Center &amp; @choices_clinics"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123928711133090167",
+          "author": "l_ortiz81888",
+          "searchJob": "florida",
+          "text": "Update K9 RECON 🐕 IS READY FOR ADOPTION! 🐾⬇️ @OsceolaCountyFL FLORIDA and Osceola County Animal Services had intended EUTHANIZE K9 Recon 🐕 K9 Recon is a Dedicated Retired Law Enforcement Canine 8 Yrs w/ @OsceolaSheriff. He was placed in "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123926293632725489",
+          "author": "blake_alderman",
+          "searchJob": "florida",
+          "text": "A 6-foot-7 EDGE is heading to Gainesville this weekend, and Florida hasn't even offered him yet 👀 What Jon Sumrall's staff is building toward — and why this visit could change everything. Intel: https://t.co/OdFNsp1eCq https://t.co/cd0XYEw"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123926199210823918",
+          "author": "si5nal",
+          "searchJob": "florida",
+          "text": "Good offer unfortunately Philippines has severe weather & poor infrastructures to support SpaceX. Florida remains the best, w/ Australia offering the best international option. If they want to be relevant & have strong ROI, they should ask "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123917794014289920",
+          "author": "joeamabile1",
+          "searchJob": "florida",
+          "text": "Builders are DEALING! 46% cut prices and 68% offered incentives in November. If a new SW Florida home is on your radar, don’t wait for today’s opportunities to disappear. Let’s connect before year-end and see what we can negotiate! https://"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123916129760641319",
+          "author": "the2050mars",
+          "searchJob": "florida",
+          "text": "WHO KNOWS HIM BETTER — HIS TWIN BROTHER OR AI? THE 2050 QUESTION #0022 Mars. Summer. 2050. TWO BROTHERS. TWO WORLDS. Marcus Bennett stood near the open hatch of the spacecraft. Through his sealed helmet, the 41-year-old Mars Surface Systems"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123915802961199425",
+          "author": "rep1exposure",
+          "searchJob": "florida",
+          "text": "🇺🇸 NEW REP 1 ATHLETE SIGNUP! Welcome Kingston Moore, a Class of 2028 DB from Grayson High School (GA), to Rep 1 Exposure! 🏈 Position: DB / Safety 📍 School: Grayson High School (GA) 🎓 Class: 2028 📏 Height/Weight: 5'10\" | 170 lbs 📚 GPA"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123914365615169537",
+          "author": "ivypressroom",
+          "searchJob": "florida",
+          "text": "Q: What community programs do South Florida roofers offer? A: Action Roofing surprised an Army veteran with a free roof on Veterans Day alongside Dolphins alumnus O.J. McDuffie, donating all materials, labor and warranty. https://t.co/dAVnq"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123911516042699194",
+          "author": "marks4774",
+          "searchJob": "florida",
+          "text": "@Cyber_Trailer NICB does not offer tip rewards. Florida does: its Fraud Fighter program (DFS) pays up to $25,000 for info that leads to an eligible insurance-fraud arrest. $ depends on the scheme’s value; DFS decides eligibility. 800-378-04"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123903034929648118",
+          "author": "avensobrien",
+          "searchJob": "florida",
+          "text": "Neither do animals or sick people but also people and things got to get from place to place. So... We deal. I would not be opposed to certain flights or airlines refusing animals or children and having judicious power to refuse seating to v"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123902580460052665",
+          "author": "joeamabile1",
+          "searchJob": "florida",
+          "text": "Builders are DEALING! 46% cut prices and 68% offered incentives in November. If a new SW Florida home is on your radar, don’t wait for today’s opportunities to disappear. Let’s connect before year-end and see what we can negotiate! https://"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 166,
+      "jobs": 169,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -408,27 +401,53 @@
       "samples": [
         {
           "reason": "roundup_too_long",
-          "postId": "2123836919909871701",
-          "author": "hun_football",
-          "text": "🔴⚫ 2027 HUN FOOTBALL PLAYER SPOTLIGHT — COLLIN WALLS ⚫🔴 🏈 @collin_walls | TE | #8 📏 6'5\" | 235 lbs 📍 Fishers, Indiana 🎓 CLASS OF 2027 ⭐⭐⭐ 3-STAR TIGHT END 🦉 COMMITTED TO TEMPLE UNIVERSITY DOMINANT. PHYSICAL. EXPLOSIVE. A COMPLETE TIG"
+          "postId": "2123871847611580508",
+          "author": "boydsbets",
+          "text": "22 things to watch in sports tonight (Friday, Nov 20) TOP 1. Iowa State at UCF, 5:00 CT on FS1 (ISU -1.5, 49.5; opened UCF -1.5 at Circa) -The favorite flipped and the total fell from Circa's 54; UCF starts Barnett at QB with Jenkins (ankle"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2123850933818061266",
+          "author": "ankenyfanatic",
+          "text": ". @Dawsonwhitinger of @AnkenyHawkFB has verbally committed to play for @ToledoFB: https://t.co/l451mVVzim https://t.co/9P2TEoX1F4"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123877363104534587",
+          "author": "confidential_sc",
+          "text": "𝐆𝐚𝐫𝐫𝐞𝐭𝐭 𝐑𝐞𝐬𝐢𝐠𝐧𝐬 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐒𝐭𝐚𝐭𝐞 𝐒𝐞𝐧𝐚𝐭𝐞; 𝐂𝐚𝐥𝐡𝐨𝐨𝐧 𝐅𝐢𝐫𝐬𝐭 𝐢𝐧 𝐟𝐨𝐫 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐄𝐥𝐞𝐜𝐭𝐢𝐨𝐧 By @PrestonBainesSC After months of speculation surrounding the health of District 10 State Sen. Bi"
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2123861130929897576",
+          "author": "williamsupdates",
+          "text": "Williams has called Tulsa home since 1918. Today, we're helping shape its next chapter. We've committed up to $20 million to help transform the @TulsaPAC, marking the largest single community investment in our company’s history. Just steps "
+        },
+        {
+          "reason": "no_football_context",
+          "postId": "2123799568882311250",
+          "author": "tulsapodcast",
+          "text": "@I10troubador @TheMrTulsa Tulsa's commit list: https://t.co/B1nacDoLN3"
         }
       ],
       "stats": {
-        "candidates": 1,
-        "accepted": 0,
-        "rejected": 1,
+        "candidates": 7,
+        "accepted": 2,
+        "rejected": 5,
         "reasons": {
-          "roundup_too_long": 1
+          "roundup_too_long": 2,
+          "reporter_missing_player_name": 1,
+          "no_football_context": 2
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 3,
-      "rejectedCandidates": 11,
-      "brandNewOffers": 3
+      "acceptedEvidence": 2,
+      "rejectedCandidates": 17,
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-20T23:44:21.804Z"
+    "status rebuilt locally from current store on 2026-11-20T23:59:12.130Z"
   ]
 }
