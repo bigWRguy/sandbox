@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:29:52.531Z",
+  "generatedAt": "2026-11-20T12:44:38.049Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,10 +7,10 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-20T12:29:51.634Z",
+    "at": "2026-11-20T12:44:37.200Z",
     "jobsTotal": 162,
-    "sweptThisRun": 21,
-    "requests": 21,
+    "sweptThisRun": 23,
+    "requests": 23,
     "fullSweepCycles": 8
   },
   "backfillCoverage": {
@@ -30,60 +30,15 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "middle-tennessee",
-      "hours": 2.3
-    },
-    {
-      "id": "missouri-state",
-      "hours": 2.3
-    },
-    {
-      "id": "navy",
-      "hours": 2.3
-    },
-    {
-      "id": "nevada",
-      "hours": 2.3
-    },
-    {
-      "id": "new-mexico",
-      "hours": 2.3
-    },
-    {
-      "id": "new-mexico-state",
-      "hours": 2.3
-    },
-    {
-      "id": "north-texas",
-      "hours": 2.3
-    },
-    {
-      "id": "notre-dame",
-      "hours": 2.3
-    },
-    {
-      "id": "unlv",
-      "hours": 2.3
-    },
-    {
-      "id": "utah-state",
-      "hours": 2.3
-    },
-    {
-      "id": "utep",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7887575,
-    "p95Hours": 2.2565155555555556,
-    "worstHours": 2.2565155555555556
+    "medianHours": 1.0347347222222223,
+    "p95Hours": 2.0261577777777777,
+    "worstHours": 2.0261577777777777
   },
   "decisionCoverage": {
-    "total": 9,
-    "decided": 9,
+    "total": 24,
+    "decided": 24,
     "complete": true
   },
   "pending": {
@@ -100,117 +55,223 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-20T12:29:51.613Z",
-      "got": 15,
-      "new": 9,
-      "lag": 0.29
+      "at": "2026-11-20T12:44:37.199Z",
+      "got": 37,
+      "new": 24,
+      "lag": 0.05
     },
     "search:commit": {
-      "at": "2026-11-20T12:29:51.633Z",
-      "got": 23,
-      "new": 5,
-      "lag": 0.45
+      "at": "2026-11-20T12:44:37.199Z",
+      "got": 1,
+      "new": 0,
+      "lag": 10.62
     }
   },
   "audit": {
-    "at": "2026-11-20T12:28:14.554Z",
+    "at": "2026-11-20T12:42:59.089Z",
     "mode": "live",
     "collection": {
-      "returned": 15,
-      "kept": 9,
-      "duplicate": 6,
+      "returned": 37,
+      "kept": 24,
+      "duplicate": 13,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 6,
-      "rejected": 3,
+      "accepted": 15,
+      "rejected": 9,
       "reasons": {
-        "no_offer_term": 1,
-        "non_fbs_offer_target": 1,
+        "no_offer_term": 7,
+        "hard_negative": 1,
         "no_fbs_school": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2123749512128643266",
-          "author": "mikenietzel",
-          "searchJob": "indiana",
-          "text": "Indiana University of Pennsylvania grant means free med school education for first students. #HigherEd https://t.co/VDWPAOnOWC"
+          "postId": "2123758715039813721",
+          "author": "subwayalumlife",
+          "searchJob": "notre-dame",
+          "text": "https://t.co/uvdDNuU1hV"
         },
         {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123751208917815452",
-          "author": "gabebarnett_8",
-          "searchJob": "phrase:\"grateful to receive an offer\"",
-          "text": "Grateful to receive an offer from Christopher Newport University! Thank you @coachatsmith and the CNU staff @cnu_football for believing in me. Thank you to my family and my coaches. #MANTHESHIP https://t.co/Ueeajpv8vA"
+          "reason": "hard_negative",
+          "postId": "2123725872192479275",
+          "author": "teamunion_uk",
+          "searchJob": "notre-dame",
+          "text": "Coimisiún na Meán (Ireland’s media regulator) runs multiple funding schemes that provide grants to news outlets, broadcasters, independent producers, and journalists. These are administered at arm’s length from direct government control, th"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123748786497278176",
+          "author": "precedentdaily",
+          "searchJob": "navy",
+          "text": "In September 1688 a letter from Louis XIV warning that William of Orange meant to invade dropped from James II's hand — after months in which Sunderland, Barrillon, and the rest had kept the king unconscious of the danger. https://t.co/oMpw"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123735262367002798",
+          "author": "optionking666",
+          "searchJob": "texas",
+          "text": "https://t.co/b4ieA9Qndq"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123733024324166047",
+          "author": "optionking666",
+          "searchJob": "texas",
+          "text": "https://t.co/wUJ7m5VSRO"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123731534830289163",
+          "author": "bimtrichy",
+          "searchJob": "texas",
+          "text": "A significant milestone in our journey towards fostering global perspectives and shaping future-ready business leaders. Read more in The Hindu: https://t.co/BgRTLf3Fu1 #BIMTrichy #GlobalAcademicCollaboration #AIForBusiness #AcademicExcellen"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123723575563559384",
-          "author": "htownstringer",
-          "searchJob": "houston",
-          "text": "An 8-year-old child is in critical but stable condition after a crash near the intersection of Federal Road and Maxey Road in East Houston. Police say the child was riding in a black pickup truck that collided with another vehicle near the "
+          "postId": "2123745441909219769",
+          "author": "trumpsmaninaust",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "ALL GLORY TO GOD. ALL GIFTS ARE OFFER FROM OUR FATHER MOTHER SOURCE - INCLUDING THE ELDERS.🙏"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123548734009270527",
+          "author": "iam77neo",
+          "searchJob": "phrase:\"all glory to god\" offer",
+          "text": "🚨 WHEN FIRST CONTACT IS MADE THE EXTRATERRESTRIALS WILL GIVE HUMANITY 5 GIFTS #FirstContact #FreeEnergy #MedBed #Starseed #Antigravity #ChosenOne #Extraterrestrial #HiddenHistory https://t.co/Swe8hHVETQ"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123751602326786284",
+          "author": "charliejhills",
+          "searchJob": "miami",
+          "text": "https://t.co/BHflY4NEsQ"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 6,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 3,
-        "multiple_resolved_schools": 3
+        "bare_mention_requires_llm": 8,
+        "school_not_resolved_confidently": 6,
+        "reporter_missing_player_name": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123735662788542759",
-          "author": "forgottenwildc",
-          "searchJob": "indiana",
-          "text": "Government by Photo Op: When Clueless Politicians Try to Regulate a World They Don't Understand Indiana offers a wonderful example of what happens when government meets technology and government hasn't got the faintest idea what it's doing."
+          "postId": "2123749822041915477",
+          "author": "madguesser",
+          "searchJob": "notre-dame",
+          "text": "@randomduck @VanHollenForMD @SenBlumenthal @Sen_ChrisMurphy If Schumer's not reelected Leader, he can accept Hollywood's offer to star in the remake of \"The Hunchback of Notre Dame\". He won't need make-up or dialog coaching. Charles Laughto"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2123751320419278962",
-          "author": "knowuniversee",
-          "searchJob": "houston",
-          "text": "WTS stray kids lowerbowl tickets in houston 06/05 want face value or best offer accept paypal (buyer pays the fees) ,apple cash, cashapp &amp; willing to ft comment or dm me if interested!! tags: skz world tour reliant stadium iso texas wtt"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123727020219625600",
+          "author": "hallmark_doors",
+          "searchJob": "notre-dame",
+          "text": "🚪 THE RIGHT COLOUR FOR EVERY JOB! 🎨 We offer an extensive range of uPVC door panel colours, finishes and woodgrains, ensuring you can find the perfect match for every installation! https://t.co/Yh5qHrxwVa ✅ Design, quote & order instantly"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123748047511605357",
-          "author": "renee980l",
-          "searchJob": "houston",
-          "text": "WTS Three (3) StrayKids VIP Tickets For Jun 05 2027 @Reliant Stadium—Houston,TX Comes with all benefits. Comment or DM if interested Can offer further proof of tickets if needed #StrayKidsWorldTour #StrayKidsTickets https://t.co/7SoVG8eDdg"
-        },
-        {
-          "reason": "multiple_resolved_schools",
-          "postId": "2123742659244425633",
-          "author": "my_equipment",
-          "searchJob": "houston",
-          "text": "Need a reliable crane for your next lifting project? Take a closer look at the 2008 Tadano GR-800XL-1, Whether you're looking to buy or rent, we offer crane sales and rental solutions in Houston Texas. Visit our website for more details. 👉"
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123726898282872977",
+          "author": "douglas79740708",
+          "searchJob": "notre-dame",
+          "text": "@dave43law They were offered the system devised by Ireland whilst opting for an untested so called BESPOKE system which never Worked the Irish system worked cost next to nothing but whilst the government PICK consumed vast amounts ££ no str"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123740107903545712",
-          "author": "originalroddick",
-          "searchJob": "houston",
-          "text": "Was writing out a spec, being lazy, didn't capitalize houston. Of course, it flagged it as a spelling error with the little red squiggly underline. I right-click it to grab the uppercase H version. It had no suggested spelling/grammar corre"
+          "postId": "2123755129954537475",
+          "author": "coolcoolchina",
+          "searchJob": "navy",
+          "text": "Power doesn't have a dress code. But it has a visual language. From classic navy suits to elegant burgundy tailoring and cultural formalwear, APEC Shenzhen offers a lesson in leadership style. Different cultures. Different silhouettes. Shar"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2123735405241516166",
-          "author": "hal1030380",
-          "searchJob": "houston",
-          "text": "No. Greg Abbott, the outgoing Republican governor of Texas, is not protesting or contesting the November 3, 2026, election results in which he lost to Democrat Gina Hinojosa.⁠Ksat Multiple news outlets (including KSAT, NPR, Reuters, CBS, an"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123751376253837530",
+          "author": "ngpateros",
+          "searchJob": "navy",
+          "text": "@tr1pnaut1k May serious proposal ako sa Coast Guard o sa Philippine Navy. Mag offer sila ng libreng sepultura marum bilang pinaka huling himlayan ng mga Pilipino. Pwede ito sa na cremate o para ito sa mga yumao na ng maraming taon na wala n"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123757955183169933",
+          "author": "allisonsmithh",
+          "searchJob": "iowa",
+          "text": "@brigidbites It’s not just eastern Iowa. This stuff will travel and settle all offer the place."
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123748724991988089",
+          "author": "renegadecookies",
+          "searchJob": "tennessee",
+          "text": "🎙Artist: Dan Fogelberg 📀 Album: 🎖Captured Angel ❇️🎶• 6. Man in the Mirror / Below the Surface – 7:10 “Someplace inside you a seed has been born You've got to watch it grow Someplace inside you a river is waiting to flow Will you let it "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123758403512054083",
+          "author": "bandsnboxing",
+          "searchJob": "texas",
+          "text": "🚨👀 KID AUSTIN BREAKS HIS SILENCE! 🗣️🥊 Floyd Schofield Jr. dropped a video this morning addressing the ongoing negotiations with Abdullah Mason! He claims Mason’s team doesn’t want to come to Austin, TX, or anywhere else in Texas besides"
+        },
+        {
+          "reason": "reporter_missing_player_name",
+          "postId": "2123757109695197674",
+          "author": "trumpvisionusa",
+          "searchJob": "texas",
+          "text": "🚨#BREAKING: Over 45,000 U.S. port workers have officially gone on strike from Maine to Texas for the first time since 1977 📌#Unitedstates | #USA Currently, nearly 50,000 members of the International Longshoremen’s Association (ILA) are on"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123745550256271553",
+          "author": "jewelsjoneslive",
+          "searchJob": "texas",
+          "text": "TRAVIS COUNTY JUST ASKED ICE INTO ITS JAIL. That is Austin, and the law behind it is Senate Bill 8: every Texas sheriff who runs a jail has to sign an agreement with ICE by December 1. Sally Hernandez has been the sheriff there since 2017. "
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123756098238755302",
+          "author": "mikeedwards06",
+          "searchJob": "phrase:\"AGTG\" offer",
+          "text": "#AGTG I am blessed to receive an offer from UT Martin @coachjack_w @rmchester00 @FCRecruits @JuCoFootballACE @JUCOFFrenzy @RecruitGeorgia https://t.co/yKzh6u1IxF"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123757036026351689",
+          "author": "uoflsource",
+          "searchJob": "louisville",
+          "text": "@TheOnlySweeney Sounds like a PK coached team to me. Serious question, would Pitino take the UofL job if offered?"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123752252980736029",
+          "author": "akashbairwa09",
+          "searchJob": "miami",
+          "text": "Just ripped a Miami pack on @tradeify 👀 #Tradeify and I'm so grateful and thankful for the discount offer"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123749447901585459",
+          "author": "chrisdoran18",
+          "searchJob": "miami",
+          "text": "Must-👀 ⚽️ as #Crew96 face Miami in the #MLS Cup Playoffs beginning Saturday. @AppleTV 's @JakeZivin offered his take on Inside The Crew this week. Hear the whole show wherever you get your podcasts. 📸 @ColumbusCrew"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123735126953582858",
+          "author": "larrychiang",
+          "searchJob": "miami",
+          "text": "Someone with a 140 IQ only has a 140 IQ for about 4 hours a day The second you make them jealous, horny or scared of looking poor, their functional IQ drops to 75 This is why Harvard doctors wire $200,000 to pig-butchering scams & billionai"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 167,
+      "jobs": 165,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -219,55 +280,28 @@
     "commits": {
       "samples": [
         {
-          "reason": "no_commit_event",
-          "postId": "2123623271832985906",
-          "author": "higginsszn79372",
-          "text": "@nazirpitchford1 @AuburnFootball @CoachGolesh @CoachTimBanks @COACHTONYROZIER @PalmettoFBall @ChadSimmons_ @polk_way @RyanBartow @Coach_KThoma @ZBlostein247 @CoachBraselton @CoachSandersPHS @ShaqHarris_86 I’ll be waiting for the commitment "
-        },
-        {
-          "reason": "other_sport",
-          "postId": "2123748923336430033",
-          "author": "jcupps8724john",
-          "text": "The Penguins’ 2026 offseason under Kyle Dubas was defined by flexibility, short-term or moderate-term deals, and incremental younger additions rather than a major win-now swing or a full teardown. It occurred amid the ownership transition t"
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2123732286688342259",
-          "author": "thencsportsnet",
-          "text": "FRIDAY NIGHT LIGHTS. NCSN'S BIG FOUR HEADLINES FRIDAY MORNING | NOVEMBER 20, 2026 CLEMSON AT DUKE. TONIGHT. WE'RE THERE. Clemson (6-4, 4-3) visits Duke (7-3, 4-3) at 7:30 p.m. on ESPN, and the BOLD NORTH STATE TAILGATE postgame goes live to"
-        },
-        {
-          "reason": "no_football_context",
-          "postId": "2123718953357001064",
-          "author": "uf1",
-          "text": "Cain Van Norden Decommits From Florida Gators, Reopens 2027 Defensive Line Recruiting – https://t.co/VhAFTo2fLG Like we all know, there is no celebration until NSD comes and goes."
-        },
-        {
-          "reason": "roundup_too_long",
-          "postId": "2123642915784204445",
-          "author": "evanmarkham4",
-          "text": "Ron DeSantis has governed Florida with strong conservative leadership, proven results, and a commitment to putting Florida families first. His approach has helped make Florida a destination for Americans leaving states like California in se"
+          "reason": "juco_or_transfer",
+          "postId": "2123725872192479275",
+          "author": "teamunion_uk",
+          "text": "Coimisiún na Meán (Ireland’s media regulator) runs multiple funding schemes that provide grants to news outlets, broadcasters, independent producers, and journalists. These are administered at arm’s length from direct government control, th"
         }
       ],
       "stats": {
-        "candidates": 5,
+        "candidates": 1,
         "accepted": 0,
-        "rejected": 5,
+        "rejected": 1,
         "reasons": {
-          "no_commit_event": 1,
-          "other_sport": 1,
-          "roundup_too_long": 2,
-          "no_football_context": 1
+          "juco_or_transfer": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 6,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-20T12:29:52.533Z"
+    "status rebuilt locally from current store on 2026-11-20T12:44:38.051Z"
   ]
 }
