@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:58:56.886Z",
+  "generatedAt": "2026-11-20T11:14:24.507Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-20T10:58:56.265Z",
+    "at": "2026-11-20T11:14:23.672Z",
     "jobsTotal": 162,
-    "sweptThisRun": 22,
-    "requests": 22,
-    "fullSweepCycles": 8
+    "sweptThisRun": 26,
+    "requests": 26,
+    "fullSweepCycles": 7
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,58 +32,50 @@
   },
   "staleSchools": [
     {
-      "id": "kansas-state",
-      "hours": 2.3
-    },
-    {
-      "id": "kennesaw-state",
-      "hours": 2.3
-    },
-    {
-      "id": "kent-state",
-      "hours": 2.3
-    },
-    {
-      "id": "liberty",
-      "hours": 2.3
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 2.3
-    },
-    {
-      "id": "north-carolina",
-      "hours": 2.3
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 2.3
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 2.3
-    },
-    {
-      "id": "south-florida",
-      "hours": 2.3
-    },
-    {
-      "id": "southern-miss",
-      "hours": 2.3
-    },
-    {
       "id": "temple",
+      "hours": 2.5
+    },
+    {
+      "id": "air-force",
+      "hours": 2.3
+    },
+    {
+      "id": "akron",
+      "hours": 2.3
+    },
+    {
+      "id": "appalachian-state",
+      "hours": 2.3
+    },
+    {
+      "id": "arkansas-state",
+      "hours": 2.3
+    },
+    {
+      "id": "army",
+      "hours": 2.3
+    },
+    {
+      "id": "texas-tech",
+      "hours": 2.3
+    },
+    {
+      "id": "utah",
+      "hours": 2.3
+    },
+    {
+      "id": "washington",
       "hours": 2.3
     }
   ],
   "liveStaleness": {
-    "medianHours": 1.2636430555555556,
-    "p95Hours": 2.2745177777777776,
-    "worstHours": 2.2745177777777776
+    "medianHours": 0.9987311111111111,
+    "p95Hours": 2.2756791666666665,
+    "worstHours": 2.5321902777777776
   },
   "decisionCoverage": {
-    "total": 16,
-    "decided": 16,
+    "total": 62,
+    "decided": 62,
     "complete": true
   },
   "pending": {
@@ -92,7 +84,7 @@
   "profileResolution": {
     "cached": 111
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 3,
   "quality": {
     "completeOffers": 4983,
     "incompleteOffers": 0
@@ -100,10 +92,10 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-20T10:58:56.264Z",
-      "got": 24,
-      "new": 16,
-      "lag": 0.04
+      "at": "2026-11-20T11:14:23.671Z",
+      "got": 82,
+      "new": 62,
+      "lag": 0.03
     },
     "search:commit": {
       "at": "2026-11-20T10:58:56.265Z",
@@ -113,174 +105,423 @@
     }
   },
   "audit": {
-    "at": "2026-11-20T10:57:27.534Z",
+    "at": "2026-11-20T11:12:50.535Z",
     "mode": "live",
     "collection": {
-      "returned": 24,
-      "kept": 16,
-      "duplicate": 8,
+      "returned": 82,
+      "kept": 62,
+      "duplicate": 20,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 9,
-      "rejected": 7,
+      "accepted": 35,
+      "rejected": 27,
       "reasons": {
-        "no_offer_term": 5,
-        "no_fbs_school": 1,
-        "hard_negative": 1
+        "no_offer_term": 12,
+        "no_fbs_school": 12,
+        "hard_negative": 2,
+        "unclassified_offer_text": 1
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2123702650566791169",
-          "author": "mexicotimes",
-          "searchJob": "rice",
-          "text": "#Now #Mexico has 29 Michelin-starred restaurants, 1,001 Domino’s stores &amp; more than 600 KFCs. Records place DQ here in the 1950s, before Tastee-Freez. Why did so many #US chains thrive where Taco Bell failed &amp; can Chipotle’s bowl wi"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123730462719750483",
-          "author": "dimitri_salahi",
-          "searchJob": "class:2026",
-          "text": "https://t.co/1XOYr2I8FZ"
+          "postId": "2123721278112911860",
+          "author": "deepinsightlabs",
+          "searchJob": "phrase:\"has offered\" recruit",
+          "text": "https://t.co/Uxd0Atx5kR"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123729491935514915",
-          "author": "semc_ksa",
-          "searchJob": "class:2026",
-          "text": "#SEMC was proud to sponsor and attend the ISIG MEMS & Sensors World Summit EU in Milan on 17–18 November 2026. We connected with semiconductor leaders from across Europe and beyond, including @ST_World , @Infineon, Bosch Sensortec, and Okme"
+          "postId": "2123705670935474653",
+          "author": "kent_cc",
+          "searchJob": "kent-state",
+          "text": "It's the last few days to tell us what you think of our updated draft Short Breaks Strategy, as well as proposed changes to allocations of overnight short breaks and the removal of the Max Card offer. Find out more: https://t.co/nOQqmLeOOj "
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123725147811025275",
-          "author": "effinadriz",
-          "searchJob": "class:2026",
-          "text": "Free to read: the first 50 pages of The Frontier Engine, the new Global Strategy Files book. Why the US pulled ahead of Europe and Japan since 2015, and what limits it now. Full book: https://t.co/7JN0HvpvD4 https://t.co/YT4eRFZF2q"
+          "postId": "2123719376025309617",
+          "author": "sangchuln15766",
+          "searchJob": "liberty",
+          "text": "https://t.co/fvghow9VDs"
         },
         {
           "reason": "hard_negative",
-          "postId": "2123716622795907104",
-          "author": "goldenhair1975",
-          "searchJob": "class:2026",
-          "text": "⛪️ Little Church Down the Way Many Waters Cannot Quench Love Set me as a seal upon thine heart, as a seal upon thine arm: for love is strong as death; jealousy is cruel as the grave: the coals thereof are coals of fire, which hath a most ve"
+          "postId": "2123717738430447783",
+          "author": "zulqarnain0123",
+          "searchJob": "temple",
+          "text": "A reply to two videos: AI, Consciousness and the Future of Humanity | Mustafa Suleyman & Yuval Noah Harari https://t.co/8v0oMibYZ0 AI is Hacking Governments. Here's What Comes Next. (informo, Mr. Roman Yampolskiy) https://t.co/HVaRBt6noi 𝐃"
+        },
+        {
+          "reason": "unclassified_offer_text",
+          "postId": "2123714239915569316",
+          "author": "ndtvlifestyle",
+          "searchJob": "temple",
+          "text": "From devotees leaving bottles of whisky at a temple to placing cigarettes before a deity, some temples in India have rather unusual offerings https://t.co/3js6ls5y1g"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123706023584375145",
-          "author": "ssehkro",
-          "searchJob": "class:2026",
-          "text": "https://t.co/ekP8BRw5Oh"
+          "postId": "2123452527861809417",
+          "author": "advaitavani",
+          "searchJob": "temple",
+          "text": "Dr. K. Sivan, former Chairman of ISRO visited Shri Ramakrishna Ashrama, Rajkot https://t.co/uikpyLhPCc"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123725898436522100",
+          "author": "alanabramson1",
+          "searchJob": "florida",
+          "text": "What could 2027 hold for real estate? Fannie Mae’s latest outlook offers important insights on mortgage rates, home sales, and property values. Swipe through the numbers and see why having the right strategy matters in a changing market. Re"
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123699357274845548",
-          "author": "pepetheshneine",
-          "searchJob": "class:2026",
-          "text": "vCenter, Roller, nginx, Java4Shell: which fire drills are real? https://t.co/YbXf3u3Smn"
+          "postId": "2123734326961471802",
+          "author": "pulssix",
+          "searchJob": "washington",
+          "text": "🚨 The world is changing. 🌍 Trump, Xi &amp; Putin reshape diplomacy. 🤖 AI transforms work. ⚡ Energy demand surges. 💰 Global economic uncertainty persists. What will define 2029? 👇 Our latest analysis. #AI #Geopolitics #Pulssix https://t"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123730448400707999",
+          "author": "drausaf",
+          "searchJob": "washington",
+          "text": "Xi, Trump and Putin met as a trio for the first time in Shenzhen. Their declaration commits to nuclear-risk talks but is silent on Ukraine and Iran. For India, vindication of strategic autonomy, and a warning against a three-power order. ht"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123726576046985601",
+          "author": "drsumalik",
+          "searchJob": "washington",
+          "text": "A World Divided Again? - Three Powers, One World https://t.co/lV0BQmt0Re"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123718962772848650",
+          "author": "nullmargin0",
+          "searchJob": "washington",
+          "text": "In 1979 police in Washington arrested a security guard for strangling two young women. He swore he couldn't remember a thing. So a psychologist hypnotized him, counted him up through his own life, and asked to speak to someone else. A diffe"
+        },
+        {
+          "reason": "hard_negative",
+          "postId": "2123712705894715425",
+          "author": "ww3finalboss",
+          "searchJob": "washington",
+          "text": "BREAKING 🇺🇸🇷🇺🇨🇳🇺🇦 TRUMP, PUTIN AND XI JUST SIGNED A DECLARATION ABOUT PEACE. UKRAINE ISN’T MENTIONED ONCE Three of the world’s most powerful leaders met in China on November 19 and published a four-point agreement called the “Declar"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123710312868139394",
+          "author": "wrlck23",
+          "searchJob": "washington",
+          "text": "@dresslessdress Saw it last week, i had your same opinion but i gotta say it definitively felt worth watching as a fan of the manga, it uses the fact that it's live action to its full potential. I liked the animated one better but this is a"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123731990750876023",
+          "author": "bill_selly",
+          "searchJob": "arizona",
+          "text": "It depends on what is meant by a “substantial, predictable” amount. Is it the average of what the county would have received over, say 10 years anyway without the volatility, or is it a small fraction of that average tax payment? SpaceX is "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123708503499894952",
+          "author": "sir_blocks_",
+          "searchJob": "arizona",
+          "text": "https://t.co/3ReQOZ9yLH"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123726357637243326",
+          "author": "ritsuwork",
+          "searchJob": "stanford",
+          "text": "It's 11 p.m., three weeks before finals. You've read the same page four times. Your coffee is cold. You're exhausted—but resting feels like failing. More hours won't fix every problem. Here's a 7-day study reset for running on empty ↓ Made "
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123704266867028167",
+          "author": "0xwunder",
+          "searchJob": "stanford",
+          "text": "https://t.co/vsJmIBMNTs"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123736306983301605",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Black Friday Deal ] 📦 Samsung SSD 9100 PRO – 2TB, PCIe 5.0x4 M.2 2280, Up to 14, 700MB/s, NVMe Internal Solid State Hard Drive at $349.99 (List Price $679.97) [ad] 👉 https://t.co/qZECRX8ZaV #blackfridaydeals #blackfriday2026 #"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123735499378409900",
+          "author": "laxmanacharyaa",
+          "searchJob": "texas-tech",
+          "text": "https://t.co/jqwv4ulp9q"
+        },
+        {
+          "reason": "no_offer_term",
+          "postId": "2123732972436086856",
+          "author": "simplefxcom",
+          "searchJob": "texas-tech",
+          "text": "5,300 employees, about 5,100 of them now millionaires on paper, and 7 founders holding around $20B each. Here is how the Anthropic IPO played out on day 1, and what the filing says about the money behind it 👇 https://t.co/ifkpcoVd2c"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123732256652996838",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Black Friday Deal ] 📦 MU-PF1T0G/AM Samsung Portable SSD P7 – 1TB, Read/Write Speeds up to 4, 000/3, 700 MB/s, Memory Storage Device at $239.99 (List Price $285.99) [ad] 👉 https://t.co/S8i5aMdnul #blackfridaydeals #blackfriday2"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123730860990255584",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Black Friday Deal ] 📦 CMK32GX4M2B3200C18A Corsair Vengeance LPX DDR4 – 32GB 2 x 16GB 3200MHz Desktop Gaming Memory at $259.99 (List Price $319.99) [ad] 👉 https://t.co/0ewqOSc8XT #blackfridaydeals #blackfriday2026 #corsairvenge"
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123729388881461363",
+          "author": "technewsonweb",
+          "searchJob": "texas-tech",
+          "text": "[ Amazon US Black Friday Deal ] 📦 Intel Core Ultra 5 250K Plus – 18 cores, up to 5.3 GHz, LGA1851 Socket, DDR5 Desktop at $145.99 (List Price $219.00) [ad] 👉 https://t.co/GmRqd6XMUW #blackfridaydeals #blackfriday2026 #intelcore #PCGaming "
+        },
+        {
+          "reason": "no_fbs_school",
+          "postId": "2123728570371465561",
+          "author": "buildupng",
+          "searchJob": "texas-tech",
+          "text": "Not sure which technology field.? Start by thinking about what interests you. BuildUp offers different training paths to help learners explore these interests. Take time to understand each programme and choose the direction that aligns with"
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 9,
+      "rejected": 35,
       "reasons": {
-        "bare_mention_requires_llm": 8,
-        "school_not_resolved_confidently": 1
+        "multiple_resolved_schools": 5,
+        "bare_mention_requires_llm": 18,
+        "school_not_resolved_confidently": 11,
+        "reporter_missing_class_year": 1
       },
       "samples": [
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123719408262537563",
-          "author": "_xaibii",
-          "searchJob": "uconn",
-          "text": "😳 D-Von Dudley revealed Vince McMahon's insane post-Raw routine! According to D-Von, Vince arrived at production meetings by 12:30 or 1:00 PM, often before anyone else. After Raw ended around 11:15 PM, he rode back to the hotel in a limo w"
+          "reason": "multiple_resolved_schools",
+          "postId": "2123735000097173863",
+          "author": "rittikd",
+          "searchJob": "liberty",
+          "text": "🗞️20 November 2026 | Daily Edition: Pre-Market IBIT Logged Its Worst Day, BTC Found Buyers at $61,220 BTC set a fresh 4-month low at $61,220 in the evening and climbed back to $62,000 on higher lows through Asia, while IBIT posted a record"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123732148859334969",
-          "author": "ibukun_dami",
-          "searchJob": "rice",
-          "text": "🏆 MY TOP 10 PREMIER LEAGUE PLAYERS RIGHT NOW. This isn't just about goals and assists. It's about tactical influence, positional intelligence and the ability to shape how a team plays. - Erling Braut Haaland 🎯 - Declan Rice 🧠 - David Ray"
+          "postId": "2123729421513236897",
+          "author": "big_motiv8",
+          "searchJob": "liberty",
+          "text": "Ogbeni shut the fuck up Why didn't the Brits, French and Germans cramp themselves in one nation under one authoritarian government? Why did they have to create distinct nations on homogenous foundations and defined borders before creating t"
         },
         {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123727108568391755",
-          "author": "sol_supremus",
-          "searchJob": "rice",
-          "text": "✨ The Devutthana Ekadashi Puja Vidhi centers on symbolically awakening Lord Sri Vishnu from his four-month Yoga Nidra during Pradosh Kaal (sunset) or evening worship, followed by bhakti chanting and lamps. Step-by-Step Devutthana Ekadashi P"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123707834869199235",
-          "author": "brunofootballhq",
-          "searchJob": "rice",
-          "text": "🚨 DECLAN RICE'S £350,000-A-WEEK ARSENAL DEAL COULD ACTUALLY HURT HIS BALLON D'OR AMBITIONS! 😳🏆 Arsenal have secured Declan Rice's future with a new five-year contract running until 2031, reportedly worth £350,000 per week. That puts him "
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123704023714816205",
-          "author": "philopearl_afc",
-          "searchJob": "rice",
-          "text": "What these footballers don’t realise is that if Arsenal is your dream club and you choose to move elsewhere, it’s your loss, not ours. 😂 Our Plan B always ends up being even better, and somehow, they always offer us more in the end 😁❤️ Pl"
-        },
-        {
-          "reason": "bare_mention_requires_llm",
-          "postId": "2123702909908980081",
-          "author": "theshottrader",
-          "searchJob": "rice",
-          "text": "🔲 14/1 NEWCASTLE VS ARSENAL BUILDER 🔴 🔥 Join Bally Bet, place a £10 bet and you’ll get £30 in FREE BETS here: https://t.co/WULneK6E8b ✅🔃 14/1 @ BallyBet, including Smart Sub 🤯 Next Best Odds: 6.75/1 ⚽️ Guimaraes has taken 2+ shots in e"
+          "reason": "multiple_resolved_schools",
+          "postId": "2123732722967310826",
+          "author": "mediamangroup",
+          "searchJob": "south-florida",
+          "text": "Mining/Energy/Resources/Biz/Markets/Pop Culture The Business Of Everything: TKO Edition Sin City Sydney Australia, Wall Street, New York, and Beyond The Black Stump Road To WWE Survivor Series: War Games! Australia Survived The Cyber Attack"
         },
         {
           "reason": "school_not_resolved_confidently",
-          "postId": "2123697536406024533",
-          "author": "frankindie",
-          "searchJob": "class:2026",
-          "text": "🇺🇸 Mirror Monk | Nov 20, 2026 | U.S. Close → Asian Stocks 👓🧘‍♂️ 🇨🇳 镜僧美股早报｜2026.11.20｜对亚洲股市的影响 👓🧘‍♂️ 🇯🇵 鏡僧 米国株朝刊｜2026.11.20｜アジア株への波及 👓🧘‍♂️ 🇰🇷 鏡僧 미국 증시 브리핑｜2026.11.20｜아시아 증시에 미치는 영향 👓🧘‍♂️ 🇻🇳 Mirror Monk | 20.11.2026 | Phố Wa"
+          "postId": "2123731076325474461",
+          "author": "simon_ree",
+          "searchJob": "south-florida",
+          "text": "The bulls had every chance to make something of Thursday Strong futures. A nice gap up on the open. The best seasonal window of the calendar - the midterm-ream run into Thanksgiving - immediately in front $SPY made its high in the first 5 m"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123715478312857704",
-          "author": "jameswisdo31436",
-          "searchJob": "maryland",
-          "text": "Suspect wanted for murder last seen in Baltimore. Reward offered for information. #Baltimore #Maryland #Wanted #manhunt https://t.co/dsVr1n9EvE"
+          "postId": "2123726231266807866",
+          "author": "marbledwell7",
+          "searchJob": "south-florida",
+          "text": "All of Judaism teaches that sin offerings are not necessary. The Epistle of Hebrews presents the Messianic reasoning of why that would be the case. Other streams of Judaism point to passages such as: “Take words with you, and return to ADON"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123724821724844207",
+          "author": "thewiseadapter",
+          "searchJob": "south-florida",
+          "text": "Some of the stupidest loudest bears on your timeline look talented right now, just like the stupidest loudest bulls on your timeline did 6 months ago. Both know how to push narrative in market direction to make themselves look above it. Bot"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123721091482796249",
+          "author": "ishikaaagupta",
+          "searchJob": "south-florida",
+          "text": "📊 MARKET WRAP – Fri, 20 Nov 2026 🔔 NIFTY closed at 25,800.6 (+2.27%) 🟢 🚀 BULLS WERE IN FULL CONTROL TODAY 📈 INDICES AT THE CLOSE 🟢 NIFTY 50: 25,800.6 (+2.27%) Day range: 25,345.2 – 25,808.8 🟢 SENSEX: 83,869.59 (+2.24%) 🟢 BANK NIFTY:"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123709676197986423",
-          "author": "itsraisu",
-          "searchJob": "maryland",
-          "text": "Except... they did anticipate the power dynamic between largely populous states (then, slave states) and small states. The earliest opposition to political parties in America were the very founders of the country and framers of the constitu"
+          "postId": "2123724764606779512",
+          "author": "ravaniraivan",
+          "searchJob": "temple",
+          "text": "The root cause is the collegium system has been proudly destroying the Union of India since 1993. In 2014, Parliament passed the 99th Amendment and the NJAC Act to replace it. On 16 October 2015, a five-judge Constitution Bench, by a 4:1 ma"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123713200277320016",
+          "author": "god_fidence01",
+          "searchJob": "temple",
+          "text": "He sat at the temple gate asking for money while other people walked past him to pray. When Peter stopped, the man expected a coin. Peter had something else to offer. “...In the name of Jesus Christ of Nazareth, rise up and walk.” - Acts 3:"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123711166619030009",
+          "author": "indiafocusdaily",
+          "searchJob": "temple",
+          "text": "Former ISRO Chairman K. Sivan visits Gujarat’s Dwarkadhish Temple and offers prayers for India’s prosperity and well-being, describing the experience as returning to the “5,000-year-old kingdom of Lord Krishna.” #KSivan #ISRO #DwarkadhishTe"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123709124818964714",
+          "author": "thevedantatimes",
+          "searchJob": "temple",
+          "text": "There is something quietly moving about a scientist who once guided rockets beyond earth sitting in silent meditation at Shri Ramakrishna Ashrama, Rajkot. Dr. K. Sivan's visit reminds us that inquiry and devotion need not be rivals. Sri Ram"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123702914619146433",
+          "author": "amazingthailand",
+          "searchJob": "temple",
+          "text": "🐘 This November, Discover Surin – Thailand’s City of Elephants! Experience the wonders of the Surin Elephant Festival 2026 and explore two more must-visit destinations that showcase the province’s rich cultural heritage and local tradition"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123702908675817881",
+          "author": "alexwynnashwood",
+          "searchJob": "temple",
+          "text": "What would it feel like to live beneath protective wings? 🦅⭕ Nekhbet hovers above an Upper Egyptian temple, her broad vulture wings forming a sheltering arch. The white crown recalls the southern kingdom she protected, while the shen ring "
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123702690060660889",
+          "author": "akhilskrillex",
+          "searchJob": "temple",
+          "text": "@mindkhichdi @peeleraja I went to the temple and offered cloth there. They allowed it. What was the scam?"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123702290708058176",
+          "author": "v3rv3isdop3",
+          "searchJob": "temple",
+          "text": "so youre saying lil old Jesus from nazareth was tempted by satan to jump off the roof of the temple cause angels would save him and to turn rocks into food when he was fasting and then offered him money but only if he praised him"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123702135271673896",
+          "author": "avinashchby",
+          "searchJob": "temple",
+          "text": "The Karthigai Deepam atop Tiruchengode runs on offered ghee. Devotees can reportedly give it at Kailasanathar or Ardhanareeswarar temple. The kopparai reportedly goes round the four ratha streets on 24 November. Lamp: 25 November evening. N"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123735680517877844",
+          "author": "andrewcorls",
+          "searchJob": "florida",
+          "text": "Phoenix-Seminoles Total Betting Edge We are looking at a fascinating discrepancy in the total for this morning's matchup between Green Bay and Florida State. By leveraging the difference between the major books and the exchange market, we c"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123712943032332300",
+          "author": "nobslioness",
+          "searchJob": "florida",
+          "text": "Florida has Cambridge AICE Biblical Studies as an optional academic elective for grades 9-12 (course codes 0900512 AS / 0900514 A Level). Only Cambridge centres can offer it, and only about 177 Florida high schools currently run AICE progra"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123702506001727523",
+          "author": "crosswatchhq",
+          "searchJob": "florida",
+          "text": "ANTHROPIC'S IPO LEFT $13.9 BILLION ON THE TABLE. You won't find it on any statement. It's the gap between the price Anthropic sold its shares at and the price the market paid on day one. On Nov 18, 2026, Anthropic priced its IPO at $83: 980"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123735794821009646",
+          "author": "hog_wards",
+          "searchJob": "washington",
+          "text": "The leaked call is real. Your interpretation is not. Nuland and Pyatt discussed their preferred political outcome. That's evidence of US diplomatic interference, not proof they organized a coup. In fact, they explicitly wanted Tyahnybok OUT"
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123732979499356308",
+          "author": "stormsignalsa",
+          "searchJob": "washington",
+          "text": "🚨Putin did not start the Ukraine war.🚨 He ended the fiction that it had not already begun. The war started in 2014, and everyone who matters knew it. In February of that year, a violent coup in Kyiv overthrew a president who had been elec"
+        },
+        {
+          "reason": "reporter_missing_class_year",
+          "postId": "2123731768553377996",
+          "author": "eyeworldnews92",
+          "searchJob": "washington",
+          "text": "🇵🇰 ISHQAQ DAR REVEALS HOW ISLAMABAD EMERGED AS COMMON GROUND FOR IRAN AND THE UNITED STATES — “ISLAMABAD WAS COMMON TO BOTH” Pakistan’s Deputy Prime Minister and Foreign Minister Senator Mohammad Ishaq Dar has offered an insight into the "
+        },
+        {
+          "reason": "multiple_resolved_schools",
+          "postId": "2123723795961717047",
+          "author": "ojay3000",
+          "searchJob": "washington",
+          "text": "# **THE CHESS BOARD – #Africa : THE GREAT LAKES – #Kenya** # **THE DREADED CALL FROM WASHINGTON,#USA : WHY MOI OBEYED AND LEFT POWER IN 2002** **\"Why #African Democracy Is a Farce Tied to Western Interests — And The Three Kings Who Shaped M"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123717870961975475",
+          "author": "_ahmedquraishi",
+          "searchJob": "washington",
+          "text": "#US is working with #Pakistan on critical minerals, boosting economic ties as Washington and Islamabad improve coordination on #Afghanistan, #Iran, and the Middle East. From @usembislamabad: \"Chargé d'Affaires Natalie Baker’s engagements at"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 166,
+      "jobs": 162,
       "swept": 26,
       "failed": 0,
       "requests": 26,
       "errors": []
     },
     "commits": {
-      "samples": [],
+      "samples": [
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2123735000097173863",
+          "author": "rittikd",
+          "text": "🗞️20 November 2026 | Daily Edition: Pre-Market IBIT Logged Its Worst Day, BTC Found Buyers at $61,220 BTC set a fresh 4-month low at $61,220 in the evening and climbed back to $62,000 on higher lows through Asia, while IBIT posted a record"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123717738430447783",
+          "author": "zulqarnain0123",
+          "text": "A reply to two videos: AI, Consciousness and the Future of Humanity | Mustafa Suleyman & Yuval Noah Harari https://t.co/8v0oMibYZ0 AI is Hacking Governments. Here's What Comes Next. (informo, Mr. Roman Yampolskiy) https://t.co/HVaRBt6noi 𝐃"
+        },
+        {
+          "reason": "juco_or_transfer",
+          "postId": "2123712705894715425",
+          "author": "ww3finalboss",
+          "text": "BREAKING 🇺🇸🇷🇺🇨🇳🇺🇦 TRUMP, PUTIN AND XI JUST SIGNED A DECLARATION ABOUT PEACE. UKRAINE ISN’T MENTIONED ONCE Three of the world’s most powerful leaders met in China on November 19 and published a four-point agreement called the “Declar"
+        }
+      ],
       "stats": {
-        "candidates": 0,
+        "candidates": 3,
         "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "rejected": 3,
+        "reasons": {
+          "juco_or_transfer": 2,
+          "roundup_too_long": 1
+        }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 9,
+      "rejectedCandidates": 35,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-20T10:58:56.887Z"
+    "status rebuilt locally from current store on 2026-11-20T11:14:24.508Z"
   ]
 }
