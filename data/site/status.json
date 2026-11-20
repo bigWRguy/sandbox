@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T08:29:12.998Z",
+  "generatedAt": "2026-11-20T08:43:59.779Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,11 +7,11 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-20T08:29:12.088Z",
+    "at": "2026-11-20T08:43:59.172Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 21,
+    "requests": 21,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,138 +32,70 @@
   },
   "staleSchools": [
     {
-      "id": "kansas-state",
-      "hours": 2.5
-    },
-    {
-      "id": "kennesaw-state",
-      "hours": 2.5
-    },
-    {
-      "id": "kent-state",
-      "hours": 2.5
-    },
-    {
-      "id": "liberty",
-      "hours": 2.5
-    },
-    {
-      "id": "louisiana-tech",
-      "hours": 2.5
-    },
-    {
-      "id": "north-carolina",
-      "hours": 2.5
-    },
-    {
-      "id": "oklahoma-state",
-      "hours": 2.5
-    },
-    {
-      "id": "pittsburgh",
-      "hours": 2.5
-    },
-    {
-      "id": "south-florida",
-      "hours": 2.5
-    },
-    {
-      "id": "southern-miss",
-      "hours": 2.5
-    },
-    {
       "id": "temple",
-      "hours": 2.5
-    },
-    {
-      "id": "texas-am",
-      "hours": 2.5
+      "hours": 2.8
     },
     {
       "id": "air-force",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "akron",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "appalachian-state",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "arkansas-state",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "army",
-      "hours": 2.2
-    },
-    {
-      "id": "auburn",
-      "hours": 2.2
-    },
-    {
-      "id": "kentucky",
-      "hours": 2.2
-    },
-    {
-      "id": "lsu",
-      "hours": 2.2
-    },
-    {
-      "id": "maryland",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "smu",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "stanford",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "syracuse",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "tcu",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "texas-tech",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "ucf",
-      "hours": 2.2
-    },
-    {
-      "id": "ucla",
-      "hours": 2.2
-    },
-    {
-      "id": "usc",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "vanderbilt",
-      "hours": 2.2
+      "hours": 2.4
     },
     {
       "id": "washington",
-      "hours": 2.2
+      "hours": 2.4
     }
   ],
   "liveStaleness": {
-    "medianHours": 0.7497783333333333,
-    "p95Hours": 2.5274983333333334,
-    "worstHours": 2.5274983333333334
+    "medianHours": 0.9961063888888889,
+    "p95Hours": 2.4472358333333335,
+    "worstHours": 2.7738263888888888
   },
   "decisionCoverage": {
-    "total": 33,
-    "decided": 33,
+    "total": 19,
+    "decided": 19,
     "complete": true
   },
   "pending": {
@@ -172,7 +104,7 @@
   "profileResolution": {
     "cached": 111
   },
-  "paginationBacklog": 0,
+  "paginationBacklog": 1,
   "quality": {
     "completeOffers": 4983,
     "incompleteOffers": 0
@@ -180,287 +112,186 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-20T08:29:12.087Z",
-      "got": 52,
-      "new": 33,
-      "lag": 0.09
+      "at": "2026-11-20T08:43:59.170Z",
+      "got": 31,
+      "new": 19,
+      "lag": 0.03
     },
     "search:commit": {
-      "at": "2026-11-20T08:14:57.571Z",
-      "got": 4,
-      "new": 0,
-      "lag": 1.5
+      "at": "2026-11-20T08:43:59.172Z",
+      "got": 1,
+      "new": 1,
+      "lag": 3.18
     }
   },
   "audit": {
-    "at": "2026-11-20T08:27:38.203Z",
+    "at": "2026-11-20T08:42:28.548Z",
     "mode": "live",
     "collection": {
-      "returned": 52,
-      "kept": 33,
-      "duplicate": 19,
+      "returned": 31,
+      "kept": 19,
+      "duplicate": 12,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 13,
-      "rejected": 20,
+      "accepted": 15,
+      "rejected": 4,
       "reasons": {
-        "no_offer_term": 10,
-        "no_fbs_school": 7,
-        "non_fbs_offer_target": 2,
-        "hard_negative": 1
+        "no_offer_term": 2,
+        "no_fbs_school": 2
       },
       "samples": [
         {
           "reason": "no_offer_term",
-          "postId": "2123673967323926587",
-          "author": "jkraksha",
-          "searchJob": "rice",
-          "text": "https://t.co/9TXFUjvQyJ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123622256073167257",
-          "author": "bryan_johnson",
-          "searchJob": "rice",
-          "text": "Every day I think about my experience with 5-MeO-DMT, the world's most powerful psychedelic. It left me stunned beyond comprehension, unfurling a single omnipresent awareness of the inestimable preciousness of our existence and the warm inv"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123662193715462228",
-          "author": "joeyflowerette",
-          "searchJob": "rice",
-          "text": "https://t.co/lEFoxeLcOa"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123682540070305946",
-          "author": "iagocrypto",
-          "searchJob": "class:2026",
-          "text": "Tokenized stocks' bigger job is collateral. I read the rulebooks and ran the margin call. @CantonFdn #CantonResearchNov26 https://t.co/U31j99WAE2"
+          "postId": "2123687358964941049",
+          "author": "adanielhill",
+          "searchJob": "liberty",
+          "text": "Uruguay is sleepwalking into a two-front surveillance trap-one where the financial system is becoming completely legible to regulators and banks @ the exact moment our public vaults are hemorrhaging citizen data into an industrialized crimi"
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123667368887124303",
-          "author": "odmag",
-          "searchJob": "class:2026",
-          "text": ".@HyundaiIndia has unveiled the eighth-generation Elantra at the LA Auto Show. Sold as the Avante in Korea, the sedan grows to 4,795 mm in length (+85 mm), 1,855 mm in width (+30 mm) and 2,750 mm in wheelbase (+30 mm). Rear legroom rises by"
+          "postId": "2123662075725508958",
+          "author": "ladyliberteee",
+          "searchJob": "liberty",
+          "text": "@TuckerPoodleMA 🙏🙏🙏 call 988 if you need help take advantage of all help offered."
         },
         {
           "reason": "no_offer_term",
-          "postId": "2123650987043025114",
-          "author": "hotbets365",
-          "searchJob": "class:2026",
-          "text": "https://t.co/yzp0JRgoOI"
+          "postId": "2123627772300156998",
+          "author": "somya_crazy",
+          "searchJob": "temple",
+          "text": "Indians who've travelled in India: what scams have actually happened to you? Only scams. Not inconveniences like traffic, crowds or expensive hotels."
         },
         {
           "reason": "no_fbs_school",
-          "postId": "2123670480897061023",
-          "author": "jivankrishna75",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with Coach Kuziek I am blessed to announce I have received my 2nd CJFL official offer from the VI Raiders! @ViRaiders @HATitansFB https://t.co/i9QsFsY2tx"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123655194282267130",
-          "author": "masonhg88",
-          "searchJob": "phrase:\"after a great conversation\" offer",
-          "text": "After a great conversation with @CoachZacEllison I'm excited to say I have received an offer from Doane university! @CoachBenBuys @ThrowFirst @CoachTeaD @coachvincemcfar @Psyerking @jacari_williams https://t.co/BIXjznZViO"
-        },
-        {
-          "reason": "non_fbs_offer_target",
-          "postId": "2123653907263930619",
-          "author": "kevauguste",
-          "searchJob": "phrase:\"all glory to god\" offer",
-          "text": "I’m incredibly grateful to receive my first-ever college football offer from Kean University. This is just the beginning, and I’m excited for what’s ahead. All glory to God! 🙏🏾🏈 https://t.co/eBJBVn35u3"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123660256257487332",
-          "author": "wl_publishing",
-          "searchJob": "kansas",
-          "text": "https://t.co/nLozkc3jRJ"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123693841136091319",
-          "author": "youranoncentral",
-          "searchJob": "miami",
-          "text": "A leak of 15 million Deutsche Bank documents exposes $582 million in transactions linked to Jeffrey Epstein. A US congressional investigation found that prosecutors failed his victims after 2005, allowing more crimes; banks ignored traffick"
-        },
-        {
-          "reason": "hard_negative",
-          "postId": "2123692567741018457",
-          "author": "nkaisol",
-          "searchJob": "uconn",
-          "text": "Lol Grandpa is butthurt no one wants to commit to his program anymore. Talking about Education? 😂😂😂😂😂 what education were they providing in Storrs? The only thing Uconn offered those recruits were easy rings and League connections and "
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123566840152461713",
-          "author": "taliagoodmanwbb",
-          "searchJob": "uconn",
-          "text": "Geno Auriemma on high school recruiting: “I just don't see the value of paying a high school kid a million dollars to come out of high school that hasn't dribbled the ball one time in college…That's more than 90% of best players in the worl"
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123661422177509771",
-          "author": "trezzz",
-          "searchJob": "class:2027",
-          "text": "https://t.co/4IdGZrSuiZ"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123686717282467999",
-          "author": "bobopapal",
-          "searchJob": "tennessee",
-          "text": "@AMAZlNGNATURE In Tennessee they lethally inject them but on the plate it starts snapping. Seriously, the humane thing is to blindfold it and offer one last vape before dunking it in the boiling bath."
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123692262454599880",
-          "author": "texantruther",
-          "searchJob": "texas",
-          "text": "@its_The_Dr I’ve got a warning the last 5 times I’ve been pulled over. It pays to be nice and cordial to a police offer when you get pulled over. It’s not that hard."
-        },
-        {
-          "reason": "no_offer_term",
-          "postId": "2123689073508581733",
-          "author": "infimum_xyz",
-          "searchJob": "texas",
-          "text": "Flappy Starship https://t.co/27Rhrhm5zb"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123672771867680867",
-          "author": "sea2shine",
-          "searchJob": "texas",
-          "text": "@bethecreed Neighbors (Texas Southern Baptists) had a party on Good Friday. We fasted during the day so as to not seem rude to not eat. When we said we weren’t eating meat she offered us chicken. Then said have some green beans.. I cooked t"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123671346643087613",
-          "author": "davetwit4",
-          "searchJob": "texas",
-          "text": "@AnointedName @EddieJamro84189 I'll stick with the Words and Deeds of Jesus. There is a difference between not knowing and knowing if something is offered to an idol. Paul states that knowing an idol is nothing, it's okay to eat meat offere"
-        },
-        {
-          "reason": "no_fbs_school",
-          "postId": "2123667777492029860",
-          "author": "davetwit4",
-          "searchJob": "texas",
-          "text": "@AnointedName @EddieJamro84189 Believe what you will, but I cannot believe that Jesus would condone the eating of idol meat or bread offered by Satan."
+          "postId": "2123659046217531552",
+          "author": "ebookiecath",
+          "searchJob": "temple",
+          "text": "St. Paul makes sense. You just got biased by the protestants who introduced you to him. He doesn't contradict Jesus. And Jesus himself never says he's just a prophet. Mere prophets do not allow people to worship them or call them their God."
         }
       ]
     },
     "extraction": {
       "accepted": 0,
-      "rejected": 13,
+      "rejected": 15,
       "reasons": {
-        "bare_mention_requires_llm": 6,
-        "multiple_resolved_schools": 1,
-        "school_not_resolved_confidently": 6
+        "bare_mention_requires_llm": 14,
+        "school_not_resolved_confidently": 1
       },
       "samples": [
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123690304318345493",
-          "author": "infodor_pk",
-          "searchJob": "rice",
-          "text": "Pakistani doctoral student Shehar Shehar Bano explored modern farming techniques at Yanjiagang Farm in Harbin, including smart greenhouse controls and advanced rice production. The visit offered her new insights into China's technology-driv"
+          "postId": "2123697048574644414",
+          "author": "brantywish",
+          "searchJob": "texas-am",
+          "text": "@thisispinguini 😂haiya haiya huko si karibii navile wakona offer tamu tamu shiiet 💔"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123672904755761317",
-          "author": "scigalleryblr",
-          "searchJob": "rice",
-          "text": "How many ways can you play with your food? Join us for Aata at Namma Oota this weekend to find Aata on our menus! Write with your food, cook up a zine, experiment with rice breeding, or tuck into our food library. Swipe through to see every"
+          "postId": "2123689660949962996",
+          "author": "saira231378",
+          "searchJob": "liberty",
+          "text": "To, The Honourable Chief Justice of Pakistan, Supreme Court of Pakistan, Islamabad. Subject: Urgent Petition to Safeguard the Life, Health, and Constitutional Rights of Mr Imran Ahmed Khan Niazi (Former Prime Minister of Pakistan) Respected"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123670387552907722",
-          "author": "thenationth",
-          "searchJob": "rice",
-          "text": "China offered to help Thailand tackle cross-border water pollution after the Asia-Pacific Economic Cooperation summit, and Thailand proposed raising the issue with regional leaders in December. The two countries agreed to encourage Chinese "
+          "postId": "2123688393196363953",
+          "author": "ronin_x",
+          "searchJob": "liberty",
+          "text": "Pray for Our Nation: Our Homes Loving Father, we thank You for the homes across America where love is practiced daily: for parents who provide, grandparents who pass on faith and wisdom, children that bring joy, neighbors who share a meal, "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123665831704072685",
-          "author": "x_pranam_x",
-          "searchJob": "rice",
-          "text": "You are scared to die because of the relationships you have. You fear that they will be snatched away. Because of this, go to India, visit a temple, and offer pooja to Lord Hanuman who is immortal and never dies, to overcome the fear of dyi"
+          "postId": "2123673681310192067",
+          "author": "libertyswapfi",
+          "searchJob": "liberty",
+          "text": "Liberty Lend will give users the tools to leverage their positions, whether they want to go long or short on their favorite PulseChain coins. The protocol is designed conservatively, with open-source smart contracts and security best practi"
+        },
+        {
+          "reason": "school_not_resolved_confidently",
+          "postId": "2123689632281821347",
+          "author": "futurestacked",
+          "searchJob": "south-florida",
+          "text": "🚨 Today, we tell the story of one of the greatest heists in tech history. A 28 year old paid $18,000 to invent 4 million customers. JPMorgan bought her company for $175 million. Then the bank ended up paying over $100 million in her legal "
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123676942935478497",
-          "author": "cii4wr",
-          "searchJob": "class:2026",
-          "text": "Panel Discussion 1 | CII Surface Coating Show 2026 What does the manufacturing industry really expect from the surface engineering ecosystem? As industries move towards higher standards of efficiency, sustainability and quality, the expecta"
+          "postId": "2123698341011755500",
+          "author": "avnierbey",
+          "searchJob": "temple",
+          "text": "SURAH AL-JINN Number of verses: 28 | Period: Mecca (in all likelihood after the journey to Taif) | Pedagogical order: 88 Subject: The Limit of the Unseen — Human Responsibility Reference Frame: Qur'an Tafsir Reference Protocol v27 | Foundat"
         },
         {
           "reason": "bare_mention_requires_llm",
-          "postId": "2123673111853924485",
-          "author": "hayashiya78",
-          "searchJob": "class:2026",
-          "text": "2026年11月20日(金曜日) 本日の【金・プラチナ・記念金貨】質・買取価格 ※16：00に当店の金・プラチナ価格を変更いたしました ✅質屋業界において全国上位レベルの金・プラチナ買取実績 ✅ダイヤ・色石・各種宝飾品も査定が高い店 ぜひ他店と1gあたりの買取価格を比べてください ⚠️売りたくないけど現金が必要な時には品物でお金をお貸しする事も出来ます ✅掲載単価のとおり買取します 実際持込んだら価格が全然安かったとか 〇〇円～〇〇円といった不明瞭な価格設定なし ✅手数料・鑑"
+          "postId": "2123695911645986885",
+          "author": "geetgayaisolate",
+          "searchJob": "temple",
+          "text": "'Poor' woman approaches you outside Mahakaleshwar temple, Ujjain, begging for money to buy food. You offer to pay for provisions &amp; she'll lead you to shopkeeper with a ready pack of essentials. You pay him, leave. The package will be re"
         },
         {
-          "reason": "multiple_resolved_schools",
-          "postId": "2123677247232156108",
-          "author": "dwildcard303007",
-          "searchJob": "louisville",
-          "text": "November 20, 2026 | Overnight Dispatch Update Through 12:01am JEFFERSON COUNTY, LAKEWOOD AND WHEAT RIDGE 11:41 PM | Unsafe Driver Reported on C-470 Near Wadsworth A caller reported a gray Toyota Sienna traveling westbound on C-470 near Wads"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123665674505760845",
+          "author": "peeleraja",
+          "searchJob": "temple",
+          "text": "Here are some scams I have experienced. Mumbai: Hotel claims rooms are not available though i have pre-booked on booking dot com. Offers another hotel at same price. But new hotel is a shady lodge that should cost less than half. Delhi: Pre"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123687367932252283",
-          "author": "cryptototem",
-          "searchJob": "miami",
-          "text": "We're an Official Community Partner of @consensus2027 The largest industry-wide gathering across digital assets, blockchain, AI, and institutional finance. [Venue] Miami [Dates] May 4-6, 2027 What to expect: - 15,000 leaders from 120+ count"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123688207464399009",
+          "author": "mr__vig",
+          "searchJob": "temple",
+          "text": "Madurai - Autos near Meenakshiamman temple who offer guided trips for a certain amount but quote huge fares at the end with different excuses. Shirdi - Touts who claim to be government authoritaties stop your car before you reach the venue "
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123685963574440068",
-          "author": "sifakof",
-          "searchJob": "miami",
-          "text": "@Sam7will @EEZZEE_001 What do you mean by that? You think the pictures there are fake or the news is fake… that was the amount offered but he said naaas inter Miami is where I’m gonna be… 😂"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123679539993993586",
+          "author": "mindkhichdi",
+          "searchJob": "temple",
+          "text": "@peeleraja Shirdi - They will ask you to buy the Prasad and cloth to give to Sai baba from outside with number of shops and they say keep your mobile for safety for free. The temple doesn't allow any Prasad or cloth to offer inside not allo"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123670436097781933",
-          "author": "stilwitjinkook",
-          "searchJob": "miami",
-          "text": "WTS💜 two stray kids soundcheck vip tickets for miami june 11th !!!! - sec 8, row 2 - fv (open to offers ) - paypal g&amp;s / zelle - willing to call / ft during transaction 🏷️ skz world tour wtt wtb iso hard rock stadium fl"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123675995127320742",
+          "author": "ash_mavr",
+          "searchJob": "temple",
+          "text": "@SnookyShogun Well done for beating it! This was my favourite N64 game, I remember being so intimidated by the 3 day system but when I got to grips with it I loved it and all the mechanics the game had to offer. Do think it has a worse wate"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123665563415183794",
-          "author": "wsfunded",
-          "searchJob": "miami",
-          "text": "Miami, Dubai, PS5s, iPhones, a Rolex and more. we've got TWO BIG GIVEAWAYS happening on December 1! And here's the best part: you don't need a separate entry. Every purchase made with one of our Black Friday codes automatically enters you i"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123673763199975662",
+          "author": "jamilsnowber",
+          "searchJob": "temple",
+          "text": "❄️ BHADERWAH – A WINTER WONDERLAND WAITING TO BE EXPLORED! 🏔️ Beyond summers, there is a magical winter story that Bhaderwah has to offer….. When winter descends upon the mountains of Jammu & Kashmir, Bhaderwah transforms into a breathtaki"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123661687119020058",
-          "author": "qiplume",
-          "searchJob": "miami",
-          "text": "Be+Well Beauty and Wellness Show New York 2027 to offer 50+ sessions across 12+ tracks #IBSNewYork Forge says the 2027 Be+Well | Beauty and Wellness Show (formerly International Beauty Show and International Esthetics, Cosmetics, and Spa Co"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123662001243045926",
+          "author": "newsarenaindia",
+          "searchJob": "temple",
+          "text": "Cyclone Akvan: Devotees continue to visit Jagannath Temple in Puri to offer prayers. https://t.co/M6CJRXTzsh"
         },
         {
-          "reason": "school_not_resolved_confidently",
-          "postId": "2123689424185692178",
-          "author": "m3th0dm4x",
-          "searchJob": "texas",
-          "text": "💢HABSBURG💢 The Habsburgs are one of the most dominant royal bloodlines and have ruled in Austria, Germany, Switzerland, Spain, Mexico, and Eastern Europe including Ukraine. The Habsburgs specialize in deception and defilement. They are di"
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123660355247222962",
+          "author": "therionware",
+          "searchJob": "temple",
+          "text": "Oh dear. Three paragraphs, three elementary misunderstandings, and not a single argument worth the name. Firstly, pointing out someone's ignorance of a subject isn't necessarily an ad hominem fallacy. It becomes fallacious when their charac"
+        },
+        {
+          "reason": "bare_mention_requires_llm",
+          "postId": "2123657348170604791",
+          "author": "thedailyjagran",
+          "searchJob": "temple",
+          "text": "Ayodhya's Shri Ram Janmabhoomi Mandir is witnessing a massive gathering of devotees during the Chaudah Kosi Parikrama. Around two lakh pilgrims have offered prayers to Shri Ramlala so far this week. Long queues stretch across the temple pre"
         }
       ]
     },
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 162,
+      "jobs": 167,
       "swept": 26,
       "failed": 0,
       "requests": 26,
@@ -469,28 +300,35 @@
     "commits": {
       "samples": [
         {
-          "reason": "no_football_context",
-          "postId": "2123692567741018457",
-          "author": "nkaisol",
-          "text": "Lol Grandpa is butthurt no one wants to commit to his program anymore. Talking about Education? 😂😂😂😂😂 what education were they providing in Storrs? The only thing Uconn offered those recruits were easy rings and League connections and "
+          "reason": "juco_or_transfer",
+          "postId": "2123698341011755500",
+          "author": "avnierbey",
+          "text": "SURAH AL-JINN Number of verses: 28 | Period: Mecca (in all likelihood after the journey to Taif) | Pedagogical order: 88 Subject: The Limit of the Unseen — Human Responsibility Reference Frame: Qur'an Tafsir Reference Protocol v27 | Foundat"
+        },
+        {
+          "reason": "roundup_too_long",
+          "postId": "2123650854146187305",
+          "author": "noy_garrett",
+          "text": "7A Round 2 Madison Central at Tupelo @MCJags_Football @TupFB Win and advance. Every rep carries weight. College commits on both sides. Younger prospects ready to make their names known. Seniors with another opportunity to put recruiting wor"
         }
       ],
       "stats": {
-        "candidates": 1,
+        "candidates": 2,
         "accepted": 0,
-        "rejected": 1,
+        "rejected": 2,
         "reasons": {
-          "no_football_context": 1
+          "juco_or_transfer": 1,
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
       "acceptedEvidence": 0,
-      "rejectedCandidates": 13,
+      "rejectedCandidates": 15,
       "brandNewOffers": 0
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-20T08:29:13.001Z"
+    "status rebuilt locally from current store on 2026-11-20T08:43:59.780Z"
   ]
 }
