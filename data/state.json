@@ -60006,13 +60006,13 @@
   },
   "health": {
     "search": {
-      "at": "2026-11-21T04:58:48.892Z",
+      "at": "2026-11-21T05:13:44.624Z",
       "got": 0,
       "new": 0,
       "lag": null
     },
     "search:commit": {
-      "at": "2026-11-21T04:58:48.892Z",
+      "at": "2026-11-21T05:13:44.625Z",
       "got": 0,
       "new": 0,
       "lag": null
@@ -61317,8 +61317,8 @@
       "at": "2026-11-20T16:57:42.773Z"
     },
     "commit:florida-state": {
-      "lastPosts": 2,
-      "at": "2026-11-20T16:57:42.773Z",
+      "lastPosts": 0,
+      "at": "2026-11-21T05:12:51.185Z",
       "truncated": false
     },
     "commit:georgia-tech": {
@@ -61781,11 +61781,11 @@
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
-    "at": "2026-11-21T04:58:48.893Z",
+    "at": "2026-11-21T05:13:44.625Z",
     "jobsTotal": 162,
-    "sweptThisRun": 23,
-    "requests": 23,
-    "fullSweepCycles": 8
+    "sweptThisRun": 0,
+    "requests": 21,
+    "fullSweepCycles": 162
   },
   "backfill": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -61805,7 +61805,7 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-21T04:57:23.826Z",
+    "at": "2026-11-21T05:12:51.089Z",
     "mode": "live",
     "collection": {
       "returned": 0,
@@ -61830,11 +61830,20 @@
     "search": {
       "ok": true,
       "reason": null,
-      "jobs": 165,
-      "swept": 26,
-      "failed": 0,
+      "jobs": 167,
+      "swept": 1,
+      "failed": 25,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "michigan-state: SearchTimeline HTTP 404 (slice left pending)",
+        "minnesota: SearchTimeline HTTP 404 (slice left pending)",
+        "mississippi-state: SearchTimeline HTTP 404 (slice left pending)",
+        "missouri: SearchTimeline HTTP 404 (slice left pending)",
+        "commit:cincinnati: SearchTimeline HTTP 404 (slice left pending)",
+        "nebraska: SearchTimeline HTTP 404 (slice left pending)",
+        "northwestern: SearchTimeline HTTP 404 (slice left pending)",
+        "ohio-state: SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "commits": {
       "samples": [],
