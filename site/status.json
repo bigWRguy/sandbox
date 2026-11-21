@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-21T04:44:02.956Z",
+  "generatedAt": "2026-11-21T04:58:49.731Z",
   "searchCredentials": 0,
-  "searchConfigured": false,
+  "searchConfigured": true,
   "searchBlocked": false,
   "blockedRuns": 0,
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-21T04:28:55.406Z",
+    "at": "2026-11-21T04:58:48.893Z",
     "jobsTotal": 162,
-    "sweptThisRun": 26,
-    "requests": 26,
-    "fullSweepCycles": 7
+    "sweptThisRun": 23,
+    "requests": 23,
+    "fullSweepCycles": 8
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -32,9 +32,9 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 1.0175136111111112,
-    "p95Hours": 1.7782397222222222,
-    "worstHours": 2.0159505555555555
+    "medianHours": 1.017826111111111,
+    "p95Hours": 1.7701588888888888,
+    "worstHours": 1.7701588888888888
   },
   "decisionCoverage": {
     "total": 0,
@@ -55,20 +55,20 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-21T04:28:55.406Z",
+      "at": "2026-11-21T04:58:48.892Z",
       "got": 0,
       "new": 0,
       "lag": null
     },
     "search:commit": {
-      "at": "2026-11-21T03:59:06.475Z",
+      "at": "2026-11-21T04:58:48.892Z",
       "got": 0,
       "new": 0,
       "lag": null
     }
   },
   "audit": {
-    "at": "2026-11-21T04:43:15.214Z",
+    "at": "2026-11-21T04:57:23.826Z",
     "mode": "live",
     "collection": {
       "returned": 0,
@@ -91,22 +91,13 @@
       "samples": []
     },
     "search": {
-      "ok": false,
-      "reason": "western-kentucky: SearchTimeline HTTP 404 (slice left pending)",
+      "ok": true,
+      "reason": null,
       "jobs": 165,
-      "swept": 0,
-      "failed": 26,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "western-kentucky: SearchTimeline HTTP 404 (slice left pending)",
-        "georgia: SearchTimeline HTTP 404 (slice left pending)",
-        "michigan: SearchTimeline HTTP 404 (slice left pending)",
-        "vanderbilt: SearchTimeline HTTP 404 (slice left pending)",
-        "commit:boston-college: SearchTimeline HTTP 404 (slice left pending)",
-        "washington: SearchTimeline HTTP 404 (slice left pending)",
-        "wisconsin: SearchTimeline HTTP 404 (slice left pending)",
-        "phrase:\"blessed to have received\": SearchTimeline HTTP 404 (slice left pending)"
-      ]
+      "errors": []
     },
     "commits": {
       "samples": [],
@@ -124,6 +115,6 @@
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-21T04:44:02.957Z"
+    "status rebuilt locally from current store on 2026-11-21T04:58:49.732Z"
   ]
 }
