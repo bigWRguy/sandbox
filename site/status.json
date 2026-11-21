@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T04:14:14.863Z",
+  "generatedAt": "2026-11-21T04:28:56.266Z",
   "searchCredentials": 0,
   "searchConfigured": true,
   "searchBlocked": false,
@@ -7,9 +7,9 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-21T04:14:14.051Z",
+    "at": "2026-11-21T04:28:55.406Z",
     "jobsTotal": 162,
-    "sweptThisRun": 25,
+    "sweptThisRun": 26,
     "requests": 26,
     "fullSweepCycles": 7
   },
@@ -30,16 +30,11 @@
     "completedTeamDays": 14,
     "remainingTeamDays": 122
   },
-  "staleSchools": [
-    {
-      "id": "marshall",
-      "hours": 2.3
-    }
-  ],
+  "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7736783333333334,
-    "p95Hours": 1.5192580555555555,
-    "worstHours": 2.2717983333333334
+    "medianHours": 0.7656552777777778,
+    "p95Hours": 1.5263813888888889,
+    "worstHours": 1.7640922222222222
   },
   "decisionCoverage": {
     "total": 0,
@@ -47,7 +42,7 @@
     "complete": true
   },
   "pending": {
-    "total": 137
+    "total": 136
   },
   "profileResolution": {
     "cached": 111
@@ -60,7 +55,7 @@
   "frozenProfiles": [],
   "health": {
     "search": {
-      "at": "2026-11-21T04:14:14.051Z",
+      "at": "2026-11-21T04:28:55.406Z",
       "got": 0,
       "new": 0,
       "lag": null
@@ -73,7 +68,7 @@
     }
   },
   "audit": {
-    "at": "2026-11-21T04:12:47.296Z",
+    "at": "2026-11-21T04:27:26.248Z",
     "mode": "live",
     "collection": {
       "returned": 0,
@@ -99,12 +94,10 @@
       "ok": true,
       "reason": null,
       "jobs": 162,
-      "swept": 25,
-      "failed": 1,
+      "swept": 26,
+      "failed": 0,
       "requests": 26,
-      "errors": [
-        "marshall: SearchTimeline HTTP 404 (slice left pending)"
-      ]
+      "errors": []
     },
     "commits": {
       "samples": [],
@@ -122,6 +115,6 @@
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-21T04:14:14.864Z"
+    "status rebuilt locally from current store on 2026-11-21T04:28:56.267Z"
   ]
 }
