@@ -61777,7 +61777,7 @@
       "truncated": false
     }
   },
-  "searchConfigured": true,
+  "searchConfigured": false,
   "lastRateLimitAt": "2026-09-04T23:26:13.448Z",
   "frozenProfiles": [],
   "searchCoverage": {
@@ -61805,7 +61805,7 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-21T04:27:26.248Z",
+    "at": "2026-11-21T04:43:15.214Z",
     "mode": "live",
     "collection": {
       "returned": 0,
@@ -61828,13 +61828,22 @@
       "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
-      "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "ok": false,
+      "reason": "western-kentucky: SearchTimeline HTTP 404 (slice left pending)",
+      "jobs": 165,
+      "swept": 0,
+      "failed": 26,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "western-kentucky: SearchTimeline HTTP 404 (slice left pending)",
+        "georgia: SearchTimeline HTTP 404 (slice left pending)",
+        "michigan: SearchTimeline HTTP 404 (slice left pending)",
+        "vanderbilt: SearchTimeline HTTP 404 (slice left pending)",
+        "commit:boston-college: SearchTimeline HTTP 404 (slice left pending)",
+        "washington: SearchTimeline HTTP 404 (slice left pending)",
+        "wisconsin: SearchTimeline HTTP 404 (slice left pending)",
+        "phrase:\"blessed to have received\": SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "commits": {
       "samples": [],

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T04:28:56.266Z",
+  "generatedAt": "2026-11-21T04:44:02.956Z",
   "searchCredentials": 0,
-  "searchConfigured": true,
+  "searchConfigured": false,
   "searchBlocked": false,
   "blockedRuns": 0,
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
@@ -32,9 +32,9 @@
   },
   "staleSchools": [],
   "liveStaleness": {
-    "medianHours": 0.7656552777777778,
-    "p95Hours": 1.5263813888888889,
-    "worstHours": 1.7640922222222222
+    "medianHours": 1.0175136111111112,
+    "p95Hours": 1.7782397222222222,
+    "worstHours": 2.0159505555555555
   },
   "decisionCoverage": {
     "total": 0,
@@ -68,7 +68,7 @@
     }
   },
   "audit": {
-    "at": "2026-11-21T04:27:26.248Z",
+    "at": "2026-11-21T04:43:15.214Z",
     "mode": "live",
     "collection": {
       "returned": 0,
@@ -91,13 +91,22 @@
       "samples": []
     },
     "search": {
-      "ok": true,
-      "reason": null,
-      "jobs": 162,
-      "swept": 26,
-      "failed": 0,
+      "ok": false,
+      "reason": "western-kentucky: SearchTimeline HTTP 404 (slice left pending)",
+      "jobs": 165,
+      "swept": 0,
+      "failed": 26,
       "requests": 26,
-      "errors": []
+      "errors": [
+        "western-kentucky: SearchTimeline HTTP 404 (slice left pending)",
+        "georgia: SearchTimeline HTTP 404 (slice left pending)",
+        "michigan: SearchTimeline HTTP 404 (slice left pending)",
+        "vanderbilt: SearchTimeline HTTP 404 (slice left pending)",
+        "commit:boston-college: SearchTimeline HTTP 404 (slice left pending)",
+        "washington: SearchTimeline HTTP 404 (slice left pending)",
+        "wisconsin: SearchTimeline HTTP 404 (slice left pending)",
+        "phrase:\"blessed to have received\": SearchTimeline HTTP 404 (slice left pending)"
+      ]
     },
     "commits": {
       "samples": [],
@@ -115,6 +124,6 @@
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-21T04:28:56.267Z"
+    "status rebuilt locally from current store on 2026-11-21T04:44:02.957Z"
   ]
 }
