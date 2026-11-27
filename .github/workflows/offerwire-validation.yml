@@ -1,0 +1,38 @@
+﻿name: Validate OfferWire recovery
+on:
+  push:
+    branches: [offerwire-validation]
+permissions:
+  contents: read
+jobs:
+  dry-run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify the collector and replay fixtures
+        run: |
+          node scripts/selftest.mjs
+          node scripts/fixture-run.mjs
+          node scripts/reliability-test.mjs
+      - name: Verify hosted access to the recruiting sources
+        run: |
+          node --input-type=module - <<'EOF'
+          import { fetchPublicRecruiting } from './src/collect/public-recruiting.js';
+          const { records, health } = await fetchPublicRecruiting();
+          for (const [url, source] of Object.entries(health)) {
+            console.log(new URL(url).hostname, source.error ? 'unavailable' : 'available', source.records ?? 0);
+          }
+          if (!health['https://profilefb.com/api/logos']?.records) throw new Error('Profile Recruiting returned no usable records');
+          if (!records.some(({ record }) => record.kind === 'offer')) throw new Error('No offers from recruiting sources');
+          if (!records.some(({ record }) => record.kind === 'commit')) throw new Error('No commitments from recruiting sources');
+          console.log('Verified', records.length, 'usable recruiting records across hosted sources');
+          EOF
+      - name: Verify ledger ingestion without publishing records
+        run: |
+          set -euo pipefail
+          node src/pipeline.js --public --dry-run | awk '/^OfferWire run|^  commits:|^  dry run:/'
+          git diff --exit-code
