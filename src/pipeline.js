@@ -3,8 +3,11 @@ import path from 'node:path';
 import { readJson, writeJson, appendNdjson, readNdjson, sha1, decodeEntities, DATA, CONFIG } from './lib/store.js';
 import { fetchList, fetchProfile, lagHours } from './collect/x.js';
 import { sweep, configured as searchConfigured, loadCredentials } from './collect/search.js';
+import { fetchPublicRecruiting } from './collect/public-recruiting.js';
+import { normalizeApifyPosts } from './collect/apify-posts.js';
+import { apifySearchWindow, collectApifyRecruiting } from './collect/apify-recruiting.js';
 import { allJobs, schoolJobs, backfillJobs, backfillAnchorDate, backfillProgress, commitJobsDue, bioJobs } from './collect/queries.js';
-import { commitCandidate, newCommitDb, processCommits, buildCommitView } from './commits.js';
+import { commitCandidate, newCommitDb, processCommits, upsertCommit, buildCommitView } from './commits.js';
 import { settlePositions } from './resolve/coaches.js';
 import { classify, findClassYear, findPosition, findTaggedRecruit, findReportedName, handleClassYear, parseRoundup } from './extract/rules.js';
 import { findSchools, byId, HANDLES, SCHOOLS, explicitNonFbsOfferTarget } from './resolve/schools.js';
@@ -117,6 +120,14 @@ async function collect(state, log, audit, lookup = { bios: null, wantedBios: [] 
     health[srcKey] = { at: now(), got: posts.length, new: added, lag: posts.length ? +lagHours(posts).toFixed(2) : null };
     return added;
   };
+
+  if (lookup.inputPosts) {
+    push(lookup.inputPosts, 'apify:search');
+    state.seenPostIds = [...seen].slice(-60000);
+    state.seenCommitPostIds = [...seenCommit].slice(-40000);
+    log(`  Apify posts: ${fresh.length} new, ${commitFresh.length} commitment candidates`);
+    return { fresh, commitFresh };
+  }
 
   if (!searchConfigured()) {
     log('');
@@ -429,11 +440,13 @@ export function upsert(db, rec, post, verdictConfidence, observedAt = now()) {
 
   const key = offerKey(player.id, school.id);
   let offer = db.offerMap.get(key);
+  if (offer && post.datePrecision === 'day') return null;
   const evidence = {
     postId: post.id,
     author: post.author,
     url: post.url || `https://x.com/${post.author}/status/${post.id}`,
     postedAt: post.createdAt,
+    ...(post.datePrecision ? { datePrecision: post.datePrecision } : {}),
     via: post.via || null,
     confidence: verdictConfidence,
     text: post.text.slice(0, 400),
@@ -475,11 +488,19 @@ export function upsert(db, rec, post, verdictConfidence, observedAt = now()) {
 
 async function main() {
   const t0 = Date.now();
+  const inputIndex = process.argv.indexOf('--apify-input');
+  const inputPath = inputIndex >= 0 ? process.argv[inputIndex + 1] : null;
+  if (inputIndex >= 0 && (!inputPath || inputPath.startsWith('--'))) throw new Error('Supply a JSON export after --apify-input');
+  let inputPosts = inputPath ? normalizeApifyPosts(JSON.parse(fs.readFileSync(inputPath, 'utf8'))) : null;
+  if (inputPosts && !inputPosts.length) throw new Error('Apify export contained no readable posts');
+  const mode = inputPosts || process.argv.includes('--public') ? 'public' : String(process.env.OFFERWIRE_MODE || 'live').toLowerCase();
+  const publicMode = mode === 'public';
+  const dryRun = publicMode && process.argv.includes('--dry-run');
   const lines = [];
   const log = (s) => { lines.push(s); console.log(s); };
   const audit = {
     at: now(),
-    mode: String(process.env.OFFERWIRE_MODE || 'live').toLowerCase(),
+    mode,
     collection: { returned: 0, kept: 0, duplicate: 0, tooOld: 0, future: 0, invalid: 0 },
     prefilter: { accepted: 0, rejected: 0, reasons: {}, samples: [] },
     extraction: { accepted: 0, rejected: 0, reasons: {}, samples: [] },
@@ -506,22 +527,48 @@ async function main() {
 
   const bios = loadBios(readJson('coachbios.json', null));
   const staff = loadStaff(readJson('staff.json', null));
-  const wantedBios = process.env.OFFERWIRE_BIOS === '0' ? [] : wantedBioHandles(readJson('offers.json', []), readJson('players.json', []), bios, KNOWN_ACCOUNTS);
+  const wantedBios = publicMode || process.env.OFFERWIRE_BIOS === '0' ? [] : wantedBioHandles(readJson('offers.json', []), readJson('players.json', []), bios, KNOWN_ACCOUNTS);
 
   log('collect:');
-  const { fresh, commitFresh } = await collect(state, log, audit, { bios, wantedBios });
-  log(`  total new posts: ${fresh.length}`);
-  appendNdjson(`raw/${new Date().toISOString().slice(0, 10)}.ndjson`, fresh);
-  appendNdjson(`raw/commits-${new Date().toISOString().slice(0, 10)}.ndjson`, commitFresh);
+  const date = new Date(t0);
+  const apifyToken = process.env.APIFY_TOKEN;
+  const apifyWindow = publicMode && !dryRun && !inputPath && apifyToken && apifySearchWindow(date, state.apifySearch);
+  const [trackers, apify] = await Promise.allSettled([
+    publicMode ? fetchPublicRecruiting(date) : null,
+    apifyWindow ? collectApifyRecruiting({ token: apifyToken, window: apifyWindow, prior: state.apifySearch }) : null,
+  ]);
+  if (apifyWindow) {
+    const job = apify.status === 'fulfilled' ? apify.value : null;
+    state.apifySearch = job?.state || { ...state.apifySearch, at: audit.at, error: apify.reason.message };
+    if (job?.posts.length) inputPosts = job.posts;
+  }
+  if (trackers.status === 'rejected' && !inputPosts) throw trackers.reason;
+  const publicFeed = trackers.status === 'fulfilled' ? trackers.value : null;
+  const { fresh, commitFresh } = publicMode && !inputPosts ? { fresh: [], commitFresh: [] }
+    : await collect(state, log, audit, { bios, wantedBios, inputPosts });
+  state.collectionMode = publicMode ? 'public' : 'x';
+  if (publicMode) {
+    const newest = inputPosts?.reduce((latest, post) => post.createdAt > latest ? post.createdAt : latest, '') || null;
+    const latestAt = [publicFeed?.latestAt, newest].filter(Boolean).sort().at(-1) || null;
+    audit.publicRecruiting = { at: audit.at, latestAt, records: publicFeed?.records.length || 0,
+      sources: { ...publicFeed?.health, ...(trackers.status === 'rejected' ? { trackers: { error: trackers.reason.message } } : {}),
+        ...(inputPath ? { apify: { records: inputPosts.length, imported: true } } : apifyToken && state.apifySearch ? { apify: state.apifySearch } : {}) } };
+    state.publicRecruiting = audit.publicRecruiting;
+    log(`  public recruiting: ${JSON.stringify(audit.publicRecruiting.sources)}`);
+  } else {
+    log(`  total new posts: ${fresh.length}`);
+  }
+  if (!dryRun) {
+    appendNdjson(`raw/${new Date().toISOString().slice(0, 10)}.ndjson`, fresh);
+    appendNdjson(`raw/commits-${new Date().toISOString().slice(0, 10)}.ndjson`, commitFresh);
+  }
 
-  log('extract:');
+  log(publicMode ? 'ingest public recruiting records:' : 'extract: deterministic rules + target attribution');
   const sink = { nonFbs: [] };
-  const candidates = prefilter(fresh, log, audit, sink);
+  const candidates = publicMode && !inputPosts ? [] : prefilter(fresh, log, audit, sink);
   for (const p of sink.nonFbs) observeNonFbs(staff, p, KNOWN_ACCOUNTS, p.createdAt);
 
   const verdicts = new Map();
-  log('  extraction: deterministic rules + target attribution');
-
   const players = readJson('players.json', []);
   const offers = readJson('offers.json', []);
   const wl = readJson('watchlist.json', { handles: {} });
@@ -583,7 +630,7 @@ async function main() {
 
   db._index = indexPlayers(db.players);
 
-  try {
+  if (!publicMode) try {
     const swept = pruneOffers(db.offers, staff, KNOWN_ACCOUNTS, bios, bioVeto);
     if (swept.removed.length) {
       db.offers = swept.kept;
@@ -601,20 +648,42 @@ async function main() {
   try {
     audit.commits = { samples: [] };
     commitStats = processCommits(commitFresh, { cdb, db, affiliations, known: KNOWN_ACCOUNTS, observedAt: now(), audit: audit.commits });
+    if (publicFeed) {
+      for (const { record, post } of publicFeed.records) {
+        if (record.kind === 'offer') {
+          if (upsert(db, record, post, 0.55, audit.at)) accepted++;
+        } else {
+          commitStats.candidates++;
+          if (upsertCommit(cdb, db, record, post, 0.55, audit.at)) commitStats.accepted++;
+        }
+      }
+      audit.extraction.accepted = accepted;
+    }
+    if (publicMode) {
+      audit.publicRecruiting.newOffers = db.newOffers.length;
+      audit.publicRecruiting.newCommitEvents = cdb.newEvents.length;
+    }
     audit.commits.samples = audit.commits.samples.slice(0, 8);
     audit.commits.stats = { candidates: commitStats.candidates, accepted: commitStats.accepted, rejected: commitStats.rejected, reasons: commitStats.reasons };
     commitsOk = true;
     log(`  commits: ${commitStats.candidates} candidates, ${commitStats.accepted} accepted, ${commitStats.rejected} rejected, ${cdb.newEvents.length} new events (${cdb.events.length} total)`);
   } catch (e) {
+    if (publicMode) throw e;
     log(`  commits: FAILED (${e.message})`);
   }
   db._index = indexPlayers(db.players);
 
-  try {
+  if (!publicMode) try {
     const posChanges = settlePositions(db.offers, db.players, KNOWN_ACCOUNTS, bios);
     if (posChanges.length) log(`  positions: ${posChanges.length} corrected (${posChanges.filter((c) => c.by === 'coach').length} from tagged coaches): ${posChanges.slice(0, 4).map((c) => `${c.name} ${c.from ?? '-'}>${c.to ?? '-'}`).join(', ')}`);
   } catch (e) {
     log(`  positions: skipped (${e.message})`);
+  }
+
+  if (dryRun) {
+    log(`  dry run: ${db.newOffers.length} new offers, ${cdb.newEvents.length} new commitment events`);
+    log(JSON.stringify(db.newOffers.slice(0, 8).map((offer) => ({ player: offer.playerName, school: offer.schoolName, date: offer.offeredAt, source: offer.evidence[0].url })), null, 2));
+    return;
   }
 
   const playerStats = decorateOffers(db.offers);
@@ -625,14 +694,13 @@ async function main() {
   }
   log(`  tiers: ${playerStats.size} players tracked`);
 
-  const newlyPromoted = watch.promote(wl);
-  const pruned = watch.prune(wl);
+  const newlyPromoted = publicMode ? [] : watch.promote(wl);
+  const pruned = publicMode ? 0 : watch.prune(wl);
   audit.outcome = { acceptedEvidence: accepted, rejectedCandidates: rejected, brandNewOffers: db.newOffers.length };
   state.lastAudit = audit;
-  state.lastDecisionCoverage = { total: fresh.length, decided: decisions.size, complete: decisions.size === fresh.length };
+  if (!publicMode || inputPosts) state.lastDecisionCoverage = { total: fresh.length, decided: decisions.size, complete: decisions.size === fresh.length };
   appendNdjson(`audit/${new Date().toISOString().slice(0, 10)}.ndjson`, [audit]);
   appendNdjson(`decisions/${new Date().toISOString().slice(0, 10)}.ndjson`, [...decisions.values()]);
-  for (const [id, item] of Object.entries(pending.candidates)) if (new Date(item.expiresAt).getTime() <= Date.now()) delete pending.candidates[id];
 
   log(`  offers: ${accepted} accepted, ${rejected} rejected, ${db.newOffers.length} brand new`);
   log(`  watchlist: ${Object.keys(wl.handles).length} handles (${newlyPromoted.length} promoted, ${pruned} pruned)`);
@@ -640,11 +708,14 @@ async function main() {
   db.offers.sort((a, b) => new Date(b.offeredAt) - new Date(a.offeredAt));
   writeJson('offers.json', db.offers);
   writeJson('players.json', db.players);
-  writeJson('watchlist.json', wl);
-  writeJson('affiliations.json', affiliations);
-  writeJson('pending.json', pending);
-  writeJson('staff.json', staff);
-  writeJson('coachbios.json', bios);
+  if (!publicMode || inputPosts) {
+    for (const [id, item] of Object.entries(pending.candidates)) if (new Date(item.expiresAt).getTime() <= Date.now()) delete pending.candidates[id];
+    writeJson('watchlist.json', wl);
+    writeJson('affiliations.json', affiliations);
+    writeJson('pending.json', pending);
+    writeJson('staff.json', staff);
+    writeJson('coachbios.json', bios);
+  }
   if (db.review.length) appendNdjson('review.ndjson', db.review);
   if (commitsOk) {
     writeJson('commits.json', cdb.events);
@@ -678,16 +749,18 @@ async function main() {
   writeJson('site/status.json', {
     generatedAt: now(),
     runMs: Date.now() - t0,
-    searchCredentials: loadCredentials().length,
-    searchConfigured: state.searchConfigured !== false,
-    searchBlocked: !!state.searchBlocked,
+    collectionMode: state.collectionMode,
+    publicRecruiting: publicMode ? state.publicRecruiting : null,
+    searchCredentials: publicMode ? 0 : loadCredentials().length,
+    searchConfigured: publicMode || state.searchConfigured !== false,
+    searchBlocked: !publicMode && !!state.searchBlocked,
     blockedRuns: state.blockedRuns || 0,
     warmedUp: !!(state.firstRunAt && Date.now() - new Date(state.firstRunAt).getTime() > 3 * 3600e3),
-    searchCoverage: state.searchCoverage || null,
+    searchCoverage: publicMode ? { at: state.publicRecruiting.at } : state.searchCoverage || null,
     backfillCoverage: state.backfillCoverage || null,
     backfill: state.backfill || null,
-    staleSchools: staleSchools(state),
-    liveStaleness: liveStaleness(state),
+    staleSchools: publicMode ? [] : staleSchools(state),
+    liveStaleness: publicMode ? null : liveStaleness(state),
     quality: {
       completeOffers: recent.filter((o) => o.playerName && o.classYear).length,
       incompleteOffers: recent.filter((o) => !o.playerName || !o.classYear).length,
@@ -709,7 +782,7 @@ async function main() {
   writeJson('state.json', state);
   log(`done in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 
-  if (state.searchConfigured === false) {
+  if (!publicMode && state.searchConfigured === false) {
     console.error('\nFAILING RUN: search is the engine of this system and it is not working.');
     process.exit(2);
   }

@@ -17,6 +17,7 @@ function staleSchools(state, thresholdHours = 2) {
 }
 
 const state = readJson('state.json', {});
+const publicRecruiting = state.collectionMode === 'public' ? state.publicRecruiting : null;
 const offers = readJson('offers.json', []);
 const players = readJson('players.json', []);
 const playerById = new Map(players.map((p) => [p.id, p]));
@@ -41,17 +42,19 @@ const ages = schoolJobs().map((j) => { const at = state.watermarks?.[j.key]?.at;
 const percentile = (n) => ages.length ? ages[Math.min(ages.length - 1, Math.floor((ages.length - 1) * n))] : null;
 const status = {
   generatedAt: now(),
-  searchCredentials: loadCredentials().length,
-  searchConfigured: state.searchConfigured === true,
-  searchBlocked: state.searchBlocked === true,
+  collectionMode: state.collectionMode || 'x',
+  publicRecruiting,
+  searchCredentials: publicRecruiting ? 0 : loadCredentials().length,
+  searchConfigured: !!publicRecruiting || state.searchConfigured === true,
+  searchBlocked: !publicRecruiting && state.searchBlocked === true,
   blockedRuns: state.blockedRuns || 0,
   lastBlockedAt: state.lastBlockedAt || null,
   warmedUp: !!(state.firstRunAt && Date.now() - new Date(state.firstRunAt).getTime() > 3 * 3600e3),
-  searchCoverage: state.searchCoverage || null,
+  searchCoverage: publicRecruiting ? { at: publicRecruiting.at } : state.searchCoverage || null,
   backfillCoverage: state.backfillCoverage || null,
   backfill,
-  staleSchools: staleSchools(state),
-  liveStaleness: { medianHours: percentile(.5), p95Hours: percentile(.95), worstHours: percentile(1) },
+  staleSchools: publicRecruiting ? [] : staleSchools(state),
+  liveStaleness: publicRecruiting ? null : { medianHours: percentile(.5), p95Hours: percentile(.95), worstHours: percentile(1) },
   decisionCoverage: state.lastDecisionCoverage || { total: 0, decided: 0, complete: true },
   pending: { total: Object.keys(readJson('pending.json', { candidates: {} }).candidates || {}).length },
   profileResolution: { cached: Object.keys(readJson('affiliations.json', { accounts: {} }).accounts || {}).length },
@@ -64,4 +67,4 @@ const status = {
 };
 
 writeJson('site/status.json', status);
-console.log(`status.json rebuilt: ${recent.length} offers, ${complete} complete, ${status.staleSchools.length} stale schools`);
+console.log(`status.json rebuilt: ${recent.length} offers, ${complete} complete${publicRecruiting ? '' : `, ${status.staleSchools.length} stale schools`}`);

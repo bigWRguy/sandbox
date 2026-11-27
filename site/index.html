@@ -166,7 +166,9 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ago=iso=>{if(!iso)return'—';const m=Math.max(0,(Date.now()-new Date(iso))/60000);if(m<2)return'1m';if(m<60)return Math.round(m)+'m';if(m<1440)return Math.round(m/60)+'h';return Math.round(m/1440)+'d'};
-const safeUrl=u=>{try{const x=new URL(u);return['x.com','twitter.com'].includes(x.hostname)?x.href:'#'}catch{return'#'}};
+const safeUrl=u=>{try{const x=new URL(u);return x.protocol==='https:'&&['x.com','twitter.com','sticktothemodel.com','commitodds.com'].includes(x.hostname)?x.href:'#'}catch{return'#'}};
+const reportedDate=(iso,e)=>e?.datePrecision==='day'?new Date(iso).toLocaleDateString('en-US',{timeZone:'UTC',month:'short',day:'numeric'}):ago(iso);
+const evidenceLabel=e=>e?.datePrecision==='day'?e.author:'@'+e.author;
 
 const confColors={SEC:'#ffb85c',B1G:'#5c9fff',ACC:'#ff5c5c',B12:'#5cff96',AAC:'#b05cff',MW:'#ff5cb0',SBC:'#5cd6ff',CUSA:'#ffd65c',MAC:'#5cffe4'};
 
@@ -237,7 +239,7 @@ function render(){
     if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
     if(o.state)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.state)+'</span>');
 
-    const evItems=ev.map(e=>{const a=e.attribution||{};const badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span>'+badge+'<span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
+    const evItems=ev.map(e=>{const a=e.attribution||{};const badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">'+esc(evidenceLabel(e))+'</a><span>'+reportedDate(e.postedAt,e)+'</span>'+badge+'<span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
 
     let bioLines='';
     const oc=p.offerCounts||null;
@@ -246,7 +248,7 @@ function render(){
     if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
     if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
 
-    var row='<div class="row" data-oid="'+oid+'" onclick="toggleRow(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.offeredAt)+'">'+ago(o.offeredAt)+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+firsts+'</span></div><div class="r-sub"><span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span><span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
+    var row='<div class="row" data-oid="'+oid+'" onclick="toggleRow(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.offeredAt)+'">'+reportedDate(o.offeredAt,ev[0])+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+firsts+'</span></div><div class="r-sub"><span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span><span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' item'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
     return row;
   }).join('');
 
@@ -257,21 +259,29 @@ function updateStats(){
   var offers=DATA.length;
   var players=new Set(DATA.map(function(o){return o.playerId})).size;
   var schools=new Set(DATA.map(function(o){return o.schoolId})).size;
-  var lastSearch=STATUS.searchCoverage&&STATUS.searchCoverage.at;
-  $('stats').innerHTML='<span><b>'+offers+'</b> offers</span><span><b>'+players+'</b> players</span><span><b>'+schools+'</b> programs</span><span><b>'+ago(lastSearch)+'</b> last search</span>';
+  var publicFeed=STATUS.collectionMode==='public'&&STATUS.publicRecruiting;
+  var lastScan=publicFeed?publicFeed.at:STATUS.searchCoverage?.at;
+  $('stats').innerHTML='<span><b>'+offers+'</b> offers</span><span><b>'+players+'</b> players</span><span><b>'+schools+'</b> programs</span><span><b>'+ago(lastScan)+'</b> '+(publicFeed?'last source check':'last search')+'</span>';
 }
 
 function updateStatus(){
+  var publicFeed=STATUS.collectionMode==='public'&&STATUS.publicRecruiting;
+  var checkedAt=publicFeed?publicFeed.at:STATUS.generatedAt;
   var age=0;
-  if(STATUS.generatedAt)age=(Date.now()-new Date(STATUS.generatedAt))/60000;
+  if(checkedAt)age=(Date.now()-new Date(checkedAt))/60000;
   var dot=$('status-dot'),fresh=$('fresh');
   if(!STATUS.searchConfigured){dot.className='dot r';fresh.textContent='offline'}
-  else if(age>1440){dot.className='dot r';fresh.textContent='down · updated '+ago(STATUS.generatedAt)}
-  else{dot.className='dot g';fresh.textContent='updated '+ago(STATUS.generatedAt)}
+  else if(age>1440){dot.className='dot r';fresh.textContent='down · checked '+ago(checkedAt)}
+  else{dot.className='dot g';fresh.textContent=(publicFeed?'sources checked ':'updated ')+ago(checkedAt)}
   var alert=$('alert');
   var msg='',bad=false;
+  var apify=publicFeed&&publicFeed.sources?.apify;
   if(!STATUS.searchConfigured){msg='X search is not configured.';bad=true}
-  else if(age>1440){msg='Data is '+ago(STATUS.generatedAt)+' old. The collector may be stuck.';bad=true}
+  else if(age>1440){msg='The collector last succeeded '+ago(checkedAt)+' ago.';bad=true}
+  else if(apify?.error){msg='Recruiting sites checked. The latest X search failed.'}
+  else if(apify?.atLimit){msg='The latest X search reached its result budget. Some posts may still be missing.'}
+  else if(apify?.expiredThrough){msg='An older X search gap still needs backfill.'}
+  else if(apify?.gaps?.length){msg='X is catching up on earlier search windows.'}
   alert.className='alert'+(msg?' '+(bad?'bad':'warn')+' on':'');
   alert.textContent=msg||'';
 }
@@ -332,7 +342,7 @@ function renderCommits(){
     if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
     if(o.state)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.state)+'</span>');
 
-    var evItems=ev.map(function(e){var a=e.attribution||{};var badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span>'+badge+'<span>'+esc(e.voice||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
+    var evItems=ev.map(function(e){var a=e.attribution||{};var badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">'+esc(evidenceLabel(e))+'</a><span>'+reportedDate(e.postedAt,e)+'</span>'+badge+'<span>'+esc(e.voice||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
     var bioLines='';
     if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
     if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
@@ -340,7 +350,7 @@ function renderCommits(){
     var flip=o.flipFromName?'<span class="r-flip">flip from '+esc(o.flipFromName)+'</span>':'';
     var kindBadge='<span class="r-kind '+(isCommit?'commit':'decommit')+'">'+(isCommit?'COMMIT':'DECOMMIT')+'</span>';
     var verb=isCommit?'':'<span class="r-conf">from</span>';
-    return '<div class="row'+((isCommit&&!o.current)?' old':'')+'" data-oid="'+oid+'" onclick="cToggle(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.at)+'">'+ago(o.at)+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+'</span></div><div class="r-sub">'+kindBadge+verb+'<span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span>'+flip+'<span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
+    return '<div class="row'+((isCommit&&!o.current)?' old':'')+'" data-oid="'+oid+'" onclick="cToggle(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.at)+'">'+reportedDate(o.at,ev[0])+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+'</span></div><div class="r-sub">'+kindBadge+verb+'<span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span>'+flip+'<span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' item'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
   }).join('');
 
   $('clist').innerHTML=html||'<div class="empty">'+(CDATA.length?'No commitments match these filters.':'No commitments tracked yet.')+'</div>';
@@ -360,10 +370,11 @@ function setView(v){
 async function load(){
   try{
     var t=Date.now();
+    var dataRoot=['localhost','127.0.0.1'].includes(location.hostname)?'.':'https://raw.githubusercontent.com/bigWRguy/sandbox/main/site';
     var results=await Promise.all([
-      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/wire.json?t='+t,{cache:'no-store'}),
-      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/status.json?t='+t,{cache:'no-store'}),
-      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/commits.json?t='+t,{cache:'no-store'}).catch(function(){return null})
+      fetch(dataRoot+'/wire.json?t='+t,{cache:'no-store'}),
+      fetch(dataRoot+'/status.json?t='+t,{cache:'no-store'}),
+      fetch(dataRoot+'/commits.json?t='+t,{cache:'no-store'}).catch(function(){return null})
     ]);
     var wr=results[0],sr=results[1],cr=results[2];
     if(!wr.ok)throw new Error('wire '+wr.status);

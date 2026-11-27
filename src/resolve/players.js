@@ -72,10 +72,11 @@ export function mergeInto(target, incoming) {
   return target;
 }
 
-export function resolve(index, rec) {
+export function resolve(index, rec, { exactName = false } = {}) {
   const fk = fuzzyKey(rec.name);
   if (!fk) return { player: null, ambiguous: false };
-  const bucket = index.get(fk) || [];
+  const candidates = index.get(fk) || [];
+  const bucket = exactName ? candidates.filter((p) => nameKey(p.name) === nameKey(rec.name)) : candidates;
   const scored = bucket.map((p) => ({ p, ...canMerge(p, rec) })).filter((x) => x.merge)
     .sort((x, y) => y.score - x.score);
   if (!scored.length) return { player: null, ambiguous: false };

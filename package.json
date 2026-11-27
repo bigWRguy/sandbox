@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "wire": "node src/pipeline.js",
+    "wire:public": "node src/pipeline.js --public && node scripts/build-status.mjs && node scripts/build-site.mjs",
+    "benchmark:coverage": "node scripts/benchmark-coverage.mjs",
     "health": "node scripts/health.mjs",
     "coverage": "node scripts/coverage.mjs",
     "selftest": "node scripts/selftest.mjs",

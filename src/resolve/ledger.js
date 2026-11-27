@@ -34,17 +34,24 @@ export function ensurePlayer(db, rec, post, observedAt) {
     for (const f of ['stars', 'gpa', 'forty']) if (b[f] != null) incoming[f] = b[f];
   }
 
+  const externalRecord = rec.attribution?.schoolEvidenceType === 'published_recruiting_record';
   let player = null;
   if (incoming.handle) player = db.players.find((p) => p.handle === incoming.handle) || null;
   if (!player && incoming.name) {
-    const r = resolvePlayer(db._index, incoming);
+    const r = resolvePlayer(db._index, incoming, { exactName: externalRecord });
     if (r.ambiguous) db.review.push({ at: observedAt, type: 'ambiguous_player', name: incoming.name, candidates: r.candidates, post: post.id });
+    if (externalRecord && r.ambiguous) return null;
     player = r.player;
   }
   if (!player) {
     const identity = incoming.name || '@' + incoming.handle;
+    const id = 'p_' + sha1(identity + '|' + (incoming.classYear ?? '') + '|' + (incoming.handle ?? ''));
+    if (externalRecord && db.players.some((p) => p.id === id)) {
+      db.review.push({ at: observedAt, type: 'conflicting_player_identity', name: incoming.name, candidates: [id], post: post.id });
+      return null;
+    }
     player = {
-      id: 'p_' + sha1(identity + '|' + (incoming.classYear ?? '') + '|' + (incoming.handle ?? '')),
+      id,
       ...incoming,
       aliases: incoming.name ? [incoming.name] : [],
       firstSeen: observedAt,

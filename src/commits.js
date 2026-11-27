@@ -155,11 +155,15 @@ export function upsertCommit(cdb, db, rec, post, confidence, observedAt) {
 
   const key = `${player.id}::${school.id}::${rec.kind}`;
   const at = post.createdAt;
+  if (post.datePrecision === 'day' && cdb.events.some((event) =>
+    event.playerId === player.id && event.schoolId === school.id && event.kind === rec.kind
+    && Math.abs(new Date(at) - new Date(event.at)) <= SAME_EVENT_WINDOW)) return null;
   const evidence = {
     postId: post.id,
     author: post.author,
     url: post.url || `https://x.com/${post.author}/status/${post.id}`,
     postedAt: at,
+    ...(post.datePrecision ? { datePrecision: post.datePrecision } : {}),
     via: post.via || null,
     voice: rec.voice,
     confidence,

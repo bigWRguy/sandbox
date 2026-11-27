@@ -1,6 +1,11 @@
 name: deploy
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/index.html'
+      - 'netlify/functions/trigger-wire.mjs'
 jobs:
   deploy:
     runs-on: ubuntu-latest

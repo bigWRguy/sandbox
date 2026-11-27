@@ -2,14 +2,20 @@ name: scheduled
 
 on:
   schedule:
-    - cron: '7 * * * *'
-    - cron: '22 * * * *'
-    - cron: '37 * * * *'
-    - cron: '52 * * * *'
+    - cron: '27 * * * *'
   workflow_dispatch:
     inputs:
+      collection_mode:
+        description: 'Recruiting data source'
+        type: choice
+        options: [public, x]
+        default: public
+      force:
+        description: 'Run even if the collector recently succeeded'
+        type: boolean
+        default: false
       profiles_per_run:
-        description: 'Profile timelines to poll (0 = off; those widgets are usually frozen)'
+        description: 'Profile timelines to poll in X mode (0 = off)'
         required: false
         default: '0'
 
@@ -30,13 +36,19 @@ jobs:
         with:
           ref: main
       - id: check
+        env:
+          COLLECTION_MODE: ${{ inputs.collection_mode || 'public' }}
+          FORCE_COLLECT: ${{ inputs.force || false }}
         run: |
           node -e '
             const fs = require("fs");
             const s = JSON.parse(fs.readFileSync("data/state.json", "utf8"));
-            const at = Date.parse(s.searchCoverage?.at || 0);
+            const useX = process.env.COLLECTION_MODE === "x";
+            const lastScan = useX ? s.searchCoverage?.at : s.publicRecruiting?.at;
+            const at = Date.parse(lastScan || "");
             const age = Date.now() - at;
-            const shouldRun = !Number.isFinite(at) || age >= 10 * 60 * 1000;
+            const minAge = useX ? 10 * 60 * 1000 : 45 * 60 * 1000;
+            const shouldRun = process.env.FORCE_COLLECT === "true" || !Number.isFinite(at) || age >= minAge;
             fs.appendFileSync(process.env.GITHUB_OUTPUT, "should_run=" + shouldRun + "\n");
             console.log(shouldRun ? "collector due" : "skip duplicate: last collection " + Math.round(age / 1000) + "s ago");
           '
@@ -54,14 +66,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
 
       - run: npm ci --no-audit --no-fund
+        if: inputs.collection_mode == 'x'
 
       - name: install browser
+        if: inputs.collection_mode == 'x'
         run: npx playwright install --with-deps chromium
 
       - name: route the browser through WARP
+        if: inputs.collection_mode == 'x'
         run: bash scripts/warp-up.sh
 
       - name: self test
@@ -69,7 +83,8 @@ jobs:
           node scripts/selftest.mjs
           node scripts/fixture-run.mjs
 
-      - name: run wire
+      - name: collect X posts
+        if: inputs.collection_mode == 'x'
         continue-on-error: true
         id: wire
         env:
@@ -81,6 +96,13 @@ jobs:
           OFFERWIRE_REQUESTS_PER_CRED: ${{ vars.OFFERWIRE_REQUESTS_PER_CRED || '26' }}
           OFFERWIRE_SCROLLS: ${{ vars.OFFERWIRE_SCROLLS || '0' }}
           OFFERWIRE_PROFILES_PER_RUN: ${{ inputs.profiles_per_run || vars.OFFERWIRE_PROFILES_PER_RUN || '0' }}
+        run: node src/pipeline.js
+
+      - name: collect public recruiting reports
+        if: inputs.collection_mode != 'x'
+        env:
+          OFFERWIRE_MODE: public
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: node src/pipeline.js
 
       - name: build static site
@@ -100,6 +122,7 @@ jobs:
           fi
 
       - name: verify coverage
+        if: inputs.collection_mode == 'x'
         run: |
           node -e '
             const s = JSON.parse(require("fs").readFileSync("data/site/status.json","utf8"));
