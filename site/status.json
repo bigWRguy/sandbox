@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-28T15:11:59.464Z",
+  "generatedAt": "2026-11-28T16:12:20.869Z",
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T15:11:49.293Z",
-    "latestAt": "2026-11-28T15:11:44.000Z",
-    "records": 33,
+    "at": "2026-11-28T16:12:04.918Z",
+    "latestAt": "2026-11-28T16:10:00.000Z",
+    "records": 40,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
         "records": 167,
@@ -12,7 +12,7 @@
         "incompleteGroups": []
       },
       "https://profilefb.com/api/logos": {
-        "records": 407,
+        "records": 414,
         "unknownSchools": [
           "Alabama A&M",
           "Alcorn State",
@@ -29,6 +29,7 @@
           "Drake",
           "East Tennessee State",
           "East Texas A&M",
+          "Eastern Illinois",
           "Florida A&M",
           "Furman",
           "Gardner-Webb",
@@ -100,30 +101,25 @@
         "error": "247Sports recruit list is missing"
       },
       "https://247sports.com/Season/2027-Football/Decommits/": {
-        "records": 46,
-        "unknownSchools": [
-          "Chattanooga",
-          "Montana State"
-        ],
-        "incompleteGroups": []
+        "error": "247Sports recruit list is missing"
       },
       "apify": {
-        "records": 17,
-        "from": "2026-11-28T13:56:53.707Z",
-        "to": "2026-11-28T15:11:49.293Z",
-        "cost": 0,
+        "records": 25,
+        "from": "2026-11-28T14:57:04.918Z",
+        "to": "2026-11-28T16:12:04.918Z",
+        "cost": 0.0036,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
-        "used": 2550,
-        "at": "2026-11-28T15:11:49.293Z",
-        "through": "2026-11-28T15:11:49.293Z",
+        "used": 6150,
+        "at": "2026-11-28T16:12:04.918Z",
+        "through": "2026-11-28T16:12:04.918Z",
         "gaps": [],
         "expiredThrough": null
       }
     },
-    "newOffers": 1,
-    "newCommitEvents": 0
+    "newOffers": 4,
+    "newCommitEvents": 3
   },
   "searchCredentials": 0,
   "searchConfigured": true,
@@ -132,7 +128,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-28T15:11:49.293Z"
+    "at": "2026-11-28T16:12:04.918Z"
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -154,19 +150,19 @@
   "staleSchools": [],
   "liveStaleness": null,
   "decisionCoverage": {
-    "total": 12,
-    "decided": 12,
+    "total": 22,
+    "decided": 22,
     "complete": true
   },
   "pending": {
-    "total": 72
+    "total": 70
   },
   "profileResolution": {
     "cached": 111
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 5344,
+    "completeOffers": 5348,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
@@ -184,42 +180,44 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T15:11:58.906Z",
-      "got": 17,
-      "new": 12,
-      "lag": 0
+      "at": "2026-11-28T16:12:20.398Z",
+      "got": 25,
+      "new": 22,
+      "lag": 0.04
     }
   },
   "audit": {
-    "at": "2026-11-28T15:11:49.293Z",
+    "at": "2026-11-28T16:12:04.918Z",
     "mode": "public",
     "collection": {
-      "returned": 17,
-      "kept": 12,
-      "duplicate": 5,
+      "returned": 25,
+      "kept": 22,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 1,
-      "rejected": 11,
+      "accepted": 4,
+      "rejected": 18,
       "reasons": {
-        "non_fbs_offer_target": 4,
-        "no_offer_term": 7
+        "no_fbs_school": 4,
+        "non_fbs_offer_target": 1,
+        "no_offer_term": 13
       }
     },
     "extraction": {
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 4,
+      "rejected": 4,
       "reasons": {
-        "author_not_recruit:no recruit fields": 1
+        "author_not_recruit:no recruit fields": 2,
+        "multiple_resolved_schools": 2
       }
     },
     "publicRecruiting": {
-      "at": "2026-11-28T15:11:49.293Z",
-      "latestAt": "2026-11-28T15:11:44.000Z",
-      "records": 33,
+      "at": "2026-11-28T16:12:04.918Z",
+      "latestAt": "2026-11-28T16:10:00.000Z",
+      "records": 40,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
           "records": 167,
@@ -227,7 +225,7 @@
           "incompleteGroups": []
         },
         "https://profilefb.com/api/logos": {
-          "records": 407,
+          "records": 414,
           "unknownSchools": [
             "Alabama A&M",
             "Alcorn State",
@@ -244,6 +242,7 @@
             "Drake",
             "East Tennessee State",
             "East Texas A&M",
+            "Eastern Illinois",
             "Florida A&M",
             "Furman",
             "Gardner-Webb",
@@ -315,50 +314,46 @@
           "error": "247Sports recruit list is missing"
         },
         "https://247sports.com/Season/2027-Football/Decommits/": {
-          "records": 46,
-          "unknownSchools": [
-            "Chattanooga",
-            "Montana State"
-          ],
-          "incompleteGroups": []
+          "error": "247Sports recruit list is missing"
         },
         "apify": {
-          "records": 17,
-          "from": "2026-11-28T13:56:53.707Z",
-          "to": "2026-11-28T15:11:49.293Z",
-          "cost": 0,
+          "records": 25,
+          "from": "2026-11-28T14:57:04.918Z",
+          "to": "2026-11-28T16:12:04.918Z",
+          "cost": 0.0036,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
-          "used": 2550,
-          "at": "2026-11-28T15:11:49.293Z",
-          "through": "2026-11-28T15:11:49.293Z",
+          "used": 6150,
+          "at": "2026-11-28T16:12:04.918Z",
+          "through": "2026-11-28T16:12:04.918Z",
           "gaps": [],
           "expiredThrough": null
         }
       },
-      "newOffers": 1,
-      "newCommitEvents": 0
+      "newOffers": 4,
+      "newCommitEvents": 3
     },
     "commits": {
       "stats": {
-        "candidates": 16,
-        "accepted": 1,
-        "rejected": 3,
+        "candidates": 25,
+        "accepted": 5,
+        "rejected": 6,
         "reasons": {
-          "reporter_missing_player_name": 1,
-          "juco_or_transfer": 1,
-          "no_football_context": 1
+          "no_football_context": 3,
+          "list_post": 1,
+          "no_commit_event": 1,
+          "roundup_too_long": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 1,
-      "rejectedCandidates": 1,
-      "brandNewOffers": 1
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 4,
+      "brandNewOffers": 4
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-28T15:11:59.464Z"
+    "status rebuilt locally from current store on 2026-11-28T16:12:20.870Z"
   ]
 }
