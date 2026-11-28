@@ -4,8 +4,11 @@ import { liveWindowQuery, advanceLiveWindow } from '../src/collect/search.js';
 import { fetchPublicRecruiting, parse247Commitments, parseCommitOdds, parseProfileRecruiting, parsePublicRecruiting } from '../src/collect/public-recruiting.js';
 import { apifySearchWindow, apifySpend, collectApifyRecruiting, fetchApifyRecruiting } from '../src/collect/apify-recruiting.js';
 import { normalizeApifyPosts } from '../src/collect/apify-posts.js';
+import { commitSignals } from '../src/extract/commits.js';
 import { focusedSearchInput, focusedSearchMatcher } from '../src/collect/focused-search.js';
 const p = (text, mentioned = []) => ({ text, mentioned });
+assert.deepEqual(commitSignals("@RecruitingNews Hasn't Jordan Example committed to Missouri for 2027?", 'reporter'), []);
+assert.equal(commitSignals('Jordan Example has committed to Missouri. Who is next?', 'reporter').length, 1);
 
 const jan = new Date('2027-01-02T16:00:00Z');
 const publicOfferHtml = `<div class="day"><b>Thursday, Dec 31</b></div>
@@ -82,6 +85,7 @@ const fixtureApify = await fetchApifyRecruiting({ token: 'fixture', ...apifyWind
     const input = JSON.parse(options.body);
     assert.equal(input.searchQueries.length, 4);
     assert.match(input.searchQueries.at(-1), /"football offers".+"high school"/);
+    assert.ok(input.searchQueries.every(query => query.length <= 500));
     assert.equal(input.searchCategory, 'Latest');
     return Response.json({ data: { status: 'SUCCEEDED', defaultDatasetId: 'fixture', usageTotalUsd: 0.009 } });
   }

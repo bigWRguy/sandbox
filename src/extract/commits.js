@@ -38,6 +38,7 @@ const COMMIT_TO = /\b(?:committed|commits|commit|committing|commitment|pledged|p
 const LANDS = /\b(?:lands?|landed|secures?|secured|gets?|got|adds?|added|picks?\s+up|picked\s+up|receives?|received|reels?\s+in|reeled\s+in|nabs?|nabbed|snags?|snagged|welcomes?)\s+(?:an?\s+|the\s+|another\s+|its\s+|their\s+)?(?:[\w'’-]+\s+){0,4}?(?:commitment|commit|pledge|verbal)\s+from\b/i;
 const BARE_PLAYER = /(?:^\s*(?:#?committed|100%\s*committed|✅\s*committed)|#committed\b|\bcommitted\s*✅|\b(?:i(?:'m|’m|\s+am|'ve|’ve|\s+have)?|im)\s+(?:\w+\s+){0,3}?committed\b|\bmy\s+commitment\b|\bannounc\w*\s+(?:my\s+)?commitment\b)/i;
 const STATUS_BARE = /\b(?:remain|remains|remained|still|stay(?:s|ing)?|stick(?:s|ing)?|loyal|forever|always|never)\b[^.!?]{0,30}\bcommit/i;
+const QUESTION_START = /^(?:@\w+\s+)*(?:has|have|had|did|does|do|is|are|was|were)(?:n['’]t)?\s/i;
 export const isListPost = (text) => (String(text || '').match(/^\s*(?:[-•*▪]|\d+[.)]|[1-5]\s*(?:⭐|star))/gmu) || []).length >= 2;
 const FIRST_PERSON_SENT =/\b(?:i|i'm|i’m|im|i've|i’ve|my|me)\b|^\s*(?:#?committed|100%\s*committed|✅)|#committed|\bcommitted\s*✅/i;
 const OFFER_VOICE =/\b(?:blessed\s+to\s+receive|received\s+(?:my|an?)\s+\w*\s*offer|receive\s+(?:my|an?)\s+\w*\s*offer|\d(?:st|nd|rd|th)\s+(?:d1\s+)?offer)\b/i;
@@ -48,6 +49,7 @@ export function commitSignals(text, voice) {
   for (const [index, sentence] of sentences(src).entries()) {
     if (!COMMIT_HINT.test(sentence)) continue;
     if (FUTURE.test(sentence)) continue;
+    if (/\?\s*$/.test(sentence) && QUESTION_START.test(sentence)) continue;
 
     const guard = (m, { needsPerfectOrName = false } = {}) => {
       const before = sentence.slice(Math.max(0, m.index - 48), m.index);
