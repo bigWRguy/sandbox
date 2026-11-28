@@ -13,9 +13,9 @@ const ITEM_PRICE = 150;
 const DAILY_CREDITS = 140_000;
 const RUN_CREDITS = 14_400;
 const TO_USD = 1_000_000;
-const OFFER = '("blessed to receive" OR "blessed to have received" OR "thankful to receive" OR "blessed to say" OR "bless to have received" OR "honored to receive" OR "received my") (offer OR offered)';
-const COMMIT = '("my commitment to" OR "commitment from" OR "has committed to" OR "decommits from" OR "decommitted from" OR "flipped to")';
-const REPORTED_OFFER = '("football offers" OR "football offered" OR "picks up an offer" OR "was offered by" OR "has been offered by")';
+const OFFER = '("blessed to receive" OR "blessed to have received" OR "thankful to receive" OR "blessed to say" OR "bless to have received" OR "honored to receive" OR "received my" OR "grateful to receive" OR "blessed to announce" OR "excited to receive" OR "humbled to receive") (offer OR offered)';
+const COMMIT = '("my commitment to" OR "commitment from" OR "has committed to" OR "decommits from" OR "decommitted from" OR "flipped to" OR "decommitting from" OR "reopened his recruitment" OR "reopened my recruitment" OR "committed go army")';
+const REPORTED_OFFER = '("football offers" OR "football offered" OR "picks up an offer" OR "was offered by" OR "has been offered by" OR "has picked up an offer" OR "extends an offer" OR "is offered by" OR "recently offered by")';
 
 export function apifySearchWindow(now, prior = {}) {
   const lastAttempt = Date.parse(prior.at);
@@ -112,8 +112,8 @@ export async function fetchApifyRecruiting({ token, from, to, allowance, fetchIm
   const seconds = (date) => Math.floor(+date / 1000);
   const query = (term, start, end) => `${term} -filter:retweets -"transfer portal" since_time:${seconds(start)} until_time:${seconds(end)}`;
   const year = to.getUTCFullYear();
-  const context = `(football OR ${year + 1} OR ${year + 2} OR ${year + 3} OR ${year + 4} OR QB OR LB OR CB)`;
-  const reporterContext = `(${year + 1} OR ${year + 2} OR ${year + 3} OR ${year + 4} OR "high school")`;
+  const context = `(football OR ${year + 1} OR ${year + 2} OR ${year + 3} OR ${year + 4} OR QB OR LB OR CB OR ATH OR RB OR OT OR "go army")`;
+  const reporterContext = `(${year + 1} OR ${year + 2} OR ${year + 3} OR ${year + 4} OR JUCO OR "high school")`;
   const middle = new Date((+from + +to) / 2);
   const input = { mode: 'searchTweets', searchCategory: 'Latest', maxItems: MAX_ITEMS_PER_QUERY, maxPages: 7,
     searchQueries: [query(OFFER, from, middle), query(OFFER, middle, to), query(`${COMMIT} ${context}`, from, to),

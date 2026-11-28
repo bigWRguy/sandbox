@@ -5,39 +5,45 @@ on:
 permissions:
   contents: read
 jobs:
-  school-coverage:
+  coverage:
     runs-on: ubuntu-24.04
-    timeout-minutes: 6
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verify whether a school search recovers the held-out offer
+      - name: Sample three held-out historical search hours
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
           node --input-type=module - <<'EOF'
-          import { setTimeout as pause } from 'node:timers/promises';
-          import { normalizeApifyPosts } from './src/collect/apify-posts.js';
-          const token=process.env.APIFY_TOKEN;
-          const api=async (route,body)=>{
-            const r=await fetch('https://api.apify.com/v2'+route,{headers:{Authorization:'Bearer '+token,'Content-Type':'application/json'},method:body?'POST':'GET',body:body?JSON.stringify(body):undefined,redirect:'error',signal:AbortSignal.timeout(65000)});
-            if(!r.ok)throw new Error('Apify HTTP '+r.status);
-            return r.json();
-          };
-          const {data:account}=await api('/users/me');
-          const {data:usage}=await api('/users/me/limits');
-          if(!(account?.plan?.tier==='FREE'||/^free$/i.test(account?.plan?.id||''))||account?.plan?.monthlyBasePriceUsd!==0||account.isPaying) throw new Error('Apify Free plan required');
-          if(!Number.isFinite(usage?.current?.monthlyUsageUsd)||usage.current.monthlyUsageUsd+.006>4.65)throw new Error('Monthly budget reached');
-          const from=Date.parse('2026-11-17T23:00:00Z')/1000, to=from+3600;
-          const query='(@UAB_FB OR "UAB" OR "Alabama-Birmingham" OR @HawaiiFootball OR @ToledoFB OR @OhioFootball OR @ZipsFB OR @FIUFootball OR @MeanGreenFB) (offer OR offered OR offers) -filter:retweets -"transfer portal" since_time:'+from+' until_time:'+to;
-          let {data:run}=await api('/actors/Z5bVbtCKG1DTk1oVb/runs?maxTotalChargeUsd=0.006&timeout=90&waitForFinish=55',{mode:'searchTweets',searchQueries:[query],searchCategory:'Latest',maxItems:45,maxPages:5});
-          for(let poll=0;poll<10&&['READY','RUNNING'].includes(run.status);poll++){
-            await pause(4000);
-            ({data:run}=await api('/actor-runs/'+encodeURIComponent(run.id)));
+          import fs from 'node:fs';
+          import { fetchApifyRecruiting } from './src/collect/apify-recruiting.js';
+          import { fetchPublicRecruiting } from './src/collect/public-recruiting.js';
+          import { nameKey } from './src/resolve/players.js';
+          const read = (name) => JSON.parse(fs.readFileSync('data/' + name + '.json', 'utf8'));
+          const players = new Map(read('players').map((p) => [p.id,p]));
+          const legacy = [...read('offers'), ...read('commits')];
+          const hrs = ['2026-11-18T00:00:00Z','2026-11-19T02:00:00Z','2026-11-17T12:00:00Z'];
+          const key = (type, school, name, year) => [type, school, nameKey(name), year].join('|');
+          for (const day of hrs) {
+            const from = new Date(day), to = new Date(+from + 3600e3);
+            const references = legacy.filter(e => {
+              const date = Date.parse(e.offeredAt || e.at);
+              return date >= +from && date < +to && e.evidence.some(v => /^\d+$/.test(v.postId));
+            });
+            const { records } = await fetchPublicRecruiting(to);
+            const trackerKeys = new Set(records.map(({ record }) => key(record.kind,record.school_id,record.player_name,record.class_year)));
+            let result;
+            try { result = await fetchApifyRecruiting({ token: process.env.APIFY_TOKEN, from, to, allowance: 14_400 }); }
+            catch (error) { console.log('APIFY_SAMPLE_ERROR', from.toISOString(), error.message); continue; }
+            const ids = new Set(result.posts.map(p => p.id)); console.log("NARROW_PHRASE_HITS",day,JSON.stringify(["2122852853312295416","2122843492515004729","2123247096291873180","2123238733344354596","2122661040991481968"].map(id=>ids.has(id))));
+            const metrics = (rows) => ({ total: rows.length,
+              x: rows.filter(row=>row.evidence.some(e=>ids.has(e.postId))).length,
+              combined: rows.filter(row=>row.evidence.some(e=>ids.has(e.postId)) ||
+                trackerKeys.has(key(row.kind || 'offer',row.schoolId,row.playerName,players.get(row.playerId)?.classYear))).length });
+            console.log('APIFY_SAMPLE',JSON.stringify({ window: day, rows: result.posts.length, cost: result.health.cost, capped: result.health.atLimit,
+              offers: metrics(references.filter(e=>!e.kind)), commits: metrics(references.filter(e=>e.kind)) }));
           }
-          if(run.status!=='SUCCEEDED')throw new Error('Actor ended with status '+run.status);
-          const posts=normalizeApifyPosts(await api('/datasets/'+encodeURIComponent(run.defaultDatasetId)+'/items?format=json'));
-          console.log('SCHOOL_SEARCH_RESULT',JSON.stringify({recovered:posts.some(post=>post.id==='2122827935610704159'),rows:posts.length,cost:run.usageTotalUsd,eventCharges:run.chargedEventCounts?.['apify-default-dataset-item'],monthlyBefore:usage.current.monthlyUsageUsd}));
           EOF
