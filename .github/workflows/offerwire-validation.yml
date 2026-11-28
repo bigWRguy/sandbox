@@ -1,4 +1,4 @@
-﻿name: Validate OfferWire recovery
+name: Validate OfferWire recovery
 on:
   push:
     branches: [offerwire-validation]
@@ -36,3 +36,22 @@ jobs:
           set -euo pipefail
           node src/pipeline.js --public --dry-run | awk '/^OfferWire run|^  commits:|^  dry run:/'
           git diff --exit-code
+      - name: Verify live Apify collection within the Free budget
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "$APIFY_TOKEN" ]; then echo "Apify credential missing"; exit 1; fi
+          node src/pipeline.js --public | awk '/^OfferWire run|^  Apify posts:|^  commits:|brand new/'
+          node --input-type=module - <<'EOF'
+          import fs from 'node:fs';
+          const { apifySearch: result } = JSON.parse(fs.readFileSync('data/state.json', 'utf8'));
+          if (!result || result.error) throw new Error(result?.error || 'No live Apify result');
+          if (!Number.isFinite(result.cost) || result.cost > 0.0144) throw new Error('Live Apify run did not verify the credit cap');
+          console.log(JSON.stringify({ records: result.records, cost: result.cost, atLimit: result.atLimit, from: result.from, to: result.to }));
+          EOF
+          before="$(node -p "JSON.parse(require('fs').readFileSync('data/state.json')).apifySearch.at")"
+          node src/pipeline.js --public | awk '/^OfferWire run|^  Apify posts:|^  commits:|brand new/'
+          after="$(node -p "JSON.parse(require('fs').readFileSync('data/state.json')).apifySearch.at")"
+          test "$before" = "$after"
+          echo 'Same-hour retry did not start a second Apify search'
