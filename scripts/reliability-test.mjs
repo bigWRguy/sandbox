@@ -3,6 +3,7 @@ import { resolveOfferTarget } from '../src/resolve/attribution.js';
 import { liveWindowQuery, advanceLiveWindow } from '../src/collect/search.js';
 import { fetchPublicRecruiting, parse247Commitments, parseCommitOdds, parseProfileRecruiting, parsePublicRecruiting } from '../src/collect/public-recruiting.js';
 import { apifySearchWindow, apifySpend, collectApifyRecruiting, fetchApifyRecruiting } from '../src/collect/apify-recruiting.js';
+import { normalizeApifyPosts } from '../src/collect/apify-posts.js';
 import { focusedSearchInput, focusedSearchMatcher } from '../src/collect/focused-search.js';
 const p = (text, mentioned = []) => ({ text, mentioned });
 
@@ -67,6 +68,12 @@ const fakePosts = [
   { id: '1234567890123456789', created_at: '2027-01-02T17:30:00Z', author: { username: 'jordan_example' }, text: 'Blessed to receive an offer from @CanesFootball' },
   { id: '2234567890123456789', created_at: '2027-01-01T14:59:59Z', author: { username: 'jordan_example' }, text: 'Blessed to receive an offer' },
 ];
+const duplicateWithBio = { ...fakePosts[0], author: { username: 'jordan_example', description: 'Class of 2028 QB' } };
+const duplicateWithLongText = { ...fakePosts[0], text: fakePosts[0].text + ' Thanks @ExampleCoach' };
+const [mergedPost] = normalizeApifyPosts([duplicateWithBio, duplicateWithLongText]);
+assert.equal(mergedPost.authorBio, 'Class of 2028 QB');
+assert.match(mergedPost.text, /ExampleCoach/);
+assert.deepEqual(mergedPost.mentions, ['canesfootball', 'examplecoach']);
 const fixtureApify = await fetchApifyRecruiting({ token: 'fixture', ...apifyWindow, fetchImpl: async (url, options) => {
   if (url.endsWith('/users/me')) return Response.json({ data: { plan: { tier: 'FREE', monthlyBasePriceUsd: 0 } } });
   if (url.endsWith('/users/me/limits')) return Response.json({ data: { current: { monthlyUsageUsd: 1.5 } } });

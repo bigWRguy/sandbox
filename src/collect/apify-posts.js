@@ -41,6 +41,25 @@ function normalizePost(row) {
 
 export function normalizeApifyPosts(rows) {
   if (!Array.isArray(rows)) throw new Error('An Apify JSON export must be an array of posts');
-  const posts = rows.flatMap(row => Array.isArray(row?.tweets) ? row.tweets : [row]).map(normalizePost).filter(Boolean);
-  return [...new Map(posts.map(post => [post.id, post])).values()];
+  const unique = new Map();
+  for (const row of rows.flatMap(row => Array.isArray(row?.tweets) ? row.tweets : [row])) {
+    const post = normalizePost(row);
+    if (!post) continue;
+    const previous = unique.get(post.id);
+    if (!previous) {
+      unique.set(post.id, post);
+      continue;
+    }
+    const content = post.text.length > previous.text.length ? post : previous;
+    const profile = previous.authorBio ? previous : post;
+    const mentioned = new Map(previous.mentioned.map((entry) => [entry.handle, entry]));
+    for (const entry of post.mentioned) {
+      if (!mentioned.has(entry.handle) || entry.name && !mentioned.get(entry.handle).name) mentioned.set(entry.handle, entry);
+    }
+    unique.set(post.id, { ...content, authorName: profile.authorName || content.authorName,
+      authorBio: profile.authorBio, authorLocation: profile.authorLocation || content.authorLocation,
+      mentions: [...mentioned.keys()], mentioned: [...mentioned.values()],
+      hasMedia: previous.hasMedia || post.hasMedia });
+  }
+  return [...unique.values()];
 }
