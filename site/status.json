@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-28T11:27:23.473Z",
+  "generatedAt": "2026-11-28T12:26:50.741Z",
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T11:26:46.023Z",
-    "latestAt": "2026-11-28T10:24:41.000Z",
-    "records": 25,
+    "at": "2026-11-28T12:26:39.283Z",
+    "latestAt": "2026-11-28T11:39:38.000Z",
+    "records": 29,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
         "records": 164,
@@ -12,7 +12,7 @@
         "incompleteGroups": []
       },
       "https://profilefb.com/api/logos": {
-        "records": 397,
+        "records": 401,
         "unknownSchools": [
           "Alabama A&M",
           "Alcorn State",
@@ -21,7 +21,6 @@
           "Brown",
           "Bryant",
           "Butler",
-          "CENT",
           "Central Connecticut",
           "Charleston Southern",
           "Chattanooga",
@@ -36,11 +35,11 @@
           "Georgetown",
           "Grambling",
           "Hampton",
-          "Howard",
           "Idaho State",
           "Jackson State",
           "Lafayette",
           "Lindenwood",
+          "Maine",
           "McNeese State",
           "Mercer",
           "Merrimack",
@@ -113,22 +112,22 @@
         "error": "247Sports recruit list is missing"
       },
       "apify": {
-        "records": 1,
-        "from": "2026-11-28T10:11:46.023Z",
-        "to": "2026-11-28T11:26:46.023Z",
-        "cost": 0.00015,
+        "records": 2,
+        "from": "2026-11-28T11:11:46.023Z",
+        "to": "2026-11-28T12:26:39.283Z",
+        "cost": 0,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
         "used": 2550,
-        "at": "2026-11-28T11:26:46.023Z",
-        "through": "2026-11-28T11:26:46.023Z",
+        "at": "2026-11-28T12:26:39.283Z",
+        "through": "2026-11-28T12:26:39.283Z",
         "gaps": [],
         "expiredThrough": null
       }
     },
-    "newOffers": 0,
-    "newCommitEvents": 0
+    "newOffers": 2,
+    "newCommitEvents": 3
   },
   "searchCredentials": 0,
   "searchConfigured": true,
@@ -137,7 +136,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-28T11:26:46.023Z"
+    "at": "2026-11-28T12:26:39.283Z"
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -159,8 +158,8 @@
   "staleSchools": [],
   "liveStaleness": null,
   "decisionCoverage": {
-    "total": 0,
-    "decided": 0,
+    "total": 2,
+    "decided": 2,
     "complete": true
   },
   "pending": {
@@ -171,7 +170,7 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 5337,
+    "completeOffers": 5339,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
@@ -189,37 +188,40 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T11:27:22.992Z",
-      "got": 1,
-      "new": 0,
-      "lag": 1.04
+      "at": "2026-11-28T12:26:50.255Z",
+      "got": 2,
+      "new": 2,
+      "lag": 0.79
     }
   },
   "audit": {
-    "at": "2026-11-28T11:26:46.023Z",
+    "at": "2026-11-28T12:26:39.283Z",
     "mode": "public",
     "collection": {
-      "returned": 1,
-      "kept": 0,
-      "duplicate": 1,
+      "returned": 2,
+      "kept": 2,
+      "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 0,
-      "rejected": 0,
-      "reasons": {}
+      "rejected": 2,
+      "reasons": {
+        "no_fbs_school": 1,
+        "no_offer_term": 1
+      }
     },
     "extraction": {
-      "accepted": 0,
+      "accepted": 2,
       "rejected": 0,
       "reasons": {}
     },
     "publicRecruiting": {
-      "at": "2026-11-28T11:26:46.023Z",
-      "latestAt": "2026-11-28T10:24:41.000Z",
-      "records": 25,
+      "at": "2026-11-28T12:26:39.283Z",
+      "latestAt": "2026-11-28T11:39:38.000Z",
+      "records": 29,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
           "records": 164,
@@ -227,7 +229,7 @@
           "incompleteGroups": []
         },
         "https://profilefb.com/api/logos": {
-          "records": 397,
+          "records": 401,
           "unknownSchools": [
             "Alabama A&M",
             "Alcorn State",
@@ -236,7 +238,6 @@
             "Brown",
             "Bryant",
             "Butler",
-            "CENT",
             "Central Connecticut",
             "Charleston Southern",
             "Chattanooga",
@@ -251,11 +252,11 @@
             "Georgetown",
             "Grambling",
             "Hampton",
-            "Howard",
             "Idaho State",
             "Jackson State",
             "Lafayette",
             "Lindenwood",
+            "Maine",
             "McNeese State",
             "Mercer",
             "Merrimack",
@@ -328,38 +329,38 @@
           "error": "247Sports recruit list is missing"
         },
         "apify": {
-          "records": 1,
-          "from": "2026-11-28T10:11:46.023Z",
-          "to": "2026-11-28T11:26:46.023Z",
-          "cost": 0.00015,
+          "records": 2,
+          "from": "2026-11-28T11:11:46.023Z",
+          "to": "2026-11-28T12:26:39.283Z",
+          "cost": 0,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
           "used": 2550,
-          "at": "2026-11-28T11:26:46.023Z",
-          "through": "2026-11-28T11:26:46.023Z",
+          "at": "2026-11-28T12:26:39.283Z",
+          "through": "2026-11-28T12:26:39.283Z",
           "gaps": [],
           "expiredThrough": null
         }
       },
-      "newOffers": 0,
-      "newCommitEvents": 0
+      "newOffers": 2,
+      "newCommitEvents": 3
     },
     "commits": {
       "stats": {
-        "candidates": 10,
-        "accepted": 0,
+        "candidates": 14,
+        "accepted": 3,
         "rejected": 0,
         "reasons": {}
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
+      "acceptedEvidence": 2,
       "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "brandNewOffers": 2
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-28T11:27:23.474Z"
+    "status rebuilt locally from current store on 2026-11-28T12:26:50.742Z"
   ]
 }
