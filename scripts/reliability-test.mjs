@@ -80,7 +80,8 @@ const fixtureApify = await fetchApifyRecruiting({ token: 'fixture', ...apifyWind
   if (url.includes('/runs?')) {
     assert.equal(new URL(url).searchParams.get('maxTotalChargeUsd'), '0.0144');
     const input = JSON.parse(options.body);
-    assert.equal(input.searchQueries.length, 3);
+    assert.equal(input.searchQueries.length, 4);
+    assert.match(input.searchQueries.at(-1), /"football offers".+"high school"/);
     assert.equal(input.searchCategory, 'Latest');
     return Response.json({ data: { status: 'SUCCEEDED', defaultDatasetId: 'fixture', usageTotalUsd: 0.009 } });
   }
