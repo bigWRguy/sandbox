@@ -1,13 +1,5 @@
 {
   "seenPostIds": [
-    "2118350120953827648",
-    "2118352600844091859",
-    "2118352100715606213",
-    "2117991019354755342",
-    "2117988081110512073",
-    "2118352018486288853",
-    "2118351330314273137",
-    "2118350342043701256",
     "2118349422589259778",
     "2118348551784698013",
     "2118346629778678034",
@@ -59999,7 +59991,15 @@
     "2126662643935056143",
     "2126662397972602895",
     "2126662659529744562",
-    "2126656675192987648"
+    "2126656675192987648",
+    "2126671691564683613",
+    "2126675404349993153",
+    "2126680092210274392",
+    "2126678006131503332",
+    "2126677498024923553",
+    "2126677491209400584",
+    "2126677388687819120",
+    "2126675044281803018"
   ],
   "cursors": {
     "profile": 0
@@ -60018,10 +60018,10 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T13:25:20.986Z",
-      "got": 5,
-      "new": 5,
-      "lag": 0.4
+      "at": "2026-11-28T14:12:01.865Z",
+      "got": 8,
+      "new": 8,
+      "lag": 0.03
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -61811,42 +61811,42 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-28T13:25:13.993Z",
+    "at": "2026-11-28T14:11:53.707Z",
     "mode": "public",
     "collection": {
-      "returned": 5,
-      "kept": 5,
+      "returned": 8,
+      "kept": 8,
       "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 5,
+      "accepted": 2,
+      "rejected": 6,
       "reasons": {
-        "non_fbs_offer_target": 2,
-        "hard_negative": 1,
-        "no_offer_term": 2
+        "no_offer_term": 6
       }
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {}
+      "accepted": 4,
+      "rejected": 2,
+      "reasons": {
+        "author_not_recruit:no recruit fields": 2
+      }
     },
     "publicRecruiting": {
-      "at": "2026-11-28T13:25:13.993Z",
-      "latestAt": "2026-11-28T13:01:04.000Z",
-      "records": 27,
+      "at": "2026-11-28T14:11:53.707Z",
+      "latestAt": "2026-11-28T14:10:20.000Z",
+      "records": 31,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
-          "records": 164,
+          "records": 167,
           "unknownSchools": [],
           "incompleteGroups": []
         },
         "https://profilefb.com/api/logos": {
-          "records": 401,
+          "records": 405,
           "unknownSchools": [
             "Alabama A&M",
             "Alcorn State",
@@ -61937,42 +61937,45 @@
           "error": "247Sports recruit list is missing"
         },
         "apify": {
-          "records": 5,
-          "from": "2026-11-28T12:11:39.283Z",
-          "to": "2026-11-28T13:25:13.992Z",
+          "records": 8,
+          "from": "2026-11-28T13:10:13.992Z",
+          "to": "2026-11-28T14:11:53.707Z",
           "cost": 0,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
           "used": 2550,
-          "at": "2026-11-28T13:25:13.992Z",
-          "through": "2026-11-28T13:25:13.992Z",
+          "at": "2026-11-28T14:11:53.707Z",
+          "through": "2026-11-28T14:11:53.707Z",
           "gaps": [],
           "expiredThrough": null
         }
       },
-      "newOffers": 0,
-      "newCommitEvents": 0
+      "newOffers": 4,
+      "newCommitEvents": 1
     },
     "commits": {
       "stats": {
-        "candidates": 12,
-        "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "candidates": 17,
+        "accepted": 2,
+        "rejected": 3,
+        "reasons": {
+          "roundup_too_long": 2,
+          "no_commit_event": 1
+        }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 2,
+      "brandNewOffers": 4
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
@@ -68226,35 +68229,40 @@
     "2126525908978979283",
     "2126520849029288279",
     "2126547734073147536",
-    "2126533458130501653"
+    "2126533458130501653",
+    "2126680092210274392",
+    "2126677498024923553",
+    "2126677491209400584",
+    "2126677388687819120",
+    "2126675044281803018"
   ],
   "apifySearch": {
-    "records": 5,
-    "from": "2026-11-28T12:11:39.283Z",
-    "to": "2026-11-28T13:25:13.992Z",
+    "records": 8,
+    "from": "2026-11-28T13:10:13.992Z",
+    "to": "2026-11-28T14:11:53.707Z",
     "cost": 0,
     "atLimit": false,
     "excludedRows": 0,
     "budgetDay": "2026-11-28",
     "used": 2550,
-    "at": "2026-11-28T13:25:13.992Z",
-    "through": "2026-11-28T13:25:13.992Z",
+    "at": "2026-11-28T14:11:53.707Z",
+    "through": "2026-11-28T14:11:53.707Z",
     "gaps": [],
     "expiredThrough": null
   },
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T13:25:13.993Z",
-    "latestAt": "2026-11-28T13:01:04.000Z",
-    "records": 27,
+    "at": "2026-11-28T14:11:53.707Z",
+    "latestAt": "2026-11-28T14:10:20.000Z",
+    "records": 31,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
-        "records": 164,
+        "records": 167,
         "unknownSchools": [],
         "incompleteGroups": []
       },
       "https://profilefb.com/api/logos": {
-        "records": 401,
+        "records": 405,
         "unknownSchools": [
           "Alabama A&M",
           "Alcorn State",
@@ -68345,21 +68353,21 @@
         "error": "247Sports recruit list is missing"
       },
       "apify": {
-        "records": 5,
-        "from": "2026-11-28T12:11:39.283Z",
-        "to": "2026-11-28T13:25:13.992Z",
+        "records": 8,
+        "from": "2026-11-28T13:10:13.992Z",
+        "to": "2026-11-28T14:11:53.707Z",
         "cost": 0,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
         "used": 2550,
-        "at": "2026-11-28T13:25:13.992Z",
-        "through": "2026-11-28T13:25:13.992Z",
+        "at": "2026-11-28T14:11:53.707Z",
+        "through": "2026-11-28T14:11:53.707Z",
         "gaps": [],
         "expiredThrough": null
       }
     },
-    "newOffers": 0,
-    "newCommitEvents": 0
+    "newOffers": 4,
+    "newCommitEvents": 1
   }
 }

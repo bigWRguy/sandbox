@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-28T13:25:21.494Z",
+  "generatedAt": "2026-11-28T14:12:02.272Z",
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T13:25:13.993Z",
-    "latestAt": "2026-11-28T13:01:04.000Z",
-    "records": 27,
+    "at": "2026-11-28T14:11:53.707Z",
+    "latestAt": "2026-11-28T14:10:20.000Z",
+    "records": 31,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
-        "records": 164,
+        "records": 167,
         "unknownSchools": [],
         "incompleteGroups": []
       },
       "https://profilefb.com/api/logos": {
-        "records": 401,
+        "records": 405,
         "unknownSchools": [
           "Alabama A&M",
           "Alcorn State",
@@ -103,22 +103,22 @@
         "error": "247Sports recruit list is missing"
       },
       "apify": {
-        "records": 5,
-        "from": "2026-11-28T12:11:39.283Z",
-        "to": "2026-11-28T13:25:13.992Z",
+        "records": 8,
+        "from": "2026-11-28T13:10:13.992Z",
+        "to": "2026-11-28T14:11:53.707Z",
         "cost": 0,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
         "used": 2550,
-        "at": "2026-11-28T13:25:13.992Z",
-        "through": "2026-11-28T13:25:13.992Z",
+        "at": "2026-11-28T14:11:53.707Z",
+        "through": "2026-11-28T14:11:53.707Z",
         "gaps": [],
         "expiredThrough": null
       }
     },
-    "newOffers": 0,
-    "newCommitEvents": 0
+    "newOffers": 4,
+    "newCommitEvents": 1
   },
   "searchCredentials": 0,
   "searchConfigured": true,
@@ -127,7 +127,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-28T13:25:13.993Z"
+    "at": "2026-11-28T14:11:53.707Z"
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -149,8 +149,8 @@
   "staleSchools": [],
   "liveStaleness": null,
   "decisionCoverage": {
-    "total": 5,
-    "decided": 5,
+    "total": 8,
+    "decided": 8,
     "complete": true
   },
   "pending": {
@@ -161,7 +161,7 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 5339,
+    "completeOffers": 5343,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
@@ -179,49 +179,49 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T13:25:20.986Z",
-      "got": 5,
-      "new": 5,
-      "lag": 0.4
+      "at": "2026-11-28T14:12:01.865Z",
+      "got": 8,
+      "new": 8,
+      "lag": 0.03
     }
   },
   "audit": {
-    "at": "2026-11-28T13:25:13.993Z",
+    "at": "2026-11-28T14:11:53.707Z",
     "mode": "public",
     "collection": {
-      "returned": 5,
-      "kept": 5,
+      "returned": 8,
+      "kept": 8,
       "duplicate": 0,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 0,
-      "rejected": 5,
+      "accepted": 2,
+      "rejected": 6,
       "reasons": {
-        "non_fbs_offer_target": 2,
-        "hard_negative": 1,
-        "no_offer_term": 2
+        "no_offer_term": 6
       }
     },
     "extraction": {
-      "accepted": 0,
-      "rejected": 0,
-      "reasons": {}
+      "accepted": 4,
+      "rejected": 2,
+      "reasons": {
+        "author_not_recruit:no recruit fields": 2
+      }
     },
     "publicRecruiting": {
-      "at": "2026-11-28T13:25:13.993Z",
-      "latestAt": "2026-11-28T13:01:04.000Z",
-      "records": 27,
+      "at": "2026-11-28T14:11:53.707Z",
+      "latestAt": "2026-11-28T14:10:20.000Z",
+      "records": 31,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
-          "records": 164,
+          "records": 167,
           "unknownSchools": [],
           "incompleteGroups": []
         },
         "https://profilefb.com/api/logos": {
-          "records": 401,
+          "records": 405,
           "unknownSchools": [
             "Alabama A&M",
             "Alcorn State",
@@ -312,38 +312,41 @@
           "error": "247Sports recruit list is missing"
         },
         "apify": {
-          "records": 5,
-          "from": "2026-11-28T12:11:39.283Z",
-          "to": "2026-11-28T13:25:13.992Z",
+          "records": 8,
+          "from": "2026-11-28T13:10:13.992Z",
+          "to": "2026-11-28T14:11:53.707Z",
           "cost": 0,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
           "used": 2550,
-          "at": "2026-11-28T13:25:13.992Z",
-          "through": "2026-11-28T13:25:13.992Z",
+          "at": "2026-11-28T14:11:53.707Z",
+          "through": "2026-11-28T14:11:53.707Z",
           "gaps": [],
           "expiredThrough": null
         }
       },
-      "newOffers": 0,
-      "newCommitEvents": 0
+      "newOffers": 4,
+      "newCommitEvents": 1
     },
     "commits": {
       "stats": {
-        "candidates": 12,
-        "accepted": 0,
-        "rejected": 0,
-        "reasons": {}
+        "candidates": 17,
+        "accepted": 2,
+        "rejected": 3,
+        "reasons": {
+          "roundup_too_long": 2,
+          "no_commit_event": 1
+        }
       }
     },
     "outcome": {
-      "acceptedEvidence": 0,
-      "rejectedCandidates": 0,
-      "brandNewOffers": 0
+      "acceptedEvidence": 4,
+      "rejectedCandidates": 2,
+      "brandNewOffers": 4
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-28T13:25:21.495Z"
+    "status rebuilt locally from current store on 2026-11-28T14:12:02.273Z"
   ]
 }
