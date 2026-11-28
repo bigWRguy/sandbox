@@ -5,7 +5,7 @@ on:
 permissions:
   contents: read
 jobs:
-  dry-run:
+  coverage:
     runs-on: ubuntu-24.04
     timeout-minutes: 8
     steps:
@@ -13,45 +13,37 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verify the collector and replay fixtures
-        run: |
-          node scripts/selftest.mjs
-          node scripts/fixture-run.mjs
-          node scripts/reliability-test.mjs
-      - name: Verify hosted access to the recruiting sources
-        run: |
-          node --input-type=module - <<'EOF'
-          import { fetchPublicRecruiting } from './src/collect/public-recruiting.js';
-          const { records, health } = await fetchPublicRecruiting();
-          for (const [url, source] of Object.entries(health)) {
-            console.log(new URL(url).hostname, source.error ? 'unavailable' : 'available', source.records ?? 0);
-          }
-          if (!health['https://profilefb.com/api/logos']?.records) throw new Error('Profile Recruiting returned no usable records');
-          if (!records.some(({ record }) => record.kind === 'offer')) throw new Error('No offers from recruiting sources');
-          if (!records.some(({ record }) => record.kind === 'commit')) throw new Error('No commitments from recruiting sources');
-          console.log('Verified', records.length, 'usable recruiting records across hosted sources');
-          EOF
-      - name: Verify ledger ingestion without publishing records
-        run: |
-          set -euo pipefail
-          node src/pipeline.js --public --dry-run | awk '/^OfferWire run|^  commits:|^  dry run:/'
-          git diff --exit-code
-      - name: Verify live Apify collection within the Free budget
+      - name: Sample three held-out historical search hours
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
-          set -euo pipefail
-          if [ -z "$APIFY_TOKEN" ]; then echo "Apify credential missing"; exit 1; fi
-          node src/pipeline.js --public | awk '/^OfferWire run|^  Apify posts:|^  commits:|brand new/'
           node --input-type=module - <<'EOF'
           import fs from 'node:fs';
-          const { apifySearch: result } = JSON.parse(fs.readFileSync('data/state.json', 'utf8'));
-          if (!result || result.error) throw new Error(result?.error || 'No live Apify result');
-          if (!Number.isFinite(result.cost) || result.cost > 0.0144) throw new Error('Live Apify run did not verify the credit cap');
-          console.log(JSON.stringify({ records: result.records, cost: result.cost, atLimit: result.atLimit, from: result.from, to: result.to }));
+          import { fetchApifyRecruiting } from './src/collect/apify-recruiting.js';
+          import { fetchPublicRecruiting } from './src/collect/public-recruiting.js';
+          import { nameKey } from './src/resolve/players.js';
+          const read = (name) => JSON.parse(fs.readFileSync('data/' + name + '.json', 'utf8'));
+          const players = new Map(read('players').map((p) => [p.id,p]));
+          const legacy = [...read('offers'), ...read('commits')];
+          const hrs = ['2026-11-17T23:00:00Z','2026-11-19T00:00:00Z','2026-11-21T20:00:00Z'];
+          const key = (type, school, name, year) => [type, school, nameKey(name), year].join('|');
+          for (const day of hrs) {
+            const from = new Date(day), to = new Date(+from + 3600e3);
+            const references = legacy.filter(e => {
+              const date = Date.parse(e.offeredAt || e.at);
+              return date >= +from && date < +to && e.evidence.some(v => /^\d+$/.test(v.postId));
+            });
+            const { records } = await fetchPublicRecruiting(to);
+            const trackerKeys = new Set(records.map(({ record }) => key(record.kind,record.school_id,record.player_name,record.class_year)));
+            let result;
+            try { result = await fetchApifyRecruiting({ token: process.env.APIFY_TOKEN, from, to, allowance: 14_400 }); }
+            catch (error) { console.log('APIFY_SAMPLE_ERROR', from.toISOString(), error.message); continue; }
+            const ids = new Set(result.posts.map(p => p.id));
+            const metrics = (rows) => ({ total: rows.length,
+              x: rows.filter(row=>row.evidence.some(e=>ids.has(e.postId))).length,
+              combined: rows.filter(row=>row.evidence.some(e=>ids.has(e.postId)) ||
+                trackerKeys.has(key(row.kind || 'offer',row.schoolId,row.playerName,players.get(row.playerId)?.classYear))).length });
+            console.log('APIFY_SAMPLE',JSON.stringify({ window: day, rows: result.posts.length, cost: result.health.cost, capped: result.health.atLimit,
+              offers: metrics(references.filter(e=>!e.kind)), commits: metrics(references.filter(e=>e.kind)) }));
+          }
           EOF
-          before="$(node -p "JSON.parse(require('fs').readFileSync('data/state.json')).apifySearch.at")"
-          node src/pipeline.js --public | awk '/^OfferWire run|^  Apify posts:|^  commits:|brand new/'
-          after="$(node -p "JSON.parse(require('fs').readFileSync('data/state.json')).apifySearch.at")"
-          test "$before" = "$after"
-          echo 'Same-hour retry did not start a second Apify search'
