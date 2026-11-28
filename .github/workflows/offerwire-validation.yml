@@ -7,43 +7,60 @@ permissions:
 jobs:
   coverage:
     runs-on: ubuntu-24.04
-    timeout-minutes: 8
+    timeout-minutes: 7
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Sample three held-out historical search hours
+      - name: Compare two Apify search indexes on the same archived hour
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
           node --input-type=module - <<'EOF'
           import fs from 'node:fs';
+          import { setTimeout as pause } from 'node:timers/promises';
           import { fetchApifyRecruiting } from './src/collect/apify-recruiting.js';
+          import { normalizeApifyPosts } from './src/collect/apify-posts.js';
           import { fetchPublicRecruiting } from './src/collect/public-recruiting.js';
           import { nameKey } from './src/resolve/players.js';
-          const read = (name) => JSON.parse(fs.readFileSync('data/' + name + '.json', 'utf8'));
-          const players = new Map(read('players').map((p) => [p.id,p]));
-          const legacy = [...read('offers'), ...read('commits')];
-          const hrs = ['2026-11-17T23:00:00Z','2026-11-19T00:00:00Z'];
-          const key = (type, school, name, year) => [type, school, nameKey(name), year].join('|');
-          for (const day of hrs) {
-            const from = new Date(day), to = new Date(+from + 3600e3);
-            const references = legacy.filter(e => {
-              const date = Date.parse(e.offeredAt || e.at);
-              return date >= +from && date < +to && e.evidence.some(v => /^\d+$/.test(v.postId));
-            });
-            const { records } = await fetchPublicRecruiting(to);
-            const trackerKeys = new Set(records.map(({ record }) => key(record.kind,record.school_id,record.player_name,record.class_year)));
-            let result;
-            try { result = await fetchApifyRecruiting({ token: process.env.APIFY_TOKEN, from, to, allowance: 14_400 }); }
-            catch (error) { console.log('APIFY_SAMPLE_ERROR', from.toISOString(), error.message); continue; }
-            const ids = new Set(result.posts.map(p => p.id));
-            const metrics = (rows) => ({ total: rows.length,
-              x: rows.filter(row=>row.evidence.some(e=>ids.has(e.postId))).length,
-              combined: rows.filter(row=>row.evidence.some(e=>ids.has(e.postId)) ||
-                trackerKeys.has(key(row.kind || 'offer',row.schoolId,row.playerName,players.get(row.playerId)?.classYear))).length });
-            console.log('APIFY_SAMPLE',JSON.stringify({ window: day, rows: result.posts.length, cost: result.health.cost, capped: result.health.atLimit,
-              offers: metrics(references.filter(e=>!e.kind)), commits: metrics(references.filter(e=>e.kind)) }));
+          const from = new Date('2026-11-17T23:00:00Z'), to = new Date('2026-11-18T00:00:00Z');
+          const token = process.env.APIFY_TOKEN;
+          if (!token) throw new Error('Missing Apify credential');
+          const auth = { Authorization: 'Bearer '+token };
+          async function api(route, body) {
+            const response = await fetch('https://api.apify.com/v2'+route, { headers: { ...auth, 'Content-Type':'application/json' },
+              method: body ? 'POST' : 'GET', body: body ? JSON.stringify(body) : undefined, redirect:'error', signal:AbortSignal.timeout(65000) });
+            if (!response.ok) throw new Error('Apify HTTP '+response.status);
+            return response.json();
           }
+          const primary = await fetchApifyRecruiting({ token, from, to, allowance: 14_400 });
+          const {data: account}=await api('/users/me');
+          const {data: limits}=await api('/users/me/limits');
+          if (!(account?.plan?.tier==='FREE'||/^free$/i.test(account?.plan?.id||'')) || account?.isPaying || account?.plan?.monthlyBasePriceUsd!==0) throw new Error('Apify Free plan required');
+          if (!Number.isFinite(limits?.current?.monthlyUsageUsd) || limits.current.monthlyUsageUsd + .012 > 4.65) throw new Error('Monthly budget exhausted');
+          const window = ' -filter:retweets -"transfer portal" since_time:'+ (+from/1000) +' until_time:'+ (+to/1000);
+          const searchTerms = [
+            '("blessed to receive" OR "thankful to receive" OR "blessed to say" OR "beyond blessed") (offer OR offered)',
+            '("football offers" OR "picks up an offer" OR "was offered by") (2027 OR 2028 OR 2029 OR "high school")',
+          ].map(s=>s+window);
+          let {data: run}=await api('/actors/CJdippxWmn9uRfooo/runs?maxTotalChargeUsd=0.012&timeout=90&waitForFinish=55',{searchTerms,maxItems:65,queryType:'Latest'});
+          for (let i=0;i<10 && ['READY','RUNNING'].includes(run.status);i++){
+            await pause(4000);
+            ({data:run}=await api('/actor-runs/'+encodeURIComponent(run.id)));
+          }
+          if(run.status!=='SUCCEEDED')throw new Error('Alternate provider ended with status '+run.status);
+          const alternate = normalizeApifyPosts(await api('/datasets/'+encodeURIComponent(run.defaultDatasetId)+'/items?format=json')).filter(p=>Date.parse(p.createdAt)>=+from&&Date.parse(p.createdAt)<+to);
+          const {records} = await fetchPublicRecruiting(to);
+          const read=(file)=>JSON.parse(fs.readFileSync('data/'+file+'.json','utf8'));
+          const classById=new Map(read('players').map(p=>[p.id,p.classYear]));
+          const key=(name,school,year)=>[nameKey(name),school,year].join('|');
+          const trackers=new Set(records.filter(r=>r.record.kind==='offer').map(({record:r})=>key(r.player_name,r.school_id,r.class_year)));
+          const actual=read('offers').filter(o=>Date.parse(o.offeredAt)>=+from&&Date.parse(o.offeredAt)<+to&&o.evidence.some(e=>/^\d+$/.test(e.postId)));
+          const currentIds=new Set(primary.posts.map(p=>p.id)), otherIds=new Set(alternate.map(p=>p.id));
+          const byPrimary=(row)=>row.evidence.some(e=>currentIds.has(e.postId)) || trackers.has(key(row.playerName,row.schoolId,classById.get(row.playerId)));
+          const byBoth=(row)=>byPrimary(row)||row.evidence.some(e=>otherIds.has(e.postId));
+          console.log('OFFERWIRE_PROVIDER_COMPARE',JSON.stringify({totalOffers:actual.length,primaryPlusTrackers:actual.filter(byPrimary).length,
+            bothPlusTrackers:actual.filter(byBoth).length,primaryRows:primary.posts.length,alternateRows:alternate.length,
+            primaryCredits:primary.health.cost,alternateCredits:run.usageTotalUsd,unrecoveredPrograms:actual.filter(o=>!byBoth(o)).map(o=>o.schoolId)}));
           EOF
