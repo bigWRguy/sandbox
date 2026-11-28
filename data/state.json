@@ -1,11 +1,5 @@
 {
   "seenPostIds": [
-    "2118331587565584598",
-    "2118343514325225910",
-    "2118352033380008305",
-    "2118346230606524909",
-    "2118350119762575410",
-    "2118346344842874969",
     "2118341763412943110",
     "2118340608498569492",
     "2118350657111364074",
@@ -59999,7 +59993,13 @@
     "2126526921697599616",
     "2126525908978979283",
     "2126523776217370957",
-    "2126520849029288279"
+    "2126520849029288279",
+    "2126538223535239238",
+    "2126535382636654710",
+    "2126545100285104215",
+    "2126538956594397397",
+    "2126547734073147536",
+    "2126533458130501653"
   ],
   "cursors": {
     "profile": 0
@@ -60018,10 +60018,10 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T04:27:04.351Z",
-      "got": 15,
-      "new": 15,
-      "lag": 0.09
+      "at": "2026-11-28T05:26:55.689Z",
+      "got": 9,
+      "new": 6,
+      "lag": 0.04
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -61811,24 +61811,23 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-28T04:26:49.866Z",
+    "at": "2026-11-28T05:26:43.746Z",
     "mode": "public",
     "collection": {
-      "returned": 15,
-      "kept": 15,
-      "duplicate": 0,
+      "returned": 9,
+      "kept": 6,
+      "duplicate": 3,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
       "accepted": 0,
-      "rejected": 15,
+      "rejected": 6,
       "reasons": {
-        "non_fbs_offer_target": 5,
-        "no_fbs_school": 3,
-        "hard_negative": 1,
-        "no_offer_term": 6
+        "no_offer_term": 3,
+        "no_fbs_school": 2,
+        "non_fbs_offer_target": 1
       }
     },
     "extraction": {
@@ -61837,8 +61836,8 @@
       "reasons": {}
     },
     "publicRecruiting": {
-      "at": "2026-11-28T04:26:49.866Z",
-      "latestAt": "2026-11-28T04:21:37.000Z",
+      "at": "2026-11-28T05:26:43.746Z",
+      "latestAt": "2026-11-28T05:24:23.000Z",
       "records": 23,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
@@ -61933,22 +61932,24 @@
           "incompleteGroups": []
         },
         "https://247sports.com/Season/2027-Football/Commits/": {
-          "error": "247Sports recruit list is missing"
+          "records": 0,
+          "unknownSchools": [],
+          "incompleteGroups": []
         },
         "https://247sports.com/Season/2027-Football/Decommits/": {
           "error": "247Sports recruit list is missing"
         },
         "apify": {
-          "records": 15,
-          "from": "2026-11-28T03:23:22.318Z",
-          "to": "2026-11-28T04:26:49.866Z",
-          "cost": 0.0013499999999999999,
+          "records": 9,
+          "from": "2026-11-28T04:11:49.866Z",
+          "to": "2026-11-28T05:26:43.746Z",
+          "cost": 0.0006,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
-          "used": 1350,
-          "at": "2026-11-28T04:26:49.866Z",
-          "through": "2026-11-28T04:26:49.866Z",
+          "used": 1950,
+          "at": "2026-11-28T05:26:43.746Z",
+          "through": "2026-11-28T05:26:43.746Z",
           "gaps": [],
           "expiredThrough": null
         }
@@ -61958,14 +61959,12 @@
     },
     "commits": {
       "stats": {
-        "candidates": 12,
+        "candidates": 10,
         "accepted": 0,
-        "rejected": 4,
+        "rejected": 2,
         "reasons": {
-          "no_commit_event": 1,
-          "no_football_context": 1,
           "reporter_missing_player_name": 1,
-          "juco_or_transfer": 1
+          "reporter_missing_class_year": 1
         }
       }
     },
@@ -61978,8 +61977,8 @@
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 15,
-    "decided": 15,
+    "total": 6,
+    "decided": 6,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
@@ -68231,26 +68230,28 @@
     "2126529438112174523",
     "2126526921697599616",
     "2126525908978979283",
-    "2126520849029288279"
+    "2126520849029288279",
+    "2126547734073147536",
+    "2126533458130501653"
   ],
   "apifySearch": {
-    "records": 15,
-    "from": "2026-11-28T03:23:22.318Z",
-    "to": "2026-11-28T04:26:49.866Z",
-    "cost": 0.0013499999999999999,
+    "records": 9,
+    "from": "2026-11-28T04:11:49.866Z",
+    "to": "2026-11-28T05:26:43.746Z",
+    "cost": 0.0006,
     "atLimit": false,
     "excludedRows": 0,
     "budgetDay": "2026-11-28",
-    "used": 1350,
-    "at": "2026-11-28T04:26:49.866Z",
-    "through": "2026-11-28T04:26:49.866Z",
+    "used": 1950,
+    "at": "2026-11-28T05:26:43.746Z",
+    "through": "2026-11-28T05:26:43.746Z",
     "gaps": [],
     "expiredThrough": null
   },
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T04:26:49.866Z",
-    "latestAt": "2026-11-28T04:21:37.000Z",
+    "at": "2026-11-28T05:26:43.746Z",
+    "latestAt": "2026-11-28T05:24:23.000Z",
     "records": 23,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
@@ -68345,22 +68346,24 @@
         "incompleteGroups": []
       },
       "https://247sports.com/Season/2027-Football/Commits/": {
-        "error": "247Sports recruit list is missing"
+        "records": 0,
+        "unknownSchools": [],
+        "incompleteGroups": []
       },
       "https://247sports.com/Season/2027-Football/Decommits/": {
         "error": "247Sports recruit list is missing"
       },
       "apify": {
-        "records": 15,
-        "from": "2026-11-28T03:23:22.318Z",
-        "to": "2026-11-28T04:26:49.866Z",
-        "cost": 0.0013499999999999999,
+        "records": 9,
+        "from": "2026-11-28T04:11:49.866Z",
+        "to": "2026-11-28T05:26:43.746Z",
+        "cost": 0.0006,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
-        "used": 1350,
-        "at": "2026-11-28T04:26:49.866Z",
-        "through": "2026-11-28T04:26:49.866Z",
+        "used": 1950,
+        "at": "2026-11-28T05:26:43.746Z",
+        "through": "2026-11-28T05:26:43.746Z",
         "gaps": [],
         "expiredThrough": null
       }
