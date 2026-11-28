@@ -496,6 +496,10 @@ async function main() {
   const mode = inputPosts || process.argv.includes('--public') ? 'public' : String(process.env.OFFERWIRE_MODE || 'live').toLowerCase();
   const publicMode = mode === 'public';
   const dryRun = publicMode && process.argv.includes('--dry-run');
+  const publishFrom = publicMode ? process.env.OFFERWIRE_PUBLIC_PUBLISH_FROM : null;
+  const publishCutoff = publishFrom ? Date.parse(publishFrom) : null;
+  if (publishFrom && !Number.isFinite(publishCutoff)) throw new Error('Invalid OFFERWIRE_PUBLIC_PUBLISH_FROM timestamp');
+  const eligibleForPublication = (post) => publishCutoff === null || Date.parse(post.createdAt) >= publishCutoff;
   const lines = [];
   const log = (s) => { lines.push(s); console.log(s); };
   const audit = {
@@ -544,6 +548,10 @@ async function main() {
   }
   if (trackers.status === 'rejected' && !inputPosts) throw trackers.reason;
   const publicFeed = trackers.status === 'fulfilled' ? trackers.value : null;
+  if (publishCutoff !== null) {
+    if (publicFeed) publicFeed.records = publicFeed.records.filter(({ post }) => eligibleForPublication(post));
+    if (inputPosts) inputPosts = inputPosts.filter(eligibleForPublication);
+  }
   const { fresh, commitFresh } = publicMode && !inputPosts ? { fresh: [], commitFresh: [] }
     : await collect(state, log, audit, { bios, wantedBios, inputPosts });
   state.collectionMode = publicMode ? 'public' : 'x';
@@ -570,6 +578,7 @@ async function main() {
 
   const verdicts = new Map();
   const players = readJson('players.json', []);
+  const previousProfiles = publishCutoff === null ? null : new Map(players.map(({ id, bio, gpa }) => [id, { bio, gpa }]));
   const offers = readJson('offers.json', []);
   const wl = readJson('watchlist.json', { handles: {} });
   const affiliations = readJson('affiliations.json', { version: 1, accounts: {} });
@@ -684,6 +693,26 @@ async function main() {
     log(`  dry run: ${db.newOffers.length} new offers, ${cdb.newEvents.length} new commitment events`);
     log(JSON.stringify(db.newOffers.slice(0, 8).map((offer) => ({ player: offer.playerName, school: offer.schoolName, date: offer.offeredAt, source: offer.evidence[0].url })), null, 2));
     return;
+  }
+
+  if (previousProfiles) {
+    for (const player of db.players) {
+      const previous = previousProfiles.get(player.id);
+      for (const field of ['bio', 'gpa']) {
+        if (previous?.[field] === undefined) delete player[field];
+        else player[field] = previous[field];
+      }
+    }
+    for (const record of [...db.offers, ...cdb.events]) {
+      const action = record.kind === 'commit' ? 'committed to'
+        : record.kind === 'decommit' ? 'decommitted from' : 'received a football offer from';
+      for (const evidence of record.evidence || []) {
+        if (!(Date.parse(evidence.postedAt) >= publishCutoff)) continue;
+        evidence.text = `${record.playerName} ${action} ${record.schoolName}.`;
+        delete evidence.attribution;
+      }
+    }
+    for (const stage of [audit.prefilter, audit.extraction, audit.commits]) if (stage) delete stage.samples;
   }
 
   const playerStats = decorateOffers(db.offers);

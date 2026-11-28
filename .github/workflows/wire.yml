@@ -103,16 +103,29 @@ jobs:
         env:
           OFFERWIRE_MODE: public
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-        run: node src/pipeline.js
+          OFFERWIRE_PUBLIC_PUBLISH_FROM: ${{ vars.OFFERWIRE_PUBLIC_PUBLISH_FROM }}
+        run: |
+          if [ -z "$OFFERWIRE_PUBLIC_PUBLISH_FROM" ]; then
+            echo "Set OFFERWIRE_PUBLIC_PUBLISH_FROM before enabling production publication."
+            exit 1
+          fi
+          node src/pipeline.js
 
       - name: build static site
         run: node scripts/build-status.mjs && node scripts/build-site.mjs
 
       - name: commit ledger
+        env:
+          COLLECTION_MODE: ${{ inputs.collection_mode || 'public' }}
         run: |
           git config user.name  "automation"
           git config user.email "automation@users.noreply.github.com"
-          git add data/ site/wire.json site/status.json site/commits.json
+          if [ "$COLLECTION_MODE" = x ]; then
+            git add data/
+          else
+            git add data/offers.json data/players.json data/commits.json data/state.json data/site/wire.json data/site/status.json data/site/commits.json
+          fi
+          git add site/wire.json site/status.json site/commits.json
           if git diff --staged --quiet; then
             echo "no changes"
           else
