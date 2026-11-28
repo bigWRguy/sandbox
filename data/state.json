@@ -60016,6 +60016,12 @@
       "got": 0,
       "new": 0,
       "lag": null
+    },
+    "apify:search": {
+      "at": "2026-11-28T03:38:29.981Z",
+      "got": 0,
+      "new": 0,
+      "lag": null
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -61805,8 +61811,8 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-22T04:12:44.601Z",
-    "mode": "live",
+    "at": "2026-11-28T03:38:22.318Z",
+    "mode": "public",
     "collection": {
       "returned": 0,
       "kept": 0,
@@ -61818,35 +61824,143 @@
     "prefilter": {
       "accepted": 0,
       "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "reasons": {}
     },
     "extraction": {
       "accepted": 0,
       "rejected": 0,
-      "reasons": {},
-      "samples": []
+      "reasons": {}
     },
-    "search": {
-      "ok": false,
-      "reason": "michigan-state: SearchTimeline HTTP 404 (slice left pending)",
-      "jobs": 295,
-      "swept": 0,
-      "failed": 26,
-      "requests": 26,
-      "errors": [
-        "michigan-state: SearchTimeline HTTP 404 (slice left pending)",
-        "minnesota: SearchTimeline HTTP 404 (slice left pending)",
-        "mississippi-state: SearchTimeline HTTP 404 (slice left pending)",
-        "northwestern: SearchTimeline HTTP 404 (slice left pending)",
-        "commit:colorado: SearchTimeline HTTP 404 (slice left pending)",
-        "ohio-state: SearchTimeline HTTP 404 (slice left pending)",
-        "nc-state: SearchTimeline HTTP 404 (slice left pending)",
-        "north-carolina: SearchTimeline HTTP 404 (slice left pending)"
-      ]
+    "publicRecruiting": {
+      "at": "2026-11-28T03:38:22.318Z",
+      "latestAt": "2026-11-27T00:00:00.000Z",
+      "records": 0,
+      "sources": {
+        "https://sticktothemodel.com/college-recruiting/live": {
+          "records": 164,
+          "unknownSchools": [],
+          "incompleteGroups": []
+        },
+        "https://profilefb.com/api/logos": {
+          "records": 397,
+          "unknownSchools": [
+            "Alabama A&M",
+            "Alcorn State",
+            "Arkansas-Pine Bluff",
+            "Bethune-Cookman",
+            "Brown",
+            "Bryant",
+            "Butler",
+            "CENT",
+            "Central Connecticut",
+            "Charleston Southern",
+            "Chattanooga",
+            "Columbia",
+            "Dartmouth",
+            "Drake",
+            "East Tennessee State",
+            "East Texas A&M",
+            "Florida A&M",
+            "Furman",
+            "Gardner-Webb",
+            "Georgetown",
+            "Grambling",
+            "Hampton",
+            "Howard",
+            "Idaho State",
+            "Jackson State",
+            "Lafayette",
+            "Lindenwood",
+            "McNeese State",
+            "Mercer",
+            "Merrimack",
+            "Mississippi Valley State",
+            "Montana State",
+            "New Hampshire",
+            "New Haven",
+            "Nicholls",
+            "North Alabama",
+            "Northern Iowa",
+            "Penn",
+            "Prairie View A&M",
+            "Presbyterian",
+            "Princeton",
+            "Sacramento State",
+            "Samford",
+            "South Carolina State",
+            "Southeast Missouri State",
+            "Southern Illinois",
+            "Southern Utah",
+            "St. Thomas",
+            "Stephen F. Austin",
+            "Stetson",
+            "Stony Brook",
+            "Tennessee State",
+            "Texas Southern",
+            "Towson",
+            "UT Martin",
+            "Utah Tech",
+            "VMI",
+            "Valparaiso",
+            "Villanova",
+            "Weber State",
+            "West Georgia",
+            "Western Carolina",
+            "Western Illinois",
+            "Yale",
+            "Youngstown State"
+          ],
+          "incompleteGroups": []
+        },
+        "https://commitodds.com/offers/": {
+          "records": 1,
+          "unknownSchools": [],
+          "incompleteGroups": []
+        },
+        "https://commitodds.com/commits/": {
+          "records": 4,
+          "unknownSchools": [],
+          "incompleteGroups": []
+        },
+        "https://commitodds.com/decommits/": {
+          "records": 3,
+          "unknownSchools": [],
+          "incompleteGroups": []
+        },
+        "https://247sports.com/Season/2027-Football/Commits/": {
+          "records": 44,
+          "unknownSchools": [
+            "LIU",
+            "Sacramento State",
+            "South Carolina State",
+            "West Georgia"
+          ],
+          "incompleteGroups": [
+            "The latest page ends inside the seven-day window"
+          ]
+        },
+        "https://247sports.com/Season/2027-Football/Decommits/": {
+          "error": "247Sports recruit list is missing"
+        },
+        "apify": {
+          "records": 11,
+          "from": "2026-11-28T02:23:22.318Z",
+          "to": "2026-11-28T03:38:22.318Z",
+          "cost": 0,
+          "atLimit": false,
+          "excludedRows": 0,
+          "budgetDay": "2026-11-28",
+          "used": 0,
+          "at": "2026-11-28T03:38:22.318Z",
+          "through": "2026-11-28T03:38:22.318Z",
+          "gaps": [],
+          "expiredThrough": null
+        }
+      },
+      "newOffers": 0,
+      "newCommitEvents": 0
     },
     "commits": {
-      "samples": [],
       "stats": {
         "candidates": 0,
         "accepted": 0,
@@ -68113,5 +68227,149 @@
     "2123890834500370898",
     "2123876324611915945",
     "2123875981400146286"
-  ]
+  ],
+  "apifySearch": {
+    "records": 11,
+    "from": "2026-11-28T02:23:22.318Z",
+    "to": "2026-11-28T03:38:22.318Z",
+    "cost": 0,
+    "atLimit": false,
+    "excludedRows": 0,
+    "budgetDay": "2026-11-28",
+    "used": 0,
+    "at": "2026-11-28T03:38:22.318Z",
+    "through": "2026-11-28T03:38:22.318Z",
+    "gaps": [],
+    "expiredThrough": null
+  },
+  "collectionMode": "public",
+  "publicRecruiting": {
+    "at": "2026-11-28T03:38:22.318Z",
+    "latestAt": "2026-11-27T00:00:00.000Z",
+    "records": 0,
+    "sources": {
+      "https://sticktothemodel.com/college-recruiting/live": {
+        "records": 164,
+        "unknownSchools": [],
+        "incompleteGroups": []
+      },
+      "https://profilefb.com/api/logos": {
+        "records": 397,
+        "unknownSchools": [
+          "Alabama A&M",
+          "Alcorn State",
+          "Arkansas-Pine Bluff",
+          "Bethune-Cookman",
+          "Brown",
+          "Bryant",
+          "Butler",
+          "CENT",
+          "Central Connecticut",
+          "Charleston Southern",
+          "Chattanooga",
+          "Columbia",
+          "Dartmouth",
+          "Drake",
+          "East Tennessee State",
+          "East Texas A&M",
+          "Florida A&M",
+          "Furman",
+          "Gardner-Webb",
+          "Georgetown",
+          "Grambling",
+          "Hampton",
+          "Howard",
+          "Idaho State",
+          "Jackson State",
+          "Lafayette",
+          "Lindenwood",
+          "McNeese State",
+          "Mercer",
+          "Merrimack",
+          "Mississippi Valley State",
+          "Montana State",
+          "New Hampshire",
+          "New Haven",
+          "Nicholls",
+          "North Alabama",
+          "Northern Iowa",
+          "Penn",
+          "Prairie View A&M",
+          "Presbyterian",
+          "Princeton",
+          "Sacramento State",
+          "Samford",
+          "South Carolina State",
+          "Southeast Missouri State",
+          "Southern Illinois",
+          "Southern Utah",
+          "St. Thomas",
+          "Stephen F. Austin",
+          "Stetson",
+          "Stony Brook",
+          "Tennessee State",
+          "Texas Southern",
+          "Towson",
+          "UT Martin",
+          "Utah Tech",
+          "VMI",
+          "Valparaiso",
+          "Villanova",
+          "Weber State",
+          "West Georgia",
+          "Western Carolina",
+          "Western Illinois",
+          "Yale",
+          "Youngstown State"
+        ],
+        "incompleteGroups": []
+      },
+      "https://commitodds.com/offers/": {
+        "records": 1,
+        "unknownSchools": [],
+        "incompleteGroups": []
+      },
+      "https://commitodds.com/commits/": {
+        "records": 4,
+        "unknownSchools": [],
+        "incompleteGroups": []
+      },
+      "https://commitodds.com/decommits/": {
+        "records": 3,
+        "unknownSchools": [],
+        "incompleteGroups": []
+      },
+      "https://247sports.com/Season/2027-Football/Commits/": {
+        "records": 44,
+        "unknownSchools": [
+          "LIU",
+          "Sacramento State",
+          "South Carolina State",
+          "West Georgia"
+        ],
+        "incompleteGroups": [
+          "The latest page ends inside the seven-day window"
+        ]
+      },
+      "https://247sports.com/Season/2027-Football/Decommits/": {
+        "error": "247Sports recruit list is missing"
+      },
+      "apify": {
+        "records": 11,
+        "from": "2026-11-28T02:23:22.318Z",
+        "to": "2026-11-28T03:38:22.318Z",
+        "cost": 0,
+        "atLimit": false,
+        "excludedRows": 0,
+        "budgetDay": "2026-11-28",
+        "used": 0,
+        "at": "2026-11-28T03:38:22.318Z",
+        "through": "2026-11-28T03:38:22.318Z",
+        "gaps": [],
+        "expiredThrough": null
+      }
+    },
+    "newOffers": 0,
+    "newCommitEvents": 0
+  }
 }
