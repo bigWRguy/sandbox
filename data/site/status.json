@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-28T16:12:20.869Z",
+  "generatedAt": "2026-11-28T17:12:09.373Z",
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T16:12:04.918Z",
-    "latestAt": "2026-11-28T16:10:00.000Z",
-    "records": 40,
+    "at": "2026-11-28T17:11:56.655Z",
+    "latestAt": "2026-11-28T17:07:49.000Z",
+    "records": 51,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
         "records": 167,
@@ -12,7 +12,7 @@
         "incompleteGroups": []
       },
       "https://profilefb.com/api/logos": {
-        "records": 414,
+        "records": 422,
         "unknownSchools": [
           "Alabama A&M",
           "Alcorn State",
@@ -83,12 +83,12 @@
         "incompleteGroups": []
       },
       "https://commitodds.com/offers/": {
-        "records": 1,
+        "records": 2,
         "unknownSchools": [],
         "incompleteGroups": []
       },
       "https://commitodds.com/commits/": {
-        "records": 4,
+        "records": 5,
         "unknownSchools": [],
         "incompleteGroups": []
       },
@@ -98,27 +98,36 @@
         "incompleteGroups": []
       },
       "https://247sports.com/Season/2027-Football/Commits/": {
-        "error": "247Sports recruit list is missing"
+        "records": 45,
+        "unknownSchools": [
+          "LIU",
+          "Sacramento State",
+          "South Carolina State",
+          "West Georgia"
+        ],
+        "incompleteGroups": [
+          "The latest page ends inside the seven-day window"
+        ]
       },
       "https://247sports.com/Season/2027-Football/Decommits/": {
         "error": "247Sports recruit list is missing"
       },
       "apify": {
-        "records": 25,
-        "from": "2026-11-28T14:57:04.918Z",
-        "to": "2026-11-28T16:12:04.918Z",
-        "cost": 0.0036,
+        "records": 43,
+        "from": "2026-11-28T15:57:04.918Z",
+        "to": "2026-11-28T17:11:56.655Z",
+        "cost": 0,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
         "used": 6150,
-        "at": "2026-11-28T16:12:04.918Z",
-        "through": "2026-11-28T16:12:04.918Z",
+        "at": "2026-11-28T17:11:56.655Z",
+        "through": "2026-11-28T17:11:56.655Z",
         "gaps": [],
         "expiredThrough": null
       }
     },
-    "newOffers": 4,
+    "newOffers": 7,
     "newCommitEvents": 3
   },
   "searchCredentials": 0,
@@ -128,7 +137,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-28T16:12:04.918Z"
+    "at": "2026-11-28T17:11:56.655Z"
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -150,19 +159,19 @@
   "staleSchools": [],
   "liveStaleness": null,
   "decisionCoverage": {
-    "total": 22,
-    "decided": 22,
+    "total": 33,
+    "decided": 33,
     "complete": true
   },
   "pending": {
-    "total": 70
+    "total": 69
   },
   "profileResolution": {
     "cached": 111
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 5348,
+    "completeOffers": 5355,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
@@ -180,44 +189,44 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T16:12:20.398Z",
-      "got": 25,
-      "new": 22,
-      "lag": 0.04
+      "at": "2026-11-28T17:12:08.947Z",
+      "got": 43,
+      "new": 33,
+      "lag": 0.07
     }
   },
   "audit": {
-    "at": "2026-11-28T16:12:04.918Z",
+    "at": "2026-11-28T17:11:56.655Z",
     "mode": "public",
     "collection": {
-      "returned": 25,
-      "kept": 22,
-      "duplicate": 3,
+      "returned": 43,
+      "kept": 33,
+      "duplicate": 10,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 4,
-      "rejected": 18,
+      "accepted": 8,
+      "rejected": 25,
       "reasons": {
-        "no_fbs_school": 4,
-        "non_fbs_offer_target": 1,
-        "no_offer_term": 13
+        "no_fbs_school": 11,
+        "non_fbs_offer_target": 6,
+        "no_offer_term": 7,
+        "hard_negative": 1
       }
     },
     "extraction": {
-      "accepted": 4,
-      "rejected": 4,
+      "accepted": 7,
+      "rejected": 8,
       "reasons": {
-        "author_not_recruit:no recruit fields": 2,
-        "multiple_resolved_schools": 2
+        "author_not_recruit:no recruit fields": 8
       }
     },
     "publicRecruiting": {
-      "at": "2026-11-28T16:12:04.918Z",
-      "latestAt": "2026-11-28T16:10:00.000Z",
-      "records": 40,
+      "at": "2026-11-28T17:11:56.655Z",
+      "latestAt": "2026-11-28T17:07:49.000Z",
+      "records": 51,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
           "records": 167,
@@ -225,7 +234,7 @@
           "incompleteGroups": []
         },
         "https://profilefb.com/api/logos": {
-          "records": 414,
+          "records": 422,
           "unknownSchools": [
             "Alabama A&M",
             "Alcorn State",
@@ -296,12 +305,12 @@
           "incompleteGroups": []
         },
         "https://commitodds.com/offers/": {
-          "records": 1,
+          "records": 2,
           "unknownSchools": [],
           "incompleteGroups": []
         },
         "https://commitodds.com/commits/": {
-          "records": 4,
+          "records": 5,
           "unknownSchools": [],
           "incompleteGroups": []
         },
@@ -311,49 +320,56 @@
           "incompleteGroups": []
         },
         "https://247sports.com/Season/2027-Football/Commits/": {
-          "error": "247Sports recruit list is missing"
+          "records": 45,
+          "unknownSchools": [
+            "LIU",
+            "Sacramento State",
+            "South Carolina State",
+            "West Georgia"
+          ],
+          "incompleteGroups": [
+            "The latest page ends inside the seven-day window"
+          ]
         },
         "https://247sports.com/Season/2027-Football/Decommits/": {
           "error": "247Sports recruit list is missing"
         },
         "apify": {
-          "records": 25,
-          "from": "2026-11-28T14:57:04.918Z",
-          "to": "2026-11-28T16:12:04.918Z",
-          "cost": 0.0036,
+          "records": 43,
+          "from": "2026-11-28T15:57:04.918Z",
+          "to": "2026-11-28T17:11:56.655Z",
+          "cost": 0,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
           "used": 6150,
-          "at": "2026-11-28T16:12:04.918Z",
-          "through": "2026-11-28T16:12:04.918Z",
+          "at": "2026-11-28T17:11:56.655Z",
+          "through": "2026-11-28T17:11:56.655Z",
           "gaps": [],
           "expiredThrough": null
         }
       },
-      "newOffers": 4,
+      "newOffers": 7,
       "newCommitEvents": 3
     },
     "commits": {
       "stats": {
-        "candidates": 25,
+        "candidates": 23,
         "accepted": 5,
-        "rejected": 6,
+        "rejected": 2,
         "reasons": {
-          "no_football_context": 3,
-          "list_post": 1,
-          "no_commit_event": 1,
-          "roundup_too_long": 1
+          "unresolved_commit_target": 1,
+          "no_football_context": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 4,
-      "rejectedCandidates": 4,
-      "brandNewOffers": 4
+      "acceptedEvidence": 7,
+      "rejectedCandidates": 8,
+      "brandNewOffers": 7
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-28T16:12:20.870Z"
+    "status rebuilt locally from current store on 2026-11-28T17:12:09.373Z"
   ]
 }
