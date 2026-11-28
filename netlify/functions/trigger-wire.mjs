@@ -1,5 +1,5 @@
 const API = 'https://api.github.com/repos/bigWRguy/sandbox';
-const RECENT_MS = 35 * 60 * 1000;
+const RECENT_MS = 10 * 60 * 1000;
 
 export async function dispatchWire({
   token = process.env.GITHUB_DISPATCH_TOKEN,
@@ -45,5 +45,5 @@ export async function dispatchWire({
 export default async () => Response.json(await dispatchWire());
 
 export const config = {
-  schedule: '42 * * * *',
+  schedule: '10,25,40,55 * * * *',
 };
