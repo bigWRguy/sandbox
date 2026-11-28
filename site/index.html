@@ -166,14 +166,19 @@ body{background:var(--bg);color:var(--t1);font-family:var(--f-sans);min-height:1
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ago=iso=>{if(!iso)return'—';const m=Math.max(0,(Date.now()-new Date(iso))/60000);if(m<2)return'1m';if(m<60)return Math.round(m)+'m';if(m<1440)return Math.round(m/60)+'h';return Math.round(m/1440)+'d'};
-const safeUrl=u=>{try{const x=new URL(u);return x.protocol==='https:'&&['x.com','twitter.com','sticktothemodel.com','profilefb.com','commitodds.com','247sports.com'].includes(x.hostname)?x.href:'#'}catch{return'#'}};
-const reportedDate=(iso,e)=>e?.datePrecision==='day'?new Date(iso).toLocaleDateString('en-US',{timeZone:'UTC',month:'short',day:'numeric'}):ago(iso);
-const addedAt=(row,dateField)=>Date.parse(row.firstSeenAt)||Date.parse(row[dateField])||0;
-const newestAddedFirst=(a,b,dateField)=>addedAt(b,dateField)-addedAt(a,dateField)||Date.parse(b[dateField])-Date.parse(a[dateField]);
-const evidenceLabel=e=>e?.datePrecision==='day'?e.author:'@'+e.author;
+const safeUrl=u=>{try{const x=new URL(u);return['x.com','twitter.com'].includes(x.hostname)?x.href:'#'}catch{return'#'}};
 
 const confColors={SEC:'#ffb85c',B1G:'#5c9fff',ACC:'#ff5c5c',B12:'#5cff96',AAC:'#b05cff',MW:'#ff5cb0',SBC:'#5cd6ff',CUSA:'#ffd65c',MAC:'#5cffe4'};
 
+const reportTime=(row,field)=>{
+  const evidence=row.evidence||[];
+  const tweet=evidence.find(e=>e.datePrecision!=='day'&&/^\d+$/.test(e.postId)&&Number.isFinite(Date.parse(e.postedAt)));
+  return tweet?.postedAt||(evidence[0]?.datePrecision==='day'?row.firstSeenAt:null)||row[field];
+};
+const reportTimeTitle=(row,field)=>{
+  const stamp=reportTime(row,field);
+  return row.evidence?.[0]?.datePrecision==='day'&&stamp===row.firstSeenAt?'Added '+stamp:stamp;
+};
 let DATA=[],STATUS={},hourFilter='all',expandId=null;
 
 function fillSelect(id,values){
@@ -209,7 +214,7 @@ function render(){
   let rows=DATA;
   if(hourFilter!=='all'){
     const cutoff=Date.now()-parseInt(hourFilter)*3600000;
-    rows=rows.filter(o=>addedAt(o,'offeredAt')>=cutoff);
+    rows=rows.filter(o=>new Date(reportTime(o,'offeredAt')).getTime()>=cutoff);
   }
   if(q)rows=rows.filter(o=>[o.playerName,o.playerHandle,o.schoolName,o.highSchool,o.state,o.position,o.conference].join(' ').toLowerCase().includes(q));
   if(cls)rows=rows.filter(o=>String(o.classYear)===cls);
@@ -221,7 +226,7 @@ function render(){
   if(conf)rows=rows.filter(o=>o.conference===conf);
   if(school)rows=rows.filter(o=>o.schoolId===school);
   if(corr)rows=rows.filter(o=>(o.corroborations||1)>=2);
-  rows=rows.slice().sort((a,b)=>newestAddedFirst(a,b,'offeredAt'));
+  rows.sort((a,b)=>new Date(reportTime(b,'offeredAt'))-new Date(reportTime(a,'offeredAt')));
 
   const html=rows.slice(0,5000).map(o=>{
     const ev=o.evidence||[],n=o.corroborations||1,verified=n>1;
@@ -241,7 +246,7 @@ function render(){
     if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
     if(o.state)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.state)+'</span>');
 
-    const evItems=ev.map(e=>{const a=e.attribution||{};const badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">'+esc(evidenceLabel(e))+'</a><span>'+reportedDate(e.postedAt,e)+'</span>'+badge+'<span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
+    const evItems=ev.map(e=>{const a=e.attribution||{};const badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span>'+badge+'<span>via '+esc(e.via||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
 
     let bioLines='';
     const oc=p.offerCounts||null;
@@ -250,7 +255,7 @@ function render(){
     if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
     if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
 
-    var row='<div class="row" data-oid="'+oid+'" onclick="toggleRow(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.offeredAt)+'">'+reportedDate(o.offeredAt,ev[0])+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+firsts+'</span></div><div class="r-sub"><span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span><span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' item'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
+    var row='<div class="row" data-oid="'+oid+'" onclick="toggleRow(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(reportTimeTitle(o,'offeredAt'))+'">'+ago(reportTime(o,'offeredAt'))+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+firsts+'</span></div><div class="r-sub"><span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span><span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
     return row;
   }).join('');
 
@@ -261,33 +266,21 @@ function updateStats(){
   var offers=DATA.length;
   var players=new Set(DATA.map(function(o){return o.playerId})).size;
   var schools=new Set(DATA.map(function(o){return o.schoolId})).size;
-  var publicFeed=STATUS.collectionMode==='public'&&STATUS.publicRecruiting;
-  var lastScan=publicFeed?publicFeed.at:STATUS.searchCoverage?.at;
-  $('stats').innerHTML='<span><b>'+offers+'</b> offers</span><span><b>'+players+'</b> players</span><span><b>'+schools+'</b> programs</span><span><b>'+ago(lastScan)+'</b> '+(publicFeed?'last source check':'last search')+'</span>';
+  var lastSearch=STATUS.searchCoverage&&STATUS.searchCoverage.at;
+  $('stats').innerHTML='<span><b>'+offers+'</b> offers</span><span><b>'+players+'</b> players</span><span><b>'+schools+'</b> programs</span><span><b>'+ago(lastSearch)+'</b> last search</span>';
 }
 
 function updateStatus(){
-  var publicFeed=STATUS.collectionMode==='public'&&STATUS.publicRecruiting;
-  var checkedAt=publicFeed?publicFeed.at:STATUS.generatedAt;
   var age=0;
-  if(checkedAt)age=(Date.now()-new Date(checkedAt))/60000;
+  if(STATUS.generatedAt)age=(Date.now()-new Date(STATUS.generatedAt))/60000;
   var dot=$('status-dot'),fresh=$('fresh');
   if(!STATUS.searchConfigured){dot.className='dot r';fresh.textContent='offline'}
-  else if(age>1440){dot.className='dot r';fresh.textContent='down · checked '+ago(checkedAt)}
-  else{
-    dot.className='dot g';
-    var additions=publicFeed?(Number(publicFeed.newOffers)||0)+(Number(publicFeed.newCommitEvents)||0):0;
-    fresh.textContent=publicFeed?'Checked '+ago(checkedAt)+' ago · '+(additions?additions+' added':'no new records'):'Updated '+ago(checkedAt)+' ago';
-  }
+  else if(age>1440){dot.className='dot r';fresh.textContent='down · updated '+ago(STATUS.generatedAt)}
+  else{dot.className='dot g';fresh.textContent='updated '+ago(STATUS.generatedAt)}
   var alert=$('alert');
   var msg='',bad=false;
-  var apify=publicFeed&&publicFeed.sources?.apify;
   if(!STATUS.searchConfigured){msg='X search is not configured.';bad=true}
-  else if(age>1440){msg='The collector last succeeded '+ago(checkedAt)+' ago.';bad=true}
-  else if(apify?.error){msg='Recruiting sites checked. The latest X search failed.'}
-  else if(apify?.atLimit){msg='The latest X search reached its result budget. Some posts may still be missing.'}
-  else if(apify?.expiredThrough){msg='An older X search gap still needs backfill.'}
-  else if(apify?.gaps?.length){msg='X is catching up on earlier search windows.'}
+  else if(age>1440){msg='Data is '+ago(STATUS.generatedAt)+' old. The collector may be stuck.';bad=true}
   alert.className='alert'+(msg?' '+(bad?'bad':'warn')+' on':'');
   alert.textContent=msg||'';
 }
@@ -321,7 +314,7 @@ function renderCommits(){
   var rows=CDATA;
   if(cHourFilter!=='all'){
     var cutoff=Date.now()-parseInt(cHourFilter)*3600000;
-    rows=rows.filter(function(o){return addedAt(o,'at')>=cutoff});
+    rows=rows.filter(function(o){return new Date(reportTime(o,'at')).getTime()>=cutoff});
   }
   if(q)rows=rows.filter(function(o){return [o.playerName,o.playerHandle,o.schoolName,o.flipFromName,o.highSchool,o.state,o.position,o.conference].join(' ').toLowerCase().includes(q)});
   if(kind)rows=rows.filter(function(o){return o.kind===kind});
@@ -331,7 +324,7 @@ function renderCommits(){
   if(conf)rows=rows.filter(function(o){return o.conference===conf});
   if(school)rows=rows.filter(function(o){return o.schoolId===school});
   if(cur)rows=rows.filter(function(o){return o.current});
-  rows=rows.slice().sort(function(a,b){return newestAddedFirst(a,b,'at')});
+  rows=rows.slice().sort(function(a,b){return new Date(reportTime(b,'at'))-new Date(reportTime(a,'at'))});
 
   var html=rows.slice(0,5000).map(function(o){
     var ev=o.evidence||[],n=o.corroborations||1,verified=n>1;
@@ -348,7 +341,7 @@ function renderCommits(){
     if(o.highSchool)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.highSchool)+'</span>');
     if(o.state)metaParts.push('<span class="sep">&middot;</span><span class="r-hs">'+esc(o.state)+'</span>');
 
-    var evItems=ev.map(function(e){var a=e.attribution||{};var badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">'+esc(evidenceLabel(e))+'</a><span>'+reportedDate(e.postedAt,e)+'</span>'+badge+'<span>'+esc(e.voice||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
+    var evItems=ev.map(function(e){var a=e.attribution||{};var badge=a.schoolEvidenceType?'<span class="r-tier g5">'+esc(a.schoolEvidenceType.replace(/_/g,' '))+'</span>':'';return '<div class="evidence-item"><div class="ev-meta"><a href="'+esc(safeUrl(e.url))+'" target="_blank" rel="noopener">@'+esc(e.author)+'</a><span>'+ago(e.postedAt)+'</span>'+badge+'<span>'+esc(e.voice||'')+'</span></div><div class="ev-text">'+esc(e.text||'')+'</div></div>'}).join('');
     var bioLines='';
     if(p.bio)bioLines+='<div class="bio-line">Bio: '+esc(p.bio)+'</div>';
     if(p.gpa)bioLines+='<div class="bio-line">GPA: '+p.gpa+'</div>';
@@ -356,7 +349,7 @@ function renderCommits(){
     var flip=o.flipFromName?'<span class="r-flip">flip from '+esc(o.flipFromName)+'</span>':'';
     var kindBadge='<span class="r-kind '+(isCommit?'commit':'decommit')+'">'+(isCommit?'COMMIT':'DECOMMIT')+'</span>';
     var verb=isCommit?'':'<span class="r-conf">from</span>';
-    return '<div class="row'+((isCommit&&!o.current)?' old':'')+'" data-oid="'+oid+'" onclick="cToggle(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(o.at)+'">'+reportedDate(o.at,ev[0])+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+'</span></div><div class="r-sub">'+kindBadge+verb+'<span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span>'+flip+'<span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' item'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
+    return '<div class="row'+((isCommit&&!o.current)?' old':'')+'" data-oid="'+oid+'" onclick="cToggle(\''+oid+'\')"><div class="r-outer"><div class="r-main"><span class="r-time" title="'+esc(reportTimeTitle(o,'at'))+'">'+ago(reportTime(o,'at'))+'</span><span class="r-name">'+esc(o.playerName)+'<span class="cp" onclick="event.stopPropagation();copyText(\''+esc(o.playerName).replace(/'/g,"\\'")+'\')" title="Copy name">📋</span></span><span class="r-meta">'+metaParts.join('')+'</span></div><div class="r-sub">'+kindBadge+verb+'<span class="r-school"'+(tint?' style="color:'+tint+'"':'')+'>'+esc(o.schoolName)+'</span>'+(tier?' <span class="r-tier '+(tier==='P4'?'p4':'g5')+'">'+tier+'</span>':'')+'<span class="r-conf">'+esc(o.conference)+'</span>'+flip+'<span class="r-ver"><span class="vd '+(verified?'verified':'single')+'"></span><span>'+(verified?n+' sources':'single source')+'</span></span>'+(o.playerHandle?'<span class="r-src">@'+esc(o.playerHandle)+'</span>':'')+'</div></div><div class="r-detail"><h4>Evidence ('+ev.length+' post'+(ev.length!==1?'s':'')+')</h4>'+evItems+(bioLines?'<h4 style="margin-top:10px">Player Details</h4>'+bioLines:'')+'</div></div>';
   }).join('');
 
   $('clist').innerHTML=html||'<div class="empty">'+(CDATA.length?'No commitments match these filters.':'No commitments tracked yet.')+'</div>';
@@ -376,11 +369,10 @@ function setView(v){
 async function load(){
   try{
     var t=Date.now();
-    var dataRoot=['localhost','127.0.0.1'].includes(location.hostname)?'.':'https://raw.githubusercontent.com/bigWRguy/sandbox/main/site';
     var results=await Promise.all([
-      fetch(dataRoot+'/wire.json?t='+t,{cache:'no-store'}),
-      fetch(dataRoot+'/status.json?t='+t,{cache:'no-store'}),
-      fetch(dataRoot+'/commits.json?t='+t,{cache:'no-store'}).catch(function(){return null})
+      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/wire.json?t='+t,{cache:'no-store'}),
+      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/status.json?t='+t,{cache:'no-store'}),
+      fetch('https://raw.githubusercontent.com/bigWRguy/sandbox/main/site/commits.json?t='+t,{cache:'no-store'}).catch(function(){return null})
     ]);
     var wr=results[0],sr=results[1],cr=results[2];
     if(!wr.ok)throw new Error('wire '+wr.status);
