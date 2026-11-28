@@ -1,17 +1,5 @@
 {
   "seenPostIds": [
-    "2118349422589259778",
-    "2118348551784698013",
-    "2118346629778678034",
-    "2117093523325632923",
-    "2118348392376287340",
-    "2118347620821144058",
-    "2118346975061954562",
-    "2118346875484991961",
-    "2118346417345335305",
-    "2118346171718701410",
-    "2118346105221956086",
-    "2118345829392187853",
     "2118345539913744740",
     "2118345349282595101",
     "2118333340843475264",
@@ -59999,7 +59987,19 @@
     "2126677498024923553",
     "2126677491209400584",
     "2126677388687819120",
-    "2126675044281803018"
+    "2126675044281803018",
+    "2126694990269018384",
+    "2126694556796125262",
+    "2126690579614470457",
+    "2126690468511842412",
+    "2126690090906693846",
+    "2126695544022278349",
+    "2126691849444139519",
+    "2126690716852359381",
+    "2126688816429760716",
+    "2126686017973375397",
+    "2126685041145286785",
+    "2126681279294808104"
   ],
   "cursors": {
     "profile": 0
@@ -60018,10 +60018,10 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T14:12:01.865Z",
-      "got": 8,
-      "new": 8,
-      "lag": 0.03
+      "at": "2026-11-28T15:11:58.906Z",
+      "got": 17,
+      "new": 12,
+      "lag": 0
     }
   },
   "firstRunAt": "2026-08-27T16:41:04.652Z",
@@ -61811,34 +61811,35 @@
     "requests": 2
   },
   "lastAudit": {
-    "at": "2026-11-28T14:11:53.707Z",
+    "at": "2026-11-28T15:11:49.293Z",
     "mode": "public",
     "collection": {
-      "returned": 8,
-      "kept": 8,
-      "duplicate": 0,
+      "returned": 17,
+      "kept": 12,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 6,
+      "accepted": 1,
+      "rejected": 11,
       "reasons": {
-        "no_offer_term": 6
+        "non_fbs_offer_target": 4,
+        "no_offer_term": 7
       }
     },
     "extraction": {
-      "accepted": 4,
-      "rejected": 2,
+      "accepted": 1,
+      "rejected": 1,
       "reasons": {
-        "author_not_recruit:no recruit fields": 2
+        "author_not_recruit:no recruit fields": 1
       }
     },
     "publicRecruiting": {
-      "at": "2026-11-28T14:11:53.707Z",
-      "latestAt": "2026-11-28T14:10:20.000Z",
-      "records": 31,
+      "at": "2026-11-28T15:11:49.293Z",
+      "latestAt": "2026-11-28T15:11:44.000Z",
+      "records": 33,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
           "records": 167,
@@ -61846,7 +61847,7 @@
           "incompleteGroups": []
         },
         "https://profilefb.com/api/logos": {
-          "records": 405,
+          "records": 407,
           "unknownSchools": [
             "Alabama A&M",
             "Alcorn State",
@@ -61934,48 +61935,54 @@
           "error": "247Sports recruit list is missing"
         },
         "https://247sports.com/Season/2027-Football/Decommits/": {
-          "error": "247Sports recruit list is missing"
+          "records": 46,
+          "unknownSchools": [
+            "Chattanooga",
+            "Montana State"
+          ],
+          "incompleteGroups": []
         },
         "apify": {
-          "records": 8,
-          "from": "2026-11-28T13:10:13.992Z",
-          "to": "2026-11-28T14:11:53.707Z",
+          "records": 17,
+          "from": "2026-11-28T13:56:53.707Z",
+          "to": "2026-11-28T15:11:49.293Z",
           "cost": 0,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
           "used": 2550,
-          "at": "2026-11-28T14:11:53.707Z",
-          "through": "2026-11-28T14:11:53.707Z",
+          "at": "2026-11-28T15:11:49.293Z",
+          "through": "2026-11-28T15:11:49.293Z",
           "gaps": [],
           "expiredThrough": null
         }
       },
-      "newOffers": 4,
-      "newCommitEvents": 1
+      "newOffers": 1,
+      "newCommitEvents": 0
     },
     "commits": {
       "stats": {
-        "candidates": 17,
-        "accepted": 2,
+        "candidates": 16,
+        "accepted": 1,
         "rejected": 3,
         "reasons": {
-          "roundup_too_long": 2,
-          "no_commit_event": 1
+          "reporter_missing_player_name": 1,
+          "juco_or_transfer": 1,
+          "no_football_context": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 4,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 4
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 1,
+      "brandNewOffers": 1
     }
   },
   "migrationVersion": 3,
   "liveDeploymentAt": "2026-08-31T05:54:03.884Z",
   "lastDecisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 12,
+    "decided": 12,
     "complete": true
   },
   "backfillAnchorAt": "2026-08-30T04:51:01.000Z",
@@ -68234,27 +68241,31 @@
     "2126677498024923553",
     "2126677491209400584",
     "2126677388687819120",
-    "2126675044281803018"
+    "2126675044281803018",
+    "2126691849444139519",
+    "2126690716852359381",
+    "2126688816429760716",
+    "2126685041145286785"
   ],
   "apifySearch": {
-    "records": 8,
-    "from": "2026-11-28T13:10:13.992Z",
-    "to": "2026-11-28T14:11:53.707Z",
+    "records": 17,
+    "from": "2026-11-28T13:56:53.707Z",
+    "to": "2026-11-28T15:11:49.293Z",
     "cost": 0,
     "atLimit": false,
     "excludedRows": 0,
     "budgetDay": "2026-11-28",
     "used": 2550,
-    "at": "2026-11-28T14:11:53.707Z",
-    "through": "2026-11-28T14:11:53.707Z",
+    "at": "2026-11-28T15:11:49.293Z",
+    "through": "2026-11-28T15:11:49.293Z",
     "gaps": [],
     "expiredThrough": null
   },
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T14:11:53.707Z",
-    "latestAt": "2026-11-28T14:10:20.000Z",
-    "records": 31,
+    "at": "2026-11-28T15:11:49.293Z",
+    "latestAt": "2026-11-28T15:11:44.000Z",
+    "records": 33,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
         "records": 167,
@@ -68262,7 +68273,7 @@
         "incompleteGroups": []
       },
       "https://profilefb.com/api/logos": {
-        "records": 405,
+        "records": 407,
         "unknownSchools": [
           "Alabama A&M",
           "Alcorn State",
@@ -68350,24 +68361,29 @@
         "error": "247Sports recruit list is missing"
       },
       "https://247sports.com/Season/2027-Football/Decommits/": {
-        "error": "247Sports recruit list is missing"
+        "records": 46,
+        "unknownSchools": [
+          "Chattanooga",
+          "Montana State"
+        ],
+        "incompleteGroups": []
       },
       "apify": {
-        "records": 8,
-        "from": "2026-11-28T13:10:13.992Z",
-        "to": "2026-11-28T14:11:53.707Z",
+        "records": 17,
+        "from": "2026-11-28T13:56:53.707Z",
+        "to": "2026-11-28T15:11:49.293Z",
         "cost": 0,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
         "used": 2550,
-        "at": "2026-11-28T14:11:53.707Z",
-        "through": "2026-11-28T14:11:53.707Z",
+        "at": "2026-11-28T15:11:49.293Z",
+        "through": "2026-11-28T15:11:49.293Z",
         "gaps": [],
         "expiredThrough": null
       }
     },
-    "newOffers": 4,
-    "newCommitEvents": 1
+    "newOffers": 1,
+    "newCommitEvents": 0
   }
 }

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-28T14:12:02.272Z",
+  "generatedAt": "2026-11-28T15:11:59.464Z",
   "collectionMode": "public",
   "publicRecruiting": {
-    "at": "2026-11-28T14:11:53.707Z",
-    "latestAt": "2026-11-28T14:10:20.000Z",
-    "records": 31,
+    "at": "2026-11-28T15:11:49.293Z",
+    "latestAt": "2026-11-28T15:11:44.000Z",
+    "records": 33,
     "sources": {
       "https://sticktothemodel.com/college-recruiting/live": {
         "records": 167,
@@ -12,7 +12,7 @@
         "incompleteGroups": []
       },
       "https://profilefb.com/api/logos": {
-        "records": 405,
+        "records": 407,
         "unknownSchools": [
           "Alabama A&M",
           "Alcorn State",
@@ -100,25 +100,30 @@
         "error": "247Sports recruit list is missing"
       },
       "https://247sports.com/Season/2027-Football/Decommits/": {
-        "error": "247Sports recruit list is missing"
+        "records": 46,
+        "unknownSchools": [
+          "Chattanooga",
+          "Montana State"
+        ],
+        "incompleteGroups": []
       },
       "apify": {
-        "records": 8,
-        "from": "2026-11-28T13:10:13.992Z",
-        "to": "2026-11-28T14:11:53.707Z",
+        "records": 17,
+        "from": "2026-11-28T13:56:53.707Z",
+        "to": "2026-11-28T15:11:49.293Z",
         "cost": 0,
         "atLimit": false,
         "excludedRows": 0,
         "budgetDay": "2026-11-28",
         "used": 2550,
-        "at": "2026-11-28T14:11:53.707Z",
-        "through": "2026-11-28T14:11:53.707Z",
+        "at": "2026-11-28T15:11:49.293Z",
+        "through": "2026-11-28T15:11:49.293Z",
         "gaps": [],
         "expiredThrough": null
       }
     },
-    "newOffers": 4,
-    "newCommitEvents": 1
+    "newOffers": 1,
+    "newCommitEvents": 0
   },
   "searchCredentials": 0,
   "searchConfigured": true,
@@ -127,7 +132,7 @@
   "lastBlockedAt": "2026-10-28T12:01:49.197Z",
   "warmedUp": true,
   "searchCoverage": {
-    "at": "2026-11-28T14:11:53.707Z"
+    "at": "2026-11-28T15:11:49.293Z"
   },
   "backfillCoverage": {
     "at": "2026-08-31T10:07:06.083Z",
@@ -149,8 +154,8 @@
   "staleSchools": [],
   "liveStaleness": null,
   "decisionCoverage": {
-    "total": 8,
-    "decided": 8,
+    "total": 12,
+    "decided": 12,
     "complete": true
   },
   "pending": {
@@ -161,7 +166,7 @@
   },
   "paginationBacklog": 0,
   "quality": {
-    "completeOffers": 5343,
+    "completeOffers": 5344,
     "incompleteOffers": 0
   },
   "frozenProfiles": [],
@@ -179,41 +184,42 @@
       "lag": null
     },
     "apify:search": {
-      "at": "2026-11-28T14:12:01.865Z",
-      "got": 8,
-      "new": 8,
-      "lag": 0.03
+      "at": "2026-11-28T15:11:58.906Z",
+      "got": 17,
+      "new": 12,
+      "lag": 0
     }
   },
   "audit": {
-    "at": "2026-11-28T14:11:53.707Z",
+    "at": "2026-11-28T15:11:49.293Z",
     "mode": "public",
     "collection": {
-      "returned": 8,
-      "kept": 8,
-      "duplicate": 0,
+      "returned": 17,
+      "kept": 12,
+      "duplicate": 5,
       "tooOld": 0,
       "future": 0,
       "invalid": 0
     },
     "prefilter": {
-      "accepted": 2,
-      "rejected": 6,
+      "accepted": 1,
+      "rejected": 11,
       "reasons": {
-        "no_offer_term": 6
+        "non_fbs_offer_target": 4,
+        "no_offer_term": 7
       }
     },
     "extraction": {
-      "accepted": 4,
-      "rejected": 2,
+      "accepted": 1,
+      "rejected": 1,
       "reasons": {
-        "author_not_recruit:no recruit fields": 2
+        "author_not_recruit:no recruit fields": 1
       }
     },
     "publicRecruiting": {
-      "at": "2026-11-28T14:11:53.707Z",
-      "latestAt": "2026-11-28T14:10:20.000Z",
-      "records": 31,
+      "at": "2026-11-28T15:11:49.293Z",
+      "latestAt": "2026-11-28T15:11:44.000Z",
+      "records": 33,
       "sources": {
         "https://sticktothemodel.com/college-recruiting/live": {
           "records": 167,
@@ -221,7 +227,7 @@
           "incompleteGroups": []
         },
         "https://profilefb.com/api/logos": {
-          "records": 405,
+          "records": 407,
           "unknownSchools": [
             "Alabama A&M",
             "Alcorn State",
@@ -309,44 +315,50 @@
           "error": "247Sports recruit list is missing"
         },
         "https://247sports.com/Season/2027-Football/Decommits/": {
-          "error": "247Sports recruit list is missing"
+          "records": 46,
+          "unknownSchools": [
+            "Chattanooga",
+            "Montana State"
+          ],
+          "incompleteGroups": []
         },
         "apify": {
-          "records": 8,
-          "from": "2026-11-28T13:10:13.992Z",
-          "to": "2026-11-28T14:11:53.707Z",
+          "records": 17,
+          "from": "2026-11-28T13:56:53.707Z",
+          "to": "2026-11-28T15:11:49.293Z",
           "cost": 0,
           "atLimit": false,
           "excludedRows": 0,
           "budgetDay": "2026-11-28",
           "used": 2550,
-          "at": "2026-11-28T14:11:53.707Z",
-          "through": "2026-11-28T14:11:53.707Z",
+          "at": "2026-11-28T15:11:49.293Z",
+          "through": "2026-11-28T15:11:49.293Z",
           "gaps": [],
           "expiredThrough": null
         }
       },
-      "newOffers": 4,
-      "newCommitEvents": 1
+      "newOffers": 1,
+      "newCommitEvents": 0
     },
     "commits": {
       "stats": {
-        "candidates": 17,
-        "accepted": 2,
+        "candidates": 16,
+        "accepted": 1,
         "rejected": 3,
         "reasons": {
-          "roundup_too_long": 2,
-          "no_commit_event": 1
+          "reporter_missing_player_name": 1,
+          "juco_or_transfer": 1,
+          "no_football_context": 1
         }
       }
     },
     "outcome": {
-      "acceptedEvidence": 4,
-      "rejectedCandidates": 2,
-      "brandNewOffers": 4
+      "acceptedEvidence": 1,
+      "rejectedCandidates": 1,
+      "brandNewOffers": 1
     }
   },
   "log": [
-    "status rebuilt locally from current store on 2026-11-28T14:12:02.273Z"
+    "status rebuilt locally from current store on 2026-11-28T15:11:59.464Z"
   ]
 }
