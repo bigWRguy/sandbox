@@ -25,7 +25,7 @@ jobs:
           const read = (name) => JSON.parse(fs.readFileSync('data/' + name + '.json', 'utf8'));
           const players = new Map(read('players').map((p) => [p.id,p]));
           const legacy = [...read('offers'), ...read('commits')];
-          const hrs = ['2026-11-17T23:00:00Z','2026-11-19T00:00:00Z','2026-11-21T20:00:00Z'];
+          const hrs = ['2026-11-17T23:00:00Z','2026-11-19T00:00:00Z'];
           const key = (type, school, name, year) => [type, school, nameKey(name), year].join('|');
           for (const day of hrs) {
             const from = new Date(day), to = new Date(+from + 3600e3);
