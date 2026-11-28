@@ -22,7 +22,7 @@ for (const [name, id] of Object.entries({
   schoolByPublishedName.set(norm(name), byId.get(id));
 }
 
-function entry({ source, url, kind, school, name: rawName, classYear, position, state, reportedAt }, now) {
+function entry({ source, url, kind, school, name: rawName, classYear, position, state, reportedAt, publishedHandle }, now) {
   const graduationYear = now.getUTCFullYear() + Number(now.getUTCMonth() >= 6);
   const name = cleanPersonName(rawName);
   if (!name || classYear < graduationYear || classYear > graduationYear + 5) return null;
@@ -33,6 +33,7 @@ function entry({ source, url, kind, school, name: rawName, classYear, position, 
     post: { id, author: source, via: 'public recruiting feed', url, createdAt, datePrecision: 'day',
       text: `${name} ${KINDS[kind]} ${schoolName}.` },
     record: { kind, player_name: name, class_year: classYear, position: findPosition(position), state, school_id: school.id,
+      ...(publishedHandle ? { published_handle: publishedHandle } : {}),
       voice: 'recruiting feed', attribution: { schoolEvidenceType: 'published_recruiting_record', targetText: schoolName } },
   };
 }
@@ -171,6 +172,8 @@ export function parseProfileRecruiting(json, now = new Date()) {
     const classYear = Number(key.slice(6));
     for (const athlete of classRows) {
       if (typeof athlete?.name !== 'string' || !/^[A-Za-z0-9_-]+$/.test(athlete?.id || '')) continue;
+      const publishedHandle = typeof athlete.socialTag === 'string' && /^@?[a-z0-9_]{1,15}$/i.test(athlete.socialTag.trim())
+        ? athlete.socialTag.trim().replace(/^@/, '').toLowerCase() : null;
       const events = Object.entries(athlete.offerDates || {}).map(([school, date]) => ({ kind: 'offer', school, date }));
       if (athlete.commitment && !athlete.walkOn) events.push({ kind: 'commit', school: athlete.commitment, date: athlete.commitDate });
       for (const decommit of (Array.isArray(athlete.decommitLog) ? athlete.decommitLog : [])) {
@@ -184,7 +187,7 @@ export function parseProfileRecruiting(json, now = new Date()) {
         if (!school) { unknownSchools.add(label); continue; }
         const url = `${PROFILE_FB}/#recruit/${athlete.id}`;
         const event = entry({ source: 'Profile Recruiting', url, kind, school, name: athlete.name,
-          classYear, position: athlete.pos, state: athlete.state || null, reportedAt }, now);
+          classYear, position: athlete.pos, state: athlete.state || null, reportedAt, publishedHandle }, now);
         if (event) records.push(event);
       }
     }
@@ -212,7 +215,10 @@ export async function fetchPublicRecruiting(now = new Date(), fetchImpl = fetch)
     if (result.status === 'rejected') { health[url] = { error: result.reason.message }; continue; }
     const { records: sourceRecords, unknownSchools, incompleteGroups } = result.value;
     health[url] = { records: sourceRecords.length, unknownSchools, incompleteGroups };
-    for (const event of sourceRecords) if (!records.has(event.post.id)) records.set(event.post.id, event);
+    for (const event of sourceRecords) {
+      const previous = records.get(event.post.id);
+      if (!previous || !previous.record.published_handle && event.record.published_handle) records.set(event.post.id, event);
+    }
   }
   const latestAt = [...records.values()].reduce((latest, { post }) => post.createdAt > latest ? post.createdAt : latest, '');
   if (!records.size) throw new Error(`No recent FBS records from public recruiting sources: ${JSON.stringify(health)}`);

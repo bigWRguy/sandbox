@@ -39,9 +39,18 @@ export function ensurePlayer(db, rec, post, observedAt) {
   if (incoming.handle) player = db.players.find((p) => p.handle === incoming.handle) || null;
   if (!player && incoming.name) {
     const r = resolvePlayer(db._index, incoming, { exactName: externalRecord });
-    if (r.ambiguous) db.review.push({ at: observedAt, type: 'ambiguous_player', name: incoming.name, candidates: r.candidates, post: post.id });
-    if (externalRecord && r.ambiguous) return null;
     player = r.player;
+    if (r.ambiguous) {
+      if (externalRecord && rec.published_handle) {
+        const matches = db.players.filter((p) => p.handle === rec.published_handle &&
+          p.classYear === incoming.classYear && nameKey(p.name) === nameKey(incoming.name));
+        if (matches.length === 1) player = matches[0];
+      }
+      if (!player) {
+        db.review.push({ at: observedAt, type: 'ambiguous_player', name: incoming.name, candidates: r.candidates, post: post.id });
+        if (externalRecord) return null;
+      }
+    }
   }
   if (!player) {
     const identity = incoming.name || '@' + incoming.handle;

@@ -5,6 +5,8 @@ import { fetchPublicRecruiting, parse247Commitments, parseCommitOdds, parseProfi
 import { apifySearchWindow, apifySpend, collectApifyRecruiting, fetchApifyRecruiting } from '../src/collect/apify-recruiting.js';
 import { normalizeApifyPosts } from '../src/collect/apify-posts.js';
 import { commitSignals } from '../src/extract/commits.js';
+import { ensurePlayer } from '../src/resolve/ledger.js';
+import { indexPlayers } from '../src/resolve/players.js';
 import { focusedSearchInput, focusedSearchMatcher } from '../src/collect/focused-search.js';
 const p = (text, mentioned = []) => ({ text, mentioned });
 assert.deepEqual(commitSignals("@RecruitingNews Hasn't Jordan Example committed to Missouri for 2027?", 'reporter'), []);
@@ -38,7 +40,7 @@ assert.equal(publicOnly.health['https://commitodds.com/offers/'].error, 'HTTP 50
 await assert.rejects(fetchPublicRecruiting(jan, async () => new Response('', { status: 503 })), /No recent FBS records/);
 
 const profile = parseProfileRecruiting(JSON.stringify({ CLASS_2028: [{
-  id: 'TEST', name: 'Jordan Example', pos: 'QB',
+  id: 'TEST', name: 'Jordan Example', pos: 'QB', socialTag: '@JordanExample',
   offerDates: { 'Miami (OH)': '12.31.26', 'Miami (FL)': '1.1.27', Yale: '1.1.27', Texas: '1.4.27' },
   commitment: 'Miami (FL)', commitDate: '1.1.27',
   decommitLog: [{ school: 'Texas A&M', decommitDate: '2027-01-02' }],
@@ -48,6 +50,15 @@ assert.deepEqual(profile.records.map(({ record }) => [record.kind, record.school
 ]);
 assert.deepEqual(profile.unknownSchools, ['Yale']);
 assert.equal(profile.records[0].post.url, 'https://profilefb.com/#recruit/TEST');
+assert.equal(profile.records[0].record.published_handle, 'jordanexample');
+const twins = ['alternate', 'jordanexample'].map(handle => ({
+  id: handle, handle, name: 'Jordan Example', classYear: 2028, position: 'QB',
+}));
+const identityDb = { players: twins, _index: indexPlayers(twins), review: [], _new: [] };
+const { post: duplicateNamePost, record: duplicateNameRecord } = profile.records[0];
+assert.equal(ensurePlayer(identityDb, duplicateNameRecord, duplicateNamePost, jan)?.id, 'jordanexample');
+assert.equal(ensurePlayer(identityDb, { ...duplicateNameRecord, published_handle: 'unknown' }, duplicateNamePost, jan), null);
+assert.ok(twins.every(player => !player.published_handle));
 const cbsHtml = `<ul data-js="recruit-list"><li class="ri-page__list-item">
 <a class="ri-page__name-link" href="//247sports.com/Player/jordan-example-987/">Jordan Example</a>
 <span class="meta"> Decommitted: <b>1/1/2027</b> </span>
